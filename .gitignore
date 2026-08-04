@@ -1,0 +1,48 @@
+﻿.venv/
+.venv-crg/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.streamlit/
+
+# secrets
+.env
+.env.*
+!.env.example
+
+# local IDE / tools
+.cursor/
+.claude/
+.code-review-graph/
+.code-review-graphignore
+codegraph.html
+.mcp.json
+
+# runtime / generated data (large)
+output/
+logs/
+data/chrome-profile/
+data/batch.db
+data/batch.db-*
+data/company_cache/
+data/search_cache/
+data/*.db
+data/*.db-*
+data/*.sqlite
+data/*.sqlite-*
+
+# local reports / temp
+validation_report.txt
+comparison_report.md
+audit_companies_list.json
+*_cache/
+*.log
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store

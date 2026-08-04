@@ -1,0 +1,61 @@
+# =============================================================================
+# Vendor Intelligence Pipeline — Python dependencies
+# =============================================================================
+# Install (new machine):
+#   python -m venv .venv
+#   .venv\Scripts\python.exe -m pip install --upgrade pip
+#   .venv\Scripts\python.exe -m pip install -r requirements.txt
+#
+# Python: 3.11 or newer recommended
+#
+# NOT in this file (install separately on the machine):
+#   - Google Chrome (required when WEB_FETCH_ENABLED=true — company site scraping)
+#   - Docker + SearXNG image (optional backup search): docker run -d -p 8080:8080 searxng/searxng
+#   - .env file: copy .env.example to .env and add your LLM API key
+# =============================================================================
+
+# --- Streamlit UI (app.py) ---
+streamlit>=1.40.0
+pandas>=2.2.0
+
+# --- Core app & config ---
+python-dotenv>=1.0.0          # Load .env
+pydantic>=2.9.0               # Data models
+pydantic-settings>=2.6.0      # Settings from env + yaml
+PyYAML>=6.0.0                 # config/default.yaml
+
+# --- HTTP (LLM APIs, SearXNG, Wikidata, web fetch) ---
+httpx>=0.27.0
+tenacity>=8.2.0                # Retry/backoff for LLM 429/5xx (placeholders/llm.py)
+
+# --- CLI / API server (optional HTTP API) ---
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+
+# --- Free search (live discovery + validation) ---
+ddgs>=9.0.0                   # Web search via ddgs.text() / ddgs.news() only
+
+# --- News & activity (live) ---
+feedparser>=6.0.11            # Optional RSS feeds (RSS_FEED_URLS in .env)
+
+# --- Backend website scraping (Selenium + Chrome; WEB_FETCH_ENABLED=true) ---
+selenium>=4.25.0              # Google Chrome required on the host
+trafilatura>=1.12.0           # Extract text from rendered HTML
+lxml>=5.0.0                   # HTML parser (helps trafilatura on Windows)
+
+# --- Entity deduplication ---
+rapidfuzz>=3.10.0
+
+# --- smart_crawl (run_pipeline.py Phase 3 enrichment) ---
+openai>=1.0.0                  # LLM extraction inside crawler/smart_crawl.py
+scrapling>=0.4.0                 # AsyncFetcher / StealthyFetcher for smart_crawl
+python-docx
+openpyxl>=3.1.0                 # FMCG landscape Excel export
+
+# --- Optional: Neon / PostgreSQL data fetch (scripts/fetch_neon_db.py) ---
+psycopg[binary]>=3.2.0
+
+# --- Optional: Cursor SDK agent expand (run_cursor_expand.py) ---
+# Needs CURSOR_API_KEY in .env — https://cursor.com/dashboard
+cursor-sdk>=1.0.0
+

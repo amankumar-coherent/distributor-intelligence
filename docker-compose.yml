@@ -1,0 +1,66 @@
+# Optional SearXNG backup for Vendor Intelligence (live search).
+# Start: docker compose up -d
+# Test:  http://127.0.0.1:8080
+# Workers: latest image uses Granian (GRANIAN_WORKERS), not uWSGI.
+#
+# Batch-mode scale-out: searxng-2/searxng-3 are extra independent instances
+# (same read-only config, no shared state needed between them) so
+# search_router.py's SearXNG fallback has more than one local backend to
+# round-robin across under high concurrent-market load. Point the app at all
+# three with, in .env:
+#   SEARXNG_EXTRA_URLS=http://127.0.0.1:8081,http://127.0.0.1:8082
+# A single-market/interactive run is fine with just the default `searxng`
+# service — only start the extras for large batch runs.
+services:
+  searxng:
+    image: searxng/searxng:latest
+    container_name: vendor-intel-searxng
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./config/searxng:/etc/searxng:ro
+    environment:
+      - GRANIAN_WORKERS=5
+      - GRANIAN_THREADS=4
+      - GRANIAN_LOG_LEVEL=info
+    restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          memory: 2G
+
+  searxng-2:
+    image: searxng/searxng:latest
+    container_name: vendor-intel-searxng-2
+    profiles: ["batch-scale"]
+    ports:
+      - "8081:8080"
+    volumes:
+      - ./config/searxng:/etc/searxng:ro
+    environment:
+      - GRANIAN_WORKERS=5
+      - GRANIAN_THREADS=4
+      - GRANIAN_LOG_LEVEL=info
+    restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          memory: 2G
+
+  searxng-3:
+    image: searxng/searxng:latest
+    container_name: vendor-intel-searxng-3
+    profiles: ["batch-scale"]
+    ports:
+      - "8082:8080"
+    volumes:
+      - ./config/searxng:/etc/searxng:ro
+    environment:
+      - GRANIAN_WORKERS=5
+      - GRANIAN_THREADS=4
+      - GRANIAN_LOG_LEVEL=info
+    restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          memory: 2G

@@ -1,0 +1,101 @@
+# Curated Tier-1 anchors — injected as seeds before Phase 2 discovery.
+# Match is case-insensitive substring on market + query + industry terms.
+
+markets:
+  aluminium_cladding:
+    match_keywords:
+      - aluminium cladding
+      - aluminum cladding
+      - alucobond
+      - acp panel
+      - rainscreen
+      - curtain wall
+      - facade system
+      - façade
+      - composite panel
+      - building envelope
+    geographies:
+      europe:
+        match_keywords:
+          - europe
+          - eu
+          - emea
+          - european
+        tier1:
+          - canonical_name: Alucobond
+            primary_domain: alucobond.com
+            company_function: manufacturer
+            brand: Alucobond
+          - canonical_name: Reynobond
+            primary_domain: reynobond.com
+            company_function: manufacturer
+            brand: Reynobond
+          - canonical_name: ALPOLIC
+            primary_domain: alpolic.com
+            company_function: manufacturer
+            brand: ALPOLIC
+          - canonical_name: Kingspan
+            primary_domain: kingspan.com
+            company_function: manufacturer
+          - canonical_name: Schüco
+            primary_domain: schueco.com
+            company_function: manufacturer
+          - canonical_name: Reynaers Aluminium
+            primary_domain: reynaers.com
+            company_function: manufacturer
+          - canonical_name: Hydro Building Systems
+            primary_domain: hydro.com
+            company_function: manufacturer
+          - canonical_name: Permasteelisa
+            primary_domain: permasteelisa.com
+            company_function: integrator
+          - canonical_name: Aluprof
+            primary_domain: aluprof.eu
+            company_function: manufacturer
+
+  avocado_oil:
+    match_keywords:
+      - avocado oil
+      - avocado oils
+      - aceite de aguacate
+      - extra virgin avocado
+      - cold pressed avocado
+    geographies:
+      global:
+        match_keywords:
+          - global
+          - worldwide
+          - international
+        tier1:
+          - canonical_name: Chosen Foods
+            primary_domain: chosenfoods.com
+            company_function: manufacturer
+            brand: Chosen Foods
+          - canonical_name: Olivado
+            primary_domain: olivado.com
+            company_function: manufacturer
+            brand: Olivado
+          - canonical_name: La Tourangelle
+            primary_domain: latourangelle.com
+            company_function: manufacturer
+            brand: La Tourangelle
+          - canonical_name: Avocado Oil New Zealand
+            primary_domain: avocadooilnz.co.nz
+            company_function: manufacturer
+          - canonical_name: Mantova
+            primary_domain: mantovafood.com
+            company_function: manufacturer
+          - canonical_name: Primal Kitchen
+            primary_domain: primalkitchen.com
+            company_function: brand
+          - canonical_name: Spectrum Organics
+            primary_domain: spectrumorganics.com
+            company_function: brand
+          - canonical_name: Costco
+            primary_domain: costco.com
+            company_function: retailer
+            brand: Kirkland Signature
+          - canonical_name: Whole Foods Market
+            primary_domain: wholefoodsmarket.com
+            company_function: retailer
+            brand: 365 by Whole Foods
