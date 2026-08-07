@@ -347,6 +347,41 @@ async def execute_and_export_async(
         result["_docx_path"] = str(docx_path)
     except Exception as exc:
         print(f"  [pipeline] DOCX export failed: {exc}", flush=True)
+
+    # Channel-partner purity before Excel (wide discovery earlier; clean export here)
+    try:
+        from vendor_intel.intelligence.channel_purity import (
+            channel_purity_enabled,
+            filter_channel_pure_rows,
+        )
+        from vendor_intel.pipeline.web_expand import market_family as _market_family
+
+        if channel_purity_enabled():
+            family = _market_family(query)
+            before = list(result.get("relevant_companies") or [])
+            kept, dropped = filter_channel_pure_rows(
+                before, family=family, query=query
+            )
+            result["relevant_companies"] = kept
+            result["channel_purity"] = {
+                "before": len(before),
+                "kept": len(kept),
+                "dropped": len(dropped),
+                "dropped_sample": dropped[:50],
+            }
+            print(
+                f"  [pipeline] Channel purity: kept {len(kept)}/{len(before)} "
+                f"(dropped {len(dropped)} OEM/utility/non-channel)",
+                flush=True,
+            )
+            if dropped:
+                purity_path = market_dir / f"{slug}_channel_purity_dropped.json"
+                purity_path.write_text(
+                    json.dumps(dropped, indent=2, ensure_ascii=False), encoding="utf-8"
+                )
+    except Exception as exc:
+        print(f"  [pipeline] Channel purity skipped: {exc}", flush=True)
+
     if fmcg_xlsx:
         try:
             from vendor_intel.export.fmcg_landscape import export_fmcg_xlsx

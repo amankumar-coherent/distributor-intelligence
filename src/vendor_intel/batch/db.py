@@ -208,12 +208,22 @@ def upsert_market(
         conn.execute(
             """
             UPDATE markets SET
-                query = ?, country = ?, market_type = ?, sections_json = ?,
+                batch_id = ?, query = ?, country = ?, market_type = ?, sections_json = ?,
                 seeds_file = ?, profile = ?, cap = ?, priority = ?
             WHERE market_slug = ?
             """,
-            (query, country, market_type, sections_json, seeds_file, profile, cap,
-             priority, market_slug),
+            (
+                batch_id,
+                query,
+                country,
+                market_type,
+                sections_json,
+                seeds_file,
+                profile,
+                cap,
+                priority,
+                market_slug,
+            ),
         )
         return int(existing["id"]), False
 

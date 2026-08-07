@@ -618,6 +618,36 @@ async def run_post_market_pipeline(
                 flush=True,
             )
 
+    # Always-on channel purity (OEM blocklist + heuristics) — discovery stays wide
+    try:
+        from vendor_intel.intelligence.channel_purity import (
+            channel_purity_enabled,
+            filter_channel_pure_rows,
+        )
+        from vendor_intel.pipeline.web_expand import market_family as _mf
+
+        if channel_purity_enabled():
+            qctx = data.get("query_context") or {}
+            q = str(qctx.get("industry") or data.get("query") or "")
+            before = list(data.get("relevant_companies") or [])
+            kept, dropped = filter_channel_pure_rows(
+                before, family=_mf(q), query=q
+            )
+            if len(kept) != len(before):
+                data["relevant_companies"] = kept
+                _persist(data)
+                print(
+                    f"\n  [channel-purity] kept {len(kept)}/{len(before)} "
+                    f"(dropped {len(dropped)} OEM/utility/non-channel)",
+                    flush=True,
+                )
+                (market_dir / "channel_purity_dropped.json").write_text(
+                    json.dumps(dropped, indent=2, ensure_ascii=False), encoding="utf-8"
+                )
+    except Exception as exc:
+        print(f"  [channel-purity] skipped: {exc}", flush=True)
+
+    if channel_partner_mode_enabled(data.get("query_context") or {}):
         # (b) Verify channel-role evidence from each company's own website.
         if channel_evidence_verify and not _step_done(
             progress, "channel_evidence", resume=resume

@@ -36,27 +36,27 @@ _NPD = frozenset(
     }
 )
 
-# Columns worth spending OpenAI residual fill on (skip meta / channel Yes-No noise)
+# Columns worth spending OpenAI residual fill on (slim landscape only)
 _RESIDUAL_PRIORITY = (
     "Founded",
     "Headquarters",
-    "Cities / Regions",
+    "Continent / Geography",
+    "Operational Presence",
     "Ownership",
-    "Business Type",
     "Employees",
-    "Turnover / Scale",
     "Contact Person",
     "Role",
     "Email",
-    "Phone / WhatsApp",
+    "Office No.",
     "LinkedIn",
     "Website",
     "Core Categories",
     "Specialty Focus",
-    "Price Segment",
     "Key Brands Represented",
+    "Retail / E-commerce / Both",
     "Distribution Type",
-    "Regions Served",
+    "Country Code",
+    "Region Code",
     "Summary",
 )
 
@@ -123,9 +123,9 @@ def landscape_to_company(row: dict[str, str], *, market: str) -> dict[str, Any]:
 
     take("Founded", "founded_year")
     take("Headquarters", "headquarters")
-    take("Cities / Regions", "offices")
+    take("Operational Presence", "offices")
+    take("Continent / Geography", "regions_served")
     take("Employees", "employee_count")
-    take("Turnover / Scale", "revenue")
     take("LinkedIn", "linkedin")
     take("Core Categories", "core_categories")
     take("Specialty Focus", "specialty_focus")
@@ -133,7 +133,11 @@ def landscape_to_company(row: dict[str, str], *, market: str) -> dict[str, Any]:
     take("Contact Person", "contact_person")
     take("Role", "contact_role")
     take("Email", "email")
+    take("Office No.", "phone")
+    # Legacy aliases
+    take("Cities / Regions", "offices")
     take("Phone / WhatsApp", "phone")
+    take("Regions Served", "regions_served")
     if website:
         crawl["website"] = website
 
@@ -186,9 +190,9 @@ def company_to_landscape(
     mapping = {
         "Founded": crawl.get("founded_year"),
         "Headquarters": crawl.get("headquarters") or crawl.get("contact_address"),
-        "Cities / Regions": crawl.get("offices"),
+        "Operational Presence": crawl.get("offices") or crawl.get("operational_presence"),
+        "Continent / Geography": crawl.get("regions_served"),
         "Employees": crawl.get("employee_count"),
-        "Turnover / Scale": crawl.get("revenue"),
         "LinkedIn": crawl.get("linkedin"),
         "Core Categories": crawl.get("core_categories"),
         "Specialty Focus": crawl.get("specialty_focus"),
@@ -196,7 +200,7 @@ def company_to_landscape(
         "Contact Person": crawl.get("contact_person"),
         "Role": crawl.get("contact_role"),
         "Email": crawl.get("email"),
-        "Phone / WhatsApp": crawl.get("phone"),
+        "Office No.": crawl.get("phone"),
         "Website": website or crawl.get("website"),
     }
     for h, val in mapping.items():
@@ -209,12 +213,17 @@ def company_to_landscape(
         if h in HEADERS and (_is_npd(out.get(h)) or not str(out.get(h) or "").strip()):
             out[h] = dv
 
-    for c in ("Email", "Phone / WhatsApp", "LinkedIn", "Contact Person", "Role"):
-        if _is_npd(out.get(c)) or not str(out.get(c) or "").strip():
-            out[c] = "Not publicly disclosed"
+    # Contacts stay empty when unknown (do not invent / do not write NPD)
+    _contact = ("Email", "Office No.", "LinkedIn", "Contact Person", "Role")
+    for c in _contact:
+        if _is_npd(out.get(c)):
+            out[c] = ""
     for h in HEADERS:
         if not str(out.get(h) or "").strip():
-            out[h] = "Not publicly disclosed"
+            if h in _contact or h in ("Country Code", "Region Code"):
+                out[h] = out.get(h) or ""
+            else:
+                out[h] = "Not publicly disclosed"
     src = out.get("Data Sources") or ""
     if source not in src:
         out["Data Sources"] = f"{src}; {source}".strip("; ")
@@ -225,6 +234,12 @@ def company_to_landscape(
             + ("+Apollo" if "apollo" in source else "")
             + "."
         )
+    try:
+        from vendor_intel.export.landscape_slim import finalize_slim_row
+
+        out = finalize_slim_row(out)
+    except Exception:
+        pass
     return out
 
 
@@ -498,8 +513,8 @@ async def search_stack_fill_rows(
                             crawl["contact_role"] = hit["Role"]
                         if hit.get("Email"):
                             crawl["email"] = hit["Email"]
-                        if hit.get("Phone / WhatsApp"):
-                            crawl["phone"] = hit["Phone / WhatsApp"]
+                        if hit.get("Office No.") or hit.get("Phone / WhatsApp"):
+                            crawl["phone"] = hit.get("Office No.") or hit["Phone / WhatsApp"]
                         if hit.get("_person_linkedin") and not crawl.get("linkedin"):
                             crawl["linkedin"] = hit["_person_linkedin"]
                         _log("      · apollo contact applied")

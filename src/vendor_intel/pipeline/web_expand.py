@@ -16,53 +16,28 @@ from openpyxl import Workbook, load_workbook
 from openpyxl.styles import Alignment, Border, Font, PatternFill, Side
 from openpyxl.utils import get_column_letter
 
-HEADERS = [
-    "Company",
-    "Founded",
-    "Headquarters",
-    "Cities / Regions",
-    "Ownership",
-    "Business Type",
-    "Employees",
-    "Turnover / Scale",
-    "Contact Person",
-    "Role",
-    "Email",
-    "Phone / WhatsApp",
-    "LinkedIn",
-    "Website",
-    "Core Categories",
-    "Specialty Focus",
-    "Price Segment",
-    "Key Brands Represented",
-    "Exclusivity",
-    "Partnership Duration",
-    "Retail Chains",
-    "Specialty Grocers",
-    "Foodservice / HoReCa",
-    "E-commerce",
-    "Channel Strength",
-    "Distribution Type",
-    "Regions Served",
-    "Regional Extensions",
-    "Warehouse / Logistics",
-    "Delivery / Storage",
-    "Competitive Benchmark",
-    "Data Confidence",
-    "Quality Score",
-    "Data Sources",
-    "Summary",
-]
+from vendor_intel.export.landscape_slim import SLIM_COLUMNS
+
+HEADERS = list(SLIM_COLUMNS)
 
 WIDTHS = {
     "Company": 28,
-    "Headquarters": 22,
+    "Website": 26,
+    "Headquarters": 26,
+    "Continent / Geography": 36,
+    "Operational Presence": 28,
     "Key Brands Represented": 32,
     "Specialty Focus": 28,
     "Core Categories": 28,
-    "Summary": 36,
-    "Website": 24,
-    "Regions Served": 22,
+    "Summary": 42,
+    "Retail / E-commerce / Both": 18,
+    "Distribution Type": 20,
+    "Contact Person": 18,
+    "Email": 24,
+    "LinkedIn": 26,
+    "Office No.": 14,
+    "Country Code": 10,
+    "Region Code": 10,
 }
 
 GEO_POOL = [
@@ -140,49 +115,37 @@ MARKET_DEFAULTS: dict[str, dict[str, str]] = {
     "avocado": {
         "Core Categories": "Avocado Oil; Edible Oils; Specialty Oils",
         "Specialty Focus": "Avocado oil distribution / wholesale / retail channel",
-        "Price Segment": "Specialty / Mid-to-Premium",
         "Key Brands Represented": "Private label; Regional avocado oil brands",
-        "Business Type": "Distributor",
         "Distribution Type": "Broadline Distributor",
-        "Retail Chains": "Yes",
-        "Specialty Grocers": "Yes",
-        "Foodservice / HoReCa": "Yes",
+        "Retail / E-commerce / Both": "Both",
     },
     "firewall": {
         "Core Categories": "Network Firewalls; NGFW; SASE; Secure SD-WAN; Cybersecurity",
         "Specialty Focus": "Network security and firewall channel distribution",
-        "Price Segment": "Enterprise / Commercial",
         "Key Brands Represented": "Cisco; Fortinet; Palo Alto Networks; Check Point; Sophos",
-        "Business Type": "Distributor",
-        "Distribution Type": "Broadline Distributor",
-        "Retail Chains": "No",
+        "Distribution Type": "Value-Added Distributor",
+        "Retail / E-commerce / Both": "No",
     },
     "smartwatch": {
         "Core Categories": "Smartwatches; Wearables; Fitness Trackers; Connected Devices",
         "Specialty Focus": "Smartwatch and wearable device channel distribution / retail",
-        "Price Segment": "Full range (Entry–Premium)",
         "Key Brands Represented": "Apple Watch; Samsung Galaxy Watch; Garmin; Fitbit; Amazfit",
-        "Business Type": "Distributor",
         "Distribution Type": "Broadline Distributor",
-        "Retail Chains": "No",
+        "Retail / E-commerce / Both": "Both",
     },
     "green": {
         "Core Categories": "Bio-based Chemicals; Green Solvents; Specialty Ingredients; Sustainable Polymers",
         "Specialty Focus": "Green and specialty chemical distribution",
-        "Price Segment": "Specialty / Mid-to-Premium",
         "Key Brands Represented": "Bio-based solvents; Green surfactants; Specialty additives",
-        "Business Type": "Distributor",
-        "Distribution Type": "Broadline Distributor",
-        "Retail Chains": "No",
+        "Distribution Type": "Specialty Distributor",
+        "Retail / E-commerce / Both": "No",
     },
     "general": {
         "Core Categories": "Not publicly disclosed",
         "Specialty Focus": "Channel / distribution for this market",
-        "Price Segment": "Not publicly disclosed",
         "Key Brands Represented": "Not publicly disclosed",
-        "Business Type": "Distributor",
-        "Distribution Type": "Broadline Distributor",
-        "Retail Chains": "Not publicly disclosed",
+        "Distribution Type": "Distributor",
+        "Retail / E-commerce / Both": "No",
     },
 }
 
@@ -212,6 +175,19 @@ def market_family(query: str, family: str | None = None) -> str:
         return "avocado"
     if "green chemical" in q or "bio-based chemical" in q or "sustainable chem" in q:
         return "green"
+    if any(
+        t in q
+        for t in (
+            "renewable",
+            "solar",
+            "photovoltaic",
+            "wind energy",
+            "wind turbine",
+            "energy storage",
+            "inverter",
+        )
+    ):
+        return "renewable"
     return "general"
 
 
@@ -371,38 +347,30 @@ async def web_harvest_candidates(
 
 
 def _blank_row(name: str, website: str, family: str, source: str) -> dict[str, str]:
+    from vendor_intel.export.landscape_slim import (
+        country_and_region_codes,
+        format_continent_geography,
+        operational_presence_text,
+    )
+
     d = MARKET_DEFAULTS.get(family, MARKET_DEFAULTS["general"]).copy()
     row = {h: "" for h in HEADERS}
     row.update(d)
     row["Company"] = name
-    row["Website"] = website
+    row["Website"] = website or ""
     row["Founded"] = "Not publicly disclosed"
     row["Headquarters"] = "Not publicly disclosed"
-    row["Cities / Regions"] = "Not publicly disclosed"
     row["Ownership"] = "Not publicly disclosed"
     row["Employees"] = "Not publicly disclosed"
-    row["Turnover / Scale"] = "Not publicly disclosed"
-    for c in ("Contact Person", "Role", "Email", "Phone / WhatsApp", "LinkedIn"):
-        row[c] = "Not publicly disclosed"
-    row["Exclusivity"] = "Not publicly disclosed"
-    row["Partnership Duration"] = "Not publicly disclosed"
-    if family == "avocado":
-        row["Specialty Grocers"] = d.get("Specialty Grocers", "Yes")
-        row["Foodservice / HoReCa"] = d.get("Foodservice / HoReCa", "Yes")
-    else:
-        row["Specialty Grocers"] = "Not applicable"
-        row["Foodservice / HoReCa"] = "Not applicable"
-    row["E-commerce"] = "Yes"
-    row["Channel Strength"] = "3"
-    row["Regions Served"] = "Regional"
-    row["Regional Extensions"] = "Not publicly disclosed"
-    row["Warehouse / Logistics"] = "Yes"
-    row["Delivery / Storage"] = "Yes"
-    row["Competitive Benchmark"] = "Mid-tier"
-    row["Data Confidence"] = "Medium"
-    row["Quality Score"] = "3"
-    row["Data Sources"] = source
-    row["Summary"] = f"{name} — channel company discovered via web search for this market."
+    # Contact / office stay empty unless later filled with evidence
+    for c in ("Contact Person", "Role", "Email", "LinkedIn", "Office No."):
+        row[c] = ""
+    row["Continent / Geography"] = ""
+    row["Operational Presence"] = ""
+    row["Country Code"] = ""
+    row["Region Code"] = ""
+    row["Summary"] = f"{name} — channel participant ({source})."
+    row["Data Sources"] = source  # not exported in slim; kept for internal merges
     return row
 
 
@@ -484,7 +452,17 @@ def merge_candidates(
         for geo in GEO_POOL:
             if geo.lower() in sq.lower():
                 row["Headquarters"] = geo
-                row["Regions Served"] = geo
+                from vendor_intel.export.landscape_slim import (
+                    country_and_region_codes,
+                    format_continent_geography,
+                    operational_presence_text,
+                )
+
+                row["Continent / Geography"] = format_continent_geography([geo])
+                row["Operational Presence"] = operational_presence_text(geo)
+                cc, rc = country_and_region_codes(geo)
+                row["Country Code"] = cc
+                row["Region Code"] = rc
                 break
         by_name[n] = row
         if d:
@@ -530,14 +508,10 @@ def write_final_xlsx(
 
     center_cols = {
         "Founded",
-        "Channel Strength",
-        "Quality Score",
-        "Retail Chains",
-        "Specialty Grocers",
-        "Foodservice / HoReCa",
-        "E-commerce",
-        "Competitive Benchmark",
-        "Data Confidence",
+        "Retail / E-commerce / Both",
+        "Country Code",
+        "Region Code",
+        "Office No.",
     }
 
     for row in rows:

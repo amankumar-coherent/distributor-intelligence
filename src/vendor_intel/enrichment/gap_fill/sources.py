@@ -101,7 +101,6 @@ async def fill_from_google_ai_scraper(row: dict[str, Any]) -> list[str]:
     )
     from vendor_intel.enrichment.gap_fill.gaps import (
         domain_from_row,
-        has_contact_person,
         has_core_categories,
         has_founded,
         has_headquarters,
@@ -119,6 +118,7 @@ async def fill_from_google_ai_scraper(row: dict[str, Any]) -> list[str]:
 
     gaps = missing_fields(row)
     # Always try google_ai when any landscape firmographic/category gap remains
+    # (contacts intentionally excluded — filled later via Apollo/LinkedIn only)
     needed = [
         g
         for g in gaps
@@ -132,8 +132,6 @@ async def fill_from_google_ai_scraper(row: dict[str, Any]) -> list[str]:
             "core_categories",
             "specialty_focus",
             "key_brands_represented",
-            "contact_person",
-            "linkedin",
         }
     ]
     if not needed:
@@ -149,20 +147,13 @@ async def fill_from_google_ai_scraper(row: dict[str, Any]) -> list[str]:
 
     from vendor_intel.enrichment.gap_fill.search_queries import build_gap_fill_queries
 
+    # One Google query per missing fact (e.g. "{company} founded year").
     query_parts = build_gap_fill_queries(
         company,
         domain=domain,
         market=market,
-        need_firmographics=any(
-            g in needed
-            for g in ("founded_year", "headquarters", "offices", "employee_count", "revenue")
-        ),
-        need_categories=any(
-            g in needed
-            for g in ("core_categories", "specialty_focus", "key_brands_represented")
-        ),
-        need_contact="contact_person" in needed,
-        max_queries=3,
+        needed_fields=needed,
+        max_queries=6,
     )
     if not query_parts:
         return []
@@ -204,9 +195,8 @@ async def fill_from_google_ai_scraper(row: dict[str, Any]) -> list[str]:
         hint_bits.append("specialty focus")
     if not has_key_brands(row):
         hint_bits.append("key brands represented")
-    if not has_contact_person(row):
-        hint_bits.append("CEO/founder contact person name + role")
-    fields_hint = "Fill: " + ", ".join(hint_bits) + "."
+    # Contact person intentionally omitted from Google AI extract hints
+    fields_hint = "Fill: " + ", ".join(hint_bits) + "." if hint_bits else "Fill firmographic facts."
 
     extracted = await _llm_extract(
         company,

@@ -74,7 +74,16 @@ ROLE_HINTS = {
     "firewall": "distributors, VADs, resellers, MSSPs, system integrators, channel partners for firewalls / network security (NOT the OEM vendors themselves)",
     "smartwatch": "distributors, wholesalers, electronics retailers, channel partners for smartwatches / wearables (NOT Apple/Samsung/Garmin as OEMs)",
     "green": "specialty chemical distributors / ingredients distributors for green / bio-based chemicals (NOT pure petrochem manufacturers)",
-    "general": "distributors, wholesalers, channel partners, retailers relevant to the market",
+    "renewable": (
+        "distributors, wholesalers, dealers, importers, EPCs/system integrators, "
+        "authorized channel partners for solar/wind/storage "
+        "(NOT module/inverter/turbine OEMs; NOT utilities/IPPs/developers as primary)"
+    ),
+    "general": (
+        "distributors, wholesalers, channel partners, VADs, resellers, dealers, "
+        "system integrators relevant to the market "
+        "(NOT pure OEMs/manufacturers; NOT media/associations)"
+    ),
 }
 
 
@@ -377,19 +386,19 @@ _FACT_COLUMNS = frozenset(
     {
         "Founded",
         "Headquarters",
-        "Cities / Regions",
+        "Continent / Geography",
+        "Operational Presence",
         "Ownership",
         "Employees",
-        "Turnover / Scale",
         "Website",
         "Key Brands Represented",
         "Contact Person",
         "Role",
         "Email",
-        "Phone / WhatsApp",
         "LinkedIn",
-        "Exclusivity",
-        "Partnership Duration",
+        "Office No.",
+        "Country Code",
+        "Region Code",
     }
 )
 
@@ -423,15 +432,26 @@ def _ensure_complete_row(
     source: str,
     real_facts_only: bool = True,
 ) -> dict[str, str]:
-    """Guarantee every landscape column has a non-empty value.
+    """Guarantee every landscape column has a value (contacts may stay empty)."""
+    from vendor_intel.export.landscape_slim import finalize_slim_row
 
-    When ``real_facts_only``, firmographic fields stay \"Not publicly disclosed\"
-    instead of invented years/HQ/generic brand lists.
-    """
     base = _blank_row(name, website, family, source)
     if real_facts_only:
         for h in _FACT_COLUMNS:
-            base[h] = "Not publicly disclosed"
+            if h in {
+                "Contact Person",
+                "Role",
+                "Email",
+                "LinkedIn",
+                "Office No.",
+                "Country Code",
+                "Region Code",
+                "Continent / Geography",
+                "Operational Presence",
+            }:
+                base[h] = ""
+            else:
+                base[h] = "Not publicly disclosed"
         if website:
             base["Website"] = website
     out = dict(base)
@@ -443,6 +463,14 @@ def _ensure_complete_row(
             val = ""
         if val:
             out[h] = val
+    # Legacy column aliases from older fills
+    if not out.get("Office No.") and row.get("Phone / WhatsApp"):
+        out["Office No."] = str(row.get("Phone / WhatsApp") or "").strip()
+    if not out.get("Continent / Geography") and row.get("Regions Served"):
+        out["Continent / Geography"] = str(row.get("Regions Served") or "")
+    if not out.get("Operational Presence") and row.get("Cities / Regions"):
+        out["Operational Presence"] = str(row.get("Cities / Regions") or "")
+
     out["Company"] = name or out.get("Company") or "Unknown"
     if website and (
         not out.get("Website")
@@ -450,19 +478,26 @@ def _ensure_complete_row(
         or out.get("Website") == "Not publicly disclosed"
     ):
         out["Website"] = website
-    for c in ("Email", "Phone / WhatsApp", "LinkedIn", "Contact Person", "Role"):
-        if not out.get(c) or str(out.get(c)).lower() in _EMPTYISH:
-            out[c] = "Not publicly disclosed"
-    if family != "avocado":
-        out["Specialty Grocers"] = "Not applicable"
-        out["Foodservice / HoReCa"] = "Not applicable"
+
+    # Contacts stay empty unless we have evidence (do not invent)
+    for c in ("Contact Person", "Role", "Email", "LinkedIn", "Office No."):
+        if not out.get(c) or str(out.get(c)).lower() in _EMPTYISH or str(out.get(c)).lower() == "not publicly disclosed":
+            # keep whatever evidence was set above; else blank
+            if str(out.get(c) or "").lower() in _EMPTYISH or str(out.get(c) or "").lower() == "not publicly disclosed":
+                if c not in row or not str(row.get(c) or "").strip() or str(row.get(c)).lower() in _EMPTYISH:
+                    out[c] = ""
+
     for h in HEADERS:
         if not str(out.get(h) or "").strip():
-            if real_facts_only and h in _FACT_COLUMNS:
+            if h in {"Contact Person", "Role", "Email", "LinkedIn", "Office No.", "Country Code", "Region Code"}:
+                out[h] = out.get(h) or ""
+            elif real_facts_only and h in _FACT_COLUMNS:
                 out[h] = "Not publicly disclosed"
             else:
-                out[h] = base.get(h) or "Not publicly disclosed"
-    # Confidence: High only if real HQ or Founded or real website present
+                out[h] = base.get(h) or ""
+
+    out = finalize_slim_row(out)
+    # Soft confidence signals kept for internal merges (not in slim Excel)
     founded = str(out.get("Founded") or "")
     hq = str(out.get("Headquarters") or "")
     web = str(out.get("Website") or "")
@@ -499,15 +534,20 @@ async def _local_web_evidence(name: str, website: str, market: str) -> str:
         from vendor_intel.clients.search_router import FreeSearchRouter
 
         router = FreeSearchRouter(Settings())
+        # One fact per Google/DDGS query (same style as Google AI scraper gap-fill)
         queries = [
-            f"{name} headquarters founded year",
-            f"{name} official website about",
-            f"{name} {market} distributor brands",
+            f'"{name}" founded year' if " " in name else f"{name} founded year",
+            f'"{name}" headquarters' if " " in name else f"{name} headquarters",
+            f'"{name}" number of employees' if " " in name else f"{name} number of employees",
+            f'"{name}" official website' if " " in name else f"{name} official website",
+            f'"{name}" {market} brands distributors' if " " in name else f"{name} {market} brands distributors",
         ]
         if website:
-            queries.append(f"site:{website.replace('https://', '').replace('http://', '').split('/')[0]} about")
+            queries.append(
+                f"site:{website.replace('https://', '').replace('http://', '').split('/')[0]} about"
+            )
         bits: list[str] = []
-        for q in queries[:3]:
+        for q in queries[:4]:
             try:
                 hits = await router.search(q, search_topic="general", validation_mode=True)
             except Exception:
@@ -921,9 +961,15 @@ def gpt_verify_market(
             client,
             model,
             system=(
-                f"You verify whether each company belongs in the market landscape. "
+                f"You verify whether each company belongs in the CHANNEL landscape. "
                 f"Valid roles: {roles}. "
-                "Reject unrelated companies, OEMs-only, media, and false positives. "
+                "KEEP: distributors, wholesalers, dealers, VADs, resellers, importers, "
+                "system integrators, authorized channel partners. "
+                "REJECT: pure OEMs/manufacturers (even if they also sell direct), "
+                "utilities/IPPs/project developers as primary business, media, "
+                "associations, and unrelated companies. "
+                "When unsure but clearly a channel/distributor, keep=true. "
+                "When clearly an OEM brand, related=false. "
                 "Return compact JSON: {\"results\":[{\"name\":\"...\",\"related\":true|false,"
                 "\"confidence\":0-100,\"reason\":\"...\"}]}"
             ),
@@ -1017,7 +1063,6 @@ async def gpt_fill_rows(
 
     from vendor_intel.pipeline.openai_fill_enrich import enrich_row_linkedin_apollo
 
-    fmcg = family == "avocado"
     # Hosted web_search = 1 company/call; DeepSeek chat batches more efficiently
     use_hosted_web = bool(web_fill) and _supports_hosted_web_search()
     chunk_size = 1 if use_hosted_web else 4
@@ -1055,31 +1100,29 @@ async def gpt_fill_rows(
         return filled
     total_chunks = (len(rows) + chunk_size - 1) // chunk_size or 1
     already_done = len(filled)
-    fmcg_rule = (
-        "For avocado/edible-oil markets, Specialty Grocers and Foodservice / HoReCa "
-        "may be Yes/No only if web evidence supports it; else Not publicly disclosed."
-        if fmcg
-        else 'Specialty Grocers and Foodservice / HoReCa must be "Not applicable".'
-    )
     system = (
         "You are a strict vendor-intelligence researcher. "
         "Use LIVE WEB SEARCH. Prefer official company websites, LinkedIn company pages, "
         "reputable directories, and news. "
         "REAL-DATA RULES (critical):\n"
-        "1) Founded, Headquarters, Cities/Regions, Ownership, Employees, Turnover/Scale, "
-        "Website, Key Brands Represented — ONLY values you can support from web results. "
-        "If not found, use exactly \"Not publicly disclosed\". NEVER invent a year, city, "
-        "or brand list.\n"
-        "2) Key Brands Represented = brands THIS company actually sells/distributes "
+        "1) Founded, Headquarters, Ownership, Employees, Website, Key Brands Represented, "
+        "Continent / Geography, Operational Presence — ONLY values you can support from "
+        "web results. If not found, use exactly \"Not publicly disclosed\". NEVER invent "
+        "a year, city, or brand list.\n"
+        "2) Continent / Geography = markets served, prefer REGION(Country[, Country…]) "
+        "e.g. APAC(India, Singapore); EU(Germany). "
+        "Operational Presence = physical footprint countries (HQ/offices/plants) as "
+        "Country; Country.\n"
+        "3) Key Brands Represented = brands THIS company actually sells/distributes "
         "(from their site or reliable listing). Do NOT paste generic market brand lists.\n"
-        "3) Do NOT invent personal emails, phones, or personal LinkedIn URLs.\n"
-        "4) Run multiple searches: \"{Company} founded\", \"{Company} headquarters\", "
+        "4) Contact Person, Role, Email, LinkedIn, Office No. — leave EMPTY string if "
+        "not evidenced. Do NOT invent personal emails, phones, or LinkedIn URLs.\n"
+        "5) Country Code = ISO2 from HQ (e.g. IN). Region Code = NA|EU|ME|AF|LATAM|APAC.\n"
+        "6) Retail / E-commerce / Both = Retail | E-commerce | Both | No when evidenced.\n"
+        "7) Run multiple searches: \"{Company} founded\", \"{Company} headquarters\", "
         "\"{Company} official website\", \"{Company} brands / products\".\n"
-        "5) Data Sources must list short source notes / domains you used.\n"
-        "6) Data Confidence = High only if at least Founded OR Headquarters OR official "
-        "Website is confirmed from web; else Medium/Low.\n"
-        f"{fmcg_rule} "
-        "Every row MUST include ALL keys (use Not publicly disclosed when unknown). "
+        "Every row MUST include ALL keys (empty string for unknown contacts; "
+        "Not publicly disclosed for other unknown facts). "
         f"Required keys exactly: {json.dumps(HEADERS)}. "
         "Summary must state how the company relates to the market using web evidence. "
         'Return JSON: {"rows":[{...one object per company...}]}'
@@ -1102,7 +1145,7 @@ async def gpt_fill_rows(
                     "Company": cname,
                     "Website": cweb,
                     "Headquarters": r.get("Headquarters") or "",
-                    "Business Type": r.get("Business Type") or r.get("snippet"),
+                    "Distribution Type": r.get("Distribution Type") or r.get("snippet"),
                     "why_related": r.get("verify_reason") or r.get("snippet"),
                     "relevance": r.get("relevance") or r.get("verify_confidence"),
                 }
@@ -1114,9 +1157,11 @@ async def gpt_fill_rows(
                     _log(f"      · local SERP evidence: {len(ev.splitlines())} hits")
         user = (
             f"Market: {query}\n"
-            "Web-search each company and fill a COMPLETE 35-column row.\n"
-            "FACT fields (Founded, Headquarters, Key Brands Represented, etc.) must be "
-            "REAL from the web or \"Not publicly disclosed\" — never guessed.\n"
+            f"Web-search each company and fill a COMPLETE {len(HEADERS)}-column row "
+            "(slim landscape schema).\n"
+            "FACT fields (Founded, Headquarters, Key Brands Represented, Continent / "
+            "Geography, Operational Presence, etc.) must be REAL from the web or "
+            "\"Not publicly disclosed\" — never guessed. Contacts stay empty if unknown.\n"
             f"Companies:\n{json.dumps(slim, ensure_ascii=False)}\n"
         )
         if evidence_blocks:
@@ -1358,7 +1403,7 @@ def gpt_final_verify_rows(
             {
                 "Company": r.get("Company"),
                 "Website": r.get("Website"),
-                "Business Type": r.get("Business Type"),
+                "Distribution Type": r.get("Distribution Type"),
                 "Core Categories": r.get("Core Categories"),
                 "Specialty Focus": r.get("Specialty Focus"),
                 "Summary": (r.get("Summary") or "")[:180],
@@ -1369,8 +1414,11 @@ def gpt_final_verify_rows(
             client,
             model,
             system=(
-                f"Final QA for market landscape. Valid roles: {roles}. "
-                "Drop rows not related to the market. "
+                f"Final QA for CHANNEL landscape. Valid roles: {roles}. "
+                "KEEP only distributors / wholesalers / dealers / VADs / resellers / "
+                "importers / system integrators / channel partners. "
+                "DROP pure OEMs/manufacturers, utilities/IPPs/developers-as-primary, "
+                "and rows not related to the market. "
                 "Return compact JSON: {\"results\":[{\"Company\":\"...\",\"keep\":true|false,"
                 "\"reason\":\"...\"}]}"
             ),
@@ -1444,7 +1492,7 @@ def _as_landscape_rows(
             "",
         }:
             row["Headquarters"] = c["source_query"]
-            row["Regions Served"] = c["source_query"]
+            row["Continent / Geography"] = c["source_query"]
         if c.get("snippet"):
             row["Specialty Focus"] = c["snippet"][:180]
         rows.append(row)
@@ -1486,6 +1534,16 @@ async def run_chatgpt_expand(
     family = market_family(query, family=family)
 
     # DeepSeek-efficient defaults (OpenAI-compatible chat; live web via free search stack)
+    # EXPAND_SKIP_DDGS_HARVEST=1 or ddgs_harvest=False with skip env → never force Step 3.
+    skip_ddgs = (os.getenv("EXPAND_SKIP_DDGS_HARVEST") or "").strip().lower() in (
+        "1",
+        "true",
+        "yes",
+        "on",
+    )
+    if skip_ddgs:
+        ddgs_harvest = False
+
     if _is_deepseek():
         if str(fill_backend).lower() in ("openai", "web", "responses"):
             _log(
@@ -1493,11 +1551,13 @@ async def run_chatgpt_expand(
                 "(no OpenAI hosted web_search)"
             )
             fill_backend = "search"
-        if not ddgs_harvest and not seeds_only:
+        if not ddgs_harvest and not seeds_only and not skip_ddgs:
             ddgs_harvest = True
             _log(
                 "  [chatgpt] DeepSeek: auto-enabled ddgs/SearXNG harvest for discovery"
             )
+        elif skip_ddgs:
+            _log("  [chatgpt] Step 3 ddgs harvest SKIPPED (EXPAND_SKIP_DDGS_HARVEST)")
         # LinkedIn via OpenAI web_search does not exist on DeepSeek — skip MCP-less path
         if use_linkedin_enrich and not _supports_hosted_web_search():
             use_linkedin_enrich = False
@@ -1931,6 +1991,35 @@ async def run_chatgpt_expand(
             )
 
         final_rows.sort(key=lambda r: _norm(r.get("Company", "")))
+
+        # Channel-partner purity (discovery stayed wide; export is channel-only)
+        try:
+            from vendor_intel.intelligence.channel_purity import (
+                channel_purity_enabled,
+                filter_channel_pure_rows_async,
+            )
+
+            if channel_purity_enabled():
+                before_n = len(final_rows)
+                final_rows, purity_dropped = await filter_channel_pure_rows_async(
+                    final_rows, family=family, query=query
+                )
+                _log(
+                    f"  [chatgpt] Channel purity: kept {len(final_rows)}/{before_n} "
+                    f"(dropped {len(purity_dropped)} OEM/utility/non-channel)"
+                )
+                if purity_dropped:
+                    (out_p / f"chatgpt_rejected_purity_batch_{batch.lower()}.json").write_text(
+                        json.dumps(purity_dropped, indent=2, ensure_ascii=False),
+                        encoding="utf-8",
+                    )
+                    rejected_final = list(rejected_final) + [
+                        {"company": d.get("company"), "reason": f"purity:{d.get('reason')}"}
+                        for d in purity_dropped
+                    ]
+        except Exception as exc:  # noqa: BLE001
+            _log(f"  [chatgpt] Channel purity skipped: {type(exc).__name__}: {exc}")
+
         if len(final_rows) > target:
 
             def _rank(r: dict[str, str]) -> tuple[int, str]:

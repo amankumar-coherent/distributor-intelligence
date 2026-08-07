@@ -1,6 +1,9 @@
-"""Focused Google/DDGS/SearXNG query builders for Step-5 fill (no LLM).
+"""Focused Google / Google-AI / DDGS / SearXNG query builders for Step-5 fill.
 
-Prefer short, high-precision search-bar phrasing over keyword stuffing.
+Use short, field-specific search-bar phrasing (one fact per query), e.g.:
+  {company} founded year
+  {company} headquarters
+  {company} number of employees
 """
 from __future__ import annotations
 
@@ -26,77 +29,90 @@ def _quoted(name: str) -> str:
     return n
 
 
-def firmographic_queries(company: str, *, domain: str = "") -> list[str]:
-    """HQ / founded / employees / revenue — 1–2 tight queries."""
+# Gap key → Google search phrasing (append after company name)
+_FIELD_PHRASE: dict[str, str] = {
+    "founded_year": "founded year",
+    "headquarters": "headquarters",
+    "employee_count": "number of employees",
+    "revenue": "revenue turnover",
+    "offices": "offices locations",
+    "ownership": "ownership parent company",
+    "core_categories": "products categories",
+    "specialty_focus": "specialty focus",
+    "key_brands_represented": "brands products portfolio",
+    "contact_person": "CEO founder",
+    "linkedin": "LinkedIn company",
+    "website": "official website",
+}
+
+# Preferred ask order when several gaps are open
+_FIELD_ORDER: tuple[str, ...] = (
+    "founded_year",
+    "headquarters",
+    "employee_count",
+    "ownership",
+    "offices",
+    "website",
+    "core_categories",
+    "specialty_focus",
+    "key_brands_represented",
+    "revenue",
+    "linkedin",
+    "contact_person",
+)
+
+
+def field_query(company: str, field: str, *, domain: str = "") -> str:
+    """One Google query for one missing field: ``{company} founded year``."""
     qn = _quoted(company)
     if not qn:
-        return []
+        return ""
+    phrase = _FIELD_PHRASE.get(field) or field.replace("_", " ")
+    q = f"{qn} {phrase}"
     dom = _clean_domain(domain)
-    out = [
-        f"{qn} headquarters OR founded OR employees OR revenue",
-        f"{qn} \"founded in\" OR \"headquartered in\" OR \"number of employees\"",
-    ]
-    if dom:
-        out.append(f"{qn} ({dom}) headquarters founded")
-    return out
+    # Soft site hint only for brand/category lookups (keeps HQ/founded global)
+    if dom and field in {"core_categories", "specialty_focus", "key_brands_represented", "website"}:
+        q = f"{q} {dom}"
+    return q
 
 
-def leadership_queries(company: str, *, domain: str = "") -> list[str]:
-    """CEO / founder — natural Google phrasing (not title keyword dumps)."""
-    qn = _quoted(company)
-    if not qn:
-        return []
-    dom = _clean_domain(domain)
-    out = [
-        f"{qn} CEO OR founder",
-        f"{qn} \"Chief Executive Officer\" OR \"Managing Director\"",
-        f"{qn} leadership OR \"management team\" OR executive",
-    ]
-    if dom:
-        # Domain as soft hint, not glued keyword soup
-        out.insert(1, f"{qn} CEO site:{dom}")
-        out.append(f'"{dom}" CEO OR founder')
-    return out
-
-
-def category_queries(company: str, *, market: str = "", domain: str = "") -> list[str]:
-    qn = _quoted(company)
-    if not qn:
-        return []
-    market = re.sub(r"\s+", " ", (market or "").strip())
-    out = [f"{qn} distributor OR wholesale OR brands OR products"]
-    if market:
-        # Keep market short — drop leading "Global "
-        mkt = re.sub(r"(?i)^global\s+", "", market).strip()
-        if mkt:
-            out.append(f"{qn} {mkt} brands OR partners OR portfolio")
-    dom = _clean_domain(domain)
-    if dom:
-        out.append(f"{qn} brands OR products {dom}")
-    return out
-
-
-def build_gap_fill_queries(
+def queries_for_fields(
     company: str,
+    fields: list[str] | tuple[str, ...] | set[str],
     *,
     domain: str = "",
     market: str = "",
-    need_firmographics: bool = False,
-    need_categories: bool = False,
-    need_contact: bool = False,
-    max_queries: int = 3,
+    max_queries: int = 6,
 ) -> list[str]:
-    """Pick the best 1–3 search-bar queries for missing landscape gaps."""
-    ranked: list[str] = []
-    # Leadership first when missing — high business value and scrapes well from ZoomInfo/etc.
-    if need_contact:
-        ranked.extend(leadership_queries(company, domain=domain)[:2])
-    if need_firmographics:
-        ranked.extend(firmographic_queries(company, domain=domain)[:2])
-    if need_categories:
-        ranked.extend(category_queries(company, market=market, domain=domain)[:1])
+    """Build ``{company} <field phrase>`` queries for the given gaps."""
+    wanted = {str(f).strip() for f in fields if str(f).strip()}
+    if not wanted:
+        return []
 
-    # De-dupe while preserving order
+    ranked: list[str] = []
+    for key in _FIELD_ORDER:
+        if key not in wanted:
+            continue
+        q = field_query(company, key, domain=domain)
+        if q:
+            ranked.append(q)
+
+    # Any unknown gap keys still get a plain phrase
+    for key in sorted(wanted):
+        if key in _FIELD_PHRASE or key in _FIELD_ORDER:
+            continue
+        q = field_query(company, key, domain=domain)
+        if q:
+            ranked.append(q)
+
+    # Optional market + brands query when categories/brands missing
+    mkt = re.sub(r"\s+", " ", (market or "").strip())
+    mkt = re.sub(r"(?i)^global\s+", "", mkt).strip()
+    if mkt and wanted & {"core_categories", "key_brands_represented", "specialty_focus"}:
+        qn = _quoted(company)
+        if qn:
+            ranked.append(f"{qn} {mkt} brands distributors")
+
     seen: set[str] = set()
     out: list[str] = []
     for q in ranked:
@@ -110,10 +126,100 @@ def build_gap_fill_queries(
     return out
 
 
-def backfill_query(company: str, *, domain: str = "") -> str:
-    """Single DDGS/SearXNG query for HQ/founded/employees backfill."""
+def firmographic_queries(company: str, *, domain: str = "") -> list[str]:
+    """HQ / founded / employees — one query per fact (legacy helper)."""
+    return queries_for_fields(
+        company,
+        ("founded_year", "headquarters", "employee_count"),
+        domain=domain,
+        max_queries=3,
+    )
+
+
+def leadership_queries(company: str, *, domain: str = "") -> list[str]:
+    """CEO / founder — only when contact fill is explicitly requested."""
     qn = _quoted(company)
+    if not qn:
+        return []
+    out = [
+        f"{qn} CEO founder",
+        f"{qn} Chief Executive Officer",
+    ]
     dom = _clean_domain(domain)
     if dom:
-        return f"{qn} headquarters OR founded OR employees OR revenue {dom}"
-    return f"{qn} headquarters OR founded OR employees OR revenue"
+        out.append(f"{qn} CEO site:{dom}")
+    return out
+
+
+def category_queries(company: str, *, market: str = "", domain: str = "") -> list[str]:
+    return queries_for_fields(
+        company,
+        ("core_categories", "key_brands_represented", "specialty_focus"),
+        domain=domain,
+        market=market,
+        max_queries=3,
+    )
+
+
+def build_gap_fill_queries(
+    company: str,
+    *,
+    domain: str = "",
+    market: str = "",
+    need_firmographics: bool = False,
+    need_categories: bool = False,
+    need_contact: bool = False,
+    needed_fields: list[str] | tuple[str, ...] | set[str] | None = None,
+    max_queries: int = 6,
+) -> list[str]:
+    """Pick field-specific Google queries for missing landscape gaps.
+
+    Prefer ``needed_fields`` (exact gap keys). Legacy booleans still work.
+    """
+    fields: list[str] = []
+    if needed_fields:
+        fields.extend(str(f) for f in needed_fields)
+    else:
+        if need_firmographics:
+            fields.extend(
+                ("founded_year", "headquarters", "offices", "employee_count", "revenue")
+            )
+        if need_categories:
+            fields.extend(
+                ("core_categories", "specialty_focus", "key_brands_represented")
+            )
+        if need_contact:
+            fields.append("contact_person")
+
+    # De-dupe preserving order
+    seen: set[str] = set()
+    uniq: list[str] = []
+    for f in fields:
+        if f in seen:
+            continue
+        seen.add(f)
+        uniq.append(f)
+
+    return queries_for_fields(
+        company,
+        uniq,
+        domain=domain,
+        market=market,
+        max_queries=max_queries,
+    )
+
+
+def backfill_queries(company: str, *, domain: str = "", max_queries: int = 3) -> list[str]:
+    """DDGS/SearXNG firmographic queries (one fact each)."""
+    return queries_for_fields(
+        company,
+        ("founded_year", "headquarters", "employee_count"),
+        domain=domain,
+        max_queries=max_queries,
+    )
+
+
+def backfill_query(company: str, *, domain: str = "") -> str:
+    """Single DDGS/SearXNG query (first firmographic ask). Prefer ``backfill_queries``."""
+    qs = backfill_queries(company, domain=domain, max_queries=1)
+    return qs[0] if qs else ""

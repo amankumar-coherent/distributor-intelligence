@@ -77,19 +77,26 @@ def _load_export_schemas() -> dict[str, list[str]]:
 
 
 def _export_columns(market_type: str) -> tuple[str, ...]:
-    """Full column list for `market_type`: Company, then the vertical's
-    middle columns from export_schemas.yaml, then the fixed meta columns.
-    Falls back to the "general" schema for an unknown market_type, and to
-    the original hardcoded 30-column FMCG list if the YAML is missing
-    entirely (so a deleted/corrupt config file degrades gracefully instead
-    of breaking every export)."""
+    """Full column list for landscape Excel.
+
+    Prefer ``slim_full`` (canonical curated columns matching the 6-market
+    Excel). Older market_type keys still work but no longer append
+    Data Confidence / Quality Score / Data Sources unless slim_full is absent.
+    """
+    from vendor_intel.export.landscape_slim import SLIM_COLUMNS
+
     schemas = _load_export_schemas()
+    if schemas.get("slim_full"):
+        return tuple(schemas["slim_full"])
     if not schemas:
-        return _EXPORT_COLUMNS
+        return SLIM_COLUMNS
     middle = schemas.get(market_type) or schemas.get(_FALLBACK_MARKET_TYPE)
     if not middle:
-        return _EXPORT_COLUMNS
-    return ("Company",) + tuple(middle) + _META_COLUMNS[1:] + ("Summary",)
+        return SLIM_COLUMNS
+    # If middle already looks like a full schema (starts with Company), use as-is
+    if middle and str(middle[0]).strip() == "Company":
+        return tuple(middle)
+    return ("Company",) + tuple(middle) + ("Summary",)
 
 
 _RETAIL_KW = re.compile(
@@ -746,21 +753,56 @@ def row_from_verdict(verdict: dict[str, Any]) -> dict[str, str]:
         or ""
     ).strip()
 
+    from vendor_intel.export.landscape_slim import (
+        country_and_region_codes,
+        format_continent_geography,
+        operational_presence_text,
+        parse_country_list,
+        retail_ecommerce_both,
+    )
+
+    # Continent / Geography = markets served (REGION(countries…))
+    geo_countries = parse_country_list(regions)
+    if not geo_countries:
+        geo_countries = parse_country_list(cities)
+    if not geo_countries:
+        geo_countries = parse_country_list(hq)
+    continent_geo = format_continent_geography(geo_countries)
+
+    # Operational Presence = physical footprint (HQ / offices / plants)
+    op_raw = (
+        crawl.get("operational_presence")
+        or verdict.get("operational_presence")
+        or crawl.get("geographic_presence")
+        or ""
+    )
+    op_presence = operational_presence_text(hq or "", op_raw, regions or cities)
+
+    retail_ecom = retail_ecommerce_both(retail_chains, ecommerce)
+    country_code, region_code = country_and_region_codes(hq or "")
+
+    # Contact columns: only fill when evidence exists (stay empty otherwise)
+    contact_person = str(crawl.get("contact_person") or "").strip()
+    contact_role = str(crawl.get("contact_role") or "").strip()
+    office_no = str(phone or "").strip()  # Office No. — leave blank if unknown
+
     return {
         "Company": company,
+        "Website": website,
         "Founded": founded,
         "Headquarters": hq or "Not publicly disclosed",
-        "Cities / Regions": cities,
+        "Continent / Geography": continent_geo,
+        "Operational Presence": op_presence,
         "Ownership": ownership or "Private",
         "Business Type": business_type,
         "Employees": employees or "Not publicly disclosed",
         "Turnover / Scale": turnover or "Not publicly disclosed",
-        "Contact Person": crawl.get("contact_person") or "",
-        "Role": crawl.get("contact_role") or "",
+        "Contact Person": contact_person,
+        "Role": contact_role,
         "Email": email,
         "Phone / WhatsApp": phone_cell,
         "LinkedIn": linkedin,
-        "Website": website,
+        "Office No.": office_no,
         "Core Categories": core_cats,
         "Specialty Focus": specialty,
         "Price Segment": price_segment,
@@ -771,6 +813,7 @@ def row_from_verdict(verdict: dict[str, Any]) -> dict[str, str]:
         "Specialty Grocers": specialty_grocers,
         "Foodservice / HoReCa": foodservice,
         "E-commerce": ecommerce,
+        "Retail / E-commerce / Both": retail_ecom,
         "Channel Strength": channel_strength,
         "Distribution Type": dist_type,
         "Regions Served": regions,
@@ -778,6 +821,8 @@ def row_from_verdict(verdict: dict[str, Any]) -> dict[str, str]:
         "Warehouse / Logistics": warehouse,
         "Delivery / Storage": delivery,
         "Competitive Benchmark": competitive_benchmark,
+        "Country Code": country_code,
+        "Region Code": region_code,
         "Data Confidence": _confidence(verdict, crawl),
         "Quality Score": str(round(float(verdict.get("quality_score") or verdict.get("confidence") or 0), 3)),
         "Data Sources": str(verdict.get("data_sources") or ""),
@@ -790,10 +835,9 @@ def export_fmcg_xlsx(
 ) -> str:
     """Write a landscape Excel from a pipeline result dict.
 
-    market_type selects the column set from config/export_schemas.yaml
-    (defaults to "fmcg" — the original 30-column schema — so every existing
-    caller of this function keeps producing identical output unless it
-    explicitly opts into a different market_type).
+    Always exports the slim_full column set (21 curated columns) from
+    config/export_schemas.yaml. ``market_type`` is kept for callers but
+    slim_full takes precedence when present.
     """
     try:
         from openpyxl import Workbook
@@ -821,7 +865,7 @@ def export_fmcg_xlsx(
     ws.title = f"{short_title} Companies"[:31]
     ws["A1"] = f"{market} — {country.title()} landscape"
     ws["A1"].font = Font(bold=True, size=14)
-    ws.merge_cells(start_row=1, start_column=1, end_row=1, end_column=min(10, len(cols)))
+    ws.merge_cells(start_row=1, start_column=1, end_row=1, end_column=len(cols))
 
     header_row = 3
     header_fill = PatternFill("solid", fgColor="1F4E79")

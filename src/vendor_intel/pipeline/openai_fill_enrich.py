@@ -169,7 +169,7 @@ async def apollo_contact_lookup(company: str, website: str) -> dict[str, str]:
     if hit.get("email"):
         out["Email"] = str(hit["email"])
     if hit.get("phone"):
-        out["Phone / WhatsApp"] = str(hit["phone"])
+        out["Office No."] = str(hit["phone"])
     if hit.get("apollo_name_obfuscated") == "true":
         out["_partial"] = "true"
     return out

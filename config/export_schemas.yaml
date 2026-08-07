@@ -3,69 +3,69 @@
 # Selected by markets.market_type (batch/db.py registry column, default
 # "general") or the market_type param passed directly to export_fmcg_xlsx().
 # row_from_verdict() always computes the full field set regardless of
-# market_type — this file only controls which columns actually get written
-# to the sheet, so adding a vertical here never requires touching the
-# extraction logic.
+# market_type — this file only controls which columns actually get written.
 #
-# "fmcg" is the original 30-column schema (unchanged) — every FMCG/food
-# market run before this file existed keeps producing identical output.
-# "general" is the safe default for everything else: universal firmographic
-# + positioning fields, no FMCG-specific retail/foodservice/e-commerce
-# concepts that don't apply to e.g. an industrial or security-tech company.
-#
-# Build out additional verticals (e.g. "industrial", "security_tech") once
-# Pilot Gate 1 shows what market types are actually being run at volume —
-# don't guess columns for markets nobody has run yet.
+# slim_full = canonical curated landscape (Company…Summary). Used as the
+# default export for every market run (run_batch + OpenAI expand).
 
-fmcg:
+slim_full:
+  - Company
+  - Website
   - Founded
   - Headquarters
-  - Cities / Regions
+  - Continent / Geography
+  - Operational Presence
   - Ownership
-  - Business Type
   - Employees
-  - Turnover / Scale
+  - Core Categories
+  - Specialty Focus
+  - Key Brands Represented
+  - Retail / E-commerce / Both
+  - Distribution Type
   - Contact Person
   - Role
   - Email
-  - Phone / WhatsApp
   - LinkedIn
+  - Office No.
+  - Country Code
+  - Region Code
+  - Summary
+
+# Legacy aliases — both map to slim_full via code (kept for older callers).
+fmcg:
+  - Founded
+  - Headquarters
+  - Ownership
+  - Employees
   - Website
   - Core Categories
   - Specialty Focus
-  - Price Segment
   - Key Brands Represented
-  - Exclusivity
-  - Partnership Duration
-  - Retail Chains
-  - Specialty Grocers
-  - Foodservice / HoReCa
-  - E-commerce
-  - Channel Strength
+  - Retail / E-commerce / Both
   - Distribution Type
-  - Regions Served
-  - Regional Extensions
-  - Warehouse / Logistics
-  - Delivery / Storage
-  - Competitive Benchmark
+  - Contact Person
+  - Role
+  - Email
+  - LinkedIn
+  - Office No.
+  - Country Code
+  - Region Code
 
 general:
   - Founded
   - Headquarters
-  - Cities / Regions
   - Ownership
-  - Business Type
   - Employees
-  - Turnover / Scale
-  - Contact Person
-  - Role
-  - Email
-  - Phone / WhatsApp
-  - LinkedIn
   - Website
   - Core Categories
   - Specialty Focus
   - Key Brands Represented
-  - Regions Served
+  - Retail / E-commerce / Both
   - Distribution Type
-  - Competitive Benchmark
+  - Contact Person
+  - Role
+  - Email
+  - LinkedIn
+  - Office No.
+  - Country Code
+  - Region Code

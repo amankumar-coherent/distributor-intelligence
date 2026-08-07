@@ -79,6 +79,11 @@ def main() -> int:
         help="search=Google AI→DDGS/SearXNG→…→OpenAI residual (default)",
     )
     parser.add_argument("--ddgs-harvest", action="store_true", help="Enable optional Step 3")
+    parser.add_argument(
+        "--no-ddgs-harvest",
+        action="store_true",
+        help="Skip Step 3 (DDGS/SearXNG harvest). Also disables DeepSeek auto-enable.",
+    )
     parser.add_argument("--seeds-only", action="store_true")
     parser.add_argument("--skip-recall", action="store_true")
     parser.add_argument("--no-openai-discover", action="store_true")
@@ -140,11 +145,33 @@ def main() -> int:
     if requeued:
         print(f"  [expand-batch] Requeued {requeued} failed market(s) → pending", flush=True)
 
+    if args.fresh:
+        # Force every market in this batch back to pending (ignore prior done/failed)
+        conn = db.get_connection()
+        cur = conn.execute(
+            """
+            UPDATE markets SET
+                status = 'pending', worker_id = NULL, finished_at = NULL,
+                last_error = NULL, started_at = NULL
+            WHERE batch_id = ? AND status IN ('done', 'failed', 'running')
+            """,
+            (args.batch_id,),
+        )
+        if cur.rowcount:
+            print(
+                f"  [expand-batch] --fresh: reset {cur.rowcount} market(s) → pending",
+                flush=True,
+            )
+
     counts = db.batch_status_counts(args.batch_id)
     pending = counts.get("pending", 0)
     print(f"  [expand-batch] Registry status: {counts or '(empty)'}", flush=True)
     if pending == 0:
-        print("  [expand-batch] Nothing pending — every market is already done/failed.", flush=True)
+        print(
+            "  [expand-batch] Nothing pending — every market is already done/failed. "
+            "Re-run with --fresh to redo, or use a new --batch-id.",
+            flush=True,
+        )
         return 0
 
     print(
@@ -171,6 +198,10 @@ def main() -> int:
             print("  Cancelled.")
             return 0
 
+    if args.no_ddgs_harvest:
+        os.environ["EXPAND_SKIP_DDGS_HARVEST"] = "1"
+        args.ddgs_harvest = False
+
     final = run_expand_batch(
         args.batch_id,
         max_concurrent_markets=args.max_concurrent,
@@ -179,7 +210,7 @@ def main() -> int:
         max_fill=args.max_fill,
         max_queries=args.max_queries,
         fill_backend=args.fill_backend,
-        ddgs_harvest=args.ddgs_harvest,
+        ddgs_harvest=False if args.no_ddgs_harvest else args.ddgs_harvest,
         seeds_only=args.seeds_only,
         skip_recall=args.skip_recall,
         use_apollo=not args.no_apollo,

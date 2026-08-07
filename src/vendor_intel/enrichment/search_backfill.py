@@ -8,7 +8,7 @@ from typing import Any
 from vendor_intel.clients.search_router import FreeSearchRouter
 from vendor_intel.config import Settings
 from vendor_intel.export.fmcg_landscape import crawl_snapshot, is_plausible_location
-from vendor_intel.enrichment.gap_fill.search_queries import backfill_query
+from vendor_intel.enrichment.gap_fill.search_queries import queries_for_fields
 
 
 def _needs_backfill(row: dict[str, Any]) -> bool:
@@ -121,13 +121,27 @@ async def backfill_row(row: dict[str, Any], router: FreeSearchRouter) -> bool:
     domain = domain.removeprefix("https://").removeprefix("http://").removeprefix("www.").split("/")[0]
     if not company:
         return False
-    q = backfill_query(company, domain=domain)
-    hits = await router.search(q, discovery_mode=True)
-    if not hits:
-        return False
+
+    crawl = row.get("_crawl") or {}
+    fields: list[str] = []
+    if not str(crawl.get("founded_year") or "").strip():
+        fields.append("founded_year")
+    hq = str(crawl.get("headquarters") or crawl.get("contact_address") or "").strip()
+    if not (hq and is_plausible_location(hq, allow_country_only=True)):
+        fields.append("headquarters")
+    if not str(crawl.get("employee_count") or "").strip():
+        fields.append("employee_count")
+    if not fields:
+        fields = ["founded_year", "headquarters", "employee_count"]
+
+    queries = queries_for_fields(company, fields, domain=domain, max_queries=3)
     lines: list[str] = []
-    for h in hits[:8]:
-        lines.append(f"- {h.title}: {h.snippet} ({h.link})")
+    for q in queries:
+        hits = await router.search(q, discovery_mode=True)
+        for h in (hits or [])[:5]:
+            lines.append(f"- [{q}] {h.title}: {h.snippet} ({h.link})")
+    if not lines:
+        return False
     extracted = await _extract_from_snippets(company, domain, "\n".join(lines))
     return _merge_backfill(row, extracted)
 

@@ -191,17 +191,40 @@ def _ai_overview_missing(data: dict) -> bool:
 
 
 def _overview_query_variants(query: str) -> list[str]:
-    """Phrasings that more reliably trigger Google AI Overview panels."""
+    """Phrasings that more reliably trigger Google AI Overview panels.
+
+    Field-specific asks (``{company} founded year``) stay as-is first; only
+    light fallbacks are added so we do not dilute the fact query.
+    """
     q = (query or "").strip()
     if not q:
         return []
-    variants = [
-        q,
-        f"{q} key facts overview",
-        f"Summarize: {q}",
-        f"{q}? Give founding year, headquarters, and what the company does.",
-        f"What are the key facts about {q}?",
-    ]
+    field_markers = (
+        "founded year",
+        "headquarters",
+        "number of employees",
+        "official website",
+        "ceo founder",
+        "brands products",
+        "ownership parent",
+        "offices locations",
+        "revenue turnover",
+    )
+    low = q.lower()
+    if any(m in low for m in field_markers):
+        variants = [
+            q,
+            f"{q} company",
+            f"{q} wikipedia",
+        ]
+    else:
+        variants = [
+            q,
+            f"{q} key facts overview",
+            f"Summarize: {q}",
+            f"{q}? Give founding year, headquarters, and what the company does.",
+            f"What are the key facts about {q}?",
+        ]
     # de-dupe preserve order
     out: list[str] = []
     seen: set[str] = set()
