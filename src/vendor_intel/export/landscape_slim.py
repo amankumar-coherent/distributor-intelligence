@@ -3,8 +3,8 @@
 Matches the curated 6-market Excel layout:
   Company → Website → Founded → Headquarters → Continent / Geography →
   Operational Presence → Ownership → Employees → Core Categories →
-  Specialty Focus → Key Brands Represented → Retail / E-commerce / Both →
-  Distribution Type → Contact Person → Role → Email → LinkedIn → Office No. →
+  Specialty Focus → Key Brands Represented → Online / Offline / Both →
+  Contact Person → Role → Email → LinkedIn → Office No. → Office Email →
   Country Code → Region Code → Summary
 
 Contact fields stay empty when unknown (pipeline does not invent them).
@@ -27,13 +27,13 @@ SLIM_COLUMNS: tuple[str, ...] = (
     "Core Categories",
     "Specialty Focus",
     "Key Brands Represented",
-    "Retail / E-commerce / Both",
-    "Distribution Type",
+    "Online / Offline / Both",
     "Contact Person",
     "Role",
     "Email",
     "LinkedIn",
     "Office No.",
+    "Office Email",
     "Country Code",
     "Region Code",
     "Summary",
@@ -344,22 +344,24 @@ def iso_to_country_name(iso: str) -> str:
 
 
 def operational_presence_text(hq: str, op_raw: object = "", regions_hint: object = "") -> str:
-    """Physical footprint countries (semicolon list). Always include HQ country."""
+    """Commercial-reach countries (semicolon list) — where the company sells or
+    serves customers. Always a superset of physical footprint: includes the HQ
+    country, every country in op_raw (direct commercial-reach evidence), and
+    every country in regions_hint (Continent / Geography's own physical-footprint
+    countries, since anywhere with a physical presence is obviously also served).
+
+    Unions every source instead of picking just one — a company with reach in
+    several countries should show all of them, not whichever single value
+    happened to be found first.
+    """
     countries = parse_country_list(op_raw)
     hint = parse_country_list(regions_hint)
     hq_iso = hq_to_iso(hq)
     hq_c = iso_to_country_name(hq_iso) if hq_iso else ""
 
     if not countries:
-        if hint and len(hint) == 1:
-            countries = list(hint)
-        elif hq_c:
-            countries = [hq_c]
-        elif hint:
-            countries = hint[:1]
-        else:
-            countries = []
-    elif hq_c and _norm(hq_c) not in {_norm(x) for x in countries}:
+        countries = list(hint)
+    if hq_c and _norm(hq_c) not in {_norm(x) for x in countries}:
         countries = [hq_c] + list(countries)
 
     seen: set[str] = set()
@@ -402,35 +404,51 @@ def country_and_region_codes(hq: str) -> tuple[str, str]:
 
 
 def finalize_slim_row(row: dict[str, str]) -> dict[str, str]:
-    """Normalize Continent/Geography, Operational Presence, Country/Region codes."""
+    """Normalize geo codes from real HQ/presence only — no known_* hardcode fills."""
     out = dict(row)
-    hq = str(out.get("Headquarters") or "")
-    geo_raw = out.get("Continent / Geography") or out.get("Regions Served") or ""
-    op_raw = out.get("Operational Presence") or out.get("Cities / Regions") or ""
+    hq = str(out.get("Headquarters") or "").strip()
+    if hq.lower() in {"", "not publicly disclosed", "n/a", "na", "unknown"}:
+        hq = ""
+    geo_raw = out.get("Continent / Geography") or out.get("Cities / Regions") or ""
+    op_raw = out.get("Operational Presence") or out.get("Regions Served") or ""
 
+    # Only derive Continent / Operational Presence / codes when we have real HQ or geo text
     countries = parse_country_list(geo_raw)
-    if not countries:
+    if not countries and hq:
         countries = parse_country_list(hq)
-    out["Continent / Geography"] = format_continent_geography(countries) if countries else (
-        format_continent_geography([iso_to_country_name(hq_to_iso(hq))]) if hq_to_iso(hq) else ""
-    )
+    if countries:
+        out["Continent / Geography"] = format_continent_geography(countries)
+    elif hq and hq_to_iso(hq):
+        out["Continent / Geography"] = format_continent_geography(
+            [iso_to_country_name(hq_to_iso(hq))]
+        )
+    # else leave whatever scrape put (or empty) — do not invent
 
-    out["Operational Presence"] = operational_presence_text(hq, op_raw, geo_raw)
+    if hq or str(op_raw or "").strip() or str(geo_raw or "").strip():
+        derived_op = operational_presence_text(hq, op_raw, geo_raw)
+        if derived_op and str(derived_op).strip().lower() not in {
+            "",
+            "not publicly disclosed",
+        }:
+            out["Operational Presence"] = derived_op
 
-    cc, rc = country_and_region_codes(hq)
-    if cc:
-        out["Country Code"] = cc
-    if rc:
-        out["Region Code"] = rc
+    if hq:
+        cc, rc = country_and_region_codes(hq)
+        if cc:
+            out["Country Code"] = cc
+        if rc:
+            out["Region Code"] = rc
 
-    # Prefer Office No. over legacy phone column
+    # Prefer Office No. over legacy phone column (copy only — no invent)
     if not str(out.get("Office No.") or "").strip() and out.get("Phone / WhatsApp"):
         out["Office No."] = str(out.get("Phone / WhatsApp") or "").strip()
 
-    # Retail combo from legacy columns if needed
-    if not str(out.get("Retail / E-commerce / Both") or "").strip():
-        out["Retail / E-commerce / Both"] = retail_ecommerce_both(
-            out.get("Retail Chains"), out.get("E-commerce")
-        )
+    # Retail combo from legacy columns if needed (only when both legacy cols exist)
+    # — a rough starting value; field_verify_fill.classify_channel_modes() is the
+    # authoritative Online/Offline/Both classifier and will correct this from evidence.
+    if not str(out.get("Online / Offline / Both") or "").strip():
+        legacy = retail_ecommerce_both(out.get("Retail Chains"), out.get("E-commerce"))
+        if legacy and str(legacy).strip().lower() not in {"", "no", "not publicly disclosed"}:
+            out["Online / Offline / Both"] = legacy
 
     return out

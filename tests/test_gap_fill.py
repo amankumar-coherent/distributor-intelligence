@@ -57,9 +57,22 @@ def test_row_has_gaps_detects_missing_fields():
         headquarters="Boston, MA, USA",
         founded_year="2010",
         employee_count="500",
+        ownership="Private",
         revenue="$10M",
         offices="Boston, London",
+        regions_served="United States; Canada",
+        website="https://acme.com",
         linkedin="https://linkedin.com/company/acme",
+        core_categories="Widgets; Parts",
+        specialty_focus="Industrial distribution",
+        key_brands_represented="BrandA; BrandB",
+        distribution_type="Distributor",
+        retail_ecommerce="Both",
+        contact_person="Jane Doe",
+        contact_role="CEO",
+        email="jane@acme.com",
+        phone="+1-555-0100",
+        summary="Acme Corp is an industrial distributor serving North America.",
     )
     assert row_has_gaps(full) is False
     assert missing_fields(full) == []
@@ -76,6 +89,74 @@ def test_merge_extracted_gap_fill_only():
     assert "linkedin" in updates
     assert has_headquarters(row)
     assert row["_crawl"]["headquarters"] == "Existing HQ, USA"
+
+
+def test_plausible_founded_year_rejects_garbage():
+    from vendor_intel.enrichment.gap_fill.gaps import merge_extracted, plausible_founded_year
+
+    assert plausible_founded_year("2015") == 2015
+    assert plausible_founded_year("founded in 1988") == 1988
+    assert plausible_founded_year("1200") is None
+    assert plausible_founded_year("9999") is None
+    assert plausible_founded_year("n/a") is None
+
+    row = _row()
+    updates = merge_extracted(row, {"founded_year": "1492"}, source="test")
+    assert "founded_year" not in updates
+
+
+def test_identity_text_matches_domain_and_name():
+    from vendor_intel.enrichment.gap_fill.gaps import identity_text_matches
+
+    assert identity_text_matches(
+        "Acme Distribution", "acme-dist.com", "See https://acme-dist.com/about founded 2001"
+    )
+    assert identity_text_matches(
+        "Acme Distribution", "", "Acme Distribution is a wholesaler in Texas"
+    )
+    assert not identity_text_matches(
+        "Acme Distribution",
+        "acme-dist.com",
+        "Apex Manufacturing builds turbines in Germany since 1975",
+    )
+
+
+def test_consensus_buffers_then_promotes(monkeypatch):
+    from vendor_intel.enrichment.gap_fill import gaps
+
+    monkeypatch.setenv("GAP_FILL_CONSENSUS", "true")
+    row = {
+        "company": "Acme Distribution",
+        "website": "https://acme-dist.com",
+        "_crawl": {},
+    }
+    # Low-trust, no evidence → buffer only
+    u1 = gaps.merge_extracted(row, {"founded_year": "2010"}, source="wikipedia")
+    assert "founded_year" not in u1
+    assert gaps.has_founded(row) is False
+
+    # Second agreeing source → commit
+    u2 = gaps.merge_extracted(row, {"founded_year": "2010"}, source="owler")
+    assert "founded_year" in u2
+    assert row["_crawl"]["founded_year"] == 2010
+
+
+def test_merge_rejects_wrong_company_evidence():
+    from vendor_intel.enrichment.gap_fill.gaps import has_founded, merge_extracted
+
+    row = {
+        "company": "Acme Distribution",
+        "website": "https://acme-dist.com",
+        "_crawl": {},
+    }
+    updates = merge_extracted(
+        row,
+        {"founded_year": "1975"},
+        source="wikipedia",
+        evidence_text="Apex Manufacturing builds turbines in Germany since 1975",
+    )
+    assert "founded_year" not in updates
+    assert not has_founded(row)
 
 
 def test_merge_extracted_skips_placeholders():

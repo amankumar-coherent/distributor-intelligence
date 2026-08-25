@@ -1,7 +1,9 @@
 """Detect and merge missing firmographic fields (gap-fill only)."""
 from __future__ import annotations
 
+import os
 import re
+from datetime import datetime
 from typing import Any
 
 from vendor_intel.export.fmcg_landscape import crawl_snapshot, is_plausible_location
@@ -21,6 +23,20 @@ PLACEHOLDERS = frozenset(
     }
 )
 
+# High-trust firmographic sources may commit Founded/HQ/Employees immediately.
+HIGH_TRUST_SOURCES = frozenset(
+    {
+        "wikidata",
+        "linkedin_mcp",
+        "linkedin",
+        "sec_edgar",
+    }
+)
+
+# Require 2 agreeing low-trust sources (or high-trust / identity match) before commit.
+CONSENSUS_FIELDS = frozenset({"founded_year", "headquarters", "employee_count"})
+_FOUNDED_MIN_YEAR = 1600
+
 
 def norm(value: Any) -> str:
     if value is None:
@@ -37,6 +53,29 @@ def _crawl(row: dict[str, Any]) -> dict[str, Any]:
     return c if isinstance(c, dict) else {}
 
 
+def merge_location_text(existing: str, new: str) -> str:
+    """Union two semicolon-separated location values instead of picking one.
+
+    A company with offices/regions in several countries should end up with
+    all of them once evidence from multiple sources has been gathered —
+    the previous behavior locked the field on whichever source ran first
+    and silently discarded every subsequent source's (possibly more
+    complete) location data.
+    """
+    existing_parts = [p.strip() for p in re.split(r";\s*", existing or "") if p.strip()]
+    new_parts = [p.strip() for p in re.split(r";\s*", new or "") if p.strip()]
+    seen_lower = {p.lower() for p in existing_parts}
+    merged = list(existing_parts)
+    for p in new_parts:
+        pl = p.lower()
+        # Skip if this fragment (or a superset/subset of it) is already present.
+        if pl in seen_lower or any(pl in s or s in pl for s in seen_lower):
+            continue
+        merged.append(p)
+        seen_lower.add(pl)
+    return "; ".join(merged)
+
+
 def has_headquarters(row: dict[str, Any]) -> bool:
     crawl = _crawl(row)
     for key in ("headquarters", "contact_address"):
@@ -46,8 +85,143 @@ def has_headquarters(row: dict[str, Any]) -> bool:
     return False
 
 
+def plausible_founded_year(value: Any) -> int | None:
+    """Return YYYY if in [1600, current_year], else None."""
+    if value is None:
+        return None
+    raw = str(value).strip()
+    m = re.search(r"(1[6-9]\d{2}|20\d{2})", raw)
+    if not m:
+        return None
+    try:
+        year = int(m.group(1))
+    except (TypeError, ValueError):
+        return None
+    max_year = datetime.now().year + 1
+    if _FOUNDED_MIN_YEAR <= year <= max_year:
+        return year
+    return None
+
+
 def has_founded(row: dict[str, Any]) -> bool:
-    return not is_empty_value(_crawl(row).get("founded_year"))
+    return plausible_founded_year(_crawl(row).get("founded_year")) is not None
+
+
+def _consensus_enabled() -> bool:
+    raw = (os.getenv("GAP_FILL_CONSENSUS") or "true").strip().lower()
+    return raw not in ("0", "false", "no", "off")
+
+
+def _norm_fact_key(field: str, value: Any) -> str:
+    if field == "founded_year":
+        y = plausible_founded_year(value)
+        return str(y) if y is not None else ""
+    if field == "employee_count":
+        digits = re.sub(r"[^\d]", "", str(value or ""))
+        return digits[:8] if digits else ""
+    # headquarters / free text
+    return re.sub(r"\s+", " ", str(value or "").strip().lower())
+
+
+def identity_text_matches(
+    company: str,
+    domain: str,
+    text: str,
+    *,
+    min_tokens: int = 1,
+) -> bool:
+    """True when evidence clearly refers to this company (name tokens and/or domain)."""
+    blob = str(text or "").lower()
+    if not blob.strip():
+        return False
+    dom = (
+        str(domain or "")
+        .lower()
+        .removeprefix("https://")
+        .removeprefix("http://")
+        .removeprefix("www.")
+        .split("/")[0]
+        .strip()
+    )
+    if dom and len(dom) >= 4 and dom in blob:
+        return True
+    name = re.sub(r"[^a-z0-9\s]", " ", str(company or "").lower())
+    tokens = [t for t in name.split() if len(t) >= 3 and t not in {
+        "inc", "ltd", "llc", "corp", "corporation", "company", "co", "group",
+        "the", "and", "of", "for", "international", "global", "holdings",
+    }]
+    if not tokens:
+        return bool(dom)  # domain-only identity when name is generic
+    hits = sum(1 for t in tokens if t in blob)
+    need = min(min_tokens, max(1, len(tokens) // 2 + (1 if len(tokens) >= 2 else 0)))
+    return hits >= need
+
+
+def _buffer_fact_candidate(
+    crawl: dict[str, Any],
+    field: str,
+    value: Any,
+    source: str,
+) -> bool:
+    """Record a candidate. Return True if consensus reached (2+ agreeing sources)."""
+    key = _norm_fact_key(field, value)
+    if not key:
+        return False
+    pending = crawl.setdefault("_fact_candidates", {})
+    if not isinstance(pending, dict):
+        pending = {}
+        crawl["_fact_candidates"] = pending
+    field_map = pending.setdefault(field, {})
+    if not isinstance(field_map, dict):
+        field_map = {}
+        pending[field] = field_map
+    entry = field_map.setdefault(key, {"value": value, "sources": []})
+    srcs = entry.setdefault("sources", [])
+    if source and source not in srcs:
+        srcs.append(source)
+    entry["value"] = value
+    return len(srcs) >= 2
+
+
+def finalize_pending_facts(row: dict[str, Any]) -> list[str]:
+    """Promote consensus candidates (2+ sources) into crawl. Call after gap_fill_row."""
+    crawl = dict(_crawl(row))
+    pending = crawl.get("_fact_candidates")
+    if not isinstance(pending, dict) or not pending:
+        return []
+    promoted: list[str] = []
+    extracted: dict[str, Any] = {}
+    for field, field_map in pending.items():
+        if field not in CONSENSUS_FIELDS or not isinstance(field_map, dict):
+            continue
+        if field == "founded_year" and has_founded(row):
+            continue
+        if field == "headquarters" and has_headquarters(row):
+            continue
+        if field == "employee_count" and has_employees(row):
+            continue
+        # Prefer key with most agreeing sources
+        best = None
+        best_n = 0
+        for _k, entry in field_map.items():
+            if not isinstance(entry, dict):
+                continue
+            n = len(entry.get("sources") or [])
+            if n >= 2 and n > best_n:
+                best = entry.get("value")
+                best_n = n
+        if best is not None:
+            extracted[field] = best
+    if not extracted:
+        return []
+    # Force-commit via high-trust path (bypass re-buffer)
+    return merge_extracted(
+        row,
+        extracted,
+        source="consensus",
+        evidence_text="",
+        force_commit=True,
+    )
 
 
 def has_employees(row: dict[str, Any]) -> bool:
@@ -90,6 +264,11 @@ def has_phone(row: dict[str, Any]) -> bool:
     return len(digits) >= 8
 
 
+def has_office_email(row: dict[str, Any]) -> bool:
+    val = norm(_crawl(row).get("office_email"))
+    return bool(val and "@" in val and not is_empty_value(val))
+
+
 def has_contact_person(row: dict[str, Any]) -> bool:
     val = norm(_crawl(row).get("contact_person"))
     return bool(val and len(val) >= 3 and not is_empty_value(val))
@@ -114,6 +293,42 @@ def has_specialty_focus(row: dict[str, Any]) -> bool:
 def has_key_brands(row: dict[str, Any]) -> bool:
     val = norm(_crawl(row).get("key_brands_represented"))
     return bool(val and len(val) >= 2 and not is_empty_value(val))
+
+
+def has_ownership(row: dict[str, Any]) -> bool:
+    val = norm(_crawl(row).get("ownership"))
+    return bool(val and len(val) >= 3 and not is_empty_value(val))
+
+
+def has_distribution_type(row: dict[str, Any]) -> bool:
+    val = norm(_crawl(row).get("distribution_type"))
+    return bool(val and len(val) >= 3 and not is_empty_value(val))
+
+
+def has_retail_ecommerce(row: dict[str, Any]) -> bool:
+    val = norm(_crawl(row).get("retail_ecommerce"))
+    return bool(val and len(val) >= 2 and not is_empty_value(val))
+
+
+def has_regions_served(row: dict[str, Any]) -> bool:
+    val = norm(_crawl(row).get("regions_served"))
+    return bool(val and len(val) >= 2 and not is_empty_value(val))
+
+
+def has_summary(row: dict[str, Any]) -> bool:
+    val = norm(_crawl(row).get("summary"))
+    if not val or is_empty_value(val):
+        return False
+    # Generic boilerplate summaries do not count as filled
+    low = val.lower()
+    if "channel company for this market" in low and "details filled via" in low:
+        return False
+    return len(val) >= 20
+
+
+def has_website(row: dict[str, Any]) -> bool:
+    val = norm(_crawl(row).get("website") or row.get("website") or row.get("domain"))
+    return bool(val and ("." in val) and not is_empty_value(val))
 
 
 def normalize_turnover_range(value: Any) -> str:
@@ -222,10 +437,16 @@ def missing_fields(row: dict[str, Any]) -> list[str]:
         gaps.append("founded_year")
     if not has_employees(row):
         gaps.append("employee_count")
+    if not has_ownership(row):
+        gaps.append("ownership")
     if not has_revenue(row):
         gaps.append("revenue")
     if not has_offices(row):
         gaps.append("offices")
+    if not has_regions_served(row):
+        gaps.append("regions_served")
+    if not has_website(row):
+        gaps.append("website")
     if not has_linkedin(row):
         gaps.append("linkedin")
     if not has_core_categories(row):
@@ -234,8 +455,22 @@ def missing_fields(row: dict[str, Any]) -> list[str]:
         gaps.append("specialty_focus")
     if not has_key_brands(row):
         gaps.append("key_brands_represented")
+    if not has_distribution_type(row):
+        gaps.append("distribution_type")
+    if not has_retail_ecommerce(row):
+        gaps.append("retail_ecommerce")
     if not has_contact_person(row):
         gaps.append("contact_person")
+    if not norm(_crawl(row).get("contact_role")):
+        gaps.append("contact_role")
+    if not has_email(row):
+        gaps.append("email")
+    if not has_phone(row):
+        gaps.append("phone")
+    if not has_office_email(row):
+        gaps.append("office_email")
+    if not has_summary(row):
+        gaps.append("summary")
     return gaps
 
 
@@ -253,7 +488,48 @@ def sync_crawl_from_raw(row: dict[str, Any]) -> None:
     row["_crawl"] = {**snap, **{k: v for k, v in (_crawl(row)).items() if v}}
 
 
-def merge_extracted(row: dict[str, Any], extracted: dict[str, Any], *, source: str) -> list[str]:
+def _accept_sensitive_fact(
+    row: dict[str, Any],
+    crawl: dict[str, Any],
+    *,
+    field: str,
+    value: Any,
+    source: str,
+    evidence_text: str,
+    force_commit: bool,
+) -> bool:
+    """Decide whether to commit a Founded/HQ/Employees value now (vs buffer)."""
+    if force_commit or source in HIGH_TRUST_SOURCES or source == "consensus":
+        return True
+    if not _consensus_enabled():
+        return True
+
+    company = norm(row.get("company") or row.get("brand"))
+    domain = domain_from_row(row)
+
+    if evidence_text:
+        if not identity_text_matches(company, domain, evidence_text):
+            return False  # wrong-company contamination
+        return True  # identity confirmed in evidence
+
+    if not domain:
+        # No domain yet — allow (early pipeline / unit tests); year/HQ validators still apply
+        return True
+
+    # Domain known but no evidence → require 2-source consensus
+    reached = _buffer_fact_candidate(crawl, field, value, source)
+    row["_crawl"] = crawl
+    return reached
+
+
+def merge_extracted(
+    row: dict[str, Any],
+    extracted: dict[str, Any],
+    *,
+    source: str,
+    evidence_text: str = "",
+    force_commit: bool = False,
+) -> list[str]:
     """Merge LLM/search extracted fields into row (gap-fill only). Returns field names updated."""
     if not extracted:
         return []
@@ -262,21 +538,51 @@ def merge_extracted(row: dict[str, Any], extracted: dict[str, Any], *, source: s
 
     hq = norm(extracted.get("headquarters"))
     if hq and not has_headquarters(row) and is_plausible_location(hq, allow_country_only=True):
-        crawl["headquarters"] = hq
-        updates.append("headquarters")
+        if _accept_sensitive_fact(
+            row,
+            crawl,
+            field="headquarters",
+            value=hq,
+            source=source,
+            evidence_text=evidence_text,
+            force_commit=force_commit,
+        ):
+            crawl["headquarters"] = hq
+            updates.append("headquarters")
 
     founded = extracted.get("founded_year")
     if founded and not has_founded(row):
-        try:
-            crawl["founded_year"] = int(str(founded).strip()[:4])
+        year = plausible_founded_year(founded)
+        if year is not None and _accept_sensitive_fact(
+            row,
+            crawl,
+            field="founded_year",
+            value=year,
+            source=source,
+            evidence_text=evidence_text,
+            force_commit=force_commit,
+        ):
+            crawl["founded_year"] = year
             updates.append("founded_year")
-        except (TypeError, ValueError):
-            pass
 
     emp = norm(extracted.get("employee_count"))
     if emp and not is_empty_value(emp) and not has_employees(row):
-        crawl["employee_count"] = emp
-        updates.append("employee_count")
+        if _accept_sensitive_fact(
+            row,
+            crawl,
+            field="employee_count",
+            value=emp,
+            source=source,
+            evidence_text=evidence_text,
+            force_commit=force_commit,
+        ):
+            crawl["employee_count"] = emp
+            updates.append("employee_count")
+
+    ownership = norm(extracted.get("ownership"))
+    if ownership and not has_ownership(row):
+        crawl["ownership"] = ownership
+        updates.append("ownership")
 
     rev = norm(extracted.get("revenue") or extracted.get("turnover"))
     if rev and not is_empty_value(rev) and not has_revenue(row):
@@ -284,9 +590,37 @@ def merge_extracted(row: dict[str, Any], extracted: dict[str, Any], *, source: s
         updates.append("revenue")
 
     offices = norm(extracted.get("offices") or extracted.get("cities_regions"))
-    if offices and not has_offices(row) and is_plausible_location(offices, allow_country_only=False):
-        crawl["offices"] = offices
-        updates.append("offices")
+    if offices and is_plausible_location(offices, allow_country_only=False):
+        existing_offices = norm(crawl.get("offices"))
+        if not existing_offices:
+            crawl["offices"] = offices
+            updates.append("offices")
+        else:
+            merged_offices = merge_location_text(existing_offices, offices)
+            if merged_offices != existing_offices:
+                crawl["offices"] = merged_offices
+                updates.append("offices")
+
+    regions = norm(extracted.get("regions_served") or extracted.get("continent_geography"))
+    if regions:
+        existing_regions = norm(crawl.get("regions_served"))
+        if not existing_regions or is_empty_value(existing_regions):
+            crawl["regions_served"] = regions
+            updates.append("regions_served")
+        else:
+            merged_regions = merge_location_text(existing_regions, regions)
+            if merged_regions != existing_regions:
+                crawl["regions_served"] = merged_regions
+                updates.append("regions_served")
+
+    website = norm(extracted.get("website") or extracted.get("official_website"))
+    if website and not has_website(row) and "." in website:
+        if not website.startswith("http"):
+            website = "https://" + website.lstrip("/")
+        crawl["website"] = website
+        if not norm(row.get("website")):
+            row["website"] = website
+        updates.append("website")
 
     linkedin = norm(extracted.get("linkedin_url") or extracted.get("linkedin"))
     if linkedin and not has_linkedin(row) and "linkedin.com" in linkedin.lower():
@@ -315,6 +649,20 @@ def merge_extracted(row: dict[str, Any], extracted: dict[str, Any], *, source: s
         crawl["key_brands_represented"] = brands
         updates.append("key_brands_represented")
 
+    dist = norm(extracted.get("distribution_type") or extracted.get("business_type"))
+    if dist and not has_distribution_type(row):
+        crawl["distribution_type"] = dist
+        updates.append("distribution_type")
+
+    retail = norm(
+        extracted.get("retail_ecommerce")
+        or extracted.get("retail_e_commerce")
+        or extracted.get("retail")
+    )
+    if retail and not has_retail_ecommerce(row):
+        crawl["retail_ecommerce"] = retail
+        updates.append("retail_ecommerce")
+
     person = norm(extracted.get("contact_person"))
     if person and len(person) >= 3 and not has_contact_person(row):
         crawl["contact_person"] = person
@@ -325,9 +673,41 @@ def merge_extracted(row: dict[str, Any], extracted: dict[str, Any], *, source: s
         crawl["contact_role"] = role
         updates.append("contact_role")
 
+    email = norm(extracted.get("email"))
+    if email and "@" in email and not has_email(row):
+        crawl["email"] = email
+        updates.append("email")
+
+    phone = norm(extracted.get("phone") or extracted.get("office_no"))
+    if phone and not has_phone(row):
+        digits = re.sub(r"\D", "", phone)
+        if len(digits) >= 8:
+            crawl["phone"] = phone
+            updates.append("phone")
+
+    office_email = norm(
+        extracted.get("office_email") or extracted.get("info_email") or extracted.get("general_email")
+    )
+    if office_email and "@" in office_email and not has_office_email(row):
+        crawl["office_email"] = office_email
+        updates.append("office_email")
+
+    summary = norm(extracted.get("summary") or extracted.get("company_summary"))
+    if summary and not has_summary(row) and len(summary) >= 20:
+        crawl["summary"] = summary
+        updates.append("summary")
+
+    # Persist candidate buffer even when nothing committed yet
+    if crawl.get("_fact_candidates") and not updates:
+        row["_crawl"] = {**_crawl(row), "_fact_candidates": crawl["_fact_candidates"]}
+        return []
+
     if not updates:
         return []
 
+    # Keep any pending candidates that weren't promoted
+    if crawl.get("_fact_candidates"):
+        pass
     row["_crawl"] = crawl
     raw = dict(row.get("_crawl_raw") or {})
     data = dict(raw.get("data") or {})
@@ -415,6 +795,13 @@ def merge_contact_extracted(row: dict[str, Any], extracted: dict[str, Any], *, s
     if phone and len(re.sub(r"\D", "", phone)) >= 8 and not has_phone(row):
         crawl["phone"] = phone
         updates.append("phone")
+
+    office_email = norm(
+        extracted.get("office_email") or extracted.get("info_email") or extracted.get("general_email")
+    )
+    if office_email and "@" in office_email and not has_office_email(row):
+        crawl["office_email"] = office_email.lower()
+        updates.append("office_email")
 
     person = norm(extracted.get("contact_person"))
     if person and len(person) >= 3 and not has_contact_person(row):
@@ -613,6 +1000,15 @@ def merge_apollo_contact(
             if not fill_empty_only or not has_phone(row):
                 crawl["phone"] = phone
                 updates.append("phone")
+
+    if "office_email" in fields:
+        office_email = norm(
+            extracted.get("office_email") or extracted.get("info_email") or extracted.get("general_email")
+        )
+        if office_email and "@" in office_email:
+            if not fill_empty_only or not has_office_email(row):
+                crawl["office_email"] = office_email.lower()
+                updates.append("office_email")
 
     apollo_id = norm(extracted.get("apollo_person_id"))
     if apollo_id:

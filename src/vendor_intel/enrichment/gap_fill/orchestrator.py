@@ -59,11 +59,22 @@ def save_cache(output_dir: Path, cache: dict[str, Any], sources: tuple[str, ...]
     _cache_path(output_dir, sources).write_text(json.dumps(cache, indent=2, ensure_ascii=False), encoding="utf-8")
 
 
-def _source_timeout_sec() -> float:
+def _source_timeout_sec(source_name: str = "") -> float:
+    """Per-source wait budget.
+
+    Google AI runs up to ~22 column asks + DeepSeek clean each, so the old
+    default 90s aborted mid-company (looks "stuck", then sources applied: none).
+    """
+    env_key = "GAP_FILL_SOURCE_TIMEOUT_SEC"
+    default = "90"
+    if source_name == "google_ai":
+        env_key = "GAP_FILL_GOOGLE_AI_TIMEOUT_SEC"
+        # ~22 queries × ~25–40s (scrape + DeepSeek) under light load
+        default = "900"
     try:
-        return max(15.0, float(os.getenv("GAP_FILL_SOURCE_TIMEOUT_SEC", "90")))
+        return max(15.0, float(os.getenv(env_key) or os.getenv("GAP_FILL_SOURCE_TIMEOUT_SEC") or default))
     except ValueError:
-        return 90.0
+        return float(default)
 
 
 async def gap_fill_row(
@@ -124,7 +135,6 @@ async def gap_fill_row(
     if "openai_residual" in sources:
         runners.append(("openai_residual", lambda: fill_from_openai_residual(row, router)))
 
-    timeout_sec = _source_timeout_sec()
     # Always attempt primary + residual even if mid-stack looks complete.
     always_run = frozenset({"google_ai", "linkedin", "openai_residual"})
     for source_name, fn in runners:
@@ -133,6 +143,7 @@ async def gap_fill_row(
         # Residual only when gaps remain after free/search sources
         if source_name == "openai_residual" and not row_has_gaps(row, sources=sources):
             continue
+        timeout_sec = _source_timeout_sec(source_name)
         try:
             if source_name == "google_ai":
                 print(f"  [gap_fill] Google AI scraper first — {name}", flush=True)
@@ -154,6 +165,20 @@ async def gap_fill_row(
             )
         except Exception as exc:
             print(f"  [gap_fill] {source_name} failed for {name}: {exc}", flush=True)
+
+    # Promote Founded/HQ/Employees when 2+ low-trust sources agreed
+    try:
+        from vendor_intel.enrichment.gap_fill.gaps import finalize_pending_facts
+
+        promoted = finalize_pending_facts(row)
+        if promoted:
+            applied.append("consensus")
+            print(
+                f"  [gap_fill] consensus promoted {promoted} for {name}",
+                flush=True,
+            )
+    except Exception as exc:  # noqa: BLE001
+        print(f"  [gap_fill] consensus finalize skip for {name}: {exc}", flush=True)
 
     remaining = list(missing_fields(row))
     if uses_contact_sources(sources):

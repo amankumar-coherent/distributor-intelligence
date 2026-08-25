@@ -413,7 +413,7 @@ def main() -> int:
     parser.add_argument("--query", "-q", required=True, help='e.g. "Global Firewall Market"')
     parser.add_argument("--country", "-c", default="global")
     parser.add_argument("--batch", "-b", choices=("a", "b", "all"), default="a")
-    parser.add_argument("--target", "-t", type=int, default=320)
+    parser.add_argument("--target", "-t", type=int, default=500)
     parser.add_argument("--final", default=None, help="Override FINAL xlsx path")
     parser.add_argument(
         "--backend",
@@ -431,8 +431,8 @@ def main() -> int:
     parser.add_argument(
         "--max-fill",
         type=int,
-        default=320,
-        help="Max companies ChatGPT fills per run (default 320 for 300+ targets)",
+        default=500,
+        help="Fill every table row up to this cap (default 500, not 20)",
     )
     parser.add_argument(
         "--fill-existing",

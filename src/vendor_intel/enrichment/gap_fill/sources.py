@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 from typing import Any
 from urllib.parse import quote
 
@@ -12,10 +13,40 @@ from vendor_intel.clients.search_router import FreeSearchRouter
 from vendor_intel.enrichment.gap_fill.gaps import domain_from_row, has_contact_person, has_email, has_phone, merge_contact_extracted, merge_extracted, norm
 
 
+_SALES_PROC_RE = re.compile(
+    r"(head of sales|vp sales|vice president of sales|sales director|"
+    r"commercial director|chief commercial|chief revenue|chief sales|"
+    r"procurement|purchasing|director of sales|national sales|sales head|"
+    r"channel sales|business development)",
+    re.I,
+)
+
+
 def _gap_fill_use_llm() -> bool:
     """When false, extract fields via regex only (no OpenAI SDK)."""
     raw = (os.getenv("GAP_FILL_USE_LLM") or "true").strip().lower()
     return raw not in ("0", "false", "no", "off")
+
+
+def _sales_procurement_only(extracted: dict[str, Any]) -> dict[str, Any]:
+    """Drop CEO/founder/HR contacts unless the title is also sales/procurement."""
+    if not extracted:
+        return extracted
+    out = dict(extracted)
+    role = str(out.get("contact_role") or out.get("role") or "")
+    person = str(out.get("contact_person") or "")
+    if not person and not role:
+        return out
+    if _SALES_PROC_RE.search(role):
+        return out
+    out.pop("contact_person", None)
+    out.pop("contact_role", None)
+    out.pop("role", None)
+    li = str(out.get("linkedin") or out.get("linkedin_url") or "")
+    if "/in/" in li.lower():
+        out.pop("linkedin", None)
+        out.pop("linkedin_url", None)
+    return out
 
 
 async def _llm_extract(
@@ -46,22 +77,48 @@ async def _llm_extract(
     prompt = (
         f"Company: {company}\nDomain: {domain}\n\n"
         f"Extract ONLY facts explicitly stated in the text below. {fields_hint}\n"
+        "IDENTITY RULE: Only extract facts if the source text is clearly about the "
+        f"company named \"{company}\""
+        + (f" at domain \"{domain}\"" if domain else "")
+        + ". If the text appears to describe a different similarly-named company, "
+        "a parent OEM, or an unrelated entity, return empty strings for all keys.\n"
         "Return JSON with keys:\n"
         "- headquarters (city, country)\n"
-        "- founded_year (YYYY only)\n"
+        "- founded_year (YYYY only: business founding year when trade began, "
+        "NOT later incorporation/IPO/rebrand/subsidiary registration; "
+        "must be 1600–today and about THIS company only — never copy another brand's year)\n"
         "- employee_count\n"
+        "- ownership (Private / Public / Subsidiary + parent if stated)\n"
         "- revenue (prefer a RANGE like '$80–100M' not a single point; "
         "if source says $100M use '$80–100M'; if $50M use '$40–50M')\n"
-        "- offices / cities_regions (comma-separated cities)\n"
+        "- offices / cities_regions (comma-separated cities or countries)\n"
+        "- regions_served (countries/regions served)\n"
         "- linkedin_url\n"
-        "- core_categories (product/service categories, semicolon-separated)\n"
-        "- specialty_focus (niche focus)\n"
-        "- key_brands_represented (brands distributed/partnered, semicolon-separated; "
-        "NOT the company name alone)\n"
-        "- contact_person (CEO/Founder/MD full name if stated)\n"
-        "- contact_role (title)\n"
+        "- website\n"
+        "- core_categories ([Main Product Category] + [Sub Categories] — broad "
+        "product groups this distributor handles, main/broadest category first "
+        "then narrower sub-categories, semicolon-separated: 'Category 1; "
+        "Category 2; Category 3', 3-8 items)\n"
+        "- specialty_focus (EXACT structure, in order: [Product Category] + "
+        "[Specific Application / Customer Segment] + [Value-added expertise, "
+        "optional] — e.g. 'Industrial rupture discs for oil & gas pressure-relief "
+        "systems, with in-house engineering and testing support.' Include the "
+        "third clause only if the text names a real value-add; otherwise omit it.)\n"
+        "- key_brands_represented (ONLY manufacturer/brand names this distributor "
+        "actually sells or represents, semicolon-separated: 'Brand A; Brand B; "
+        "Brand C' — list every manufacturer evidenced, distributors often "
+        "represent several; NOT the company name alone)\n"
+        "- retail_ecommerce (Online / Offline / Both — does the company sell via its own "
+        "website/e-commerce, only offline via phone/rep/branch, or both)\n"
+        "- contact_person (sales or procurement leader name if stated; never CEO/founder/HR unless title also includes sales or procurement)\n"
+        "- contact_role (sales/procurement/commercial title only)\n"
+        "- email (personal contact email, only if explicitly stated; never invent)\n"
+        "- phone (only if explicitly stated; never invent)\n"
+        "- office_email (general office/info/sales@ company email, only if explicitly "
+        "stated; never invent)\n"
+        "- summary (1-2 sentence company overview from the text)\n"
         "Use empty string for unknown. Do not invent data.\n\n"
-        f"{snippets[:7000]}"
+        f"{snippets[:24000]}"
     )
     try:
         resp = await client.chat.completions.create(
@@ -79,6 +136,94 @@ async def _llm_extract(
         return heuristic_extract_fields(snippets, company=company)
 
 
+_FAST_FILL_TOPICS: dict[str, str] = {
+    "founded_year": "founded year",
+    "headquarters": "headquarters location",
+    "employee_count": "number of employees",
+    "ownership": "ownership (private/public/subsidiary of whom)",
+    "revenue": "annual revenue",
+    "offices": "physical offices, warehouses, or plants (which countries)",
+    "regions_served": "countries or markets it sells to or serves",
+    "core_categories": "main product categories it distributes",
+    "specialty_focus": "specialty/niche focus",
+    "key_brands_represented": "manufacturer brands it distributes or represents",
+    "retail_ecommerce": "whether it sells online via its own website or only offline",
+    "linkedin": "LinkedIn company or contact page",
+    "contact_person": "sales or procurement contact person name",
+    "contact_role": "that person's role/title",
+    "email": "that contact's public email",
+    "phone": "office phone number",
+    "office_email": "general office or info email address",
+    "summary": "a brief company overview",
+}
+
+
+def _gai_fast_fill_enabled() -> bool:
+    raw = (os.getenv("GOOGLE_AI_FAST_FILL") or "true").strip().lower()
+    return raw not in ("0", "false", "no", "off")
+
+
+def _fast_profile_query(company: str, domain: str, needed: list[str]) -> str:
+    """One combined query asking for every needed field at once, instead of
+    one query per column. Real Google AI Overview answers to a broad
+    multi-part question are often thinner per-field than narrow targeted
+    ones, so this is a FIRST PASS only — whatever it doesn't fill still
+    falls through to the existing per-field loop unchanged."""
+    topics = [_FAST_FILL_TOPICS[f] for f in needed if f in _FAST_FILL_TOPICS]
+    if not topics:
+        return ""
+    who = f"{company} {domain}".strip()
+    return f"{who} — company profile: {'; '.join(topics)}"
+
+
+async def _fast_profile_fill(
+    row: dict[str, Any], needed: list[str], *, company: str, domain: str
+) -> set[str]:
+    """Try to fill every needed field from ONE combined Google AI query
+    before falling back to the slower one-query-per-column loop. Returns the
+    set of field names actually filled — the caller re-checks what's still
+    missing and only asks targeted follow-up questions for those.
+    """
+    from vendor_intel.clients.google_ai_scraper import google_ai_ask, heuristic_clean_scrape_markdown
+    from vendor_intel.enrichment.gap_fill.gaps import identity_text_matches, merge_extracted
+
+    if not _gai_fast_fill_enabled():
+        return set()
+
+    q = _fast_profile_query(company, domain, needed)
+    if not q:
+        return set()
+
+    print(f"  [gap_fill] fast-fill combined ask ({len(needed)} fields in 1 query): {q}", flush=True)
+    data = await google_ai_ask(q, llm_clean=True)
+    markdown = str(data.get("markdown") or "").strip()
+    raw_md = str(data.get("markdown_raw") or "").strip()
+    if not markdown and raw_md:
+        markdown = heuristic_clean_scrape_markdown(raw_md)
+    if not markdown:
+        return set()
+
+    fields_hint = "- " + "\n- ".join(needed)
+    extracted = await _llm_extract(company, domain, markdown, fields_hint=fields_hint)
+    if not extracted:
+        return set()
+
+    extracted = _sales_procurement_only(extracted)
+    id_ok = identity_text_matches(company, domain, markdown) or identity_text_matches(
+        company, domain, raw_md
+    )
+    slim = {k: v for k, v in extracted.items() if k in needed and v}
+    if not slim:
+        return set()
+
+    updates = merge_extracted(
+        row, slim, source="google_ai_scraper_fast", evidence_text=markdown, force_commit=id_ok
+    )
+    if updates:
+        print(f"  [gap_fill] fast-fill filled {', '.join(sorted(updates))} in ONE combined query", flush=True)
+    return set(updates)
+
+
 async def _search_snippets(router: FreeSearchRouter, query: str, *, max_hits: int = 8) -> str:
     hits = await router.search(query, discovery_mode=True)
     if not hits:
@@ -88,10 +233,9 @@ async def _search_snippets(router: FreeSearchRouter, query: str, *, max_hits: in
 
 
 async def fill_from_google_ai_scraper(row: dict[str, Any]) -> list[str]:
-    """Fill landscape Excel gaps via Google scraper + LLM (before LinkedIn MCP).
+    """Fill ALL landscape SLIM gaps via Google AI scraper, then LLM parse of scrape text.
 
-    Targets: Founded, Headquarters, Cities/Regions, Turnover (as range),
-    Contact Person, Core Categories, Specialty Focus, Key Brands, etc.
+    DeepSeek residual (step 5b) only runs later for columns still empty.
     """
     from vendor_intel.clients.google_ai_scraper import (
         google_ai_ask,
@@ -101,13 +245,7 @@ async def fill_from_google_ai_scraper(row: dict[str, Any]) -> list[str]:
     )
     from vendor_intel.enrichment.gap_fill.gaps import (
         domain_from_row,
-        has_core_categories,
-        has_founded,
-        has_headquarters,
-        has_key_brands,
-        has_offices,
-        has_revenue,
-        has_specialty_focus,
+        identity_text_matches,
         merge_extracted,
         missing_fields,
         sync_crawl_from_raw,
@@ -117,23 +255,29 @@ async def fill_from_google_ai_scraper(row: dict[str, Any]) -> list[str]:
         return []
 
     gaps = missing_fields(row)
-    # Always try google_ai when any landscape firmographic/category gap remains
-    # (contacts intentionally excluded — filled later via Apollo/LinkedIn only)
-    needed = [
-        g
-        for g in gaps
-        if g
-        in {
-            "headquarters",
-            "founded_year",
-            "employee_count",
-            "revenue",
-            "offices",
-            "core_categories",
-            "specialty_focus",
-            "key_brands_represented",
-        }
-    ]
+    # Cover every landscape column Google can reasonably answer
+    _google_fields = {
+        "headquarters",
+        "founded_year",
+        "employee_count",
+        "ownership",
+        "revenue",
+        "offices",
+        "regions_served",
+        "core_categories",
+        "specialty_focus",
+        "key_brands_represented",
+        "retail_ecommerce",
+        "linkedin",
+        "website",
+        "contact_person",
+        "contact_role",
+        "email",
+        "phone",
+        "office_email",
+        "summary",
+    }
+    needed = [g for g in gaps if g in _google_fields]
     if not needed:
         return []
     if not await google_ai_ping():
@@ -143,69 +287,135 @@ async def fill_from_google_ai_scraper(row: dict[str, Any]) -> list[str]:
     if not company:
         return []
     domain = domain_from_row(row)
-    market = norm(row.get("market") or row.get("query") or "")
 
-    from vendor_intel.enrichment.gap_fill.search_queries import build_gap_fill_queries
+    from vendor_intel.enrichment.gap_fill.heuristic_extract import heuristic_extract_fields
+    from vendor_intel.enrichment.gap_fill.search_queries import field_query_pairs
 
-    # One Google query per missing fact (e.g. "{company} founded year").
-    query_parts = build_gap_fill_queries(
+    # Fast first pass: try to fill everything from ONE combined query before
+    # falling back to the slower one-query-per-column loop below. Whatever
+    # this doesn't fill (broad AI Overview answers are thinner per-field than
+    # narrow ones) still gets the full targeted-query treatment afterward —
+    # this only shrinks how many of those targeted queries are still needed.
+    fast_filled = await _fast_profile_fill(row, needed, company=company, domain=domain)
+    if fast_filled:
+        needed = [g for g in missing_fields(row) if g in _google_fields]
+        if not needed:
+            sync_crawl_from_raw(row)
+            return ["google_ai_scraper_fast"]
+
+    # One Google AI query per missing Excel column: "founded year of {company}".
+    try:
+        max_q = max(18, min(24, int(os.getenv("GOOGLE_AI_GAP_FILL_MAX_QUERIES") or "22")))
+    except ValueError:
+        max_q = 22
+    pairs = field_query_pairs(
         company,
+        needed,
         domain=domain,
-        market=market,
-        needed_fields=needed,
-        max_queries=6,
+        max_queries=max_q,
     )
-    if not query_parts:
+    if not pairs:
         return []
 
+    _field_keep: dict[str, frozenset[str]] = {
+        "founded_year": frozenset({"founded_year"}),
+        "headquarters": frozenset({"headquarters"}),
+        "employee_count": frozenset({"employee_count"}),
+        "revenue": frozenset({"revenue"}),
+        "offices": frozenset({"offices", "operational_presence", "cities_regions"}),
+        "ownership": frozenset({"ownership"}),
+        "core_categories": frozenset({"core_categories"}),
+        "specialty_focus": frozenset({"specialty_focus"}),
+        "key_brands_represented": frozenset({"key_brands_represented"}),
+        "retail_ecommerce": frozenset({"retail_ecommerce", "retail_e_commerce", "retail", "online_offline"}),
+        "regions_served": frozenset({"regions_served"}),
+        "contact_person": frozenset({"contact_person"}),
+        "contact_role": frozenset({"contact_role", "role"}),
+        "email": frozenset({"email"}),
+        "phone": frozenset({"phone", "office_no"}),
+        "office_email": frozenset({"office_email", "info_email", "general_email"}),
+        "linkedin": frozenset({"linkedin", "linkedin_url"}),
+        "website": frozenset({"website"}),
+        "summary": frozenset({"summary", "company_summary"}),
+    }
+
     snippets_chunks: list[str] = []
-    # Step-5 search stack: never call OpenAI to clean scrapes when GAP_FILL_USE_LLM=false
-    ask_llm_clean = _gap_fill_use_llm()
-    for q in query_parts:
+    any_updates = bool(fast_filled)
+    # Google AI Overview (long) → DeepSeek useful sentences → fill this column
+    for field, q in pairs:
         print(f"  [gap_fill] google ask: {q}", flush=True)
-        data = await google_ai_ask(q, llm_clean=ask_llm_clean)
+        data = await google_ai_ask(q, llm_clean=True)
         markdown = str(data.get("markdown") or "").strip()
         raw_md = str(data.get("markdown_raw") or "").strip()
         if not markdown and raw_md:
             markdown = heuristic_clean_scrape_markdown(raw_md)
-        if markdown:
-            snippets_chunks.append(markdown)
+        if not markdown:
+            continue
+        if data.get("llm_cleaned"):
+            print(
+                f"  [gap_fill] deepseek cleaned overview for {field} "
+                f"({len(raw_md)}→{len(markdown)} chars)",
+                flush=True,
+            )
+        snippets_chunks.append(f"QUERY: {q}\n{markdown}")
         citations = data.get("citations") or []
         if isinstance(citations, list) and citations:
             snippets_chunks.append(
                 "Citations:\n" + "\n".join(str(c) for c in citations[:8])
             )
+        id_ok = identity_text_matches(company, domain, markdown) or identity_text_matches(
+            company, domain, raw_md
+        )
+        heur = heuristic_extract_fields(markdown, company=company)
+        keep = _field_keep.get(field) or {field}
+        slim = {k: v for k, v in heur.items() if k in keep and v}
+        if field in {"contact_person", "contact_role", "linkedin"}:
+            slim = _sales_procurement_only(slim)
+        if slim:
+            updates = merge_extracted(
+                row,
+                slim,
+                source="google_ai_scraper",
+                evidence_text=markdown,
+                force_commit=id_ok,
+            )
+            if updates:
+                any_updates = True
+                print(f"  [gap_fill] filled {', '.join(updates)} from: {q}", flush=True)
 
     if not snippets_chunks:
         return []
 
-    snippets = "\n\n".join(snippets_chunks)[:9000]
-    hint_bits = []
-    if not has_founded(row):
-        hint_bits.append("founded year")
-    if not has_headquarters(row):
-        hint_bits.append("headquarters")
-    if not has_offices(row):
-        hint_bits.append("cities/regions served")
-    if not has_revenue(row):
-        hint_bits.append("turnover as a RANGE e.g. $80–100M")
-    if not has_core_categories(row):
-        hint_bits.append("core product categories")
-    if not has_specialty_focus(row):
-        hint_bits.append("specialty focus")
-    if not has_key_brands(row):
-        hint_bits.append("key brands represented")
-    # Contact person intentionally omitted from Google AI extract hints
-    fields_hint = "Fill: " + ", ".join(hint_bits) + "." if hint_bits else "Fill firmographic facts."
+    still = [g for g in missing_fields(row) if g in _google_fields]
+    snippets = "\n\n".join(snippets_chunks)[:40000]
+    if still:
+        fields_hint = (
+            "Each block starts with QUERY: <column ask> (example: founded year of \"Acme\"). "
+            "Fill ONLY these still-empty fields from the matching Google AI block: "
+            + ", ".join(still)
+            + ". Leave empty string when not stated. Never invent emails or phones. "
+            "Contact person/role must be sales or procurement — not CEO/founder."
+        )
+        extracted = await _llm_extract(
+            company,
+            domain,
+            snippets,
+            fields_hint=fields_hint,
+        )
+        extracted = _sales_procurement_only(extracted)
+        id_ok = identity_text_matches(company, domain, snippets)
+        updates = merge_extracted(
+            row,
+            extracted,
+            source="google_ai_scraper",
+            evidence_text=snippets,
+            force_commit=id_ok,
+        )
+        if updates:
+            any_updates = True
+            print(f"  [gap_fill] llm filled {', '.join(updates)}", flush=True)
 
-    extracted = await _llm_extract(
-        company,
-        domain,
-        snippets,
-        fields_hint=fields_hint,
-    )
-    updates = merge_extracted(row, extracted, source="google_ai_scraper")
-    if updates:
+    if any_updates:
         sync_crawl_from_raw(row)
         return ["google_ai_scraper"]
     return []
@@ -323,7 +533,9 @@ async def fill_from_crunchbase(row: dict[str, Any], router: FreeSearchRouter) ->
         snippets,
         fields_hint="Crunchbase-style startup firmographics.",
     )
-    updates = merge_extracted(row, extracted, source="crunchbase")
+    updates = merge_extracted(
+        row, extracted, source="crunchbase", evidence_text=snippets
+    )
     return ["crunchbase"] if updates else []
 
 
@@ -351,7 +563,24 @@ async def fill_from_wikidata(row: dict[str, Any]) -> list[str]:
         "offices": "",
         "linkedin_url": "",
     }
-    updates = merge_extracted(row, extracted, source="wikidata")
+    evidence = " ".join(
+        str(x)
+        for x in (
+            name,
+            domain,
+            firm.get("website"),
+            firm.get("headquarters"),
+            firm.get("wikidata_qid"),
+        )
+        if x
+    )
+    updates = merge_extracted(
+        row,
+        extracted,
+        source="wikidata",
+        evidence_text=evidence,
+        force_commit=True,
+    )
 
     # Store structured extras that merge_extracted doesn't cover.
     crawl = dict(row.get("_crawl") or {})
@@ -378,29 +607,35 @@ async def fill_from_wikidata(row: dict[str, Any]) -> list[str]:
 
 
 async def fill_from_wikipedia(row: dict[str, Any]) -> list[str]:
-    from vendor_intel.enrichment.gap_fill.gaps import row_has_gaps
+    from vendor_intel.enrichment.gap_fill.gaps import identity_text_matches, row_has_gaps
 
     if not row_has_gaps(row):
         return []
     name = norm(row.get("company") or row.get("brand"))
     if not name:
         return []
+    domain = domain_from_row(row)
 
     snippets = ""
     try:
         async with httpx.AsyncClient(timeout=15.0) as client:
+            # Prefer name + domain disambiguation when website is known
+            sr = quote(f"{name} {domain}".strip() if domain else name)
             search_url = (
                 "https://en.wikipedia.org/w/api.php?"
-                f"action=query&list=search&srsearch={quote(name)}&format=json&srlimit=3"
+                f"action=query&list=search&srsearch={sr}&format=json&srlimit=5"
             )
             resp = await client.get(search_url)
             if resp.status_code == 200:
                 data = resp.json()
                 hits = (data.get("query") or {}).get("search") or []
                 parts: list[str] = []
-                for hit in hits[:2]:
+                for hit in hits[:4]:
                     title = hit.get("title") or ""
                     snippet = hit.get("snippet") or ""
+                    probe = f"{title} {snippet}"
+                    if not identity_text_matches(name, domain, probe):
+                        continue
                     parts.append(f"[Wikipedia: {title}] {snippet}")
                     summary_url = (
                         "https://en.wikipedia.org/w/api.php?"
@@ -411,8 +646,10 @@ async def fill_from_wikipedia(row: dict[str, Any]) -> list[str]:
                         pages = (sresp.json().get("query") or {}).get("pages") or {}
                         for page in pages.values():
                             extract = page.get("extract") or ""
-                            if extract:
+                            if extract and identity_text_matches(name, domain, extract):
                                 parts.append(extract[:2000])
+                    if len(parts) >= 3:
+                        break
                 snippets = "\n\n".join(parts)
     except Exception:
         snippets = ""
@@ -421,11 +658,16 @@ async def fill_from_wikipedia(row: dict[str, Any]) -> list[str]:
         return []
     extracted = await _llm_extract(
         name,
-        domain_from_row(row),
+        domain,
         snippets,
         fields_hint="Wikipedia infobox-style facts.",
     )
-    updates = merge_extracted(row, extracted, source="wikipedia")
+    updates = merge_extracted(
+        row,
+        extracted,
+        source="wikipedia",
+        evidence_text=snippets,
+    )
     return ["wikipedia"] if updates else []
 
 
@@ -465,7 +707,9 @@ async def fill_from_sec_edgar(row: dict[str, Any]) -> list[str]:
         snippets,
         fields_hint="US SEC EDGAR public company filings.",
     )
-    updates = merge_extracted(row, extracted, source="sec_edgar")
+    updates = merge_extracted(
+        row, extracted, source="sec_edgar", evidence_text=snippets, force_commit=True
+    )
     return ["sec_edgar"] if updates else []
 
 
@@ -488,7 +732,9 @@ async def fill_from_locations_search(row: dict[str, Any], router: FreeSearchRout
         snippets,
         fields_hint="Office locations and cities/regions served.",
     )
-    updates = merge_extracted(row, extracted, source="locations")
+    updates = merge_extracted(
+        row, extracted, source="locations", evidence_text=snippets
+    )
     return ["locations"] if updates else []
 
 
@@ -519,7 +765,7 @@ async def fill_from_leadership(row: dict[str, Any], router: FreeSearchRouter) ->
     updates = merge_contact_extracted(row, extracted, source="leadership")
 
     if not has_contact_person(row):
-        q = f'"{name}" CEO OR "Chief Executive" OR Founder site:{domain}'
+        q = f'"{name}" "head of sales" OR "sales director" OR "commercial director" OR procurement site:{domain}'
         snippets = await _search_snippets(router, q, max_hits=6)
         if snippets:
             from backend.config import get_settings, sync_opencode_to_openai_env
@@ -535,7 +781,7 @@ async def fill_from_leadership(row: dict[str, Any], router: FreeSearchRouter) ->
                 prompt = (
                     f"Company: {name}\nDomain: {domain}\n\n"
                     "From the search snippets below, extract ONLY if explicitly stated:\n"
-                    "contact_person (CEO/Founder/Managing Director full name), contact_role (exact title).\n"
+                    "contact_person (sales or procurement leader full name), contact_role (sales/procurement title only).\n"
                     "Return JSON: contact_person, contact_role. Empty string if unknown. Do not guess.\n\n"
                     f"{snippets[:5000]}"
                 )
@@ -621,7 +867,7 @@ async def fill_from_openai_residual(
     if not has_key_brands(row):
         hint_bits.append("key brands represented")
     if not has_contact_person(row):
-        hint_bits.append("CEO/founder contact + role")
+        hint_bits.append("sales or procurement contact + role")
     if not hint_bits:
         return []
 
@@ -678,7 +924,12 @@ async def fill_from_openai_residual(
                     text = "\n".join(parts)
                 data = json.loads(text) if text.strip().startswith("{") else {}
                 if isinstance(data, dict) and data:
-                    updates = merge_extracted(row, data, source="openai_sdk_residual")
+                    updates = merge_extracted(
+                        row,
+                        data,
+                        source="openai_sdk_residual",
+                        evidence_text=f"{name} {domain} {market}",
+                    )
                     if updates:
                         sync_crawl_from_raw(row)
                         return ["openai_sdk_residual"]
@@ -709,7 +960,9 @@ async def fill_from_openai_residual(
         snippets,
         fields_hint="Fill: " + ", ".join(hint_bits) + ".",
     )
-    updates = merge_extracted(row, extracted, source="openai_sdk_residual")
+    updates = merge_extracted(
+        row, extracted, source="openai_sdk_residual", evidence_text=snippets
+    )
     if updates:
         sync_crawl_from_raw(row)
         return ["openai_sdk_residual"]

@@ -7,9 +7,9 @@ Requires the google-ai-scraper FastAPI backend + browser extension:
 API: GET /ask?q=... → {markdown, citations, query_id, thread_id, error?}
      GET /health
 
-Optional LLM cleanup (GOOGLE_AI_SCRAPER_LLM_CLEAN=true, uses OPENAI_* keys):
-  Strips SERP chrome / nav noise and returns a concise factual answer for gap-fill
-  and discovery snippets.
+DeepSeek cleanup (GOOGLE_AI_SCRAPER_LLM_CLEAN=true, OPENAI_* → api.deepseek.com):
+  Google AI Overview often returns a long noisy page. DeepSeek keeps only the
+  useful sentences that answer the column query (e.g. founded year of X).
 
 When Google skips AI Overview, the client retries with rephrased queries
 (GOOGLE_AI_SCRAPER_FORCE_OVERVIEW=true, default on) instead of accepting empty SERP chrome.
@@ -53,7 +53,11 @@ class GoogleAiHit:
 
 
 def google_ai_base_url() -> str:
-    return (os.getenv("GOOGLE_AI_SCRAPER_BASE_URL") or "http://127.0.0.1:15551").strip().rstrip("/")
+    return (
+        os.getenv("GOOGLE_AI_SCRAPER_URL")
+        or os.getenv("GOOGLE_AI_SCRAPER_BASE_URL")
+        or "http://127.0.0.1:15551"
+    ).strip().rstrip("/")
 
 
 def google_ai_enabled() -> bool:
@@ -80,11 +84,7 @@ def google_ai_gap_fill_enabled() -> bool:
 
 
 def google_ai_llm_clean_enabled() -> bool:
-    """Allow OPENAI_* cleanup of scrape text (default on).
-
-    When a real AI Overview is present, LLM clean is skipped by default
-    (see google_ai_llm_clean_only_when_missing). Overview text is the source of truth.
-    """
+    """Allow DeepSeek (OPENAI_*) to turn long Overview text into useful sentences."""
     if not google_ai_enabled():
         return False
     raw = (os.getenv("GOOGLE_AI_SCRAPER_LLM_CLEAN") or "true").strip().lower()
@@ -92,9 +92,24 @@ def google_ai_llm_clean_enabled() -> bool:
 
 
 def google_ai_llm_clean_only_when_missing() -> bool:
-    """If true (default), LLM clean runs only when AI Overview is missing/chrome."""
-    raw = (os.getenv("GOOGLE_AI_SCRAPER_LLM_CLEAN_ONLY_WHEN_MISSING") or "true").strip().lower()
+    """If true, DeepSeek clean runs only when AI Overview is missing.
+
+    Default false: long Overview text is always DeepSeek-cleaned into useful sentences.
+    """
+    raw = (os.getenv("GOOGLE_AI_SCRAPER_LLM_CLEAN_ONLY_WHEN_MISSING") or "false").strip().lower()
     return raw in ("1", "true", "yes", "on")
+
+
+def _llm_clean_model() -> str:
+    """Prefer DeepSeek chat when OPENAI_* points at api.deepseek.com."""
+    explicit = (os.getenv("GOOGLE_AI_SCRAPER_LLM_MODEL") or "").strip()
+    if explicit:
+        return explicit
+    model = (os.getenv("OPENAI_MODEL") or "").strip()
+    base = (os.getenv("OPENAI_BASE_URL") or "").strip().lower()
+    if "deepseek" in base or model.startswith("deepseek"):
+        return model or "deepseek-chat"
+    return model or "deepseek-chat"
 
 
 def google_ai_force_overview_enabled() -> bool:
@@ -193,7 +208,7 @@ def _ai_overview_missing(data: dict) -> bool:
 def _overview_query_variants(query: str) -> list[str]:
     """Phrasings that more reliably trigger Google AI Overview panels.
 
-    Field-specific asks (``{company} founded year``) stay as-is first; only
+    Field-specific asks (``founded year of {company}``) stay as-is first; only
     light fallbacks are added so we do not dilute the fact query.
     """
     q = (query or "").strip()
@@ -204,6 +219,17 @@ def _overview_query_variants(query: str) -> list[str]:
         "headquarters",
         "number of employees",
         "official website",
+        "operational presence",
+        "continent and geography",
+        "core categories",
+        "specialty focus",
+        "key brands represented",
+        "distribution type",
+        "sales or procurement",
+        "office phone",
+        "company summary",
+        "ownership",
+        " of ",
         "ceo founder",
         "brands products",
         "ownership parent",
@@ -237,48 +263,52 @@ def _overview_query_variants(query: str) -> list[str]:
 
 
 async def llm_clean_scrape_markdown(query: str, raw_markdown: str) -> str:
-    """Use OpenAI-compatible chat to return only the factual answer text.
+    """DeepSeek: turn a long Google AI Overview into useful sentences only.
 
     Returns empty string on skip/failure (caller keeps heuristic/raw).
+    Never invents facts — only keeps sentences already in the Overview.
     """
     if not google_ai_llm_clean_enabled():
         return ""
     api_key = (os.getenv("OPENAI_API_KEY") or "").strip()
     if not api_key:
         return ""
-    trimmed = heuristic_clean_scrape_markdown(raw_markdown, max_chars=8000)
+    trimmed = heuristic_clean_scrape_markdown(raw_markdown, max_chars=12000)
     if len(trimmed) < 40:
         return trimmed
 
-    base_url = (os.getenv("OPENAI_BASE_URL") or "https://api.openai.com/v1").strip().rstrip("/")
-    model = (
-        os.getenv("GOOGLE_AI_SCRAPER_LLM_MODEL") or os.getenv("OPENAI_MODEL") or "gpt-4o-mini"
-    ).strip()
+    base_url = (os.getenv("OPENAI_BASE_URL") or "https://api.deepseek.com/v1").strip().rstrip("/")
+    model = _llm_clean_model()
 
     system = (
-        "You clean noisy Google Search / AI Overview scrape text. "
-        "Remove navigation, ads, 'People also ask', cookie banners, unrelated links, "
-        "and UI chrome. Keep only facts that answer the user query. "
-        "Prefer a short clear paragraph plus optional bullet key facts. "
-        "Do not invent facts. If nothing useful remains, return an empty string."
+        "You clean Google AI Overview text for vendor research. "
+        "The Overview is long and noisy. Keep ONLY useful factual sentences "
+        "that answer the search query. "
+        "Drop navigation, ads, People also ask, related searches, cookie banners, "
+        "duplicate lines, and UI chrome. "
+        "Copy or lightly tighten sentences from the Overview — do not invent "
+        "years, cities, emails, phones, names, or URLs. "
+        "Keep the company name in at least one sentence. "
+        "If the Overview does not answer the query, return an empty string."
     )
     user = (
-        f"Query: {query.strip()}\n\n"
-        "Raw scrape (may include SERP chrome):\n"
+        f"Search query: {query.strip()}\n\n"
+        "Google AI Overview (long / noisy):\n"
         f"```\n{trimmed}\n```\n\n"
-        "Return ONLY the cleaned factual answer text (plain text or light markdown). "
-        "No JSON wrapper, no preamble."
+        "Return 1–8 useful factual sentences (or short bullets) that answer the query. "
+        "Plain text only. No JSON. No preamble."
     )
     payload = {
         "model": model,
         "temperature": 0,
+        "max_tokens": 700,
         "messages": [
             {"role": "system", "content": system},
             {"role": "user", "content": user},
         ],
     }
     try:
-        async with httpx.AsyncClient(timeout=45.0) as client:
+        async with httpx.AsyncClient(timeout=60.0) as client:
             r = await client.post(
                 f"{base_url}/chat/completions",
                 headers={
@@ -296,7 +326,7 @@ async def llm_clean_scrape_markdown(query: str, raw_markdown: str) -> str:
             if content.startswith("```"):
                 content = re.sub(r"^```\w*\n?", "", content)
                 content = re.sub(r"\n?```$", "", content).strip()
-            return content[:6000]
+            return content[:4000]
     except Exception:
         return ""
 
@@ -357,35 +387,61 @@ async def _ask_once(
         }
 
 
-async def _apply_clean(query: str, data: dict, *, llm_clean: bool | None) -> dict:
-    raw_md = str(data.get("markdown") or "").strip()
+def _heuristic_only(data: dict) -> dict:
+    raw_md = str(data.get("markdown") or data.get("markdown_raw") or "").strip()
     if not raw_md:
         data["ai_overview_missing"] = True
         data["llm_cleaned"] = False
         return data
+    data["markdown_raw"] = data.get("markdown_raw") or raw_md
+    heur = heuristic_clean_scrape_markdown(str(data["markdown_raw"]))
+    data["markdown"] = heur or str(data["markdown_raw"])
+    data["ai_overview_missing"] = _ai_overview_missing(data)
+    data["llm_cleaned"] = False
+    if not data["ai_overview_missing"]:
+        data["source"] = "google_ai_overview"
+    return data
 
-    data["markdown_raw"] = raw_md
-    heur = heuristic_clean_scrape_markdown(raw_md)
-    data["markdown"] = heur or raw_md
-    missing = _ai_overview_missing(data)
-    data["ai_overview_missing"] = missing
 
-    # Real AI Overview → trust Google text (heuristic only). Do NOT call LLM.
-    # LLM clean only when Overview is missing / SERP chrome (fallback).
+async def _apply_deepseek_sentence_clean(
+    query: str,
+    data: dict,
+    *,
+    llm_clean: bool | None,
+) -> dict:
+    """After a Google AI Overview is chosen: DeepSeek keeps useful sentences only."""
+    data = _heuristic_only(data)
+    raw_for_llm = str(data.get("markdown") or data.get("markdown_raw") or "")
+    if not raw_for_llm.strip():
+        return data
+
     want_llm = google_ai_llm_clean_enabled() if llm_clean is None else bool(llm_clean)
     only_missing = google_ai_llm_clean_only_when_missing()
-    if want_llm and (missing or not only_missing) and (heur or raw_md):
-        cleaned = await llm_clean_scrape_markdown(query, heur or raw_md)
-        if cleaned and len(cleaned) >= 20:
-            data["markdown"] = cleaned
-            data["llm_cleaned"] = True
-        else:
-            data["llm_cleaned"] = False
+    missing = bool(data.get("ai_overview_missing"))
+    # Default: clean long Overview text. Optional: only when Overview is missing.
+    should_clean = want_llm and (missing if only_missing else True)
+    if not should_clean:
+        return data
+
+    before = len(raw_for_llm)
+    cleaned = await llm_clean_scrape_markdown(query, raw_for_llm)
+    if cleaned and len(cleaned) >= 20:
+        data["markdown"] = cleaned
+        data["llm_cleaned"] = True
+        data["llm_clean_model"] = _llm_clean_model()
+        data["source"] = "google_ai_overview+deepseek"
+        print(
+            f"  [google_ai] deepseek useful sentences {before}->{len(cleaned)} chars | {query[:90]}",
+            flush=True,
+        )
     else:
         data["llm_cleaned"] = False
-        if not missing:
-            data["source"] = "google_ai_overview"
     return data
+
+
+async def _apply_clean(query: str, data: dict, *, llm_clean: bool | None) -> dict:
+    """Heuristic strip, then DeepSeek useful-sentence clean (once per chosen scrape)."""
+    return await _apply_deepseek_sentence_clean(query, data, llm_clean=llm_clean)
 
 
 async def google_ai_ask(
@@ -425,15 +481,16 @@ async def google_ai_ask(
         tid = thread_id if attempts == 0 else None
         data = await _ask_once(base, variant, thread_id=tid, mode=mode)
         attempts += 1
-        data = await _apply_clean(q, data, llm_clean=llm_clean)
+        data = _heuristic_only(data)
         data["overview_attempts"] = attempts
         data["overview_query"] = variant
 
         if not _ai_overview_missing(data):
             data["ai_overview_missing"] = False
-            return data
+            # One DeepSeek pass: long Overview → useful sentences for this query
+            return await _apply_deepseek_sentence_clean(q, data, llm_clean=llm_clean)
 
-        # Keep the richest attempt so far for final LLM fallback
+        # Keep the richest attempt so far for final DeepSeek clean
         best_len = len(str(best.get("markdown") or ""))
         cur_len = len(str(data.get("markdown") or ""))
         if cur_len >= best_len:
@@ -446,7 +503,7 @@ async def google_ai_ask(
     best["ai_overview_missing"] = True
     if not best.get("error") or str(best.get("error")).startswith("no_ai"):
         best["error"] = best.get("error") or "no_ai_overview_after_retries"
-    return best
+    return await _apply_deepseek_sentence_clean(q, best, llm_clean=llm_clean)
 
 
 def google_ai_response_to_hits(query: str, data: dict) -> list[GoogleAiHit]:
@@ -518,10 +575,8 @@ async def google_ai_ask_facts(query: str, *, company: str = "") -> dict:
         return facts
 
     api_key = (os.getenv("OPENAI_API_KEY") or "").strip()
-    base_url = (os.getenv("OPENAI_BASE_URL") or "https://api.openai.com/v1").strip().rstrip("/")
-    model = (
-        os.getenv("GOOGLE_AI_SCRAPER_LLM_MODEL") or os.getenv("OPENAI_MODEL") or "gpt-4o-mini"
-    ).strip()
+    base_url = (os.getenv("OPENAI_BASE_URL") or "https://api.deepseek.com/v1").strip().rstrip("/")
+    model = _llm_clean_model()
     label = (company or query).strip()
     prompt = (
         f"Company/topic: {label}\n\n"

@@ -30,12 +30,12 @@ WIDTHS = {
     "Specialty Focus": 28,
     "Core Categories": 28,
     "Summary": 42,
-    "Retail / E-commerce / Both": 18,
-    "Distribution Type": 20,
+    "Online / Offline / Both": 18,
     "Contact Person": 18,
     "Email": 24,
     "LinkedIn": 26,
     "Office No.": 14,
+    "Office Email": 24,
     "Country Code": 10,
     "Region Code": 10,
 }
@@ -72,82 +72,6 @@ GEO_POOL = [
     "Egypt",
     "Philippines",
 ]
-
-OEM_BY_HINT: dict[str, set[str]] = {
-    "firewall": {
-        "palo alto networks",
-        "fortinet",
-        "check point",
-        "cisco",
-        "juniper networks",
-        "zscaler",
-        "sophos",
-        "watchguard",
-        "sonicwall",
-        "barracuda",
-        "forcepoint",
-        "crowdstrike",
-    },
-    "smartwatch": {
-        "apple",
-        "samsung",
-        "garmin",
-        "fitbit",
-        "huawei",
-        "xiaomi",
-        "amazfit",
-        "google",
-        "fossil",
-    },
-    "green": {
-        "exxonmobil",
-        "shell plc",
-        "bp plc",
-        "chevron",
-        "saudi aramco",
-        "sinopec",
-        "basf se",
-        "dow chemical",
-    },
-}
-
-MARKET_DEFAULTS: dict[str, dict[str, str]] = {
-    "avocado": {
-        "Core Categories": "Avocado Oil; Edible Oils; Specialty Oils",
-        "Specialty Focus": "Avocado oil distribution / wholesale / retail channel",
-        "Key Brands Represented": "Private label; Regional avocado oil brands",
-        "Distribution Type": "Broadline Distributor",
-        "Retail / E-commerce / Both": "Both",
-    },
-    "firewall": {
-        "Core Categories": "Network Firewalls; NGFW; SASE; Secure SD-WAN; Cybersecurity",
-        "Specialty Focus": "Network security and firewall channel distribution",
-        "Key Brands Represented": "Cisco; Fortinet; Palo Alto Networks; Check Point; Sophos",
-        "Distribution Type": "Value-Added Distributor",
-        "Retail / E-commerce / Both": "No",
-    },
-    "smartwatch": {
-        "Core Categories": "Smartwatches; Wearables; Fitness Trackers; Connected Devices",
-        "Specialty Focus": "Smartwatch and wearable device channel distribution / retail",
-        "Key Brands Represented": "Apple Watch; Samsung Galaxy Watch; Garmin; Fitbit; Amazfit",
-        "Distribution Type": "Broadline Distributor",
-        "Retail / E-commerce / Both": "Both",
-    },
-    "green": {
-        "Core Categories": "Bio-based Chemicals; Green Solvents; Specialty Ingredients; Sustainable Polymers",
-        "Specialty Focus": "Green and specialty chemical distribution",
-        "Key Brands Represented": "Bio-based solvents; Green surfactants; Specialty additives",
-        "Distribution Type": "Specialty Distributor",
-        "Retail / E-commerce / Both": "No",
-    },
-    "general": {
-        "Core Categories": "Not publicly disclosed",
-        "Specialty Focus": "Channel / distribution for this market",
-        "Key Brands Represented": "Not publicly disclosed",
-        "Distribution Type": "Distributor",
-        "Retail / E-commerce / Both": "No",
-    },
-}
 
 
 def _project_root() -> Path:
@@ -279,7 +203,6 @@ async def web_harvest_candidates(
     settings = Settings()
     router = FreeSearchRouter(settings)
     family = market_family(query)
-    oem = OEM_BY_HINT.get(family, set())
     topic = re.sub(r"\bglobal\b|\bmarket\b", "", query, flags=re.I).strip() or query
 
     queries = split_batch(load_discovery_queries(query, country), batch)[:max_queries]
@@ -310,8 +233,6 @@ async def web_harvest_candidates(
                 continue
             name = clean_title_as_name(title) or ""
             if not name or is_junk_candidate_name(name, dom):
-                continue
-            if _norm(name) in oem:
                 continue
             key = dom.lower()
             if key in found:
@@ -347,29 +268,18 @@ async def web_harvest_candidates(
 
 
 def _blank_row(name: str, website: str, family: str, source: str) -> dict[str, str]:
-    from vendor_intel.export.landscape_slim import (
-        country_and_region_codes,
-        format_continent_geography,
-        operational_presence_text,
-    )
+    """Empty landscape row — no MARKET_DEFAULTS / no invented category text.
 
-    d = MARKET_DEFAULTS.get(family, MARKET_DEFAULTS["general"]).copy()
+    ``family`` kept for call-site compatibility; defaults are not applied.
+    Columns stay blank until Google AI / scrape / residual fills real values.
+    """
+    _ = family  # unused — do not inject market template defaults
     row = {h: "" for h in HEADERS}
-    row.update(d)
     row["Company"] = name
     row["Website"] = website or ""
-    row["Founded"] = "Not publicly disclosed"
-    row["Headquarters"] = "Not publicly disclosed"
-    row["Ownership"] = "Not publicly disclosed"
-    row["Employees"] = "Not publicly disclosed"
-    # Contact / office stay empty unless later filled with evidence
+    # Contacts stay empty unless evidenced
     for c in ("Contact Person", "Role", "Email", "LinkedIn", "Office No."):
         row[c] = ""
-    row["Continent / Geography"] = ""
-    row["Operational Presence"] = ""
-    row["Country Code"] = ""
-    row["Region Code"] = ""
-    row["Summary"] = f"{name} — channel participant ({source})."
     row["Data Sources"] = source  # not exported in slim; kept for internal merges
     return row
 
@@ -432,11 +342,10 @@ def merge_candidates(
         if d:
             by_domain.add(d)
 
-    oem = OEM_BY_HINT.get(family, set())
     added = 0
     for c in candidates:
         name = (c.get("name") or "").strip()
-        if not name or _norm(name) in oem:
+        if not name:
             continue
         n = _norm(name)
         d = (c.get("domain") or _dom(c.get("website", ""))).lower()
@@ -508,7 +417,7 @@ def write_final_xlsx(
 
     center_cols = {
         "Founded",
-        "Retail / E-commerce / Both",
+        "Online / Offline / Both",
         "Country Code",
         "Region Code",
         "Office No.",

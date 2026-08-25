@@ -1,9 +1,9 @@
-"""Focused Google / Google-AI / DDGS / SearXNG query builders for Step-5 fill.
+"""Focused Google / Google-AI query builders for Step-5 fill.
 
-Use short, field-specific search-bar phrasing (one fact per query), e.g.:
-  {company} founded year
-  {company} headquarters
-  {company} number of employees
+One Google AI ask per Excel column, e.g.:
+  founded year of "Acme Dist"
+  operational presence of "Acme Dist"
+  headquarters of "Acme Dist"
 """
 from __future__ import annotations
 
@@ -29,20 +29,28 @@ def _quoted(name: str) -> str:
     return n
 
 
-# Gap key → Google search phrasing (append after company name)
+# Gap key → phrase in: "{phrase} of {company}"
+# Matches landscape Excel columns (Founded, Operational Presence, …).
 _FIELD_PHRASE: dict[str, str] = {
     "founded_year": "founded year",
     "headquarters": "headquarters",
     "employee_count": "number of employees",
-    "revenue": "revenue turnover",
-    "offices": "offices locations",
-    "ownership": "ownership parent company",
-    "core_categories": "products categories",
+    "revenue": "revenue",
+    "offices": "physical offices, plants, or warehouses (continent and geography)",
+    "ownership": "ownership",
+    "core_categories": "core categories",
     "specialty_focus": "specialty focus",
-    "key_brands_represented": "brands products portfolio",
-    "contact_person": "CEO founder",
-    "linkedin": "LinkedIn company",
+    "key_brands_represented": "key brands represented",
+    "retail_ecommerce": "online or offline sales channel",
+    "regions_served": "countries or markets served (operational presence)",
+    "contact_person": "sales or procurement contact person name",
+    "contact_role": "sales or procurement contact person role",
+    "email": "public contact email",
+    "phone": "office phone number",
+    "office_email": "general office or info email address",
+    "linkedin": "sales or procurement LinkedIn",
     "website": "official website",
+    "summary": "company summary",
 }
 
 # Preferred ask order when several gaps are open
@@ -52,28 +60,71 @@ _FIELD_ORDER: tuple[str, ...] = (
     "employee_count",
     "ownership",
     "offices",
+    "regions_served",
     "website",
     "core_categories",
     "specialty_focus",
     "key_brands_represented",
+    "retail_ecommerce",
     "revenue",
     "linkedin",
     "contact_person",
+    "contact_role",
+    "email",
+    "phone",
+    "office_email",
+    "summary",
 )
 
 
 def field_query(company: str, field: str, *, domain: str = "") -> str:
-    """One Google query for one missing field: ``{company} founded year``."""
+    """One Google AI query per column: ``founded year of {company}``."""
     qn = _quoted(company)
     if not qn:
         return ""
     phrase = _FIELD_PHRASE.get(field) or field.replace("_", " ")
-    q = f"{qn} {phrase}"
-    dom = _clean_domain(domain)
-    # Soft site hint only for brand/category lookups (keeps HQ/founded global)
-    if dom and field in {"core_categories", "specialty_focus", "key_brands_represented", "website"}:
-        q = f"{q} {dom}"
+    q = f"{phrase} of {qn}"
     return q
+
+
+def field_query_pairs(
+    company: str,
+    fields: list[str] | tuple[str, ...] | set[str],
+    *,
+    domain: str = "",
+    max_queries: int = 22,
+) -> list[tuple[str, str]]:
+    """``(gap_key, "founded year of {company}")`` for each missing column."""
+    wanted = {str(f).strip() for f in fields if str(f).strip()}
+    if not wanted:
+        return []
+
+    ranked: list[tuple[str, str]] = []
+    for key in _FIELD_ORDER:
+        if key not in wanted:
+            continue
+        q = field_query(company, key, domain=domain)
+        if q:
+            ranked.append((key, q))
+
+    for key in sorted(wanted):
+        if key in _FIELD_PHRASE or key in _FIELD_ORDER:
+            continue
+        q = field_query(company, key, domain=domain)
+        if q:
+            ranked.append((key, q))
+
+    seen: set[str] = set()
+    out: list[tuple[str, str]] = []
+    for field, q in ranked:
+        k = q.lower()
+        if k in seen:
+            continue
+        seen.add(k)
+        out.append((field, q))
+        if len(out) >= max_queries:
+            break
+    return out
 
 
 def queries_for_fields(
@@ -82,48 +133,10 @@ def queries_for_fields(
     *,
     domain: str = "",
     market: str = "",
-    max_queries: int = 6,
+    max_queries: int = 22,
 ) -> list[str]:
-    """Build ``{company} <field phrase>`` queries for the given gaps."""
-    wanted = {str(f).strip() for f in fields if str(f).strip()}
-    if not wanted:
-        return []
-
-    ranked: list[str] = []
-    for key in _FIELD_ORDER:
-        if key not in wanted:
-            continue
-        q = field_query(company, key, domain=domain)
-        if q:
-            ranked.append(q)
-
-    # Any unknown gap keys still get a plain phrase
-    for key in sorted(wanted):
-        if key in _FIELD_PHRASE or key in _FIELD_ORDER:
-            continue
-        q = field_query(company, key, domain=domain)
-        if q:
-            ranked.append(q)
-
-    # Optional market + brands query when categories/brands missing
-    mkt = re.sub(r"\s+", " ", (market or "").strip())
-    mkt = re.sub(r"(?i)^global\s+", "", mkt).strip()
-    if mkt and wanted & {"core_categories", "key_brands_represented", "specialty_focus"}:
-        qn = _quoted(company)
-        if qn:
-            ranked.append(f"{qn} {mkt} brands distributors")
-
-    seen: set[str] = set()
-    out: list[str] = []
-    for q in ranked:
-        key = q.lower()
-        if key in seen:
-            continue
-        seen.add(key)
-        out.append(q)
-        if len(out) >= max_queries:
-            break
-    return out
+    """Build ``{phrase} of {company}`` queries for the given gaps."""
+    return [q for _, q in field_query_pairs(company, fields, domain=domain, max_queries=max_queries)]
 
 
 def firmographic_queries(company: str, *, domain: str = "") -> list[str]:
@@ -137,17 +150,14 @@ def firmographic_queries(company: str, *, domain: str = "") -> list[str]:
 
 
 def leadership_queries(company: str, *, domain: str = "") -> list[str]:
-    """CEO / founder — only when contact fill is explicitly requested."""
+    """Sales / procurement contact — never CEO-only."""
     qn = _quoted(company)
     if not qn:
         return []
     out = [
-        f"{qn} CEO founder",
-        f"{qn} Chief Executive Officer",
+        f"sales or procurement contact person name of {qn}",
+        f"head of sales of {qn}",
     ]
-    dom = _clean_domain(domain)
-    if dom:
-        out.append(f"{qn} CEO site:{dom}")
     return out
 
 
@@ -170,7 +180,7 @@ def build_gap_fill_queries(
     need_categories: bool = False,
     need_contact: bool = False,
     needed_fields: list[str] | tuple[str, ...] | set[str] | None = None,
-    max_queries: int = 6,
+    max_queries: int = 22,
 ) -> list[str]:
     """Pick field-specific Google queries for missing landscape gaps.
 

@@ -1,14 +1,15 @@
-"""Fill landscape rows via search stack FIRST, then optional OpenAI residual.
+"""Fill landscape rows: Google AI scraper FIRST, then DeepSeek residual for empties.
 
 Order (Step 5):
-  1) Google AI scraper → DDGS/SearXNG backfill → Wikipedia/Owler/Exa (+ optional Apollo)
-  2) If fields are still empty / \"Not publicly disclosed\" → OpenAI SDK web_search
-     residual fill for those gaps only (keeps values already found in step 1)
+  1) Google AI scraper fills every missing SLIM column it can find (parse scrape → columns)
+  2) If any column is still empty / \"Not publicly disclosed\" → DeepSeek (OPENAI_*)
+     residual fill for those gaps only (never overwrites Google AI values)
 
 Env:
-  SEARCH_STACK_OPENAI_RESIDUAL=true|false  (default true)
+  SEARCH_STACK_SOURCES=google_ai          (default; comma list if you want extras)
+  SEARCH_STACK_OPENAI_RESIDUAL=true|false (default true — DeepSeek residual)
   EXPAND_FILL_CONCURRENT / GAP_FILL_CONCURRENT — parallel companies in 5a (default 4)
-  EXPAND_RESIDUAL_CONCURRENT — parallel OpenAI residual in 5b (default 2)
+  EXPAND_RESIDUAL_CONCURRENT — parallel DeepSeek residual in 5b (default 2)
 """
 from __future__ import annotations
 
@@ -18,7 +19,7 @@ from typing import Any
 
 from vendor_intel.config import Settings
 from vendor_intel.pipeline.openai_expand_checkpoint import ExpandCheckpoint
-from vendor_intel.pipeline.web_expand import HEADERS, MARKET_DEFAULTS, _blank_row, _norm
+from vendor_intel.pipeline.web_expand import HEADERS, _blank_row, _norm
 
 _NPD = frozenset(
     {
@@ -53,10 +54,10 @@ _RESIDUAL_PRIORITY = (
     "Core Categories",
     "Specialty Focus",
     "Key Brands Represented",
-    "Retail / E-commerce / Both",
-    "Distribution Type",
+    "Online / Offline / Both",
     "Country Code",
     "Region Code",
+    "Office Email",
     "Summary",
 )
 
@@ -98,12 +99,24 @@ def _ckpt_every() -> int:
         return 10
 
 
-def _lock_step5_no_openai() -> None:
-    """Disable OpenAI SDK usage inside gap-fill / scrape clean — keep Exa/Apollo/etc."""
-    os.environ["GAP_FILL_USE_LLM"] = "false"
-    os.environ["GOOGLE_AI_SCRAPER_LLM_CLEAN"] = "false"
-    # Allow Exa + Wikipedia router helpers (do not set SEARCH_STACK_ONLY)
+def _prepare_step5_google_first() -> None:
+    """Google AI scrape first; allow DeepSeek/OpenAI to parse scrape text into columns.
+
+    Nested openai_residual inside gap_fill_row stays off (sources list). Residual
+    DeepSeek fill runs only in substep 5b for leftover empties.
+    """
+    # Parse Google AI Overview / SERP text into structured columns via OPENAI_* (DeepSeek)
+    os.environ["GAP_FILL_USE_LLM"] = "true"
     os.environ.pop("SEARCH_STACK_ONLY", None)
+
+
+def _default_stack_sources() -> tuple[str, ...]:
+    """Default: Google AI only. Override with SEARCH_STACK_SOURCES=google_ai,backfill,…"""
+    raw = (os.getenv("SEARCH_STACK_SOURCES") or "google_ai").strip()
+    if not raw:
+        return ("google_ai",)
+    parts = [p.strip().lower() for p in raw.split(",") if p.strip()]
+    return tuple(parts) if parts else ("google_ai",)
 
 
 def _row_gaps(row: dict[str, str]) -> list[str]:
@@ -123,17 +136,21 @@ def landscape_to_company(row: dict[str, str], *, market: str) -> dict[str, Any]:
 
     take("Founded", "founded_year")
     take("Headquarters", "headquarters")
-    take("Operational Presence", "offices")
-    take("Continent / Geography", "regions_served")
+    take("Continent / Geography", "offices")
+    take("Operational Presence", "regions_served")
+    take("Ownership", "ownership")
     take("Employees", "employee_count")
     take("LinkedIn", "linkedin")
     take("Core Categories", "core_categories")
     take("Specialty Focus", "specialty_focus")
     take("Key Brands Represented", "key_brands_represented")
+    take("Online / Offline / Both", "retail_ecommerce")
     take("Contact Person", "contact_person")
     take("Role", "contact_role")
     take("Email", "email")
     take("Office No.", "phone")
+    take("Office Email", "office_email")
+    take("Summary", "summary")
     # Legacy aliases
     take("Cities / Regions", "offices")
     take("Phone / WhatsApp", "phone")
@@ -190,17 +207,21 @@ def company_to_landscape(
     mapping = {
         "Founded": crawl.get("founded_year"),
         "Headquarters": crawl.get("headquarters") or crawl.get("contact_address"),
-        "Operational Presence": crawl.get("offices") or crawl.get("operational_presence"),
-        "Continent / Geography": crawl.get("regions_served"),
+        "Continent / Geography": crawl.get("offices") or crawl.get("operational_presence"),
+        "Operational Presence": crawl.get("regions_served"),
+        "Ownership": crawl.get("ownership"),
         "Employees": crawl.get("employee_count"),
         "LinkedIn": crawl.get("linkedin"),
         "Core Categories": crawl.get("core_categories"),
         "Specialty Focus": crawl.get("specialty_focus"),
         "Key Brands Represented": crawl.get("key_brands_represented"),
+        "Online / Offline / Both": crawl.get("retail_ecommerce"),
         "Contact Person": crawl.get("contact_person"),
         "Role": crawl.get("contact_role"),
         "Email": crawl.get("email"),
         "Office No.": crawl.get("phone"),
+        "Office Email": crawl.get("office_email"),
+        "Summary": crawl.get("summary"),
         "Website": website or crawl.get("website"),
     }
     for h, val in mapping.items():
@@ -208,32 +229,23 @@ def company_to_landscape(
         if s and not _is_npd(s):
             out[h] = s
 
-    defaults = MARKET_DEFAULTS.get(family) or {}
-    for h, dv in defaults.items():
-        if h in HEADERS and (_is_npd(out.get(h)) or not str(out.get(h) or "").strip()):
-            out[h] = dv
-
-    # Contacts stay empty when unknown (do not invent / do not write NPD)
+    # Real data only — no known_* registries, no MARKET_DEFAULTS, no invented Summary.
     _contact = ("Email", "Office No.", "LinkedIn", "Contact Person", "Role")
     for c in _contact:
         if _is_npd(out.get(c)):
             out[c] = ""
+    # Leave unfilled firmographic columns empty (do not paint NPD over blanks here;
+    # Excel export may still show blank = not found).
     for h in HEADERS:
-        if not str(out.get(h) or "").strip():
-            if h in _contact or h in ("Country Code", "Region Code"):
-                out[h] = out.get(h) or ""
-            else:
-                out[h] = "Not publicly disclosed"
+        if h in _contact or h in ("Country Code", "Region Code", "Company", "Website"):
+            continue
+        if _is_npd(out.get(h)):
+            # Strip placeholder NPD that came from templates — keep only real text
+            # unless crawl explicitly had nothing (already empty mapping skip).
+            pass
     src = out.get("Data Sources") or ""
     if source not in src:
         out["Data Sources"] = f"{src}; {source}".strip("; ")
-    if not str(out.get("Summary") or "").strip() or _is_npd(out.get("Summary")):
-        out["Summary"] = (
-            f"{name} — channel company for this market; "
-            "details filled via Google AI/DDGS/SearXNG/Exa/Wikipedia/Owler"
-            + ("+Apollo" if "apollo" in source else "")
-            + "."
-        )
     try:
         from vendor_intel.export.landscape_slim import finalize_slim_row
 
@@ -324,11 +336,12 @@ async def _openai_residual_fill_rows(
                     client,
                     model,
                     system=(
-                        "You are a vendor-intelligence researcher using LIVE WEB SEARCH only. "
-                        "Fill ONLY the missing fields listed. Keep every already-filled field "
-                        "unchanged. Do NOT invent founded years, HQ cities, emails, phones, or "
-                        "brand lists. If a fact is not found on the web, omit that key or use "
-                        '"Not publicly disclosed". '
+                        "You are a vendor-intelligence researcher (DeepSeek residual fill). "
+                        "Google AI already tried; fill ONLY the missing empty / "
+                        '"Not publicly disclosed" fields listed. Keep every already-filled '
+                        "field unchanged. Do NOT invent founded years, HQ cities, emails, "
+                        "phones, or brand lists. If a fact is not found, omit that key or use "
+                        '"Not publicly disclosed" (contacts: leave empty, never invent). '
                         f"Required landscape keys: {list(HEADERS)!r}. "
                         'Return JSON: {"row":{...only keys you can fill or confirm...}}'
                     ),
@@ -337,10 +350,10 @@ async def _openai_residual_fill_rows(
                         f"Family: {family}\n"
                         f"Company: {name}\n"
                         f"Website: {row.get('Website') or ''}\n"
-                        f"Current row:\n{slim}\n"
-                        f"MISSING / Not publicly disclosed fields to fill: {gaps}\n\n"
-                        "Search the official website, LinkedIn company page, directories, and news. "
-                        "Return only values supported by web evidence."
+                        f"Current row (already filled by Google AI — do not overwrite):\n{slim}\n"
+                        f"EMPTY columns still to fill: {gaps}\n\n"
+                        "Use public knowledge + any evidence in the prompt. "
+                        "Prefer official website, LinkedIn company page, directories, and news."
                     ),
                     label=f"residual-{n}",
                     max_tokens=3500,
@@ -400,15 +413,15 @@ async def search_stack_fill_rows(
     family: str,
     rows: list[dict[str, str]],
     ckpt: ExpandCheckpoint | None = None,
-    sources: tuple[str, ...] = ("google_ai", "wikipedia", "owler", "backfill"),
+    sources: tuple[str, ...] | None = None,
     use_apollo: bool = True,
     openai_residual: bool | None = None,
 ) -> list[dict[str, str]]:
-    """Fill via search stack first; then OpenAI residual for leftover NPD/gaps."""
+    """Fill via Google AI first; then DeepSeek residual for leftover NPD/gaps."""
     if not rows:
         return rows
 
-    _lock_step5_no_openai()
+    _prepare_step5_google_first()
 
     from vendor_intel.clients.search_router import FreeSearchRouter
     from vendor_intel.enrichment.gap_fill.orchestrator import gap_fill_row
@@ -416,10 +429,15 @@ async def search_stack_fill_rows(
 
     settings = Settings()
     router = FreeSearchRouter(settings)
-    src_tuple = (
-        parse_sources(",".join(sources)) if isinstance(sources, tuple) else parse_sources(str(sources))
-    )
-    # Keep LinkedIn MCP out of this path; allow the rest
+    if sources is None:
+        src_tuple = parse_sources(",".join(_default_stack_sources()))
+    else:
+        src_tuple = (
+            parse_sources(",".join(sources))
+            if isinstance(sources, tuple)
+            else parse_sources(str(sources))
+        )
+    # Keep LinkedIn MCP out of this path; Google AI is primary
     allowed = {
         "google_ai",
         "backfill",
@@ -434,7 +452,10 @@ async def search_stack_fill_rows(
     }
     src_tuple = tuple(s for s in src_tuple if s in allowed and s != "linkedin")
     if not src_tuple:
-        src_tuple = ("google_ai", "wikipedia", "owler", "backfill")
+        src_tuple = ("google_ai",)
+    # Always put google_ai first when present
+    if "google_ai" in src_tuple:
+        src_tuple = ("google_ai",) + tuple(s for s in src_tuple if s != "google_ai")
 
     try:
         from vendor_intel.integrations.agent_reach_client import exa_search_enabled
@@ -459,10 +480,10 @@ async def search_stack_fill_rows(
     do_residual = _openai_residual_enabled() if openai_residual is None else bool(openai_residual)
     conc = _fill_concurrent()
     _log(
-        f"    → substep 5a: search-stack fill {len(rows)} companies "
+        f"    → substep 5a: Google AI fill FIRST {len(rows)} companies "
         f"(sources={','.join(src_tuple)}; Exa={'on' if exa_on else 'off'}; "
-        f"Apollo={'on' if apollo_on else 'off'}; concurrent={conc}; OpenAI residual later="
-        f"{'on' if do_residual else 'off'})"
+        f"Apollo={'on' if apollo_on else 'off'}; concurrent={conc}; "
+        f"DeepSeek residual later={'on' if do_residual else 'off'})"
         + (f" — resume {len(filled)} done, {len(pending)} left" if filled else "")
     )
     if not pending and filled:
@@ -502,8 +523,16 @@ async def search_stack_fill_rows(
                 try:
                     from vendor_intel.pipeline.openai_fill_enrich import apollo_contact_lookup
 
-                    hit = await apollo_contact_lookup(
-                        name, str(row.get("Website") or company.get("website") or "")
+                    _log(f"      · apollo lookup… {name}")
+                    try:
+                        apollo_timeout = float(os.getenv("APOLLO_CONTACT_TIMEOUT_SEC") or "25")
+                    except ValueError:
+                        apollo_timeout = 25.0
+                    hit = await asyncio.wait_for(
+                        apollo_contact_lookup(
+                            name, str(row.get("Website") or company.get("website") or "")
+                        ),
+                        timeout=max(5.0, apollo_timeout),
                     )
                     if hit and not hit.get("_error"):
                         crawl = company.setdefault("_crawl", {})
@@ -518,10 +547,14 @@ async def search_stack_fill_rows(
                         if hit.get("_person_linkedin") and not crawl.get("linkedin"):
                             crawl["linkedin"] = hit["_person_linkedin"]
                         _log("      · apollo contact applied")
+                    else:
+                        _log("      · apollo: no sales/procurement hit")
+                except asyncio.TimeoutError:
+                    _log(f"      · apollo skip: timeout ({apollo_timeout:.0f}s)")
                 except Exception as err:  # noqa: BLE001
                     _log(f"      · apollo skip: {type(err).__name__}")
 
-            src_label = "google_ai+ddgs+searxng+exa+wikipedia+owler"
+            src_label = "+".join(src_tuple) if src_tuple else "google_ai"
             if apollo_on:
                 src_label += "+apollo"
             landscape = company_to_landscape(
@@ -544,9 +577,9 @@ async def search_stack_fill_rows(
 
     await asyncio.gather(*[_fill_one(i, row) for i, row in enumerate(pending, 1)])
 
-    _log(f"    → substep 5a done: {len(filled)} rows via search stack (Google AI/DDGS/SearXNG…)")
+    _log(f"    → substep 5a done: {len(filled)} rows via Google AI scraper")
 
-    # 5b — OpenAI only for leftover gaps / Not publicly disclosed
+    # 5b — DeepSeek (OPENAI_*) only for leftover gaps / Not publicly disclosed
     if do_residual:
         filled = await _openai_residual_fill_rows(
             query=query,
@@ -555,13 +588,13 @@ async def search_stack_fill_rows(
             ckpt=ckpt,
         )
     else:
-        _log("    → substep 5b: OpenAI residual disabled (SEARCH_STACK_OPENAI_RESIDUAL=false)")
+        _log("    → substep 5b: DeepSeek residual disabled (SEARCH_STACK_OPENAI_RESIDUAL=false)")
 
     if ckpt:
         ckpt.mark_step_done("5_fill", filled_part=filled)
     _log(
         f"    → substep 5 done: {len(filled)} rows "
-        f"(search stack first"
-        f"{'; OpenAI residual for remaining gaps' if do_residual else ''})"
+        f"(Google AI first"
+        f"{'; DeepSeek residual for remaining empty columns' if do_residual else ''})"
     )
     return filled

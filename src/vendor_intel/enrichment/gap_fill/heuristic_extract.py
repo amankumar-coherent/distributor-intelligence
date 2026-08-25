@@ -6,7 +6,11 @@ from typing import Any
 
 
 _FOUNDED_RE = re.compile(
-    r"(?:founded|established|incorporated|started)\s+(?:in\s+)?((?:19|20)\d{2})\b",
+    r"(?:founded|established|incorporated|started)\s+"
+    r"(?:on\s+|in\s+)?"
+    r"(?:[A-Z][a-z]+\.?\s+\d{1,2},?\s+)?"  # optional "Month Day, " (e.g. "April 4, ")
+    r"(?:\d{1,2}\s+[A-Z][a-z]+\.?,?\s+)?"  # optional "Day Month, " (e.g. "4 April, ")
+    r"((?:19|20)\d{2})\b",
     re.I,
 )
 _HQ_RE = re.compile(
@@ -33,28 +37,23 @@ _LINKEDIN_RE = re.compile(
     r"(https?://(?:www\.)?linkedin\.com/(?:company|in)/[A-Za-z0-9\-_%]+)",
     re.I,
 )
-_CEO_RE = re.compile(
-    r"(?:CEO|Chief Executive Officer|Founder|Co-Founder|Managing Director|"
-    r"President)\s*[:\-]?\s*"
-    r"([A-Z][a-z]+(?:\s+[A-Z][a-z]+){1,3})",
+_SALES_TITLE = (
+    r"(?:Head of Sales|VP Sales|Vice President of Sales|Sales Director|"
+    r"Director of Sales|Commercial Director|Chief Commercial Officer|"
+    r"Chief Revenue Officer|Chief Sales Officer|Head of Procurement|"
+    r"Procurement Director|Purchasing Director|Head of Purchasing|"
+    r"National Sales|Channel Sales)"
 )
-_CEO_REV_RE = re.compile(
-    r"([A-Z][a-z]+(?:\s+[A-Z][a-z]+){1,3})\s*"
-    r"(?:is\s+)?(?:the\s+)?(?:CEO|Chief Executive Officer|Founder|Managing Director)",
-)
-# ZoomInfo / RocketReach style: "Philip Freeman, Chief Executive Officer & Founder"
-_CEO_COMMA_RE = re.compile(
-    r"([A-Z][a-z]+(?:\s+[A-Z][a-z]+){1,3})\s*,\s*"
-    r"(?:Chief Executive Officer|CEO|Founder|Co-Founder|Managing Director|President)"
-    r"(?:\s*[&/]\s*(?:Founder|CEO|Co-Founder))?",
+_SALES_COMMA_RE = re.compile(
+    rf"([A-Z][a-z]+(?:\s+[A-Z][a-z]+){{1,3}})\s*,\s*{_SALES_TITLE}",
     re.I,
 )
-# "Phil Freeman (CEO and Founder)"
-_CEO_PAREN_RE = re.compile(
-    r"([A-Z][a-z]+(?:\s+[A-Z][a-z]+){1,3})\s*\(\s*"
-    r"(?:CEO|Chief Executive Officer|Founder)(?:\s+and\s+(?:Founder|CEO))?\s*\)",
+_SALES_REV_RE = re.compile(
+    rf"([A-Z][a-z]+(?:\s+[A-Z][a-z]+){{1,3}})\s*"
+    rf"(?:is\s+)?(?:the\s+)?{_SALES_TITLE}",
     re.I,
 )
+_SALES_TITLE_RE = re.compile(_SALES_TITLE, re.I)
 
 
 def heuristic_extract_fields(text: str, *, company: str = "") -> dict[str, Any]:
@@ -100,24 +99,15 @@ def heuristic_extract_fields(text: str, *, company: str = "") -> dict[str, Any]:
     if m:
         out["linkedin_url"] = m.group(1).rstrip("/")
 
-    m = (
-        _CEO_COMMA_RE.search(blob)
-        or _CEO_PAREN_RE.search(blob)
-        or _CEO_RE.search(blob)
-        or _CEO_REV_RE.search(blob)
-    )
+    m = _SALES_COMMA_RE.search(blob) or _SALES_REV_RE.search(blob)
     if m:
         person = m.group(1).strip().rstrip(".")
         if company and person.lower() == company.lower():
             pass
         elif len(person.split()) >= 2:
             out["contact_person"] = person
-            role_m = re.search(
-                r"(CEO|Chief Executive Officer|Founder|Co-Founder|Managing Director|President)",
-                blob[max(0, m.start() - 10) : m.end() + 60],
-                re.I,
-            )
+            role_m = _SALES_TITLE_RE.search(blob[max(0, m.start() - 10) : m.end() + 80])
             if role_m:
-                out["contact_role"] = role_m.group(1)
+                out["contact_role"] = role_m.group(0)
 
     return out

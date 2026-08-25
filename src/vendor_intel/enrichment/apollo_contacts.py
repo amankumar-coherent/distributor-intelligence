@@ -11,53 +11,63 @@ import httpx
 
 APOLLO_BASE = "https://api.apollo.io/api/v1"
 
-DEFAULT_REQUEST_DELAY_SEC = float(os.getenv("APOLLO_REQUEST_DELAY_SEC", "2.0"))
+DEFAULT_REQUEST_DELAY_SEC = float(os.getenv("APOLLO_REQUEST_DELAY_SEC", "3.5"))
 DEFAULT_MAX_RETRIES = int(os.getenv("APOLLO_MAX_RETRIES", "4"))
-MAX_RETRY_WAIT_SEC = float(os.getenv("APOLLO_MAX_RETRY_WAIT_SEC", "120"))
+MAX_RETRY_WAIT_SEC = float(os.getenv("APOLLO_MAX_RETRY_WAIT_SEC", "900"))
 
-# Prefer security / leadership titles for cyber-physical market contacts.
+# Prefer sales / channel / procurement leadership for Contact Person + Role (not CEO/CISO).
+# Higher score = preferred. Scores below SALES_TITLE_MIN_SCORE are ignored.
 TITLE_KEYWORDS: list[tuple[str, int]] = [
-    (r"\bciso\b", 100),
-    (r"chief information security", 95),
-    (r"chief security officer", 90),
-    (r"ot security|ics security|scada", 88),
-    (r"industrial security|cyber.?physical", 85),
-    (r"vp.*security|vice president.*security", 80),
-    (r"head of security|director.*security", 75),
-    (r"chief executive|\bceo\b", 70),
-    (r"founder|co-founder", 65),
-    (r"president|managing director", 60),
-    (r"general manager", 45),
-    # Channel / distribution / FMCG
-    (r"\bvp\b.*sales|vice president.*sales|head of sales", 72),
-    (r"director.*sales|sales director", 68),
-    (r"procurement|category manager|buyer", 62),
-    (r"commercial director|business development", 58),
-    (r"operations director|supply chain", 55),
+    (r"head of sales|sales head", 100),
+    (r"\bvp\b.*sales|vice president.*sales|svp.*sales", 95),
+    (r"chief (?:revenue|commercial) officer|\bcro\b", 92),
+    (r"sales director|director.*sales|director of sales", 90),
+    (r"head of (?:business development|bd|channel|partner)", 88),
+    (r"head of procurement|procurement head|chief procurement|\bcpo\b", 88),
+    (r"vp.*(?:business development|bd|channel|partner)|vice president.*(?:channel|partner)", 86),
+    (r"\bvp\b.*procurement|vice president.*procurement|svp.*procurement", 86),
+    (r"commercial director|commercial head", 84),
+    (r"director.*(?:business development|bd|channel|partner)", 82),
+    (r"director.*procurement|procurement director", 82),
+    (r"national sales|regional sales|sales manager", 78),
+    (r"procurement manager|purchasing manager|head of purchasing|purchasing director", 78),
+    (r"business development|channel (?:sales|manager|partner)|partner manager", 74),
+    (r"account (?:executive|director|manager).*sales|enterprise sales", 70),
 ]
+
+# Minimum score to accept a person (blocks CEO/Founder fallbacks).
+SALES_TITLE_MIN_SCORE = 70
 
 SEARCH_TITLES = [
-    "Chief Information Security Officer",
-    "CISO",
-    "VP Security",
-    "Head of Security",
-    "Director of Security",
-    "OT Security",
-    "ICS Security",
-    "CEO",
-    "Chief Executive Officer",
-    "Founder",
-    "VP Sales",
     "Head of Sales",
+    "VP Sales",
+    "Vice President of Sales",
+    "Sales Director",
     "Director of Sales",
+    "Chief Revenue Officer",
+    "CRO",
     "Commercial Director",
-    "Procurement",
-    "Category Manager",
-    "General Manager",
-    "Managing Director",
+    "Head of Business Development",
+    "VP Business Development",
+    "Director of Business Development",
+    "Head of Channel",
+    "Channel Sales",
+    "Partner Manager",
+    "National Sales Manager",
+    "Regional Sales Manager",
+    "Head of Procurement",
+    "VP Procurement",
+    "Vice President of Procurement",
+    "Procurement Manager",
+    "Procurement Director",
+    "Director of Procurement",
+    "Chief Procurement Officer",
+    "Purchasing Manager",
+    "Head of Purchasing",
 ]
 
-SEARCH_SENIORITIES = ["c_suite", "founder", "vp", "head", "director"]
+# Avoid c_suite / founder so Apollo does not prefer CEO over sales leads.
+SEARCH_SENIORITIES = ["vp", "head", "director", "manager"]
 
 # Wrong domains in some exports — map to corporate site for Apollo search.
 DOMAIN_OVERRIDES: dict[str, str] = {
@@ -96,8 +106,32 @@ def company_domain(row: dict[str, Any]) -> str:
     return ""
 
 
+DEPT_OK = re.compile(
+    r"sales|procurement|purchasing|"
+    r"\bcro\b|chief revenue|revenue officer|"
+    r"commercial|"
+    r"business development|\bbd\b|"
+    r"channel sales|partner sales",
+    re.I,
+)
+DEPT_BLOCK = re.compile(
+    r"\b(ceo|cfo|cto|coo|ciso|founder|co-founder|chairman|owner|hr|"
+    r"human resources|marketing|operations|project director)\b",
+    re.I,
+)
+
+
 def _score_title(title: str) -> int:
     t = (title or "").lower()
+    # Reject noisy multi-role dumps from Apollo
+    if t.count("|") >= 2 or len(t) > 140:
+        return 0
+    if not DEPT_OK.search(t):
+        return 0
+    if DEPT_BLOCK.search(t) and not re.search(
+        r"sales|procurement|purchasing|commercial|revenue", t, re.I
+    ):
+        return 0
     best = 0
     for pattern, pts in TITLE_KEYWORDS:
         if re.search(pattern, t, re.I):
@@ -120,9 +154,15 @@ def _person_display_name(person: dict[str, Any]) -> str:
 
 
 def _name_usable(name: str, *, allow_obfuscated: bool) -> bool:
-    if not name or len(name) < 3:
+    """First name is enough; obfuscated last name (Mo***s) allowed when flagged."""
+    s = (name or "").strip()
+    if not s:
         return False
-    if "*" in name:
+    first = s.split()[0]
+    letters = re.sub(r"[^A-Za-z]", "", first)
+    if len(letters) < 2:
+        return False
+    if "*" in s:
         return allow_obfuscated
     return True
 
@@ -196,19 +236,25 @@ class ApolloContactClient:
             retry_after = resp.headers.get("Retry-After", "").strip()
             if retry_after.isdigit():
                 raw_backoff = float(retry_after)
-                backoff = min(MAX_RETRY_WAIT_SEC, raw_backoff)
-                if raw_backoff > backoff:
+                # Honor Apollo's cool-down up to MAX_RETRY_WAIT_SEC (default 15m)
+                backoff = min(MAX_RETRY_WAIT_SEC, max(30.0, raw_backoff))
+                if raw_backoff > MAX_RETRY_WAIT_SEC:
                     self._log(
                         f"rate limited (429) — Apollo Retry-After={raw_backoff:.0f}s, "
-                        f"capped to {backoff:.0f}s..."
+                        f"waiting {backoff:.0f}s (cap)..."
                     )
                 else:
                     self._log(f"rate limited (429) — waiting {backoff:.0f}s then retry...")
             else:
-                backoff = min(90.0, (2**attempt) * 2.0 + 1.0)
+                backoff = min(MAX_RETRY_WAIT_SEC, (2**attempt) * 8.0 + 5.0)
                 self._log(f"rate limited (429) — waiting {backoff:.0f}s then retry...")
             if attempt < self.max_retries - 1:
                 await asyncio.sleep(backoff)
+                # After a long cool-down, one clean retry is enough
+                if backoff >= 120:
+                    continue
+            else:
+                break
 
         assert resp is not None
         return resp
@@ -258,6 +304,8 @@ class ApolloContactClient:
                 ("per_page", 10),
                 ("q_organization_name", company_name),
             ]
+            for t in SEARCH_TITLES:
+                params2.append(("person_titles[]", t))
             for s in SEARCH_SENIORITIES:
                 params2.append(("person_seniorities[]", s))
             resp2 = await self._throttled_post(f"{APOLLO_BASE}/mixed_people/api_search", params=params2)
@@ -351,29 +399,28 @@ class ApolloContactClient:
             title = str(p.get("title") or "")
             ranked.append((_score_title(title), p))
         ranked.sort(key=lambda x: x[0], reverse=True)
-        candidates = [(score, p) for score, p in ranked if score >= 40]
+        # Sales / channel titles only — do not fall back to CEO/Founder/random execs.
+        candidates = [
+            (score, p) for score, p in ranked if score >= SALES_TITLE_MIN_SCORE
+        ]
         if not candidates:
-            # No security-titled match — fall back to top people from search (small OT vendors).
-            fallback = [
-                (score, p)
-                for score, p in ranked
-                if isinstance(p, dict) and _person_display_name(p)
-            ]
-            candidates = fallback[:5]
-        if not candidates:
+            self._log(
+                f"no Head-of-Sales / sales-leadership title "
+                f"(min score {SALES_TITLE_MIN_SCORE}) — skip contact"
+            )
             return None
 
-        # 1) Prefer full names already visible in search (no credits).
-        full_name = [
+        # 1) Prefer any usable search name (full OR first + partial last). 0 credits.
+        usable = [
             (score, p)
             for score, p in candidates
-            if _name_usable(_person_display_name(p), allow_obfuscated=False)
+            if _name_usable(_person_display_name(p), allow_obfuscated=True)
         ]
-        if full_name:
-            full_name.sort(key=lambda x: x[0], reverse=True)
+        if usable:
+            usable.sort(key=lambda x: x[0], reverse=True)
             return self._build_contact(
-                full_name[0][1],
-                fallback_title=str(full_name[0][1].get("title") or ""),
+                usable[0][1],
+                fallback_title=str(usable[0][1].get("title") or ""),
             )
 
         # 2) Try enrich on top candidates while credits remain.

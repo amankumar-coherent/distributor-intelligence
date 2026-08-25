@@ -1,0 +1,180 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>html,body{margin:0;padding:0;background:#fff}</style>
+
+</head>
+<body>
+
+<!-- Terminal-failure surface for the hidden (Visible=false) js_probe path.
+     Rendered hidden and revealed only once verification has definitively
+     failed, so the happy path still shows nothing. This must exist regardless
+     of Visible: without it the failure handler has no node to write to and the
+     visitor is stranded on an empty page permanently. Inline styles because
+     the stylesheet above is only emitted when ShowUI() is true. -->
+<div id="fallback-msg" role="alert" style="display:none;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif;max-width:320px;margin:18vh auto 0;padding:0 20px;text-align:center">
+    <p style="font-size:15px;font-weight:600;color:#0f172a;margin:0 0 6px">Unable to verify your browser</p>
+    <p style="font-size:13px;line-height:1.5;color:#64748b;margin:0 0 16px">Please refresh the page to try again.</p>
+    <button type="button" onclick="location.reload()" style="font:inherit;font-weight:500;color:#0f172a;background:#f1f5f9;border:1px solid #cbd5e1;border-radius:6px;padding:8px 18px;cursor:pointer">Refresh</button>
+</div>
+
+
+<script>
+(function() {
+    var done = false;
+    var retryCount = 0;
+    // Bounds the automatic reload below. A persistently failing challenge that
+    // reloaded unconditionally would loop forever, which is worse than showing
+    // the error: it burns mobile battery and hammers the edge.
+    var RELOAD_KEY = '_gp_ac_reloaded';
+
+    function el(id) { return document.getElementById(id); }
+
+    // Reveal whichever terminal-failure surface this page rendered: #error-msg
+    // inside the card when the UI is shown, #fallback-msg when it is hidden.
+    // Exactly one of the two exists, so both lookups stay guarded.
+    function showFailure() {
+        var widget  = el('widget');
+        var spinner = el('spinner');
+        var cbBox   = el('cb-box');
+        var label   = el('widget-label');
+
+        if (spinner) { spinner.style.display = 'none'; }
+        if (cbBox) { cbBox.style.display = 'block'; }
+        if (widget) {
+            widget.classList.remove('verifying');
+            if (widget.hasAttribute('aria-checked')) {
+                widget.setAttribute('aria-checked', 'false');
+            }
+        }
+        // Only the hard challenge has a checkbox to click again; in js_probe
+        // mode "I am human" would invite an interaction that does nothing.
+        if (label) { label.textContent = cbBox ? 'I am human' : 'Verification failed'; }
+
+        var errMsg = el('error-msg');
+        if (errMsg) { errMsg.style.display = 'block'; }
+        var fallback = el('fallback-msg');
+        if (fallback) { fallback.style.display = 'block'; }
+    }
+
+    // The nonce is baked into this page and is valid for only 10 minutes, so a
+    // rejected nonce can never be fixed by re-POSTing the same value: the page
+    // has to be reloaded to be issued a fresh one. Returns false when the
+    // reload budget is already spent, or when sessionStorage is unavailable and
+    // the budget therefore cannot be tracked (never reload unbounded).
+    function reloadForFreshNonce() {
+        try {
+            if (sessionStorage.getItem(RELOAD_KEY)) { return false; }
+            sessionStorage.setItem(RELOAD_KEY, '1');
+        } catch (e) {
+            return false;
+        }
+        window.location.reload();
+        return true;
+    }
+
+    window.startVerify = function() {
+        if (done) return;
+        done = true;
+
+        var widget  = el('widget');
+        var spinner = el('spinner');
+        var check   = el('checkmark');
+        var label   = el('widget-label');
+        var cbBox   = el('cb-box');
+
+        // Transition to "verifying" state. Every element is optional: when the
+        // challenge content is hidden (Visible=false) none of these nodes exist,
+        // but verification must still proceed so the bypass cookie gets set.
+        if (widget) {
+            widget.classList.add('verifying');
+            if (widget.hasAttribute('aria-checked')) {
+                widget.setAttribute('aria-checked', 'mixed');
+            }
+        }
+        if (cbBox) { cbBox.style.display = 'none'; }
+        if (spinner) { spinner.style.display = 'block'; }
+        if (label) { label.textContent = 'Verifying\u2026'; }
+
+        // POST nonce to verification endpoint
+        fetch('/_challenge/complete', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                nonce: "af06539af366aed9da74b60a6e809b3b.1787603455.4c1c4ce6997daae8656428e07684947d9481aaf326ef7579456f3b71fc10cb29",
+                path:  "/"
+            }),
+            credentials: 'same-origin'
+        })
+        .then(function(res) {
+            // 403 means the nonce itself was rejected (expired, or malformed).
+            // Flag it so the handler below reloads for a fresh nonce instead of
+            // retrying a token that cannot ever succeed.
+            if (res.status === 403) {
+                var stale = new Error('stale nonce');
+                stale.staleNonce = true;
+                throw stale;
+            }
+            if (!res.ok) { throw new Error('bad status ' + res.status); }
+            return res.json();
+        })
+        .then(function(data) {
+            if (!data.success) { throw new Error('not ok'); }
+
+            // Release the reload budget so a later challenge on this origin
+            // still gets its one reload.
+            try { sessionStorage.removeItem(RELOAD_KEY); } catch (e) {}
+
+            // Transition to "verified" state (cosmetic; nodes may be absent)
+            if (spinner) { spinner.style.display = 'none'; }
+            if (check) { check.style.display = 'block'; }
+            if (widget) {
+                widget.classList.remove('verifying');
+                widget.classList.add('verified');
+                if (widget.hasAttribute('aria-checked')) {
+                    widget.setAttribute('aria-checked', 'true');
+                }
+            }
+            if (label) { label.textContent = 'Verified'; }
+
+            setTimeout(function() {
+                window.location.replace(data.redirect || '/');
+            }, 600);
+        })
+        .catch(function(err) {
+            done = false;
+
+            if (err && err.staleNonce) {
+                if (reloadForFreshNonce()) { return; }
+                showFailure();
+                return;
+            }
+
+            // Transient failure: network drop, 5xx, or an upstream 429 from
+            // nginx. Retry once in both modes -- a hard challenge that failed on
+            // a blip would otherwise dead-end on a click the visitor already
+            // made, with no way back short of a manual refresh.
+            if (retryCount < 1) {
+                retryCount++;
+                setTimeout(window.startVerify, 2000);
+                return;
+            }
+
+            showFailure();
+        });
+    };
+
+    
+    // js_probe mode: auto-fire after configured delay — no user interaction required.
+    window.addEventListener('DOMContentLoaded', function() {
+        setTimeout(window.startVerify, 1);
+    });
+    
+}());
+</script>
+</body>
+</html>

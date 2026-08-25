@@ -7,8 +7,12 @@ Steps:
   4) ChatGPT verifies keep/reject (related to market or not)
   5) Fill columns: Google AI scraper → DDGS/SearXNG/Wikipedia/Owler first,
      then OpenAI SDK web_search residual for leftover Not publicly disclosed gaps
-  6) ChatGPT final verify pass on filled rows
-  7) Write wrap-formatted FINAL Excel + audit JSON
+  6) Verify/correct per-field evidence (field_verify_fill.py): Core Categories,
+     Specialty Focus, Key Brands Represented + channel-fit keep/remove,
+     Online/Offline/Both classification, Contact Person/Role/LinkedIn via
+     Apollo free search + web-search fallback, and multi-location geography
+  7) ChatGPT final verify pass on filled rows + write wrap-formatted FINAL
+     Excel + audit JSON
 """
 from __future__ import annotations
 
@@ -26,7 +30,6 @@ from vendor_intel.pipeline.openai_expand_checkpoint import ExpandCheckpoint
 from vendor_intel.pipeline.run_and_export import auto_seed_names, load_seeds_file
 from vendor_intel.pipeline.web_expand import (
     HEADERS,
-    MARKET_DEFAULTS,
     _blank_row,
     _norm,
     default_output_dir,
@@ -402,25 +405,12 @@ _FACT_COLUMNS = frozenset(
     }
 )
 
-_GENERIC_BRAND_MARKERS = (
-    "private label",
-    "regional avocado",
-    "bio-based solvents",
-    "cisco; fortinet",
-    "apple watch; samsung",
-)
-
-
 def _looks_generic_default(header: str, value: str, family: str) -> bool:
+    """No more template defaults to check against — just the empty/NPD gate.
+    header/family kept for call-site compatibility."""
+    _ = header, family
     v = (value or "").strip().lower()
-    if not v or v in _EMPTYISH:
-        return True
-    if header == "Key Brands Represented":
-        defaults = MARKET_DEFAULTS.get(family) or {}
-        dv = str(defaults.get("Key Brands Represented") or "").strip().lower()
-        if v == dv or any(m in v for m in _GENERIC_BRAND_MARKERS):
-            return True
-    return False
+    return not v or v in _EMPTYISH
 
 
 def _ensure_complete_row(
@@ -432,46 +422,35 @@ def _ensure_complete_row(
     source: str,
     real_facts_only: bool = True,
 ) -> dict[str, str]:
-    """Guarantee every landscape column has a value (contacts may stay empty)."""
+    """Keep only evidenced values — never invent MARKET_DEFAULTS / known_* text."""
     from vendor_intel.export.landscape_slim import finalize_slim_row
 
     base = _blank_row(name, website, family, source)
-    if real_facts_only:
-        for h in _FACT_COLUMNS:
-            if h in {
-                "Contact Person",
-                "Role",
-                "Email",
-                "LinkedIn",
-                "Office No.",
-                "Country Code",
-                "Region Code",
-                "Continent / Geography",
-                "Operational Presence",
-            }:
-                base[h] = ""
-            else:
-                base[h] = "Not publicly disclosed"
-        if website:
-            base["Website"] = website
     out = dict(base)
     for h in HEADERS:
         val = str(row.get(h) or "").strip()
-        if val.lower() in _EMPTYISH:
-            val = ""
+        if val.lower() in _EMPTYISH or val.lower() == "not publicly disclosed":
+            # Drop NPD placeholders that were never real scrape facts
+            if real_facts_only and h not in {
+                "Company",
+                "Website",
+            }:
+                val = ""
         if real_facts_only and h in _FACT_COLUMNS and _looks_generic_default(h, val, family):
             val = ""
         if val:
             out[h] = val
     # Legacy column aliases from older fills
     if not out.get("Office No.") and row.get("Phone / WhatsApp"):
-        out["Office No."] = str(row.get("Phone / WhatsApp") or "").strip()
-    if not out.get("Continent / Geography") and row.get("Regions Served"):
-        out["Continent / Geography"] = str(row.get("Regions Served") or "")
-    if not out.get("Operational Presence") and row.get("Cities / Regions"):
-        out["Operational Presence"] = str(row.get("Cities / Regions") or "")
+        ph = str(row.get("Phone / WhatsApp") or "").strip()
+        if ph and ph.lower() not in _EMPTYISH and ph.lower() != "not publicly disclosed":
+            out["Office No."] = ph
+    if not out.get("Continent / Geography") and row.get("Cities / Regions"):
+        out["Continent / Geography"] = str(row.get("Cities / Regions") or "")
+    if not out.get("Operational Presence") and row.get("Regions Served"):
+        out["Operational Presence"] = str(row.get("Regions Served") or "")
 
-    out["Company"] = name or out.get("Company") or "Unknown"
+    out["Company"] = name or out.get("Company") or ""
     if website and (
         not out.get("Website")
         or str(out.get("Website")).lower() in _EMPTYISH
@@ -479,22 +458,16 @@ def _ensure_complete_row(
     ):
         out["Website"] = website
 
-    # Contacts stay empty unless we have evidence (do not invent)
+    # Contacts stay empty unless evidenced
     for c in ("Contact Person", "Role", "Email", "LinkedIn", "Office No."):
-        if not out.get(c) or str(out.get(c)).lower() in _EMPTYISH or str(out.get(c)).lower() == "not publicly disclosed":
-            # keep whatever evidence was set above; else blank
-            if str(out.get(c) or "").lower() in _EMPTYISH or str(out.get(c) or "").lower() == "not publicly disclosed":
-                if c not in row or not str(row.get(c) or "").strip() or str(row.get(c)).lower() in _EMPTYISH:
-                    out[c] = ""
+        v = str(out.get(c) or "").strip()
+        if not v or v.lower() in _EMPTYISH or v.lower() == "not publicly disclosed":
+            out[c] = ""
 
+    # Leave all other missing columns blank (real data only — no NPD paint)
     for h in HEADERS:
         if not str(out.get(h) or "").strip():
-            if h in {"Contact Person", "Role", "Email", "LinkedIn", "Office No.", "Country Code", "Region Code"}:
-                out[h] = out.get(h) or ""
-            elif real_facts_only and h in _FACT_COLUMNS:
-                out[h] = "Not publicly disclosed"
-            else:
-                out[h] = base.get(h) or ""
+            out[h] = ""
 
     out = finalize_slim_row(out)
     # Soft confidence signals kept for internal merges (not in slim Excel)
@@ -535,12 +508,14 @@ async def _local_web_evidence(name: str, website: str, market: str) -> str:
 
         router = FreeSearchRouter(Settings())
         # One fact per Google/DDGS query (same style as Google AI scraper gap-fill)
+        qn = f'"{name}"' if " " in name else name
         queries = [
-            f'"{name}" founded year' if " " in name else f"{name} founded year",
-            f'"{name}" headquarters' if " " in name else f"{name} headquarters",
-            f'"{name}" number of employees' if " " in name else f"{name} number of employees",
-            f'"{name}" official website' if " " in name else f"{name} official website",
-            f'"{name}" {market} brands distributors' if " " in name else f"{name} {market} brands distributors",
+            f"founded year of {qn}",
+            f"headquarters of {qn}",
+            f"number of employees of {qn}",
+            f"official website of {qn}",
+            f"operational presence of {qn}",
+            f"key brands represented of {qn}",
         ]
         if website:
             queries.append(
@@ -1108,19 +1083,58 @@ async def gpt_fill_rows(
         "1) Founded, Headquarters, Ownership, Employees, Website, Key Brands Represented, "
         "Continent / Geography, Operational Presence — ONLY values you can support from "
         "web results. If not found, use exactly \"Not publicly disclosed\". NEVER invent "
-        "a year, city, or brand list.\n"
-        "2) Continent / Geography = markets served, prefer REGION(Country[, Country…]) "
-        "e.g. APAC(India, Singapore); EU(Germany). "
-        "Operational Presence = physical footprint countries (HQ/offices/plants) as "
-        "Country; Country.\n"
-        "3) Key Brands Represented = brands THIS company actually sells/distributes "
-        "(from their site or reliable listing). Do NOT paste generic market brand lists.\n"
-        "4) Contact Person, Role, Email, LinkedIn, Office No. — leave EMPTY string if "
-        "not evidenced. Do NOT invent personal emails, phones, or LinkedIn URLs.\n"
+        "a year, city, or brand list. For Founded: use the business founding year "
+        "(when the company/trade began), NOT a later incorporation, IPO, rebrand, or "
+        "subsidiary registration year. Never copy another brand's year "
+        "(e.g. do not give Rexel WESCO's 1922).\n"
+        "2) Continent / Geography = ALL countries with a PHYSICAL footprint (HQ, offices, "
+        "warehouses, plants, retail stores), not just one — REGION(Country[, Country…]) "
+        "e.g. APAC(India, Singapore); EU(Germany, France). "
+        "Operational Presence = ALL countries where the company actually SELLS OR SERVES "
+        "customers (commercial reach — distribution, resale, service/shipping coverage), "
+        "as Country; Country. Operational Presence is usually the SAME AS OR BROADER than "
+        "Continent / Geography, since any country with a physical footprint is obviously "
+        "also served — include every Continent / Geography country PLUS any additional "
+        "country you find commercial-reach evidence for, not only the first. A company "
+        "with offices or sales reach in multiple countries/regions must show ALL of them; "
+        "do not stop after finding one.\n"
+        "3) Core Categories = [Main Product Category] + [Sub Categories] — broad product "
+        "groups this distributor handles, main/broadest category first then narrower "
+        "sub-categories, semicolon-separated: \"Category 1; Category 2; Category 3\" "
+        "(3-8 items). Key Brands Represented = ONLY manufacturer/brand names THIS "
+        "company actually sells/distributes/represents (from their site or reliable "
+        "listing), semicolon-separated: \"Brand A; Brand B; Brand C\" — distributor "
+        "partners often represent multiple manufacturers, list every one evidenced. "
+        "Do NOT paste generic market brand lists or a single unrelated brand. "
+        "Specialty Focus = EXACT structure, in order: [Product Category] + [Specific "
+        "Application / Customer Segment] + [Value-added expertise (optional)], e.g. "
+        "\"Industrial rupture discs for oil & gas pressure-relief systems, with in-house "
+        "engineering and testing support.\" Include the third clause only when a real "
+        "value-add is evidenced; otherwise stop after the second part.\n"
+        "4) Contact Person, Role, Email, LinkedIn, Office No., Office Email — leave EMPTY "
+        "string if not evidenced. Email = the sales/procurement contact's personal email; "
+        "Office Email = the company's general/info/sales@ inbox — these are different "
+        "fields, do not duplicate one into the other unless both are separately evidenced. "
+        "Do NOT invent personal emails, office emails, phones, or LinkedIn URLs.\n"
         "5) Country Code = ISO2 from HQ (e.g. IN). Region Code = NA|EU|ME|AF|LATAM|APAC.\n"
-        "6) Retail / E-commerce / Both = Retail | E-commerce | Both | No when evidenced.\n"
-        "7) Run multiple searches: \"{Company} founded\", \"{Company} headquarters\", "
-        "\"{Company} official website\", \"{Company} brands / products\".\n"
+        "6) Online / Offline / Both = Online | Offline | Both when evidenced — Online means "
+        "customers can complete a purchase directly on the company's own website "
+        "(cart/checkout); Offline means sales happen via phone/email/rep/branch visit only; "
+        "Both means it has real online ordering AND meaningful offline/rep sales.\n"
+        "7) Run one Google-style ask per column: \"founded year of {Company}\", "
+        "\"headquarters of {Company}\", "
+        "\"sales or procurement contact person name of {Company}\", "
+        "\"general office email of {Company}\". "
+        "For geography specifically, run SEVERAL asks, not one, and keep the two concepts "
+        "separate: for physical footprint ask \"offices of {Company}\", \"{Company} "
+        "manufacturing plants\", \"{Company} warehouses\", THEN separately probe major "
+        "regions, e.g. \"{Company} offices Europe\", \"{Company} offices Asia\", "
+        "\"{Company} offices North America\" — combine every country found into "
+        "Continent / Geography. For commercial reach ask \"{Company} countries served\", "
+        "\"{Company} distributors\", \"{Company} markets served\", \"{Company} ships to\" "
+        "— combine every country found PLUS every Continent / Geography country into "
+        "Operational Presence.\n"
+        "Contact Person/Role = sales or procurement only — never CEO/founder/HR.\n"
         "Every row MUST include ALL keys (empty string for unknown contacts; "
         "Not publicly disclosed for other unknown facts). "
         f"Required keys exactly: {json.dumps(HEADERS)}. "
@@ -1145,7 +1159,6 @@ async def gpt_fill_rows(
                     "Company": cname,
                     "Website": cweb,
                     "Headquarters": r.get("Headquarters") or "",
-                    "Distribution Type": r.get("Distribution Type") or r.get("snippet"),
                     "why_related": r.get("verify_reason") or r.get("snippet"),
                     "relevance": r.get("relevance") or r.get("verify_confidence"),
                 }
@@ -1403,29 +1416,35 @@ def gpt_final_verify_rows(
             {
                 "Company": r.get("Company"),
                 "Website": r.get("Website"),
-                "Distribution Type": r.get("Distribution Type"),
                 "Core Categories": r.get("Core Categories"),
                 "Specialty Focus": r.get("Specialty Focus"),
                 "Summary": (r.get("Summary") or "")[:180],
             }
             for r in chunk
         ]
-        data = _chat_json(
-            client,
-            model,
-            system=(
-                f"Final QA for CHANNEL landscape. Valid roles: {roles}. "
-                "KEEP only distributors / wholesalers / dealers / VADs / resellers / "
-                "importers / system integrators / channel partners. "
-                "DROP pure OEMs/manufacturers, utilities/IPPs/developers-as-primary, "
-                "and rows not related to the market. "
-                "Return compact JSON: {\"results\":[{\"Company\":\"...\",\"keep\":true|false,"
-                "\"reason\":\"...\"}]}"
-            ),
-            user=f"Market: {query}\nRows:\n{json.dumps(payload, ensure_ascii=False)}",
-            label=f"final-{idx}",
-            max_tokens=2500,
-        )
+        try:
+            data = _chat_json(
+                client,
+                model,
+                system=(
+                    f"Final QA for CHANNEL landscape. Valid roles: {roles}. "
+                    "KEEP only distributors / wholesalers / dealers / VADs / resellers / "
+                    "importers / system integrators / channel partners. "
+                    "DROP pure OEMs/manufacturers, utilities/IPPs/developers-as-primary, "
+                    "and rows not related to the market. "
+                    "Return compact JSON: {\"results\":[{\"Company\":\"...\",\"keep\":true|false,"
+                    "\"reason\":\"...\"}]}"
+                ),
+                user=f"Market: {query}\nRows:\n{json.dumps(payload, ensure_ascii=False)}",
+                label=f"final-{idx}",
+                max_tokens=2500,
+            )
+        except Exception as err:  # noqa: BLE001
+            # DeepSeek/OpenAI outage (e.g. insufficient balance) must not crash the
+            # whole pipeline run — keep this chunk's rows unverified rather than lose
+            # everything already gathered in Steps 1-6.
+            _log(f"    → substep 6a.{idx}: final-verify unavailable ({err}) — keeping chunk as-is")
+            data = {}
         results = data.get("results") if isinstance(data, dict) else []
         by = {_norm(str(r.get("Company") or "")): r for r in chunk}
         if not isinstance(results, list):
@@ -1510,7 +1529,7 @@ async def run_chatgpt_expand(
     final_path: str | None = None,
     out_dir: str | None = None,
     fill_existing: bool = False,
-    max_fill: int = 120,
+    max_fill: int = 500,
     seeds_only: bool = False,
     seeds_path: str | None = None,
     skip_recall: bool = False,
@@ -1697,12 +1716,12 @@ async def run_chatgpt_expand(
         recalled: list[dict[str, str]] = []
         if ckpt.is_step_done("1_recall"):
             recalled = list(ckpt.data("recalled") or [])
-            _log(f"  [chatgpt] Step 1/6: SKIP (checkpoint) — {len(recalled)} recalled")
+            _log(f"  [chatgpt] Step 1/7: SKIP (checkpoint) — {len(recalled)} recalled")
         elif skip_recall or (seeds_only and len(seeds) >= target):
-            _log("  [chatgpt] Step 1/6: skip ChatGPT recall (seeds cover target)")
+            _log("  [chatgpt] Step 1/7: skip ChatGPT recall (seeds cover target)")
             ckpt.mark_step_done("1_recall", recalled=[])
         else:
-            _log("  [chatgpt] Step 1/6: ChatGPT recall known companies…")
+            _log("  [chatgpt] Step 1/7: ChatGPT recall known companies…")
             recalled = gpt_recall_companies(
                 client,
                 model,
@@ -1716,8 +1735,8 @@ async def run_chatgpt_expand(
         raw: list[dict[str, str]] = []
         extracted: list[dict[str, str]] = []
         if seeds_only:
-            _log("  [chatgpt] Step 2/6: skip web discover (seeds-only)")
-            _log("  [chatgpt] Step 3/6: skip ddgs extract (seeds-only)")
+            _log("  [chatgpt] Step 2/7: skip web discover (seeds-only)")
+            _log("  [chatgpt] Step 3/7: skip ddgs extract (seeds-only)")
             if not ckpt.is_step_done("2_discover"):
                 ckpt.mark_step_done("2_discover", discovered=[])
             if not ckpt.is_step_done("3_ddgs"):
@@ -1739,12 +1758,12 @@ async def run_chatgpt_expand(
             if ckpt.is_step_done("2_discover"):
                 discovered = list(ckpt.data("discovered") or [])
                 _log(
-                    f"  [chatgpt] Step 2/6: SKIP (checkpoint) — "
+                    f"  [chatgpt] Step 2/7: SKIP (checkpoint) — "
                     f"{len(discovered)} openai-discovered"
                 )
             elif openai_discover and need > 0:
                 _log(
-                    "  [chatgpt] Step 2/6: OpenAI SDK web_search — find companies…"
+                    "  [chatgpt] Step 2/7: OpenAI SDK web_search — find companies…"
                 )
                 openai_cost.heartbeat(
                     "openai_discover",
@@ -1773,23 +1792,23 @@ async def run_chatgpt_expand(
                 )
             elif openai_discover:
                 _log(
-                    "  [chatgpt] Step 2/6: skip OpenAI discover "
+                    "  [chatgpt] Step 2/7: skip OpenAI discover "
                     f"(seeds+recall already ≥ target: {len(seeds)+len(recalled)})"
                 )
                 ckpt.mark_step_done("2_discover", discovered=[])
             else:
-                _log("  [chatgpt] Step 2/6: OpenAI discover disabled")
+                _log("  [chatgpt] Step 2/7: OpenAI discover disabled")
                 ckpt.mark_step_done("2_discover", discovered=[])
 
             if ckpt.is_step_done("3_ddgs"):
                 raw = list(ckpt.data("raw") or [])
                 extracted = list(ckpt.data("extracted") or [])
                 _log(
-                    f"  [chatgpt] Step 3/6: SKIP (checkpoint) — "
+                    f"  [chatgpt] Step 3/7: SKIP (checkpoint) — "
                     f"{len(extracted)} ddgs extracted"
                 )
             elif ddgs_harvest:
-                _log("  [chatgpt] Step 3/6: optional ddgs/SearXNG harvest + extract…")
+                _log("  [chatgpt] Step 3/7: optional ddgs/SearXNG harvest + extract…")
                 openai_cost.heartbeat(
                     "ddgs_harvest",
                     web_queries_planned=max_queries,
@@ -1810,7 +1829,7 @@ async def run_chatgpt_expand(
                 ckpt.mark_step_done("3_ddgs", raw=raw, extracted=extracted)
             else:
                 _log(
-                    "  [chatgpt] Step 3/6: skip ddgs harvest "
+                    "  [chatgpt] Step 3/7: skip ddgs harvest "
                     "(use --ddgs-harvest to enable; OpenAI discover is primary)"
                 )
                 ckpt.mark_step_done("3_ddgs", raw=[], extracted=[])
@@ -1820,12 +1839,12 @@ async def run_chatgpt_expand(
             verified = list(ckpt.data("verified") or [])
             rejected_mid = list(ckpt.data("rejected_mid") or [])
             _log(
-                f"  [chatgpt] Step 4/6: SKIP (checkpoint) — "
+                f"  [chatgpt] Step 4/7: SKIP (checkpoint) — "
                 f"kept={len(verified)} rejected={len(rejected_mid)}"
             )
         else:
             _log(
-                f"  [chatgpt] Step 4/6: ChatGPT verify market-related "
+                f"  [chatgpt] Step 4/7: ChatGPT verify market-related "
                 f"({len(combined)} = {len(seeds)} seeds + {len(recalled)} recalled "
                 f"+ {len(discovered)} openai-web + {len(extracted)} ddgs)…"
             )
@@ -1882,7 +1901,7 @@ async def run_chatgpt_expand(
             merged = list(by.values())
 
             if fill_existing:
-                to_fill = merged[:max_fill]
+                to_fill = list(merged)
             else:
                 existing_names = {_norm(r.get("Company", "")) for r in existing}
                 new_rows = [
@@ -1902,14 +1921,19 @@ async def run_chatgpt_expand(
                         continue
                     seen.add(k)
                     to_fill.append(r)
-                    if len(to_fill) >= max_fill:
-                        break
+            fill_cap = max(int(max_fill or 0), int(target or 0), 1)
+            if len(to_fill) > fill_cap:
+                to_fill = to_fill[:fill_cap]
+            _log(
+                f"  [chatgpt] fill ALL table rows this pass: {len(to_fill)} "
+                f"(merged={len(merged)}, cap={fill_cap})"
+            )
             ckpt.mark_step_done("4b_merge", merged=merged, to_fill=to_fill)
 
         if ckpt.is_step_done("5_fill") and ckpt.data("filled_part"):
             filled_part = list(ckpt.data("filled_part") or [])
             _log(
-                f"  [chatgpt] Step 5/6: SKIP (checkpoint) — {len(filled_part)} filled"
+                f"  [chatgpt] Step 5/7: SKIP (checkpoint) — {len(filled_part)} filled"
             )
         else:
             use_search_fill = str(fill_backend).lower() in (
@@ -1922,22 +1946,21 @@ async def run_chatgpt_expand(
                 from vendor_intel.pipeline.search_stack_fill import search_stack_fill_rows
 
                 _log(
-                    f"  [chatgpt] Step 5/6: search-stack fill FIRST "
-                    f"(Google AI → DDGS/SearXNG → Wikipedia/Owler), then "
-                    f"{_llm_label()} residual for leftover Not publicly disclosed gaps "
-                    f"— {len(to_fill)} rows…"
+                    f"  [chatgpt] Step 5/7: Google AI scraper fill FIRST (all SLIM columns), "
+                    f"then {_llm_label()} residual for leftover empty / "
+                    f"Not publicly disclosed gaps — {len(to_fill)} rows…"
                 )
                 filled_part = await search_stack_fill_rows(
                     query=query,
                     family=family,
                     rows=to_fill,
                     ckpt=ckpt,
-                    sources=("google_ai", "wikipedia", "owler", "backfill"),
+                    sources=None,  # SEARCH_STACK_SOURCES (default: google_ai only)
                     use_apollo=use_apollo,
                 )
             else:
                 _log(
-                    f"  [chatgpt] Step 5/6: "
+                    f"  [chatgpt] Step 5/7: "
                     f"{'OpenAI web_search + ' if web_fill else ''}"
                     f"fill all 35 columns ({len(to_fill)} rows)…"
                 )
@@ -1968,15 +1991,51 @@ async def run_chatgpt_expand(
         ckpt.bump("5_fill", "5c_merge", filled_all=filled_all, note="merged filled_all")
         _log(f"    → substep 5c: merged filled rows into list ({len(filled_all)} total)")
 
+        if ckpt.is_step_done("5d_field_verify") and ckpt.data("field_verified_rows") is not None:
+            filled_all = list(ckpt.data("field_verified_rows") or [])
+            rejected_field_verify = list(ckpt.data("rejected_field_verify") or [])
+            _log(
+                f"  [chatgpt] Step 6/7: SKIP (checkpoint) — "
+                f"kept={len(filled_all)} rejected={len(rejected_field_verify)}"
+            )
+        else:
+            _log(
+                f"  [chatgpt] Step 6/7: verify/correct Core Categories, Specialty Focus, "
+                f"Key Brands, channel fit, Online/Offline/Both, Contact Person/Role/LinkedIn, "
+                f"geography — {len(filled_all)} rows…"
+            )
+            try:
+                from vendor_intel.pipeline.field_verify_fill import verify_and_correct_fields
+
+                filled_all, rejected_field_verify = await verify_and_correct_fields(
+                    filled_all,
+                    query=query,
+                    family=family,
+                    ckpt=ckpt,
+                    use_apollo=use_apollo,
+                )
+            except Exception as err:  # noqa: BLE001
+                _log(f"    → Step 6/7: field verify/correct failed, keeping Step 5 output: {err}")
+                rejected_field_verify = []
+            ckpt.mark_step_done(
+                "5d_field_verify",
+                field_verified_rows=filled_all,
+                rejected_field_verify=rejected_field_verify,
+            )
+            _log(
+                f"    → Step 6/7 done: kept={len(filled_all)} "
+                f"rejected={len(rejected_field_verify)}"
+            )
+
         if ckpt.is_step_done("6_final") and ckpt.data("final_kept"):
             final_rows = list(ckpt.data("final_kept") or [])
             rejected_final = list(ckpt.data("rejected_final") or [])
             _log(
-                f"  [chatgpt] Step 6/6: SKIP (checkpoint) — "
+                f"  [chatgpt] Step 7/7: SKIP (checkpoint) — "
                 f"kept={len(final_rows)} rejected={len(rejected_final)}"
             )
         else:
-            _log("  [chatgpt] Step 6/6: ChatGPT final market-related verify…")
+            _log("  [chatgpt] Step 7/7: ChatGPT final market-related verify…")
             final_rows, rejected_final = gpt_final_verify_rows(
                 client,
                 model,
@@ -1985,9 +2044,13 @@ async def run_chatgpt_expand(
                 rows=filled_all,
                 ckpt=ckpt,
             )
-            _log(f"    → substep 6b: write final rejects ({len(rejected_final)})")
+            all_rejected = list(rejected_field_verify) + list(rejected_final)
+            _log(
+                f"    → substep 6b: write final rejects "
+                f"({len(rejected_final)} market-relevance + {len(rejected_field_verify)} field-verify)"
+            )
             (out_p / f"chatgpt_rejected_final_batch_{batch.lower()}.json").write_text(
-                json.dumps(rejected_final, indent=2, ensure_ascii=False), encoding="utf-8"
+                json.dumps(all_rejected, indent=2, ensure_ascii=False), encoding="utf-8"
             )
 
         final_rows.sort(key=lambda r: _norm(r.get("Company", "")))
@@ -2001,12 +2064,20 @@ async def run_chatgpt_expand(
 
             if channel_purity_enabled():
                 before_n = len(final_rows)
+                # Auto-map electrical distribution markets to electrical OEM blocklist
+                purity_family = family
+                try:
+                    from vendor_intel.intelligence.channel_purity import _resolve_family
+
+                    purity_family = _resolve_family(family, query)
+                except Exception:
+                    purity_family = family
                 final_rows, purity_dropped = await filter_channel_pure_rows_async(
-                    final_rows, family=family, query=query
+                    final_rows, family=purity_family, query=query
                 )
                 _log(
-                    f"  [chatgpt] Channel purity: kept {len(final_rows)}/{before_n} "
-                    f"(dropped {len(purity_dropped)} OEM/utility/non-channel)"
+                    f"  [chatgpt] Channel purity ({purity_family}): kept {len(final_rows)}/{before_n} "
+                    f"(dropped {len(purity_dropped)} OEM/utility/fake/non-channel)"
                 )
                 if purity_dropped:
                     (out_p / f"chatgpt_rejected_purity_batch_{batch.lower()}.json").write_text(
