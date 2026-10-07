@@ -100,6 +100,30 @@ def google_ai_llm_clean_only_when_missing() -> bool:
     return raw in ("1", "true", "yes", "on")
 
 
+def _llm_clean_min_chars() -> int:
+    """Below this many characters, skip the DeepSeek cleanup entirely.
+
+    Measured on real traffic: many Overview answers are already short
+    (a few hundred chars) and the "cleaned" version is barely different,
+    yet each call still costs input tokens for the whole text. Since every
+    downstream consumer parses with regex rather than reading prose, that
+    spend buys nothing. 900 keeps genuinely long, nav-chrome-heavy pages
+    going through the LLM, where it does help.
+    """
+    try:
+        return max(0, int(os.getenv("GOOGLE_AI_SCRAPER_LLM_CLEAN_MIN_CHARS", "900")))
+    except ValueError:
+        return 900
+
+
+def _llm_clean_max_input_chars() -> int:
+    """Cap on how much text is sent to the cleanup LLM (see caller)."""
+    try:
+        return max(500, int(os.getenv("GOOGLE_AI_SCRAPER_LLM_CLEAN_MAX_CHARS", "4000")))
+    except ValueError:
+        return 4000
+
+
 def _llm_clean_model() -> str:
     """Prefer DeepSeek chat when OPENAI_* points at api.deepseek.com."""
     explicit = (os.getenv("GOOGLE_AI_SCRAPER_LLM_MODEL") or "").strip()
@@ -130,6 +154,193 @@ def _overview_retry_sleep_sec() -> float:
         return max(0.5, float(os.getenv("GOOGLE_AI_SCRAPER_OVERVIEW_RETRY_SLEEP_SEC") or "2.5"))
     except ValueError:
         return 2.5
+
+
+def _captcha_wait_sec() -> float:
+    """How long to wait for a CAPTCHA to clear before retrying the query.
+
+    A block is temporary: Google lifts it once the burst of requests stops,
+    or the user solves the challenge in the visible tab. Discarding the
+    company instead of waiting throws away work that a short pause
+    recovers.
+    """
+    try:
+        return max(0.0, float(os.getenv("GOOGLE_AI_CAPTCHA_WAIT_SEC") or "30"))
+    except ValueError:
+        return 30.0
+
+
+# A cheap, always-answerable query used only to test whether the block has
+# lifted. Deliberately generic so it never depends on a company being known.
+_CAPTCHA_PROBE_QUERY = "capital of France"
+
+
+def _captcha_probe_interval() -> float:
+    """Seconds between checks while waiting for a CAPTCHA to be solved.
+
+    Each probe is a real Google query, so this should not be aggressive —
+    15s is slow enough not to look like traffic while the block is active,
+    and fast enough that a solved challenge is noticed promptly.
+    """
+    try:
+        return max(0.01, float(os.getenv("GOOGLE_AI_CAPTCHA_PROBE_SEC") or "15"))
+    except ValueError:
+        return 15.0
+
+
+def _captcha_probe_timeout() -> float:
+    """Give up holding the queue after this long (default 30 min).
+
+    Without a ceiling an unattended overnight run would stall forever on a
+    challenge nobody is there to solve.
+    """
+    try:
+        return max(60.0, float(os.getenv("GOOGLE_AI_CAPTCHA_MAX_WAIT_SEC") or "1800"))
+    except ValueError:
+        return 1800.0
+
+
+def _captcha_wait_for_solve() -> bool:
+    """Hold every tab until the CAPTCHA clears, instead of a fixed sleep."""
+    raw = (os.getenv("GOOGLE_AI_CAPTCHA_WAIT_FOR_SOLVE") or "true").strip().lower()
+    return raw in ("1", "true", "yes", "on")
+
+
+def _captcha_retries() -> int:
+    """How many times to wait-and-retry a blocked query before giving up."""
+    try:
+        return max(0, min(10, int(os.getenv("GOOGLE_AI_CAPTCHA_RETRIES") or "3")))
+    except ValueError:
+        return 3
+
+
+# Text that only ever appears on Google's bot-block / CAPTCHA interstitial.
+_CAPTCHA_MARKERS: tuple[str, ...] = (
+    "unusual traffic from your computer network",
+    "our systems have detected unusual traffic",
+    "solving the above captcha",
+    "/sorry/index",
+    "recaptcha",
+    "why did this happen",
+)
+
+
+class _CaptchaGate:
+    """Makes every in-flight query wait out a block that any one of them hit.
+
+    Queries run ~10 at a time, each in its own tab. Google's block is
+    per-network, not per-tab, so when one query is blocked the other nine
+    are too. Without a shared gate each would independently discover the
+    block, wait, and retry — hammering Google while it is actively
+    rate-limiting, which prolongs the block and burns the retry budget of
+    every company in flight.
+
+    One waiter does the sleeping; the rest simply wait for the same event.
+    """
+
+    def __init__(self) -> None:
+        self._until: float = 0.0
+        self._lock: "asyncio.Lock | None" = None
+
+    def _get_lock(self) -> "asyncio.Lock":
+        # Created lazily: the module is imported before any event loop runs.
+        if self._lock is None:
+            self._lock = asyncio.Lock()
+        return self._lock
+
+    async def wait_if_blocked(self) -> None:
+        loop = asyncio.get_event_loop()
+        remaining = self._until - loop.time()
+        if remaining > 0:
+            await asyncio.sleep(remaining)
+
+    async def block_for(self, seconds: float) -> None:
+        """Record a block and sleep it out, coalescing concurrent callers."""
+        async with self._get_lock():
+            loop = asyncio.get_event_loop()
+            now = loop.time()
+            # Extend rather than restart, so ten callers hitting the same
+            # block do not serialise into ten consecutive waits.
+            self._until = max(self._until, now + seconds)
+            remaining = self._until - now
+        await asyncio.sleep(max(0.0, remaining))
+
+    async def hold_until_clear(self, base: str, mode: str, probe) -> None:
+        """Freeze ALL querying until Google actually answers again.
+
+        `block_for` only sleeps a fixed interval and then lets every tab
+        resume regardless of whether the challenge was solved — so a
+        still-blocked Google gets hit by ten fresh tabs, which prolongs the
+        block. This instead polls with ONE cheap query and holds the rest of
+        the queue closed until that query comes back clean, which is what
+        happens when the CAPTCHA is solved in the visible tab.
+
+        Exactly one caller does the probing; the others park on the same
+        barrier, so no extra tabs are opened while the block is active.
+        """
+        loop = asyncio.get_event_loop()
+        async with self._get_lock():
+            already_probing = self._until > loop.time()
+            if not already_probing:
+                # Claim the prober role. _until doubles as "a hold is
+                # active"; it is cleared the moment the block lifts.
+                self._until = loop.time() + _captcha_probe_timeout()
+
+        if already_probing:
+            # Someone else is probing. Poll the flag in short steps rather
+            # than sleeping the whole budget: the earlier version slept the
+            # full 30-minute timeout even after the prober had already
+            # logged "CAPTCHA cleared", so every other tab stayed parked and
+            # the run went silent for half an hour.
+            while True:
+                async with self._get_lock():
+                    if self._until <= loop.time():
+                        return
+                await asyncio.sleep(1.0)
+
+        interval = _captcha_probe_interval()
+        deadline = asyncio.get_event_loop().time() + _captcha_probe_timeout()
+        attempt = 0
+        while asyncio.get_event_loop().time() < deadline:
+            attempt += 1
+            print(
+                f"  [google_ai] CAPTCHA — no new tabs; waiting for it to be "
+                f"solved (check {attempt}, every {interval:.0f}s)",
+                flush=True,
+            )
+            await asyncio.sleep(interval)
+            try:
+                data = await probe(base, _CAPTCHA_PROBE_QUERY, thread_id=None, mode=mode)
+            except Exception:
+                continue
+            if not is_captcha_page(data):
+                print("  [google_ai] CAPTCHA cleared — resuming", flush=True)
+                async with self._get_lock():
+                    self._until = 0.0
+                return
+
+        print(
+            "  [google_ai] CAPTCHA still present after the wait budget — "
+            "continuing anyway",
+            flush=True,
+        )
+        async with self._get_lock():
+            self._until = 0.0
+
+
+_captcha_gate = _CaptchaGate()
+
+
+def is_captcha_page(data: dict) -> bool:
+    """True when the scrape returned a bot-block page instead of results.
+
+    Detected on the RAW text: the block page is prose, so the cleaners
+    happily reformat it into something that reads like a real answer.
+    """
+    raw = str(data.get("markdown_raw") or data.get("markdown") or "").lower()
+    if not raw:
+        return False
+    return any(marker in raw for marker in _CAPTCHA_MARKERS)
 
 
 def _timeout() -> float:
@@ -273,7 +484,13 @@ async def llm_clean_scrape_markdown(query: str, raw_markdown: str) -> str:
     api_key = (os.getenv("OPENAI_API_KEY") or "").strip()
     if not api_key:
         return ""
-    trimmed = heuristic_clean_scrape_markdown(raw_markdown, max_chars=12000)
+    # 12000 chars was ~3000 input tokens per call. The Overview's actual
+    # answer sits at the top; the tail is citations, related searches and
+    # nav chrome, which the cleaner discards anyway — so paying to send it
+    # is waste. Configurable if a market needs more context.
+    trimmed = heuristic_clean_scrape_markdown(
+        raw_markdown, max_chars=_llm_clean_max_input_chars()
+    )
     if len(trimmed) < 40:
         return trimmed
 
@@ -420,6 +637,18 @@ async def _apply_deepseek_sentence_clean(
     missing = bool(data.get("ai_overview_missing"))
     # Default: clean long Overview text. Optional: only when Overview is missing.
     should_clean = want_llm and (missing if only_missing else True)
+
+    # Skip the LLM when the heuristic clean already left something short.
+    # Downstream consumers parse this with regex, not prose comprehension,
+    # so paying DeepSeek to shorten an already-short answer buys nothing —
+    # and measured across a full market it was the bulk of the LLM spend.
+    # Long, chrome-heavy responses still get cleaned, because there the LLM
+    # measurably improves what the extractors can find.
+    if should_clean and len(raw_for_llm) <= _llm_clean_min_chars():
+        data["llm_cleaned"] = False
+        data["llm_clean_skipped"] = "short_enough"
+        return data
+
     if not should_clean:
         return data
 
@@ -479,7 +708,48 @@ async def google_ai_ask(
             break
         # First attempt may reuse caller thread_id; later retries open a fresh thread
         tid = thread_id if attempts == 0 else None
+
+        # Before issuing the request, wait out any block another query is
+        # already sitting on. Concurrency means ~10 tabs are in flight; if
+        # one is blocked they all are, so continuing to fire requests both
+        # wastes them and prolongs the block.
+        await _captcha_gate.wait_if_blocked()
+
         data = await _ask_once(base, variant, thread_id=tid, mode=mode)
+
+        # A CAPTCHA is temporary. Pause (letting the user solve it in the
+        # visible tab if they wish) and re-ask the SAME query rather than
+        # discarding the company.
+        blocked_tries = 0
+        while is_captcha_page(data) and blocked_tries < _captcha_retries():
+            blocked_tries += 1
+            wait = _captcha_wait_sec()
+            print(
+                f"  [google_ai] CAPTCHA detected — pausing all tabs "
+                f"({blocked_tries}/{_captcha_retries()}) | {variant[:60]}",
+                flush=True,
+            )
+            if _captcha_wait_for_solve():
+                # Hold the whole queue until Google answers again. Opening
+                # more tabs into an active block just prolongs it.
+                await _captcha_gate.hold_until_clear(base, mode, _ask_once)
+            else:
+                await _captcha_gate.block_for(wait)
+            data = await _ask_once(base, variant, thread_id=None, mode=mode)
+
+        if is_captcha_page(data):
+            # Still blocked after every retry. Report it as such so callers
+            # can skip the company instead of parsing the block page — the
+            # page echoes the query, so it reads as a confident answer.
+            return {
+                "markdown": "",
+                "markdown_raw": str(data.get("markdown_raw") or data.get("markdown") or ""),
+                "citations": [],
+                "error": "captcha_blocked",
+                "captcha_blocked": True,
+                "overview_attempts": attempts + 1,
+            }
+
         attempts += 1
         data = _heuristic_only(data)
         data["overview_attempts"] = attempts

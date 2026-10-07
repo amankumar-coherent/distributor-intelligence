@@ -16,6 +16,7 @@ def apply_env_overrides() -> None:
     from vendor_intel.placeholders import wikidata as wd
     from vendor_intel.scraping import fetch as scrape_fetch
     from vendor_intel.scraping.selenium_browser import apply_selenium_env
+    from vendor_intel.scraping.chatgpt_scraper import apply_chatgpt_scraper_env
 
     if v := os.getenv("ANTHROPIC_API_KEY"):
         llm_mod.ANTHROPIC_API_KEY = v
@@ -37,3 +38,4 @@ def apply_env_overrides() -> None:
         wd.WIKIDATA_ENABLED = False
 
     apply_selenium_env()
+    apply_chatgpt_scraper_env()

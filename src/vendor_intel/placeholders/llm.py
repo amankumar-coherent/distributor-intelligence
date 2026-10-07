@@ -90,6 +90,10 @@ def is_configured() -> bool:
         return bool(_opencode_key())
     if LLM_PROVIDER == "openai":
         return _key_ok(os.getenv("OPENAI_API_KEY", ""))
+    if LLM_PROVIDER == "chatgpt_scraper":
+        from vendor_intel.scraping.chatgpt_scraper import CHATGPT_SCRAPER_ENABLED
+
+        return CHATGPT_SCRAPER_ENABLED
     if LLM_PROVIDER in ("mock", "none"):
         return False
     return _key_ok(ANTHROPIC_API_KEY)
@@ -403,6 +407,25 @@ def _openai_complete(system: str, user: str, model: str, max_tokens: int) -> tup
     return text, usage
 
 
+def _chatgpt_scraper_complete(system: str, user: str) -> tuple[str, dict[str, int]]:
+    """Free, unofficial ChatGPT web-UI scraper (vendor_intel.scraping.chatgpt_scraper).
+
+    Plain-text only — no JSON mode, no function calling, no real usage/token
+    data (it's a browser automating chatgpt.com's guest chat, not a metered
+    API). ~10-30s per call via a fresh Chrome launch, one call at a time.
+    Only use for plain-text call sites (llm_complete); never for
+    llm_complete_json — there's no way to force structured output here.
+    """
+    from vendor_intel.scraping.chatgpt_scraper import CHATGPT_SCRAPER_ENABLED, ask_chatgpt
+
+    if not CHATGPT_SCRAPER_ENABLED:
+        raise RuntimeError("Set CHATGPT_SCRAPER_ENABLED=true to use LLM_PROVIDER=chatgpt_scraper")
+
+    prompt = f"{system.strip()}\n\n{user.strip()}" if system.strip() else user.strip()
+    text = ask_chatgpt(prompt)
+    return text, dict(_ZERO_USAGE)
+
+
 def _resolve_dispatch_model(provider: str, model: str | None) -> str:
     if provider == "gemini":
         return model or DEFAULT_GEMINI_MODEL
@@ -412,6 +435,8 @@ def _resolve_dispatch_model(provider: str, model: str | None) -> str:
         return model or OPENCODE_MODEL
     if provider == "openai":
         return model or "gpt-4o-mini"
+    if provider == "chatgpt_scraper":
+        return model or "chatgpt-web-guest"
     return model or DEFAULT_COMPILER_MODEL
 
 
@@ -447,6 +472,10 @@ def _dispatch(
             resolved = _resolve_dispatch_model("openai", model)
             text, usage = _openai_complete(system, user, resolved, max_tokens)
             return text, usage, "openai", resolved
+        if LLM_PROVIDER == "chatgpt_scraper":
+            resolved = _resolve_dispatch_model("chatgpt_scraper", model)
+            text, usage = _chatgpt_scraper_complete(system, user)
+            return text, usage, "chatgpt_scraper", resolved
         resolved = _resolve_dispatch_model("anthropic", model)
         text, usage = _anthropic_complete(system, user, resolved, max_tokens)
         return text, usage, "anthropic", resolved
@@ -565,6 +594,11 @@ def llm_complete_json(
     model: str | None = None,
     max_tokens: int = 4096,
 ) -> Any:
+    if LLM_PROVIDER == "chatgpt_scraper":
+        raise RuntimeError(
+            "LLM_PROVIDER=chatgpt_scraper has no enforced JSON mode — "
+            "not supported for llm_complete_json. Use llm_complete (plain text) instead."
+        )
     raw = llm_complete(
         system + "\nRespond with valid JSON only. No markdown fences.",
         user,

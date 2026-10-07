@@ -19,6 +19,10 @@ from vendor_intel.config import Settings
 def _isolated_db(tmp_path, monkeypatch):
     monkeypatch.setattr(db, "_DB_PATH", tmp_path / "batch.db")
     monkeypatch.setattr(db, "_CACHE_DIR", tmp_path / "company_cache")
+    # _cached_search_results checks the on-disk search cache before the
+    # SQLite one — isolate it too, else these tests read/pollute the real
+    # cache in data/search_cache/.
+    monkeypatch.setenv("SEARCH_DISK_CACHE_DIR", str(tmp_path / "search_cache"))
     db.reset_for_tests()
     yield
     db.reset_for_tests()

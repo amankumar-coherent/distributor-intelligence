@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Kompass Distributor Scraper — Pipeline Flow</title>
+<style>
+  :root{
+    --surface:#ffffff;
+    --surface-alt:#f6f7f9;
+    --ink-primary:#1a1d23;
+    --ink-secondary:#53585f;
+    --ink-muted:#82868d;
+    --line:#d8dbe0;
+    --line-strong:#b6bac1;
+
+    --step-fill:#eef2fb;
+    --step-line:#3a5ba0;
+    --step-text:#1e2c4d;
+
+    --decision-fill:#fdf3e3;
+    --decision-line:#b3791f;
+    --decision-text:#5c4008;
+
+    --accept-fill:#e7f5ec;
+    --accept-line:#2f8f4e;
+    --accept-text:#164a29;
+
+    --reject-fill:#fbeaea;
+    --reject-line:#c33d3d;
+    --reject-text:#6b1f1f;
+
+    --fallback-fill:#f1ecf9;
+    --fallback-line:#7451b8;
+    --fallback-text:#3c2568;
+
+    --output-fill:#1a1d23;
+    --output-text:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    padding:40px 20px 60px;
+    background:var(--surface-alt);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color:var(--ink-primary);
+  }
+  .wrap{max-width:980px;margin:0 auto;}
+  h1{
+    font-size:20px;
+    font-weight:700;
+    margin:0 0 4px;
+    letter-spacing:-0.01em;
+  }
+  .subtitle{
+    font-size:13px;
+    color:var(--ink-secondary);
+    margin:0 0 28px;
+  }
+  .legend{
+    display:flex;
+    flex-wrap:wrap;
+    gap:16px;
+    margin-bottom:28px;
+    padding:12px 16px;
+    background:var(--surface);
+    border:1px solid var(--line);
+    border-radius:8px;
+    font-size:12px;
+    color:var(--ink-secondary);
+  }
+  .legend-item{display:flex;align-items:center;gap:6px;}
+  .swatch{width:12px;height:12px;border-radius:3px;flex-shrink:0;}
+  .sw-step{background:var(--step-fill);border:1.5px solid var(--step-line);}
+  .sw-decision{background:var(--decision-fill);border:1.5px solid var(--decision-line);}
+  .sw-accept{background:var(--accept-fill);border:1.5px solid var(--accept-line);}
+  .sw-reject{background:var(--reject-fill);border:1.5px solid var(--reject-line);}
+  .sw-fallback{background:var(--fallback-fill);border:1.5px solid var(--fallback-line);}
+  .sw-output{background:var(--output-fill);}
+
+  .flow{
+    background:var(--surface);
+    border:1px solid var(--line);
+    border-radius:12px;
+    padding:32px 28px 36px;
+  }
+
+  .col{display:flex;flex-direction:column;align-items:center;}
+
+  .node{
+    width:100%;
+    max-width:460px;
+    padding:12px 18px;
+    border-radius:10px;
+    font-size:13.5px;
+    font-weight:600;
+    text-align:center;
+    line-height:1.4;
+    position:relative;
+  }
+  .node .sub{
+    display:block;
+    font-size:11.5px;
+    font-weight:400;
+    margin-top:3px;
+    opacity:0.85;
+  }
+  .node.step{background:var(--step-fill);border:1.5px solid var(--step-line);color:var(--step-text);}
+  .node.decision{background:var(--decision-fill);border:1.5px solid var(--decision-line);color:var(--decision-text);border-radius:14px;}
+  .node.accept{background:var(--accept-fill);border:1.5px solid var(--accept-line);color:var(--accept-text);}
+  .node.reject{background:var(--reject-fill);border:1.5px solid var(--reject-line);color:var(--reject-text);}
+  .node.fallback{background:var(--fallback-fill);border:1.5px solid var(--fallback-line);color:var(--fallback-text);}
+  .node.output{background:var(--output-fill);color:var(--output-text);font-size:14px;}
+
+  .arrow{
+    width:2px;
+    height:22px;
+    background:var(--line-strong);
+    position:relative;
+  }
+  .arrow::after{
+    content:"";
+    position:absolute;
+    bottom:0;
+    left:50%;
+    transform:translateX(-50%);
+    width:0;height:0;
+    border-left:5px solid transparent;
+    border-right:5px solid transparent;
+    border-top:7px solid var(--line-strong);
+  }
+  .arrow-label{
+    font-size:10.5px;
+    font-weight:700;
+    color:var(--ink-muted);
+    text-transform:uppercase;
+    letter-spacing:0.04em;
+    margin:2px 0;
+    padding:1px 8px;
+    background:var(--surface);
+    border:1px solid var(--line);
+    border-radius:20px;
+    text-align:center;
+  }
+
+  .branch-row{
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    gap:36px;
+    width:100%;
+    margin-top:4px;
+  }
+  .branch{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    flex:1;
+    max-width:400px;
+  }
+
+  .loop-list{
+    width:100%;
+    max-width:460px;
+    background:var(--surface);
+    border:1.5px dashed var(--line-strong);
+    border-radius:10px;
+    padding:14px 18px;
+    font-size:12.5px;
+    color:var(--ink-secondary);
+  }
+  .loop-list b{color:var(--ink-primary);font-size:12.5px;}
+  .loop-list ol{margin:8px 0 0;padding-left:18px;line-height:1.7;}
+  .loop-list code{
+    background:var(--surface-alt);
+    padding:1px 5px;
+    border-radius:4px;
+    font-size:11.5px;
+  }
+
+  .section-label{
+    align-self:flex-start;
+    font-size:11px;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:0.05em;
+    color:var(--ink-muted);
+    margin:26px 0 10px;
+    width:100%;
+    max-width:460px;
+    display:flex;
+    align-items:center;
+    gap:8px;
+  }
+  .section-label::after{
+    content:"";
+    flex:1;
+    height:1px;
+    background:var(--line);
+  }
+
+  .foot{
+    margin-top:26px;
+    padding-top:18px;
+    border-top:1px solid var(--line);
+    font-size:12px;
+    color:var(--ink-muted);
+    text-align:center;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Kompass Global Distributor Scraper — Pipeline Flow</h1>
+  <p class="subtitle">run_cursor_expand.py --backend kompass --query "&lt;market&gt;"</p>
+
+  <div class="legend">
+    <div class="legend-item"><span class="swatch sw-step"></span>Pipeline step</div>
+    <div class="legend-item"><span class="swatch sw-decision"></span>Decision</div>
+    <div class="legend-item"><span class="swatch sw-accept"></span>Company accepted</div>
+    <div class="legend-item"><span class="swatch sw-reject"></span>Company rejected</div>
+    <div class="legend-item"><span class="swatch sw-fallback"></span>Fallback pipeline</div>
+    <div class="legend-item"><span class="swatch sw-output"></span>Final output</div>
+  </div>
+
+  <div class="flow">
+    <div class="col">
+
+      <div class="node step">Input: market / product name
+        <span class="sub">e.g. "Smartphones"</span>
+      </div>
+      <div class="arrow"></div>
+
+      <div class="section-label">1 &nbsp;· &nbsp;AI page discovery (verified, never trusted blind)</div>
+
+      <div class="node step">AI search provider chain
+        <span class="sub">AI_SEARCH_PROVIDER → AI_FALLBACK_PROVIDER (Gemini → OpenAI/DeepSeek → …)</span>
+      </div>
+      <div class="arrow"></div>
+      <div class="node step">Fetch the AI-proposed URL for real
+        <span class="sub">kompass.py: fetch_kompass_page() — rate-limited, cached, retried</span>
+      </div>
+      <div class="arrow"></div>
+      <div class="node decision">URL is on kompass.com<br>and the page is alive?</div>
+
+      <div class="branch-row">
+        <div class="branch">
+          <div class="arrow-label">no</div>
+          <div class="node reject">Try next provider in chain
+            <span class="sub">exhausted → market_status = kompass_market_not_found</span>
+          </div>
+        </div>
+        <div class="branch">
+          <div class="arrow-label">yes</div>
+          <div class="node accept">Extract PRODUCT ID from the fetched URL
+            <span class="sub">e.g. 4066041 — never taken from the AI's text, always re-derived</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="arrow"></div>
+
+      <div class="section-label">2 &nbsp;· &nbsp;Global distributor candidate discovery</div>
+
+      <div class="node step">Paginate the Kompass product/listing page
+        <span class="sub">/z/ww/ global pages · MAX_COMPANIES_PER_MARKET (0 = unlimited)</span>
+      </div>
+      <div class="arrow"></div>
+      <div class="node step">Collect company profile links
+        <span class="sub">stop when: no next page, safety cap hit, or cap reached</span>
+      </div>
+      <div class="arrow"></div>
+
+      <div class="section-label">3 &nbsp;· &nbsp;Per-company verification loop</div>
+
+      <div class="loop-list">
+        <b>For each candidate company profile:</b>
+        <ol>
+          <li>Fetch profile page <code>kompass.py</code></li>
+          <li>Extract COMPANY ID from URL (e.g. <code>MD001143</code>) — distinct from product ID</li>
+          <li>Parse JSON-LD Organization block: founded, employees, website, address, email, phone</li>
+          <li>Parse per-activity classification tree: each category's own Distributor / Manufacturer / Service tag</li>
+          <li>Check market-specific evidence: matching activity tagged <b>pure Distributor</b> only</li>
+          <li>Score: +40 Distributor tag, +30 market match, +20 website confirms</li>
+        </ol>
+      </div>
+
+      <div class="arrow"></div>
+      <div class="node decision">Pure distributor for THIS market<br>(no manufacturer/OEM role at all)<br>AND score ≥ MIN_DISTRIBUTOR_CONFIDENCE?</div>
+
+      <div class="branch-row">
+        <div class="branch">
+          <div class="arrow-label">no</div>
+          <div class="node reject">REJECTED
+            <span class="sub">logged with reason — e.g. "no distributor-tagged activity matches"</span>
+          </div>
+        </div>
+        <div class="branch">
+          <div class="arrow-label">yes</div>
+          <div class="node accept">ACCEPTED
+            <span class="sub">verified distributor for this market</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="arrow"></div>
+
+      <div class="section-label">4 &nbsp;· &nbsp;Dedup, export, minimum-count gate</div>
+
+      <div class="node step">Deduplicate
+        <span class="sub">primary key: Kompass company ID · fallback: normalized name + country</span>
+      </div>
+      <div class="arrow"></div>
+      <div class="node step">Write rows into SLIM_COLUMNS FINAL Excel
+        <span class="sub">output/web_expand/&lt;slug&gt;/&lt;slug&gt;_FINAL.xlsx — same schema as --backend chatgpt</span>
+      </div>
+      <div class="arrow"></div>
+      <div class="node decision">Total rows (existing + Kompass)<br>≥ MIN_COMPANIES_PER_MARKET (default 500)?</div>
+
+      <div class="branch-row">
+        <div class="branch">
+          <div class="arrow-label">yes</div>
+          <div class="node output">DONE — save &amp; exit
+            <span class="sub" style="opacity:1;color:#c9ccd6;">no fallback needed</span>
+          </div>
+        </div>
+        <div class="branch">
+          <div class="arrow-label">no — even if Kompass found 0 (market not found / access error)</div>
+          <div class="node fallback">Fall back to ChatGPT / DeepSeek expand pipeline
+            <span class="sub">run_chatgpt_backend() — same steps as --backend chatgpt</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="arrow"></div>
+      <div class="node fallback">Find + verify + fill via OpenAI/DeepSeek SDK
+        <span class="sub">target = remaining shortfall to 500 · merges into the SAME final Excel · existing names excluded</span>
+      </div>
+      <div class="arrow"></div>
+      <div class="node output">DONE — Kompass rows + fallback rows merged, deduped, saved</div>
+
+    </div>
+  </div>
+
+  <div class="foot">
+    vendor_intel.discovery.kompass_distributors · kompass_ai_search · clients.kompass &nbsp;·&nbsp; run_cursor_expand.py --backend kompass
+  </div>
+</div>
+</body>
+</html>

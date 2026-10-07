@@ -43,6 +43,19 @@ def _load_env() -> None:
                 os.environ[k] = v
         load_dotenv(cmi_env, override=False)
 
+    # os.environ is now populated from .env, but several modules (notably
+    # the ChatGPT web-UI scraper) cache config into module-level globals at
+    # import time and only re-read os.environ when explicitly told to via
+    # apply_env_overrides() — without this call CHATGPT_SCRAPER_ENABLED (and
+    # the selenium/LLM key overrides) silently stay at their hardcoded
+    # defaults no matter what .env says.
+    try:
+        from vendor_intel.placeholders.load_keys import apply_env_overrides
+
+        apply_env_overrides()
+    except Exception:
+        pass
+
 
 def _resolve_final(query: str, final: str | None) -> str:
     """Generic per-market FINAL under output/web_expand/<slug>/ (no demo hardcoding)."""
@@ -261,6 +274,213 @@ def run_chatgpt_backend(args: argparse.Namespace) -> int:
     return 0
 
 
+def run_kompass_backend(args: argparse.Namespace) -> int:
+    """Global Kompass distributor scraper, with automatic ChatGPT/DeepSeek
+    expand-pipeline fallback to reach a minimum company count.
+
+    Step 1: Kompass — finds companies Kompass explicitly classifies as
+    distributors, with market-specific evidence (not just a keyword match) —
+    see vendor_intel.discovery.kompass_distributors. No upper limit by
+    default (MAX_COMPANIES_PER_MARKET=0).
+    Step 2: if the total is still below MIN_COMPANIES_PER_MARKET (default
+    500) — including when Kompass finds the market page but not enough
+    distributors, OR can't find/access Kompass for this market at all —
+    fall back to the SAME steps as --backend chatgpt (DeepSeek/OpenAI SDK
+    find+verify+fill, same as run_chatgpt_expand) to top up the remainder
+    into the SAME final Excel. Existing Kompass rows are excluded by name so
+    the fallback only discovers genuinely new companies.
+    """
+    from vendor_intel.discovery.kompass_distributors import (
+        apply_final_distributor_gate,
+        market_result_to_rows,
+        min_companies_per_market,
+        run_kompass_distributor_search,
+    )
+    from vendor_intel.pipeline.openai_expand_checkpoint import ExpandCheckpoint
+    from vendor_intel.pipeline.web_expand import (
+        read_final_rows,
+        resolve_final_path,
+        write_final_xlsx,
+    )
+
+    min_total = min_companies_per_market()
+    final_path = resolve_final_path(args.query, args.country, args.out_dir and Path(args.out_dir), args.final)
+    existing = [] if args.no_merge else read_final_rows(final_path)
+
+    ckpt, resumed = ExpandCheckpoint.load_or_create(
+        final_path.parent,
+        query=args.query,
+        country=args.country,
+        batch="kompass",
+        target=min_total,
+        resume=not getattr(args, "fresh", False),
+    )
+
+    print(f"=== Kompass distributor scraper: {args.query} (min target: {min_total}) ===", flush=True)
+    if resumed and ckpt.data("kompass_step_done"):
+        print("  [kompass] checkpoint: Kompass discovery already completed — reusing saved result", flush=True)
+        market_status = ckpt.data("kompass_result_market_status", "kompass_market_not_found")
+        kompass_new_rows = list(ckpt.data("kompass_result_rows", []))
+        kompass_audit = {"market_status": market_status}
+        if market_status == "ok":
+            kompass_audit.update(
+                {
+                    "kompass_product_id": ckpt.data("kompass_result_product_id"),
+                    "kompass_product_url": ckpt.data("kompass_result_product_url"),
+                    "verified_distributors": len(kompass_new_rows),
+                    "rejected_candidates": ckpt.data("kompass_result_rejected_count", 0),
+                }
+            )
+        else:
+            print(f"  [kompass] market_status={market_status} — 0 companies from Kompass", flush=True)
+    else:
+        if resumed:
+            print("  [kompass] checkpoint: resuming Kompass discovery from last saved progress...", flush=True)
+        ckpt.bump("kompass_0_start", "begin", note="starting kompass distributor search")
+        result = run_kompass_distributor_search(args.query, ckpt=ckpt)
+
+        kompass_new_rows = []
+        kompass_audit = {"market_status": result.market_status}
+        if result.market_status == "ok":
+            kompass_new_rows = market_result_to_rows(result)
+            kompass_audit.update(
+                {
+                    "kompass_product_id": result.kompass_product_id,
+                    "kompass_product_url": result.kompass_product_url,
+                    "verified_distributors": len(kompass_new_rows),
+                    "rejected_candidates": result.rejected_count,
+                }
+            )
+        else:
+            print(f"  [kompass] market_status={result.market_status} — 0 companies from Kompass", flush=True)
+
+        ckpt.bump(
+            "kompass_4_done", "search_complete",
+            kompass_step_done=True,
+            kompass_result_market_status=result.market_status,
+            kompass_result_product_id=result.kompass_product_id,
+            kompass_result_product_url=result.kompass_product_url,
+            kompass_result_rejected_count=result.rejected_count,
+            kompass_result_rows=kompass_new_rows,
+            note="kompass distributor search complete",
+        )
+
+    existing_names = {row.get("Company", "").strip().lower() for row in existing}
+    merged = list(existing) + [
+        r for r in kompass_new_rows if r["Company"].strip().lower() not in existing_names
+    ]
+
+    write_final_xlsx(
+        final_path,
+        merged,
+        sheet_name=args.query[:31],
+        audit={"query": args.query, "backend": "kompass", **kompass_audit},
+    )
+    market_status = kompass_audit.get("market_status")
+    print(
+        f"  [kompass] {len(merged)} total rows after Kompass "
+        f"({len(kompass_new_rows)} new verified distributors"
+        + (f", {kompass_audit.get('rejected_candidates', 0)} rejected)" if market_status == "ok" else ")"),
+        flush=True,
+    )
+
+    if len(merged) >= min_total:
+        print(f"  [kompass] OK — {len(merged)} >= minimum {min_total}, no fallback needed", flush=True)
+        _apply_gate_and_rewrite(final_path, merged, args.query, kompass_audit, used_fallback=False)
+        ckpt.mark_done()
+        return 0
+
+    print(
+        f"  [kompass] {len(merged)} < minimum {min_total} — falling back to ChatGPT/DeepSeek "
+        f"expand pipeline (same steps as --backend chatgpt) to top up",
+        flush=True,
+    )
+    ckpt.bump("kompass_5_fallback", "dispatching", note="dispatching chatgpt/deepseek fallback")
+    fallback_args = argparse.Namespace(**vars(args))
+    fallback_args.target = min_total
+    fallback_args.no_merge = False  # must merge on top of the Kompass rows just written
+    rc = run_chatgpt_backend(fallback_args)
+    if rc != 0:
+        print(
+            f"  [kompass] fallback pipeline failed (exit {rc}) — "
+            f"{len(merged)} Kompass-only rows remain saved at {final_path}",
+            flush=True,
+        )
+        return rc
+
+    # Final verification gate — applies to ALL rows now in the file,
+    # regardless of whether Kompass or the ChatGPT/DeepSeek fallback
+    # produced them (spec: pure distributors only, no manufacturer/OEM,
+    # enforced deterministically at the end, not just by an LLM prompt).
+    all_rows = read_final_rows(final_path)
+    _apply_gate_and_rewrite(final_path, all_rows, args.query, kompass_audit, used_fallback=True)
+    ckpt.mark_done()
+    return 0
+
+
+def _apply_gate_and_rewrite(
+    final_path: Path,
+    rows: list[dict[str, str]],
+    query: str,
+    audit: dict[str, object],
+    *,
+    used_fallback: bool,
+) -> None:
+    from vendor_intel.discovery.kompass_distributors import apply_final_distributor_gate
+    from vendor_intel.pipeline.web_expand import write_final_xlsx
+    from vendor_intel.pipeline.website_verification import verify_and_fix_website
+
+    kept, rejected = apply_final_distributor_gate(rows)
+
+    # Website reachability + identity verification — every row, regardless
+    # of source (Kompass or the ChatGPT/DeepSeek fallback), gets its Website
+    # column checked/fixed here, same as company_enrichment.py's per-company
+    # path does for rows that go through that orchestrator instead.
+    websites_fixed = 0
+    for row in kept:
+        name = str(row.get("Company") or "").strip()
+        if not name:
+            continue
+        try:
+            result = verify_and_fix_website(name, str(row.get("Headquarters") or ""), str(row.get("Website") or ""))
+        except Exception as exc:  # noqa: BLE001
+            print(f"    -> website verify error for {name!r}: {type(exc).__name__}: {exc}", flush=True)
+            continue
+        if result.was_corrected or (not result.website and row.get("Website")):
+            row["Website"] = result.website
+            websites_fixed += 1
+
+    write_final_xlsx(
+        final_path,
+        kept,
+        sheet_name=query[:31],
+        audit={
+            **audit,
+            "backend": "kompass",
+            "final_gate_rejected": len(rejected),
+            "websites_fixed": websites_fixed,
+        },
+    )
+    print(
+        f"  [kompass] FINAL VERIFY: {len(kept)} distributor rows kept, "
+        f"{len(rejected)} manufacturer/OEM rows rejected, "
+        f"{websites_fixed} websites fixed/cleared -> {final_path}",
+        flush=True,
+    )
+    print(
+        json.dumps(
+            {
+                **audit,
+                "total_after": len(kept),
+                "used_fallback": used_fallback,
+                "final_gate_rejected": len(rejected),
+                "websites_fixed": websites_fixed,
+            },
+            indent=2,
+        )
+    )
+
+
 def run_harvest_backend(args: argparse.Namespace) -> int:
     print("=== Web harvest expand (no ChatGPT) ===", flush=True)
     try:
@@ -417,11 +637,12 @@ def main() -> int:
     parser.add_argument("--final", default=None, help="Override FINAL xlsx path")
     parser.add_argument(
         "--backend",
-        choices=("chatgpt", "openai", "cursor", "harvest"),
+        choices=("chatgpt", "openai", "cursor", "harvest", "kompass"),
         default="chatgpt",
         help="chatgpt/openai=full OpenAI/DeepSeek SDK find+verify+fill (default, NO run_query.py); "
         "DeepSeek uses search-stack + chat (no hosted web_search); "
-        "cursor=Cursor SDK; harvest=web search only",
+        "cursor=Cursor SDK; harvest=web search only; "
+        "kompass=global Kompass distributor scraper (market-verified distributors only)",
     )
     parser.add_argument(
         "--enrich",
@@ -505,10 +726,12 @@ def main() -> int:
     )
     parser.add_argument(
         "--fill-backend",
-        choices=("search", "openai"),
+        choices=("search", "openai", "enrichment_chain"),
         default="search",
         help="search=DDGS/SearXNG/Google AI scraper (default); "
-        "openai=OpenAI web_search fill (costly)",
+        "openai=OpenAI web_search fill (costly); "
+        "enrichment_chain=per-field Kompass → ChatGPT scraper → Google AI → "
+        "DeepSeek → Smart Crawl fallback chain",
     )
     parser.add_argument(
         "--model",
@@ -529,6 +752,8 @@ def main() -> int:
         return run_chatgpt_backend(args)
     if args.backend == "harvest":
         return run_harvest_backend(args)
+    if args.backend == "kompass":
+        return run_kompass_backend(args)
     return run_cursor_backend(args)
 
 

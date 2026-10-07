@@ -88,11 +88,35 @@ async def _fetch_page_text(url: str) -> tuple[str, str]:
     return await fetch_page_text(url)
 
 
+async def _fetch_all(urls: list[str]) -> list[tuple[str, str]]:
+    """Fetch every candidate path at once, keeping the input order.
+
+    These paths are guesses — most 404 — so fetching them one at a time
+    meant a company's budget was spent waiting on pages that do not exist.
+    A dead or slow domain could stall for ~17 sequential timeouts, which is
+    what made contact_page exceed its 45s cap and return nothing at all.
+    Order is preserved so the caller still honours path priority
+    (/contact before /pages/contact).
+    """
+    import asyncio
+
+    results = await asyncio.gather(
+        *(_fetch_page_text(u) for u in urls), return_exceptions=True
+    )
+    out: list[tuple[str, str]] = []
+    for item in results:
+        if isinstance(item, BaseException):
+            out.append(("", ""))
+        else:
+            out.append(item)
+    return out
+
+
 async def _find_contact_url(domain: str) -> tuple[str, str]:
     """Try common paths; return (text, url) from first page with email or phone."""
     best_text, best_url = "", ""
-    for url in _candidate_urls(domain, CONTACT_PATHS):
-        text, final_url = await _fetch_page_text(url)
+    urls = _candidate_urls(domain, CONTACT_PATHS)
+    for text, final_url in await _fetch_all(urls):
         if not text:
             continue
         if _pick_email(text) or _pick_phone(text):
@@ -110,8 +134,8 @@ async def _find_contact_url(domain: str) -> tuple[str, str]:
 
 async def _find_leadership_text(domain: str) -> tuple[str, str]:
     best_text, best_url = "", ""
-    for url in _candidate_urls(domain, LEADERSHIP_PATHS):
-        text, final_url = await _fetch_page_text(url)
+    urls = _candidate_urls(domain, LEADERSHIP_PATHS)
+    for text, final_url in await _fetch_all(urls):
         if not text:
             continue
         if CEO_TITLE.search(text):

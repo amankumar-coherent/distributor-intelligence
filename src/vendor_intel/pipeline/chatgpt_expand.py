@@ -1942,7 +1942,28 @@ async def run_chatgpt_expand(
                 "ddgs",
                 "stack",
             )
-            if use_search_fill:
+            use_enrichment_chain = str(fill_backend).lower() in (
+                "enrichment_chain",
+                "enrichment",
+                "chain",
+                "kompass_chain",
+            )
+            if use_enrichment_chain:
+                from vendor_intel.pipeline.company_enrichment import enrich_company_rows
+
+                _log(
+                    f"  [chatgpt] Step 5/7: per-field enrichment chain — "
+                    f"Kompass → ChatGPT scraper → Google AI → DeepSeek → Smart Crawl "
+                    f"({len(to_fill)} rows)…"
+                )
+                filled_part, enrich_summary = await enrich_company_rows(to_fill, market=query, ckpt=ckpt)
+                ckpt.bump(
+                    "5_fill", "5_enrichment_chain_summary",
+                    note="enrichment chain done",
+                    enrich_done_keys=[], enrich_out_rows=[], enrich_summary_state={},
+                )
+                _ = enrich_summary
+            elif use_search_fill:
                 from vendor_intel.pipeline.search_stack_fill import search_stack_fill_rows
 
                 _log(

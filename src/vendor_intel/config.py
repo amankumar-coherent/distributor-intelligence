@@ -38,9 +38,9 @@ class Settings(BaseSettings):
     )
 
     # LLM
-    llm_provider: Literal["anthropic", "gemini", "groq", "opencode", "mock", "openai"] = Field(
-        default="anthropic", validation_alias="LLM_PROVIDER"
-    )
+    llm_provider: Literal[
+        "anthropic", "gemini", "groq", "opencode", "mock", "openai", "chatgpt_scraper"
+    ] = Field(default="anthropic", validation_alias="LLM_PROVIDER")
     anthropic_api_key: str = Field(default="", validation_alias="ANTHROPIC_API_KEY")
     gemini_api_key: str = Field(default="", validation_alias="GEMINI_API_KEY")
     groq_api_key: str = Field(default="", validation_alias="GROQ_API_KEY")

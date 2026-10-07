@@ -40,6 +40,8 @@ class ClaudeClient:
             if req and "claude" not in req.lower():
                 return req
             return self._settings.opencode_model
+        if self._settings.llm_provider == "chatgpt_scraper":
+            return "chatgpt-web-guest"
         if model:
             return model
         if self._settings.llm_provider == "gemini":

@@ -59,3 +59,17 @@ psycopg[binary]>=3.2.0
 # Needs CURSOR_API_KEY in .env — https://cursor.com/dashboard
 cursor-sdk>=1.0.0
 
+# --- ChatGPT web-UI scraper (vendor_intel.scraping.chatgpt_scraper) ---
+# Unofficial (ported from github.com/st1vms/gptauto to Chrome+plain Selenium).
+# No extra deps — reuses selenium + Google Chrome from the Selenium block
+# above. Prefer the openai client for anything programmatic; this is opt-in
+# via CHATGPT_SCRAPER_ENABLED=true, free/anonymous mode, no OpenAI account.
+
+
+# --- Google AI Mode scraper (vendor_intel.scraping.google_ai_mode) ---
+# Patchright is a stealth-patched drop-in fork of Playwright. It is REQUIRED,
+# not interchangeable with plain playwright: anonymous Google AI Mode
+# (udm=50) traffic from plain Playwright is instantly CAPTCHA'd (/sorry/),
+# while Patchright answers in ~5s with no CAPTCHA and no Google sign-in.
+# Uses the real Chrome install (channel="chrome"), so no browser download.
+patchright>=1.61.0

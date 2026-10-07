@@ -49,3 +49,16 @@ Desktop.ini
 
 # browser automation profile (large, local only)
 .chrome-gai/
+
+# Browser automation profiles — NEVER commit these.
+# They contain live Google session cookies and "Login Data" (2,531 such
+# files at last count). data/chrome-profile/ above covered the original
+# profile; these patterns cover the per-market ones the drone/fire
+# pipelines create. The tracked data/*.json files are unaffected.
+data/*_chromium/
+data/*_chrome_profile/
+data/*_extensions/
+data/*_profile_*/
+data/ai_mode_chrome_profile*/
+data/status_profile_*/
+data/*.owner
