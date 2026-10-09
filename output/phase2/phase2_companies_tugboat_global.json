@@ -1,0 +1,1370 @@
+{
+  "phase": 2,
+  "phase2_mode": "fast",
+  "query": "Tugboat Market",
+  "mock_mode": false,
+  "completed_at": "2026-07-24T05:16:49.833999+00:00",
+  "scope": {
+    "market": "tugboat",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "maritime logistics",
+    "industry_terms": [
+      "tugboat",
+      "maritime logistics",
+      "vessel maneuvering",
+      "harbor operations",
+      "tugboat services"
+    ],
+    "ecosystem_functions": [
+      "distributing tugboats",
+      "reselling tugboats",
+      "providing maintenance services",
+      "integrating tugboat systems",
+      "supporting maritime operations",
+      "logistics management",
+      "customer support",
+      "technical assistance"
+    ],
+    "interpretation_summary": "The tugboat market encompasses the design, manufacturing, and distribution of tugboats, which are specialized vessels used to maneuver ships in harbors, narrow channels, or through shallow waters. Key participants includ",
+    "relevance_keywords": [
+      "tugboat distribution",
+      "tugboat maintenance",
+      "tugboat sales",
+      "tugboat integration",
+      "maritime service providers"
+    ],
+    "negative_keywords": [
+      "fishing boats",
+      "cargo ships",
+      "yachts",
+      "recreational boats",
+      "unrelated maritime industries"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "Crowley Maritime",
+        "primary_domain": "crowley.com",
+        "company_function": "service providers"
+      },
+      {
+        "canonical_name": "Harley Marine Services",
+        "primary_domain": "harleymarine.com",
+        "company_function": "service providers"
+      },
+      {
+        "canonical_name": "Svitzer",
+        "primary_domain": "svitzer.com",
+        "company_function": "service providers"
+      },
+      {
+        "canonical_name": "Bollinger Shipyards",
+        "primary_domain": "bollingershipyards.com",
+        "company_function": "distributors"
+      },
+      {
+        "canonical_name": "Tug Technologies",
+        "primary_domain": "tugtechnologies.com",
+        "company_function": "system integrators"
+      },
+      {
+        "canonical_name": "Seacor Marine",
+        "primary_domain": "seacormarine.com",
+        "company_function": "service providers"
+      },
+      {
+        "canonical_name": "McAllister Towing",
+        "primary_domain": "mcallistertowing.com",
+        "company_function": "service providers"
+      },
+      {
+        "canonical_name": "Tugboat Solutions",
+        "primary_domain": "tugboatsolutions.com",
+        "company_function": "distributors"
+      },
+      {
+        "canonical_name": "Great Lakes Dredge & Dock",
+        "primary_domain": "gldd.com",
+        "company_function": "tugboat and dredging services"
+      },
+      {
+        "canonical_name": "Tugboat International",
+        "primary_domain": "tugboatinternational.com",
+        "company_function": "tugboat sales and services"
+      }
+    ],
+    "search_topic": "tugboat",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "tugboat",
+    "include_keywords": [
+      "tugboat distributors",
+      "tugboat resellers",
+      "tugboat service providers",
+      "tugboat system integrators",
+      "maritime channel partners"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The tugboat market encompasses the design, manufacturing, and distribution of tugboats, which are specialized vessels used to maneuver ships in harbors, narrow channels, or through shallow waters. Key participants include manufacturers, distributors, and service providers operating globally to support maritime logistics and operations.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Distribution",
+        "description": "This layer involves the distribution and resale of tugboats and related services.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Regional Distributors",
+              "Global Distributors"
+            ],
+            "participant_types": [
+              "distributor",
+              "wholesaler"
+            ],
+            "search_intents": [
+              "tugboat distributors near me",
+              "global tugboat distributors"
+            ]
+          },
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Authorized Resellers",
+              "Independent Resellers"
+            ],
+            "participant_types": [
+              "reseller"
+            ],
+            "search_intents": [
+              "buy tugboats from resellers",
+              "tugboat reseller companies"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L2",
+        "layer_name": "Service Providers",
+        "description": "This layer includes companies providing maintenance, repair, and operational services for tugboats.",
+        "segments": [
+          {
+            "segment_name": "Service Providers",
+            "sub_segments": [
+              "Maintenance Services",
+              "Operational Support"
+            ],
+            "participant_types": [
+              "service provider"
+            ],
+            "search_intents": [
+              "tugboat maintenance services",
+              "tugboat operational support providers"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L3",
+        "layer_name": "System Integration",
+        "description": "This layer involves companies that integrate tugboat systems and technologies.",
+        "segments": [
+          {
+            "segment_name": "System Integrators",
+            "sub_segments": [
+              "Technology Integrators",
+              "Operational Integrators"
+            ],
+            "participant_types": [
+              "system integrator"
+            ],
+            "search_intents": [
+              "tugboat system integrators",
+              "integrated tugboat solutions"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Shipbuilders",
+        "Maritime Equipment Manufacturers",
+        "Port Authorities",
+        "Shipping Companies"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "find tugboat distributors globally",
+        "sub_sector": "distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "search for authorized tugboat resellers",
+        "sub_sector": "reseller",
+        "layer_id": "L1",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "tugboat maintenance service providers",
+        "sub_sector": "service_provider",
+        "layer_id": "L2",
+        "segment": "Service Providers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "tugboat system integration companies",
+        "sub_sector": "system_integrator",
+        "layer_id": "L3",
+        "segment": "System Integrators"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "phase1_plan_path": "D:\\vendor-intel\\output\\phase1\\phase1_plan_tugboat_global.json",
+  "companies": [
+    {
+      "name": "Marineinsight",
+      "domain": "marineinsight.com",
+      "discovery_source": "ddgs_bing+searxng",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Dexteroffshore",
+      "domain": "dexteroffshore.com",
+      "discovery_source": "ddgs_bing+searxng",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Maritimepage",
+      "domain": "maritimepage.com",
+      "discovery_source": "searxng",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Scienceabc",
+      "domain": "scienceabc.com",
+      "discovery_source": "searxng",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Merchantnavydecoded",
+      "domain": "merchantnavydecoded.com",
+      "discovery_source": "searxng",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Baudouin",
+      "domain": "baudouin.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Tugboatinformation",
+      "domain": "tugboatinformation.com",
+      "discovery_source": "ddgs_bing+searxng",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Tugboatvape",
+      "domain": "tugboatvape.com",
+      "discovery_source": "ddgs_bing+ddgs_yandex",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Tugboatsolutions",
+      "domain": "tugboatsolutions.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Tugboatinc",
+      "domain": "tugboatinc.com",
+      "discovery_source": "ddgs_bing+searxng",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Nauticexpo",
+      "domain": "nauticexpo.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Svitzer",
+      "domain": "svitzer.com",
+      "discovery_source": "ddgs_bing+registry",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Trabzonshipyard",
+      "domain": "trabzonshipyard.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Go4worldbusiness",
+      "domain": "go4worldbusiness.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Pacificmaritimegroup",
+      "domain": "pacificmaritimegroup.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Seamen",
+      "domain": "seamen.es",
+      "discovery_source": "ddgs_bing+ddgs_yandex",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Tradekey",
+      "domain": "tradekey.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Vumarine",
+      "domain": "vumarine.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Cbinsights",
+      "domain": "cbinsights.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Hidubai",
+      "domain": "hidubai.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Landyachtz",
+      "domain": "landyachtz.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Pomaritime",
+      "domain": "pomaritime.com",
+      "discovery_source": "ddgs_bing+ddgs_yandex",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Sanmar",
+      "domain": "www.sanmar.com.tr",
+      "discovery_source": "ddgs_bing",
+      "company_function": "exporter",
+      "domain_corrected_from": "sanmar.com.tr"
+    },
+    {
+      "name": "Sprinto",
+      "domain": "sprinto.com",
+      "discovery_source": "ddgs_bing+ddgs_yandex",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Sym Naval",
+      "domain": "sym-naval.com",
+      "discovery_source": "ddgs_bing+searxng",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Yelp",
+      "domain": "yelp.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Zmenu",
+      "domain": "zmenu.com",
+      "discovery_source": "searxng",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Blongangvape",
+      "domain": "blongangvape.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Bollingershipyards",
+      "domain": "bollingershipyards.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Crowley",
+      "domain": "crowley.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Crozdesk",
+      "domain": "crozdesk.com",
+      "discovery_source": "ddgs_bing+ddgs_yandex",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Facol",
+      "domain": "facol.br",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Gldd",
+      "domain": "gldd.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Harleymarine",
+      "domain": "harleymarine.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Manta",
+      "domain": "manta.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Mcallistertowing",
+      "domain": "mcallistertowing.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Pgetugs",
+      "domain": "pgetugs.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Seacormarine",
+      "domain": "seacormarine.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Technavio",
+      "domain": "technavio.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Tugboatinternational",
+      "domain": "tugboatinternational.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Tugboatqa",
+      "domain": "tugboatqa.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "contract_manufacturer"
+    },
+    {
+      "name": "Tugtechnologies",
+      "domain": "tugtechnologies.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Ultratug",
+      "domain": "ultratug.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Wilhelmsen",
+      "domain": "wilhelmsen.com",
+      "discovery_source": "ddgs_bing+ddgs_yandex",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Adnocls",
+      "domain": "adnocls.ae",
+      "discovery_source": "ddgs_bing+ddgs_yandex",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Ascenzmarorka",
+      "domain": "ascenzmarorka.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Autoline",
+      "domain": "autoline.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Blueseamarine",
+      "domain": "blueseamarine.vn",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Boluda",
+      "domain": "boluda.eu",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Bossgoo",
+      "domain": "bossgoo.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "oem_manufacturer"
+    },
+    {
+      "name": "Businessresearchinsights",
+      "domain": "businessresearchinsights.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Cevalogistics",
+      "domain": "cevalogistics.com",
+      "discovery_source": "ddgs_bing+ddgs_yandex",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Cn Liwei",
+      "domain": "cn-liwei.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Denizlink",
+      "domain": "denizlink.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Emiratesvapor",
+      "domain": "emiratesvapor.ae",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Fairplay Towage",
+      "domain": "fairplay-towage.group",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Haiiangroup",
+      "domain": "haiiangroup.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Lionrockmaritime",
+      "domain": "lionrockmaritime.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Logistics Buyer",
+      "domain": "logistics-buyer.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Logisticsmiddleeast",
+      "domain": "logisticsmiddleeast.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Luckyship",
+      "domain": "luckyship.goldsupplier.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Maritime Logistic",
+      "domain": "maritime-logistic.com",
+      "discovery_source": "ddgs_bing+ddgs_yandex",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Modular Barges",
+      "domain": "modular-barges.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Myshiptracking",
+      "domain": "myshiptracking.com",
+      "discovery_source": "searxng",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Noatum",
+      "domain": "noatum.com",
+      "discovery_source": "ddgs_bing+ddgs_yandex",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Ousibangvape",
+      "domain": "ousibangvape.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Peidagroup",
+      "domain": "peidagroup.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Ptdutamarine",
+      "domain": "ptdutamarine.co.id",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Pushboats Barges",
+      "domain": "pushboats-barges.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Rocketreach",
+      "domain": "rocketreach.co",
+      "discovery_source": "ddgs_bing+ddgs_yandex",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Ruihangship",
+      "domain": "ruihangship.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Seasidetraders",
+      "domain": "seasidetraders.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Seawolfmarinegroup",
+      "domain": "seawolfmarinegroup.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Spinergie",
+      "domain": "spinergie.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Spotsaas",
+      "domain": "spotsaas.com",
+      "discovery_source": "ddgs_bing+ddgs_yandex",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Techcos",
+      "domain": "techcos.co",
+      "discovery_source": "ddgs_bing+ddgs_yandex",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Tradeit",
+      "domain": "tradeit.gg",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Tugboatgroup",
+      "domain": "tugboatgroup.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "contract_manufacturer"
+    },
+    {
+      "name": "Tugboatusa",
+      "domain": "tugboatusa.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Uzmar",
+      "domain": "uzmar.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Vanebrothers",
+      "domain": "vanebrothers.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Wm Strategy",
+      "domain": "wm-strategy.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Adoptmecalculation",
+      "domain": "adoptmecalculation.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Agentdeals",
+      "domain": "agentdeals.dev",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Amarrmarineinc",
+      "domain": "amarrmarineinc.com.ph",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Androidmultitool",
+      "domain": "androidmultitool.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Androidwintool",
+      "domain": "androidwintool.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Aras Marine",
+      "domain": "aras-marine.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Bergpropulsion",
+      "domain": "bergpropulsion.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Bmlg",
+      "domain": "bmlg.eu",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Boatvendor",
+      "domain": "boatvendor.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Borneoseller",
+      "domain": "borneoseller.com",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Captainsmode",
+      "domain": "captainsmode.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Cautop",
+      "domain": "cautop.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Checkertr",
+      "domain": "checkertr.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Cobalt",
+      "domain": "cobalt.io",
+      "discovery_source": "ddgs_bing",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Codefling",
+      "domain": "codefling.com",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Commercialmarinepro",
+      "domain": "commercialmarinepro.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Corrosionhour",
+      "domain": "corrosionhour.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Dannoceantowing",
+      "domain": "dannoceantowing.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Datanyze",
+      "domain": "datanyze.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Dmt Winches",
+      "domain": "dmt-winches.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "contract_manufacturer"
+    },
+    {
+      "name": "Drupal",
+      "domain": "drupal.org",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Eliteai",
+      "domain": "eliteai.tools",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Fortunebusinessinsights",
+      "domain": "fortunebusinessinsights.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Fremonttugboatcompany",
+      "domain": "fremonttugboatcompany.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Gaelictugboat",
+      "domain": "gaelictugboat.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Gcaptain",
+      "domain": "gcaptain.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Getlatka",
+      "domain": "getlatka.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Grata",
+      "domain": "grata.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Hmsmarine",
+      "domain": "hmsmarine.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Huafeng Shipyard",
+      "domain": "huafeng-shipyard.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Ignitionmarine",
+      "domain": "ignitionmarine.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Jamesedition",
+      "domain": "jamesedition.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Jaxport",
+      "domain": "jaxport.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Kambara Kisen",
+      "domain": "kambara-kisen.co.jp",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Kirbycorp",
+      "domain": "kirbycorp.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Kowaindia",
+      "domain": "kowaindia.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Ktushipyard",
+      "domain": "ktushipyard.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Lmitac",
+      "domain": "lmitac.com",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Loydshipyard",
+      "domain": "loydshipyard.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Lunar",
+      "domain": "lunar.com.my",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Marine Propeller",
+      "domain": "marine-propeller.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "oem_manufacturer"
+    },
+    {
+      "name": "Maritime Logistics",
+      "domain": "maritime-logistics.net",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Maritimefinancial",
+      "domain": "maritimefinancial.com",
+      "discovery_source": "searxng",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Mergr",
+      "domain": "mergr.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Mosslandingharbor",
+      "domain": "mosslandingharbor.dst.ca.us",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Mtalogistic",
+      "domain": "mtalogistic.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Neptunus Power",
+      "domain": "neptunus-power.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Owler",
+      "domain": "owler.com",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Papers2025",
+      "domain": "papers2025.cimaccongress.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Plugboats",
+      "domain": "plugboats.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Port",
+      "domain": "port.gdynia.pl",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Porttechnology",
+      "domain": "porttechnology.org",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Poseidon Tug",
+      "domain": "poseidon-tug.it",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Preconmarine",
+      "domain": "preconmarine.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Rllsolutions",
+      "domain": "rllsolutions.com",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Rockandreef",
+      "domain": "rockandreef.in",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Rolls Royce",
+      "domain": "rolls-royce.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Ruzave",
+      "domain": "ruzave.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Saasadviser",
+      "domain": "saasadviser.co",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Saashub",
+      "domain": "saashub.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Salary",
+      "domain": "salary.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Seaspan",
+      "domain": "seaspan.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Sindybad",
+      "domain": "sindybad.co",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Sounddevices",
+      "domain": "sounddevices.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Soundon",
+      "domain": "soundon.global",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Spakwyte",
+      "domain": "spakwyte.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Supersoarmarine",
+      "domain": "supersoarmarine.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "oem_manufacturer"
+    },
+    {
+      "name": "Sysllc",
+      "domain": "sysllc.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Tgsrtclogistics",
+      "domain": "tgsrtclogistics.co.in",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Theartonwater",
+      "domain": "theartonwater.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Thetugboatgroup",
+      "domain": "thetugboatgroup.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "contract_manufacturer"
+    },
+    {
+      "name": "Thrusterleader",
+      "domain": "thrusterleader.net",
+      "discovery_source": "ddgs_bing",
+      "company_function": "oem_manufacturer"
+    },
+    {
+      "name": "Trmonitor",
+      "domain": "trmonitor.net",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Tsvaping",
+      "domain": "tsvaping.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "oem_manufacturer"
+    },
+    {
+      "name": "Tugboatcoffee",
+      "domain": "tugboatcoffee.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Tugboatholdings",
+      "domain": "tugboatholdings.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Tugboatinn",
+      "domain": "tugboatinn.com",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Tugboatjack",
+      "domain": "tugboatjack.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Tugboatsoftware",
+      "domain": "tugboatsoftware.hanekedesignhosting.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Tugboatventures",
+      "domain": "tugboatventures.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "contract_manufacturer"
+    },
+    {
+      "name": "Uaestories",
+      "domain": "uaestories.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Ulgen",
+      "domain": "ulgen.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Ultranav",
+      "domain": "ultranav.dk",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Vapingunderground",
+      "domain": "vapingunderground.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Vesselgolf",
+      "domain": "vesselgolf.com",
+      "discovery_source": "searxng",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Wilsonsons",
+      "domain": "wilsonsons.com.br",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Worldmetrics",
+      "domain": "worldmetrics.org",
+      "discovery_source": "ddgs_bing",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Ytmarinefender",
+      "domain": "ytmarinefender.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Zeetug",
+      "domain": "zeetug.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "system_integrator"
+    }
+  ],
+  "company_count": 171,
+  "discovery_stats": {
+    "raw_hits": 630,
+    "unique_names": 189,
+    "by_prompt_id": {
+      "D10": 8,
+      "D2": 12,
+      "D3": 14,
+      "D4": 10,
+      "D5": 14,
+      "D6": 8,
+      "D7": 6,
+      "D8": 5,
+      "D9": 15,
+      "HX0_dist": 9,
+      "HX0_manu": 16,
+      "HX0_rese": 10,
+      "HX1_dist": 14,
+      "HX1_manu": 9,
+      "HX1_rese": 10,
+      "L0": 13,
+      "L1": 13,
+      "L2": 5,
+      "M1": 3,
+      "M1_biot": 1,
+      "M1_cont": 11,
+      "M2": 2,
+      "M3": 11,
+      "M4": 14,
+      "MUHX0_re": 7,
+      "MUL2": 10,
+      "P1": 15,
+      "P10": 6,
+      "P11": 12,
+      "P12": 9,
+      "P2": 16,
+      "P3": 14,
+      "P4": 14,
+      "P5": 10,
+      "P6": 9,
+      "P7": 8,
+      "P8": 9,
+      "P9": 5,
+      "SEED": 10,
+      "SEED2": 10,
+      "SEED3": 10,
+      "ST1a": 16,
+      "ST1b": 11,
+      "ST2a": 9,
+      "ST3a": 10,
+      "ST4a": 11,
+      "ST_L1_1": 20,
+      "ST_L1_2": 12,
+      "ST_L2_3": 9,
+      "T1a": 6,
+      "T1b": 8,
+      "T2a": 1,
+      "T2b": 1,
+      "T3a": 2,
+      "T3b": 1,
+      "T4a": 12,
+      "T4b": 8,
+      "V10": 2,
+      "V11": 6,
+      "V12": 6,
+      "V5": 10,
+      "V6": 10,
+      "V7": 7,
+      "V8": 3,
+      "V9": 2,
+      "VX1": 11,
+      "VX2": 6,
+      "W1": 10,
+      "W2": 13
+    },
+    "by_funnel_level": {
+      "L0": 43,
+      "L1": 13,
+      "L2": 5,
+      "discovery": 569
+    },
+    "widen_loops": 3
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ]
+}

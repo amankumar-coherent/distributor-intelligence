@@ -1,0 +1,160 @@
+==============================================================
+STEP 1/2  Purge off-scope companies from Dry Eyes
+  Removes ophthalmic equipment/device/optical distributors that
+  do not carry a named dry-eye drug. Backs up state first and
+  writes a full audit log. Ambiguous cases are KEPT.
+==============================================================
+Global Dry Eyes Treatment Market - Distributors Only
+  175 companies in state
+  scope: 1098 chars, keywords: yes
+  mode: keyword + AI Mode
+
+  keyword pass: 0 removed, 0 kept, 175 to adjudicate
+    chunk 1/18 (10 companies)...
+  [ai-mode] created automation profile at C:\Users\aman.kumar\Downloads\vendor-intel\data\ai_mode_chrome_profile_chromium
+  [ai-mode] skipping .env path (installed in profile instead): C:\Users\aman.kumar\Downloads\chrome-scraper-extensions\captcha-raptor\extension
+  [ai-mode] loading staged extension from profile: C:\Users\aman.kumar\Downloads\vendor-intel\data\ai_mode_chrome_profile_extensions\captcha-raptor
+  [ai-mode] loading extension: C:\Users\aman.kumar\Downloads\vendor-intel\data\ai_mode_chrome_profile_extensions\captcha-raptor
+  [ai-mode] verifying the extension actually registered...
+  [ai-mode] extension(s) active: 1 background worker(s)
+    chunk 2/18 (10 companies)...
+    chunk 3/18 (10 companies)...
+    chunk 4/18 (10 companies)...
+    chunk 5/18 (10 companies)...
+    chunk 6/18 (10 companies)...
+    chunk 7/18 (10 companies)...
+    chunk 8/18 (10 companies)...
+    chunk 9/18 (10 companies)...
+    chunk 10/18 (10 companies)...
+    chunk 11/18 (10 companies)...
+    chunk 12/18 (10 companies)...
+    chunk 13/18 (10 companies)...
+    chunk 14/18 (10 companies)...
+    chunk 15/18 (10 companies)...
+    chunk 16/18 (10 companies)...
+    chunk 17/18 (10 companies)...
+    chunk 18/18 (5 companies)...
+
+  RESULT: keep 57, remove 118
+  audit: C:\Users\aman.kumar\Downloads\vendor-intel\output\market_research\global-dry-eyes-treatment-market-distributors-only_scope_purge_audit.json
+  backup: global-dry-eyes-treatment-market-distributors-only.before-scope-purge-20260911-021917.json
+  state updated: 57 companies remain
+  re-exported: C:\Users\aman.kumar\Downloads\vendor-intel\output\market_research\global-dry-eyes-treatment-market-distributors-only.xlsx
+
+==============================================================
+STEP 2/2  Run the remaining markets sequentially
+  Dry Eyes / Solar Rooftop / Polyurethane / CPaaS discovery,
+  plus the Wearable Glucometer verification pass.
+  One at a time: they share one browser profile and one IP.
+==============================================================
+==============================================================================
+QUEUE: 6 market(s), target 400 each, verification ON
+Markets run one at a time — they share one browser profile and one IP.
+Everything is resumable: re-run this command to continue after a stop.
+==============================================================================
+  1. Global Silicon Carbide Market - Distributors Only   [402 already saved]
+  2. Global Wearable Glucometer Market - Distributors Only   [406 already saved]
+  3. Global Dry Eyes Treatment Market - Distributors Only   [57 already saved]
+  4. Global Solar Rooftop Market - Distributors Only
+  5. Global Polyurethane Market - Distributors Only
+  6. Global CPaaS (Communication Platform as a Service) Market - Distributors Only
+
+##############################################################################
+# Global Silicon Carbide Market - Distributors Only
+# target 400 | already saved 402 | verify on
+# started 02:19:21
+##############################################################################
+Market definition written to: C:\Users\aman.kumar\Downloads\vendor-intel\output\market_research\global-silicon-carbide-market-distributors-only.xlsx
+(companies are appended as batches complete)
+
+  [market-research] starting run_until_target for "Global Silicon Carbide Market - Distributors Only": target=400, already have 402
+verifying C:\Users\aman.kumar\Downloads\vendor-intel\output\market_research\global-silicon-carbide-market-distributors-only.xlsx
+market name for criteria: 'Global Silicon Carbide Market'
+[global-silicon-carbide-market-distributors-only] 402 companies, 41 chunk(s) of 10 (resume offset=410)
+[global-silicon-carbide-market-distributors-only] DONE: 374 kept, 28 dropped -> global-silicon-carbide-market-distributors-only_verified_distributors.xlsx
+DONE
+Reached 402/400 verified companies for "Global Silicon Carbide Market - Distributors Only" across 0 batch(es).
+
+Excel export written to: C:\Users\aman.kumar\Downloads\vendor-intel\output\market_research\global-silicon-carbide-market-distributors-only.xlsx
+
+======================================================================
+VERIFICATION PASS - judging each company KEEP / DROP
+Writes a SEPARATE *_verified_distributors.xlsx; the export above
+is left unchanged. Progress is checkpointed per chunk of 10.
+======================================================================
+
+--> Global Silicon Carbide Market - Distributors Only: ok | 402 -> 402 companies | 0.1 min
+
+##############################################################################
+# Global Wearable Glucometer Market - Distributors Only
+# target 400 | already saved 406 | verify on
+# started 02:19:26
+##############################################################################
+Market definition written to: C:\Users\aman.kumar\Downloads\vendor-intel\output\market_research\global-wearable-glucometer-market-distributors-only.xlsx
+(companies are appended as batches complete)
+
+  [market-research] starting run_until_target for "Global Wearable Glucometer Market - Distributors Only": target=400, already have 406
+verifying C:\Users\aman.kumar\Downloads\vendor-intel\output\market_research\global-wearable-glucometer-market-distributors-only.xlsx
+market name for criteria: 'Global Wearable Glucometer Market'
+[global-wearable-glucometer-market-distributors-only] 406 companies, 41 chunk(s) of 10 (resume offset=410)
+[global-wearable-glucometer-market-distributors-only] DONE: 356 kept, 50 dropped -> global-wearable-glucometer-market-distributors-only_verified_distributors.xlsx
+DONE
+Reached 406/400 verified companies for "Global Wearable Glucometer Market - Distributors Only" across 0 batch(es).
+
+Excel export written to: C:\Users\aman.kumar\Downloads\vendor-intel\output\market_research\global-wearable-glucometer-market-distributors-only.xlsx
+
+======================================================================
+VERIFICATION PASS - judging each company KEEP / DROP
+Writes a SEPARATE *_verified_distributors.xlsx; the export above
+is left unchanged. Progress is checkpointed per chunk of 10.
+======================================================================
+
+--> Global Wearable Glucometer Market - Distributors Only: ok | 406 -> 406 companies | 0.1 min
+
+##############################################################################
+# Global Dry Eyes Treatment Market - Distributors Only
+# target 400 | already saved 57 | verify on
+# started 02:19:30
+##############################################################################
+Market definition written to: C:\Users\aman.kumar\Downloads\vendor-intel\output\market_research\global-dry-eyes-treatment-market-distributors-only.xlsx
+(companies are appended as batches complete)
+
+  [market-research] starting run_until_target for "Global Dry Eyes Treatment Market - Distributors Only": target=400, already have 57
+  [market-research] --- batch 1: 57/400 companies so far ---
+  [market-research] round 1/8: asking for 10 more companies (0/20 filled so far)...
+  [ai-mode] skipping .env path (installed in profile instead): C:\Users\aman.kumar\Downloads\chrome-scraper-extensions\captcha-raptor\extension
+  [ai-mode] loading staged extension from profile: C:\Users\aman.kumar\Downloads\vendor-intel\data\ai_mode_chrome_profile_extensions\captcha-raptor
+  [ai-mode] loading extension: C:\Users\aman.kumar\Downloads\vendor-intel\data\ai_mode_chrome_profile_extensions\captcha-raptor
+  [ai-mode] verifying the extension actually registered...
+  [ai-mode] extension(s) active: 1 background worker(s)
+  [ai-mode] WARNING: prompt too long for a Google search URL (7204 chars -> 8333-char URL, limit 7800); truncated to 6483 chars. Shorten the prompt at the call site.
+  [ai-mode] CAPTCHA #1 (solver extension active) — waiting up to 60s; the query is re-sent automatically
+  [ai-mode] CAPTCHA cleared after 7s (auto-solved) — re-sending the query
+  [ai-mode] WARNING: prompt too long for a Google search URL (7204 chars -> 8333-char URL, limit 7800); truncated to 6483 chars. Shorten the prompt at the call site.
+  [market-research] round 1: got 0 draft(s) back
+  [market-research] batch empty after a CAPTCHA — retrying immediately (1/3, cool-off disabled)
+  [market-research] --- batch 1: 57/400 companies so far ---
+  [market-research] round 1/8: asking for 10 more companies (0/20 filled so far)...
+  [ai-mode] WARNING: prompt too long for a Google search URL (7204 chars -> 8333-char URL, limit 7800); truncated to 6483 chars. Shorten the prompt at the call site.
+  [market-research] round 1: got 0 draft(s) back
+  [market-research] batch returned 0 new companies (possible transient failure, 1/3) — pausing 15s and retrying
+  [market-research] --- batch 1: 57/400 companies so far ---
+  [market-research] round 1/8: asking for 10 more companies (0/20 filled so far)...
+  [ai-mode] WARNING: prompt too long for a Google search URL (7204 chars -> 8333-char URL, limit 7800); truncated to 6483 chars. Shorten the prompt at the call site.
+  [market-research] round 1: got 0 draft(s) back
+  [market-research] batch returned 0 new companies (possible transient failure, 2/3) — pausing 15s and retrying
+  [market-research] --- batch 1: 57/400 companies so far ---
+  [market-research] round 1/8: asking for 10 more companies (0/20 filled so far)...
+  [ai-mode] WARNING: prompt too long for a Google search URL (7204 chars -> 8333-char URL, limit 7800); truncated to 6483 chars. Shorten the prompt at the call site.
+  [market-research] round 1: got 0 draft(s) back
+  [market-research] 3 consecutive empty batches with no sign of blocking (no CAPTCHA seen this run) — treating as genuinely exhausted, stopping
+verifying C:\Users\aman.kumar\Downloads\vendor-intel\output\market_research\global-dry-eyes-treatment-market-distributors-only.xlsx
+market name for criteria: 'Global Dry Eyes Treatment Market'
+[global-dry-eyes-treatment-market-distributors-only] 57 companies, 6 chunk(s) of 10
+  [global-dry-eyes-treatment-market-distributors-only] chunk 1/6 (10 companies)...
+  [ai-mode] skipping .env path (installed in profile instead): C:\Users\aman.kumar\Downloads\chrome-scraper-extensions\captcha-raptor\extension
+  [ai-mode] loading staged extension from profile: C:\Users\aman.kumar\Downloads\vendor-intel\data\ai_mode_chrome_profile_extensions\captcha-raptor
+  [ai-mode] loading extension: C:\Users\aman.kumar\Downloads\vendor-intel\data\ai_mode_chrome_profile_extensions\captcha-raptor
+  [ai-mode] verifying the extension actually registered...
+
+ALL DONE. Outputs in output\market_research\

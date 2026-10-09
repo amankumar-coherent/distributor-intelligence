@@ -1,0 +1,1427 @@
+{
+  "phase": 1,
+  "query": "Global Green Chemical Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-29T20:14:00.143828+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "Green Chemical",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "chemicals",
+    "industry_terms": [
+      "bio-based chemicals",
+      "sustainable chemistry",
+      "renewable resources",
+      "green solvents",
+      "biodegradable materials"
+    ],
+    "ecosystem_functions": [
+      "distributing green chemicals",
+      "wholesaling eco-friendly products",
+      "reselling renewable resources",
+      "integrating sustainable solutions",
+      "providing consulting services",
+      "offering technical support",
+      "acting as channel partners",
+      "facilitating market access"
+    ],
+    "interpretation_summary": "The Global Green Chemical Market encompasses the production and distribution of chemicals derived from renewable resources, aimed at reducing environmental impact. Key participants include manufacturers, distributors, an",
+    "relevance_keywords": [
+      "sustainable chemical distribution",
+      "green chemical supply chain",
+      "renewable resource integration",
+      "eco-friendly product services",
+      "green chemistry solutions"
+    ],
+    "negative_keywords": [
+      "traditional chemicals",
+      "petrochemicals",
+      "non-renewable",
+      "fossil fuels",
+      "industrial waste"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "BASF",
+        "primary_domain": "basf.com",
+        "company_function": "chemical manufacturer and distributor"
+      },
+      {
+        "canonical_name": "Dow Chemical",
+        "primary_domain": "dow.com",
+        "company_function": "sustainable chemical solutions provider"
+      },
+      {
+        "canonical_name": "Cargill",
+        "primary_domain": "cargill.com",
+        "company_function": "bio-based product distributor"
+      },
+      {
+        "canonical_name": "Univar Solutions",
+        "primary_domain": "univarsolutions.com",
+        "company_function": "chemical distributor"
+      },
+      {
+        "canonical_name": "Green Biologics",
+        "primary_domain": "greenbiologics.com",
+        "company_function": "renewable chemical manufacturer"
+      },
+      {
+        "canonical_name": "NatureWorks",
+        "primary_domain": "natureworksllc.com",
+        "company_function": "biopolymer producer and distributor"
+      },
+      {
+        "canonical_name": "BioAmber",
+        "primary_domain": "bioamber.com",
+        "company_function": "bio-based chemical producer"
+      },
+      {
+        "canonical_name": "SABIC",
+        "primary_domain": "sabic.com",
+        "company_function": "chemical manufacturer and distributor"
+      },
+      {
+        "canonical_name": "Ecovia Renewables",
+        "primary_domain": "ecovia.com",
+        "company_function": "renewable chemical distributor",
+        "segment": "Distributors",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Avery Dennison",
+        "primary_domain": "averydennison.com",
+        "company_function": "sustainable product solutions provider",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Genomatica",
+        "primary_domain": "genomatica.com",
+        "company_function": "bio-based chemical producer",
+        "segment": "System Integrators",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Novozymes",
+        "primary_domain": "novozymes.com",
+        "company_function": "enzyme and bio-based solutions provider",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "LanzaTech",
+        "primary_domain": "lanzatech.com",
+        "company_function": "carbon recycling technology provider",
+        "segment": "System Integrators",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Clariant",
+        "primary_domain": "clariant.com",
+        "company_function": "specialty chemicals provider",
+        "segment": "Distributors",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "Green Chemical",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "Green Chemical",
+    "include_keywords": [
+      "eco-friendly chemicals",
+      "sustainable chemical distributors",
+      "green chemical wholesalers",
+      "renewable chemical resellers",
+      "green technology service providers"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The Global Green Chemical Market encompasses the production and distribution of chemicals derived from renewable resources, aimed at reducing environmental impact. Key participants include manufacturers, distributors, and service providers operating across various regions worldwide.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Distribution",
+        "description": "This layer involves the distribution of green chemicals through various channels to reach end-users.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Regional Distributors",
+              "National Distributors"
+            ],
+            "participant_types": [
+              "distributor",
+              "wholesaler"
+            ],
+            "search_intents": [
+              "green chemical distributors",
+              "renewable chemical wholesalers"
+            ]
+          },
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Online Resellers",
+              "Retail Resellers"
+            ],
+            "participant_types": [
+              "reseller"
+            ],
+            "search_intents": [
+              "green chemical resellers",
+              "eco-friendly chemical retailers"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L2",
+        "layer_name": "Integration Services",
+        "description": "This layer includes companies that integrate green chemicals into various applications and systems.",
+        "segments": [
+          {
+            "segment_name": "System Integrators",
+            "sub_segments": [
+              "Industrial System Integrators",
+              "Commercial System Integrators"
+            ],
+            "participant_types": [
+              "system integrator"
+            ],
+            "search_intents": [
+              "green chemical system integrators",
+              "renewable chemical integration services"
+            ]
+          },
+          {
+            "segment_name": "Service Providers",
+            "sub_segments": [
+              "Consulting Services",
+              "Technical Support Services"
+            ],
+            "participant_types": [
+              "service provider"
+            ],
+            "search_intents": [
+              "green chemical consulting services",
+              "renewable chemical technical support"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Traditional Chemical Manufacturers",
+        "Petrochemical Suppliers",
+        "Non-renewable Resource Providers",
+        "Chemical Equipment Manufacturers"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "search for green chemical distributors",
+        "sub_sector": "distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "find renewable chemical wholesalers",
+        "sub_sector": "wholesaler",
+        "layer_id": "L1",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "look for eco-friendly chemical resellers",
+        "sub_sector": "reseller",
+        "layer_id": "L1",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "search for green chemical system integrators",
+        "sub_sector": "system_integrator",
+        "layer_id": "L2",
+        "segment": "System Integrators"
+      },
+      {
+        "id": "M5",
+        "level": "market_map",
+        "text": "find green chemical consulting services",
+        "sub_sector": "service_provider",
+        "layer_id": "L2",
+        "segment": "Service Providers"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "chemicals",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "active",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample firmographics: founded=1975 hq=Redmond qid=Q2283"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "Green Chemical companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "Green Chemical distributors corporate sites"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "Green Chemical service providers official site"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "discovery",
+      "text": "green chemical distributors official site"
+    },
+    {
+      "id": "P2",
+      "level": "discovery",
+      "text": "renewable chemical wholesalers corporate headquarters"
+    },
+    {
+      "id": "P3",
+      "level": "discovery",
+      "text": "green chemical resellers official website"
+    },
+    {
+      "id": "P4",
+      "level": "discovery",
+      "text": "eco-friendly chemical retailers corporate site"
+    },
+    {
+      "id": "P5",
+      "level": "discovery",
+      "text": "green chemical system integrators official site"
+    },
+    {
+      "id": "P6",
+      "level": "discovery",
+      "text": "renewable chemical integration services corporate profile"
+    },
+    {
+      "id": "P7",
+      "level": "discovery",
+      "text": "green chemical consulting services official website"
+    },
+    {
+      "id": "P8",
+      "level": "discovery",
+      "text": "renewable chemical technical support corporate site"
+    },
+    {
+      "id": "P9",
+      "level": "volume",
+      "text": "authorized Green Chemical distributor firm official"
+    },
+    {
+      "id": "P10",
+      "level": "volume",
+      "text": "Green Chemical reseller channel partner official"
+    },
+    {
+      "id": "P11",
+      "level": "volume",
+      "text": "Green Chemical system integrator official website"
+    },
+    {
+      "id": "P12",
+      "level": "volume",
+      "text": "Green Chemical consulting partner implementation official"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "Green Chemical companies official websites",
+      "level": "L0",
+      "result_count": 17,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "GREEN Chemicals\u00ae",
+          "link": "https://www.green-chemicals.com/en",
+          "snippet": "GREEN Chemicals\u00ae Co. exports more than 30 countries and continues its commercial activities in Turkey, Turkish Speaking Countries, Europe, Latin America, Middle East, Africa and Balkan Countries. GREE",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 12 Green Chemical Companies to Source Sustainability [2026 Review]",
+          "link": "https://climatesort.com/green-chemical-companies/",
+          "snippet": "June 16, 2026 - Additionally, integrating circular economy principles is becoming increasingly important, with companies focusing on reducing waste and enhancing resource efficiency. Innovations in bi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemicals Co., Ltd.",
+          "link": "https://greenchemicals.co.jp/en/",
+          "snippet": "Green Chemicals Co., Ltd. website. We produce a variety of green chemicals, including 4-hydroxybenzoic acid, protocatechuic acid, shikimic acid, and phenol. We use bioprocesses to produce green chemic",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemicals Companies | Useful and Eco-friendly",
+          "link": "https://media.market.us/top-10-green-chemicals-companies/",
+          "snippet": "Mitsubishi Chemical Group Corporation is a leader in green chemicals, firmly committed to sustainability and environmental responsibility. Through innovation and research, Mitsubishi Chemical Group pr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemical Products | GreenChem Industries",
+          "link": "https://www.greenchemindustries.com/green-products",
+          "snippet": "Discover GreenChem Industries' eco-friendly and sustainable chemical products. Explore our green product line designed to meet modern environmental standards.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemical Engineering | Journal | ScienceDirect.com by Elsevier",
+          "link": "https://www.sciencedirect.com/journal/green-chemical-engineering",
+          "snippet": "Go to journal home page - Green Chemical Engineering \u00b7 Green Chemical ... Recycling, environment engineering & eco-industry. Editorial Board. Green ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Industrial Chemicals,Distilled Fatty Acids,Stearic Acid Supplier Maharashtra",
+          "link": "https://www.greenchemicals.co.in/",
+          "snippet": "Industrial Chemicals Suppliers - Green Chemicals is Supplier of Oleo Chemicals & Distilled Fatty Acids Catalog, Stearic Acid Suppliers Company, Industrial Chemicals Wholesalers, Distilled Fatty Acids ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemical Corp",
+          "link": "https://www.greenchemicalcorp.com/",
+          "snippet": "Green Chemical Corporation has over 30 years experience providing American and Canadian industry with safe and effective chemical products in a timely and cost effective manner.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemistry Solutions by InKemia Green Chemicals",
+          "link": "https://www.inkemiagreenchemicals.com/",
+          "snippet": "November 6, 2025 - InKemia Green Chemicals is your R&D partner in finding green chemical solutions.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemical Technologies",
+          "link": "https://www.greenchem.in/",
+          "snippet": "We are a young & energetic industrial chemical distribution company with in-depth knowledge of Products, Markets & emerging technologies. We strongly believe in upholding ethics while transacting and ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemical",
+          "link": "http://www.korgc.com/eng/main/index.html",
+          "snippet": "We are functional chemical product manufacturer and provide best solutions for customer satisfaction based on the best specialty about EO(Ethylene Oxide) additives read more ... With the technology an",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Green Chemicals",
+          "link": "https://www.ggcplc.com/en/home",
+          "snippet": "Global Green Chemicals Public Company Limited is the pioneer oleochemicals producers in Thailand under PTTGC Group.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemical For Cleaning | Bio Based Cleaning Products | Ecochem",
+          "link": "https://ecochem.ind.in/",
+          "snippet": "May 25, 2024 - Ecochem, a Mumbai-based company, is a pioneering green chemical company that has been in operation for three decades. They specialize in producing environmentally safe, non-toxic, and b",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemical Store - Eco-friendly cleaning chemicals",
+          "link": "https://www.thegreenchemicalstore.com/",
+          "snippet": "Say goodbye to dangerous toxins, bad health and many other problems that arise from other chemicals and cleaning solutions. With green products, we help to keep our environment safe and all of your fa",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "3,5-Dimethylpyrazole|Green Chemicals Co., Ltd",
+          "link": "https://www.greenchem-china.com/",
+          "snippet": "We, YANCHENG GREEN CHEMICALS CO., LTD, is a high-tech private enterprise in Jiangsu, specialized in producing chemicals for coating and other functional chemicals.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemicals for Industrial and Consumer Products | Chemistry For Sustainability",
+          "link": "https://chemistryforsustainability.org/safer-alternatives/green-chemicals-industrial-and-consumer-products",
+          "snippet": "Gefn is an Icelandic chemical engineering startup focused on producing and commercializing green chemicals for various industries. The company\u2019s innovative technology replaces fossil-based feedstocks ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "GREEN Chemicals",
+          "link": "https://www.green-chemicals.com/",
+          "snippet": "GREEN Chemicals\u00ae A.\u015e., 30'un \u00fczerinde \u00fclkeye ihracat yapan ve ticari faaliyetlerini T\u00fcrkiye, T\u00fcrki Cumhuriyetler, Ortado\u011fu, Avrupa, Latin Amerika, Afrika ve Balkan \u00fclkelerinde s\u00fcrd\u00fcren, T\u00fcrkiye'deki e",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "GREEN Chemicals\u00ae",
+          "link": "https://www.green-chemicals.com/en",
+          "snippet": "GREEN Chemicals\u00ae Co. exports more than 30 countries and continues its commercial activities in Turkey, Turkish Speaking Countries, Europe, Latin America, Middle East, Africa and Balkan Countries. GREE",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 12 Green Chemical Companies to Source Sustainability [2026 Review]",
+          "link": "https://climatesort.com/green-chemical-companies/",
+          "snippet": "June 16, 2026 - Additionally, integrating circular economy principles is becoming increasingly important, with companies focusing on reducing waste and enhancing resource efficiency. Innovations in bi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemicals Co., Ltd.",
+          "link": "https://greenchemicals.co.jp/en/",
+          "snippet": "Green Chemicals Co., Ltd. website. We produce a variety of green chemicals, including 4-hydroxybenzoic acid, protocatechuic acid, shikimic acid, and phenol. We use bioprocesses to produce green chemic",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemicals Companies | Useful and Eco-friendly",
+          "link": "https://media.market.us/top-10-green-chemicals-companies/",
+          "snippet": "Mitsubishi Chemical Group Corporation is a leader in green chemicals, firmly committed to sustainability and environmental responsibility. Through innovation and research, Mitsubishi Chemical Group pr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemical Products | GreenChem Industries",
+          "link": "https://www.greenchemindustries.com/green-products",
+          "snippet": "Discover GreenChem Industries' eco-friendly and sustainable chemical products. Explore our green product line designed to meet modern environmental standards.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemical Engineering | Journal | ScienceDirect.com by Elsevier",
+          "link": "https://www.sciencedirect.com/journal/green-chemical-engineering",
+          "snippet": "Go to journal home page - Green Chemical Engineering \u00b7 Green Chemical ... Recycling, environment engineering & eco-industry. Editorial Board. Green ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Industrial Chemicals,Distilled Fatty Acids,Stearic Acid Supplier Maharashtra",
+          "link": "https://www.greenchemicals.co.in/",
+          "snippet": "Industrial Chemicals Suppliers - Green Chemicals is Supplier of Oleo Chemicals & Distilled Fatty Acids Catalog, Stearic Acid Suppliers Company, Industrial Chemicals Wholesalers, Distilled Fatty Acids ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemical Corp",
+          "link": "https://www.greenchemicalcorp.com/",
+          "snippet": "Green Chemical Corporation has over 30 years experience providing American and Canadian industry with safe and effective chemical products in a timely and cost effective manner.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemistry Solutions by InKemia Green Chemicals",
+          "link": "https://www.inkemiagreenchemicals.com/",
+          "snippet": "November 6, 2025 - InKemia Green Chemicals is your R&D partner in finding green chemical solutions.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemical Technologies",
+          "link": "https://www.greenchem.in/",
+          "snippet": "We are a young & energetic industrial chemical distribution company with in-depth knowledge of Products, Markets & emerging technologies. We strongly believe in upholding ethics while transacting and ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemical",
+          "link": "http://www.korgc.com/eng/main/index.html",
+          "snippet": "We are functional chemical product manufacturer and provide best solutions for customer satisfaction based on the best specialty about EO(Ethylene Oxide) additives read more ... With the technology an",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Green Chemicals",
+          "link": "https://www.ggcplc.com/en/home",
+          "snippet": "Global Green Chemicals Public Company Limited is the pioneer oleochemicals producers in Thailand under PTTGC Group.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemical For Cleaning | Bio Based Cleaning Products | Ecochem",
+          "link": "https://ecochem.ind.in/",
+          "snippet": "May 25, 2024 - Ecochem, a Mumbai-based company, is a pioneering green chemical company that has been in operation for three decades. They specialize in producing environmentally safe, non-toxic, and b",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemical Store - Eco-friendly cleaning chemicals",
+          "link": "https://www.thegreenchemicalstore.com/",
+          "snippet": "Say goodbye to dangerous toxins, bad health and many other problems that arise from other chemicals and cleaning solutions. With green products, we help to keep our environment safe and all of your fa",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "3,5-Dimethylpyrazole|Green Chemicals Co., Ltd",
+          "link": "https://www.greenchem-china.com/",
+          "snippet": "We, YANCHENG GREEN CHEMICALS CO., LTD, is a high-tech private enterprise in Jiangsu, specialized in producing chemicals for coating and other functional chemicals.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemicals for Industrial and Consumer Products | Chemistry For Sustainability",
+          "link": "https://chemistryforsustainability.org/safer-alternatives/green-chemicals-industrial-and-consumer-products",
+          "snippet": "Gefn is an Icelandic chemical engineering startup focused on producing and commercializing green chemicals for various industries. The company\u2019s innovative technology replaces fossil-based feedstocks ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "GREEN Chemicals",
+          "link": "https://www.green-chemicals.com/",
+          "snippet": "GREEN Chemicals\u00ae A.\u015e., 30'un \u00fczerinde \u00fclkeye ihracat yapan ve ticari faaliyetlerini T\u00fcrkiye, T\u00fcrki Cumhuriyetler, Ortado\u011fu, Avrupa, Latin Amerika, Afrika ve Balkan \u00fclkelerinde s\u00fcrd\u00fcren, T\u00fcrkiye'deki e",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "Green Chemical distributors corporate sites",
+      "level": "L1",
+      "result_count": 17,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Green Chemicals",
+          "link": "https://www.greenchemicals.co.in/",
+          "snippet": "Green Chemicals is one of the leading Trading House, having its Head Office in Mumbai. Mr. Tarang Doshi, Proprietor of Green Chemicals, has gained a strong foothold all over the domestic market. We ar",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemicals - Trader - Wholesaler / Distributor from Pune, India ...",
+          "link": "https://m.indiamart.com/greenchemicalspune/profile.html",
+          "snippet": "Green Chemicals, Pune, Maharashtra - We are Trader - Wholesaler / Distributor of Sulphamic Acid Powder, Liquid Acetic Acid, Distilled Mix Xylene, Phosphoric Acid . and Organic and Inorganic Solvents",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemicals, Pune - Trader - Wholesaler / Distributor of Chemical ...",
+          "link": "https://m.indiamart.com/greenchemicalspune/",
+          "snippet": "Established in the year 2006, at Pune, (Maharashtra, India) we, \"Green Chemicals\", are a reckoned firm engaged in manufacturing and trading superior range of Liquid Chemicals, Caustic Soda Flakes, Che",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemical Technologies",
+          "link": "https://greenchem.in/",
+          "snippet": "We are a young & energetic industrial chemical distribution company with in-depth knowledge of Products, Markets & emerging technologies. We strongly believe in upholding ethics while transacting and ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemicals in Pune, Maharashtra, India - Company Profile",
+          "link": "https://www.tradeindia.com/green-chemicals-6578698/",
+          "snippet": "Established in 2014 ,India Green Chemicals has gained immense expertise in supplying & trading of Boron nitride powder, acid slurry, black oxide etc. The supplier company is located in Pune, Maharasht",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemical Technologies",
+          "link": "https://www.greenchem.in/",
+          "snippet": "Office No. 103, 1st Floor, 36-Pinnacle Bldg., 8-2-293/82/A/235/A, Plot No 235A, Road No. 36, Jubilee Hills, Hyderabad - 500033, Telangana - India. Land Line: +91-40-66461200 Email : info@greenchem.in",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemicals Companies | Useful and Eco-friendly",
+          "link": "https://media.market.us/top-10-green-chemicals-companies/",
+          "snippet": "July 18, 2024 - Sustainability is integrated into BASF\u2019s corporate strategy, aiming for transparency and ongoing environmental improvement. BASF SE is a frontrunner in green chemistry, striving to cre",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 12 Green Chemical Companies to Source Sustainability [2026 Review]",
+          "link": "https://climatesort.com/green-chemical-companies/",
+          "snippet": "June 16, 2026 - The startup is working with pharmaceutical companies, chemical distributors, and generic drug producers, and plans to expand from pharma into other chemical market segments like food a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemical Corp",
+          "link": "https://www.greenchemicalcorp.com/",
+          "snippet": "Green Chemical Corporation has over 30 years experience providing American and Canadian industry with safe and effective chemical products in a timely and cost effective manner.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemical For Cleaning | Bio Based Cleaning Products | Ecochem",
+          "link": "https://ecochem.ind.in/",
+          "snippet": "May 25, 2024 - As an eco-friendly chemical product manufacturer in Mumbai, we have gained the brand value of offering multiple solutions\u2026 Read More \u00b7 As manufacturers of user-friendly green cleaning p",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Green Chemicals",
+          "link": "https://www.ggcplc.com/en/home",
+          "snippet": "Global Green Chemicals Public Company Limited is the pioneer oleochemicals producers in Thailand under PTTGC Group.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemical Store - Eco-friendly cleaning chemicals",
+          "link": "https://www.thegreenchemicalstore.com/",
+          "snippet": "The Green Chemical Store, Inc. SitemapHomeAbout UsCertificationsPortfolioContact Us",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemical",
+          "link": "http://www.korgc.com/eng/main/index.html",
+          "snippet": "We are functional chemical product manufacturer and provide best solutions for customer satisfaction based on the best specialty about EO(Ethylene Oxide) additives read more ... With the technology an",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemical - Trader - Wholesaler / Distributor from Mumbai, India | About Us",
+          "link": "https://www.indiamart.com/green-chemical/profile.html",
+          "snippet": "Our company is the subsidiary of Mahavir Group of Companies, who are leader in the business of chemical trading and also the Authorized Dealer of Hpl Additives Ltd for more than 3 decades. With our gr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Green Chemical Store, Inc. | LinkedIn",
+          "link": "https://www.linkedin.com/company/the-green-chemical-store",
+          "snippet": "The Green Chemical Store, Inc. | 105 followers on LinkedIn. Private label distributor of eco-friendly and specialty chemicals for mechanical and building operations. | The Green Chemical Store, Inc. i",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "About Us - Green Chemicals",
+          "link": "https://www.greenchemicals.co.in/about-us.htm",
+          "snippet": "Our company is the subsidiary of Mahavir Group of Companies, who are leader in the business of chemical trading and also the Authorized Dealer of Hpl Additives Ltd for more than 3 decades. With our gr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemistry Solutions by InKemia Green Chemicals",
+          "link": "https://www.inkemiagreenchemicals.com/",
+          "snippet": "November 6, 2025 - InKemia Green Chemicals is your R&D partner in finding green chemical solutions.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Green Chemicals",
+          "link": "https://www.greenchemicals.co.in/",
+          "snippet": "Green Chemicals is one of the leading Trading House, having its Head Office in Mumbai. Mr. Tarang Doshi, Proprietor of Green Chemicals, has gained a strong foothold all over the domestic market. We ar",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemicals - Trader - Wholesaler / Distributor from Pune, India ...",
+          "link": "https://m.indiamart.com/greenchemicalspune/profile.html",
+          "snippet": "Green Chemicals, Pune, Maharashtra - We are Trader - Wholesaler / Distributor of Sulphamic Acid Powder, Liquid Acetic Acid, Distilled Mix Xylene, Phosphoric Acid . and Organic and Inorganic Solvents",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemicals, Pune - Trader - Wholesaler / Distributor of Chemical ...",
+          "link": "https://m.indiamart.com/greenchemicalspune/",
+          "snippet": "Established in the year 2006, at Pune, (Maharashtra, India) we, \"Green Chemicals\", are a reckoned firm engaged in manufacturing and trading superior range of Liquid Chemicals, Caustic Soda Flakes, Che",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemical Technologies",
+          "link": "https://greenchem.in/",
+          "snippet": "We are a young & energetic industrial chemical distribution company with in-depth knowledge of Products, Markets & emerging technologies. We strongly believe in upholding ethics while transacting and ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemicals in Pune, Maharashtra, India - Company Profile",
+          "link": "https://www.tradeindia.com/green-chemicals-6578698/",
+          "snippet": "Established in 2014 ,India Green Chemicals has gained immense expertise in supplying & trading of Boron nitride powder, acid slurry, black oxide etc. The supplier company is located in Pune, Maharasht",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemical Technologies",
+          "link": "https://www.greenchem.in/",
+          "snippet": "Office No. 103, 1st Floor, 36-Pinnacle Bldg., 8-2-293/82/A/235/A, Plot No 235A, Road No. 36, Jubilee Hills, Hyderabad - 500033, Telangana - India. Land Line: +91-40-66461200 Email : info@greenchem.in",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemicals Companies | Useful and Eco-friendly",
+          "link": "https://media.market.us/top-10-green-chemicals-companies/",
+          "snippet": "July 18, 2024 - Sustainability is integrated into BASF\u2019s corporate strategy, aiming for transparency and ongoing environmental improvement. BASF SE is a frontrunner in green chemistry, striving to cre",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 12 Green Chemical Companies to Source Sustainability [2026 Review]",
+          "link": "https://climatesort.com/green-chemical-companies/",
+          "snippet": "June 16, 2026 - The startup is working with pharmaceutical companies, chemical distributors, and generic drug producers, and plans to expand from pharma into other chemical market segments like food a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemical Corp",
+          "link": "https://www.greenchemicalcorp.com/",
+          "snippet": "Green Chemical Corporation has over 30 years experience providing American and Canadian industry with safe and effective chemical products in a timely and cost effective manner.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemical For Cleaning | Bio Based Cleaning Products | Ecochem",
+          "link": "https://ecochem.ind.in/",
+          "snippet": "May 25, 2024 - As an eco-friendly chemical product manufacturer in Mumbai, we have gained the brand value of offering multiple solutions\u2026 Read More \u00b7 As manufacturers of user-friendly green cleaning p",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Green Chemicals",
+          "link": "https://www.ggcplc.com/en/home",
+          "snippet": "Global Green Chemicals Public Company Limited is the pioneer oleochemicals producers in Thailand under PTTGC Group.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemical Store - Eco-friendly cleaning chemicals",
+          "link": "https://www.thegreenchemicalstore.com/",
+          "snippet": "The Green Chemical Store, Inc. SitemapHomeAbout UsCertificationsPortfolioContact Us",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemical",
+          "link": "http://www.korgc.com/eng/main/index.html",
+          "snippet": "We are functional chemical product manufacturer and provide best solutions for customer satisfaction based on the best specialty about EO(Ethylene Oxide) additives read more ... With the technology an",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemical - Trader - Wholesaler / Distributor from Mumbai, India | About Us",
+          "link": "https://www.indiamart.com/green-chemical/profile.html",
+          "snippet": "Our company is the subsidiary of Mahavir Group of Companies, who are leader in the business of chemical trading and also the Authorized Dealer of Hpl Additives Ltd for more than 3 decades. With our gr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Green Chemical Store, Inc. | LinkedIn",
+          "link": "https://www.linkedin.com/company/the-green-chemical-store",
+          "snippet": "The Green Chemical Store, Inc. | 105 followers on LinkedIn. Private label distributor of eco-friendly and specialty chemicals for mechanical and building operations. | The Green Chemical Store, Inc. i",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "About Us - Green Chemicals",
+          "link": "https://www.greenchemicals.co.in/about-us.htm",
+          "snippet": "Our company is the subsidiary of Mahavir Group of Companies, who are leader in the business of chemical trading and also the Authorized Dealer of Hpl Additives Ltd for more than 3 decades. With our gr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemistry Solutions by InKemia Green Chemicals",
+          "link": "https://www.inkemiagreenchemicals.com/",
+          "snippet": "November 6, 2025 - InKemia Green Chemicals is your R&D partner in finding green chemical solutions.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "Green Chemical service providers official site",
+      "level": "L2",
+      "result_count": 7,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Green Chemicals",
+          "link": "https://www.greenchemicals.co.in/",
+          "snippet": "Green Chemicals is one of the leading Trading House, having its Head Office in Mumbai. Mr. Tarang Doshi, Proprietor of Green Chemicals, has gained a strong foothold all over the domestic market. We ar",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemical Products - Kessler Chemical",
+          "link": "https://www.kesslerchemical.com/products/green-chemical-products/",
+          "snippet": "Kessler Chemical's attention to detail, exceptional customer service, long-standing supply relationships and chemical industry knowledge make us your best supplier choice for Green chemical raw materi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemical Design - Together we can do even better chemistry",
+          "link": "https://greenchemicaldesign.com/",
+          "snippet": "Together we can do even better chemistry. Green Chemical Design - How to meet an urgent industry need Purpose To be a leader in the response to the demand for a fully sustainable chemicals industry, b",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "GREEN Chemicals\u00ae",
+          "link": "https://www.green-chemicals.com/en",
+          "snippet": "GREEN Chemicals\u00ae Co. exports more than 30 countries and continues its commercial activities in Turkey, Turkish Speaking Countries, Europe, Latin America, Middle ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemical",
+          "link": "https://korgc.com/eng/main/index.html",
+          "snippet": "Green Chemical, a leading company in Korea for manufacturing basic compound. coat our life smartly & eco-friendly with our functional monomer.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemical Engineering - KeAi Publishing",
+          "link": "https://www.keaipublishing.com/en/journals/green-chemical-engineering/",
+          "snippet": "Green Chemical Engineering (GreenChE) is a journal focusing on significant cutting-edge research and the latest technological advances in core areas...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Malaysia Green Chemicals Market 2026",
+          "link": "https://www.24chemicalresearch.com/reports/316624/malaysia-green-chemicals-market",
+          "snippet": "Malaysia Green Chemicals Market Insights. Green chemicals are bio\u2011based, renewable\u2011resource derived compounds that replace conventional petro\u2011chemical products, reducing carbon footprints and enhancin",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Green Chemicals",
+          "link": "https://www.greenchemicals.co.in/",
+          "snippet": "Green Chemicals is one of the leading Trading House, having its Head Office in Mumbai. Mr. Tarang Doshi, Proprietor of Green Chemicals, has gained a strong foothold all over the domestic market. We ar",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemical Products - Kessler Chemical",
+          "link": "https://www.kesslerchemical.com/products/green-chemical-products/",
+          "snippet": "Kessler Chemical's attention to detail, exceptional customer service, long-standing supply relationships and chemical industry knowledge make us your best supplier choice for Green chemical raw materi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemical Design - Together we can do even better chemistry",
+          "link": "https://greenchemicaldesign.com/",
+          "snippet": "Together we can do even better chemistry. Green Chemical Design - How to meet an urgent industry need Purpose To be a leader in the response to the demand for a fully sustainable chemicals industry, b",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "GREEN Chemicals\u00ae",
+          "link": "https://www.green-chemicals.com/en",
+          "snippet": "GREEN Chemicals\u00ae Co. exports more than 30 countries and continues its commercial activities in Turkey, Turkish Speaking Countries, Europe, Latin America, Middle ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemical",
+          "link": "https://korgc.com/eng/main/index.html",
+          "snippet": "Green Chemical, a leading company in Korea for manufacturing basic compound. coat our life smartly & eco-friendly with our functional monomer.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemical Engineering - KeAi Publishing",
+          "link": "https://www.keaipublishing.com/en/journals/green-chemical-engineering/",
+          "snippet": "Green Chemical Engineering (GreenChE) is a journal focusing on significant cutting-edge research and the latest technological advances in core areas...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Malaysia Green Chemicals Market 2026",
+          "link": "https://www.24chemicalresearch.com/reports/316624/malaysia-green-chemicals-market",
+          "snippet": "Malaysia Green Chemicals Market Insights. Green chemicals are bio\u2011based, renewable\u2011resource derived compounds that replace conventional petro\u2011chemical products, reducing carbon footprints and enhancin",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "green chemical distributors official site",
+      "level": "discovery",
+      "result_count": 9,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Green Chemical Products | GreenChem Industries",
+          "link": "https://www.greenchemindustries.com/green-products",
+          "snippet": "Discover GreenChem Industries' eco-friendly and sustainable chemical products. Explore our green product line designed to meet modern environmental standards.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemicals",
+          "link": "https://www.greenchemicals.co.in/",
+          "snippet": "Green Chemicals is one of the leading Trading House, having its Head Office in Mumbai. Mr. Tarang Doshi, Proprietor of Green Chemicals, has gained a strong foothold all over the domestic market. We ar",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemical Technologies",
+          "link": "https://greenchem.in/",
+          "snippet": "We are a young & energetic industrial chemical distribution company with in-depth knowledge of Products, Markets & emerging technologies. We strongly believe in upholding ethics while transacting and ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "GREEN Chemicals\u00ae",
+          "link": "https://www.green-chemicals.com/en",
+          "snippet": "GREEN Chemicals\u00ae Co. exports more than 30 countries and continues its commercial activities in Turkey, Turkish Speaking Countries, Europe, Latin America, Middle ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemical - Trader - Wholesaler / Distributor from Mumbai, India",
+          "link": "https://www.indiamart.com/green-chemical/profile.html?srsltid=AfmBOoqkVuQs9ailUJPILaeemKRE5gXHz8XNh7Zma7HEyxSVtTf2ytsz",
+          "snippet": "Green Chemical, Mumbai, Maharashtra - Trader - Wholesaler / Distributor of Mikrofine 7800 Blowing Agent, Kinox B12 Antioxidant, Dicumyl Peroxide 99 Dcp 99 ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Gre** Chemi - GetDistributors",
+          "link": "https://www.getdistributors.com/distributors/green-chemicals-184929/",
+          "snippet": "Get complete information about Green Chemicals, looking for distributorship opportunities in India ... Want to become distributors. Investment Required.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Support Request - The Green Chemical Store",
+          "link": "https://products.thegreenchemicalstore.com/store/green-chemical-store/support",
+          "snippet": "The Green Chemical Store commerce portal. View Products, Request Quotes, get access to SDS & TDS.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "GREEN Chemicals",
+          "link": "https://www.green-chemicals.com/",
+          "snippet": "GREEN Chemicals\u00ae A.\u015e., 30'un \u00fczerinde \u00fclkeye ihracat yapan ve ticari faaliyetlerini T\u00fcrkiye, T\u00fcrki Cumhuriyetler, Ortado\u011fu, Avrupa, Latin Amerika, Afrika ve Balkan \u00fclkelerinde s\u00fcrd\u00fcren, T\u00fcrkiye'deki e",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ecochem: Green Chemical For Cleaning | Bio Based Cleaning ...",
+          "link": "https://ecochem.ind.in/",
+          "snippet": "Ecochem offers eco-friendly cleaning products that are either made from natural or bio-based materials. We also manufacture non-hazardous and ...",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Green Chemical Products | GreenChem Industries",
+          "link": "https://www.greenchemindustries.com/green-products",
+          "snippet": "Discover GreenChem Industries' eco-friendly and sustainable chemical products. Explore our green product line designed to meet modern environmental standards.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemicals",
+          "link": "https://www.greenchemicals.co.in/",
+          "snippet": "Green Chemicals is one of the leading Trading House, having its Head Office in Mumbai. Mr. Tarang Doshi, Proprietor of Green Chemicals, has gained a strong foothold all over the domestic market. We ar",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemical Technologies",
+          "link": "https://greenchem.in/",
+          "snippet": "We are a young & energetic industrial chemical distribution company with in-depth knowledge of Products, Markets & emerging technologies. We strongly believe in upholding ethics while transacting and ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "GREEN Chemicals\u00ae",
+          "link": "https://www.green-chemicals.com/en",
+          "snippet": "GREEN Chemicals\u00ae Co. exports more than 30 countries and continues its commercial activities in Turkey, Turkish Speaking Countries, Europe, Latin America, Middle ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemical - Trader - Wholesaler / Distributor from Mumbai, India",
+          "link": "https://www.indiamart.com/green-chemical/profile.html?srsltid=AfmBOoqkVuQs9ailUJPILaeemKRE5gXHz8XNh7Zma7HEyxSVtTf2ytsz",
+          "snippet": "Green Chemical, Mumbai, Maharashtra - Trader - Wholesaler / Distributor of Mikrofine 7800 Blowing Agent, Kinox B12 Antioxidant, Dicumyl Peroxide 99 Dcp 99 ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Gre** Chemi - GetDistributors",
+          "link": "https://www.getdistributors.com/distributors/green-chemicals-184929/",
+          "snippet": "Get complete information about Green Chemicals, looking for distributorship opportunities in India ... Want to become distributors. Investment Required.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Support Request - The Green Chemical Store",
+          "link": "https://products.thegreenchemicalstore.com/store/green-chemical-store/support",
+          "snippet": "The Green Chemical Store commerce portal. View Products, Request Quotes, get access to SDS & TDS.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "GREEN Chemicals",
+          "link": "https://www.green-chemicals.com/",
+          "snippet": "GREEN Chemicals\u00ae A.\u015e., 30'un \u00fczerinde \u00fclkeye ihracat yapan ve ticari faaliyetlerini T\u00fcrkiye, T\u00fcrki Cumhuriyetler, Ortado\u011fu, Avrupa, Latin Amerika, Afrika ve Balkan \u00fclkelerinde s\u00fcrd\u00fcren, T\u00fcrkiye'deki e",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ecochem: Green Chemical For Cleaning | Bio Based Cleaning ...",
+          "link": "https://ecochem.ind.in/",
+          "snippet": "Ecochem offers eco-friendly cleaning products that are either made from natural or bio-based materials. We also manufacture non-hazardous and ...",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P2": {
+      "query": "renewable chemical wholesalers corporate headquarters",
+      "level": "discovery",
+      "result_count": 5,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "google_ai_scraper",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Renewable energy - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Renewable_energy",
+          "snippet": "Renewable energy (also called green energy) is energy made from renewable natural resources that are replenished on a human \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Wholesale Chemicals from Bulk Chemical Suppliers - ECHEMI",
+          "link": "https://www.echemi.com/wholesale.html",
+          "snippet": "Wholesale chemical products including paints, coatings, fine chemicals, food ingredients, pharmaceutical raw materials, botanical extracts, and rubber plastic ingredients with prices. Wholesale Chemic",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "THUN RENEW, Chemical/Oil Products Tanker... - VesselFinder",
+          "link": "https://www.vesselfinder.com/ru/vessels/details/9988530",
+          "snippet": "\u0421\u0443\u0434\u043d\u043e THUN RENEW (IMO 9988530, MMSI 245094000) - Chemical/Oil Products Tanker \u043f\u043e\u0441\u0442\u0440\u043e\u0435\u043d\u043d\u043e\u0435 \u0432 2026 \u0438 \u0445\u043e\u0434\u0438\u0442 \u043f\u043e\u0434 \u0444\u043b\u0430\u0433\u043e\u043c Netherlands.9988530. \u0418\u043c\u044f \u0441\u0443\u0434\u043d\u0430. THUN RENEW. \u0422\u0438\u043f. Chemical/Oil Products Tanker. \u0424\u043b\u0430\u0433.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "chemistry Wholesaler | B2B companies and suppliers | europages",
+          "link": "https://www.europages.co.uk/companies/wholesaler/chemistry.html",
+          "snippet": "3089 suppliers for chemistry Wholesaler Find wholesalers and contact them directly B2B martketplace Find companies now! Wholesale Chemical Products \u2013 PROJECTOR Special Raw Materials.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Google Search (cleaned) \u2014 renewable chemical wholesalers corporate headquarters",
+          "link": "https://www.google.com/search?q=renewable+chemical+wholesalers+corporate+headquarters",
+          "snippet": "Kedia Organic Chemicals Pvt Ltd is located at B-111, Punit Indl., Thane Belapur Rd, Turbhe, Navi Mumbai- 400 705, India. Anupam Rasayan India is headquartered at 10th Floor, Icon Rio, Dumas Road, Sura",
+          "backend": "google_ai_scraper"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Renewable energy - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Renewable_energy",
+          "snippet": "Renewable energy (also called green energy) is energy made from renewable natural resources that are replenished on a human \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Wholesale Chemicals from Bulk Chemical Suppliers - ECHEMI",
+          "link": "https://www.echemi.com/wholesale.html",
+          "snippet": "Wholesale chemical products including paints, coatings, fine chemicals, food ingredients, pharmaceutical raw materials, botanical extracts, and rubber plastic ingredients with prices. Wholesale Chemic",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "THUN RENEW, Chemical/Oil Products Tanker... - VesselFinder",
+          "link": "https://www.vesselfinder.com/ru/vessels/details/9988530",
+          "snippet": "\u0421\u0443\u0434\u043d\u043e THUN RENEW (IMO 9988530, MMSI 245094000) - Chemical/Oil Products Tanker \u043f\u043e\u0441\u0442\u0440\u043e\u0435\u043d\u043d\u043e\u0435 \u0432 2026 \u0438 \u0445\u043e\u0434\u0438\u0442 \u043f\u043e\u0434 \u0444\u043b\u0430\u0433\u043e\u043c Netherlands.9988530. \u0418\u043c\u044f \u0441\u0443\u0434\u043d\u0430. THUN RENEW. \u0422\u0438\u043f. Chemical/Oil Products Tanker. \u0424\u043b\u0430\u0433.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "chemistry Wholesaler | B2B companies and suppliers | europages",
+          "link": "https://www.europages.co.uk/companies/wholesaler/chemistry.html",
+          "snippet": "3089 suppliers for chemistry Wholesaler Find wholesalers and contact them directly B2B martketplace Find companies now! Wholesale Chemical Products \u2013 PROJECTOR Special Raw Materials.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Google Search (cleaned) \u2014 renewable chemical wholesalers corporate headquarters",
+          "link": "https://www.google.com/search?q=renewable+chemical+wholesalers+corporate+headquarters",
+          "snippet": "Kedia Organic Chemicals Pvt Ltd is located at B-111, Punit Indl., Thane Belapur Rd, Turbhe, Navi Mumbai- 400 705, India. Anupam Rasayan India is headquartered at 10th Floor, Icon Rio, Dumas Road, Sura",
+          "backend": "google_ai_scraper"
+        }
+      ]
+    },
+    "P3": {
+      "query": "green chemical resellers official website",
+      "level": "discovery",
+      "result_count": 2,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "google_ai_scraper"
+      ],
+      "results": [
+        {
+          "title": "Green Chemicals By Eco-Green Available To Chemical Supply...",
+          "link": "https://www.chemicalonline.com/doc/green-chemicals-by-eco-green-available-to-0001",
+          "snippet": "Daimer offers discounted pricing to re-sellers that want to sell any of its prepackaged Eco-Green\u00ae branded green chemicals. Resellers can offer customers safe, effective, bio-based alternatives to the",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Google Search (cleaned) \u2014 green chemical resellers official website",
+          "link": "https://www.google.com/search?q=green+chemical+resellers+official+website",
+          "snippet": "The official website for Green Chemicals resellers can be found at [greenchemicals.co.in](https://www.greenchemicals.co.in). \n\nKey facts:\n- Green Chemicals is a supplier of oleo chemicals.\n- Based in ",
+          "backend": "google_ai_scraper"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Green Chemicals By Eco-Green Available To Chemical Supply...",
+          "link": "https://www.chemicalonline.com/doc/green-chemicals-by-eco-green-available-to-0001",
+          "snippet": "Daimer offers discounted pricing to re-sellers that want to sell any of its prepackaged Eco-Green\u00ae branded green chemicals. Resellers can offer customers safe, effective, bio-based alternatives to the",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Google Search (cleaned) \u2014 green chemical resellers official website",
+          "link": "https://www.google.com/search?q=green+chemical+resellers+official+website",
+          "snippet": "The official website for Green Chemicals resellers can be found at [greenchemicals.co.in](https://www.greenchemicals.co.in). \n\nKey facts:\n- Green Chemicals is a supplier of oleo chemicals.\n- Based in ",
+          "backend": "google_ai_scraper"
+        }
+      ]
+    },
+    "P4": {
+      "query": "eco-friendly chemical retailers corporate site",
+      "level": "discovery",
+      "result_count": 2,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Green Chemical For Cleaning | Bio Based Cleaning Products ...",
+          "link": "https://ecochem.ind.in/",
+          "snippet": "Our company is dedicated to researching, developing, and producing non-toxic and environmentally safe cleaners, green chemicals, and cosmetic grade resources for commercial, industrial, and home hygie",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemical Store - Eco-friendly cleaning chemicals",
+          "link": "https://www.thegreenchemicalstore.com/",
+          "snippet": "Kitchen Bio-Waste Degrader Injection System Environmentally friendly & specialty chemicals Our focus is to provide highly effective, eco-friendly and green formulas to help you with your facility main",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Green Chemical For Cleaning | Bio Based Cleaning Products ...",
+          "link": "https://ecochem.ind.in/",
+          "snippet": "Our company is dedicated to researching, developing, and producing non-toxic and environmentally safe cleaners, green chemicals, and cosmetic grade resources for commercial, industrial, and home hygie",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemical Store - Eco-friendly cleaning chemicals",
+          "link": "https://www.thegreenchemicalstore.com/",
+          "snippet": "Kitchen Bio-Waste Degrader Injection System Environmentally friendly & specialty chemicals Our focus is to provide highly effective, eco-friendly and green formulas to help you with your facility main",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P5": {
+      "query": "green chemical system integrators official site",
+      "level": "discovery",
+      "result_count": 2,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "google_ai_scraper"
+      ],
+      "results": [
+        {
+          "title": "GREEN Chemicals",
+          "link": "https://www.green-chemicals.com/",
+          "snippet": "GREEN Chemicals\u00ae uzman m\u00fchendis kadrosunun yan\u0131 s\u0131ra, doktora seviyeli AR-GE \u00e7al\u0131\u015fanlar\u0131yla ve \u00fcniversitelerin de teknik deste\u011fi ile daima yenilik\u00e7i ve \u00e7evre dostu bir yakla\u015f\u0131mla...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Google Search (cleaned) \u2014 green chemical system integrators official site",
+          "link": "https://www.google.com/search?q=green+chemical+system+integrators+official+site",
+          "snippet": "There is no widely recognized corporate entity specifically named \"Green Chemical System Integrators\" with a dedicated global web presence. However, there are similarly named companies in the chemical",
+          "backend": "google_ai_scraper"
+        }
+      ],
+      "sample": [
+        {
+          "title": "GREEN Chemicals",
+          "link": "https://www.green-chemicals.com/",
+          "snippet": "GREEN Chemicals\u00ae uzman m\u00fchendis kadrosunun yan\u0131 s\u0131ra, doktora seviyeli AR-GE \u00e7al\u0131\u015fanlar\u0131yla ve \u00fcniversitelerin de teknik deste\u011fi ile daima yenilik\u00e7i ve \u00e7evre dostu bir yakla\u015f\u0131mla...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Google Search (cleaned) \u2014 green chemical system integrators official site",
+          "link": "https://www.google.com/search?q=green+chemical+system+integrators+official+site",
+          "snippet": "There is no widely recognized corporate entity specifically named \"Green Chemical System Integrators\" with a dedicated global web presence. However, there are similarly named companies in the chemical",
+          "backend": "google_ai_scraper"
+        }
+      ]
+    },
+    "P6": {
+      "query": "renewable chemical integration services corporate profile",
+      "level": "discovery",
+      "result_count": 2,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Renewable Chemicals - Trucent",
+          "link": "https://www.trucent.com/company/divisions/renewable-chemicals/",
+          "snippet": "The current trajectory of our non-renewable chemical consumption is not sustainable. Oleochemicals, green chemistry, is the answer. But there is a need to diversify feedstocks to create sustainable gr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemicals Market | Global Market Analysis Report - 2036",
+          "link": "https://www.factmr.com/report/green-chemicals-market",
+          "snippet": "Green chemicals are chemical products manufactured wholly or partially from renewable biological feedstocks (agricultural crops, waste biomass, microbial fermentation) as alternatives to petroleum-der",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Renewable Chemicals - Trucent",
+          "link": "https://www.trucent.com/company/divisions/renewable-chemicals/",
+          "snippet": "The current trajectory of our non-renewable chemical consumption is not sustainable. Oleochemicals, green chemistry, is the answer. But there is a need to diversify feedstocks to create sustainable gr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemicals Market | Global Market Analysis Report - 2036",
+          "link": "https://www.factmr.com/report/green-chemicals-market",
+          "snippet": "Green chemicals are chemical products manufactured wholly or partially from renewable biological feedstocks (agricultural crops, waste biomass, microbial fermentation) as alternatives to petroleum-der",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P7": {
+      "query": "green chemical consulting services official website",
+      "level": "discovery",
+      "result_count": 6,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "google_ai_scraper"
+      ],
+      "results": [
+        {
+          "title": "DIREC - The official summary - India Renewable Energy Consulting...",
+          "link": "https://www.eai.in/blog/2010/11/direc-the-official-summary.html",
+          "snippet": "Website.Narsi, a Director at EAI, Co-founded one of India's first climate tech consulting firm in 2008. Since then, he has assisted over 250 Indian and International firms, across many climate tech do",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemicals | ECS - Energy Consulting Services",
+          "link": "https://www.group-ecs.com/about-us/green-chemicals/green-chemicals",
+          "snippet": "Green chemistry, superior performance. Our green product portfolio focuses on improving operational efficiency, reducing environmental impact, and supporting safer production processes across the upst",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemical Design - Together we can do even better chemistry",
+          "link": "https://greenchemicaldesign.com/",
+          "snippet": "Together we can do even better chemistry. Green Chemical Design - How to meet an urgent industry need Purpose To be a leader in the response to the demand for a fully sustainable chemicals industry, b",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "GREEN Chemicals\u00ae",
+          "link": "https://www.green-chemicals.com/en",
+          "snippet": "About Us GREEN Chemicals\u00ae Co. exports more than 30 countries and continues its commercial activities in Turkey, Turkish Speaking Countries, Europe, Latin America, Middle East, Africa and Balkan Countr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemicals | ECS - Energy Consulting Services",
+          "link": "https://www.group-ecs.com/about-us/engineering-consultancy8/engineering-consultancy8/green-chemicals",
+          "snippet": "From Concept to Completion: Reliable Technical Excellence Our approach integrates laboratory testing, field support, and innovative design methodologies to address specific operational challenges whil",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Google Search (cleaned) \u2014 green chemical consulting services official website",
+          "link": "https://www.google.com/search?q=green+chemical+consulting+services+official+website",
+          "snippet": "The official website for Green Chemicals is [green-chemicals.com](https://www.green-chemicals.com). \n\nKey facts:\n- Green Chemicals provides sustainable products and services.\n- Contact: 262 781 8000, ",
+          "backend": "google_ai_scraper"
+        }
+      ],
+      "sample": [
+        {
+          "title": "DIREC - The official summary - India Renewable Energy Consulting...",
+          "link": "https://www.eai.in/blog/2010/11/direc-the-official-summary.html",
+          "snippet": "Website.Narsi, a Director at EAI, Co-founded one of India's first climate tech consulting firm in 2008. Since then, he has assisted over 250 Indian and International firms, across many climate tech do",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemicals | ECS - Energy Consulting Services",
+          "link": "https://www.group-ecs.com/about-us/green-chemicals/green-chemicals",
+          "snippet": "Green chemistry, superior performance. Our green product portfolio focuses on improving operational efficiency, reducing environmental impact, and supporting safer production processes across the upst",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemical Design - Together we can do even better chemistry",
+          "link": "https://greenchemicaldesign.com/",
+          "snippet": "Together we can do even better chemistry. Green Chemical Design - How to meet an urgent industry need Purpose To be a leader in the response to the demand for a fully sustainable chemicals industry, b",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "GREEN Chemicals\u00ae",
+          "link": "https://www.green-chemicals.com/en",
+          "snippet": "About Us GREEN Chemicals\u00ae Co. exports more than 30 countries and continues its commercial activities in Turkey, Turkish Speaking Countries, Europe, Latin America, Middle East, Africa and Balkan Countr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Chemicals | ECS - Energy Consulting Services",
+          "link": "https://www.group-ecs.com/about-us/engineering-consultancy8/engineering-consultancy8/green-chemicals",
+          "snippet": "From Concept to Completion: Reliable Technical Excellence Our approach integrates laboratory testing, field support, and innovative design methodologies to address specific operational challenges whil",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Google Search (cleaned) \u2014 green chemical consulting services official website",
+          "link": "https://www.google.com/search?q=green+chemical+consulting+services+official+website",
+          "snippet": "The official website for Green Chemicals is [green-chemicals.com](https://www.green-chemicals.com). \n\nKey facts:\n- Green Chemicals provides sustainable products and services.\n- Contact: 262 781 8000, ",
+          "backend": "google_ai_scraper"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

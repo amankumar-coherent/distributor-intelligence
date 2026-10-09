@@ -1,0 +1,19 @@
+launching 10 market(s) in parallel
+target 400 verified each, GLOBAL coverage
+per-browser query delay: 12s
+
+  uav_systems          pid 6060  -> logs_drones/uav_systems.log
+  commercial_drones    pid 7364  -> logs_drones/commercial_drones.log
+  defense_drones       pid 18480  -> logs_drones/defense_drones.log
+  anti_drone           pid 20936  -> logs_drones/anti_drone.log
+  drone_robotics       pid 16628  -> logs_drones/drone_robotics.log
+  drone_ai             pid 32668  -> logs_drones/drone_ai.log
+  drone_software       pid 24224  -> logs_drones/drone_software.log
+  drone_analytics      pid 30988  -> logs_drones/drone_analytics.log
+  drone_sensors        pid 31544  -> logs_drones/drone_sensors.log
+  drone_imaging        pid 25848  -> logs_drones/drone_imaging.log
+
+All launched. They run independently; a rate-limited market
+rebuilds its own profile without affecting the others.
+
+  python run_all_drone_markets.py --status   # counts

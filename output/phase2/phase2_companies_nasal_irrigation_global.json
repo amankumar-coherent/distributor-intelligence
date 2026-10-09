@@ -1,0 +1,788 @@
+{
+  "phase": 2,
+  "phase2_mode": "fast",
+  "query": "Nasal Irrigation Market",
+  "mock_mode": false,
+  "completed_at": "2026-07-24T05:35:27.201231+00:00",
+  "scope": {
+    "market": "nasal irrigation",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "healthcare",
+    "industry_terms": [
+      "nasal irrigation",
+      "saline solution",
+      "nasal spray",
+      "nasal cleansing",
+      "sinus health"
+    ],
+    "ecosystem_functions": [
+      "distributing nasal irrigation products",
+      "wholesaling medical supplies",
+      "reselling consumer health products",
+      "integrating nasal irrigation systems",
+      "providing nasal health services",
+      "partnering for product distribution"
+    ],
+    "interpretation_summary": "The nasal irrigation market encompasses products and services designed for nasal cleansing and health, primarily using saline solutions. Participants include manufacturers, distributors, and service providers operating g",
+    "relevance_keywords": [
+      "nasal irrigation distributor",
+      "nasal spray wholesaler",
+      "nasal rinse reseller",
+      "nasal health service",
+      "nasal irrigation supplies"
+    ],
+    "negative_keywords": [
+      "unrelated industries",
+      "job postings",
+      "consulting services",
+      "market analysis",
+      "news articles"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "NeilMed Pharmaceuticals",
+        "primary_domain": "neilmed.com",
+        "company_function": "manufacturer and distributor of nasal irrigation products"
+      },
+      {
+        "canonical_name": "SinuPulse",
+        "primary_domain": "sinupulse.com",
+        "company_function": "manufacturer and distributor of nasal irrigation systems"
+      },
+      {
+        "canonical_name": "Amazon",
+        "primary_domain": "amazon.com",
+        "company_function": "online reseller of nasal irrigation products"
+      },
+      {
+        "canonical_name": "Walgreens",
+        "primary_domain": "walgreens.com",
+        "company_function": "retail reseller of nasal health products"
+      },
+      {
+        "canonical_name": "McKesson",
+        "primary_domain": "mckesson.com",
+        "company_function": "wholesaler of medical supplies including nasal irrigation products"
+      },
+      {
+        "canonical_name": "Cardinal Health",
+        "primary_domain": "cardinalhealth.com",
+        "company_function": "wholesaler and distributor of healthcare products"
+      },
+      {
+        "canonical_name": "Healthline",
+        "primary_domain": "healthline.com",
+        "company_function": "service provider offering nasal health information and products"
+      },
+      {
+        "canonical_name": "Sinus & Allergy Wellness Center",
+        "primary_domain": "sinusallergywellness.com",
+        "company_function": "service provider specializing in nasal health"
+      }
+    ],
+    "search_topic": "nasal irrigation",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "nasal irrigation",
+    "include_keywords": [
+      "nasal irrigation systems",
+      "saline nasal spray",
+      "nasal rinse kits",
+      "nasal irrigation devices",
+      "nasal health products"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The nasal irrigation market encompasses products and services designed for nasal cleansing and health, primarily using saline solutions. Participants include manufacturers, distributors, and service providers operating globally, focusing on both consumer and clinical applications.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Distribution",
+        "description": "This layer includes entities that facilitate the distribution of nasal irrigation products to end-users.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Regional Distributors",
+              "National Distributors"
+            ],
+            "participant_types": [
+              "distributor"
+            ],
+            "search_intents": [
+              "nasal irrigation product distributors",
+              "nasal irrigation supply distributors"
+            ]
+          },
+          {
+            "segment_name": "Wholesalers",
+            "sub_segments": [
+              "Pharmaceutical Wholesalers",
+              "Medical Supply Wholesalers"
+            ],
+            "participant_types": [
+              "wholesaler"
+            ],
+            "search_intents": [
+              "nasal irrigation wholesalers",
+              "wholesale nasal irrigation supplies"
+            ]
+          },
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Online Resellers",
+              "Retail Resellers"
+            ],
+            "participant_types": [
+              "reseller"
+            ],
+            "search_intents": [
+              "nasal irrigation product resellers",
+              "buy nasal irrigation products online"
+            ]
+          },
+          {
+            "segment_name": "Service Providers",
+            "sub_segments": [
+              "Healthcare Service Providers",
+              "Home Care Service Providers"
+            ],
+            "participant_types": [
+              "service provider"
+            ],
+            "search_intents": [
+              "nasal irrigation service providers",
+              "nasal health service providers"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Manufacturers",
+        "Retailers",
+        "Pharmacies",
+        "Healthcare Providers"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "nasal irrigation product distributors",
+        "sub_sector": "distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "nasal irrigation wholesalers",
+        "sub_sector": "wholesaler",
+        "layer_id": "L1",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "nasal irrigation product resellers",
+        "sub_sector": "reseller",
+        "layer_id": "L1",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "nasal irrigation service providers",
+        "sub_sector": "service_provider",
+        "layer_id": "L1",
+        "segment": "Service Providers"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "phase1_plan_path": "D:\\vendor-intel\\output\\phase1\\phase1_plan_nasal_irrigation_global.json",
+  "companies": [
+    {
+      "name": "Breathmd",
+      "domain": "breathmd.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Utoptens",
+      "domain": "utoptens.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Neilmed",
+      "domain": "neilmed.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Abfen",
+      "domain": "abfen.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Nutritionfacts",
+      "domain": "nutritionfacts.org",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Nascool",
+      "domain": "nascool.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Tarabichient",
+      "domain": "tarabichient.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Sinupulse",
+      "domain": "sinupulse.com",
+      "discovery_source": "ddgs_bing+registry",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Ebay",
+      "domain": "ebay.ca",
+      "discovery_source": "ddgs_bing+ddgs_yandex",
+      "company_function": "contract_manufacturer"
+    },
+    {
+      "name": "Nailpolishshop",
+      "domain": "nailpolishshop.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Navage",
+      "domain": "navage.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Temu",
+      "domain": "temu.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Cardinalhealth",
+      "domain": "cardinalhealth.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Kaplansinusrelief",
+      "domain": "kaplansinusrelief.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Kleanandkare",
+      "domain": "kleanandkare.co.th",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Mckesson",
+      "domain": "mckesson.com",
+      "discovery_source": "ddgs_bing+registry+searxng",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Healthline",
+      "domain": "healthline.com",
+      "discovery_source": "registry+searxng",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Neilmedcom",
+      "domain": "neilmedcom.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Jumia",
+      "domain": "jumia.com.ng",
+      "discovery_source": "ddgs_bing+ddgs_yandex",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Walgreens",
+      "domain": "walgreens.com",
+      "discovery_source": "registry+searxng",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Sinusallergywellness",
+      "domain": "sinusallergywellness.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Squipusa",
+      "domain": "squipusa.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Webmd",
+      "domain": "webmd.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Alternativesinc",
+      "domain": "alternativesinc.org",
+      "discovery_source": "searxng",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Cgdev",
+      "domain": "cgdev.org",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Csimarket",
+      "domain": "csimarket.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Entallergy1",
+      "domain": "entallergy1.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Everydayhealth",
+      "domain": "everydayhealth.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Happi",
+      "domain": "happi.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Melbentgroup",
+      "domain": "melbentgroup.com.au",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Melbourne Ent",
+      "domain": "melbourne-ent.com.au",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Nmshop",
+      "domain": "nmshop.neilmed.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Pharmaceuticalcommerce",
+      "domain": "pharmaceuticalcommerce.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Quantfury",
+      "domain": "quantfury.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Saashub",
+      "domain": "saashub.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Sinusgator",
+      "domain": "sinusgator.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Verywellhealth",
+      "domain": "verywellhealth.com",
+      "discovery_source": "ddgs_bing+ddgs_yandex",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Allegromedical",
+      "domain": "allegromedical.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Alternativeto",
+      "domain": "alternativeto.net",
+      "discovery_source": "searxng",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Datamintelligence",
+      "domain": "datamintelligence.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Dhgate",
+      "domain": "dhgate.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Drippingivsolutions",
+      "domain": "drippingivsolutions.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Enthealth",
+      "domain": "enthealth.org",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Ethicare",
+      "domain": "ethicare.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Flonase",
+      "domain": "flonase.com",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Foresightiq",
+      "domain": "foresightiq.co",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Gerolymatos International",
+      "domain": "gerolymatos-international.com",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Gml Dental",
+      "domain": "gml-dental.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Intuition Labs",
+      "domain": "intuitionlabs.ai",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Jewim",
+      "domain": "jewim.com",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Latterly",
+      "domain": "latterly.org",
+      "discovery_source": "ddgs_bing",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Medicaldevice Network",
+      "domain": "medicaldevice-network.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Merck",
+      "domain": "merck.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Mercurymed",
+      "domain": "mercurymed.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Narcan",
+      "domain": "narcan.com",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Natlallergy",
+      "domain": "natlallergy.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Owler",
+      "domain": "owler.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Oxygenconcentrate",
+      "domain": "oxygenconcentrate.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Pharmacyonline",
+      "domain": "pharmacyonline.co.uk",
+      "discovery_source": "ddgs_bing",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Pipelinemedical",
+      "domain": "pipelinemedical.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Ren Pharm",
+      "domain": "renpharm.com",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Savaglobal",
+      "domain": "savaglobal.com",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Sears",
+      "domain": "sears.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Sgd Pharma",
+      "domain": "sgd-pharma.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Shopca",
+      "domain": "shopca.neilmed.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Siouxfalls",
+      "domain": "siouxfalls.business",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Sohofac",
+      "domain": "sohofac.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Sohumhealth",
+      "domain": "sohumhealth.org",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Sourcehere",
+      "domain": "sourcehere.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Stavromedical",
+      "domain": "stavromedical.org",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Trudhesa",
+      "domain": "trudhesa.com",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Vitalitymedical",
+      "domain": "vitalitymedical.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Vspmedsupply",
+      "domain": "vspmedsupply.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Webstore",
+      "domain": "webstore.neilmed.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Wellnaturalhealth",
+      "domain": "wellnaturalhealth.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Wellona Pharma",
+      "domain": "wellonapharma.com",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Wikihow",
+      "domain": "wikihow.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Xuijs",
+      "domain": "xuijs.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "wholesaler"
+    }
+  ],
+  "company_count": 78,
+  "discovery_stats": {
+    "raw_hits": 358,
+    "unique_names": 92,
+    "by_prompt_id": {
+      "D10": 6,
+      "D2": 1,
+      "D3": 6,
+      "D4": 5,
+      "D5": 6,
+      "D6": 5,
+      "D8": 4,
+      "D9": 3,
+      "HX0_dist": 7,
+      "HX0_rese": 12,
+      "HX1_dist": 12,
+      "HX1_rese": 7,
+      "L0": 14,
+      "L1": 4,
+      "L2": 13,
+      "M1": 6,
+      "M1_comp": 4,
+      "M2": 5,
+      "M3": 3,
+      "M4": 7,
+      "MUL1": 1,
+      "MUL2": 2,
+      "P1": 15,
+      "P10": 4,
+      "P11": 1,
+      "P12": 7,
+      "P2": 5,
+      "P3": 8,
+      "P4": 2,
+      "P5": 6,
+      "P6": 2,
+      "P7": 6,
+      "P8": 3,
+      "P9": 4,
+      "SEED": 7,
+      "SEED2": 7,
+      "SEED3": 7,
+      "SE_cardinalhe_1": 2,
+      "SE_cardinalhe_2": 7,
+      "SE_cardinalhe_3": 6,
+      "SE_mckesson_1": 5,
+      "SE_mckesson_2": 6,
+      "SE_mckesson_3": 5,
+      "SE_neilmedpha_1": 1,
+      "SE_neilmedpha_3": 1,
+      "SE_sinupulse_1": 1,
+      "SE_sinupulse_2": 2,
+      "SE_sinupulse_3": 1,
+      "SE_walgreens_1": 1,
+      "SE_walgreens_2": 1,
+      "SE_walgreens_3": 1,
+      "ST1a": 4,
+      "ST1b": 4,
+      "ST2a": 4,
+      "ST3a": 7,
+      "ST4a": 5,
+      "ST_L1_1": 13,
+      "ST_L1_2": 1,
+      "ST_L1_3": 9,
+      "ST_L1_4": 3,
+      "T2a": 8,
+      "T2b": 6,
+      "T3a": 1,
+      "T3b": 1,
+      "T4a": 6,
+      "T4b": 3,
+      "V6": 1,
+      "V7": 1,
+      "V8": 5,
+      "VX1": 6,
+      "VX2": 5,
+      "W1": 4,
+      "W2": 4
+    },
+    "by_funnel_level": {
+      "L0": 35,
+      "L1": 4,
+      "L2": 13,
+      "discovery": 306
+    },
+    "widen_loops": 3
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ]
+}

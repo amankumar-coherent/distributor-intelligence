@@ -1,0 +1,1255 @@
+{
+  "phase": 1,
+  "query": "Hospital Services Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T21:55:56.986663+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "Hospital Services",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "healthcare services",
+    "industry_terms": [
+      "hospital services",
+      "medical supplies",
+      "healthcare distribution",
+      "system integration",
+      "service provision"
+    ],
+    "ecosystem_functions": [
+      "distributing medical supplies",
+      "wholesaling healthcare products",
+      "reselling medical equipment",
+      "integrating hospital systems",
+      "providing IT support",
+      "offering facility management services",
+      "partnering for healthcare solutions",
+      "facilitating supply chain logistics"
+    ],
+    "interpretation_summary": "The Hospital Services Market encompasses various services and products provided to hospitals, including medical supplies, equipment, and support services. Key participants include distributors, wholesalers, resellers, sy",
+    "relevance_keywords": [
+      "hospital supply chain",
+      "medical equipment distribution",
+      "healthcare services",
+      "IT integration in hospitals",
+      "facility management for healthcare"
+    ],
+    "negative_keywords": [
+      "pharmaceutical manufacturing",
+      "medical device production",
+      "healthcare providers",
+      "clinical trials"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "McKesson",
+        "primary_domain": "mckesson.com",
+        "company_function": "medical supply distributor"
+      },
+      {
+        "canonical_name": "Cardinal Health",
+        "primary_domain": "cardinalhealth.com",
+        "company_function": "healthcare wholesaler"
+      },
+      {
+        "canonical_name": "AmerisourceBergen",
+        "primary_domain": "amerisourcebergen.com",
+        "company_function": "pharmaceutical distributor"
+      },
+      {
+        "canonical_name": "Henry Schein",
+        "primary_domain": "henryschein.com",
+        "company_function": "medical equipment reseller"
+      },
+      {
+        "canonical_name": "Owens & Minor",
+        "primary_domain": "owens-minor.com",
+        "company_function": "medical supply distributor"
+      },
+      {
+        "canonical_name": "C. R. Bard",
+        "primary_domain": "crbard.com",
+        "company_function": "medical equipment reseller"
+      },
+      {
+        "canonical_name": "GE Healthcare",
+        "primary_domain": "gehealthcare.com",
+        "company_function": "system integrator for hospitals"
+      },
+      {
+        "canonical_name": "Philips Healthcare",
+        "primary_domain": "philips.com",
+        "company_function": "healthcare system integrator"
+      },
+      {
+        "canonical_name": "Siemens Healthineers",
+        "primary_domain": "siemens.com",
+        "company_function": "healthcare system integrator",
+        "segment": "System Integrators",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Cerner Corporation",
+        "primary_domain": "cerner.com",
+        "company_function": "IT support service for hospitals",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Allscripts",
+        "primary_domain": "allscripts.com",
+        "company_function": "IT support service for hospitals",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Optum",
+        "primary_domain": "optum.com",
+        "company_function": "hospital service provider",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Roche",
+        "primary_domain": "roche.com",
+        "company_function": "pharmaceutical reseller",
+        "segment": "Resellers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Thermo Fisher Scientific",
+        "primary_domain": "thermofisher.com",
+        "company_function": "medical equipment reseller",
+        "segment": "Resellers",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "Hospital Services",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "Hospital Services",
+    "include_keywords": [
+      "medical supply distributor",
+      "healthcare wholesaler",
+      "medical equipment reseller",
+      "system integrator for hospitals",
+      "hospital service provider"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The Hospital Services Market encompasses various services and products provided to hospitals, including medical supplies, equipment, and support services. Key participants include distributors, wholesalers, resellers, system integrators, service providers, and channel partners operating globally.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Distribution",
+        "description": "This layer involves the distribution of medical supplies and equipment to hospitals.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Medical Supply Distributors",
+              "Pharmaceutical Distributors"
+            ],
+            "participant_types": [
+              "distributor",
+              "wholesaler"
+            ],
+            "search_intents": [
+              "medical supply distributor company website",
+              "pharmaceutical distributor official site"
+            ]
+          },
+          {
+            "segment_name": "Wholesalers",
+            "sub_segments": [
+              "Healthcare Wholesalers",
+              "General Wholesalers"
+            ],
+            "participant_types": [
+              "wholesaler"
+            ],
+            "search_intents": [
+              "healthcare wholesaler company profile",
+              "general wholesaler for medical supplies"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L2",
+        "layer_name": "Reselling",
+        "description": "This layer includes companies that resell medical products and services to hospitals.",
+        "segments": [
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Medical Equipment Resellers",
+              "Pharmaceutical Resellers"
+            ],
+            "participant_types": [
+              "reseller"
+            ],
+            "search_intents": [
+              "medical equipment reseller official site",
+              "pharmaceutical reseller company website"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L3",
+        "layer_name": "Integration Services",
+        "description": "This layer focuses on system integration services for hospital operations.",
+        "segments": [
+          {
+            "segment_name": "System Integrators",
+            "sub_segments": [
+              "IT System Integrators",
+              "Healthcare System Integrators"
+            ],
+            "participant_types": [
+              "system integrator"
+            ],
+            "search_intents": [
+              "healthcare system integrator company profile",
+              "IT system integrator for hospitals"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L4",
+        "layer_name": "Service Provision",
+        "description": "This layer includes service providers that offer various support services to hospitals.",
+        "segments": [
+          {
+            "segment_name": "Service Providers",
+            "sub_segments": [
+              "Facility Management Services",
+              "IT Support Services"
+            ],
+            "participant_types": [
+              "service provider"
+            ],
+            "search_intents": [
+              "hospital facility management service provider",
+              "IT support service for hospitals"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L5",
+        "layer_name": "Channel Partnerships",
+        "description": "This layer includes various channel partners that facilitate the distribution and integration of services.",
+        "segments": [
+          {
+            "segment_name": "Channel Partners",
+            "sub_segments": [
+              "Value-Added Resellers",
+              "Consulting Partners"
+            ],
+            "participant_types": [
+              "channel partner"
+            ],
+            "search_intents": [
+              "hospital channel partner company website",
+              "value-added reseller for healthcare"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Manufacturers",
+        "Healthcare Providers",
+        "Pharmaceutical Companies",
+        "Medical Device Companies"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "search for medical supply distributor company websites",
+        "sub_sector": "medical_supply_distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "find healthcare wholesaler company profiles",
+        "sub_sector": "healthcare_wholesaler",
+        "layer_id": "L1",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "search for medical equipment reseller official sites",
+        "sub_sector": "medical_equipment_reseller",
+        "layer_id": "L2",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "find healthcare system integrator company profiles",
+        "sub_sector": "healthcare_system_integrator",
+        "layer_id": "L3",
+        "segment": "System Integrators"
+      },
+      {
+        "id": "M5",
+        "level": "market_map",
+        "text": "search for hospital service provider websites",
+        "sub_sector": "hospital_service_provider",
+        "layer_id": "L4",
+        "segment": "Service Providers"
+      },
+      {
+        "id": "M6",
+        "level": "market_map",
+        "text": "search for hospital channel partner company websites",
+        "sub_sector": "hospital_channel_partner",
+        "layer_id": "L5",
+        "segment": "Channel Partners"
+      },
+      {
+        "id": "M7",
+        "level": "market_map",
+        "text": "search for pharmaceutical distributor official sites",
+        "sub_sector": "pharmaceutical_distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M8",
+        "level": "market_map",
+        "text": "find pharmaceutical reseller company websites",
+        "sub_sector": "pharmaceutical_reseller",
+        "layer_id": "L2",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M9",
+        "level": "market_map",
+        "text": "search for IT system integrator for hospitals",
+        "sub_sector": "IT_system_integrator",
+        "layer_id": "L3",
+        "segment": "System Integrators"
+      },
+      {
+        "id": "M10",
+        "level": "market_map",
+        "text": "find IT support service for hospitals",
+        "sub_sector": "IT_support_service",
+        "layer_id": "L4",
+        "segment": "Service Providers"
+      },
+      {
+        "id": "M11",
+        "level": "market_map",
+        "text": "search for value-added reseller for healthcare",
+        "sub_sector": "value_added_reseller",
+        "layer_id": "L5",
+        "segment": "Channel Partners"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "healthcare services",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "Hospital Services Market companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "Distributors of hospital services official site"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "Healthcare system integrators corporate site"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "market_map",
+      "text": "search for medical supply distributor company websites"
+    },
+    {
+      "id": "P2",
+      "level": "market_map",
+      "text": "find healthcare wholesaler company profiles"
+    },
+    {
+      "id": "P3",
+      "level": "market_map",
+      "text": "search for medical equipment reseller official sites"
+    },
+    {
+      "id": "P4",
+      "level": "market_map",
+      "text": "find healthcare system integrator company profiles"
+    },
+    {
+      "id": "P5",
+      "level": "market_map",
+      "text": "search for hospital service provider websites"
+    },
+    {
+      "id": "P6",
+      "level": "market_map",
+      "text": "search for hospital channel partner company websites"
+    },
+    {
+      "id": "P7",
+      "level": "market_map",
+      "text": "search for pharmaceutical distributor official sites"
+    },
+    {
+      "id": "P8",
+      "level": "market_map",
+      "text": "find pharmaceutical reseller company websites"
+    },
+    {
+      "id": "P9",
+      "level": "market_map",
+      "text": "search for IT system integrator for hospitals"
+    },
+    {
+      "id": "P10",
+      "level": "market_map",
+      "text": "find IT support service for hospitals"
+    },
+    {
+      "id": "P11",
+      "level": "market_map",
+      "text": "search for value-added reseller for healthcare"
+    },
+    {
+      "id": "P12",
+      "level": "discovery",
+      "text": "medical supply distributor company website"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "Hospital Services Market companies official websites",
+      "level": "L0",
+      "result_count": 11,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Hospital Services Market Statistics 2025-2034",
+          "link": "https://www.statifacts.com/outlook/hospital-services-market",
+          "snippet": "Hospital Services Market - Databook 2025 to 2034.The global hospital services market size accounted for USD 13,303 billion in 2024 and is predicted to touch around USD 24,173 billion by 2034, growing ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Hospital Services Market Size to Surge USD 28.99 Trillion by 2035",
+          "link": "https://www.towardshealthcare.com/insights/hospital-services-market",
+          "snippet": "Hospital Services Market Grows with Global Investment.Hospital Services Market Trends and Growth (2026). Key Highlights. Hospital services industry poised to reach USD 12.08 billion by 2025.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Hospital Services Market Size | Growth Report [2033]",
+          "link": "https://www.skyquestt.com/report/hospital-services-market",
+          "snippet": "Hospital Services Market Analysis by Hospital Type. According to the ownership type of the hospitals, the market has been divided into private, state-owned, and community/public hospitals.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Hospital services Companies | Market Research Future",
+          "link": "https://www.marketresearchfuture.com/reports/hospital-services-market/companies",
+          "snippet": "Hospital services companies play a crucial role in the healthcare industry by providing a range of services and solutions to support the functioning of hospitals and healthcare facilities.Hospital Ser",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Hospital Services Market Size, Share & Growth Report, 2030",
+          "link": "https://www.grandviewresearch.com/industry-analysis/hospital-services-market",
+          "snippet": "North America hospital services market dominated the market with a share of 38.56% in 2023. The hospital services market in the U.S. is anticipated to grow at a significant CAGR during the forecast pe",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Hospital Services Market Surges Toward USD 25.26 Trn by 2035",
+          "link": "https://www.marketstatsinsight.com/hospital-services-market/",
+          "snippet": "What is the Hospital Services Market Size in 2026?Hospital Services Market CompaniesThe U.S. hospital services market alone reached USD 2.64 trillion in 2025 and is expected to...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Hospital Services Market Size, Share | Forecast- 2032",
+          "link": "https://www.alliedmarketresearch.com/hospital-services-market-A127345",
+          "snippet": "Hospital Services Market Size & Trends. Hospital services refer to the wide range of medical, diagnostic, therapeutic, and surgical treatments provided to patients within a hospital setting.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Hospital Services Market Size, Industry Share & Forecast 2034",
+          "link": "https://www.fortunebusinessinsights.com/hospital-services-market-118107",
+          "snippet": "Hospital Services Market Size, Share & Industry Analysis, By Type (Inpatient Services, Outpatient Services), By Ownership (Public/Government-owned), By Country, and Regional Forecast, 2026-2034.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Hospital Services Market Size Worth USD 24.17 Trillion by 2034...",
+          "link": "https://finance.yahoo.com/news/hospital-services-market-size-worth-140600920.html",
+          "snippet": "Hospital Services Market Size, by Hospital Type, 2022 to 2024 (USD Billion). Healthcare Software as a Service Market : See how cloud-based software is accelerating scalability, security, and healthcar",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Hospital Services Market to Grow at an 9.15% CAGR Till... | Medium",
+          "link": "https://medium.com/@gauravgaurkhede99/hospital-services-market-to-grow-at-an-9-15-cagr-till-2032-4960cebd4a3",
+          "snippet": "\u2022 To define, describe, and forecast the global Hospital Services Market based on product, and region. \u2022 To provide detailed information regarding the major factors influencing the growth of the Market",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "U.S. Hospital Services Market Size to Reach USD 3.79 Trn By 2033",
+          "link": "https://www.expresswebwire.com/u-s-hospital-services-market/",
+          "snippet": "Express Web Wire.The U.S. hospital services market size is poised to grow by USD 3.79 trillion by 2033 from USD 2.32 trillion in 2023, exhibiting a CAGR of 4.85% during the forecast period 2024 to 203",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Hospital Services Market Statistics 2025-2034",
+          "link": "https://www.statifacts.com/outlook/hospital-services-market",
+          "snippet": "Hospital Services Market - Databook 2025 to 2034.The global hospital services market size accounted for USD 13,303 billion in 2024 and is predicted to touch around USD 24,173 billion by 2034, growing ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Hospital Services Market Size to Surge USD 28.99 Trillion by 2035",
+          "link": "https://www.towardshealthcare.com/insights/hospital-services-market",
+          "snippet": "Hospital Services Market Grows with Global Investment.Hospital Services Market Trends and Growth (2026). Key Highlights. Hospital services industry poised to reach USD 12.08 billion by 2025.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Hospital Services Market Size | Growth Report [2033]",
+          "link": "https://www.skyquestt.com/report/hospital-services-market",
+          "snippet": "Hospital Services Market Analysis by Hospital Type. According to the ownership type of the hospitals, the market has been divided into private, state-owned, and community/public hospitals.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Hospital services Companies | Market Research Future",
+          "link": "https://www.marketresearchfuture.com/reports/hospital-services-market/companies",
+          "snippet": "Hospital services companies play a crucial role in the healthcare industry by providing a range of services and solutions to support the functioning of hospitals and healthcare facilities.Hospital Ser",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Hospital Services Market Size, Share & Growth Report, 2030",
+          "link": "https://www.grandviewresearch.com/industry-analysis/hospital-services-market",
+          "snippet": "North America hospital services market dominated the market with a share of 38.56% in 2023. The hospital services market in the U.S. is anticipated to grow at a significant CAGR during the forecast pe",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Hospital Services Market Surges Toward USD 25.26 Trn by 2035",
+          "link": "https://www.marketstatsinsight.com/hospital-services-market/",
+          "snippet": "What is the Hospital Services Market Size in 2026?Hospital Services Market CompaniesThe U.S. hospital services market alone reached USD 2.64 trillion in 2025 and is expected to...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Hospital Services Market Size, Share | Forecast- 2032",
+          "link": "https://www.alliedmarketresearch.com/hospital-services-market-A127345",
+          "snippet": "Hospital Services Market Size & Trends. Hospital services refer to the wide range of medical, diagnostic, therapeutic, and surgical treatments provided to patients within a hospital setting.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Hospital Services Market Size, Industry Share & Forecast 2034",
+          "link": "https://www.fortunebusinessinsights.com/hospital-services-market-118107",
+          "snippet": "Hospital Services Market Size, Share & Industry Analysis, By Type (Inpatient Services, Outpatient Services), By Ownership (Public/Government-owned), By Country, and Regional Forecast, 2026-2034.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Hospital Services Market Size Worth USD 24.17 Trillion by 2034...",
+          "link": "https://finance.yahoo.com/news/hospital-services-market-size-worth-140600920.html",
+          "snippet": "Hospital Services Market Size, by Hospital Type, 2022 to 2024 (USD Billion). Healthcare Software as a Service Market : See how cloud-based software is accelerating scalability, security, and healthcar",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Hospital Services Market to Grow at an 9.15% CAGR Till... | Medium",
+          "link": "https://medium.com/@gauravgaurkhede99/hospital-services-market-to-grow-at-an-9-15-cagr-till-2032-4960cebd4a3",
+          "snippet": "\u2022 To define, describe, and forecast the global Hospital Services Market based on product, and region. \u2022 To provide detailed information regarding the major factors influencing the growth of the Market",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "U.S. Hospital Services Market Size to Reach USD 3.79 Trn By 2033",
+          "link": "https://www.expresswebwire.com/u-s-hospital-services-market/",
+          "snippet": "Express Web Wire.The U.S. hospital services market size is poised to grow by USD 3.79 trillion by 2033 from USD 2.32 trillion in 2023, exhibiting a CAGR of 4.85% during the forecast period 2024 to 203",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "Distributors of hospital services official site",
+      "level": "L1",
+      "result_count": 8,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Bangkok Hospital Pattaya",
+          "link": "https://www.bangkokhospital.com/en/pattaya",
+          "snippet": "Our Services. See All. About Section Gradient Background. Bangkok Hospital.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "NHS services - NHS",
+          "link": "https://www.nhs.uk/nhs-services/",
+          "snippet": "Search the NHS website.Find out about NHS services such as GPs, pharmacies and hospitals, services near you, and online services to manage your health.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "PAN Card Services Online | Apply for PAN Card | Easy PAN Card...",
+          "link": "https://onlineservices.proteantech.in/paam/endUserRegisterContact.html",
+          "snippet": "Apply for a PAN card online, update details, and check your application status easily with the Protean Online PAN Services Portal. Correct or change your PAN information.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "British Columbia hospital distributing free crack pipes, snorting kits...",
+          "link": "https://www.lifesitenews.com/news/british-columbia-hospital-distributing-free-crack-pipes-snorting-kits-from-vending-machine/",
+          "snippet": "As the drug crisis in British Columbia continues to worsen, the Nanaimo Regional General Hospital is now distributing free crack pipes and snorting kits at a vending machine outside their emergency ro",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "HospitalService | Nomeco.dk",
+          "link": "https://nomeco.dk/en/healthcare-logistics/hospitalservice",
+          "snippet": "HealthCare Logistics. HospitalService. Distribution Services. At Nomeco, we provide pharmaceutical distribution services for hospital pharmacies that purchase discounted products through AMGROS.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Arena AI: The Official AI Ranking & LLM Leaderboard",
+          "link": "https://arena.ai/",
+          "snippet": "Your conversations and certain other personal information will be disclosed to the relevant AI providers and may otherwise be disclosed publicly to help support our community and advance AI research. ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Department of Health & Human Services | HHS.gov",
+          "link": "https://www.hhs.gov/",
+          "snippet": "An official website of the United States government.HHS is responsible for public health, health care, and human/social services for the United States of America. This includes administering over 100 ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "DIH Medical is a global distributor of rehabilitation technology",
+          "link": "https://www.dih.com/",
+          "snippet": "He currently provides strategic advisory services to growing high-technology private and public companies with a focus on complex manufacturing and supply chain companies.Global Distribution.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Bangkok Hospital Pattaya",
+          "link": "https://www.bangkokhospital.com/en/pattaya",
+          "snippet": "Our Services. See All. About Section Gradient Background. Bangkok Hospital.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "NHS services - NHS",
+          "link": "https://www.nhs.uk/nhs-services/",
+          "snippet": "Search the NHS website.Find out about NHS services such as GPs, pharmacies and hospitals, services near you, and online services to manage your health.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "PAN Card Services Online | Apply for PAN Card | Easy PAN Card...",
+          "link": "https://onlineservices.proteantech.in/paam/endUserRegisterContact.html",
+          "snippet": "Apply for a PAN card online, update details, and check your application status easily with the Protean Online PAN Services Portal. Correct or change your PAN information.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "British Columbia hospital distributing free crack pipes, snorting kits...",
+          "link": "https://www.lifesitenews.com/news/british-columbia-hospital-distributing-free-crack-pipes-snorting-kits-from-vending-machine/",
+          "snippet": "As the drug crisis in British Columbia continues to worsen, the Nanaimo Regional General Hospital is now distributing free crack pipes and snorting kits at a vending machine outside their emergency ro",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "HospitalService | Nomeco.dk",
+          "link": "https://nomeco.dk/en/healthcare-logistics/hospitalservice",
+          "snippet": "HealthCare Logistics. HospitalService. Distribution Services. At Nomeco, we provide pharmaceutical distribution services for hospital pharmacies that purchase discounted products through AMGROS.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Arena AI: The Official AI Ranking & LLM Leaderboard",
+          "link": "https://arena.ai/",
+          "snippet": "Your conversations and certain other personal information will be disclosed to the relevant AI providers and may otherwise be disclosed publicly to help support our community and advance AI research. ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Department of Health & Human Services | HHS.gov",
+          "link": "https://www.hhs.gov/",
+          "snippet": "An official website of the United States government.HHS is responsible for public health, health care, and human/social services for the United States of America. This includes administering over 100 ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "DIH Medical is a global distributor of rehabilitation technology",
+          "link": "https://www.dih.com/",
+          "snippet": "He currently provides strategic advisory services to growing high-technology private and public companies with a focus on complex manufacturing and supply chain companies.Global Distribution.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "Healthcare system integrators corporate site",
+      "level": "L2",
+      "result_count": 5,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "iHealthcare - Advantech",
+          "link": "https://www.advantech.com/en/solutions/ihealthcare",
+          "snippet": "Advantech iHealthcare has developed its core competencies and collaborated with international medical equipment manufacturers and system integrators, to assist hospitals with advancing patient-centere",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "IEI Integration Corp. | AIoT, industrial computer, embedded system...",
+          "link": "https://www.ieiworld.com/en/",
+          "snippet": "IEI provides ODM services and industrial computer integration solutions for IoT. Visit IEI official website to learn more about IEI smart city solutions for achieving new business opportunities.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Virtual pitching opportunity to Italian Healthcare system integrators",
+          "link": "https://www.businessfinland.fi/en/whats-new/Events/business-delegations/2022/virtual-pitching-opportunity-to-italian-healthcare-system-integrators/",
+          "snippet": "Integrators and other partners. Reply Group a major Italian system integrator in the field of health digitalization based in Turin. Their activities focus in system integration, consulting and digital",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "NDHM | integrated systematic healthcare infrastructure",
+          "link": "https://www.apollohospitals.com/region/delhi/ndhm-will-bring-in-integrated-systematic-healthcare-infrastructure/",
+          "snippet": "NDHM will bring in integrated systematic healthcare infrastructure.Even those places where healthcare facilities are not easily available, a digital system will allow access to quality healthcare. It ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Practices in Ending Homelessness for Single Adults Marcella...",
+          "link": "https://www.nj.gov/humanservices/documents/Marcella+Maguire+Best+Practices+in+Homelessness+Prevention.pptx",
+          "snippet": "Aligning Homeless Systems with Health Care Systems. Health Systems have a language all their own. Health Systems have priorities, learn them and how to address them.Marcella Maguire, Ph.D. Director, H",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "iHealthcare - Advantech",
+          "link": "https://www.advantech.com/en/solutions/ihealthcare",
+          "snippet": "Advantech iHealthcare has developed its core competencies and collaborated with international medical equipment manufacturers and system integrators, to assist hospitals with advancing patient-centere",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "IEI Integration Corp. | AIoT, industrial computer, embedded system...",
+          "link": "https://www.ieiworld.com/en/",
+          "snippet": "IEI provides ODM services and industrial computer integration solutions for IoT. Visit IEI official website to learn more about IEI smart city solutions for achieving new business opportunities.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Virtual pitching opportunity to Italian Healthcare system integrators",
+          "link": "https://www.businessfinland.fi/en/whats-new/Events/business-delegations/2022/virtual-pitching-opportunity-to-italian-healthcare-system-integrators/",
+          "snippet": "Integrators and other partners. Reply Group a major Italian system integrator in the field of health digitalization based in Turin. Their activities focus in system integration, consulting and digital",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "NDHM | integrated systematic healthcare infrastructure",
+          "link": "https://www.apollohospitals.com/region/delhi/ndhm-will-bring-in-integrated-systematic-healthcare-infrastructure/",
+          "snippet": "NDHM will bring in integrated systematic healthcare infrastructure.Even those places where healthcare facilities are not easily available, a digital system will allow access to quality healthcare. It ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Practices in Ending Homelessness for Single Adults Marcella...",
+          "link": "https://www.nj.gov/humanservices/documents/Marcella+Maguire+Best+Practices+in+Homelessness+Prevention.pptx",
+          "snippet": "Aligning Homeless Systems with Health Care Systems. Health Systems have a language all their own. Health Systems have priorities, learn them and how to address them.Marcella Maguire, Ph.D. Director, H",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "search for medical supply distributor company websites",
+      "level": "market_map",
+      "result_count": 3,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Medical Supply Distributors List in the USA | Seaskymedical",
+          "link": "https://www.seaskymedical.com/medical-supply-distributors-list-in-the-usa/",
+          "snippet": "Specialty: Medical Supplies, Pharmaceutical Distribution, Specialty Drug Distribution, Health mart Independent Pharmacy, and Pharmacy Services & Technology. Mckesson Corporation is among North America",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Trusted Medical Supply Distributor for Quality Medical Equipment...",
+          "link": "https://www.slimedical.com/",
+          "snippet": "| Toggle Nav SLI Medical. Search.Trusted Medical Supply Partner for Hospitals, Physician Practices & Municipalities. Medical professionals managing hospital supply inventory including syringes, gloves",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Medical Supplies and Trusted Distribution Services",
+          "link": "https://www.gemcomedical.com/",
+          "snippet": "GEMCO Medical is a leading wholesale medical supply distributor and third party logistics partner! GEMCO Medical has been a leading wholesale distributor and 3PL fulfillment company for over 30 years.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Medical Supply Distributors List in the USA | Seaskymedical",
+          "link": "https://www.seaskymedical.com/medical-supply-distributors-list-in-the-usa/",
+          "snippet": "Specialty: Medical Supplies, Pharmaceutical Distribution, Specialty Drug Distribution, Health mart Independent Pharmacy, and Pharmacy Services & Technology. Mckesson Corporation is among North America",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Trusted Medical Supply Distributor for Quality Medical Equipment...",
+          "link": "https://www.slimedical.com/",
+          "snippet": "| Toggle Nav SLI Medical. Search.Trusted Medical Supply Partner for Hospitals, Physician Practices & Municipalities. Medical professionals managing hospital supply inventory including syringes, gloves",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Medical Supplies and Trusted Distribution Services",
+          "link": "https://www.gemcomedical.com/",
+          "snippet": "GEMCO Medical is a leading wholesale medical supply distributor and third party logistics partner! GEMCO Medical has been a leading wholesale distributor and 3PL fulfillment company for over 30 years.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P2": {
+      "query": "find healthcare wholesaler company profiles",
+      "level": "market_map",
+      "result_count": 2,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Your Trusted Healthcare Wholesale Partner",
+          "link": "https://chemistmerchant.com/",
+          "snippet": "Chemist Merchant Lines (CML) is an independent Australian healthcare wholesaler. We support pharmacies, hospitals, primary care, and aged care providers.Practising Health Professionals. Our founders m",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "3900+ Healthcare Distributors 2025",
+          "link": "https://www.vanik.com/distributors/healthcare-distributors-wholesalers",
+          "snippet": "Directory of healthcare distributors and wholesalers seeking new products, from all over India.Listed below are detailed profiles of experienced distributors, dealers, wholesalers, super stockists - e",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Your Trusted Healthcare Wholesale Partner",
+          "link": "https://chemistmerchant.com/",
+          "snippet": "Chemist Merchant Lines (CML) is an independent Australian healthcare wholesaler. We support pharmacies, hospitals, primary care, and aged care providers.Practising Health Professionals. Our founders m",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "3900+ Healthcare Distributors 2025",
+          "link": "https://www.vanik.com/distributors/healthcare-distributors-wholesalers",
+          "snippet": "Directory of healthcare distributors and wholesalers seeking new products, from all over India.Listed below are detailed profiles of experienced distributors, dealers, wholesalers, super stockists - e",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P3": {
+      "query": "search for medical equipment reseller official sites",
+      "level": "market_map",
+      "result_count": 3,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "How to Choose the Best Medical Equipment Reseller",
+          "link": "https://des3tech.com/blog/how-to-choose-the-best-medical-equipment-reseller-a-checklist-for-healthcare-providers/",
+          "snippet": "The best medical equipment resellers go beyond buying and selling. They offer additional services that make the entire process easier for you. Examples Include: On-site equipment assessments. Customiz",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "For Sale: Medical Equipment Reseller | Pasco County, FL",
+          "link": "https://dealstream.com/d/biz-sale/med-prods-distribs/hdbhsq",
+          "snippet": "10 year old medical equipment wholesale company with strong relationships with major hospitals and physician practices. This business has a unique model providing healthcare facilities and practices w",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Medical Equipment Reseller, Healthcare & Medical | PEmarket",
+          "link": "https://app.pemarketplace.co/listing/medical-equipment-reseller",
+          "snippet": "Founded in 2012, company sells medical equipment to physician\u2019s offices, hospitals and other medical facilities across the U.S. Projecting $1.6m in EBITDA for 2024..",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "How to Choose the Best Medical Equipment Reseller",
+          "link": "https://des3tech.com/blog/how-to-choose-the-best-medical-equipment-reseller-a-checklist-for-healthcare-providers/",
+          "snippet": "The best medical equipment resellers go beyond buying and selling. They offer additional services that make the entire process easier for you. Examples Include: On-site equipment assessments. Customiz",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "For Sale: Medical Equipment Reseller | Pasco County, FL",
+          "link": "https://dealstream.com/d/biz-sale/med-prods-distribs/hdbhsq",
+          "snippet": "10 year old medical equipment wholesale company with strong relationships with major hospitals and physician practices. This business has a unique model providing healthcare facilities and practices w",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Medical Equipment Reseller, Healthcare & Medical | PEmarket",
+          "link": "https://app.pemarketplace.co/listing/medical-equipment-reseller",
+          "snippet": "Founded in 2012, company sells medical equipment to physician\u2019s offices, hospitals and other medical facilities across the U.S. Projecting $1.6m in EBITDA for 2024..",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P4": {
+      "query": "find healthcare system integrator company profiles",
+      "level": "market_map",
+      "result_count": 2,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Healthcare System Integrator Pvt Ltd. | LinkedIn",
+          "link": "https://pk.linkedin.com/company/healthcare-system-integrator-pvt-ltd",
+          "snippet": "Healthcare System Integrator (HSI), is the back-end development and technical support services provider for HTI (High Tech Innovations, LLC), an IT company based in New Jersey, US. HTI, the largest te",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Redefining Healthcare Delivery Everywhere Care Happens | Baxter",
+          "link": "https://www.baxter.com/",
+          "snippet": "With essential healthcare solutions for the hospital, physician's office and other sites of care, learn how Baxter is working to make a greater impact.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Healthcare System Integrator Pvt Ltd. | LinkedIn",
+          "link": "https://pk.linkedin.com/company/healthcare-system-integrator-pvt-ltd",
+          "snippet": "Healthcare System Integrator (HSI), is the back-end development and technical support services provider for HTI (High Tech Innovations, LLC), an IT company based in New Jersey, US. HTI, the largest te",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Redefining Healthcare Delivery Everywhere Care Happens | Baxter",
+          "link": "https://www.baxter.com/",
+          "snippet": "With essential healthcare solutions for the hospital, physician's office and other sites of care, learn how Baxter is working to make a greater impact.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P5": {
+      "query": "search for hospital service provider websites",
+      "level": "market_map",
+      "result_count": 7,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "NHS services - NHS",
+          "link": "https://www.nhs.uk/nhs-services/",
+          "snippet": "Search the NHS website.Find out about NHS services such as GPs, pharmacies and hospitals, services near you, and online services to manage your health.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lab Outreach Software | Outreach Laboratory Services",
+          "link": "https://lifepoint.com/",
+          "snippet": "Lifepoint Informatics\u2019 hospital outreach service lab solution is the trusted leader in healthcare information technology, advancing value-based healthcare with uncomplicated clinical integration, heal",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aga Khan University Hospital - Labs and Diagnostic Reports",
+          "link": "https://hospitals.aku.edu/pakistan/patients-families/Pages/reportlogin.aspx",
+          "snippet": "The Aga Khan University Hospital Pakistan. Search.Hospital Admissions (Inpatient Services). Clinics. Aga Khan Hospital for Women, Garden.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Health First",
+          "link": "https://www.hf.org/",
+          "snippet": "Provider directory search. Specialties and services.When you get emergency care or are treated by an out-of-network provider at an in-network hospital or ambulatory surgical center, you are protected ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dementia care \u2022 Aged residential care \u2022 Tauranga, Bay of Plenty...",
+          "link": "https://www.healthpoint.co.nz/aged-residential-care-1/aged-residential-care-facility/aged-residential-care-dementia/bay-of-plenty/tauranga/",
+          "snippet": "Aged residential care is for older people who are no longer able to live independently and need long term care, usually either in a rest home or hospital. These services provide secure specialised dem",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "IU Health Psychiatry - Bloomington | IU Health",
+          "link": "https://iuhealth.org/find-locations/iu-health-psychiatry-727-w-2nd-st-bloomington",
+          "snippet": "IU Health Bloomington Hospital offers inpatient services for individuals with behavioral or psychological disorders that require a high degree of care and supervision. Access Center.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How to Choose or Change NHIF Outpatient Facility Online... - JITIMU",
+          "link": "https://www.jitimu.com/2023/02/choose-nhif-outpatient-hospital-online-or-using-ussd-code/",
+          "snippet": "Visiting the NHIF Selfcare Website. Downloading the NHIF mobile app, My NHIF. This article explains the several methods you can use to select or change your NHIF hospital service provider. Table of Co",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "NHS services - NHS",
+          "link": "https://www.nhs.uk/nhs-services/",
+          "snippet": "Search the NHS website.Find out about NHS services such as GPs, pharmacies and hospitals, services near you, and online services to manage your health.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lab Outreach Software | Outreach Laboratory Services",
+          "link": "https://lifepoint.com/",
+          "snippet": "Lifepoint Informatics\u2019 hospital outreach service lab solution is the trusted leader in healthcare information technology, advancing value-based healthcare with uncomplicated clinical integration, heal",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aga Khan University Hospital - Labs and Diagnostic Reports",
+          "link": "https://hospitals.aku.edu/pakistan/patients-families/Pages/reportlogin.aspx",
+          "snippet": "The Aga Khan University Hospital Pakistan. Search.Hospital Admissions (Inpatient Services). Clinics. Aga Khan Hospital for Women, Garden.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Health First",
+          "link": "https://www.hf.org/",
+          "snippet": "Provider directory search. Specialties and services.When you get emergency care or are treated by an out-of-network provider at an in-network hospital or ambulatory surgical center, you are protected ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dementia care \u2022 Aged residential care \u2022 Tauranga, Bay of Plenty...",
+          "link": "https://www.healthpoint.co.nz/aged-residential-care-1/aged-residential-care-facility/aged-residential-care-dementia/bay-of-plenty/tauranga/",
+          "snippet": "Aged residential care is for older people who are no longer able to live independently and need long term care, usually either in a rest home or hospital. These services provide secure specialised dem",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "IU Health Psychiatry - Bloomington | IU Health",
+          "link": "https://iuhealth.org/find-locations/iu-health-psychiatry-727-w-2nd-st-bloomington",
+          "snippet": "IU Health Bloomington Hospital offers inpatient services for individuals with behavioral or psychological disorders that require a high degree of care and supervision. Access Center.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How to Choose or Change NHIF Outpatient Facility Online... - JITIMU",
+          "link": "https://www.jitimu.com/2023/02/choose-nhif-outpatient-hospital-online-or-using-ussd-code/",
+          "snippet": "Visiting the NHIF Selfcare Website. Downloading the NHIF mobile app, My NHIF. This article explains the several methods you can use to select or change your NHIF hospital service provider. Table of Co",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "search for hospital channel partner company websites",
+      "level": "market_map",
+      "result_count": 3,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Hospital Management System (HMS)... | ABDM Compliant Healthray",
+          "link": "https://healthray.com/",
+          "snippet": "Healthray is an AI-powered, ABDM-compliant hospital management system trusted by 1,000+ Indian hospitals. OPD/IPD, EMR, pharmacy, lab, billing & TPA in one cloud HMS.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Find a Hospital Channel Sponsorship | 365Asia",
+          "link": "https://www.365asia.sg/how-we-help/find-a-hospital/",
+          "snippet": "Our Find a Hospital channel sponsorship places your facility at the centre of that decision-making process, ensuring your brand remains the primary recommendation for medical travellers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "South Asian Heart Center, Women's Hospital at El... | El Camino Health",
+          "link": "https://www.elcaminohealth.org/newsroom/south-asian-heart-center-womens-hospital-el-camino-hospital-and-womennow-tv-partner",
+          "snippet": "Magnifier Site Search.Our partnership with El Camino Hospital will help us work together towards this end.\" WomenNow reaches a national audience of 3.2 million Indo-Americans and South Asians in both ",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Hospital Management System (HMS)... | ABDM Compliant Healthray",
+          "link": "https://healthray.com/",
+          "snippet": "Healthray is an AI-powered, ABDM-compliant hospital management system trusted by 1,000+ Indian hospitals. OPD/IPD, EMR, pharmacy, lab, billing & TPA in one cloud HMS.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Find a Hospital Channel Sponsorship | 365Asia",
+          "link": "https://www.365asia.sg/how-we-help/find-a-hospital/",
+          "snippet": "Our Find a Hospital channel sponsorship places your facility at the centre of that decision-making process, ensuring your brand remains the primary recommendation for medical travellers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "South Asian Heart Center, Women's Hospital at El... | El Camino Health",
+          "link": "https://www.elcaminohealth.org/newsroom/south-asian-heart-center-womens-hospital-el-camino-hospital-and-womennow-tv-partner",
+          "snippet": "Magnifier Site Search.Our partnership with El Camino Hospital will help us work together towards this end.\" WomenNow reaches a national audience of 3.2 million Indo-Americans and South Asians in both ",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P7": {
+      "query": "search for pharmaceutical distributor official sites",
+      "level": "market_map",
+      "result_count": 3,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Search engine - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Search_engine",
+          "snippet": "Search engine A Google search result for the phrase \"magic flute opera\" A web search engine or Internet search engine is a software system that provides hyperlinks to web pages and other relevant \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Top 10 Pharma Distributors in India | Pharmaceutical Distributor List",
+          "link": "https://www.pharmaadda.in/top-10-pharma-distributors-in-india",
+          "snippet": "This factor directly increases the demand for Pharmaceutical Distributor Companies in our country. This blog of Pharmaadda provides you with information about qualified and reliable Top 10 Pharma Dist",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "United Pharmaceutical Distributors Information | SignalHire",
+          "link": "https://www.signalhire.com/companies/upd",
+          "snippet": "United Pharmaceutical Distributors is a private company that has been in the industry for 58 years. The company currently specializes in the Investment Banking area. The number of employees ranges fro",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Search engine - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Search_engine",
+          "snippet": "Search engine A Google search result for the phrase \"magic flute opera\" A web search engine or Internet search engine is a software system that provides hyperlinks to web pages and other relevant \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Top 10 Pharma Distributors in India | Pharmaceutical Distributor List",
+          "link": "https://www.pharmaadda.in/top-10-pharma-distributors-in-india",
+          "snippet": "This factor directly increases the demand for Pharmaceutical Distributor Companies in our country. This blog of Pharmaadda provides you with information about qualified and reliable Top 10 Pharma Dist",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "United Pharmaceutical Distributors Information | SignalHire",
+          "link": "https://www.signalhire.com/companies/upd",
+          "snippet": "United Pharmaceutical Distributors is a private company that has been in the industry for 58 years. The company currently specializes in the Investment Banking area. The number of employees ranges fro",
+          "backend": "ddgs_bing"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

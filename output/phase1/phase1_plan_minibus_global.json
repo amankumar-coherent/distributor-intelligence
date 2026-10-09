@@ -1,0 +1,1794 @@
+{
+  "phase": 1,
+  "query": "Minibus Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T21:22:22.879725+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "minibus",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "transportation",
+    "industry_terms": [
+      "minibus",
+      "passenger transport",
+      "fleet management",
+      "vehicle integration",
+      "public transport"
+    ],
+    "ecosystem_functions": [
+      "manufacturing minibuses",
+      "distributing minibuses",
+      "reselling minibuses",
+      "providing maintenance services",
+      "integrating systems for minibuses",
+      "acting as channel partners",
+      "wholesaling minibuses",
+      "servicing minibuses"
+    ],
+    "interpretation_summary": "The minibus market encompasses the production, distribution, and sale of minibuses, which are small buses designed for transporting passengers. Key participants include manufacturers, distributors, wholesalers, and servi",
+    "relevance_keywords": [
+      "minibus manufacturers",
+      "minibus distributors",
+      "minibus service providers",
+      "minibus sales",
+      "minibus integration"
+    ],
+    "negative_keywords": [
+      "automobile",
+      "full-size bus",
+      "luxury coach",
+      "public transport",
+      "trucks"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "Mercedes-Benz",
+        "primary_domain": "mercedes-benz.com",
+        "company_function": "minibus manufacturer"
+      },
+      {
+        "canonical_name": "Ford Motor Company",
+        "primary_domain": "ford.com",
+        "company_function": "minibus manufacturer"
+      },
+      {
+        "canonical_name": "Volkswagen Commercial Vehicles",
+        "primary_domain": "volkswagen.com",
+        "company_function": "minibus manufacturer"
+      },
+      {
+        "canonical_name": "Daimler AG",
+        "primary_domain": "daimler.com",
+        "company_function": "minibus manufacturer"
+      },
+      {
+        "canonical_name": "Ryder System,",
+        "primary_domain": "ryder.com",
+        "company_function": "minibus distributor"
+      },
+      {
+        "canonical_name": "Penske Automotive Group",
+        "primary_domain": "penskeautomotive.com",
+        "company_function": "minibus distributor"
+      },
+      {
+        "canonical_name": "NFI Group",
+        "primary_domain": "nfigroup.com",
+        "company_function": "minibus distributor"
+      },
+      {
+        "canonical_name": "Bus and Coach International",
+        "primary_domain": "bci.ca",
+        "company_function": "minibus wholesaler"
+      },
+      {
+        "canonical_name": "Bluebird Body Company",
+        "primary_domain": "bluebird.com",
+        "company_function": "minibus manufacturer",
+        "segment": "Minibus Manufacturers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "TransTech Bus",
+        "primary_domain": "transtechbus.com",
+        "company_function": "minibus manufacturer",
+        "segment": "Minibus Manufacturers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "ABC Bus Companies",
+        "primary_domain": "abcbus.com",
+        "company_function": "minibus manufacturer",
+        "segment": "Minibus Manufacturers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Thomas Built Buses",
+        "primary_domain": "thomasbus.com",
+        "company_function": "minibus manufacturer",
+        "segment": "Minibus Manufacturers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Kottke Trucking, Inc.",
+        "primary_domain": "kottke.com",
+        "company_function": "minibus distributor",
+        "segment": "Distributors",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "National Bus Sales",
+        "primary_domain": "nationalbussales.com",
+        "company_function": "minibus wholesaler",
+        "segment": "Wholesalers",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "minibus",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "minibus",
+    "include_keywords": [
+      "minibus distribution",
+      "minibus sales",
+      "minibus service providers",
+      "minibus wholesalers",
+      "minibus resellers"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The minibus market encompasses the production, distribution, and sale of minibuses, which are small buses designed for transporting passengers. Key participants include manufacturers, distributors, wholesalers, and service providers operating globally.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Manufacturing",
+        "description": "This layer involves the production of minibuses, including assembly and quality control.",
+        "segments": [
+          {
+            "segment_name": "Minibus Manufacturers",
+            "sub_segments": [
+              "Electric minibuses",
+              "Diesel minibuses"
+            ],
+            "participant_types": [
+              "manufacturer"
+            ],
+            "search_intents": [
+              "minibus manufacturers official site",
+              "minibus production companies"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L2",
+        "layer_name": "Distribution",
+        "description": "This layer includes the distribution of minibuses through various channels.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Regional distributors",
+              "National distributors"
+            ],
+            "participant_types": [
+              "distributor"
+            ],
+            "search_intents": [
+              "minibus distributors near me",
+              "minibus distribution companies"
+            ]
+          },
+          {
+            "segment_name": "Wholesalers",
+            "sub_segments": [
+              "Bulk wholesalers",
+              "Retail wholesalers"
+            ],
+            "participant_types": [
+              "wholesaler"
+            ],
+            "search_intents": [
+              "minibus wholesalers official site",
+              "bulk minibus suppliers"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L3",
+        "layer_name": "Sales",
+        "description": "This layer focuses on the sale of minibuses through various sales channels.",
+        "segments": [
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Online resellers",
+              "Local resellers"
+            ],
+            "participant_types": [
+              "reseller"
+            ],
+            "search_intents": [
+              "minibus resellers official site",
+              "buy minibuses from resellers"
+            ]
+          },
+          {
+            "segment_name": "Channel Partners",
+            "sub_segments": [
+              "Authorized dealers",
+              "Franchise partners"
+            ],
+            "participant_types": [
+              "channel partner"
+            ],
+            "search_intents": [
+              "minibus channel partners",
+              "authorized minibus dealers"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L4",
+        "layer_name": "Service",
+        "description": "This layer includes services related to minibuses, such as maintenance and integration.",
+        "segments": [
+          {
+            "segment_name": "Service Providers",
+            "sub_segments": [
+              "Maintenance services",
+              "Integration services"
+            ],
+            "participant_types": [
+              "service provider"
+            ],
+            "search_intents": [
+              "minibus service providers",
+              "minibus maintenance companies"
+            ]
+          },
+          {
+            "segment_name": "System Integrators",
+            "sub_segments": [
+              "Fleet management systems",
+              "Telematics integration"
+            ],
+            "participant_types": [
+              "system integrator"
+            ],
+            "search_intents": [
+              "minibus system integrators",
+              "fleet management for minibuses"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Full-size bus manufacturers",
+        "Automobile manufacturers",
+        "Public transportation services",
+        "Luxury coach services"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "search for minibus manufacturers official site",
+        "sub_sector": "manufacturing",
+        "layer_id": "L1",
+        "segment": "Minibus Manufacturers"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "find minibus distributors near me",
+        "sub_sector": "distribution",
+        "layer_id": "L2",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "search for minibus wholesalers official site",
+        "sub_sector": "distribution",
+        "layer_id": "L2",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "find minibus resellers official site",
+        "sub_sector": "sales",
+        "layer_id": "L3",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M5",
+        "level": "market_map",
+        "text": "search for authorized minibus dealers",
+        "sub_sector": "sales",
+        "layer_id": "L3",
+        "segment": "Channel Partners"
+      },
+      {
+        "id": "M6",
+        "level": "market_map",
+        "text": "search for minibus service providers",
+        "sub_sector": "service",
+        "layer_id": "L4",
+        "segment": "Service Providers"
+      },
+      {
+        "id": "M7",
+        "level": "market_map",
+        "text": "find minibus system integrators",
+        "sub_sector": "service",
+        "layer_id": "L4",
+        "segment": "System Integrators"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "transportation",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "minibus market companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "minibus distributors corporate site"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "minibus service providers official website"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "market_map",
+      "text": "search for minibus manufacturers official site"
+    },
+    {
+      "id": "P2",
+      "level": "market_map",
+      "text": "find minibus distributors near me"
+    },
+    {
+      "id": "P3",
+      "level": "market_map",
+      "text": "search for minibus wholesalers official site"
+    },
+    {
+      "id": "P4",
+      "level": "market_map",
+      "text": "find minibus resellers official site"
+    },
+    {
+      "id": "P5",
+      "level": "market_map",
+      "text": "search for authorized minibus dealers"
+    },
+    {
+      "id": "P6",
+      "level": "market_map",
+      "text": "search for minibus service providers"
+    },
+    {
+      "id": "P7",
+      "level": "market_map",
+      "text": "find minibus system integrators"
+    },
+    {
+      "id": "P8",
+      "level": "discovery",
+      "text": "minibus manufacturer official site"
+    },
+    {
+      "id": "P9",
+      "level": "discovery",
+      "text": "minibus distributor corporate site"
+    },
+    {
+      "id": "P10",
+      "level": "discovery",
+      "text": "minibus wholesaler official site"
+    },
+    {
+      "id": "P11",
+      "level": "discovery",
+      "text": "minibus reseller corporate site"
+    },
+    {
+      "id": "P12",
+      "level": "discovery",
+      "text": "minibus service provider official site"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "minibus market companies official websites",
+      "level": "L0",
+      "result_count": 12,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Minibus Market Size & Share, Analysis Report 2024-2032",
+          "link": "https://www.gminsights.com/industry-analysis/minibus-market",
+          "snippet": "Minibus Market Trends. The minibus industry has witnessed significant technological advancements and safety features. Ergonomic seats, improved temperature control systems, and onboard entertainment c",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Minibus Market Size, Potential, Industry Growth & Forecast 2033",
+          "link": "https://www.verifiedmarketreports.com/product/minibus-market/",
+          "snippet": "Top Minibus Companies. The competitive landscape of the Minibus Market offers a comprehensive analysis of key players. It includes insights such as company overviews, financial performance, revenue ge",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Minibus Market Research Report 2033",
+          "link": "https://dataintelo.com/report/minibus-market",
+          "snippet": "Major companies in the minibus market include Mercedes-Benz (Daimler AG), Ford Motor Company, Toyota Motor Corporation, Volkswagen AG, Isuzu Motors Ltd., Tata Motors, Nissan Motor Corporation, IVECO, ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Minibus Market Size, Competitors, Trends & Forecast to 2030",
+          "link": "https://www.researchandmarkets.com/report/minibus",
+          "snippet": "Leading companies in the minibus market are focusing on developing advanced solutions, such as autonomous minibuses, to enhance passenger convenience and safety.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Driverless Shuttle Minibus Market Size, Share, Growth & Forecast",
+          "link": "https://www.verifiedmarketresearch.com/product/driverless-shuttle-minibus-market/",
+          "snippet": "The \u201cGlobal Driverless Shuttle Minibus Market\u201d study report will provide a valuable insight with an emphasis on the global market.Competitor company\u2019s business reports and newsletters. Government publ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Minibus Market Size & Share | Industry Statistics - 2034",
+          "link": "https://www.factmr.com/report/3773/minibus-market",
+          "snippet": "Minibus Market Study by ICE, EV, and Hybrid Propulsion for School Buses and Recreational Purpose from 2024 to 2034. According to Fact.MR estimates, the Minibus market stood at USD 10.3 billion in 2025",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Minibus Market Share, Size, Growth Report 2035",
+          "link": "https://www.thebusinessresearchcompany.com/report/minibus-global-market-report",
+          "snippet": "What Is The Minibus Market Size and Share 2026? The minibus market size has grown strongly in recent years. It will grow from $10.29 billion in 2025 to $10.82 billion in 2026 at a compound annual grow",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Minibus Market Size & Share, Growth Analysis 2035",
+          "link": "https://www.researchnester.com/reports/minibus-market/6747",
+          "snippet": "The global minibus market size crossed USD 11.02 billion in 2025 and is likely to register a CAGR of over 4.4% from 2026 to 2035, owing to integration of advanced technologies.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Minibus Market Size, Share & Trends Analysis 2033",
+          "link": "https://www.marketresearchintellect.com/product/global-minibus-market/",
+          "snippet": "Minibus Market : Research & Development Report with Future-Proof Insights. The size of the Minibus Market stood at USD 15000 Million in 2024 and is expected to rise to USD 9.2 billion by 2033, exhibit",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Minibus Market Size, Share, Price, and Growth Rate Research Report...",
+          "link": "https://www.einnews.com/pr_news/856333510/minibus-market-size-share-price-and-growth-rate-research-report-2025-mercedes-benz-ford-iveco-volkswagen",
+          "snippet": "Major News Sites.The Minibus Market is projected to experience substantial growth during the forecast period from 2025 to 2032. In 2025, the market is expected to expand steadily, with major players i",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Minibus Market Size, Sales, Share, Industry Analysis, Trends",
+          "link": "https://www.alliedmarketresearch.com/mini-bus-market-A12258",
+          "snippet": "Minibus Market by End User. Minibuses serve as versatile and practical transportation solutions, offering efficient and comfortable travel options for diverse purposes, including school transportation",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Minibus Market Size, Growth Report 2035",
+          "link": "https://www.marketresearchfuture.com/reports/minibus-market-28023",
+          "snippet": "Minibus Market is projected to reach USD 41.37 Billion, at a 4.65% CAGR by driving industry size, share, top company analysis, segments research, trends and forecast report 2025 to 2035.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Minibus Market Size & Share, Analysis Report 2024-2032",
+          "link": "https://www.gminsights.com/industry-analysis/minibus-market",
+          "snippet": "Minibus Market Trends. The minibus industry has witnessed significant technological advancements and safety features. Ergonomic seats, improved temperature control systems, and onboard entertainment c",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Minibus Market Size, Potential, Industry Growth & Forecast 2033",
+          "link": "https://www.verifiedmarketreports.com/product/minibus-market/",
+          "snippet": "Top Minibus Companies. The competitive landscape of the Minibus Market offers a comprehensive analysis of key players. It includes insights such as company overviews, financial performance, revenue ge",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Minibus Market Research Report 2033",
+          "link": "https://dataintelo.com/report/minibus-market",
+          "snippet": "Major companies in the minibus market include Mercedes-Benz (Daimler AG), Ford Motor Company, Toyota Motor Corporation, Volkswagen AG, Isuzu Motors Ltd., Tata Motors, Nissan Motor Corporation, IVECO, ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Minibus Market Size, Competitors, Trends & Forecast to 2030",
+          "link": "https://www.researchandmarkets.com/report/minibus",
+          "snippet": "Leading companies in the minibus market are focusing on developing advanced solutions, such as autonomous minibuses, to enhance passenger convenience and safety.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Driverless Shuttle Minibus Market Size, Share, Growth & Forecast",
+          "link": "https://www.verifiedmarketresearch.com/product/driverless-shuttle-minibus-market/",
+          "snippet": "The \u201cGlobal Driverless Shuttle Minibus Market\u201d study report will provide a valuable insight with an emphasis on the global market.Competitor company\u2019s business reports and newsletters. Government publ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Minibus Market Size & Share | Industry Statistics - 2034",
+          "link": "https://www.factmr.com/report/3773/minibus-market",
+          "snippet": "Minibus Market Study by ICE, EV, and Hybrid Propulsion for School Buses and Recreational Purpose from 2024 to 2034. According to Fact.MR estimates, the Minibus market stood at USD 10.3 billion in 2025",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Minibus Market Share, Size, Growth Report 2035",
+          "link": "https://www.thebusinessresearchcompany.com/report/minibus-global-market-report",
+          "snippet": "What Is The Minibus Market Size and Share 2026? The minibus market size has grown strongly in recent years. It will grow from $10.29 billion in 2025 to $10.82 billion in 2026 at a compound annual grow",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Minibus Market Size & Share, Growth Analysis 2035",
+          "link": "https://www.researchnester.com/reports/minibus-market/6747",
+          "snippet": "The global minibus market size crossed USD 11.02 billion in 2025 and is likely to register a CAGR of over 4.4% from 2026 to 2035, owing to integration of advanced technologies.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Minibus Market Size, Share & Trends Analysis 2033",
+          "link": "https://www.marketresearchintellect.com/product/global-minibus-market/",
+          "snippet": "Minibus Market : Research & Development Report with Future-Proof Insights. The size of the Minibus Market stood at USD 15000 Million in 2024 and is expected to rise to USD 9.2 billion by 2033, exhibit",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Minibus Market Size, Share, Price, and Growth Rate Research Report...",
+          "link": "https://www.einnews.com/pr_news/856333510/minibus-market-size-share-price-and-growth-rate-research-report-2025-mercedes-benz-ford-iveco-volkswagen",
+          "snippet": "Major News Sites.The Minibus Market is projected to experience substantial growth during the forecast period from 2025 to 2032. In 2025, the market is expected to expand steadily, with major players i",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Minibus Market Size, Sales, Share, Industry Analysis, Trends",
+          "link": "https://www.alliedmarketresearch.com/mini-bus-market-A12258",
+          "snippet": "Minibus Market by End User. Minibuses serve as versatile and practical transportation solutions, offering efficient and comfortable travel options for diverse purposes, including school transportation",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Minibus Market Size, Growth Report 2035",
+          "link": "https://www.marketresearchfuture.com/reports/minibus-market-28023",
+          "snippet": "Minibus Market is projected to reach USD 41.37 Billion, at a 4.65% CAGR by driving industry size, share, top company analysis, segments research, trends and forecast report 2025 to 2035.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "minibus distributors corporate site",
+      "level": "L1",
+      "result_count": 19,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Minibus - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Minibus",
+          "snippet": "Citro\u00ebn Jumper minibus in France Hino Dutro 110SD 12-seater microbus in Indonesia Cacciamali Urby (built on Iveco Daily chassis) \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Minibus For Sale - Commercial Truck Trader",
+          "link": "https://www.commercialtrucktrader.com/Minibus/trucks-for-sale?category=Minibus%7C644245706",
+          "snippet": "Commercial Truck Trader has 263 listings to help you find the best deal on a Minibu .",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Is a Minibus? Types, Features, and Benefits for Passenger Transport",
+          "link": "https://insights.made-in-china.com/What-Is-a-Minibus-Types-Features-and-Benefits-for-Passenger-Transport_VAufWImkjElx.html",
+          "snippet": "Mar 27, 2025 \u00b7 The article explores minibuses in passenger transport, detailing types, benefits, maintenance, and buying tips, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Minibus rental - Europcar",
+          "link": "https://www.europcar.com/en-us/p/car-rental/fleet/type/minibus",
+          "snippet": "Combine adventure & comfort with a minibus from Europcar 5,7 or 9 seater already from 1 day from 18 years Rent n",
+          "backend": "searxng"
+        },
+        {
+          "title": "Minibus | Bus.com",
+          "link": "https://www.bus.com/charter/bus-types/mini-bus/",
+          "snippet": "Bus.com\u2019s fleet of flexible and fuel-efficient shuttle minibuses connects businesses, employees, municipalities, and individuals with \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Minibus rental with Europcar",
+          "link": "https://www.europcar.com/en-us/p/car-rental/fleet/size/minibus",
+          "snippet": "Ready to roll with a minibus rental from Europcar? Our fleet of spacious vehicles is perfect for any occasion, from family vacations to \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Minibus - Wikipedia",
+          "link": "https://en.m.wikipedia.org/wiki/Minibus",
+          "snippet": "Citro\u00ebn Jumper minibus in France Hino Dutro 110SD 12-seater microbus in Indonesia Cacciamali Urby (built on Iveco Daily chassis) in Rijeka, Croatia Minibus vehicle from Suzuki Carry used as public tra",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Charter Bus & Minibus Rentals in Berkeley, California",
+          "link": "https://berkeleyminibuscompany.com/",
+          "snippet": "Charter Bus & Minibus Rentals in Berkeley, California When you need group transportation in Berkeley, Berkeley Minibus Company is here to help! We offer charter bus rentals for any type of trip or eve",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Minibus Rental Berkeley, California | 30 Second Online Mini Bus...",
+          "link": "https://berkeleypartybuscompany.com/berkeley-minibus-rental/",
+          "snippet": "Book a minibus rental in Berkeley with Berkeley Party Bus Company! Call 341-234-4160 for a free quote on 15-35 passenger minibuses.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Minibus For Sale Near Berkeley, CA - Commercial Truck Trader",
+          "link": "https://www.commercialtrucktrader.com/Berkeley-Minibus/trucks-for-sale?category=Minibus|644245706&city=berkeley&state=California|CA",
+          "snippet": "Minibus Trucks For Sale in Berkeley, CA: 342 Trucks - Find New and Used Minibus Trucks on Commercial Truck Trader.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Berkeley Luxury Charter Bus & Minibus Rental",
+          "link": "https://angellimo.com/berkeley-luxury-charter-bus-minibus-rental/",
+          "snippet": "Charter Bus & Minibus Company Berkeley, California Angel Worldwide is a leading charter bus and minibus company in Berkeley, California, that is renowned for its unmatched transportation services. Our",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Berkeley Charter Bus & Minibus Rentals Company in Berkeley, CA",
+          "link": "https://concordcharterbuscompany.com/berkeley-charter-bus/",
+          "snippet": "Book a charter bus or minibus rental in Berkeley. Get a quote in 30 seconds for charter bus hire in Berkeley. Perfect for group trips, events, and more. 24/7 support and clear pricing.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Berkeley Charter Bus & Minibus Rentals | CharterUP",
+          "link": "https://www.charterup.com/charter-bus-rentals/berkeley-charter-bus-rental/",
+          "snippet": "Berkeley Charter Bus & Minibus Rentals Rent a charter bus in Berkeley in record time through CharterUP, the first booking marketplace for group transportation! From charter bus services for UC Berkele",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Contact Us - Berkeley Minibus Company",
+          "link": "https://berkeleyminibuscompany.com/contact-us/",
+          "snippet": "Ready to book a bus rental in the Bay Area? Contact Berkeley Minibus Company today to get started! Our team is available 24/7 to help you find the perfect charter bus, minibus, or party bus for your n",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Berkeley Charter Bus & Minibus Rentals",
+          "link": "https://fairfieldcharterbuscompany.com/berkeley-charter-bus/",
+          "snippet": "Charter Bus Rental Company Fairfield Location Served Berkeley Charter Bus Rental Berkeley Charter Bus & Minibus Rentals Charter Bus Rental Company Berkeley partners with California\u2019s top bus providers",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Charter Bus Rentals Berkeley, California - Minibus & Shuttle ......",
+          "link": "https://shofur.com/charter-bus/berkeley-california-bus-rental",
+          "snippet": "Charter Bus and Minibus Rentals in Berkeley, California In search of a charter bus rental in Berkeley, California? Trust Shofur to find the perfect charter bus for your group, whether you\u2019re booking f",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "PHVC | Industry leading minibus and van supplier",
+          "link": "https://www.phvc.co.uk/",
+          "snippet": "PHVC are an industry leading minibus and van supplier supporting organisations across the UK. For over 35 years, we have dedicated ourselves to building strong partnerships and delivering exceptional ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Minibus Manufacturers: Verified Suppliers & Custom Solutions",
+          "link": "https://www.accio.com/supplier/minibus-manufacturer",
+          "snippet": "Need reliable minibus manufacturers? Discover 2400+ verified suppliers offering custom solutions for tourism, schools, and transport.On-site technical support. Quality traceability. Main products:conc",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Autobus Girardin, Inc. | LinkedIn",
+          "link": "https://ca.linkedin.com/company/autobus-girardin-inc-",
+          "snippet": "Leader en \u00e9lectrification | GIRARDIN BLUE BIRD Official distributor and dealership of BLUE BIRD bus and MICRO BIRD minibus, known for its leadership in pupil transportation dedicated to the needs of s",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Minibus - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Minibus",
+          "snippet": "Citro\u00ebn Jumper minibus in France Hino Dutro 110SD 12-seater microbus in Indonesia Cacciamali Urby (built on Iveco Daily chassis) \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Minibus For Sale - Commercial Truck Trader",
+          "link": "https://www.commercialtrucktrader.com/Minibus/trucks-for-sale?category=Minibus%7C644245706",
+          "snippet": "Commercial Truck Trader has 263 listings to help you find the best deal on a Minibu .",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Is a Minibus? Types, Features, and Benefits for Passenger Transport",
+          "link": "https://insights.made-in-china.com/What-Is-a-Minibus-Types-Features-and-Benefits-for-Passenger-Transport_VAufWImkjElx.html",
+          "snippet": "Mar 27, 2025 \u00b7 The article explores minibuses in passenger transport, detailing types, benefits, maintenance, and buying tips, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Minibus rental - Europcar",
+          "link": "https://www.europcar.com/en-us/p/car-rental/fleet/type/minibus",
+          "snippet": "Combine adventure & comfort with a minibus from Europcar 5,7 or 9 seater already from 1 day from 18 years Rent n",
+          "backend": "searxng"
+        },
+        {
+          "title": "Minibus | Bus.com",
+          "link": "https://www.bus.com/charter/bus-types/mini-bus/",
+          "snippet": "Bus.com\u2019s fleet of flexible and fuel-efficient shuttle minibuses connects businesses, employees, municipalities, and individuals with \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Minibus rental with Europcar",
+          "link": "https://www.europcar.com/en-us/p/car-rental/fleet/size/minibus",
+          "snippet": "Ready to roll with a minibus rental from Europcar? Our fleet of spacious vehicles is perfect for any occasion, from family vacations to \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Minibus - Wikipedia",
+          "link": "https://en.m.wikipedia.org/wiki/Minibus",
+          "snippet": "Citro\u00ebn Jumper minibus in France Hino Dutro 110SD 12-seater microbus in Indonesia Cacciamali Urby (built on Iveco Daily chassis) in Rijeka, Croatia Minibus vehicle from Suzuki Carry used as public tra",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Charter Bus & Minibus Rentals in Berkeley, California",
+          "link": "https://berkeleyminibuscompany.com/",
+          "snippet": "Charter Bus & Minibus Rentals in Berkeley, California When you need group transportation in Berkeley, Berkeley Minibus Company is here to help! We offer charter bus rentals for any type of trip or eve",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Minibus Rental Berkeley, California | 30 Second Online Mini Bus...",
+          "link": "https://berkeleypartybuscompany.com/berkeley-minibus-rental/",
+          "snippet": "Book a minibus rental in Berkeley with Berkeley Party Bus Company! Call 341-234-4160 for a free quote on 15-35 passenger minibuses.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Minibus For Sale Near Berkeley, CA - Commercial Truck Trader",
+          "link": "https://www.commercialtrucktrader.com/Berkeley-Minibus/trucks-for-sale?category=Minibus|644245706&city=berkeley&state=California|CA",
+          "snippet": "Minibus Trucks For Sale in Berkeley, CA: 342 Trucks - Find New and Used Minibus Trucks on Commercial Truck Trader.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Berkeley Luxury Charter Bus & Minibus Rental",
+          "link": "https://angellimo.com/berkeley-luxury-charter-bus-minibus-rental/",
+          "snippet": "Charter Bus & Minibus Company Berkeley, California Angel Worldwide is a leading charter bus and minibus company in Berkeley, California, that is renowned for its unmatched transportation services. Our",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Berkeley Charter Bus & Minibus Rentals Company in Berkeley, CA",
+          "link": "https://concordcharterbuscompany.com/berkeley-charter-bus/",
+          "snippet": "Book a charter bus or minibus rental in Berkeley. Get a quote in 30 seconds for charter bus hire in Berkeley. Perfect for group trips, events, and more. 24/7 support and clear pricing.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Berkeley Charter Bus & Minibus Rentals | CharterUP",
+          "link": "https://www.charterup.com/charter-bus-rentals/berkeley-charter-bus-rental/",
+          "snippet": "Berkeley Charter Bus & Minibus Rentals Rent a charter bus in Berkeley in record time through CharterUP, the first booking marketplace for group transportation! From charter bus services for UC Berkele",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Contact Us - Berkeley Minibus Company",
+          "link": "https://berkeleyminibuscompany.com/contact-us/",
+          "snippet": "Ready to book a bus rental in the Bay Area? Contact Berkeley Minibus Company today to get started! Our team is available 24/7 to help you find the perfect charter bus, minibus, or party bus for your n",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Berkeley Charter Bus & Minibus Rentals",
+          "link": "https://fairfieldcharterbuscompany.com/berkeley-charter-bus/",
+          "snippet": "Charter Bus Rental Company Fairfield Location Served Berkeley Charter Bus Rental Berkeley Charter Bus & Minibus Rentals Charter Bus Rental Company Berkeley partners with California\u2019s top bus providers",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Charter Bus Rentals Berkeley, California - Minibus & Shuttle ......",
+          "link": "https://shofur.com/charter-bus/berkeley-california-bus-rental",
+          "snippet": "Charter Bus and Minibus Rentals in Berkeley, California In search of a charter bus rental in Berkeley, California? Trust Shofur to find the perfect charter bus for your group, whether you\u2019re booking f",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "PHVC | Industry leading minibus and van supplier",
+          "link": "https://www.phvc.co.uk/",
+          "snippet": "PHVC are an industry leading minibus and van supplier supporting organisations across the UK. For over 35 years, we have dedicated ourselves to building strong partnerships and delivering exceptional ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Minibus Manufacturers: Verified Suppliers & Custom Solutions",
+          "link": "https://www.accio.com/supplier/minibus-manufacturer",
+          "snippet": "Need reliable minibus manufacturers? Discover 2400+ verified suppliers offering custom solutions for tourism, schools, and transport.On-site technical support. Quality traceability. Main products:conc",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Autobus Girardin, Inc. | LinkedIn",
+          "link": "https://ca.linkedin.com/company/autobus-girardin-inc-",
+          "snippet": "Leader en \u00e9lectrification | GIRARDIN BLUE BIRD Official distributor and dealership of BLUE BIRD bus and MICRO BIRD minibus, known for its leadership in pupil transportation dedicated to the needs of s",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "minibus service providers official website",
+      "level": "L2",
+      "result_count": 13,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Rent 20, 24 & 30 seater Minibus in Mumbai at 12% discount - Savaari",
+          "link": "https://www.savaari.com/mumbai/minibus",
+          "snippet": "Safe and Reliable Minibus Hire services in Mumbai with Savaari at Discounted Rates. Premium Swaraj Mazda, Eicher or Force Motor minibuses guaranteed",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Minibus & Bus Rental in Mumbai - Bus Hire Service Mumbai",
+          "link": "https://www.simplytrip.in/bus-rent-mumbai.php",
+          "snippet": "Hire Best in Class Bus & Mini bus on Rent in Mumbai at the Lowest Per Km Prices with SimplyTrip. India's #1 Bus rental Service!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "No.1 Minibus Rental in Canada | Transfers & Tours - OsaBus.com",
+          "link": "https://osabus.com/minibus-rental/canada/",
+          "snippet": "Bus, minibus, and van rental services with driver as well as private transfer services in Canada.Providing group transportation services in Canada since 2012. We are one of the TOP rated charter minib",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "bud.hu/en/passengers/transport/airport_transfer_and_other_services...",
+          "link": "https://www.bud.hu/en/passengers/transport/airport_transfer_and_other_services/minibus",
+          "snippet": "Official Airport Shuttle Service - Minibus.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "chester airport minibus",
+          "link": "https://chesterairportminibus.wordpress.com/",
+          "snippet": "Minibus service providers always give much-needed relief to the people who wish to easy and reliable travel from the airport to any destiny as well as anyplace to the airport.View site in Reader. Mana",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Birmingham Minibus Service - Top CSS Gallery",
+          "link": "https://www.topcssgallery.com/gallery/birmingham-minibus-service/",
+          "snippet": "Birmingham Minibus Service provides Coach & Minibus Hire Services for private & business consumers for long & short distance trip in UK. Call us 01213600000.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Minibus Hire Brentwood - Reliable Local Directory",
+          "link": "https://instabus.co.uk/minibus-hire/brentwood",
+          "snippet": "Instabus lists coach and minibus operators that may serve the Minibus Hire Brentwood area. You can review individual operator profiles below, or use the enquiry form to request quotes from suitable lo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "St Albans Minibus Hire Service | 8 to 16 Seater Minibuses",
+          "link": "https://www.1stairporttaxis.co.uk/st-albans-minibus-hire.html",
+          "snippet": "When looking for a safe and secure minibus service providers that can take you, and your entire cohort to wherever you please, just know that 1ST Airport Taxis can provide that for you.\u00a3358. FAQ - St ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Looking to Hire a Minibus? Make Sure You Deal With These Crucial...",
+          "link": "https://www.lowcostcoachhire.co.uk/blog/looking-to-hire-a-minibus-make-sure-you-deal-with-these-crucial-services/",
+          "snippet": "Minibuses provide exceptional service by supplying a large, comfy transport mode for larger groups. However, looking after specific solutions is essential to make a seamless journey. Comprehending You",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 5 Minibuses in Singapore 2023 - Maxicab Singapore",
+          "link": "https://maxicabtaxisingapore.sg/top-5-minibuses-in-singapore-2023/",
+          "snippet": "SGBigCab.com is a reliable minibus service provider known for its well-maintained minibuses and professional drivers. They cater to various group events and excursions in Singapore. What to expect fro",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How Minibus Service Providers Ensure Guaranteed Satisfaction?",
+          "link": "https://hireaminibussydney.com.au/how-minibus-service-providers-ensure-guaranteed-satisfaction/",
+          "snippet": "This is an important quality of all successful minibus service providers which guarantees high customer satisfaction. The quality of the service is excellent and they don\u2019t make any compromise on luxu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Book Mini Bus from Agra to Gurgaon Starts @ \u20b9 35 K.M - 25% OFF on...",
+          "link": "https://www.taxiyatri.com/agra-to-gurgaon-mini-bus",
+          "snippet": "18 Seater Minibus Service from Agra to Gurgaon. The 18 seater option can accommodate mid-large groups and has better itineraries. You can hire it for weddings, corporate events, educational trips, pil",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Quality Transport Solutions | Camron Garage",
+          "link": "https://www.camrongarage.com/",
+          "snippet": "About Us. Camron Garage Transport provides professional 24/7 minibus services in Malta and Gozo to private and public schools, locals and tourists, as well as cab services.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Rent 20, 24 & 30 seater Minibus in Mumbai at 12% discount - Savaari",
+          "link": "https://www.savaari.com/mumbai/minibus",
+          "snippet": "Safe and Reliable Minibus Hire services in Mumbai with Savaari at Discounted Rates. Premium Swaraj Mazda, Eicher or Force Motor minibuses guaranteed",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Minibus & Bus Rental in Mumbai - Bus Hire Service Mumbai",
+          "link": "https://www.simplytrip.in/bus-rent-mumbai.php",
+          "snippet": "Hire Best in Class Bus & Mini bus on Rent in Mumbai at the Lowest Per Km Prices with SimplyTrip. India's #1 Bus rental Service!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "No.1 Minibus Rental in Canada | Transfers & Tours - OsaBus.com",
+          "link": "https://osabus.com/minibus-rental/canada/",
+          "snippet": "Bus, minibus, and van rental services with driver as well as private transfer services in Canada.Providing group transportation services in Canada since 2012. We are one of the TOP rated charter minib",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "bud.hu/en/passengers/transport/airport_transfer_and_other_services...",
+          "link": "https://www.bud.hu/en/passengers/transport/airport_transfer_and_other_services/minibus",
+          "snippet": "Official Airport Shuttle Service - Minibus.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "chester airport minibus",
+          "link": "https://chesterairportminibus.wordpress.com/",
+          "snippet": "Minibus service providers always give much-needed relief to the people who wish to easy and reliable travel from the airport to any destiny as well as anyplace to the airport.View site in Reader. Mana",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Birmingham Minibus Service - Top CSS Gallery",
+          "link": "https://www.topcssgallery.com/gallery/birmingham-minibus-service/",
+          "snippet": "Birmingham Minibus Service provides Coach & Minibus Hire Services for private & business consumers for long & short distance trip in UK. Call us 01213600000.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Minibus Hire Brentwood - Reliable Local Directory",
+          "link": "https://instabus.co.uk/minibus-hire/brentwood",
+          "snippet": "Instabus lists coach and minibus operators that may serve the Minibus Hire Brentwood area. You can review individual operator profiles below, or use the enquiry form to request quotes from suitable lo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "St Albans Minibus Hire Service | 8 to 16 Seater Minibuses",
+          "link": "https://www.1stairporttaxis.co.uk/st-albans-minibus-hire.html",
+          "snippet": "When looking for a safe and secure minibus service providers that can take you, and your entire cohort to wherever you please, just know that 1ST Airport Taxis can provide that for you.\u00a3358. FAQ - St ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Looking to Hire a Minibus? Make Sure You Deal With These Crucial...",
+          "link": "https://www.lowcostcoachhire.co.uk/blog/looking-to-hire-a-minibus-make-sure-you-deal-with-these-crucial-services/",
+          "snippet": "Minibuses provide exceptional service by supplying a large, comfy transport mode for larger groups. However, looking after specific solutions is essential to make a seamless journey. Comprehending You",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 5 Minibuses in Singapore 2023 - Maxicab Singapore",
+          "link": "https://maxicabtaxisingapore.sg/top-5-minibuses-in-singapore-2023/",
+          "snippet": "SGBigCab.com is a reliable minibus service provider known for its well-maintained minibuses and professional drivers. They cater to various group events and excursions in Singapore. What to expect fro",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How Minibus Service Providers Ensure Guaranteed Satisfaction?",
+          "link": "https://hireaminibussydney.com.au/how-minibus-service-providers-ensure-guaranteed-satisfaction/",
+          "snippet": "This is an important quality of all successful minibus service providers which guarantees high customer satisfaction. The quality of the service is excellent and they don\u2019t make any compromise on luxu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Book Mini Bus from Agra to Gurgaon Starts @ \u20b9 35 K.M - 25% OFF on...",
+          "link": "https://www.taxiyatri.com/agra-to-gurgaon-mini-bus",
+          "snippet": "18 Seater Minibus Service from Agra to Gurgaon. The 18 seater option can accommodate mid-large groups and has better itineraries. You can hire it for weddings, corporate events, educational trips, pil",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Quality Transport Solutions | Camron Garage",
+          "link": "https://www.camrongarage.com/",
+          "snippet": "About Us. Camron Garage Transport provides professional 24/7 minibus services in Malta and Gozo to private and public schools, locals and tourists, as well as cab services.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "search for minibus manufacturers official site",
+      "level": "market_map",
+      "result_count": 13,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "China Minibus, Minibus Wholesale, Manufacturers, Price",
+          "link": "https://www.made-in-china.com/products-search/hot-china-products/Minibus.html",
+          "snippet": "China Minibus wholesale - Select 2026 high quality Minibus products in best price from certified Chinese Mini Bus manufacturers, China Van suppliers, wholesalers and factory on Made-in-China.com.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Altas Auto | Minibus manufacturer in Europe",
+          "link": "https://altasauto.com/",
+          "snippet": "New standard of comfortLargest mini-bus manufacturer in Europe.Comprehensive product development and quality.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "MINIBUS-Manufacturer of vehicles - YouTube",
+          "link": "https://www.youtube.com/@evminibus",
+          "snippet": "MINIBUS-Manufacturer of vehicles. @evminibus. \u2022 100 subscribers \u2022 71 videos.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Beyond Expectations. Ahead of Time. \u2022 Forveda",
+          "link": "https://forveda.lt/",
+          "snippet": "Bespoke minibuses solutions for every purpose. Explore our fleet of vehicles \u2013 your trusted partner for transportation solutions. Learn about us!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Minibus Manufacturers - New Electric & Diesel Models 2025",
+          "link": "https://www.alibaba.com/showroom/minibus-manufacturers.html",
+          "snippet": "Find reliable minibus manufacturers in China. Our collection includes electric, gasoline, and diesel models.Dedicated services. Explore now. header_Manufacturers_08. sourceCardIcon. Factory-direct sam",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Minibus For Sale - SWISS Vans",
+          "link": "https://www.swissvans.com/product-category/vans-for-sale/minibus-for-sale/",
+          "snippet": "Whether you\u2019re searching for a used minibus for sale near you or exploring options for new minibusses for sale, understanding the market is crucial. From cheap minibusses for sale to luxury models, th",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vehicle Detail Search - 1977 MINIBUS MINIBUS | NHTSA",
+          "link": "https://www.nhtsa.gov/vehicle/1977/MINIBUS/MINIBUS",
+          "snippet": "Search for vehicle using all available options, one page at a time. Full Vehicle Detail Search - 1977 MINIBUS MINIBUS.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "China Wholesale Commercial Minibus Manufacturers & Suppliers...",
+          "link": "https://www.globalsources.com/china-suppliers/minibus.htm",
+          "snippet": "Transport personnel safely with reliable minibus from established China wholesale suppliers. Ensure passenger safety through specialized OEM, ODM services. Source manned transport from trusted factory",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "\u0130lesbus \u2013 T\u00fcrkiye Minibus Manufacturer - Bodybuilders",
+          "link": "https://ilesbus.com/Contact",
+          "snippet": "Ilesbus is one of Turkey\u2019s leading minibus bodybuilders. We design and manufacture high-quality and comfortable passenger transport solutions on various chassis brands and models.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Minibus Manufacturer and Supplier, Factory Pricelist | Xinda",
+          "link": "https://www.xindamotor.com/minibus/",
+          "snippet": "Minibus Manufacturers, Factory, Suppliers From China, By 10 years effort, we attract customers by competitive price and excellent service.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "China Minibus Manufacturers, minibus",
+          "link": "https://www.listen-autoparts.com/minibus_sp",
+          "snippet": "minibus manufacturer from China. Find your perfect minibus here! Genuine quality spare parts,OEM parts.original quality chassis for bus and coach, available from 6m to 12m.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "PHVC | Industry leading minibus and van supplier",
+          "link": "https://www.phvc.co.uk/",
+          "snippet": "PHVC are an industry leading minibus and van supplier supporting organisations across the UK. For over 35 years, we have dedicated ourselves to building strong partnerships and delivering exceptional ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tremonia Mobility - The world leading minibus manufacturer.",
+          "link": "https://web.tremonia.com/",
+          "snippet": "Premium-Mini-Busse f\u00fcr den \u00d6PNV, Shuttle- und Reisebusverkehr sind unsere Kernkompetenz \u2013 seit mehr als 25 Jahren.Unser City 75 ELECTRIC ist Minibus of the Year 2025! Schauen Sie sich hier den City 75",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "China Minibus, Minibus Wholesale, Manufacturers, Price",
+          "link": "https://www.made-in-china.com/products-search/hot-china-products/Minibus.html",
+          "snippet": "China Minibus wholesale - Select 2026 high quality Minibus products in best price from certified Chinese Mini Bus manufacturers, China Van suppliers, wholesalers and factory on Made-in-China.com.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Altas Auto | Minibus manufacturer in Europe",
+          "link": "https://altasauto.com/",
+          "snippet": "New standard of comfortLargest mini-bus manufacturer in Europe.Comprehensive product development and quality.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "MINIBUS-Manufacturer of vehicles - YouTube",
+          "link": "https://www.youtube.com/@evminibus",
+          "snippet": "MINIBUS-Manufacturer of vehicles. @evminibus. \u2022 100 subscribers \u2022 71 videos.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Beyond Expectations. Ahead of Time. \u2022 Forveda",
+          "link": "https://forveda.lt/",
+          "snippet": "Bespoke minibuses solutions for every purpose. Explore our fleet of vehicles \u2013 your trusted partner for transportation solutions. Learn about us!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Minibus Manufacturers - New Electric & Diesel Models 2025",
+          "link": "https://www.alibaba.com/showroom/minibus-manufacturers.html",
+          "snippet": "Find reliable minibus manufacturers in China. Our collection includes electric, gasoline, and diesel models.Dedicated services. Explore now. header_Manufacturers_08. sourceCardIcon. Factory-direct sam",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Minibus For Sale - SWISS Vans",
+          "link": "https://www.swissvans.com/product-category/vans-for-sale/minibus-for-sale/",
+          "snippet": "Whether you\u2019re searching for a used minibus for sale near you or exploring options for new minibusses for sale, understanding the market is crucial. From cheap minibusses for sale to luxury models, th",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vehicle Detail Search - 1977 MINIBUS MINIBUS | NHTSA",
+          "link": "https://www.nhtsa.gov/vehicle/1977/MINIBUS/MINIBUS",
+          "snippet": "Search for vehicle using all available options, one page at a time. Full Vehicle Detail Search - 1977 MINIBUS MINIBUS.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "China Wholesale Commercial Minibus Manufacturers & Suppliers...",
+          "link": "https://www.globalsources.com/china-suppliers/minibus.htm",
+          "snippet": "Transport personnel safely with reliable minibus from established China wholesale suppliers. Ensure passenger safety through specialized OEM, ODM services. Source manned transport from trusted factory",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "\u0130lesbus \u2013 T\u00fcrkiye Minibus Manufacturer - Bodybuilders",
+          "link": "https://ilesbus.com/Contact",
+          "snippet": "Ilesbus is one of Turkey\u2019s leading minibus bodybuilders. We design and manufacture high-quality and comfortable passenger transport solutions on various chassis brands and models.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Minibus Manufacturer and Supplier, Factory Pricelist | Xinda",
+          "link": "https://www.xindamotor.com/minibus/",
+          "snippet": "Minibus Manufacturers, Factory, Suppliers From China, By 10 years effort, we attract customers by competitive price and excellent service.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "China Minibus Manufacturers, minibus",
+          "link": "https://www.listen-autoparts.com/minibus_sp",
+          "snippet": "minibus manufacturer from China. Find your perfect minibus here! Genuine quality spare parts,OEM parts.original quality chassis for bus and coach, available from 6m to 12m.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "PHVC | Industry leading minibus and van supplier",
+          "link": "https://www.phvc.co.uk/",
+          "snippet": "PHVC are an industry leading minibus and van supplier supporting organisations across the UK. For over 35 years, we have dedicated ourselves to building strong partnerships and delivering exceptional ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tremonia Mobility - The world leading minibus manufacturer.",
+          "link": "https://web.tremonia.com/",
+          "snippet": "Premium-Mini-Busse f\u00fcr den \u00d6PNV, Shuttle- und Reisebusverkehr sind unsere Kernkompetenz \u2013 seit mehr als 25 Jahren.Unser City 75 ELECTRIC ist Minibus of the Year 2025! Schauen Sie sich hier den City 75",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P2": {
+      "query": "find minibus distributors near me",
+      "level": "market_map",
+      "result_count": 7,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Minibus \u2013 Find Verified Suppliers | europages",
+          "link": "https://www.europages.co.uk/companies/minibus.html",
+          "snippet": "Source minibuses from trusted suppliers. Compare models, specifications, and find the right option for your business needs.Near meReset. Enter your location. Location Use my location.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "PHVC | Industry leading minibus and van supplier",
+          "link": "https://www.phvc.co.uk/",
+          "snippet": "Trusted for 35 years, PHVC are one of the UK's leading minibus and fleet suppliers for schools, communities and businesses. Introducing. The new EV16. Our 16-seat electric minibus.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Find Minibus Hire Near Me in Rotherham | Yell Marketplace",
+          "link": "https://www.yell.com/s/minibus+hire-rotherham.html",
+          "snippet": "Looking for Minibus Hire in Rotherham? Find local minibus rental services.Hire a minibus through Yell to ensure comfortable and convenient group travel. Whether it's for a family outing, corporate eve",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Low-cost Minibus Airport Transfers & Coach Airport Transfers",
+          "link": "https://www.coachhirecomparison.co.uk/services/airport-coach-transfers",
+          "snippet": "Compare coach and minibus airport transfers with ease. Find top rates and services, then book hassle-free with Coach Hire Comparison.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "8 Tips To Hire The Best Minibus Hire Service In The UK? | Car Analytics",
+          "link": "https://www.caranalytics.co.uk/guides/8-tips-to-hire-the-best-minibus-hire-service-in-the-uk/",
+          "snippet": "In this guide, we\u2019ll give you some simple and practical tips to help. We\u2019ll cover everything from figuring out what you need to checking out different companies. Stick with us as we show you how to fi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Driving a minibus - GOV.UK",
+          "link": "https://www.gov.uk/driving-a-minibus",
+          "snippet": "You might be able to drive a minibus with up to 16 passenger seats using your current car driving licence as long as there\u2019s no payment from or on behalf of the passengers (it\u2019s not for \u2018hire or rewar",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "\u0410\u0440\u0435\u043d\u0434\u0430 20-\u043c\u0435\u0441\u0442\u043d\u043e\u0433\u043e \u043c\u0438\u043a\u0440\u043e\u0430\u0432\u0442\u043e\u0431\u0443\u0441\u0430 \u0432\u043e \u0412\u043b\u0430\u0434\u0438\u0432\u043e\u0441\u0442\u043e\u043a\u0435",
+          "link": "https://vvo-minibus.ru/",
+          "snippet": "\u041a\u043e\u043c\u0444\u043e\u0440\u0442\u0430\u0431\u0435\u043b\u044c\u043d\u044b\u0439 20-\u043c\u0435\u0441\u0442\u043d\u044b\u0439 Sprinter 2019 \u0433. \u0441 \u0432\u043e\u0434\u0438\u0442\u0435\u043b\u0435\u043c \u0434\u043b\u044f \u043f\u043e\u0435\u0437\u0434\u043e\u043a \u043f\u043e \u0412\u043b\u0430\u0434\u0438\u0432\u043e\u0441\u0442\u043e\u043a\u0443 \u0438 \u041f\u0440\u0438\u043c\u043e\u0440\u044c\u044e. \u0422\u0440\u0430\u043d\u0441\u0444\u0435\u0440, \u0442\u0443\u0440\u0438\u0437\u043c, \u0441\u0432\u0430\u0434\u044c\u0431\u044b, \u0434\u0435\u043b\u043e\u0432\u044b\u0435 \u0434\u0435\u043b\u0435\u0433\u0430\u0446\u0438\u0438, \u043b\u044e\u0431\u044b\u0435 \u043c\u0430\u0440\u0448\u0440\u0443\u0442\u044b.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Minibus \u2013 Find Verified Suppliers | europages",
+          "link": "https://www.europages.co.uk/companies/minibus.html",
+          "snippet": "Source minibuses from trusted suppliers. Compare models, specifications, and find the right option for your business needs.Near meReset. Enter your location. Location Use my location.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "PHVC | Industry leading minibus and van supplier",
+          "link": "https://www.phvc.co.uk/",
+          "snippet": "Trusted for 35 years, PHVC are one of the UK's leading minibus and fleet suppliers for schools, communities and businesses. Introducing. The new EV16. Our 16-seat electric minibus.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Find Minibus Hire Near Me in Rotherham | Yell Marketplace",
+          "link": "https://www.yell.com/s/minibus+hire-rotherham.html",
+          "snippet": "Looking for Minibus Hire in Rotherham? Find local minibus rental services.Hire a minibus through Yell to ensure comfortable and convenient group travel. Whether it's for a family outing, corporate eve",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Low-cost Minibus Airport Transfers & Coach Airport Transfers",
+          "link": "https://www.coachhirecomparison.co.uk/services/airport-coach-transfers",
+          "snippet": "Compare coach and minibus airport transfers with ease. Find top rates and services, then book hassle-free with Coach Hire Comparison.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "8 Tips To Hire The Best Minibus Hire Service In The UK? | Car Analytics",
+          "link": "https://www.caranalytics.co.uk/guides/8-tips-to-hire-the-best-minibus-hire-service-in-the-uk/",
+          "snippet": "In this guide, we\u2019ll give you some simple and practical tips to help. We\u2019ll cover everything from figuring out what you need to checking out different companies. Stick with us as we show you how to fi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Driving a minibus - GOV.UK",
+          "link": "https://www.gov.uk/driving-a-minibus",
+          "snippet": "You might be able to drive a minibus with up to 16 passenger seats using your current car driving licence as long as there\u2019s no payment from or on behalf of the passengers (it\u2019s not for \u2018hire or rewar",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "\u0410\u0440\u0435\u043d\u0434\u0430 20-\u043c\u0435\u0441\u0442\u043d\u043e\u0433\u043e \u043c\u0438\u043a\u0440\u043e\u0430\u0432\u0442\u043e\u0431\u0443\u0441\u0430 \u0432\u043e \u0412\u043b\u0430\u0434\u0438\u0432\u043e\u0441\u0442\u043e\u043a\u0435",
+          "link": "https://vvo-minibus.ru/",
+          "snippet": "\u041a\u043e\u043c\u0444\u043e\u0440\u0442\u0430\u0431\u0435\u043b\u044c\u043d\u044b\u0439 20-\u043c\u0435\u0441\u0442\u043d\u044b\u0439 Sprinter 2019 \u0433. \u0441 \u0432\u043e\u0434\u0438\u0442\u0435\u043b\u0435\u043c \u0434\u043b\u044f \u043f\u043e\u0435\u0437\u0434\u043e\u043a \u043f\u043e \u0412\u043b\u0430\u0434\u0438\u0432\u043e\u0441\u0442\u043e\u043a\u0443 \u0438 \u041f\u0440\u0438\u043c\u043e\u0440\u044c\u044e. \u0422\u0440\u0430\u043d\u0441\u0444\u0435\u0440, \u0442\u0443\u0440\u0438\u0437\u043c, \u0441\u0432\u0430\u0434\u044c\u0431\u044b, \u0434\u0435\u043b\u043e\u0432\u044b\u0435 \u0434\u0435\u043b\u0435\u0433\u0430\u0446\u0438\u0438, \u043b\u044e\u0431\u044b\u0435 \u043c\u0430\u0440\u0448\u0440\u0443\u0442\u044b.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P3": {
+      "query": "search for minibus wholesalers official site",
+      "level": "market_map",
+      "result_count": 8,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Minibus, Minibus Suppliers & Minibus Wholesalers At TradeKey.com",
+          "link": "https://www.tradekey.com/products/minibus.html",
+          "snippet": "Find Minibus Manufacturers, Minibus Suppliers & Wholesalers of Minibus from China, Hong Kong, USA & Minibus Products from India at TradeKey.com.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "China Wholesale Commercial Minibus... | Globalsources.com",
+          "link": "https://www.globalsources.com/china-suppliers/minibus.htm",
+          "snippet": "Transport personnel safely with reliable minibus from established China wholesale suppliers. Ensure passenger safety through specialized OEM, ODM services. Source manned transport from trusted factory",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Minibus Manufacturer and Supplier, Factory Pricelist | Xinda",
+          "link": "https://www.xindamotor.com/minibus/",
+          "snippet": "Minibus Manufacturers, Factory, Suppliers From China, By 10 years effort, we attract customers by competitive price and excellent service.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Minibus \u2013 Mini Bus",
+          "link": "https://www.mini-bus.com.cn/product-category/seater-minibus/",
+          "snippet": "Seater minibus is a mini size bus with seats for passenger use. The other name is the minivan. The difference between these two is with more seats or with more empty space.KINGSTAR is for wholesale ca",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Minibus Export Companies List",
+          "link": "https://www.turkishexporter.com.tr/en/companies/minibus.htm",
+          "snippet": "Minibus manufacturers, Minibus export companies list - B2b wholesalers, exporters, suppliers worldwide.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "car mobile wholesalers and car mobile traders",
+          "link": "https://www.chinabagsnet.com/buy-car-mobile",
+          "snippet": "...minibus, ambulance, TAXI, official vehicles, police cars, trucks, semi-trailers, engineering vehicles, school buses, pickup trucks, cement trucks, excavators, concrete mixers, private cars, road cl",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Minibus Sellers, Minibus Manufacturers, Minibus Exporters, Minibus...",
+          "link": "https://gulfbusiness.tradeholding.com/default.cgi/action/viewcompanies/sellers-exporters-manufacturers/minibus/",
+          "snippet": "We are regularly Selling: diesel bus, natural gas bus, electric bus, hybrid bus, city bus, coach, minibus, double-decker bus, school bus.Primary Business Type(s): Distributor / Wholesaler Buy & Sell O",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "minibus - Buy minibus with free shipping on AliExpress",
+          "link": "https://www.aliexpress.com/w/wholesale-minibus.html",
+          "snippet": "Simply browse an extensive selection of the best minibus and filter by best match or price to find one that suits you! You can also filter out items that offer free shipping, fast delivery or free ret",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Minibus, Minibus Suppliers & Minibus Wholesalers At TradeKey.com",
+          "link": "https://www.tradekey.com/products/minibus.html",
+          "snippet": "Find Minibus Manufacturers, Minibus Suppliers & Wholesalers of Minibus from China, Hong Kong, USA & Minibus Products from India at TradeKey.com.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "China Wholesale Commercial Minibus... | Globalsources.com",
+          "link": "https://www.globalsources.com/china-suppliers/minibus.htm",
+          "snippet": "Transport personnel safely with reliable minibus from established China wholesale suppliers. Ensure passenger safety through specialized OEM, ODM services. Source manned transport from trusted factory",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Minibus Manufacturer and Supplier, Factory Pricelist | Xinda",
+          "link": "https://www.xindamotor.com/minibus/",
+          "snippet": "Minibus Manufacturers, Factory, Suppliers From China, By 10 years effort, we attract customers by competitive price and excellent service.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Minibus \u2013 Mini Bus",
+          "link": "https://www.mini-bus.com.cn/product-category/seater-minibus/",
+          "snippet": "Seater minibus is a mini size bus with seats for passenger use. The other name is the minivan. The difference between these two is with more seats or with more empty space.KINGSTAR is for wholesale ca",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Minibus Export Companies List",
+          "link": "https://www.turkishexporter.com.tr/en/companies/minibus.htm",
+          "snippet": "Minibus manufacturers, Minibus export companies list - B2b wholesalers, exporters, suppliers worldwide.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "car mobile wholesalers and car mobile traders",
+          "link": "https://www.chinabagsnet.com/buy-car-mobile",
+          "snippet": "...minibus, ambulance, TAXI, official vehicles, police cars, trucks, semi-trailers, engineering vehicles, school buses, pickup trucks, cement trucks, excavators, concrete mixers, private cars, road cl",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Minibus Sellers, Minibus Manufacturers, Minibus Exporters, Minibus...",
+          "link": "https://gulfbusiness.tradeholding.com/default.cgi/action/viewcompanies/sellers-exporters-manufacturers/minibus/",
+          "snippet": "We are regularly Selling: diesel bus, natural gas bus, electric bus, hybrid bus, city bus, coach, minibus, double-decker bus, school bus.Primary Business Type(s): Distributor / Wholesaler Buy & Sell O",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "minibus - Buy minibus with free shipping on AliExpress",
+          "link": "https://www.aliexpress.com/w/wholesale-minibus.html",
+          "snippet": "Simply browse an extensive selection of the best minibus and filter by best match or price to find one that suits you! You can also filter out items that offer free shipping, fast delivery or free ret",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P4": {
+      "query": "find minibus resellers official site",
+      "level": "market_map",
+      "result_count": 4,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "MERCEDES-BENZ Sprinter 517CDI for sale, Minibus - 6842464",
+          "link": "https://www.truck1.eu/buses/minibuses/mercedes-benz-sprinter-517cdi-a6842464.html",
+          "snippet": "Minibus MERCEDES-BENZ Sprinter 517CDI in Estonia for sale. Manufacture year: 2024. Truck1 ID: 6842464. Stay up to date with our offerings.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Minibus Sellers, Minibus Manufacturers, Minibus Exporters, Minibus...",
+          "link": "https://gulfbusiness.tradeholding.com/default.cgi/action/viewcompanies/sellers-exporters-manufacturers/minibus/",
+          "snippet": "Company - Description. Wuzhoulong Motors Co., Ltd.: Seller of: diesel bus, natural gas bus, electric bus, hybrid bus, city bus, coach, minibus, double-decker bus, school bus. Wuzhoulong Motors Co., Lt",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy the domain Minibuses.co.uk. Buyers & sellers for your minibus",
+          "link": "https://www.dgd.co.uk/index.php/minibuses-for-sale/",
+          "snippet": "Where to buy a minibus or find minibuses for sale in the UK. If you are looking to view a range of new and used min8buses for sale why not visit one of the addresses we have belo. There is a large ran",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Minibus Hire for Groups Travel in Nottingham in Nottingham...",
+          "link": "https://www.ukclassifieds.co.uk/services/transport-moving-storage/coach-minibus-hire/minibus-hire-for-groups-travel-in-nottingham-i124005",
+          "snippet": "If you find this listing as inappropriate, offensive or spammy, please let us know about it.With our fleet of well-maintained minibuses and professional drivers, we ensure a safe and enjoyable journey",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "MERCEDES-BENZ Sprinter 517CDI for sale, Minibus - 6842464",
+          "link": "https://www.truck1.eu/buses/minibuses/mercedes-benz-sprinter-517cdi-a6842464.html",
+          "snippet": "Minibus MERCEDES-BENZ Sprinter 517CDI in Estonia for sale. Manufacture year: 2024. Truck1 ID: 6842464. Stay up to date with our offerings.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Minibus Sellers, Minibus Manufacturers, Minibus Exporters, Minibus...",
+          "link": "https://gulfbusiness.tradeholding.com/default.cgi/action/viewcompanies/sellers-exporters-manufacturers/minibus/",
+          "snippet": "Company - Description. Wuzhoulong Motors Co., Ltd.: Seller of: diesel bus, natural gas bus, electric bus, hybrid bus, city bus, coach, minibus, double-decker bus, school bus. Wuzhoulong Motors Co., Lt",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy the domain Minibuses.co.uk. Buyers & sellers for your minibus",
+          "link": "https://www.dgd.co.uk/index.php/minibuses-for-sale/",
+          "snippet": "Where to buy a minibus or find minibuses for sale in the UK. If you are looking to view a range of new and used min8buses for sale why not visit one of the addresses we have belo. There is a large ran",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Minibus Hire for Groups Travel in Nottingham in Nottingham...",
+          "link": "https://www.ukclassifieds.co.uk/services/transport-moving-storage/coach-minibus-hire/minibus-hire-for-groups-travel-in-nottingham-i124005",
+          "snippet": "If you find this listing as inappropriate, offensive or spammy, please let us know about it.With our fleet of well-maintained minibuses and professional drivers, we ensure a safe and enjoyable journey",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P5": {
+      "query": "search for authorized minibus dealers",
+      "level": "market_map",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Minibuses 502, Ashtarak\u2013Yerevan: schedule, route... \u2014 Yandex Maps.",
+          "link": "https://yandex.com/maps/105799/ashtarak/routes/minibus_502/796d617073626d313a2f2f7472616e7369742f6c696e653f69643d34303137303539323330266c6c3d34342e34313030333325324334302e323335353432266e616d653d35303226723d313230303026747970653d6d696e69627573/",
+          "snippet": "Schedule for today and tomorrow: minibuses 502 (Ashtarak\u2013Yerevan), stops on route \u041a\u043e\u043b\u044c\u0446\u043e \u2014 Central bus station and real-time updates available on Yandex Maps.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Minibuses 502, Ashtarak\u2013Yerevan: schedule, route... \u2014 Yandex Maps.",
+          "link": "https://yandex.com/maps/105799/ashtarak/routes/minibus_502/796d617073626d313a2f2f7472616e7369742f6c696e653f69643d34303137303539323330266c6c3d34342e34313030333325324334302e323335353432266e616d653d35303226723d313230303026747970653d6d696e69627573/",
+          "snippet": "Schedule for today and tomorrow: minibuses 502 (Ashtarak\u2013Yerevan), stops on route \u041a\u043e\u043b\u044c\u0446\u043e \u2014 Central bus station and real-time updates available on Yandex Maps.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "search for minibus service providers",
+      "level": "market_map",
+      "result_count": 14,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Minibus Hire Near Me in Rutherglen | Yell Marketplace",
+          "link": "https://www.yell.com/s/minibus+hire-rutherglen.html",
+          "snippet": "You can search for minibus hire options or post your specific travel requirements on Yell to connect with reliable providers. Make your group travel hassle-free and enjoyable by finding the right mini",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "No.1 Minibus Rental in Morocco | Transfers & Tours - OsaBus.com",
+          "link": "https://osabus.com/minibus-rental/morocco/",
+          "snippet": "Providing group transportation services in Morocco since 2012. We are one of the TOP rated charter minibus service providers in Morocco. Contact us today.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Minibus Hire Companies in Wrexham | Add to Event",
+          "link": "https://www.addtoevent.co.uk/listings/minibuses/wrexham",
+          "snippet": "143 Minibus Providers for hire near Wrexham. Easy Corporate Travel Minibus Hire Profile 1.At TCH, we are dedicated to the provision of high quality minibus hire services. We have an assortment of late",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Services and Benefits of Using Luton Airport Transfers",
+          "link": "https://www.blog.cryptoknowmics.com/services-and-benefits-of-using-luton-airport-transfer/",
+          "snippet": "The issue you will face when you will go out and search for the vehicle is that you will have to face severe difficulty in getting a perfect and suitable vehicle. The minibus service providers have a ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Affordable Minibus Hire Manchester for Every Group... - Futures Bytes",
+          "link": "https://futuresbytes.co.uk/affordable-minibus-hire-manchester-for-every-group-journey/",
+          "snippet": "Professional minibus services also include experienced drivers who know Manchester and the surrounding areas well, helping you avoid traffic delays and unnecessary detours.Airport transport is one of ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tips for Finding the Best Minibus Service Providers",
+          "link": "https://www.eastlondon-minibus-hire.co.uk/finding-best-minibus-service-providers/",
+          "snippet": "Understanding Essential Criteria for Minibus Services. Looking for the top minibus service means checking a few key things. These include the quality of the vehicles, the skills of the drivers, and st",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How to Find 24 Seater Minibus Service | ETL Coaches : Minibus Hire...",
+          "link": "https://www.etlcoaches.co.uk/blog/how-to-find-24-seater-minibus-service",
+          "snippet": "If you are here searching for a 24 SEATER minibus then you might be planning a tour or trip to somewhere with families, friends, or executives right?They are very reliable and recognized minibus servi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Ultimate Guide to Renting a Minibus Hire Service for Seamless...",
+          "link": "https://hs2travelltd.co.uk/guide-to-renting-a-minibus-hire-services-for-seamless-travel/",
+          "snippet": "When to rent? When you search \u201cminibus hire near me\u201d, you must go for the service provider that is versatile and can be used for different trip types. In the current circumstances, minibus hire servic",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Advantages of Renting a Minibus for Corporate... | Royal Max Holidays",
+          "link": "https://royalmaxholidays.com/advantages-of-renting-a-minibus-for-corporate-events/",
+          "snippet": "The minibus service provider will be driven by an efficient driver who knows the route of the city very well.Simply search for minibus hire options to find suitable providers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best & Reliable Minibus & Coach Hire Services in Newcastle",
+          "link": "https://hireminibusnewcastle.co.uk/",
+          "snippet": "Hire Minibus. search icon.Newcastle Minibus Hire has been providing its customers with the best competitive rates with well-maintained vehicles and excellent services. We strive to offer our clients c",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Minibus Hire in Wigan - Trusted Operators",
+          "link": "https://instabus.co.uk/minibus-hire/wigan",
+          "snippet": "Local operators serving Minibus Hire Wigan. Instabus lists coach and minibus operators that may serve the Minibus Hire Wigan area. You can review individual operator profiles below, or use the enquiry",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Minibus Hire in Stoke-on-Trent | Affordable Local Transport",
+          "link": "https://365transfers.net/minibus-hire-in-stoke-on-trent-affordable-local-transport/",
+          "snippet": "Searching for rent a minibus services allows companies to move staff or guests efficiently. Professional transport providers frequently support",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 Best Mini Bus Services in Singapore for 2025",
+          "link": "https://www.singaporebrand.com.sg/best-in-singapore/top-10-best-mini-bus-services-in-singapore/",
+          "snippet": "Book your minibus service according to your tour needs, whether you want to go for city tours or require a bus service for corporate work. It\u2019s essential to tell the service provider about your condit",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "7 Reasons To Opt for Minibus Services in the UK - Urban Splatter",
+          "link": "https://www.urbansplatter.com/2024/05/7-reasons-to-opt-for-minibus-services-in-the-uk/",
+          "snippet": "Search forMinibus services allow travellers to receive a quote for services they need along with their group travel. It includes whether they need a minibus hire urgently, specific seating requirement",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Minibus Hire Near Me in Rutherglen | Yell Marketplace",
+          "link": "https://www.yell.com/s/minibus+hire-rutherglen.html",
+          "snippet": "You can search for minibus hire options or post your specific travel requirements on Yell to connect with reliable providers. Make your group travel hassle-free and enjoyable by finding the right mini",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "No.1 Minibus Rental in Morocco | Transfers & Tours - OsaBus.com",
+          "link": "https://osabus.com/minibus-rental/morocco/",
+          "snippet": "Providing group transportation services in Morocco since 2012. We are one of the TOP rated charter minibus service providers in Morocco. Contact us today.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Minibus Hire Companies in Wrexham | Add to Event",
+          "link": "https://www.addtoevent.co.uk/listings/minibuses/wrexham",
+          "snippet": "143 Minibus Providers for hire near Wrexham. Easy Corporate Travel Minibus Hire Profile 1.At TCH, we are dedicated to the provision of high quality minibus hire services. We have an assortment of late",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Services and Benefits of Using Luton Airport Transfers",
+          "link": "https://www.blog.cryptoknowmics.com/services-and-benefits-of-using-luton-airport-transfer/",
+          "snippet": "The issue you will face when you will go out and search for the vehicle is that you will have to face severe difficulty in getting a perfect and suitable vehicle. The minibus service providers have a ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Affordable Minibus Hire Manchester for Every Group... - Futures Bytes",
+          "link": "https://futuresbytes.co.uk/affordable-minibus-hire-manchester-for-every-group-journey/",
+          "snippet": "Professional minibus services also include experienced drivers who know Manchester and the surrounding areas well, helping you avoid traffic delays and unnecessary detours.Airport transport is one of ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tips for Finding the Best Minibus Service Providers",
+          "link": "https://www.eastlondon-minibus-hire.co.uk/finding-best-minibus-service-providers/",
+          "snippet": "Understanding Essential Criteria for Minibus Services. Looking for the top minibus service means checking a few key things. These include the quality of the vehicles, the skills of the drivers, and st",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How to Find 24 Seater Minibus Service | ETL Coaches : Minibus Hire...",
+          "link": "https://www.etlcoaches.co.uk/blog/how-to-find-24-seater-minibus-service",
+          "snippet": "If you are here searching for a 24 SEATER minibus then you might be planning a tour or trip to somewhere with families, friends, or executives right?They are very reliable and recognized minibus servi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Ultimate Guide to Renting a Minibus Hire Service for Seamless...",
+          "link": "https://hs2travelltd.co.uk/guide-to-renting-a-minibus-hire-services-for-seamless-travel/",
+          "snippet": "When to rent? When you search \u201cminibus hire near me\u201d, you must go for the service provider that is versatile and can be used for different trip types. In the current circumstances, minibus hire servic",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Advantages of Renting a Minibus for Corporate... | Royal Max Holidays",
+          "link": "https://royalmaxholidays.com/advantages-of-renting-a-minibus-for-corporate-events/",
+          "snippet": "The minibus service provider will be driven by an efficient driver who knows the route of the city very well.Simply search for minibus hire options to find suitable providers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best & Reliable Minibus & Coach Hire Services in Newcastle",
+          "link": "https://hireminibusnewcastle.co.uk/",
+          "snippet": "Hire Minibus. search icon.Newcastle Minibus Hire has been providing its customers with the best competitive rates with well-maintained vehicles and excellent services. We strive to offer our clients c",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Minibus Hire in Wigan - Trusted Operators",
+          "link": "https://instabus.co.uk/minibus-hire/wigan",
+          "snippet": "Local operators serving Minibus Hire Wigan. Instabus lists coach and minibus operators that may serve the Minibus Hire Wigan area. You can review individual operator profiles below, or use the enquiry",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Minibus Hire in Stoke-on-Trent | Affordable Local Transport",
+          "link": "https://365transfers.net/minibus-hire-in-stoke-on-trent-affordable-local-transport/",
+          "snippet": "Searching for rent a minibus services allows companies to move staff or guests efficiently. Professional transport providers frequently support",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 Best Mini Bus Services in Singapore for 2025",
+          "link": "https://www.singaporebrand.com.sg/best-in-singapore/top-10-best-mini-bus-services-in-singapore/",
+          "snippet": "Book your minibus service according to your tour needs, whether you want to go for city tours or require a bus service for corporate work. It\u2019s essential to tell the service provider about your condit",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "7 Reasons To Opt for Minibus Services in the UK - Urban Splatter",
+          "link": "https://www.urbansplatter.com/2024/05/7-reasons-to-opt-for-minibus-services-in-the-uk/",
+          "snippet": "Search forMinibus services allow travellers to receive a quote for services they need along with their group travel. It includes whether they need a minibus hire urgently, specific seating requirement",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P7": {
+      "query": "find minibus system integrators",
+      "level": "market_map",
+      "result_count": 3,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Webasto Integrated Air-Conditioning Systems \u2013 Minibuses & LCVs",
+          "link": "https://webasto-group.com/en-int/cooling/integrated-air-conditioning.html",
+          "snippet": "Integrated air-conditioning systems by Webasto for minibuses & commercial vehicles \u2014 4\u201316 kW efficient cooling, flexible installation and customizable systems.Find your nearest Webasto dealer quickly ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Revolutionary Technologies That Optimize the Potential of Minibus...",
+          "link": "https://blog.alliedmarketresearch.com/exploring-the-potential-of-the-minibus-industry-1904",
+          "snippet": "IoT and AI in smart minibus system. IoT and AI technologies have transformed bus travel by introducing smart systems. These technologies enhance diverse aspects of bus operations, such as fare managem",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Reforming the (Semi-) Informal Minibus System... - Changing Transport",
+          "link": "https://changing-transport.org/publications/reformation-semi-informal-minibus-system-philippines/",
+          "snippet": "The reform goes beyond the fleet renewal of more than 180,000 jeepneys, but also pushes for industry consolidation and a reform of the franchising system to overcome unsustainable industry pattern tha",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Webasto Integrated Air-Conditioning Systems \u2013 Minibuses & LCVs",
+          "link": "https://webasto-group.com/en-int/cooling/integrated-air-conditioning.html",
+          "snippet": "Integrated air-conditioning systems by Webasto for minibuses & commercial vehicles \u2014 4\u201316 kW efficient cooling, flexible installation and customizable systems.Find your nearest Webasto dealer quickly ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Revolutionary Technologies That Optimize the Potential of Minibus...",
+          "link": "https://blog.alliedmarketresearch.com/exploring-the-potential-of-the-minibus-industry-1904",
+          "snippet": "IoT and AI in smart minibus system. IoT and AI technologies have transformed bus travel by introducing smart systems. These technologies enhance diverse aspects of bus operations, such as fare managem",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Reforming the (Semi-) Informal Minibus System... - Changing Transport",
+          "link": "https://changing-transport.org/publications/reformation-semi-informal-minibus-system-philippines/",
+          "snippet": "The reform goes beyond the fleet renewal of more than 180,000 jeepneys, but also pushes for industry consolidation and a reform of the franchising system to overcome unsustainable industry pattern tha",
+          "backend": "ddgs_bing"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

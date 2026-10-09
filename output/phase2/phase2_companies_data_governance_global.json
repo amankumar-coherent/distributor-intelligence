@@ -1,0 +1,1086 @@
+{
+  "phase": 2,
+  "phase2_mode": "fast",
+  "query": "Data Governance Market",
+  "mock_mode": false,
+  "completed_at": "2026-07-24T08:31:41.005912+00:00",
+  "scope": {
+    "market": "Data Governance",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "channel partner",
+    "industry_vertical": "data management",
+    "industry_terms": [
+      "data governance",
+      "data quality",
+      "data compliance",
+      "data management",
+      "metadata management"
+    ],
+    "ecosystem_functions": [
+      "distributing software",
+      "implementing solutions",
+      "providing support services",
+      "consulting on best practices",
+      "ensuring compliance",
+      "integrating systems",
+      "reselling products",
+      "managing customer relationships"
+    ],
+    "interpretation_summary": "The Data Governance Market encompasses solutions and services that help organizations manage their data assets effectively, ensuring compliance, quality, and security. Participants include software vendors, service provi",
+    "relevance_keywords": [
+      "data governance",
+      "data management",
+      "compliance solutions",
+      "data quality tools",
+      "metadata management"
+    ],
+    "negative_keywords": [
+      "analytics",
+      "security",
+      "cloud",
+      "storage",
+      "big data"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "Informatica",
+        "primary_domain": "informatica.com",
+        "company_function": "data governance software provider"
+      },
+      {
+        "canonical_name": "Collibra",
+        "primary_domain": "collibra.com",
+        "company_function": "data governance solutions provider"
+      },
+      {
+        "canonical_name": "IBM",
+        "primary_domain": "ibm.com",
+        "company_function": "it system integrator and data governance provider"
+      },
+      {
+        "canonical_name": "SAP",
+        "primary_domain": "sap.com",
+        "company_function": "data governance software and consulting"
+      },
+      {
+        "canonical_name": "Microsoft",
+        "primary_domain": "microsoft.com",
+        "company_function": "data governance solutions and services"
+      },
+      {
+        "canonical_name": "Talend",
+        "primary_domain": "talend.com",
+        "company_function": "data integration and governance solutions"
+      },
+      {
+        "canonical_name": "Oracle",
+        "primary_domain": "oracle.com",
+        "company_function": "data governance and compliance solutions"
+      },
+      {
+        "canonical_name": "Alation",
+        "primary_domain": "alation.com",
+        "company_function": "data governance and catalog solutions"
+      },
+      {
+        "canonical_name": "Ataccama",
+        "primary_domain": "ataccama.com",
+        "company_function": "data quality and governance solutions"
+      },
+      {
+        "canonical_name": "TIBCO Software",
+        "primary_domain": "tibco.com",
+        "company_function": "data governance and integration solutions"
+      }
+    ],
+    "search_topic": "Data Governance",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "Data Governance",
+    "include_keywords": [
+      "data governance solutions",
+      "data governance software",
+      "data governance frameworks",
+      "data stewardship",
+      "data lineage"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The Data Governance Market encompasses solutions and services that help organizations manage their data assets effectively, ensuring compliance, quality, and security. Participants include software vendors, service providers, and various channel partners that facilitate the distribution and implementation of data governance solutions globally.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Channel Partners",
+        "description": "Entities that distribute and implement data governance solutions.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Value-added Distributors",
+              "Technology Distributors"
+            ],
+            "participant_types": [
+              "distributor",
+              "wholesaler"
+            ],
+            "search_intents": [
+              "data governance solution distributors",
+              "data governance software wholesalers"
+            ]
+          },
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Value Resellers",
+              "Managed Service Resellers"
+            ],
+            "participant_types": [
+              "reseller",
+              "service provider"
+            ],
+            "search_intents": [
+              "data governance resellers",
+              "data governance service providers"
+            ]
+          },
+          {
+            "segment_name": "System Integrators",
+            "sub_segments": [
+              "IT System Integrators",
+              "Consulting Firms"
+            ],
+            "participant_types": [
+              "system integrator",
+              "channel partner"
+            ],
+            "search_intents": [
+              "data governance system integrators",
+              "data governance consulting firms"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Data Analytics",
+        "Data Warehousing",
+        "Business Intelligence",
+        "Data Security",
+        "Cloud Storage"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "data governance solution distributors",
+        "sub_sector": "distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "data governance resellers",
+        "sub_sector": "reseller",
+        "layer_id": "L1",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "data governance system integrators",
+        "sub_sector": "system_integrator",
+        "layer_id": "L1",
+        "segment": "System Integrators"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "data governance service providers",
+        "sub_sector": "service_provider",
+        "layer_id": "L1",
+        "segment": "Service Providers"
+      },
+      {
+        "id": "M5",
+        "level": "market_map",
+        "text": "data governance channel partners",
+        "sub_sector": "channel_partner",
+        "layer_id": "L1",
+        "segment": "Channel Partners"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "phase1_plan_path": "D:\\vendor-intel\\output\\phase1\\phase1_plan_data_governance_global.json",
+  "companies": [
+    {
+      "name": "Ovaledge",
+      "domain": "ovaledge.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Atlas",
+      "domain": "atlas.apache.org",
+      "discovery_source": "ddgs_bing+ddgs_yandex",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Atlan",
+      "domain": "atlan.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Collibra",
+      "domain": "collibra.com",
+      "discovery_source": "ddgs_bing+registry",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Kaggle",
+      "domain": "kaggle.com",
+      "discovery_source": "searxng",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Alation",
+      "domain": "alation.com",
+      "discovery_source": "ddgs_bing+registry",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Isaca",
+      "domain": "isaca.org",
+      "discovery_source": "ddgs_bing+ddgs_yandex",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Precisely",
+      "domain": "precisely.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Tantor Labs",
+      "domain": "tantorlabs.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Datagovernance",
+      "domain": "datagovernance.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Informatica",
+      "domain": "informatica.com",
+      "discovery_source": "ddgs_bing+registry",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Markt Pilot",
+      "domain": "markt-pilot.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Open Metadata",
+      "domain": "open-metadata.org",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Papers",
+      "domain": "papers.ssrn.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Pimberly",
+      "domain": "pimberly.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Ataccama",
+      "domain": "ataccama.com",
+      "discovery_source": "registry",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Bluent",
+      "domain": "bluent.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "consulting"
+    },
+    {
+      "name": "Fastercapital",
+      "domain": "fastercapital.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Glean",
+      "domain": "glean.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Oracle",
+      "domain": "oracle.com",
+      "discovery_source": "registry",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Pivotree",
+      "domain": "pivotree.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Saymine",
+      "domain": "saymine.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Talend",
+      "domain": "talend.com",
+      "discovery_source": "registry",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Tibco",
+      "domain": "tibco.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Wasstech",
+      "domain": "wasstech.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "contract_manufacturer"
+    },
+    {
+      "name": "Actian",
+      "domain": "actian.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Aitoolsforbusiness",
+      "domain": "aitoolsforbusiness.ai",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Andersen Lab",
+      "domain": "andersenlab.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Cranium",
+      "domain": "cranium.eu",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Data governance services",
+      "domain": "cas.org",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Encorebusiness",
+      "domain": "encorebusiness.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Hicx",
+      "domain": "hicx.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Industrytoday",
+      "domain": "industrytoday.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Kiteworks",
+      "domain": "kiteworks.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Maicongs",
+      "domain": "maicongs.com",
+      "discovery_source": "ddgs_bing+ddgs_yandex",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Oriongovernance",
+      "domain": "oriongovernance.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Qcckyc",
+      "domain": "qcckyc.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Standards",
+      "domain": "standards.ieee.org",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Valuecoders",
+      "domain": "valuecoders.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Viesearch",
+      "domain": "viesearch.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Worldmetrics",
+      "domain": "worldmetrics.org",
+      "discovery_source": "ddgs_bing",
+      "company_function": "consulting"
+    },
+    {
+      "name": "3uTools Download",
+      "domain": "3utools.io",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "vendor"
+    },
+    {
+      "name": "A Teaminsight",
+      "domain": "a-teaminsight.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Akeneo",
+      "domain": "akeneo.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Appsflyer",
+      "domain": "appsflyer.com",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Artefact",
+      "domain": "artefact.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Atgeirsolutions",
+      "domain": "atgeirsolutions.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Authenticasolutions",
+      "domain": "authenticasolutions.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Azilen",
+      "domain": "azilen.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Bhsg",
+      "domain": "bhsg.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Brighttalk",
+      "domain": "brighttalk.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Capstorm",
+      "domain": "capstorm.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Carelink",
+      "domain": "carelink.minimed.com",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Castordoc",
+      "domain": "castordoc.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Checkertr",
+      "domain": "checkertr.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Clearpeaks",
+      "domain": "clearpeaks.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Conectnext",
+      "domain": "conectnext.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Contata",
+      "domain": "contata.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Corporate",
+      "domain": "corporate.findlaw.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Corporater",
+      "domain": "corporater.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Dama",
+      "domain": "dama.org",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Damalink",
+      "domain": "damalink.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Datacatalyst",
+      "domain": "datacatalyst.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Dataguidance",
+      "domain": "dataguidance.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Datameaning",
+      "domain": "datameaning.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "consulting"
+    },
+    {
+      "name": "Dataworkers",
+      "domain": "dataworkers.io",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Dbeaver",
+      "domain": "dbeaver.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Dgs Online",
+      "domain": "dgs-online.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Diacto",
+      "domain": "diacto.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "consulting"
+    },
+    {
+      "name": "Digitalmanufacturinghub",
+      "domain": "digitalmanufacturinghub.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Domo",
+      "domain": "domo.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Dymium",
+      "domain": "dymium.io",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Epcgroup",
+      "domain": "epcgroup.net",
+      "discovery_source": "ddgs_bing",
+      "company_function": "consulting"
+    },
+    {
+      "name": "Fabrico",
+      "domain": "fabrico.io",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Flatworldsolutions",
+      "domain": "flatworldsolutions.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Gdpr",
+      "domain": "gdpr.eu",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Goodwille",
+      "domain": "goodwille.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Gsmnigeria",
+      "domain": "gsmnigeria.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Hackmd",
+      "domain": "hackmd.io",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Hubspot",
+      "domain": "hubspot.com",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Iapp",
+      "domain": "iapp.org",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Insightsoftware",
+      "domain": "insightsoftware.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Kos Intl",
+      "domain": "kos-intl.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Lbmc",
+      "domain": "lbmc.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Leadforensics",
+      "domain": "leadforensics.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Machintel",
+      "domain": "machintel.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Nri Na",
+      "domain": "nri-na.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Onetrust",
+      "domain": "onetrust.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Opencorporates",
+      "domain": "opencorporates.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Openrouter",
+      "domain": "openrouter.ai",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Padiso",
+      "domain": "padiso.co",
+      "discovery_source": "ddgs_bing",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Partitionwizard",
+      "domain": "partitionwizard.com",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Patrianna",
+      "domain": "patrianna.breezy.hr",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Piloggroup",
+      "domain": "piloggroup.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Polymerhq",
+      "domain": "polymerhq.io",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Privacypillar",
+      "domain": "privacypillar.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Proton",
+      "domain": "proton.me",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Publicspectrum",
+      "domain": "publicspectrum.co",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Purplelec",
+      "domain": "purplelec.com",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Qlik",
+      "domain": "qlik.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Qulix",
+      "domain": "qulix.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Semarchy",
+      "domain": "semarchy.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Shuftipro",
+      "domain": "shuftipro.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Simfoni",
+      "domain": "simfoni.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Sprinto",
+      "domain": "sprinto.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Startwithdata",
+      "domain": "startwithdata.co.uk",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Statifacts",
+      "domain": "statifacts.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Stibosystems",
+      "domain": "stibosystems.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Thedatagovernance",
+      "domain": "thedatagovernance.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "consulting"
+    },
+    {
+      "name": "Thedatagovernancecompany",
+      "domain": "thedatagovernancecompany.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Thehustle",
+      "domain": "thehustle.co",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Thinkartha",
+      "domain": "thinkartha.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Thirdeyedata",
+      "domain": "thirdeyedata.ai",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Toolify",
+      "domain": "toolify.ai",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Tradeinterchange",
+      "domain": "tradeinterchange.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Transcend",
+      "domain": "transcend.io",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Usermaven",
+      "domain": "usermaven.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Verdantis",
+      "domain": "verdantis.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Viamedici",
+      "domain": "viamedici.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Waqi",
+      "domain": "waqi.info",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Weproms",
+      "domain": "weproms.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Whitecupsolutions",
+      "domain": "whitecupsolutions.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Wifitalents",
+      "domain": "wifitalents.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Www3",
+      "domain": "www3.weforum.org",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Xtivia",
+      "domain": "xtivia.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Zipdo",
+      "domain": "zipdo.co",
+      "discovery_source": "ddgs_bing",
+      "company_function": "consulting"
+    },
+    {
+      "name": "Zoho",
+      "domain": "zoho.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    }
+  ],
+  "company_count": 127,
+  "discovery_stats": {
+    "raw_hits": 289,
+    "unique_names": 145,
+    "by_prompt_id": {
+      "D10": 2,
+      "D2": 5,
+      "D3": 1,
+      "D4": 3,
+      "D5": 2,
+      "D6": 6,
+      "D7": 1,
+      "D8": 3,
+      "HX0_dist": 5,
+      "HX0_expo": 1,
+      "HX0_manu": 3,
+      "HX0_rese": 7,
+      "HX1_dist": 5,
+      "HX1_expo": 6,
+      "HX1_manu": 5,
+      "HX1_rese": 4,
+      "L0": 2,
+      "L1": 4,
+      "L2": 3,
+      "M1": 4,
+      "M1_cont": 5,
+      "M2": 1,
+      "M3": 5,
+      "M4": 4,
+      "M5": 2,
+      "MUP5": 4,
+      "P1": 4,
+      "P10": 5,
+      "P11": 7,
+      "P12": 6,
+      "P3": 1,
+      "P4": 7,
+      "P5": 3,
+      "P6": 3,
+      "P8": 5,
+      "P9": 1,
+      "SEED": 9,
+      "SEED2": 9,
+      "SEED3": 9,
+      "ST1a": 4,
+      "ST1b": 2,
+      "ST2a": 2,
+      "ST3a": 6,
+      "ST4a": 3,
+      "ST_L1_1": 8,
+      "ST_L1_2": 5,
+      "ST_L1_3": 5,
+      "T1a": 9,
+      "T1b": 8,
+      "T2a": 7,
+      "T2b": 3,
+      "T3a": 11,
+      "T3b": 1,
+      "T4a": 13,
+      "T4b": 8,
+      "V10": 2,
+      "V11": 2,
+      "V12": 2,
+      "V5": 4,
+      "V6": 3,
+      "V7": 1,
+      "V8": 1,
+      "V9": 2,
+      "VX1": 7,
+      "VX2": 5,
+      "W1": 2,
+      "W2": 1
+    },
+    "by_funnel_level": {
+      "L0": 29,
+      "L1": 4,
+      "L2": 3,
+      "discovery": 253
+    },
+    "widen_loops": 3
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ]
+}

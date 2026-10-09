@@ -23,9 +23,15 @@ codegraph.html
 .mcp.json
 
 # runtime / generated data (large)
-output/
 logs/
 data/chrome-profile/
+
+# Over GitHub's 100MB hard file-size limit -- a push including these
+# fails outright. output/ itself is tracked; only these four are excluded.
+output/neon_export/cmi_reports.csv
+output/neon_export/cmi_reports.json
+output/neon_export/cmi_report_dynamic.csv
+output/neon_export/cmi_report_dynamic.json
 data/batch.db
 data/batch.db-*
 data/company_cache/

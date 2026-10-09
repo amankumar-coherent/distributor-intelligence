@@ -1,0 +1,5812 @@
+{
+  "ts": "20260804_095725",
+  "market": "Global Smartphone Market",
+  "model": "deepseek-chat",
+  "base_url": "https://api.deepseek.com/v1",
+  "input_rows": 294,
+  "kept": 235,
+  "removed": 59,
+  "fixes_applied_rows": 235,
+  "removed_companies": [
+    {
+      "company": "ACCE Global Software Pvt Ltd",
+      "reason": "hard_drop:acce global software",
+      "method": "hard_rule",
+      "confidence": "high"
+    },
+    {
+      "company": "Alibaba",
+      "reason": "hard_drop:alibaba",
+      "method": "hard_rule",
+      "confidence": "high"
+    },
+    {
+      "company": "Allied Electronics & Automation",
+      "reason": "hard_drop:allied electronics & automation",
+      "method": "hard_rule",
+      "confidence": "high"
+    },
+    {
+      "company": "Arena Bilgisayar",
+      "reason": "No evidence found that Arena Bilgisayar is a smartphone distributor; web search results show unrelated companies with similar names.",
+      "method": "web+deepseek",
+      "confidence": "high"
+    },
+    {
+      "company": "AT Computers",
+      "reason": "No evidence found that AT Computers is a smartphone distributor; web search results are irrelevant. Company appears to be a cybersecurity distributor.",
+      "method": "web+deepseek",
+      "confidence": "medium"
+    },
+    {
+      "company": "Atacaly",
+      "reason": "Company is a platform connecting resellers to suppliers for cybersecurity products, not a smartphone distributor or channel partner.",
+      "method": "web+deepseek",
+      "confidence": "high"
+    },
+    {
+      "company": "Cancom",
+      "reason": "Cancom is an IT solutions provider and systems integrator, not a distributor or reseller of smartphones. Web evidence shows no smartphone distribution role.",
+      "method": "web+deepseek",
+      "confidence": "high"
+    },
+    {
+      "company": "Cell Dealers",
+      "reason": "Cell Dealers is a B2B marketplace platform, not a distributor/wholesaler/reseller itself. It explicitly states it is not a party to transactions, so it does not qualify as a channel partner.",
+      "method": "web+deepseek",
+      "confidence": "high"
+    },
+    {
+      "company": "Compusoluciones",
+      "reason": "No evidence found that Compusoluciones distributes smartphones; web results indicate IT distribution (cybersecurity, Matterport) and no smartphone-related content.",
+      "method": "web+deepseek",
+      "confidence": "high"
+    },
+    {
+      "company": "Conexio",
+      "reason": "No evidence found that Conexio is a smartphone distributor; web search results are irrelevant. Stored business type and categories indicate cybersecurity focus.",
+      "method": "web+deepseek",
+      "confidence": "medium"
+    },
+    {
+      "company": "Connection",
+      "reason": "Connection is an IT solutions provider, not a smartphone distributor or channel partner. Web evidence shows no smartphone/mobile phone distribution role.",
+      "method": "web+deepseek",
+      "confidence": "high"
+    },
+    {
+      "company": "Coolmix",
+      "reason": "No evidence found that Coolmix is a smartphone distributor; web results show unrelated content (music, blender, etc.).",
+      "method": "web+deepseek",
+      "confidence": "medium"
+    },
+    {
+      "company": "Copaco",
+      "reason": "No evidence found that Copaco distributes smartphones; web results show unrelated content and IT security distribution.",
+      "method": "web+deepseek",
+      "confidence": "medium"
+    },
+    {
+      "company": "CPVM Group",
+      "reason": "No evidence of smartphone distribution; web search results are irrelevant (Chinese medicine). Company appears to be a telecom retailer but not confirmed as smartphone channel partner.",
+      "method": "web+deepseek",
+      "confidence": "low"
+    },
+    {
+      "company": "Creative Newtech",
+      "reason": "No evidence that Creative Newtech distributes smartphones; web search results are irrelevant and company focuses on cybersecurity products.",
+      "method": "web+deepseek",
+      "confidence": "medium"
+    },
+    {
+      "company": "CT Internacional",
+      "reason": "No evidence of smartphone distribution; company appears to be a job portal listing, not a distributor.",
+      "method": "web+deepseek",
+      "confidence": "low"
+    },
+    {
+      "company": "Daebak Company Ltd.",
+      "reason": "No evidence found that Daebak Company Ltd. is a smartphone distributor; web results show a Korean snack/beauty subscription box and unrelated meanings of 'daebak'.",
+      "method": "web+deepseek",
+      "confidence": "high"
+    },
+    {
+      "company": "Datagate Bilgisayar",
+      "reason": "Datagate Bilgisayar is a telecom billing software provider for MSPs, not a distributor of smartphones.",
+      "method": "web+deepseek",
+      "confidence": "high"
+    },
+    {
+      "company": "DDS Trading",
+      "reason": "No evidence found that DDS Trading is a smartphone distributor; web search results show unrelated entities with similar names.",
+      "method": "web+deepseek",
+      "confidence": "low"
+    },
+    {
+      "company": "Dixon Technologies",
+      "reason": "Dixon Technologies is an electronics manufacturing services (EMS) provider and contract manufacturer for smartphones, not a distributor, wholesaler, retailer, or reseller. It does not operate as a channel partner in the smartphone distribution chain.",
+      "method": "web+deepseek",
+      "confidence": "high"
+    },
+    {
+      "company": "ECS Holdings",
+      "reason": "No evidence found that ECS Holdings is a smartphone distributor; web results show unrelated entities (AWS ECS, ECS Tuning, etc.) and no smartphone channel role.",
+      "method": "web+deepseek",
+      "confidence": "high"
+    },
+    {
+      "company": "EU Mobile Wholesalers",
+      "reason": "No evidence of smartphone distribution; web search returns irrelevant EU Wikipedia pages. Core categories are network security, not mobile phones.",
+      "method": "web+deepseek",
+      "confidence": "medium"
+    },
+    {
+      "company": "ExpoGSM",
+      "reason": "No evidence of smartphone/mobile phone distribution; web search results are irrelevant. Company appears to be a B2B marketplace but lacks specific smartphone channel role.",
+      "method": "web+deepseek",
+      "confidence": "low"
+    },
+    {
+      "company": "Goodsam",
+      "reason": "Web evidence shows GoodSAM is an emergency response platform, not a smartphone distributor. Stored row appears to be a different entity or fabricated.",
+      "method": "web+deepseek",
+      "confidence": "high"
+    },
+    {
+      "company": "Grupo Deltron",
+      "reason": "No evidence found that Grupo Deltron is a smartphone distributor; web search returned irrelevant results. Core categories are cybersecurity, not smartphones.",
+      "method": "web+deepseek",
+      "confidence": "medium"
+    },
+    {
+      "company": "IMC Arabia",
+      "reason": "No evidence found that IMC Arabia is a smartphone distributor; web search results show unrelated entities (IMC parts, BMI calculators, trading firm). Stored summary appears fabricated.",
+      "method": "web+deepseek",
+      "confidence": "high"
+    },
+    {
+      "company": "Indeks Bilgisayar",
+      "reason": "No evidence found that Indeks Bilgisayar distributes smartphones; web results are unrelated logistics content.",
+      "method": "web+deepseek",
+      "confidence": "low"
+    },
+    {
+      "company": "Index Group",
+      "reason": "No evidence that Index Group is a smartphone distributor; web search returns unrelated results.",
+      "method": "web+deepseek",
+      "confidence": "high"
+    },
+    {
+      "company": "inTechnology Distribution",
+      "reason": "No evidence found that inTechnology Distribution is a smartphone distributor; web search returned unrelated results. Stored data focuses on network security products, not mobile phones.",
+      "method": "web+deepseek",
+      "confidence": "medium"
+    },
+    {
+      "company": "Karbonn Mobiles",
+      "reason": "Karbonn Mobiles is an OEM manufacturer of smartphones, not a distributor, wholesaler, retailer, or reseller. Although its founders were distributors, the company itself is a brand/manufacturer.",
+      "method": "web+deepseek",
+      "confidence": "high"
+    },
+    {
+      "company": "Keenam International",
+      "reason": "Company is a freight forwarder and customs clearance provider, not a distributor or channel partner of smartphones.",
+      "method": "web+deepseek",
+      "confidence": "high"
+    },
+    {
+      "company": "KM Mobile",
+      "reason": "No evidence found that KM Mobile is a smartphone distributor; web search results are irrelevant. Stored business type and categories are inconsistent with smartphone channel role.",
+      "method": "web+deepseek",
+      "confidence": "medium"
+    },
+    {
+      "company": "Lava International",
+      "reason": "Lava International is an OEM/brand that manufactures smartphones, not a distributor, wholesaler, retailer, or reseller.",
+      "method": "web+deepseek",
+      "confidence": "high"
+    },
+    {
+      "company": "Memory Set",
+      "reason": "No evidence found that Memory Set is a smartphone distributor; web search results are unrelated to the company.",
+      "method": "web+deepseek",
+      "confidence": "high"
+    },
+    {
+      "company": "Micromax Informatics",
+      "reason": "Micromax Informatics is an OEM smartphone manufacturer, not a distributor, wholesaler, retailer, or reseller.",
+      "method": "web+deepseek",
+      "confidence": "high"
+    },
+    {
+      "company": "Mobile Depot",
+      "reason": "No evidence found that Mobile Depot is a smartphone distributor; web search results are unrelated (mobile.de is a car marketplace, 91mobiles is a tech info site, T-Mobile is a carrier). Stored data appears inconsistent.",
+      "method": "web+deepseek",
+      "confidence": "medium"
+    },
+    {
+      "company": "Mobile Shop",
+      "reason": "No evidence found that Mobile Shop is a smartphone distributor; web results show unrelated entities (mobile.de, T-Mobile, etc.) and the stored core categories are cybersecurity, not mobile devices.",
+      "method": "web+deepseek",
+      "confidence": "medium"
+    },
+    {
+      "company": "MSI-ECS",
+      "reason": "No evidence found that MSI-ECS is a smartphone distributor; web results refer to MSI as a hardware manufacturer, not a channel partner.",
+      "method": "web+deepseek",
+      "confidence": "high"
+    },
+    {
+      "company": "National Wireless Independent Dealer Association (NWIDA)",
+      "reason": "NWIDA is a trade association for independent wireless dealers, not a distributor, wholesaler, retailer, or reseller itself. It provides advocacy and group buying power but does not directly sell or distribute smartphones.",
+      "method": "web+deepseek",
+      "confidence": "high"
+    },
+    {
+      "company": "Neoteric Informatique",
+      "reason": "No evidence of smartphone distribution; web search returns unrelated GitHub page.",
+      "method": "web+deepseek",
+      "confidence": "low"
+    },
+    {
+      "company": "Niti Distributions",
+      "reason": "No evidence found that Niti Distributions is a smartphone distributor; web search results are unrelated (NITI Aayog, NiTi alloy). Stored summary appears fabricated.",
+      "method": "web+deepseek",
+      "confidence": "high"
+    },
+    {
+      "company": "Optiemus Electronics",
+      "reason": "Optiemus Electronics is a contract manufacturer/EMS for smartphones, not a distributor, wholesaler, retailer, or reseller. It produces devices for brands like BlackBerry, HTC, Xiaomi, and Ai+ Smartphone, but does not sell them as a channel partner.",
+      "method": "web+deepseek",
+      "confidence": "high"
+    },
+    {
+      "company": "ORSO Distribution",
+      "reason": "Web evidence shows ORSO is a restaurant, not a distributor. No smartphone channel role found.",
+      "method": "web+deepseek",
+      "confidence": "high"
+    },
+    {
+      "company": "PCTech",
+      "reason": "No evidence found that PCTech is a smartphone distributor; web results show unrelated tech support and laptop parts, not mobile phone distribution.",
+      "method": "web+deepseek",
+      "confidence": "medium"
+    },
+    {
+      "company": "Penta Teknoloji",
+      "reason": "No evidence found that Penta Teknoloji is a smartphone distributor; web results refer to unrelated entities (wrestler, construction software).",
+      "method": "web+deepseek",
+      "confidence": "high"
+    },
+    {
+      "company": "PhoneHub Europe",
+      "reason": "No evidence found that PhoneHub Europe is a smartphone distributor; web search results are unrelated to the company.",
+      "method": "web+deepseek",
+      "confidence": "low"
+    },
+    {
+      "company": "Pinnacle Micro",
+      "reason": "No evidence found that Pinnacle Micro is a smartphone distributor; web results show unrelated products (socks, optical storage) and no smartphone channel role.",
+      "method": "web+deepseek",
+      "confidence": "medium"
+    },
+    {
+      "company": "Rectron",
+      "reason": "Rectron is a semiconductor and electronic components distributor, not a smartphone/mobile phone distributor. Web evidence shows it distributes electronic components like rectifiers, not handsets.",
+      "method": "web+deepseek",
+      "confidence": "high"
+    },
+    {
+      "company": "Savex Technologies",
+      "reason": "No evidence found that Savex Technologies is a smartphone distributor; web search returned irrelevant results about pizza. Stored data appears fabricated.",
+      "method": "web+deepseek",
+      "confidence": "low"
+    },
+    {
+      "company": "Smartech",
+      "reason": "No evidence that Smartech is a smartphone distributor; web results show unrelated content and a smartwatch listing.",
+      "method": "web+deepseek",
+      "confidence": "medium"
+    },
+    {
+      "company": "Softcell Technologies",
+      "reason": "No evidence of smartphone/mobile phone distribution; company appears to be an IT/cybersecurity solutions provider.",
+      "method": "web+deepseek",
+      "confidence": "high"
+    },
+    {
+      "company": "Softex",
+      "reason": "No evidence found that Softex is a smartphone distributor; web results refer to Toyota's SofTex material and an unrelated Indonesian company.",
+      "method": "web+deepseek",
+      "confidence": "high"
+    },
+    {
+      "company": "Supertron Electronics",
+      "reason": "No evidence of smartphone distribution; company focuses on IT products, cybersecurity, and enterprise solutions.",
+      "method": "web+deepseek",
+      "confidence": "high"
+    },
+    {
+      "company": "TCCM",
+      "reason": "No evidence that TCCM is a smartphone distributor; web results show TCCM as a transfer case control module or unrelated entities.",
+      "method": "web+deepseek",
+      "confidence": "high"
+    },
+    {
+      "company": "Teleplus GSM",
+      "reason": "No evidence found that Teleplus GSM is a smartphone distributor; web search returned unrelated lyrics and Korean portal pages.",
+      "method": "web+deepseek",
+      "confidence": "low"
+    },
+    {
+      "company": "The Phone Hub",
+      "reason": "No evidence found that The Phone Hub is a smartphone distributor; web search results are irrelevant. Core categories are network security, not smartphones.",
+      "method": "web+deepseek",
+      "confidence": "high"
+    },
+    {
+      "company": "TradeIndia",
+      "reason": "TradeIndia is a B2B marketplace platform, not a distributor/wholesaler/retailer itself. It facilitates connections but does not sell smartphones directly.",
+      "method": "web+deepseek",
+      "confidence": "high"
+    },
+    {
+      "company": "Ultra RS",
+      "reason": "No evidence found that Ultra RS is a smartphone distributor; web search results are unrelated. Stored business type and categories are inconsistent with smartphone channel role.",
+      "method": "web+deepseek",
+      "confidence": "medium"
+    },
+    {
+      "company": "XS Distribution",
+      "reason": "No evidence found that XS Distribution is a smartphone distributor; web results are unrelated (iPhone XS product pages, disambiguation, lottery site).",
+      "method": "web+deepseek",
+      "confidence": "high"
+    }
+  ],
+  "verdicts": [
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Evidence confirms 3G Mobile is a leading mobile phone distributor in Africa, supplying phones to retailers.",
+      "field_fixes": {
+        "Core Categories": "Mobile Phones; Tablets; Smartphones",
+        "Specialty Focus": "Distributor of smartphones and mobile phones",
+        "Key Brands Represented": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1333,
+        "out": 111
+      },
+      "evidence_chars": 3290,
+      "company": "3G Mobile",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence found that A&H TECH LTD is a smartphone distributor; web searches returned unrelated results. Stored business type and summary are unverified. | override_keep: phone+channel text with weak/noisy web",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 1202,
+        "out": 79
+      },
+      "evidence_chars": 3189,
+      "company": "A&H TECH LTD",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a B2B wholesale cell phone distributor supplying retailers and resellers, fitting channel partner criteria.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 1185,
+        "out": 108
+      },
+      "evidence_chars": 3106,
+      "company": "A1A Solutions LLC",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence that AB SA is a smartphone distributor; web search results point to AllianceBernstein (asset management) and Allen-Bradley (industrial automation), not a mobile phone channel partner. | override_keep: phone+channel text with weak/noisy web",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 712,
+        "out": 87
+      },
+      "evidence_chars": 1334,
+      "company": "AB SA",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a UK-based distributor of premium mobile phones and accessories, serving businesses across Europe, with top brands like iPhone and Samsung.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 770,
+        "out": 113
+      },
+      "evidence_chars": 1532,
+      "company": "ABC Mobile Ltd",
+      "method": "web+deepseek"
+    },
+    {
+      "company": "ACCE Global Software Pvt Ltd",
+      "action": "remove",
+      "reason": "hard_drop:acce global software",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "field_fixes": {},
+      "confidence": "high",
+      "method": "hard_rule"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Distributor of premium electronics including Apple products, which are smartphones.",
+      "field_fixes": {
+        "Founded": "2025",
+        "Headquarters": "United States",
+        "Website": "https://www.acquvia.com/",
+        "Business Type": "Distributor",
+        "Key Brands Represented": "Apple",
+        "Core Categories": "Premium consumer electronics"
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 602,
+        "out": 126
+      },
+      "evidence_chars": 687,
+      "company": "Acquvia Global",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Stored row indicates distributor of cellular handsets in Ghana, relevant to smartphone market.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 1209,
+        "out": 104
+      },
+      "evidence_chars": 3323,
+      "company": "Agile Telecommunications and Services Ltd",
+      "method": "web+deepseek"
+    },
+    {
+      "company": "Alibaba",
+      "action": "remove",
+      "reason": "hard_drop:alibaba",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "field_fixes": {},
+      "confidence": "high",
+      "method": "hard_rule"
+    },
+    {
+      "company": "Allied Electronics & Automation",
+      "action": "remove",
+      "reason": "hard_drop:allied electronics & automation",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "field_fixes": {},
+      "confidence": "high",
+      "method": "hard_rule"
+    },
+    {
+      "company": "ALSO Holding",
+      "action": "keep",
+      "reason": "known_channel:also",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "field_fixes": {},
+      "confidence": "high",
+      "method": "hard_rule"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Stored row indicates wholesale distribution of bulk new and used phones, serving Caribbean and Latin America resellers, which matches channel partner criteria.",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 1326,
+        "out": 76
+      },
+      "evidence_chars": 3225,
+      "company": "Am Global Network",
+      "method": "web+deepseek"
+    },
+    {
+      "company": "Amazon",
+      "action": "keep",
+      "reason": "known_channel:amazon",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "field_fixes": {},
+      "confidence": "high",
+      "method": "hard_rule"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a German wholesaler specializing in large-volume distribution of mobile phones and tablets, confirmed by official website.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1182,
+        "out": 109
+      },
+      "evidence_chars": 2937,
+      "company": "AMC Elektronik Vertriebs GmbH",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a wholesale distributor of new and refurbished smartphones, as evidenced by LinkedIn and other sources.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 965,
+        "out": 107
+      },
+      "evidence_chars": 2296,
+      "company": "American Cellular Technologies",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a wholesale distributor of smartphones from leading brands, confirmed by web evidence.",
+      "field_fixes": {},
+      "confidence": "high",
+      "usage": {
+        "in": 1092,
+        "out": 65
+      },
+      "evidence_chars": 2687,
+      "company": "AMGM Universal Center SL",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a distributor of mobile phones and accessories, with partnerships with Samsung and Huawei.",
+      "field_fixes": {
+        "Founded": "2018",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "Samsung, Huawei",
+        "Core Categories": "Mobile phones and gadget accessories"
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 871,
+        "out": 118
+      },
+      "evidence_chars": 1329,
+      "company": "Amir Group FZCO",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a distributor that helps resellers source smartphones from U.S. carrier auctions, serving international clients.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 785,
+        "out": 108
+      },
+      "evidence_chars": 1379,
+      "company": "Anything America",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Stored row indicates Apex Group is a distributor providing smartphones to resellers, which matches channel partner criteria.",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 792,
+        "out": 71
+      },
+      "evidence_chars": 1376,
+      "company": "Apex Group",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Stored row indicates ARA Global Group is a wholesale distributor of mobile devices and tablets, which fits the channel partner criteria. Web evidence did not directly confirm but also did not contradict; the company name is distinct from unrelated entities.",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 1349,
+        "out": 95
+      },
+      "evidence_chars": 2375,
+      "company": "ARA Global Group",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence found that Arena Bilgisayar is a smartphone distributor; web search results show unrelated companies with similar names.",
+      "field_fixes": {},
+      "confidence": "high",
+      "usage": {
+        "in": 1044,
+        "out": 73
+      },
+      "evidence_chars": 2699,
+      "company": "Arena Bilgisayar",
+      "method": "web+deepseek"
+    },
+    {
+      "company": "Arrow Electronics",
+      "action": "keep",
+      "reason": "known_channel:arrow electronics",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "field_fixes": {},
+      "confidence": "high",
+      "method": "hard_rule"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "ASAR General Trading FZC is a distributor of smartphones and consumer electronics in the UAE/MENA, as stated on their website.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 898,
+        "out": 113
+      },
+      "evidence_chars": 1450,
+      "company": "ASAR General Trading FZC",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Asbis is a distributor with a stated specialty in smartphones, fitting the channel partner criteria.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 430,
+        "out": 105
+      },
+      "evidence_chars": 13,
+      "company": "Asbis",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence found that AT Computers is a smartphone distributor; web search results are irrelevant. Company appears to be a cybersecurity distributor.",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 751,
+        "out": 74
+      },
+      "evidence_chars": 1384,
+      "company": "AT Computers",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "Company is a platform connecting resellers to suppliers for cybersecurity products, not a smartphone distributor or channel partner.",
+      "field_fixes": {},
+      "confidence": "high",
+      "usage": {
+        "in": 616,
+        "out": 70
+      },
+      "evidence_chars": 452,
+      "company": "Atacaly",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Stored row indicates global distributor of smartphones, tablets, and computers; web evidence is inconclusive but does not contradict.",
+      "field_fixes": {},
+      "confidence": "low",
+      "usage": {
+        "in": 778,
+        "out": 73
+      },
+      "evidence_chars": 1475,
+      "company": "Atlas Tech Group",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Axiom Telecom is a major retailer and distributor of mobile phones in the Middle East, with evidence confirming its role as a channel partner.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "Distributor, Retailer",
+        "Key Brands Represented": "",
+        "Core Categories": "Mobile Phones; Smartphones; Accessories; Repairs"
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1211,
+        "out": 135
+      },
+      "evidence_chars": 2972,
+      "company": "Axiom Telecom",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a distributor/wholesaler of smartphones and accessories, as stated in stored row and summary.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 795,
+        "out": 108
+      },
+      "evidence_chars": 1439,
+      "company": "B2BMobiles EU",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Ban Leong Technologies is a distributor of IT and mobile accessories, including mobile phones, and has been identified as a channel partner in the smartphone market.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1226,
+        "out": 117
+      },
+      "evidence_chars": 3219,
+      "company": "Ban Leong Technologies",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Evidence shows Bass Trading Corporation is a distributor/wholesaler of mobile phones and other consumer electronics, with physical stock and export/import operations.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 760,
+        "out": 116
+      },
+      "evidence_chars": 1355,
+      "company": "Bass Trading Corporation Pty Ltd",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a wholesaler/distributor of mobile devices including smartphones, fitting the channel partner criteria.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 850,
+        "out": 107
+      },
+      "evidence_chars": 1460,
+      "company": "Be Call Distributors LLC",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "Bechtle is an IT systems integrator and reseller, but no evidence of smartphone distribution or channel role; web results are unrelated or generic. | override_keep: phone+channel text with weak/noisy web",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 1380,
+        "out": 80
+      },
+      "evidence_chars": 3544,
+      "company": "Bechtle",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Stored row indicates B2B mobile wholesaler in Dubai with global shipping, and summary confirms channel role. Web evidence is inconclusive but does not contradict.",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 738,
+        "out": 81
+      },
+      "evidence_chars": 1221,
+      "company": "Beeline International FZCO",
+      "method": "web+deepseek"
+    },
+    {
+      "company": "Best Buy",
+      "action": "keep",
+      "reason": "known_channel:best buy",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "field_fixes": {},
+      "confidence": "high",
+      "method": "hard_rule"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "BKM Distribuidora is a distributor that explicitly mentions reselling iPhones, indicating a smartphone channel role.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 502,
+        "out": 110
+      },
+      "evidence_chars": 13,
+      "company": "BKM Distribuidora",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a wholesale distributor of mobile phones, confirmed by LinkedIn and summary.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 956,
+        "out": 102
+      },
+      "evidence_chars": 2030,
+      "company": "Blackburn Telecom Ltd",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence of smartphone distribution; company is an IT distributor focusing on networking and cybersecurity. | override_keep: phone+channel text with weak/noisy web",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 975,
+        "out": 66
+      },
+      "evidence_chars": 2321,
+      "company": "Bluechip Infotech",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "BMC Wholesale is a distributor of mobile phones and accessories, fitting the channel partner criteria.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 468,
+        "out": 107
+      },
+      "evidence_chars": 13,
+      "company": "BMC Wholesale",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Brightstar is a well-known global distributor of mobile devices, with evidence showing it distributes smartphones and has a channel role.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1108,
+        "out": 112
+      },
+      "evidence_chars": 3100,
+      "company": "Brightstar",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Buhotec Miami is a consumer electronics wholesaler/distributor that explicitly offers bulk inventory of iPhones and other phones, shipping globally. It is a channel partner in the smartphone market.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 880,
+        "out": 126
+      },
+      "evidence_chars": 1540,
+      "company": "Buhotec Miami",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "BuskaPhone is a distributor connecting resellers to smartphone suppliers, including iPhone, Xiaomi, and Samsung.",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 1266,
+        "out": 71
+      },
+      "evidence_chars": 2841,
+      "company": "BuskaPhone",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "BuyCell Wireless Group is a distributor connecting retailers and suppliers in the wireless industry, with evidence of events and partnerships with mobile device retailers, indicating a role in smartphone distribution.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 1134,
+        "out": 121
+      },
+      "evidence_chars": 2721,
+      "company": "BuyCell Wireless Group",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a UK wholesale distributor of mobile phones and accessories, fitting the channel partner role.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1015,
+        "out": 105
+      },
+      "evidence_chars": 1075,
+      "company": "Bytes Digital",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company name and summary indicate it is a distributor of smartphones to resellers and retailers, fitting the channel partner criteria.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": "Smartphones; Tablets; Accessories"
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 468,
+        "out": 119
+      },
+      "evidence_chars": 13,
+      "company": "Canada Wholesale Smartphones",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Distributor supplying mobile devices to retailers, relevant to smartphone channel.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "low",
+      "usage": {
+        "in": 469,
+        "out": 101
+      },
+      "evidence_chars": 13,
+      "company": "Canadian Bargain",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "Cancom is an IT solutions provider and systems integrator, not a distributor or reseller of smartphones. Web evidence shows no smartphone distribution role.",
+      "field_fixes": {},
+      "confidence": "high",
+      "usage": {
+        "in": 984,
+        "out": 78
+      },
+      "evidence_chars": 2099,
+      "company": "Cancom",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Carrefour is a major global retailer that sells smartphones among other consumer electronics, acting as a channel partner in the smartphone market.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "Retailer",
+        "Key Brands Represented": "",
+        "Core Categories": "Consumer Electronics; Smartphones"
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 923,
+        "out": 123
+      },
+      "evidence_chars": 1833,
+      "company": "Carrefour",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "CDW is a major IT distributor and reseller that offers a wide range of technology products, including mobile phones and smartphones, to businesses and public sector organizations. It operates as a channel partner in the smartphone market.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 1034,
+        "out": 130
+      },
+      "evidence_chars": 2572,
+      "company": "CDW",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": true,
+      "is_channel_partner": false,
+      "reason": "Cell Dealers is a B2B marketplace platform, not a distributor/wholesaler/reseller itself. It explicitly states it is not a party to transactions, so it does not qualify as a channel partner.",
+      "field_fixes": {},
+      "confidence": "high",
+      "usage": {
+        "in": 906,
+        "out": 92
+      },
+      "evidence_chars": 1993,
+      "company": "Cell Dealers",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a wholesaler/distributor of mobile phones and accessories, fitting the channel partner criteria.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1231,
+        "out": 107
+      },
+      "evidence_chars": 3089,
+      "company": "CellnTell Mobile Phones Wholesaler",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence found that Cells Hub Canada is a smartphone distributor; web search returns unrelated biology results. Stored business type and categories are inconsistent with smartphone channel role. | override_keep: phone+channel text with weak/noisy web",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 1124,
+        "out": 81
+      },
+      "evidence_chars": 3115,
+      "company": "Cells Hub Canada",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Celltel Middle East is a distributor/importer of mobile phones and accessories, as evidenced by web search results.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1347,
+        "out": 109
+      },
+      "evidence_chars": 2941,
+      "company": "Celltel Middle East L.L.C.",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Stored row indicates Cellular King is a Canadian retailer offering smartphones and mobile services, which fits the channel partner definition. Web evidence does not contradict this, though it is weak.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "low",
+      "usage": {
+        "in": 776,
+        "out": 122
+      },
+      "evidence_chars": 1525,
+      "company": "Cellular King",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Stored row indicates Cellular Point is a Canadian retailer specializing in mobile phones and accessories, which fits the channel partner definition. Web evidence is weak but does not contradict the stored description.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 873,
+        "out": 123
+      },
+      "evidence_chars": 1855,
+      "company": "Cellular Point",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "CFP Limited is a UK-based B2B wholesale distributor of refurbished phones, including smartphones, supplying retailers and corporate clients.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1233,
+        "out": 113
+      },
+      "evidence_chars": 3132,
+      "company": "CFP Limited",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a wholesale distributor specializing in smartphones and tablets, serving retailers and resellers.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1211,
+        "out": 104
+      },
+      "evidence_chars": 3065,
+      "company": "Chicago Phones Wholesale LLC",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence found that Cinco Metros is a distributor of mobile phones; web search results are unrelated. | override_keep: phone+channel text with weak/noisy web",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 1496,
+        "out": 70
+      },
+      "evidence_chars": 3525,
+      "company": "Cinco Metros",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Clicktel GmbH is an international B2B distributor specializing in smartphones and consumer electronics, with evidence of participation in ITC and IFA as a distributor/reseller.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 801,
+        "out": 122
+      },
+      "evidence_chars": 1386,
+      "company": "Clicktel GmbH",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a distributor of smartphones for Latin America, as evidenced by their website.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 528,
+        "out": 103
+      },
+      "evidence_chars": 293,
+      "company": "CNZ TECH INC",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence of smartphone distribution; core categories are cybersecurity, not mobile phones. | override_keep: phone+channel text with weak/noisy web",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 429,
+        "out": 64
+      },
+      "evidence_chars": 13,
+      "company": "CompuCell",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence found that Compusoluciones distributes smartphones; web results indicate IT distribution (cybersecurity, Matterport) and no smartphone-related content.",
+      "field_fixes": {},
+      "confidence": "high",
+      "usage": {
+        "in": 1446,
+        "out": 79
+      },
+      "evidence_chars": 3072,
+      "company": "Compusoluciones",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "Computacenter is an IT services and infrastructure provider, not a distributor or reseller of smartphones. No evidence of smartphone channel role. | override_keep: phone+channel text with weak/noisy web",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 1234,
+        "out": 76
+      },
+      "evidence_chars": 3281,
+      "company": "Computacenter",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence of smartphone distribution; company focuses on cybersecurity and cloud services. | override_keep: phone+channel text with weak/noisy web",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 527,
+        "out": 63
+      },
+      "evidence_chars": 418,
+      "company": "Computer Gross",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence of smartphone distribution; web results show unrelated industrial equipment and Berchem district pages. | override_keep: phone+channel text with weak/noisy web",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 1208,
+        "out": 67
+      },
+      "evidence_chars": 3060,
+      "company": "Computronstore",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence found that Conexio is a smartphone distributor; web search results are irrelevant. Stored business type and categories indicate cybersecurity focus.",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 903,
+        "out": 77
+      },
+      "evidence_chars": 1122,
+      "company": "Conexio",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "Connection is an IT solutions provider, not a smartphone distributor or channel partner. Web evidence shows no smartphone/mobile phone distribution role.",
+      "field_fixes": {},
+      "confidence": "high",
+      "usage": {
+        "in": 1063,
+        "out": 75
+      },
+      "evidence_chars": 2755,
+      "company": "Connection",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence found that Coolmix is a smartphone distributor; web results show unrelated content (music, blender, etc.).",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 950,
+        "out": 73
+      },
+      "evidence_chars": 1551,
+      "company": "Coolmix",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence found that Copaco distributes smartphones; web results show unrelated content and IT security distribution.",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 1104,
+        "out": 69
+      },
+      "evidence_chars": 2333,
+      "company": "Copaco",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence of smartphone distribution; web search results are irrelevant (Chinese medicine). Company appears to be a telecom retailer but not confirmed as smartphone channel partner.",
+      "field_fixes": {},
+      "confidence": "low",
+      "usage": {
+        "in": 1033,
+        "out": 79
+      },
+      "evidence_chars": 1026,
+      "company": "CPVM Group",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence that Creative Newtech distributes smartphones; web search results are irrelevant and company focuses on cybersecurity products.",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 974,
+        "out": 71
+      },
+      "evidence_chars": 2544,
+      "company": "Creative Newtech",
+      "method": "web+deepseek"
+    },
+    {
+      "company": "Croma",
+      "action": "keep",
+      "reason": "known_channel:croma",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "field_fixes": {},
+      "confidence": "high",
+      "method": "hard_rule"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence of smartphone distribution; company appears to be a job portal listing, not a distributor.",
+      "field_fixes": {},
+      "confidence": "low",
+      "usage": {
+        "in": 531,
+        "out": 68
+      },
+      "evidence_chars": 360,
+      "company": "CT Internacional",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Distributor of mobile phone accessories to retailers and wholesalers, serving the smartphone market channel.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1156,
+        "out": 106
+      },
+      "evidence_chars": 2933,
+      "company": "CUBE Distribution Ltd",
+      "method": "web+deepseek"
+    },
+    {
+      "company": "Currys",
+      "action": "keep",
+      "reason": "known_channel:currys",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "field_fixes": {},
+      "confidence": "high",
+      "method": "hard_rule"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a distributor of smartphones and mobile devices in the Middle East, as stated in the stored row and summary.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 1364,
+        "out": 110
+      },
+      "evidence_chars": 3146,
+      "company": "CYBO Trading FZCO",
+      "method": "web+deepseek"
+    },
+    {
+      "company": "D&H Distributing",
+      "action": "keep",
+      "reason": "known_channel:d&h",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "field_fixes": {},
+      "confidence": "high",
+      "method": "hard_rule"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence found that Daebak Company Ltd. is a smartphone distributor; web results show a Korean snack/beauty subscription box and unrelated meanings of 'daebak'.",
+      "field_fixes": {},
+      "confidence": "high",
+      "usage": {
+        "in": 1319,
+        "out": 85
+      },
+      "evidence_chars": 3141,
+      "company": "Daebak Company Ltd.",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Data Select is a known mobile phone distributor in the UK, with evidence of smartphone distribution and channel activities.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "UK",
+        "Website": "",
+        "Business Type": "Distributor",
+        "Key Brands Represented": "",
+        "Core Categories": "Smartphones; Mobile Phones"
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1157,
+        "out": 121
+      },
+      "evidence_chars": 2862,
+      "company": "Data Select",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "Datagate Bilgisayar is a telecom billing software provider for MSPs, not a distributor of smartphones.",
+      "field_fixes": {},
+      "confidence": "high",
+      "usage": {
+        "in": 804,
+        "out": 72
+      },
+      "evidence_chars": 1486,
+      "company": "Datagate Bilgisayar",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Stored row indicates a distributor focused on Xiaomi, Apple, and Samsung smartphones, which qualifies as a channel partner in the smartphone market.",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 813,
+        "out": 77
+      },
+      "evidence_chars": 1269,
+      "company": "DC Eletroshop",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence found that DDS Trading is a smartphone distributor; web search results show unrelated entities with similar names.",
+      "field_fixes": {},
+      "confidence": "low",
+      "usage": {
+        "in": 1003,
+        "out": 71
+      },
+      "evidence_chars": 2319,
+      "company": "DDS Trading",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence of smartphone distribution; core categories are cybersecurity and networking, not mobile phones. | override_keep: phone+channel text with weak/noisy web",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 972,
+        "out": 66
+      },
+      "evidence_chars": 2136,
+      "company": "Device Supply",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Stored row indicates DF Celulares is a wholesaler of smartphones, and the summary confirms it is a channel company. Web evidence is inconclusive but does not contradict the stored information.",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 933,
+        "out": 86
+      },
+      "evidence_chars": 1497,
+      "company": "DF Celulares",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Dicker Data is a distributor that has added Optus to its telco division, indicating involvement in mobile phone distribution.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 1088,
+        "out": 111
+      },
+      "evidence_chars": 2799,
+      "company": "Dicker Data",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Digiworld is a distributor of smartphones in Vietnam, as evidenced by its partnership with Obi Mobiles to distribute smartphones and its role as a wholesale mobility distributor.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1406,
+        "out": 119
+      },
+      "evidence_chars": 3605,
+      "company": "Digiworld",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a distributor specializing in wholesale distribution of smartphones, matching channel partner criteria.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 1137,
+        "out": 103
+      },
+      "evidence_chars": 2593,
+      "company": "Distribuidora de Celulares Brasil",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": true,
+      "is_channel_partner": false,
+      "reason": "Dixon Technologies is an electronics manufacturing services (EMS) provider and contract manufacturer for smartphones, not a distributor, wholesaler, retailer, or reseller. It does not operate as a channel partner in the smartphone distribution chain.",
+      "field_fixes": {},
+      "confidence": "high",
+      "usage": {
+        "in": 1400,
+        "out": 94
+      },
+      "evidence_chars": 3614,
+      "company": "Dixon Technologies",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a wholesale supplier of refurbished smartphones, acting as a distributor/reseller in the smartphone channel.",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 1239,
+        "out": 70
+      },
+      "evidence_chars": 3263,
+      "company": "Dragon Teng Limited",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Distributor of electronics including smartphones to retailers/resellers.",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 676,
+        "out": 61
+      },
+      "evidence_chars": 915,
+      "company": "Drakify Express",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence found that ECS Holdings is a smartphone distributor; web results show unrelated entities (AWS ECS, ECS Tuning, etc.) and no smartphone channel role.",
+      "field_fixes": {},
+      "confidence": "high",
+      "usage": {
+        "in": 829,
+        "out": 84
+      },
+      "evidence_chars": 1865,
+      "company": "ECS Holdings",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence of smartphone distribution; web search results are unrelated to the company or market. | override_keep: phone+channel text with weak/noisy web",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 862,
+        "out": 66
+      },
+      "evidence_chars": 1796,
+      "company": "eD system",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company website states it supplies smartphones wholesale across Europe, indicating a distributor role in the smartphone market.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1066,
+        "out": 106
+      },
+      "evidence_chars": 2496,
+      "company": "Electro Innovate s.r.o.",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Specializes in selling smartphones for corporate/B2B market, identified as distributor.",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 729,
+        "out": 65
+      },
+      "evidence_chars": 986,
+      "company": "Electromarcas",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence found that Elex is a smartphone distributor; web results refer to a video game and unrelated entities. | override_keep: phone+channel text with weak/noisy web",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 1308,
+        "out": 71
+      },
+      "evidence_chars": 3150,
+      "company": "Elex",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Elkjøp is a major consumer electronics retailer in the Nordics, selling smartphones and mobile phones as part of its product range.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "Retailer",
+        "Key Brands Represented": "",
+        "Core Categories": "Consumer electronics; smartphones; mobile phones"
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1277,
+        "out": 126
+      },
+      "evidence_chars": 3078,
+      "company": "Elkjøp",
+      "method": "web+deepseek"
+    },
+    {
+      "company": "Elko Group",
+      "action": "keep",
+      "reason": "known_channel:elko",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "field_fixes": {},
+      "confidence": "high",
+      "method": "hard_rule"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Emitac is a distributor with evidence of mobile solutions and channel presence in the Middle East.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 1086,
+        "out": 106
+      },
+      "evidence_chars": 2343,
+      "company": "Emitac",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Stored data indicates Encore Cellular is a distributor of wholesale mobile phones and accessories, which fits the channel partner criteria. Web evidence does not directly confirm but does not contradict; the company name is distinct from other 'Encore' entities.",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 750,
+        "out": 97
+      },
+      "evidence_chars": 1330,
+      "company": "Encore Cellular",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Erajaya is a major distributor of smartphones in Indonesia, evidenced by its role as an authorized distributor for iPhone and other mobile devices.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "Jakarta, Indonesia",
+        "Website": "https://www.erajaya.com",
+        "Business Type": "Distributor",
+        "Key Brands Represented": "Apple (iPhone), Garmin, Xpeng (EV)",
+        "Core Categories": "Smartphones; Mobile Devices; Consumer Electronics"
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1001,
+        "out": 155
+      },
+      "evidence_chars": 1778,
+      "company": "Erajaya",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence found that Esprinet distributes smartphones; web search returned irrelevant results. Stored categories focus on network security, not mobile phones. | override_keep: phone+channel text with weak/noisy web",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 1227,
+        "out": 78
+      },
+      "evidence_chars": 3009,
+      "company": "Esprinet",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a wholesale distributor of smartphones, as stated in its website and summary.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 772,
+        "out": 103
+      },
+      "evidence_chars": 1170,
+      "company": "Estambilo",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence of smartphone distribution; web search returns irrelevant EU Wikipedia pages. Core categories are network security, not mobile phones.",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 843,
+        "out": 73
+      },
+      "evidence_chars": 1609,
+      "company": "EU Mobile Wholesalers",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Exertis is a distributor of technology products for B2B, mobile, and retail markets, with evidence of distributing smartphones and mobile phones (e.g., LG G5, Kazam, refurbished handsets).",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1353,
+        "out": 132
+      },
+      "evidence_chars": 3720,
+      "company": "Exertis",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Exertis Ireland is a distributor that sells DECT phones and is listed as a distributor of smartphones; it is a channel partner in the mobile phone market.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 1391,
+        "out": 119
+      },
+      "evidence_chars": 3332,
+      "company": "Exertis Ireland",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence of smartphone/mobile phone distribution; web search results are irrelevant. Company appears to be a B2B marketplace but lacks specific smartphone channel role.",
+      "field_fixes": {},
+      "confidence": "low",
+      "usage": {
+        "in": 1314,
+        "out": 80
+      },
+      "evidence_chars": 3105,
+      "company": "ExpoGSM",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a wholesale distributor of smartphones, explicitly mentioned as a supplier for resellers.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "Distributor",
+        "Key Brands Represented": "Samsung, iPhone, LG, ASUS, Motorola, MOX",
+        "Core Categories": "Smartphones; Mobile Phones"
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 971,
+        "out": 131
+      },
+      "evidence_chars": 1620,
+      "company": "F Romão Celulares",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Fido is a Canadian wireless carrier that sells smartphones directly to consumers, acting as a retail channel partner.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "Carrier/Retail",
+        "Key Brands Represented": "",
+        "Core Categories": "Smartphones; Mobile Services"
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 932,
+        "out": 120
+      },
+      "evidence_chars": 2256,
+      "company": "Fido Solutions Inc.",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Flipkart is a major e-commerce platform in India that sells smartphones directly to consumers, acting as a retailer/distributor in the smartphone market.",
+      "field_fixes": {
+        "Business Type": "Retailer / E-commerce Platform",
+        "Core Categories": "Smartphones; Mobile Phones; Consumer Electronics",
+        "Key Brands Represented": "Apple, Samsung, Xiaomi, Realme, Nothing, Honor, Blu, etc."
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1473,
+        "out": 137
+      },
+      "evidence_chars": 3863,
+      "company": "Flipkart",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Fonehouse is a UK-based retailer specializing in mobile phones and accessories, with evidence of selling and repairing smartphones.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "Retailer",
+        "Key Brands Represented": "",
+        "Core Categories": "Mobile Phones; Accessories; Repairs"
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1284,
+        "out": 124
+      },
+      "evidence_chars": 3199,
+      "company": "Fonehouse",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Freedom Mobile is a Canadian wireless carrier that sells smartphones and mobile services directly to consumers, acting as a retail channel partner.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "Retailer",
+        "Key Brands Represented": "",
+        "Core Categories": "Smartphones; Mobile Services"
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1191,
+        "out": 121
+      },
+      "evidence_chars": 3095,
+      "company": "Freedom Mobile",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "Fry's Electronics is a defunct consumer electronics retailer, but web evidence shows no clear smartphone channel role; the company closed in 2021 and is not a current distributor/wholesaler/reseller. | override_keep: phone+channel text with weak/noisy web",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 1294,
+        "out": 91
+      },
+      "evidence_chars": 3390,
+      "company": "Fry's Electronics",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Fujioka Distribuidor is a major Brazilian distributor and retailer of technology products, including smartphones, with multiple retail locations and a distribution arm.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1547,
+        "out": 116
+      },
+      "evidence_chars": 3482,
+      "company": "Fujioka Distribuidor",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is described as a Pan-African smartphone distribution company, indicating a channel role in the smartphone market.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 823,
+        "out": 108
+      },
+      "evidence_chars": 1557,
+      "company": "GetPhone Limited",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a distributor of smartphones and electronics in the Middle East, fitting the channel partner criteria.",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 481,
+        "out": 68
+      },
+      "evidence_chars": 13,
+      "company": "Ghazal Alreem Electronics Trading L.L.C.",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Gizo Ltd is an authorized Samsung distributor for Africa, supplying genuine Samsung phones to retailers, corporates, and institutions, clearly a channel partner in the smartphone market.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 953,
+        "out": 120
+      },
+      "evidence_chars": 966,
+      "company": "Gizo Ltd",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Stored row indicates authorized distributor for Samsung and Motorola smartphones; web evidence shows import shipments of mobile phones, supporting channel role.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 887,
+        "out": 113
+      },
+      "evidence_chars": 1743,
+      "company": "Global Phone Solutions LLC",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is described as a wholesale distributor of mobile phones, which fits the channel partner criteria.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 1135,
+        "out": 105
+      },
+      "evidence_chars": 3084,
+      "company": "Globe Mobility Pvt. Ltd.",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "Web evidence shows GoodSAM is an emergency response platform, not a smartphone distributor. Stored row appears to be a different entity or fabricated.",
+      "field_fixes": {},
+      "confidence": "high",
+      "usage": {
+        "in": 722,
+        "out": 77
+      },
+      "evidence_chars": 1182,
+      "company": "Goodsam",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a distributor specializing in smartphone wholesale, fitting channel partner criteria.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 1103,
+        "out": 101
+      },
+      "evidence_chars": 1170,
+      "company": "Greenobe Electronics",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence found that Grupo Deltron is a smartphone distributor; web search returned irrelevant results. Core categories are cybersecurity, not smartphones.",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 1197,
+        "out": 76
+      },
+      "evidence_chars": 1899,
+      "company": "Grupo Deltron",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a B2B trading network for mobile devices, indicating a distributor/wholesaler role in the smartphone market.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 1119,
+        "out": 112
+      },
+      "evidence_chars": 2913,
+      "company": "GSM-B2B",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Business type is distributor and specialty focus explicitly mentions connecting distributors with smartphone brands in Latin America.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 824,
+        "out": 105
+      },
+      "evidence_chars": 1465,
+      "company": "H-Technology",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Handtec is a UK-based retailer/distributor of smartphones, tablets, and technology, selling new and refurbished phones. Evidence shows it is a channel partner in the smartphone market.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "Retailer/Distributor",
+        "Key Brands Represented": "",
+        "Core Categories": "Smartphones; Tablets; Technology"
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1343,
+        "out": 140
+      },
+      "evidence_chars": 3273,
+      "company": "Handtec",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Handytreff GmbH is a distributor and wholesaler of mobile phones and accessories, as evidenced by multiple sources.",
+      "field_fixes": {
+        "Founded": "1996",
+        "Headquarters": "Bünde, Germany",
+        "Website": "https://www.handytreff.de/",
+        "Business Type": "Distributor, Wholesaler",
+        "Key Brands Represented": "Brodit",
+        "Core Categories": "Mobile phones, accessories, hands-free kits, batteries"
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1237,
+        "out": 153
+      },
+      "evidence_chars": 2694,
+      "company": "Handytreff GmbH",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a distributor/wholesaler of smartphones and tablets, as stated in stored data and LinkedIn presence.",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 742,
+        "out": 71
+      },
+      "evidence_chars": 1233,
+      "company": "HANITEL GmbH",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a B2B distributor/wholesaler of mobile phones and accessories, serving retailers and resellers.",
+      "field_fixes": {
+        "Core Categories": "Mobile Phones; Tablets; Laptops; Accessories"
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1193,
+        "out": 94
+      },
+      "evidence_chars": 3308,
+      "company": "Hong Kong Wholesalers",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Stored business type and summary indicate wholesale distributor of mobile phones, which is a channel partner in the smartphone market.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 882,
+        "out": 110
+      },
+      "evidence_chars": 1593,
+      "company": "HSP Communications",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence found that HV Group is a smartphone distributor; web results relate to high voltage, not the company. | override_keep: phone+channel text with weak/noisy web",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 929,
+        "out": 71
+      },
+      "evidence_chars": 2047,
+      "company": "HV Group",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a wholesaler of used mobile phones, fitting the channel partner definition.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 855,
+        "out": 103
+      },
+      "evidence_chars": 1562,
+      "company": "I Need A Mobile",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "iByte Atacado is the wholesale arm of a retail network, explicitly offering smartphones and electronics for resale, fitting the distributor/wholesaler channel role.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1286,
+        "out": 120
+      },
+      "evidence_chars": 2846,
+      "company": "iByte Atacado",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence found that IMC Arabia is a smartphone distributor; web search results show unrelated entities (IMC parts, BMI calculators, trading firm). Stored summary appears fabricated.",
+      "field_fixes": {},
+      "confidence": "high",
+      "usage": {
+        "in": 816,
+        "out": 84
+      },
+      "evidence_chars": 1366,
+      "company": "IMC Arabia",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a distributor of electronics and accessories, including smartphones, for store replenishment.",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 1322,
+        "out": 66
+      },
+      "evidence_chars": 2995,
+      "company": "Importline",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence found that Indeks Bilgisayar distributes smartphones; web results are unrelated logistics content.",
+      "field_fixes": {},
+      "confidence": "low",
+      "usage": {
+        "in": 917,
+        "out": 70
+      },
+      "evidence_chars": 1623,
+      "company": "Indeks Bilgisayar",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence that Index Group is a smartphone distributor; web search returns unrelated results.",
+      "field_fixes": {},
+      "confidence": "high",
+      "usage": {
+        "in": 724,
+        "out": 65
+      },
+      "evidence_chars": 1382,
+      "company": "Index Group",
+      "method": "web+deepseek"
+    },
+    {
+      "company": "Ingram Micro",
+      "action": "keep",
+      "reason": "known_channel:ingram micro",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "field_fixes": {},
+      "confidence": "high",
+      "method": "hard_rule"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence found that Inova Distribuidora is a smartphone/mobile phone distributor; web results show unrelated entities (health system, credit union, John Deere distributor). | override_keep: phone+channel text with weak/noisy web",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 1253,
+        "out": 84
+      },
+      "evidence_chars": 3232,
+      "company": "Inova Distribuidora",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "Insight Enterprises is a solutions integrator and IT services provider, not a distributor or channel partner of smartphones. No evidence of smartphone distribution. | override_keep: phone+channel text with weak/noisy web",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 691,
+        "out": 77
+      },
+      "evidence_chars": 1301,
+      "company": "Insight Enterprises",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Intcomex is a distributor with a stated specialty in smartphones, fitting the channel partner criteria.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 430,
+        "out": 106
+      },
+      "evidence_chars": 13,
+      "company": "Intcomex",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence found that inTechnology Distribution is a smartphone distributor; web search returned unrelated results. Stored data focuses on network security products, not mobile phones.",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 787,
+        "out": 80
+      },
+      "evidence_chars": 1504,
+      "company": "inTechnology Distribution",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a wholesale distributor of new and pre-owned mobile devices, fitting the channel partner criteria.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 1408,
+        "out": 106
+      },
+      "evidence_chars": 2519,
+      "company": "IntelliTrade Global Pty Ltd",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a distributor of new and refurbished wireless mobile phones, as stated on their website and corroborated by other sources.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1373,
+        "out": 112
+      },
+      "evidence_chars": 3436,
+      "company": "iONETEK Advanced Technology",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "iSTYLE Global is a wholesale distributor of Apple devices, including iPhones, and is a channel partner in the smartphone market.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1218,
+        "out": 114
+      },
+      "evidence_chars": 2887,
+      "company": "iSTYLE Global",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a distributor of smartphone and tablet accessories, fitting channel partner role.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 1020,
+        "out": 102
+      },
+      "evidence_chars": 2112,
+      "company": "IT Wholesalers",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a distributor of mobile phones and consumer electronics, fitting channel partner role.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 640,
+        "out": 103
+      },
+      "evidence_chars": 826,
+      "company": "iTech Electronics",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a global wholesale distributor of mobile devices, supplying smartphones to operators, governments, and trade partners, fitting the channel partner role.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 463,
+        "out": 114
+      },
+      "evidence_chars": 13,
+      "company": "Jawali Telecom",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "JD.com is a major e-commerce platform and retailer that sells smartphones directly to consumers, functioning as a channel partner in the smartphone market.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "Retailer",
+        "Key Brands Represented": "",
+        "Core Categories": "E-commerce; Smartphones; Consumer Electronics"
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1312,
+        "out": 127
+      },
+      "evidence_chars": 2892,
+      "company": "JD.com",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a distributor of smartphones, specifically iPhones and other smartphones, serving businesses.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 942,
+        "out": 105
+      },
+      "evidence_chars": 1631,
+      "company": "JK Celulares",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Operates a B2B marketplace for wholesale smartphones and electronic devices, connecting suppliers and resellers globally, which qualifies as a distributor/reseller channel.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 957,
+        "out": 117
+      },
+      "evidence_chars": 1613,
+      "company": "JSH Tech Mobile",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Jumbo Electronics is a distributor/retailer of smartphones in the UAE, as evidenced by their mobile phones page.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "UAE",
+        "Website": "",
+        "Business Type": "Distributor/Retailer",
+        "Key Brands Represented": "",
+        "Core Categories": "Smartphones; Consumer Electronics"
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 847,
+        "out": 128
+      },
+      "evidence_chars": 1680,
+      "company": "Jumbo Electronics",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a wholesale distributor of smartphones and mobile phones, with evidence of B2B trading and exporting.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1249,
+        "out": 108
+      },
+      "evidence_chars": 3118,
+      "company": "Kamkwat Limited",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": true,
+      "is_channel_partner": false,
+      "reason": "Karbonn Mobiles is an OEM manufacturer of smartphones, not a distributor, wholesaler, retailer, or reseller. Although its founders were distributors, the company itself is a brand/manufacturer.",
+      "field_fixes": {},
+      "confidence": "high",
+      "usage": {
+        "in": 1359,
+        "out": 90
+      },
+      "evidence_chars": 3401,
+      "company": "Karbonn Mobiles",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "Company is a freight forwarder and customs clearance provider, not a distributor or channel partner of smartphones.",
+      "field_fixes": {},
+      "confidence": "high",
+      "usage": {
+        "in": 732,
+        "out": 69
+      },
+      "evidence_chars": 1173,
+      "company": "Keenam International",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence found that Kikaku Exports is a smartphone distributor; web results show unrelated real estate listings. Company appears to be a cybersecurity distributor, not a mobile phone channel partner. | override_keep: phone+channel text with weak/noisy web",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 1045,
+        "out": 86
+      },
+      "evidence_chars": 1744,
+      "company": "Kikaku Exports",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence found that Kintex is a smartphone distributor; web results show an unrelated elastic factory and irrelevant Chinese AI content. | override_keep: phone+channel text with weak/noisy web",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 1251,
+        "out": 73
+      },
+      "evidence_chars": 1941,
+      "company": "Kintex",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence found that KM Mobile is a smartphone distributor; web search results are irrelevant. Stored business type and categories are inconsistent with smartphone channel role.",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 923,
+        "out": 79
+      },
+      "evidence_chars": 2000,
+      "company": "KM Mobile",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Kogan is an online retailer that sells smartphones and mobile plans, acting as a channel partner.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "Online Retailer",
+        "Key Brands Represented": "",
+        "Core Categories": "Smartphones; Mobile Phones; Consumer Electronics"
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1200,
+        "out": 120
+      },
+      "evidence_chars": 2906,
+      "company": "Kogan",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence found that Komsa is a smartphone distributor; web search results are irrelevant and the company's core categories are network security products. | override_keep: phone+channel text with weak/noisy web",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 1205,
+        "out": 77
+      },
+      "evidence_chars": 2673,
+      "company": "Komsa",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Koodo Mobile is a Canadian wireless carrier that sells smartphones directly to consumers and through authorized dealers, acting as a retail channel partner.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "Carrier/Retail",
+        "Key Brands Represented": "",
+        "Core Categories": "Smartphones; Mobile Plans; Wireless Services"
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1268,
+        "out": 129
+      },
+      "evidence_chars": 2934,
+      "company": "Koodo Mobile",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company website explicitly states it is a mobile phone wholesale company operating in the EU, fitting the channel partner definition.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 1286,
+        "out": 109
+      },
+      "evidence_chars": 2952,
+      "company": "KRM Építkezési KFT",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company website explicitly states it is a B2B trading partner specializing in mobile phones and consumer electronics, indicating a channel role.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 1155,
+        "out": 112
+      },
+      "evidence_chars": 2470,
+      "company": "KTEX FZCO",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": true,
+      "is_channel_partner": false,
+      "reason": "Lava International is an OEM/brand that manufactures smartphones, not a distributor, wholesaler, retailer, or reseller.",
+      "field_fixes": {},
+      "confidence": "high",
+      "usage": {
+        "in": 1010,
+        "out": 74
+      },
+      "evidence_chars": 2323,
+      "company": "Lava International",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Lazada is a major e-commerce platform that sells smartphones and is an authorized reseller for brands like Apple, fitting the channel partner definition.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "E-commerce platform / Online retailer",
+        "Key Brands Represented": "",
+        "Core Categories": "Smartphones; Mobile Phones; Consumer Electronics"
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1113,
+        "out": 133
+      },
+      "evidence_chars": 2576,
+      "company": "Lazada",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Logicom is a distributor of technology solutions, including smartphones, as evidenced by its LinkedIn profile and retail listings of Logicom mobile phones.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 1224,
+        "out": 114
+      },
+      "evidence_chars": 3307,
+      "company": "Logicom",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "London Drugs is a Canadian retail chain that sells smartphones and mobile accessories, acting as a retailer in the smartphone market.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "Retailer",
+        "Key Brands Represented": "",
+        "Core Categories": "Smartphones; Mobile Accessories"
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 992,
+        "out": 121
+      },
+      "evidence_chars": 2503,
+      "company": "London Drugs",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Lotus Electronics operates retail stores in India selling smartphones, as evidenced by web listings and a blog post.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "Retailer",
+        "Key Brands Represented": "",
+        "Core Categories": "Smartphones; Consumer Electronics"
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 798,
+        "out": 118
+      },
+      "evidence_chars": 1516,
+      "company": "Lotus Electronics",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence found that Luiz Eletrônicos is a distributor of smartphones or mobile handsets; web search results are unrelated. The company appears to focus on mobile phone accessories, not handsets. | override_keep: phone+channel text with weak/noisy web",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 1405,
+        "out": 90
+      },
+      "evidence_chars": 2476,
+      "company": "Luiz Eletrônicos",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence found that Mars Communications Tanzania is a smartphone distributor; web search returned irrelevant results about the planet Mars. | override_keep: phone+channel text with weak/noisy web",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 793,
+        "out": 71
+      },
+      "evidence_chars": 1450,
+      "company": "Mars Communications Tanzania",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Martins Atacado is a major Brazilian distributor with a broad portfolio including smartphones, as stated in the stored row and supported by web evidence of its distribution operations.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 856,
+        "out": 120
+      },
+      "evidence_chars": 1467,
+      "company": "Martins Atacado",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "MediaMarktSaturn is a major European electronics retailer that sells smartphones, acting as a retail channel partner.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "Retailer",
+        "Key Brands Represented": "",
+        "Core Categories": "Consumer Electronics; Smartphones"
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1275,
+        "out": 119
+      },
+      "evidence_chars": 2924,
+      "company": "MediaMarktSaturn",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence found that Memory Set is a smartphone distributor; web search results are unrelated to the company.",
+      "field_fixes": {},
+      "confidence": "high",
+      "usage": {
+        "in": 1054,
+        "out": 69
+      },
+      "evidence_chars": 2837,
+      "company": "Memory Set",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Wholesale distributor specializing in smartphones for LATAM and Caribbean.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 468,
+        "out": 100
+      },
+      "evidence_chars": 13,
+      "company": "Mercury Cellular",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Mi Brasil is the official Xiaomi store in Brazil, directly selling smartphones and other Xiaomi products, thus acting as a retail channel partner.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "Retailer",
+        "Key Brands Represented": "Xiaomi",
+        "Core Categories": "Smartphones; Consumer Electronics"
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 809,
+        "out": 129
+      },
+      "evidence_chars": 1293,
+      "company": "Mi Brasil",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a distributor offering wholesale services for smartphones, tablets, and wearables, fitting the channel partner criteria.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 869,
+        "out": 109
+      },
+      "evidence_chars": 1593,
+      "company": "MICHAEL AG",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": true,
+      "is_channel_partner": false,
+      "reason": "Micromax Informatics is an OEM smartphone manufacturer, not a distributor, wholesaler, retailer, or reseller.",
+      "field_fixes": {},
+      "confidence": "high",
+      "usage": {
+        "in": 1404,
+        "out": 72
+      },
+      "evidence_chars": 3688,
+      "company": "Micromax Informatics",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Stored row indicates Mix Global is a wholesale distributor of Apple devices (iPhones), which qualifies as a channel partner in the smartphone market. Web evidence did not directly confirm, but the stored data is specific and plausible.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 1047,
+        "out": 132
+      },
+      "evidence_chars": 2294,
+      "company": "Mix Global",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a distributor of bulk smartphones, tablets, and accessories to wholesalers, retailers, resellers, and distributors, fitting the channel partner definition.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 1084,
+        "out": 117
+      },
+      "evidence_chars": 1153,
+      "company": "MO2MO Wireless LLC",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a distributor specializing in mobile technology trade, serving over 50 countries, which aligns with smartphone channel role.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 673,
+        "out": 110
+      },
+      "evidence_chars": 955,
+      "company": "Mobex International FZ",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence found that Mobile Depot is a smartphone distributor; web search results are unrelated (mobile.de is a car marketplace, 91mobiles is a tech info site, T-Mobile is a carrier). Stored data appears inconsistent.",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 738,
+        "out": 96
+      },
+      "evidence_chars": 1301,
+      "company": "Mobile Depot",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Mobile Klinik is a Canadian retailer offering smartphone repair services and accessories, and is an authorized distributor for TELUS and Koodo, indicating a channel role in the smartphone market.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "Retailer",
+        "Key Brands Represented": "TELUS, Koodo",
+        "Core Categories": "Smartphone repair; accessories; retail"
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1007,
+        "out": 145
+      },
+      "evidence_chars": 2146,
+      "company": "Mobile Klinik",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a distributor/wholesaler of mobile phones, tablets, and accessories, as confirmed by multiple sources.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "London, England",
+        "Website": "",
+        "Business Type": "Distributor, Wholesaler, Exporter",
+        "Key Brands Represented": "",
+        "Core Categories": "Mobile phones, tablets, gadgets, accessories"
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1286,
+        "out": 134
+      },
+      "evidence_chars": 3429,
+      "company": "Mobile Phone Wholesalers",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Evidence indicates Mobile Phones Factory is a wholesaler/distributor of mobile phones based in London, directly relevant to the smartphone market.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "London, UK",
+        "Website": "",
+        "Business Type": "Wholesaler/Distributor",
+        "Key Brands Represented": "",
+        "Core Categories": "Smartphones; Mobile Phones; Accessories; Tablets"
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 933,
+        "out": 139
+      },
+      "evidence_chars": 2011,
+      "company": "Mobile Phones Factory",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence found that Mobile Shop is a smartphone distributor; web results show unrelated entities (mobile.de, T-Mobile, etc.) and the stored core categories are cybersecurity, not mobile devices.",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 1185,
+        "out": 87
+      },
+      "evidence_chars": 2885,
+      "company": "Mobile Shop",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company specializes in wholesale of mobile phones, clearly a channel partner in the smartphone market.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1119,
+        "out": 104
+      },
+      "evidence_chars": 2867,
+      "company": "Mobiles Wholesale",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "MobilX FZCO is a distributor and importer of branded mobile phones, with evidence from LinkedIn and other sources confirming its role as a channel partner in the smartphone market.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 911,
+        "out": 123
+      },
+      "evidence_chars": 1523,
+      "company": "MobilX FZCO",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "MobiWire is a distributor of mobile devices and smartphones across Europe, as stated in the stored row and supported by web evidence showing retail availability and device guides.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1265,
+        "out": 119
+      },
+      "evidence_chars": 3179,
+      "company": "MobiWire",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Stored row indicates a wholesaler of smartphones serving Latin America, and the website confirms mobile phone deals. Despite web evidence showing unrelated 'Mondo' entities, the company's own site and description support its role as a smartphone distributor.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 1130,
+        "out": 134
+      },
+      "evidence_chars": 2485,
+      "company": "Mondo Movil US",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence found that MountPole is a smartphone distributor; web results are unrelated. | override_keep: phone+channel text with weak/noisy web",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 1218,
+        "out": 66
+      },
+      "evidence_chars": 2940,
+      "company": "MountPole",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence of smartphone/mobile phone distribution; company focuses on grocery/consumer goods distribution, not smartphones. | override_keep: phone+channel text with weak/noisy web",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 1233,
+        "out": 70
+      },
+      "evidence_chars": 3105,
+      "company": "Mr. Checkout",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence found that MSI-ECS is a smartphone distributor; web results refer to MSI as a hardware manufacturer, not a channel partner.",
+      "field_fixes": {},
+      "confidence": "high",
+      "usage": {
+        "in": 1044,
+        "out": 78
+      },
+      "evidence_chars": 2571,
+      "company": "MSI-ECS",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Stored row indicates a distributor of smartphones and accessories, and web evidence does not contradict this; the stored website is distinct from the unrelated MWS Wire and MatchWornShirt.",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 863,
+        "out": 86
+      },
+      "evidence_chars": 1374,
+      "company": "MWS Distribuidora",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": true,
+      "is_channel_partner": false,
+      "reason": "NWIDA is a trade association for independent wireless dealers, not a distributor, wholesaler, retailer, or reseller itself. It provides advocacy and group buying power but does not directly sell or distribute smartphones.",
+      "field_fixes": {},
+      "confidence": "high",
+      "usage": {
+        "in": 1273,
+        "out": 90
+      },
+      "evidence_chars": 3670,
+      "company": "National Wireless Independent Dealer Association (NWIDA)",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a distributor selling Korean smartphones to Japanese consumers, fitting channel partner role.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 750,
+        "out": 103
+      },
+      "evidence_chars": 1398,
+      "company": "NC Mobile JP",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence of smartphone distribution; web search returns unrelated GitHub page.",
+      "field_fixes": {},
+      "confidence": "low",
+      "usage": {
+        "in": 506,
+        "out": 62
+      },
+      "evidence_chars": 281,
+      "company": "Neoteric Informatique",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Newegg is an online retailer that sells smartphones and mobile phones, acting as a reseller/channel partner.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "Online Retailer",
+        "Key Brands Represented": "",
+        "Core Categories": "Electronics; Smartphones; Computer Parts; Laptops"
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1166,
+        "out": 126
+      },
+      "evidence_chars": 3099,
+      "company": "Newegg",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Nexsys is a major technology distributor in Colombia with evidence of distributing smartphones (e.g., Samsung Galaxy A35).",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1332,
+        "out": 112
+      },
+      "evidence_chars": 3652,
+      "company": "Nexsys",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a distributor of smartphones from major brands including Apple, Samsung, Sony, and Xiaomi, serving as a channel partner in the smartphone market.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 839,
+        "out": 117
+      },
+      "evidence_chars": 1614,
+      "company": "Nile International",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence found that Niti Distributions is a smartphone distributor; web search results are unrelated (NITI Aayog, NiTi alloy). Stored summary appears fabricated.",
+      "field_fixes": {},
+      "confidence": "high",
+      "usage": {
+        "in": 1208,
+        "out": 85
+      },
+      "evidence_chars": 2989,
+      "company": "Niti Distributions",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": true,
+      "is_channel_partner": false,
+      "reason": "Optiemus Electronics is a contract manufacturer/EMS for smartphones, not a distributor, wholesaler, retailer, or reseller. It produces devices for brands like BlackBerry, HTC, Xiaomi, and Ai+ Smartphone, but does not sell them as a channel partner.",
+      "field_fixes": {},
+      "confidence": "high",
+      "usage": {
+        "in": 1302,
+        "out": 106
+      },
+      "evidence_chars": 3662,
+      "company": "Optiemus Electronics",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "Web evidence shows ORSO is a restaurant, not a distributor. No smartphone channel role found.",
+      "field_fixes": {},
+      "confidence": "high",
+      "usage": {
+        "in": 782,
+        "out": 68
+      },
+      "evidence_chars": 1516,
+      "company": "ORSO Distribution",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence found that Pacific Access is a smartphone distributor; web search results are unrelated to the company. | override_keep: phone+channel text with weak/noisy web",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 829,
+        "out": 69
+      },
+      "evidence_chars": 1666,
+      "company": "Pacific Access",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "PCH Mayoreo is a distributor in Mexico that distributes smartphones and other technology products, as evidenced by its role as a channel partner and participation in channel events.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 918,
+        "out": 121
+      },
+      "evidence_chars": 1604,
+      "company": "PCH Mayoreo",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence found that PCTech is a smartphone distributor; web results show unrelated tech support and laptop parts, not mobile phone distribution.",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 1373,
+        "out": 75
+      },
+      "evidence_chars": 3402,
+      "company": "PCTech",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence found that Penta Teknoloji is a smartphone distributor; web results refer to unrelated entities (wrestler, construction software).",
+      "field_fixes": {},
+      "confidence": "high",
+      "usage": {
+        "in": 1053,
+        "out": 79
+      },
+      "evidence_chars": 2457,
+      "company": "Penta Teknoloji",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is an international wholesale distributor of smartphones, tablets, and headphones, serving partners across Europe, which fits the channel partner criteria.",
+      "field_fixes": {
+        "Core Categories": "Smartphones; Tablets; Headphones; Mobile Accessories"
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 813,
+        "out": 96
+      },
+      "evidence_chars": 1463,
+      "company": "Phone 4 Me",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence found that PhoneHub Europe is a smartphone distributor; web search results are unrelated to the company.",
+      "field_fixes": {},
+      "confidence": "low",
+      "usage": {
+        "in": 1161,
+        "out": 70
+      },
+      "evidence_chars": 2222,
+      "company": "PhoneHub Europe",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a wholesaler/distributor of mobile phones, tablets, and accessories, serving B2B customers across Europe.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 956,
+        "out": 112
+      },
+      "evidence_chars": 1966,
+      "company": "Phoneport24 GmbH",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a distributor and retailer of mobile phones, fitting channel partner criteria.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": "Mobile phones; smartphones; import/export"
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 919,
+        "out": 111
+      },
+      "evidence_chars": 1682,
+      "company": "Phoneshop24 GmbH",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence found that Pinnacle Micro is a smartphone distributor; web results show unrelated products (socks, optical storage) and no smartphone channel role.",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 725,
+        "out": 80
+      },
+      "evidence_chars": 1076,
+      "company": "Pinnacle Micro",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "PowerHouse Alliance is a group of regional wholesale distributors in consumer electronics, including smartphones, making it a channel partner in the smartphone market.",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 649,
+        "out": 76
+      },
+      "evidence_chars": 847,
+      "company": "PowerHouse Alliance",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence found that Prime Commerce is a smartphone distributor; web results refer to Amazon Prime services. | override_keep: phone+channel text with weak/noisy web",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 763,
+        "out": 68
+      },
+      "evidence_chars": 1377,
+      "company": "Prime Commerce",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a wholesale distributor and international supplier that sources products including smartphones, serving Southeast Asia. It is a channel partner in the smartphone market.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 1238,
+        "out": 115
+      },
+      "evidence_chars": 3057,
+      "company": "PT. Surya Commerce",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a Dubai-based wholesale distributor of mobile phones, laptops, and accessories, serving international buyers.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1191,
+        "out": 107
+      },
+      "evidence_chars": 2811,
+      "company": "QTech Trading LLC",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Stored row indicates a distributor specializing in import/export of smartphones and consumer electronics, which fits the channel partner criteria.",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 1422,
+        "out": 73
+      },
+      "evidence_chars": 3191,
+      "company": "Rama Electronics Trading FZCO",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Rashi Peripherals is a leading IT and mobile distributor in India, with evidence of distributing iPhones and other smartphones, and is an authorized Apple distributor.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "Apple, Intex, Plantronics",
+        "Core Categories": "Smartphones; Mobile Phones; IT Distribution"
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1129,
+        "out": 138
+      },
+      "evidence_chars": 2590,
+      "company": "Rashi Peripherals",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a distributor of reconditioned smartphones to wholesalers, retailers, and distributors, fitting the channel partner definition.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 675,
+        "out": 111
+      },
+      "evidence_chars": 1036,
+      "company": "ReCellGlobal",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "RecirQ is a B2B cell phone marketplace for resellers, acting as a distributor/wholesaler in the smartphone channel.",
+      "field_fixes": {
+        "Core Categories": "Cell Phones; Consumer Electronics; Wholesale Distribution"
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 917,
+        "out": 97
+      },
+      "evidence_chars": 1920,
+      "company": "RecirQ",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "Rectron is a semiconductor and electronic components distributor, not a smartphone/mobile phone distributor. Web evidence shows it distributes electronic components like rectifiers, not handsets.",
+      "field_fixes": {},
+      "confidence": "high",
+      "usage": {
+        "in": 1231,
+        "out": 83
+      },
+      "evidence_chars": 3313,
+      "company": "Rectron",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a distributor and reseller of mobile devices in the Middle East, as stated in its specialty focus and summary.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 1226,
+        "out": 111
+      },
+      "evidence_chars": 3021,
+      "company": "Red Cell General Trading LLC",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Redington is a major IT distributor that distributes Apple iPhones and other mobile devices, as evidenced by its authorized reseller pages and distribution agreements.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1150,
+        "out": 119
+      },
+      "evidence_chars": 3004,
+      "company": "Redington",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Reliance Jio is a telecom operator that offers LYF smartphones and also has retail arm Reliance Digital, which sells smartphones. It acts as a distributor/retailer in the smartphone market.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "Telecom operator and retailer",
+        "Key Brands Represented": "LYF",
+        "Core Categories": "Telecommunications; Smartphones; Consumer Electronics"
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 726,
+        "out": 145
+      },
+      "evidence_chars": 1459,
+      "company": "Reliance Jio",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "LinkedIn evidence confirms Romex Telecom is a regional distributor of mobile phones and accessories in MENA.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 960,
+        "out": 107
+      },
+      "evidence_chars": 2114,
+      "company": "Romex Telecom",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a wholesale distributor of smartphones, fitting the channel partner criteria.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 474,
+        "out": 101
+      },
+      "evidence_chars": 13,
+      "company": "SA Phone Wholesalers",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence of smartphone distribution; web search returns unrelated Sakura entities. | override_keep: phone+channel text with weak/noisy web",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 824,
+        "out": 63
+      },
+      "evidence_chars": 1501,
+      "company": "SAKURA INTERNATIONAL LLC",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence found that Sama Tel is a smartphone distributor; web search returned irrelevant results. Stored business type and categories suggest network security distribution, not smartphones. | override_keep: phone+channel text with weak/noisy web",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 1019,
+        "out": 81
+      },
+      "evidence_chars": 1098,
+      "company": "Sama Tel",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence found that Samrat Group is a smartphone distributor; web search results are unrelated (film, food, etc.). Stored business type and categories are inconsistent with smartphone distribution. | override_keep: phone+channel text with weak/noisy web",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 944,
+        "out": 85
+      },
+      "evidence_chars": 1716,
+      "company": "Samrat Group",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence found that Savex Technologies is a smartphone distributor; web search returned irrelevant results about pizza. Stored data appears fabricated.",
+      "field_fixes": {},
+      "confidence": "low",
+      "usage": {
+        "in": 915,
+        "out": 75
+      },
+      "evidence_chars": 1687,
+      "company": "Savex Technologies",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence of smartphone distribution; SHI International is an IT solutions provider, not a smartphone channel partner. | override_keep: phone+channel text with weak/noisy web",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 516,
+        "out": 70
+      },
+      "evidence_chars": 363,
+      "company": "SHI International",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Siewert & Kau is a distributor that sells smartphones and mobile handsets, as evidenced by their product listing for a Yealink mobile phone handset.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 987,
+        "out": 118
+      },
+      "evidence_chars": 2422,
+      "company": "Siewert & Kau",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence found that SiS Distribution is a smartphone distributor; web search results refer to unrelated student information systems. | override_keep: phone+channel text with weak/noisy web",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 704,
+        "out": 71
+      },
+      "evidence_chars": 1325,
+      "company": "SiS Distribution",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a distributor of smartphones and accessories to retailers and distributors, fitting channel partner criteria.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 875,
+        "out": 105
+      },
+      "evidence_chars": 1567,
+      "company": "Skillful International Trade Co., Limited",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Stored row indicates a distributor sourcing bulk smartphones for wholesalers, and web evidence confirms smartphone-related activity.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 794,
+        "out": 108
+      },
+      "evidence_chars": 1181,
+      "company": "Skylink Traders",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a distributor of mobile phones and accessories, confirmed by LinkedIn and Bloomberg.",
+      "field_fixes": {},
+      "confidence": "high",
+      "usage": {
+        "in": 1408,
+        "out": 65
+      },
+      "evidence_chars": 3555,
+      "company": "Skywire Communications Inc.",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence that Smartech is a smartphone distributor; web results show unrelated content and a smartwatch listing.",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 1139,
+        "out": 70
+      },
+      "evidence_chars": 2925,
+      "company": "Smartech",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence of smartphone distribution; company focuses on IT infrastructure and cybersecurity, not mobile handsets. | override_keep: phone+channel text with weak/noisy web",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 427,
+        "out": 68
+      },
+      "evidence_chars": 13,
+      "company": "Softcat",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence of smartphone/mobile phone distribution; company appears to be an IT/cybersecurity solutions provider.",
+      "field_fixes": {},
+      "confidence": "high",
+      "usage": {
+        "in": 1303,
+        "out": 70
+      },
+      "evidence_chars": 3716,
+      "company": "Softcell Technologies",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence found that Softex is a smartphone distributor; web results refer to Toyota's SofTex material and an unrelated Indonesian company.",
+      "field_fixes": {},
+      "confidence": "high",
+      "usage": {
+        "in": 985,
+        "out": 75
+      },
+      "evidence_chars": 2210,
+      "company": "Softex",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Wholesale platform for mobile devices and accessories, indicating a distributor role in the smartphone market.",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 461,
+        "out": 68
+      },
+      "evidence_chars": 13,
+      "company": "SourcePools",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Staples Canada is a retailer that sells smartphones and related technology products, making it a channel partner in the smartphone market.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "Retailer",
+        "Key Brands Represented": "",
+        "Core Categories": "Smartphones; Mobile Phones; Office Supplies; Technology"
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1171,
+        "out": 128
+      },
+      "evidence_chars": 3008,
+      "company": "Staples Canada",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Evidence indicates the company is a Hong Kong-based trader of mobile phones, buying and selling all conditions, which fits the distributor/wholesaler role.",
+      "field_fixes": {
+        "Core Categories": "Mobile Phones; Smartphones; Handsets",
+        "Specialty Focus": "Global mobile phone trade, connecting Hong Kong and Dubai markets with leading mobile brands.",
+        "Key Brands Represented": "Leading mobile brands (unspecified)"
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 1009,
+        "out": 135
+      },
+      "evidence_chars": 1918,
+      "company": "Starzio Enterprises Limited",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a distributor of wholesale mobile phones, serving retailers and distributors, which fits the channel partner criteria.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 799,
+        "out": 108
+      },
+      "evidence_chars": 1416,
+      "company": "STJB Mobile",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a wholesale distributor of mobile phones, including Apple, Samsung, and Xiaomi, across GCC and Asian markets.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1323,
+        "out": 111
+      },
+      "evidence_chars": 2740,
+      "company": "STS INTERNATIONAL FZCO",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": false,
+      "is_channel_partner": true,
+      "reason": "No evidence of smartphone distribution; company focuses on IT products, cybersecurity, and enterprise solutions.",
+      "field_fixes": {},
+      "confidence": "high",
+      "usage": {
+        "in": 1209,
+        "out": 67
+      },
+      "evidence_chars": 3343,
+      "company": "Supertron Electronics",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a distributor specializing in bulk smartphone sourcing and distribution, focusing on Apple iPhones.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 912,
+        "out": 106
+      },
+      "evidence_chars": 1839,
+      "company": "SY INTERNATIONAL TRADE LLC",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "T-Gaia is Japan's largest primary distributor of mobile phones, handling sales and service plans, clearly a channel partner in the smartphone market.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 761,
+        "out": 116
+      },
+      "evidence_chars": 1286,
+      "company": "T-Gaia",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company website states they are wholesale distributors of consumer electronics and exports mobile phones from Japan, indicating a channel role in the smartphone market.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 1237,
+        "out": 113
+      },
+      "evidence_chars": 2827,
+      "company": "Takumi Co LTD",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Distributor supplying mobile phones across the Americas.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 900,
+        "out": 97
+      },
+      "evidence_chars": 1600,
+      "company": "Tano Wholesale Inc.",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Tbooth wireless is a Canadian retailer of smartphones and mobile plans, acting as a channel partner.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "Retailer",
+        "Key Brands Represented": "",
+        "Core Categories": "Smartphones; Mobile Plans; Accessories"
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1289,
+        "out": 120
+      },
+      "evidence_chars": 3274,
+      "company": "Tbooth wireless",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence that TCCM is a smartphone distributor; web results show TCCM as a transfer case control module or unrelated entities.",
+      "field_fixes": {},
+      "confidence": "high",
+      "usage": {
+        "in": 1381,
+        "out": 76
+      },
+      "evidence_chars": 3468,
+      "company": "TCCM",
+      "method": "web+deepseek"
+    },
+    {
+      "company": "TD SYNNEX",
+      "action": "keep",
+      "reason": "known_channel:td synnex",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "field_fixes": {},
+      "confidence": "high",
+      "method": "hard_rule"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Stored row indicates distributor of smartphones and accessories; web evidence is irrelevant but does not contradict.",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 825,
+        "out": 68
+      },
+      "evidence_chars": 1490,
+      "company": "Tech Envio Soluções Logísticas Ltda",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence found that TechCheck is a smartphone distributor; web results refer to unrelated entities (CNBC show, moisture meter, etc.). | override_keep: phone+channel text with weak/noisy web",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 1417,
+        "out": 77
+      },
+      "evidence_chars": 3269,
+      "company": "TechCheck",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Techland LLC is a wholesale distributor of mobile phones, as evidenced by their website and TikTok, and is categorized under Mobile Telephones and Equipment.",
+      "field_fixes": {
+        "Founded": "2012",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "Infinix, Samsung, Apple",
+        "Core Categories": "Mobile phones; Consumer electronics distribution"
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1201,
+        "out": 134
+      },
+      "evidence_chars": 3004,
+      "company": "Techland LLC",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Retailer of consumer electronics including smartphones, with physical stores in multiple countries.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "Retailer",
+        "Key Brands Represented": "",
+        "Core Categories": "Consumer Electronics; Smartphones"
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 1543,
+        "out": 113
+      },
+      "evidence_chars": 3913,
+      "company": "Techlink Systems LLC",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Stored row indicates Technolife is an importer and distributor of major mobile brands (Xiaomi, Samsung, Apple), which fits the channel partner criteria.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 932,
+        "out": 119
+      },
+      "evidence_chars": 1892,
+      "company": "Technolife",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a distributor of smartphone accessories and parts, which is a channel partner in the smartphone market.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 957,
+        "out": 107
+      },
+      "evidence_chars": 1763,
+      "company": "Techpoint Distribution",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "TecLot is a wholesaler of refurbished and used smartphones, clearly a channel partner in the smartphone market.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1246,
+        "out": 110
+      },
+      "evidence_chars": 3208,
+      "company": "TecLot",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "TelePart is a B2B mobile phone distributor, explicitly relevant to the smartphone market.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 826,
+        "out": 105
+      },
+      "evidence_chars": 1793,
+      "company": "TelePart",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "TelePart Distribution GmbH is a distributor/wholesaler of mobile phones, smartphones, and tablets, as confirmed by multiple sources.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1157,
+        "out": 113
+      },
+      "evidence_chars": 2882,
+      "company": "TelePart Distribution GmbH",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence found that Teleplus GSM is a smartphone distributor; web search returned unrelated lyrics and Korean portal pages.",
+      "field_fixes": {},
+      "confidence": "low",
+      "usage": {
+        "in": 1238,
+        "out": 71
+      },
+      "evidence_chars": 2294,
+      "company": "Teleplus GSM",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a B2B distributor of mobile devices, including smartphones, with evidence of retail/wholesale operations.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1228,
+        "out": 111
+      },
+      "evidence_chars": 2946,
+      "company": "Teleplus GSM Co., Ltd",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Stored business type and specialty indicate a distributor platform for cell phones; web evidence is inconclusive but does not contradict.",
+      "field_fixes": {},
+      "confidence": "low",
+      "usage": {
+        "in": 1066,
+        "out": 73
+      },
+      "evidence_chars": 2091,
+      "company": "Telex Corp",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "The Mobile Shop is a Canadian retailer specializing in mobile phones and accessories, fitting the channel partner definition.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "Retailer",
+        "Key Brands Represented": "",
+        "Core Categories": "Mobile Phones; Accessories"
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 987,
+        "out": 118
+      },
+      "evidence_chars": 2235,
+      "company": "The Mobile Shop",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence found that The Phone Hub is a smartphone distributor; web search results are irrelevant. Core categories are network security, not smartphones.",
+      "field_fixes": {},
+      "confidence": "high",
+      "usage": {
+        "in": 1148,
+        "out": 76
+      },
+      "evidence_chars": 3041,
+      "company": "The Phone Hub",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "The Source is a Canadian electronics retailer that sells smartphones and accessories, fitting the channel partner definition.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "Retailer",
+        "Key Brands Represented": "",
+        "Core Categories": "Consumer Electronics; Smartphones; Accessories"
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 1225,
+        "out": 119
+      },
+      "evidence_chars": 3355,
+      "company": "The Source",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "TMCell is a direct distributor of wireless handsets and accessories, serving Latin America and the Caribbean, which fits the channel partner role for smartphones.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1100,
+        "out": 117
+      },
+      "evidence_chars": 2788,
+      "company": "TMCell",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence found that Top Trading is a smartphone distributor; web results indicate trading/finance or unrelated businesses. | override_keep: phone+channel text with weak/noisy web",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 1037,
+        "out": 71
+      },
+      "evidence_chars": 2537,
+      "company": "Top Trading",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a distributor/wholesaler specializing in used iPhones, with explicit smartphone wholesale focus.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1133,
+        "out": 108
+      },
+      "evidence_chars": 2484,
+      "company": "TR Vertriebs GmbH",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "TradeIndia is a B2B marketplace platform, not a distributor/wholesaler/retailer itself. It facilitates connections but does not sell smartphones directly.",
+      "field_fixes": {},
+      "confidence": "high",
+      "usage": {
+        "in": 1226,
+        "out": 82
+      },
+      "evidence_chars": 3333,
+      "company": "TradeIndia",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "TRSCO Group is a distributor supplying mobile phones and accessories to retailers and businesses, fitting the channel partner role.",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 488,
+        "out": 72
+      },
+      "evidence_chars": 13,
+      "company": "TRSCO Group",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a B2B wholesaler/distributor of mobile phones and smartphones, serving international distributors and resellers.",
+      "field_fixes": {
+        "Core Categories": "Mobile Phones; Smartphones; Tablets; Smart Devices",
+        "Key Brands Represented": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1149,
+        "out": 102
+      },
+      "evidence_chars": 2641,
+      "company": "TrueCell Electronics Trading LLC",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence found that Ultra RS is a smartphone distributor; web search results are unrelated. Stored business type and categories are inconsistent with smartphone channel role.",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 975,
+        "out": 79
+      },
+      "evidence_chars": 2265,
+      "company": "Ultra RS",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Stored row indicates Unione is a distributor of smartphones and accessories in India, which matches the channel partner criteria. Web evidence is inconclusive but does not contradict the stored information.",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 915,
+        "out": 85
+      },
+      "evidence_chars": 1599,
+      "company": "Unione",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Operates a B2B marketplace for wholesale refurbished smartphones, acting as a distributor/reseller.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 858,
+        "out": 107
+      },
+      "evidence_chars": 1424,
+      "company": "UTSGLOBAL",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a distributor of smartphones and electronics, confirmed by website and business listings.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1068,
+        "out": 103
+      },
+      "evidence_chars": 2437,
+      "company": "Veda Telecom FZCO",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence found that Vinzeo is a smartphone distributor; web search returned irrelevant currency exchange results. Core categories are cybersecurity, not smartphones. | override_keep: phone+channel text with weak/noisy web",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 842,
+        "out": 77
+      },
+      "evidence_chars": 1407,
+      "company": "Vinzeo",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a distributor of telecom and consumer electronics including smartphones, as stated in summary and business type.",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 620,
+        "out": 69
+      },
+      "evidence_chars": 701,
+      "company": "Vision Distribution Pvt. Ltd.",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Visions Electronics is a Canadian retailer with 43 stores, selling consumer electronics including smartphones, thus a channel partner.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "Retailer",
+        "Key Brands Represented": "",
+        "Core Categories": "Consumer Electronics; Smartphones"
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1098,
+        "out": 120
+      },
+      "evidence_chars": 2875,
+      "company": "Visions Electronics",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "VitelMobile is an authorized Samsung distributor supplying smartphones to retailers and resellers.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 652,
+        "out": 103
+      },
+      "evidence_chars": 761,
+      "company": "VitelMobile",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a Dubai-based wholesale distributor of mobile phones and tablets, serving B2B partners, which fits the channel partner definition.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 810,
+        "out": 113
+      },
+      "evidence_chars": 1469,
+      "company": "VOLTIX Elite Electronics Trading L.L.C",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "VST ECS is a distributor of IT products including smartphones in Southeast Asia, evidenced by partnership with TCL for smartphone launch.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 919,
+        "out": 113
+      },
+      "evidence_chars": 1876,
+      "company": "VST ECS",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is an e-commerce distributor exclusively for retailers, offering smartphones and accessories, as stated in specialty focus and summary.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 655,
+        "out": 110
+      },
+      "evidence_chars": 541,
+      "company": "W Tech",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Westcoast is a major UK IT distributor that also distributes Apple products including smartphones, as evidenced by their authorized Apple distributor status and product range.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1234,
+        "out": 117
+      },
+      "evidence_chars": 3026,
+      "company": "Westcoast",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence found for a smartphone distributor; web results refer to a Minecraft web series. | override_keep: phone+channel text with weak/noisy web",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 899,
+        "out": 66
+      },
+      "evidence_chars": 1542,
+      "company": "Whitepine MobiTech",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Stored row indicates Wireless City is a Canadian retailer specializing in mobile phones and wireless services, which fits the channel partner criteria.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 849,
+        "out": 112
+      },
+      "evidence_chars": 1774,
+      "company": "Wireless City",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Retailer of smartphones and wireless services, fits channel partner definition.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 448,
+        "out": 101
+      },
+      "evidence_chars": 13,
+      "company": "Wireless Etc.",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Stored row indicates wholesale distribution of smartphones and accessories; web evidence is inconclusive but does not contradict the stored role.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "low",
+      "usage": {
+        "in": 1109,
+        "out": 111
+      },
+      "evidence_chars": 2909,
+      "company": "Wireless Next",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "WirelessWave is a Canadian retailer specializing in mobile phones and wireless services, with multiple store locations and evidence of selling smartphones from Apple, Samsung, and Google.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "Retailer",
+        "Key Brands Represented": "Apple, Samsung, Google",
+        "Core Categories": "Mobile Phones; Wireless Plans; Accessories"
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1409,
+        "out": 139
+      },
+      "evidence_chars": 3665,
+      "company": "WirelessWave",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Wogom is a B2B platform connecting authorized distributors with retailers, focusing on consumer electronics and mobile, and explicitly verifies authorized distributors for product authenticity.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 900,
+        "out": 119
+      },
+      "evidence_chars": 1883,
+      "company": "Wogom",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a Hong Kong-based wholesaler/distributor specializing in bulk mobile phone deals for major smartphone brands, supplying retailers, resellers, and distributors.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 778,
+        "out": 118
+      },
+      "evidence_chars": 1240,
+      "company": "X-Tech Connect",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Distributor of smartphone parts and accessories, serving repair shops.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1094,
+        "out": 100
+      },
+      "evidence_chars": 2181,
+      "company": "X3 Distribuidora",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence found that XS Distribution is a smartphone distributor; web results are unrelated (iPhone XS product pages, disambiguation, lottery site).",
+      "field_fixes": {},
+      "confidence": "high",
+      "usage": {
+        "in": 882,
+        "out": 79
+      },
+      "evidence_chars": 1570,
+      "company": "XS Distribution",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a distributor of used smartphones, serving global markets including Japan.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 837,
+        "out": 101
+      },
+      "evidence_chars": 1648,
+      "company": "Yeonintrade",
+      "method": "web+deepseek"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence that Zones is a smartphone distributor; web search results are irrelevant or about other companies. | override_keep: phone+channel text with weak/noisy web",
+      "field_fixes": {},
+      "confidence": "medium",
+      "usage": {
+        "in": 1277,
+        "out": 68
+      },
+      "evidence_chars": 3446,
+      "company": "Zones",
+      "method": "web+deepseek"
+    }
+  ]
+}

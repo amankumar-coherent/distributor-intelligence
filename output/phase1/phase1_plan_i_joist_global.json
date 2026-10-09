@@ -1,0 +1,2170 @@
+{
+  "phase": 1,
+  "query": "Global I-joist Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T21:31:08.527373+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "I-joist",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "construction materials",
+    "industry_terms": [
+      "I-joists",
+      "engineered wood products",
+      "construction materials",
+      "building components",
+      "structural framing"
+    ],
+    "ecosystem_functions": [
+      "distributing I-joists",
+      "wholesaling building materials",
+      "reselling engineered wood products",
+      "integrating construction systems",
+      "providing installation services",
+      "consulting on I-joist applications",
+      "partnering for supply chain solutions",
+      "facilitating logistics for I-joists"
+    ],
+    "interpretation_summary": "The global I-joist market encompasses the production and distribution of engineered wood products used in construction, specifically I-joists. Key participants include manufacturers, distributors, and various channel par",
+    "relevance_keywords": [
+      "I-joist supply",
+      "engineered wood distribution",
+      "construction material wholesaling",
+      "I-joist installation",
+      "building component reselling"
+    ],
+    "negative_keywords": [
+      "news",
+      "jobs",
+      "reports",
+      "consulting",
+      "unrelated industries"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "Weyerhaeuser Company",
+        "primary_domain": "weyerhaeuser.com",
+        "company_function": "manufacturer and distributor of i-joists"
+      },
+      {
+        "canonical_name": "Georgia-Pacific",
+        "primary_domain": "gp.com",
+        "company_function": "manufacturer and distributor of engineered wood products"
+      },
+      {
+        "canonical_name": "LP Building Solutions",
+        "primary_domain": "lpcorp.com",
+        "company_function": "manufacturer and distributor of i-joists"
+      },
+      {
+        "canonical_name": "BMC Stock Holdings",
+        "primary_domain": "bmcstock.com",
+        "company_function": "wholesaler of building materials including i-joists"
+      },
+      {
+        "canonical_name": "84 Lumber Company",
+        "primary_domain": "84lumber.com",
+        "company_function": "wholesaler and retailer of building materials"
+      },
+      {
+        "canonical_name": "Builders FirstSource",
+        "primary_domain": "bldr.com",
+        "company_function": "distributor and reseller of building materials"
+      },
+      {
+        "canonical_name": "Fastenal Company",
+        "primary_domain": "fastenal.com",
+        "company_function": "reseller of construction materials including i-joists"
+      },
+      {
+        "canonical_name": "Simpson Strong-Tie Company",
+        "primary_domain": "strongtie.com",
+        "company_function": "provider of i-joist systems and integration solutions"
+      },
+      {
+        "canonical_name": "Horizon Structural Systems",
+        "primary_domain": "horizonstructuralsystems.com",
+        "company_function": "system integrator for engineered wood products",
+        "segment": "System Integrators",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Trus Joist",
+        "primary_domain": "trusjoist.com",
+        "company_function": "manufacturer and distributor of I-joists",
+        "segment": "Distributors",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Triton Structural Systems",
+        "primary_domain": "tritonstructuralsystems.com",
+        "company_function": "service provider for I-joist installation",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Katerra",
+        "primary_domain": "katerra.com",
+        "company_function": "construction service provider integrating I-joist solutions",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "National Lumber Company",
+        "primary_domain": "nationallumber.com",
+        "company_function": "distributor and reseller of building materials",
+        "segment": "Resellers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Cedar Creek",
+        "primary_domain": "cedarcreek.com",
+        "company_function": "wholesaler of building materials including I-joists",
+        "segment": "Wholesalers",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "I-joist",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "I-joist",
+    "include_keywords": [
+      "I-joist distributors",
+      "I-joist wholesalers",
+      "I-joist resellers",
+      "I-joist system integration",
+      "I-joist service providers"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The global I-joist market encompasses the production and distribution of engineered wood products used in construction, specifically I-joists. Key participants include manufacturers, distributors, and various channel partners involved in the supply chain across multiple regions worldwide.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Distribution",
+        "description": "This layer involves the distribution of I-joists from manufacturers to end-users through various channel partners.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Regional Distributors",
+              "National Distributors"
+            ],
+            "participant_types": [
+              "distributor"
+            ],
+            "search_intents": [
+              "I-joist distributors near me",
+              "official I-joist distributor websites"
+            ]
+          },
+          {
+            "segment_name": "Wholesalers",
+            "sub_segments": [
+              "Building Material Wholesalers",
+              "Construction Wholesalers"
+            ],
+            "participant_types": [
+              "wholesaler"
+            ],
+            "search_intents": [
+              "I-joist wholesalers in my area",
+              "wholesale I-joist suppliers"
+            ]
+          },
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Online Resellers",
+              "Local Resellers"
+            ],
+            "participant_types": [
+              "reseller"
+            ],
+            "search_intents": [
+              "I-joist resellers online",
+              "local I-joist resellers"
+            ]
+          },
+          {
+            "segment_name": "System Integrators",
+            "sub_segments": [
+              "Construction System Integrators",
+              "Architectural System Integrators"
+            ],
+            "participant_types": [
+              "system integrator"
+            ],
+            "search_intents": [
+              "I-joist system integrators",
+              "integrated I-joist solutions providers"
+            ]
+          },
+          {
+            "segment_name": "Service Providers",
+            "sub_segments": [
+              "Installation Services",
+              "Consulting Services"
+            ],
+            "participant_types": [
+              "service provider"
+            ],
+            "search_intents": [
+              "I-joist installation services",
+              "I-joist consulting providers"
+            ]
+          },
+          {
+            "segment_name": "Channel Partners",
+            "sub_segments": [
+              "Authorized Channel Partners",
+              "Strategic Channel Partners"
+            ],
+            "participant_types": [
+              "channel partner"
+            ],
+            "search_intents": [
+              "I-joist channel partners",
+              "authorized I-joist partners"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Manufacturers",
+        "Retailers",
+        "Construction Contractors",
+        "Raw Material Suppliers"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "I-joist distributors in my region",
+        "sub_sector": "distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "wholesale I-joists suppliers",
+        "sub_sector": "wholesaler",
+        "layer_id": "L1",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "I-joist resellers online",
+        "sub_sector": "reseller",
+        "layer_id": "L1",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "I-joist system integrators",
+        "sub_sector": "system_integrator",
+        "layer_id": "L1",
+        "segment": "System Integrators"
+      },
+      {
+        "id": "M5",
+        "level": "market_map",
+        "text": "I-joist installation services",
+        "sub_sector": "service_provider",
+        "layer_id": "L1",
+        "segment": "Service Providers"
+      },
+      {
+        "id": "M6",
+        "level": "market_map",
+        "text": "I-joist channel partners",
+        "sub_sector": "channel_partner",
+        "layer_id": "L1",
+        "segment": "Channel Partners"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "construction materials",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "I-joist companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "I-joist distributors corporate site"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "I-joist service providers official website"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "market_map",
+      "text": "I-joist distributors in my region"
+    },
+    {
+      "id": "P2",
+      "level": "market_map",
+      "text": "wholesale I-joists suppliers"
+    },
+    {
+      "id": "P3",
+      "level": "market_map",
+      "text": "I-joist resellers online"
+    },
+    {
+      "id": "P4",
+      "level": "market_map",
+      "text": "I-joist system integrators"
+    },
+    {
+      "id": "P5",
+      "level": "market_map",
+      "text": "I-joist installation services"
+    },
+    {
+      "id": "P6",
+      "level": "market_map",
+      "text": "I-joist channel partners"
+    },
+    {
+      "id": "P7",
+      "level": "discovery",
+      "text": "I-joist distributor corporate website"
+    },
+    {
+      "id": "P8",
+      "level": "discovery",
+      "text": "I-joist wholesaler official site"
+    },
+    {
+      "id": "P9",
+      "level": "discovery",
+      "text": "I-joist reseller corporate site"
+    },
+    {
+      "id": "P10",
+      "level": "discovery",
+      "text": "I-joist system integrator official website"
+    },
+    {
+      "id": "P11",
+      "level": "discovery",
+      "text": "I-joist installation services provider"
+    },
+    {
+      "id": "P12",
+      "level": "discovery",
+      "text": "I-joist consulting services official site"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "I-joist companies official websites",
+      "level": "L0",
+      "result_count": 20,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Home - WIJMA: Wood I-Joist Manufacturers Association",
+          "link": "https://i-joist.org/",
+          "snippet": "WIJMA: Wood I-Joist Manufacturers Association. Home. Product Information.The Wood I-Joist Manufacturers Association (WIJMA) is a nonprofit organization dedicated to promoting the improvement and incre",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I-Joist - APA \u2013 The Engineered Wood Association",
+          "link": "https://www.apawood.org/i-joist",
+          "snippet": "I-Joist Basics. I-joists are strong, lightweight, \"I\" shaped engineered wood structural members that meet demanding performance standards. I-joists are comprised of top and bottom flanges, which resis",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I-Joist: Red-I\u2122 Joists | Engineered Wood Roof and Floor Framing",
+          "link": "https://www.redbuilt.com/products/i-joists/",
+          "snippet": "Structural engineered wood framing solutions from floor to roof Red-I Joists are lighter, faster, and easier to install than traditional framing. They are handcrafted for better floors, ceilings, and ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Trimjoist - Trimmable, Open-Web Floor Joist System",
+          "link": "https://trimjoist.com/",
+          "snippet": "TrimJoist is the trimmable, open-web floor joist system that performs like a truss but installs like a wood I-Joist.Because each TrimJoist is trimmable on-site, contractors can always achieve a custom",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "China I Joists Company, Factories - ROC",
+          "link": "https://www.plywood-price.com/i-joists/",
+          "snippet": "Top Famous I Joists Companies & Exporters for Quality Solutions.Trust XUZHOU ROC INTERNATIONAL TRADING CO., LTD. for high-quality I-joists that provide exceptional value and performance for your proje",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "BC EWP | I-Joist 101 | Boise Cascade",
+          "link": "https://www.bc.com/ewp/i-joist-101/",
+          "snippet": "Easier Handling: Open-Web Floor Trusses (OWFT) and dimensional lumber can be heavy and difficult to handle, but BCI joists are lightweight, helping reduce labor hours and labor costs. Adaptable on the",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "LVL & I-Joist | Stark Truss - Leading manufacturer of wooden...",
+          "link": "https://www.starktruss.com/products/lvl-and-i-joist/",
+          "snippet": "The I-joists are made from lumber flanges, OSB webs and cured adhesive. LVL (laminated veneer lumber) beams are manufactured with multiple layers of thin wood assembled with adhesive. Stark Truss engi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I Joist Factory, Custom I Joist OEM/ODM Manufacturing Company",
+          "link": "https://www.made-in-china.com/factory/i-joist.html",
+          "snippet": "Metal Web Joists Steel Floor Joists Price.This i joist company list contains a wide range of i joist factories serving all industries. This trusted vertical directory contains premier China suppliers/",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "United States I-Joist Market Size & Share Report 2034",
+          "link": "https://www.imarcgroup.com/united-states-i-joist-market",
+          "snippet": "Project Execution & Site Management. Operations Readiness & Ramp-Up.The United States I-joist market size reached 3.22 Million Cubic Meters in 2025 and is projected to reach 4.04 Million Cubic Meters ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Joist: Revenue, Competitors, Alternatives",
+          "link": "https://growjo.com/company/Joist",
+          "snippet": "Joist top competitors are Boise Cascade, Riskalyze and MoneyGuidePro and they have annual revenue of $6.8M and 52 employees.The I-Joist market report also provides company share analysis with respect ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global I-joist Market Size, Share & Forecast 2032",
+          "link": "https://www.coherentmarketinsights.com/industry-reports/global-i-joist-market",
+          "snippet": "Established Players: Leading companies in the global I-joist market focus extensively on research and development to innovate new high-performance products. For example, West Fraser invests over US$ 1",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I-Beams & I Joists | Engineered Timber I Joists, I Beams & Rafters",
+          "link": "https://www.jtatkinson.co.uk/i-beams-i-joists",
+          "snippet": "I-joists - metal web joists - roof trusses. Enquiries.At JT Atkinson, we design and cut all of our I-joist flooring systems using innovative Steico I-Joists, Posi-Joists & Simpsons Strongtie Joist Han",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Engineered I-Joist for Roofs & Floors | IBJOIST",
+          "link": "https://ibjoist.com/",
+          "snippet": "I-Joists maintain a uniform shape and precise dimensions, resisting warping and cracking. I-Joists are designed to match standard beam depths. I-Joists are easy to transport and install. I-Joists help",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "home - Webjoist",
+          "link": "https://webjoist.com/",
+          "snippet": "Welcome to Web Joist Northwest Corp., the company Inspired by Integrity. Since 1976 we have been a family owned and operated business that designs Engineered Wood floor and roof systems using our open",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I-Joists - steico.com",
+          "link": "https://www.steico.com/eur/solutions/product-advantages/i-joists",
+          "snippet": "STEICO I-joists consist of two components: the so-called \"flanges\" on the top and bottom sides and the \"web\" in the middle that connects the two flanges. The flamge material is made of highly durable ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "WEB-i\u00ae Joists - Webjoist",
+          "link": "https://webjoist.com/our-products/web-i-joists/",
+          "snippet": "WEB-i \u00ae joists are available in parallel and taper profiles. WEB-i \u00ae joists are constructed with flanges made from 2\u00d74 lumber meeting the grading rules specified in Table 4C of the National Design Spe",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Engineered I-Joists by Series & Specs | AcuJoist Products",
+          "link": "https://www.acujoist.com/products",
+          "snippet": "Browse AcuJoist's engineered wood I-joist lineup including ACJ 40, 60, and 80 Series. View specs by size or application and learn about software support and warranty.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "AcuJoist Engineered Wood I-Joists",
+          "link": "https://www.acujoist.com/",
+          "snippet": "AcuJoist offers precision-engineered wood I-joists designed for superior strength and easy installation. Trusted by distributors and builders across North America.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "PWT I-Joists | PWT | Focused On EWP",
+          "link": "https://pwtewp.com/products/i-joists",
+          "snippet": "PWT I-Joists are highly versatile and provide more dimensional stability than traditional lumber or open web floor trusses. Our I-Joists allow you to achieve sturdy and stable floors with wide flanges",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "STEICO - Engineered by nature",
+          "link": "https://www.steico.com/uk/",
+          "snippet": "Metal-web vs I-Joists - what are the considerations? Metal-web or I-Joists play an important structural role in buildings \u2013 supporting floors and roofs to transfer their weight evenly to the walls and",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Home - WIJMA: Wood I-Joist Manufacturers Association",
+          "link": "https://i-joist.org/",
+          "snippet": "WIJMA: Wood I-Joist Manufacturers Association. Home. Product Information.The Wood I-Joist Manufacturers Association (WIJMA) is a nonprofit organization dedicated to promoting the improvement and incre",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I-Joist - APA \u2013 The Engineered Wood Association",
+          "link": "https://www.apawood.org/i-joist",
+          "snippet": "I-Joist Basics. I-joists are strong, lightweight, \"I\" shaped engineered wood structural members that meet demanding performance standards. I-joists are comprised of top and bottom flanges, which resis",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I-Joist: Red-I\u2122 Joists | Engineered Wood Roof and Floor Framing",
+          "link": "https://www.redbuilt.com/products/i-joists/",
+          "snippet": "Structural engineered wood framing solutions from floor to roof Red-I Joists are lighter, faster, and easier to install than traditional framing. They are handcrafted for better floors, ceilings, and ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Trimjoist - Trimmable, Open-Web Floor Joist System",
+          "link": "https://trimjoist.com/",
+          "snippet": "TrimJoist is the trimmable, open-web floor joist system that performs like a truss but installs like a wood I-Joist.Because each TrimJoist is trimmable on-site, contractors can always achieve a custom",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "China I Joists Company, Factories - ROC",
+          "link": "https://www.plywood-price.com/i-joists/",
+          "snippet": "Top Famous I Joists Companies & Exporters for Quality Solutions.Trust XUZHOU ROC INTERNATIONAL TRADING CO., LTD. for high-quality I-joists that provide exceptional value and performance for your proje",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "BC EWP | I-Joist 101 | Boise Cascade",
+          "link": "https://www.bc.com/ewp/i-joist-101/",
+          "snippet": "Easier Handling: Open-Web Floor Trusses (OWFT) and dimensional lumber can be heavy and difficult to handle, but BCI joists are lightweight, helping reduce labor hours and labor costs. Adaptable on the",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "LVL & I-Joist | Stark Truss - Leading manufacturer of wooden...",
+          "link": "https://www.starktruss.com/products/lvl-and-i-joist/",
+          "snippet": "The I-joists are made from lumber flanges, OSB webs and cured adhesive. LVL (laminated veneer lumber) beams are manufactured with multiple layers of thin wood assembled with adhesive. Stark Truss engi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I Joist Factory, Custom I Joist OEM/ODM Manufacturing Company",
+          "link": "https://www.made-in-china.com/factory/i-joist.html",
+          "snippet": "Metal Web Joists Steel Floor Joists Price.This i joist company list contains a wide range of i joist factories serving all industries. This trusted vertical directory contains premier China suppliers/",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "United States I-Joist Market Size & Share Report 2034",
+          "link": "https://www.imarcgroup.com/united-states-i-joist-market",
+          "snippet": "Project Execution & Site Management. Operations Readiness & Ramp-Up.The United States I-joist market size reached 3.22 Million Cubic Meters in 2025 and is projected to reach 4.04 Million Cubic Meters ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Joist: Revenue, Competitors, Alternatives",
+          "link": "https://growjo.com/company/Joist",
+          "snippet": "Joist top competitors are Boise Cascade, Riskalyze and MoneyGuidePro and they have annual revenue of $6.8M and 52 employees.The I-Joist market report also provides company share analysis with respect ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global I-joist Market Size, Share & Forecast 2032",
+          "link": "https://www.coherentmarketinsights.com/industry-reports/global-i-joist-market",
+          "snippet": "Established Players: Leading companies in the global I-joist market focus extensively on research and development to innovate new high-performance products. For example, West Fraser invests over US$ 1",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I-Beams & I Joists | Engineered Timber I Joists, I Beams & Rafters",
+          "link": "https://www.jtatkinson.co.uk/i-beams-i-joists",
+          "snippet": "I-joists - metal web joists - roof trusses. Enquiries.At JT Atkinson, we design and cut all of our I-joist flooring systems using innovative Steico I-Joists, Posi-Joists & Simpsons Strongtie Joist Han",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Engineered I-Joist for Roofs & Floors | IBJOIST",
+          "link": "https://ibjoist.com/",
+          "snippet": "I-Joists maintain a uniform shape and precise dimensions, resisting warping and cracking. I-Joists are designed to match standard beam depths. I-Joists are easy to transport and install. I-Joists help",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "home - Webjoist",
+          "link": "https://webjoist.com/",
+          "snippet": "Welcome to Web Joist Northwest Corp., the company Inspired by Integrity. Since 1976 we have been a family owned and operated business that designs Engineered Wood floor and roof systems using our open",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I-Joists - steico.com",
+          "link": "https://www.steico.com/eur/solutions/product-advantages/i-joists",
+          "snippet": "STEICO I-joists consist of two components: the so-called \"flanges\" on the top and bottom sides and the \"web\" in the middle that connects the two flanges. The flamge material is made of highly durable ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "WEB-i\u00ae Joists - Webjoist",
+          "link": "https://webjoist.com/our-products/web-i-joists/",
+          "snippet": "WEB-i \u00ae joists are available in parallel and taper profiles. WEB-i \u00ae joists are constructed with flanges made from 2\u00d74 lumber meeting the grading rules specified in Table 4C of the National Design Spe",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Engineered I-Joists by Series & Specs | AcuJoist Products",
+          "link": "https://www.acujoist.com/products",
+          "snippet": "Browse AcuJoist's engineered wood I-joist lineup including ACJ 40, 60, and 80 Series. View specs by size or application and learn about software support and warranty.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "AcuJoist Engineered Wood I-Joists",
+          "link": "https://www.acujoist.com/",
+          "snippet": "AcuJoist offers precision-engineered wood I-joists designed for superior strength and easy installation. Trusted by distributors and builders across North America.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "PWT I-Joists | PWT | Focused On EWP",
+          "link": "https://pwtewp.com/products/i-joists",
+          "snippet": "PWT I-Joists are highly versatile and provide more dimensional stability than traditional lumber or open web floor trusses. Our I-Joists allow you to achieve sturdy and stable floors with wide flanges",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "STEICO - Engineered by nature",
+          "link": "https://www.steico.com/uk/",
+          "snippet": "Metal-web vs I-Joists - what are the considerations? Metal-web or I-Joists play an important structural role in buildings \u2013 supporting floors and roofs to transfer their weight evenly to the walls and",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "I-joist distributors corporate site",
+      "level": "L1",
+      "result_count": 12,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "I-Joists Market Research Report 2034",
+          "link": "https://dataintelo.com/report/global-i-joists-market",
+          "snippet": "I-Joists reduce on-site framing labor by 25-35% compared to solid sawn timber through simplified connections and standardized sizing, translating to lower labor costs and accelerated project schedules",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I-Joist - APA \u2013 The Engineered Wood Association",
+          "link": "https://www.apawood.org/i-joist",
+          "snippet": "I-Joist Basics. I-joists are strong, lightweight, \"I\" shaped engineered wood structural members that meet demanding performance standards. I-joists are comprised of top and bottom flanges, which resis",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "BC EWP | I-Joist 101 | Boise Cascade",
+          "link": "https://www.bc.com/ewp/i-joist-101/",
+          "snippet": "Corporate Governance. Investor Resources.I-Joist 101. I-joists are some of the most commonly used engineered wood products. And for good reason. Here we\u2019ll explain what I-joists are, how they\u2019re used,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "your choice of floor joists material.. | DIY Home Improvement Forum",
+          "link": "https://www.diychatroom.com/threads/your-choice-of-floor-joists-material.32565/",
+          "snippet": "A 28ft span can be done without any support under it. I-joist's or floor trusses can do this. BUT, the floor system design should be done by an engineer. This however isn't a big deal. Most I-joist di",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I-Joist & H-Joist Bracing Rental & Installation in Dhaka, Bangladesh",
+          "link": "https://asfcorporation.com/i-joist-and-h-joist-bracing-rent-and-installation/",
+          "snippet": "Reliable I-Joist & H-Joist bracing rental and installation services in Dhaka. ASF offers quality steel support for all construction projects.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "United States I-Joist Market Size & Share Report 2034",
+          "link": "https://www.imarcgroup.com/united-states-i-joist-market",
+          "snippet": "The United States I-joist market size reached 3.22 Million Cubic Meters in 2025 and is projected to reach 4.04 Million Cubic Meters by 2034, growing at a compound annual growth rate of 2.53% from 2026",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I-Joists & Engineered Wood",
+          "link": "https://www.timberlink.co.uk/i-joists-engineered-wood",
+          "snippet": "I-Joists & Engineered Wood. Timberlink\u2026James Jones JJI-Joist distributor for Midlands & Wales. What are I-Joists?I-joists are the main structural component in the off-site manufacture of some panelize",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Floor Joist Sizes & Span in Residential Home Building (Complete Guide)",
+          "link": "https://homeinspectioninsider.com/floor-joist/",
+          "snippet": "Floor Joists 3 Lg. The floor joist spacing, size, and span in residential construction are essential considerations you should consider before building a home.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "LVL & I-Joist | Stark Truss - Leading manufacturer of wooden...",
+          "link": "https://www.starktruss.com/products/lvl-and-i-joist/",
+          "snippet": "The I-joists are made from lumber flanges, OSB webs and cured adhesive. LVL (laminated veneer lumber) beams are manufactured with multiple layers of thin wood assembled with adhesive. Stark Truss engi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Thailand I-Joist Market (2025-2031) | Trends, Outlook & Forecast",
+          "link": "https://www.6wresearch.com/industry-report/thailand-i-joist-market",
+          "snippet": "Historical Data and Forecast of Thailand I-Joist Market Revenues & Volume By Distributors for the Period 2021-2031.8.2 Investment in RD for i-joist technology and manufacturing processes. 8.3 Number o",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Engineered Wood I-joist Market 2023 Forecast to 2031",
+          "link": "https://www.24chemicalresearch.com/reports/226593/global-engineered-wood-ijoist-market-2023-2029-15",
+          "snippet": "I-joists are strong, lightweight, \"I\" shaped engineered wood structural members that meet demanding performance standards. I-joists are comprised of top and bottom flanges, which resist bending, unite",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "STEICO - Engineered by nature",
+          "link": "https://www.steico.com/uk/",
+          "snippet": "How engineered joists support efficient housebuilding. Joists are used in floors and roofs to provide essential structural support in modern housing. As with all structural components, they must be ca",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "I-Joists Market Research Report 2034",
+          "link": "https://dataintelo.com/report/global-i-joists-market",
+          "snippet": "I-Joists reduce on-site framing labor by 25-35% compared to solid sawn timber through simplified connections and standardized sizing, translating to lower labor costs and accelerated project schedules",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I-Joist - APA \u2013 The Engineered Wood Association",
+          "link": "https://www.apawood.org/i-joist",
+          "snippet": "I-Joist Basics. I-joists are strong, lightweight, \"I\" shaped engineered wood structural members that meet demanding performance standards. I-joists are comprised of top and bottom flanges, which resis",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "BC EWP | I-Joist 101 | Boise Cascade",
+          "link": "https://www.bc.com/ewp/i-joist-101/",
+          "snippet": "Corporate Governance. Investor Resources.I-Joist 101. I-joists are some of the most commonly used engineered wood products. And for good reason. Here we\u2019ll explain what I-joists are, how they\u2019re used,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "your choice of floor joists material.. | DIY Home Improvement Forum",
+          "link": "https://www.diychatroom.com/threads/your-choice-of-floor-joists-material.32565/",
+          "snippet": "A 28ft span can be done without any support under it. I-joist's or floor trusses can do this. BUT, the floor system design should be done by an engineer. This however isn't a big deal. Most I-joist di",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I-Joist & H-Joist Bracing Rental & Installation in Dhaka, Bangladesh",
+          "link": "https://asfcorporation.com/i-joist-and-h-joist-bracing-rent-and-installation/",
+          "snippet": "Reliable I-Joist & H-Joist bracing rental and installation services in Dhaka. ASF offers quality steel support for all construction projects.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "United States I-Joist Market Size & Share Report 2034",
+          "link": "https://www.imarcgroup.com/united-states-i-joist-market",
+          "snippet": "The United States I-joist market size reached 3.22 Million Cubic Meters in 2025 and is projected to reach 4.04 Million Cubic Meters by 2034, growing at a compound annual growth rate of 2.53% from 2026",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I-Joists & Engineered Wood",
+          "link": "https://www.timberlink.co.uk/i-joists-engineered-wood",
+          "snippet": "I-Joists & Engineered Wood. Timberlink\u2026James Jones JJI-Joist distributor for Midlands & Wales. What are I-Joists?I-joists are the main structural component in the off-site manufacture of some panelize",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Floor Joist Sizes & Span in Residential Home Building (Complete Guide)",
+          "link": "https://homeinspectioninsider.com/floor-joist/",
+          "snippet": "Floor Joists 3 Lg. The floor joist spacing, size, and span in residential construction are essential considerations you should consider before building a home.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "LVL & I-Joist | Stark Truss - Leading manufacturer of wooden...",
+          "link": "https://www.starktruss.com/products/lvl-and-i-joist/",
+          "snippet": "The I-joists are made from lumber flanges, OSB webs and cured adhesive. LVL (laminated veneer lumber) beams are manufactured with multiple layers of thin wood assembled with adhesive. Stark Truss engi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Thailand I-Joist Market (2025-2031) | Trends, Outlook & Forecast",
+          "link": "https://www.6wresearch.com/industry-report/thailand-i-joist-market",
+          "snippet": "Historical Data and Forecast of Thailand I-Joist Market Revenues & Volume By Distributors for the Period 2021-2031.8.2 Investment in RD for i-joist technology and manufacturing processes. 8.3 Number o",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Engineered Wood I-joist Market 2023 Forecast to 2031",
+          "link": "https://www.24chemicalresearch.com/reports/226593/global-engineered-wood-ijoist-market-2023-2029-15",
+          "snippet": "I-joists are strong, lightweight, \"I\" shaped engineered wood structural members that meet demanding performance standards. I-joists are comprised of top and bottom flanges, which resist bending, unite",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "STEICO - Engineered by nature",
+          "link": "https://www.steico.com/uk/",
+          "snippet": "How engineered joists support efficient housebuilding. Joists are used in floors and roofs to provide essential structural support in modern housing. As with all structural components, they must be ca",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "I-joist service providers official website",
+      "level": "L2",
+      "result_count": 23,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "I-Joist - APA \u2013 The Engineered Wood Association",
+          "link": "https://www.apawood.org/i-joist",
+          "snippet": "I-joist floor joist Common I-Joist Applications. I-joists are used extensively in residential floor and roof framing. They are ideal for long spans, including continuous spans over intermediate suppor",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "BC EWP | I-Joist 101 | Boise Cascade",
+          "link": "https://www.bc.com/ewp/i-joist-101/",
+          "snippet": "I-joists consist of OSB web between two flanges, which are typically constructed of dimensional lumber or laminated veneer lumber (LVL) and joined by a durable structural adhesive.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Details - WIJMA: Wood I-Joist Manufacturers Association",
+          "link": "https://i-joist.org/details-2/",
+          "snippet": "WIJMA: Wood I-Joist Manufacturers Association. Home. Product Information.Common product details are typically provided in the Manufacturer\u2019s literature, which may be accessed from their website: Boise",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Specialists in engineered joists | Shire Timber Group",
+          "link": "https://www.shiretimbergroup.co.uk/truss-joist/engineered-joist/",
+          "snippet": "Metal-web joists \u2013 Engineered metal web joists are simple to fit and install. While initially more expensive they can offer overall savings to your project due to the ease of which services (pipework,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Evolution of Engineered Wood I-Joists | Building... - UMass Amherst",
+          "link": "https://www.umass.edu/bct/publications/articles/the-evolution-of-engineered-wood-i-joists/",
+          "snippet": "I-joists have a thin osb web. I-joist designers use sections of strong fiber in the top and bottom flanges where the stress is maximum.Before you buy I-joists ask some very specific questions: \u2022 Who p",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "i -Joists | The Canadian Wood Council (CWC)",
+          "link": "https://cwc.ca/articles/i-joists/",
+          "snippet": "Different combinations of flange and web materials using alternative connections between the web and the flanges are available from several manufacturers (refer to Figure 3.20, below). Wood I-joists a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best I Joist Driving And Lifting Service in Bangladesh 2026",
+          "link": "https://foreverengineeringltd.com/i-joist-driving-and-lifting-service-in-bangladesh/",
+          "snippet": "Apart from Dhaka city, Forever Engineering Ltd offers professional joist lifting and installation services in nearby cities. We are certified as I Joist Driving and Lifting Service provider to ensure ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I Joist Guide for Floors Roofs and Buyers",
+          "link": "https://www.plywood.cn/i-joist-guide/",
+          "snippet": "Approved web holes help route services through I joists, but hole size, location, bearing distance, and flange protection must follow product rules. One reason builders like I joists is service access",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "nordic.ca | Engineered Wood | Products | Nordic I-Joists",
+          "link": "https://www.nordic.ca/en/products/nordic-i-joist",
+          "snippet": "The Nordic I-joist manufacturing process ensures product quality and performance. The I-joist is dimensionally stable with fewer imperfections such as wane, camber, warping, and splitting/cracking. Th",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I-Joist | RSB Specialist Timber Manufacturer",
+          "link": "https://www.rsbgroup.co.za/i-joist/",
+          "snippet": "I-joists are comprised of top and bottom flanges, which resist bending, united with webs, which provide outstanding shear resistance. The flange material is typically laminated veneer lumber (LVL) or ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Engineered I-Joist for Roofs & Floors | IBJOIST",
+          "link": "https://ibjoist.com/",
+          "snippet": "Explore our website, discover our product range, and join the countless professionals across Europe who rely on our I-Joists to bring their visions to life.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "#1 Estimate, Invoice, Payment App for Contractors | Joist",
+          "link": "https://www.joist.com/",
+          "snippet": "At Joist, we\u2019re committed to helping contractors reach their full potential. We provide software solutions that make working with clients and managing business simple.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "home - Webjoist",
+          "link": "https://webjoist.com/",
+          "snippet": "Welcome to Web Joist Northwest Corp., the company Inspired by Integrity. Since 1976 we have been a family owned and operated business that designs Engineered Wood floor and roof systems using our open",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "AcuJoist Engineered Wood I-Joists",
+          "link": "https://www.acujoist.com/",
+          "snippet": "AcuJoist offers precision-engineered wood I-joists designed for superior strength and easy installation. Trusted by distributors and builders across North America.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "PWT I-Joists | PWT | Focused On EWP",
+          "link": "https://pwtewp.com/products/i-joists",
+          "snippet": "Maximize efficiency with PWT I-joists, designed for stability, strength, and optimal performance in construction projects.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I Joists on IndustryNet\u00ae - Free List of I Joist Suppliers",
+          "link": "https://www.industrynet.com/suppliers/IA0003/i-joists",
+          "snippet": "Locate i joists on IndustryNet. View a free list of I joist suppliers. Get quotes & information.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I-Joist and Engineered Wood - Cassity Jones",
+          "link": "https://www.cassityjones.com/i-joist-and-engineered-wood/",
+          "snippet": "Cassity Jones offers professionally designed and cut I-joist and Engineered Wood Product packages to meet your pier-and-beam foundation or multi-story project ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "LVL & I-Joist | Stark Truss - Leading manufacturer of wooden ...",
+          "link": "https://www.starktruss.com/products/lvl-and-i-joist/",
+          "snippet": "Stark Truss engineered Perma-Straight wood I-joists eliminate problems typically associated with traditional solid lumber joists.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Identify Existing Joists - Steel Joist Institute",
+          "link": "https://steeljoist.org/find-existing-joists/",
+          "snippet": "... joist size you submitted when comparing it to our extensive archived material. When filling in the form regarding the joist chord and web member properties ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "TJI I-Joists - FP Supply",
+          "link": "https://www.fp-supply.com/tji-i-joists-omaha.html",
+          "snippet": "When you choose Trus Joist, you're choosing the brand that: -Invented the very first I-Joist over 50 years ago \u00b7 To Submit Blueprints for Takeoff's - Click Here.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Red-I\u2122 Joists | Engineered Wood Roof and Floor Framing",
+          "link": "https://www.redbuilt.com/products/i-joists/",
+          "snippet": "Offering architects, engineers, building owners, and commercial contractors practical and economical solutions. Work with a local technical representative to ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I-Joist Construction Details | Interfor",
+          "link": "https://interfor.com/wp-content/uploads/2023/05/I-Joist_Construction_Details_ca-1.pdf",
+          "snippet": "In addition to floor and roof framing details, this guide includes recommendations for cantilevers and placement of web holes. Good installation begins with ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "STEICO - Engineered by nature",
+          "link": "https://www.steico.com/uk/",
+          "snippet": "How engineered joists support efficient housebuilding. Joists are used in floors and roofs to provide essential structural support in modern housing.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "I-Joist - APA \u2013 The Engineered Wood Association",
+          "link": "https://www.apawood.org/i-joist",
+          "snippet": "I-joist floor joist Common I-Joist Applications. I-joists are used extensively in residential floor and roof framing. They are ideal for long spans, including continuous spans over intermediate suppor",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "BC EWP | I-Joist 101 | Boise Cascade",
+          "link": "https://www.bc.com/ewp/i-joist-101/",
+          "snippet": "I-joists consist of OSB web between two flanges, which are typically constructed of dimensional lumber or laminated veneer lumber (LVL) and joined by a durable structural adhesive.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Details - WIJMA: Wood I-Joist Manufacturers Association",
+          "link": "https://i-joist.org/details-2/",
+          "snippet": "WIJMA: Wood I-Joist Manufacturers Association. Home. Product Information.Common product details are typically provided in the Manufacturer\u2019s literature, which may be accessed from their website: Boise",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Specialists in engineered joists | Shire Timber Group",
+          "link": "https://www.shiretimbergroup.co.uk/truss-joist/engineered-joist/",
+          "snippet": "Metal-web joists \u2013 Engineered metal web joists are simple to fit and install. While initially more expensive they can offer overall savings to your project due to the ease of which services (pipework,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Evolution of Engineered Wood I-Joists | Building... - UMass Amherst",
+          "link": "https://www.umass.edu/bct/publications/articles/the-evolution-of-engineered-wood-i-joists/",
+          "snippet": "I-joists have a thin osb web. I-joist designers use sections of strong fiber in the top and bottom flanges where the stress is maximum.Before you buy I-joists ask some very specific questions: \u2022 Who p",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "i -Joists | The Canadian Wood Council (CWC)",
+          "link": "https://cwc.ca/articles/i-joists/",
+          "snippet": "Different combinations of flange and web materials using alternative connections between the web and the flanges are available from several manufacturers (refer to Figure 3.20, below). Wood I-joists a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best I Joist Driving And Lifting Service in Bangladesh 2026",
+          "link": "https://foreverengineeringltd.com/i-joist-driving-and-lifting-service-in-bangladesh/",
+          "snippet": "Apart from Dhaka city, Forever Engineering Ltd offers professional joist lifting and installation services in nearby cities. We are certified as I Joist Driving and Lifting Service provider to ensure ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I Joist Guide for Floors Roofs and Buyers",
+          "link": "https://www.plywood.cn/i-joist-guide/",
+          "snippet": "Approved web holes help route services through I joists, but hole size, location, bearing distance, and flange protection must follow product rules. One reason builders like I joists is service access",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "nordic.ca | Engineered Wood | Products | Nordic I-Joists",
+          "link": "https://www.nordic.ca/en/products/nordic-i-joist",
+          "snippet": "The Nordic I-joist manufacturing process ensures product quality and performance. The I-joist is dimensionally stable with fewer imperfections such as wane, camber, warping, and splitting/cracking. Th",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I-Joist | RSB Specialist Timber Manufacturer",
+          "link": "https://www.rsbgroup.co.za/i-joist/",
+          "snippet": "I-joists are comprised of top and bottom flanges, which resist bending, united with webs, which provide outstanding shear resistance. The flange material is typically laminated veneer lumber (LVL) or ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Engineered I-Joist for Roofs & Floors | IBJOIST",
+          "link": "https://ibjoist.com/",
+          "snippet": "Explore our website, discover our product range, and join the countless professionals across Europe who rely on our I-Joists to bring their visions to life.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "#1 Estimate, Invoice, Payment App for Contractors | Joist",
+          "link": "https://www.joist.com/",
+          "snippet": "At Joist, we\u2019re committed to helping contractors reach their full potential. We provide software solutions that make working with clients and managing business simple.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "home - Webjoist",
+          "link": "https://webjoist.com/",
+          "snippet": "Welcome to Web Joist Northwest Corp., the company Inspired by Integrity. Since 1976 we have been a family owned and operated business that designs Engineered Wood floor and roof systems using our open",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "AcuJoist Engineered Wood I-Joists",
+          "link": "https://www.acujoist.com/",
+          "snippet": "AcuJoist offers precision-engineered wood I-joists designed for superior strength and easy installation. Trusted by distributors and builders across North America.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "PWT I-Joists | PWT | Focused On EWP",
+          "link": "https://pwtewp.com/products/i-joists",
+          "snippet": "Maximize efficiency with PWT I-joists, designed for stability, strength, and optimal performance in construction projects.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I Joists on IndustryNet\u00ae - Free List of I Joist Suppliers",
+          "link": "https://www.industrynet.com/suppliers/IA0003/i-joists",
+          "snippet": "Locate i joists on IndustryNet. View a free list of I joist suppliers. Get quotes & information.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I-Joist and Engineered Wood - Cassity Jones",
+          "link": "https://www.cassityjones.com/i-joist-and-engineered-wood/",
+          "snippet": "Cassity Jones offers professionally designed and cut I-joist and Engineered Wood Product packages to meet your pier-and-beam foundation or multi-story project ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "LVL & I-Joist | Stark Truss - Leading manufacturer of wooden ...",
+          "link": "https://www.starktruss.com/products/lvl-and-i-joist/",
+          "snippet": "Stark Truss engineered Perma-Straight wood I-joists eliminate problems typically associated with traditional solid lumber joists.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Identify Existing Joists - Steel Joist Institute",
+          "link": "https://steeljoist.org/find-existing-joists/",
+          "snippet": "... joist size you submitted when comparing it to our extensive archived material. When filling in the form regarding the joist chord and web member properties ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "TJI I-Joists - FP Supply",
+          "link": "https://www.fp-supply.com/tji-i-joists-omaha.html",
+          "snippet": "When you choose Trus Joist, you're choosing the brand that: -Invented the very first I-Joist over 50 years ago \u00b7 To Submit Blueprints for Takeoff's - Click Here.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Red-I\u2122 Joists | Engineered Wood Roof and Floor Framing",
+          "link": "https://www.redbuilt.com/products/i-joists/",
+          "snippet": "Offering architects, engineers, building owners, and commercial contractors practical and economical solutions. Work with a local technical representative to ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I-Joist Construction Details | Interfor",
+          "link": "https://interfor.com/wp-content/uploads/2023/05/I-Joist_Construction_Details_ca-1.pdf",
+          "snippet": "In addition to floor and roof framing details, this guide includes recommendations for cantilevers and placement of web holes. Good installation begins with ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "STEICO - Engineered by nature",
+          "link": "https://www.steico.com/uk/",
+          "snippet": "How engineered joists support efficient housebuilding. Joists are used in floors and roofs to provide essential structural support in modern housing.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "I-joist distributors in my region",
+      "level": "market_map",
+      "result_count": 14,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "I Joists Suppliers - Thomasnet",
+          "link": "https://www.thomasnet.com/suppliers/usa/i-joists-96107404",
+          "snippet": "19 hours ago \u00b7 Manufacturer of structural steel joists fabricated to project specifications in a range of sizes and gauges. Joists integrate with I beams, Wide Flange (WF) beams, angles, U channels, s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I-Joist for Engineered Framing | Lowe's",
+          "link": "https://www.lowes.com/pl/lumber-composites/engineered-lumber/joists/i-joist/2334369394-3527406715",
+          "snippet": "They\u2019re useful for distributing weight evenly and maintaining consistent structural integrity across framed spaces. Having the right joist type and size available can help support reliable building pe",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Joists - The Home DepotI-Joist - Building Hardware - The Home DepotPWT I-Joists | PWT | Focused On EWPFind an Open Joist",
+          "link": "https://www.homedepot.com/b/Lumber-Composites-Engineered-Lumber-Joists/N-5yc1vZ2fkpety",
+          "snippet": "Please visit your local Pro Desk or call our Pro Support Team to discuss pricing and availability. Call 1-844-410-5464. Delivery and availability may vary by zip code. There are over 94 special value ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I-Joist - Building Hardware - The Home Depot",
+          "link": "https://www.homedepot.com/b/Building-Materials-Building-Hardware/I-Joist/N-5yc1vZaqzsZ1z1ao7h",
+          "snippet": "There are over 94 special value prices on I-Joist Building Hardware. Get free shipping on qualified I-Joist Building Hardware products or Buy Online Pick Up in Store today in the Building Materials De",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "PWT I-Joists | PWT | Focused On EWP",
+          "link": "https://pwtewp.com/products/i-joists",
+          "snippet": "Maximize efficiency with PWT I-joists, designed for stability, strength, and optimal performance in construction projects.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Find an Open Joist Distributor | TRIFORCE\u00ae Open Joist",
+          "link": "https://www.openjoisttriforce.com/where-to-buy/",
+          "snippet": "Looking for the open joist TRIFORCE\u00ae? Find here a dealer near your place, in the US or Canada.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Engineered Wood I Joist Market Report | Global Forecast From 2025...",
+          "link": "https://dataintelo.com/report/engineered-wood-i-joist-market",
+          "snippet": "Distribution Channel Analysis. The distribution channels for engineered wood I joists include Direct Sales, Distributors, and Online Sales.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Floor Joist Sizes & Span in Residential Home Building (Complete Guide)",
+          "link": "https://homeinspectioninsider.com/floor-joist/",
+          "snippet": "Floor Joists 3 Lg. The floor joist spacing, size, and span in residential construction are essential considerations you should consider before building a home.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Evolution of Engineered Wood I-Joists | Building... - UMass Amherst",
+          "link": "https://www.umass.edu/bct/publications/articles/the-evolution-of-engineered-wood-i-joists/",
+          "snippet": "I-joists have a thin osb web. I-joist designers use sections of strong fiber in the top and bottom flanges where the stress is maximum. Some characteristics of lumber with rectangular cross sections a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How to Identify and Repair a Damaged Wood Floor Joist - Engineer Fix",
+          "link": "https://engineerfix.com/how-to-identify-and-repair-a-damaged-wood-floor-joist/",
+          "snippet": "Understand the structural role of floor joists, identify signs of damage (sagging, rot), and learn effective reinforcement and repair techniques.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "BC EWP | I-Joist 101 | Boise Cascade",
+          "link": "https://www.bc.com/ewp/i-joist-101/",
+          "snippet": "I-Joist 101. I-joists are some of the most commonly used engineered wood products. And for good reason. Here we\u2019ll explain what I-joists are, how they\u2019re used, and what makes them so popular.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Engineered Wood I-joist Market 2023 Forecast to 2031",
+          "link": "https://www.24chemicalresearch.com/reports/226593/global-engineered-wood-ijoist-market-2023-2029-15",
+          "snippet": "I-joists are strong, lightweight, \"I\" shaped engineered wood structural members that meet demanding performance standards. I-joists are comprised of top and bottom flanges, which resist bending, unite",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "What Are the Best Materials for House Floor Joists? - My Comfy House",
+          "link": "https://mycomfyhouse.com/house-floor-joist/",
+          "snippet": "Load Distribution. Joists. Support floor loads across shorter spans.Attached to the top of the joists. Distribute point loads to joists.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Where to Buy - Weyerhaeuser",
+          "link": "https://www.weyerhaeuser.com/woodproducts/where-to-buy/",
+          "snippet": "Find a dealer that carries Weyerhaeuser products below. Our Trus Joist\u00ae line of engineered lumber products includes TJI\u00ae i-joists, TimberStrand\u00ae LSL, Microllam\u00ae LVL and Parallam\u00ae PSL.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "I Joists Suppliers - Thomasnet",
+          "link": "https://www.thomasnet.com/suppliers/usa/i-joists-96107404",
+          "snippet": "19 hours ago \u00b7 Manufacturer of structural steel joists fabricated to project specifications in a range of sizes and gauges. Joists integrate with I beams, Wide Flange (WF) beams, angles, U channels, s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I-Joist for Engineered Framing | Lowe's",
+          "link": "https://www.lowes.com/pl/lumber-composites/engineered-lumber/joists/i-joist/2334369394-3527406715",
+          "snippet": "They\u2019re useful for distributing weight evenly and maintaining consistent structural integrity across framed spaces. Having the right joist type and size available can help support reliable building pe",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Joists - The Home DepotI-Joist - Building Hardware - The Home DepotPWT I-Joists | PWT | Focused On EWPFind an Open Joist",
+          "link": "https://www.homedepot.com/b/Lumber-Composites-Engineered-Lumber-Joists/N-5yc1vZ2fkpety",
+          "snippet": "Please visit your local Pro Desk or call our Pro Support Team to discuss pricing and availability. Call 1-844-410-5464. Delivery and availability may vary by zip code. There are over 94 special value ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I-Joist - Building Hardware - The Home Depot",
+          "link": "https://www.homedepot.com/b/Building-Materials-Building-Hardware/I-Joist/N-5yc1vZaqzsZ1z1ao7h",
+          "snippet": "There are over 94 special value prices on I-Joist Building Hardware. Get free shipping on qualified I-Joist Building Hardware products or Buy Online Pick Up in Store today in the Building Materials De",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "PWT I-Joists | PWT | Focused On EWP",
+          "link": "https://pwtewp.com/products/i-joists",
+          "snippet": "Maximize efficiency with PWT I-joists, designed for stability, strength, and optimal performance in construction projects.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Find an Open Joist Distributor | TRIFORCE\u00ae Open Joist",
+          "link": "https://www.openjoisttriforce.com/where-to-buy/",
+          "snippet": "Looking for the open joist TRIFORCE\u00ae? Find here a dealer near your place, in the US or Canada.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Engineered Wood I Joist Market Report | Global Forecast From 2025...",
+          "link": "https://dataintelo.com/report/engineered-wood-i-joist-market",
+          "snippet": "Distribution Channel Analysis. The distribution channels for engineered wood I joists include Direct Sales, Distributors, and Online Sales.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Floor Joist Sizes & Span in Residential Home Building (Complete Guide)",
+          "link": "https://homeinspectioninsider.com/floor-joist/",
+          "snippet": "Floor Joists 3 Lg. The floor joist spacing, size, and span in residential construction are essential considerations you should consider before building a home.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Evolution of Engineered Wood I-Joists | Building... - UMass Amherst",
+          "link": "https://www.umass.edu/bct/publications/articles/the-evolution-of-engineered-wood-i-joists/",
+          "snippet": "I-joists have a thin osb web. I-joist designers use sections of strong fiber in the top and bottom flanges where the stress is maximum. Some characteristics of lumber with rectangular cross sections a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How to Identify and Repair a Damaged Wood Floor Joist - Engineer Fix",
+          "link": "https://engineerfix.com/how-to-identify-and-repair-a-damaged-wood-floor-joist/",
+          "snippet": "Understand the structural role of floor joists, identify signs of damage (sagging, rot), and learn effective reinforcement and repair techniques.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "BC EWP | I-Joist 101 | Boise Cascade",
+          "link": "https://www.bc.com/ewp/i-joist-101/",
+          "snippet": "I-Joist 101. I-joists are some of the most commonly used engineered wood products. And for good reason. Here we\u2019ll explain what I-joists are, how they\u2019re used, and what makes them so popular.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Engineered Wood I-joist Market 2023 Forecast to 2031",
+          "link": "https://www.24chemicalresearch.com/reports/226593/global-engineered-wood-ijoist-market-2023-2029-15",
+          "snippet": "I-joists are strong, lightweight, \"I\" shaped engineered wood structural members that meet demanding performance standards. I-joists are comprised of top and bottom flanges, which resist bending, unite",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "What Are the Best Materials for House Floor Joists? - My Comfy House",
+          "link": "https://mycomfyhouse.com/house-floor-joist/",
+          "snippet": "Load Distribution. Joists. Support floor loads across shorter spans.Attached to the top of the joists. Distribute point loads to joists.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Where to Buy - Weyerhaeuser",
+          "link": "https://www.weyerhaeuser.com/woodproducts/where-to-buy/",
+          "snippet": "Find a dealer that carries Weyerhaeuser products below. Our Trus Joist\u00ae line of engineered lumber products includes TJI\u00ae i-joists, TimberStrand\u00ae LSL, Microllam\u00ae LVL and Parallam\u00ae PSL.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P2": {
+      "query": "wholesale I-joists suppliers",
+      "level": "market_map",
+      "result_count": 13,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Wholesale I Joists 2k+ | Alibaba.com",
+          "link": "https://www.alibaba.com/showroom/i-joists.html",
+          "snippet": "Adjustable i joists for outdoor flooring, close to $0.5 per unit, available in large volumes.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Anti-Slip Floor Joist from China - Manufacturers & Suppliers",
+          "link": "https://www.globalsources.com/china-suppliers/floor-joist.htm",
+          "snippet": "Scroll down to check an exclusive list of top China wholesale floor joist suppliers, manufacturers (OEM, ODM & OBM), wholesalers, factory lists, distributors, exporters, importers, etc. in Global Sour",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I Joist, I Joist Suppliers & I Joist Wholesalers At TradeKey.com",
+          "link": "https://www.tradekey.com/products/i-joist.html",
+          "snippet": "Find I joist Manufacturers, I joist Suppliers & Wholesalers of I joist from China, Hong Kong, USA & I joist Products from India at TradeKey.com.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale I Joist Supplier, Factory | ROC",
+          "link": "https://www.plywood-price.com/i-joist-1/",
+          "snippet": "Discover XUZHOU ROC INTERNATIONAL TRADING CO., LTD. for high-quality I Joists. Boost your construction projects with durable solutions designed for strength and performance.SENSO I Joist Engineered Wo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "China's Leading Floor Joists Supplier & Manufacturer - Jike",
+          "link": "https://www.jikewoods.com/floor-joists/",
+          "snippet": "Top Quality China Floor Joists Manufacturer & Supplier - Guaranteed Excellence.Choose our floor joists for superior performance and reliable support in your structural endeavors. Trust Shandong Jike I",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I Joists Suppliers",
+          "link": "https://www.thomasnet.com/suppliers/usa/i-joists-96107404",
+          "snippet": "Home Supplier Discovery I Joists Suppliers. Filter. Collapse All.Custom manufacturer of building components for residential, commercial, and agricultural applications. Products include i-joists, tall ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale I-joist Supplier, Factory | FATIMA",
+          "link": "https://www.tigerlvl.com/i-joist/",
+          "snippet": "Discover high-quality I-joists from Jiangsu Hong Ying Wood Co., Ltd. for superior strength and durability in your construction projects.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "China Cheap I Joists Manufacturers Suppliers Factory - Good Price...",
+          "link": "https://www.comaccord-plywood.com/construction-scaffolding/i-joists/",
+          "snippet": "COMACCORD is one of the most professional i joists manufacturers and suppliers in China, featured by quality products and competitive price. Please feel free to buy cheap i joists from our factory. Co",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "TJI - Construction supplier and wholesaler , Lowest prices guaranteed",
+          "link": "https://www.starlightcommerce.com/tji/",
+          "snippet": "\"As joist supplier stands out in the construction industry by consistently delivering top-tier joists designed for strength, durability, and versatility. With a rich history of expertise, they have be",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Evolution of Engineered Wood I-Joists | Building... - UMass Amherst",
+          "link": "https://www.umass.edu/bct/publications/articles/the-evolution-of-engineered-wood-i-joists/",
+          "snippet": "Cost and performance drove the development of wood I-joists. Contemporary designs, first made popular in the 1970\u2019s, were inspired by homeowners who wanted open floorplans. Open layouts require long c",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "China i joist manufacturers, i joist suppliers, i joist wholesaler...",
+          "link": "https://www.zeemoconstruction.com/products/i-joist.html",
+          "snippet": "ZEEMO as a professional i joist manufacturer and supplier in China, all the i joist have passed the international industry certification standards, and you can be completely assured of quality.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "fushiwoodgroup.com/products/i-joist.html?page=2",
+          "link": "https://www.fushiwoodgroup.com/products/i-joist.html?page=2",
+          "snippet": "Wholesale I joists Sydney. We supply high-performance, AS/NZS 4357 compliant I-joints in bulk to builders, contractors, and developers across Sydney and throughout Australia.With fast local dispatch a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Link to reddit.com",
+          "link": "https://www.reddit.com/r/DIYUK/comments/zkwvi4/ijoist_suppliers_for_nontrade_customers/",
+          "snippet": "The site owner hides the web page description.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Wholesale I Joists 2k+ | Alibaba.com",
+          "link": "https://www.alibaba.com/showroom/i-joists.html",
+          "snippet": "Adjustable i joists for outdoor flooring, close to $0.5 per unit, available in large volumes.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Anti-Slip Floor Joist from China - Manufacturers & Suppliers",
+          "link": "https://www.globalsources.com/china-suppliers/floor-joist.htm",
+          "snippet": "Scroll down to check an exclusive list of top China wholesale floor joist suppliers, manufacturers (OEM, ODM & OBM), wholesalers, factory lists, distributors, exporters, importers, etc. in Global Sour",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I Joist, I Joist Suppliers & I Joist Wholesalers At TradeKey.com",
+          "link": "https://www.tradekey.com/products/i-joist.html",
+          "snippet": "Find I joist Manufacturers, I joist Suppliers & Wholesalers of I joist from China, Hong Kong, USA & I joist Products from India at TradeKey.com.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale I Joist Supplier, Factory | ROC",
+          "link": "https://www.plywood-price.com/i-joist-1/",
+          "snippet": "Discover XUZHOU ROC INTERNATIONAL TRADING CO., LTD. for high-quality I Joists. Boost your construction projects with durable solutions designed for strength and performance.SENSO I Joist Engineered Wo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "China's Leading Floor Joists Supplier & Manufacturer - Jike",
+          "link": "https://www.jikewoods.com/floor-joists/",
+          "snippet": "Top Quality China Floor Joists Manufacturer & Supplier - Guaranteed Excellence.Choose our floor joists for superior performance and reliable support in your structural endeavors. Trust Shandong Jike I",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I Joists Suppliers",
+          "link": "https://www.thomasnet.com/suppliers/usa/i-joists-96107404",
+          "snippet": "Home Supplier Discovery I Joists Suppliers. Filter. Collapse All.Custom manufacturer of building components for residential, commercial, and agricultural applications. Products include i-joists, tall ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale I-joist Supplier, Factory | FATIMA",
+          "link": "https://www.tigerlvl.com/i-joist/",
+          "snippet": "Discover high-quality I-joists from Jiangsu Hong Ying Wood Co., Ltd. for superior strength and durability in your construction projects.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "China Cheap I Joists Manufacturers Suppliers Factory - Good Price...",
+          "link": "https://www.comaccord-plywood.com/construction-scaffolding/i-joists/",
+          "snippet": "COMACCORD is one of the most professional i joists manufacturers and suppliers in China, featured by quality products and competitive price. Please feel free to buy cheap i joists from our factory. Co",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "TJI - Construction supplier and wholesaler , Lowest prices guaranteed",
+          "link": "https://www.starlightcommerce.com/tji/",
+          "snippet": "\"As joist supplier stands out in the construction industry by consistently delivering top-tier joists designed for strength, durability, and versatility. With a rich history of expertise, they have be",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Evolution of Engineered Wood I-Joists | Building... - UMass Amherst",
+          "link": "https://www.umass.edu/bct/publications/articles/the-evolution-of-engineered-wood-i-joists/",
+          "snippet": "Cost and performance drove the development of wood I-joists. Contemporary designs, first made popular in the 1970\u2019s, were inspired by homeowners who wanted open floorplans. Open layouts require long c",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "China i joist manufacturers, i joist suppliers, i joist wholesaler...",
+          "link": "https://www.zeemoconstruction.com/products/i-joist.html",
+          "snippet": "ZEEMO as a professional i joist manufacturer and supplier in China, all the i joist have passed the international industry certification standards, and you can be completely assured of quality.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "fushiwoodgroup.com/products/i-joist.html?page=2",
+          "link": "https://www.fushiwoodgroup.com/products/i-joist.html?page=2",
+          "snippet": "Wholesale I joists Sydney. We supply high-performance, AS/NZS 4357 compliant I-joints in bulk to builders, contractors, and developers across Sydney and throughout Australia.With fast local dispatch a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Link to reddit.com",
+          "link": "https://www.reddit.com/r/DIYUK/comments/zkwvi4/ijoist_suppliers_for_nontrade_customers/",
+          "snippet": "The site owner hides the web page description.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P3": {
+      "query": "I-joist resellers online",
+      "level": "market_map",
+      "result_count": 9,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "I-Joist | RSB Specialist Timber Manufacturer",
+          "link": "https://www.rsbgroup.co.za/i-joist/",
+          "snippet": "I-joists are comprised of top and bottom flanges, which resist bending, united with webs, which provide outstanding shear resistance. The flange material is typically laminated veneer lumber (LVL) or ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Joist Calculator [2026]",
+          "link": "https://www.unittables.com/construction/joist-calculator",
+          "snippet": "Free online joist calculator for construction and engineering calculations. Get instant, accurate results.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "LVL & I-Joist | Stark Truss - Leading manufacturer of wooden...",
+          "link": "https://www.starktruss.com/products/lvl-and-i-joist/",
+          "snippet": "The I-joists are made from lumber flanges, OSB webs and cured adhesive. LVL (laminated veneer lumber) beams are manufactured with multiple layers of thin wood assembled with adhesive. Stark Truss engi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I-Joist - APA \u2013 The Engineered Wood Association",
+          "link": "https://www.apawood.org/i-joist",
+          "snippet": "I-joist floor joist Common I-Joist Applications. I-joists are used extensively in residential floor and roof framing. They are ideal for long spans, including continuous spans over intermediate suppor",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I-Joist: Red-I\u2122 Joists | Engineered Wood Roof and Floor Framing",
+          "link": "https://www.redbuilt.com/products/i-joists/",
+          "snippet": "Red-I joists are manufactured using high-quality, engineered wood\u2014including LVL flanges and RedBuilt\u2019s proprietary OSB web. In addition to the standard parallel flange configuration, some series are a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "BC EWP | I-Joist 101 | Boise Cascade",
+          "link": "https://www.bc.com/ewp/i-joist-101/",
+          "snippet": "I-Joist 101. I-joists are some of the most commonly used engineered wood products. And for good reason. Here we\u2019ll explain what I-joists are, how they\u2019re used, and what makes them so popular.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Plywood vs. OSB I-Joists | Journal of Light Construction",
+          "link": "https://www.jlconline.com/how-to/framing/plywood-vs-osb-i-joists_o",
+          "snippet": "It may be true that OSB-web I-joists cost somewhat less to manufacture, but the main reason for the change is that OSB webs provide superior structural performance. OSB has interlocking fibers that tr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I Joist Span Calculator - Glow Calculator",
+          "link": "https://glowcalculator.com/i-joist-span-calculator/",
+          "snippet": "Easily calculate I-Joist spans for residential, commercial, or heavy loads with our accurate and user-friendly I-Joist Span Calculator.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "\u041f\u043e\u0447\u0435\u043c\u0443 \u044f \u0441\u043e\u0432\u0435\u0442\u0443\u044e \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c \u0434\u0435\u0440\u0435\u0432\u044f\u043d\u043d\u044b\u0435 \u0434\u0432\u0443\u0442\u0430\u0432\u0440\u043e\u0432\u044b\u0435 \u0431\u0430\u043b\u043a\u0438...",
+          "link": "https://rutube.ru/video/2cf377b602845f4a66df151244cd2659/",
+          "snippet": "\u041d\u043e \u0447\u0442\u043e, \u0435\u0441\u043b\u0438 \u0432 \u0432\u0430\u0448\u0435\u043c \u0434\u043e\u043c\u0435 \u043f\u0440\u043e\u043b\u0435\u0442 \u0441\u043b\u0438\u0448\u043a\u043e\u043c \u0431\u043e\u043b\u044c\u0448\u043e\u0439 \u0438 \u0432 \u0432\u0430\u0448\u0435\u043c \u0440\u0435\u0433\u0438\u043e\u043d\u0435 \u043d\u0435\u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e \u043a\u0443\u043f\u0438\u0442\u044c \u0434\u043e\u0441\u043a\u0443 \u043d\u0443\u0436\u043d\u043e\u0433\u043e \u0441\u0435\u0447\u0435\u043d\u0438\u044f? \u0412 \u0442\u0430\u043a\u043e\u043c \u0441\u043b\u0443\u0447\u0430\u0435 \u0432\u0430\u043c \u043f\u043e\u043c\u043e\u0436\u0435\u0442 \u0434\u0435\u0440\u0435\u0432\u044f\u043d\u043d\u044b\u0439 \u0414\u0412\u0423\u0422\u0410\u0412\u0420, \u043d\u0430 \u0437\u0430\u043f\u0430\u0434\u0435 \u0435\u0433\u043e \u043d\u0430\u0437\u044b\u0432\u0430\u044e\u0442 \u0410\u0439-\u0434\u0436\u043e\u0439\u0441\u0442 (I-joist). \u0421",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "I-Joist | RSB Specialist Timber Manufacturer",
+          "link": "https://www.rsbgroup.co.za/i-joist/",
+          "snippet": "I-joists are comprised of top and bottom flanges, which resist bending, united with webs, which provide outstanding shear resistance. The flange material is typically laminated veneer lumber (LVL) or ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Joist Calculator [2026]",
+          "link": "https://www.unittables.com/construction/joist-calculator",
+          "snippet": "Free online joist calculator for construction and engineering calculations. Get instant, accurate results.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "LVL & I-Joist | Stark Truss - Leading manufacturer of wooden...",
+          "link": "https://www.starktruss.com/products/lvl-and-i-joist/",
+          "snippet": "The I-joists are made from lumber flanges, OSB webs and cured adhesive. LVL (laminated veneer lumber) beams are manufactured with multiple layers of thin wood assembled with adhesive. Stark Truss engi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I-Joist - APA \u2013 The Engineered Wood Association",
+          "link": "https://www.apawood.org/i-joist",
+          "snippet": "I-joist floor joist Common I-Joist Applications. I-joists are used extensively in residential floor and roof framing. They are ideal for long spans, including continuous spans over intermediate suppor",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I-Joist: Red-I\u2122 Joists | Engineered Wood Roof and Floor Framing",
+          "link": "https://www.redbuilt.com/products/i-joists/",
+          "snippet": "Red-I joists are manufactured using high-quality, engineered wood\u2014including LVL flanges and RedBuilt\u2019s proprietary OSB web. In addition to the standard parallel flange configuration, some series are a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "BC EWP | I-Joist 101 | Boise Cascade",
+          "link": "https://www.bc.com/ewp/i-joist-101/",
+          "snippet": "I-Joist 101. I-joists are some of the most commonly used engineered wood products. And for good reason. Here we\u2019ll explain what I-joists are, how they\u2019re used, and what makes them so popular.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Plywood vs. OSB I-Joists | Journal of Light Construction",
+          "link": "https://www.jlconline.com/how-to/framing/plywood-vs-osb-i-joists_o",
+          "snippet": "It may be true that OSB-web I-joists cost somewhat less to manufacture, but the main reason for the change is that OSB webs provide superior structural performance. OSB has interlocking fibers that tr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I Joist Span Calculator - Glow Calculator",
+          "link": "https://glowcalculator.com/i-joist-span-calculator/",
+          "snippet": "Easily calculate I-Joist spans for residential, commercial, or heavy loads with our accurate and user-friendly I-Joist Span Calculator.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "\u041f\u043e\u0447\u0435\u043c\u0443 \u044f \u0441\u043e\u0432\u0435\u0442\u0443\u044e \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c \u0434\u0435\u0440\u0435\u0432\u044f\u043d\u043d\u044b\u0435 \u0434\u0432\u0443\u0442\u0430\u0432\u0440\u043e\u0432\u044b\u0435 \u0431\u0430\u043b\u043a\u0438...",
+          "link": "https://rutube.ru/video/2cf377b602845f4a66df151244cd2659/",
+          "snippet": "\u041d\u043e \u0447\u0442\u043e, \u0435\u0441\u043b\u0438 \u0432 \u0432\u0430\u0448\u0435\u043c \u0434\u043e\u043c\u0435 \u043f\u0440\u043e\u043b\u0435\u0442 \u0441\u043b\u0438\u0448\u043a\u043e\u043c \u0431\u043e\u043b\u044c\u0448\u043e\u0439 \u0438 \u0432 \u0432\u0430\u0448\u0435\u043c \u0440\u0435\u0433\u0438\u043e\u043d\u0435 \u043d\u0435\u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e \u043a\u0443\u043f\u0438\u0442\u044c \u0434\u043e\u0441\u043a\u0443 \u043d\u0443\u0436\u043d\u043e\u0433\u043e \u0441\u0435\u0447\u0435\u043d\u0438\u044f? \u0412 \u0442\u0430\u043a\u043e\u043c \u0441\u043b\u0443\u0447\u0430\u0435 \u0432\u0430\u043c \u043f\u043e\u043c\u043e\u0436\u0435\u0442 \u0434\u0435\u0440\u0435\u0432\u044f\u043d\u043d\u044b\u0439 \u0414\u0412\u0423\u0422\u0410\u0412\u0420, \u043d\u0430 \u0437\u0430\u043f\u0430\u0434\u0435 \u0435\u0433\u043e \u043d\u0430\u0437\u044b\u0432\u0430\u044e\u0442 \u0410\u0439-\u0434\u0436\u043e\u0439\u0441\u0442 (I-joist). \u0421",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P4": {
+      "query": "I-joist system integrators",
+      "level": "market_map",
+      "result_count": 11,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "I Joist Installation for 2nd Floor | Freelancer",
+          "link": "https://www.freelancer.com/projects/building-architecture/joist-installation-for-floor",
+          "snippet": "I need an I joist system plan drawn for a residential building's 2nd floor. This is for a new build, and I'm unsure of the floor span, but it should support standard residential load.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Understanding Engineered I-Joist Floor Systems | TikTok",
+          "link": "https://www.tiktok.com/@inspector.cody/video/7615593769320074509",
+          "snippet": "This is an engineered I-joist floor system. The piece between the joists is called a blocking panel (I-joist spacer). Its purpose is to help stabilize the joists and prevent rotation. Blocking should ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I-Joist vs Floor Truss: Which is Better? - MellowPine",
+          "link": "https://mellowpine.com/i-joist-vs-floor-truss/",
+          "snippet": "Trusses can handle additional loads of floor tiles, kitchen shelves, and high-traffic areas, while I-joists offer limited advantages. I-joists are sometimes further strengthened by blocking or bridgin",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "What Is A Floor Joist - 16 Common Questions Answered - Complete...",
+          "link": "https://cbsmn.com/what-is-a-floor-joist/",
+          "snippet": "TJI - Truss Joist I-Joist System. Notice there is a top & bottom flange with OSB (could be plywood too) fastened in between. This type of floor joist system is chosen when there are large distances to",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I joist bridging | Contractor Talk - Professional Construction and...",
+          "link": "https://www.contractortalk.com/threads/i-joist-bridging.101515/",
+          "snippet": "The floor system will be designed for a certain live/dead load. It will take into account wheather there is gypsum applied to the underside of the joists. Some joist designs even take into considerati",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Haggett Hall: A Study on the benefits of System Framing in... \u2014 Trimjoist",
+          "link": "https://trimjoist.com/blog/haggett-hall-case-study",
+          "snippet": "The chosen joist in the Trim-Ply System was TrimJoist - a field-trimmable, open-web joist designed for longer spans and wider on-center spacing while maintaining a strong floor performance.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I-Joists & Engineered Wood",
+          "link": "https://www.timberlink.co.uk/i-joists-engineered-wood",
+          "snippet": "The I-Joist system relies on a unique combination of engineered products designed to compliment each other and deliver outstanding performance. I-Joists The workhorse of the system, a versatile light ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bending performance of i-joists from jointed oriented",
+          "link": "http://psasir.upm.edu.my/id/eprint/10018/1/FH_2000_6_IR.pdf",
+          "snippet": "An I-joist i s a system that consi sts of flanges and web components. Both components have to work together as a system in order to match the strength property of solid wood beam.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Floor Truss Technology, Part VII: The Devil is in Those Details",
+          "link": "https://componentadvertiser.com/in-our-pages/library/floor-truss-technology-part-vii-the-devil-is-in-those-details",
+          "snippet": "Building intricate floor truss details may bedevil a robot, but they provide the inherent advantage of floor trusses over I-joists. There are also things that floor trusses can do that I-joists cannot",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Hoisting for light frame wood prefab floor cassettes | Eng-Tips",
+          "link": "https://www.eng-tips.com/threads/hoisting-for-light-frame-wood-prefab-floor-cassettes.587039/",
+          "snippet": "If for some reason you need to connect within the framing area, the best option is to install blocking between the joists using solid section blocking. WIJMA has a pretty good article on roof fall arr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Design-Build Tip of the Week #1 | Cedar Winds",
+          "link": "https://www.thebetterwaytobuild.com/the-better-way-to-build-tip-of-the-week/",
+          "snippet": "Our Tip: When ceilings are applied to an I-joist system they need to be strapped before drywall is installed.If we had to rate floor joist and beam systems from good to best, dimensional lumber is goo",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "I Joist Installation for 2nd Floor | Freelancer",
+          "link": "https://www.freelancer.com/projects/building-architecture/joist-installation-for-floor",
+          "snippet": "I need an I joist system plan drawn for a residential building's 2nd floor. This is for a new build, and I'm unsure of the floor span, but it should support standard residential load.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Understanding Engineered I-Joist Floor Systems | TikTok",
+          "link": "https://www.tiktok.com/@inspector.cody/video/7615593769320074509",
+          "snippet": "This is an engineered I-joist floor system. The piece between the joists is called a blocking panel (I-joist spacer). Its purpose is to help stabilize the joists and prevent rotation. Blocking should ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I-Joist vs Floor Truss: Which is Better? - MellowPine",
+          "link": "https://mellowpine.com/i-joist-vs-floor-truss/",
+          "snippet": "Trusses can handle additional loads of floor tiles, kitchen shelves, and high-traffic areas, while I-joists offer limited advantages. I-joists are sometimes further strengthened by blocking or bridgin",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "What Is A Floor Joist - 16 Common Questions Answered - Complete...",
+          "link": "https://cbsmn.com/what-is-a-floor-joist/",
+          "snippet": "TJI - Truss Joist I-Joist System. Notice there is a top & bottom flange with OSB (could be plywood too) fastened in between. This type of floor joist system is chosen when there are large distances to",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I joist bridging | Contractor Talk - Professional Construction and...",
+          "link": "https://www.contractortalk.com/threads/i-joist-bridging.101515/",
+          "snippet": "The floor system will be designed for a certain live/dead load. It will take into account wheather there is gypsum applied to the underside of the joists. Some joist designs even take into considerati",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Haggett Hall: A Study on the benefits of System Framing in... \u2014 Trimjoist",
+          "link": "https://trimjoist.com/blog/haggett-hall-case-study",
+          "snippet": "The chosen joist in the Trim-Ply System was TrimJoist - a field-trimmable, open-web joist designed for longer spans and wider on-center spacing while maintaining a strong floor performance.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I-Joists & Engineered Wood",
+          "link": "https://www.timberlink.co.uk/i-joists-engineered-wood",
+          "snippet": "The I-Joist system relies on a unique combination of engineered products designed to compliment each other and deliver outstanding performance. I-Joists The workhorse of the system, a versatile light ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bending performance of i-joists from jointed oriented",
+          "link": "http://psasir.upm.edu.my/id/eprint/10018/1/FH_2000_6_IR.pdf",
+          "snippet": "An I-joist i s a system that consi sts of flanges and web components. Both components have to work together as a system in order to match the strength property of solid wood beam.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Floor Truss Technology, Part VII: The Devil is in Those Details",
+          "link": "https://componentadvertiser.com/in-our-pages/library/floor-truss-technology-part-vii-the-devil-is-in-those-details",
+          "snippet": "Building intricate floor truss details may bedevil a robot, but they provide the inherent advantage of floor trusses over I-joists. There are also things that floor trusses can do that I-joists cannot",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Hoisting for light frame wood prefab floor cassettes | Eng-Tips",
+          "link": "https://www.eng-tips.com/threads/hoisting-for-light-frame-wood-prefab-floor-cassettes.587039/",
+          "snippet": "If for some reason you need to connect within the framing area, the best option is to install blocking between the joists using solid section blocking. WIJMA has a pretty good article on roof fall arr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Design-Build Tip of the Week #1 | Cedar Winds",
+          "link": "https://www.thebetterwaytobuild.com/the-better-way-to-build-tip-of-the-week/",
+          "snippet": "Our Tip: When ceilings are applied to an I-joist system they need to be strapped before drywall is installed.If we had to rate floor joist and beam systems from good to best, dimensional lumber is goo",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P5": {
+      "query": "I-joist installation services",
+      "level": "market_map",
+      "result_count": 9,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "7 Common I-Joist Installation Mistakes\u2014and How to... :: Weyerhaeuser",
+          "link": "https://www.weyerhaeuser.com/blog/7-common-joist-installation-mistakes-avoid/",
+          "snippet": "Here\u2019s a look at seven common mistakes with I-joist installation\u2014and how to prevent them. 1. Lack of Communication Many of the mistakes listed here come back to one simple problem: ambiguity between t",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best I Joist Driving And Lifting Service in Bangladesh 2026",
+          "link": "https://foreverengineeringltd.com/i-joist-driving-and-lifting-service-in-bangladesh/",
+          "snippet": "We at Forever Engineering Ltd have a professional expert team for I-Joist driving and lifting service to ensure precise installation, safety, and efficient handling of materials.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wood I-Joists Awareness Guide",
+          "link": "https://awc.org/wp-content/uploads/2021/11/i-joists.pdf",
+          "snippet": "I-Joist Design Span tables and other load charts are reviewed by the. applicable evaluation services (e.g., International Code Council Evaluation Service) and state or local building code authorities.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I Joist Installation for 2nd Floor | Freelancer",
+          "link": "https://www.freelancer.com/projects/building-architecture/joist-installation-for-floor",
+          "snippet": "Welcome, I read your I Joist Installation for 2nd Floor I will definitely Provide you professional quality designs based on your requirements. I am experienced Designer with 5 years of satisfied clien",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I-Joist, LVL, Glulam \u00ab Products/Technical Library \u00ab Eastern...",
+          "link": "https://www.eewp.com/resources/",
+          "snippet": "PWI I-Joist Installation Guide (English).\u2026 While being price competitive, Eastern is hands down the best with customer service. The one to two day turnaround time on orders is second to none. Whether ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Installing I-Joists Affordable & Durable Beam Solutions",
+          "link": "https://www.formworkreinforced.com/news/installing-i-joist-2166.html",
+          "snippet": "Discover cost-effective solutions for installing I-joists and faux wood beams. Ideal for residential and commercial projects, our lightweight yet sturdy beams ensure long-term savings.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "TJI I-Joists",
+          "link": "https://www.fp-supply.com/st-louis-trusjoist-tji-i-joists.html",
+          "snippet": "Joists can also be spaced wider than traditional solid sawn joists which allows for quicker and easier installation. -Fast and Easy Install. All TJI Joists are designed using patented software that de",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Common i-Joist Installation Mistakes to Avoid - Wesbeam",
+          "link": "https://wesbeam.com/resources/articles/blog/april-2024/common-i-joist-installation-mistakes-to-avoid",
+          "snippet": "I-joist installation errors can lead to several problems down the line. Here are some common i-joist installation mistakes to avoid and how to prevent them.If this isn\u2019t possible, installers should co",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "STEICO - Engineered by nature",
+          "link": "https://www.steico.com/uk/",
+          "snippet": "Technical / Installation.How engineered joists support efficient housebuilding. Joists are used in floors and roofs to provide essential structural support in modern housing. As with all structural co",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "7 Common I-Joist Installation Mistakes\u2014and How to... :: Weyerhaeuser",
+          "link": "https://www.weyerhaeuser.com/blog/7-common-joist-installation-mistakes-avoid/",
+          "snippet": "Here\u2019s a look at seven common mistakes with I-joist installation\u2014and how to prevent them. 1. Lack of Communication Many of the mistakes listed here come back to one simple problem: ambiguity between t",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best I Joist Driving And Lifting Service in Bangladesh 2026",
+          "link": "https://foreverengineeringltd.com/i-joist-driving-and-lifting-service-in-bangladesh/",
+          "snippet": "We at Forever Engineering Ltd have a professional expert team for I-Joist driving and lifting service to ensure precise installation, safety, and efficient handling of materials.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wood I-Joists Awareness Guide",
+          "link": "https://awc.org/wp-content/uploads/2021/11/i-joists.pdf",
+          "snippet": "I-Joist Design Span tables and other load charts are reviewed by the. applicable evaluation services (e.g., International Code Council Evaluation Service) and state or local building code authorities.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I Joist Installation for 2nd Floor | Freelancer",
+          "link": "https://www.freelancer.com/projects/building-architecture/joist-installation-for-floor",
+          "snippet": "Welcome, I read your I Joist Installation for 2nd Floor I will definitely Provide you professional quality designs based on your requirements. I am experienced Designer with 5 years of satisfied clien",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I-Joist, LVL, Glulam \u00ab Products/Technical Library \u00ab Eastern...",
+          "link": "https://www.eewp.com/resources/",
+          "snippet": "PWI I-Joist Installation Guide (English).\u2026 While being price competitive, Eastern is hands down the best with customer service. The one to two day turnaround time on orders is second to none. Whether ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Installing I-Joists Affordable & Durable Beam Solutions",
+          "link": "https://www.formworkreinforced.com/news/installing-i-joist-2166.html",
+          "snippet": "Discover cost-effective solutions for installing I-joists and faux wood beams. Ideal for residential and commercial projects, our lightweight yet sturdy beams ensure long-term savings.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "TJI I-Joists",
+          "link": "https://www.fp-supply.com/st-louis-trusjoist-tji-i-joists.html",
+          "snippet": "Joists can also be spaced wider than traditional solid sawn joists which allows for quicker and easier installation. -Fast and Easy Install. All TJI Joists are designed using patented software that de",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Common i-Joist Installation Mistakes to Avoid - Wesbeam",
+          "link": "https://wesbeam.com/resources/articles/blog/april-2024/common-i-joist-installation-mistakes-to-avoid",
+          "snippet": "I-joist installation errors can lead to several problems down the line. Here are some common i-joist installation mistakes to avoid and how to prevent them.If this isn\u2019t possible, installers should co",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "STEICO - Engineered by nature",
+          "link": "https://www.steico.com/uk/",
+          "snippet": "Technical / Installation.How engineered joists support efficient housebuilding. Joists are used in floors and roofs to provide essential structural support in modern housing. As with all structural co",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "I-joist channel partners",
+      "level": "market_map",
+      "result_count": 6,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "United States I-Joist Market Size & Share Report 2034",
+          "link": "https://www.imarcgroup.com/united-states-i-joist-market",
+          "snippet": "The United States I-joist market size reached 3.22 Million Cubic Meters in 2025 and is projected to reach 4.04 Million Cubic Meters by 2034, growing at a compound annual growth rate of 2.53% from 2026",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I-Joist - APA \u2013 The Engineered Wood Association",
+          "link": "https://www.apawood.org/i-joist",
+          "snippet": "I-joist floor joist Common I-Joist Applications. I-joists are used extensively in residential floor and roof framing. They are ideal for long spans, including continuous spans over intermediate suppor",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vent Channels for I-Joist Rafters - GreenBuildingAdvisor",
+          "link": "https://www.greenbuildingadvisor.com/question/how-to-create-vent-channels-in-i-joist-rafters",
+          "snippet": "I plan to create a vent channel between the top flanges of the I-joists and filling the rest of the joist cavity with open cell spray foam. In the past, I\u2019ve created these vent channels by nailing 7/1",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "finehomebuilding.com/forum/wet-i-joists",
+          "link": "https://www.finehomebuilding.com/forum/wet-i-joists",
+          "snippet": "Wet I-joists - Fine Homebuilding.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "\u041f\u043e\u0447\u0435\u043c\u0443 \u044f \u0441\u043e\u0432\u0435\u0442\u0443\u044e \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c \u0434\u0435\u0440\u0435\u0432\u044f\u043d\u043d\u044b\u0435 \u0434\u0432\u0443\u0442\u0430\u0432\u0440\u043e\u0432\u044b\u0435 \u0431\u0430\u043b\u043a\u0438...",
+          "link": "https://rutube.ru/video/2cf377b602845f4a66df151244cd2659/",
+          "snippet": "\u041d\u043e \u0447\u0442\u043e, \u0435\u0441\u043b\u0438 \u0432 \u0432\u0430\u0448\u0435\u043c \u0434\u043e\u043c\u0435 \u043f\u0440\u043e\u043b\u0435\u0442 \u0441\u043b\u0438\u0448\u043a\u043e\u043c \u0431\u043e\u043b\u044c\u0448\u043e\u0439 \u0438 \u0432 \u0432\u0430\u0448\u0435\u043c \u0440\u0435\u0433\u0438\u043e\u043d\u0435 \u043d\u0435\u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e \u043a\u0443\u043f\u0438\u0442\u044c \u0434\u043e\u0441\u043a\u0443 \u043d\u0443\u0436\u043d\u043e\u0433\u043e \u0441\u0435\u0447\u0435\u043d\u0438\u044f? \u0412 \u0442\u0430\u043a\u043e\u043c \u0441\u043b\u0443\u0447\u0430\u0435 \u0432\u0430\u043c \u043f\u043e\u043c\u043e\u0436\u0435\u0442 \u0434\u0435\u0440\u0435\u0432\u044f\u043d\u043d\u044b\u0439 \u0414\u0412\u0423\u0422\u0410\u0412\u0420, \u043d\u0430 \u0437\u0430\u043f\u0430\u0434\u0435 \u0435\u0433\u043e \u043d\u0430\u0437\u044b\u0432\u0430\u044e\u0442 \u0410\u0439-\u0434\u0436\u043e\u0439\u0441\u0442 (I-joist). \u0421",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "\u0410\u043c\u0435\u0440\u0438\u043a\u0430\u043d\u0446\u044b \u0432 \u043a\u0430\u0440\u043a\u0430\u0441\u043d\u0438\u043a\u0430\u0445 \u0441\u0442\u0430\u0432\u044f\u0442 \u0434\u0432\u0443\u0442\u0430\u0432\u0440\u044b, \u0430 \u043d\u0430\u0448\u0438... | \u0414\u0437\u0435\u043d",
+          "link": "https://dzen.ru/a/YiCVdgiHshq-PsM-",
+          "snippet": "\u041a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u044f \u0434\u0432\u0443\u0442\u0430\u0432\u0440\u0430 \u0431\u044b\u043b\u0430 \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0430\u043d\u0430 \u0435\u0449\u0435 \u0432 60-\u0445 \u0433\u043e\u0434\u0430\u0445 \u043f\u0440\u043e\u0448\u043b\u043e\u0433\u043e \u0432\u0435\u043a\u0430 \u0432 \u0421\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u0410\u043c\u0435\u0440\u0438\u043a\u0435 \u0438 \u0434\u0435\u0440\u0435\u0432\u044f\u043d\u043d\u0430\u044f \u0434\u0432\u0443\u0442\u0430\u0432\u0440\u043e\u0432\u0430\u044f \u0431\u0430\u043b\u043a\u0430 \u043f\u043e\u043b\u0443\u0447\u0438\u043b\u0430 \u0442\u043e\u0433\u0434\u0430 \u043d\u0430\u0437\u0432\u0430\u043d\u0438\u0435 \u0410\u0439-\u0434\u0436\u043e\u0439\u0441\u0442 (i-joist).",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "United States I-Joist Market Size & Share Report 2034",
+          "link": "https://www.imarcgroup.com/united-states-i-joist-market",
+          "snippet": "The United States I-joist market size reached 3.22 Million Cubic Meters in 2025 and is projected to reach 4.04 Million Cubic Meters by 2034, growing at a compound annual growth rate of 2.53% from 2026",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I-Joist - APA \u2013 The Engineered Wood Association",
+          "link": "https://www.apawood.org/i-joist",
+          "snippet": "I-joist floor joist Common I-Joist Applications. I-joists are used extensively in residential floor and roof framing. They are ideal for long spans, including continuous spans over intermediate suppor",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vent Channels for I-Joist Rafters - GreenBuildingAdvisor",
+          "link": "https://www.greenbuildingadvisor.com/question/how-to-create-vent-channels-in-i-joist-rafters",
+          "snippet": "I plan to create a vent channel between the top flanges of the I-joists and filling the rest of the joist cavity with open cell spray foam. In the past, I\u2019ve created these vent channels by nailing 7/1",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "finehomebuilding.com/forum/wet-i-joists",
+          "link": "https://www.finehomebuilding.com/forum/wet-i-joists",
+          "snippet": "Wet I-joists - Fine Homebuilding.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "\u041f\u043e\u0447\u0435\u043c\u0443 \u044f \u0441\u043e\u0432\u0435\u0442\u0443\u044e \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c \u0434\u0435\u0440\u0435\u0432\u044f\u043d\u043d\u044b\u0435 \u0434\u0432\u0443\u0442\u0430\u0432\u0440\u043e\u0432\u044b\u0435 \u0431\u0430\u043b\u043a\u0438...",
+          "link": "https://rutube.ru/video/2cf377b602845f4a66df151244cd2659/",
+          "snippet": "\u041d\u043e \u0447\u0442\u043e, \u0435\u0441\u043b\u0438 \u0432 \u0432\u0430\u0448\u0435\u043c \u0434\u043e\u043c\u0435 \u043f\u0440\u043e\u043b\u0435\u0442 \u0441\u043b\u0438\u0448\u043a\u043e\u043c \u0431\u043e\u043b\u044c\u0448\u043e\u0439 \u0438 \u0432 \u0432\u0430\u0448\u0435\u043c \u0440\u0435\u0433\u0438\u043e\u043d\u0435 \u043d\u0435\u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e \u043a\u0443\u043f\u0438\u0442\u044c \u0434\u043e\u0441\u043a\u0443 \u043d\u0443\u0436\u043d\u043e\u0433\u043e \u0441\u0435\u0447\u0435\u043d\u0438\u044f? \u0412 \u0442\u0430\u043a\u043e\u043c \u0441\u043b\u0443\u0447\u0430\u0435 \u0432\u0430\u043c \u043f\u043e\u043c\u043e\u0436\u0435\u0442 \u0434\u0435\u0440\u0435\u0432\u044f\u043d\u043d\u044b\u0439 \u0414\u0412\u0423\u0422\u0410\u0412\u0420, \u043d\u0430 \u0437\u0430\u043f\u0430\u0434\u0435 \u0435\u0433\u043e \u043d\u0430\u0437\u044b\u0432\u0430\u044e\u0442 \u0410\u0439-\u0434\u0436\u043e\u0439\u0441\u0442 (I-joist). \u0421",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "\u0410\u043c\u0435\u0440\u0438\u043a\u0430\u043d\u0446\u044b \u0432 \u043a\u0430\u0440\u043a\u0430\u0441\u043d\u0438\u043a\u0430\u0445 \u0441\u0442\u0430\u0432\u044f\u0442 \u0434\u0432\u0443\u0442\u0430\u0432\u0440\u044b, \u0430 \u043d\u0430\u0448\u0438... | \u0414\u0437\u0435\u043d",
+          "link": "https://dzen.ru/a/YiCVdgiHshq-PsM-",
+          "snippet": "\u041a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u044f \u0434\u0432\u0443\u0442\u0430\u0432\u0440\u0430 \u0431\u044b\u043b\u0430 \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0430\u043d\u0430 \u0435\u0449\u0435 \u0432 60-\u0445 \u0433\u043e\u0434\u0430\u0445 \u043f\u0440\u043e\u0448\u043b\u043e\u0433\u043e \u0432\u0435\u043a\u0430 \u0432 \u0421\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u0410\u043c\u0435\u0440\u0438\u043a\u0435 \u0438 \u0434\u0435\u0440\u0435\u0432\u044f\u043d\u043d\u0430\u044f \u0434\u0432\u0443\u0442\u0430\u0432\u0440\u043e\u0432\u0430\u044f \u0431\u0430\u043b\u043a\u0430 \u043f\u043e\u043b\u0443\u0447\u0438\u043b\u0430 \u0442\u043e\u0433\u0434\u0430 \u043d\u0430\u0437\u0432\u0430\u043d\u0438\u0435 \u0410\u0439-\u0434\u0436\u043e\u0439\u0441\u0442 (i-joist).",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P7": {
+      "query": "I-joist distributor corporate website",
+      "level": "discovery",
+      "result_count": 12,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "I-Joist - APA \u2013 The Engineered Wood Association",
+          "link": "https://www.apawood.org/i-joist",
+          "snippet": "I-joist floor joist Common I-Joist Applications. I-joists are used extensively in residential floor and roof framing. They are ideal for long spans, including continuous spans over intermediate suppor",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I-Joist & H-Joist Bracing Rental & Installation in Dhaka, Bangladesh",
+          "link": "https://asfcorporation.com/i-joist-and-h-joist-bracing-rent-and-installation/",
+          "snippet": "Reliable I-Joist & H-Joist bracing rental and installation services in Dhaka. ASF offers quality steel support for all construction projects.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I-Joists Market Research Report 2034",
+          "link": "https://dataintelo.com/report/global-i-joists-market",
+          "snippet": "I-Joists reduce on-site framing labor by 25-35% compared to solid sawn timber through simplified connections and standardized sizing, translating to lower labor costs and accelerated project schedules",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Details - WIJMA: Wood I-Joist Manufacturers Association",
+          "link": "https://i-joist.org/details-2/",
+          "snippet": "WIJMA: Wood I-Joist Manufacturers Association. Home. Product Information.Common product details are typically provided in the Manufacturer\u2019s literature, which may be accessed from their website: Boise",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I-Joists & Engineered Wood",
+          "link": "https://www.timberlink.co.uk/i-joists-engineered-wood",
+          "snippet": "I-Joists & Engineered Wood. Timberlink\u2026James Jones JJI-Joist distributor for Midlands & Wales.I-joists are the main structural component in the off-site manufacture of some panelized systems.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "BC EWP | I-Joist 101 | Boise Cascade",
+          "link": "https://www.bc.com/ewp/i-joist-101/",
+          "snippet": "I-joists consist of OSB web between two flanges, which are typically constructed of dimensional lumber or laminated veneer lumber (LVL) and joined by a durable structural adhesive. BCI\u00ae Joists use...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "LVL & I-Joist | Stark Truss - Leading manufacturer of wooden...",
+          "link": "https://www.starktruss.com/products/lvl-and-i-joist/",
+          "snippet": "The I-joists are made from lumber flanges, OSB webs and cured adhesive. LVL (laminated veneer lumber) beams are manufactured with multiple layers of thin wood assembled with adhesive. Stark Truss engi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I-Joist: Red-I\u2122 Joists | Engineered Wood Roof and Floor Framing",
+          "link": "https://www.redbuilt.com/products/i-joists/",
+          "snippet": "Red I Joists 3 different beams. Looking through a glass door at a I-joists installed. Structural engineered wood framing solutions from floor to roof.Red-I joists are manufactured using high-quality, ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Floor Joist Sizes & Span in Residential Home Building (Complete Guide)",
+          "link": "https://homeinspectioninsider.com/floor-joist/",
+          "snippet": "Floor Joists 3 Lg. The floor joist spacing, size, and span in residential construction are essential considerations you should consider before building a home.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "your choice of floor joists material.. | DIY Home Improvement Forum",
+          "link": "https://www.diychatroom.com/threads/your-choice-of-floor-joists-material.32565/",
+          "snippet": "A 28ft span can be done without any support under it. I-joist's or floor trusses can do this. BUT, the floor system design should be done by an engineer. This however isn't a big deal. Most I-joist di",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "STEICO - Engineered by nature",
+          "link": "https://www.steico.com/uk/",
+          "snippet": "How engineered joists support efficient housebuilding. Joists are used in floors and roofs to provide essential structural support in modern housing.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Locations | James Jones and Sons Limited",
+          "link": "https://www.jamesjones.co.uk/about-us/our-locations/",
+          "snippet": "Our site located at Stretton in Cheshire is an LPR pallet inspection and repair facility and is strategically located adjacent to the busy M56 motorway to aid pallet deliveries and UK-wide distributio",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "I-Joist - APA \u2013 The Engineered Wood Association",
+          "link": "https://www.apawood.org/i-joist",
+          "snippet": "I-joist floor joist Common I-Joist Applications. I-joists are used extensively in residential floor and roof framing. They are ideal for long spans, including continuous spans over intermediate suppor",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I-Joist & H-Joist Bracing Rental & Installation in Dhaka, Bangladesh",
+          "link": "https://asfcorporation.com/i-joist-and-h-joist-bracing-rent-and-installation/",
+          "snippet": "Reliable I-Joist & H-Joist bracing rental and installation services in Dhaka. ASF offers quality steel support for all construction projects.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I-Joists Market Research Report 2034",
+          "link": "https://dataintelo.com/report/global-i-joists-market",
+          "snippet": "I-Joists reduce on-site framing labor by 25-35% compared to solid sawn timber through simplified connections and standardized sizing, translating to lower labor costs and accelerated project schedules",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Details - WIJMA: Wood I-Joist Manufacturers Association",
+          "link": "https://i-joist.org/details-2/",
+          "snippet": "WIJMA: Wood I-Joist Manufacturers Association. Home. Product Information.Common product details are typically provided in the Manufacturer\u2019s literature, which may be accessed from their website: Boise",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I-Joists & Engineered Wood",
+          "link": "https://www.timberlink.co.uk/i-joists-engineered-wood",
+          "snippet": "I-Joists & Engineered Wood. Timberlink\u2026James Jones JJI-Joist distributor for Midlands & Wales.I-joists are the main structural component in the off-site manufacture of some panelized systems.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "BC EWP | I-Joist 101 | Boise Cascade",
+          "link": "https://www.bc.com/ewp/i-joist-101/",
+          "snippet": "I-joists consist of OSB web between two flanges, which are typically constructed of dimensional lumber or laminated veneer lumber (LVL) and joined by a durable structural adhesive. BCI\u00ae Joists use...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "LVL & I-Joist | Stark Truss - Leading manufacturer of wooden...",
+          "link": "https://www.starktruss.com/products/lvl-and-i-joist/",
+          "snippet": "The I-joists are made from lumber flanges, OSB webs and cured adhesive. LVL (laminated veneer lumber) beams are manufactured with multiple layers of thin wood assembled with adhesive. Stark Truss engi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I-Joist: Red-I\u2122 Joists | Engineered Wood Roof and Floor Framing",
+          "link": "https://www.redbuilt.com/products/i-joists/",
+          "snippet": "Red I Joists 3 different beams. Looking through a glass door at a I-joists installed. Structural engineered wood framing solutions from floor to roof.Red-I joists are manufactured using high-quality, ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Floor Joist Sizes & Span in Residential Home Building (Complete Guide)",
+          "link": "https://homeinspectioninsider.com/floor-joist/",
+          "snippet": "Floor Joists 3 Lg. The floor joist spacing, size, and span in residential construction are essential considerations you should consider before building a home.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "your choice of floor joists material.. | DIY Home Improvement Forum",
+          "link": "https://www.diychatroom.com/threads/your-choice-of-floor-joists-material.32565/",
+          "snippet": "A 28ft span can be done without any support under it. I-joist's or floor trusses can do this. BUT, the floor system design should be done by an engineer. This however isn't a big deal. Most I-joist di",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "STEICO - Engineered by nature",
+          "link": "https://www.steico.com/uk/",
+          "snippet": "How engineered joists support efficient housebuilding. Joists are used in floors and roofs to provide essential structural support in modern housing.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Locations | James Jones and Sons Limited",
+          "link": "https://www.jamesjones.co.uk/about-us/our-locations/",
+          "snippet": "Our site located at Stretton in Cheshire is an LPR pallet inspection and repair facility and is strategically located adjacent to the busy M56 motorway to aid pallet deliveries and UK-wide distributio",
+          "backend": "ddgs_bing"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

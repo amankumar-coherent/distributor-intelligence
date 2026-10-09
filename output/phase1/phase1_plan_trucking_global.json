@@ -1,0 +1,1155 @@
+{
+  "phase": 1,
+  "query": "Trucking Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T21:44:24.227798+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "trucking",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "service provider",
+    "industry_vertical": "transportation",
+    "industry_terms": [
+      "trucking logistics",
+      "freight transportation",
+      "road haulage",
+      "truck distribution",
+      "logistics integration"
+    ],
+    "ecosystem_functions": [
+      "distributing trucking services",
+      "wholesaling trucking products",
+      "reselling trucking solutions",
+      "integrating logistics systems",
+      "providing maintenance services",
+      "forming channel partnerships",
+      "enhancing service delivery",
+      "supporting supply chain logistics"
+    ],
+    "interpretation_summary": "The trucking market encompasses the transportation of goods via road using trucks, involving various participants such as distributors, wholesalers, resellers, system integrators, service providers, and channel partners.",
+    "relevance_keywords": [
+      "trucking distributors",
+      "wholesale trucking services",
+      "reseller logistics",
+      "system integration trucking",
+      "service provider trucking"
+    ],
+    "negative_keywords": [
+      "automotive",
+      "passenger vehicles",
+      "rail transport",
+      "air freight",
+      "maritime shipping"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "Ryder System,",
+        "primary_domain": "ryder.com",
+        "company_function": "logistics and transportation services"
+      },
+      {
+        "canonical_name": "XPO Logistics",
+        "primary_domain": "xpo.com",
+        "company_function": "supply chain solutions and logistics"
+      },
+      {
+        "canonical_name": "C.H. Robinson",
+        "primary_domain": "chrobinson.com",
+        "company_function": "third-party logistics provider"
+      },
+      {
+        "canonical_name": "Schneider National",
+        "primary_domain": "schneider.com",
+        "company_function": "transportation and logistics services"
+      },
+      {
+        "canonical_name": "Kuehne + Nagel",
+        "primary_domain": "kuehne-nagel.com",
+        "company_function": "global logistics provider"
+      },
+      {
+        "canonical_name": "DHL Supply Chain",
+        "primary_domain": "dhl.com",
+        "company_function": "logistics and supply chain management"
+      },
+      {
+        "canonical_name": "Old Dominion Freight Line",
+        "primary_domain": "odfl.com",
+        "company_function": "less-than-truckload shipping services"
+      },
+      {
+        "canonical_name": "J.B. Hunt Transport Services",
+        "primary_domain": "jbhunt.com",
+        "company_function": "transportation and logistics services"
+      },
+      {
+        "canonical_name": "Landstar System, Inc.",
+        "primary_domain": "landstar.com",
+        "company_function": "transportation services and logistics",
+        "segment": "Resellers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "TQL (Total Quality Logistics)",
+        "primary_domain": "tql.com",
+        "company_function": "third-party logistics provider",
+        "segment": "Channel Partners",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Transplace",
+        "primary_domain": "transplace.com",
+        "company_function": "logistics technology and services",
+        "segment": "System Integrators",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Penske Logistics",
+        "primary_domain": "penskelogistics.com",
+        "company_function": "logistics and supply chain solutions",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Coyote Logistics",
+        "primary_domain": "coyotelogistics.com",
+        "company_function": "third-party logistics provider",
+        "segment": "Channel Partners",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Echo Global Logistics",
+        "primary_domain": "echo.com",
+        "company_function": "technology-enabled logistics provider",
+        "segment": "Resellers",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "trucking",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "trucking",
+    "include_keywords": [
+      "trucking service distribution",
+      "wholesale trucking parts",
+      "reseller trucking solutions",
+      "integrated logistics services",
+      "maintenance for trucking"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The trucking market encompasses the transportation of goods via road using trucks, involving various participants such as distributors, wholesalers, resellers, system integrators, service providers, and channel partners. This market operates globally, facilitating logistics and supply chain management across diverse industries.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Distribution",
+        "description": "This layer involves the distribution of trucking services and products through various intermediaries.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Regional Distributors",
+              "National Distributors"
+            ],
+            "participant_types": [
+              "distributor"
+            ],
+            "search_intents": [
+              "truck service distributors",
+              "official truck distribution companies"
+            ]
+          },
+          {
+            "segment_name": "Wholesalers",
+            "sub_segments": [
+              "Local Wholesalers",
+              "National Wholesalers"
+            ],
+            "participant_types": [
+              "wholesaler"
+            ],
+            "search_intents": [
+              "truck parts wholesalers",
+              "wholesale trucking services"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L2",
+        "layer_name": "Reselling",
+        "description": "This layer includes companies that resell trucking services and products to end-users.",
+        "segments": [
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Independent Resellers",
+              "Franchise Resellers"
+            ],
+            "participant_types": [
+              "reseller"
+            ],
+            "search_intents": [
+              "truck service resellers",
+              "resell trucking solutions"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L3",
+        "layer_name": "Integration Services",
+        "description": "This layer consists of companies that integrate trucking solutions into broader logistics systems.",
+        "segments": [
+          {
+            "segment_name": "System Integrators",
+            "sub_segments": [
+              "Logistics System Integrators",
+              "Fleet Management Integrators"
+            ],
+            "participant_types": [
+              "system integrator"
+            ],
+            "search_intents": [
+              "trucking system integrators",
+              "integrated trucking solutions providers"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L4",
+        "layer_name": "Service Provision",
+        "description": "This layer includes service providers that offer support and maintenance for trucking operations.",
+        "segments": [
+          {
+            "segment_name": "Service Providers",
+            "sub_segments": [
+              "Maintenance Providers",
+              "Logistics Service Providers"
+            ],
+            "participant_types": [
+              "service provider"
+            ],
+            "search_intents": [
+              "trucking service providers",
+              "truck maintenance services"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L5",
+        "layer_name": "Channel Partnerships",
+        "description": "This layer involves various channel partners that collaborate with trucking companies to enhance service delivery.",
+        "segments": [
+          {
+            "segment_name": "Channel Partners",
+            "sub_segments": [
+              "Technology Partners",
+              "Logistics Partners"
+            ],
+            "participant_types": [
+              "channel partner"
+            ],
+            "search_intents": [
+              "trucking channel partners",
+              "logistics channel partnerships"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Manufacturers",
+        "End-users",
+        "Freight Forwarders",
+        "Logistics Software Providers"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "search for trucking service distributors",
+        "sub_sector": "distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "find wholesale trucking parts suppliers",
+        "sub_sector": "wholesaler",
+        "layer_id": "L1",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "look for truck service resellers",
+        "sub_sector": "reseller",
+        "layer_id": "L2",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "search for trucking system integrators",
+        "sub_sector": "system_integrator",
+        "layer_id": "L3",
+        "segment": "System Integrators"
+      },
+      {
+        "id": "M5",
+        "level": "market_map",
+        "text": "find trucking service providers",
+        "sub_sector": "service_provider",
+        "layer_id": "L4",
+        "segment": "Service Providers"
+      },
+      {
+        "id": "M6",
+        "level": "market_map",
+        "text": "search for trucking channel partners",
+        "sub_sector": "channel_partner",
+        "layer_id": "L5",
+        "segment": "Channel Partners"
+      },
+      {
+        "id": "M7",
+        "level": "market_map",
+        "text": "distribuidores de servicios de camiones",
+        "sub_sector": "distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M8",
+        "level": "market_map",
+        "text": "mayoristas de piezas de camiones",
+        "sub_sector": "wholesaler",
+        "layer_id": "L1",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M9",
+        "level": "market_map",
+        "text": "revendedores de servicios de camiones",
+        "sub_sector": "reseller",
+        "layer_id": "L2",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M10",
+        "level": "market_map",
+        "text": "integradores de sistemas de camiones",
+        "sub_sector": "system_integrator",
+        "layer_id": "L3",
+        "segment": "System Integrators"
+      },
+      {
+        "id": "M11",
+        "level": "market_map",
+        "text": "proveedores de servicios de camiones",
+        "sub_sector": "service_provider",
+        "layer_id": "L4",
+        "segment": "Service Providers"
+      },
+      {
+        "id": "M12",
+        "level": "market_map",
+        "text": "socios de canal de camiones",
+        "sub_sector": "channel_partner",
+        "layer_id": "L5",
+        "segment": "Channel Partners"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "transportation",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "trucking companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "trucking service providers corporate sites"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "trucking distributors official site"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "market_map",
+      "text": "search for trucking service distributors"
+    },
+    {
+      "id": "P2",
+      "level": "market_map",
+      "text": "find wholesale trucking parts suppliers"
+    },
+    {
+      "id": "P3",
+      "level": "market_map",
+      "text": "look for truck service resellers"
+    },
+    {
+      "id": "P4",
+      "level": "market_map",
+      "text": "search for trucking system integrators"
+    },
+    {
+      "id": "P5",
+      "level": "market_map",
+      "text": "find trucking service providers"
+    },
+    {
+      "id": "P6",
+      "level": "market_map",
+      "text": "search for trucking channel partners"
+    },
+    {
+      "id": "P7",
+      "level": "market_map",
+      "text": "distribuidores de servicios de camiones"
+    },
+    {
+      "id": "P8",
+      "level": "market_map",
+      "text": "mayoristas de piezas de camiones"
+    },
+    {
+      "id": "P9",
+      "level": "market_map",
+      "text": "revendedores de servicios de camiones"
+    },
+    {
+      "id": "P10",
+      "level": "market_map",
+      "text": "integradores de sistemas de camiones"
+    },
+    {
+      "id": "P11",
+      "level": "market_map",
+      "text": "proveedores de servicios de camiones"
+    },
+    {
+      "id": "P12",
+      "level": "market_map",
+      "text": "socios de canal de camiones"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "trucking companies official websites",
+      "level": "L0",
+      "result_count": 15,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "trucking.com",
+          "link": "https://www.trucking.com/",
+          "snippet": "trucking. (n) The business of transporting goods by road using large vehicles.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Top Trucking Services in Gandhi Nagar, Delhi near me - Justdial",
+          "link": "https://www.justdial.com/Delhi/Trucking-Services-in-Gandhi-Nagar/nct-11969177",
+          "snippet": "Dec 11, 2025 \u00b7 Trucking Services in Gandhi Nagar, Delhi - Need reliable transportation for your goods? Connect with top trucking \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Heavy Duty Trucking - Commercial Truck Fleet News",
+          "link": "https://www.truckinginfo.com/",
+          "snippet": "Apr 9, 2026 \u00b7 Comprehensive heavy truck fleet news covering equipment, operations, regulations, and environmental issues.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Trucking 101: An Introductory Guide to the Trucking Industry",
+          "link": "https://drivewyze.com/resources/guides/trucking-101-introductory-guide/",
+          "snippet": "May 14, 2024 \u00b7 From carrier classifications to relevant agencies and emerging issues, here\u2019s what every trucking professional should \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Top Trucking companies in Delhi, India - Best Trucking companies in Delhi",
+          "link": "https://www.indiainfo.net/s/trucking-company-in-delhi",
+          "snippet": "On this page, you will find listing for Jaipur Golden Transport Company Private Limited (Delhi), Instant Transport Solution Pvt. Ltd. \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Trucking_Company in the city Delhi, state DL",
+          "link": "https://in.infoaboutcompanies.com/Catalog/DL/Delhi/Trucking-Company",
+          "snippet": "Trucking Company in Delhi Region ABC Transport Co.Pvt. Ltd. 217 Kamla Market, New Delhi, Delhi, 110002, India",
+          "backend": "searxng"
+        },
+        {
+          "title": "Trucking Company Providing Logistics & Freight Shipping - Werner",
+          "link": "https://www.werner.com/",
+          "snippet": "Trucking Company providing logistics and freight shipping solutions. Werner Enterprises is one largest trucking companies in the USA and Mexico.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Prime Inc. | Freight Transport & Logistics Trucking Company",
+          "link": "https://www.primeinc.com/",
+          "snippet": "Prime inc. is a freight transport and logistics trucking company driven by the best truck drivers in North America. Explore our one-of-a-kind company culture here!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Trucking Company - Transportation And Logistics",
+          "link": "https://www.swifttrans.com/",
+          "snippet": "Swift is a trucking company that is accurate and timely when it comes transportation and logistics. Call 800-800-2200 today for all your transportation needs.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "QuickTSI - Trucking Companies, Carrier Search & Truck Driving Jobs",
+          "link": "https://www.quicktransportsolutions.com/",
+          "snippet": "Search Trucking Companies - USA, Canada & Mexico. QuickTSI is the free online directory for the trucking industry. Search carrier profiles by state, city, zip code or USDOT number - view contact info,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "U.S. Trucking Company Directory & Motor Carrier Lookup",
+          "link": "https://www.carrierdatahub.com/",
+          "snippet": "Use this site as a directory and field guide, then verify current status through official FMCSA systems.How to Verify a Trucking Company A practical verification workflow using public identifiers and ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Trucking Directory: US DOT List Of Trucking Companies",
+          "link": "https://www.truckdriver.com/trucking-company-directory/",
+          "snippet": "Trucking Directory from TruckDriver.com: A List Of US DOT Trucking Companies. Any carrier doing business in the USA, whether based in the United States, Canada, Mexico or elsewhere, must register with",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - PGT Trucking",
+          "link": "https://www.pgttrucking.com/",
+          "snippet": "PGT has opportunities for Company Drivers, Lease Purchase, Owner-Operators and Fleet Ownership. We are committed to providing five key values: pay, home time, equipment, respect and family.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - BlackBuck",
+          "link": "https://blackbuck.com/",
+          "snippet": "India's Largest Trucking Platform",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "XTL Transport Company, Logistics, Distribution | Supply Chain Solutions",
+          "link": "https://www.xtl.com/",
+          "snippet": "XTL offers a full suite of supply chain solutions,one of the leading Canadian Trucking Companies, including temperature controlled transport, over the road, warehousing & distribution, logistics and i",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "trucking.com",
+          "link": "https://www.trucking.com/",
+          "snippet": "trucking. (n) The business of transporting goods by road using large vehicles.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Top Trucking Services in Gandhi Nagar, Delhi near me - Justdial",
+          "link": "https://www.justdial.com/Delhi/Trucking-Services-in-Gandhi-Nagar/nct-11969177",
+          "snippet": "Dec 11, 2025 \u00b7 Trucking Services in Gandhi Nagar, Delhi - Need reliable transportation for your goods? Connect with top trucking \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Heavy Duty Trucking - Commercial Truck Fleet News",
+          "link": "https://www.truckinginfo.com/",
+          "snippet": "Apr 9, 2026 \u00b7 Comprehensive heavy truck fleet news covering equipment, operations, regulations, and environmental issues.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Trucking 101: An Introductory Guide to the Trucking Industry",
+          "link": "https://drivewyze.com/resources/guides/trucking-101-introductory-guide/",
+          "snippet": "May 14, 2024 \u00b7 From carrier classifications to relevant agencies and emerging issues, here\u2019s what every trucking professional should \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Top Trucking companies in Delhi, India - Best Trucking companies in Delhi",
+          "link": "https://www.indiainfo.net/s/trucking-company-in-delhi",
+          "snippet": "On this page, you will find listing for Jaipur Golden Transport Company Private Limited (Delhi), Instant Transport Solution Pvt. Ltd. \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Trucking_Company in the city Delhi, state DL",
+          "link": "https://in.infoaboutcompanies.com/Catalog/DL/Delhi/Trucking-Company",
+          "snippet": "Trucking Company in Delhi Region ABC Transport Co.Pvt. Ltd. 217 Kamla Market, New Delhi, Delhi, 110002, India",
+          "backend": "searxng"
+        },
+        {
+          "title": "Trucking Company Providing Logistics & Freight Shipping - Werner",
+          "link": "https://www.werner.com/",
+          "snippet": "Trucking Company providing logistics and freight shipping solutions. Werner Enterprises is one largest trucking companies in the USA and Mexico.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Prime Inc. | Freight Transport & Logistics Trucking Company",
+          "link": "https://www.primeinc.com/",
+          "snippet": "Prime inc. is a freight transport and logistics trucking company driven by the best truck drivers in North America. Explore our one-of-a-kind company culture here!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Trucking Company - Transportation And Logistics",
+          "link": "https://www.swifttrans.com/",
+          "snippet": "Swift is a trucking company that is accurate and timely when it comes transportation and logistics. Call 800-800-2200 today for all your transportation needs.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "QuickTSI - Trucking Companies, Carrier Search & Truck Driving Jobs",
+          "link": "https://www.quicktransportsolutions.com/",
+          "snippet": "Search Trucking Companies - USA, Canada & Mexico. QuickTSI is the free online directory for the trucking industry. Search carrier profiles by state, city, zip code or USDOT number - view contact info,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "U.S. Trucking Company Directory & Motor Carrier Lookup",
+          "link": "https://www.carrierdatahub.com/",
+          "snippet": "Use this site as a directory and field guide, then verify current status through official FMCSA systems.How to Verify a Trucking Company A practical verification workflow using public identifiers and ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Trucking Directory: US DOT List Of Trucking Companies",
+          "link": "https://www.truckdriver.com/trucking-company-directory/",
+          "snippet": "Trucking Directory from TruckDriver.com: A List Of US DOT Trucking Companies. Any carrier doing business in the USA, whether based in the United States, Canada, Mexico or elsewhere, must register with",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - PGT Trucking",
+          "link": "https://www.pgttrucking.com/",
+          "snippet": "PGT has opportunities for Company Drivers, Lease Purchase, Owner-Operators and Fleet Ownership. We are committed to providing five key values: pay, home time, equipment, respect and family.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - BlackBuck",
+          "link": "https://blackbuck.com/",
+          "snippet": "India's Largest Trucking Platform",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "XTL Transport Company, Logistics, Distribution | Supply Chain Solutions",
+          "link": "https://www.xtl.com/",
+          "snippet": "XTL offers a full suite of supply chain solutions,one of the leading Canadian Trucking Companies, including temperature controlled transport, over the road, warehousing & distribution, logistics and i",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "trucking service providers corporate sites",
+      "level": "L1",
+      "result_count": 2,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "clutch.co/logistics/trucking-companies/illinois.md",
+          "link": "https://clutch.co/logistics/trucking-companies/illinois.md",
+          "snippet": "Services Provided - Allocation of Expertise by Percentage - 30% Corporate Relocation - 70% Trucking ####. Company description Aaron Bros Moving System, Inc, a Trucking company, focus on Trucking and C",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How a Business Trucking Service Can Help You Move from Batangas...",
+          "link": "https://www.transportify.com.ph/check-transportify-rates/batangas/baguio/",
+          "snippet": "Trucking services provide various vehicle options, from small vans to large trucks, to accommodate different load sizes. Whether you\u2019re moving personal items, office equipment, or large-scale goods, t",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "clutch.co/logistics/trucking-companies/illinois.md",
+          "link": "https://clutch.co/logistics/trucking-companies/illinois.md",
+          "snippet": "Services Provided - Allocation of Expertise by Percentage - 30% Corporate Relocation - 70% Trucking ####. Company description Aaron Bros Moving System, Inc, a Trucking company, focus on Trucking and C",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How a Business Trucking Service Can Help You Move from Batangas...",
+          "link": "https://www.transportify.com.ph/check-transportify-rates/batangas/baguio/",
+          "snippet": "Trucking services provide various vehicle options, from small vans to large trucks, to accommodate different load sizes. Whether you\u2019re moving personal items, office equipment, or large-scale goods, t",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "trucking distributors official site",
+      "level": "L2",
+      "result_count": 2,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Amazon Trucking & Distribution... | SignalHire Company Profile",
+          "link": "https://www.signalhire.com/companies/amazon-trucking-distribution",
+          "snippet": "Estimated Website Traffic.Amazon Trucking & Distribution operates in the Freight Delivery industries. More details can be found on the official website: amazontruckinganddistribution.com.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Amazon Trucking & Distribution | LinkedIn",
+          "link": "https://www.linkedin.com/company/amazon-trucking-distribution",
+          "snippet": "Amazon Trucking & Distribution | 123 followers on LinkedIn. Industry leader in drayage, warehousing and transportation. With a fleet of over 96+ tractors and a brokerage team that covers the lower 48 ",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Amazon Trucking & Distribution... | SignalHire Company Profile",
+          "link": "https://www.signalhire.com/companies/amazon-trucking-distribution",
+          "snippet": "Estimated Website Traffic.Amazon Trucking & Distribution operates in the Freight Delivery industries. More details can be found on the official website: amazontruckinganddistribution.com.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Amazon Trucking & Distribution | LinkedIn",
+          "link": "https://www.linkedin.com/company/amazon-trucking-distribution",
+          "snippet": "Amazon Trucking & Distribution | 123 followers on LinkedIn. Industry leader in drayage, warehousing and transportation. With a fleet of over 96+ tractors and a brokerage team that covers the lower 48 ",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "search for trucking service distributors",
+      "level": "market_map",
+      "result_count": 2,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Best 30 Trucking in Raleigh, NC | superpages.com",
+          "link": "https://www.superpages.com/raleigh-nc/distribution-services",
+          "snippet": "Distribution Services in Raleigh on superpages.com. See reviews, photos, directions, phone numbers and more for the best Trucking in Raleigh, NC.Search results are sorted by a combination of factors t",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "M Rose Logistics - M Rose Logistics",
+          "link": "https://www.mroselogistics.com/",
+          "snippet": "M Rose Logistics Complex Logistics, Trucking Services, Warehousing and Distribution Services Faster More Efficient Better.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Best 30 Trucking in Raleigh, NC | superpages.com",
+          "link": "https://www.superpages.com/raleigh-nc/distribution-services",
+          "snippet": "Distribution Services in Raleigh on superpages.com. See reviews, photos, directions, phone numbers and more for the best Trucking in Raleigh, NC.Search results are sorted by a combination of factors t",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "M Rose Logistics - M Rose Logistics",
+          "link": "https://www.mroselogistics.com/",
+          "snippet": "M Rose Logistics Complex Logistics, Trucking Services, Warehousing and Distribution Services Faster More Efficient Better.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P2": {
+      "query": "find wholesale trucking parts suppliers",
+      "level": "market_map",
+      "result_count": 2,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "trucking Wholesaler | B2B companies and suppliers | europages",
+          "link": "https://www.europages.co.uk/companies/wholesaler/trucking.html",
+          "snippet": "1961 suppliers for trucking Wholesaler Find wholesalers and contact them directly B2B martketplace Find companies now!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Trucking, Trucking Suppliers & Trucking Wholesalers At...",
+          "link": "https://www.tradekey.com/products/trucking.html",
+          "snippet": "Find Trucking Manufacturers, Trucking Suppliers & Wholesalers of Trucking from China, Hong Kong, USA & Trucking Products from India at TradeKey.com.Howo Truck Parts. Min Order: 1 Piece. FOB Price: Get",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "trucking Wholesaler | B2B companies and suppliers | europages",
+          "link": "https://www.europages.co.uk/companies/wholesaler/trucking.html",
+          "snippet": "1961 suppliers for trucking Wholesaler Find wholesalers and contact them directly B2B martketplace Find companies now!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Trucking, Trucking Suppliers & Trucking Wholesalers At...",
+          "link": "https://www.tradekey.com/products/trucking.html",
+          "snippet": "Find Trucking Manufacturers, Trucking Suppliers & Wholesalers of Trucking from China, Hong Kong, USA & Trucking Products from India at TradeKey.com.Howo Truck Parts. Min Order: 1 Piece. FOB Price: Get",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P3": {
+      "query": "look for truck service resellers",
+      "level": "market_map",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Truck for Hire in Manila | TikTok",
+          "link": "https://www.tiktok.com/discover/truck-for-hire-in-manila",
+          "snippet": "Discover affordable truck rental services for moving in Manila. Contact us for seamless hauling solutions with no hidden fees!Whether you\u2019re a business looking for a trusted logistics partner or a cli",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Truck for Hire in Manila | TikTok",
+          "link": "https://www.tiktok.com/discover/truck-for-hire-in-manila",
+          "snippet": "Discover affordable truck rental services for moving in Manila. Contact us for seamless hauling solutions with no hidden fees!Whether you\u2019re a business looking for a trusted logistics partner or a cli",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P4": {
+      "query": "search for trucking system integrators",
+      "level": "market_map",
+      "result_count": 2,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "THE LARGEST GLOBAL SYSTEM INTEGRATORS IN 2026: A $34bn...",
+          "link": "https://www.stiq.ltd/blogs/news/the-largest-global-system-integrators-in-2026-a-34bn-market-explained",
+          "snippet": "Key system integrator facts & figures at a glance. Toyota Automated Logistics has become the largest SI, with Bastian Solutions, Vanderlande, Viastore, Siemens Logistics, and Toyota L&F combining for ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "GPS Tracking System Integrator - Efficient & Reliable Solutions",
+          "link": "https://www.alibaba.com/showroom/gps-tracking-system-integrator.html",
+          "snippet": "GPS tracking system integrator for efficient security and vehicle management. Real-time location, accident detection, and data analysis. Reliable solutions.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "THE LARGEST GLOBAL SYSTEM INTEGRATORS IN 2026: A $34bn...",
+          "link": "https://www.stiq.ltd/blogs/news/the-largest-global-system-integrators-in-2026-a-34bn-market-explained",
+          "snippet": "Key system integrator facts & figures at a glance. Toyota Automated Logistics has become the largest SI, with Bastian Solutions, Vanderlande, Viastore, Siemens Logistics, and Toyota L&F combining for ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "GPS Tracking System Integrator - Efficient & Reliable Solutions",
+          "link": "https://www.alibaba.com/showroom/gps-tracking-system-integrator.html",
+          "snippet": "GPS tracking system integrator for efficient security and vehicle management. Real-time location, accident detection, and data analysis. Reliable solutions.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P5": {
+      "query": "find trucking service providers",
+      "level": "market_map",
+      "result_count": 7,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "FleetBundle \u2014 One-Stop Trucking Services & Compliance",
+          "link": "https://fleetbundle.com/",
+          "snippet": "Finding the right coverage at the right price across liability, physical damage, and occupational policies is a full-time job you don't have time for. Too Many Vendors, Zero Accountability.We vet the ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Amazon Relay | Load board & trucking contracts for carriers - Amazon...",
+          "link": "https://relay.amazon.com/",
+          "snippet": "LLS Trucking, LLC. View More Videos. trucker using amazon relay app. Easy-to-use tools built with carrier feedback. From roundtables in every region to office hours online, carrier feedback directly s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Trucking Service: The easiest most... - Easy Logistics Management",
+          "link": "https://easylogisticsmanagement.com/2021/12/09/trucking-service-made-easy/",
+          "snippet": "In conclusion, to get their job done quickly and correctly, businesses need the assistance of trucking professionals. Finding a trustworthy trucking company is a difficult task. You can look for profe",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Trucking Service Delivery Driver [4.9 Ranking]",
+          "link": "https://www.transportify.com.ph/transportify-rates/driver/trucking-service-delivery-driver/",
+          "snippet": "As one of the best trucking service providers in the Philippines, here in Transportify, we know that there\u2019s a particular skill set needed to succeed in this competitive market.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "7 Reasons To Hire A Trucking Company For Your Business | General",
+          "link": "https://www.entrepreneurshipinabox.com/23597/7-reasons-to-hire-a-trucking-company-for-your-business/",
+          "snippet": "A professional trucking service provider will present the available options that will suit your needs and budget. A reputable and trustworthy trucking firm will handle small businesses with the same q",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - Owner Operator Directory",
+          "link": "https://truckerssourceusa.com/page/5/",
+          "snippet": "Find Trucking Services You Can Trust. Trusted Services For Owner-Operators. A carefully curated directory designed to connect owner-operators and small fleets with verified trucking service providers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "MECCA | Asset Based Supply Chain Solutions | NJ NY East Coast",
+          "link": "https://meccatrucking.com/services/",
+          "snippet": "NJ supply chain services includes Port Newark drayage, trucking, warehousing, transload facility, freight management and logistics. New Jersey port capacity includes CFS, Bonded, Alcohol, Food Bev, re",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "FleetBundle \u2014 One-Stop Trucking Services & Compliance",
+          "link": "https://fleetbundle.com/",
+          "snippet": "Finding the right coverage at the right price across liability, physical damage, and occupational policies is a full-time job you don't have time for. Too Many Vendors, Zero Accountability.We vet the ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Amazon Relay | Load board & trucking contracts for carriers - Amazon...",
+          "link": "https://relay.amazon.com/",
+          "snippet": "LLS Trucking, LLC. View More Videos. trucker using amazon relay app. Easy-to-use tools built with carrier feedback. From roundtables in every region to office hours online, carrier feedback directly s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Trucking Service: The easiest most... - Easy Logistics Management",
+          "link": "https://easylogisticsmanagement.com/2021/12/09/trucking-service-made-easy/",
+          "snippet": "In conclusion, to get their job done quickly and correctly, businesses need the assistance of trucking professionals. Finding a trustworthy trucking company is a difficult task. You can look for profe",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Trucking Service Delivery Driver [4.9 Ranking]",
+          "link": "https://www.transportify.com.ph/transportify-rates/driver/trucking-service-delivery-driver/",
+          "snippet": "As one of the best trucking service providers in the Philippines, here in Transportify, we know that there\u2019s a particular skill set needed to succeed in this competitive market.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "7 Reasons To Hire A Trucking Company For Your Business | General",
+          "link": "https://www.entrepreneurshipinabox.com/23597/7-reasons-to-hire-a-trucking-company-for-your-business/",
+          "snippet": "A professional trucking service provider will present the available options that will suit your needs and budget. A reputable and trustworthy trucking firm will handle small businesses with the same q",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - Owner Operator Directory",
+          "link": "https://truckerssourceusa.com/page/5/",
+          "snippet": "Find Trucking Services You Can Trust. Trusted Services For Owner-Operators. A carefully curated directory designed to connect owner-operators and small fleets with verified trucking service providers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "MECCA | Asset Based Supply Chain Solutions | NJ NY East Coast",
+          "link": "https://meccatrucking.com/services/",
+          "snippet": "NJ supply chain services includes Port Newark drayage, trucking, warehousing, transload facility, freight management and logistics. New Jersey port capacity includes CFS, Bonded, Alcohol, Food Bev, re",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "search for trucking channel partners",
+      "level": "market_map",
+      "result_count": 4,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Trucking Channel",
+          "link": "https://truckingchannel.com/",
+          "snippet": "Trucking Channel, Truck Stop Events, Find It If You CanOur mission is to connect drivers, companies, communities, and industry partners while promoting a stronger, healthier, and more positive image o",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Amazon Relay | Load board & trucking contracts for carriers - Amazon...",
+          "link": "https://relay.amazon.com/",
+          "snippet": "Show Search. close up of semi trucking hauling Amazon Prime trailer. Thousands of high-quality loads. Amazon Relay gives trucking companies of all sizes free access to instantly book spot loads and co",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Abutani Trucking - Channel Partner for Daimler India | LinkedIn",
+          "link": "https://in.linkedin.com/company/abutani-trucking-channel-partner-for-daimler-india",
+          "snippet": "Abutani Trucking is the only channel partner for Daimler India handling BharatBenz range of commercial vehicles.Sign in to see who you already know at Abutani Trucking - Channel Partner for Daimler In",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "home talkers on trucking channels | TruckersReport.com Trucking...",
+          "link": "https://www.thetruckersreport.com/truckingindustryforum/threads/home-talkers-on-trucking-channels.104087/",
+          "snippet": "More Trucking Job Searches Fewer Trucking Job Searches. 2. have read and agree to the TruckersReport Terms of Use and Privacy Policy. 3. agree to receive email marketing from TruckersReport and its Tr",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Trucking Channel",
+          "link": "https://truckingchannel.com/",
+          "snippet": "Trucking Channel, Truck Stop Events, Find It If You CanOur mission is to connect drivers, companies, communities, and industry partners while promoting a stronger, healthier, and more positive image o",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Amazon Relay | Load board & trucking contracts for carriers - Amazon...",
+          "link": "https://relay.amazon.com/",
+          "snippet": "Show Search. close up of semi trucking hauling Amazon Prime trailer. Thousands of high-quality loads. Amazon Relay gives trucking companies of all sizes free access to instantly book spot loads and co",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Abutani Trucking - Channel Partner for Daimler India | LinkedIn",
+          "link": "https://in.linkedin.com/company/abutani-trucking-channel-partner-for-daimler-india",
+          "snippet": "Abutani Trucking is the only channel partner for Daimler India handling BharatBenz range of commercial vehicles.Sign in to see who you already know at Abutani Trucking - Channel Partner for Daimler In",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "home talkers on trucking channels | TruckersReport.com Trucking...",
+          "link": "https://www.thetruckersreport.com/truckingindustryforum/threads/home-talkers-on-trucking-channels.104087/",
+          "snippet": "More Trucking Job Searches Fewer Trucking Job Searches. 2. have read and agree to the TruckersReport Terms of Use and Privacy Policy. 3. agree to receive email marketing from TruckersReport and its Tr",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P7": {
+      "query": "distribuidores de servicios de camiones",
+      "level": "market_map",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Euphoria (TV Series 2019\u20132026) - IMDb",
+          "link": "https://www.imdb.com/title/tt8772296/",
+          "snippet": "Euphoria: Created by Sam Levinson. With Zendaya, Hunter Schafer, Maude Apatow, Alexa Demie. A dark coming-of-age drama \u2026",
+          "backend": "searxng"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Euphoria (TV Series 2019\u20132026) - IMDb",
+          "link": "https://www.imdb.com/title/tt8772296/",
+          "snippet": "Euphoria: Created by Sam Levinson. With Zendaya, Hunter Schafer, Maude Apatow, Alexa Demie. A dark coming-of-age drama \u2026",
+          "backend": "searxng"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

@@ -1,0 +1,1057 @@
+{
+  "phase": 1,
+  "query": "Compact Cars Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T21:25:30.787720+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "compact cars",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "automotive",
+    "industry_terms": [
+      "compact cars",
+      "fuel efficiency",
+      "automotive distribution",
+      "vehicle maintenance",
+      "car reselling"
+    ],
+    "ecosystem_functions": [
+      "vehicle manufacturing",
+      "automotive distribution",
+      "wholesale trading",
+      "reselling vehicles",
+      "providing maintenance services",
+      "integrating automotive technology",
+      "channel partnership management",
+      "after-sales support",
+      "service provision"
+    ],
+    "interpretation_summary": "The compact cars market encompasses the design, manufacturing, and distribution of small vehicles that prioritize fuel efficiency and affordability. Key participants include automakers, distributors, wholesalers, and ser",
+    "relevance_keywords": [
+      "compact car sales",
+      "automotive distribution channels",
+      "vehicle service providers",
+      "car wholesaling",
+      "compact vehicle integration"
+    ],
+    "negative_keywords": [
+      "luxury",
+      "motorcycles",
+      "heavy vehicles",
+      "electric",
+      "SUV",
+      "trucks"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "Toyota Motor",
+        "primary_domain": "toyota.com",
+        "company_function": "automaker"
+      },
+      {
+        "canonical_name": "Honda Motor Co.,",
+        "primary_domain": "honda.com",
+        "company_function": "automaker"
+      },
+      {
+        "canonical_name": "Ford Motor Company",
+        "primary_domain": "ford.com",
+        "company_function": "automaker"
+      },
+      {
+        "canonical_name": "General Motors",
+        "primary_domain": "gm.com",
+        "company_function": "automaker"
+      },
+      {
+        "canonical_name": "Nissan Motor",
+        "primary_domain": "nissan-global.com",
+        "company_function": "automaker"
+      },
+      {
+        "canonical_name": "AutoNation,",
+        "primary_domain": "autonation.com",
+        "company_function": "reseller"
+      },
+      {
+        "canonical_name": "CarMax,",
+        "primary_domain": "carmax.com",
+        "company_function": "reseller"
+      },
+      {
+        "canonical_name": "Penske Automotive Group",
+        "primary_domain": "penskeautomotive.com",
+        "company_function": "reseller"
+      },
+      {
+        "canonical_name": "Advance Auto Parts, Inc.",
+        "primary_domain": "advanceautoparts.com",
+        "company_function": "Service Provider",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "O'Reilly Auto Parts",
+        "primary_domain": "oreillyauto.com",
+        "company_function": "Service Provider",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "NAPA Auto Parts",
+        "primary_domain": "napaonline.com",
+        "company_function": "Service Provider",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Genuine Parts Company",
+        "primary_domain": "genpt.com",
+        "company_function": "Service Provider",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Sonic Automotive, Inc.",
+        "primary_domain": "sonicautomotive.com",
+        "company_function": "Distributor",
+        "segment": "Distributors",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Group 1 Automotive, Inc.",
+        "primary_domain": "group1auto.com",
+        "company_function": "Distributor",
+        "segment": "Distributors",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "compact cars",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "compact cars",
+    "include_keywords": [
+      "compact car distributors",
+      "automotive wholesalers",
+      "compact vehicle resellers",
+      "service providers for compact cars",
+      "system integrators for vehicles"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The compact cars market encompasses the design, manufacturing, and distribution of small vehicles that prioritize fuel efficiency and affordability. Key participants include automakers, distributors, wholesalers, and service providers operating globally.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Manufacturing",
+        "description": "This layer involves the production of compact cars by automakers.",
+        "segments": [
+          {
+            "segment_name": "Automakers",
+            "sub_segments": [
+              "Domestic manufacturers",
+              "International manufacturers"
+            ],
+            "participant_types": [
+              "OEMs",
+              "Tier 1 suppliers"
+            ],
+            "search_intents": [
+              "compact car manufacturers official site",
+              "compact vehicle OEMs"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L2",
+        "layer_name": "Distribution",
+        "description": "This layer includes the distribution of compact cars through various channels.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Regional distributors",
+              "National distributors"
+            ],
+            "participant_types": [
+              "automotive distributors"
+            ],
+            "search_intents": [
+              "automotive distributors for compact cars",
+              "compact car distribution partners"
+            ]
+          },
+          {
+            "segment_name": "Wholesalers",
+            "sub_segments": [
+              "Local wholesalers",
+              "Online wholesalers"
+            ],
+            "participant_types": [
+              "automotive wholesalers"
+            ],
+            "search_intents": [
+              "wholesale compact cars",
+              "compact car wholesalers"
+            ]
+          },
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Franchise resellers",
+              "Independent resellers"
+            ],
+            "participant_types": [
+              "car resellers"
+            ],
+            "search_intents": [
+              "compact car resellers",
+              "buy compact cars from resellers"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L3",
+        "layer_name": "Service Providers",
+        "description": "This layer includes services related to compact cars, such as maintenance and integration.",
+        "segments": [
+          {
+            "segment_name": "Service Providers",
+            "sub_segments": [
+              "Maintenance services",
+              "Repair services"
+            ],
+            "participant_types": [
+              "service centers",
+              "auto repair shops"
+            ],
+            "search_intents": [
+              "compact car service providers",
+              "maintenance for compact cars"
+            ]
+          },
+          {
+            "segment_name": "System Integrators",
+            "sub_segments": [
+              "Technology integrators",
+              "Vehicle software providers"
+            ],
+            "participant_types": [
+              "system integration firms"
+            ],
+            "search_intents": [
+              "compact car system integrators",
+              "automotive technology integration"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Luxury Cars",
+        "Motorcycles",
+        "Heavy Vehicles",
+        "Electric Vehicles"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "compact car manufacturers official site",
+        "sub_sector": "automotive_manufacturing",
+        "layer_id": "L1",
+        "segment": "Automakers"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "automotive distributors for compact cars",
+        "sub_sector": "automotive_distribution",
+        "layer_id": "L2",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "wholesale compact cars",
+        "sub_sector": "automotive_wholesaling",
+        "layer_id": "L2",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "compact car resellers",
+        "sub_sector": "car_reselling",
+        "layer_id": "L2",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M5",
+        "level": "market_map",
+        "text": "compact car service providers",
+        "sub_sector": "vehicle_service",
+        "layer_id": "L3",
+        "segment": "Service Providers"
+      },
+      {
+        "id": "M6",
+        "level": "market_map",
+        "text": "compact car system integrators",
+        "sub_sector": "automotive_integration",
+        "layer_id": "L3",
+        "segment": "System Integrators"
+      },
+      {
+        "id": "M7",
+        "level": "market_map",
+        "text": "automotive channel partners for compact cars",
+        "sub_sector": "channel_partnerships",
+        "layer_id": "L2",
+        "segment": "Channel Partners"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "automotive",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "compact cars companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "compact car distributors corporate sites"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "compact car service providers official site"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "market_map",
+      "text": "compact car manufacturers official site"
+    },
+    {
+      "id": "P2",
+      "level": "market_map",
+      "text": "automotive distributors for compact cars"
+    },
+    {
+      "id": "P3",
+      "level": "market_map",
+      "text": "wholesale compact cars"
+    },
+    {
+      "id": "P4",
+      "level": "market_map",
+      "text": "compact car resellers"
+    },
+    {
+      "id": "P5",
+      "level": "market_map",
+      "text": "compact car service providers"
+    },
+    {
+      "id": "P6",
+      "level": "market_map",
+      "text": "compact car system integrators"
+    },
+    {
+      "id": "P7",
+      "level": "market_map",
+      "text": "automotive channel partners for compact cars"
+    },
+    {
+      "id": "P8",
+      "level": "discovery",
+      "text": "compact car distributors corporate headquarters"
+    },
+    {
+      "id": "P9",
+      "level": "discovery",
+      "text": "compact car wholesalers official site"
+    },
+    {
+      "id": "P10",
+      "level": "discovery",
+      "text": "compact car resellers corporate site"
+    },
+    {
+      "id": "P11",
+      "level": "discovery",
+      "text": "compact car service providers official website"
+    },
+    {
+      "id": "P12",
+      "level": "discovery",
+      "text": "compact car system integrators corporate site"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "compact cars companies official websites",
+      "level": "L0",
+      "result_count": 4,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "MINI USA Official Site | Compact Cars & SUVs",
+          "link": "https://www.miniusa.com/",
+          "snippet": "Welcome to the Official Site for MINI USA. Learn all about our latest models, build your own, browse inventory, offers, find authorized dealer information and more at miniusa.com.A team member of Plan",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Toyota Compact & Subcompact Cars | Toyota.com",
+          "link": "https://www.toyota.com/compact-cars/",
+          "snippet": "Explore Toyota\u2019s Compact cars and find information about their fuel economy, exterior designs, performance features, and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "4 Compact Cars With Better Ratings Than The Toyota Corolla",
+          "link": "https://www.slashgear.com/2213869/compact-cars-with-better-ratings-than-toyota-corolla/",
+          "snippet": "The one compact car that the Toyota Corolla slightly trails in 2026 sales is the Honda Civic. Only about 1,000 units sold separate the two, and fun fact, their spots in that ranking flipped in the mid",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Logos, Car Company Logos, Car Logos and Names",
+          "link": "https://www.carlogos.org/",
+          "snippet": "Lynk & Co logo Lynk & Co Compact Cars 2016-Present.Largest Car Companies. Rank. Company. Country.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "MINI USA Official Site | Compact Cars & SUVs",
+          "link": "https://www.miniusa.com/",
+          "snippet": "Welcome to the Official Site for MINI USA. Learn all about our latest models, build your own, browse inventory, offers, find authorized dealer information and more at miniusa.com.A team member of Plan",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Toyota Compact & Subcompact Cars | Toyota.com",
+          "link": "https://www.toyota.com/compact-cars/",
+          "snippet": "Explore Toyota\u2019s Compact cars and find information about their fuel economy, exterior designs, performance features, and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "4 Compact Cars With Better Ratings Than The Toyota Corolla",
+          "link": "https://www.slashgear.com/2213869/compact-cars-with-better-ratings-than-toyota-corolla/",
+          "snippet": "The one compact car that the Toyota Corolla slightly trails in 2026 sales is the Honda Civic. Only about 1,000 units sold separate the two, and fun fact, their spots in that ranking flipped in the mid",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Logos, Car Company Logos, Car Logos and Names",
+          "link": "https://www.carlogos.org/",
+          "snippet": "Lynk & Co logo Lynk & Co Compact Cars 2016-Present.Largest Car Companies. Rank. Company. Country.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "compact car distributors corporate sites",
+      "level": "L1",
+      "result_count": 6,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Compact Cars Corporation | Electric Vehicles",
+          "link": "https://www.compactcarscorp.com/",
+          "snippet": "Compact Cars Corporation was founded to bring forward small electric vehicles as a practical address to the international Carbon Credit and Carbon Emissions Reduction efforts. Meeting head on, Interna",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Hyundai Motor Company Official Website | Hyundai WorldwidePACCAR IncAUTOPEDIA\u00ae - The AUTOmotive encycloPEDIA: Auto Manuf",
+          "link": "https://www.hyundai.com/worldwide/en",
+          "snippet": "Hyundai Official Website. Explore Hyundai Motor\u2019s various vehicle lineups ,brand vision and global campaign like clean mobility, sustainability, art and sports partnership. We use essential cookies to",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Compact Cars Corporation - LinkedIn",
+          "link": "https://www.linkedin.com/company/compactcarscorp",
+          "snippet": "Compact Cars Corporation was founded to advance the development of small electric vehicles (HEV & BEV), addressing global carbon credit and carbon emissions reduction initiatives. The company...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "MINI USA Official Site | Compact Cars & SUVs",
+          "link": "https://www.miniusa.com/",
+          "snippet": "Welcome to the Official Site for MINI USA. Learn all about our latest models, build your own, browse inventory, offers, find authorized dealer information and more at miniusa.com.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "MINI USA Official Site | Compact Cars & SUVs",
+          "link": "https://dealers.miniusa.com/",
+          "snippet": "Welcome to the Official Site for MINI USA. Learn all about our latest models, build your own, browse inventory, offers, find authorized dealer information and more at miniusa.com.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Compact Cars Market Growth, Size & Trends Forecast 2034",
+          "link": "https://www.polarismarketresearch.com/industry-analysis/compact-cars-market",
+          "snippet": "Mordad 28, 1404 AP ... A few notable companies are Toyota Motor Corporation; Honda Motor Co., Ltd.; Hyundai Motor Company; Kia Corporation; Ford Motor Company; General ...",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Compact Cars Corporation | Electric Vehicles",
+          "link": "https://www.compactcarscorp.com/",
+          "snippet": "Compact Cars Corporation was founded to bring forward small electric vehicles as a practical address to the international Carbon Credit and Carbon Emissions Reduction efforts. Meeting head on, Interna",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Hyundai Motor Company Official Website | Hyundai WorldwidePACCAR IncAUTOPEDIA\u00ae - The AUTOmotive encycloPEDIA: Auto Manuf",
+          "link": "https://www.hyundai.com/worldwide/en",
+          "snippet": "Hyundai Official Website. Explore Hyundai Motor\u2019s various vehicle lineups ,brand vision and global campaign like clean mobility, sustainability, art and sports partnership. We use essential cookies to",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Compact Cars Corporation - LinkedIn",
+          "link": "https://www.linkedin.com/company/compactcarscorp",
+          "snippet": "Compact Cars Corporation was founded to advance the development of small electric vehicles (HEV & BEV), addressing global carbon credit and carbon emissions reduction initiatives. The company...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "MINI USA Official Site | Compact Cars & SUVs",
+          "link": "https://www.miniusa.com/",
+          "snippet": "Welcome to the Official Site for MINI USA. Learn all about our latest models, build your own, browse inventory, offers, find authorized dealer information and more at miniusa.com.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "MINI USA Official Site | Compact Cars & SUVs",
+          "link": "https://dealers.miniusa.com/",
+          "snippet": "Welcome to the Official Site for MINI USA. Learn all about our latest models, build your own, browse inventory, offers, find authorized dealer information and more at miniusa.com.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Compact Cars Market Growth, Size & Trends Forecast 2034",
+          "link": "https://www.polarismarketresearch.com/industry-analysis/compact-cars-market",
+          "snippet": "Mordad 28, 1404 AP ... A few notable companies are Toyota Motor Corporation; Honda Motor Co., Ltd.; Hyundai Motor Company; Kia Corporation; Ford Motor Company; General ...",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "compact car service providers official site",
+      "level": "L2",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "MINI USA Official Site | Compact Cars & SUVs",
+          "link": "https://www.miniusa.com/",
+          "snippet": "Welcome to the Official Site for MINI USA. Learn all about our latest models, build your own, browse inventory, offers, find authorized dealer information and more at miniusa.com.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "MINI USA Official Site | Compact Cars & SUVs",
+          "link": "https://www.miniusa.com/",
+          "snippet": "Welcome to the Official Site for MINI USA. Learn all about our latest models, build your own, browse inventory, offers, find authorized dealer information and more at miniusa.com.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "compact car manufacturers official site",
+      "level": "market_map",
+      "result_count": 4,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "MINI USA Official Site | Compact Cars & SUVs",
+          "link": "https://www.miniusa.com/",
+          "snippet": "Welcome to the Official Site for MINI USA. Learn all about our latest models, build your own, browse inventory, offers, find authorized dealer information and more at miniusa.com.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Toyota Cars | Toyota.com",
+          "link": "https://www.toyota.com/cars/",
+          "snippet": "Legendary reliability, impressive EPA-estimated fuel economy ratings, refined riding characteristics, and standout style are the hallmarks of these Toyota Compact Cars.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "China OEM Compact Car Manufacturers & Factory - Levers Auto",
+          "link": "https://www.leverscycles.com/china-oem-compact-car-manufacturers-factory/",
+          "snippet": "Discover top-quality OEM compact cars from Changchun Levers Automotive Technology Co., Ltd., a leading manufacturer and factory in China. We specialize in offering innovative automotive solutions tail",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mercedes-Maybach | Hong Kong \u2013 Official website",
+          "link": "https://www.mercedes-benz.com.hk/en/passengercars/mercedes-maybach.html",
+          "snippet": "Compact Cars.Online Sales Platform. Find Used Cars.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "MINI USA Official Site | Compact Cars & SUVs",
+          "link": "https://www.miniusa.com/",
+          "snippet": "Welcome to the Official Site for MINI USA. Learn all about our latest models, build your own, browse inventory, offers, find authorized dealer information and more at miniusa.com.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Toyota Cars | Toyota.com",
+          "link": "https://www.toyota.com/cars/",
+          "snippet": "Legendary reliability, impressive EPA-estimated fuel economy ratings, refined riding characteristics, and standout style are the hallmarks of these Toyota Compact Cars.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "China OEM Compact Car Manufacturers & Factory - Levers Auto",
+          "link": "https://www.leverscycles.com/china-oem-compact-car-manufacturers-factory/",
+          "snippet": "Discover top-quality OEM compact cars from Changchun Levers Automotive Technology Co., Ltd., a leading manufacturer and factory in China. We specialize in offering innovative automotive solutions tail",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mercedes-Maybach | Hong Kong \u2013 Official website",
+          "link": "https://www.mercedes-benz.com.hk/en/passengercars/mercedes-maybach.html",
+          "snippet": "Compact Cars.Online Sales Platform. Find Used Cars.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P2": {
+      "query": "automotive distributors for compact cars",
+      "level": "market_map",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Toyota Compact & Subcompact Cars | Toyota.com",
+          "link": "https://www.toyota.com/compact-cars/",
+          "snippet": "Explore Toyota\u2019s Compact cars and find information about their fuel economy, exterior designs, performance features, and more.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Toyota Compact & Subcompact Cars | Toyota.com",
+          "link": "https://www.toyota.com/compact-cars/",
+          "snippet": "Explore Toyota\u2019s Compact cars and find information about their fuel economy, exterior designs, performance features, and more.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P3": {
+      "query": "wholesale compact cars",
+      "level": "market_map",
+      "result_count": 2,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Toyota Compact & Subcompact Cars | Toyota.com",
+          "link": "https://www.toyota.com/compact-cars/",
+          "snippet": "Explore Toyota\u2019s Compact cars and find information about their fuel economy, exterior designs, performance features, and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "MINI USA Official Site | Compact Cars & SUVs",
+          "link": "https://www.miniusa.com/",
+          "snippet": "? A compact all-electric SUV with ALL4 all-wheel drive. Price as shown: $46,795.A team member of Plant Leipzig looks up at a large container of car parts. Inside Mini. The future in motion.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Toyota Compact & Subcompact Cars | Toyota.com",
+          "link": "https://www.toyota.com/compact-cars/",
+          "snippet": "Explore Toyota\u2019s Compact cars and find information about their fuel economy, exterior designs, performance features, and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "MINI USA Official Site | Compact Cars & SUVs",
+          "link": "https://www.miniusa.com/",
+          "snippet": "? A compact all-electric SUV with ALL4 all-wheel drive. Price as shown: $46,795.A team member of Plant Leipzig looks up at a large container of car parts. Inside Mini. The future in motion.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P4": {
+      "query": "compact car resellers",
+      "level": "market_map",
+      "result_count": 2,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Best Compact Cars of 2026 | Sherpa Auto Transport",
+          "link": "https://www.sherpaautotransport.com/guides/best-compact-cars/",
+          "snippet": "Compact cars continue to be one of the smartest choices for drivers who want an affordable, practical, and efficient vehicle without sacrificing comfort or modern technology.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "MINI USA Official Site | Compact Cars & SUVs",
+          "link": "https://www.miniusa.com/",
+          "snippet": "? A compact all-electric SUV with ALL4 all-wheel drive. Price as shown: $46,795.A team member of Plant Leipzig looks up at a large container of car parts. Inside Mini. The future in motion.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Best Compact Cars of 2026 | Sherpa Auto Transport",
+          "link": "https://www.sherpaautotransport.com/guides/best-compact-cars/",
+          "snippet": "Compact cars continue to be one of the smartest choices for drivers who want an affordable, practical, and efficient vehicle without sacrificing comfort or modern technology.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "MINI USA Official Site | Compact Cars & SUVs",
+          "link": "https://www.miniusa.com/",
+          "snippet": "? A compact all-electric SUV with ALL4 all-wheel drive. Price as shown: $46,795.A team member of Plant Leipzig looks up at a large container of car parts. Inside Mini. The future in motion.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P5": {
+      "query": "compact car service providers",
+      "level": "market_map",
+      "result_count": 2,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Rent a car Dubai | Car rental Dubai without deposit",
+          "link": "https://drive.yango.com/uae/dubai",
+          "snippet": "Rent a car in Dubai at the best rates: business, luxury, sport or everyday car. Book a car profitably!We provide a range of cheap cars, from compact cars to practical sedans, and even renowned brands ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Rent A Car in Japan with Times | Times CAR RENTAL: Your Car Hire...",
+          "link": "https://www.timescar-rental.com/",
+          "snippet": "Times CAR RENTAL is available for various needs of customers, including compact cars for small-sized groups, minivans for families, and luxury cars or large vans for business purposes. Most importantl",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Rent a car Dubai | Car rental Dubai without deposit",
+          "link": "https://drive.yango.com/uae/dubai",
+          "snippet": "Rent a car in Dubai at the best rates: business, luxury, sport or everyday car. Book a car profitably!We provide a range of cheap cars, from compact cars to practical sedans, and even renowned brands ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Rent A Car in Japan with Times | Times CAR RENTAL: Your Car Hire...",
+          "link": "https://www.timescar-rental.com/",
+          "snippet": "Times CAR RENTAL is available for various needs of customers, including compact cars for small-sized groups, minivans for families, and luxury cars or large vans for business purposes. Most importantl",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "compact car system integrators",
+      "level": "market_map",
+      "result_count": 9,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Compact",
+          "link": "https://www.compactmag.com/",
+          "snippet": "Compact, an online magazine founded in 2022, seeks a new political center devoted to the common good.",
+          "backend": "searxng"
+        },
+        {
+          "title": "COMPACT-TV - YouTube",
+          "link": "https://www.youtube.com/c/COMPACTTV/videos",
+          "snippet": "Der TV-Kanal des COMPACT-MagazinsUnterst\u00fctze die unabh\u00e4ngige Berichterstattung der COMPACT-Redaktion mit einem Abo: http://www.mut-zum-abo.deImpressumAbobest...",
+          "backend": "searxng"
+        },
+        {
+          "title": "Compact (American magazine) - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Compact_(American_magazine)",
+          "snippet": "Compact, an online magazine founded in 2022, seeks a new political center devoted to the common good. Believing that political forces, not economic ones, should determine our common life, we draw \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Compact - definition of compact by The Free Dictionary",
+          "link": "https://www.thefreedictionary.com/compact",
+          "snippet": "Define compact. compact synonyms, compact pronunciation, compact translation, English dictionary definition of compact. adj. 1. Closely and firmly united or packed together; dense: compact clusters of",
+          "backend": "searxng"
+        },
+        {
+          "title": "Compact | Compact",
+          "link": "https://www.compactmag.com/subscribe/",
+          "snippet": "Support independent journalism Compact Magazine is reader-supported. Become a member and get unlimited access.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Compact - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Compact",
+          "snippet": "Compact of Free Association whereby the sovereign states of the Federated States of Micronesia, the Republic of the Marshall Islands and the Republic of Palau have entered into as associated states \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Volkswagen Golf Mk8 - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Volkswagen_Golf_Mk8",
+          "snippet": "The Volkswagen Golf is a compact car, the eighth generation of the Volkswagen Golf and the successor to the Volkswagen Golf Mk7.The system integrates ChatGPT into the IDA voice assistant, though this ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Electric Cars, Solar & Clean Energy | Tesla",
+          "link": "https://www.tesla.com/",
+          "snippet": "Tesla is building a world of amazing abundance with AI, electric cars, solar, home batteries and integrated renewable energy solutions for homes and businesses.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Luxury Cars - Sedans, SUVs, Coupes & Wagons | Mercedes-Benz USA",
+          "link": "https://www.mbusa.com/",
+          "snippet": "The all-new 2027 Electric Mercedes-Benz GLB SUV. The first electric GLB seamlessly integrates into your lifestyle with uncompromising efficiency, comfort and versatility.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Compact",
+          "link": "https://www.compactmag.com/",
+          "snippet": "Compact, an online magazine founded in 2022, seeks a new political center devoted to the common good.",
+          "backend": "searxng"
+        },
+        {
+          "title": "COMPACT-TV - YouTube",
+          "link": "https://www.youtube.com/c/COMPACTTV/videos",
+          "snippet": "Der TV-Kanal des COMPACT-MagazinsUnterst\u00fctze die unabh\u00e4ngige Berichterstattung der COMPACT-Redaktion mit einem Abo: http://www.mut-zum-abo.deImpressumAbobest...",
+          "backend": "searxng"
+        },
+        {
+          "title": "Compact (American magazine) - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Compact_(American_magazine)",
+          "snippet": "Compact, an online magazine founded in 2022, seeks a new political center devoted to the common good. Believing that political forces, not economic ones, should determine our common life, we draw \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Compact - definition of compact by The Free Dictionary",
+          "link": "https://www.thefreedictionary.com/compact",
+          "snippet": "Define compact. compact synonyms, compact pronunciation, compact translation, English dictionary definition of compact. adj. 1. Closely and firmly united or packed together; dense: compact clusters of",
+          "backend": "searxng"
+        },
+        {
+          "title": "Compact | Compact",
+          "link": "https://www.compactmag.com/subscribe/",
+          "snippet": "Support independent journalism Compact Magazine is reader-supported. Become a member and get unlimited access.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Compact - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Compact",
+          "snippet": "Compact of Free Association whereby the sovereign states of the Federated States of Micronesia, the Republic of the Marshall Islands and the Republic of Palau have entered into as associated states \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Volkswagen Golf Mk8 - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Volkswagen_Golf_Mk8",
+          "snippet": "The Volkswagen Golf is a compact car, the eighth generation of the Volkswagen Golf and the successor to the Volkswagen Golf Mk7.The system integrates ChatGPT into the IDA voice assistant, though this ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Electric Cars, Solar & Clean Energy | Tesla",
+          "link": "https://www.tesla.com/",
+          "snippet": "Tesla is building a world of amazing abundance with AI, electric cars, solar, home batteries and integrated renewable energy solutions for homes and businesses.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Luxury Cars - Sedans, SUVs, Coupes & Wagons | Mercedes-Benz USA",
+          "link": "https://www.mbusa.com/",
+          "snippet": "The all-new 2027 Electric Mercedes-Benz GLB SUV. The first electric GLB seamlessly integrates into your lifestyle with uncompromising efficiency, comfort and versatility.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P7": {
+      "query": "automotive channel partners for compact cars",
+      "level": "market_map",
+      "result_count": 3,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Best Compact Cars Compared For City Living - Quntrobot",
+          "link": "https://quntrobot.com/best-compact-cars-compared-for-city-living/",
+          "snippet": "Automotive World. Car reviews and specifications.Finding the right compact car for city living can enhance your urban experience. With limited parking, heavy traffic, and a plethora of restaurants and",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Toyota Compact & Subcompact Cars | Toyota.com",
+          "link": "https://www.toyota.com/compact-cars/",
+          "snippet": "Explore Toyota\u2019s Compact cars and find information about their fuel economy, exterior designs, performance features, and more.Toyota\u2019s compact cars combine refinement, value, and dependability fit for",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "City Life: Compact Cars that Suit the Metropolitan Man",
+          "link": "https://www.moderngentlemanmagazine.com/city-compact-cars/",
+          "snippet": "Compact Cars are Ideal for City Living. Photo Credits @car9ja_. Navigating the hustle and bustle of city life requires a car that can keep up with the fast-paced rhythm. Enter compact cars, the perfec",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Best Compact Cars Compared For City Living - Quntrobot",
+          "link": "https://quntrobot.com/best-compact-cars-compared-for-city-living/",
+          "snippet": "Automotive World. Car reviews and specifications.Finding the right compact car for city living can enhance your urban experience. With limited parking, heavy traffic, and a plethora of restaurants and",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Toyota Compact & Subcompact Cars | Toyota.com",
+          "link": "https://www.toyota.com/compact-cars/",
+          "snippet": "Explore Toyota\u2019s Compact cars and find information about their fuel economy, exterior designs, performance features, and more.Toyota\u2019s compact cars combine refinement, value, and dependability fit for",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "City Life: Compact Cars that Suit the Metropolitan Man",
+          "link": "https://www.moderngentlemanmagazine.com/city-compact-cars/",
+          "snippet": "Compact Cars are Ideal for City Living. Photo Credits @car9ja_. Navigating the hustle and bustle of city life requires a car that can keep up with the fast-paced rhythm. Enter compact cars, the perfec",
+          "backend": "ddgs_bing"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

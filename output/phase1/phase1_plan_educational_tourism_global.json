@@ -1,0 +1,1314 @@
+{
+  "phase": 1,
+  "query": "Educational Tourism Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T21:43:39.407384+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "Educational Tourism",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "service provider",
+    "industry_vertical": "tourism",
+    "industry_terms": [
+      "educational travel",
+      "study abroad",
+      "language immersion",
+      "cultural exchange",
+      "educational programs"
+    ],
+    "ecosystem_functions": [
+      "distributing educational programs",
+      "wholesaling travel packages",
+      "reselling educational experiences",
+      "providing accommodation services",
+      "offering transport solutions",
+      "integrating educational services",
+      "marketing educational tourism",
+      "facilitating cultural exchanges"
+    ],
+    "interpretation_summary": "The Educational Tourism Market encompasses travel and services related to educational experiences, including study abroad programs, language courses, and cultural exchanges. Participants include educational institutions,",
+    "relevance_keywords": [
+      "educational travel agency",
+      "study abroad programs",
+      "language courses",
+      "cultural immersion",
+      "educational tourism services"
+    ],
+    "negative_keywords": [
+      "leisure travel",
+      "corporate training",
+      "event tourism",
+      "vacation packages",
+      "unrelated industries"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "EF Education First",
+        "primary_domain": "ef.com",
+        "company_function": "educational travel and language courses"
+      },
+      {
+        "canonical_name": "GoAbroad",
+        "primary_domain": "goabroad.com",
+        "company_function": "study abroad program listings"
+      },
+      {
+        "canonical_name": "Language International",
+        "primary_domain": "languageinternational.com",
+        "company_function": "language course reselling"
+      },
+      {
+        "canonical_name": "StudentUniverse",
+        "primary_domain": "studentuniverse.com",
+        "company_function": "student travel services"
+      },
+      {
+        "canonical_name": "Cultural Vistas",
+        "primary_domain": "culturalvistas.org",
+        "company_function": "cultural exchange programs"
+      },
+      {
+        "canonical_name": "AIFS Study Abroad",
+        "primary_domain": "aifsabroad.com",
+        "company_function": "study abroad programs"
+      },
+      {
+        "canonical_name": "STA Travel",
+        "primary_domain": "statravel.com",
+        "company_function": "travel agency for students"
+      },
+      {
+        "canonical_name": "ISIC Association",
+        "primary_domain": "isic.org",
+        "company_function": "student discount services"
+      },
+      {
+        "canonical_name": "Hostelling International",
+        "primary_domain": "hihostels.com",
+        "company_function": "youth hostels and accommodation",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "CIEE",
+        "primary_domain": "ciee.org",
+        "company_function": "study abroad and cultural exchange",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "Educational Tourism",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "Educational Tourism",
+    "include_keywords": [
+      "educational tourism distributor",
+      "study abroad wholesaler",
+      "language course reseller",
+      "educational service provider",
+      "cultural exchange channel partner"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The Educational Tourism Market encompasses travel and services related to educational experiences, including study abroad programs, language courses, and cultural exchanges. Participants include educational institutions, travel agencies, and service providers that facilitate these experiences globally.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Channel Partners",
+        "description": "Entities that facilitate the distribution and promotion of educational tourism services.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Online distributors",
+              "Local distributors"
+            ],
+            "participant_types": [
+              "travel agencies",
+              "educational consultants"
+            ],
+            "search_intents": [
+              "educational tourism distributors",
+              "study abroad program distributors"
+            ]
+          },
+          {
+            "segment_name": "Wholesalers",
+            "sub_segments": [
+              "International wholesalers",
+              "Regional wholesalers"
+            ],
+            "participant_types": [
+              "tour operators",
+              "travel wholesalers"
+            ],
+            "search_intents": [
+              "educational tourism wholesalers",
+              "language course wholesalers"
+            ]
+          },
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Online resellers",
+              "Local resellers"
+            ],
+            "participant_types": [
+              "travel agents",
+              "online platforms"
+            ],
+            "search_intents": [
+              "educational tourism resellers",
+              "study abroad resellers"
+            ]
+          },
+          {
+            "segment_name": "Service Providers",
+            "sub_segments": [
+              "Accommodation providers",
+              "Transport services"
+            ],
+            "participant_types": [
+              "hotels",
+              "transport companies"
+            ],
+            "search_intents": [
+              "educational tourism service providers",
+              "language course service providers"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Traditional tourism",
+        "Corporate training travel",
+        "Event tourism",
+        "Leisure travel"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "search educational tourism distributors for study abroad programs",
+        "sub_sector": "educational_tourism_distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "find educational tourism wholesalers for language courses",
+        "sub_sector": "educational_tourism_wholesaler",
+        "layer_id": "L1",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "search for educational tourism resellers in your area",
+        "sub_sector": "educational_tourism_reseller",
+        "layer_id": "L1",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "find service providers for educational tourism experiences",
+        "sub_sector": "educational_tourism_service_provider",
+        "layer_id": "L1",
+        "segment": "Service Providers"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "tourism",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "Educational Tourism companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "Educational Tourism distributors corporate sites"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "Educational Tourism service providers official site"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "discovery",
+      "text": "educational tourism distributor official site"
+    },
+    {
+      "id": "P2",
+      "level": "discovery",
+      "text": "educational tourism wholesaler corporate headquarters"
+    },
+    {
+      "id": "P3",
+      "level": "discovery",
+      "text": "educational tourism reseller corporate site"
+    },
+    {
+      "id": "P4",
+      "level": "discovery",
+      "text": "educational tourism service provider official website"
+    },
+    {
+      "id": "P5",
+      "level": "discovery",
+      "text": "educational tourism channel partner corporate profile"
+    },
+    {
+      "id": "P6",
+      "level": "discovery",
+      "text": "educational programs distributor official site"
+    },
+    {
+      "id": "P7",
+      "level": "discovery",
+      "text": "study abroad program wholesaler corporate site"
+    },
+    {
+      "id": "P8",
+      "level": "discovery",
+      "text": "language course reseller corporate headquarters"
+    },
+    {
+      "id": "P9",
+      "level": "discovery",
+      "text": "authorized Educational Tourism distributor firm official"
+    },
+    {
+      "id": "P10",
+      "level": "discovery",
+      "text": "Educational Tourism reseller channel partner official"
+    },
+    {
+      "id": "P11",
+      "level": "discovery",
+      "text": "educational travel offering transport solutions official website"
+    },
+    {
+      "id": "P12",
+      "level": "discovery",
+      "text": "Educational Tourism system integrator official website"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "Educational Tourism companies official websites",
+      "level": "L0",
+      "result_count": 2,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "\u041e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0442\u0443\u0440\u0438\u0437\u043c | Educational tourism - \u044d\u0442\u043e \u043c\u0435\u0441\u0442\u043e, \u0433\u0434\u0435 \u0432\u044b...",
+          "link": "https://vk.ru/educational_tourism",
+          "snippet": "Educational Tourism. www.pinterest.com. Educational Tourism Google+.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "image9 - The Modern Classroom",
+          "link": "https://www.themodernclassroom.in/top-5-educational-tourism-places-india/image9/",
+          "snippet": "Top 5 Educational Tourism Places in India. We have listed out our top 5 educational touris...",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "\u041e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0442\u0443\u0440\u0438\u0437\u043c | Educational tourism - \u044d\u0442\u043e \u043c\u0435\u0441\u0442\u043e, \u0433\u0434\u0435 \u0432\u044b...",
+          "link": "https://vk.ru/educational_tourism",
+          "snippet": "Educational Tourism. www.pinterest.com. Educational Tourism Google+.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "image9 - The Modern Classroom",
+          "link": "https://www.themodernclassroom.in/top-5-educational-tourism-places-india/image9/",
+          "snippet": "Top 5 Educational Tourism Places in India. We have listed out our top 5 educational touris...",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "Educational Tourism distributors corporate sites",
+      "level": "L1",
+      "result_count": 6,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Educational Tourism Key Companies | Market Research Future",
+          "link": "https://www.marketresearchfuture.com/reports/educational-tourism-market/companies",
+          "snippet": "The educational tourism market is characterized by intense competition, with established players facing stiff challenges from nimble startups and specialized offerings. Success hinges on innovation, a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Educational Tourism Companies",
+          "link": "https://educational-services.educationtechnologyinsights.com/vendors/top-educational-tourism-companies.html",
+          "snippet": "Top Educational Tourism Companies - Education Technology Insights present the list of Top Educational Tourism Companies are the leading provider of educational-services technology solutions and servic",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Educational Travel & Educational Tours Abroad | WorldStridesEducational Tourism Key Companies | Market Research FutureTo",
+          "link": "https://worldstrides.com/en-us",
+          "snippet": "WorldStrides is the nation's largest educational travel company, offering educational tours and trips to over 400,000 students a year. Feb 16, 2025 \u00b7 Companies like GoUNESCO and Trekks provide persona",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "(PDF) Chapter 1 The Planning and Development of the Tourism Product",
+          "link": "https://www.researchgate.net/publication/328292320_Chapter_1_The_Planning_and_Development_of_the_Tourism_Product",
+          "snippet": "tourism, ecotourism, wine tourism, culinary tourism, health tourism, medi-. cal tourism, religious tourism, cultural (or heritage) tourism, sports tourism, educational tourism, business tourism (inclu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 Educational Tourism Companies - 2024",
+          "link": "https://educational-tourism.educationtechnologyinsights.com/vendors/top-educational-tourism-companies.html",
+          "snippet": "Top Educational Tourism Companies - Education Technology Insights present the list of Top Educational Tourism Companies are the leading provider of educational-tourism technology solutions and service",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Educational Tourism Companies-2023",
+          "link": "https://educational-services.educationtechnologyinsights.com/vendors/top-educational-tourism-companies-2023.html",
+          "snippet": "Custom group travel is provided by Educational Tours & Travel Corporation for premade groups. The journey is tailored to their chosen destination(s) and preferences. Tours often include air/or ground ",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Educational Tourism Key Companies | Market Research Future",
+          "link": "https://www.marketresearchfuture.com/reports/educational-tourism-market/companies",
+          "snippet": "The educational tourism market is characterized by intense competition, with established players facing stiff challenges from nimble startups and specialized offerings. Success hinges on innovation, a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Educational Tourism Companies",
+          "link": "https://educational-services.educationtechnologyinsights.com/vendors/top-educational-tourism-companies.html",
+          "snippet": "Top Educational Tourism Companies - Education Technology Insights present the list of Top Educational Tourism Companies are the leading provider of educational-services technology solutions and servic",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Educational Travel & Educational Tours Abroad | WorldStridesEducational Tourism Key Companies | Market Research FutureTo",
+          "link": "https://worldstrides.com/en-us",
+          "snippet": "WorldStrides is the nation's largest educational travel company, offering educational tours and trips to over 400,000 students a year. Feb 16, 2025 \u00b7 Companies like GoUNESCO and Trekks provide persona",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "(PDF) Chapter 1 The Planning and Development of the Tourism Product",
+          "link": "https://www.researchgate.net/publication/328292320_Chapter_1_The_Planning_and_Development_of_the_Tourism_Product",
+          "snippet": "tourism, ecotourism, wine tourism, culinary tourism, health tourism, medi-. cal tourism, religious tourism, cultural (or heritage) tourism, sports tourism, educational tourism, business tourism (inclu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 Educational Tourism Companies - 2024",
+          "link": "https://educational-tourism.educationtechnologyinsights.com/vendors/top-educational-tourism-companies.html",
+          "snippet": "Top Educational Tourism Companies - Education Technology Insights present the list of Top Educational Tourism Companies are the leading provider of educational-tourism technology solutions and service",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Educational Tourism Companies-2023",
+          "link": "https://educational-services.educationtechnologyinsights.com/vendors/top-educational-tourism-companies-2023.html",
+          "snippet": "Custom group travel is provided by Educational Tours & Travel Corporation for premade groups. The journey is tailored to their chosen destination(s) and preferences. Tours often include air/or ground ",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "Educational Tourism service providers official site",
+      "level": "L2",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Improving Educational Tourism Marketing by Utilizing Website",
+          "link": "https://www.scirp.org/journal/paperinformation?paperid=130163",
+          "snippet": "7. Market Need for Website in Educational Tourism. The use of website brings many benefits, both for tourism service providers and tourists. As a tool to reach potential tourists, website are a tool t",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Improving Educational Tourism Marketing by Utilizing Website",
+          "link": "https://www.scirp.org/journal/paperinformation?paperid=130163",
+          "snippet": "7. Market Need for Website in Educational Tourism. The use of website brings many benefits, both for tourism service providers and tourists. As a tool to reach potential tourists, website are a tool t",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "educational tourism distributor official site",
+      "level": "discovery",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "\u041e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0442\u0443\u0440\u0438\u0437\u043c | Educational tourism - \u044d\u0442\u043e \u043c\u0435\u0441\u0442\u043e, \u0433\u0434\u0435 \u0432\u044b...",
+          "link": "https://vk.ru/educational_tourism",
+          "snippet": "\u0421\u0441\u044b\u043b\u043a\u0438 5. Educational Tourism. www.instagram.com.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "\u041e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0442\u0443\u0440\u0438\u0437\u043c | Educational tourism - \u044d\u0442\u043e \u043c\u0435\u0441\u0442\u043e, \u0433\u0434\u0435 \u0432\u044b...",
+          "link": "https://vk.ru/educational_tourism",
+          "snippet": "\u0421\u0441\u044b\u043b\u043a\u0438 5. Educational Tourism. www.instagram.com.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P2": {
+      "query": "educational tourism wholesaler corporate headquarters",
+      "level": "discovery",
+      "result_count": 12,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Fishing Game (Seabed) - Play - Educational - Paper Craft - Canon ...",
+          "link": "https://creativepark.canon/en/contents/CNT-0030515/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Pop-up ABC - Learn - Educational - Paper Craft - Canon Creative Park",
+          "link": "https://creativepark.canon/en/contents/CNT-0010679/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Vending Machine (Nostalgic) - Play - Educational - Paper Craft",
+          "link": "https://creativepark.canon/en/contents/CNT-0029161/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Alphabets and Numbers - Learn - Educational - Paper Craft - Canon ...",
+          "link": "https://creativepark.canon/en/contents/CNT-0026531/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Elastic-powered Duck - Play - Educational - Paper Craft - Canon ...",
+          "link": "https://creativepark.canon/en/contents/CNT-0011142/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Easy diorama (City by the sea / Tower) - Play - Educational - Paper ...",
+          "link": "https://creativepark.canon/en/contents/CNT-0029761/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Diorama of the miniature garden (Dinosaurs) - Play - Educational ...",
+          "link": "https://creativepark.canon/en/contents/CNT-0030641/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Make Believe (Shopping Set) - Play - Educational - Paper Craft",
+          "link": "https://creativepark.canon/en/contents/CNT-0028469/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Hand Puppet (Dog / Cat / Tiger) - Play - Educational - Paper Craft ...",
+          "link": "https://creativepark.canon/en/contents/CNT-0029557/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Wholesaler tourism companies - Europages",
+          "link": "https://www.europages.co.uk/companies/wholesaler/tourism+companies.html",
+          "snippet": "Browse through 10 Wholesaler in the tourism companies industry on Europages, a B2B platform for finding worldwide partners.Wholesaler. 10 Companies 1 Product. Idez auto parts.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "B2B Agent Portal | Wholesale Tourism",
+          "link": "https://b2b.wholesaletourism.com/",
+          "snippet": "Wholesale touristic inventory. One stop shop for. B2B Agencies.Trusted by 3,000+ verified travel trade partners. Built for scale - net rates, corporate deals, and protected allotments when the market ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tourism Wholesaler Companies",
+          "link": "https://www.turkishexporter.com.tr/en/companies/tourism/wholesalers/",
+          "snippet": "The main export products of this Turkish manufacturer company are: energy services, construction services, tourism services, energy transmission lines, substations and switchyards. SA-RA's success sto",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Fishing Game (Seabed) - Play - Educational - Paper Craft - Canon ...",
+          "link": "https://creativepark.canon/en/contents/CNT-0030515/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Pop-up ABC - Learn - Educational - Paper Craft - Canon Creative Park",
+          "link": "https://creativepark.canon/en/contents/CNT-0010679/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Vending Machine (Nostalgic) - Play - Educational - Paper Craft",
+          "link": "https://creativepark.canon/en/contents/CNT-0029161/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Alphabets and Numbers - Learn - Educational - Paper Craft - Canon ...",
+          "link": "https://creativepark.canon/en/contents/CNT-0026531/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Elastic-powered Duck - Play - Educational - Paper Craft - Canon ...",
+          "link": "https://creativepark.canon/en/contents/CNT-0011142/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Easy diorama (City by the sea / Tower) - Play - Educational - Paper ...",
+          "link": "https://creativepark.canon/en/contents/CNT-0029761/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Diorama of the miniature garden (Dinosaurs) - Play - Educational ...",
+          "link": "https://creativepark.canon/en/contents/CNT-0030641/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Make Believe (Shopping Set) - Play - Educational - Paper Craft",
+          "link": "https://creativepark.canon/en/contents/CNT-0028469/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Hand Puppet (Dog / Cat / Tiger) - Play - Educational - Paper Craft ...",
+          "link": "https://creativepark.canon/en/contents/CNT-0029557/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Wholesaler tourism companies - Europages",
+          "link": "https://www.europages.co.uk/companies/wholesaler/tourism+companies.html",
+          "snippet": "Browse through 10 Wholesaler in the tourism companies industry on Europages, a B2B platform for finding worldwide partners.Wholesaler. 10 Companies 1 Product. Idez auto parts.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "B2B Agent Portal | Wholesale Tourism",
+          "link": "https://b2b.wholesaletourism.com/",
+          "snippet": "Wholesale touristic inventory. One stop shop for. B2B Agencies.Trusted by 3,000+ verified travel trade partners. Built for scale - net rates, corporate deals, and protected allotments when the market ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tourism Wholesaler Companies",
+          "link": "https://www.turkishexporter.com.tr/en/companies/tourism/wholesalers/",
+          "snippet": "The main export products of this Turkish manufacturer company are: energy services, construction services, tourism services, energy transmission lines, substations and switchyards. SA-RA's success sto",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P3": {
+      "query": "educational tourism reseller corporate site",
+      "level": "discovery",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_yandex"
+      ],
+      "results": [
+        {
+          "title": "\u041e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0442\u0443\u0440\u0438\u0437\u043c | Educational tourism - \u044d\u0442\u043e \u043c\u0435\u0441\u0442\u043e, \u0433\u0434\u0435 \u0432\u044b...",
+          "link": "https://vk.ru/educational_tourism",
+          "snippet": "\u0421\u0441\u044b\u043b\u043a\u0438 5. Educational Tourism. www.instagram.com.",
+          "backend": "ddgs_yandex"
+        }
+      ],
+      "sample": [
+        {
+          "title": "\u041e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0442\u0443\u0440\u0438\u0437\u043c | Educational tourism - \u044d\u0442\u043e \u043c\u0435\u0441\u0442\u043e, \u0433\u0434\u0435 \u0432\u044b...",
+          "link": "https://vk.ru/educational_tourism",
+          "snippet": "\u0421\u0441\u044b\u043b\u043a\u0438 5. Educational Tourism. www.instagram.com.",
+          "backend": "ddgs_yandex"
+        }
+      ]
+    },
+    "P4": {
+      "query": "educational tourism service provider official website",
+      "level": "discovery",
+      "result_count": 15,
+      "results_target": 28,
+      "backends": [
+        "ddgs_yandex",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Fishing Game (Seabed) - Play - Educational - Paper Craft - Canon ...",
+          "link": "https://creativepark.canon/en/contents/CNT-0030515/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Pop-up ABC - Learn - Educational - Paper Craft - Canon Creative Park",
+          "link": "https://creativepark.canon/en/contents/CNT-0010679/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Vending Machine (Nostalgic) - Play - Educational - Paper Craft",
+          "link": "https://creativepark.canon/en/contents/CNT-0029161/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Alphabets and Numbers - Learn - Educational - Paper Craft - Canon ...",
+          "link": "https://creativepark.canon/en/contents/CNT-0026531/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Elastic-powered Duck - Play - Educational - Paper Craft - Canon ...",
+          "link": "https://creativepark.canon/en/contents/CNT-0011142/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Easy diorama (City by the sea / Tower) - Play - Educational - Paper ...",
+          "link": "https://creativepark.canon/en/contents/CNT-0029761/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Diorama of the miniature garden (Dinosaurs) - Play - Educational ...",
+          "link": "https://creativepark.canon/en/contents/CNT-0030641/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Make Believe (Shopping Set) - Play - Educational - Paper Craft",
+          "link": "https://creativepark.canon/en/contents/CNT-0028469/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Hand Puppet (Dog / Cat / Tiger) - Play - Educational - Paper Craft ...",
+          "link": "https://creativepark.canon/en/contents/CNT-0029557/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Dubai Department of Economy & Tourism \u2013 Business, Travel & Events",
+          "link": "https://www.dubaidet.gov.ae/",
+          "snippet": "Related sites.Explore official resources and permits from Dubai Department of Economy and Tourism to help you launch your business, event or tourism service in the emirate.",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Ministry of Tourism | Saudi Arabia",
+          "link": "https://mt.gov.sa/",
+          "snippet": "Ministry of Tourism logo. Loading...",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "IRCTC Tourism is Offering Retiring Room at affordable cost Online.",
+          "link": "https://rr.irctc.co.in/",
+          "snippet": "What is IRCTC service charge on Retiring Rooms?",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Seychelles Travel - Official Tourism Website of the Seychelles",
+          "link": "https://www.seychelles.com/",
+          "snippet": "Be inspired. Experience all that the Seychelles Islands has to offer from our pristine waters, to our exquisite flora and fauna.",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Welcome to VFS Global | For Individuals | Home",
+          "link": "https://www.vfsglobal.com/",
+          "snippet": "Tourism Services. I'm applying from.Imphal, India. State-of-the-art center provides wide range of proficiently managed E-district services and a host of sub-services.",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "IRCTC Train Ticket Booking, Easy IRCTC Login | ConfirmTkt",
+          "link": "https://www.confirmtkt.com/",
+          "snippet": "ConfirmTkt is an official partner of IRCTC.IRCTC also provides tourism services through its website, offering various tour packages and hotel bookings for destinations across India.",
+          "backend": "ddgs_yandex"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Fishing Game (Seabed) - Play - Educational - Paper Craft - Canon ...",
+          "link": "https://creativepark.canon/en/contents/CNT-0030515/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Pop-up ABC - Learn - Educational - Paper Craft - Canon Creative Park",
+          "link": "https://creativepark.canon/en/contents/CNT-0010679/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Vending Machine (Nostalgic) - Play - Educational - Paper Craft",
+          "link": "https://creativepark.canon/en/contents/CNT-0029161/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Alphabets and Numbers - Learn - Educational - Paper Craft - Canon ...",
+          "link": "https://creativepark.canon/en/contents/CNT-0026531/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Elastic-powered Duck - Play - Educational - Paper Craft - Canon ...",
+          "link": "https://creativepark.canon/en/contents/CNT-0011142/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Easy diorama (City by the sea / Tower) - Play - Educational - Paper ...",
+          "link": "https://creativepark.canon/en/contents/CNT-0029761/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Diorama of the miniature garden (Dinosaurs) - Play - Educational ...",
+          "link": "https://creativepark.canon/en/contents/CNT-0030641/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Make Believe (Shopping Set) - Play - Educational - Paper Craft",
+          "link": "https://creativepark.canon/en/contents/CNT-0028469/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Hand Puppet (Dog / Cat / Tiger) - Play - Educational - Paper Craft ...",
+          "link": "https://creativepark.canon/en/contents/CNT-0029557/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Dubai Department of Economy & Tourism \u2013 Business, Travel & Events",
+          "link": "https://www.dubaidet.gov.ae/",
+          "snippet": "Related sites.Explore official resources and permits from Dubai Department of Economy and Tourism to help you launch your business, event or tourism service in the emirate.",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Ministry of Tourism | Saudi Arabia",
+          "link": "https://mt.gov.sa/",
+          "snippet": "Ministry of Tourism logo. Loading...",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "IRCTC Tourism is Offering Retiring Room at affordable cost Online.",
+          "link": "https://rr.irctc.co.in/",
+          "snippet": "What is IRCTC service charge on Retiring Rooms?",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Seychelles Travel - Official Tourism Website of the Seychelles",
+          "link": "https://www.seychelles.com/",
+          "snippet": "Be inspired. Experience all that the Seychelles Islands has to offer from our pristine waters, to our exquisite flora and fauna.",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Welcome to VFS Global | For Individuals | Home",
+          "link": "https://www.vfsglobal.com/",
+          "snippet": "Tourism Services. I'm applying from.Imphal, India. State-of-the-art center provides wide range of proficiently managed E-district services and a host of sub-services.",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "IRCTC Train Ticket Booking, Easy IRCTC Login | ConfirmTkt",
+          "link": "https://www.confirmtkt.com/",
+          "snippet": "ConfirmTkt is an official partner of IRCTC.IRCTC also provides tourism services through its website, offering various tour packages and hotel bookings for destinations across India.",
+          "backend": "ddgs_yandex"
+        }
+      ]
+    },
+    "P5": {
+      "query": "educational tourism channel partner corporate profile",
+      "level": "discovery",
+      "result_count": 12,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Fishing Game (Seabed) - Play - Educational - Paper Craft - Canon ...",
+          "link": "https://creativepark.canon/en/contents/CNT-0030515/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and Scrapbook, so you're sure to find something you like. Have fun printi",
+          "backend": "searxng"
+        },
+        {
+          "title": "Pop-up ABC - Learn - Educational - Paper Craft - Canon Creative Park",
+          "link": "https://creativepark.canon/en/contents/CNT-0010679/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and Scrapbook, so you're sure to find something you like. Have fun printi",
+          "backend": "searxng"
+        },
+        {
+          "title": "Vending Machine (Nostalgic) - Play - Educational - Paper Craft",
+          "link": "https://creativepark.canon/en/contents/CNT-0029161/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and Scrapbook, so you're sure to find something you like. Have fun printi",
+          "backend": "searxng"
+        },
+        {
+          "title": "Alphabets and Numbers - Learn - Educational - Paper Craft - Canon ...",
+          "link": "https://creativepark.canon/en/contents/CNT-0026531/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and Scrapbook, so you're sure to find something you like. Have fun printi",
+          "backend": "searxng"
+        },
+        {
+          "title": "Elastic-powered Duck - Play - Educational - Paper Craft - Canon ...",
+          "link": "https://creativepark.canon/en/contents/CNT-0011142/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and Scrapbook, so you're sure to find something you like. Have fun printi",
+          "backend": "searxng"
+        },
+        {
+          "title": "Easy diorama (City by the sea / Tower) - Play - Educational - Paper ...",
+          "link": "https://creativepark.canon/en/contents/CNT-0029761/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and Scrapbook, so you're sure to find something you like. Have fun printi",
+          "backend": "searxng"
+        },
+        {
+          "title": "Diorama of the miniature garden (Dinosaurs) - Play - Educational ...",
+          "link": "https://creativepark.canon/en/contents/CNT-0030641/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and Scrapbook, so you're sure to find something you like. Have fun printi",
+          "backend": "searxng"
+        },
+        {
+          "title": "Make Believe (Shopping Set) - Play - Educational - Paper Craft",
+          "link": "https://creativepark.canon/en/contents/CNT-0028469/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and Scrapbook, so you're sure to find something you like. Have fun printi",
+          "backend": "searxng"
+        },
+        {
+          "title": "Hand Puppet (Dog / Cat / Tiger) - Play - Educational - Paper Craft ...",
+          "link": "https://creativepark.canon/en/contents/CNT-0029557/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and Scrapbook, so you're sure to find something you like. Have fun printi",
+          "backend": "searxng"
+        },
+        {
+          "title": "Telegram: View @via_tourism_channel",
+          "link": "https://t.me/via_tourism_channel/318",
+          "snippet": "\u0420\u0430\u0437\u043d\u0438\u0446\u0430 \u0432 \u0432\u044b\u0440\u0443\u0447\u043a\u0435 \u043f\u043e\u043b\u043d\u043e\u0441\u0442\u044c\u044e \u0437\u0430\u0432\u0438\u0441\u0438\u0442 \u043e\u0442 \u0438\u0437\u043d\u0430\u0447\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043f\u043e\u0434\u0445\u043e\u0434\u0430 \u0438 \u0437\u043d\u0430\u043d\u0438\u044f, \u0447\u0435\u0433\u043e \u0438\u043c\u0435\u043d\u043d\u043e \u0445\u043e\u0447\u0435\u0442 \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u0438\u043a. \u0420\u0443\u043a\u043e\u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044c \u0448\u043a\u043e\u043b\u044b \u0442\u0443\u0440\u0430\u0433\u0435\u043d\u0442\u043e\u0432 \u0410\u043d\u0430\u0441\u0442\u0430\u0441\u0438\u044f \u041a\u043e\u0441\u0438\u043d\u0441\u043a\u0430\u044f \u0440\u0430\u0441\u0441\u043a\u0430\u0437\u0430\u043b\u0430 \u043e \u0432\u0441\u0435\u0445 \u0432\u0430\u0440\u0438\u0430\u043d\u0442\u0430\u0445 \u0437\u0430\u0440\u0430\u0431\u043e\u0442\u043a\u0430 \u2014 \u043e\u0442 \u0441\u0430\u043c",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "loc.gov/item/2014632295",
+          "link": "https://www.loc.gov/item/2014632295/",
+          "snippet": "...roam freely in the Rainforest Pyramid at Moody Gardens, an educational \u2026",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "VisitSeoul TV - YouTube",
+          "link": "https://www.youtube.com/channel/UCtlz8pU3IiHf77V8s740-pQ",
+          "snippet": "Hello! Welcome to VisitSeoul for Seoul travel, K-pop, and Korean entertainment.The Official Tourism Channel of Seoul Official Tourism Guide: www.visitseoul...",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Fishing Game (Seabed) - Play - Educational - Paper Craft - Canon ...",
+          "link": "https://creativepark.canon/en/contents/CNT-0030515/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and Scrapbook, so you're sure to find something you like. Have fun printi",
+          "backend": "searxng"
+        },
+        {
+          "title": "Pop-up ABC - Learn - Educational - Paper Craft - Canon Creative Park",
+          "link": "https://creativepark.canon/en/contents/CNT-0010679/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and Scrapbook, so you're sure to find something you like. Have fun printi",
+          "backend": "searxng"
+        },
+        {
+          "title": "Vending Machine (Nostalgic) - Play - Educational - Paper Craft",
+          "link": "https://creativepark.canon/en/contents/CNT-0029161/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and Scrapbook, so you're sure to find something you like. Have fun printi",
+          "backend": "searxng"
+        },
+        {
+          "title": "Alphabets and Numbers - Learn - Educational - Paper Craft - Canon ...",
+          "link": "https://creativepark.canon/en/contents/CNT-0026531/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and Scrapbook, so you're sure to find something you like. Have fun printi",
+          "backend": "searxng"
+        },
+        {
+          "title": "Elastic-powered Duck - Play - Educational - Paper Craft - Canon ...",
+          "link": "https://creativepark.canon/en/contents/CNT-0011142/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and Scrapbook, so you're sure to find something you like. Have fun printi",
+          "backend": "searxng"
+        },
+        {
+          "title": "Easy diorama (City by the sea / Tower) - Play - Educational - Paper ...",
+          "link": "https://creativepark.canon/en/contents/CNT-0029761/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and Scrapbook, so you're sure to find something you like. Have fun printi",
+          "backend": "searxng"
+        },
+        {
+          "title": "Diorama of the miniature garden (Dinosaurs) - Play - Educational ...",
+          "link": "https://creativepark.canon/en/contents/CNT-0030641/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and Scrapbook, so you're sure to find something you like. Have fun printi",
+          "backend": "searxng"
+        },
+        {
+          "title": "Make Believe (Shopping Set) - Play - Educational - Paper Craft",
+          "link": "https://creativepark.canon/en/contents/CNT-0028469/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and Scrapbook, so you're sure to find something you like. Have fun printi",
+          "backend": "searxng"
+        },
+        {
+          "title": "Hand Puppet (Dog / Cat / Tiger) - Play - Educational - Paper Craft ...",
+          "link": "https://creativepark.canon/en/contents/CNT-0029557/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and Scrapbook, so you're sure to find something you like. Have fun printi",
+          "backend": "searxng"
+        },
+        {
+          "title": "Telegram: View @via_tourism_channel",
+          "link": "https://t.me/via_tourism_channel/318",
+          "snippet": "\u0420\u0430\u0437\u043d\u0438\u0446\u0430 \u0432 \u0432\u044b\u0440\u0443\u0447\u043a\u0435 \u043f\u043e\u043b\u043d\u043e\u0441\u0442\u044c\u044e \u0437\u0430\u0432\u0438\u0441\u0438\u0442 \u043e\u0442 \u0438\u0437\u043d\u0430\u0447\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043f\u043e\u0434\u0445\u043e\u0434\u0430 \u0438 \u0437\u043d\u0430\u043d\u0438\u044f, \u0447\u0435\u0433\u043e \u0438\u043c\u0435\u043d\u043d\u043e \u0445\u043e\u0447\u0435\u0442 \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u0438\u043a. \u0420\u0443\u043a\u043e\u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044c \u0448\u043a\u043e\u043b\u044b \u0442\u0443\u0440\u0430\u0433\u0435\u043d\u0442\u043e\u0432 \u0410\u043d\u0430\u0441\u0442\u0430\u0441\u0438\u044f \u041a\u043e\u0441\u0438\u043d\u0441\u043a\u0430\u044f \u0440\u0430\u0441\u0441\u043a\u0430\u0437\u0430\u043b\u0430 \u043e \u0432\u0441\u0435\u0445 \u0432\u0430\u0440\u0438\u0430\u043d\u0442\u0430\u0445 \u0437\u0430\u0440\u0430\u0431\u043e\u0442\u043a\u0430 \u2014 \u043e\u0442 \u0441\u0430\u043c",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "loc.gov/item/2014632295",
+          "link": "https://www.loc.gov/item/2014632295/",
+          "snippet": "...roam freely in the Rainforest Pyramid at Moody Gardens, an educational \u2026",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "VisitSeoul TV - YouTube",
+          "link": "https://www.youtube.com/channel/UCtlz8pU3IiHf77V8s740-pQ",
+          "snippet": "Hello! Welcome to VisitSeoul for Seoul travel, K-pop, and Korean entertainment.The Official Tourism Channel of Seoul Official Tourism Guide: www.visitseoul...",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "educational programs distributor official site",
+      "level": "discovery",
+      "result_count": 12,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Fishing Game (Seabed) - Play - Educational - Paper Craft - Canon ...",
+          "link": "https://creativepark.canon/en/contents/CNT-0030515/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and Scrapbook, so you're sure to find something you like. Have fun printi",
+          "backend": "searxng"
+        },
+        {
+          "title": "Pop-up ABC - Learn - Educational - Paper Craft - Canon Creative Park",
+          "link": "https://creativepark.canon/en/contents/CNT-0010679/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and Scrapbook, so you're sure to find something you like. Have fun printi",
+          "backend": "searxng"
+        },
+        {
+          "title": "Vending Machine (Nostalgic) - Play - Educational - Paper Craft",
+          "link": "https://creativepark.canon/en/contents/CNT-0029161/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and Scrapbook, so you're sure to find something you like. Have fun printi",
+          "backend": "searxng"
+        },
+        {
+          "title": "Alphabets and Numbers - Learn - Educational - Paper Craft - Canon ...",
+          "link": "https://creativepark.canon/en/contents/CNT-0026531/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and Scrapbook, so you're sure to find something you like. Have fun printi",
+          "backend": "searxng"
+        },
+        {
+          "title": "Elastic-powered Duck - Play - Educational - Paper Craft - Canon ...",
+          "link": "https://creativepark.canon/en/contents/CNT-0011142/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and Scrapbook, so you're sure to find something you like. Have fun printi",
+          "backend": "searxng"
+        },
+        {
+          "title": "Easy diorama (City by the sea / Tower) - Play - Educational - Paper ...",
+          "link": "https://creativepark.canon/en/contents/CNT-0029761/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and Scrapbook, so you're sure to find something you like. Have fun printi",
+          "backend": "searxng"
+        },
+        {
+          "title": "Diorama of the miniature garden (Dinosaurs) - Play - Educational ...",
+          "link": "https://creativepark.canon/en/contents/CNT-0030641/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and Scrapbook, so you're sure to find something you like. Have fun printi",
+          "backend": "searxng"
+        },
+        {
+          "title": "Make Believe (Shopping Set) - Play - Educational - Paper Craft",
+          "link": "https://creativepark.canon/en/contents/CNT-0028469/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and Scrapbook, so you're sure to find something you like. Have fun printi",
+          "backend": "searxng"
+        },
+        {
+          "title": "Hand Puppet (Dog / Cat / Tiger) - Play - Educational - Paper Craft ...",
+          "link": "https://creativepark.canon/en/contents/CNT-0029557/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and Scrapbook, so you're sure to find something you like. Have fun printi",
+          "backend": "searxng"
+        },
+        {
+          "title": "Distribution | Documentary Educational Resources",
+          "link": "https://www.der.org/programs/distribution/",
+          "snippet": "The core audience for our distribution program includes colleges and universities, K-12 classrooms, museums, libraries, community organizations and other educational groups. We serve institutions in e",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "What Local Digital Equity or City-Run Programs Distribute Free...",
+          "link": "https://www.gov-relations.com/what-local-digital-equity-programs-distribute-free-laptops/",
+          "snippet": "Educational Programs.Partnerships with local organizations enhance technology distribution to underserved populations. Free internet hubs are established in public spaces for barrier-free connectivity",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "\u041a\u0430\u0442\u0430\u043b\u043e\u0433 \u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0445 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c",
+          "link": "https://www.fa.ru/for-applicants/educational-programs/",
+          "snippet": "\u041e\u0434\u0438\u043d \u0438\u0437 \u0441\u0442\u0430\u0440\u0435\u0439\u0448\u0438\u0445 \u0440\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u0438\u0445 \u0432\u0443\u0437\u043e\u0432, \u0433\u043e\u0442\u043e\u0432\u044f\u0449\u0438\u0445 \u044d\u043a\u043e\u043d\u043e\u043c\u0438\u0441\u0442\u043e\u0432, \u0444\u0438\u043d\u0430\u043d\u0441\u0438\u0441\u0442\u043e\u0432, \u044e\u0440\u0438\u0441\u0442\u043e\u0432 \u043f\u043e \u0444\u0438\u043d\u0430\u043d\u0441\u043e\u0432\u043e\u043c\u0443 \u043f\u0440\u0430\u0432\u0443, \u043c\u0430\u0442\u0435\u043c\u0430\u0442\u0438\u043a\u043e\u0432, \u0418\u0422-\u0441\u043f\u0435\u0446\u0438\u0430\u043b\u0438 \u0441\u0442\u043e\u0432, \u0441\u043e\u0446\u0438\u043e\u043b\u043e\u0433\u043e\u0432 \u0438 \u043f\u043e\u043b\u0438\u0442\u043e\u043b\u043e\u0433\u043e\u0432.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Fishing Game (Seabed) - Play - Educational - Paper Craft - Canon ...",
+          "link": "https://creativepark.canon/en/contents/CNT-0030515/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and Scrapbook, so you're sure to find something you like. Have fun printi",
+          "backend": "searxng"
+        },
+        {
+          "title": "Pop-up ABC - Learn - Educational - Paper Craft - Canon Creative Park",
+          "link": "https://creativepark.canon/en/contents/CNT-0010679/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and Scrapbook, so you're sure to find something you like. Have fun printi",
+          "backend": "searxng"
+        },
+        {
+          "title": "Vending Machine (Nostalgic) - Play - Educational - Paper Craft",
+          "link": "https://creativepark.canon/en/contents/CNT-0029161/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and Scrapbook, so you're sure to find something you like. Have fun printi",
+          "backend": "searxng"
+        },
+        {
+          "title": "Alphabets and Numbers - Learn - Educational - Paper Craft - Canon ...",
+          "link": "https://creativepark.canon/en/contents/CNT-0026531/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and Scrapbook, so you're sure to find something you like. Have fun printi",
+          "backend": "searxng"
+        },
+        {
+          "title": "Elastic-powered Duck - Play - Educational - Paper Craft - Canon ...",
+          "link": "https://creativepark.canon/en/contents/CNT-0011142/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and Scrapbook, so you're sure to find something you like. Have fun printi",
+          "backend": "searxng"
+        },
+        {
+          "title": "Easy diorama (City by the sea / Tower) - Play - Educational - Paper ...",
+          "link": "https://creativepark.canon/en/contents/CNT-0029761/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and Scrapbook, so you're sure to find something you like. Have fun printi",
+          "backend": "searxng"
+        },
+        {
+          "title": "Diorama of the miniature garden (Dinosaurs) - Play - Educational ...",
+          "link": "https://creativepark.canon/en/contents/CNT-0030641/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and Scrapbook, so you're sure to find something you like. Have fun printi",
+          "backend": "searxng"
+        },
+        {
+          "title": "Make Believe (Shopping Set) - Play - Educational - Paper Craft",
+          "link": "https://creativepark.canon/en/contents/CNT-0028469/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and Scrapbook, so you're sure to find something you like. Have fun printi",
+          "backend": "searxng"
+        },
+        {
+          "title": "Hand Puppet (Dog / Cat / Tiger) - Play - Educational - Paper Craft ...",
+          "link": "https://creativepark.canon/en/contents/CNT-0029557/index.html",
+          "snippet": "Canon Inc. provides a wealth of free download materials on this site.The site is full of interesting content, like Paper Craft and Scrapbook, so you're sure to find something you like. Have fun printi",
+          "backend": "searxng"
+        },
+        {
+          "title": "Distribution | Documentary Educational Resources",
+          "link": "https://www.der.org/programs/distribution/",
+          "snippet": "The core audience for our distribution program includes colleges and universities, K-12 classrooms, museums, libraries, community organizations and other educational groups. We serve institutions in e",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "What Local Digital Equity or City-Run Programs Distribute Free...",
+          "link": "https://www.gov-relations.com/what-local-digital-equity-programs-distribute-free-laptops/",
+          "snippet": "Educational Programs.Partnerships with local organizations enhance technology distribution to underserved populations. Free internet hubs are established in public spaces for barrier-free connectivity",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "\u041a\u0430\u0442\u0430\u043b\u043e\u0433 \u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0445 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c",
+          "link": "https://www.fa.ru/for-applicants/educational-programs/",
+          "snippet": "\u041e\u0434\u0438\u043d \u0438\u0437 \u0441\u0442\u0430\u0440\u0435\u0439\u0448\u0438\u0445 \u0440\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u0438\u0445 \u0432\u0443\u0437\u043e\u0432, \u0433\u043e\u0442\u043e\u0432\u044f\u0449\u0438\u0445 \u044d\u043a\u043e\u043d\u043e\u043c\u0438\u0441\u0442\u043e\u0432, \u0444\u0438\u043d\u0430\u043d\u0441\u0438\u0441\u0442\u043e\u0432, \u044e\u0440\u0438\u0441\u0442\u043e\u0432 \u043f\u043e \u0444\u0438\u043d\u0430\u043d\u0441\u043e\u0432\u043e\u043c\u0443 \u043f\u0440\u0430\u0432\u0443, \u043c\u0430\u0442\u0435\u043c\u0430\u0442\u0438\u043a\u043e\u0432, \u0418\u0422-\u0441\u043f\u0435\u0446\u0438\u0430\u043b\u0438 \u0441\u0442\u043e\u0432, \u0441\u043e\u0446\u0438\u043e\u043b\u043e\u0433\u043e\u0432 \u0438 \u043f\u043e\u043b\u0438\u0442\u043e\u043b\u043e\u0433\u043e\u0432.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P7": {
+      "query": "study abroad program wholesaler corporate site",
+      "level": "discovery",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "All EF programs",
+          "link": "https://www.ef.com/wwen/pg/",
+          "snippet": "Explore all EF programs. We will provide you international experience along with the opportunity to discover a new culture.EF offers a broad range of educational programs, from study abroad and studen",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "All EF programs",
+          "link": "https://www.ef.com/wwen/pg/",
+          "snippet": "Explore all EF programs. We will provide you international experience along with the opportunity to discover a new culture.EF offers a broad range of educational programs, from study abroad and studen",
+          "backend": "ddgs_bing"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

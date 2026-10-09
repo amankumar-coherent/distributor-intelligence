@@ -1,0 +1,1580 @@
+{
+  "phase": 1,
+  "query": "Adult Vaccines Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T21:16:14.267632+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "adult vaccines",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "healthcare",
+    "industry_terms": [
+      "adult vaccines",
+      "immunization",
+      "vaccine distribution",
+      "vaccine administration",
+      "cold chain logistics"
+    ],
+    "ecosystem_functions": [
+      "vaccine production",
+      "vaccine distribution",
+      "vaccine reselling",
+      "healthcare service provision",
+      "system integration for vaccine management",
+      "logistics and supply chain management",
+      "cold chain management for vaccines",
+      "regulatory compliance and quality assurance"
+    ],
+    "interpretation_summary": "The adult vaccines market encompasses the development, distribution, and administration of vaccines specifically designed for adult populations. Key participants include manufacturers, distributors, and healthcare provid",
+    "relevance_keywords": [
+      "vaccine distributors",
+      "adult vaccination services",
+      "vaccine wholesalers",
+      "healthcare providers",
+      "vaccine resellers"
+    ],
+    "negative_keywords": [
+      "children",
+      "pediatric",
+      "infant",
+      "unrelated industries",
+      "non-vaccine products"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "Pfizer",
+        "primary_domain": "pfizer.com",
+        "company_function": "vaccine manufacturer"
+      },
+      {
+        "canonical_name": "Moderna",
+        "primary_domain": "modernatx.com",
+        "company_function": "vaccine manufacturer"
+      },
+      {
+        "canonical_name": "McKesson",
+        "primary_domain": "mckesson.com",
+        "company_function": "distributor"
+      },
+      {
+        "canonical_name": "Cardinal Health",
+        "primary_domain": "cardinalhealth.com",
+        "company_function": "distributor"
+      },
+      {
+        "canonical_name": "AmerisourceBergen",
+        "primary_domain": "amerisourcebergen.com",
+        "company_function": "distributor"
+      },
+      {
+        "canonical_name": "Walgreens Boots Alliance",
+        "primary_domain": "walgreensbootsalliance.com",
+        "company_function": "reseller"
+      },
+      {
+        "canonical_name": "CVS Health",
+        "primary_domain": "cvshealth.com",
+        "company_function": "reseller"
+      },
+      {
+        "canonical_name": "Cerner",
+        "primary_domain": "cerner.com",
+        "company_function": "system integrator"
+      },
+      {
+        "canonical_name": "Epic Systems",
+        "primary_domain": "epic.com",
+        "company_function": "system integrator",
+        "segment": "System Integrators",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Optum",
+        "primary_domain": "optum.com",
+        "company_function": "service provider",
+        "segment": "Healthcare Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "HCA Healthcare",
+        "primary_domain": "hcahealthcare.com",
+        "company_function": "service provider",
+        "segment": "Healthcare Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "GSK",
+        "primary_domain": "gsk.com",
+        "company_function": "vaccine manufacturer",
+        "segment": "Vaccine Manufacturers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Sanofi",
+        "primary_domain": "sanofi.com",
+        "company_function": "vaccine manufacturer",
+        "segment": "Vaccine Manufacturers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Roche",
+        "primary_domain": "roche.com",
+        "company_function": "vaccine manufacturer",
+        "segment": "Vaccine Manufacturers",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "adult vaccines",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "adult vaccines",
+    "include_keywords": [
+      "adult immunization programs",
+      "vaccine supply chain",
+      "vaccine distribution networks",
+      "healthcare vaccine services",
+      "vaccine management systems"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The adult vaccines market encompasses the development, distribution, and administration of vaccines specifically designed for adult populations. Key participants include manufacturers, distributors, and healthcare providers operating globally to ensure vaccine accessibility and delivery.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Manufacturing",
+        "description": "This layer involves the production of adult vaccines by pharmaceutical companies.",
+        "segments": [
+          {
+            "segment_name": "Vaccine Manufacturers",
+            "sub_segments": [
+              "Inactivated Vaccines",
+              "Live Attenuated Vaccines"
+            ],
+            "participant_types": [
+              "manufacturer"
+            ],
+            "search_intents": [
+              "adult vaccine manufacturers official site",
+              "companies producing adult vaccines"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L2",
+        "layer_name": "Distribution",
+        "description": "This layer includes the distribution of vaccines to healthcare providers and pharmacies.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "National Distributors",
+              "Regional Distributors"
+            ],
+            "participant_types": [
+              "distributor",
+              "wholesaler"
+            ],
+            "search_intents": [
+              "adult vaccine distributors official site",
+              "wholesalers for adult vaccines"
+            ]
+          },
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Online Resellers",
+              "Pharmacy Resellers"
+            ],
+            "participant_types": [
+              "reseller"
+            ],
+            "search_intents": [
+              "adult vaccine resellers official site",
+              "companies reselling adult vaccines"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L3",
+        "layer_name": "Service Provision",
+        "description": "This layer covers the services related to the administration and management of vaccines.",
+        "segments": [
+          {
+            "segment_name": "Healthcare Providers",
+            "sub_segments": [
+              "Hospitals",
+              "Clinics"
+            ],
+            "participant_types": [
+              "service provider"
+            ],
+            "search_intents": [
+              "adult vaccine service providers official site",
+              "healthcare providers for adult vaccines"
+            ]
+          },
+          {
+            "segment_name": "System Integrators",
+            "sub_segments": [
+              "Healthcare IT Solutions",
+              "Vaccine Management Systems"
+            ],
+            "participant_types": [
+              "system integrator"
+            ],
+            "search_intents": [
+              "adult vaccine system integrators official site",
+              "companies integrating vaccine systems"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Pediatric Vaccines",
+        "Vaccine Research and Development",
+        "Vaccine Manufacturing Equipment",
+        "Public Health Initiatives"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "search for adult vaccine manufacturers official site",
+        "sub_sector": "vaccine_manufacturer",
+        "layer_id": "L1",
+        "segment": "Vaccine Manufacturers"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "search for adult vaccine distributors official site",
+        "sub_sector": "vaccine_distributor",
+        "layer_id": "L2",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "search for adult vaccine resellers official site",
+        "sub_sector": "vaccine_reseller",
+        "layer_id": "L2",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "search for adult vaccine service providers official site",
+        "sub_sector": "healthcare_service_provider",
+        "layer_id": "L3",
+        "segment": "Healthcare Providers"
+      },
+      {
+        "id": "M5",
+        "level": "market_map",
+        "text": "search for adult vaccine system integrators official site",
+        "sub_sector": "vaccine_system_integrator",
+        "layer_id": "L3",
+        "segment": "System Integrators"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "healthcare",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "adult vaccines companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "adult vaccine distributors corporate site"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "adult vaccine resellers official site"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "discovery",
+      "text": "adult vaccine distributors official site"
+    },
+    {
+      "id": "P2",
+      "level": "discovery",
+      "text": "adult vaccine wholesalers corporate headquarters"
+    },
+    {
+      "id": "P3",
+      "level": "discovery",
+      "text": "adult vaccine service providers official site"
+    },
+    {
+      "id": "P4",
+      "level": "discovery",
+      "text": "adult vaccine system integrators corporate website"
+    },
+    {
+      "id": "P5",
+      "level": "discovery",
+      "text": "adult vaccine logistics providers official site"
+    },
+    {
+      "id": "P6",
+      "level": "discovery",
+      "text": "adult vaccine supply chain management corporate site"
+    },
+    {
+      "id": "P7",
+      "level": "discovery",
+      "text": "adult vaccine regulatory compliance providers official site"
+    },
+    {
+      "id": "P8",
+      "level": "discovery",
+      "text": "adult vaccines vaccine production official website"
+    },
+    {
+      "id": "P9",
+      "level": "discovery",
+      "text": "authorized adult vaccines distributor firm official"
+    },
+    {
+      "id": "P10",
+      "level": "discovery",
+      "text": "adult vaccines reseller channel partner official"
+    },
+    {
+      "id": "P11",
+      "level": "discovery",
+      "text": "adult vaccines service provider official website"
+    },
+    {
+      "id": "P12",
+      "level": "discovery",
+      "text": "adult vaccines system integrator official website"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "adult vaccines companies official websites",
+      "level": "L0",
+      "result_count": 6,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Vaccine Information for Adults | Adult Vaccines | CDC",
+          "link": "https://www.cdc.gov/vaccines-adults/index.html",
+          "snippet": "Skip directly to site content Skip directly to search. An official website of the United States government. Here's how you know. Official websites use .gov.Information about routine vaccines for adult",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 Adult Vaccines Companies to Watch in 2025 and Beyond",
+          "link": "https://www.researchandmarkets.com/articles/key-companies-in-adult-vaccines",
+          "snippet": "Moderna, Inc. has rapidly emerged as a leader in mRNA vaccine technologies, revolutionizing the speed and flexibility of adult vaccine development. The company\u2019s continual innovation pipeline includes",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "[PDF] Adult Vaccines Market to 2027 | Top players Novartis, Pfizer...",
+          "link": "https://www.einpresswire.com/article/507904821/pdf-adult-vaccines-market-to-2027-top-players-novartis-pfizer-sanofi-pasteur-astrazeneca-bharat-biotech-merck",
+          "snippet": "Major News Sites.The adult vaccines market by each region is later sub-segmented by respective countries and segments. The report covers analysis and forecast of 18 countries globally along with curre",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Adult Immunization - GSK vacciNATION",
+          "link": "https://gskvaccination.com/resources/adult-immunization/",
+          "snippet": "Many adult vaccines can be given any time of year. However, patients may ... Trademarks are owned by or licensed to the GSK group of companies. GSK ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 Adult Vaccines Companies to Watch in 2025 and Beyond",
+          "link": "https://www.researchandmarkets.com/articles/key-companies-in-adult-vaccines?srsltid=AfmBOoo_9TAGIujiLCZWnEd6PHr-14DQ4e4bJafHpbvY3lSHMDMqfwlj",
+          "snippet": "GlaxoSmithKline plc (GSK) is renowned for its diverse vaccine portfolio, excelling in diseases such as herpes zoster (with Shingrix), hepatitis, and influenza.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Adult Vaccines - Apollo 247",
+          "link": "https://www.apollo247.com/blog/article/adult-vaccines-comprehensive-guide-benefits-recommendations-and-safety",
+          "snippet": "30 Oct 2023 ... ... site or low-grade fever. Serious adverse events are extremely rare ... Government Programmes: The Government of India has implemented ...",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Vaccine Information for Adults | Adult Vaccines | CDC",
+          "link": "https://www.cdc.gov/vaccines-adults/index.html",
+          "snippet": "Skip directly to site content Skip directly to search. An official website of the United States government. Here's how you know. Official websites use .gov.Information about routine vaccines for adult",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 Adult Vaccines Companies to Watch in 2025 and Beyond",
+          "link": "https://www.researchandmarkets.com/articles/key-companies-in-adult-vaccines",
+          "snippet": "Moderna, Inc. has rapidly emerged as a leader in mRNA vaccine technologies, revolutionizing the speed and flexibility of adult vaccine development. The company\u2019s continual innovation pipeline includes",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "[PDF] Adult Vaccines Market to 2027 | Top players Novartis, Pfizer...",
+          "link": "https://www.einpresswire.com/article/507904821/pdf-adult-vaccines-market-to-2027-top-players-novartis-pfizer-sanofi-pasteur-astrazeneca-bharat-biotech-merck",
+          "snippet": "Major News Sites.The adult vaccines market by each region is later sub-segmented by respective countries and segments. The report covers analysis and forecast of 18 countries globally along with curre",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Adult Immunization - GSK vacciNATION",
+          "link": "https://gskvaccination.com/resources/adult-immunization/",
+          "snippet": "Many adult vaccines can be given any time of year. However, patients may ... Trademarks are owned by or licensed to the GSK group of companies. GSK ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 Adult Vaccines Companies to Watch in 2025 and Beyond",
+          "link": "https://www.researchandmarkets.com/articles/key-companies-in-adult-vaccines?srsltid=AfmBOoo_9TAGIujiLCZWnEd6PHr-14DQ4e4bJafHpbvY3lSHMDMqfwlj",
+          "snippet": "GlaxoSmithKline plc (GSK) is renowned for its diverse vaccine portfolio, excelling in diseases such as herpes zoster (with Shingrix), hepatitis, and influenza.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Adult Vaccines - Apollo 247",
+          "link": "https://www.apollo247.com/blog/article/adult-vaccines-comprehensive-guide-benefits-recommendations-and-safety",
+          "snippet": "30 Oct 2023 ... ... site or low-grade fever. Serious adverse events are extremely rare ... Government Programmes: The Government of India has implemented ...",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "adult vaccine distributors corporate site",
+      "level": "L1",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Adult Vaccines - Vaccination Treatment - Vaccine Distributor",
+          "link": "https://www.fffenterprises.com/products/adult-vaccines.html",
+          "snippet": "As A leading distributor, FFF Enterprises specializes in the distribution of Adult Vaccine products for immunization.Product: Vaxchora\u00ae (Cholera Vaccine, Live, Oral) Prescribing Information.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Adult Vaccines - Vaccination Treatment - Vaccine Distributor",
+          "link": "https://www.fffenterprises.com/products/adult-vaccines.html",
+          "snippet": "As A leading distributor, FFF Enterprises specializes in the distribution of Adult Vaccine products for immunization.Product: Vaxchora\u00ae (Cholera Vaccine, Live, Oral) Prescribing Information.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "adult vaccine resellers official site",
+      "level": "L2",
+      "result_count": 14,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Adult - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Adult",
+          "snippet": "An adult is an animal that has reached full growth. [1] The biological definition of adult is an organism that has reached sexual \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult Movies: Erotic Movies & After Hours TV Shows - Paramount+",
+          "link": "https://www.paramountplus.com/collections/showtime-after-hours/?msockid=36258b32e59466d4300a9cade4f867f0",
+          "snippet": "Stream our collection of adult movies, erotic films, and After Hours TV shows on any device. Watch on your computer, tablet, mobile \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult - Simple English Wikipedia, the free encyclopedia",
+          "link": "https://simple.wikipedia.org/wiki/Adult",
+          "snippet": "Adult may mean different things. In law and social norms, an adult is a human who has reached the age of majority. The age of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult - definition of adult by The Free Dictionary",
+          "link": "https://www.thefreedictionary.com/adult",
+          "snippet": "Define adult. adult synonyms, adult pronunciation, adult translation, English dictionary definition of adult. n. 1. One who has attained \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "ADULT Definition & Meaning | Dictionary.com",
+          "link": "https://www.dictionary.com/browse/adult",
+          "snippet": "ADULT definition: a person who is fully grown or developed or of age. See examples of adult used in a sentence.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult: Definition, Meaning, and Examples - usdictionary.com",
+          "link": "https://usdictionary.com/definitions/adult/",
+          "snippet": "Jan 18, 2025 \u00b7 Explore the definition of the word \"adult,\" as well as its versatile usage, synonyms, examples, etymology, and more.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult - Definition, Meaning & Synonyms | Vocabulary.com",
+          "link": "https://www.vocabulary.com/dictionary/adult",
+          "snippet": "Adult is noun and an adjective, both of which refer to something mature, no longer a child. A full-grown person is called an adult: they \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tetanus Vaccine Recommendations | Tetanus | CDC",
+          "link": "https://www.cdc.gov/tetanus/vaccines/recommendations.html",
+          "snippet": "An official website of the United States government. Here's how you know. Official websites use .gov.CDC recommends tetanus vaccination for babies, children, preteens, and adults. People with certain ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vaccination for adults - Canada.ca",
+          "link": "https://www.canada.ca/en/public-health/services/vaccination-adults.html",
+          "snippet": "Vaccines for adult travellers. Why vaccination is important for adults. Vaccination isn't just for children. Vaccines protect you and those around you from vaccine-preventable diseases.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Hepatitis B Vaccine and Immunoglobulin: Key Concepts - PMC",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6609845/",
+          "snippet": "An official website of the United States government.New HBsAg vaccines ought to be initially tested in healthy adult volunteers. Once immunogenicity is demonstrated in adults, further research should ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "GATESgate: Bill & Melinda Gates Foundation is really a glorified Big...",
+          "link": "https://stateofthenation.co/?p=13047",
+          "snippet": "Another goal is to vaccinate all adults and children with annual flu vaccines that not only do not work, they actually cause major outbreaks of the flu strains being inoculated for.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The 30 Vaccinations To Read In June 2026 - Cherry Picks",
+          "link": "https://www.cherrypicksreviews.com/vaccinations",
+          "snippet": "Adult Vaccination Record Book: Personal Immunization Tracker to Record Vaccines, Booster Shots, Medical Information and Immunization History.6. Vaccinations: A Thoughtful Parent's Guide: How to Make S",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Merck's pneumococcal shot Capvaxive off to 'very strong start'",
+          "link": "https://www.fiercepharma.com/pharma/vaccines-struggle-mercks-adult-pneumococcal-shot-capvaxive-strong-start",
+          "snippet": "As vaccines industry struggles, Merck's adult pneumococcal shot Capvaxive off to strong start.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "New York Post \u2013 Breaking News, Top Headlines, Photos & Videos",
+          "link": "https://nypost.com/",
+          "snippet": "The number of adults who are \u201cnot in the labor force\u201d (NILF) surged to an all-time high in June to 105.8 million, according to figures from the Federal Reserve Bank of St. Louis. Trump tech official a",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Adult - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Adult",
+          "snippet": "An adult is an animal that has reached full growth. [1] The biological definition of adult is an organism that has reached sexual \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult Movies: Erotic Movies & After Hours TV Shows - Paramount+",
+          "link": "https://www.paramountplus.com/collections/showtime-after-hours/?msockid=36258b32e59466d4300a9cade4f867f0",
+          "snippet": "Stream our collection of adult movies, erotic films, and After Hours TV shows on any device. Watch on your computer, tablet, mobile \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult - Simple English Wikipedia, the free encyclopedia",
+          "link": "https://simple.wikipedia.org/wiki/Adult",
+          "snippet": "Adult may mean different things. In law and social norms, an adult is a human who has reached the age of majority. The age of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult - definition of adult by The Free Dictionary",
+          "link": "https://www.thefreedictionary.com/adult",
+          "snippet": "Define adult. adult synonyms, adult pronunciation, adult translation, English dictionary definition of adult. n. 1. One who has attained \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "ADULT Definition & Meaning | Dictionary.com",
+          "link": "https://www.dictionary.com/browse/adult",
+          "snippet": "ADULT definition: a person who is fully grown or developed or of age. See examples of adult used in a sentence.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult: Definition, Meaning, and Examples - usdictionary.com",
+          "link": "https://usdictionary.com/definitions/adult/",
+          "snippet": "Jan 18, 2025 \u00b7 Explore the definition of the word \"adult,\" as well as its versatile usage, synonyms, examples, etymology, and more.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult - Definition, Meaning & Synonyms | Vocabulary.com",
+          "link": "https://www.vocabulary.com/dictionary/adult",
+          "snippet": "Adult is noun and an adjective, both of which refer to something mature, no longer a child. A full-grown person is called an adult: they \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tetanus Vaccine Recommendations | Tetanus | CDC",
+          "link": "https://www.cdc.gov/tetanus/vaccines/recommendations.html",
+          "snippet": "An official website of the United States government. Here's how you know. Official websites use .gov.CDC recommends tetanus vaccination for babies, children, preteens, and adults. People with certain ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vaccination for adults - Canada.ca",
+          "link": "https://www.canada.ca/en/public-health/services/vaccination-adults.html",
+          "snippet": "Vaccines for adult travellers. Why vaccination is important for adults. Vaccination isn't just for children. Vaccines protect you and those around you from vaccine-preventable diseases.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Hepatitis B Vaccine and Immunoglobulin: Key Concepts - PMC",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6609845/",
+          "snippet": "An official website of the United States government.New HBsAg vaccines ought to be initially tested in healthy adult volunteers. Once immunogenicity is demonstrated in adults, further research should ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "GATESgate: Bill & Melinda Gates Foundation is really a glorified Big...",
+          "link": "https://stateofthenation.co/?p=13047",
+          "snippet": "Another goal is to vaccinate all adults and children with annual flu vaccines that not only do not work, they actually cause major outbreaks of the flu strains being inoculated for.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The 30 Vaccinations To Read In June 2026 - Cherry Picks",
+          "link": "https://www.cherrypicksreviews.com/vaccinations",
+          "snippet": "Adult Vaccination Record Book: Personal Immunization Tracker to Record Vaccines, Booster Shots, Medical Information and Immunization History.6. Vaccinations: A Thoughtful Parent's Guide: How to Make S",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Merck's pneumococcal shot Capvaxive off to 'very strong start'",
+          "link": "https://www.fiercepharma.com/pharma/vaccines-struggle-mercks-adult-pneumococcal-shot-capvaxive-strong-start",
+          "snippet": "As vaccines industry struggles, Merck's adult pneumococcal shot Capvaxive off to strong start.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "New York Post \u2013 Breaking News, Top Headlines, Photos & Videos",
+          "link": "https://nypost.com/",
+          "snippet": "The number of adults who are \u201cnot in the labor force\u201d (NILF) surged to an all-time high in June to 105.8 million, according to figures from the Federal Reserve Bank of St. Louis. Trump tech official a",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "adult vaccine distributors official site",
+      "level": "discovery",
+      "result_count": 3,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Adult Vaccines - Vaccination Treatment - Vaccine Distributor",
+          "link": "https://www.fffenterprises.com/products/adult-vaccines.html",
+          "snippet": "As A leading distributor, FFF Enterprises specializes in the distribution of Adult Vaccine products for immunization.Product: VIMKUNYA\u2122 (Chikungunya Vaccine, Recombinant) Prescribing Information.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "VAVP only Vermont Provider Agreement 2026-2028",
+          "link": "https://www.healthvermont.gov/sites/default/files/document/VAVP+only+Vermont+Provider+Agreement+2024.2026.pdf",
+          "snippet": "Medical director or equivalent. Instructions: The official VAVP registered health care provider signing the agreement must be a practitioner. authorized to administer adult vaccines under state law wh",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Merck | Home",
+          "link": "https://www.merck.com/",
+          "snippet": "Merck Patient Assistance Program provides certain Merck medicines and adult vaccines for free to qualified patients. Information about insurance coverage and financial assistance options for eligible ",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Adult Vaccines - Vaccination Treatment - Vaccine Distributor",
+          "link": "https://www.fffenterprises.com/products/adult-vaccines.html",
+          "snippet": "As A leading distributor, FFF Enterprises specializes in the distribution of Adult Vaccine products for immunization.Product: VIMKUNYA\u2122 (Chikungunya Vaccine, Recombinant) Prescribing Information.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "VAVP only Vermont Provider Agreement 2026-2028",
+          "link": "https://www.healthvermont.gov/sites/default/files/document/VAVP+only+Vermont+Provider+Agreement+2024.2026.pdf",
+          "snippet": "Medical director or equivalent. Instructions: The official VAVP registered health care provider signing the agreement must be a practitioner. authorized to administer adult vaccines under state law wh",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Merck | Home",
+          "link": "https://www.merck.com/",
+          "snippet": "Merck Patient Assistance Program provides certain Merck medicines and adult vaccines for free to qualified patients. Information about insurance coverage and financial assistance options for eligible ",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P2": {
+      "query": "adult vaccine wholesalers corporate headquarters",
+      "level": "discovery",
+      "result_count": 10,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Adult - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Adult",
+          "snippet": "An adult is an animal that has reached full growth. [1] The biological definition of adult is an organism that has reached sexual maturity and is thus capable of reproduction. In the human context, th",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult Movies: Erotic Movies & After Hours TV Shows - Paramount+",
+          "link": "https://www.paramountplus.com/collections/showtime-after-hours/?msockid=0a4fe2adaa816a1400caf532abc56b08",
+          "snippet": "Stream our collection of adult movies, erotic films, and After Hours TV shows on any device. Watch on your computer, tablet, mobile devices and stream to your TV.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult - Simple English Wikipedia, the free encyclopedia",
+          "link": "https://simple.wikipedia.org/wiki/Adult",
+          "snippet": "Adult may mean different things. In law and social norms, an adult is a human who has reached the age of majority. The age of majority is the age at which an individual will be legally considered an a",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult - definition of adult by The Free Dictionary",
+          "link": "https://www.thefreedictionary.com/adult",
+          "snippet": "Define adult. adult synonyms, adult pronunciation, adult translation, English dictionary definition of adult. n. 1. One who has attained maturity or legal age. 2. Biology A fully grown, mature organis",
+          "backend": "searxng"
+        },
+        {
+          "title": "ADULT Definition & Meaning | Dictionary.com",
+          "link": "https://www.dictionary.com/browse/adult",
+          "snippet": "ADULT definition: a person who is fully grown or developed or of age. See examples of adult used in a sentence.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult: Definition, Meaning, and Examples - usdictionary.com",
+          "link": "https://usdictionary.com/definitions/adult/",
+          "snippet": "Jan 18, 2025 \u00b7 Explore the definition of the word \"adult,\" as well as its versatile usage, synonyms, examples, etymology, and more.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult - Definition, Meaning & Synonyms | Vocabulary.com",
+          "link": "https://www.vocabulary.com/dictionary/adult",
+          "snippet": "Adult is noun and an adjective, both of which refer to something mature, no longer a child. A full-grown person is called an adult: they can vote, rent cars, and choose to eat sugary cereal for dinner",
+          "backend": "searxng"
+        },
+        {
+          "title": "Institutional Vaccine Supply for Hospitals & Public Health | Oddway",
+          "link": "https://www.oddwayinternational.com/vaccine/",
+          "snippet": "Hepatitis B vaccines for adult and institutional immunisation use. Hepatitis A vaccines for preventive public-health initiatives. Varicella vaccines supplied for targeted immunisation programmes.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "vaccines Wholesaler | B2B companies and suppliers | europages",
+          "link": "https://www.europages.co.uk/companies/wholesaler/vaccines.html",
+          "snippet": "60 suppliers for vaccines Wholesaler Find wholesalers and contact them directly B2B martketplace Find companies now!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vaccination for adults - Canada.ca",
+          "link": "https://www.canada.ca/en/public-health/services/vaccination-adults.html",
+          "snippet": "Vaccines for adult travellers. Why vaccination is important for adults. Vaccination isn't just for children. Vaccines protect you and those around you from vaccine-preventable diseases.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Adult - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Adult",
+          "snippet": "An adult is an animal that has reached full growth. [1] The biological definition of adult is an organism that has reached sexual maturity and is thus capable of reproduction. In the human context, th",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult Movies: Erotic Movies & After Hours TV Shows - Paramount+",
+          "link": "https://www.paramountplus.com/collections/showtime-after-hours/?msockid=0a4fe2adaa816a1400caf532abc56b08",
+          "snippet": "Stream our collection of adult movies, erotic films, and After Hours TV shows on any device. Watch on your computer, tablet, mobile devices and stream to your TV.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult - Simple English Wikipedia, the free encyclopedia",
+          "link": "https://simple.wikipedia.org/wiki/Adult",
+          "snippet": "Adult may mean different things. In law and social norms, an adult is a human who has reached the age of majority. The age of majority is the age at which an individual will be legally considered an a",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult - definition of adult by The Free Dictionary",
+          "link": "https://www.thefreedictionary.com/adult",
+          "snippet": "Define adult. adult synonyms, adult pronunciation, adult translation, English dictionary definition of adult. n. 1. One who has attained maturity or legal age. 2. Biology A fully grown, mature organis",
+          "backend": "searxng"
+        },
+        {
+          "title": "ADULT Definition & Meaning | Dictionary.com",
+          "link": "https://www.dictionary.com/browse/adult",
+          "snippet": "ADULT definition: a person who is fully grown or developed or of age. See examples of adult used in a sentence.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult: Definition, Meaning, and Examples - usdictionary.com",
+          "link": "https://usdictionary.com/definitions/adult/",
+          "snippet": "Jan 18, 2025 \u00b7 Explore the definition of the word \"adult,\" as well as its versatile usage, synonyms, examples, etymology, and more.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult - Definition, Meaning & Synonyms | Vocabulary.com",
+          "link": "https://www.vocabulary.com/dictionary/adult",
+          "snippet": "Adult is noun and an adjective, both of which refer to something mature, no longer a child. A full-grown person is called an adult: they can vote, rent cars, and choose to eat sugary cereal for dinner",
+          "backend": "searxng"
+        },
+        {
+          "title": "Institutional Vaccine Supply for Hospitals & Public Health | Oddway",
+          "link": "https://www.oddwayinternational.com/vaccine/",
+          "snippet": "Hepatitis B vaccines for adult and institutional immunisation use. Hepatitis A vaccines for preventive public-health initiatives. Varicella vaccines supplied for targeted immunisation programmes.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "vaccines Wholesaler | B2B companies and suppliers | europages",
+          "link": "https://www.europages.co.uk/companies/wholesaler/vaccines.html",
+          "snippet": "60 suppliers for vaccines Wholesaler Find wholesalers and contact them directly B2B martketplace Find companies now!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vaccination for adults - Canada.ca",
+          "link": "https://www.canada.ca/en/public-health/services/vaccination-adults.html",
+          "snippet": "Vaccines for adult travellers. Why vaccination is important for adults. Vaccination isn't just for children. Vaccines protect you and those around you from vaccine-preventable diseases.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P3": {
+      "query": "adult vaccine service providers official site",
+      "level": "discovery",
+      "result_count": 3,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Vaccine Information for Adults | Adult Vaccines | CDC",
+          "link": "https://www.cdc.gov/vaccines-adults/index.html",
+          "snippet": "Links to various Web pages covering where to find vaccines, how to pay for vaccines, vaccine records\u00b7\u00b7\u00b7\u00b7\u00b7\u00b7",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Site Index | Adult Vaccines | CDC",
+          "link": "https://www.cdc.gov/vaccines-adults/site.html",
+          "snippet": "Vaccines can help protect adults from serious, even deadly, diseases. It's important to stay up to date on recommended vaccines.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Get vaccinated | Services | City of Philadelphia",
+          "link": "https://www.phila.gov/services/mental-physical-health/get-vaccinated/",
+          "snippet": "An official website.Vaccinate your child. Get adult vaccines. Request your immunization record. Get travel vaccinations. Get your annual flu shot. Get services for an older adult. Get bereavement supp",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Vaccine Information for Adults | Adult Vaccines | CDC",
+          "link": "https://www.cdc.gov/vaccines-adults/index.html",
+          "snippet": "Links to various Web pages covering where to find vaccines, how to pay for vaccines, vaccine records\u00b7\u00b7\u00b7\u00b7\u00b7\u00b7",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Site Index | Adult Vaccines | CDC",
+          "link": "https://www.cdc.gov/vaccines-adults/site.html",
+          "snippet": "Vaccines can help protect adults from serious, even deadly, diseases. It's important to stay up to date on recommended vaccines.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Get vaccinated | Services | City of Philadelphia",
+          "link": "https://www.phila.gov/services/mental-physical-health/get-vaccinated/",
+          "snippet": "An official website.Vaccinate your child. Get adult vaccines. Request your immunization record. Get travel vaccinations. Get your annual flu shot. Get services for an older adult. Get bereavement supp",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P4": {
+      "query": "adult vaccine system integrators corporate website",
+      "level": "discovery",
+      "result_count": 7,
+      "results_target": 28,
+      "backends": [
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Adult - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Adult",
+          "snippet": "An adult is an animal that has reached full growth. [1] The biological definition of adult is an organism that has reached sexual \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult Movies: Erotic Movies & After Hours TV Shows - Paramount+",
+          "link": "https://www.paramountplus.com/collections/showtime-after-hours/?msockid=292d5bfc872a6e28235d4c6386f16f29",
+          "snippet": "Stream our collection of adult movies, erotic films, and After Hours TV shows on any device. Watch on your computer, tablet, mobile \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult - Simple English Wikipedia, the free encyclopedia",
+          "link": "https://simple.wikipedia.org/wiki/Adult",
+          "snippet": "Adult may mean different things. In law and social norms, an adult is a human who has reached the age of majority. The age of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult - definition of adult by The Free Dictionary",
+          "link": "https://www.thefreedictionary.com/adult",
+          "snippet": "Define adult. adult synonyms, adult pronunciation, adult translation, English dictionary definition of adult. n. 1. One who has attained \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "ADULT Definition & Meaning | Dictionary.com",
+          "link": "https://www.dictionary.com/browse/adult",
+          "snippet": "ADULT definition: a person who is fully grown or developed or of age. See examples of adult used in a sentence.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult: Definition, Meaning, and Examples - usdictionary.com",
+          "link": "https://usdictionary.com/definitions/adult/",
+          "snippet": "Jan 18, 2025 \u00b7 Explore the definition of the word \"adult,\" as well as its versatile usage, synonyms, examples, etymology, and more.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult - Definition, Meaning & Synonyms | Vocabulary.com",
+          "link": "https://www.vocabulary.com/dictionary/adult",
+          "snippet": "Adult is noun and an adjective, both of which refer to something mature, no longer a child. A full-grown person is called an adult: they \u2026",
+          "backend": "searxng"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Adult - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Adult",
+          "snippet": "An adult is an animal that has reached full growth. [1] The biological definition of adult is an organism that has reached sexual \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult Movies: Erotic Movies & After Hours TV Shows - Paramount+",
+          "link": "https://www.paramountplus.com/collections/showtime-after-hours/?msockid=292d5bfc872a6e28235d4c6386f16f29",
+          "snippet": "Stream our collection of adult movies, erotic films, and After Hours TV shows on any device. Watch on your computer, tablet, mobile \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult - Simple English Wikipedia, the free encyclopedia",
+          "link": "https://simple.wikipedia.org/wiki/Adult",
+          "snippet": "Adult may mean different things. In law and social norms, an adult is a human who has reached the age of majority. The age of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult - definition of adult by The Free Dictionary",
+          "link": "https://www.thefreedictionary.com/adult",
+          "snippet": "Define adult. adult synonyms, adult pronunciation, adult translation, English dictionary definition of adult. n. 1. One who has attained \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "ADULT Definition & Meaning | Dictionary.com",
+          "link": "https://www.dictionary.com/browse/adult",
+          "snippet": "ADULT definition: a person who is fully grown or developed or of age. See examples of adult used in a sentence.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult: Definition, Meaning, and Examples - usdictionary.com",
+          "link": "https://usdictionary.com/definitions/adult/",
+          "snippet": "Jan 18, 2025 \u00b7 Explore the definition of the word \"adult,\" as well as its versatile usage, synonyms, examples, etymology, and more.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult - Definition, Meaning & Synonyms | Vocabulary.com",
+          "link": "https://www.vocabulary.com/dictionary/adult",
+          "snippet": "Adult is noun and an adjective, both of which refer to something mature, no longer a child. A full-grown person is called an adult: they \u2026",
+          "backend": "searxng"
+        }
+      ]
+    },
+    "P5": {
+      "query": "adult vaccine logistics providers official site",
+      "level": "discovery",
+      "result_count": 9,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Adult - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Adult",
+          "snippet": "An adult is an animal that has reached full growth. [1] The biological definition of adult is an organism that has reached sexual \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult Movies: Erotic Movies & After Hours TV Shows - Paramount+",
+          "link": "https://www.paramountplus.com/collections/showtime-after-hours/?msockid=3bf5ef74f298612a247af8ebf3bc6018",
+          "snippet": "Stream our collection of adult movies, erotic films, and After Hours TV shows on any device. Watch on your computer, tablet, mobile \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult - Simple English Wikipedia, the free encyclopedia",
+          "link": "https://simple.wikipedia.org/wiki/Adult",
+          "snippet": "Adult may mean different things. In law and social norms, an adult is a human who has reached the age of majority. The age of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult - definition of adult by The Free Dictionary",
+          "link": "https://www.thefreedictionary.com/adult",
+          "snippet": "Define adult. adult synonyms, adult pronunciation, adult translation, English dictionary definition of adult. n. 1. One who has attained \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "ADULT Definition & Meaning | Dictionary.com",
+          "link": "https://www.dictionary.com/browse/adult",
+          "snippet": "ADULT definition: a person who is fully grown or developed or of age. See examples of adult used in a sentence.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult: Definition, Meaning, and Examples - usdictionary.com",
+          "link": "https://usdictionary.com/definitions/adult/",
+          "snippet": "Jan 18, 2025 \u00b7 Explore the definition of the word \"adult,\" as well as its versatile usage, synonyms, examples, etymology, and more.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult - Definition, Meaning & Synonyms | Vocabulary.com",
+          "link": "https://www.vocabulary.com/dictionary/adult",
+          "snippet": "Adult is noun and an adjective, both of which refer to something mature, no longer a child. A full-grown person is called an adult: they \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "German tech for vaccine logistics",
+          "link": "https://www.dw.com/en/german-technology-aids-covid-vaccine-logistics/a-55736267",
+          "snippet": "While most of the vaccines against COVID-19 are still in the test phase, production is already starting. German companies are playing key roles in both the development and distribution of some of thes",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home | Immunize.org",
+          "link": "https://www.immunize.org/",
+          "snippet": "The LetsGetRealAboutVaccines.org website provides credible, plain-language information about routine pediatric vaccines.The website, which includes information for the public and healthcare providers,",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Adult - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Adult",
+          "snippet": "An adult is an animal that has reached full growth. [1] The biological definition of adult is an organism that has reached sexual \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult Movies: Erotic Movies & After Hours TV Shows - Paramount+",
+          "link": "https://www.paramountplus.com/collections/showtime-after-hours/?msockid=3bf5ef74f298612a247af8ebf3bc6018",
+          "snippet": "Stream our collection of adult movies, erotic films, and After Hours TV shows on any device. Watch on your computer, tablet, mobile \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult - Simple English Wikipedia, the free encyclopedia",
+          "link": "https://simple.wikipedia.org/wiki/Adult",
+          "snippet": "Adult may mean different things. In law and social norms, an adult is a human who has reached the age of majority. The age of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult - definition of adult by The Free Dictionary",
+          "link": "https://www.thefreedictionary.com/adult",
+          "snippet": "Define adult. adult synonyms, adult pronunciation, adult translation, English dictionary definition of adult. n. 1. One who has attained \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "ADULT Definition & Meaning | Dictionary.com",
+          "link": "https://www.dictionary.com/browse/adult",
+          "snippet": "ADULT definition: a person who is fully grown or developed or of age. See examples of adult used in a sentence.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult: Definition, Meaning, and Examples - usdictionary.com",
+          "link": "https://usdictionary.com/definitions/adult/",
+          "snippet": "Jan 18, 2025 \u00b7 Explore the definition of the word \"adult,\" as well as its versatile usage, synonyms, examples, etymology, and more.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult - Definition, Meaning & Synonyms | Vocabulary.com",
+          "link": "https://www.vocabulary.com/dictionary/adult",
+          "snippet": "Adult is noun and an adjective, both of which refer to something mature, no longer a child. A full-grown person is called an adult: they \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "German tech for vaccine logistics",
+          "link": "https://www.dw.com/en/german-technology-aids-covid-vaccine-logistics/a-55736267",
+          "snippet": "While most of the vaccines against COVID-19 are still in the test phase, production is already starting. German companies are playing key roles in both the development and distribution of some of thes",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home | Immunize.org",
+          "link": "https://www.immunize.org/",
+          "snippet": "The LetsGetRealAboutVaccines.org website provides credible, plain-language information about routine pediatric vaccines.The website, which includes information for the public and healthcare providers,",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "adult vaccine supply chain management corporate site",
+      "level": "discovery",
+      "result_count": 11,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Adult - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Adult",
+          "snippet": "An adult is an animal that has reached full growth. [1] The biological definition of adult is an organism that has reached sexual \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult Movies: Erotic Movies & After Hours TV Shows - Paramount+",
+          "link": "https://www.paramountplus.com/collections/showtime-after-hours/?msockid=3df3e52cecd367791e98f2b3ed3e666a",
+          "snippet": "Stream our collection of adult movies, erotic films, and After Hours TV shows on any device. Watch on your computer, tablet, mobile \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult - Simple English Wikipedia, the free encyclopedia",
+          "link": "https://simple.wikipedia.org/wiki/Adult",
+          "snippet": "Adult may mean different things. In law and social norms, an adult is a human who has reached the age of majority. The age of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult - definition of adult by The Free Dictionary",
+          "link": "https://www.thefreedictionary.com/adult",
+          "snippet": "Define adult. adult synonyms, adult pronunciation, adult translation, English dictionary definition of adult. n. 1. One who has attained \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "ADULT Definition & Meaning | Dictionary.com",
+          "link": "https://www.dictionary.com/browse/adult",
+          "snippet": "ADULT definition: a person who is fully grown or developed or of age. See examples of adult used in a sentence.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult: Definition, Meaning, and Examples - usdictionary.com",
+          "link": "https://usdictionary.com/definitions/adult/",
+          "snippet": "Jan 18, 2025 \u00b7 Explore the definition of the word \"adult,\" as well as its versatile usage, synonyms, examples, etymology, and more.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult - Definition, Meaning & Synonyms | Vocabulary.com",
+          "link": "https://www.vocabulary.com/dictionary/adult",
+          "snippet": "Adult is noun and an adjective, both of which refer to something mature, no longer a child. A full-grown person is called an adult: they \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Vaccine Wholesale Distributors | EB2BMart | PPTX",
+          "link": "https://www.slideshare.net/slideshow/vaccine-wholesale-distributors-eb2bmart/283215765",
+          "snippet": "Distributors of adult and corporate wellness products. \u2022 Export-ready suppliers for international needs. Partnership Benefits: \u2022 Long-term supply agreements. \u2022 Discounts on bulk procurement. \u2022 Dedicat",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Logistics of Covid-19 vaccines: main challenges in theory and practice",
+          "link": "https://www.scielo.br/j/prod/a/zBCW9hBntxkd5GXY3YXLdbd/?lang=en",
+          "snippet": "Verify the aspects of the Covid-19 vaccine supply chain and its challenges empirically, comparing these findings with the ones found in the literature.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Amazon forms partnership to improve temperature-sensitive vaccine...",
+          "link": "https://www.beckershospitalreview.com/supply-chain/amazon-forms-partnership-to-improve-temperature-sensitive-vaccine-distribution.html",
+          "snippet": "Revenue Cycle Management. Digital Innovation Report. Supply Chain Report. Payer Issues.Amazon has partnered with Carrier Global Corporation, a refrigeration and cold chain company, to improve how medi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Investigating the role of stakeholder engagement for more resilient...",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9038441/",
+          "snippet": "Management Policies and Regulations for Vaccine Supply Chain (F6): Especially in pandemics such as COVID-19, it is one of the most important factors to deliver vaccines to the most points at maximum s",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Adult - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Adult",
+          "snippet": "An adult is an animal that has reached full growth. [1] The biological definition of adult is an organism that has reached sexual \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult Movies: Erotic Movies & After Hours TV Shows - Paramount+",
+          "link": "https://www.paramountplus.com/collections/showtime-after-hours/?msockid=3df3e52cecd367791e98f2b3ed3e666a",
+          "snippet": "Stream our collection of adult movies, erotic films, and After Hours TV shows on any device. Watch on your computer, tablet, mobile \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult - Simple English Wikipedia, the free encyclopedia",
+          "link": "https://simple.wikipedia.org/wiki/Adult",
+          "snippet": "Adult may mean different things. In law and social norms, an adult is a human who has reached the age of majority. The age of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult - definition of adult by The Free Dictionary",
+          "link": "https://www.thefreedictionary.com/adult",
+          "snippet": "Define adult. adult synonyms, adult pronunciation, adult translation, English dictionary definition of adult. n. 1. One who has attained \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "ADULT Definition & Meaning | Dictionary.com",
+          "link": "https://www.dictionary.com/browse/adult",
+          "snippet": "ADULT definition: a person who is fully grown or developed or of age. See examples of adult used in a sentence.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult: Definition, Meaning, and Examples - usdictionary.com",
+          "link": "https://usdictionary.com/definitions/adult/",
+          "snippet": "Jan 18, 2025 \u00b7 Explore the definition of the word \"adult,\" as well as its versatile usage, synonyms, examples, etymology, and more.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult - Definition, Meaning & Synonyms | Vocabulary.com",
+          "link": "https://www.vocabulary.com/dictionary/adult",
+          "snippet": "Adult is noun and an adjective, both of which refer to something mature, no longer a child. A full-grown person is called an adult: they \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Vaccine Wholesale Distributors | EB2BMart | PPTX",
+          "link": "https://www.slideshare.net/slideshow/vaccine-wholesale-distributors-eb2bmart/283215765",
+          "snippet": "Distributors of adult and corporate wellness products. \u2022 Export-ready suppliers for international needs. Partnership Benefits: \u2022 Long-term supply agreements. \u2022 Discounts on bulk procurement. \u2022 Dedicat",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Logistics of Covid-19 vaccines: main challenges in theory and practice",
+          "link": "https://www.scielo.br/j/prod/a/zBCW9hBntxkd5GXY3YXLdbd/?lang=en",
+          "snippet": "Verify the aspects of the Covid-19 vaccine supply chain and its challenges empirically, comparing these findings with the ones found in the literature.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Amazon forms partnership to improve temperature-sensitive vaccine...",
+          "link": "https://www.beckershospitalreview.com/supply-chain/amazon-forms-partnership-to-improve-temperature-sensitive-vaccine-distribution.html",
+          "snippet": "Revenue Cycle Management. Digital Innovation Report. Supply Chain Report. Payer Issues.Amazon has partnered with Carrier Global Corporation, a refrigeration and cold chain company, to improve how medi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Investigating the role of stakeholder engagement for more resilient...",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9038441/",
+          "snippet": "Management Policies and Regulations for Vaccine Supply Chain (F6): Especially in pandemics such as COVID-19, it is one of the most important factors to deliver vaccines to the most points at maximum s",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P7": {
+      "query": "adult vaccine regulatory compliance providers official site",
+      "level": "discovery",
+      "result_count": 16,
+      "results_target": 28,
+      "backends": [
+        "ddgs_yandex",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Adult - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Adult",
+          "snippet": "An adult is an animal that has reached full growth. [1] The biological definition of adult is an organism that has reached sexual \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult Movies: Erotic Movies & After Hours TV Shows - Paramount+",
+          "link": "https://www.paramountplus.com/collections/showtime-after-hours/?msockid=2f0645b24e8963120ed5522d4fae6259",
+          "snippet": "Stream our collection of adult movies, erotic films, and After Hours TV shows on any device. Watch on your computer, tablet, mobile \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult - Simple English Wikipedia, the free encyclopedia",
+          "link": "https://simple.wikipedia.org/wiki/Adult",
+          "snippet": "Adult may mean different things. In law and social norms, an adult is a human who has reached the age of majority. The age of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult - definition of adult by The Free Dictionary",
+          "link": "https://www.thefreedictionary.com/adult",
+          "snippet": "Define adult. adult synonyms, adult pronunciation, adult translation, English dictionary definition of adult. n. 1. One who has attained \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "ADULT Definition & Meaning | Dictionary.com",
+          "link": "https://www.dictionary.com/browse/adult",
+          "snippet": "ADULT definition: a person who is fully grown or developed or of age. See examples of adult used in a sentence.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult: Definition, Meaning, and Examples - usdictionary.com",
+          "link": "https://usdictionary.com/definitions/adult/",
+          "snippet": "Jan 18, 2025 \u00b7 Explore the definition of the word \"adult,\" as well as its versatile usage, synonyms, examples, etymology, and more.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult - Definition, Meaning & Synonyms | Vocabulary.com",
+          "link": "https://www.vocabulary.com/dictionary/adult",
+          "snippet": "Adult is noun and an adjective, both of which refer to something mature, no longer a child. A full-grown person is called an adult: they \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Vaccine and Related Biological Product Guidances | FDA",
+          "link": "https://www.fda.gov/vaccines-blood-biologics/biologics-guidances/vaccine-and-related-biological-product-guidances",
+          "snippet": "The .gov means it\u2019s official. Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you're on a federal government site.Vaccines, Blood & Biologics. Gu",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Developing Safe and Effective Vaccines | Childhood Vaccines | CDC",
+          "link": "https://www.cdc.gov/vaccines-children/about/developing-safe-effective-vaccines.html",
+          "snippet": "An official website of the United States government. Here's how you know. Official websites use .gov.FDA regulates vaccines to make sure they are safe and effective. CDC provides clinical guidance for",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Regulating vaccines for human use in Canada - Canada.ca",
+          "link": "https://www.canada.ca/en/health-canada/services/drugs-health-products/biologics-radiopharmaceuticals-genetic-therapies/activities/fact-sheets/regulation-vaccines-human-canada.html",
+          "snippet": "Emergency access to vaccines. Compliance and enforcement activities. Role of government, health authorities and health care providers. Health Canada regulates vaccines by: evaluating a vaccine for its",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "1986 Act: US government makes vaccine makers 100% Liability Free",
+          "link": "https://totalityofevidence.com/timeline/government-makes-vaccine-makers-100-liability-free/",
+          "snippet": "The 1986 Act \u201crequired healthcare providers and vaccine manufacturers to report to the Department of Health and Human Services specific adverse events\u201d following the administration of all vaccines.",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Thimerosal in Vaccines | US EPA",
+          "link": "https://www.epa.gov/mercury/thimerosal-vaccines",
+          "snippet": "An official website of the United States government. Here\u2019s how you know.The U.S. Food and Drug Administration is the chief federal government agency responsible for regulating vaccines in the United ",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "I Asked ChatGPT to Explain DNA Particles in COVID Vaccines.",
+          "link": "https://childrenshealthdefense.org/defender/chatgpt-ai-covid-vaccine-dna/",
+          "snippet": "6. Regulatory Measures: Regulatory agencies such as the U.S. Food and Drug Administration (FDA) have implemented strict guidelines to ensure the safety of vaccines and other biological products to pre",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Home | Immunize.org",
+          "link": "https://www.immunize.org/",
+          "snippet": "The LetsGetRealAboutVaccines.org website provides credible, plain-language information about routine pediatric vaccines.Immunize.org Website Office Hours: Official Guidance (states \u2013 requirements, map",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "EXPIRED: Revised Guidance for Staff Vaccination Requirements | CMS",
+          "link": "https://www.cms.gov/medicareprovider-enrollment-and-certificationsurveycertificationgeninfopolicy-and-memos-states-and/revised-guidance-staff-vaccination-requirements",
+          "snippet": "Coverage for young adults. Student health plans. Mental health parity and addiction equity.CMS is revising its guidance and survey procedures for all provider types related to assessing and maintainin",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "[Withdrawn] Coronavirus (COVID-19) vaccination of people... - GOV.UK",
+          "link": "https://www.gov.uk/government/publications/vaccination-of-people-working-or-deployed-in-care-homes-operational-guidance/coronavirus-covid-19-vaccination-of-people-working-or-deployed-in-care-homes-operational-guidance",
+          "snippet": "COVID-19 vaccination: easy-read leaflets. NHS England and NHS Improvement London: COVID-19 vaccine communication materials (videos in different languages). The Department of Health and Social Care has",
+          "backend": "ddgs_yandex"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Adult - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Adult",
+          "snippet": "An adult is an animal that has reached full growth. [1] The biological definition of adult is an organism that has reached sexual \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult Movies: Erotic Movies & After Hours TV Shows - Paramount+",
+          "link": "https://www.paramountplus.com/collections/showtime-after-hours/?msockid=2f0645b24e8963120ed5522d4fae6259",
+          "snippet": "Stream our collection of adult movies, erotic films, and After Hours TV shows on any device. Watch on your computer, tablet, mobile \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult - Simple English Wikipedia, the free encyclopedia",
+          "link": "https://simple.wikipedia.org/wiki/Adult",
+          "snippet": "Adult may mean different things. In law and social norms, an adult is a human who has reached the age of majority. The age of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult - definition of adult by The Free Dictionary",
+          "link": "https://www.thefreedictionary.com/adult",
+          "snippet": "Define adult. adult synonyms, adult pronunciation, adult translation, English dictionary definition of adult. n. 1. One who has attained \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "ADULT Definition & Meaning | Dictionary.com",
+          "link": "https://www.dictionary.com/browse/adult",
+          "snippet": "ADULT definition: a person who is fully grown or developed or of age. See examples of adult used in a sentence.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult: Definition, Meaning, and Examples - usdictionary.com",
+          "link": "https://usdictionary.com/definitions/adult/",
+          "snippet": "Jan 18, 2025 \u00b7 Explore the definition of the word \"adult,\" as well as its versatile usage, synonyms, examples, etymology, and more.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Adult - Definition, Meaning & Synonyms | Vocabulary.com",
+          "link": "https://www.vocabulary.com/dictionary/adult",
+          "snippet": "Adult is noun and an adjective, both of which refer to something mature, no longer a child. A full-grown person is called an adult: they \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Vaccine and Related Biological Product Guidances | FDA",
+          "link": "https://www.fda.gov/vaccines-blood-biologics/biologics-guidances/vaccine-and-related-biological-product-guidances",
+          "snippet": "The .gov means it\u2019s official. Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you're on a federal government site.Vaccines, Blood & Biologics. Gu",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Developing Safe and Effective Vaccines | Childhood Vaccines | CDC",
+          "link": "https://www.cdc.gov/vaccines-children/about/developing-safe-effective-vaccines.html",
+          "snippet": "An official website of the United States government. Here's how you know. Official websites use .gov.FDA regulates vaccines to make sure they are safe and effective. CDC provides clinical guidance for",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Regulating vaccines for human use in Canada - Canada.ca",
+          "link": "https://www.canada.ca/en/health-canada/services/drugs-health-products/biologics-radiopharmaceuticals-genetic-therapies/activities/fact-sheets/regulation-vaccines-human-canada.html",
+          "snippet": "Emergency access to vaccines. Compliance and enforcement activities. Role of government, health authorities and health care providers. Health Canada regulates vaccines by: evaluating a vaccine for its",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "1986 Act: US government makes vaccine makers 100% Liability Free",
+          "link": "https://totalityofevidence.com/timeline/government-makes-vaccine-makers-100-liability-free/",
+          "snippet": "The 1986 Act \u201crequired healthcare providers and vaccine manufacturers to report to the Department of Health and Human Services specific adverse events\u201d following the administration of all vaccines.",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Thimerosal in Vaccines | US EPA",
+          "link": "https://www.epa.gov/mercury/thimerosal-vaccines",
+          "snippet": "An official website of the United States government. Here\u2019s how you know.The U.S. Food and Drug Administration is the chief federal government agency responsible for regulating vaccines in the United ",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "I Asked ChatGPT to Explain DNA Particles in COVID Vaccines.",
+          "link": "https://childrenshealthdefense.org/defender/chatgpt-ai-covid-vaccine-dna/",
+          "snippet": "6. Regulatory Measures: Regulatory agencies such as the U.S. Food and Drug Administration (FDA) have implemented strict guidelines to ensure the safety of vaccines and other biological products to pre",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Home | Immunize.org",
+          "link": "https://www.immunize.org/",
+          "snippet": "The LetsGetRealAboutVaccines.org website provides credible, plain-language information about routine pediatric vaccines.Immunize.org Website Office Hours: Official Guidance (states \u2013 requirements, map",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "EXPIRED: Revised Guidance for Staff Vaccination Requirements | CMS",
+          "link": "https://www.cms.gov/medicareprovider-enrollment-and-certificationsurveycertificationgeninfopolicy-and-memos-states-and/revised-guidance-staff-vaccination-requirements",
+          "snippet": "Coverage for young adults. Student health plans. Mental health parity and addiction equity.CMS is revising its guidance and survey procedures for all provider types related to assessing and maintainin",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "[Withdrawn] Coronavirus (COVID-19) vaccination of people... - GOV.UK",
+          "link": "https://www.gov.uk/government/publications/vaccination-of-people-working-or-deployed-in-care-homes-operational-guidance/coronavirus-covid-19-vaccination-of-people-working-or-deployed-in-care-homes-operational-guidance",
+          "snippet": "COVID-19 vaccination: easy-read leaflets. NHS England and NHS Improvement London: COVID-19 vaccine communication materials (videos in different languages). The Department of Health and Social Care has",
+          "backend": "ddgs_yandex"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

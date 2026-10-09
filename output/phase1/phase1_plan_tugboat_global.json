@@ -1,0 +1,2746 @@
+{
+  "phase": 1,
+  "query": "Tugboat Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T20:43:57.279074+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "tugboat",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "maritime logistics",
+    "industry_terms": [
+      "tugboat",
+      "maritime logistics",
+      "vessel maneuvering",
+      "harbor operations",
+      "tugboat services"
+    ],
+    "ecosystem_functions": [
+      "distributing tugboats",
+      "reselling tugboats",
+      "providing maintenance services",
+      "integrating tugboat systems",
+      "supporting maritime operations",
+      "logistics management",
+      "customer support",
+      "technical assistance"
+    ],
+    "interpretation_summary": "The tugboat market encompasses the design, manufacturing, and distribution of tugboats, which are specialized vessels used to maneuver ships in harbors, narrow channels, or through shallow waters. Key participants includ",
+    "relevance_keywords": [
+      "tugboat distribution",
+      "tugboat maintenance",
+      "tugboat sales",
+      "tugboat integration",
+      "maritime service providers"
+    ],
+    "negative_keywords": [
+      "fishing boats",
+      "cargo ships",
+      "yachts",
+      "recreational boats",
+      "unrelated maritime industries"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "Crowley Maritime",
+        "primary_domain": "crowley.com",
+        "company_function": "service providers"
+      },
+      {
+        "canonical_name": "Harley Marine Services",
+        "primary_domain": "harleymarine.com",
+        "company_function": "service providers"
+      },
+      {
+        "canonical_name": "Svitzer",
+        "primary_domain": "svitzer.com",
+        "company_function": "service providers"
+      },
+      {
+        "canonical_name": "Bollinger Shipyards",
+        "primary_domain": "bollingershipyards.com",
+        "company_function": "distributors"
+      },
+      {
+        "canonical_name": "Tug Technologies",
+        "primary_domain": "tugtechnologies.com",
+        "company_function": "system integrators"
+      },
+      {
+        "canonical_name": "Seacor Marine",
+        "primary_domain": "seacormarine.com",
+        "company_function": "service providers"
+      },
+      {
+        "canonical_name": "McAllister Towing",
+        "primary_domain": "mcallistertowing.com",
+        "company_function": "service providers"
+      },
+      {
+        "canonical_name": "Tugboat Solutions",
+        "primary_domain": "tugboatsolutions.com",
+        "company_function": "distributors"
+      },
+      {
+        "canonical_name": "Great Lakes Dredge & Dock Corporation",
+        "primary_domain": "gldd.com",
+        "company_function": "tugboat and dredging services",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Tugboat International",
+        "primary_domain": "tugboatinternational.com",
+        "company_function": "tugboat sales and services",
+        "segment": "Resellers",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "tugboat",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "tugboat",
+    "include_keywords": [
+      "tugboat distributors",
+      "tugboat resellers",
+      "tugboat service providers",
+      "tugboat system integrators",
+      "maritime channel partners"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The tugboat market encompasses the design, manufacturing, and distribution of tugboats, which are specialized vessels used to maneuver ships in harbors, narrow channels, or through shallow waters. Key participants include manufacturers, distributors, and service providers operating globally to support maritime logistics and operations.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Distribution",
+        "description": "This layer involves the distribution and resale of tugboats and related services.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Regional Distributors",
+              "Global Distributors"
+            ],
+            "participant_types": [
+              "distributor",
+              "wholesaler"
+            ],
+            "search_intents": [
+              "tugboat distributors near me",
+              "global tugboat distributors"
+            ]
+          },
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Authorized Resellers",
+              "Independent Resellers"
+            ],
+            "participant_types": [
+              "reseller"
+            ],
+            "search_intents": [
+              "buy tugboats from resellers",
+              "tugboat reseller companies"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L2",
+        "layer_name": "Service Providers",
+        "description": "This layer includes companies providing maintenance, repair, and operational services for tugboats.",
+        "segments": [
+          {
+            "segment_name": "Service Providers",
+            "sub_segments": [
+              "Maintenance Services",
+              "Operational Support"
+            ],
+            "participant_types": [
+              "service provider"
+            ],
+            "search_intents": [
+              "tugboat maintenance services",
+              "tugboat operational support providers"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L3",
+        "layer_name": "System Integration",
+        "description": "This layer involves companies that integrate tugboat systems and technologies.",
+        "segments": [
+          {
+            "segment_name": "System Integrators",
+            "sub_segments": [
+              "Technology Integrators",
+              "Operational Integrators"
+            ],
+            "participant_types": [
+              "system integrator"
+            ],
+            "search_intents": [
+              "tugboat system integrators",
+              "integrated tugboat solutions"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Shipbuilders",
+        "Maritime Equipment Manufacturers",
+        "Port Authorities",
+        "Shipping Companies"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "find tugboat distributors globally",
+        "sub_sector": "distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "search for authorized tugboat resellers",
+        "sub_sector": "reseller",
+        "layer_id": "L1",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "tugboat maintenance service providers",
+        "sub_sector": "service_provider",
+        "layer_id": "L2",
+        "segment": "Service Providers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "tugboat system integration companies",
+        "sub_sector": "system_integrator",
+        "layer_id": "L3",
+        "segment": "System Integrators"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "maritime logistics",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "tugboat companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "tugboat distributors corporate sites"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "tugboat service providers official site"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "discovery",
+      "text": "tugboat distributor corporate headquarters"
+    },
+    {
+      "id": "P2",
+      "level": "discovery",
+      "text": "tugboat wholesaler official site"
+    },
+    {
+      "id": "P3",
+      "level": "discovery",
+      "text": "tugboat reseller companies official website"
+    },
+    {
+      "id": "P4",
+      "level": "discovery",
+      "text": "tugboat system integrators corporate site"
+    },
+    {
+      "id": "P5",
+      "level": "discovery",
+      "text": "tugboat service provider maintenance services"
+    },
+    {
+      "id": "P6",
+      "level": "discovery",
+      "text": "tugboat service provider operational support"
+    },
+    {
+      "id": "P7",
+      "level": "discovery",
+      "text": "tugboat logistics management official site"
+    },
+    {
+      "id": "P8",
+      "level": "discovery",
+      "text": "tugboat customer support corporate profile"
+    },
+    {
+      "id": "P9",
+      "level": "volume",
+      "text": "authorized tugboat distributor firm official"
+    },
+    {
+      "id": "P10",
+      "level": "volume",
+      "text": "tugboat reseller channel partner official"
+    },
+    {
+      "id": "P11",
+      "level": "volume",
+      "text": "tugboat service provider official website"
+    },
+    {
+      "id": "P12",
+      "level": "volume",
+      "text": "tugboat system integrator official website"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "tugboat companies official websites",
+      "level": "L0",
+      "result_count": 20,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Tugboat - Wikipedia",
+          "link": "https://en.m.wikipedia.org/wiki/TUGboat",
+          "snippet": "Tugboat CSS Teaser is captured by USS Maratanza. Justine McAllister, a tug boat in New York Harbor, January 2008 The tugboats \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The Ultimate Guide to Tug Boats - Marine Insight",
+          "link": "https://www.marineinsight.com/what-are-tug-boats/",
+          "snippet": "Jan 24, 2024 \u00b7 A tug, or more commonly a tugboat, is an assistance boat which helps in the mooring or berthing operation of a ship \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboats: Types, Roles, and Importance in Port Operations",
+          "link": "https://www.marinepublic.com/blogs/offshore/314519-tugboats-types-roles-and-importance-in-port-operations",
+          "snippet": "Different tugboat types & their essential roles in safe maritime port operations Tugboats are the unsung heroes of the maritime \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Harbour Tugboats: What They Do, How They're Designed (2026)",
+          "link": "https://sym-naval.com/blog/harbour-tugs/",
+          "snippet": "Harbour tugboats: what they are, key manoeuvring roles and design essentials\u2014power, stability and manoeuvrability\u2014for safe port \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Everything You Need to Know About Tugboats, Types and Uses",
+          "link": "https://dexteroffshore.com/what-are-tugboats/",
+          "snippet": "Oct 25, 2022 \u00b7 TUG BOATS are small but POWERFULL ships that assist other vessels in and out of port. Click to Learn more about \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboats: The Unsung Heroes Of The Shipping Industry",
+          "link": "https://maritimepage.com/tugboats-heroes-of-the-shipping-industry/",
+          "snippet": "Apr 28, 2026 \u00b7 Tugboats are a type of vessel that is primarily used for towing other ships and barges. They are commonly found in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tug Boat: What Do Tugboats Do? How Do Tugboats Work? - Science \u2026",
+          "link": "https://www.scienceabc.com/innovation/what-are-tugboats-and-how-do-they-work",
+          "snippet": "Apr 9, 2021 \u00b7 Table of Contents (click to expand) What Is A Tugboat? How Do Tugboats Work? Types Of Tugboats Application Of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Everything You Need to Know About Tugboats - Martide",
+          "link": "https://blog.martide.com/all-about-tugboats/",
+          "snippet": "Sep 12, 2024 \u00b7 Tugboats are small powerful vessels with a number of tasks, mainly the towing or pushing of much bigger ships. But \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboat Information",
+          "link": "http://tugboatinformation.com/",
+          "snippet": "WELCOME, TO TUGBOAT INFORMATION.COM. A COLLECTIVE EXCHANGE OF INFORMATION FOR THE HISTORY OF TUGBOATS, TUG COMPANIES AND THEIR OWNERS. Please Select from the alphabet below, the first letter of a Comp",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboats \u22c6 American Marine Corporation",
+          "link": "https://amarinecorp.com/tugboats/",
+          "snippet": "Tugboats Tugboat Services - Marine Transportation American Marine Corporation is a powerful force in the tugboat and towage market, able to service clients in America, including Alaska and Hawaii, Afr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Shipbuilding companies and shipyard in China - Peida Machinery Group",
+          "link": "https://www.peidagroup.com/",
+          "snippet": "We are professional ship builder and provide high quality of barge tugboat&passenger ship, and these ships are in hot sale around the world. -Peida Machinery Group Co. ,Ltd.Top 8 Tugboat Companies in ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "A collective information exchange for the history of tugboats and their...",
+          "link": "https://tugboatinformation.com/index.cfm?l=all",
+          "snippet": "Gaelic tugboat company. Gahagan dredging company. Galliano tugs incorporated.Tugboatinformation.com is a NON-PROFIT site. The site is strictly intended for REFERENCE ONLY.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat | LinkedIn",
+          "link": "https://www.linkedin.com/company/tugboat",
+          "snippet": "Tugboat is the fastest platform to automate creation of preview and test environments for any code push. Our clients include web dev agencies and Fortune 50 companies including NBC, Lonely Planet, SyF",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "tugboatvape.com",
+          "link": "https://tugboatvape.com/",
+          "snippet": "TUGBOAT is dedicated to cutting-edge atomization technology research and consistently leads the industry in areas such as innovative structural design, leak prevention, condensation control, and flavo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat Institute - Tugboat Institute",
+          "link": "https://www.tugboatinstitute.com/",
+          "snippet": "Tugboat Institute\u00ae supports Evergreen\u00ae leaders in building Purpose-driven companies that stay Private, Profitable, and enduring for generations to come. Join the Evergreen Community.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Vane Brothers Company",
+          "link": "https://www.vanebrothers.com/",
+          "snippet": "In-House Training A company-exclusive Mate Training program, with full pay and benefits, is available for qualified Vane Brothers mariners, Maritime Academy graduates and current tugboat operators. We",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Pacific Maritime Group. Maritime Services Tug Boat",
+          "link": "https://www.pacificmaritimegroup.com/",
+          "snippet": "\"Pacific Maritime Group provides expert Maritime Services: tugboat services, ocean towing, floating crane, barge charter, dredging, landing craft, crew boat...\"",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Seaspan Marine Transportation - Seaspan",
+          "link": "https://www.seaspan.com/seaspan-marine/",
+          "snippet": "seaspan transporter overhead. tugboat. Tug & Barge Services. Seaspan Marine provides tugboats for ship docking, tanker escort and ship emergency response, and has a fleet of tugs and barges used for m",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - Baudouin",
+          "link": "https://baudouin.com/",
+          "snippet": "TUGBOAT ENGINES. We design high-performance engines tailored for the demanding operations of tugboats.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "World Largest B2B Maritime, Port, Freight & Logistics Marketplace",
+          "link": "https://ruzave.com/tugboat-companies/",
+          "snippet": "Free Company Registration. Career.\u00a9 2023 Ruzave Shipping and Logistic Directory. All rights reserved. Website designed and developed by Arkay Apps. RFQ.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Tugboat - Wikipedia",
+          "link": "https://en.m.wikipedia.org/wiki/TUGboat",
+          "snippet": "Tugboat CSS Teaser is captured by USS Maratanza. Justine McAllister, a tug boat in New York Harbor, January 2008 The tugboats \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The Ultimate Guide to Tug Boats - Marine Insight",
+          "link": "https://www.marineinsight.com/what-are-tug-boats/",
+          "snippet": "Jan 24, 2024 \u00b7 A tug, or more commonly a tugboat, is an assistance boat which helps in the mooring or berthing operation of a ship \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboats: Types, Roles, and Importance in Port Operations",
+          "link": "https://www.marinepublic.com/blogs/offshore/314519-tugboats-types-roles-and-importance-in-port-operations",
+          "snippet": "Different tugboat types & their essential roles in safe maritime port operations Tugboats are the unsung heroes of the maritime \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Harbour Tugboats: What They Do, How They're Designed (2026)",
+          "link": "https://sym-naval.com/blog/harbour-tugs/",
+          "snippet": "Harbour tugboats: what they are, key manoeuvring roles and design essentials\u2014power, stability and manoeuvrability\u2014for safe port \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Everything You Need to Know About Tugboats, Types and Uses",
+          "link": "https://dexteroffshore.com/what-are-tugboats/",
+          "snippet": "Oct 25, 2022 \u00b7 TUG BOATS are small but POWERFULL ships that assist other vessels in and out of port. Click to Learn more about \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboats: The Unsung Heroes Of The Shipping Industry",
+          "link": "https://maritimepage.com/tugboats-heroes-of-the-shipping-industry/",
+          "snippet": "Apr 28, 2026 \u00b7 Tugboats are a type of vessel that is primarily used for towing other ships and barges. They are commonly found in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tug Boat: What Do Tugboats Do? How Do Tugboats Work? - Science \u2026",
+          "link": "https://www.scienceabc.com/innovation/what-are-tugboats-and-how-do-they-work",
+          "snippet": "Apr 9, 2021 \u00b7 Table of Contents (click to expand) What Is A Tugboat? How Do Tugboats Work? Types Of Tugboats Application Of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Everything You Need to Know About Tugboats - Martide",
+          "link": "https://blog.martide.com/all-about-tugboats/",
+          "snippet": "Sep 12, 2024 \u00b7 Tugboats are small powerful vessels with a number of tasks, mainly the towing or pushing of much bigger ships. But \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboat Information",
+          "link": "http://tugboatinformation.com/",
+          "snippet": "WELCOME, TO TUGBOAT INFORMATION.COM. A COLLECTIVE EXCHANGE OF INFORMATION FOR THE HISTORY OF TUGBOATS, TUG COMPANIES AND THEIR OWNERS. Please Select from the alphabet below, the first letter of a Comp",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboats \u22c6 American Marine Corporation",
+          "link": "https://amarinecorp.com/tugboats/",
+          "snippet": "Tugboats Tugboat Services - Marine Transportation American Marine Corporation is a powerful force in the tugboat and towage market, able to service clients in America, including Alaska and Hawaii, Afr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Shipbuilding companies and shipyard in China - Peida Machinery Group",
+          "link": "https://www.peidagroup.com/",
+          "snippet": "We are professional ship builder and provide high quality of barge tugboat&passenger ship, and these ships are in hot sale around the world. -Peida Machinery Group Co. ,Ltd.Top 8 Tugboat Companies in ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "A collective information exchange for the history of tugboats and their...",
+          "link": "https://tugboatinformation.com/index.cfm?l=all",
+          "snippet": "Gaelic tugboat company. Gahagan dredging company. Galliano tugs incorporated.Tugboatinformation.com is a NON-PROFIT site. The site is strictly intended for REFERENCE ONLY.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat | LinkedIn",
+          "link": "https://www.linkedin.com/company/tugboat",
+          "snippet": "Tugboat is the fastest platform to automate creation of preview and test environments for any code push. Our clients include web dev agencies and Fortune 50 companies including NBC, Lonely Planet, SyF",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "tugboatvape.com",
+          "link": "https://tugboatvape.com/",
+          "snippet": "TUGBOAT is dedicated to cutting-edge atomization technology research and consistently leads the industry in areas such as innovative structural design, leak prevention, condensation control, and flavo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat Institute - Tugboat Institute",
+          "link": "https://www.tugboatinstitute.com/",
+          "snippet": "Tugboat Institute\u00ae supports Evergreen\u00ae leaders in building Purpose-driven companies that stay Private, Profitable, and enduring for generations to come. Join the Evergreen Community.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Vane Brothers Company",
+          "link": "https://www.vanebrothers.com/",
+          "snippet": "In-House Training A company-exclusive Mate Training program, with full pay and benefits, is available for qualified Vane Brothers mariners, Maritime Academy graduates and current tugboat operators. We",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Pacific Maritime Group. Maritime Services Tug Boat",
+          "link": "https://www.pacificmaritimegroup.com/",
+          "snippet": "\"Pacific Maritime Group provides expert Maritime Services: tugboat services, ocean towing, floating crane, barge charter, dredging, landing craft, crew boat...\"",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Seaspan Marine Transportation - Seaspan",
+          "link": "https://www.seaspan.com/seaspan-marine/",
+          "snippet": "seaspan transporter overhead. tugboat. Tug & Barge Services. Seaspan Marine provides tugboats for ship docking, tanker escort and ship emergency response, and has a fleet of tugs and barges used for m",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - Baudouin",
+          "link": "https://baudouin.com/",
+          "snippet": "TUGBOAT ENGINES. We design high-performance engines tailored for the demanding operations of tugboats.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "World Largest B2B Maritime, Port, Freight & Logistics Marketplace",
+          "link": "https://ruzave.com/tugboat-companies/",
+          "snippet": "Free Company Registration. Career.\u00a9 2023 Ruzave Shipping and Logistic Directory. All rights reserved. Website designed and developed by Arkay Apps. RFQ.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "tugboat distributors corporate sites",
+      "level": "L1",
+      "result_count": 18,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Tugboat - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Tugboat",
+          "snippet": "Tugboat CSS Teaser is captured by USS Maratanza. Justine McAllister, a tug boat in New York Harbor, January 2008 The tugboats \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboat - Branded Merchandise Solutions | Napa, CA",
+          "link": "https://www.tugboatinc.com/",
+          "snippet": "Tugboat offers customized branded gifts and swag for any occasion. Our mission is to navigate you through the vast waves of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The Ultimate Guide to Tug Boats - Marine Insight",
+          "link": "https://www.marineinsight.com/what-are-tug-boats/",
+          "snippet": "Jan 24, 2024 \u00b7 A tug, or more commonly a tugboat, is an assistance boat which helps in the mooring or berthing operation of a ship \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboat Information",
+          "link": "http://tugboatinformation.com/",
+          "snippet": "WELCOME, TO TUGBOAT INFORMATION.COM. A COLLECTIVE EXCHANGE OF INFORMATION FOR THE HISTORY OF \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboat Institute",
+          "link": "https://www.tugboatinstitute.com/",
+          "snippet": "Jun 16, 2026 \u00b7 Tugboat Institute believes in the vital importance of humans coming together to create and grow enduring, private \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Home Insurance Claim Help & Expert Advocacy | Tugboat Claims",
+          "link": "https://www.tugboat.claims/",
+          "snippet": "Tugboat provides plain-language advice, expert support, and practical help, so you can make confident decisions, protect your home, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboat Fish and Chips - Zmenu",
+          "link": "https://www.zmenu.com/tugboat-fish-and-chips-san-jose-online-menu/",
+          "snippet": "May 5, 2025 \u00b7 3. Tugboat Fish and Chips offers multiple service options, including delivery, takeout, and dine-in, giving you the \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboat(Distributors & Wholesalers) in International City... - HiDubai",
+          "link": "https://www.hidubai.com/businesses/tugboat-b2b-services-distributors-wholesalers-international-city-warsan-1-dubai",
+          "snippet": "Tugboat located at Mushrif,International City (Warsan 1) is one of the Top Distributors & Wholesalers in Dubai. Get Tugboat reviews, ratings, contact address, phone numbers, contact person and map det",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "tugboatvape.com",
+          "link": "https://tugboatvape.com/",
+          "snippet": "TUGBOAT is dedicated to cutting-edge atomization technology research and consistently leads the industry in areas such as innovative structural design, leak prevention, condensation control, and flavo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat Physics: How 300 Tons Controls 200,000 Tons - SEAMEN",
+          "link": "https://seamen.es/tugboat-physics-how-300-tons-controls-200000-tons/",
+          "snippet": "A high-detail, photorealistic illustration of a modern tugboat equipped with a Voith Schneider Propeller (VSP) system, showcasing the vertical rotating blades beneath the hull. The tug is actively man",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Towboats Or Tugboats Manufacturers and Suppliers in the USA and Canada",
+          "link": "https://www.thomasnet.com/suppliers/usa/towboats-or-tugboats-6032007",
+          "snippet": "Find Towboats Or Tugboats Manufacturers and Suppliers in the USA and Canada on Thomasnet.com",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat Information",
+          "link": "https://www.tugboatinformation.com/index.cfm?l=all",
+          "snippet": "A collective information exchange for the history of tugboats and their owners",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 8 Tugboat Companies in the World - peidagroup.com",
+          "link": "https://www.peidagroup.com/blog23/6679.html",
+          "snippet": "Tugboat companies play a crucial role in global maritime operations, ensuring the safe navigation and docking of ships in ports and harbors. With their powerful engines and exceptional maneuverability",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "TUG BOAT",
+          "link": "https://tug.org/TUGboat/tb28-3/tb90complete.pdf",
+          "snippet": "For membership information, visit the TUG web site. Also, (non-voting) TUGboat subscriptions are available to organizations and others wishing to receive TUGboat in a name other than that of an indivi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Trabzon Shipyard \u2013 Trabzon Shipyard",
+          "link": "https://trabzonshipyard.com/",
+          "snippet": "FACILITY MAINTENANCE Trabzon Shipyard is equipped to maintain and repair a wide range of sea vessels, including dry cargo ships, liquid cargo carriers, chemical tankers, offshore vessels, and tugboats",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Moran Towing Kearny NJ: What Most People Get Wrong - Facol Br",
+          "link": "https://facol.br/moran-towing-kearny-nj-what-most-people-get-wrong-1ig6",
+          "snippet": "While their corporate headquarters sits in New Canaan, CT, their operational heartbeat is right here in the harbor.If you\u2019re looking for a career as a marine engineer or a deckhand on a tugboat, you n",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - Baudouin",
+          "link": "https://baudouin.com/",
+          "snippet": "TUGBOAT ENGINES. We design high-performance engines tailored for the demanding operations of tugboats.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Svitzer - Svitzer",
+          "link": "https://svitzer.com/",
+          "snippet": "Svitzer is the leading harbour and terminal towage provider. We provide world-class mariners, tugboats and sustainable marine solutions.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Tugboat - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Tugboat",
+          "snippet": "Tugboat CSS Teaser is captured by USS Maratanza. Justine McAllister, a tug boat in New York Harbor, January 2008 The tugboats \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboat - Branded Merchandise Solutions | Napa, CA",
+          "link": "https://www.tugboatinc.com/",
+          "snippet": "Tugboat offers customized branded gifts and swag for any occasion. Our mission is to navigate you through the vast waves of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The Ultimate Guide to Tug Boats - Marine Insight",
+          "link": "https://www.marineinsight.com/what-are-tug-boats/",
+          "snippet": "Jan 24, 2024 \u00b7 A tug, or more commonly a tugboat, is an assistance boat which helps in the mooring or berthing operation of a ship \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboat Information",
+          "link": "http://tugboatinformation.com/",
+          "snippet": "WELCOME, TO TUGBOAT INFORMATION.COM. A COLLECTIVE EXCHANGE OF INFORMATION FOR THE HISTORY OF \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboat Institute",
+          "link": "https://www.tugboatinstitute.com/",
+          "snippet": "Jun 16, 2026 \u00b7 Tugboat Institute believes in the vital importance of humans coming together to create and grow enduring, private \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Home Insurance Claim Help & Expert Advocacy | Tugboat Claims",
+          "link": "https://www.tugboat.claims/",
+          "snippet": "Tugboat provides plain-language advice, expert support, and practical help, so you can make confident decisions, protect your home, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboat Fish and Chips - Zmenu",
+          "link": "https://www.zmenu.com/tugboat-fish-and-chips-san-jose-online-menu/",
+          "snippet": "May 5, 2025 \u00b7 3. Tugboat Fish and Chips offers multiple service options, including delivery, takeout, and dine-in, giving you the \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboat(Distributors & Wholesalers) in International City... - HiDubai",
+          "link": "https://www.hidubai.com/businesses/tugboat-b2b-services-distributors-wholesalers-international-city-warsan-1-dubai",
+          "snippet": "Tugboat located at Mushrif,International City (Warsan 1) is one of the Top Distributors & Wholesalers in Dubai. Get Tugboat reviews, ratings, contact address, phone numbers, contact person and map det",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "tugboatvape.com",
+          "link": "https://tugboatvape.com/",
+          "snippet": "TUGBOAT is dedicated to cutting-edge atomization technology research and consistently leads the industry in areas such as innovative structural design, leak prevention, condensation control, and flavo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat Physics: How 300 Tons Controls 200,000 Tons - SEAMEN",
+          "link": "https://seamen.es/tugboat-physics-how-300-tons-controls-200000-tons/",
+          "snippet": "A high-detail, photorealistic illustration of a modern tugboat equipped with a Voith Schneider Propeller (VSP) system, showcasing the vertical rotating blades beneath the hull. The tug is actively man",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Towboats Or Tugboats Manufacturers and Suppliers in the USA and Canada",
+          "link": "https://www.thomasnet.com/suppliers/usa/towboats-or-tugboats-6032007",
+          "snippet": "Find Towboats Or Tugboats Manufacturers and Suppliers in the USA and Canada on Thomasnet.com",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat Information",
+          "link": "https://www.tugboatinformation.com/index.cfm?l=all",
+          "snippet": "A collective information exchange for the history of tugboats and their owners",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 8 Tugboat Companies in the World - peidagroup.com",
+          "link": "https://www.peidagroup.com/blog23/6679.html",
+          "snippet": "Tugboat companies play a crucial role in global maritime operations, ensuring the safe navigation and docking of ships in ports and harbors. With their powerful engines and exceptional maneuverability",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "TUG BOAT",
+          "link": "https://tug.org/TUGboat/tb28-3/tb90complete.pdf",
+          "snippet": "For membership information, visit the TUG web site. Also, (non-voting) TUGboat subscriptions are available to organizations and others wishing to receive TUGboat in a name other than that of an indivi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Trabzon Shipyard \u2013 Trabzon Shipyard",
+          "link": "https://trabzonshipyard.com/",
+          "snippet": "FACILITY MAINTENANCE Trabzon Shipyard is equipped to maintain and repair a wide range of sea vessels, including dry cargo ships, liquid cargo carriers, chemical tankers, offshore vessels, and tugboats",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Moran Towing Kearny NJ: What Most People Get Wrong - Facol Br",
+          "link": "https://facol.br/moran-towing-kearny-nj-what-most-people-get-wrong-1ig6",
+          "snippet": "While their corporate headquarters sits in New Canaan, CT, their operational heartbeat is right here in the harbor.If you\u2019re looking for a career as a marine engineer or a deckhand on a tugboat, you n",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - Baudouin",
+          "link": "https://baudouin.com/",
+          "snippet": "TUGBOAT ENGINES. We design high-performance engines tailored for the demanding operations of tugboats.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Svitzer - Svitzer",
+          "link": "https://svitzer.com/",
+          "snippet": "Svitzer is the leading harbour and terminal towage provider. We provide world-class mariners, tugboats and sustainable marine solutions.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "tugboat service providers official site",
+      "level": "L2",
+      "result_count": 8,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Tugboat - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Tugboat",
+          "snippet": "Tugboat CSS Teaser is captured by USS Maratanza. Justine McAllister, a tug boat in New York Harbor, January 2008 The tugboats \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboat - Branded Merchandise Solutions | Napa, CA",
+          "link": "https://www.tugboatinc.com/",
+          "snippet": "Tugboat offers customized branded gifts and swag for any occasion. Our mission is to navigate you through the vast waves of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The Ultimate Guide to Tug Boats - Marine Insight",
+          "link": "https://www.marineinsight.com/what-are-tug-boats/",
+          "snippet": "Jan 24, 2024 \u00b7 A tug, or more commonly a tugboat, is an assistance boat which helps in the mooring or berthing operation of a ship \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboat Information",
+          "link": "http://tugboatinformation.com/",
+          "snippet": "WELCOME, TO TUGBOAT INFORMATION.COM. A COLLECTIVE EXCHANGE OF INFORMATION FOR THE HISTORY OF \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboat Institute",
+          "link": "https://www.tugboatinstitute.com/",
+          "snippet": "Jun 16, 2026 \u00b7 Tugboat Institute believes in the vital importance of humans coming together to create and grow enduring, private \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Home Insurance Claim Help & Expert Advocacy | Tugboat Claims",
+          "link": "https://www.tugboat.claims/",
+          "snippet": "Tugboat provides plain-language advice, expert support, and practical help, so you can make confident decisions, protect your home, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboat Fish and Chips - Zmenu",
+          "link": "https://www.zmenu.com/tugboat-fish-and-chips-san-jose-online-menu/",
+          "snippet": "May 5, 2025 \u00b7 3. Tugboat Fish and Chips offers multiple service options, including delivery, takeout, and dine-in, giving you the \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboats \u22c6 American Marine Corporation",
+          "link": "https://amarinecorp.com/tugboats/",
+          "snippet": "Tugboats Tugboat Services - Marine Transportation American Marine Corporation is a powerful force in the tugboat and towage market, able to service clients in America, including Alaska and Hawaii, Afr",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Tugboat - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Tugboat",
+          "snippet": "Tugboat CSS Teaser is captured by USS Maratanza. Justine McAllister, a tug boat in New York Harbor, January 2008 The tugboats \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboat - Branded Merchandise Solutions | Napa, CA",
+          "link": "https://www.tugboatinc.com/",
+          "snippet": "Tugboat offers customized branded gifts and swag for any occasion. Our mission is to navigate you through the vast waves of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The Ultimate Guide to Tug Boats - Marine Insight",
+          "link": "https://www.marineinsight.com/what-are-tug-boats/",
+          "snippet": "Jan 24, 2024 \u00b7 A tug, or more commonly a tugboat, is an assistance boat which helps in the mooring or berthing operation of a ship \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboat Information",
+          "link": "http://tugboatinformation.com/",
+          "snippet": "WELCOME, TO TUGBOAT INFORMATION.COM. A COLLECTIVE EXCHANGE OF INFORMATION FOR THE HISTORY OF \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboat Institute",
+          "link": "https://www.tugboatinstitute.com/",
+          "snippet": "Jun 16, 2026 \u00b7 Tugboat Institute believes in the vital importance of humans coming together to create and grow enduring, private \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Home Insurance Claim Help & Expert Advocacy | Tugboat Claims",
+          "link": "https://www.tugboat.claims/",
+          "snippet": "Tugboat provides plain-language advice, expert support, and practical help, so you can make confident decisions, protect your home, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboat Fish and Chips - Zmenu",
+          "link": "https://www.zmenu.com/tugboat-fish-and-chips-san-jose-online-menu/",
+          "snippet": "May 5, 2025 \u00b7 3. Tugboat Fish and Chips offers multiple service options, including delivery, takeout, and dine-in, giving you the \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboats \u22c6 American Marine Corporation",
+          "link": "https://amarinecorp.com/tugboats/",
+          "snippet": "Tugboats Tugboat Services - Marine Transportation American Marine Corporation is a powerful force in the tugboat and towage market, able to service clients in America, including Alaska and Hawaii, Afr",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "tugboat distributor corporate headquarters",
+      "level": "discovery",
+      "result_count": 24,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Tugboat - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Tugboat",
+          "snippet": "Tugboat CSS Teaser is captured by USS Maratanza. Justine McAllister, a tug boat in New York Harbor, January 2008 The tugboats \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboat - Branded Merchandise Solutions | Napa, CA",
+          "link": "https://www.tugboatinc.com/",
+          "snippet": "Tugboat offers customized branded gifts and swag for any occasion. Our mission is to navigate you through the vast waves of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The Ultimate Guide to Tug Boats - Marine Insight",
+          "link": "https://www.marineinsight.com/what-are-tug-boats/",
+          "snippet": "Jan 24, 2024 \u00b7 A tug, or more commonly a tugboat, is an assistance boat which helps in the mooring or berthing operation of a ship \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboat Information",
+          "link": "http://tugboatinformation.com/",
+          "snippet": "WELCOME, TO TUGBOAT INFORMATION.COM. A COLLECTIVE EXCHANGE OF INFORMATION FOR THE HISTORY OF \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboat Institute",
+          "link": "https://www.tugboatinstitute.com/",
+          "snippet": "Jun 16, 2026 \u00b7 Tugboat Institute believes in the vital importance of humans coming together to create and grow enduring, private \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Home Insurance Claim Help & Expert Advocacy | Tugboat Claims",
+          "link": "https://www.tugboat.claims/",
+          "snippet": "Tugboat provides plain-language advice, expert support, and practical help, so you can make confident decisions, protect your home, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboat Fish and Chips - Zmenu",
+          "link": "https://www.zmenu.com/tugboat-fish-and-chips-san-jose-online-menu/",
+          "snippet": "May 5, 2025 \u00b7 3. Tugboat Fish and Chips offers multiple service options, including delivery, takeout, and dine-in, giving you the \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is a Tugboat? Exploring the Tugboat Business of Mitsui O.S.K. ...",
+          "link": "https://www.mol-service.com/blog/mol-tugboat-business-en",
+          "snippet": "21 Apr 2025 ... Nihon Tug-Boat Co., Ltd. engages in tugboat operations for the berthing and unberthing of vessels, escorting large vessels and vessels loaded ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Tugboat Manufacturers in Pune near me - Justdial",
+          "link": "https://www.justdial.com/Pune/Tugboat-Manufacturers/nct-11759493",
+          "snippet": "... Address, Reviews, Photos, Maps , FAQs for ... The landscape of tugboat builders is diverse, comprising both large corporations and specialized companies.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat Info Solutions - Salesforce and Mulesoft Experts",
+          "link": "https://tugboat.in/",
+          "snippet": "Tugboat Info Solutions Tugboat Info Solutions - - CRM & Cloud Solutions A boutique CRM & Custom Cloud solutions firm, delivering value to its Partners at ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat Manufacturers in India - IndiaMART",
+          "link": "https://dir.indiamart.com/impcat/tugboat.html?biz=10",
+          "snippet": "Find here Tugboat manufacturers & OEM manufacturers in India. Get Contact details & address of companies manufacturing and supplying Tugboat across India.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat Information",
+          "link": "https://www.tugboatinformation.com/",
+          "snippet": "... TUGBOATS, TUG COMPANIES AND THEIR OWNERS. Please Select from the alphabet below, the first letter of a Company name and you will be linked to a listing of ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat - Overview, News & Similar companies | ZoomInfo.com",
+          "link": "https://www.zoominfo.com/c/tugboat-inc/90832927",
+          "snippet": "View Company Info for Free. Overview. Headquarters. 398 Devlin Rd, Napa, California, 94558, United States. Phone Number. (707) 252-3536. Website. www.tugboatinc ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat Headquarters and Office Locations - Craft.co",
+          "link": "https://craft.co/tugboatqa/locations",
+          "snippet": "Tugboat Corporate Headquarters, Office Locations and Addresses | Craft.co Tugboat is headquartered in Providence, 11 S Angell St #499, United States, and has 1 office location.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat, Inc. Company Overview, Contact Details & Competitors | LeadIQ",
+          "link": "https://leadiq.com/c/tugboat-inc/5a1dde932300005400eeef04",
+          "snippet": "Learn more about Tugboat, Inc.'s company details, contact information, competitors, and more. Find accurate contact data easily with LeadIQ. Book a demo today.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat Company Profile | Management and Employees List",
+          "link": "https://www.datanyze.com/companies/tugboat/371766619",
+          "snippet": "Find contact information for Tugboat. Learn about their Consumer Services market share, competitors, and Tugboat's email format.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat: Employee Directory | ZoomInfo.com",
+          "link": "https://www.zoominfo.com/pic/tugboat/371766619",
+          "snippet": "Tugboat Employee Directory Tugboat corporate office is located in 77 Bleecker St, New York City, New York, 10012, United States and has 8 employees.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat: Employee Directory | ZoomInfo.com",
+          "link": "https://www.zoominfo.com/pic/tugboat-inc/90832927",
+          "snippet": "Tugboat Employee Directory Tugboat corporate office is located in 398 Devlin Rd, Napa, California, 94558, United States and has 14 employees.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat Headquarters and Office Locations - Craft.co",
+          "link": "https://craft.co/tugboat-c4ce5effec/locations",
+          "snippet": "Tugboat Corporate Headquarters, Office Locations and Addresses | Craft.co Header placeholder lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat Inc Overview - Salary.com",
+          "link": "https://www.salary.com/research/company/tugboat-inc-overview",
+          "snippet": "Discover essential details about Tugboat Inc, including address, contact, and journey of our company's evolution.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Advertising - TUGboat - TeX Users Group",
+          "link": "https://tug.org/TUGboat/advertising.html",
+          "snippet": "Distribution: TUGboat is a major benefit of membership in the TeX Users Group (currently around 1,000 physical copies worldwide and an unknown electronic distribution).Procedure: Email electronic file",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat - All boating and marine industry manufacturers - NauticExpo",
+          "link": "https://www.nauticexpo.com/boat-manufacturer/tugboat-35613.html",
+          "snippet": "Independence, is in build for Boston Towing and Transportation, a Reinauer Company. Upon delivery the offshore support vessel will be based in Gloucester, ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat, Inc. Information - RocketReach",
+          "link": "https://rocketreach.co/tugboat-inc-profile_b4629378fc5d8bbe",
+          "snippet": "Employees, 17 (15 on RocketReach) ; Founded, 1992 ; Address, 398 Devlin Rd, Napa, California 94558, US ; Phone, +1 707-252-3536 ; Technologies. JavaScript , HTML , ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Trabzon Shipyard \u2013 Trabzon Shipyard",
+          "link": "https://trabzonshipyard.com/",
+          "snippet": "FACILITY MAINTENANCE Trabzon Shipyard is equipped to maintain and repair a wide range of sea vessels, including dry cargo ships, liquid cargo carriers, chemical tankers, offshore vessels, and tugboats",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Tugboat - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Tugboat",
+          "snippet": "Tugboat CSS Teaser is captured by USS Maratanza. Justine McAllister, a tug boat in New York Harbor, January 2008 The tugboats \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboat - Branded Merchandise Solutions | Napa, CA",
+          "link": "https://www.tugboatinc.com/",
+          "snippet": "Tugboat offers customized branded gifts and swag for any occasion. Our mission is to navigate you through the vast waves of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The Ultimate Guide to Tug Boats - Marine Insight",
+          "link": "https://www.marineinsight.com/what-are-tug-boats/",
+          "snippet": "Jan 24, 2024 \u00b7 A tug, or more commonly a tugboat, is an assistance boat which helps in the mooring or berthing operation of a ship \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboat Information",
+          "link": "http://tugboatinformation.com/",
+          "snippet": "WELCOME, TO TUGBOAT INFORMATION.COM. A COLLECTIVE EXCHANGE OF INFORMATION FOR THE HISTORY OF \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboat Institute",
+          "link": "https://www.tugboatinstitute.com/",
+          "snippet": "Jun 16, 2026 \u00b7 Tugboat Institute believes in the vital importance of humans coming together to create and grow enduring, private \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Home Insurance Claim Help & Expert Advocacy | Tugboat Claims",
+          "link": "https://www.tugboat.claims/",
+          "snippet": "Tugboat provides plain-language advice, expert support, and practical help, so you can make confident decisions, protect your home, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboat Fish and Chips - Zmenu",
+          "link": "https://www.zmenu.com/tugboat-fish-and-chips-san-jose-online-menu/",
+          "snippet": "May 5, 2025 \u00b7 3. Tugboat Fish and Chips offers multiple service options, including delivery, takeout, and dine-in, giving you the \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is a Tugboat? Exploring the Tugboat Business of Mitsui O.S.K. ...",
+          "link": "https://www.mol-service.com/blog/mol-tugboat-business-en",
+          "snippet": "21 Apr 2025 ... Nihon Tug-Boat Co., Ltd. engages in tugboat operations for the berthing and unberthing of vessels, escorting large vessels and vessels loaded ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Tugboat Manufacturers in Pune near me - Justdial",
+          "link": "https://www.justdial.com/Pune/Tugboat-Manufacturers/nct-11759493",
+          "snippet": "... Address, Reviews, Photos, Maps , FAQs for ... The landscape of tugboat builders is diverse, comprising both large corporations and specialized companies.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat Info Solutions - Salesforce and Mulesoft Experts",
+          "link": "https://tugboat.in/",
+          "snippet": "Tugboat Info Solutions Tugboat Info Solutions - - CRM & Cloud Solutions A boutique CRM & Custom Cloud solutions firm, delivering value to its Partners at ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat Manufacturers in India - IndiaMART",
+          "link": "https://dir.indiamart.com/impcat/tugboat.html?biz=10",
+          "snippet": "Find here Tugboat manufacturers & OEM manufacturers in India. Get Contact details & address of companies manufacturing and supplying Tugboat across India.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat Information",
+          "link": "https://www.tugboatinformation.com/",
+          "snippet": "... TUGBOATS, TUG COMPANIES AND THEIR OWNERS. Please Select from the alphabet below, the first letter of a Company name and you will be linked to a listing of ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat - Overview, News & Similar companies | ZoomInfo.com",
+          "link": "https://www.zoominfo.com/c/tugboat-inc/90832927",
+          "snippet": "View Company Info for Free. Overview. Headquarters. 398 Devlin Rd, Napa, California, 94558, United States. Phone Number. (707) 252-3536. Website. www.tugboatinc ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat Headquarters and Office Locations - Craft.co",
+          "link": "https://craft.co/tugboatqa/locations",
+          "snippet": "Tugboat Corporate Headquarters, Office Locations and Addresses | Craft.co Tugboat is headquartered in Providence, 11 S Angell St #499, United States, and has 1 office location.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat, Inc. Company Overview, Contact Details & Competitors | LeadIQ",
+          "link": "https://leadiq.com/c/tugboat-inc/5a1dde932300005400eeef04",
+          "snippet": "Learn more about Tugboat, Inc.'s company details, contact information, competitors, and more. Find accurate contact data easily with LeadIQ. Book a demo today.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat Company Profile | Management and Employees List",
+          "link": "https://www.datanyze.com/companies/tugboat/371766619",
+          "snippet": "Find contact information for Tugboat. Learn about their Consumer Services market share, competitors, and Tugboat's email format.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat: Employee Directory | ZoomInfo.com",
+          "link": "https://www.zoominfo.com/pic/tugboat/371766619",
+          "snippet": "Tugboat Employee Directory Tugboat corporate office is located in 77 Bleecker St, New York City, New York, 10012, United States and has 8 employees.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat: Employee Directory | ZoomInfo.com",
+          "link": "https://www.zoominfo.com/pic/tugboat-inc/90832927",
+          "snippet": "Tugboat Employee Directory Tugboat corporate office is located in 398 Devlin Rd, Napa, California, 94558, United States and has 14 employees.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat Headquarters and Office Locations - Craft.co",
+          "link": "https://craft.co/tugboat-c4ce5effec/locations",
+          "snippet": "Tugboat Corporate Headquarters, Office Locations and Addresses | Craft.co Header placeholder lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat Inc Overview - Salary.com",
+          "link": "https://www.salary.com/research/company/tugboat-inc-overview",
+          "snippet": "Discover essential details about Tugboat Inc, including address, contact, and journey of our company's evolution.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Advertising - TUGboat - TeX Users Group",
+          "link": "https://tug.org/TUGboat/advertising.html",
+          "snippet": "Distribution: TUGboat is a major benefit of membership in the TeX Users Group (currently around 1,000 physical copies worldwide and an unknown electronic distribution).Procedure: Email electronic file",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat - All boating and marine industry manufacturers - NauticExpo",
+          "link": "https://www.nauticexpo.com/boat-manufacturer/tugboat-35613.html",
+          "snippet": "Independence, is in build for Boston Towing and Transportation, a Reinauer Company. Upon delivery the offshore support vessel will be based in Gloucester, ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat, Inc. Information - RocketReach",
+          "link": "https://rocketreach.co/tugboat-inc-profile_b4629378fc5d8bbe",
+          "snippet": "Employees, 17 (15 on RocketReach) ; Founded, 1992 ; Address, 398 Devlin Rd, Napa, California 94558, US ; Phone, +1 707-252-3536 ; Technologies. JavaScript , HTML , ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Trabzon Shipyard \u2013 Trabzon Shipyard",
+          "link": "https://trabzonshipyard.com/",
+          "snippet": "FACILITY MAINTENANCE Trabzon Shipyard is equipped to maintain and repair a wide range of sea vessels, including dry cargo ships, liquid cargo carriers, chemical tankers, offshore vessels, and tugboats",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P2": {
+      "query": "tugboat wholesaler official site",
+      "level": "discovery",
+      "result_count": 26,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Tugboat - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Tugboat",
+          "snippet": "Tugboat CSS Teaser is captured by USS Maratanza. Justine McAllister, a tug boat in New York Harbor, January 2008 The tugboats Reid McAllister and McAllister Responder push the LPG tanker BW \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboat - Branded Merchandise Solutions | Napa, CA",
+          "link": "https://www.tugboatinc.com/",
+          "snippet": "Tugboat offers customized branded gifts and swag for any occasion. Our mission is to navigate you through the vast waves of merchandise peril and deliver you to engaging, impactful solutions for your ",
+          "backend": "searxng"
+        },
+        {
+          "title": "The Ultimate Guide to Tug Boats - Marine Insight",
+          "link": "https://www.marineinsight.com/what-are-tug-boats/",
+          "snippet": "Jan 24, 2024 \u00b7 A tug, or more commonly a tugboat, is an assistance boat which helps in the mooring or berthing operation of a ship by either towing or pushing a vessel towards the port. A tug is a par",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboat Information",
+          "link": "http://tugboatinformation.com/",
+          "snippet": "WELCOME, TO TUGBOAT INFORMATION.COM. A COLLECTIVE EXCHANGE OF INFORMATION FOR THE HISTORY OF TUGBOATS, TUG COMPANIES AND THEIR OWNERS. Please Select from \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboat Institute",
+          "link": "https://www.tugboatinstitute.com/",
+          "snippet": "Jun 16, 2026 \u00b7 Tugboat Institute believes in the vital importance of humans coming together to create and grow enduring, private businesses that make a dent in the universe.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Home Insurance Claim Help & Expert Advocacy | Tugboat Claims",
+          "link": "https://www.tugboat.claims/",
+          "snippet": "Tugboat provides plain-language advice, expert support, and practical help, so you can make confident decisions, protect your home, and get the full support your insurance is supposed to provide.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboat Fish and Chips - Zmenu",
+          "link": "https://www.zmenu.com/tugboat-fish-and-chips-san-jose-online-menu/",
+          "snippet": "May 5, 2025 \u00b7 3. Tugboat Fish and Chips offers multiple service options, including delivery, takeout, and dine-in, giving you the flexibility to enjoy their delicious offerings wherever you prefer. 4.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tug boats for sale - YachtWorld",
+          "link": "https://www.yachtworld.com/boats-for-sale/type-power/class-power-tug/",
+          "snippet": "Last month alone, the top 5 brands with the most views for tug boats on YachtWorld were American Tug, Custom, Nordic Tug, Ranger Tugs and Tugboat. Tug boats pricing Tug boats for sale on \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Wholesale Tugboat Malaysia High-Strength Marine... | Alibaba.com",
+          "link": "https://www.alibaba.com/showroom/tugboat-malaysia.html",
+          "snippet": "Discover Malaysia's top-quality tugboats, featuring hydraulic boat lifts and fast loading systems. Prices start from $145850, minimum order of 1 unit. Ideal for wholesale and resale.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat for Sale Online, Wholesale Tugboat Store | Cautop.com",
+          "link": "https://cautop.com/mall/list-144.html",
+          "snippet": "Tugboat for sale on wholesale store Cautop.com. Get quality Tugboat price list from selected Tugboat suppliers & manufacturers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat Wholesale Suppliers, Manufacturers & Distributors",
+          "link": "https://www.go4worldbusiness.com/find?searchText=tugboat&BuyersOrSuppliers=suppliers",
+          "snippet": "Buy premium Tugboat in bulk from verified wholesale suppliers and manufacturers. Best prices, bulk discounts, trusted deals at go4WorldBusiness.com.Find Verified Tugboat Suppliers, Manufacturers and W",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Tugboat - Tugboat Manufacturers, Suppliers - EC21",
+          "link": "https://www.ec21.com/ec-market/tugboat.html",
+          "snippet": "Wholesale Tugboat Find 13 tugboat products from 9 manufacturers & suppliers at EC21. Choose quality tugboat manufacturers, suppliers & exporters now - EC21.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Tugboat Mega Disposable China Manufacturer",
+          "link": "https://www.ousibangvape.com/tugboat/62223379.html",
+          "snippet": "Tugboat Mega 4000puffs Wholesale Welcome to contact me with further cooperation and details on Whatsapp: +86 19195828957 Specifications: Brand Name:Tugboat Mega Flow Capacity: 1000mah Puffs: Up to 400",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "tugboat with - Buy tugboat with with free shipping on AliExpress",
+          "link": "https://www.aliexpress.com/w/wholesale-tugboat-with.html",
+          "snippet": "Besides good quality brands, you\u2019ll also find plenty of discounts when you shop for tugboat with during big sales. Don\u2019t forget one crucial step - filter for items that offer bonus perks like free shi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboats Export Companies List",
+          "link": "https://www.turkishexporter.com.tr/en/companies/tugboats.htm",
+          "snippet": "Tugboats manufacturers, Tugboats export companies list - B2b wholesalers, exporters, suppliers worldwide.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat, Tugboat Suppliers & Tugboat Wholesalers At TradeKey.com",
+          "link": "https://www.tradekey.com/products/tugboat.html",
+          "snippet": "Find Tugboat Manufacturers, Tugboat Suppliers & Wholesalers of Tugboat from China, Hong Kong, USA & Tugboat Products from India at TradeKey.com.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat Mega Flow 4000 Puffs, High Quality Tugboat Mega Flow...",
+          "link": "https://www.bossgoo.com/product-detail/tugboat-mega-flow-4000-puffs-62499801.html",
+          "snippet": "On this official site Yolu could get all flavors Tugboat Mega Flow 4000 Puffs and could get a big discount !Shenzhen, Guangdong, China. Distributor/Wholesaler. Manufacturer. Visit The Store.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "China Big Smoker TUGBOAT Supplier & Factory",
+          "link": "https://global.tsvaping.com/allproduct/big-smoker-tugboat/",
+          "snippet": "Big Smoker TUGBOAT. We are Tugboat Vape distributor and manufacturer in China, welcome to order. Our offers to buy Tugboat disposable vape online for wholesale. In the catalogue you will find all popu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Tugboat Manufacturer and Supplier, Factory | Blongang",
+          "link": "https://www.blongangvape.com/tugboat/",
+          "snippet": "Introducing Tugboat, a premium product brought to you by Shenzhen Blongang Technology Co., Ltd., a leading China supplier and manufacturer. Tugboat is designed to deliver superior performance and reli",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Towboats Or Tugboats Manufacturers and Suppliers in the USA ... - Thomasnet",
+          "link": "https://www.thomasnet.com/suppliers/usa/towboats-or-tugboats-6032007",
+          "snippet": "Marine transportation services including barge charters, tugboat leasing and lump sum cargo movements. Providing inland barges, ocean barges, and project cargo barges. Services available include towin",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Coffee Roaster Chicago | Tugboat Coffee Suppliers",
+          "link": "https://www.tugboatcoffee.com/",
+          "snippet": "At Tugboat Coffee, located in Addison, IL, we take pride in being your local wholesale coffee roaster and supplier. Since 2013, we have been dedicated to delivering exceptional coffee to top food serv",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboats for sale | Commercial Marine Pro",
+          "link": "https://commercialmarinepro.com/product-category/tugboats/",
+          "snippet": "Ready to find the perfect tugboat for your marine project? Partner with Commercial Marine Pro and gain access to our extensive selection of quality tugboats, expert guidance, and personalized service.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Tugboat - Tugboat Manufacturers, Suppliers - EC21",
+          "link": "https://ec21.com/ec-market/tugboat.html",
+          "snippet": "This page is your tugboat one-stop source for the competitive prices and quality from sewing machine suppliers and manufacturers. If you have a difficulty finding a right supplier, post your Buying Le",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Who We Are | Tugboat Inc | Napa",
+          "link": "https://www.tugboatinc.com/who-we-are",
+          "snippet": "We believe we're all in this together. The actions we all take today will make or break a sustainable future. We strive to only sell merchandise with long-lasting value and utility.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale - TugboatJack",
+          "link": "https://tugboatjack.com/pages/wholesale",
+          "snippet": "We manage all of our wholesale orders through Faire. Retailers can shop our current wholesale offerings through the Faire portal.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Svitzer - Svitzer",
+          "link": "https://svitzer.com/",
+          "snippet": "Svitzer is the leading harbour and terminal towage provider. We provide world-class mariners, tugboats and sustainable marine solutions.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Tugboat - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Tugboat",
+          "snippet": "Tugboat CSS Teaser is captured by USS Maratanza. Justine McAllister, a tug boat in New York Harbor, January 2008 The tugboats Reid McAllister and McAllister Responder push the LPG tanker BW \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboat - Branded Merchandise Solutions | Napa, CA",
+          "link": "https://www.tugboatinc.com/",
+          "snippet": "Tugboat offers customized branded gifts and swag for any occasion. Our mission is to navigate you through the vast waves of merchandise peril and deliver you to engaging, impactful solutions for your ",
+          "backend": "searxng"
+        },
+        {
+          "title": "The Ultimate Guide to Tug Boats - Marine Insight",
+          "link": "https://www.marineinsight.com/what-are-tug-boats/",
+          "snippet": "Jan 24, 2024 \u00b7 A tug, or more commonly a tugboat, is an assistance boat which helps in the mooring or berthing operation of a ship by either towing or pushing a vessel towards the port. A tug is a par",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboat Information",
+          "link": "http://tugboatinformation.com/",
+          "snippet": "WELCOME, TO TUGBOAT INFORMATION.COM. A COLLECTIVE EXCHANGE OF INFORMATION FOR THE HISTORY OF TUGBOATS, TUG COMPANIES AND THEIR OWNERS. Please Select from \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboat Institute",
+          "link": "https://www.tugboatinstitute.com/",
+          "snippet": "Jun 16, 2026 \u00b7 Tugboat Institute believes in the vital importance of humans coming together to create and grow enduring, private businesses that make a dent in the universe.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Home Insurance Claim Help & Expert Advocacy | Tugboat Claims",
+          "link": "https://www.tugboat.claims/",
+          "snippet": "Tugboat provides plain-language advice, expert support, and practical help, so you can make confident decisions, protect your home, and get the full support your insurance is supposed to provide.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboat Fish and Chips - Zmenu",
+          "link": "https://www.zmenu.com/tugboat-fish-and-chips-san-jose-online-menu/",
+          "snippet": "May 5, 2025 \u00b7 3. Tugboat Fish and Chips offers multiple service options, including delivery, takeout, and dine-in, giving you the flexibility to enjoy their delicious offerings wherever you prefer. 4.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tug boats for sale - YachtWorld",
+          "link": "https://www.yachtworld.com/boats-for-sale/type-power/class-power-tug/",
+          "snippet": "Last month alone, the top 5 brands with the most views for tug boats on YachtWorld were American Tug, Custom, Nordic Tug, Ranger Tugs and Tugboat. Tug boats pricing Tug boats for sale on \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Wholesale Tugboat Malaysia High-Strength Marine... | Alibaba.com",
+          "link": "https://www.alibaba.com/showroom/tugboat-malaysia.html",
+          "snippet": "Discover Malaysia's top-quality tugboats, featuring hydraulic boat lifts and fast loading systems. Prices start from $145850, minimum order of 1 unit. Ideal for wholesale and resale.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat for Sale Online, Wholesale Tugboat Store | Cautop.com",
+          "link": "https://cautop.com/mall/list-144.html",
+          "snippet": "Tugboat for sale on wholesale store Cautop.com. Get quality Tugboat price list from selected Tugboat suppliers & manufacturers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat Wholesale Suppliers, Manufacturers & Distributors",
+          "link": "https://www.go4worldbusiness.com/find?searchText=tugboat&BuyersOrSuppliers=suppliers",
+          "snippet": "Buy premium Tugboat in bulk from verified wholesale suppliers and manufacturers. Best prices, bulk discounts, trusted deals at go4WorldBusiness.com.Find Verified Tugboat Suppliers, Manufacturers and W",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Tugboat - Tugboat Manufacturers, Suppliers - EC21",
+          "link": "https://www.ec21.com/ec-market/tugboat.html",
+          "snippet": "Wholesale Tugboat Find 13 tugboat products from 9 manufacturers & suppliers at EC21. Choose quality tugboat manufacturers, suppliers & exporters now - EC21.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Tugboat Mega Disposable China Manufacturer",
+          "link": "https://www.ousibangvape.com/tugboat/62223379.html",
+          "snippet": "Tugboat Mega 4000puffs Wholesale Welcome to contact me with further cooperation and details on Whatsapp: +86 19195828957 Specifications: Brand Name:Tugboat Mega Flow Capacity: 1000mah Puffs: Up to 400",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "tugboat with - Buy tugboat with with free shipping on AliExpress",
+          "link": "https://www.aliexpress.com/w/wholesale-tugboat-with.html",
+          "snippet": "Besides good quality brands, you\u2019ll also find plenty of discounts when you shop for tugboat with during big sales. Don\u2019t forget one crucial step - filter for items that offer bonus perks like free shi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboats Export Companies List",
+          "link": "https://www.turkishexporter.com.tr/en/companies/tugboats.htm",
+          "snippet": "Tugboats manufacturers, Tugboats export companies list - B2b wholesalers, exporters, suppliers worldwide.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat, Tugboat Suppliers & Tugboat Wholesalers At TradeKey.com",
+          "link": "https://www.tradekey.com/products/tugboat.html",
+          "snippet": "Find Tugboat Manufacturers, Tugboat Suppliers & Wholesalers of Tugboat from China, Hong Kong, USA & Tugboat Products from India at TradeKey.com.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat Mega Flow 4000 Puffs, High Quality Tugboat Mega Flow...",
+          "link": "https://www.bossgoo.com/product-detail/tugboat-mega-flow-4000-puffs-62499801.html",
+          "snippet": "On this official site Yolu could get all flavors Tugboat Mega Flow 4000 Puffs and could get a big discount !Shenzhen, Guangdong, China. Distributor/Wholesaler. Manufacturer. Visit The Store.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "China Big Smoker TUGBOAT Supplier & Factory",
+          "link": "https://global.tsvaping.com/allproduct/big-smoker-tugboat/",
+          "snippet": "Big Smoker TUGBOAT. We are Tugboat Vape distributor and manufacturer in China, welcome to order. Our offers to buy Tugboat disposable vape online for wholesale. In the catalogue you will find all popu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Tugboat Manufacturer and Supplier, Factory | Blongang",
+          "link": "https://www.blongangvape.com/tugboat/",
+          "snippet": "Introducing Tugboat, a premium product brought to you by Shenzhen Blongang Technology Co., Ltd., a leading China supplier and manufacturer. Tugboat is designed to deliver superior performance and reli",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Towboats Or Tugboats Manufacturers and Suppliers in the USA ... - Thomasnet",
+          "link": "https://www.thomasnet.com/suppliers/usa/towboats-or-tugboats-6032007",
+          "snippet": "Marine transportation services including barge charters, tugboat leasing and lump sum cargo movements. Providing inland barges, ocean barges, and project cargo barges. Services available include towin",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Coffee Roaster Chicago | Tugboat Coffee Suppliers",
+          "link": "https://www.tugboatcoffee.com/",
+          "snippet": "At Tugboat Coffee, located in Addison, IL, we take pride in being your local wholesale coffee roaster and supplier. Since 2013, we have been dedicated to delivering exceptional coffee to top food serv",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboats for sale | Commercial Marine Pro",
+          "link": "https://commercialmarinepro.com/product-category/tugboats/",
+          "snippet": "Ready to find the perfect tugboat for your marine project? Partner with Commercial Marine Pro and gain access to our extensive selection of quality tugboats, expert guidance, and personalized service.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Tugboat - Tugboat Manufacturers, Suppliers - EC21",
+          "link": "https://ec21.com/ec-market/tugboat.html",
+          "snippet": "This page is your tugboat one-stop source for the competitive prices and quality from sewing machine suppliers and manufacturers. If you have a difficulty finding a right supplier, post your Buying Le",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Who We Are | Tugboat Inc | Napa",
+          "link": "https://www.tugboatinc.com/who-we-are",
+          "snippet": "We believe we're all in this together. The actions we all take today will make or break a sustainable future. We strive to only sell merchandise with long-lasting value and utility.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale - TugboatJack",
+          "link": "https://tugboatjack.com/pages/wholesale",
+          "snippet": "We manage all of our wholesale orders through Faire. Retailers can shop our current wholesale offerings through the Faire portal.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Svitzer - Svitzer",
+          "link": "https://svitzer.com/",
+          "snippet": "Svitzer is the leading harbour and terminal towage provider. We provide world-class mariners, tugboats and sustainable marine solutions.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P3": {
+      "query": "tugboat reseller companies official website",
+      "level": "discovery",
+      "result_count": 16,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Tugboat - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Tugboat",
+          "snippet": "A tugboat or tug is a marine vessel that manoeuvres other vessels by pushing or pulling them, with direct contact or a tow line.",
+          "backend": "searxng"
+        },
+        {
+          "title": "The Ultimate Guide to Tug Boats - Marine Insight",
+          "link": "https://www.marineinsight.com/what-are-tug-boats/",
+          "snippet": "Jan 24, 2024 \u00b7 A tug, or more commonly a tugboat, is an assistance boat which helps in the mooring or berthing operation of a ship by either towing or pushing a vessel towards the port.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Everything You Need to Know About Tugboats, Types and Uses",
+          "link": "https://dexteroffshore.com/what-are-tugboats/",
+          "snippet": "Oct 25, 2022 \u00b7 Tugboats are an indispensable part of the global shipping industry, facilitating the safe passage of large ships through narrow channels, busy stretches, and shallow water, as well as \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboats: The Unsung Heroes Of The Shipping Industry",
+          "link": "https://maritimepage.com/tugboats-heroes-of-the-shipping-industry/",
+          "snippet": "Apr 28, 2026 \u00b7 Tugboats are a type of vessel that is primarily used for towing other ships and barges. They are commonly found in harbors, ports, and other waterways where large ships need assistance ",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboats: Types, Roles, and Importance in Port Operations",
+          "link": "https://www.marinepublic.com/blogs/offshore/314519-tugboats-types-roles-and-importance-in-port-operations",
+          "snippet": "Tugboats are the unsung heroes of the maritime industry - powerful, highly maneuverable vessels that play a crucial role in port operations worldwide. Despite their relatively small size, these mariti",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tug Boat: What Do Tugboats Do? How Do Tugboats Work? - Science \u2026",
+          "link": "https://www.scienceabc.com/innovation/what-are-tugboats-and-how-do-they-work",
+          "snippet": "Apr 9, 2021 \u00b7 A tugboat is a small but powerful vessel with a high-thrust engine and an extremely maneuverable propeller system, used to pull or push large ships into and out of ports, harbors and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Types of Tug boat | A Comprehensive Guide - Merchant Navy Decoded",
+          "link": "https://www.merchantnavydecoded.com/tug-boats-types-of-tug-boats/",
+          "snippet": "Sep 21, 2023 \u00b7 In this article, we will delve into the world of tugboats, uncovering their fascinating history, functions, and the various types that exist, while also highlighting their significance ",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboat",
+          "link": "https://www.tugboat.ch/",
+          "snippet": "Tugboat offers investment opportunities in high potential start-up companies, providing individuals unique access to high-risk/high-return investments.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat Information",
+          "link": "https://www.tugboatinformation.com/",
+          "snippet": "A COLLECTIVE EXCHANGE OF INFORMATION FOR THE HISTORY OF TUGBOATS, TUG COMPANIES AND THEIR OWNERS. ... TugboatInformation.com. Website developed by: The TBI Group ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Tugboat Group - An Alternative Path to Growing Lasting, Private ...",
+          "link": "https://www.thetugboatgroup.com/",
+          "snippet": "The Tugboat Group believes in the importance of humans coming together to create enduring businesses that make a dent in the universe.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboats -Your one-stop-shop for tugs equipment",
+          "link": "https://www.dmt-winches.com/tugboats/",
+          "snippet": "... services tailored for the efficient ... Choosing DMT means accessing more than exceptional tugboats equipment; it's about securing a strategic partner.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Growth-focused marketing + operations | Tugboat: Your New ...",
+          "link": "https://tugboat.biz/",
+          "snippet": "Marketing partner for growth-stage consumer companies. Tugboat bridges the gap between strategy and execution with brand strategy, GTM strategy, Marketing, ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat: a working website for every pull request.",
+          "link": "https://www.tugboatqa.com/",
+          "snippet": "Complex deployments used to require an entire DevOps team. Welcome to declarative infrastructure and services for just about every frontend and backend ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat Group | Brand Design and Web Development for growing ...",
+          "link": "https://tugboatgroup.com/",
+          "snippet": "Authentic brands, engaging creative and deep web experiences that advance small businesses.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat Ventures",
+          "link": "https://tugboatventures.com/",
+          "snippet": "Our entrepreneurs are purpose-driven leaders with the grit and resourcefulness to build & scale profitable, private businesses that endure for generations.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat - Branded Merchandise Solutions | Napa, CA",
+          "link": "https://www.tugboatinc.com/",
+          "snippet": "... company's business. ... We use cookies and similar technologies to enable services and functionality on our site and to understand your interaction with our ...",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Tugboat - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Tugboat",
+          "snippet": "A tugboat or tug is a marine vessel that manoeuvres other vessels by pushing or pulling them, with direct contact or a tow line.",
+          "backend": "searxng"
+        },
+        {
+          "title": "The Ultimate Guide to Tug Boats - Marine Insight",
+          "link": "https://www.marineinsight.com/what-are-tug-boats/",
+          "snippet": "Jan 24, 2024 \u00b7 A tug, or more commonly a tugboat, is an assistance boat which helps in the mooring or berthing operation of a ship by either towing or pushing a vessel towards the port.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Everything You Need to Know About Tugboats, Types and Uses",
+          "link": "https://dexteroffshore.com/what-are-tugboats/",
+          "snippet": "Oct 25, 2022 \u00b7 Tugboats are an indispensable part of the global shipping industry, facilitating the safe passage of large ships through narrow channels, busy stretches, and shallow water, as well as \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboats: The Unsung Heroes Of The Shipping Industry",
+          "link": "https://maritimepage.com/tugboats-heroes-of-the-shipping-industry/",
+          "snippet": "Apr 28, 2026 \u00b7 Tugboats are a type of vessel that is primarily used for towing other ships and barges. They are commonly found in harbors, ports, and other waterways where large ships need assistance ",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboats: Types, Roles, and Importance in Port Operations",
+          "link": "https://www.marinepublic.com/blogs/offshore/314519-tugboats-types-roles-and-importance-in-port-operations",
+          "snippet": "Tugboats are the unsung heroes of the maritime industry - powerful, highly maneuverable vessels that play a crucial role in port operations worldwide. Despite their relatively small size, these mariti",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tug Boat: What Do Tugboats Do? How Do Tugboats Work? - Science \u2026",
+          "link": "https://www.scienceabc.com/innovation/what-are-tugboats-and-how-do-they-work",
+          "snippet": "Apr 9, 2021 \u00b7 A tugboat is a small but powerful vessel with a high-thrust engine and an extremely maneuverable propeller system, used to pull or push large ships into and out of ports, harbors and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Types of Tug boat | A Comprehensive Guide - Merchant Navy Decoded",
+          "link": "https://www.merchantnavydecoded.com/tug-boats-types-of-tug-boats/",
+          "snippet": "Sep 21, 2023 \u00b7 In this article, we will delve into the world of tugboats, uncovering their fascinating history, functions, and the various types that exist, while also highlighting their significance ",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboat",
+          "link": "https://www.tugboat.ch/",
+          "snippet": "Tugboat offers investment opportunities in high potential start-up companies, providing individuals unique access to high-risk/high-return investments.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat Information",
+          "link": "https://www.tugboatinformation.com/",
+          "snippet": "A COLLECTIVE EXCHANGE OF INFORMATION FOR THE HISTORY OF TUGBOATS, TUG COMPANIES AND THEIR OWNERS. ... TugboatInformation.com. Website developed by: The TBI Group ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Tugboat Group - An Alternative Path to Growing Lasting, Private ...",
+          "link": "https://www.thetugboatgroup.com/",
+          "snippet": "The Tugboat Group believes in the importance of humans coming together to create enduring businesses that make a dent in the universe.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboats -Your one-stop-shop for tugs equipment",
+          "link": "https://www.dmt-winches.com/tugboats/",
+          "snippet": "... services tailored for the efficient ... Choosing DMT means accessing more than exceptional tugboats equipment; it's about securing a strategic partner.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Growth-focused marketing + operations | Tugboat: Your New ...",
+          "link": "https://tugboat.biz/",
+          "snippet": "Marketing partner for growth-stage consumer companies. Tugboat bridges the gap between strategy and execution with brand strategy, GTM strategy, Marketing, ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat: a working website for every pull request.",
+          "link": "https://www.tugboatqa.com/",
+          "snippet": "Complex deployments used to require an entire DevOps team. Welcome to declarative infrastructure and services for just about every frontend and backend ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat Group | Brand Design and Web Development for growing ...",
+          "link": "https://tugboatgroup.com/",
+          "snippet": "Authentic brands, engaging creative and deep web experiences that advance small businesses.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat Ventures",
+          "link": "https://tugboatventures.com/",
+          "snippet": "Our entrepreneurs are purpose-driven leaders with the grit and resourcefulness to build & scale profitable, private businesses that endure for generations.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat - Branded Merchandise Solutions | Napa, CA",
+          "link": "https://www.tugboatinc.com/",
+          "snippet": "... company's business. ... We use cookies and similar technologies to enable services and functionality on our site and to understand your interaction with our ...",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P4": {
+      "query": "tugboat system integrators corporate site",
+      "level": "discovery",
+      "result_count": 20,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Tugboat - Wikipedia",
+          "link": "https://en.m.wikipedia.org/wiki/TUGboat",
+          "snippet": "Tugboat CSS Teaser is captured by USS Maratanza. Justine McAllister, a tug boat in New York Harbor, January 2008 The tugboats Reid McAllister and McAllister Responder push the LPG tanker BW Volans int",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "TUGBOAT FISH AND CHIPS - Updated July 2026 - Yelp",
+          "link": "https://www.yelp.com/biz/tugboat-fish-and-chips-san-jose",
+          "snippet": "There's one Tugboat in the Concord area but this one is really good.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Harbour Tugboats: What They Do, How They're Designed (2026)",
+          "link": "https://sym-naval.com/blog/harbour-tugs/",
+          "snippet": "Harbour tugboats: what they are, key manoeuvring roles and design essentials\u2014power, stability and manoeuvrability\u2014for safe port operations.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "TUGBOAT FISH & CHIPS - Updated July 2026 - Yelp",
+          "link": "https://www.yelp.com/biz/tugboat-fish-and-chips-rancho-cordova",
+          "snippet": "Yelp users haven\u2019t asked any questions yet about Tugboat Fish & Chips.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Everything You Need to Know About Tugboats, Types and Uses",
+          "link": "https://dexteroffshore.com/what-are-tugboats/",
+          "snippet": "Oct 25, 2022 \u00b7 TUG BOATS are small but POWERFULL ships that assist other vessels in and out of port. Click to Learn more about tugboats.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat Physics: How 300 Tons Controls 200,000 Tons - SEAMEN",
+          "link": "https://seamen.es/tugboat-physics-how-300-tons-controls-200000-tons/",
+          "snippet": "The Challenge of Inertia: Why Big Ships Can\u2019t Stop on a Dime. A high-detail, photorealistic illustration of a modern tugboat equipped with a Voith Schneider Propeller (VSP) system, showcasing the vert",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat Info Solutions - Salesforce and Mulesoft Experts",
+          "link": "https://tugboat.in/",
+          "snippet": "Tugboat Info Solutions Tugboat Info Solutions - - CRM & Cloud Solutions A boutique CRM & Custom Cloud solutions firm, delivering value to its Partners at ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat: a working website for every pull request.",
+          "link": "https://www.tugboatqa.com/",
+          "snippet": "Why Tugboat? Versatile, scalable infrastructure options to supercharge your team's abilties. Deploy previews for every pull ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Optimize tugboat operations - Spinergie",
+          "link": "https://www.spinergie.com/tug",
+          "snippet": "Increase tugboat fleet utilization and minimize operating costs through real-time visibility, optimized reporting, and powerful operations analysis.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Partner Spotlight: Tugboat Logic - Cobalt",
+          "link": "https://www.cobalt.io/blog/partner-spotlight-tugboat-logic",
+          "snippet": "2 Feb 2022 ... Fun fact: Tugboat Logic was the first security assurance platform to utilize Cobalt's API! Furthermore, we built an integration between Tugboat ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat - LinkedIn",
+          "link": "https://www.linkedin.com/company/tugboat",
+          "snippet": "21 Oct 2020 ... Tugboat is the fastest platform to automate creation of preview and test environments for any code push. Our clients include web dev agencies ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat Operational Efficiency & Performance",
+          "link": "https://ascenzmarorka.com/tugboat-fleet-efficiency-solutions/",
+          "snippet": "Ascenz Marorka's solutions are designed for seamless integration with existing tugboat operations. Our digital systems provide centralized dashboards for ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat Group | Brand Design and Web Development for growing ...",
+          "link": "https://tugboatgroup.com/",
+          "snippet": "Authentic brands, engaging creative and deep web experiences that advance small businesses.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Ultimate Guide to Tug Boats - Marine Insight",
+          "link": "https://www.marineinsight.com/what-are-tug-boats/",
+          "snippet": "Jan 24, 2024 \u00b7 A tug, or more commonly a tugboat, is an assistance boat which helps in the mooring or berthing operation of a ship by either towing or pushing a vessel towards the port. A tug is a par",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tug boats for sale - YachtWorld",
+          "link": "https://www.yachtworld.com/boats-for-sale/type-power/class-power-tug/",
+          "snippet": "Last month alone, the top 5 brands with the most views for tug boats on YachtWorld were American Tug, Custom, Nordic Tug, Ranger Tugs and Tugboat. Tug boats pricing Tug boats for sale on YachtWorld ar",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - Baudouin",
+          "link": "https://baudouin.com/",
+          "snippet": "New Energy Solutions. A complete hybrid system supplier. Baudouin SCR Solutions. Hydrotreated Vegetable Oil (HVO Diesel).We design high-performance engines tailored for the demanding operations of tug",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Shipyard: Learn About the Workshop Where Ships Are... | Wilson Sons",
+          "link": "https://wilsonsons.com.br/en/blog/shipyard-learn-about-the-workshop-where-ships-are-repaired/",
+          "snippet": "You must use an up-to-date browser for the correct experience on the site. Below are suggestions for using the main browsersWilson Sons operates a tugboat system and works in 30 ports and terminals ac",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tug Boat Propulsion | Precision & Reliability",
+          "link": "https://www.bergpropulsion.com/tug-boat/",
+          "snippet": "Tugboat Propulsion Solutions. Power and agility. Where every manoeuvre ... Integration of propulsion systems to ensure maximum efficiency and responsiveness ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "ABB solutions for Tugs - Short distance shipping Marine & Ports - ABB",
+          "link": "https://new.abb.com/marine/vessel-segments/short-distance-shipping/tug",
+          "snippet": "ABB to power Japan's first electric tugboat for efficient and sustainable operations. The newbuild tug will feature ABB's award-winning power system platform ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "ZEETUG: HOME",
+          "link": "https://www.zeetug.com/",
+          "snippet": "With the aid of the modular system ZEETUG can be custom build from 5T BP up to 80T BP. ZEETUG is also a smart harbor tugboat; a power efficient electric tugboat ...",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Tugboat - Wikipedia",
+          "link": "https://en.m.wikipedia.org/wiki/TUGboat",
+          "snippet": "Tugboat CSS Teaser is captured by USS Maratanza. Justine McAllister, a tug boat in New York Harbor, January 2008 The tugboats Reid McAllister and McAllister Responder push the LPG tanker BW Volans int",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "TUGBOAT FISH AND CHIPS - Updated July 2026 - Yelp",
+          "link": "https://www.yelp.com/biz/tugboat-fish-and-chips-san-jose",
+          "snippet": "There's one Tugboat in the Concord area but this one is really good.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Harbour Tugboats: What They Do, How They're Designed (2026)",
+          "link": "https://sym-naval.com/blog/harbour-tugs/",
+          "snippet": "Harbour tugboats: what they are, key manoeuvring roles and design essentials\u2014power, stability and manoeuvrability\u2014for safe port operations.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "TUGBOAT FISH & CHIPS - Updated July 2026 - Yelp",
+          "link": "https://www.yelp.com/biz/tugboat-fish-and-chips-rancho-cordova",
+          "snippet": "Yelp users haven\u2019t asked any questions yet about Tugboat Fish & Chips.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Everything You Need to Know About Tugboats, Types and Uses",
+          "link": "https://dexteroffshore.com/what-are-tugboats/",
+          "snippet": "Oct 25, 2022 \u00b7 TUG BOATS are small but POWERFULL ships that assist other vessels in and out of port. Click to Learn more about tugboats.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat Physics: How 300 Tons Controls 200,000 Tons - SEAMEN",
+          "link": "https://seamen.es/tugboat-physics-how-300-tons-controls-200000-tons/",
+          "snippet": "The Challenge of Inertia: Why Big Ships Can\u2019t Stop on a Dime. A high-detail, photorealistic illustration of a modern tugboat equipped with a Voith Schneider Propeller (VSP) system, showcasing the vert",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat Info Solutions - Salesforce and Mulesoft Experts",
+          "link": "https://tugboat.in/",
+          "snippet": "Tugboat Info Solutions Tugboat Info Solutions - - CRM & Cloud Solutions A boutique CRM & Custom Cloud solutions firm, delivering value to its Partners at ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat: a working website for every pull request.",
+          "link": "https://www.tugboatqa.com/",
+          "snippet": "Why Tugboat? Versatile, scalable infrastructure options to supercharge your team's abilties. Deploy previews for every pull ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Optimize tugboat operations - Spinergie",
+          "link": "https://www.spinergie.com/tug",
+          "snippet": "Increase tugboat fleet utilization and minimize operating costs through real-time visibility, optimized reporting, and powerful operations analysis.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Partner Spotlight: Tugboat Logic - Cobalt",
+          "link": "https://www.cobalt.io/blog/partner-spotlight-tugboat-logic",
+          "snippet": "2 Feb 2022 ... Fun fact: Tugboat Logic was the first security assurance platform to utilize Cobalt's API! Furthermore, we built an integration between Tugboat ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat - LinkedIn",
+          "link": "https://www.linkedin.com/company/tugboat",
+          "snippet": "21 Oct 2020 ... Tugboat is the fastest platform to automate creation of preview and test environments for any code push. Our clients include web dev agencies ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat Operational Efficiency & Performance",
+          "link": "https://ascenzmarorka.com/tugboat-fleet-efficiency-solutions/",
+          "snippet": "Ascenz Marorka's solutions are designed for seamless integration with existing tugboat operations. Our digital systems provide centralized dashboards for ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat Group | Brand Design and Web Development for growing ...",
+          "link": "https://tugboatgroup.com/",
+          "snippet": "Authentic brands, engaging creative and deep web experiences that advance small businesses.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Ultimate Guide to Tug Boats - Marine Insight",
+          "link": "https://www.marineinsight.com/what-are-tug-boats/",
+          "snippet": "Jan 24, 2024 \u00b7 A tug, or more commonly a tugboat, is an assistance boat which helps in the mooring or berthing operation of a ship by either towing or pushing a vessel towards the port. A tug is a par",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tug boats for sale - YachtWorld",
+          "link": "https://www.yachtworld.com/boats-for-sale/type-power/class-power-tug/",
+          "snippet": "Last month alone, the top 5 brands with the most views for tug boats on YachtWorld were American Tug, Custom, Nordic Tug, Ranger Tugs and Tugboat. Tug boats pricing Tug boats for sale on YachtWorld ar",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - Baudouin",
+          "link": "https://baudouin.com/",
+          "snippet": "New Energy Solutions. A complete hybrid system supplier. Baudouin SCR Solutions. Hydrotreated Vegetable Oil (HVO Diesel).We design high-performance engines tailored for the demanding operations of tug",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Shipyard: Learn About the Workshop Where Ships Are... | Wilson Sons",
+          "link": "https://wilsonsons.com.br/en/blog/shipyard-learn-about-the-workshop-where-ships-are-repaired/",
+          "snippet": "You must use an up-to-date browser for the correct experience on the site. Below are suggestions for using the main browsersWilson Sons operates a tugboat system and works in 30 ports and terminals ac",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tug Boat Propulsion | Precision & Reliability",
+          "link": "https://www.bergpropulsion.com/tug-boat/",
+          "snippet": "Tugboat Propulsion Solutions. Power and agility. Where every manoeuvre ... Integration of propulsion systems to ensure maximum efficiency and responsiveness ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "ABB solutions for Tugs - Short distance shipping Marine & Ports - ABB",
+          "link": "https://new.abb.com/marine/vessel-segments/short-distance-shipping/tug",
+          "snippet": "ABB to power Japan's first electric tugboat for efficient and sustainable operations. The newbuild tug will feature ABB's award-winning power system platform ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "ZEETUG: HOME",
+          "link": "https://www.zeetug.com/",
+          "snippet": "With the aid of the modular system ZEETUG can be custom build from 5T BP up to 80T BP. ZEETUG is also a smart harbor tugboat; a power efficient electric tugboat ...",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P5": {
+      "query": "tugboat service provider maintenance services",
+      "level": "discovery",
+      "result_count": 19,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Tugboat - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Tugboat",
+          "snippet": "A tugboat or tug is a marine vessel that manoeuvres other vessels by pushing or pulling them, with direct contact or a tow line.",
+          "backend": "searxng"
+        },
+        {
+          "title": "The Ultimate Guide to Tug Boats - Marine Insight",
+          "link": "https://www.marineinsight.com/what-are-tug-boats/",
+          "snippet": "Jan 24, 2024 \u00b7 A tug, or more commonly a tugboat, is an assistance boat which helps in the mooring or berthing operation of a ship by either towing or pushing a vessel towards the port.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Everything You Need to Know About Tugboats, Types and Uses",
+          "link": "https://dexteroffshore.com/what-are-tugboats/",
+          "snippet": "Oct 25, 2022 \u00b7 Tugboats are an indispensable part of the global shipping industry, facilitating the safe passage of large ships through narrow channels, busy stretches, and shallow water, as well as \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboats: The Unsung Heroes Of The Shipping Industry",
+          "link": "https://maritimepage.com/tugboats-heroes-of-the-shipping-industry/",
+          "snippet": "Apr 28, 2026 \u00b7 Tugboats are a type of vessel that is primarily used for towing other ships and barges. They are commonly found in harbors, ports, and other waterways where large ships need assistance ",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboats: Types, Roles, and Importance in Port Operations",
+          "link": "https://www.marinepublic.com/blogs/offshore/314519-tugboats-types-roles-and-importance-in-port-operations",
+          "snippet": "Tugboats are the unsung heroes of the maritime industry - powerful, highly maneuverable vessels that play a crucial role in port operations worldwide. Despite their relatively small size, these mariti",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tug Boat: What Do Tugboats Do? How Do Tugboats Work? - Science \u2026",
+          "link": "https://www.scienceabc.com/innovation/what-are-tugboats-and-how-do-they-work",
+          "snippet": "Apr 9, 2021 \u00b7 A tugboat is a small but powerful vessel with a high-thrust engine and an extremely maneuverable propeller system, used to pull or push large ships into and out of ports, harbors and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Types of Tug boat | A Comprehensive Guide - Merchant Navy Decoded",
+          "link": "https://www.merchantnavydecoded.com/tug-boats-types-of-tug-boats/",
+          "snippet": "Sep 21, 2023 \u00b7 In this article, we will delve into the world of tugboats, uncovering their fascinating history, functions, and the various types that exist, while also highlighting their significance ",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboat Services for Cargo Ships \u2013 B2B Companies... | Europages",
+          "link": "https://www.europages.co.uk/companies/tugboat-services-for-cargo-ships.html",
+          "snippet": "Service provider. Trailers on transatlantic trips, towing ships, tugboats for barges, platforms, pontoons, floating cranes, etc. with their ocean-going tugs. Watering points. Special services.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboats Services Market Growth Analysis - Size and... | Technavio",
+          "link": "https://www.technavio.com/report/tugboats-services-market-industry-analysis?trk=article-ssr-frontend-pulse_little-text-block",
+          "snippet": "The tugboats services industry research report provides comprehensive data (region-wise segment analysis), with forecasts and estimates in \"USD million\" for the period 2025-2029, as well as historical",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Towing and Tugboat Services | United States - Manta.com",
+          "link": "https://www.manta.com/mb_34_B51EC_000/towing_and_tugboat_services",
+          "snippet": "Categorized under Towing and tugboat service, nec. Local and owner operated, Falcon Towing & Recovery is Huffman's premier wrecker service. Offering towing, lockouts, tire changes and off-road recover",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 100 Towboat Or Tugboat Manufacturers in 2026 | ensun",
+          "link": "https://ensun.io/search/towboat-or-tugboat",
+          "snippet": "Service. Marine Transportation and Tugboat Services | Moran Towing.Towboats and tugboats serve distinct roles in maritime operations, primarily differentiated by their design and function. Towboats ar",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Marine Suppliers called Towing & Tugboat Services | ShipServ",
+          "link": "https://cdn1.shipserv.com/category/towing-tugboat-services/362",
+          "snippet": "Marine suppliers of Towing & Tugboat Services. Donovan Marine, Inc.Specialises in: Agency Services, Chandlery, Provisions, Ship Spare Parts and Technical Stores. 2 Countries. 60 ports globally. View S",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Pacific Tugboat Service Projects - Pacific Maritime Group, Inc",
+          "link": "https://www.pacificmaritimegroup.com/pacific-tugboat-service/",
+          "snippet": "Pacific Tugboat Service Projects Explore Pacific Tugboat Service's premier projects, showcasing reliable tugboat solutions for docking, towing, offshore support, and maritime logistics.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "PT Duta Marine \u2013 To be a Reliable Marine Service Company Worldwide",
+          "link": "https://www.ptdutamarine.co.id/",
+          "snippet": "PT Duta Marine provide integrated full services operation and maintenance of FSO, FPSO, FPU, MOPU, FSRU, LNG Carrier, AHTS, Tugboat for offshore and Oil and Gas industries.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat Service Market Size, Market Dynamics & Forecast",
+          "link": "https://www.verifiedmarketreports.com/product/tugboat-service-market/",
+          "snippet": "The Tugboat Service Market is a vital segment of the maritime industry, providing essential support for the navigation and maneuvering of larger vessels in various waterways.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Orava Nigeria Limited \u2013 Marine Logistics Service Providers, Focus on...",
+          "link": "https://oravanigeria.com/",
+          "snippet": "Tug / Boats Services. \u201cWe provide professional services covering the full spectrum of tugboat operations in Nigeria. Our tugboats are maintained to the highest standards and undergo annual inspections",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Offshore Tugboat Services Market Size, Status and Prospects 2030",
+          "link": "https://www.forinsightsconsultancy.com/reports/offshore-tugboat-services-market/",
+          "snippet": "Offshore Tugboat Services Market is set to grow from USD 3.4 Billion in 2023 to USD 6.1 Billion by 2030 |Report by FIC.The Offshore Tugboat Services Market report provides information about the market",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat Services Market by Service Type, Vessel Class, Propulsion...",
+          "link": "https://www.giiresearch.com/report/ires1809796-tugboat-services-market-by-service-type-vessel.html",
+          "snippet": "The Tugboat Services Market was valued at USD 3.15 billion in 2024 and is projected to grow to USD 3.28 billion in 2025, with a CAGR of 4.27%, reaching USD 4.06 billion by 2030. Key market statistics.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nortrans - Ship Agents | MagicPort",
+          "link": "https://magicport.ai/ship-agents/singapore/nortrans",
+          "snippet": "Repair & Maintenance Services. Pilotage & Tugboat Services. Provisions and Supplies. Crew Handling. Spare Parts Services. Logistics and Transportation. Waste Management and Environmental Services.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Tugboat - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Tugboat",
+          "snippet": "A tugboat or tug is a marine vessel that manoeuvres other vessels by pushing or pulling them, with direct contact or a tow line.",
+          "backend": "searxng"
+        },
+        {
+          "title": "The Ultimate Guide to Tug Boats - Marine Insight",
+          "link": "https://www.marineinsight.com/what-are-tug-boats/",
+          "snippet": "Jan 24, 2024 \u00b7 A tug, or more commonly a tugboat, is an assistance boat which helps in the mooring or berthing operation of a ship by either towing or pushing a vessel towards the port.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Everything You Need to Know About Tugboats, Types and Uses",
+          "link": "https://dexteroffshore.com/what-are-tugboats/",
+          "snippet": "Oct 25, 2022 \u00b7 Tugboats are an indispensable part of the global shipping industry, facilitating the safe passage of large ships through narrow channels, busy stretches, and shallow water, as well as \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboats: The Unsung Heroes Of The Shipping Industry",
+          "link": "https://maritimepage.com/tugboats-heroes-of-the-shipping-industry/",
+          "snippet": "Apr 28, 2026 \u00b7 Tugboats are a type of vessel that is primarily used for towing other ships and barges. They are commonly found in harbors, ports, and other waterways where large ships need assistance ",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboats: Types, Roles, and Importance in Port Operations",
+          "link": "https://www.marinepublic.com/blogs/offshore/314519-tugboats-types-roles-and-importance-in-port-operations",
+          "snippet": "Tugboats are the unsung heroes of the maritime industry - powerful, highly maneuverable vessels that play a crucial role in port operations worldwide. Despite their relatively small size, these mariti",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tug Boat: What Do Tugboats Do? How Do Tugboats Work? - Science \u2026",
+          "link": "https://www.scienceabc.com/innovation/what-are-tugboats-and-how-do-they-work",
+          "snippet": "Apr 9, 2021 \u00b7 A tugboat is a small but powerful vessel with a high-thrust engine and an extremely maneuverable propeller system, used to pull or push large ships into and out of ports, harbors and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Types of Tug boat | A Comprehensive Guide - Merchant Navy Decoded",
+          "link": "https://www.merchantnavydecoded.com/tug-boats-types-of-tug-boats/",
+          "snippet": "Sep 21, 2023 \u00b7 In this article, we will delve into the world of tugboats, uncovering their fascinating history, functions, and the various types that exist, while also highlighting their significance ",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboat Services for Cargo Ships \u2013 B2B Companies... | Europages",
+          "link": "https://www.europages.co.uk/companies/tugboat-services-for-cargo-ships.html",
+          "snippet": "Service provider. Trailers on transatlantic trips, towing ships, tugboats for barges, platforms, pontoons, floating cranes, etc. with their ocean-going tugs. Watering points. Special services.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboats Services Market Growth Analysis - Size and... | Technavio",
+          "link": "https://www.technavio.com/report/tugboats-services-market-industry-analysis?trk=article-ssr-frontend-pulse_little-text-block",
+          "snippet": "The tugboats services industry research report provides comprehensive data (region-wise segment analysis), with forecasts and estimates in \"USD million\" for the period 2025-2029, as well as historical",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Towing and Tugboat Services | United States - Manta.com",
+          "link": "https://www.manta.com/mb_34_B51EC_000/towing_and_tugboat_services",
+          "snippet": "Categorized under Towing and tugboat service, nec. Local and owner operated, Falcon Towing & Recovery is Huffman's premier wrecker service. Offering towing, lockouts, tire changes and off-road recover",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 100 Towboat Or Tugboat Manufacturers in 2026 | ensun",
+          "link": "https://ensun.io/search/towboat-or-tugboat",
+          "snippet": "Service. Marine Transportation and Tugboat Services | Moran Towing.Towboats and tugboats serve distinct roles in maritime operations, primarily differentiated by their design and function. Towboats ar",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Marine Suppliers called Towing & Tugboat Services | ShipServ",
+          "link": "https://cdn1.shipserv.com/category/towing-tugboat-services/362",
+          "snippet": "Marine suppliers of Towing & Tugboat Services. Donovan Marine, Inc.Specialises in: Agency Services, Chandlery, Provisions, Ship Spare Parts and Technical Stores. 2 Countries. 60 ports globally. View S",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Pacific Tugboat Service Projects - Pacific Maritime Group, Inc",
+          "link": "https://www.pacificmaritimegroup.com/pacific-tugboat-service/",
+          "snippet": "Pacific Tugboat Service Projects Explore Pacific Tugboat Service's premier projects, showcasing reliable tugboat solutions for docking, towing, offshore support, and maritime logistics.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "PT Duta Marine \u2013 To be a Reliable Marine Service Company Worldwide",
+          "link": "https://www.ptdutamarine.co.id/",
+          "snippet": "PT Duta Marine provide integrated full services operation and maintenance of FSO, FPSO, FPU, MOPU, FSRU, LNG Carrier, AHTS, Tugboat for offshore and Oil and Gas industries.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat Service Market Size, Market Dynamics & Forecast",
+          "link": "https://www.verifiedmarketreports.com/product/tugboat-service-market/",
+          "snippet": "The Tugboat Service Market is a vital segment of the maritime industry, providing essential support for the navigation and maneuvering of larger vessels in various waterways.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Orava Nigeria Limited \u2013 Marine Logistics Service Providers, Focus on...",
+          "link": "https://oravanigeria.com/",
+          "snippet": "Tug / Boats Services. \u201cWe provide professional services covering the full spectrum of tugboat operations in Nigeria. Our tugboats are maintained to the highest standards and undergo annual inspections",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Offshore Tugboat Services Market Size, Status and Prospects 2030",
+          "link": "https://www.forinsightsconsultancy.com/reports/offshore-tugboat-services-market/",
+          "snippet": "Offshore Tugboat Services Market is set to grow from USD 3.4 Billion in 2023 to USD 6.1 Billion by 2030 |Report by FIC.The Offshore Tugboat Services Market report provides information about the market",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat Services Market by Service Type, Vessel Class, Propulsion...",
+          "link": "https://www.giiresearch.com/report/ires1809796-tugboat-services-market-by-service-type-vessel.html",
+          "snippet": "The Tugboat Services Market was valued at USD 3.15 billion in 2024 and is projected to grow to USD 3.28 billion in 2025, with a CAGR of 4.27%, reaching USD 4.06 billion by 2030. Key market statistics.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nortrans - Ship Agents | MagicPort",
+          "link": "https://magicport.ai/ship-agents/singapore/nortrans",
+          "snippet": "Repair & Maintenance Services. Pilotage & Tugboat Services. Provisions and Supplies. Crew Handling. Spare Parts Services. Logistics and Transportation. Waste Management and Environmental Services.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "tugboat service provider operational support",
+      "level": "discovery",
+      "result_count": 17,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Tugboat - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Tugboat",
+          "snippet": "A tugboat or tug is a marine vessel that manoeuvres other vessels by pushing or pulling them, with direct contact or a tow line.",
+          "backend": "searxng"
+        },
+        {
+          "title": "The Ultimate Guide to Tug Boats - Marine Insight",
+          "link": "https://www.marineinsight.com/what-are-tug-boats/",
+          "snippet": "Jan 24, 2024 \u00b7 A tug, or more commonly a tugboat, is an assistance boat which helps in the mooring or berthing operation of a ship \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Everything You Need to Know About Tugboats, Types and Uses",
+          "link": "https://dexteroffshore.com/what-are-tugboats/",
+          "snippet": "Oct 25, 2022 \u00b7 Tugboats are an indispensable part of the global shipping industry, facilitating the safe passage of large ships through \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboats: The Unsung Heroes Of The Shipping Industry",
+          "link": "https://maritimepage.com/tugboats-heroes-of-the-shipping-industry/",
+          "snippet": "Apr 28, 2026 \u00b7 Tugboats are a type of vessel that is primarily used for towing other ships and barges. They are commonly found in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboats: Types, Roles, and Importance in Port Operations",
+          "link": "https://www.marinepublic.com/blogs/offshore/314519-tugboats-types-roles-and-importance-in-port-operations",
+          "snippet": "Tugboats are the unsung heroes of the maritime industry - powerful, highly maneuverable vessels that play a crucial role in port \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tug Boat: What Do Tugboats Do? How Do Tugboats Work? - Science \u2026",
+          "link": "https://www.scienceabc.com/innovation/what-are-tugboats-and-how-do-they-work",
+          "snippet": "Apr 9, 2021 \u00b7 A tugboat is a small but powerful vessel with a high-thrust engine and an extremely maneuverable propeller system, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Types of Tug boat | A Comprehensive Guide - Merchant Navy Decoded",
+          "link": "https://www.merchantnavydecoded.com/tug-boats-types-of-tug-boats/",
+          "snippet": "Sep 21, 2023 \u00b7 In this article, we will delve into the world of tugboats, uncovering their fascinating history, functions, and the various \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Sindybad Marine Supplies and Services: Tugboat & Barge Support",
+          "link": "https://sindybad.co/",
+          "snippet": "Sindybad supports shipping, offshore drilling, marine construction, and port operations with reliable service coordination, specialized supply support, and tailored project execution.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboats Services Market Growth Analysis - Size and... | Technavio",
+          "link": "https://www.technavio.com/report/tugboats-services-market-industry-analysis",
+          "snippet": "The tugboats services industry research report provides comprehensive data (region-wise segment analysis), with forecasts and estimates in \"USD million\" for the period 2025-2029, as well as historical",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat Services Market Size, Share, Trends, & Forecast 2033",
+          "link": "https://univdatos.com/reports/tugboat-services-market",
+          "snippet": "This section provides an analysis of the key trends in each segment of the global tugboat services market report, along with forecasts at the global, regional, and country levels for 2025-2033. The Ha",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat Service Market Size, Market Dynamics & Forecast",
+          "link": "https://www.verifiedmarketreports.com/product/tugboat-service-market/",
+          "snippet": "The tugboat service market plays a crucial role in maritime operations, providing essential support to ships during docking, undocking, and navigating through congested or challenging waterways.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 100 Towboat Or Tugboat Manufacturers in 2026 | ensun",
+          "link": "https://ensun.io/search/towboat-or-tugboat",
+          "snippet": "Their expertise in tugboat operations highlights their capability in supporting maritime activities.Pacific Tug (Aust) Pty Ltd is a regional port specialist towage provider, offering flexible and cust",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Towage and Tugboat Services: Assisting Ships in Port Maneuvers...",
+          "link": "https://tramobil.com/library/industry-review/towage-and-tugboat-services-assisting-ships-in-port-maneuvers/",
+          "snippet": "Tugboats provide the necessary power, control, and precision to guide ships safely, preventing accidents and ensuring smooth port operations. This article explores towage and tugboat services, their f",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat Service Market Size, Trends | Report [2034]",
+          "link": "https://www.businessresearchinsights.com/market-reports/tugboat-service-market-123374",
+          "snippet": "Tugboat Service Market Size, Share, Growth, and Industry Analysis, By Type (Harbor Tugboats, Offshore Tugboats, Terminal Tugboats) By Application (Shipping, Marine Services, Port Operations) and Regio",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat Services for Cargo Ships \u2013 B2B Companies... | Europages",
+          "link": "https://www.europages.co.uk/companies/tugboat-services-for-cargo-ships.html",
+          "snippet": "Service provider. Trailers on transatlantic trips, towing ships, tugboats for barges, platforms, pontoons, floating cranes, etc. with their ocean-going tugs. Watering points. Special services.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat Market \u2013 Size, Share, Trends, Analysis & Forecast...",
+          "link": "https://markwideresearch.com/tugboat-market/",
+          "snippet": "The tugboat market plays a critical role in supporting maritime operations by providing powerful vessels capable of maneuvering ships, barges, and offshore structures. Tugboats serve various purposes,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Towage & Salvage - The Shipmarket Directory",
+          "link": "https://theshipmarket.com/directory/cat/towage-salvage",
+          "snippet": "Klasco Towage Assistance is a tugboat service provider operating in the Port of Klaipeda (Lithuania). With over 35 years of experience Klasco Towage Assistance has earned the name of an innovative and",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Tugboat - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Tugboat",
+          "snippet": "A tugboat or tug is a marine vessel that manoeuvres other vessels by pushing or pulling them, with direct contact or a tow line.",
+          "backend": "searxng"
+        },
+        {
+          "title": "The Ultimate Guide to Tug Boats - Marine Insight",
+          "link": "https://www.marineinsight.com/what-are-tug-boats/",
+          "snippet": "Jan 24, 2024 \u00b7 A tug, or more commonly a tugboat, is an assistance boat which helps in the mooring or berthing operation of a ship \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Everything You Need to Know About Tugboats, Types and Uses",
+          "link": "https://dexteroffshore.com/what-are-tugboats/",
+          "snippet": "Oct 25, 2022 \u00b7 Tugboats are an indispensable part of the global shipping industry, facilitating the safe passage of large ships through \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboats: The Unsung Heroes Of The Shipping Industry",
+          "link": "https://maritimepage.com/tugboats-heroes-of-the-shipping-industry/",
+          "snippet": "Apr 28, 2026 \u00b7 Tugboats are a type of vessel that is primarily used for towing other ships and barges. They are commonly found in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboats: Types, Roles, and Importance in Port Operations",
+          "link": "https://www.marinepublic.com/blogs/offshore/314519-tugboats-types-roles-and-importance-in-port-operations",
+          "snippet": "Tugboats are the unsung heroes of the maritime industry - powerful, highly maneuverable vessels that play a crucial role in port \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tug Boat: What Do Tugboats Do? How Do Tugboats Work? - Science \u2026",
+          "link": "https://www.scienceabc.com/innovation/what-are-tugboats-and-how-do-they-work",
+          "snippet": "Apr 9, 2021 \u00b7 A tugboat is a small but powerful vessel with a high-thrust engine and an extremely maneuverable propeller system, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Types of Tug boat | A Comprehensive Guide - Merchant Navy Decoded",
+          "link": "https://www.merchantnavydecoded.com/tug-boats-types-of-tug-boats/",
+          "snippet": "Sep 21, 2023 \u00b7 In this article, we will delve into the world of tugboats, uncovering their fascinating history, functions, and the various \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Sindybad Marine Supplies and Services: Tugboat & Barge Support",
+          "link": "https://sindybad.co/",
+          "snippet": "Sindybad supports shipping, offshore drilling, marine construction, and port operations with reliable service coordination, specialized supply support, and tailored project execution.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboats Services Market Growth Analysis - Size and... | Technavio",
+          "link": "https://www.technavio.com/report/tugboats-services-market-industry-analysis",
+          "snippet": "The tugboats services industry research report provides comprehensive data (region-wise segment analysis), with forecasts and estimates in \"USD million\" for the period 2025-2029, as well as historical",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat Services Market Size, Share, Trends, & Forecast 2033",
+          "link": "https://univdatos.com/reports/tugboat-services-market",
+          "snippet": "This section provides an analysis of the key trends in each segment of the global tugboat services market report, along with forecasts at the global, regional, and country levels for 2025-2033. The Ha",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat Service Market Size, Market Dynamics & Forecast",
+          "link": "https://www.verifiedmarketreports.com/product/tugboat-service-market/",
+          "snippet": "The tugboat service market plays a crucial role in maritime operations, providing essential support to ships during docking, undocking, and navigating through congested or challenging waterways.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 100 Towboat Or Tugboat Manufacturers in 2026 | ensun",
+          "link": "https://ensun.io/search/towboat-or-tugboat",
+          "snippet": "Their expertise in tugboat operations highlights their capability in supporting maritime activities.Pacific Tug (Aust) Pty Ltd is a regional port specialist towage provider, offering flexible and cust",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Towage and Tugboat Services: Assisting Ships in Port Maneuvers...",
+          "link": "https://tramobil.com/library/industry-review/towage-and-tugboat-services-assisting-ships-in-port-maneuvers/",
+          "snippet": "Tugboats provide the necessary power, control, and precision to guide ships safely, preventing accidents and ensuring smooth port operations. This article explores towage and tugboat services, their f",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat Service Market Size, Trends | Report [2034]",
+          "link": "https://www.businessresearchinsights.com/market-reports/tugboat-service-market-123374",
+          "snippet": "Tugboat Service Market Size, Share, Growth, and Industry Analysis, By Type (Harbor Tugboats, Offshore Tugboats, Terminal Tugboats) By Application (Shipping, Marine Services, Port Operations) and Regio",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat Services for Cargo Ships \u2013 B2B Companies... | Europages",
+          "link": "https://www.europages.co.uk/companies/tugboat-services-for-cargo-ships.html",
+          "snippet": "Service provider. Trailers on transatlantic trips, towing ships, tugboats for barges, platforms, pontoons, floating cranes, etc. with their ocean-going tugs. Watering points. Special services.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tugboat Market \u2013 Size, Share, Trends, Analysis & Forecast...",
+          "link": "https://markwideresearch.com/tugboat-market/",
+          "snippet": "The tugboat market plays a critical role in supporting maritime operations by providing powerful vessels capable of maneuvering ships, barges, and offshore structures. Tugboats serve various purposes,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Towage & Salvage - The Shipmarket Directory",
+          "link": "https://theshipmarket.com/directory/cat/towage-salvage",
+          "snippet": "Klasco Towage Assistance is a tugboat service provider operating in the Port of Klaipeda (Lithuania). With over 35 years of experience Klasco Towage Assistance has earned the name of an innovative and",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P7": {
+      "query": "tugboat logistics management official site",
+      "level": "discovery",
+      "result_count": 13,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Tugboat - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Tugboat",
+          "snippet": "A tugboat or tug is a marine vessel that manoeuvres other vessels by pushing or pulling them, with direct contact or a tow line.",
+          "backend": "searxng"
+        },
+        {
+          "title": "The Ultimate Guide to Tug Boats - Marine Insight",
+          "link": "https://www.marineinsight.com/what-are-tug-boats/",
+          "snippet": "Jan 24, 2024 \u00b7 A tug, or more commonly a tugboat, is an assistance boat which helps in the mooring or berthing operation of a ship \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Everything You Need to Know About Tugboats, Types and Uses",
+          "link": "https://dexteroffshore.com/what-are-tugboats/",
+          "snippet": "Oct 25, 2022 \u00b7 Tugboats are an indispensable part of the global shipping industry, facilitating the safe passage of large ships through \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboats: The Unsung Heroes Of The Shipping Industry",
+          "link": "https://maritimepage.com/tugboats-heroes-of-the-shipping-industry/",
+          "snippet": "Apr 28, 2026 \u00b7 Tugboats are a type of vessel that is primarily used for towing other ships and barges. They are commonly found in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboats: Types, Roles, and Importance in Port Operations",
+          "link": "https://www.marinepublic.com/blogs/offshore/314519-tugboats-types-roles-and-importance-in-port-operations",
+          "snippet": "Tugboats are the unsung heroes of the maritime industry - powerful, highly maneuverable vessels that play a crucial role in port \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tug Boat: What Do Tugboats Do? How Do Tugboats Work? - Science \u2026",
+          "link": "https://www.scienceabc.com/innovation/what-are-tugboats-and-how-do-they-work",
+          "snippet": "Apr 9, 2021 \u00b7 A tugboat is a small but powerful vessel with a high-thrust engine and an extremely maneuverable propeller system, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Types of Tug boat | A Comprehensive Guide - Merchant Navy Decoded",
+          "link": "https://www.merchantnavydecoded.com/tug-boats-types-of-tug-boats/",
+          "snippet": "Sep 21, 2023 \u00b7 In this article, we will delve into the world of tugboats, uncovering their fascinating history, functions, and the various \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Daito Corporation Has Decided to Build an Electric Tugboat",
+          "link": "https://www.kline.co.jp/en/news/logistics/logistics-20241108.html?trk=article-ssr-frontend-pulse_little-text-block",
+          "snippet": "Kawasaki Kisen Kaisha, Ltd. (\u201cK\u201d LINE) is pleased to announce that Daito Corporation (Daito), its consolidated subsidiary, has decided to build an electric tugboat, an electric vessel (EV) powered by ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "International Logistics Buyer - Logistics & Supply Chain News",
+          "link": "https://logistics-buyer.com/",
+          "snippet": "Explore the role of a Logistics Buyer in streamlining operations and enhancing trade competitiveness within the logistics sector.Daito Corporation (Daito) has decided to build a 260 gross ton-class el",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Who We Are - Chelsea Logistics Philippines",
+          "link": "https://chelsealogistics.ph/who-we-are/",
+          "snippet": "As a listed company at the Philippine stock market since 08 August 2017, Chelsea Logistics has been expanding the breadth of its services, covering Charter, Passage, Freight, Cargo, Tugboat , Logistic",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "tugboats - News, Views, Reviews, Comments... - Logistics Middle East",
+          "link": "https://www.logisticsmiddleeast.com/tags/tugboats",
+          "snippet": "tugboats - Find the Latest News, Views, Reviews, Comments, Analysis, Updates, Photos & Videos on tugboats across Dubai, UAE, Saudi Arabia, Gulf, GCC and Middle East. Explore more on tugboats.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sea Side Traders \u2013 Precision, Safety, and Expertise in Every Voyage",
+          "link": "https://seasidetraders.com/",
+          "snippet": "Tugboat and Logistics.At Sea Side Traders, we prioritize excellence and reliability in all our shipping agency services. Our experienced team is dedicated to ensuring smooth logistics and compliance w",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "MOL to Build Logistic Center on Kobe's Port Island - Establishing...",
+          "link": "https://www.mol.co.jp/en/pr/2024/24117.html",
+          "snippet": "For more than 100 years (Note 2), MOL has positioned the Port of Kobe as a key base for its domestic business, and today the company continues to develop its port, logistics, tugboat, and real propert",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Tugboat - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Tugboat",
+          "snippet": "A tugboat or tug is a marine vessel that manoeuvres other vessels by pushing or pulling them, with direct contact or a tow line.",
+          "backend": "searxng"
+        },
+        {
+          "title": "The Ultimate Guide to Tug Boats - Marine Insight",
+          "link": "https://www.marineinsight.com/what-are-tug-boats/",
+          "snippet": "Jan 24, 2024 \u00b7 A tug, or more commonly a tugboat, is an assistance boat which helps in the mooring or berthing operation of a ship \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Everything You Need to Know About Tugboats, Types and Uses",
+          "link": "https://dexteroffshore.com/what-are-tugboats/",
+          "snippet": "Oct 25, 2022 \u00b7 Tugboats are an indispensable part of the global shipping industry, facilitating the safe passage of large ships through \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboats: The Unsung Heroes Of The Shipping Industry",
+          "link": "https://maritimepage.com/tugboats-heroes-of-the-shipping-industry/",
+          "snippet": "Apr 28, 2026 \u00b7 Tugboats are a type of vessel that is primarily used for towing other ships and barges. They are commonly found in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tugboats: Types, Roles, and Importance in Port Operations",
+          "link": "https://www.marinepublic.com/blogs/offshore/314519-tugboats-types-roles-and-importance-in-port-operations",
+          "snippet": "Tugboats are the unsung heroes of the maritime industry - powerful, highly maneuverable vessels that play a crucial role in port \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tug Boat: What Do Tugboats Do? How Do Tugboats Work? - Science \u2026",
+          "link": "https://www.scienceabc.com/innovation/what-are-tugboats-and-how-do-they-work",
+          "snippet": "Apr 9, 2021 \u00b7 A tugboat is a small but powerful vessel with a high-thrust engine and an extremely maneuverable propeller system, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Types of Tug boat | A Comprehensive Guide - Merchant Navy Decoded",
+          "link": "https://www.merchantnavydecoded.com/tug-boats-types-of-tug-boats/",
+          "snippet": "Sep 21, 2023 \u00b7 In this article, we will delve into the world of tugboats, uncovering their fascinating history, functions, and the various \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Daito Corporation Has Decided to Build an Electric Tugboat",
+          "link": "https://www.kline.co.jp/en/news/logistics/logistics-20241108.html?trk=article-ssr-frontend-pulse_little-text-block",
+          "snippet": "Kawasaki Kisen Kaisha, Ltd. (\u201cK\u201d LINE) is pleased to announce that Daito Corporation (Daito), its consolidated subsidiary, has decided to build an electric tugboat, an electric vessel (EV) powered by ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "International Logistics Buyer - Logistics & Supply Chain News",
+          "link": "https://logistics-buyer.com/",
+          "snippet": "Explore the role of a Logistics Buyer in streamlining operations and enhancing trade competitiveness within the logistics sector.Daito Corporation (Daito) has decided to build a 260 gross ton-class el",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Who We Are - Chelsea Logistics Philippines",
+          "link": "https://chelsealogistics.ph/who-we-are/",
+          "snippet": "As a listed company at the Philippine stock market since 08 August 2017, Chelsea Logistics has been expanding the breadth of its services, covering Charter, Passage, Freight, Cargo, Tugboat , Logistic",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "tugboats - News, Views, Reviews, Comments... - Logistics Middle East",
+          "link": "https://www.logisticsmiddleeast.com/tags/tugboats",
+          "snippet": "tugboats - Find the Latest News, Views, Reviews, Comments, Analysis, Updates, Photos & Videos on tugboats across Dubai, UAE, Saudi Arabia, Gulf, GCC and Middle East. Explore more on tugboats.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sea Side Traders \u2013 Precision, Safety, and Expertise in Every Voyage",
+          "link": "https://seasidetraders.com/",
+          "snippet": "Tugboat and Logistics.At Sea Side Traders, we prioritize excellence and reliability in all our shipping agency services. Our experienced team is dedicated to ensuring smooth logistics and compliance w",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "MOL to Build Logistic Center on Kobe's Port Island - Establishing...",
+          "link": "https://www.mol.co.jp/en/pr/2024/24117.html",
+          "snippet": "For more than 100 years (Note 2), MOL has positioned the Port of Kobe as a key base for its domestic business, and today the company continues to develop its port, logistics, tugboat, and real propert",
+          "backend": "ddgs_bing"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

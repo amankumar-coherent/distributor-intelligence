@@ -1,0 +1,1278 @@
+{
+  "phase": 1,
+  "query": "Green Construction Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T21:46:31.518210+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "Green Construction",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "sustainable building",
+    "industry_terms": [
+      "sustainable building",
+      "eco-friendly materials",
+      "green construction",
+      "energy-efficient design",
+      "renewable resources"
+    ],
+    "ecosystem_functions": [
+      "distributing green materials",
+      "reselling sustainable products",
+      "integrating eco-friendly systems",
+      "providing installation services",
+      "consulting on sustainable practices",
+      "wholesaling building materials",
+      "partnering for green solutions",
+      "facilitating eco-friendly construction projects"
+    ],
+    "interpretation_summary": "The Green Construction Market encompasses sustainable building practices and materials aimed at reducing environmental impact. Participants include manufacturers of eco-friendly construction materials, contractors, and v",
+    "relevance_keywords": [
+      "sustainable construction",
+      "green building",
+      "eco-friendly materials",
+      "energy efficiency",
+      "renewable resources",
+      "construction services",
+      "system integration",
+      "channel partners"
+    ],
+    "negative_keywords": [
+      "traditional construction",
+      "non-sustainable",
+      "conventional materials",
+      "construction equipment",
+      "heavy machinery"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "Green Building Supply",
+        "primary_domain": "greenbuildingsupply.com",
+        "company_function": "distributor of eco-friendly building materials"
+      },
+      {
+        "canonical_name": "EcoBuilding Bargains",
+        "primary_domain": "ecobuildingbargains.com",
+        "company_function": "wholesaler of sustainable construction products"
+      },
+      {
+        "canonical_name": "Sustainable Supply",
+        "primary_domain": "sustainablesupply.com",
+        "company_function": "reseller of green construction materials"
+      },
+      {
+        "canonical_name": "Johnson Controls",
+        "primary_domain": "johnsoncontrols.com",
+        "company_function": "system integrator for energy-efficient solutions"
+      },
+      {
+        "canonical_name": "EcoSmart Solutions",
+        "primary_domain": "ecosmart.com",
+        "company_function": "service provider for green building consulting"
+      },
+      {
+        "canonical_name": "Gensler",
+        "primary_domain": "gensler.com",
+        "company_function": "architectural firm with a focus on sustainable design"
+      },
+      {
+        "canonical_name": "Sierra Club",
+        "primary_domain": "sierraclub.org",
+        "company_function": "advocacy and consulting for green construction"
+      },
+      {
+        "canonical_name": "The Home Depot",
+        "primary_domain": "homedepot.com",
+        "company_function": "reseller of eco-friendly home improvement products"
+      },
+      {
+        "canonical_name": "Walmart",
+        "primary_domain": "walmart.com",
+        "company_function": "Wholesaler of sustainable building materials",
+        "segment": "Wholesalers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Interface",
+        "primary_domain": "interface.com",
+        "company_function": "Manufacturer and distributor of sustainable flooring",
+        "segment": "Distributors",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Trane",
+        "primary_domain": "trane.com",
+        "company_function": "System integrator for HVAC solutions",
+        "segment": "System Integrators",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Bamboo Living",
+        "primary_domain": "bambooliving.com",
+        "company_function": "Reseller of bamboo construction materials",
+        "segment": "Resellers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Green Roofs for Healthy Cities",
+        "primary_domain": "greenroofs.org",
+        "company_function": "Service provider for green roof consulting",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "EcoBuilding Products",
+        "primary_domain": "ecobuildingproducts.com",
+        "company_function": "Distributor of eco-friendly building products",
+        "segment": "Distributors",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "Green Construction",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "Green Construction",
+    "include_keywords": [
+      "green building materials",
+      "sustainable construction products",
+      "eco-friendly construction services",
+      "energy-efficient systems",
+      "renewable energy solutions"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The Green Construction Market encompasses sustainable building practices and materials aimed at reducing environmental impact. Participants include manufacturers of eco-friendly construction materials, contractors, and various channel partners such as distributors and service providers. This market operates globally, focusing on innovative solutions for energy efficiency and sustainable design.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Distribution",
+        "description": "This layer involves the distribution of green construction materials and services to various stakeholders.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Building Materials Distributors",
+              "Eco-Friendly Product Distributors"
+            ],
+            "participant_types": [
+              "distributor",
+              "wholesaler"
+            ],
+            "search_intents": [
+              "green construction material distributors",
+              "eco-friendly building product wholesalers"
+            ]
+          },
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Retail Resellers",
+              "Online Resellers"
+            ],
+            "participant_types": [
+              "reseller"
+            ],
+            "search_intents": [
+              "green construction product resellers",
+              "sustainable building material retailers"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L2",
+        "layer_name": "Integration Services",
+        "description": "This layer includes companies that integrate various green technologies and systems into construction projects.",
+        "segments": [
+          {
+            "segment_name": "System Integrators",
+            "sub_segments": [
+              "Energy Management Systems",
+              "Smart Building Integrators"
+            ],
+            "participant_types": [
+              "system integrator"
+            ],
+            "search_intents": [
+              "green building system integrators",
+              "sustainable construction technology providers"
+            ]
+          },
+          {
+            "segment_name": "Service Providers",
+            "sub_segments": [
+              "Consulting Services",
+              "Installation Services"
+            ],
+            "participant_types": [
+              "service provider"
+            ],
+            "search_intents": [
+              "green construction consulting services",
+              "sustainable building installation services"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Raw Material Suppliers",
+        "Construction Equipment Manufacturers",
+        "Architectural Firms",
+        "Regulatory Bodies"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "search for green construction material distributors",
+        "sub_sector": "distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "find eco-friendly building product wholesalers",
+        "sub_sector": "wholesaler",
+        "layer_id": "L1",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "locate green construction product resellers",
+        "sub_sector": "reseller",
+        "layer_id": "L1",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "search for green building system integrators",
+        "sub_sector": "system_integrator",
+        "layer_id": "L2",
+        "segment": "System Integrators"
+      },
+      {
+        "id": "M5",
+        "level": "market_map",
+        "text": "find green construction consulting services",
+        "sub_sector": "service_provider",
+        "layer_id": "L2",
+        "segment": "Service Providers"
+      },
+      {
+        "id": "M6",
+        "level": "market_map",
+        "text": "search for sustainable building installation services",
+        "sub_sector": "service_provider",
+        "layer_id": "L2",
+        "segment": "Service Providers"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "sustainable building",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "Green Construction companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "Green Construction distributors corporate sites"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "Green Construction service providers official websites"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "market_map",
+      "text": "search for green construction material distributors"
+    },
+    {
+      "id": "P2",
+      "level": "market_map",
+      "text": "find eco-friendly building product wholesalers"
+    },
+    {
+      "id": "P3",
+      "level": "market_map",
+      "text": "locate green construction product resellers"
+    },
+    {
+      "id": "P4",
+      "level": "market_map",
+      "text": "search for green building system integrators"
+    },
+    {
+      "id": "P5",
+      "level": "market_map",
+      "text": "find green construction consulting services"
+    },
+    {
+      "id": "P6",
+      "level": "market_map",
+      "text": "search for sustainable building installation services"
+    },
+    {
+      "id": "P7",
+      "level": "discovery",
+      "text": "green construction material distributors official site"
+    },
+    {
+      "id": "P8",
+      "level": "discovery",
+      "text": "eco-friendly building product wholesalers corporate headquarters"
+    },
+    {
+      "id": "P9",
+      "level": "discovery",
+      "text": "green construction product resellers official website"
+    },
+    {
+      "id": "P10",
+      "level": "discovery",
+      "text": "green building system integrators corporate site"
+    },
+    {
+      "id": "P11",
+      "level": "discovery",
+      "text": "sustainable construction technology providers official website"
+    },
+    {
+      "id": "P12",
+      "level": "discovery",
+      "text": "green construction consulting services corporate profile"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "Green Construction companies official websites",
+      "level": "L0",
+      "result_count": 10,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "12 Best Green Construction Companies in 2025 [Worldwide Review]",
+          "link": "https://climatesort.com/green-construction-companies/",
+          "snippet": "Green construction companies are changing the building industry from the ground up.Renewable Energy Integration. On-site generation through solar, wind, and geothermal technologies transforms building",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Why there are fewer LEED-certified... - Smet Construction",
+          "link": "https://www.smet.com/why-there-are-fewer-leed-certified-construction-projects-today/",
+          "snippet": "Green construction companies and good building practices are good business for everyone.Smet Construction Services, Inc. is a third-generation building contractor specializing in adapting the design-b",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 80 Green Construction Companies in Mexico (2026) | ensun",
+          "link": "https://ensun.io/search/green-construction/mexico",
+          "snippet": "Discover all relevant Green Construction Companies in Mexico, including GP Construcci\u00f3n and Construplan.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "List of 10 Green Construction Companies in the US",
+          "link": "https://contentmassive.com/download-company-list-of-top-10-green-construction-companies/",
+          "snippet": "\u2013 Description: Clark Construction Group is committed to sustainable construction practices, emphasizing environmental responsibility and green building techniques. The company\u2019s portfolio showcases a ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Why Does the World Need Green Construction Companies?",
+          "link": "https://www.sanaglobalprojects.com/construction-knowledge-base/why-does-the-world-need-green-construction-companies/",
+          "snippet": "Green constructions often require support from leading companies and authorities to be successful and widely adopted. Companies like Turner Corp, Clark Construction, AECOM, among others have gone main",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Building Innovation Seminar PPT - CivilDigital",
+          "link": "https://civildigital.com/green-building-innovation/",
+          "snippet": "Green Construction Companies.Pavement Design in Road Construction \u2013 Design Parameters. Green Chemistry \u2013 History, Principles with Diagram.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 Green Construction Companies in Kenya for Sustainable...",
+          "link": "https://primehouseinteriors.co.ke/top-10-green-construction-companies-in-kenya-for-sustainable-homes/",
+          "snippet": "Prefab construction reduces waste on-site and speeds up timelines.Kenya\u2019s green construction companies sector is young but promising. With companies like Gjenge Makers recycling waste and BuildX creat",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Making A Difference A Block At A Time: 3 Israeli Green Construction...",
+          "link": "https://www.janglo.net/item/YiomR2hG6E3",
+          "snippet": "Green building construction regulations refer to the energy efficiency of a building.NoCamels set out to discover how three local companies are innovating in the construction sector and where their bl",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "green construction company",
+          "link": "https://soboly.com/green-construction-company",
+          "snippet": "\u0418\u0449\u0435\u0442\u0435 \u00abgreen construction company\u00bb? \u041f\u043e\u043f\u0440\u043e\u0431\u0443\u0439\u0442\u0435 Soboly \u2014 \u0441\u043e\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u044b\u0439 \u043f\u043e\u0438\u0441\u043a\u043e\u0432\u0438\u043a \u0441 \u0437\u0430\u0449\u0438\u0442\u043e\u0439 \u043f\u0440\u0438\u0432\u0430\u0442\u043d\u043e\u0441\u0442\u0438. \u041c\u044b \u043f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u043c \u0442\u043e\u0447\u043d\u044b\u0435 \u0438 \u0441\u0432\u0435\u0436\u0438\u0435 \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u044b: \u0441\u0430\u0439\u0442\u044b, \u043d\u043e\u0432\u043e\u0441\u0442\u0438, \u0438\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f \u0438 \u0432\u0438\u0434\u0435\u043e \u043f\u043e \u0432\u0430\u0448\u0435\u043c\u0443 \u0437\u0430\u043f\u0440\u043e\u0441\u0443.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How Green Construction Drives Business Growth | Boss Magazine",
+          "link": "https://thebossmagazine.com/article/green-construction-business-growth/",
+          "snippet": "Business Benefits of Green Construction. Green construction brings added revenue, opportunities for new projects, and heightened credibility within the industry. Construction companies that want to co",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "12 Best Green Construction Companies in 2025 [Worldwide Review]",
+          "link": "https://climatesort.com/green-construction-companies/",
+          "snippet": "Green construction companies are changing the building industry from the ground up.Renewable Energy Integration. On-site generation through solar, wind, and geothermal technologies transforms building",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Why there are fewer LEED-certified... - Smet Construction",
+          "link": "https://www.smet.com/why-there-are-fewer-leed-certified-construction-projects-today/",
+          "snippet": "Green construction companies and good building practices are good business for everyone.Smet Construction Services, Inc. is a third-generation building contractor specializing in adapting the design-b",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 80 Green Construction Companies in Mexico (2026) | ensun",
+          "link": "https://ensun.io/search/green-construction/mexico",
+          "snippet": "Discover all relevant Green Construction Companies in Mexico, including GP Construcci\u00f3n and Construplan.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "List of 10 Green Construction Companies in the US",
+          "link": "https://contentmassive.com/download-company-list-of-top-10-green-construction-companies/",
+          "snippet": "\u2013 Description: Clark Construction Group is committed to sustainable construction practices, emphasizing environmental responsibility and green building techniques. The company\u2019s portfolio showcases a ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Why Does the World Need Green Construction Companies?",
+          "link": "https://www.sanaglobalprojects.com/construction-knowledge-base/why-does-the-world-need-green-construction-companies/",
+          "snippet": "Green constructions often require support from leading companies and authorities to be successful and widely adopted. Companies like Turner Corp, Clark Construction, AECOM, among others have gone main",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Building Innovation Seminar PPT - CivilDigital",
+          "link": "https://civildigital.com/green-building-innovation/",
+          "snippet": "Green Construction Companies.Pavement Design in Road Construction \u2013 Design Parameters. Green Chemistry \u2013 History, Principles with Diagram.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 Green Construction Companies in Kenya for Sustainable...",
+          "link": "https://primehouseinteriors.co.ke/top-10-green-construction-companies-in-kenya-for-sustainable-homes/",
+          "snippet": "Prefab construction reduces waste on-site and speeds up timelines.Kenya\u2019s green construction companies sector is young but promising. With companies like Gjenge Makers recycling waste and BuildX creat",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Making A Difference A Block At A Time: 3 Israeli Green Construction...",
+          "link": "https://www.janglo.net/item/YiomR2hG6E3",
+          "snippet": "Green building construction regulations refer to the energy efficiency of a building.NoCamels set out to discover how three local companies are innovating in the construction sector and where their bl",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "green construction company",
+          "link": "https://soboly.com/green-construction-company",
+          "snippet": "\u0418\u0449\u0435\u0442\u0435 \u00abgreen construction company\u00bb? \u041f\u043e\u043f\u0440\u043e\u0431\u0443\u0439\u0442\u0435 Soboly \u2014 \u0441\u043e\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u044b\u0439 \u043f\u043e\u0438\u0441\u043a\u043e\u0432\u0438\u043a \u0441 \u0437\u0430\u0449\u0438\u0442\u043e\u0439 \u043f\u0440\u0438\u0432\u0430\u0442\u043d\u043e\u0441\u0442\u0438. \u041c\u044b \u043f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u043c \u0442\u043e\u0447\u043d\u044b\u0435 \u0438 \u0441\u0432\u0435\u0436\u0438\u0435 \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u044b: \u0441\u0430\u0439\u0442\u044b, \u043d\u043e\u0432\u043e\u0441\u0442\u0438, \u0438\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f \u0438 \u0432\u0438\u0434\u0435\u043e \u043f\u043e \u0432\u0430\u0448\u0435\u043c\u0443 \u0437\u0430\u043f\u0440\u043e\u0441\u0443.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How Green Construction Drives Business Growth | Boss Magazine",
+          "link": "https://thebossmagazine.com/article/green-construction-business-growth/",
+          "snippet": "Business Benefits of Green Construction. Green construction brings added revenue, opportunities for new projects, and heightened credibility within the industry. Construction companies that want to co",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "Green Construction distributors corporate sites",
+      "level": "L1",
+      "result_count": 2,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Top 100 Green Construction Companies in India (2026) | ensun",
+          "link": "https://ensun.io/search/green-construction/india",
+          "snippet": "The company specializes in sustainable architecture and construction management, focusing on green building consultancy and the design of energy-efficient, eco-friendly spaces that comply with global ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - Green Coonstruction",
+          "link": "https://greenconstruction1.com/",
+          "snippet": "Green Construction & Development, Inc. (GCD) is a full-service general contractor with proven success in diverse industrial and manufacturing projects across Florida. Since 2006, we have delivered exc",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Top 100 Green Construction Companies in India (2026) | ensun",
+          "link": "https://ensun.io/search/green-construction/india",
+          "snippet": "The company specializes in sustainable architecture and construction management, focusing on green building consultancy and the design of energy-efficient, eco-friendly spaces that comply with global ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - Green Coonstruction",
+          "link": "https://greenconstruction1.com/",
+          "snippet": "Green Construction & Development, Inc. (GCD) is a full-service general contractor with proven success in diverse industrial and manufacturing projects across Florida. Since 2006, we have delivered exc",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "Green Construction service providers official websites",
+      "level": "L2",
+      "result_count": 2,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "5 Steps to Choose Affordable Green Construction Services",
+          "link": "https://examples.tely.ai/5-steps-to-choose-affordable-green-construction-services/",
+          "snippet": "Research and Compare Green Construction Service Providers. When it comes to researching and comparing affordable green construction services, it\u2019s essential to navigate the process with intention and ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green construction becoming mainstream | Business Times",
+          "link": "https://businesstimes.co.zw/green-construction-becoming-mainstream/",
+          "snippet": "The green premium has collapsed. In 2015, efficient construction cost 15-20% more. In 2026 it is 3-7% in most markets, and zero in some, because supply chains have scaled. At the same time, energy and",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "5 Steps to Choose Affordable Green Construction Services",
+          "link": "https://examples.tely.ai/5-steps-to-choose-affordable-green-construction-services/",
+          "snippet": "Research and Compare Green Construction Service Providers. When it comes to researching and comparing affordable green construction services, it\u2019s essential to navigate the process with intention and ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green construction becoming mainstream | Business Times",
+          "link": "https://businesstimes.co.zw/green-construction-becoming-mainstream/",
+          "snippet": "The green premium has collapsed. In 2015, efficient construction cost 15-20% more. In 2026 it is 3-7% in most markets, and zero in some, because supply chains have scaled. At the same time, energy and",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "search for green construction material distributors",
+      "level": "market_map",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Green Construction Material Market 2023 Forecast to 2030",
+          "link": "https://www.24chemicalresearch.com/reports/244851/global-green-construction-material-forecast-market-2023-2032-755",
+          "snippet": "We surveyed the Green Construction Material manufacturers, suppliers, distributors and industry experts on this industry, involving the sales, revenue, demand, price change, product type, recent devel",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Green Construction Material Market 2023 Forecast to 2030",
+          "link": "https://www.24chemicalresearch.com/reports/244851/global-green-construction-material-forecast-market-2023-2032-755",
+          "snippet": "We surveyed the Green Construction Material manufacturers, suppliers, distributors and industry experts on this industry, involving the sales, revenue, demand, price change, product type, recent devel",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P2": {
+      "query": "find eco-friendly building product wholesalers",
+      "level": "market_map",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_yandex"
+      ],
+      "results": [
+        {
+          "title": "Eco Friendly Flooring Product Showcase",
+          "link": "https://elemental.green/product-showcase-eco-friendly-flooring/",
+          "snippet": "Actually, there are so many eco-friendly flooring choices available now that you may have a hard time deciding which alternative to choose. We\u2019ve simplified your search by highlighting some great opti",
+          "backend": "ddgs_yandex"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Eco Friendly Flooring Product Showcase",
+          "link": "https://elemental.green/product-showcase-eco-friendly-flooring/",
+          "snippet": "Actually, there are so many eco-friendly flooring choices available now that you may have a hard time deciding which alternative to choose. We\u2019ve simplified your search by highlighting some great opti",
+          "backend": "ddgs_yandex"
+        }
+      ]
+    },
+    "P3": {
+      "query": "locate green construction product resellers",
+      "level": "market_map",
+      "result_count": 2,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "constructionweekonline.com",
+          "link": "https://www.constructionweekonline.com/",
+          "snippet": "construction and installation \u2013 Construction Week Online.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Greenish Construction",
+          "link": "https://greenishconstruction.com/",
+          "snippet": "Greenish Construction. Home. Services.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "constructionweekonline.com",
+          "link": "https://www.constructionweekonline.com/",
+          "snippet": "construction and installation \u2013 Construction Week Online.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Greenish Construction",
+          "link": "https://greenishconstruction.com/",
+          "snippet": "Greenish Construction. Home. Services.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P4": {
+      "query": "search for green building system integrators",
+      "level": "market_map",
+      "result_count": 9,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "OEM ODM Building System Integrators Manufacturer... - DEKASYS",
+          "link": "https://www.dekasys.com/building-system-integrators/",
+          "snippet": "China Top Building System Integrators Factory Application. Integrator Type. Project Count. Annual Revenue (Million USD). Main Applications. Established Year. Mechanical Integrators.Steel Structures, C",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Building Automation and Integration Services and... - Menerga Adria",
+          "link": "https://www.menerga-adria.com/air-conditioning-ventilation/building-automation/",
+          "snippet": "GreenBuilding. Green building: Sustainable Construction.Our integrator services range from planning to implementation of automation projects for non-residential and residential buildings. We offer com",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Smart Building Expo Smart Building Expo - La fiera italiana...",
+          "link": "https://smartbuildingexpo.it/en/news-2/the-system-integrator-in-the-digital-and-green-transition-of-italys-building-stock/",
+          "snippet": "The System Integrator in the digital and green transition of Italy\u2019s building stock.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Building Systems Integration, LLC DBA Comfort... - HomeAdvisor",
+          "link": "https://www.homeadvisor.com/rated.KCAirConditioning.25389486.html",
+          "snippet": "Green Certifications. EnergyStar.gov - Home Performance with energy Star.Services Offered by Building Systems Integration, LLC DBA Comfort Zone Arizona.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green building as curriculum: how eco-friendly school architecture...",
+          "link": "https://pollypolish.com/green-building-as-curriculum-how-eco-friendly-school-architecture-becomes-a-teaching-tool-for-sustainability/",
+          "snippet": "The evolution of green building as curriculum requires moving beyond the current focus on individual building features toward more comprehensive, systemic approaches that integrate environmental educa",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Harnessing Renewable Energy: A Guide to Building Approval for...",
+          "link": "https://houseenergy.com.au/harnessing-renewable-energy-a-guide-to-building-approval-for-energy-efficient-homes-in-sunshine-coast/",
+          "snippet": "Discover how to integrate renewable energy systems in your waterfront property on the Sunshine Coast. Learn about energy modeling and green building approvals with our comprehensive guide.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "IKEA and others works were made with the contribution of ISOMAT!",
+          "link": "https://isomat.co.uk/references/ikea-sofia-2-en/",
+          "snippet": "ISOMAT Integrated System Solutions for Green Building. Corporate Social Responsibility (CSR).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "usgbc.org/leed/v41",
+          "link": "https://www.usgbc.org/leed/v41",
+          "snippet": "US Green Building Council in its version v4.1 for single family homes.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home : Hitachi Global",
+          "link": "https://www.hitachi.com/",
+          "snippet": "Building Systems. Hitachi provides a core IoT platform for smart, green buildings.See our financial results, our Integrated Report, and further details about our management policies, stock & bond info",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "OEM ODM Building System Integrators Manufacturer... - DEKASYS",
+          "link": "https://www.dekasys.com/building-system-integrators/",
+          "snippet": "China Top Building System Integrators Factory Application. Integrator Type. Project Count. Annual Revenue (Million USD). Main Applications. Established Year. Mechanical Integrators.Steel Structures, C",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Building Automation and Integration Services and... - Menerga Adria",
+          "link": "https://www.menerga-adria.com/air-conditioning-ventilation/building-automation/",
+          "snippet": "GreenBuilding. Green building: Sustainable Construction.Our integrator services range from planning to implementation of automation projects for non-residential and residential buildings. We offer com",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Smart Building Expo Smart Building Expo - La fiera italiana...",
+          "link": "https://smartbuildingexpo.it/en/news-2/the-system-integrator-in-the-digital-and-green-transition-of-italys-building-stock/",
+          "snippet": "The System Integrator in the digital and green transition of Italy\u2019s building stock.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Building Systems Integration, LLC DBA Comfort... - HomeAdvisor",
+          "link": "https://www.homeadvisor.com/rated.KCAirConditioning.25389486.html",
+          "snippet": "Green Certifications. EnergyStar.gov - Home Performance with energy Star.Services Offered by Building Systems Integration, LLC DBA Comfort Zone Arizona.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green building as curriculum: how eco-friendly school architecture...",
+          "link": "https://pollypolish.com/green-building-as-curriculum-how-eco-friendly-school-architecture-becomes-a-teaching-tool-for-sustainability/",
+          "snippet": "The evolution of green building as curriculum requires moving beyond the current focus on individual building features toward more comprehensive, systemic approaches that integrate environmental educa",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Harnessing Renewable Energy: A Guide to Building Approval for...",
+          "link": "https://houseenergy.com.au/harnessing-renewable-energy-a-guide-to-building-approval-for-energy-efficient-homes-in-sunshine-coast/",
+          "snippet": "Discover how to integrate renewable energy systems in your waterfront property on the Sunshine Coast. Learn about energy modeling and green building approvals with our comprehensive guide.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "IKEA and others works were made with the contribution of ISOMAT!",
+          "link": "https://isomat.co.uk/references/ikea-sofia-2-en/",
+          "snippet": "ISOMAT Integrated System Solutions for Green Building. Corporate Social Responsibility (CSR).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "usgbc.org/leed/v41",
+          "link": "https://www.usgbc.org/leed/v41",
+          "snippet": "US Green Building Council in its version v4.1 for single family homes.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home : Hitachi Global",
+          "link": "https://www.hitachi.com/",
+          "snippet": "Building Systems. Hitachi provides a core IoT platform for smart, green buildings.See our financial results, our Integrated Report, and further details about our management policies, stock & bond info",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P5": {
+      "query": "find green construction consulting services",
+      "level": "market_map",
+      "result_count": 7,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "What Is Construction Consulting? | Green Construction",
+          "link": "https://crystalconstructionconsulting.com/what-is-construction-consulting/",
+          "snippet": "What Construction Consultants Do. Contractor Consultant and builders engaging while looking at tablet device Construction consulting services will vary somewhat from firm to firm, and from one consult",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Construction Consulting",
+          "link": "https://www.greenconstructionconsulting.com/",
+          "snippet": "CONTACT. Services. Green Construction Consulting specializes inOwner of Green Construction Services, LLC, Lakeland FL 1987-2020, specializing in insurance restoration, remodeling, and retrofits for in",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Environmental Consulting / Green Construction",
+          "link": "https://consulting-daniel.tilda.ws/services/environmental_consulting_green_construction",
+          "snippet": "Environmental Consulting / Green Construction. Opportunities for success.That\u2019s why Green Construction consulting is your gateway to building sustainably while maximizing efficiency and cost savings.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green construction consulting - The... - Nobility Construction",
+          "link": "https://nobilityconstruction.com/green-construction-consulting/",
+          "snippet": "Benefiting from green construction consulting services is a golden opportunity for project owners to achieve high added value and optimal efficiency while maintaining environmental health. In this art",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Project Experience | Dave Walsh Consulting",
+          "link": "https://davewalshconsulting.com/project-experience",
+          "snippet": "LEED and Green Construction Consulting; managed the certification process in design and construction. LEED Platinum rating. Deconstruction and reuse of existing heavy timber members; onsite material r",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "West Penn Energy Solutions",
+          "link": "https://westpennenergysolutions.com/",
+          "snippet": "West Penn Energy Solutions provides Green Construction Consulting Services throughout the Mid Atlantic Region. We strive to help our customers design and build High Performance Buildings. Our team con",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home | Who's Who in Energy, Water & Environment (EWE)",
+          "link": "https://whoswhoinewe.com/",
+          "snippet": "Select category Developers & EPC Contractors Water, Waste Water & Environmental Services Conventional Energy Services Green & Sustainability Consulting Green Construction & Design Recycling & Circular",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "What Is Construction Consulting? | Green Construction",
+          "link": "https://crystalconstructionconsulting.com/what-is-construction-consulting/",
+          "snippet": "What Construction Consultants Do. Contractor Consultant and builders engaging while looking at tablet device Construction consulting services will vary somewhat from firm to firm, and from one consult",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Construction Consulting",
+          "link": "https://www.greenconstructionconsulting.com/",
+          "snippet": "CONTACT. Services. Green Construction Consulting specializes inOwner of Green Construction Services, LLC, Lakeland FL 1987-2020, specializing in insurance restoration, remodeling, and retrofits for in",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Environmental Consulting / Green Construction",
+          "link": "https://consulting-daniel.tilda.ws/services/environmental_consulting_green_construction",
+          "snippet": "Environmental Consulting / Green Construction. Opportunities for success.That\u2019s why Green Construction consulting is your gateway to building sustainably while maximizing efficiency and cost savings.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green construction consulting - The... - Nobility Construction",
+          "link": "https://nobilityconstruction.com/green-construction-consulting/",
+          "snippet": "Benefiting from green construction consulting services is a golden opportunity for project owners to achieve high added value and optimal efficiency while maintaining environmental health. In this art",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Project Experience | Dave Walsh Consulting",
+          "link": "https://davewalshconsulting.com/project-experience",
+          "snippet": "LEED and Green Construction Consulting; managed the certification process in design and construction. LEED Platinum rating. Deconstruction and reuse of existing heavy timber members; onsite material r",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "West Penn Energy Solutions",
+          "link": "https://westpennenergysolutions.com/",
+          "snippet": "West Penn Energy Solutions provides Green Construction Consulting Services throughout the Mid Atlantic Region. We strive to help our customers design and build High Performance Buildings. Our team con",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home | Who's Who in Energy, Water & Environment (EWE)",
+          "link": "https://whoswhoinewe.com/",
+          "snippet": "Select category Developers & EPC Contractors Water, Waste Water & Environmental Services Conventional Energy Services Green & Sustainability Consulting Green Construction & Design Recycling & Circular",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "search for sustainable building installation services",
+      "level": "market_map",
+      "result_count": 2,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Worldwide leader in light and sustainable construction | Saint-Gobain",
+          "link": "https://www.saint-gobain.com/",
+          "snippet": "Sustainable Construction Observatory. Saint-Gobain designs, manufactures and distributes materials and services adapted to the residential, non-residential and infrastructure markets.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "3 Sustainable Construction in Llanymynech | Checkatrade",
+          "link": "https://www.checkatrade.com/Search/Sustainable-Construction/in/Llanymynech",
+          "snippet": "Search online for sustainable building companies in Llanymynech and contact them directly. Alternatively, why not try our time saving request a quote feature? Just send us the details of your job and ",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Worldwide leader in light and sustainable construction | Saint-Gobain",
+          "link": "https://www.saint-gobain.com/",
+          "snippet": "Sustainable Construction Observatory. Saint-Gobain designs, manufactures and distributes materials and services adapted to the residential, non-residential and infrastructure markets.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "3 Sustainable Construction in Llanymynech | Checkatrade",
+          "link": "https://www.checkatrade.com/Search/Sustainable-Construction/in/Llanymynech",
+          "snippet": "Search online for sustainable building companies in Llanymynech and contact them directly. Alternatively, why not try our time saving request a quote feature? Just send us the details of your job and ",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P7": {
+      "query": "green construction material distributors official site",
+      "level": "discovery",
+      "result_count": 20,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Green Color: Hex Code, Palettes & Meaning | Figma",
+          "link": "https://www.figma.com/colors/green/",
+          "snippet": "Green is a deep and classic shade that embodies nature and vitality. It sits squarely between blue and yellow on the color wheel \u2014a \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "237+ Shades of Green Color (Names, HEX, RGB, & CMYK Codes)",
+          "link": "https://creativebooster.net/blogs/colors/shades-of-green-color-names-hex-rgb-codes",
+          "snippet": "Feb 15, 2024 \u00b7 Green is a fresh and vibrant color that can be seen in nature, from lush forests to rolling hills and fields of deep green \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Green - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Green",
+          "snippet": "Green is the color between cyan and yellow on the visible spectrum. It has 295\u2013350 different shades. It is evoked by light which has a \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "134 Shades of Green: Color Names, Hex, RGB, CMYK Codes",
+          "link": "https://www.color-meanings.com/shades-of-green-color-names-html-hex-rgb-codes/",
+          "snippet": "Jungle green is a hard color to describe as the color can be all over the place, since there are even variations of jungle green itself. \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Shades of green - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Shades_of_green",
+          "snippet": "The color defined as green in HTML/CSS color standard is the color called green, low green, or medium green in many of the older \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "List of 211 Things with Green Color in English with Pictures",
+          "link": "https://www.vocabineer.com/things-with-green-color/",
+          "snippet": "Jan 16, 2026 \u00b7 Explore list of 211 things with green color in English. Includes everyday objects, foods, and natural items with simple \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Green (Color) \u2014 Meaning, Psychology, Symbolism, Uses, Shades",
+          "link": "https://thecoloratlas.org/green-color-meaning/",
+          "snippet": "Green color meaning represents balance, renewal, growth, and natural harmony across psychological, cultural, and design contexts. \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Green | Description, Etymology, & Facts | Britannica",
+          "link": "https://www.britannica.com/science/green-color",
+          "snippet": "Jun 26, 2026 \u00b7 Green, in physics, light in the wavelength range of 495\u2013570 nanometers, which is in the middle of the visible spectrum. \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Green Color Codes",
+          "link": "https://html-color.codes/green",
+          "snippet": "Green Color Codes The colors: lime green, bitter lime, msu green, pakistan green, inchworm and pine needle color are a few \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Green Color Psychology, Symbolism, and Meaning in Nature",
+          "link": "https://www.colorpsychology.org/green/",
+          "snippet": "Mar 9, 2025 \u00b7 Discover the meaning and symbolism of green color, including its RGB, HEX codes, and psychological impact, in this \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Best Construction Material Distributors",
+          "link": "https://www.sourceready.com/supplier/list/best-construction-material-distributors",
+          "snippet": "Best Construction Material Distributors. Company icon. Aircrete (China) Co., Ltd.Factory certifications. ISO 22000. Construction nails/steel concrete nails/common iron nail for building material.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home | Material Distributors",
+          "link": "https://material-distributors.com/",
+          "snippet": "MATERIAL DISTRIBUTORS. When you need Division 10, 11, and 12 products, look no further than Material Distributors, Inc. The largest specialty contractor on the East Coast serving the Construction Indu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Harbor Exports - Your Construction Material Distribution Partner",
+          "link": "https://harborexports.com/",
+          "snippet": "Passionate building material importers. Harbor Exports is your construction industry supply partner for importing top-of-the-line construction materials to the Caribbean, Central America, South Americ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Heidelberg Materials North America|Construction Materials",
+          "link": "https://www.heidelbergmaterials.us/",
+          "snippet": "Heidelberg Materials North America, formerly Lehigh Hanson, is a supplier of cement, aggregates, ready mixed concrete, asphalt, and other building materials.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Worldwide leader in light and sustainable construction | Saint-Gobain",
+          "link": "https://www.saint-gobain.com/",
+          "snippet": "Saint-Gobain designs, manufactures and distributes materials and services adapted to the residential, non-residential and infrastructure markets. Its integrated and innovative solutions provide sustai",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Construction Material Distributors & Dealers In India",
+          "link": "https://www.getdistributors.com/construction-material-distributors.html",
+          "snippet": "Distributors of. construction building materials, construction material.Distributors of. Construction Material like Mortarmix, wall putty, Tile adhesive, Jointing Mortar.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "SIC Code 5039 - Construction materials, n.e.c.",
+          "link": "https://siccode.com/sic-code/5039/construction-materials",
+          "snippet": "SIC Code 5039: The wholesale distribution of mobile homes and of construction materials, not elsewhere classified, including prefabricated buildings.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Strategic Sourcing: Choosing The Construction Material Distributor",
+          "link": "https://www.smartbusinessdaily.com/right-construction-material-distributor",
+          "snippet": "Evaluating Distributor Capabilities. Regarding construction material distributors, their capabilities play a pivotal role in determining the outcome of your project. Consistency in both the supply of ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Building Materials Market Size, Share | Industry Report 2035",
+          "link": "https://www.marketresearchfuture.com/reports/green-building-materials-market-1865",
+          "snippet": "Residential construction accounted for 42.45% of 2025 demand in the Green Building Materials Market, supported by green mortgage incentive programs. Commercial projects are projected to grow at a 10.6",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wuhan Whole house Custom Home Furnishing and... - Expolume",
+          "link": "https://expolume.com/expo/wuhan-whole-house-custom-home-furnishing-and-building-decoration-materials-expo-2026/",
+          "snippet": "Official Website.Shanghai International Green Architecture and Construction Materials Expo (ESBUILD) 2026. Aug 5, 2026 To Aug 7, 2026. Shanghai World Expo Exhibition and Convention Center.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Green Color: Hex Code, Palettes & Meaning | Figma",
+          "link": "https://www.figma.com/colors/green/",
+          "snippet": "Green is a deep and classic shade that embodies nature and vitality. It sits squarely between blue and yellow on the color wheel \u2014a \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "237+ Shades of Green Color (Names, HEX, RGB, & CMYK Codes)",
+          "link": "https://creativebooster.net/blogs/colors/shades-of-green-color-names-hex-rgb-codes",
+          "snippet": "Feb 15, 2024 \u00b7 Green is a fresh and vibrant color that can be seen in nature, from lush forests to rolling hills and fields of deep green \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Green - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Green",
+          "snippet": "Green is the color between cyan and yellow on the visible spectrum. It has 295\u2013350 different shades. It is evoked by light which has a \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "134 Shades of Green: Color Names, Hex, RGB, CMYK Codes",
+          "link": "https://www.color-meanings.com/shades-of-green-color-names-html-hex-rgb-codes/",
+          "snippet": "Jungle green is a hard color to describe as the color can be all over the place, since there are even variations of jungle green itself. \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Shades of green - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Shades_of_green",
+          "snippet": "The color defined as green in HTML/CSS color standard is the color called green, low green, or medium green in many of the older \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "List of 211 Things with Green Color in English with Pictures",
+          "link": "https://www.vocabineer.com/things-with-green-color/",
+          "snippet": "Jan 16, 2026 \u00b7 Explore list of 211 things with green color in English. Includes everyday objects, foods, and natural items with simple \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Green (Color) \u2014 Meaning, Psychology, Symbolism, Uses, Shades",
+          "link": "https://thecoloratlas.org/green-color-meaning/",
+          "snippet": "Green color meaning represents balance, renewal, growth, and natural harmony across psychological, cultural, and design contexts. \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Green | Description, Etymology, & Facts | Britannica",
+          "link": "https://www.britannica.com/science/green-color",
+          "snippet": "Jun 26, 2026 \u00b7 Green, in physics, light in the wavelength range of 495\u2013570 nanometers, which is in the middle of the visible spectrum. \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Green Color Codes",
+          "link": "https://html-color.codes/green",
+          "snippet": "Green Color Codes The colors: lime green, bitter lime, msu green, pakistan green, inchworm and pine needle color are a few \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Green Color Psychology, Symbolism, and Meaning in Nature",
+          "link": "https://www.colorpsychology.org/green/",
+          "snippet": "Mar 9, 2025 \u00b7 Discover the meaning and symbolism of green color, including its RGB, HEX codes, and psychological impact, in this \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Best Construction Material Distributors",
+          "link": "https://www.sourceready.com/supplier/list/best-construction-material-distributors",
+          "snippet": "Best Construction Material Distributors. Company icon. Aircrete (China) Co., Ltd.Factory certifications. ISO 22000. Construction nails/steel concrete nails/common iron nail for building material.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home | Material Distributors",
+          "link": "https://material-distributors.com/",
+          "snippet": "MATERIAL DISTRIBUTORS. When you need Division 10, 11, and 12 products, look no further than Material Distributors, Inc. The largest specialty contractor on the East Coast serving the Construction Indu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Harbor Exports - Your Construction Material Distribution Partner",
+          "link": "https://harborexports.com/",
+          "snippet": "Passionate building material importers. Harbor Exports is your construction industry supply partner for importing top-of-the-line construction materials to the Caribbean, Central America, South Americ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Heidelberg Materials North America|Construction Materials",
+          "link": "https://www.heidelbergmaterials.us/",
+          "snippet": "Heidelberg Materials North America, formerly Lehigh Hanson, is a supplier of cement, aggregates, ready mixed concrete, asphalt, and other building materials.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Worldwide leader in light and sustainable construction | Saint-Gobain",
+          "link": "https://www.saint-gobain.com/",
+          "snippet": "Saint-Gobain designs, manufactures and distributes materials and services adapted to the residential, non-residential and infrastructure markets. Its integrated and innovative solutions provide sustai",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Construction Material Distributors & Dealers In India",
+          "link": "https://www.getdistributors.com/construction-material-distributors.html",
+          "snippet": "Distributors of. construction building materials, construction material.Distributors of. Construction Material like Mortarmix, wall putty, Tile adhesive, Jointing Mortar.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "SIC Code 5039 - Construction materials, n.e.c.",
+          "link": "https://siccode.com/sic-code/5039/construction-materials",
+          "snippet": "SIC Code 5039: The wholesale distribution of mobile homes and of construction materials, not elsewhere classified, including prefabricated buildings.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Strategic Sourcing: Choosing The Construction Material Distributor",
+          "link": "https://www.smartbusinessdaily.com/right-construction-material-distributor",
+          "snippet": "Evaluating Distributor Capabilities. Regarding construction material distributors, their capabilities play a pivotal role in determining the outcome of your project. Consistency in both the supply of ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Building Materials Market Size, Share | Industry Report 2035",
+          "link": "https://www.marketresearchfuture.com/reports/green-building-materials-market-1865",
+          "snippet": "Residential construction accounted for 42.45% of 2025 demand in the Green Building Materials Market, supported by green mortgage incentive programs. Commercial projects are projected to grow at a 10.6",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wuhan Whole house Custom Home Furnishing and... - Expolume",
+          "link": "https://expolume.com/expo/wuhan-whole-house-custom-home-furnishing-and-building-decoration-materials-expo-2026/",
+          "snippet": "Official Website.Shanghai International Green Architecture and Construction Materials Expo (ESBUILD) 2026. Aug 5, 2026 To Aug 7, 2026. Shanghai World Expo Exhibition and Convention Center.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

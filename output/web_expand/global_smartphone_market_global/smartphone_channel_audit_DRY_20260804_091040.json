@@ -1,0 +1,169 @@
+{
+  "ts": "20260804_091040",
+  "dry": true,
+  "limit": 8,
+  "kept": 5,
+  "removed": 3,
+  "removed_companies": [
+    {
+      "company": "AB SA",
+      "reason": "No evidence that AB SA is a smartphone distributor; web results point to AllianceBernstein (asset management) and Allen-Bradley (industrial automation), not a mobile phone channel partner.",
+      "method": "web+deepseek",
+      "confidence": "high"
+    },
+    {
+      "company": "ABC Mobile Ltd",
+      "reason": "No evidence found for ABC Mobile Ltd as a smartphone distributor; web results refer to American Broadcasting Company.",
+      "method": "web+deepseek",
+      "confidence": "high"
+    },
+    {
+      "company": "ACCE Global Software Pvt Ltd",
+      "reason": "hard_drop:acce global software",
+      "method": "hard_rule",
+      "confidence": "high"
+    }
+  ],
+  "verdicts": [
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Evidence shows 3G Mobile is a leading mobile phone distributor serving retailers in Africa, with a division for insurance replacement services.",
+      "field_fixes": {
+        "Core Categories": "Mobile Phones; Tablets; Smartphones",
+        "Specialty Focus": "Distributor of mobile phones and tablets",
+        "Key Brands Represented": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 1469,
+        "out": 116
+      },
+      "company": "3G Mobile",
+      "method": "web+deepseek",
+      "evidence_chars": 3650
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Stored row indicates distributor specializing in mobile phone and consumer electronics distribution, and is a confirmed exhibitor at ITC 2026. Although web evidence is irrelevant, the stored data is plausible and no contradicting evidence found.",
+      "field_fixes": {},
+      "confidence": "low",
+      "usage": {
+        "in": 851,
+        "out": 94
+      },
+      "company": "A&H TECH LTD",
+      "method": "web+deepseek",
+      "evidence_chars": 1479
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Company is a B2B wholesale cell phone distributor, clearly a channel partner in the smartphone market.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "high",
+      "usage": {
+        "in": 856,
+        "out": 107
+      },
+      "company": "A1A Solutions LLC",
+      "method": "web+deepseek",
+      "evidence_chars": 1801
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence that AB SA is a smartphone distributor; web results point to AllianceBernstein (asset management) and Allen-Bradley (industrial automation), not a mobile phone channel partner.",
+      "field_fixes": {},
+      "confidence": "high",
+      "usage": {
+        "in": 991,
+        "out": 86
+      },
+      "company": "AB SA",
+      "method": "web+deepseek",
+      "evidence_chars": 2629
+    },
+    {
+      "action": "remove",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "reason": "No evidence found for ABC Mobile Ltd as a smartphone distributor; web results refer to American Broadcasting Company.",
+      "field_fixes": {},
+      "confidence": "high",
+      "usage": {
+        "in": 719,
+        "out": 69
+      },
+      "company": "ABC Mobile Ltd",
+      "method": "web+deepseek",
+      "evidence_chars": 1243
+    },
+    {
+      "company": "ACCE Global Software Pvt Ltd",
+      "action": "remove",
+      "reason": "hard_drop:acce global software",
+      "is_smartphone_related": false,
+      "is_channel_partner": false,
+      "field_fixes": {},
+      "confidence": "high",
+      "method": "hard_rule"
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Distributor of premium electronics including Apple products, which includes smartphones.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 763,
+        "out": 101
+      },
+      "company": "Acquvia Global",
+      "method": "web+deepseek",
+      "evidence_chars": 1254
+    },
+    {
+      "action": "keep",
+      "is_smartphone_related": true,
+      "is_channel_partner": true,
+      "reason": "Stored row indicates the company is a distributor of cellular handsets in Ghana, which is a channel partner role for smartphones. Web evidence did not contradict this, though it returned generic Agile results.",
+      "field_fixes": {
+        "Founded": "",
+        "Headquarters": "",
+        "Website": "",
+        "Business Type": "",
+        "Key Brands Represented": "",
+        "Core Categories": ""
+      },
+      "confidence": "medium",
+      "usage": {
+        "in": 1209,
+        "out": 126
+      },
+      "company": "Agile Telecommunications and Services Ltd",
+      "method": "web+deepseek",
+      "evidence_chars": 3323
+    }
+  ]
+}

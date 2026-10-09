@@ -186,7 +186,13 @@ def _clean_category(value: str, market: str) -> str:
 
 
 def _build_row(item: dict[str, str], *, market: str = "") -> dict[str, str] | None:
-    company = item["company"]
+    # .get(), not ["company"]: the model occasionally omits the field
+    # entirely. The caller screens for this too, but this function has
+    # other callers and a missing name must never raise -- it is simply
+    # not a usable row.
+    company = str(item.get("company") or "").strip()
+    if not company:
+        return None
 
     # GENUINE WHOLESALE/AUTHORIZED DISTRIBUTORS ONLY, for a PHYSICAL-GOODS
     # market: manufacturers/OEMs, system integrators, channel partners/
@@ -463,9 +469,21 @@ def _run_one_batch(state: MarketResearchState, market: str, *, batch_size: int) 
         for item in drafts:
             if len(verified_rows) >= batch_size:
                 break
-            name_lower = item["company"].strip().lower()
-            if state.is_seen(item["company"]) or name_lower in accepted_names_lower:
-                _log(f"  skip (duplicate): {item['company']}")
+            # The model sometimes returns an object with every field
+            # EXCEPT "company" -- observed live on the AP automation
+            # market: a complete, otherwise-valid record whose first key
+            # was "verdict". item["company"] raised KeyError, which
+            # killed the whole batch and discarded the nine good
+            # companies alongside the malformed one. A nameless row is
+            # unusable (the name is the dedupe and state key), so skip
+            # just that object and keep the rest.
+            name = str(item.get("company") or "").strip()
+            if not name:
+                _log("  skip (no company name in model output)")
+                continue
+            name_lower = name.lower()
+            if state.is_seen(name) or name_lower in accepted_names_lower:
+                _log(f"  skip (duplicate): {name}")
                 continue
             # Keyword-only so a test double taking just `item` keeps
             # working; several tests patch this with a 1-arg lambda.

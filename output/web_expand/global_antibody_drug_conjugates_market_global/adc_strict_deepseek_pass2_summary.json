@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-04T09:24:58.904065+00:00",
+  "model": "deepseek-chat",
+  "input": 359,
+  "kept": 353,
+  "removed": 6,
+  "business_types": {
+    "Distributor": 218,
+    "Specialty Distributor": 135
+  },
+  "removed_reasons": {
+    "hard_remove_logistics_or_non_channel": 3,
+    "Primarily a logistics/courier company, not a pharmaceutical distributor or specialty pharmacy.": 1,
+    "Health insurer, not a distributor.": 1,
+    "Primarily packaging services, not a distributor; may be logistics/packaging.": 1
+  },
+  "removed_sample": [
+    {
+      "company": "Cryoport Systems",
+      "reason": "hard_remove_logistics_or_non_channel",
+      "stage": "hard"
+    },
+    {
+      "company": "DHL Supply Chain Life Sciences",
+      "reason": "hard_remove_logistics_or_non_channel",
+      "stage": "hard"
+    },
+    {
+      "company": "World Courier",
+      "reason": "hard_remove_logistics_or_non_channel",
+      "stage": "hard"
+    },
+    {
+      "company": "FedEx Healthcare / Life Sciences",
+      "reason": "Primarily a logistics/courier company, not a pharmaceutical distributor or specialty pharmacy.",
+      "role": "logistics",
+      "stage": "deepseek"
+    },
+    {
+      "company": "Independence Blue Cross Specialty",
+      "reason": "Health insurer, not a distributor.",
+      "role": "insurer",
+      "stage": "deepseek"
+    },
+    {
+      "company": "Sharp Packaging Services distribution",
+      "reason": "Primarily packaging services, not a distributor; may be logistics/packaging.",
+      "role": "logistics",
+      "stage": "deepseek"
+    }
+  ]
+}

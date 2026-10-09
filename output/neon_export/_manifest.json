@@ -1,0 +1,455 @@
+{
+  "exported_at": "2026-07-06T10:11:43.177271Z",
+  "tables": [
+    {
+      "schema": "public",
+      "table": "bcorp_lookup",
+      "rows": 10337,
+      "columns": [
+        "company_id",
+        "company_name",
+        "country",
+        "state",
+        "city",
+        "industry",
+        "industry_category",
+        "sector",
+        "sasb_sector",
+        "size",
+        "website",
+        "ownership",
+        "current_status",
+        "assessment_year",
+        "overall_score",
+        "impact_area_environment",
+        "impact_area_governance",
+        "impact_area_workers",
+        "impact_area_community",
+        "impact_area_customers",
+        "created_at",
+        "updated_at"
+      ],
+      "files": [
+        "bcorp_lookup.csv",
+        "bcorp_lookup.json",
+        "bcorp_lookup.xlsx"
+      ]
+    },
+    {
+      "schema": "public",
+      "table": "cmi_report_dynamic",
+      "rows": 4620,
+      "columns": [
+        "id",
+        "rid",
+        "field_1",
+        "disc_1",
+        "field_2",
+        "disc_2",
+        "field_3",
+        "disc_3",
+        "field_4",
+        "disc_4",
+        "field_5",
+        "disc_5",
+        "field_6",
+        "disc_6",
+        "field_7",
+        "disc_7",
+        "field_8",
+        "disc_8",
+        "field_9",
+        "disc_9",
+        "field_10",
+        "disc_10",
+        "field_11",
+        "disc_11",
+        "field_12",
+        "disc_12",
+        "field_13",
+        "disc_13",
+        "field_14",
+        "disc_14",
+        "field_15",
+        "disc_15",
+        "field_16",
+        "disc_16",
+        "field_17",
+        "disc_17",
+        "field_18",
+        "disc_18",
+        "field_19",
+        "disc_19",
+        "field_20",
+        "disc_20",
+        "addedDate",
+        "ModifiedDate"
+      ],
+      "files": [
+        "cmi_report_dynamic.csv",
+        "cmi_report_dynamic.json",
+        "cmi_report_dynamic.xlsx"
+      ]
+    },
+    {
+      "schema": "public",
+      "table": "cmi_reports",
+      "rows": 9563,
+      "columns": [
+        "newsId",
+        "reportstatus",
+        "CatId",
+        "newsSubject",
+        "keyword",
+        "forcastyear",
+        "newsLDesc",
+        "summary",
+        "segmentation",
+        "newsDate",
+        "Price_SUL",
+        "Price_CUL",
+        "Price_Multi",
+        "Ex_Summary",
+        "Ex_Databook",
+        "No_Pages",
+        "CreatedDate",
+        "ModifiedDate",
+        "IsActive",
+        "discount",
+        "meta_title",
+        "meta_description",
+        "meta_keywords",
+        "CustomName",
+        "admin_id",
+        "keywords",
+        "authid",
+        "isNewFormat"
+      ],
+      "files": [
+        "cmi_reports.csv",
+        "cmi_reports.json",
+        "cmi_reports.xlsx"
+      ]
+    },
+    {
+      "schema": "public",
+      "table": "cmi_reportsummery",
+      "rows": 2231,
+      "columns": [
+        "sid",
+        "nid",
+        "market_size_trends",
+        "market_concentration_comp_landscape",
+        "key_analyst_takeaways",
+        "regional_insights",
+        "report_scope_table",
+        "key_developments",
+        "report_segmentation",
+        "insight1_header",
+        "insight1_description",
+        "insight2_header",
+        "insight2_description",
+        "insight3_header",
+        "insight3_description",
+        "insight4_header",
+        "insight4_description",
+        "insight5_header",
+        "insight5_description",
+        "market_dynamics",
+        "key_stakeholders",
+        "segmental_insights",
+        "current_events_impact",
+        "end_user_feedback",
+        "sources_info",
+        "ai_role_market",
+        "market_trends",
+        "market_trends_title",
+        "current_events_impact_title",
+        "end_user_feedback_title",
+        "sources_info_title",
+        "ai_role_market_title",
+        "sources",
+        "addeddate",
+        "modifieddate"
+      ],
+      "files": [
+        "cmi_reportsummery.csv",
+        "cmi_reportsummery.json",
+        "cmi_reportsummery.xlsx"
+      ]
+    },
+    {
+      "schema": "public",
+      "table": "cmi_toc",
+      "rows": 8040,
+      "columns": [
+        "id",
+        "newsId",
+        "TOC"
+      ],
+      "files": [
+        "cmi_toc.csv",
+        "cmi_toc.json",
+        "cmi_toc.xlsx"
+      ]
+    },
+    {
+      "schema": "public",
+      "table": "companies",
+      "rows": 106,
+      "columns": [
+        "id",
+        "name",
+        "ticker",
+        "has_public_esg",
+        "created_at",
+        "country",
+        "esg_scoring"
+      ],
+      "files": [
+        "companies.csv",
+        "companies.json",
+        "companies.xlsx"
+      ]
+    },
+    {
+      "schema": "public",
+      "table": "company_esg_signals",
+      "rows": 43,
+      "columns": [
+        "id",
+        "company_id",
+        "source",
+        "signal_text",
+        "gathered_at"
+      ],
+      "files": [
+        "company_esg_signals.csv",
+        "company_esg_signals.json",
+        "company_esg_signals.xlsx"
+      ]
+    },
+    {
+      "schema": "public",
+      "table": "company_metadata",
+      "rows": 9,
+      "columns": [
+        "company_id",
+        "source",
+        "data",
+        "fetched_at"
+      ],
+      "files": [
+        "company_metadata.csv",
+        "company_metadata.json",
+        "company_metadata.xlsx"
+      ]
+    },
+    {
+      "schema": "public",
+      "table": "company_metric_values",
+      "rows": 479,
+      "columns": [
+        "id",
+        "company_id",
+        "metric_id",
+        "value",
+        "numeric_value",
+        "reporting_year",
+        "source",
+        "confidence",
+        "reasoning"
+      ],
+      "files": [
+        "company_metric_values.csv",
+        "company_metric_values.json",
+        "company_metric_values.xlsx"
+      ]
+    },
+    {
+      "schema": "public",
+      "table": "country_esg_baseline",
+      "rows": 210,
+      "columns": [
+        "id",
+        "country",
+        "year",
+        "e_score",
+        "s_score",
+        "g_score",
+        "indicator_count",
+        "computed_at"
+      ],
+      "files": [
+        "country_esg_baseline.csv",
+        "country_esg_baseline.json",
+        "country_esg_baseline.xlsx"
+      ]
+    },
+    {
+      "schema": "public",
+      "table": "esg_metric_definitions",
+      "rows": 106,
+      "columns": [
+        "id",
+        "key",
+        "name",
+        "description",
+        "unit",
+        "category",
+        "sasb_sector",
+        "source_framework",
+        "is_universal"
+      ],
+      "files": [
+        "esg_metric_definitions.csv",
+        "esg_metric_definitions.json",
+        "esg_metric_definitions.xlsx"
+      ]
+    },
+    {
+      "schema": "public",
+      "table": "market_company_link",
+      "rows": 106,
+      "columns": [
+        "market_id",
+        "company_id"
+      ],
+      "files": [
+        "market_company_link.csv",
+        "market_company_link.json",
+        "market_company_link.xlsx"
+      ]
+    },
+    {
+      "schema": "public",
+      "table": "market_metric_link",
+      "rows": 0,
+      "columns": [
+        "market_id",
+        "metric_id"
+      ],
+      "files": [
+        "market_metric_link.csv",
+        "market_metric_link.json",
+        "market_metric_link.xlsx"
+      ]
+    },
+    {
+      "schema": "public",
+      "table": "markets",
+      "rows": 9559,
+      "columns": [
+        "id",
+        "name",
+        "sector_code",
+        "status",
+        "created_at",
+        "updated_at",
+        "sasb_sector"
+      ],
+      "files": [
+        "markets.csv",
+        "markets.json",
+        "markets.xlsx"
+      ]
+    },
+    {
+      "schema": "public",
+      "table": "upright_lookup",
+      "rows": 10086,
+      "columns": [
+        "company_id",
+        "name",
+        "industry",
+        "country",
+        "continent",
+        "listing_status",
+        "revenue_usd",
+        "release",
+        "net_impact_ratio",
+        "net_impact_sum",
+        "net_impact_ratio_percentile",
+        "net_impact_sum_percentile",
+        "most_positive_category",
+        "most_negative_category",
+        "e1_ghg_negative",
+        "e1_ghg_positive",
+        "e2_non_ghg_negative",
+        "e2_non_ghg_positive",
+        "e3_scarce_resources_negative",
+        "e3_scarce_resources_positive",
+        "e4_biodiversity_negative",
+        "e4_biodiversity_positive",
+        "e5_waste_negative",
+        "e5_waste_positive",
+        "h1_physical_diseases_negative",
+        "h1_physical_diseases_positive",
+        "h2_mental_diseases_negative",
+        "h2_mental_diseases_positive",
+        "h3_nutrition_positive",
+        "h4_relationships_negative",
+        "h4_relationships_positive",
+        "h5_meaning_joy_negative",
+        "h5_meaning_joy_positive",
+        "k1_scarce_human_capital_negative",
+        "k2_knowledge_infra_positive",
+        "k3_creating_knowledge_positive",
+        "k4_distributing_knowledge_negative",
+        "k4_distributing_knowledge_positive",
+        "s1_jobs_positive",
+        "s2_taxes_positive",
+        "s3_societal_infra_positive",
+        "s4_societal_stability_negative",
+        "s4_societal_stability_positive",
+        "s5_equality_negative",
+        "s5_equality_positive",
+        "sdg_1_aligned",
+        "sdg_1_misaligned",
+        "sdg_2_aligned",
+        "sdg_2_misaligned",
+        "sdg_3_aligned",
+        "sdg_3_misaligned",
+        "sdg_4_aligned",
+        "sdg_4_misaligned",
+        "sdg_5_aligned",
+        "sdg_5_misaligned",
+        "sdg_6_aligned",
+        "sdg_6_misaligned",
+        "sdg_7_aligned",
+        "sdg_7_misaligned",
+        "sdg_8_aligned",
+        "sdg_8_misaligned",
+        "sdg_9_aligned",
+        "sdg_9_misaligned",
+        "sdg_10_aligned",
+        "sdg_10_misaligned",
+        "sdg_11_aligned",
+        "sdg_11_misaligned",
+        "sdg_12_aligned",
+        "sdg_12_misaligned",
+        "sdg_13_aligned",
+        "sdg_13_misaligned",
+        "sdg_14_aligned",
+        "sdg_14_misaligned",
+        "sdg_15_aligned",
+        "sdg_15_misaligned",
+        "sdg_16_aligned",
+        "sdg_16_misaligned",
+        "sdg_17_aligned",
+        "sdg_17_misaligned",
+        "eu_climate_alignment",
+        "eu_climate_eligibility",
+        "eu_union_alignment",
+        "eu_union_eligibility",
+        "created_at",
+        "updated_at"
+      ],
+      "files": [
+        "upright_lookup.csv",
+        "upright_lookup.json",
+        "upright_lookup.xlsx"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,956 @@
+{
+  "phase": 1,
+  "query": "Nanomedicines Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T21:36:18.896286+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "nanomedicines",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "pharmaceuticals",
+    "industry_terms": [
+      "nanomedicine",
+      "nanoparticles",
+      "drug delivery systems",
+      "theranostics",
+      "nanocarriers"
+    ],
+    "ecosystem_functions": [
+      "distributing nanomedicines",
+      "wholesaling pharmaceutical products",
+      "reselling healthcare solutions",
+      "integrating healthcare systems",
+      "providing logistics services",
+      "offering consulting for nanomedicines",
+      "partnering in channel sales",
+      "facilitating supply chain management"
+    ],
+    "interpretation_summary": "The nanomedicines market encompasses the development and distribution of medicinal products that utilize nanotechnology for therapeutic purposes. Participants include manufacturers, distributors, and various channel part",
+    "relevance_keywords": [
+      "nanomedicine suppliers",
+      "nanotechnology distributors",
+      "pharmaceutical logistics",
+      "healthcare resellers",
+      "nanomedicine consulting"
+    ],
+    "negative_keywords": [
+      "pharmaceutical manufacturing",
+      "clinical trials",
+      "research institutions",
+      "regulatory compliance",
+      "biotechnology",
+      "medical devices"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "Thermo Fisher Scientific",
+        "primary_domain": "thermofisher.com",
+        "company_function": "distributor of scientific products including nanomedicines"
+      },
+      {
+        "canonical_name": "McKesson",
+        "primary_domain": "mckesson.com",
+        "company_function": "wholesaler of pharmaceuticals and healthcare products"
+      },
+      {
+        "canonical_name": "Cardinal Health",
+        "primary_domain": "cardinalhealth.com",
+        "company_function": "distributor and reseller of medical products"
+      },
+      {
+        "canonical_name": "Fujifilm Diosynth Biotechnologies",
+        "primary_domain": "fujifilmdiosynth.com",
+        "company_function": "service provider for biopharmaceuticals including nanomedicines"
+      },
+      {
+        "canonical_name": "Siemens Healthineers",
+        "primary_domain": "siemens-healthineers.com",
+        "company_function": "system integrator for healthcare technologies"
+      },
+      {
+        "canonical_name": "Scripps Research",
+        "primary_domain": "scripps.edu",
+        "company_function": "consulting and service provider in nanomedicine research"
+      },
+      {
+        "canonical_name": "Bristol-Myers Squibb",
+        "primary_domain": "bms.com",
+        "company_function": "pharmaceutical company involved in nanomedicine development"
+      },
+      {
+        "canonical_name": "Amgen",
+        "primary_domain": "amgen.com",
+        "company_function": "biopharmaceutical company with nanomedicine products"
+      },
+      {
+        "canonical_name": "Roche",
+        "primary_domain": "roche.com",
+        "company_function": "pharmaceutical company involved in nanomedicine research",
+        "segment": "Distributors",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Pfizer",
+        "primary_domain": "pfizer.com",
+        "company_function": "pharmaceutical company with nanomedicine applications",
+        "segment": "Distributors",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "TheraBiologics",
+        "primary_domain": "therabiologics.com",
+        "company_function": "service provider specializing in nanomedicine solutions",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "NanoCarrier",
+        "primary_domain": "nanocarrier.com",
+        "company_function": "developer of nanomedicine delivery systems",
+        "segment": "Distributors",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "NantKwest",
+        "primary_domain": "nantkwest.com",
+        "company_function": "biotechnology company focused on nanomedicine",
+        "segment": "Distributors",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "CureVac",
+        "primary_domain": "curevac.com",
+        "company_function": "biopharmaceutical company with nanomedicine products",
+        "segment": "Distributors",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "nanomedicines",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "nanomedicines",
+    "include_keywords": [
+      "nanomedicine distribution",
+      "nanomedicine wholesalers",
+      "nanomedicine resellers",
+      "nanomedicine service providers",
+      "nanomedicine system integration"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The nanomedicines market encompasses the development and distribution of medicinal products that utilize nanotechnology for therapeutic purposes. Participants include manufacturers, distributors, and various channel partners involved in the supply chain of nanomedicines on a global scale.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Distribution",
+        "description": "This layer involves the distribution of nanomedicines through various channel partners.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Pharmaceutical Distributors",
+              "Healthcare Distributors"
+            ],
+            "participant_types": [
+              "distributor",
+              "wholesaler"
+            ],
+            "search_intents": [
+              "nanomedicine distributors official site",
+              "nanomedicine wholesale suppliers"
+            ]
+          },
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Online Resellers",
+              "Pharmacy Resellers"
+            ],
+            "participant_types": [
+              "reseller"
+            ],
+            "search_intents": [
+              "nanomedicine resellers official site",
+              "buy nanomedicine from resellers"
+            ]
+          },
+          {
+            "segment_name": "Service Providers",
+            "sub_segments": [
+              "Logistics Providers",
+              "Consulting Services"
+            ],
+            "participant_types": [
+              "service provider"
+            ],
+            "search_intents": [
+              "nanomedicine service providers official site",
+              "consulting services for nanomedicine"
+            ]
+          },
+          {
+            "segment_name": "System Integrators",
+            "sub_segments": [
+              "Healthcare System Integrators",
+              "Technology Integrators"
+            ],
+            "participant_types": [
+              "system integrator"
+            ],
+            "search_intents": [
+              "nanomedicine system integrators official site",
+              "technology integration for nanomedicine"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Pharmaceutical Manufacturers",
+        "Research Institutions",
+        "Regulatory Bodies",
+        "Clinical Trial Organizations"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "search for nanomedicine distributors in your region",
+        "sub_sector": "distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "find official nanomedicine wholesalers online",
+        "sub_sector": "wholesaler",
+        "layer_id": "L1",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "search for nanomedicine resellers in your area",
+        "sub_sector": "reseller",
+        "layer_id": "L1",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "look for service providers in nanomedicine logistics",
+        "sub_sector": "service_provider",
+        "layer_id": "L1",
+        "segment": "Service Providers"
+      },
+      {
+        "id": "M5",
+        "level": "market_map",
+        "text": "search for system integrators for nanomedicine solutions",
+        "sub_sector": "system_integrator",
+        "layer_id": "L1",
+        "segment": "System Integrators"
+      },
+      {
+        "id": "M6",
+        "level": "market_map",
+        "text": "find channel partners for nanomedicine distribution",
+        "sub_sector": "channel_partner",
+        "layer_id": "L1",
+        "segment": "Channel Partners"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "pharmaceuticals",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "nanomedicines companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "nanomedicine distributors corporate site"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "nanomedicine service providers official site"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "market_map",
+      "text": "search for nanomedicine distributors in your region"
+    },
+    {
+      "id": "P2",
+      "level": "market_map",
+      "text": "find official nanomedicine wholesalers online"
+    },
+    {
+      "id": "P3",
+      "level": "market_map",
+      "text": "search for nanomedicine resellers in your area"
+    },
+    {
+      "id": "P4",
+      "level": "market_map",
+      "text": "look for service providers in nanomedicine logistics"
+    },
+    {
+      "id": "P5",
+      "level": "market_map",
+      "text": "search for system integrators for nanomedicine solutions"
+    },
+    {
+      "id": "P6",
+      "level": "market_map",
+      "text": "find channel partners for nanomedicine distribution"
+    },
+    {
+      "id": "P7",
+      "level": "discovery",
+      "text": "nanomedicine distributors official site"
+    },
+    {
+      "id": "P8",
+      "level": "discovery",
+      "text": "nanomedicine wholesale suppliers official site"
+    },
+    {
+      "id": "P9",
+      "level": "discovery",
+      "text": "nanomedicine resellers official site"
+    },
+    {
+      "id": "P10",
+      "level": "discovery",
+      "text": "buy nanomedicine from resellers"
+    },
+    {
+      "id": "P11",
+      "level": "discovery",
+      "text": "consulting services for nanomedicine"
+    },
+    {
+      "id": "P12",
+      "level": "discovery",
+      "text": "nanomedicine system integrators official site"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "nanomedicines companies official websites",
+      "level": "L0",
+      "result_count": 9,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "NMIN \u2013 Nanomedicines Innovation Network \u2013 creating...",
+          "link": "https://www.nanomedicines.ca/",
+          "snippet": "eHTA Fast Facts. eHTA Suitability Checklist. Spin-off Companies.The NanoMedicines Innovation Network (NMIN) was funded from April 2019 to July 2024 by the Government of Canada through the Networks of ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "NanoMedicines Research Group",
+          "link": "https://www.liposomes.ca/",
+          "snippet": "Publications. Drugs. Companies. NanoMedicines Innovation Network (NMIN).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nanomedicines Market Size, Share and Forecast, 2026-2033",
+          "link": "https://www.coherentmarketinsights.com/market-insight/nanomedicines-market-393",
+          "snippet": "North America is projected to dominate the global nanomedicines market in 2026, with a share of over 47% due to strong presence of key pharmaceutical companies and advanced healthcare facilities.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "existing nanomedicines \u2013 The British Society for Nanomedicine",
+          "link": "https://www.britishsocietynanomedicine.org/existing-nanomedicines/",
+          "snippet": "Clinically approved nanomedicines and nanoformulations. Nanomaterial. API. Brand name. Company. Approved. Polymer-protein conjugate.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Regulation of Nanomedicines | Possible challenges",
+          "link": "https://www.pharmafocusasia.com/strategy/regulation-nanomedicines",
+          "snippet": "Regulation of nanomedicines is a challenge due to the lack of extensive scientific advancements, non-availability of expertise easily and customised detection tools and techniques in the field.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "ViaNautis | Pioneering the Next Generation of Genetic Nanomedicines",
+          "link": "https://vianautis.com/",
+          "snippet": "ViaNautis Bio (\u201cViaNautis\u201d or the \u201cCompany\u201d), a groundbreaking nanomedicine company at the forefront of genetic therapies, today announces the appointment of Dr Adi Hoess as\u2026",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Spago Nanomedical",
+          "link": "https://spagonanomedical.se/",
+          "snippet": "Spago Nanomedical AB is a Swedish nanomedicines company in clinical development phase. The company\u00b4s development projects are based on a platform of polymeric materials with unique properties for more",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nanomedicine development and manufacturing - Cytiva",
+          "link": "https://www.cytivalifesciences.com/en/us/solutions/bioprocessing/services/nanomedicine-development-and-manufacturing",
+          "snippet": "An ionizable lipid portfolio at your fingertips Access formulation development insights and expertise combined with a well-characterized ionizable lipid library to develop and optimize fit-for-purpose",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nanomedicine: LNP & Polymeric Nanoparticles | Ardena",
+          "link": "https://ardena.com/services/nanomedicines/",
+          "snippet": "Our Sites. View All Sites Ghent, Belgium Somerset, USA Oss, Netherlands Pamplona, Spain Assen, Netherlands.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "NMIN \u2013 Nanomedicines Innovation Network \u2013 creating...",
+          "link": "https://www.nanomedicines.ca/",
+          "snippet": "eHTA Fast Facts. eHTA Suitability Checklist. Spin-off Companies.The NanoMedicines Innovation Network (NMIN) was funded from April 2019 to July 2024 by the Government of Canada through the Networks of ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "NanoMedicines Research Group",
+          "link": "https://www.liposomes.ca/",
+          "snippet": "Publications. Drugs. Companies. NanoMedicines Innovation Network (NMIN).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nanomedicines Market Size, Share and Forecast, 2026-2033",
+          "link": "https://www.coherentmarketinsights.com/market-insight/nanomedicines-market-393",
+          "snippet": "North America is projected to dominate the global nanomedicines market in 2026, with a share of over 47% due to strong presence of key pharmaceutical companies and advanced healthcare facilities.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "existing nanomedicines \u2013 The British Society for Nanomedicine",
+          "link": "https://www.britishsocietynanomedicine.org/existing-nanomedicines/",
+          "snippet": "Clinically approved nanomedicines and nanoformulations. Nanomaterial. API. Brand name. Company. Approved. Polymer-protein conjugate.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Regulation of Nanomedicines | Possible challenges",
+          "link": "https://www.pharmafocusasia.com/strategy/regulation-nanomedicines",
+          "snippet": "Regulation of nanomedicines is a challenge due to the lack of extensive scientific advancements, non-availability of expertise easily and customised detection tools and techniques in the field.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "ViaNautis | Pioneering the Next Generation of Genetic Nanomedicines",
+          "link": "https://vianautis.com/",
+          "snippet": "ViaNautis Bio (\u201cViaNautis\u201d or the \u201cCompany\u201d), a groundbreaking nanomedicine company at the forefront of genetic therapies, today announces the appointment of Dr Adi Hoess as\u2026",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Spago Nanomedical",
+          "link": "https://spagonanomedical.se/",
+          "snippet": "Spago Nanomedical AB is a Swedish nanomedicines company in clinical development phase. The company\u00b4s development projects are based on a platform of polymeric materials with unique properties for more",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nanomedicine development and manufacturing - Cytiva",
+          "link": "https://www.cytivalifesciences.com/en/us/solutions/bioprocessing/services/nanomedicine-development-and-manufacturing",
+          "snippet": "An ionizable lipid portfolio at your fingertips Access formulation development insights and expertise combined with a well-characterized ionizable lipid library to develop and optimize fit-for-purpose",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nanomedicine: LNP & Polymeric Nanoparticles | Ardena",
+          "link": "https://ardena.com/services/nanomedicines/",
+          "snippet": "Our Sites. View All Sites Ghent, Belgium Somerset, USA Oss, Netherlands Pamplona, Spain Assen, Netherlands.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "nanomedicine distributors corporate site",
+      "level": "L1",
+      "result_count": 3,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Nanomedicine: LNP & Polymeric Nanoparticles | Ardena",
+          "link": "https://ardena.com/services/nanomedicines/",
+          "snippet": "Nanomedicine Manufacturing Comprehensive nanomedicine development and manufacturing services from process development through GMP manufacturing. State-of-the-art fill and finish capabilities ensuring ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nanomedicines: current status and future perspectives in aspect of...",
+          "link": "https://link.springer.com/article/10.1007/s40005-017-0370-4",
+          "snippet": "Especially, various kinetic characteristics of nanomedicines in body are further influenced by their formulations. This review provides an updated understanding of nanomedicines with respect to delive",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The EPR effect and beyond: Strategies to improve tumor targeting and...",
+          "link": "https://www.thno.org/v10p7921.htm",
+          "snippet": "A comprehensive review by De Maar, Deckers and colleagues addresses multiscale imaging techniques for analyzing the heterogeneity of nanomedicines' spatial distribution in tumors, which is an importan",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Nanomedicine: LNP & Polymeric Nanoparticles | Ardena",
+          "link": "https://ardena.com/services/nanomedicines/",
+          "snippet": "Nanomedicine Manufacturing Comprehensive nanomedicine development and manufacturing services from process development through GMP manufacturing. State-of-the-art fill and finish capabilities ensuring ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nanomedicines: current status and future perspectives in aspect of...",
+          "link": "https://link.springer.com/article/10.1007/s40005-017-0370-4",
+          "snippet": "Especially, various kinetic characteristics of nanomedicines in body are further influenced by their formulations. This review provides an updated understanding of nanomedicines with respect to delive",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The EPR effect and beyond: Strategies to improve tumor targeting and...",
+          "link": "https://www.thno.org/v10p7921.htm",
+          "snippet": "A comprehensive review by De Maar, Deckers and colleagues addresses multiscale imaging techniques for analyzing the heterogeneity of nanomedicines' spatial distribution in tumors, which is an importan",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "nanomedicine service providers official site",
+      "level": "L2",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Nanomedicine: LNP & Polymeric Nanoparticles | Ardena",
+          "link": "https://ardena.com/services/nanomedicines/",
+          "snippet": "Comprehensive nanomedicine development and manufacturing services from process development through GMP manufacturing.Our comprehensive CMC regulatory services streamline the preparation and submission",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Nanomedicine: LNP & Polymeric Nanoparticles | Ardena",
+          "link": "https://ardena.com/services/nanomedicines/",
+          "snippet": "Comprehensive nanomedicine development and manufacturing services from process development through GMP manufacturing.Our comprehensive CMC regulatory services streamline the preparation and submission",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "search for nanomedicine distributors in your region",
+      "level": "market_map",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "\u041f\u043e\u0438\u0441\u043a - \u0412\u041a\u043e\u043d\u0442\u0430\u043a\u0442\u0435",
+          "link": "https://vk.com/search?q=%E7%BB%B3%E7%BC%9A%E6%97%A5%E6%9C%AC",
+          "snippet": "\u0412\u041a\u043e\u043d\u0442\u0430\u043a\u0442\u0435 \u2013 \u0443\u043d\u0438\u0432\u0435\u0440\u0441\u0430\u043b\u044c\u043d\u043e\u0435 \u0441\u0440\u0435\u0434\u0441\u0442\u0432\u043e \u0434\u043b\u044f \u043e\u0431\u0449\u0435\u043d\u0438\u044f \u0438 \u043f\u043e\u0438\u0441\u043a\u0430 \u0434\u0440\u0443\u0437\u0435\u0439 \u0438 \u043e\u0434\u043d\u043e\u043a\u043b\u0430\u0441\u0441\u043d\u0438\u043a\u043e\u0432, \u043a\u043e\u0442\u043e\u0440\u044b\u043c \u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u043e \u043f\u043e\u043b\u044c\u0437\u0443\u044e\u0442\u0441\u044f \u2026",
+          "backend": "searxng"
+        }
+      ],
+      "sample": [
+        {
+          "title": "\u041f\u043e\u0438\u0441\u043a - \u0412\u041a\u043e\u043d\u0442\u0430\u043a\u0442\u0435",
+          "link": "https://vk.com/search?q=%E7%BB%B3%E7%BC%9A%E6%97%A5%E6%9C%AC",
+          "snippet": "\u0412\u041a\u043e\u043d\u0442\u0430\u043a\u0442\u0435 \u2013 \u0443\u043d\u0438\u0432\u0435\u0440\u0441\u0430\u043b\u044c\u043d\u043e\u0435 \u0441\u0440\u0435\u0434\u0441\u0442\u0432\u043e \u0434\u043b\u044f \u043e\u0431\u0449\u0435\u043d\u0438\u044f \u0438 \u043f\u043e\u0438\u0441\u043a\u0430 \u0434\u0440\u0443\u0437\u0435\u0439 \u0438 \u043e\u0434\u043d\u043e\u043a\u043b\u0430\u0441\u0441\u043d\u0438\u043a\u043e\u0432, \u043a\u043e\u0442\u043e\u0440\u044b\u043c \u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u043e \u043f\u043e\u043b\u044c\u0437\u0443\u044e\u0442\u0441\u044f \u2026",
+          "backend": "searxng"
+        }
+      ]
+    },
+    "P2": {
+      "query": "find official nanomedicine wholesalers online",
+      "level": "market_map",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Find your phone - Google Account",
+          "link": "https://myaccount.google.com/intro/find-your-phone?hl=en-US",
+          "snippet": "Lost your phone? Try some simple steps, like showing the location or locking the screen, to help you secure it.",
+          "backend": "searxng"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Find your phone - Google Account",
+          "link": "https://myaccount.google.com/intro/find-your-phone?hl=en-US",
+          "snippet": "Lost your phone? Try some simple steps, like showing the location or locking the screen, to help you secure it.",
+          "backend": "searxng"
+        }
+      ]
+    },
+    "P3": {
+      "query": "search for nanomedicine resellers in your area",
+      "level": "market_map",
+      "result_count": 6,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Top 100 Nanomedicine Companies in Canada (2026) | ensun",
+          "link": "https://ensun.io/search/nanomedicine/canada",
+          "snippet": "Discover all relevant Nanomedicine Companies in Canada, including NanoVation Therapeutics and NanoStar Pharmamceuticals.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nanomedicine for drug delivery in South Africa: a protocol for...",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6173875/",
+          "snippet": "The emergence of nanomedicine in the past decade has changed the landscape of disease diagnosis and treatment.What progress has been made on the use of nanomedicine for drug delivery with reference to",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Stimuli-Responsive Nanomedicine - 1st Edition - Lin Zhu - Routledge Bo",
+          "link": "https://www.routledge.com/Stimuli-Responsive-Nanomedicine/Zhu/p/book/9789814800709",
+          "snippet": "Stimuli-responsive nanomedicine for treating non-cancer diseases.\"Stimuli-responsive nanomedicine has been one of the hottest areas in drug delivery. This book comprehensively collects various types o",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nanomedicine & Water: Smarter Drug Design & Delivery - Archyworldys",
+          "link": "https://www.archyworldys.com/nanomedicine-water-smarter-drug-design-delivery/",
+          "snippet": "The Unexpected Importance of Hydration Energetics. For years, nanomedicine has promised revolutionary advancements in drug delivery. But translating that promise into consistent, reliable results has ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nanomedicine Jobs In Hong Kong | Recruit.net",
+          "link": "https://hongkong.recruit.net/search-nanomedicine-jobs",
+          "snippet": "Explore 40 exciting nanomedicine positions in Hong Kong! From City University Of Hong Kong Dongguan to Pharmaguidelines, find your perfect match today. Competitive salaries and career growth await. Ap",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "People Finder, Trinity College Dublin",
+          "link": "https://people.tcd.ie/Profile?Username=prinamea",
+          "snippet": "Search By Research Tag! Search for other researchers who have.European Commission Expert Advisor Task Force Characterization. Mar-2016. EuroNanoForum 2013 - International Advisory Group Area Nanomedic",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Top 100 Nanomedicine Companies in Canada (2026) | ensun",
+          "link": "https://ensun.io/search/nanomedicine/canada",
+          "snippet": "Discover all relevant Nanomedicine Companies in Canada, including NanoVation Therapeutics and NanoStar Pharmamceuticals.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nanomedicine for drug delivery in South Africa: a protocol for...",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6173875/",
+          "snippet": "The emergence of nanomedicine in the past decade has changed the landscape of disease diagnosis and treatment.What progress has been made on the use of nanomedicine for drug delivery with reference to",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Stimuli-Responsive Nanomedicine - 1st Edition - Lin Zhu - Routledge Bo",
+          "link": "https://www.routledge.com/Stimuli-Responsive-Nanomedicine/Zhu/p/book/9789814800709",
+          "snippet": "Stimuli-responsive nanomedicine for treating non-cancer diseases.\"Stimuli-responsive nanomedicine has been one of the hottest areas in drug delivery. This book comprehensively collects various types o",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nanomedicine & Water: Smarter Drug Design & Delivery - Archyworldys",
+          "link": "https://www.archyworldys.com/nanomedicine-water-smarter-drug-design-delivery/",
+          "snippet": "The Unexpected Importance of Hydration Energetics. For years, nanomedicine has promised revolutionary advancements in drug delivery. But translating that promise into consistent, reliable results has ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nanomedicine Jobs In Hong Kong | Recruit.net",
+          "link": "https://hongkong.recruit.net/search-nanomedicine-jobs",
+          "snippet": "Explore 40 exciting nanomedicine positions in Hong Kong! From City University Of Hong Kong Dongguan to Pharmaguidelines, find your perfect match today. Competitive salaries and career growth await. Ap",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "People Finder, Trinity College Dublin",
+          "link": "https://people.tcd.ie/Profile?Username=prinamea",
+          "snippet": "Search By Research Tag! Search for other researchers who have.European Commission Expert Advisor Task Force Characterization. Mar-2016. EuroNanoForum 2013 - International Advisory Group Area Nanomedic",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P4": {
+      "query": "look for service providers in nanomedicine logistics",
+      "level": "market_map",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Leading the Way in Nanomedicine Solutions - Nanomedicines",
+          "link": "https://nanomedicines.ardena.com/resources/leading-the-way-in-nanomedicine-solutions/",
+          "snippet": "In the nanomedicines landscape Ardena is a leading fit-for-phase solutions partner. With expertise encompassing scalable formulation, process, and analytical development, we enable our customers to sc",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Leading the Way in Nanomedicine Solutions - Nanomedicines",
+          "link": "https://nanomedicines.ardena.com/resources/leading-the-way-in-nanomedicine-solutions/",
+          "snippet": "In the nanomedicines landscape Ardena is a leading fit-for-phase solutions partner. With expertise encompassing scalable formulation, process, and analytical development, we enable our customers to sc",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P5": {
+      "query": "search for system integrators for nanomedicine solutions",
+      "level": "market_map",
+      "result_count": 2,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Global nanomedicine developer | Ardena Nanomedicines",
+          "link": "https://nanomedicines.ardena.com/",
+          "snippet": "Discover Ardena Nanomedicines, leading the way in nanomedicine solutions.Ardena specializes in crafting metal/metal oxide nanoparticles, offering customized solutions for developing these advanced dru",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Frontiers | Artificial intelligence based advancements in nanomedicine...",
+          "link": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1599340/full",
+          "snippet": "Nanomedicines are nanoscale, biocompatible materials that offer promising alternatives to conventional treatment options for brain disorders.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Global nanomedicine developer | Ardena Nanomedicines",
+          "link": "https://nanomedicines.ardena.com/",
+          "snippet": "Discover Ardena Nanomedicines, leading the way in nanomedicine solutions.Ardena specializes in crafting metal/metal oxide nanoparticles, offering customized solutions for developing these advanced dru",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Frontiers | Artificial intelligence based advancements in nanomedicine...",
+          "link": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1599340/full",
+          "snippet": "Nanomedicines are nanoscale, biocompatible materials that offer promising alternatives to conventional treatment options for brain disorders.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "find channel partners for nanomedicine distribution",
+      "level": "market_map",
+      "result_count": 3,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Nanomedicine pharmacokinetics | Nanobiotechnology Class Notes",
+          "link": "https://fiveable.me/nanobiotechnology/unit-2/nanomedicine-pharmacokinetics/study-guide/fo1FqIX7pkpT7Tkm",
+          "snippet": "Distribution of nanomedicines. Nanomedicine distribution mechanisms. Nanomedicines can distribute throughout the body via passive targeting, which relies on the enhanced permeability and retention (EP",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nanomedicines: current status and future perspectives in aspect of...",
+          "link": "https://link.springer.com/article/10.1007/s40005-017-0370-4",
+          "snippet": "Nanomedicines have evolved into various forms including dendrimers, nanocrystals, emulsions, liposomes, solid lipid nanoparticles, micelles, and polymeric.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Central Nervous System Nanomedicines Market Outlook 2025-2032",
+          "link": "https://www.intelmarketresearch.com/central-nervous-system-nanomedicines-market-7142",
+          "snippet": "Global CNS Nanomedicines market was valued at USD 1004M in 2024 and is projected to reach USD 2381M by 2032, at a 13.3% CAGR.These partnerships are accelerating clinical translation while providing sm",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Nanomedicine pharmacokinetics | Nanobiotechnology Class Notes",
+          "link": "https://fiveable.me/nanobiotechnology/unit-2/nanomedicine-pharmacokinetics/study-guide/fo1FqIX7pkpT7Tkm",
+          "snippet": "Distribution of nanomedicines. Nanomedicine distribution mechanisms. Nanomedicines can distribute throughout the body via passive targeting, which relies on the enhanced permeability and retention (EP",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nanomedicines: current status and future perspectives in aspect of...",
+          "link": "https://link.springer.com/article/10.1007/s40005-017-0370-4",
+          "snippet": "Nanomedicines have evolved into various forms including dendrimers, nanocrystals, emulsions, liposomes, solid lipid nanoparticles, micelles, and polymeric.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Central Nervous System Nanomedicines Market Outlook 2025-2032",
+          "link": "https://www.intelmarketresearch.com/central-nervous-system-nanomedicines-market-7142",
+          "snippet": "Global CNS Nanomedicines market was valued at USD 1004M in 2024 and is projected to reach USD 2381M by 2032, at a 13.3% CAGR.These partnerships are accelerating clinical translation while providing sm",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P7": {
+      "query": "nanomedicine distributors official site",
+      "level": "discovery",
+      "result_count": 3,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Nanomedicines: current status and future perspectives in aspect of...",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6244736/",
+          "snippet": "Official websites use .gov A .gov website belongs to an official government organization in the United States.The aim of regulating particle size in nanomedicines is to increase their retention in tar",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nanomedicine pharmacokinetics | Nanobiotechnology Class Notes",
+          "link": "https://fiveable.me/nanobiotechnology/unit-2/nanomedicine-pharmacokinetics/study-guide/fo1FqIX7pkpT7Tkm",
+          "snippet": "Distribution of nanomedicines. Nanomedicine distribution mechanisms.The distribution of nanomedicines can be influenced by their size, shape, and surface properties. Factors influencing nanomedicine d",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Histopathological biomarkers for... | Nature Biomedical Engineering",
+          "link": "https://www.nature.com/articles/s41551-024-01197-4?error=cookies_not_supported&code=439c608d-a4d2-41fd-9c6d-2297aedd2662",
+          "snippet": "Histopathological biomarkers for predicting the tumour accumulation of nanomedicines.High-resolution 3D visualization of nanomedicine distribution in tumors. Theranostics 10, 880\u2013897 (2020).",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Nanomedicines: current status and future perspectives in aspect of...",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6244736/",
+          "snippet": "Official websites use .gov A .gov website belongs to an official government organization in the United States.The aim of regulating particle size in nanomedicines is to increase their retention in tar",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nanomedicine pharmacokinetics | Nanobiotechnology Class Notes",
+          "link": "https://fiveable.me/nanobiotechnology/unit-2/nanomedicine-pharmacokinetics/study-guide/fo1FqIX7pkpT7Tkm",
+          "snippet": "Distribution of nanomedicines. Nanomedicine distribution mechanisms.The distribution of nanomedicines can be influenced by their size, shape, and surface properties. Factors influencing nanomedicine d",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Histopathological biomarkers for... | Nature Biomedical Engineering",
+          "link": "https://www.nature.com/articles/s41551-024-01197-4?error=cookies_not_supported&code=439c608d-a4d2-41fd-9c6d-2297aedd2662",
+          "snippet": "Histopathological biomarkers for predicting the tumour accumulation of nanomedicines.High-resolution 3D visualization of nanomedicine distribution in tumors. Theranostics 10, 880\u2013897 (2020).",
+          "backend": "ddgs_bing"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

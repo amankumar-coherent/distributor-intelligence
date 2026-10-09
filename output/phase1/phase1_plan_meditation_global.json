@@ -1,0 +1,2093 @@
+{
+  "phase": 1,
+  "query": "Meditation Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T21:12:45.452218+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "meditation",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "wellness",
+    "industry_terms": [
+      "meditation cushions",
+      "guided meditation",
+      "mindfulness apps",
+      "meditation retreats",
+      "meditation supplies"
+    ],
+    "ecosystem_functions": [
+      "distributing meditation products",
+      "reselling meditation supplies",
+      "providing meditation services",
+      "integrating meditation systems",
+      "wholesaling meditation items",
+      "partnering in meditation distribution",
+      "facilitating meditation workshops",
+      "offering online meditation resources"
+    ],
+    "interpretation_summary": "The meditation market encompasses products and services designed to facilitate meditation practices, including apps, guided sessions, and physical products like cushions and mats. Participants include manufacturers, dist",
+    "relevance_keywords": [
+      "meditation products",
+      "mindfulness training",
+      "meditation workshops",
+      "meditation services",
+      "meditation supplies"
+    ],
+    "negative_keywords": [
+      "yoga",
+      "fitness",
+      "exercise",
+      "therapy",
+      "nutrition"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "Mindful",
+        "primary_domain": "mindful.com",
+        "company_function": "distributor of meditation products"
+      },
+      {
+        "canonical_name": "Headspace",
+        "primary_domain": "headspace.com",
+        "company_function": "provider of meditation services"
+      },
+      {
+        "canonical_name": "Calm",
+        "primary_domain": "calm.com",
+        "company_function": "reseller of meditation apps"
+      },
+      {
+        "canonical_name": "Gaiam",
+        "primary_domain": "gaiam.com",
+        "company_function": "wholesaler of meditation supplies"
+      },
+      {
+        "canonical_name": "Insight Timer",
+        "primary_domain": "insighttimer.com",
+        "company_function": "service provider for guided meditations"
+      },
+      {
+        "canonical_name": "Meditation Studio",
+        "primary_domain": "meditationstudio.com",
+        "company_function": "reseller of meditation resources"
+      },
+      {
+        "canonical_name": "The Mindfulness App",
+        "primary_domain": "themindfulnessapp.com",
+        "company_function": "distributor of mindfulness tools"
+      },
+      {
+        "canonical_name": "10% Happier",
+        "primary_domain": "tenpercenthappier.com",
+        "company_function": "provider of meditation services"
+      },
+      {
+        "canonical_name": "Breathe",
+        "primary_domain": "breathe.com",
+        "company_function": "wholesaler of meditation products",
+        "segment": "Distributors",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Sattva",
+        "primary_domain": "sattva.com",
+        "company_function": "reseller of meditation apps",
+        "segment": "Resellers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Simple Habit",
+        "primary_domain": "simplehabit.com",
+        "company_function": "service provider for meditation sessions",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Yoga International",
+        "primary_domain": "yogainternational.com",
+        "company_function": "channel partner for meditation resources",
+        "segment": "Channel Partners",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Aura",
+        "primary_domain": "aurahealth.io",
+        "company_function": "provider of meditation services",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Zen Habits",
+        "primary_domain": "zenhabits.net",
+        "company_function": "reseller of meditation tools",
+        "segment": "Resellers",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "meditation",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "meditation",
+    "include_keywords": [
+      "meditation product distributor",
+      "wholesale meditation supplies",
+      "meditation service provider",
+      "guided meditation sessions",
+      "meditation channel partner"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The meditation market encompasses products and services designed to facilitate meditation practices, including apps, guided sessions, and physical products like cushions and mats. Participants include manufacturers, distributors, and service providers operating globally.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Distribution",
+        "description": "This layer includes entities that distribute meditation-related products and services to retailers or directly to consumers.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Online distributors",
+              "Physical store distributors"
+            ],
+            "participant_types": [
+              "distributor",
+              "wholesaler"
+            ],
+            "search_intents": [
+              "meditation product distributors",
+              "wholesale meditation supplies"
+            ]
+          },
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "E-commerce resellers",
+              "Retail resellers"
+            ],
+            "participant_types": [
+              "reseller",
+              "channel partner"
+            ],
+            "search_intents": [
+              "buy meditation products from resellers",
+              "meditation product resellers"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L2",
+        "layer_name": "Service Provision",
+        "description": "This layer includes service providers that offer meditation-related services, such as guided sessions or workshops.",
+        "segments": [
+          {
+            "segment_name": "Service Providers",
+            "sub_segments": [
+              "Online meditation services",
+              "In-person meditation workshops"
+            ],
+            "participant_types": [
+              "service provider",
+              "system integrator"
+            ],
+            "search_intents": [
+              "meditation service providers",
+              "guided meditation workshops"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Meditation Apps",
+        "Wellness Retreats",
+        "Yoga Studios",
+        "Mindfulness Training Programs"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "search for meditation product distributors",
+        "sub_sector": "meditation_distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "find meditation product resellers",
+        "sub_sector": "meditation_reseller",
+        "layer_id": "L1",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "search for meditation service providers",
+        "sub_sector": "meditation_service_provider",
+        "layer_id": "L2",
+        "segment": "Service Providers"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "wellness",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "meditation market companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "meditation product distributors official site"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "meditation service providers corporate site"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "discovery",
+      "text": "wholesale meditation supplies corporate headquarters"
+    },
+    {
+      "id": "P2",
+      "level": "discovery",
+      "text": "meditation service providers official website"
+    },
+    {
+      "id": "P3",
+      "level": "discovery",
+      "text": "guided meditation workshops corporate profile"
+    },
+    {
+      "id": "P4",
+      "level": "discovery",
+      "text": "meditation product resellers official site"
+    },
+    {
+      "id": "P5",
+      "level": "discovery",
+      "text": "online meditation services corporate site"
+    },
+    {
+      "id": "P6",
+      "level": "discovery",
+      "text": "physical store distributors of meditation products"
+    },
+    {
+      "id": "P7",
+      "level": "discovery",
+      "text": "channel partner for meditation resources corporate site"
+    },
+    {
+      "id": "P8",
+      "level": "discovery",
+      "text": "authorized meditation distributor firm official"
+    },
+    {
+      "id": "P9",
+      "level": "discovery",
+      "text": "meditation reseller channel partner official"
+    },
+    {
+      "id": "P10",
+      "level": "discovery",
+      "text": "meditation service provider official website"
+    },
+    {
+      "id": "P11",
+      "level": "discovery",
+      "text": "meditation system integrator official website"
+    },
+    {
+      "id": "P12",
+      "level": "discovery",
+      "text": "meditation cushions facilitating meditation workshops official website"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "meditation market companies official websites",
+      "level": "L0",
+      "result_count": 28,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Learn How to Meditate: A Mindful Guide to Transform Your Life",
+          "link": "https://www.mindful.org/how-to-meditate/",
+          "snippet": "We'll show you how to meditate properly, the benefits of regular meditation practice, and the styles of meditation. Free resources \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Meditation - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Meditation",
+          "snippet": "Meditation techniques are broadly classified into focused (or concentrative) and open monitoring methods. Focused methods involve \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Meditation: A simple, fast way to reduce stress - Mayo Clinic",
+          "link": "https://www.mayoclinic.org/tests-procedures/meditation/in-depth/meditation/art-20045858",
+          "snippet": "Dec 14, 2023 \u00b7 Meditation can give you a sense of calm, peace and balance that can benefit your emotional well-being and your \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Meditation: What It Is, How To Meditate, Benefits & Types",
+          "link": "https://my.clevelandclinic.org/health/articles/17906-meditation",
+          "snippet": "Mar 23, 2026 \u00b7 Meditation is a practice that involves focusing or clearing your mind using a combination of mental and physical \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Meditation: Meditation Meaning, Benefits & How to Meditate | Art of \u2026",
+          "link": "https://www.artofliving.org/in-en/meditation/",
+          "snippet": "Meditation: Learn the meaning of meditation, its benefits for mind and body, and simple steps to meditate for stress relief, better \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "10 meditation techniques for all levels (and how to choose one)",
+          "link": "https://blog.calm.com/blog/meditation-techniques",
+          "snippet": "Apr 9, 2026 \u00b7 With so many meditation techniques out there, it can be hard to know which one is right for you. Explore 10 meditation \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "How to meditate for beginners - Mental wellbeing tips - NHS",
+          "link": "https://www.nhs.uk/every-mind-matters/mental-wellbeing-tips/how-to-meditate-for-beginners/",
+          "snippet": "Use this beginners' guide and video to learn how to meditate and about the benefits of meditation. There are many types of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Meditation - Psychology Today",
+          "link": "https://www.psychologytoday.com/us/basics/meditation?msockid=39530f8a4bc2624015e718154a9f6389",
+          "snippet": "Nov 13, 2025 \u00b7 Meditation is a mental exercise that trains attention and awareness. Its purpose is often to curb reactivity to one's \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Calm - The #1 App for Meditation and Sleep",
+          "link": "https://www.calm.com/",
+          "snippet": "Calm is the #1 app for sleep and meditation. Join the millions experiencing better sleep, lower stress, and less anxiety.Calm is available on iOS, Android, Web, in addition to Apple TV, Apple Watch, G",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The U.S. Meditation Market Size, Competitors & Forecast",
+          "link": "https://www.researchandmarkets.com/report/united-states-meditation-market",
+          "snippet": "The following topics are coveredMarket nature and structure of U.S. meditation studios/centers/retreatsKey companies and gurus in the market",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditation Market Size, Trends, Growth Report 2032",
+          "link": "https://www.databridgemarketresearch.com/reports/global-meditation-market",
+          "snippet": "Meditation Market Analysis. Meditation solutions, including digital platforms and mobile applications, are increasingly vital components of modern mental health and wellness routines in both personal ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "11 Meditation Affiliate Programs For Zen Commissions - 3HUNDRD",
+          "link": "https://3hundrd.com/meditation-affiliate-programs",
+          "snippet": "zive meditation affiliate program. Ziva is a site that offers a wide range of courses and training seminars on guided meditation. It was first started by meditation expert Emily Fletcher who teaches a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditation Software Market Size, Insights, SWOT & Market Growth...",
+          "link": "https://www.verifiedmarketreports.com/product/meditation-software-market/",
+          "snippet": "Discover comprehensive analysis on the Meditation Software Market, expected to grow from 1.2 billion USD in 2024 to 4.5 billion USD by 2033 at a CAGR of 16.5%. Uncover critical growth factors, market ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Digital Meditation Trends Shaping Wellness Routines \u2013 Article...",
+          "link": "https://articleproductions.com/digital-meditation-trends-shaping-wellness-routines/",
+          "snippet": "Meditation Market Reporting Toolkit: Custom Question Bunches. What\u2019s the present market valuation for the Meditation Market sector?Best Website Development Company in Gurgaon. by kartikwebnest. How to",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditation Market Size, Share, Growth | CAGR of 20.2%",
+          "link": "https://marketresearch.biz/report/meditation-market/",
+          "snippet": "This market includes mobile apps, guided meditation sessions, wellness retreats, and meditation accessories. Driven by increasing awareness of mental health and wellness, the market caters to individu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Online Meditation Market Overview, 2024-2029",
+          "link": "https://www.researchandmarkets.com/reports/5984990/online-meditation-market-overview?srsltid=AfmBOoo-O7eIuuG-fQTS8XDXYRyMI4plfUgElC0GM2PDn_c4-_i4PV5D",
+          "snippet": "This report features 10 companies, including Meditopia, BetterMe, Calm.com, Inc., 10 Percent Happier, Inc., Waking Up, LLC, Aaptiv Inc., Happify, Inc, ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditation Market Size, Opportunities & YoY Growth Rate, 2033",
+          "link": "https://www.coherentmarketinsights.com/industry-reports/meditation-market",
+          "snippet": "10 Mar 2026 ... The government supports mental well-being through workplace health policies and public campaigns. Domestic companies focus on blending ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditation Market Companies - SkyQuest Technology Consulting",
+          "link": "https://www.skyquestt.com/report/meditation-market/companies",
+          "snippet": "Skyquest Technology's expert advisors have carried out comprehensive research and identified these companies as industry leaders in the Meditation Market.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditation Market Poised for Explosive Growth, Projected to Hit USD ...",
+          "link": "https://finance.yahoo.com/news/meditation-market-poised-explosive-growth-140000959.html",
+          "snippet": "4 Sept 2025 ... Asia Pacific is poised to create lucrative growth opportunities for mediation companies during the assessment period. Rising Mental Health ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Online Meditation Market Outlook, 2029 - Bonafide Research",
+          "link": "https://www.bonafideresearch.com/product/240616221/global-online-meditation-market",
+          "snippet": "Featured Companies \u00b7 1. Calm.com, Inc \u00b7 2. Headspace \u00b7 3. 10 Percent Happier, Inc. \u00b7 4. Aura Health \u00b7 5. BetterMe \u00b7 6. Aaptiv Inc. \u00b7 7. Meditopia \u00b7 8. Insight Timer ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditation Apps - Worldwide | Statista Market Forecast",
+          "link": "https://www.statista.com/outlook/hmo/digital-health/digital-fitness-well-being/health-wellness-coaching/meditation-apps/worldwide/?srsltid=AfmBOorB9KVe_3UotQo8GS4UmRHkHubArhVEKKQ6ruRo4yzo0Uh7XzCB",
+          "snippet": "Figures are based on revenues and user data of relevant mobile applications and consumer electronics companies. Modeling approach / Market size: Market sizes ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Present & Centered: 65+ Mindfulness Companies In One Market Map",
+          "link": "https://www.cbinsights.com/research/mindfulness-market-map-expert-intelligence/",
+          "snippet": "8 Aug 2019 ... From meditation apps to CBD oils to sleep tech, these 65+ startups are bringing mindfulness into the mainstream.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditation Management Apps Market Report, 2026-2033",
+          "link": "https://www.grandviewresearch.com/industry-analysis/meditation-management-apps-market-report",
+          "snippet": "Key Meditation Management Apps Companies: \u00b7 InnerExplorer \u00b7 Calm. \u00b7 Headspace Inc. \u00b7 MindApps. \u00b7 Breethe. \u00b7 Meditation Moments. \u00b7 Simple Habit \u00b7 Ten Percent Happier ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - Meditation Market",
+          "link": "https://meditation.market/",
+          "snippet": "Every product in our collection is thoughtfully selected to support spirituality, sustainable fashion, and wellbeing, helping you find meaningful items for your journey. Beautiful products, excellent ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mental Health App for Meditation & Sleep - Headspace",
+          "link": "https://www.headspace.com/",
+          "snippet": "Through evidence-based meditation and mindfulness tools, sleep resources, mental health coaching, and more, Headspace helps you create life-changing habits to support your mental health and find a hea",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Guided Meditation | Mindfulness | Breathwork | Open ...",
+          "link": "https://o-p-e-n.com/",
+          "snippet": "Open is a mindfulness studio. Enter a place to come to your senses \u2014 breathwork, meditation, movement, and sound awaken body and mind to bring you to the present moment.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditation Market To 2035 - businessresearchinsights.com",
+          "link": "https://www.businessresearchinsights.com/market-reports/meditation-market-117558",
+          "snippet": "Jun 29, 2026 \u00b7 The meditation market is dominated by the North American meditation market on account of greater penetration of mental health awareness and wellness practices in the region, which is in",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "U.S. Meditation Market Report 2025, with Competitor Profiles ...",
+          "link": "https://www.financialcontent.com/article/bizwire-2025-6-30-us-meditation-market-report-2025-with-competitor-profiles-for-kadampa-centers-shambala-centers-calm-headspace-inscape-unplug-meditation-spirit-rock-gaia-deepak-chopra-eckhart-tolle-and-more-researchandmarketscom",
+          "snippet": "Jun 30, 2025 \u00b7 The U.S. meditation market's recent growth has been fueled by the explosion of meditation apps, coupled with growing interest in meditation and yoga by stressed consumers.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Learn How to Meditate: A Mindful Guide to Transform Your Life",
+          "link": "https://www.mindful.org/how-to-meditate/",
+          "snippet": "We'll show you how to meditate properly, the benefits of regular meditation practice, and the styles of meditation. Free resources \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Meditation - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Meditation",
+          "snippet": "Meditation techniques are broadly classified into focused (or concentrative) and open monitoring methods. Focused methods involve \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Meditation: A simple, fast way to reduce stress - Mayo Clinic",
+          "link": "https://www.mayoclinic.org/tests-procedures/meditation/in-depth/meditation/art-20045858",
+          "snippet": "Dec 14, 2023 \u00b7 Meditation can give you a sense of calm, peace and balance that can benefit your emotional well-being and your \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Meditation: What It Is, How To Meditate, Benefits & Types",
+          "link": "https://my.clevelandclinic.org/health/articles/17906-meditation",
+          "snippet": "Mar 23, 2026 \u00b7 Meditation is a practice that involves focusing or clearing your mind using a combination of mental and physical \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Meditation: Meditation Meaning, Benefits & How to Meditate | Art of \u2026",
+          "link": "https://www.artofliving.org/in-en/meditation/",
+          "snippet": "Meditation: Learn the meaning of meditation, its benefits for mind and body, and simple steps to meditate for stress relief, better \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "10 meditation techniques for all levels (and how to choose one)",
+          "link": "https://blog.calm.com/blog/meditation-techniques",
+          "snippet": "Apr 9, 2026 \u00b7 With so many meditation techniques out there, it can be hard to know which one is right for you. Explore 10 meditation \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "How to meditate for beginners - Mental wellbeing tips - NHS",
+          "link": "https://www.nhs.uk/every-mind-matters/mental-wellbeing-tips/how-to-meditate-for-beginners/",
+          "snippet": "Use this beginners' guide and video to learn how to meditate and about the benefits of meditation. There are many types of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Meditation - Psychology Today",
+          "link": "https://www.psychologytoday.com/us/basics/meditation?msockid=39530f8a4bc2624015e718154a9f6389",
+          "snippet": "Nov 13, 2025 \u00b7 Meditation is a mental exercise that trains attention and awareness. Its purpose is often to curb reactivity to one's \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Calm - The #1 App for Meditation and Sleep",
+          "link": "https://www.calm.com/",
+          "snippet": "Calm is the #1 app for sleep and meditation. Join the millions experiencing better sleep, lower stress, and less anxiety.Calm is available on iOS, Android, Web, in addition to Apple TV, Apple Watch, G",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The U.S. Meditation Market Size, Competitors & Forecast",
+          "link": "https://www.researchandmarkets.com/report/united-states-meditation-market",
+          "snippet": "The following topics are coveredMarket nature and structure of U.S. meditation studios/centers/retreatsKey companies and gurus in the market",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditation Market Size, Trends, Growth Report 2032",
+          "link": "https://www.databridgemarketresearch.com/reports/global-meditation-market",
+          "snippet": "Meditation Market Analysis. Meditation solutions, including digital platforms and mobile applications, are increasingly vital components of modern mental health and wellness routines in both personal ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "11 Meditation Affiliate Programs For Zen Commissions - 3HUNDRD",
+          "link": "https://3hundrd.com/meditation-affiliate-programs",
+          "snippet": "zive meditation affiliate program. Ziva is a site that offers a wide range of courses and training seminars on guided meditation. It was first started by meditation expert Emily Fletcher who teaches a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditation Software Market Size, Insights, SWOT & Market Growth...",
+          "link": "https://www.verifiedmarketreports.com/product/meditation-software-market/",
+          "snippet": "Discover comprehensive analysis on the Meditation Software Market, expected to grow from 1.2 billion USD in 2024 to 4.5 billion USD by 2033 at a CAGR of 16.5%. Uncover critical growth factors, market ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Digital Meditation Trends Shaping Wellness Routines \u2013 Article...",
+          "link": "https://articleproductions.com/digital-meditation-trends-shaping-wellness-routines/",
+          "snippet": "Meditation Market Reporting Toolkit: Custom Question Bunches. What\u2019s the present market valuation for the Meditation Market sector?Best Website Development Company in Gurgaon. by kartikwebnest. How to",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditation Market Size, Share, Growth | CAGR of 20.2%",
+          "link": "https://marketresearch.biz/report/meditation-market/",
+          "snippet": "This market includes mobile apps, guided meditation sessions, wellness retreats, and meditation accessories. Driven by increasing awareness of mental health and wellness, the market caters to individu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Online Meditation Market Overview, 2024-2029",
+          "link": "https://www.researchandmarkets.com/reports/5984990/online-meditation-market-overview?srsltid=AfmBOoo-O7eIuuG-fQTS8XDXYRyMI4plfUgElC0GM2PDn_c4-_i4PV5D",
+          "snippet": "This report features 10 companies, including Meditopia, BetterMe, Calm.com, Inc., 10 Percent Happier, Inc., Waking Up, LLC, Aaptiv Inc., Happify, Inc, ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditation Market Size, Opportunities & YoY Growth Rate, 2033",
+          "link": "https://www.coherentmarketinsights.com/industry-reports/meditation-market",
+          "snippet": "10 Mar 2026 ... The government supports mental well-being through workplace health policies and public campaigns. Domestic companies focus on blending ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditation Market Companies - SkyQuest Technology Consulting",
+          "link": "https://www.skyquestt.com/report/meditation-market/companies",
+          "snippet": "Skyquest Technology's expert advisors have carried out comprehensive research and identified these companies as industry leaders in the Meditation Market.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditation Market Poised for Explosive Growth, Projected to Hit USD ...",
+          "link": "https://finance.yahoo.com/news/meditation-market-poised-explosive-growth-140000959.html",
+          "snippet": "4 Sept 2025 ... Asia Pacific is poised to create lucrative growth opportunities for mediation companies during the assessment period. Rising Mental Health ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Online Meditation Market Outlook, 2029 - Bonafide Research",
+          "link": "https://www.bonafideresearch.com/product/240616221/global-online-meditation-market",
+          "snippet": "Featured Companies \u00b7 1. Calm.com, Inc \u00b7 2. Headspace \u00b7 3. 10 Percent Happier, Inc. \u00b7 4. Aura Health \u00b7 5. BetterMe \u00b7 6. Aaptiv Inc. \u00b7 7. Meditopia \u00b7 8. Insight Timer ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditation Apps - Worldwide | Statista Market Forecast",
+          "link": "https://www.statista.com/outlook/hmo/digital-health/digital-fitness-well-being/health-wellness-coaching/meditation-apps/worldwide/?srsltid=AfmBOorB9KVe_3UotQo8GS4UmRHkHubArhVEKKQ6ruRo4yzo0Uh7XzCB",
+          "snippet": "Figures are based on revenues and user data of relevant mobile applications and consumer electronics companies. Modeling approach / Market size: Market sizes ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Present & Centered: 65+ Mindfulness Companies In One Market Map",
+          "link": "https://www.cbinsights.com/research/mindfulness-market-map-expert-intelligence/",
+          "snippet": "8 Aug 2019 ... From meditation apps to CBD oils to sleep tech, these 65+ startups are bringing mindfulness into the mainstream.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditation Management Apps Market Report, 2026-2033",
+          "link": "https://www.grandviewresearch.com/industry-analysis/meditation-management-apps-market-report",
+          "snippet": "Key Meditation Management Apps Companies: \u00b7 InnerExplorer \u00b7 Calm. \u00b7 Headspace Inc. \u00b7 MindApps. \u00b7 Breethe. \u00b7 Meditation Moments. \u00b7 Simple Habit \u00b7 Ten Percent Happier ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - Meditation Market",
+          "link": "https://meditation.market/",
+          "snippet": "Every product in our collection is thoughtfully selected to support spirituality, sustainable fashion, and wellbeing, helping you find meaningful items for your journey. Beautiful products, excellent ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mental Health App for Meditation & Sleep - Headspace",
+          "link": "https://www.headspace.com/",
+          "snippet": "Through evidence-based meditation and mindfulness tools, sleep resources, mental health coaching, and more, Headspace helps you create life-changing habits to support your mental health and find a hea",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Guided Meditation | Mindfulness | Breathwork | Open ...",
+          "link": "https://o-p-e-n.com/",
+          "snippet": "Open is a mindfulness studio. Enter a place to come to your senses \u2014 breathwork, meditation, movement, and sound awaken body and mind to bring you to the present moment.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditation Market To 2035 - businessresearchinsights.com",
+          "link": "https://www.businessresearchinsights.com/market-reports/meditation-market-117558",
+          "snippet": "Jun 29, 2026 \u00b7 The meditation market is dominated by the North American meditation market on account of greater penetration of mental health awareness and wellness practices in the region, which is in",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "U.S. Meditation Market Report 2025, with Competitor Profiles ...",
+          "link": "https://www.financialcontent.com/article/bizwire-2025-6-30-us-meditation-market-report-2025-with-competitor-profiles-for-kadampa-centers-shambala-centers-calm-headspace-inscape-unplug-meditation-spirit-rock-gaia-deepak-chopra-eckhart-tolle-and-more-researchandmarketscom",
+          "snippet": "Jun 30, 2025 \u00b7 The U.S. meditation market's recent growth has been fueled by the explosion of meditation apps, coupled with growing interest in meditation and yoga by stressed consumers.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "meditation product distributors official site",
+      "level": "L1",
+      "result_count": 6,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Amazon.com: Meditation Products",
+          "link": "https://www.amazon.com/Meditation-Products/s?k=Meditation+Products",
+          "snippet": "Bean Products Bamboo Foldable Meditation Bench \u2013 Supportive and Portable Folding Kneeling Stool for Zen Practice \u2013 Ergonomic Design for Seiza, Meditation, Prayer and Travel \u2013 Made in USA.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditation Products: Mindful Tools for Inner Peace - VD Importers",
+          "link": "https://www.vdimporters.com/meditation-products/",
+          "snippet": "Explore a wide range of Meditation Products to enhance your practice and create a serene atmosphere at home. Find cushions, mats, and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Metaphysical Products | Bulk New Age Supplier | Kheops ...",
+          "link": "https://www.kheopsinternational.com/",
+          "snippet": "Kheops International has been a specialty importer, wholesaler and manufacture of metaphysical products and new age supplies for Over 25 Years. We offer bulk quantities of crystals, gemstones, incense",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditation products",
+          "link": "https://meditation-products.com/",
+          "snippet": "meditation products",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Yoga & Meditation Products - Siddha Yoga Bookstore",
+          "link": "https://www.siddhayogabookstore.org.in/product-category/practices-support/meditation-support/",
+          "snippet": "Browse through our website to buy premium meditation cushions/asanas, meditation accessories, and other meditation/yoga products.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Distribution Group",
+          "link": "https://www.distributiongroup.com.tr/",
+          "snippet": "Distrubution Group is one of the leading beauty product distributors in Turkey with multiple team for professional hair care, colour cosmetics, skin care and fragrances.We offer professional products ",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Amazon.com: Meditation Products",
+          "link": "https://www.amazon.com/Meditation-Products/s?k=Meditation+Products",
+          "snippet": "Bean Products Bamboo Foldable Meditation Bench \u2013 Supportive and Portable Folding Kneeling Stool for Zen Practice \u2013 Ergonomic Design for Seiza, Meditation, Prayer and Travel \u2013 Made in USA.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditation Products: Mindful Tools for Inner Peace - VD Importers",
+          "link": "https://www.vdimporters.com/meditation-products/",
+          "snippet": "Explore a wide range of Meditation Products to enhance your practice and create a serene atmosphere at home. Find cushions, mats, and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Metaphysical Products | Bulk New Age Supplier | Kheops ...",
+          "link": "https://www.kheopsinternational.com/",
+          "snippet": "Kheops International has been a specialty importer, wholesaler and manufacture of metaphysical products and new age supplies for Over 25 Years. We offer bulk quantities of crystals, gemstones, incense",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditation products",
+          "link": "https://meditation-products.com/",
+          "snippet": "meditation products",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Yoga & Meditation Products - Siddha Yoga Bookstore",
+          "link": "https://www.siddhayogabookstore.org.in/product-category/practices-support/meditation-support/",
+          "snippet": "Browse through our website to buy premium meditation cushions/asanas, meditation accessories, and other meditation/yoga products.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Distribution Group",
+          "link": "https://www.distributiongroup.com.tr/",
+          "snippet": "Distrubution Group is one of the leading beauty product distributors in Turkey with multiple team for professional hair care, colour cosmetics, skin care and fragrances.We offer professional products ",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "meditation service providers corporate site",
+      "level": "L2",
+      "result_count": 25,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Learn How to Meditate: A Mindful Guide to Transform Your Life",
+          "link": "https://www.mindful.org/how-to-meditate/",
+          "snippet": "We will walk you through how to meditate properly, the benefits of regular meditation practice, and the various styles of meditation. \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "All 42 Types of Meditation: The Complete List",
+          "link": "https://meditationmusiclibrary.com/blogs/wednesday-wisdom-blog/all-42-types-of-meditation-the-complete-list",
+          "snippet": "Oct 29, 2025 \u00b7 Explore all 42 types of meditation, from the 10 foundational methods to 32 advanced and specialized practices. Learn \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Meditation: A simple, fast way to reduce stress - Mayo Clinic",
+          "link": "https://www.mayoclinic.org/tests-procedures/meditation/in-depth/meditation/art-20045858",
+          "snippet": "Dec 14, 2023 \u00b7 Meditation has been around for thousands of years. Early meditation was meant to help deepen understanding of the \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Meditation: What It Is, How To Meditate, Benefits & Types",
+          "link": "https://my.clevelandclinic.org/health/articles/17906-meditation",
+          "snippet": "Mar 23, 2026 \u00b7 Meditation is a mind-body practice for training attention and awareness. It can reduce anxiety and stress and has \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Meditation: Meditation Meaning, Benefits & How to Meditate | Art of \u2026",
+          "link": "https://www.artofliving.org/in-en/meditation/",
+          "snippet": "Meditation: Learn the meaning of meditation, its benefits for mind and body, and simple steps to meditate for stress relief, better \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Meditation - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Meditation",
+          "snippet": "Meditation is a practice in which an individual uses a technique or combination of techniques [1][2] to train attention and awareness \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "10 meditation techniques for all levels (and how to choose one)",
+          "link": "https://blog.calm.com/blog/meditation-techniques",
+          "snippet": "Apr 9, 2026 \u00b7 With so many meditation techniques out there, it can be hard to know which one is right for you. Explore 10 meditation \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "How to meditate for beginners - Mental wellbeing tips - NHS",
+          "link": "https://www.nhs.uk/every-mind-matters/mental-wellbeing-tips/how-to-meditate-for-beginners/",
+          "snippet": "How to meditate for beginners Meditation is not mystical \u2013 it's simply a way for us to stop for a moment and be calm. In a busy world, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Meditation Market Size, Share & Growth Report | 2031",
+          "link": "https://deepmarketinsights.com/report/meditation-market-research-report",
+          "snippet": "Meditation Market Drivers. Increasing Global Focus on Mental Health and Preventive Wellness. The growing prevalence of stress, anxiety, burnout, and sleep-related disorders has significantly increased",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "USA Yoga & Meditation Market Share & Trends 2025-2035",
+          "link": "https://www.futuremarketinsights.com/reports/united-states-yoga-and-meditation-service-market",
+          "snippet": "CorePower Yoga, YogaWorks, and Meditation Bar hosting 50% of sessions. Popular Services. Vinyasa yoga (30%), mindfulness meditation (25%), hot yoga (20%), and corporate wellness programs (15%).2025 Ma",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mental Health App for Meditation & Sleep - Headspace",
+          "link": "https://www.headspace.com/",
+          "snippet": "Human care services. Online therapy. Mental health coaching.Through evidence-based meditation and mindfulness tools, sleep resources, mental health coaching, and more, Headspace helps you create life-",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Middle Way Meditation Institute (MMI)",
+          "link": "https://www.traditionalbodywork.com/providers/middle-way-meditation-institute-mmi/",
+          "snippet": "TraditionalBodywork.com lists publicly available information of service providers and is not associated with Middle Way Meditation Institute (MMI). We recommend to visit the provider's website for up-",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditation Market Size to Hit USD 17.25 Billion by 2034 | CAGR 10.9%",
+          "link": "https://growthmarketreports.com/report/meditation-market-global-industry-analysis",
+          "snippet": "Partnerships between meditation service providers and corporations are creating new and diversified revenue streams while simultaneously expanding the market's institutional reach.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Service Retreats \u2013 Insight Meditation Society",
+          "link": "https://www.dharma.org/retreats/work-retreats/",
+          "snippet": "Meditate, serve, and cultivate mindfulness through daily acts of generosity. Lead-in default image.A service retreat, whether at the Retreat Center or Forest Refuge, provides an opportunity to meditat",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Corporate Mindfulness Meditation Programs - Meditation House",
+          "link": "https://meditationhouse.com/",
+          "snippet": "Corporate Mindfulness Meditation Classes Taught Online The #1 Provider of Mindfulness Meditation to Companies since 2015. BOOK YOUR SESSION REDUCTION STRESS Our Mindfulness Meditation sessions are gua",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Corporate Meditation \u2014 Meditation Corporation",
+          "link": "https://www.meditationcorporation.com/corporate-meditation",
+          "snippet": "Mindful and meditation-based wellness programs for corporate entities seeking higher performance, happiness in the workplace and improved company culture.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Corporate Mindfulness Solutions for Employee Wellbeing | The Well Mind ...",
+          "link": "https://www.wellmindcollective.com/corporate-mindfulness-solutions",
+          "snippet": "The Well Mind Collective Difference: While many providers limit themselves to a single approach, we embrace the rich diversity of meditation and mindfulness traditions. Our welcoming, science-backed m",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Corporate Meditation Programmes & Yoga Classes \u00bb Mindful Impacts",
+          "link": "https://mindfulimpacts.com/",
+          "snippet": "Our services span across mindfulness meditation, leadership mentoring, coaching, business communication training, and corporate yoga. Each programme is designed to meet the unique needs of your organi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditation and Yoga | Coaching, Trainings, & Public Speaking",
+          "link": "https://www.meditationcorporation.com/",
+          "snippet": "Professional meditation, yoga, and mindfulness coaching, public speaking, and wellness eventsfor individuals and organizations seeking wellness & stress management.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Corporate Mindfulness Meditation Class & Program Specialist",
+          "link": "https://meditationhouse.com/about/",
+          "snippet": "Following the COVID pandemic, Meditation House transitioned from an in-person service provider to a fully virtual platform, offering live mindfulness meditation sessions via Zoom, Microsoft Teams, and",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Corporate Meditation Companies | Companies For Corporate Meditation",
+          "link": "https://eapemployeewellness.com/workplace-mindfulness/corporate-meditation-companies/",
+          "snippet": "This company is a corporate meditation provider that offers a variety of services, such as guided meditation and breathing exercises. This company also has a program that can be tailored to the needs ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Corporate Mindfulness And Meditation Providers",
+          "link": "https://mantra.care/workplace-mindfullness/corporate-mindfulness-and-meditation-providers/",
+          "snippet": "Corporate Mindfulness And Meditation Providers are beneficial for companies looking to foster a culture of innovation and creativity.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Medium",
+          "link": "https://medium.com/@arespin/headspace-product-lessons-learned-6ecbbc964253",
+          "snippet": "Headspace is a guided meditation service. It utilizes both mobile and web applications to bring meditative techniques to people whose lives are already filled with mobile and web applications.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Mindfulness Companies: Top 14 Vendors Q3 2026 | Shortlister",
+          "link": "https://www.myshortlister.com/mindfulness-and-meditation/vendor-list",
+          "snippet": "Mindfulness and meditation is an employer solution offering stress management techniques, resilience training or meditation to employees, either in-person or via an online platform or app.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Work From Om\u00ae, a leading workplace wellness provider",
+          "link": "https://www.workfromom.com/",
+          "snippet": "We're a workplace wellness provider of remote-friendly well-being programs for conscious companies. We bring active mindfulness, yoga and meditation into workplaces for happier, healthier and higher-f",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Learn How to Meditate: A Mindful Guide to Transform Your Life",
+          "link": "https://www.mindful.org/how-to-meditate/",
+          "snippet": "We will walk you through how to meditate properly, the benefits of regular meditation practice, and the various styles of meditation. \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "All 42 Types of Meditation: The Complete List",
+          "link": "https://meditationmusiclibrary.com/blogs/wednesday-wisdom-blog/all-42-types-of-meditation-the-complete-list",
+          "snippet": "Oct 29, 2025 \u00b7 Explore all 42 types of meditation, from the 10 foundational methods to 32 advanced and specialized practices. Learn \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Meditation: A simple, fast way to reduce stress - Mayo Clinic",
+          "link": "https://www.mayoclinic.org/tests-procedures/meditation/in-depth/meditation/art-20045858",
+          "snippet": "Dec 14, 2023 \u00b7 Meditation has been around for thousands of years. Early meditation was meant to help deepen understanding of the \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Meditation: What It Is, How To Meditate, Benefits & Types",
+          "link": "https://my.clevelandclinic.org/health/articles/17906-meditation",
+          "snippet": "Mar 23, 2026 \u00b7 Meditation is a mind-body practice for training attention and awareness. It can reduce anxiety and stress and has \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Meditation: Meditation Meaning, Benefits & How to Meditate | Art of \u2026",
+          "link": "https://www.artofliving.org/in-en/meditation/",
+          "snippet": "Meditation: Learn the meaning of meditation, its benefits for mind and body, and simple steps to meditate for stress relief, better \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Meditation - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Meditation",
+          "snippet": "Meditation is a practice in which an individual uses a technique or combination of techniques [1][2] to train attention and awareness \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "10 meditation techniques for all levels (and how to choose one)",
+          "link": "https://blog.calm.com/blog/meditation-techniques",
+          "snippet": "Apr 9, 2026 \u00b7 With so many meditation techniques out there, it can be hard to know which one is right for you. Explore 10 meditation \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "How to meditate for beginners - Mental wellbeing tips - NHS",
+          "link": "https://www.nhs.uk/every-mind-matters/mental-wellbeing-tips/how-to-meditate-for-beginners/",
+          "snippet": "How to meditate for beginners Meditation is not mystical \u2013 it's simply a way for us to stop for a moment and be calm. In a busy world, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Meditation Market Size, Share & Growth Report | 2031",
+          "link": "https://deepmarketinsights.com/report/meditation-market-research-report",
+          "snippet": "Meditation Market Drivers. Increasing Global Focus on Mental Health and Preventive Wellness. The growing prevalence of stress, anxiety, burnout, and sleep-related disorders has significantly increased",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "USA Yoga & Meditation Market Share & Trends 2025-2035",
+          "link": "https://www.futuremarketinsights.com/reports/united-states-yoga-and-meditation-service-market",
+          "snippet": "CorePower Yoga, YogaWorks, and Meditation Bar hosting 50% of sessions. Popular Services. Vinyasa yoga (30%), mindfulness meditation (25%), hot yoga (20%), and corporate wellness programs (15%).2025 Ma",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mental Health App for Meditation & Sleep - Headspace",
+          "link": "https://www.headspace.com/",
+          "snippet": "Human care services. Online therapy. Mental health coaching.Through evidence-based meditation and mindfulness tools, sleep resources, mental health coaching, and more, Headspace helps you create life-",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Middle Way Meditation Institute (MMI)",
+          "link": "https://www.traditionalbodywork.com/providers/middle-way-meditation-institute-mmi/",
+          "snippet": "TraditionalBodywork.com lists publicly available information of service providers and is not associated with Middle Way Meditation Institute (MMI). We recommend to visit the provider's website for up-",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditation Market Size to Hit USD 17.25 Billion by 2034 | CAGR 10.9%",
+          "link": "https://growthmarketreports.com/report/meditation-market-global-industry-analysis",
+          "snippet": "Partnerships between meditation service providers and corporations are creating new and diversified revenue streams while simultaneously expanding the market's institutional reach.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Service Retreats \u2013 Insight Meditation Society",
+          "link": "https://www.dharma.org/retreats/work-retreats/",
+          "snippet": "Meditate, serve, and cultivate mindfulness through daily acts of generosity. Lead-in default image.A service retreat, whether at the Retreat Center or Forest Refuge, provides an opportunity to meditat",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Corporate Mindfulness Meditation Programs - Meditation House",
+          "link": "https://meditationhouse.com/",
+          "snippet": "Corporate Mindfulness Meditation Classes Taught Online The #1 Provider of Mindfulness Meditation to Companies since 2015. BOOK YOUR SESSION REDUCTION STRESS Our Mindfulness Meditation sessions are gua",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Corporate Meditation \u2014 Meditation Corporation",
+          "link": "https://www.meditationcorporation.com/corporate-meditation",
+          "snippet": "Mindful and meditation-based wellness programs for corporate entities seeking higher performance, happiness in the workplace and improved company culture.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Corporate Mindfulness Solutions for Employee Wellbeing | The Well Mind ...",
+          "link": "https://www.wellmindcollective.com/corporate-mindfulness-solutions",
+          "snippet": "The Well Mind Collective Difference: While many providers limit themselves to a single approach, we embrace the rich diversity of meditation and mindfulness traditions. Our welcoming, science-backed m",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Corporate Meditation Programmes & Yoga Classes \u00bb Mindful Impacts",
+          "link": "https://mindfulimpacts.com/",
+          "snippet": "Our services span across mindfulness meditation, leadership mentoring, coaching, business communication training, and corporate yoga. Each programme is designed to meet the unique needs of your organi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditation and Yoga | Coaching, Trainings, & Public Speaking",
+          "link": "https://www.meditationcorporation.com/",
+          "snippet": "Professional meditation, yoga, and mindfulness coaching, public speaking, and wellness eventsfor individuals and organizations seeking wellness & stress management.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Corporate Mindfulness Meditation Class & Program Specialist",
+          "link": "https://meditationhouse.com/about/",
+          "snippet": "Following the COVID pandemic, Meditation House transitioned from an in-person service provider to a fully virtual platform, offering live mindfulness meditation sessions via Zoom, Microsoft Teams, and",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Corporate Meditation Companies | Companies For Corporate Meditation",
+          "link": "https://eapemployeewellness.com/workplace-mindfulness/corporate-meditation-companies/",
+          "snippet": "This company is a corporate meditation provider that offers a variety of services, such as guided meditation and breathing exercises. This company also has a program that can be tailored to the needs ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Corporate Mindfulness And Meditation Providers",
+          "link": "https://mantra.care/workplace-mindfullness/corporate-mindfulness-and-meditation-providers/",
+          "snippet": "Corporate Mindfulness And Meditation Providers are beneficial for companies looking to foster a culture of innovation and creativity.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Medium",
+          "link": "https://medium.com/@arespin/headspace-product-lessons-learned-6ecbbc964253",
+          "snippet": "Headspace is a guided meditation service. It utilizes both mobile and web applications to bring meditative techniques to people whose lives are already filled with mobile and web applications.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Mindfulness Companies: Top 14 Vendors Q3 2026 | Shortlister",
+          "link": "https://www.myshortlister.com/mindfulness-and-meditation/vendor-list",
+          "snippet": "Mindfulness and meditation is an employer solution offering stress management techniques, resilience training or meditation to employees, either in-person or via an online platform or app.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Work From Om\u00ae, a leading workplace wellness provider",
+          "link": "https://www.workfromom.com/",
+          "snippet": "We're a workplace wellness provider of remote-friendly well-being programs for conscious companies. We bring active mindfulness, yoga and meditation into workplaces for happier, healthier and higher-f",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "wholesale meditation supplies corporate headquarters",
+      "level": "discovery",
+      "result_count": 3,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Wholesale Metaphysical Products | Bulk New Age Supplier | Kheops ...",
+          "link": "https://www.kheopsinternational.com/",
+          "snippet": "Kheops International has been a specialty importer, wholesaler and manufacture of metaphysical products and new age supplies for Over 25 Years. We offer bulk quantities of crystals, gemstones, incense",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Meditation Products Supplies - wholesalersnetwork.com",
+          "link": "https://www.wholesalersnetwork.com/cat/spiritual-meditation.html",
+          "snippet": "Directory of wholesale Meditation Products companies with products that include meditating clothes, meditate mats, jewelry and spiritual gifts merchandise from wholesalers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditation wholesale | Order meditation products | Phoenix",
+          "link": "https://www.phoeniximport.com/en/collections/meditation",
+          "snippet": "Meditation wholesale Looking for a spiritual wholesaler of meditation products? Then you have come to the right place for a wide range of products that can support your meditation practice. To support",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Wholesale Metaphysical Products | Bulk New Age Supplier | Kheops ...",
+          "link": "https://www.kheopsinternational.com/",
+          "snippet": "Kheops International has been a specialty importer, wholesaler and manufacture of metaphysical products and new age supplies for Over 25 Years. We offer bulk quantities of crystals, gemstones, incense",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Meditation Products Supplies - wholesalersnetwork.com",
+          "link": "https://www.wholesalersnetwork.com/cat/spiritual-meditation.html",
+          "snippet": "Directory of wholesale Meditation Products companies with products that include meditating clothes, meditate mats, jewelry and spiritual gifts merchandise from wholesalers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditation wholesale | Order meditation products | Phoenix",
+          "link": "https://www.phoeniximport.com/en/collections/meditation",
+          "snippet": "Meditation wholesale Looking for a spiritual wholesaler of meditation products? Then you have come to the right place for a wide range of products that can support your meditation practice. To support",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P2": {
+      "query": "meditation service providers official website",
+      "level": "discovery",
+      "result_count": 21,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Mental Health App for Meditation & Sleep - Headspace",
+          "link": "https://www.headspace.com/",
+          "snippet": "Human care services. Online therapy. Mental health coaching.Through evidence-based meditation and mindfulness tools, sleep resources, mental health coaching, and more, Headspace helps you create life-",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Brahma Kumaris : Official Website",
+          "link": "https://www.brahmakumaris.com/",
+          "snippet": "Brahma Kumaris is a worldwide spiritual movement led by women, dedicated to personal transformation and world renewal through Rajyoga Meditation.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "OSHO Meditation Resort \u2013 A Wellness Experience of a Lifetime",
+          "link": "https://www.osho.com/osho-meditation-resort",
+          "snippet": "Welcome to the OSHO International Meditation Resort. \u201cWe can create the biggest and the most beautiful spiritual health club in the world.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Natural Healing & Meditation Center in Kharadi,Pune - Justdial",
+          "link": "https://www.justdial.com/Pune/Natural-Healing-Meditation-Center-Kharadi/020PXX20-XX20-190204202758-G3X7_BZDET",
+          "snippet": "Verify and claim your business to reach more customers and manage your online presence. Fitness Options. Yoga. Counselling services for. Meditation ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Science of Spirituality a global non profit focused on meditation|Find ...",
+          "link": "https://www.sos.org/",
+          "snippet": "Find a meditation centre near you offering free meditation classes, workshops, retreats and other no-cost programs associated with healthy living and ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dhamma Vipula Vipassana Meditation Centre",
+          "link": "https://www.dhamma.org/en/schedules/schvipula",
+          "snippet": "... meditation courses are held at non-center course sites. 10-day Courses are ... Service at least one 10-day course, and have been practicing regularly ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditation and Mindfulness: Effectiveness and Safety | NCCIH",
+          "link": "https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety",
+          "snippet": "3 Jun 2022 ... An official website of the United States government. Here's how you ... providers about any complementary health approaches you use.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Insight Timer \u2014 The #1 Free Meditation and Sleep App",
+          "link": "https://insighttimer.com/",
+          "snippet": "The best meditation app with the world's largest FREE library of more than 290k guided meditations, 17k teachers & the world's most loved meditation Timer.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "EXPERIENCE MEDITATION | Heartfulness",
+          "link": "https://heartfulness.org/in-en/",
+          "snippet": "You will immediately notice when you start doing meditation that you will understand what is going on in your mind and in your heart, and things will definitely change.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ananda Marga: Meditation, yoga and social service",
+          "link": "https://www.anandamarga.org/",
+          "snippet": "Ananda Marga is a global spiritual and social service organization. Through its meditation centers and service projects around the world, Ananda Marga offers instruction in meditation, yoga and other ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mental Wellness App: Meditation & Sleep - Headspace",
+          "link": "https://www.headspace.com/app",
+          "snippet": "The top-rated app for meditation, mindfulness, and better sleep. Explore evidence-based exercises & relaxation content to improve your mental health.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditation Alliance International",
+          "link": "https://www.meditationallianceinternational.com/",
+          "snippet": "Meditation Alliance International\u00ae We bring Authentic Meditation Centres, Institutes and Teachers from across traditions and continents together, under one umbrella to enable people to connect with au",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "We Meditate | Guided Meditations For a Better Life",
+          "link": "https://wemeditate.com/",
+          "snippet": "Silence your mind and discover your inner potential with guided meditations. Connect with others around the world meditating for a better life.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Transcendental Meditation\u00ae Technique - Official Website",
+          "link": "https://usa.tm.org/",
+          "snippet": "Learn about the Transcendental Meditation technique for inner peace and wellness. Evidence-based results. Serving men, women, and families at TM\u00ae centers worldwide.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Find a Heartfulness Meditation Center Near You",
+          "link": "https://heartfulness.org/meditation-places/",
+          "snippet": "Find free guided meditation classes at a Heartfulness center near you. Discover a serene spiritual retreat to find inner peace and a welcoming community. Explore our locations to begin your journey.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditation Classes & Mindfulness Courses | Meditation Studio",
+          "link": "https://meditation.studio/",
+          "snippet": "Discover tailored meditation sessions for individuals and businesses. Live classes, recorded talks, personalised courses and one-to-one guidance \u2014 wherever you are in the world.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "India Yoga and Meditation Service Market Size 2025-2035",
+          "link": "https://www.futuremarketinsights.com/reports/india-yoga-and-meditation-service-market",
+          "snippet": "The India yoga and meditation services industry is set to grow from USD 81.7 billion in 2025 to USD 155.2 billion by 2035, reflecting a CAGR of 6.6% over the forecast period.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Middle Way Meditation Institute (MMI)",
+          "link": "https://www.traditionalbodywork.com/providers/middle-way-meditation-institute-mmi/",
+          "snippet": "TraditionalBodywork.com lists publicly available information of service providers and is not associated with Middle Way Meditation Institute (MMI). We recommend to visit the provider's website for up-",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditation Market Size, Share & Growth Report | 2031",
+          "link": "https://deepmarketinsights.com/report/meditation-market-research-report",
+          "snippet": "Meditation Market Drivers. Increasing Global Focus on Mental Health and Preventive Wellness. The growing prevalence of stress, anxiety, burnout, and sleep-related disorders has significantly increased",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditation Service Providers",
+          "link": "https://www.massagebook.com/search/techniques/meditation",
+          "snippet": "Find and book highly rated professional massage therapists, reflexologists and bodyworkers near you.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How Do I Meditate? - Cleveland Clinic",
+          "link": "https://my.clevelandclinic.org/health/articles/17906-meditation",
+          "snippet": "23 Mar 2026 ... Meditation is a mind-body practice for training attention and awareness. It can reduce anxiety and stress and has physical benefits, ...",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Mental Health App for Meditation & Sleep - Headspace",
+          "link": "https://www.headspace.com/",
+          "snippet": "Human care services. Online therapy. Mental health coaching.Through evidence-based meditation and mindfulness tools, sleep resources, mental health coaching, and more, Headspace helps you create life-",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Brahma Kumaris : Official Website",
+          "link": "https://www.brahmakumaris.com/",
+          "snippet": "Brahma Kumaris is a worldwide spiritual movement led by women, dedicated to personal transformation and world renewal through Rajyoga Meditation.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "OSHO Meditation Resort \u2013 A Wellness Experience of a Lifetime",
+          "link": "https://www.osho.com/osho-meditation-resort",
+          "snippet": "Welcome to the OSHO International Meditation Resort. \u201cWe can create the biggest and the most beautiful spiritual health club in the world.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Natural Healing & Meditation Center in Kharadi,Pune - Justdial",
+          "link": "https://www.justdial.com/Pune/Natural-Healing-Meditation-Center-Kharadi/020PXX20-XX20-190204202758-G3X7_BZDET",
+          "snippet": "Verify and claim your business to reach more customers and manage your online presence. Fitness Options. Yoga. Counselling services for. Meditation ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Science of Spirituality a global non profit focused on meditation|Find ...",
+          "link": "https://www.sos.org/",
+          "snippet": "Find a meditation centre near you offering free meditation classes, workshops, retreats and other no-cost programs associated with healthy living and ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dhamma Vipula Vipassana Meditation Centre",
+          "link": "https://www.dhamma.org/en/schedules/schvipula",
+          "snippet": "... meditation courses are held at non-center course sites. 10-day Courses are ... Service at least one 10-day course, and have been practicing regularly ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditation and Mindfulness: Effectiveness and Safety | NCCIH",
+          "link": "https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety",
+          "snippet": "3 Jun 2022 ... An official website of the United States government. Here's how you ... providers about any complementary health approaches you use.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Insight Timer \u2014 The #1 Free Meditation and Sleep App",
+          "link": "https://insighttimer.com/",
+          "snippet": "The best meditation app with the world's largest FREE library of more than 290k guided meditations, 17k teachers & the world's most loved meditation Timer.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "EXPERIENCE MEDITATION | Heartfulness",
+          "link": "https://heartfulness.org/in-en/",
+          "snippet": "You will immediately notice when you start doing meditation that you will understand what is going on in your mind and in your heart, and things will definitely change.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ananda Marga: Meditation, yoga and social service",
+          "link": "https://www.anandamarga.org/",
+          "snippet": "Ananda Marga is a global spiritual and social service organization. Through its meditation centers and service projects around the world, Ananda Marga offers instruction in meditation, yoga and other ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mental Wellness App: Meditation & Sleep - Headspace",
+          "link": "https://www.headspace.com/app",
+          "snippet": "The top-rated app for meditation, mindfulness, and better sleep. Explore evidence-based exercises & relaxation content to improve your mental health.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditation Alliance International",
+          "link": "https://www.meditationallianceinternational.com/",
+          "snippet": "Meditation Alliance International\u00ae We bring Authentic Meditation Centres, Institutes and Teachers from across traditions and continents together, under one umbrella to enable people to connect with au",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "We Meditate | Guided Meditations For a Better Life",
+          "link": "https://wemeditate.com/",
+          "snippet": "Silence your mind and discover your inner potential with guided meditations. Connect with others around the world meditating for a better life.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Transcendental Meditation\u00ae Technique - Official Website",
+          "link": "https://usa.tm.org/",
+          "snippet": "Learn about the Transcendental Meditation technique for inner peace and wellness. Evidence-based results. Serving men, women, and families at TM\u00ae centers worldwide.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Find a Heartfulness Meditation Center Near You",
+          "link": "https://heartfulness.org/meditation-places/",
+          "snippet": "Find free guided meditation classes at a Heartfulness center near you. Discover a serene spiritual retreat to find inner peace and a welcoming community. Explore our locations to begin your journey.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditation Classes & Mindfulness Courses | Meditation Studio",
+          "link": "https://meditation.studio/",
+          "snippet": "Discover tailored meditation sessions for individuals and businesses. Live classes, recorded talks, personalised courses and one-to-one guidance \u2014 wherever you are in the world.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "India Yoga and Meditation Service Market Size 2025-2035",
+          "link": "https://www.futuremarketinsights.com/reports/india-yoga-and-meditation-service-market",
+          "snippet": "The India yoga and meditation services industry is set to grow from USD 81.7 billion in 2025 to USD 155.2 billion by 2035, reflecting a CAGR of 6.6% over the forecast period.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Middle Way Meditation Institute (MMI)",
+          "link": "https://www.traditionalbodywork.com/providers/middle-way-meditation-institute-mmi/",
+          "snippet": "TraditionalBodywork.com lists publicly available information of service providers and is not associated with Middle Way Meditation Institute (MMI). We recommend to visit the provider's website for up-",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditation Market Size, Share & Growth Report | 2031",
+          "link": "https://deepmarketinsights.com/report/meditation-market-research-report",
+          "snippet": "Meditation Market Drivers. Increasing Global Focus on Mental Health and Preventive Wellness. The growing prevalence of stress, anxiety, burnout, and sleep-related disorders has significantly increased",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditation Service Providers",
+          "link": "https://www.massagebook.com/search/techniques/meditation",
+          "snippet": "Find and book highly rated professional massage therapists, reflexologists and bodyworkers near you.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How Do I Meditate? - Cleveland Clinic",
+          "link": "https://my.clevelandclinic.org/health/articles/17906-meditation",
+          "snippet": "23 Mar 2026 ... Meditation is a mind-body practice for training attention and awareness. It can reduce anxiety and stress and has physical benefits, ...",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P3": {
+      "query": "guided meditation workshops corporate profile",
+      "level": "discovery",
+      "result_count": 11,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Guided Meditation | Mindfulness | Open Breathwork & Meditation",
+          "link": "https://o-p-e-n.com/",
+          "snippet": "Open is a mindfulness studio. Enter a place to come to your senses \u2014 breathwork, meditation, movement, and sound awaken body and mind to bring you to the present moment.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Preksha Meditation \u2013 Dedicated to Spirtuality",
+          "link": "https://preksha.org/",
+          "snippet": "How to Meditate workshop. Art of Relaxation Workshop. Corporate Wellness. Teacher Training Program.The best way to learn to meditate is by practicing it. To learn the basics of Preksha Meditation, you",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Breathwork & Meditation Classes in Toronto | Othership",
+          "link": "https://www.othership.us/resources/best-breathwork-meditation-classes-in-toronto",
+          "snippet": "Year Established: 2024. Experience Type: Guided breathwork, meditation, private sessions, corporate wellness, workshops, outdoor breathwork experiences. Key Features: Evidence-informed breathing techn",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Guided Meditation - Meet the Mind",
+          "link": "https://www.meetthemind.co.uk/meditation/",
+          "snippet": "The Guided Meditation Workshops are designed to provide employees with a powerful, transformative experience that promotes mindfulness, reduces stress, and fosters a more balanced work culture. A 500-",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Master Your Inner World - Potent Guided Meditation | Eventbrite",
+          "link": "https://www.eventbrite.com/cc/master-your-inner-world-potent-guided-meditation-3229449?aff=odclrlmcfto",
+          "snippet": "Master your inner world through this transformative 7-week group community connection and coaching circle led by Echo, where you will delve into game-changing guided meditations, therapeutic tarot car",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lotus Life offers Guided Meditation workshops to help you rise...",
+          "link": "https://www.linkedin.com/posts/vitra-gosine-m-d-aa66471bb_lotus-life-offers-guided-meditation-workshops-activity-6970379768261136384-xb0c",
+          "snippet": "View profile for Vitra Gosine, M.D.Corporate Social Responsibility. Negotiation. Communication.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Corporate Esol\u00e9 Wellness Program -NEM Magic & Meditation",
+          "link": "https://www.nemmagicalmassage.com/corporate-wellness-program",
+          "snippet": "Guided Meditation Workshops: Empower your team with stress-relief techniques and enhanced focus through our guided meditation workshops. Boost morale and mental clarity.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditation Workshops - Corporate Workshop Session",
+          "link": "https://book.thatday.uk/workshops/meditation-workshops",
+          "snippet": "Join Nick's 30-minute guided meditation for relaxation, breathwork, and self-care techniques to ease anxiety. Book this Workshop Now!User profile.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Guided Meditation Workshops - Revive at Work",
+          "link": "https://www.reviveatwork.co.uk/workshops/guidedvisualisation-meditation-workshops/",
+          "snippet": "Guided Meditation Workshops. Guided meditation is a method of focusing the mind, helping to create calm. Led by a teacher, practises can include mindfulness \u2013 concentrating on sensations within your b",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Albertha - Life coach - \u20b96349/h",
+          "link": "https://www.superprof.co.in/corporate-stress-management-workshops-corporate-massage-for-reducing-stress-meditation-workshops-and-holistic-counseller-book-now.html",
+          "snippet": "Corporate Stress Management Workshops, Corporate Massage for reducing Stress, Meditation Workshops and Holistic Counseller book now. Copy.Albertha profile and their contact details have been verified ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Learn to Meditate Workshop Tickets, Sun 11/01/2026 at... | Eventbrite",
+          "link": "https://www.eventbrite.com.au/e/learn-to-meditate-workshop-tickets-1073855212849",
+          "snippet": "Learn to Meditate Workshop. Meditation is a time tested and globally recognised process, and has been proven to enhance you life in many ways. By Australian School of Meditation & Yoga. Follow.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Guided Meditation | Mindfulness | Open Breathwork & Meditation",
+          "link": "https://o-p-e-n.com/",
+          "snippet": "Open is a mindfulness studio. Enter a place to come to your senses \u2014 breathwork, meditation, movement, and sound awaken body and mind to bring you to the present moment.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Preksha Meditation \u2013 Dedicated to Spirtuality",
+          "link": "https://preksha.org/",
+          "snippet": "How to Meditate workshop. Art of Relaxation Workshop. Corporate Wellness. Teacher Training Program.The best way to learn to meditate is by practicing it. To learn the basics of Preksha Meditation, you",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Breathwork & Meditation Classes in Toronto | Othership",
+          "link": "https://www.othership.us/resources/best-breathwork-meditation-classes-in-toronto",
+          "snippet": "Year Established: 2024. Experience Type: Guided breathwork, meditation, private sessions, corporate wellness, workshops, outdoor breathwork experiences. Key Features: Evidence-informed breathing techn",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Guided Meditation - Meet the Mind",
+          "link": "https://www.meetthemind.co.uk/meditation/",
+          "snippet": "The Guided Meditation Workshops are designed to provide employees with a powerful, transformative experience that promotes mindfulness, reduces stress, and fosters a more balanced work culture. A 500-",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Master Your Inner World - Potent Guided Meditation | Eventbrite",
+          "link": "https://www.eventbrite.com/cc/master-your-inner-world-potent-guided-meditation-3229449?aff=odclrlmcfto",
+          "snippet": "Master your inner world through this transformative 7-week group community connection and coaching circle led by Echo, where you will delve into game-changing guided meditations, therapeutic tarot car",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lotus Life offers Guided Meditation workshops to help you rise...",
+          "link": "https://www.linkedin.com/posts/vitra-gosine-m-d-aa66471bb_lotus-life-offers-guided-meditation-workshops-activity-6970379768261136384-xb0c",
+          "snippet": "View profile for Vitra Gosine, M.D.Corporate Social Responsibility. Negotiation. Communication.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Corporate Esol\u00e9 Wellness Program -NEM Magic & Meditation",
+          "link": "https://www.nemmagicalmassage.com/corporate-wellness-program",
+          "snippet": "Guided Meditation Workshops: Empower your team with stress-relief techniques and enhanced focus through our guided meditation workshops. Boost morale and mental clarity.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditation Workshops - Corporate Workshop Session",
+          "link": "https://book.thatday.uk/workshops/meditation-workshops",
+          "snippet": "Join Nick's 30-minute guided meditation for relaxation, breathwork, and self-care techniques to ease anxiety. Book this Workshop Now!User profile.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Guided Meditation Workshops - Revive at Work",
+          "link": "https://www.reviveatwork.co.uk/workshops/guidedvisualisation-meditation-workshops/",
+          "snippet": "Guided Meditation Workshops. Guided meditation is a method of focusing the mind, helping to create calm. Led by a teacher, practises can include mindfulness \u2013 concentrating on sensations within your b",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Albertha - Life coach - \u20b96349/h",
+          "link": "https://www.superprof.co.in/corporate-stress-management-workshops-corporate-massage-for-reducing-stress-meditation-workshops-and-holistic-counseller-book-now.html",
+          "snippet": "Corporate Stress Management Workshops, Corporate Massage for reducing Stress, Meditation Workshops and Holistic Counseller book now. Copy.Albertha profile and their contact details have been verified ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Learn to Meditate Workshop Tickets, Sun 11/01/2026 at... | Eventbrite",
+          "link": "https://www.eventbrite.com.au/e/learn-to-meditate-workshop-tickets-1073855212849",
+          "snippet": "Learn to Meditate Workshop. Meditation is a time tested and globally recognised process, and has been proven to enhance you life in many ways. By Australian School of Meditation & Yoga. Follow.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P4": {
+      "query": "meditation product resellers official site",
+      "level": "discovery",
+      "result_count": 9,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Learn How to Meditate: A Mindful Guide to Transform Your Life",
+          "link": "https://www.mindful.org/how-to-meditate/",
+          "snippet": "We'll show you how to meditate properly, the benefits of regular meditation practice, and the styles of meditation. Free resources \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Meditation - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Meditation",
+          "snippet": "Meditation techniques are broadly classified into focused (or concentrative) and open monitoring methods. Focused methods involve \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Meditation: A simple, fast way to reduce stress - Mayo Clinic",
+          "link": "https://www.mayoclinic.org/tests-procedures/meditation/in-depth/meditation/art-20045858",
+          "snippet": "Dec 14, 2023 \u00b7 Meditation can give you a sense of calm, peace and balance that can benefit your emotional well-being and your \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Meditation: What It Is, How To Meditate, Benefits & Types",
+          "link": "https://my.clevelandclinic.org/health/articles/17906-meditation",
+          "snippet": "Mar 23, 2026 \u00b7 Meditation is a practice that involves focusing or clearing your mind using a combination of mental and physical \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Meditation: Meditation Meaning, Benefits & How to Meditate | Art of \u2026",
+          "link": "https://www.artofliving.org/in-en/meditation/",
+          "snippet": "Meditation: Learn the meaning of meditation, its benefits for mind and body, and simple steps to meditate for stress relief, better \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "10 meditation techniques for all levels (and how to choose one)",
+          "link": "https://blog.calm.com/blog/meditation-techniques",
+          "snippet": "Apr 9, 2026 \u00b7 With so many meditation techniques out there, it can be hard to know which one is right for you. Explore 10 meditation \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "How to meditate for beginners - Mental wellbeing tips - NHS",
+          "link": "https://www.nhs.uk/every-mind-matters/mental-wellbeing-tips/how-to-meditate-for-beginners/",
+          "snippet": "Use this beginners' guide and video to learn how to meditate and about the benefits of meditation. There are many types of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Meditation - Psychology Today",
+          "link": "https://www.psychologytoday.com/us/basics/meditation?msockid=0afbbee2bff96b2f13aca97dbe226ad5",
+          "snippet": "Nov 13, 2025 \u00b7 Meditation is a mental exercise that trains attention and awareness. Its purpose is often to curb reactivity to one's \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "HemiSync \u2013 Binaural Beat Brainwave CDs \u2013 patented alternative...",
+          "link": "https://hemi-sync.com/",
+          "snippet": "Guided meditations, brainwave audios & sound journeys. 11 languages. Our audio library is available in English, Japanese, German, Spanish, Italian and more.Meditation. Reach profound meditative states",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Learn How to Meditate: A Mindful Guide to Transform Your Life",
+          "link": "https://www.mindful.org/how-to-meditate/",
+          "snippet": "We'll show you how to meditate properly, the benefits of regular meditation practice, and the styles of meditation. Free resources \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Meditation - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Meditation",
+          "snippet": "Meditation techniques are broadly classified into focused (or concentrative) and open monitoring methods. Focused methods involve \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Meditation: A simple, fast way to reduce stress - Mayo Clinic",
+          "link": "https://www.mayoclinic.org/tests-procedures/meditation/in-depth/meditation/art-20045858",
+          "snippet": "Dec 14, 2023 \u00b7 Meditation can give you a sense of calm, peace and balance that can benefit your emotional well-being and your \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Meditation: What It Is, How To Meditate, Benefits & Types",
+          "link": "https://my.clevelandclinic.org/health/articles/17906-meditation",
+          "snippet": "Mar 23, 2026 \u00b7 Meditation is a practice that involves focusing or clearing your mind using a combination of mental and physical \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Meditation: Meditation Meaning, Benefits & How to Meditate | Art of \u2026",
+          "link": "https://www.artofliving.org/in-en/meditation/",
+          "snippet": "Meditation: Learn the meaning of meditation, its benefits for mind and body, and simple steps to meditate for stress relief, better \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "10 meditation techniques for all levels (and how to choose one)",
+          "link": "https://blog.calm.com/blog/meditation-techniques",
+          "snippet": "Apr 9, 2026 \u00b7 With so many meditation techniques out there, it can be hard to know which one is right for you. Explore 10 meditation \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "How to meditate for beginners - Mental wellbeing tips - NHS",
+          "link": "https://www.nhs.uk/every-mind-matters/mental-wellbeing-tips/how-to-meditate-for-beginners/",
+          "snippet": "Use this beginners' guide and video to learn how to meditate and about the benefits of meditation. There are many types of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Meditation - Psychology Today",
+          "link": "https://www.psychologytoday.com/us/basics/meditation?msockid=0afbbee2bff96b2f13aca97dbe226ad5",
+          "snippet": "Nov 13, 2025 \u00b7 Meditation is a mental exercise that trains attention and awareness. Its purpose is often to curb reactivity to one's \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "HemiSync \u2013 Binaural Beat Brainwave CDs \u2013 patented alternative...",
+          "link": "https://hemi-sync.com/",
+          "snippet": "Guided meditations, brainwave audios & sound journeys. 11 languages. Our audio library is available in English, Japanese, German, Spanish, Italian and more.Meditation. Reach profound meditative states",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P5": {
+      "query": "online meditation services corporate site",
+      "level": "discovery",
+      "result_count": 10,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Guided Meditation | Mindfulness | Open Breathwork & Meditation",
+          "link": "https://o-p-e-n.com/",
+          "snippet": "Open is a mindfulness studio. Enter a place to come to your senses \u2014 breathwork, meditation, movement, and sound awaken body and mind to bring you to the present moment.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "We Meditate | Guided Meditations For a Better Life",
+          "link": "https://wemeditate.com/",
+          "snippet": "Silence your mind and discover your inner potential with guided meditations. Connect with others around the world meditating for a better life.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Browse online Meditation services | SoulAdvisor",
+          "link": "https://www.souladvisor.com/therapy/meditation/service/online",
+          "snippet": "Online Meditation services. View locations. Australia. Thailand. United States.Meditation - Faster deeper bliss \u2013 21 day course online. Stressed and overwhelmed from the day to day? Meditation is the ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditate Online | Transforming Emotions... | The Art Of Living Global",
+          "link": "https://www.artofliving.org/meditation/free-online-meditation",
+          "snippet": "Want to meditate online and transform emotions through meditation effortlessly. All you need to so is sit with your eyes closed and follow the instructions. Free online meditation, art of living cours",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mental Health App for Meditation & Sleep - Headspace",
+          "link": "https://www.headspace.com/",
+          "snippet": "Human care services. Online therapy. Mental health coaching. Businesses.all with Headspace. Mental health app with expert-led meditations and tools. Try for $0.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Online Meditation Courses - Learn how to meditate!",
+          "link": "https://www.onlinemeditation.org/",
+          "snippet": "Online Meditation Courses. Introducing the most powerful meditation technique. In over 80 countries, always FREE.I came across Sahaja Yoga Meditation through a Youtube site. I tried many meditation me",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Transcendental Meditation Technique \u2013 Official Website",
+          "link": "https://www.tm.org/",
+          "snippet": "Transcendental Meditation*: Personal. Proven. Practiced with ease.Ready to learn TM? Learning Transcendental Meditation starts with personal instruction from a certified teacher. Book your course toda",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditation Online: The Best Free Videos and Paid Apps",
+          "link": "https://greatist.com/discover/meditation-online",
+          "snippet": "From free online meditation practices to affordable apps, there are loads of resources available. Try one of the guided meditations on our list of top picks to find your calm.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "10 Best Places for Guided Meditation Online",
+          "link": "https://www.healthline.com/health/meditation-online",
+          "snippet": "This website features a broad selection of mindfulness exercises, including more than 2,000 free meditations, worksheets, videos, and e-books. Resources range from short meditations to more in-depth o",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditation services for businesses and military programs and personal.",
+          "link": "https://www.tracyquantum.com/",
+          "snippet": "Corporate Meditation.What we do. We offer meditation training courses to assist corporations, community-based organizations and small business owners increase productivity, provide superior customer s",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Guided Meditation | Mindfulness | Open Breathwork & Meditation",
+          "link": "https://o-p-e-n.com/",
+          "snippet": "Open is a mindfulness studio. Enter a place to come to your senses \u2014 breathwork, meditation, movement, and sound awaken body and mind to bring you to the present moment.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "We Meditate | Guided Meditations For a Better Life",
+          "link": "https://wemeditate.com/",
+          "snippet": "Silence your mind and discover your inner potential with guided meditations. Connect with others around the world meditating for a better life.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Browse online Meditation services | SoulAdvisor",
+          "link": "https://www.souladvisor.com/therapy/meditation/service/online",
+          "snippet": "Online Meditation services. View locations. Australia. Thailand. United States.Meditation - Faster deeper bliss \u2013 21 day course online. Stressed and overwhelmed from the day to day? Meditation is the ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditate Online | Transforming Emotions... | The Art Of Living Global",
+          "link": "https://www.artofliving.org/meditation/free-online-meditation",
+          "snippet": "Want to meditate online and transform emotions through meditation effortlessly. All you need to so is sit with your eyes closed and follow the instructions. Free online meditation, art of living cours",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mental Health App for Meditation & Sleep - Headspace",
+          "link": "https://www.headspace.com/",
+          "snippet": "Human care services. Online therapy. Mental health coaching. Businesses.all with Headspace. Mental health app with expert-led meditations and tools. Try for $0.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Online Meditation Courses - Learn how to meditate!",
+          "link": "https://www.onlinemeditation.org/",
+          "snippet": "Online Meditation Courses. Introducing the most powerful meditation technique. In over 80 countries, always FREE.I came across Sahaja Yoga Meditation through a Youtube site. I tried many meditation me",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Transcendental Meditation Technique \u2013 Official Website",
+          "link": "https://www.tm.org/",
+          "snippet": "Transcendental Meditation*: Personal. Proven. Practiced with ease.Ready to learn TM? Learning Transcendental Meditation starts with personal instruction from a certified teacher. Book your course toda",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditation Online: The Best Free Videos and Paid Apps",
+          "link": "https://greatist.com/discover/meditation-online",
+          "snippet": "From free online meditation practices to affordable apps, there are loads of resources available. Try one of the guided meditations on our list of top picks to find your calm.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "10 Best Places for Guided Meditation Online",
+          "link": "https://www.healthline.com/health/meditation-online",
+          "snippet": "This website features a broad selection of mindfulness exercises, including more than 2,000 free meditations, worksheets, videos, and e-books. Resources range from short meditations to more in-depth o",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditation services for businesses and military programs and personal.",
+          "link": "https://www.tracyquantum.com/",
+          "snippet": "Corporate Meditation.What we do. We offer meditation training courses to assist corporations, community-based organizations and small business owners increase productivity, provide superior customer s",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "physical store distributors of meditation products",
+      "level": "discovery",
+      "result_count": 6,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Amazon.com: Meditation Products",
+          "link": "https://www.amazon.com/Meditation-Products/s?k=Meditation+Products",
+          "snippet": "Shop products from small business brands sold in Amazon\u2019s store. Discover more about the small businesses partnering with Amazon and Amazon\u2019s commitment to empowering them.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditation Journal",
+          "link": "https://store.neurosky.com/products/meditation-journal",
+          "snippet": "Today, with NeuroSky\u2019s advanced Technology, your personal goals can be realized. Find enlightenment from within. Meditation Journal enables you to keep track of your daily meditation and attention lev",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditation for the Love of It \u2013 Sounds True",
+          "link": "https://www.soundstrue.com/products/meditation-for-the-love-of-it",
+          "snippet": "Meditation is like a love affair with your innermost self. At times it can be ecstatic and entrancing, other times simple and still\u2014and sometimes you might not even feel its profound effects until lat",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How to start meditating: 20 products to help with meditation",
+          "link": "https://www.today.com/shop/start-meditating-best-products-t209230",
+          "snippet": "Meditation may reduce anxiety, depression and relieve insomnia. Here are 20 products to help you start meditating including a planner, journal, yoga mats and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "HemiSync \u2013 Binaural Beat Brainwave CDs \u2013 patented alternative...",
+          "link": "https://hemi-sync.com/",
+          "snippet": "Unlock your potential with Hemi-Sync\u00ae, a patented audio technology using binaural beats for deeper meditation, improved sleep, and personal transformation.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditating in Troubled Times 2020 (Download and Streaming Audio)",
+          "link": "https://store.pariyatti.org/products/4937",
+          "snippet": "The emphasis of the talk is what is different and what is not different in our vipassana meditation practice due to the coronavirus and its impact upon our daily life. It was originally given with the",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Amazon.com: Meditation Products",
+          "link": "https://www.amazon.com/Meditation-Products/s?k=Meditation+Products",
+          "snippet": "Shop products from small business brands sold in Amazon\u2019s store. Discover more about the small businesses partnering with Amazon and Amazon\u2019s commitment to empowering them.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditation Journal",
+          "link": "https://store.neurosky.com/products/meditation-journal",
+          "snippet": "Today, with NeuroSky\u2019s advanced Technology, your personal goals can be realized. Find enlightenment from within. Meditation Journal enables you to keep track of your daily meditation and attention lev",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditation for the Love of It \u2013 Sounds True",
+          "link": "https://www.soundstrue.com/products/meditation-for-the-love-of-it",
+          "snippet": "Meditation is like a love affair with your innermost self. At times it can be ecstatic and entrancing, other times simple and still\u2014and sometimes you might not even feel its profound effects until lat",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How to start meditating: 20 products to help with meditation",
+          "link": "https://www.today.com/shop/start-meditating-best-products-t209230",
+          "snippet": "Meditation may reduce anxiety, depression and relieve insomnia. Here are 20 products to help you start meditating including a planner, journal, yoga mats and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "HemiSync \u2013 Binaural Beat Brainwave CDs \u2013 patented alternative...",
+          "link": "https://hemi-sync.com/",
+          "snippet": "Unlock your potential with Hemi-Sync\u00ae, a patented audio technology using binaural beats for deeper meditation, improved sleep, and personal transformation.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditating in Troubled Times 2020 (Download and Streaming Audio)",
+          "link": "https://store.pariyatti.org/products/4937",
+          "snippet": "The emphasis of the talk is what is different and what is not different in our vipassana meditation practice due to the coronavirus and its impact upon our daily life. It was originally given with the",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P7": {
+      "query": "channel partner for meditation resources corporate site",
+      "level": "discovery",
+      "result_count": 8,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Top 25 Best Meditation Resources and Guided Meditation Apps",
+          "link": "https://www.healthcentral.com/mental-health/meditation-resources",
+          "snippet": "Figuring out how to meditate? These resources, including guided meditation, meditation music, and meditation apps, will help you get started.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Ultimate List of Free Meditation Resources | Muse\u00ae EEG Mental...",
+          "link": "https://choosemuse.com/blogs/news/ultimate-list-of-free-meditation-resources",
+          "snippet": "This channel offers daily meditations that are between 1-10 minutes long. Meditation sessions range in topics such as anxiety, healing, depression, sleep, and parenting, general meditation tips, and a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Free Meditation Resources Like Waking Up for Your - Toxigon",
+          "link": "https://toxigon.com/free-meditation-resources-like-waking-up",
+          "snippet": "YouTube Channels for Free Meditation. The Honest Guys. Michael Sealey. Jason Stephenson. Free Meditation Websites. Mindful.org. Calm.com. Tara Brach. Tips for Making the Most of Free Meditation Resour",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "10 Resources on Meditation Every Christian Should Know",
+          "link": "https://justdisciple.com/meditation-resources/",
+          "snippet": "What are resources on meditation that every Christian should know? Below, you\u2019ll find a variety of resources that come from differing sources. Most are found online like websites, apps, and online cou",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditation | healthdirect",
+          "link": "https://www.healthdirect.gov.au/meditation",
+          "snippet": "Key factsMeditation works best when you practice it regularly.There are many resources to help you start to meditate.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "lucistrust.org/resources/meditation",
+          "link": "https://www.lucistrust.org/resources/meditation",
+          "snippet": "They include meditations for Full and New Moon, Goodwill and World...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Proactive Wellbeing for Modern Workplaces. Personalized... - Meditopia",
+          "link": "https://meditopia.com/",
+          "snippet": "10,000+ preventive resources: meditations, breathwork, physical exercises, audio articles in 15+ languages. On-demand wellness programs focused on sleep, nutrition, and movement. Chronic illness, wome",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditation Resources - Dharma Ocean Foundation",
+          "link": "https://www.dharmaocean.org/meditation-resources/",
+          "snippet": "MEDITATION RESOURCES. Meditation is the simple yet profound practice of awakening to our most fundamental self. At this very moment, we have within us a fundamental state of being that is empty, open,",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Top 25 Best Meditation Resources and Guided Meditation Apps",
+          "link": "https://www.healthcentral.com/mental-health/meditation-resources",
+          "snippet": "Figuring out how to meditate? These resources, including guided meditation, meditation music, and meditation apps, will help you get started.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Ultimate List of Free Meditation Resources | Muse\u00ae EEG Mental...",
+          "link": "https://choosemuse.com/blogs/news/ultimate-list-of-free-meditation-resources",
+          "snippet": "This channel offers daily meditations that are between 1-10 minutes long. Meditation sessions range in topics such as anxiety, healing, depression, sleep, and parenting, general meditation tips, and a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Free Meditation Resources Like Waking Up for Your - Toxigon",
+          "link": "https://toxigon.com/free-meditation-resources-like-waking-up",
+          "snippet": "YouTube Channels for Free Meditation. The Honest Guys. Michael Sealey. Jason Stephenson. Free Meditation Websites. Mindful.org. Calm.com. Tara Brach. Tips for Making the Most of Free Meditation Resour",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "10 Resources on Meditation Every Christian Should Know",
+          "link": "https://justdisciple.com/meditation-resources/",
+          "snippet": "What are resources on meditation that every Christian should know? Below, you\u2019ll find a variety of resources that come from differing sources. Most are found online like websites, apps, and online cou",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditation | healthdirect",
+          "link": "https://www.healthdirect.gov.au/meditation",
+          "snippet": "Key factsMeditation works best when you practice it regularly.There are many resources to help you start to meditate.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "lucistrust.org/resources/meditation",
+          "link": "https://www.lucistrust.org/resources/meditation",
+          "snippet": "They include meditations for Full and New Moon, Goodwill and World...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Proactive Wellbeing for Modern Workplaces. Personalized... - Meditopia",
+          "link": "https://meditopia.com/",
+          "snippet": "10,000+ preventive resources: meditations, breathwork, physical exercises, audio articles in 15+ languages. On-demand wellness programs focused on sleep, nutrition, and movement. Chronic illness, wome",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Meditation Resources - Dharma Ocean Foundation",
+          "link": "https://www.dharmaocean.org/meditation-resources/",
+          "snippet": "MEDITATION RESOURCES. Meditation is the simple yet profound practice of awakening to our most fundamental self. At this very moment, we have within us a fundamental state of being that is empty, open,",
+          "backend": "ddgs_bing"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

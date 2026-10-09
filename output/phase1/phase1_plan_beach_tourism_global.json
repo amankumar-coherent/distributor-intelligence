@@ -1,0 +1,1444 @@
+{
+  "phase": 1,
+  "query": "Beach Tourism Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T20:52:36.097713+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "beach tourism",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "travel and leisure",
+    "industry_terms": [
+      "beach resorts",
+      "coastal attractions",
+      "travel packages",
+      "tour operators",
+      "hospitality services"
+    ],
+    "ecosystem_functions": [
+      "distributing travel packages",
+      "reselling tourism services",
+      "providing local experiences",
+      "integrating technology solutions",
+      "enhancing customer experiences",
+      "facilitating bookings",
+      "marketing beach destinations",
+      "connecting service providers with customers"
+    ],
+    "interpretation_summary": "The beach tourism market encompasses travel and leisure activities centered around coastal destinations, involving various participants such as travel agencies, hospitality providers, and service operators. This market o",
+    "relevance_keywords": [
+      "beach tourism",
+      "travel distribution",
+      "tourism services",
+      "holiday packages",
+      "coastal travel"
+    ],
+    "negative_keywords": [
+      "mountain tourism",
+      "city tours",
+      "adventure travel",
+      "cultural experiences",
+      "eco-tourism"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "Expedia Group",
+        "primary_domain": "expedia.com",
+        "company_function": "online travel agency and distributor"
+      },
+      {
+        "canonical_name": "Booking.com",
+        "primary_domain": "booking.com",
+        "company_function": "online travel agency and reseller"
+      },
+      {
+        "canonical_name": "Trafalgar",
+        "primary_domain": "trafalgar.com",
+        "company_function": "tour operator and service provider"
+      },
+      {
+        "canonical_name": "Viator",
+        "primary_domain": "viator.com",
+        "company_function": "tour and activity provider"
+      },
+      {
+        "canonical_name": "Travel Leaders Group",
+        "primary_domain": "travelleaders.com",
+        "company_function": "travel agency network and distributor"
+      },
+      {
+        "canonical_name": "GetYourGuide",
+        "primary_domain": "getyourguide.com",
+        "company_function": "online platform for tours and activities"
+      },
+      {
+        "canonical_name": "G Adventures",
+        "primary_domain": "gadventures.com",
+        "company_function": "adventure travel company and service provider"
+      },
+      {
+        "canonical_name": "Klook",
+        "primary_domain": "klook.com",
+        "company_function": "travel service provider and reseller"
+      },
+      {
+        "canonical_name": "Intrepid Travel",
+        "primary_domain": "intrepidtravel.com",
+        "company_function": "Tour operator and service provider",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "TourRadar",
+        "primary_domain": "tourradar.com",
+        "company_function": "Marketplace for multi-day tours",
+        "segment": "Resellers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Tripadvisor Experiences",
+        "primary_domain": "tripadvisor.com",
+        "company_function": "Platform for booking tours and activities",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Travelocity",
+        "primary_domain": "travelocity.com",
+        "company_function": "Online travel agency and distributor",
+        "segment": "Distributors",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Airbnb Experiences",
+        "primary_domain": "airbnb.com",
+        "company_function": "Platform for local experiences and service provider",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Lastminute.com",
+        "primary_domain": "lastminute.com",
+        "company_function": "Online travel agency and reseller",
+        "segment": "Resellers",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "beach tourism",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "beach tourism",
+    "include_keywords": [
+      "beach vacation packages",
+      "coastal tourism services",
+      "beach resort distributors",
+      "travel agency wholesalers",
+      "beach tour operators"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The beach tourism market encompasses travel and leisure activities centered around coastal destinations, involving various participants such as travel agencies, hospitality providers, and service operators. This market operates globally, with a focus on beach resorts, coastal attractions, and related services.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Distribution",
+        "description": "This layer includes entities that distribute beach tourism packages and services to end customers.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Travel package distributors",
+              "Online travel agencies"
+            ],
+            "participant_types": [
+              "distributor",
+              "wholesaler"
+            ],
+            "search_intents": [
+              "beach tourism package distributors",
+              "travel package wholesalers for beach tourism"
+            ]
+          },
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Travel agents",
+              "Online resellers"
+            ],
+            "participant_types": [
+              "reseller",
+              "service provider"
+            ],
+            "search_intents": [
+              "beach tourism resellers",
+              "travel agents specializing in beach vacations"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L2",
+        "layer_name": "Service Provision",
+        "description": "This layer includes service providers that enhance the beach tourism experience.",
+        "segments": [
+          {
+            "segment_name": "Service Providers",
+            "sub_segments": [
+              "Tour operators",
+              "Local guides"
+            ],
+            "participant_types": [
+              "service provider",
+              "channel partner"
+            ],
+            "search_intents": [
+              "beach tourism service providers",
+              "local tour operators for beach destinations"
+            ]
+          },
+          {
+            "segment_name": "System Integrators",
+            "sub_segments": [
+              "Technology solutions for tourism",
+              "Booking system providers"
+            ],
+            "participant_types": [
+              "system integrator"
+            ],
+            "search_intents": [
+              "tourism technology system integrators",
+              "booking system providers for beach tourism"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Adventure tourism",
+        "Cultural tourism",
+        "Eco-tourism",
+        "Cruise tourism"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "search for beach tourism package distributors",
+        "sub_sector": "travel_package_distributors",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "find travel agents specializing in beach vacations",
+        "sub_sector": "travel_agents",
+        "layer_id": "L1",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "search for beach tourism service providers",
+        "sub_sector": "tour_operators",
+        "layer_id": "L2",
+        "segment": "Service Providers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "find tourism technology system integrators",
+        "sub_sector": "tourism_technology",
+        "layer_id": "L2",
+        "segment": "System Integrators"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "travel and leisure",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "beach tourism companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "beach tourism distributors corporate sites"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "beach tourism service providers official site"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "discovery",
+      "text": "beach tourism package distributors official site"
+    },
+    {
+      "id": "P2",
+      "level": "discovery",
+      "text": "travel package wholesalers for beach tourism corporate site"
+    },
+    {
+      "id": "P3",
+      "level": "discovery",
+      "text": "beach tourism resellers official website"
+    },
+    {
+      "id": "P4",
+      "level": "discovery",
+      "text": "travel agents specializing in beach vacations corporate site"
+    },
+    {
+      "id": "P5",
+      "level": "discovery",
+      "text": "local tour operators for beach destinations corporate site"
+    },
+    {
+      "id": "P6",
+      "level": "discovery",
+      "text": "tourism technology system integrators official site"
+    },
+    {
+      "id": "P7",
+      "level": "discovery",
+      "text": "booking system providers for beach tourism corporate site"
+    },
+    {
+      "id": "P8",
+      "level": "discovery",
+      "text": "authorized beach tourism distributor firm official"
+    },
+    {
+      "id": "P9",
+      "level": "discovery",
+      "text": "beach tourism reseller channel partner official"
+    },
+    {
+      "id": "P10",
+      "level": "discovery",
+      "text": "beach resorts providing local experiences official website"
+    },
+    {
+      "id": "P11",
+      "level": "discovery",
+      "text": "beach tourism system integrator official website"
+    },
+    {
+      "id": "P12",
+      "level": "discovery",
+      "text": "beach resorts enhancing customer experiences official website"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "beach tourism companies official websites",
+      "level": "L0",
+      "result_count": 3,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Beach Tourism Market Size, Share & Growth 2026-2036",
+          "link": "https://www.futuremarketinsights.com/reports/beach-tourism-market",
+          "snippet": "16 Feb 2026 ... Airlines, Hotel Companies, Train, Tour Operators, Government Bodies. Indirect Supplier Segmentation, OTA, Traditional Travel Agencies, TMCs ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Beach Tourism Market Companies",
+          "link": "https://www.coherentmarketinsights.com/industry-reports/beach-tourism-market/companies",
+          "snippet": "2024 and 2031 Beach Tourism Market Companies Report includes a Forecast to 2031 and Historical Overview. Get a Free Sample Copy of this Industry.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Booking FAQs for Gulf Shores & Orange Beach Rentals",
+          "link": "https://www.gulfshores.com/lodging/FAQs/",
+          "snippet": "Gulf Shores & Orange Beach Tourism makes no warranty or representations regarding the condition of any property listed on its site.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Beach Tourism Market Size, Share & Growth 2026-2036",
+          "link": "https://www.futuremarketinsights.com/reports/beach-tourism-market",
+          "snippet": "16 Feb 2026 ... Airlines, Hotel Companies, Train, Tour Operators, Government Bodies. Indirect Supplier Segmentation, OTA, Traditional Travel Agencies, TMCs ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Beach Tourism Market Companies",
+          "link": "https://www.coherentmarketinsights.com/industry-reports/beach-tourism-market/companies",
+          "snippet": "2024 and 2031 Beach Tourism Market Companies Report includes a Forecast to 2031 and Historical Overview. Get a Free Sample Copy of this Industry.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Booking FAQs for Gulf Shores & Orange Beach Rentals",
+          "link": "https://www.gulfshores.com/lodging/FAQs/",
+          "snippet": "Gulf Shores & Orange Beach Tourism makes no warranty or representations regarding the condition of any property listed on its site.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "beach tourism distributors corporate sites",
+      "level": "L1",
+      "result_count": 22,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Beach | Geology, Sand & Wave Dynamics | Britannica",
+          "link": "https://www.britannica.com/science/beach",
+          "snippet": "Beach, sediments that accumulate along the sea or lake shores, the configuration and contours of which depend on the action of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The World's 50 Best Beaches, 2026 - Voted by Travel Experts",
+          "link": "https://www.worlds50beaches.com/",
+          "snippet": "The most definitive list of the world's 50 best beaches for 2026, as voted by over 1,000 of the world's leading travel influencers, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "World's 26 Most Beautiful Beaches - Travel",
+          "link": "https://www.travelandleisure.com/trip-ideas/beach-vacations/most-beautiful-beaches-in-the-world",
+          "snippet": "Jul 3, 2026 \u00b7 Explore the vibrant landscape of Australia's Whitehaven Beach, famous for its silica-rich quartz sand and azure waters. \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Beach.com - Coastal Stays, Curated for You",
+          "link": "https://www.beach.com/",
+          "snippet": "Effortlessly discover and book curated coastal and beachfront stays. Beach.com is your trusted guide to the world's most beautiful \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The best beaches of the World on the map with photos and reviews \ufe0f ...",
+          "link": "https://beaches-searcher.com/en",
+          "snippet": "Sep 18, 2019 \u00b7 Find the perfect beach with BeachSearcher! \ud83c\udfdd\ufe0f 20000 beaches of the world with photos and reviews: the best, popular \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "21 Best Beaches in the World - National Geographic",
+          "link": "https://www.nationalgeographic.com/travel/article/top-beaches-world",
+          "snippet": "Jan 18, 2017 \u00b7 Find perfection in these places where land meets water. Ask true beach lovers to name a favorite swath of surf and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "14 of the world\u2019s best beaches | National Geographic",
+          "link": "https://www.nationalgeographic.com/travel/article/14-of-the-worlds-best-beaches",
+          "snippet": "May 2, 2025 \u00b7 14 iconic beaches you should visit in your lifetime From pink sand to green sand to star-shaped sand, these beaches \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Find Your Perfect Beach | U.S. Beach Guide & Directory",
+          "link": "https://beachory.com/",
+          "snippet": "Plan your next beach day with Beachory. Find nearby beaches with parking, restrooms, family-friendly areas, entrances, live weather, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Best Beaches in the World for 2026 - U.S. News Travel",
+          "link": "https://travel.usnews.com/rankings/best-beaches-in-the-world/",
+          "snippet": "Jan 27, 2026 \u00b7 With countless beaches to choose from on 700 islands, finding the perfect sandy spot in the Bahamas couldn't be \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "10 Top Beach Gear Wholesale Distributors List | B2B Headlines",
+          "link": "https://www.b2bheadlines.com/blog/10-top-beach-gear-wholesale-distributors-list",
+          "snippet": "In this blog, we've compiled a list of the top 10 beach gear wholesale distributors that offer everything from seasonal beachwear to fun summer accessories.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "B2B Wholesale Souvenir Distribution Center | Beach Hut Inc.",
+          "link": "https://www.beachhutinc.com/",
+          "snippet": "Beach Hut, inc. is a leading B2B Wholesale Distribution Center for beach and tropical themed souvenirs. We provide custom souvenirs for not only the small Mom and Pop souvenirs shop but Big Box Stores",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "MTDC | Maharashtra Tourism Development Corporation",
+          "link": "https://www.mtdc.co/en",
+          "snippet": "MTDC resorts offer an ideal setting for hosting conferences, meetings, and corporate events, combining professional infrastructure with serene destinations across Maharashtra. With well-appointed conf",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Manhattan Beachwear",
+          "link": "https://www.mbwswim.com/",
+          "snippet": "LEADING GLOBAL SWIMWEAR, RESORTWEAR DESIGN AND MANUFACTURING COMPANY Manhattan Beachwear's design headquarters and distribution facilities are based in Orange County, California. We proudly design bea",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Beach Hut B2B | Wholesale Customized Souvenirs",
+          "link": "https://beachhutb2b.com/",
+          "snippet": "Beach Hut, Inc. is where retailers can come to buy their beach themed souvenirs and gifts for their retail stores. We can customize your souvenirs and gifts with your city, state, text, or logo.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Theme Parks Attractions Distributors | Trademama 2025",
+          "link": "https://www.trademama.com/theme-parks-attractions/distributors.html",
+          "snippet": "Attractions, Beach, Bed Breakfast, Camping, Civil War, Cottages, Dining, Family Fun, Foliage, Fun, Golf, Guide, Heritage, History, Map, Mountains, Museums, Nature, Theme Parks, Tourism, Tourism Board,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "www.beachcorporate.com",
+          "link": "https://www.beachcorporate.com/",
+          "snippet": "www.beachcorporate.com",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "On The Beach | Holidays 2026 / 2027 | Low \u00a319pp Deposits",
+          "link": "https://www.onthebeach.co.uk/",
+          "snippet": "On The Beach Holidays for 2026 & 2027. Book your perfect package holiday deal with ATOL protection and low \u00a319pp deposits.Uvero Alto, East Coast, Dominican Republic. Gorgeous on-site spa. Live nightly",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "tourism Distributor | B2B companies and suppliers | europages",
+          "link": "https://www.europages.co.uk/companies/distributor/tourism.html",
+          "snippet": "11239 suppliers for tourism Distributor Find wholesalers and contact them directly B2B martketplace Find companies now! Professional distribution of multi-brand tourism spare parts with fast delivery ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Welcome to Kerala Tourism - Official Website of Department of...",
+          "link": "https://www.keralatourism.org/",
+          "snippet": "Kerala Tourism official website provides text, photos, video, on travel destinations, hotels, accommodation, culture, heritage, art forms and people of God's own Country.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Become a Distributor - Australian Tourism Data Warehouse",
+          "link": "https://www.atdw.com.au/join/",
+          "snippet": "ATDW Data is distributed via the Australian Tourism Location Aware Search (ATLAS Web service) by a real time interface to ensure distributors get the most up-to-date data at any time.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Juniper Travel Technology",
+          "link": "https://ejuniper.com/",
+          "snippet": "Evolution. business_center. Corporate. account_balance_wallet.Multichannel distribution in tourism consists of offering and managing travel products (such as flights, hotels, cruises, or packages) thr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "MSC Cruises: Holidays to the Caribbean, Mediterranean and Worldwide",
+          "link": "https://www.msccruises.com/int",
+          "snippet": "Dream beaches , where white sand and turquoise sea await you to swim , snorkel and relax while enjoying the view. Immerse yourself in the slow and contagious pace of local life , where locals will wel",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Beach | Geology, Sand & Wave Dynamics | Britannica",
+          "link": "https://www.britannica.com/science/beach",
+          "snippet": "Beach, sediments that accumulate along the sea or lake shores, the configuration and contours of which depend on the action of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The World's 50 Best Beaches, 2026 - Voted by Travel Experts",
+          "link": "https://www.worlds50beaches.com/",
+          "snippet": "The most definitive list of the world's 50 best beaches for 2026, as voted by over 1,000 of the world's leading travel influencers, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "World's 26 Most Beautiful Beaches - Travel",
+          "link": "https://www.travelandleisure.com/trip-ideas/beach-vacations/most-beautiful-beaches-in-the-world",
+          "snippet": "Jul 3, 2026 \u00b7 Explore the vibrant landscape of Australia's Whitehaven Beach, famous for its silica-rich quartz sand and azure waters. \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Beach.com - Coastal Stays, Curated for You",
+          "link": "https://www.beach.com/",
+          "snippet": "Effortlessly discover and book curated coastal and beachfront stays. Beach.com is your trusted guide to the world's most beautiful \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The best beaches of the World on the map with photos and reviews \ufe0f ...",
+          "link": "https://beaches-searcher.com/en",
+          "snippet": "Sep 18, 2019 \u00b7 Find the perfect beach with BeachSearcher! \ud83c\udfdd\ufe0f 20000 beaches of the world with photos and reviews: the best, popular \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "21 Best Beaches in the World - National Geographic",
+          "link": "https://www.nationalgeographic.com/travel/article/top-beaches-world",
+          "snippet": "Jan 18, 2017 \u00b7 Find perfection in these places where land meets water. Ask true beach lovers to name a favorite swath of surf and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "14 of the world\u2019s best beaches | National Geographic",
+          "link": "https://www.nationalgeographic.com/travel/article/14-of-the-worlds-best-beaches",
+          "snippet": "May 2, 2025 \u00b7 14 iconic beaches you should visit in your lifetime From pink sand to green sand to star-shaped sand, these beaches \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Find Your Perfect Beach | U.S. Beach Guide & Directory",
+          "link": "https://beachory.com/",
+          "snippet": "Plan your next beach day with Beachory. Find nearby beaches with parking, restrooms, family-friendly areas, entrances, live weather, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Best Beaches in the World for 2026 - U.S. News Travel",
+          "link": "https://travel.usnews.com/rankings/best-beaches-in-the-world/",
+          "snippet": "Jan 27, 2026 \u00b7 With countless beaches to choose from on 700 islands, finding the perfect sandy spot in the Bahamas couldn't be \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "10 Top Beach Gear Wholesale Distributors List | B2B Headlines",
+          "link": "https://www.b2bheadlines.com/blog/10-top-beach-gear-wholesale-distributors-list",
+          "snippet": "In this blog, we've compiled a list of the top 10 beach gear wholesale distributors that offer everything from seasonal beachwear to fun summer accessories.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "B2B Wholesale Souvenir Distribution Center | Beach Hut Inc.",
+          "link": "https://www.beachhutinc.com/",
+          "snippet": "Beach Hut, inc. is a leading B2B Wholesale Distribution Center for beach and tropical themed souvenirs. We provide custom souvenirs for not only the small Mom and Pop souvenirs shop but Big Box Stores",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "MTDC | Maharashtra Tourism Development Corporation",
+          "link": "https://www.mtdc.co/en",
+          "snippet": "MTDC resorts offer an ideal setting for hosting conferences, meetings, and corporate events, combining professional infrastructure with serene destinations across Maharashtra. With well-appointed conf",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Manhattan Beachwear",
+          "link": "https://www.mbwswim.com/",
+          "snippet": "LEADING GLOBAL SWIMWEAR, RESORTWEAR DESIGN AND MANUFACTURING COMPANY Manhattan Beachwear's design headquarters and distribution facilities are based in Orange County, California. We proudly design bea",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Beach Hut B2B | Wholesale Customized Souvenirs",
+          "link": "https://beachhutb2b.com/",
+          "snippet": "Beach Hut, Inc. is where retailers can come to buy their beach themed souvenirs and gifts for their retail stores. We can customize your souvenirs and gifts with your city, state, text, or logo.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Theme Parks Attractions Distributors | Trademama 2025",
+          "link": "https://www.trademama.com/theme-parks-attractions/distributors.html",
+          "snippet": "Attractions, Beach, Bed Breakfast, Camping, Civil War, Cottages, Dining, Family Fun, Foliage, Fun, Golf, Guide, Heritage, History, Map, Mountains, Museums, Nature, Theme Parks, Tourism, Tourism Board,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "www.beachcorporate.com",
+          "link": "https://www.beachcorporate.com/",
+          "snippet": "www.beachcorporate.com",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "On The Beach | Holidays 2026 / 2027 | Low \u00a319pp Deposits",
+          "link": "https://www.onthebeach.co.uk/",
+          "snippet": "On The Beach Holidays for 2026 & 2027. Book your perfect package holiday deal with ATOL protection and low \u00a319pp deposits.Uvero Alto, East Coast, Dominican Republic. Gorgeous on-site spa. Live nightly",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "tourism Distributor | B2B companies and suppliers | europages",
+          "link": "https://www.europages.co.uk/companies/distributor/tourism.html",
+          "snippet": "11239 suppliers for tourism Distributor Find wholesalers and contact them directly B2B martketplace Find companies now! Professional distribution of multi-brand tourism spare parts with fast delivery ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Welcome to Kerala Tourism - Official Website of Department of...",
+          "link": "https://www.keralatourism.org/",
+          "snippet": "Kerala Tourism official website provides text, photos, video, on travel destinations, hotels, accommodation, culture, heritage, art forms and people of God's own Country.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Become a Distributor - Australian Tourism Data Warehouse",
+          "link": "https://www.atdw.com.au/join/",
+          "snippet": "ATDW Data is distributed via the Australian Tourism Location Aware Search (ATLAS Web service) by a real time interface to ensure distributors get the most up-to-date data at any time.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Juniper Travel Technology",
+          "link": "https://ejuniper.com/",
+          "snippet": "Evolution. business_center. Corporate. account_balance_wallet.Multichannel distribution in tourism consists of offering and managing travel products (such as flights, hotels, cruises, or packages) thr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "MSC Cruises: Holidays to the Caribbean, Mediterranean and Worldwide",
+          "link": "https://www.msccruises.com/int",
+          "snippet": "Dream beaches , where white sand and turquoise sea await you to swim , snorkel and relax while enjoying the view. Immerse yourself in the slow and contagious pace of local life , where locals will wel",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "beach tourism service providers official site",
+      "level": "L2",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Beach Tourism,Beach Tourism Providers in India ... - ExportersIndia",
+          "link": "https://www.exportersindia.com/indian-services/beach-tourism.htm",
+          "snippet": "Search Consultants Agents and agency of Beach Tourism in India and foreign countries - Consultant and Service Providers Directory offer business listings of Beach Tourism Agency Agents & Consultants",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Beach Tourism,Beach Tourism Providers in India ... - ExportersIndia",
+          "link": "https://www.exportersindia.com/indian-services/beach-tourism.htm",
+          "snippet": "Search Consultants Agents and agency of Beach Tourism in India and foreign countries - Consultant and Service Providers Directory offer business listings of Beach Tourism Agency Agents & Consultants",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "beach tourism package distributors official site",
+      "level": "discovery",
+      "result_count": 20,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Beach | Geology, Sand & Wave Dynamics | Britannica",
+          "link": "https://www.britannica.com/science/beach",
+          "snippet": "Beach, sediments that accumulate along the sea or lake shores, the configuration and contours of which depend on the action of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The World's 50 Best Beaches, 2026 - Voted by Travel Experts",
+          "link": "https://www.worlds50beaches.com/",
+          "snippet": "The most definitive list of the world's 50 best beaches for 2026, as voted by over 1,000 of the world's leading travel influencers, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "World's 26 Most Beautiful Beaches - Travel",
+          "link": "https://www.travelandleisure.com/trip-ideas/beach-vacations/most-beautiful-beaches-in-the-world",
+          "snippet": "Jul 3, 2026 \u00b7 Explore the vibrant landscape of Australia's Whitehaven Beach, famous for its silica-rich quartz sand and azure waters. \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Beach.com - Coastal Stays, Curated for You",
+          "link": "https://www.beach.com/",
+          "snippet": "Effortlessly discover and book curated coastal and beachfront stays. Beach.com is your trusted guide to the world's most beautiful \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The best beaches of the World on the map with photos and reviews \ufe0f ...",
+          "link": "https://beaches-searcher.com/en",
+          "snippet": "Sep 18, 2019 \u00b7 Find the perfect beach with BeachSearcher! \ud83c\udfdd\ufe0f 20000 beaches of the world with photos and reviews: the best, popular \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "21 Best Beaches in the World - National Geographic",
+          "link": "https://www.nationalgeographic.com/travel/article/top-beaches-world",
+          "snippet": "Jan 18, 2017 \u00b7 Find perfection in these places where land meets water. Ask true beach lovers to name a favorite swath of surf and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "14 of the world\u2019s best beaches | National Geographic",
+          "link": "https://www.nationalgeographic.com/travel/article/14-of-the-worlds-best-beaches",
+          "snippet": "May 2, 2025 \u00b7 14 iconic beaches you should visit in your lifetime From pink sand to green sand to star-shaped sand, these beaches \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Find Your Perfect Beach | U.S. Beach Guide & Directory",
+          "link": "https://beachory.com/",
+          "snippet": "Plan your next beach day with Beachory. Find nearby beaches with parking, restrooms, family-friendly areas, entrances, live weather, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Best Beaches in the World for 2026 - U.S. News Travel",
+          "link": "https://travel.usnews.com/rankings/best-beaches-in-the-world/",
+          "snippet": "Jan 27, 2026 \u00b7 With countless beaches to choose from on 700 islands, finding the perfect sandy spot in the Bahamas couldn't be \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "MTDC | Maharashtra Tourism Development Corporation",
+          "link": "https://www.mtdc.co/en",
+          "snippet": "Located close to the world-famous Ajanta Caves, MTDC Ajanta T Point offers travellers a peaceful stay amidst non-polluted surroundings, rolling hills, and lush greenery. This heritage-rich region is c",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Beach Resorts & Vacation Packages | Beachbound",
+          "link": "https://www.beachbound.com/",
+          "snippet": "Curated beach vacation packages at Beachbound.com. Where will your next beach adventure be? Find flights and resort hotels in Hawaii, Bahamas, Mexico, Caribbean and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Beach Holidays Archives - KSTDC",
+          "link": "https://kstdc.co/tour-categories/beach-holidays/",
+          "snippet": "Plan your beach holidays with KSTDC. Explore various beach destinations and enjoy a memorable vacation with our tailored packages.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vacation Packages | Resorts & Hotels | Beachbound",
+          "link": "https://www.beachbound.com/destinations/",
+          "snippet": "Book your next Beach Vacation at Beachbound.com. Find all-inclusive beach destination getaways and curated beach experiences around the world.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+          "link": "https://www.makemytrip.com/holidays-india/",
+          "snippet": "Holidays in India - Get upto Rs. 7000 OFF on Indian Holidays, Honeymoon Packages, Tour Package, India Tourism Packages use Coupon Code SPLPACK at MakeMyTrip",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "On The Beach | Holidays 2026 / 2027 | Low \u00a319pp Deposits",
+          "link": "https://www.onthebeach.co.uk/",
+          "snippet": "On The Beach Holidays for 2026 & 2027. Book your perfect package holiday deal with ATOL protection and low \u00a319pp deposits.On the Beach Secure Trust Account. Your money is protected. Deposits from \u00a319p",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Welcome to Kerala Tourism - Official Website of Department of...",
+          "link": "https://www.keralatourism.org/",
+          "snippet": "Kerala Tourism official website provides text, photos, video, on travel destinations, hotels, accommodation, culture, heritage, art forms and people of God's own Country.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Incredible Package Tourism Industry- Made... - Tourism Teacher",
+          "link": "https://tourismteacher.com/package-tourism/",
+          "snippet": "Package tourism is a big part of the tourism industry- learn what it is, how is works and what the future of package holidays is here.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Discover Italy: Official Tourism Website - Italia.it",
+          "link": "https://www.italia.it/",
+          "snippet": "Browse the Official Tourism Website and plan your holidays to Italy. Find out where to go and what to do during your next Italian trip.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "MSC Cruises: Holidays to the Caribbean, Mediterranean and Worldwide",
+          "link": "https://www.msccruises.com/int",
+          "snippet": "MSC Cruises takes you to the tropical paradise of the Caribbean ! Dream beaches , where white sand and turquoise sea await you to swim , snorkel and relax while enjoying the view.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "KSA Visa",
+          "link": "https://ksavisa.sa/",
+          "snippet": "An official government website belonging to the Government of the Kingdom of Saudi Arabia.Enjoy a smoother and more convenient journey with a visit visa for tourism included in your travel package.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Beach | Geology, Sand & Wave Dynamics | Britannica",
+          "link": "https://www.britannica.com/science/beach",
+          "snippet": "Beach, sediments that accumulate along the sea or lake shores, the configuration and contours of which depend on the action of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The World's 50 Best Beaches, 2026 - Voted by Travel Experts",
+          "link": "https://www.worlds50beaches.com/",
+          "snippet": "The most definitive list of the world's 50 best beaches for 2026, as voted by over 1,000 of the world's leading travel influencers, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "World's 26 Most Beautiful Beaches - Travel",
+          "link": "https://www.travelandleisure.com/trip-ideas/beach-vacations/most-beautiful-beaches-in-the-world",
+          "snippet": "Jul 3, 2026 \u00b7 Explore the vibrant landscape of Australia's Whitehaven Beach, famous for its silica-rich quartz sand and azure waters. \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Beach.com - Coastal Stays, Curated for You",
+          "link": "https://www.beach.com/",
+          "snippet": "Effortlessly discover and book curated coastal and beachfront stays. Beach.com is your trusted guide to the world's most beautiful \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The best beaches of the World on the map with photos and reviews \ufe0f ...",
+          "link": "https://beaches-searcher.com/en",
+          "snippet": "Sep 18, 2019 \u00b7 Find the perfect beach with BeachSearcher! \ud83c\udfdd\ufe0f 20000 beaches of the world with photos and reviews: the best, popular \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "21 Best Beaches in the World - National Geographic",
+          "link": "https://www.nationalgeographic.com/travel/article/top-beaches-world",
+          "snippet": "Jan 18, 2017 \u00b7 Find perfection in these places where land meets water. Ask true beach lovers to name a favorite swath of surf and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "14 of the world\u2019s best beaches | National Geographic",
+          "link": "https://www.nationalgeographic.com/travel/article/14-of-the-worlds-best-beaches",
+          "snippet": "May 2, 2025 \u00b7 14 iconic beaches you should visit in your lifetime From pink sand to green sand to star-shaped sand, these beaches \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Find Your Perfect Beach | U.S. Beach Guide & Directory",
+          "link": "https://beachory.com/",
+          "snippet": "Plan your next beach day with Beachory. Find nearby beaches with parking, restrooms, family-friendly areas, entrances, live weather, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Best Beaches in the World for 2026 - U.S. News Travel",
+          "link": "https://travel.usnews.com/rankings/best-beaches-in-the-world/",
+          "snippet": "Jan 27, 2026 \u00b7 With countless beaches to choose from on 700 islands, finding the perfect sandy spot in the Bahamas couldn't be \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "MTDC | Maharashtra Tourism Development Corporation",
+          "link": "https://www.mtdc.co/en",
+          "snippet": "Located close to the world-famous Ajanta Caves, MTDC Ajanta T Point offers travellers a peaceful stay amidst non-polluted surroundings, rolling hills, and lush greenery. This heritage-rich region is c",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Beach Resorts & Vacation Packages | Beachbound",
+          "link": "https://www.beachbound.com/",
+          "snippet": "Curated beach vacation packages at Beachbound.com. Where will your next beach adventure be? Find flights and resort hotels in Hawaii, Bahamas, Mexico, Caribbean and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Beach Holidays Archives - KSTDC",
+          "link": "https://kstdc.co/tour-categories/beach-holidays/",
+          "snippet": "Plan your beach holidays with KSTDC. Explore various beach destinations and enjoy a memorable vacation with our tailored packages.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vacation Packages | Resorts & Hotels | Beachbound",
+          "link": "https://www.beachbound.com/destinations/",
+          "snippet": "Book your next Beach Vacation at Beachbound.com. Find all-inclusive beach destination getaways and curated beach experiences around the world.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday",
+          "link": "https://www.makemytrip.com/holidays-india/",
+          "snippet": "Holidays in India - Get upto Rs. 7000 OFF on Indian Holidays, Honeymoon Packages, Tour Package, India Tourism Packages use Coupon Code SPLPACK at MakeMyTrip",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "On The Beach | Holidays 2026 / 2027 | Low \u00a319pp Deposits",
+          "link": "https://www.onthebeach.co.uk/",
+          "snippet": "On The Beach Holidays for 2026 & 2027. Book your perfect package holiday deal with ATOL protection and low \u00a319pp deposits.On the Beach Secure Trust Account. Your money is protected. Deposits from \u00a319p",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Welcome to Kerala Tourism - Official Website of Department of...",
+          "link": "https://www.keralatourism.org/",
+          "snippet": "Kerala Tourism official website provides text, photos, video, on travel destinations, hotels, accommodation, culture, heritage, art forms and people of God's own Country.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Incredible Package Tourism Industry- Made... - Tourism Teacher",
+          "link": "https://tourismteacher.com/package-tourism/",
+          "snippet": "Package tourism is a big part of the tourism industry- learn what it is, how is works and what the future of package holidays is here.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Discover Italy: Official Tourism Website - Italia.it",
+          "link": "https://www.italia.it/",
+          "snippet": "Browse the Official Tourism Website and plan your holidays to Italy. Find out where to go and what to do during your next Italian trip.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "MSC Cruises: Holidays to the Caribbean, Mediterranean and Worldwide",
+          "link": "https://www.msccruises.com/int",
+          "snippet": "MSC Cruises takes you to the tropical paradise of the Caribbean ! Dream beaches , where white sand and turquoise sea await you to swim , snorkel and relax while enjoying the view.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "KSA Visa",
+          "link": "https://ksavisa.sa/",
+          "snippet": "An official government website belonging to the Government of the Kingdom of Saudi Arabia.Enjoy a smoother and more convenient journey with a visit visa for tourism included in your travel package.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P2": {
+      "query": "travel package wholesalers for beach tourism corporate site",
+      "level": "discovery",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "13 examples of wholesale tour operators in Latin America - Mize",
+          "link": "https://mize.tech/blog/13-examples-of-wholesale-tour-operators-in-latin-america/",
+          "snippet": "December 29, 2025 - This wholesale agency focused mainly ... as international destinations, such as the Mexican Caribbean. An important market for Jade Reps is beach tourism....",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "13 examples of wholesale tour operators in Latin America - Mize",
+          "link": "https://mize.tech/blog/13-examples-of-wholesale-tour-operators-in-latin-america/",
+          "snippet": "December 29, 2025 - This wholesale agency focused mainly ... as international destinations, such as the Mexican Caribbean. An important market for Jade Reps is beach tourism....",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P3": {
+      "query": "beach tourism resellers official website",
+      "level": "discovery",
+      "result_count": 2,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Beach Tourism",
+          "link": "https://www.beachtourism.in/",
+          "snippet": "City Blog City Blog is reinventing how we explore and enjoy cities. Our guides help you discover new places, discover intriguing details about your surroundings, and discover the city for yourself. Wi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sochi Airport Smoking Areas (AER) - 2026",
+          "link": "https://www.airportsmokingzones.com/russia/aer-smoking-at-sochi-international-airport/",
+          "snippet": "Today AER handles both summer beach tourism and winter ski traffic to the nearby Krasnaya Polyana mountain resorts, making it busy year-round.Useful Links. Sochi International Airport Official Website",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Beach Tourism",
+          "link": "https://www.beachtourism.in/",
+          "snippet": "City Blog City Blog is reinventing how we explore and enjoy cities. Our guides help you discover new places, discover intriguing details about your surroundings, and discover the city for yourself. Wi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sochi Airport Smoking Areas (AER) - 2026",
+          "link": "https://www.airportsmokingzones.com/russia/aer-smoking-at-sochi-international-airport/",
+          "snippet": "Today AER handles both summer beach tourism and winter ski traffic to the nearby Krasnaya Polyana mountain resorts, making it busy year-round.Useful Links. Sochi International Airport Official Website",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P4": {
+      "query": "travel agents specializing in beach vacations corporate site",
+      "level": "discovery",
+      "result_count": 4,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Airbnb | Vacation rentals, cabins, beach houses, & more",
+          "link": "https://www.airbnb.com/",
+          "snippet": "Get an Airbnb for every kind of trip \u2192 8 million vacation rentals \u2192 2 million Guest Favorites \u2192 220+ countries and regions worldwide.Travel tips & inspiration. Airbnb-friendly apartments.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "on the beach travel agent | Travelers Plans",
+          "link": "https://www.travelersplans.com/on-the-beach-travel-agent/",
+          "snippet": "Are you looking for a travel agent that specializes in beach vacations?With an easy-to-use website and a dedicated customer support team, On The Beach Travel Agent makes planning your beach vacation s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "About Us \u2013 Beach Buzz Vacations",
+          "link": "https://www.beachbuzzvacations.com/about/",
+          "snippet": "About Beach Buzz Vacations. Life brings simple pleasures everyday, let us help you create memories that last a lifetime. Full service certified and insured travel agent specializing in beach destinati",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Are you looking for alternative travel websites to On the Beach ? Whe...",
+          "link": "https://www.similarsitesearch.com/sites/on-the-beach/",
+          "snippet": "Both websites offer travel packages and holidays. On the Beach specializes in beach holidays, while US provides a wide range of worldwide travel experiences.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Airbnb | Vacation rentals, cabins, beach houses, & more",
+          "link": "https://www.airbnb.com/",
+          "snippet": "Get an Airbnb for every kind of trip \u2192 8 million vacation rentals \u2192 2 million Guest Favorites \u2192 220+ countries and regions worldwide.Travel tips & inspiration. Airbnb-friendly apartments.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "on the beach travel agent | Travelers Plans",
+          "link": "https://www.travelersplans.com/on-the-beach-travel-agent/",
+          "snippet": "Are you looking for a travel agent that specializes in beach vacations?With an easy-to-use website and a dedicated customer support team, On The Beach Travel Agent makes planning your beach vacation s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "About Us \u2013 Beach Buzz Vacations",
+          "link": "https://www.beachbuzzvacations.com/about/",
+          "snippet": "About Beach Buzz Vacations. Life brings simple pleasures everyday, let us help you create memories that last a lifetime. Full service certified and insured travel agent specializing in beach destinati",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Are you looking for alternative travel websites to On the Beach ? Whe...",
+          "link": "https://www.similarsitesearch.com/sites/on-the-beach/",
+          "snippet": "Both websites offer travel packages and holidays. On the Beach specializes in beach holidays, while US provides a wide range of worldwide travel experiences.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P5": {
+      "query": "local tour operators for beach destinations corporate site",
+      "level": "discovery",
+      "result_count": 4,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "VisitNJ.org: Things to Do, Attractions, Events, Beaches in NJ",
+          "link": "https://visitnj.org/",
+          "snippet": "Far from a one-and-done destination, we wow with 130 miles of spectacularly soft shorelines. Beyond these beautiful beaches, our cities pulse with exciting entertainment and culinary pleasures. Parks ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "On The Beach | Holidays 2026 / 2027 | Low \u00a319pp Deposits",
+          "link": "https://www.onthebeach.co.uk/",
+          "snippet": "On The Beach Holidays for 2026 & 2027. Book your perfect package holiday deal with ATOL protection and low \u00a319pp deposits.On the Beach Secure Trust Account. Your money is protected. Deposits from \u00a319p",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Local Tour Operators - Mlini Message Board - Tripadvisor",
+          "link": "https://www.tripadvisor.co.uk/ShowTopic-g658382-i14722-k13982859-Local_Tour_Operators-Mlini_Dubrovnik_Neretva_County_Dalmatia.html",
+          "snippet": "Local Tour Operators 15 June 2022. Hill Walking behind Mlini 11 June 2022. Beaches and boat trips 30 May 2022.Members who are extremely knowledgeable about this destination and answer travellers\u2019 ques",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "European Travel in Peak Season: Why Tour Operators Need Better...",
+          "link": "https://www.rustourismnews.com/2026/07/20/european-travel-in-peak-season-why-tour-operators-need-better-transfer-planning/",
+          "snippet": "Tour operators should build transport plans around the real route, not just the map distance. In France, a short distance can still take time because of traffic, narrow roads, tourist crowds, restrict",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "VisitNJ.org: Things to Do, Attractions, Events, Beaches in NJ",
+          "link": "https://visitnj.org/",
+          "snippet": "Far from a one-and-done destination, we wow with 130 miles of spectacularly soft shorelines. Beyond these beautiful beaches, our cities pulse with exciting entertainment and culinary pleasures. Parks ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "On The Beach | Holidays 2026 / 2027 | Low \u00a319pp Deposits",
+          "link": "https://www.onthebeach.co.uk/",
+          "snippet": "On The Beach Holidays for 2026 & 2027. Book your perfect package holiday deal with ATOL protection and low \u00a319pp deposits.On the Beach Secure Trust Account. Your money is protected. Deposits from \u00a319p",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Local Tour Operators - Mlini Message Board - Tripadvisor",
+          "link": "https://www.tripadvisor.co.uk/ShowTopic-g658382-i14722-k13982859-Local_Tour_Operators-Mlini_Dubrovnik_Neretva_County_Dalmatia.html",
+          "snippet": "Local Tour Operators 15 June 2022. Hill Walking behind Mlini 11 June 2022. Beaches and boat trips 30 May 2022.Members who are extremely knowledgeable about this destination and answer travellers\u2019 ques",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "European Travel in Peak Season: Why Tour Operators Need Better...",
+          "link": "https://www.rustourismnews.com/2026/07/20/european-travel-in-peak-season-why-tour-operators-need-better-transfer-planning/",
+          "snippet": "Tour operators should build transport plans around the real route, not just the map distance. In France, a short distance can still take time because of traffic, narrow roads, tourist crowds, restrict",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "tourism technology system integrators official site",
+      "level": "discovery",
+      "result_count": 11,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Tourism | Definition, History, Types, Importance, & Industry | Britannica",
+          "link": "https://www.britannica.com/topic/tourism",
+          "snippet": "Tourism, the act and process of spending time away from home in pursuit of recreation, relaxation, and pleasure, while making use of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tourism - Wikipedia",
+          "link": "https://en.m.wikipedia.org/wiki/Tourism",
+          "snippet": "Tourism is travel for pleasure, and the commercial activity of providing and supporting such travel. [1][2] UN Tourism defines tourism \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Welcome to Kerala Tourism - Official Website of Department of Tourism ...",
+          "link": "https://www.keralatourism.org/",
+          "snippet": "Kerala Tourism official website provides text, photos, video, on travel destinations, hotels, accommodation, culture, heritage, art forms \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "UN Tourism | Bringing the world closer",
+          "link": "https://www.untourism.int/",
+          "snippet": "Jun 2, 2026 \u00b7 UN Tourism has further advanced its focus on innovation and investment as central pillars of a more competitive, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Home | Ministry Of Tourism",
+          "link": "https://www.tourism.gov.in/",
+          "snippet": "About Us The Ministry of Tourism, is the nodal agency for the formulation of national policies and programs and for the co-ordination \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tourism - Definition, Types & Forms, History & Importance",
+          "link": "https://tourismnotes.com/travel-tourism/",
+          "snippet": "Tourism is the movement of the people from their normal place of residence to another place ( with the intention to return) for a \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Why Tourism? - UN Tourism",
+          "link": "https://www.untourism.int/why-tourism",
+          "snippet": "The contribution of tourism to economic well-being depends on the quality and the \u200erevenues of the tourism offer. UN Tourism assists \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Visit Singapore: Official Tourism Site for Travel, Food and Culture",
+          "link": "https://www.visitsingapore.com/",
+          "snippet": "Jul 7, 2026 \u00b7 Discover Singapore's beauty, from must-visit attractions to hidden gems, vibrant neighborhoods, and festive events. \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "24 Types of Tourism: Examples & Categories (2026)",
+          "link": "https://phptravels.com/blog/types-of-tourism/",
+          "snippet": "Jul 23, 2025 \u00b7 Explore 24 types of tourism with clear definitions, real examples, key characteristics, and classifications by geography, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Travel and tourism worldwide - statistics & facts | Statista",
+          "link": "https://www.statista.com/topics/962/global-tourism/",
+          "snippet": "May 6, 2026 \u00b7 The global travel and tourism sector has recovered from the pandemic and is booming again. Find the most up-to-date \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Red Sea Global - Official site",
+          "link": "https://www.redseaglobal.com/",
+          "snippet": "Welcome to Red Sea Global, a PIF giga-project redefining luxury tourism through regenerative destinations and forward-thinking investment opportunities.Integrated expertise across planning, developmen",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Tourism | Definition, History, Types, Importance, & Industry | Britannica",
+          "link": "https://www.britannica.com/topic/tourism",
+          "snippet": "Tourism, the act and process of spending time away from home in pursuit of recreation, relaxation, and pleasure, while making use of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tourism - Wikipedia",
+          "link": "https://en.m.wikipedia.org/wiki/Tourism",
+          "snippet": "Tourism is travel for pleasure, and the commercial activity of providing and supporting such travel. [1][2] UN Tourism defines tourism \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Welcome to Kerala Tourism - Official Website of Department of Tourism ...",
+          "link": "https://www.keralatourism.org/",
+          "snippet": "Kerala Tourism official website provides text, photos, video, on travel destinations, hotels, accommodation, culture, heritage, art forms \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "UN Tourism | Bringing the world closer",
+          "link": "https://www.untourism.int/",
+          "snippet": "Jun 2, 2026 \u00b7 UN Tourism has further advanced its focus on innovation and investment as central pillars of a more competitive, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Home | Ministry Of Tourism",
+          "link": "https://www.tourism.gov.in/",
+          "snippet": "About Us The Ministry of Tourism, is the nodal agency for the formulation of national policies and programs and for the co-ordination \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tourism - Definition, Types & Forms, History & Importance",
+          "link": "https://tourismnotes.com/travel-tourism/",
+          "snippet": "Tourism is the movement of the people from their normal place of residence to another place ( with the intention to return) for a \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Why Tourism? - UN Tourism",
+          "link": "https://www.untourism.int/why-tourism",
+          "snippet": "The contribution of tourism to economic well-being depends on the quality and the \u200erevenues of the tourism offer. UN Tourism assists \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Visit Singapore: Official Tourism Site for Travel, Food and Culture",
+          "link": "https://www.visitsingapore.com/",
+          "snippet": "Jul 7, 2026 \u00b7 Discover Singapore's beauty, from must-visit attractions to hidden gems, vibrant neighborhoods, and festive events. \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "24 Types of Tourism: Examples & Categories (2026)",
+          "link": "https://phptravels.com/blog/types-of-tourism/",
+          "snippet": "Jul 23, 2025 \u00b7 Explore 24 types of tourism with clear definitions, real examples, key characteristics, and classifications by geography, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Travel and tourism worldwide - statistics & facts | Statista",
+          "link": "https://www.statista.com/topics/962/global-tourism/",
+          "snippet": "May 6, 2026 \u00b7 The global travel and tourism sector has recovered from the pandemic and is booming again. Find the most up-to-date \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Red Sea Global - Official site",
+          "link": "https://www.redseaglobal.com/",
+          "snippet": "Welcome to Red Sea Global, a PIF giga-project redefining luxury tourism through regenerative destinations and forward-thinking investment opportunities.Integrated expertise across planning, developmen",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P7": {
+      "query": "booking system providers for beach tourism corporate site",
+      "level": "discovery",
+      "result_count": 3,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Airbnb | Vacation rentals, cabins, beach houses, & more",
+          "link": "https://www.airbnb.com/",
+          "snippet": "Get an Airbnb for every kind of trip \u2192 8 million vacation rentals \u2192 2 million Guest Favorites \u2192 220+ countries and regions worldwide",
+          "backend": "searxng"
+        },
+        {
+          "title": "On The Beach | Holidays 2026 / 2027 | Low \u00a319pp Deposits",
+          "link": "https://www.onthebeach.co.uk/",
+          "snippet": "On The Beach Holidays for 2026 & 2027. Book your perfect package holiday deal with ATOL protection and low \u00a319pp deposits.Holidays for booking geniuses, like you! We're trusted by our customers. On th",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Welcome to Kerala Tourism - Official Website of Department of...",
+          "link": "https://www.keralatourism.org/",
+          "snippet": "Kerala Tourism official website provides text, photos, video, on travel destinations, hotels, accommodation, culture, heritage, art forms and people of God's own Country.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Airbnb | Vacation rentals, cabins, beach houses, & more",
+          "link": "https://www.airbnb.com/",
+          "snippet": "Get an Airbnb for every kind of trip \u2192 8 million vacation rentals \u2192 2 million Guest Favorites \u2192 220+ countries and regions worldwide",
+          "backend": "searxng"
+        },
+        {
+          "title": "On The Beach | Holidays 2026 / 2027 | Low \u00a319pp Deposits",
+          "link": "https://www.onthebeach.co.uk/",
+          "snippet": "On The Beach Holidays for 2026 & 2027. Book your perfect package holiday deal with ATOL protection and low \u00a319pp deposits.Holidays for booking geniuses, like you! We're trusted by our customers. On th",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Welcome to Kerala Tourism - Official Website of Department of...",
+          "link": "https://www.keralatourism.org/",
+          "snippet": "Kerala Tourism official website provides text, photos, video, on travel destinations, hotels, accommodation, culture, heritage, art forms and people of God's own Country.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

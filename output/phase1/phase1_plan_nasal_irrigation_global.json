@@ -1,0 +1,1806 @@
+{
+  "phase": 1,
+  "query": "Nasal Irrigation Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T20:56:43.971784+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "nasal irrigation",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "healthcare",
+    "industry_terms": [
+      "nasal irrigation",
+      "saline solution",
+      "nasal spray",
+      "nasal cleansing",
+      "sinus health"
+    ],
+    "ecosystem_functions": [
+      "distributing nasal irrigation products",
+      "wholesaling medical supplies",
+      "reselling consumer health products",
+      "integrating nasal irrigation systems",
+      "providing nasal health services",
+      "partnering for product distribution"
+    ],
+    "interpretation_summary": "The nasal irrigation market encompasses products and services designed for nasal cleansing and health, primarily using saline solutions. Participants include manufacturers, distributors, and service providers operating g",
+    "relevance_keywords": [
+      "nasal irrigation distributor",
+      "nasal spray wholesaler",
+      "nasal rinse reseller",
+      "nasal health service",
+      "nasal irrigation supplies"
+    ],
+    "negative_keywords": [
+      "unrelated industries",
+      "job postings",
+      "consulting services",
+      "market analysis",
+      "news articles"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "NeilMed Pharmaceuticals",
+        "primary_domain": "neilmed.com",
+        "company_function": "manufacturer and distributor of nasal irrigation products"
+      },
+      {
+        "canonical_name": "SinuPulse",
+        "primary_domain": "sinupulse.com",
+        "company_function": "manufacturer and distributor of nasal irrigation systems"
+      },
+      {
+        "canonical_name": "Amazon",
+        "primary_domain": "amazon.com",
+        "company_function": "online reseller of nasal irrigation products"
+      },
+      {
+        "canonical_name": "Walgreens",
+        "primary_domain": "walgreens.com",
+        "company_function": "retail reseller of nasal health products"
+      },
+      {
+        "canonical_name": "McKesson",
+        "primary_domain": "mckesson.com",
+        "company_function": "wholesaler of medical supplies including nasal irrigation products"
+      },
+      {
+        "canonical_name": "Cardinal Health",
+        "primary_domain": "cardinalhealth.com",
+        "company_function": "wholesaler and distributor of healthcare products"
+      },
+      {
+        "canonical_name": "Healthline",
+        "primary_domain": "healthline.com",
+        "company_function": "service provider offering nasal health information and products"
+      },
+      {
+        "canonical_name": "Sinus & Allergy Wellness Center",
+        "primary_domain": "sinusallergywellness.com",
+        "company_function": "service provider specializing in nasal health"
+      }
+    ],
+    "search_topic": "nasal irrigation",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "nasal irrigation",
+    "include_keywords": [
+      "nasal irrigation systems",
+      "saline nasal spray",
+      "nasal rinse kits",
+      "nasal irrigation devices",
+      "nasal health products"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The nasal irrigation market encompasses products and services designed for nasal cleansing and health, primarily using saline solutions. Participants include manufacturers, distributors, and service providers operating globally, focusing on both consumer and clinical applications.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Distribution",
+        "description": "This layer includes entities that facilitate the distribution of nasal irrigation products to end-users.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Regional Distributors",
+              "National Distributors"
+            ],
+            "participant_types": [
+              "distributor"
+            ],
+            "search_intents": [
+              "nasal irrigation product distributors",
+              "nasal irrigation supply distributors"
+            ]
+          },
+          {
+            "segment_name": "Wholesalers",
+            "sub_segments": [
+              "Pharmaceutical Wholesalers",
+              "Medical Supply Wholesalers"
+            ],
+            "participant_types": [
+              "wholesaler"
+            ],
+            "search_intents": [
+              "nasal irrigation wholesalers",
+              "wholesale nasal irrigation supplies"
+            ]
+          },
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Online Resellers",
+              "Retail Resellers"
+            ],
+            "participant_types": [
+              "reseller"
+            ],
+            "search_intents": [
+              "nasal irrigation product resellers",
+              "buy nasal irrigation products online"
+            ]
+          },
+          {
+            "segment_name": "Service Providers",
+            "sub_segments": [
+              "Healthcare Service Providers",
+              "Home Care Service Providers"
+            ],
+            "participant_types": [
+              "service provider"
+            ],
+            "search_intents": [
+              "nasal irrigation service providers",
+              "nasal health service providers"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Manufacturers",
+        "Retailers",
+        "Pharmacies",
+        "Healthcare Providers"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "nasal irrigation product distributors",
+        "sub_sector": "distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "nasal irrigation wholesalers",
+        "sub_sector": "wholesaler",
+        "layer_id": "L1",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "nasal irrigation product resellers",
+        "sub_sector": "reseller",
+        "layer_id": "L1",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "nasal irrigation service providers",
+        "sub_sector": "service_provider",
+        "layer_id": "L1",
+        "segment": "Service Providers"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "healthcare",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "nasal irrigation companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "nasal irrigation distributors corporate sites"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "nasal irrigation service providers official site"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "discovery",
+      "text": "nasal irrigation product distributors official site"
+    },
+    {
+      "id": "P2",
+      "level": "discovery",
+      "text": "nasal irrigation wholesalers corporate headquarters"
+    },
+    {
+      "id": "P3",
+      "level": "discovery",
+      "text": "nasal irrigation product resellers official website"
+    },
+    {
+      "id": "P4",
+      "level": "discovery",
+      "text": "nasal irrigation service providers corporate profile"
+    },
+    {
+      "id": "P5",
+      "level": "discovery",
+      "text": "nasal irrigation supply distributors official site"
+    },
+    {
+      "id": "P6",
+      "level": "discovery",
+      "text": "wholesale nasal irrigation supplies corporate site"
+    },
+    {
+      "id": "P7",
+      "level": "discovery",
+      "text": "buy nasal irrigation products online"
+    },
+    {
+      "id": "P8",
+      "level": "discovery",
+      "text": "nasal health service providers official website"
+    },
+    {
+      "id": "P9",
+      "level": "discovery",
+      "text": "authorized nasal irrigation distributor firm official"
+    },
+    {
+      "id": "P10",
+      "level": "discovery",
+      "text": "nasal irrigation reseller channel partner official"
+    },
+    {
+      "id": "P11",
+      "level": "discovery",
+      "text": "nasal irrigation system integrator official website"
+    },
+    {
+      "id": "P12",
+      "level": "discovery",
+      "text": "nasal irrigation service provider official website"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "nasal irrigation companies official websites",
+      "level": "L0",
+      "result_count": 15,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Navage Nasal Care | Powered Nasal Irrigation System",
+          "link": "https://navage.com/",
+          "snippet": "We Changed Nasal Irrigation. The drug-free way to relieve congestion, sinus pressure, allergies, and post-nasal drip \u2014 in as little as 30 seconds.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "NeilMed | Trusted Nasal Care & Sinus Health",
+          "link": "https://neilmedcom.com/",
+          "snippet": "The best-selling nasal irrigation system trusted by doctors worldwide. It provides natural relief for congestion, allergies, and sinus symptoms with gentle saline rinsing.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "SinuPulse - Pulsating Nasal Irrigation System | Drug-Free Sinus Relief",
+          "link": "https://sinupulse.com/",
+          "snippet": "Say goodbye to allergy, cold and flu symptoms with SinuPulse, the original pulsating nasal irrigation system. It rinses away bacteria and relieves congestion, sinusitis and post-nasal drip better than",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nasaline\u00ae Nasal Rinsing System with 10 Premixed Saline Packets",
+          "link": "https://www.squipusa.com/product/nasaline-nasal-rinsing-system/",
+          "snippet": "Description Nasaline\u00ae Nasal Rinsing System with 10 Premixed Saline Packets Patented Nasal Irrigation Device Developed By Swedish ENT Specialists Why use Nasaline \u00ae? Nasaline\u00ae is a unique, patented, dr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Waterpulse Neti Pot Sinus Rinsing, 300ml Nasal Irrigation with...",
+          "link": "https://www.amazon.com/Waterpulse-Irrigation-Thermometer-BPA-Free-Children/dp/B085NSCVDL",
+          "snippet": "About this item. Professional Design: Nasal wash bottle is designed according to the internal physiological structure of human nasal cavity, Irrigating nasal passages and sinuses rinses out mucus and ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "nasal irrigation | Health Topics | NutritionFacts.org",
+          "link": "https://nutritionfacts.org/topics/nasal-irrigation/",
+          "snippet": "Nasal Irrigation. Nasal Irrigation 1 videos. Subscribe to our free newsletter and receive the Maximally LDL-Lowering Daily Dozen checklist from Dr. Greger's Lower LDL Cholesterol Naturally with Food b",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Does Nasal Irrigation Help Sinus Infections? | Kaplan Sinus Relief",
+          "link": "https://www.kaplansinusrelief.com/blog/does-nasal-irrigation-help-sinus-infections/",
+          "snippet": "Yes, nasal irrigation can help relieve symptoms of sinus infections by clearing mucus and reducing inflammation.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tarabichi | Nasal Irrigation",
+          "link": "https://www.tarabichient.com/diseases/nasal-irrigation",
+          "snippet": "Rinsing the nasal passages with a salt water solution assists in riding the nose of allergens, mucus and crusting. It may be recommended after nasal surgery or long-term to manage your nose and sinus ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nasal Irrigation",
+          "link": "https://breathmd.com/nasal-irrigation/",
+          "snippet": "Articles News Site map Contact.Nasal irrigation (also known as nasal washing, sinus rinsing, sinus lavage, and sinus irrigation) is a practice in which the nasal cavity is flushed out and cleaned with",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Efficacy of Topical High Volume Budesonide Nasal Irrigation in Post...",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9702420/",
+          "snippet": "An official website of the United States government. Here's how you know.Keywords: Chronic rhinosinusitis, Nasal polyps, High volume nasal irrigation, Topical corticosteroid, Nasal polyps.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Angle for Nasal Irrigation | TikTok",
+          "link": "https://www.tiktok.com/discover/angle-for-nasal-irrigation",
+          "snippet": "The process, also known as nasal irrigation, involves gently flushing your nasal passages with a saltwater solution. This helps to remove debris, allergens, and excess mucus. Simply force the saline s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Nasal Irrigation In 2025",
+          "link": "https://utoptens.com/best-nasal-irrigation/",
+          "snippet": "We extensively tested and evaluated dozens of top-rated Best Nasal Irrigation across various price points, spending over 100 hours comparing the contenders side-by-side. Based on our in-depth first-ha",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How-to Perform Nasal Irrigation - Klean and Kare",
+          "link": "https://kleanandkare.co.th/en/how-to-perform-nasal-irrigation-2/",
+          "snippet": "Nasal Irrigation in Children Nasal irrigation is safe to perform in children. Parents performing nasal irrigation to their children for the first time should consult a pediatrician to prevent discomfo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "NeilMed\u00ae Pharmaceuticals - Get That Clean Nose Feeling Today!",
+          "link": "https://www.neilmed.com/",
+          "snippet": "NeilMed \u00ae is the largest manufacturer and supplier of LVLP (Large Volume Low Pressure) saline nasal irrigation systems in the world. The NeilMed brand of products help alleviate common nasal and sinus",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "NeilMed\u00ae Pharmaceuticals - Get That Clean Nose Feeling Today!",
+          "link": "https://www.neilmed.com/can/",
+          "snippet": "Sinus & Allergy Tools Explore various interactive and educational tools & resources about Sinus, Allergy, and Nasal Irrigation.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Navage Nasal Care | Powered Nasal Irrigation System",
+          "link": "https://navage.com/",
+          "snippet": "We Changed Nasal Irrigation. The drug-free way to relieve congestion, sinus pressure, allergies, and post-nasal drip \u2014 in as little as 30 seconds.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "NeilMed | Trusted Nasal Care & Sinus Health",
+          "link": "https://neilmedcom.com/",
+          "snippet": "The best-selling nasal irrigation system trusted by doctors worldwide. It provides natural relief for congestion, allergies, and sinus symptoms with gentle saline rinsing.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "SinuPulse - Pulsating Nasal Irrigation System | Drug-Free Sinus Relief",
+          "link": "https://sinupulse.com/",
+          "snippet": "Say goodbye to allergy, cold and flu symptoms with SinuPulse, the original pulsating nasal irrigation system. It rinses away bacteria and relieves congestion, sinusitis and post-nasal drip better than",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nasaline\u00ae Nasal Rinsing System with 10 Premixed Saline Packets",
+          "link": "https://www.squipusa.com/product/nasaline-nasal-rinsing-system/",
+          "snippet": "Description Nasaline\u00ae Nasal Rinsing System with 10 Premixed Saline Packets Patented Nasal Irrigation Device Developed By Swedish ENT Specialists Why use Nasaline \u00ae? Nasaline\u00ae is a unique, patented, dr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Waterpulse Neti Pot Sinus Rinsing, 300ml Nasal Irrigation with...",
+          "link": "https://www.amazon.com/Waterpulse-Irrigation-Thermometer-BPA-Free-Children/dp/B085NSCVDL",
+          "snippet": "About this item. Professional Design: Nasal wash bottle is designed according to the internal physiological structure of human nasal cavity, Irrigating nasal passages and sinuses rinses out mucus and ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "nasal irrigation | Health Topics | NutritionFacts.org",
+          "link": "https://nutritionfacts.org/topics/nasal-irrigation/",
+          "snippet": "Nasal Irrigation. Nasal Irrigation 1 videos. Subscribe to our free newsletter and receive the Maximally LDL-Lowering Daily Dozen checklist from Dr. Greger's Lower LDL Cholesterol Naturally with Food b",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Does Nasal Irrigation Help Sinus Infections? | Kaplan Sinus Relief",
+          "link": "https://www.kaplansinusrelief.com/blog/does-nasal-irrigation-help-sinus-infections/",
+          "snippet": "Yes, nasal irrigation can help relieve symptoms of sinus infections by clearing mucus and reducing inflammation.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tarabichi | Nasal Irrigation",
+          "link": "https://www.tarabichient.com/diseases/nasal-irrigation",
+          "snippet": "Rinsing the nasal passages with a salt water solution assists in riding the nose of allergens, mucus and crusting. It may be recommended after nasal surgery or long-term to manage your nose and sinus ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nasal Irrigation",
+          "link": "https://breathmd.com/nasal-irrigation/",
+          "snippet": "Articles News Site map Contact.Nasal irrigation (also known as nasal washing, sinus rinsing, sinus lavage, and sinus irrigation) is a practice in which the nasal cavity is flushed out and cleaned with",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Efficacy of Topical High Volume Budesonide Nasal Irrigation in Post...",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9702420/",
+          "snippet": "An official website of the United States government. Here's how you know.Keywords: Chronic rhinosinusitis, Nasal polyps, High volume nasal irrigation, Topical corticosteroid, Nasal polyps.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Angle for Nasal Irrigation | TikTok",
+          "link": "https://www.tiktok.com/discover/angle-for-nasal-irrigation",
+          "snippet": "The process, also known as nasal irrigation, involves gently flushing your nasal passages with a saltwater solution. This helps to remove debris, allergens, and excess mucus. Simply force the saline s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Nasal Irrigation In 2025",
+          "link": "https://utoptens.com/best-nasal-irrigation/",
+          "snippet": "We extensively tested and evaluated dozens of top-rated Best Nasal Irrigation across various price points, spending over 100 hours comparing the contenders side-by-side. Based on our in-depth first-ha",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How-to Perform Nasal Irrigation - Klean and Kare",
+          "link": "https://kleanandkare.co.th/en/how-to-perform-nasal-irrigation-2/",
+          "snippet": "Nasal Irrigation in Children Nasal irrigation is safe to perform in children. Parents performing nasal irrigation to their children for the first time should consult a pediatrician to prevent discomfo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "NeilMed\u00ae Pharmaceuticals - Get That Clean Nose Feeling Today!",
+          "link": "https://www.neilmed.com/",
+          "snippet": "NeilMed \u00ae is the largest manufacturer and supplier of LVLP (Large Volume Low Pressure) saline nasal irrigation systems in the world. The NeilMed brand of products help alleviate common nasal and sinus",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "NeilMed\u00ae Pharmaceuticals - Get That Clean Nose Feeling Today!",
+          "link": "https://www.neilmed.com/can/",
+          "snippet": "Sinus & Allergy Tools Explore various interactive and educational tools & resources about Sinus, Allergy, and Nasal Irrigation.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "nasal irrigation distributors corporate sites",
+      "level": "L1",
+      "result_count": 6,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Does Nasal Irrigation Help Sinus Infections? | Kaplan Sinus Relief",
+          "link": "https://www.kaplansinusrelief.com/blog/does-nasal-irrigation-help-sinus-infections/",
+          "snippet": "Generally, yes. Nasal irrigation can be an easy way to find sinus pain relief. By clearing out the nasal passages, sinusitis nasal washing can reduce inflammation, improve sinus drainage, and even hel",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Waterpulse Neti Pot Sinus Rinsing, 300ml Nasal Irrigation with...",
+          "link": "https://www.amazon.com/Waterpulse-Irrigation-Thermometer-BPA-Free-Children/dp/B085NSCVDL",
+          "snippet": "Sinus rinsing: For your healthy, experts suggest to clean the nasal cavity regularly. Easy to Use: Unique construction and the patented button allow a wonderful water flow, transparent, so it is easy ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "nasal irrigation | Health Topics | NutritionFacts.org",
+          "link": "https://nutritionfacts.org/topics/nasal-irrigation/",
+          "snippet": "Nasal Irrigation. Nasal Irrigation 1 videos. Subscribe to our free newsletter and receive the Maximally LDL-Lowering Daily Dozen checklist from Dr. Greger's Lower LDL Cholesterol Naturally with Food b",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nasal Irrigation - NeilMed Pharmaceuticals Inc",
+          "link": "https://www.neilmed.com/usa/nasal-irrigation/",
+          "snippet": "Read Medical Articles, Literatures & Publications on Nasal Irrigation. Clinical studies, treatments, and teachings.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nasal Irrigation System Suppliers & Exporters",
+          "link": "https://supplier.tradeford.com/nasal-irrigation-system",
+          "snippet": "Nasal Irrigation System suppliers directory listing nasal irrigation system manufacturers, distributors, exporters, nasal irrigation system producer companies and sellers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "NeilMed\u00ae Pharmaceuticals - Get That Clean Nose Feeling Today!",
+          "link": "https://www.neilmed.com/",
+          "snippet": "NeilMed \u00ae is the largest manufacturer and supplier of LVLP (Large Volume Low Pressure) saline nasal irrigation systems in the world. The NeilMed brand of products help alleviate common nasal and sinus",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Does Nasal Irrigation Help Sinus Infections? | Kaplan Sinus Relief",
+          "link": "https://www.kaplansinusrelief.com/blog/does-nasal-irrigation-help-sinus-infections/",
+          "snippet": "Generally, yes. Nasal irrigation can be an easy way to find sinus pain relief. By clearing out the nasal passages, sinusitis nasal washing can reduce inflammation, improve sinus drainage, and even hel",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Waterpulse Neti Pot Sinus Rinsing, 300ml Nasal Irrigation with...",
+          "link": "https://www.amazon.com/Waterpulse-Irrigation-Thermometer-BPA-Free-Children/dp/B085NSCVDL",
+          "snippet": "Sinus rinsing: For your healthy, experts suggest to clean the nasal cavity regularly. Easy to Use: Unique construction and the patented button allow a wonderful water flow, transparent, so it is easy ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "nasal irrigation | Health Topics | NutritionFacts.org",
+          "link": "https://nutritionfacts.org/topics/nasal-irrigation/",
+          "snippet": "Nasal Irrigation. Nasal Irrigation 1 videos. Subscribe to our free newsletter and receive the Maximally LDL-Lowering Daily Dozen checklist from Dr. Greger's Lower LDL Cholesterol Naturally with Food b",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nasal Irrigation - NeilMed Pharmaceuticals Inc",
+          "link": "https://www.neilmed.com/usa/nasal-irrigation/",
+          "snippet": "Read Medical Articles, Literatures & Publications on Nasal Irrigation. Clinical studies, treatments, and teachings.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nasal Irrigation System Suppliers & Exporters",
+          "link": "https://supplier.tradeford.com/nasal-irrigation-system",
+          "snippet": "Nasal Irrigation System suppliers directory listing nasal irrigation system manufacturers, distributors, exporters, nasal irrigation system producer companies and sellers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "NeilMed\u00ae Pharmaceuticals - Get That Clean Nose Feeling Today!",
+          "link": "https://www.neilmed.com/",
+          "snippet": "NeilMed \u00ae is the largest manufacturer and supplier of LVLP (Large Volume Low Pressure) saline nasal irrigation systems in the world. The NeilMed brand of products help alleviate common nasal and sinus",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "nasal irrigation service providers official site",
+      "level": "L2",
+      "result_count": 22,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Navage Nasal Care | Powered Nasal Irrigation System",
+          "link": "https://navage.com/",
+          "snippet": "We Changed Nasal Irrigation. The drug-free way to relieve congestion, sinus pressure, allergies, and post-nasal drip \u2014 in as little as 30 seconds.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "NeilMed | Trusted Nasal Care & Sinus Health",
+          "link": "https://neilmedcom.com/",
+          "snippet": "The best-selling nasal irrigation system trusted by doctors worldwide. It provides natural relief for congestion, allergies, and sinus symptoms with gentle saline rinsing.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "SinuPulse - Pulsating Nasal Irrigation System | Drug-Free Sinus Relief",
+          "link": "https://sinupulse.com/",
+          "snippet": "Say goodbye to allergy, cold and flu symptoms with SinuPulse, the original pulsating nasal irrigation system. It rinses away bacteria and relieves congestion, sinusitis and post-nasal drip better than",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Does Nasal Irrigation Help Sinus Infections? | Kaplan Sinus Relief",
+          "link": "https://www.kaplansinusrelief.com/blog/does-nasal-irrigation-help-sinus-infections/",
+          "snippet": "While nasal irrigation can provide significant relief for sinus infections, it\u2019s important to remember that chronic sinus issues may require more advanced treatment. If you\u2019re experiencing recurring o",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Electrical Nasal Irrigator MFNI-05HL - Nascool",
+          "link": "https://www.nascool.com/product/electrical-nasal-irrigator/",
+          "snippet": "Overall, nasal irrigation can benefit people who have sinus problems or flu symptoms. With Nascool, you are able to use it every day to reduce your symptoms, without causing ear infections or even wor",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nasal Irrigation",
+          "link": "https://breathmd.com/nasal-irrigation/",
+          "snippet": "All you need to know about nasal irrigation and how to do it. Nasal irrigation (also known as nasal washing, sinus rinsing, sinus lavage, and sinus irrigation) is a practice in which the nasal cavity ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How to Use a Neti Pot: Easy Irrigation Instructions",
+          "link": "https://www.wikihow.com/Use-a-Neti-Pot",
+          "snippet": "A neti pot is used for nasal irrigation, which entails flushing out your nasal cavity with a saline solution. This is a home remedy that is relatively less known in Western countries, but is common in",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Waterpulse Neti Pot Sinus Rinsing, 300ml Nasal Irrigation with...",
+          "link": "https://www.amazon.com/Waterpulse-Irrigation-Thermometer-BPA-Free-Children/dp/B085NSCVDL",
+          "snippet": "About this item. Professional Design: Nasal wash bottle is designed according to the internal physiological structure of human nasal cavity, Irrigating nasal passages and sinuses rinses out mucus and ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Nasal Irrigation In 2025",
+          "link": "https://utoptens.com/best-nasal-irrigation/",
+          "snippet": "With so many Best Nasal Irrigation brands on the market - from prominent names like Navage,NeilMed,Maoever,Arm & Hammer,Waterpulse to smaller.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Angle for Nasal Irrigation | TikTok",
+          "link": "https://www.tiktok.com/discover/angle-for-nasal-irrigation",
+          "snippet": "The process, also known as nasal irrigation, involves gently flushing your nasal passages with a saltwater solution. This helps to remove debris, allergens, and excess mucus. Simply force the saline s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tarabichi | Nasal Irrigation",
+          "link": "https://www.tarabichient.com/diseases/nasal-irrigation",
+          "snippet": "Rinsing the nasal passages with a salt water solution assists in riding the nose of allergens, mucus and crusting. It may be recommended after nasal surgery or long-term to manage your nose and sinus ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Efficacy of Topical High Volume Budesonide Nasal Irrigation in Post...",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9702420/",
+          "snippet": "Official websites use .gov A .gov website belongs to an official government organization in the United States.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nasal Irrigation Instructions| Conroe & Spring TX | Dr Franklin Douglis",
+          "link": "https://www.ear-nose-throat-allergy-snoring.com/nasal-irrigation-and-post-op-instructions/",
+          "snippet": "Instructions for preparing nasal irrigation solution and how to use it.Fill irrigation device with salt solution. Tilt head forward over basin and put irrigation tip in one nostril. Irrigate until sol",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nasal Irrigation: Uses, Benefits & Side Effects - Cleveland Clinic",
+          "link": "https://my.clevelandclinic.org/health/treatments/24286-nasal-irrigation",
+          "snippet": "12 Oct 2022 ... Nasal irrigation is a safe and easy way to rinse your sinuses. It can help relieve symptoms related to a sinus infection, allergies, a cold or other upper ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Clinical Practice Guideline: Nasal Irrigation for Chronic ...",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8901942/",
+          "snippet": "An official website of the United States government. Here's how you know ... nasal irrigation versus saline nasal irrigation for post-ESS care [87].",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nasal irrigation: From empiricism to evidence-based medicine. A ...",
+          "link": "https://www.sciencedirect.com/science/article/pii/S1879729615001003",
+          "snippet": "Nasal irrigation plays a non-negligible role in the treatment of numerous sinonasal pathologies and postoperative care. There is, however, a wide variety of ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nasal rinsing devices and the risk of infection - Canada.ca",
+          "link": "https://www.canada.ca/en/health-canada/services/drugs-medical-devices/nasal-rinsing-devices-risk-infection.html",
+          "snippet": "11 Sept 2024 ... Nasal rinsing devices (also known as nasal irrigation systems, sinus ... Talk to your health care provider about nasal rinsing if you: have ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Navage Nasal Care | Powered Nasal Irrigation System",
+          "link": "https://navage.com/?srsltid=AfmBOooJyD8ocdF2qj0IKA1tT1W9qTmEUXGyZd2JVgz7BIGTGYQztShb",
+          "snippet": "Clean your nose with Navage \u2013 the only powered nasal irrigator that uses gentle suction & SaltPods to flush mucus. Shop bundles and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "ENT Nasal Irrigation Video - University of Mississippi Medical Center",
+          "link": "https://umc.edu/Healthcare/ENT/Nasal-Irrigation-Video.html",
+          "snippet": "Ear, Nose and Throat (ENT). ENT Health Care Home \u00b7 ENT Patient Information; ENT Virtual Health Series. Overview \u00b7 Dizziness and Balance Clinic ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "NeilMed Web Store - USA",
+          "link": "https://shop.neilmed.com/",
+          "snippet": "NeilMed is the largest manufacturer and supplier of LVLP (Large Volume Low Pressure) saline nasal irrigation systems in the world. The NeilMed brand of products help alleviate common nasal and sinus s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "NeilMed Pharmaceuticals - SINUSGATOR",
+          "link": "http://sinusgator.com/",
+          "snippet": "NeilMed Pharmaceuticals: world leader in nasal saline irrigation system | Sinus Rinse | Neti Pot | Nasal Irrigation +1 877 477 8633 questions@neilmed.com Store Locator Medical Professionals & Pharmaci",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Is Rinsing Your Sinuses With Neti Pots Safe? - FDA",
+          "link": "https://www.fda.gov/consumers/consumer-updates/rinsing-your-sinuses-neti-pots-safe",
+          "snippet": "28 Apr 2025 ... ... care provider before using any nasal irrigation systems. To use and care for your device: Wash and dry your hands. Check that the device is ...",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Navage Nasal Care | Powered Nasal Irrigation System",
+          "link": "https://navage.com/",
+          "snippet": "We Changed Nasal Irrigation. The drug-free way to relieve congestion, sinus pressure, allergies, and post-nasal drip \u2014 in as little as 30 seconds.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "NeilMed | Trusted Nasal Care & Sinus Health",
+          "link": "https://neilmedcom.com/",
+          "snippet": "The best-selling nasal irrigation system trusted by doctors worldwide. It provides natural relief for congestion, allergies, and sinus symptoms with gentle saline rinsing.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "SinuPulse - Pulsating Nasal Irrigation System | Drug-Free Sinus Relief",
+          "link": "https://sinupulse.com/",
+          "snippet": "Say goodbye to allergy, cold and flu symptoms with SinuPulse, the original pulsating nasal irrigation system. It rinses away bacteria and relieves congestion, sinusitis and post-nasal drip better than",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Does Nasal Irrigation Help Sinus Infections? | Kaplan Sinus Relief",
+          "link": "https://www.kaplansinusrelief.com/blog/does-nasal-irrigation-help-sinus-infections/",
+          "snippet": "While nasal irrigation can provide significant relief for sinus infections, it\u2019s important to remember that chronic sinus issues may require more advanced treatment. If you\u2019re experiencing recurring o",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Electrical Nasal Irrigator MFNI-05HL - Nascool",
+          "link": "https://www.nascool.com/product/electrical-nasal-irrigator/",
+          "snippet": "Overall, nasal irrigation can benefit people who have sinus problems or flu symptoms. With Nascool, you are able to use it every day to reduce your symptoms, without causing ear infections or even wor",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nasal Irrigation",
+          "link": "https://breathmd.com/nasal-irrigation/",
+          "snippet": "All you need to know about nasal irrigation and how to do it. Nasal irrigation (also known as nasal washing, sinus rinsing, sinus lavage, and sinus irrigation) is a practice in which the nasal cavity ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How to Use a Neti Pot: Easy Irrigation Instructions",
+          "link": "https://www.wikihow.com/Use-a-Neti-Pot",
+          "snippet": "A neti pot is used for nasal irrigation, which entails flushing out your nasal cavity with a saline solution. This is a home remedy that is relatively less known in Western countries, but is common in",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Waterpulse Neti Pot Sinus Rinsing, 300ml Nasal Irrigation with...",
+          "link": "https://www.amazon.com/Waterpulse-Irrigation-Thermometer-BPA-Free-Children/dp/B085NSCVDL",
+          "snippet": "About this item. Professional Design: Nasal wash bottle is designed according to the internal physiological structure of human nasal cavity, Irrigating nasal passages and sinuses rinses out mucus and ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Nasal Irrigation In 2025",
+          "link": "https://utoptens.com/best-nasal-irrigation/",
+          "snippet": "With so many Best Nasal Irrigation brands on the market - from prominent names like Navage,NeilMed,Maoever,Arm & Hammer,Waterpulse to smaller.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Angle for Nasal Irrigation | TikTok",
+          "link": "https://www.tiktok.com/discover/angle-for-nasal-irrigation",
+          "snippet": "The process, also known as nasal irrigation, involves gently flushing your nasal passages with a saltwater solution. This helps to remove debris, allergens, and excess mucus. Simply force the saline s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tarabichi | Nasal Irrigation",
+          "link": "https://www.tarabichient.com/diseases/nasal-irrigation",
+          "snippet": "Rinsing the nasal passages with a salt water solution assists in riding the nose of allergens, mucus and crusting. It may be recommended after nasal surgery or long-term to manage your nose and sinus ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Efficacy of Topical High Volume Budesonide Nasal Irrigation in Post...",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9702420/",
+          "snippet": "Official websites use .gov A .gov website belongs to an official government organization in the United States.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nasal Irrigation Instructions| Conroe & Spring TX | Dr Franklin Douglis",
+          "link": "https://www.ear-nose-throat-allergy-snoring.com/nasal-irrigation-and-post-op-instructions/",
+          "snippet": "Instructions for preparing nasal irrigation solution and how to use it.Fill irrigation device with salt solution. Tilt head forward over basin and put irrigation tip in one nostril. Irrigate until sol",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nasal Irrigation: Uses, Benefits & Side Effects - Cleveland Clinic",
+          "link": "https://my.clevelandclinic.org/health/treatments/24286-nasal-irrigation",
+          "snippet": "12 Oct 2022 ... Nasal irrigation is a safe and easy way to rinse your sinuses. It can help relieve symptoms related to a sinus infection, allergies, a cold or other upper ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Clinical Practice Guideline: Nasal Irrigation for Chronic ...",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8901942/",
+          "snippet": "An official website of the United States government. Here's how you know ... nasal irrigation versus saline nasal irrigation for post-ESS care [87].",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nasal irrigation: From empiricism to evidence-based medicine. A ...",
+          "link": "https://www.sciencedirect.com/science/article/pii/S1879729615001003",
+          "snippet": "Nasal irrigation plays a non-negligible role in the treatment of numerous sinonasal pathologies and postoperative care. There is, however, a wide variety of ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nasal rinsing devices and the risk of infection - Canada.ca",
+          "link": "https://www.canada.ca/en/health-canada/services/drugs-medical-devices/nasal-rinsing-devices-risk-infection.html",
+          "snippet": "11 Sept 2024 ... Nasal rinsing devices (also known as nasal irrigation systems, sinus ... Talk to your health care provider about nasal rinsing if you: have ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Navage Nasal Care | Powered Nasal Irrigation System",
+          "link": "https://navage.com/?srsltid=AfmBOooJyD8ocdF2qj0IKA1tT1W9qTmEUXGyZd2JVgz7BIGTGYQztShb",
+          "snippet": "Clean your nose with Navage \u2013 the only powered nasal irrigator that uses gentle suction & SaltPods to flush mucus. Shop bundles and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "ENT Nasal Irrigation Video - University of Mississippi Medical Center",
+          "link": "https://umc.edu/Healthcare/ENT/Nasal-Irrigation-Video.html",
+          "snippet": "Ear, Nose and Throat (ENT). ENT Health Care Home \u00b7 ENT Patient Information; ENT Virtual Health Series. Overview \u00b7 Dizziness and Balance Clinic ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "NeilMed Web Store - USA",
+          "link": "https://shop.neilmed.com/",
+          "snippet": "NeilMed is the largest manufacturer and supplier of LVLP (Large Volume Low Pressure) saline nasal irrigation systems in the world. The NeilMed brand of products help alleviate common nasal and sinus s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "NeilMed Pharmaceuticals - SINUSGATOR",
+          "link": "http://sinusgator.com/",
+          "snippet": "NeilMed Pharmaceuticals: world leader in nasal saline irrigation system | Sinus Rinse | Neti Pot | Nasal Irrigation +1 877 477 8633 questions@neilmed.com Store Locator Medical Professionals & Pharmaci",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Is Rinsing Your Sinuses With Neti Pots Safe? - FDA",
+          "link": "https://www.fda.gov/consumers/consumer-updates/rinsing-your-sinuses-neti-pots-safe",
+          "snippet": "28 Apr 2025 ... ... care provider before using any nasal irrigation systems. To use and care for your device: Wash and dry your hands. Check that the device is ...",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "nasal irrigation product distributors official site",
+      "level": "discovery",
+      "result_count": 17,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Amazon.com: SNORINCE Nasal Irrigation System for Sinus Relief 40...",
+          "link": "https://www.amazon.com/SNORINCE-Nasal-Irrigation-System-Relief/dp/B0D4VZH57Y",
+          "snippet": "GENTLE DAILY NASAL CARE SYSTEM: This nasal irrigation system is designed to support a refreshing and consistent routine, offering a modern alternative to a traditional neti pot sinus rinse for improve",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Electrical Nasal Irrigator MFNI-05HL - Nascool",
+          "link": "https://www.nascool.com/product/electrical-nasal-irrigator/",
+          "snippet": "Overall, nasal irrigation can benefit people who have sinus problems or flu symptoms. With Nascool, you are able to use it every day to reduce your symptoms, without causing ear infections or even wor",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Does Nasal Irrigation Help Sinus Infections? | Kaplan Sinus Relief",
+          "link": "https://www.kaplansinusrelief.com/blog/does-nasal-irrigation-help-sinus-infections/",
+          "snippet": "Generally, yes. Nasal irrigation can be an easy way to find sinus pain relief. By clearing out the nasal passages, sinusitis nasal washing can reduce inflammation, improve sinus drainage, and even hel",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Information on Nasal Saline Irrigation - Melbourne ENT Specialist Group",
+          "link": "https://melbentgroup.com.au/nasal-irrigation/",
+          "snippet": "Why use saline irrigation in the nose? Requirements to perform nasal saline irrigation, instructions on how to perform nasal irrigation, what other things you should know about nasal irrigation?",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Efficacy of Topical High Volume Budesonide Nasal Irrigation in Post...",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9702420/",
+          "snippet": "An official website of the United States government. Here's how you know.Keywords: Chronic rhinosinusitis, Nasal polyps, High volume nasal irrigation, Topical corticosteroid, Nasal polyps.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Angle for Nasal Irrigation | TikTok",
+          "link": "https://www.tiktok.com/discover/angle-for-nasal-irrigation",
+          "snippet": "Many users have turned to the Nascool nasal irrigation system after discovering it on TikTok, where it has been featured prominently among must-have health products. The trend highlights the ease of u",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tarabichi | Nasal Irrigation",
+          "link": "https://www.tarabichient.com/diseases/nasal-irrigation",
+          "snippet": "Rinsing the nasal passages with a salt water solution assists in riding the nose of allergens, mucus and crusting. It may be recommended after nasal surgery or long-term to manage your nose and sinus ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Nasal Irrigation In 2025",
+          "link": "https://utoptens.com/best-nasal-irrigation/",
+          "snippet": "Below you\u2019ll discover more of our favorite Best Nasal Irrigation picks. And be sure to consult our buying guide for expert insights on selecting the ideal product for your individual needs and budget.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Product Training - Nasal Irrigation - Page 1 of 20",
+          "link": "https://training.neilmed.com/ControlP/data/view.php?id=10486",
+          "snippet": "Product Training - Nasal Irrigation. NeilMed\u00ae Pharmaceuticals, Inc. USA is the world\u2019s largest manufacturer of large volume saline nasal wash products.At NeilMed\u00ae, our goal is to create safe, effectiv",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "All Products - NeilMed Pharmaceuticals Inc",
+          "link": "https://shop.neilmed.com/collections/all",
+          "snippet": "NeilMed is the largest manufacturer and supplier of LVLP (Large Volume Low Pressure) saline nasal irrigation systems in the world. The NeilMed brand of products help alleviate common nasal and sinus s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Navage Nasal Care | Powered Nasal Irrigation System",
+          "link": "https://navage.com/",
+          "snippet": "We Changed Nasal Irrigation. The drug-free way to relieve congestion, sinus pressure, allergies, and post-nasal drip \u2014 in as little as 30 seconds.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nasaline\u00ae Nasal Rinsing System with 10 Premixed Saline Packets",
+          "link": "https://www.squipusa.com/product/nasaline-nasal-rinsing-system/",
+          "snippet": "Saline nasal irrigation, moisturization, and daily nasal hygiene. For Use After Sinus Surgery and for Cystic Fibrosis Patients. What makes Nasaline \u00ae Unique? Nasaline\u00ae is a patented nasal rinsing syst",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "NeilMed | Trusted Nasal Care & Sinus Health",
+          "link": "https://neilmedcom.com/",
+          "snippet": "The best-selling nasal irrigation system trusted by doctors worldwide. It provides natural relief for congestion, allergies, and sinus symptoms with gentle saline rinsing.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "NeilMed\u00ae Pharmaceuticals - Get That Clean Nose Feeling Today!",
+          "link": "https://www.neilmed.com/",
+          "snippet": "NeilMed \u00ae is the largest manufacturer and supplier of LVLP (Large Volume Low Pressure) saline nasal irrigation systems in the world. The NeilMed brand of products help alleviate common nasal and sinus",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "NeilMed Web Store - USA",
+          "link": "https://shop.neilmed.com/",
+          "snippet": "NeilMed is the largest manufacturer and supplier of LVLP (Large Volume Low Pressure) saline nasal irrigation systems in the world. The NeilMed brand of products help alleviate common nasal and sinus s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Collections - NeilMed Pharmaceuticals Inc",
+          "link": "https://nmshop.neilmed.com/collections/",
+          "snippet": "NeilMed\u00ae is the largest manufacturer and supplier of LVLP (Large Volume Low Pressure) saline nasal irrigation systems in the world. The NeilMed brand of products help alleviate common nasal and sinus ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "About NeilMed - NeilMed Pharmaceuticals Inc",
+          "link": "https://www.neilmed.com/usa/about-neilmed/",
+          "snippet": "Learn more about NeilMed\u00ae. The world's largest manufacturer and supplier of Large Volume Low Pressure saline nasal irrigation systems.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Amazon.com: SNORINCE Nasal Irrigation System for Sinus Relief 40...",
+          "link": "https://www.amazon.com/SNORINCE-Nasal-Irrigation-System-Relief/dp/B0D4VZH57Y",
+          "snippet": "GENTLE DAILY NASAL CARE SYSTEM: This nasal irrigation system is designed to support a refreshing and consistent routine, offering a modern alternative to a traditional neti pot sinus rinse for improve",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Electrical Nasal Irrigator MFNI-05HL - Nascool",
+          "link": "https://www.nascool.com/product/electrical-nasal-irrigator/",
+          "snippet": "Overall, nasal irrigation can benefit people who have sinus problems or flu symptoms. With Nascool, you are able to use it every day to reduce your symptoms, without causing ear infections or even wor",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Does Nasal Irrigation Help Sinus Infections? | Kaplan Sinus Relief",
+          "link": "https://www.kaplansinusrelief.com/blog/does-nasal-irrigation-help-sinus-infections/",
+          "snippet": "Generally, yes. Nasal irrigation can be an easy way to find sinus pain relief. By clearing out the nasal passages, sinusitis nasal washing can reduce inflammation, improve sinus drainage, and even hel",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Information on Nasal Saline Irrigation - Melbourne ENT Specialist Group",
+          "link": "https://melbentgroup.com.au/nasal-irrigation/",
+          "snippet": "Why use saline irrigation in the nose? Requirements to perform nasal saline irrigation, instructions on how to perform nasal irrigation, what other things you should know about nasal irrigation?",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Efficacy of Topical High Volume Budesonide Nasal Irrigation in Post...",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9702420/",
+          "snippet": "An official website of the United States government. Here's how you know.Keywords: Chronic rhinosinusitis, Nasal polyps, High volume nasal irrigation, Topical corticosteroid, Nasal polyps.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Angle for Nasal Irrigation | TikTok",
+          "link": "https://www.tiktok.com/discover/angle-for-nasal-irrigation",
+          "snippet": "Many users have turned to the Nascool nasal irrigation system after discovering it on TikTok, where it has been featured prominently among must-have health products. The trend highlights the ease of u",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tarabichi | Nasal Irrigation",
+          "link": "https://www.tarabichient.com/diseases/nasal-irrigation",
+          "snippet": "Rinsing the nasal passages with a salt water solution assists in riding the nose of allergens, mucus and crusting. It may be recommended after nasal surgery or long-term to manage your nose and sinus ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Nasal Irrigation In 2025",
+          "link": "https://utoptens.com/best-nasal-irrigation/",
+          "snippet": "Below you\u2019ll discover more of our favorite Best Nasal Irrigation picks. And be sure to consult our buying guide for expert insights on selecting the ideal product for your individual needs and budget.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Product Training - Nasal Irrigation - Page 1 of 20",
+          "link": "https://training.neilmed.com/ControlP/data/view.php?id=10486",
+          "snippet": "Product Training - Nasal Irrigation. NeilMed\u00ae Pharmaceuticals, Inc. USA is the world\u2019s largest manufacturer of large volume saline nasal wash products.At NeilMed\u00ae, our goal is to create safe, effectiv",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "All Products - NeilMed Pharmaceuticals Inc",
+          "link": "https://shop.neilmed.com/collections/all",
+          "snippet": "NeilMed is the largest manufacturer and supplier of LVLP (Large Volume Low Pressure) saline nasal irrigation systems in the world. The NeilMed brand of products help alleviate common nasal and sinus s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Navage Nasal Care | Powered Nasal Irrigation System",
+          "link": "https://navage.com/",
+          "snippet": "We Changed Nasal Irrigation. The drug-free way to relieve congestion, sinus pressure, allergies, and post-nasal drip \u2014 in as little as 30 seconds.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nasaline\u00ae Nasal Rinsing System with 10 Premixed Saline Packets",
+          "link": "https://www.squipusa.com/product/nasaline-nasal-rinsing-system/",
+          "snippet": "Saline nasal irrigation, moisturization, and daily nasal hygiene. For Use After Sinus Surgery and for Cystic Fibrosis Patients. What makes Nasaline \u00ae Unique? Nasaline\u00ae is a patented nasal rinsing syst",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "NeilMed | Trusted Nasal Care & Sinus Health",
+          "link": "https://neilmedcom.com/",
+          "snippet": "The best-selling nasal irrigation system trusted by doctors worldwide. It provides natural relief for congestion, allergies, and sinus symptoms with gentle saline rinsing.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "NeilMed\u00ae Pharmaceuticals - Get That Clean Nose Feeling Today!",
+          "link": "https://www.neilmed.com/",
+          "snippet": "NeilMed \u00ae is the largest manufacturer and supplier of LVLP (Large Volume Low Pressure) saline nasal irrigation systems in the world. The NeilMed brand of products help alleviate common nasal and sinus",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "NeilMed Web Store - USA",
+          "link": "https://shop.neilmed.com/",
+          "snippet": "NeilMed is the largest manufacturer and supplier of LVLP (Large Volume Low Pressure) saline nasal irrigation systems in the world. The NeilMed brand of products help alleviate common nasal and sinus s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Collections - NeilMed Pharmaceuticals Inc",
+          "link": "https://nmshop.neilmed.com/collections/",
+          "snippet": "NeilMed\u00ae is the largest manufacturer and supplier of LVLP (Large Volume Low Pressure) saline nasal irrigation systems in the world. The NeilMed brand of products help alleviate common nasal and sinus ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "About NeilMed - NeilMed Pharmaceuticals Inc",
+          "link": "https://www.neilmed.com/usa/about-neilmed/",
+          "snippet": "Learn more about NeilMed\u00ae. The world's largest manufacturer and supplier of Large Volume Low Pressure saline nasal irrigation systems.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P2": {
+      "query": "nasal irrigation wholesalers corporate headquarters",
+      "level": "discovery",
+      "result_count": 7,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "NeilMed - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/NeilMed",
+          "snippet": "NeilMed Pharmaceuticals Inc. is an American pharmaceutical, medical devices' manufacturer & supplier company based in Santa Rosa, California. [1] It manufactures and supplies nasal saline over-the-cou",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "RhinoSystems, Inc. - Nav\u00e4ge\u00ae Nasal Care InformationContact Us - NeilMed Pharmaceuticals IncNeilMed Pharmaceuticals - SIN",
+          "link": "https://rocketreach.co/rhinosystems-inc-navager-nasal-care-profile_b7b2b328c53bd0f3",
+          "snippet": "RhinoSystems, Inc. - Nav\u00e4ge\u00ae Nasal Care is a Wellness and Fitness Services company located in Brooklyn, Ohio with 40 employees. Find top employees, contact details and business statistics at RocketRea",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "nasal irrigation | Health Topics | NutritionFacts.org",
+          "link": "https://nutritionfacts.org/topics/nasal-irrigation/",
+          "snippet": "Nasal Irrigation. Nasal Irrigation 1 videos. Subscribe to our free newsletter and receive the Maximally LDL-Lowering Daily Dozen checklist from Dr. Greger's Lower LDL Cholesterol Naturally with Food b",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Angle for Nasal Irrigation | TikTok",
+          "link": "https://www.tiktok.com/discover/angle-for-nasal-irrigation",
+          "snippet": "Learn the right neti pot angle for effective nasal irrigation and discover tips for sinus relief and congestion management.Passing saline (saltwater) solution down your nasal passages to flush out deb",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Contact Us - NeilMed Pharmaceuticals Inc",
+          "link": "https://www.neilmed.com/usa/contact-us/",
+          "snippet": "We make it easy for you to get answers to any questions you have about nasal irrigation, sinus or nasal health and NeilMed \u00ae products. We offer several ways for you to get help or leave us your commen",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Locations - NeilMed Pharmaceuticals Inc",
+          "link": "https://www.neilmed.com/usa/global-locations/",
+          "snippet": "NeilMed\u00ae is the largest manufacturer and supplier of LVLP (Large Volume Low Pressure) saline nasal irrigation systems in the world. The NeilMed brand of ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Contact Us - NeilMed Web Store - USA",
+          "link": "https://shop.neilmed.com/pages/contact",
+          "snippet": "NeilMed\u00ae is the largest manufacturer and supplier of LVLP (Large Volume Low Pressure) saline nasal irrigation systems in the world. The NeilMed brand of ...",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "NeilMed - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/NeilMed",
+          "snippet": "NeilMed Pharmaceuticals Inc. is an American pharmaceutical, medical devices' manufacturer & supplier company based in Santa Rosa, California. [1] It manufactures and supplies nasal saline over-the-cou",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "RhinoSystems, Inc. - Nav\u00e4ge\u00ae Nasal Care InformationContact Us - NeilMed Pharmaceuticals IncNeilMed Pharmaceuticals - SIN",
+          "link": "https://rocketreach.co/rhinosystems-inc-navager-nasal-care-profile_b7b2b328c53bd0f3",
+          "snippet": "RhinoSystems, Inc. - Nav\u00e4ge\u00ae Nasal Care is a Wellness and Fitness Services company located in Brooklyn, Ohio with 40 employees. Find top employees, contact details and business statistics at RocketRea",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "nasal irrigation | Health Topics | NutritionFacts.org",
+          "link": "https://nutritionfacts.org/topics/nasal-irrigation/",
+          "snippet": "Nasal Irrigation. Nasal Irrigation 1 videos. Subscribe to our free newsletter and receive the Maximally LDL-Lowering Daily Dozen checklist from Dr. Greger's Lower LDL Cholesterol Naturally with Food b",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Angle for Nasal Irrigation | TikTok",
+          "link": "https://www.tiktok.com/discover/angle-for-nasal-irrigation",
+          "snippet": "Learn the right neti pot angle for effective nasal irrigation and discover tips for sinus relief and congestion management.Passing saline (saltwater) solution down your nasal passages to flush out deb",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Contact Us - NeilMed Pharmaceuticals Inc",
+          "link": "https://www.neilmed.com/usa/contact-us/",
+          "snippet": "We make it easy for you to get answers to any questions you have about nasal irrigation, sinus or nasal health and NeilMed \u00ae products. We offer several ways for you to get help or leave us your commen",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Locations - NeilMed Pharmaceuticals Inc",
+          "link": "https://www.neilmed.com/usa/global-locations/",
+          "snippet": "NeilMed\u00ae is the largest manufacturer and supplier of LVLP (Large Volume Low Pressure) saline nasal irrigation systems in the world. The NeilMed brand of ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Contact Us - NeilMed Web Store - USA",
+          "link": "https://shop.neilmed.com/pages/contact",
+          "snippet": "NeilMed\u00ae is the largest manufacturer and supplier of LVLP (Large Volume Low Pressure) saline nasal irrigation systems in the world. The NeilMed brand of ...",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P3": {
+      "query": "nasal irrigation product resellers official website",
+      "level": "discovery",
+      "result_count": 10,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Waterpulse Neti Pot Sinus Rinsing, 300ml Nasal Irrigation with...",
+          "link": "https://www.amazon.com/Waterpulse-Irrigation-Thermometer-BPA-Free-Children/dp/B085NSCVDL",
+          "snippet": "Professional Design: Nasal wash bottle is designed according to the internal physiological structure of human nasal cavity, Irrigating nasal passages and sinuses rinses out mucus and various irritants",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nasal Rinsing Wash Machine Neti Pot Nose Cleaner... - AliExpress",
+          "link": "https://www.aliexpress.com/i/33013698729.html",
+          "snippet": "store: DearBeauty Official Store.Product Name :Electric Nasal Irrigation Product package weight: about 374g Material : ABS Packing size: 25*8.3*19.5cm Power mode: 3 * AA battery ( not included ).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Electrical Nasal Irrigator MFNI-05HL - Nascool",
+          "link": "https://www.nascool.com/product/electrical-nasal-irrigator/",
+          "snippet": "Why you need nasal irrigation. When inflammation swells and blocks your sinus, Bacteria and virus can easily invade, leading to a serious sinus infection. Mostly causes all kind of nasal problem like:",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Healthy Hygienic Durable High-Quality Ergonomic Comfortable Nasal...",
+          "link": "https://www.ebay.com/itm/287125026769",
+          "snippet": "This 300ml Nasal Irrigation Kit is a comprehensive solution for sinus relief, nasal hygiene, and respiratory wellness.Unbranded. Type. 300ml Nasal Irrigation Kit (with 40 Nasal Salt Packets). UPC. Doe",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Nasal Irrigation In 2025",
+          "link": "https://utoptens.com/best-nasal-irrigation/",
+          "snippet": "We extensively tested and evaluated dozens of top-rated Best Nasal Irrigation across various price points, spending over 100 hours comparing the contenders side-by-side. Based on our in-depth first-ha",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Hot Selling LED Display Atomizing Household Nasal Irrigation Adult...",
+          "link": "https://goodseller-household.en.made-in-china.com/product/NAPUVxzgRarD/China-Hot-Selling-LED-Display-Atomizing-Household-Nasal-Irrigation-Adult-Children-Electric-Nasal-Washer.html",
+          "snippet": "On-Site Scanning. Precise Digital Duplicate. Angle Unlimited.Product Description. Detailed Photos. Company Profile.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Does Nasal Irrigation Help Sinus Infections? | Kaplan Sinus Relief",
+          "link": "https://www.kaplansinusrelief.com/blog/does-nasal-irrigation-help-sinus-infections/",
+          "snippet": "Yes, nasal irrigation can help relieve symptoms of sinus infections by clearing mucus and reducing inflammation.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Hydro Nose Washer Neti Pot Nasal Irrigation Transparent... | eBay",
+          "link": "https://www.ebay.ca/itm/286207619093",
+          "snippet": "Free shipping for many products!A brand-new, unused, unopened, undamaged item (including handmade items). See the seller's listing for full details.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "300ml Nasal Irrigation Portable Nose Cleaner Rinsing Wash... | eBay",
+          "link": "https://www.ebay.ie/itm/176072111168",
+          "snippet": "A brand-new, unused, unopened and undamaged item in original retail packaging (where packaging is applicable). If the item comes direct from a manufacturer, it may be delivered in non-retail packaging",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bulk Buy China Wholesale Hot Selling Led... | Globalsources.com",
+          "link": "https://www.globalsources.com/Nasal-irrigator/nasal-irrigator-1228472641p.htm",
+          "snippet": "Plan to buy China wholesale nasal irrigator, nasal aspirator electric, electric nasal irrigation, nasal irrigator nose cleaner? Find complete details about hot selling led display atomizing household ",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Waterpulse Neti Pot Sinus Rinsing, 300ml Nasal Irrigation with...",
+          "link": "https://www.amazon.com/Waterpulse-Irrigation-Thermometer-BPA-Free-Children/dp/B085NSCVDL",
+          "snippet": "Professional Design: Nasal wash bottle is designed according to the internal physiological structure of human nasal cavity, Irrigating nasal passages and sinuses rinses out mucus and various irritants",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nasal Rinsing Wash Machine Neti Pot Nose Cleaner... - AliExpress",
+          "link": "https://www.aliexpress.com/i/33013698729.html",
+          "snippet": "store: DearBeauty Official Store.Product Name :Electric Nasal Irrigation Product package weight: about 374g Material : ABS Packing size: 25*8.3*19.5cm Power mode: 3 * AA battery ( not included ).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Electrical Nasal Irrigator MFNI-05HL - Nascool",
+          "link": "https://www.nascool.com/product/electrical-nasal-irrigator/",
+          "snippet": "Why you need nasal irrigation. When inflammation swells and blocks your sinus, Bacteria and virus can easily invade, leading to a serious sinus infection. Mostly causes all kind of nasal problem like:",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Healthy Hygienic Durable High-Quality Ergonomic Comfortable Nasal...",
+          "link": "https://www.ebay.com/itm/287125026769",
+          "snippet": "This 300ml Nasal Irrigation Kit is a comprehensive solution for sinus relief, nasal hygiene, and respiratory wellness.Unbranded. Type. 300ml Nasal Irrigation Kit (with 40 Nasal Salt Packets). UPC. Doe",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Nasal Irrigation In 2025",
+          "link": "https://utoptens.com/best-nasal-irrigation/",
+          "snippet": "We extensively tested and evaluated dozens of top-rated Best Nasal Irrigation across various price points, spending over 100 hours comparing the contenders side-by-side. Based on our in-depth first-ha",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Hot Selling LED Display Atomizing Household Nasal Irrigation Adult...",
+          "link": "https://goodseller-household.en.made-in-china.com/product/NAPUVxzgRarD/China-Hot-Selling-LED-Display-Atomizing-Household-Nasal-Irrigation-Adult-Children-Electric-Nasal-Washer.html",
+          "snippet": "On-Site Scanning. Precise Digital Duplicate. Angle Unlimited.Product Description. Detailed Photos. Company Profile.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Does Nasal Irrigation Help Sinus Infections? | Kaplan Sinus Relief",
+          "link": "https://www.kaplansinusrelief.com/blog/does-nasal-irrigation-help-sinus-infections/",
+          "snippet": "Yes, nasal irrigation can help relieve symptoms of sinus infections by clearing mucus and reducing inflammation.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Hydro Nose Washer Neti Pot Nasal Irrigation Transparent... | eBay",
+          "link": "https://www.ebay.ca/itm/286207619093",
+          "snippet": "Free shipping for many products!A brand-new, unused, unopened, undamaged item (including handmade items). See the seller's listing for full details.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "300ml Nasal Irrigation Portable Nose Cleaner Rinsing Wash... | eBay",
+          "link": "https://www.ebay.ie/itm/176072111168",
+          "snippet": "A brand-new, unused, unopened and undamaged item in original retail packaging (where packaging is applicable). If the item comes direct from a manufacturer, it may be delivered in non-retail packaging",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bulk Buy China Wholesale Hot Selling Led... | Globalsources.com",
+          "link": "https://www.globalsources.com/Nasal-irrigator/nasal-irrigator-1228472641p.htm",
+          "snippet": "Plan to buy China wholesale nasal irrigator, nasal aspirator electric, electric nasal irrigation, nasal irrigator nose cleaner? Find complete details about hot selling led display atomizing household ",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P4": {
+      "query": "nasal irrigation service providers corporate profile",
+      "level": "discovery",
+      "result_count": 5,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "How to Use a Neti Pot: Easy Irrigation Instructions",
+          "link": "https://www.wikihow.com/Use-a-Neti-Pot",
+          "snippet": "A neti pot is used for nasal irrigation, which entails flushing out your nasal cavity with a saline solution. This is a home remedy that is relatively less known in Western countries, but is common in",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Waterpulse Neti Pot Sinus Rinsing, 300ml Nasal Irrigation with...",
+          "link": "https://www.amazon.com/Waterpulse-Irrigation-Thermometer-BPA-Free-Children/dp/B085NSCVDL",
+          "snippet": "About this item. Professional Design: Nasal wash bottle is designed according to the internal physiological structure of human nasal cavity, Irrigating nasal passages and sinuses rinses out mucus and ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Nasal Irrigation In 2025",
+          "link": "https://utoptens.com/best-nasal-irrigation/",
+          "snippet": "With so many Best Nasal Irrigation brands on the market - from prominent names like Navage,NeilMed,Maoever,Arm & Hammer,Waterpulse to smaller.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Arm & Hammer Tackles Sinus Congestion | Happi",
+          "link": "https://www.happi.com/breaking-news/arm-hammer-tackles-sinus-congestion/",
+          "snippet": "Corporate Profiles.Church & Dwight\u2019s Arm & Hammer brand is tackling sinus congestion and allergies with the new Arm & Hammer Simply Saline Neti Pot Kit, which provides nasal irrigation and expels mucu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Why Using a Neti Pot With Tap Water Is Dangerous - Business Insider",
+          "link": "https://www.businessinsider.com/neti-pot-tap-water-is-it-dangerous-brain-eating-amoeba-2018-12",
+          "snippet": "Experts recommend using sterile saline or water for nasal irrigation, but the woman instead used tap water that had been filtered using an at-home water purifier, the report said.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "How to Use a Neti Pot: Easy Irrigation Instructions",
+          "link": "https://www.wikihow.com/Use-a-Neti-Pot",
+          "snippet": "A neti pot is used for nasal irrigation, which entails flushing out your nasal cavity with a saline solution. This is a home remedy that is relatively less known in Western countries, but is common in",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Waterpulse Neti Pot Sinus Rinsing, 300ml Nasal Irrigation with...",
+          "link": "https://www.amazon.com/Waterpulse-Irrigation-Thermometer-BPA-Free-Children/dp/B085NSCVDL",
+          "snippet": "About this item. Professional Design: Nasal wash bottle is designed according to the internal physiological structure of human nasal cavity, Irrigating nasal passages and sinuses rinses out mucus and ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Nasal Irrigation In 2025",
+          "link": "https://utoptens.com/best-nasal-irrigation/",
+          "snippet": "With so many Best Nasal Irrigation brands on the market - from prominent names like Navage,NeilMed,Maoever,Arm & Hammer,Waterpulse to smaller.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Arm & Hammer Tackles Sinus Congestion | Happi",
+          "link": "https://www.happi.com/breaking-news/arm-hammer-tackles-sinus-congestion/",
+          "snippet": "Corporate Profiles.Church & Dwight\u2019s Arm & Hammer brand is tackling sinus congestion and allergies with the new Arm & Hammer Simply Saline Neti Pot Kit, which provides nasal irrigation and expels mucu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Why Using a Neti Pot With Tap Water Is Dangerous - Business Insider",
+          "link": "https://www.businessinsider.com/neti-pot-tap-water-is-it-dangerous-brain-eating-amoeba-2018-12",
+          "snippet": "Experts recommend using sterile saline or water for nasal irrigation, but the woman instead used tap water that had been filtered using an at-home water purifier, the report said.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P5": {
+      "query": "nasal irrigation supply distributors official site",
+      "level": "discovery",
+      "result_count": 9,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Waterpulse Neti Pot Sinus Rinsing, 300ml Nasal Irrigation with...",
+          "link": "https://www.amazon.com/Waterpulse-Irrigation-Thermometer-BPA-Free-Children/dp/B085NSCVDL",
+          "snippet": "Sinus rinsing: For your healthy, experts suggest to clean the nasal cavity regularly. Easy to Use: Unique construction and the patented button allow a wonderful water flow, transparent, so it is easy ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "electric nasal irrigation sold on Temu United States",
+          "link": "https://www.temu.com/electric-nasal-irrigation-5030040655766-s.html",
+          "snippet": "a collection of electric nasal irrigation at Temu. From fashion to home decor, handmade crafts, beauty items, chic clothes, shoes, and more, brand you love are just a .",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How to Use a Neti Pot: Easy Irrigation Instructions",
+          "link": "https://www.wikihow.com/Use-a-Neti-Pot",
+          "snippet": "A neti pot is used for nasal irrigation, which entails flushing out your nasal cavity with a saline solution. This is a home remedy that is relatively less known in Western countries, but is common in",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Angle for Nasal Irrigation | TikTok",
+          "link": "https://www.tiktok.com/discover/angle-for-nasal-irrigation",
+          "snippet": "The process, also known as nasal irrigation, involves gently flushing your nasal passages with a saltwater solution. This helps to remove debris, allergens, and excess mucus. Simply force the saline s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Nasal Irrigation In 2025",
+          "link": "https://utoptens.com/best-nasal-irrigation/",
+          "snippet": "We extensively tested and evaluated dozens of top-rated Best Nasal Irrigation across various price points, spending over 100 hours comparing the contenders side-by-side. Based on our in-depth first-ha",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The 8 Best At-Home Saline Nasal Irrigation Kits... - Well Natural Health",
+          "link": "https://wellnaturalhealth.com/the-8-best-at-home-saline-nasal-irrigation-kits-of-2026/",
+          "snippet": "An expert guide to the most effective nasal rinses and irrigation systems for congestion, allergies, and sinus care at home. Quick Comparison: Top 8 Saline Nasal Irrigation Kits.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nasal Irrigation",
+          "link": "https://breathmd.com/nasal-irrigation/",
+          "snippet": "All you need to know about nasal irrigation and how to do it. Nasal irrigation (also known as nasal washing, sinus rinsing, sinus lavage, and sinus irrigation) is a practice in which the nasal cavity ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Abfen Farma | ENT Health",
+          "link": "https://www.abfen.com/ent-health",
+          "snippet": "Nasal Irrigation is rinsing the nasal passage in other words rinsing the nose and sinuses.Recent studies shows that Hyaluronic acid in the nasal. washes has obtained positive results. When Hyaluronic ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Naegleria fowleri, the \u201cbrain-eating amoeba\u201d: an invisible enemy in...",
+          "link": "https://www.riaponline.it/article/view/562",
+          "snippet": "These are the first reported cases in the United States associated with the presence of Naegleria fowleri in home plumbing served by treated municipal water supplies and potentially linked to the use ",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Waterpulse Neti Pot Sinus Rinsing, 300ml Nasal Irrigation with...",
+          "link": "https://www.amazon.com/Waterpulse-Irrigation-Thermometer-BPA-Free-Children/dp/B085NSCVDL",
+          "snippet": "Sinus rinsing: For your healthy, experts suggest to clean the nasal cavity regularly. Easy to Use: Unique construction and the patented button allow a wonderful water flow, transparent, so it is easy ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "electric nasal irrigation sold on Temu United States",
+          "link": "https://www.temu.com/electric-nasal-irrigation-5030040655766-s.html",
+          "snippet": "a collection of electric nasal irrigation at Temu. From fashion to home decor, handmade crafts, beauty items, chic clothes, shoes, and more, brand you love are just a .",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How to Use a Neti Pot: Easy Irrigation Instructions",
+          "link": "https://www.wikihow.com/Use-a-Neti-Pot",
+          "snippet": "A neti pot is used for nasal irrigation, which entails flushing out your nasal cavity with a saline solution. This is a home remedy that is relatively less known in Western countries, but is common in",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Angle for Nasal Irrigation | TikTok",
+          "link": "https://www.tiktok.com/discover/angle-for-nasal-irrigation",
+          "snippet": "The process, also known as nasal irrigation, involves gently flushing your nasal passages with a saltwater solution. This helps to remove debris, allergens, and excess mucus. Simply force the saline s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Nasal Irrigation In 2025",
+          "link": "https://utoptens.com/best-nasal-irrigation/",
+          "snippet": "We extensively tested and evaluated dozens of top-rated Best Nasal Irrigation across various price points, spending over 100 hours comparing the contenders side-by-side. Based on our in-depth first-ha",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The 8 Best At-Home Saline Nasal Irrigation Kits... - Well Natural Health",
+          "link": "https://wellnaturalhealth.com/the-8-best-at-home-saline-nasal-irrigation-kits-of-2026/",
+          "snippet": "An expert guide to the most effective nasal rinses and irrigation systems for congestion, allergies, and sinus care at home. Quick Comparison: Top 8 Saline Nasal Irrigation Kits.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nasal Irrigation",
+          "link": "https://breathmd.com/nasal-irrigation/",
+          "snippet": "All you need to know about nasal irrigation and how to do it. Nasal irrigation (also known as nasal washing, sinus rinsing, sinus lavage, and sinus irrigation) is a practice in which the nasal cavity ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Abfen Farma | ENT Health",
+          "link": "https://www.abfen.com/ent-health",
+          "snippet": "Nasal Irrigation is rinsing the nasal passage in other words rinsing the nose and sinuses.Recent studies shows that Hyaluronic acid in the nasal. washes has obtained positive results. When Hyaluronic ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Naegleria fowleri, the \u201cbrain-eating amoeba\u201d: an invisible enemy in...",
+          "link": "https://www.riaponline.it/article/view/562",
+          "snippet": "These are the first reported cases in the United States associated with the presence of Naegleria fowleri in home plumbing served by treated municipal water supplies and potentially linked to the use ",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "wholesale nasal irrigation supplies corporate site",
+      "level": "discovery",
+      "result_count": 5,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "nasal irrigation supplies from Sears.com",
+          "link": "https://www.sears.com/search=nasal+irrigation+supplies",
+          "snippet": "nasal irrigation supplies 500+ results. Recommended Price (High to Low) Price (Low to High) Top seller Most Viewed Top Rated.WAONIQ Nasal Irrigation for Baby - Nasal Syringe for Baby - 2PcS Profession",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "dhgate.com/wholesale/nasal irrigation machine.html",
+          "link": "https://www.dhgate.com/wholesale/nasal+irrigation+machine.html",
+          "snippet": "Wholesale Nasal Irrigation Machine. \uff08450 Results). Results for nasal irrigation machine. Discover a range of nasal irrigation devices designed to gently cleanse and moisturize your nasal passages, hel",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "nasal irrigation bottle - Buy nasal irrigation bottle with free shipping...",
+          "link": "https://www.aliexpress.com/w/wholesale-nasal-irrigation-bottle.html",
+          "snippet": "Besides good quality brands, you\u2019ll also find plenty of discounts when you shop for nasal irrigation bottle during big sales. Don\u2019t forget one crucial step - filter for items that offer bonus perks li",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Factory outlets sale Nasal Wash Bottle nasal irrigation, Wholesale...",
+          "link": "https://www.tradees.com/cofoe/product/Factory-outlets-sale-Nasal-Wash-Bottle-nasal-irrigation_670337/",
+          "snippet": "Menu. In This Site On TradeES.com.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Nasal Douche Manufacturers, OEM Factory",
+          "link": "https://www.rj-medical.com.cn/product/nasal-douche/",
+          "snippet": "1. Nasal Douche: Nasal douching, also known as nasal irrigation, involves using a saline solution to clean and irrigate the nasal passages. This method is often used to relieve congestion, reduce infl",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "nasal irrigation supplies from Sears.com",
+          "link": "https://www.sears.com/search=nasal+irrigation+supplies",
+          "snippet": "nasal irrigation supplies 500+ results. Recommended Price (High to Low) Price (Low to High) Top seller Most Viewed Top Rated.WAONIQ Nasal Irrigation for Baby - Nasal Syringe for Baby - 2PcS Profession",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "dhgate.com/wholesale/nasal irrigation machine.html",
+          "link": "https://www.dhgate.com/wholesale/nasal+irrigation+machine.html",
+          "snippet": "Wholesale Nasal Irrigation Machine. \uff08450 Results). Results for nasal irrigation machine. Discover a range of nasal irrigation devices designed to gently cleanse and moisturize your nasal passages, hel",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "nasal irrigation bottle - Buy nasal irrigation bottle with free shipping...",
+          "link": "https://www.aliexpress.com/w/wholesale-nasal-irrigation-bottle.html",
+          "snippet": "Besides good quality brands, you\u2019ll also find plenty of discounts when you shop for nasal irrigation bottle during big sales. Don\u2019t forget one crucial step - filter for items that offer bonus perks li",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Factory outlets sale Nasal Wash Bottle nasal irrigation, Wholesale...",
+          "link": "https://www.tradees.com/cofoe/product/Factory-outlets-sale-Nasal-Wash-Bottle-nasal-irrigation_670337/",
+          "snippet": "Menu. In This Site On TradeES.com.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Nasal Douche Manufacturers, OEM Factory",
+          "link": "https://www.rj-medical.com.cn/product/nasal-douche/",
+          "snippet": "1. Nasal Douche: Nasal douching, also known as nasal irrigation, involves using a saline solution to clean and irrigate the nasal passages. This method is often used to relieve congestion, reduce infl",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P7": {
+      "query": "buy nasal irrigation products online",
+      "level": "discovery",
+      "result_count": 10,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Waterpulse Neti Pot Sinus Rinsing, 300ml Nasal Irrigation with...",
+          "link": "https://www.amazon.com/Waterpulse-Irrigation-Thermometer-BPA-Free-Children/dp/B085NSCVDL",
+          "snippet": "Buying options. Compare with similar items.Professional Design: Nasal wash bottle is designed according to the internal physiological structure of human nasal cavity, Irrigating nasal passages and sin",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Electrical Nasal Irrigator MFNI-05HL - Nascool",
+          "link": "https://www.nascool.com/product/electrical-nasal-irrigator/",
+          "snippet": "Buy now ADD to cart. Why you need nasal irrigation. When inflammation swells and blocks your sinus, Bacteria and virus can easily invade, leading to a serious sinus infection.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Navage Congestion Relief Saline Nasal Irrigation 22 SaltPods Drying...",
+          "link": "https://www.ebay.com/itm/236720524910",
+          "snippet": "Product Key Features. Color. Multicolor. Type. Nasal Irrigator.You can buy pods online or at Walgreens and such. There is a hack video on YT showing how to make it work without the pods.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bulk Buy China Wholesale Hot Selling Led... | Globalsources.com",
+          "link": "https://www.globalsources.com/Nasal-irrigator/nasal-irrigator-1228472641p.htm",
+          "snippet": "Plan to buy China wholesale nasal irrigator, nasal aspirator electric, electric nasal irrigation, nasal irrigator nose cleaner?Products Description. Applicable Scenarios. Outdoor, hotel, home.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Adonghai Saline Nasal Irrigation Device With... | Tradewheel.com",
+          "link": "https://www.tradewheel.com/p/adonghai-saline-nasal-irrigation-device-with-2648677/",
+          "snippet": "Buy low price Adonghai Saline Nasal Irrigation Device With Igm Immunoglobulins by Guangzhou Dongfanglue Biotechnology Co., Ltd., a leading supplier from China. 4974 similar products are also available",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Angle for Nasal Irrigation | TikTok",
+          "link": "https://www.tiktok.com/discover/angle-for-nasal-irrigation",
+          "snippet": "The process, also known as nasal irrigation, involves gently flushing your nasal passages with a saltwater solution. This helps to remove debris, allergens, and excess mucus. Simply force the saline s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Saline Nasal Spray: How To Make It, When To Use It, Health Benefits",
+          "link": "https://www.webmd.com/allergies/saline-spray",
+          "snippet": "A saline nasal rinse (also called saline nasal irrigation) can help clear out mucus and debris from your nasal passages, which may help you breathe easier when you have an allergy or cold. What is the",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How to Use a Neti Pot: Easy Irrigation Instructions",
+          "link": "https://www.wikihow.com/Use-a-Neti-Pot",
+          "snippet": "Plus, how to clean your Neti pot and make a saline solutionA neti pot is used for nasal irrigation, which entails flushing out your nasal cavity with a saline solution.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Electric Nasal Irrigator - Sinus & Congestion Relief",
+          "link": "https://nutricity.com.br/en/shop/brsrmcqno4frsh3x-electric-nasal-irrigation-system-with-50-salt-packets-2-modes-nose-cleaner-with-selfcleaning-auto-waste-collection-function-for-sinus-relief-runny-nose-nasal-congestion-itching-nose-15238",
+          "snippet": "Electric nasal irrigation system with 50 salt packets. Relieves sinus congestion, runny nose & itching. Features self-cleaning & auto waste collection.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "NEILMED paediatric nasal irrigation nasamist... | Pharmacy Online",
+          "link": "https://www.pharmacyonline.co.uk/products/neilmed-paediatric-nasal-irrigation-nasamist-75ml",
+          "snippet": "NeilMed Pediamist saline spray stuffy nose relief is a sterile, non-medicated saline spray used to relieve nasal congestion and irritation caused by allergies, colds, the flu, and other conditions. It",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Waterpulse Neti Pot Sinus Rinsing, 300ml Nasal Irrigation with...",
+          "link": "https://www.amazon.com/Waterpulse-Irrigation-Thermometer-BPA-Free-Children/dp/B085NSCVDL",
+          "snippet": "Buying options. Compare with similar items.Professional Design: Nasal wash bottle is designed according to the internal physiological structure of human nasal cavity, Irrigating nasal passages and sin",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Electrical Nasal Irrigator MFNI-05HL - Nascool",
+          "link": "https://www.nascool.com/product/electrical-nasal-irrigator/",
+          "snippet": "Buy now ADD to cart. Why you need nasal irrigation. When inflammation swells and blocks your sinus, Bacteria and virus can easily invade, leading to a serious sinus infection.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Navage Congestion Relief Saline Nasal Irrigation 22 SaltPods Drying...",
+          "link": "https://www.ebay.com/itm/236720524910",
+          "snippet": "Product Key Features. Color. Multicolor. Type. Nasal Irrigator.You can buy pods online or at Walgreens and such. There is a hack video on YT showing how to make it work without the pods.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bulk Buy China Wholesale Hot Selling Led... | Globalsources.com",
+          "link": "https://www.globalsources.com/Nasal-irrigator/nasal-irrigator-1228472641p.htm",
+          "snippet": "Plan to buy China wholesale nasal irrigator, nasal aspirator electric, electric nasal irrigation, nasal irrigator nose cleaner?Products Description. Applicable Scenarios. Outdoor, hotel, home.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Adonghai Saline Nasal Irrigation Device With... | Tradewheel.com",
+          "link": "https://www.tradewheel.com/p/adonghai-saline-nasal-irrigation-device-with-2648677/",
+          "snippet": "Buy low price Adonghai Saline Nasal Irrigation Device With Igm Immunoglobulins by Guangzhou Dongfanglue Biotechnology Co., Ltd., a leading supplier from China. 4974 similar products are also available",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Angle for Nasal Irrigation | TikTok",
+          "link": "https://www.tiktok.com/discover/angle-for-nasal-irrigation",
+          "snippet": "The process, also known as nasal irrigation, involves gently flushing your nasal passages with a saltwater solution. This helps to remove debris, allergens, and excess mucus. Simply force the saline s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Saline Nasal Spray: How To Make It, When To Use It, Health Benefits",
+          "link": "https://www.webmd.com/allergies/saline-spray",
+          "snippet": "A saline nasal rinse (also called saline nasal irrigation) can help clear out mucus and debris from your nasal passages, which may help you breathe easier when you have an allergy or cold. What is the",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How to Use a Neti Pot: Easy Irrigation Instructions",
+          "link": "https://www.wikihow.com/Use-a-Neti-Pot",
+          "snippet": "Plus, how to clean your Neti pot and make a saline solutionA neti pot is used for nasal irrigation, which entails flushing out your nasal cavity with a saline solution.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Electric Nasal Irrigator - Sinus & Congestion Relief",
+          "link": "https://nutricity.com.br/en/shop/brsrmcqno4frsh3x-electric-nasal-irrigation-system-with-50-salt-packets-2-modes-nose-cleaner-with-selfcleaning-auto-waste-collection-function-for-sinus-relief-runny-nose-nasal-congestion-itching-nose-15238",
+          "snippet": "Electric nasal irrigation system with 50 salt packets. Relieves sinus congestion, runny nose & itching. Features self-cleaning & auto waste collection.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "NEILMED paediatric nasal irrigation nasamist... | Pharmacy Online",
+          "link": "https://www.pharmacyonline.co.uk/products/neilmed-paediatric-nasal-irrigation-nasamist-75ml",
+          "snippet": "NeilMed Pediamist saline spray stuffy nose relief is a sterile, non-medicated saline spray used to relieve nasal congestion and irritation caused by allergies, colds, the flu, and other conditions. It",
+          "backend": "ddgs_bing"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

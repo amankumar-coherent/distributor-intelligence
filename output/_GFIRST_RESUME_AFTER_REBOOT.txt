@@ -1,0 +1,7 @@
+﻿Electrical only, 2 companies/wave.
+Google first; if empty -> DeepSeek.
+Resume after reboot:
+  cd D:\vendor-intel
+  .\.venv\Scripts\python.exe -m google_ai_scraper.mcp_server.server --backend --port 15551
+  $env:PYTHONPATH='D:\vendor-intel\src'
+  .\.venv\Scripts\python.exe -u scripts\fill_seven_contacts_google_first.py --market electrical --concurrency 2 --no-apollo

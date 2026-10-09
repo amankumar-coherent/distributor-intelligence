@@ -1,0 +1,2437 @@
+{
+  "phase": 1,
+  "query": "Car Rental Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T20:23:11.810192+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "car rental",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "service provider",
+    "industry_vertical": "transportation",
+    "industry_terms": [
+      "car rental",
+      "vehicle leasing",
+      "short-term rental",
+      "fleet management",
+      "travel agency partnerships"
+    ],
+    "ecosystem_functions": [
+      "vehicle distribution",
+      "wholesale rental agreements",
+      "reselling rental services",
+      "integrating travel solutions",
+      "providing maintenance services",
+      "offering insurance for rentals",
+      "managing rental fleets",
+      "facilitating corporate travel rentals"
+    ],
+    "interpretation_summary": "The car rental market encompasses businesses that provide vehicles for short-term use, typically ranging from a few hours to several weeks. Participants include rental companies, distributors, and service providers opera",
+    "relevance_keywords": [
+      "vehicle rental services",
+      "car rental agreements",
+      "travel agency car rentals",
+      "rental fleet management",
+      "insurance for rental cars"
+    ],
+    "negative_keywords": [
+      "used cars",
+      "car sales",
+      "vehicle auctions",
+      "public transport",
+      "ride-sharing"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "Enterprise Holdings",
+        "primary_domain": "enterprise.com",
+        "company_function": "vehicle rental and leasing"
+      },
+      {
+        "canonical_name": "Hertz Global Holdings",
+        "primary_domain": "hertz.com",
+        "company_function": "car rental services"
+      },
+      {
+        "canonical_name": "Avis Budget Group",
+        "primary_domain": "avis.com",
+        "company_function": "car rental and leasing"
+      },
+      {
+        "canonical_name": "Sixt SE",
+        "primary_domain": "sixt.com",
+        "company_function": "vehicle rental services"
+      },
+      {
+        "canonical_name": "National Car Rental",
+        "primary_domain": "nationalcar.com",
+        "company_function": "car rental services"
+      },
+      {
+        "canonical_name": "Alamo Rent A Car",
+        "primary_domain": "alamorentacar.com",
+        "company_function": "vehicle rental services"
+      },
+      {
+        "canonical_name": "Europcar Mobility Group",
+        "primary_domain": "europcar.com",
+        "company_function": "car rental services"
+      },
+      {
+        "canonical_name": "Budget Rent A Car",
+        "primary_domain": "budget.com",
+        "company_function": "vehicle rental services"
+      },
+      {
+        "canonical_name": "Trafalgar Tours",
+        "primary_domain": "trafalgar.com",
+        "company_function": "travel agency with car rental services",
+        "segment": "Resellers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Kayak",
+        "primary_domain": "kayak.com",
+        "company_function": "travel search engine with car rental options",
+        "segment": "System Integrators",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Expedia Group",
+        "primary_domain": "expedia.com",
+        "company_function": "online travel agency with car rental services",
+        "segment": "Resellers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Travel Leaders Group",
+        "primary_domain": "travelleaders.com",
+        "company_function": "travel management company with rental services",
+        "segment": "Resellers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Getaround",
+        "primary_domain": "getaround.com",
+        "company_function": "peer-to-peer car rental service",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Zipcar",
+        "primary_domain": "zipcar.com",
+        "company_function": "car sharing and rental services",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "car rental",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "car rental",
+    "include_keywords": [
+      "car rental distributors",
+      "wholesale car rental services",
+      "OTA car rental",
+      "travel management car rentals",
+      "system integration for rentals"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The car rental market encompasses businesses that provide vehicles for short-term use, typically ranging from a few hours to several weeks. Participants include rental companies, distributors, and service providers operating globally, catering to both leisure and business travelers.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Distribution",
+        "description": "This layer involves the distribution of rental vehicles through various partners.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Regional distributors",
+              "International distributors"
+            ],
+            "participant_types": [
+              "vehicle distributors",
+              "rental fleet managers"
+            ],
+            "search_intents": [
+              "car rental vehicle distributors",
+              "official car rental distributors"
+            ]
+          },
+          {
+            "segment_name": "Wholesalers",
+            "sub_segments": [
+              "bulk rental agreements",
+              "wholesale vehicle rental services"
+            ],
+            "participant_types": [
+              "wholesale rental agencies"
+            ],
+            "search_intents": [
+              "car rental wholesalers",
+              "bulk car rental services"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L2",
+        "layer_name": "Reselling",
+        "description": "This layer focuses on companies that resell rental services to end customers.",
+        "segments": [
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "online travel agencies",
+              "corporate travel resellers"
+            ],
+            "participant_types": [
+              "OTA platforms",
+              "travel management companies"
+            ],
+            "search_intents": [
+              "car rental resellers",
+              "travel agency car rental services"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L3",
+        "layer_name": "Integration Services",
+        "description": "This layer includes companies that integrate rental services into broader travel solutions.",
+        "segments": [
+          {
+            "segment_name": "System Integrators",
+            "sub_segments": [
+              "travel software integrators",
+              "fleet management systems"
+            ],
+            "participant_types": [
+              "IT service providers",
+              "software developers"
+            ],
+            "search_intents": [
+              "car rental system integrators",
+              "travel software for car rentals"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L4",
+        "layer_name": "Service Provision",
+        "description": "This layer covers service providers that enhance the rental experience.",
+        "segments": [
+          {
+            "segment_name": "Service Providers",
+            "sub_segments": [
+              "insurance providers",
+              "maintenance services"
+            ],
+            "participant_types": [
+              "insurance companies",
+              "vehicle maintenance firms"
+            ],
+            "search_intents": [
+              "car rental service providers",
+              "vehicle maintenance for rentals"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Car manufacturers",
+        "Ride-sharing services",
+        "Public transportation",
+        "Vehicle leasing companies"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "search for car rental vehicle distributors",
+        "sub_sector": "vehicle_distribution",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "find car rental wholesalers for bulk services",
+        "sub_sector": "bulk_rental_services",
+        "layer_id": "L1",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "search for car rental resellers in travel agencies",
+        "sub_sector": "travel_agency_reselling",
+        "layer_id": "L2",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "find system integrators for car rental software",
+        "sub_sector": "travel_software_integration",
+        "layer_id": "L3",
+        "segment": "System Integrators"
+      },
+      {
+        "id": "M5",
+        "level": "market_map",
+        "text": "search for car rental service providers",
+        "sub_sector": "rental_service_provision",
+        "layer_id": "L4",
+        "segment": "Service Providers"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "transportation",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "car rental companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "car rental service providers corporate sites"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "car rental distributors official site"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "discovery",
+      "text": "car rental vehicle distributors official site"
+    },
+    {
+      "id": "P2",
+      "level": "discovery",
+      "text": "car rental wholesalers corporate headquarters"
+    },
+    {
+      "id": "P3",
+      "level": "discovery",
+      "text": "car rental resellers official website"
+    },
+    {
+      "id": "P4",
+      "level": "discovery",
+      "text": "car rental system integrators corporate site"
+    },
+    {
+      "id": "P5",
+      "level": "discovery",
+      "text": "car rental service providers official site"
+    },
+    {
+      "id": "P6",
+      "level": "discovery",
+      "text": "vehicle maintenance for rentals corporate site"
+    },
+    {
+      "id": "P7",
+      "level": "discovery",
+      "text": "insurance for rental cars provider official site"
+    },
+    {
+      "id": "P8",
+      "level": "discovery",
+      "text": "corporate travel rentals service provider official site"
+    },
+    {
+      "id": "P9",
+      "level": "volume",
+      "text": "authorized car rental distributor firm official"
+    },
+    {
+      "id": "P10",
+      "level": "volume",
+      "text": "car rental reseller channel partner official"
+    },
+    {
+      "id": "P11",
+      "level": "volume",
+      "text": "car rental system integrator official website"
+    },
+    {
+      "id": "P12",
+      "level": "volume",
+      "text": "car rental service provider official website"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "car rental companies official websites",
+      "level": "L0",
+      "result_count": 27,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Revv - Car Rental, Self-Drive & Subscription Services",
+          "link": "https://www.revv.co.in/",
+          "snippet": "Compare & book affordable car rentals, self-drive cars & subscriptions across India. Doorstep delivery, 24/7 support, transparent pricing. Reserve now!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cheap Car Hire, Compare Rental Prices - Rentalcars.com",
+          "link": "https://www.rentalcars.com/",
+          "snippet": "Compare car hire deals and find the cheapest prices in more than 60000 locations worldwide. Book online today with the world's biggest online car rental ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rental | Enterprise Rent-A-Car",
+          "link": "https://www.enterprise.com/en/car-rental.html",
+          "snippet": "Renting a Car with Enterprise With 65 years in business Enterprise Rent-A-Car makes renting a car seamless so you can get right on your way. Make a car rental reservation online or through the Enterpr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cheap Car Hire, Compare Rental Prices - Rentalcars.com",
+          "link": "https://www.rentalcars.com/en/",
+          "snippet": "Compare car hire deals and find the cheapest prices in more than 60,000 locations worldwide. Book online today with the world's biggest online car rental service. Save on luxury, economy and family ca",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rental with Great Rates & Service | Enterprise Rent-A-Car",
+          "link": "https://www.enterprise.com/",
+          "snippet": "Replacement Rentals. Rent a Car After an Accident. Dealership & Service Vehicles. Payment Options.Our customized rental programs are designed specifically to meet your company's needs, saving you time",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Find cheap rental car deals | Priceline",
+          "link": "https://www.priceline.com/rental-cars",
+          "snippet": "Search car rentals. Find the best car rental deals. Drop-off location is the same.Why use Priceline? Trusted by 8 million travelers. Great deals from our rental car suppliers. Free cancellation on mos",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Europcar: Rental Cars - Car Rental & Van Rental",
+          "link": "https://www.europcar.com/",
+          "snippet": "Car rental and van rental worldwide. Discover very exciting offers and book online to save money with our convenient and hassle free booking. Find out more!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rentals: Find Cheap Car Rentals & Rental Car Deals - KAYAK",
+          "link": "https://www.kayak.com/cars",
+          "snippet": "KAYAK searches for rental car deals on hundreds of car rental sites to help you find the cheapest car rental.KAYAK compares rental car prices from all major car rental companies such as Thrifty, Dolla",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Fast & Convenient Car Rental at 1,500+ Locations | National Car Rental",
+          "link": "https://www.nationalcar.com/",
+          "snippet": "Join Emerald Club and enjoy exclusive benefits including counter bypass, choose your own car and earn rewards towards free rental days (select locations).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Car Rental Deals with Free Cancellation... | Discover Cars",
+          "link": "https://www.discovercars.com/",
+          "snippet": "The web site has clear instructions and it is easy to navigate through the reservati...We compare car rental prices, you save! Find the perfect rental car for your trip.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Compare Cheap Car Rental from $42 per day | Skyscanner",
+          "link": "https://www.skyscanner.com/car-rental",
+          "snippet": "Find the best car rental deals from trusted providers in over 18,000 locations worldwide with Skyscanner. Compare prices and book your car rental today.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rental with the Best Prices | Rentcars",
+          "link": "https://www.rentcars.com/",
+          "snippet": "Rent a car and save up to 30%! Compare rates from over 350 car rental companies in 160 countries and find the best deals with Rentcars.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rental with Klook - Hassle-Free Booking with Klook",
+          "link": "https://www.bing.com/aclick?ld=e8gMcJYH4ODgyLfysGcdz4dzVUCUxzlg1jzpl-6QIOuAam1aVuqb-TgzFaqUQ6fOa9ceLmK9FlRFU_nHqc_L2SvWFeD4jmQ09EIa66dp5j3oDHEPBkqLx50Jft3noD5dUNyWrCimeuNTvN10HZY4Otyf_VUJ3xyUr8wXYsrYUPSYDeqeJPeT9tPqQX-IpQJJ_GMUQ2Zm3Ze7V4XjzEZw_o74VRDzA&u=aHR0cHMlM2ElMmYlMmZ3d3cua2xvb2suY29tJTJmZW4tSU4lMmZjYXItcmVudGFscyUyZmNpdHklMmY1NDgtdHJhbmctcHJvdmluY2UtY2FyLXJlbnRhbHMlMmYlM2ZfY3VycmVuY3klM2RJTlIlMjZ1dG1fc291cmNlJTNkYmluZyUyNnV0bV9tZWRpdW0lM2RjcGMlMjZjYW1wYWlnbmlkJTNkNjYzNTM0MjUyJTI2YWRncm91cGlkJTNkMTMyMTYxNTYzNjc2NTUyOCUyNnRhcmdldGlkJTNka3dkLTgyNjAyNDE3NTkxNTYxJTNhbG9jLTkwJTI2bWF0Y2h0eXBlJTNkcCUyNmRldmljZSUzZGMlMjZjcmVhdGl2ZSUzZDgyNjAxMjE5NDAwNDMxJTI2ZXh0ZW5zaW9uaWQlM2QlMjZrZXl3b3JkJTNkY2FyJTI1MjByZW50YWwlMjZsb2NfaW50ZXJlc3RfbXMlM2QlMjZsb2NfcGh5c2ljYWxfbXMlM2QxNTUxODIlMjZuZXR3b3JrJTNkbyUyNnV0bV9jb250ZW50JTNkY2FtcGFpZ25pZF82NjM1MzQyNTJfYWRncm91cGlkXzEzMjE2MTU2MzY3NjU1MjglMjZtc2Nsa2lkJTNkZTEwMjg2YWE3NDdjMTliYjU3MzNlY2Y1YjVlYjEzNTI&rlid=e10286aa747c19bb5733ecf5b5eb1352",
+          "snippet": "klook.com has been visited by 100K+ users in the past month Compare Great Car Deals and Book with Confidence on Klook. Convenient Pick-up & Drop-off Locations. Flexible Short & Long Term Rental Option",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cheap Car Rental - Priceline Car Rental",
+          "link": "https://www.bing.com/aclick?ld=e8nk9Hmv25ySvmLkQw3Su4_jVUCUzvVaSU_AMkXNsoc7Utgw8rZ4SkT_DNFRo2SgPwUKAH5r7fzcigDOY5PHQEyy67f7btV3TAbGo8jRjtd_bjnRaFFgxKz_1bN_4bCS_yrgty69DY4UyoTR2LXoYAN52EiwjSAaxdtE4wfuBqebjHNKLnbZOJzs90iPcFVLxTaDOVP9_GAauJb1nkMhYTh_DLM0c&u=aHR0cHMlM2ElMmYlMmZ3d3cucHJpY2VsaW5lLmNvbSUyZnIlMmYlM2Zwcm9kdWN0JTNkY2FyJTI2dGhlbWUlM2RnZW5lcmljX2ludGwlMjZxdWVyeSUzZGNhciUyNTIwcmVudGFsJTI1MjBjb21wYW5pZXMlMjUyMG9mZmljaWFsJTI1MjB3ZWJzaXRlcyUyNmt3JTNkY2FyJTI1MjByZW50YWwlMjUyMHdlYnNpdGVzJTI2bWF0Y2glM2RiZSUyNnJlZmlkJTNkUExNU04lMjZyZWZjbGlja2lkJTNkRCUzYWNBc3RyYTE2MDY0MjE3MjAwbzc0MjE3MzA3NDcxODM2MjY3Nzg2MzE2a3dkLTc0MjE3MTg5MzA3OTQ0JTNhbG9jLTkwJTI2bXNjbGtpZCUzZDVmYzhjNGQwM2E2NTEyOGFjN2JjYWU4ZmZiZjIzY2RiJTI2dXRtX3NvdXJjZSUzZGJpbmclMjZ1dG1fbWVkaXVtJTNkY3BjJTI2dXRtX2NhbXBhaWduJTNkR2VuJTI1N0NDYXIlMjUyMFJlbnRhbCUyNTdDUm9vdCUyNTdDRGVza3RvcCUyNTdDTm9uQXVkJTI1N0NBc2lhJTI2dXRtX3Rlcm0lM2RjYXIlMjUyMHJlbnRhbCUyNTIwd2Vic2l0ZXMlMjZ1dG1fY29udGVudCUzZENhciUyNTIwUmVudGFsJTI1N0NSb290JTI1N0NTaXRlcyUyNTdDRXhhY3Q&rlid=5fc8c4d03a65128ac7bcae8ffbf23cdb",
+          "snippet": "Save up to 40% on Rental Cars. 18,500+ Rental Locations Worldwide! Compare and Save on a Wide Variety of Cars from Top Brands. Book Now! Save Big w/ Express Deals \u00b7 Our Bundles Save You More \u00b7 Exclusi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Car Rental Deals with Free Cancellation, Compare & Save!",
+          "link": "https://www.bing.com/aclick?ld=e8YYcOQF7tWlIuMHlwsWk1GjVUCUwnWhk3iH0jfRcJAWABRVfSR052KJ_iFScH-qHnpkLfg0qKWz8HUbWIlotMTz-o8Xe50vJnR_VA9eHUI8rtq7S2MXnQzqQosL9F-SadRBSQ0zza0WdQ2IRy-PBz4rbaLxoZgzlfMT26PMFqj9Y_kw1NVTBuqE_ltzVdXXanrU8v4ctbmhrvNDfbUK3vXaShUyc&u=aHR0cHMlM2ElMmYlMmZ3d3cuZGlzY292ZXJjYXJzLmNvbSUyZnBhcnRuZXJzJTJmbmF0aW9uYWwtMzYxNzcwJTNma2V5d29yZCUzZFNVUFBMSUVSJTI2bmV0d29yayUzZG8lMjZtc2Nsa2lkJTNkMGNjZjI4ZjBkNGMxMTNlMmE2MTM0MmFmMTU1NjgyNTclMjZ1dG1fc291cmNlJTNkYmluZyUyNnV0bV9tZWRpdW0lM2RjcGMlMjZ1dG1fY2FtcGFpZ24lM2RST0FTZHQlMjUyMER5bmFtaWMlMjUyMFBhcnRuZXJzJTI1MjBGZWVkJTI1MjAoYWxsLWQpJTI1MjBFTiUyNnV0bV90ZXJtJTNkU1VQUExJRVIlMjZ1dG1fY29udGVudCUzZFBhcnRuZXIlMjUyMExpbmtzJTI1MjBmcm9tJTI1MjBGZWVkJTI1MjBDUEFkdCUyNTIwRHluYW1pYyUyNTIwQWxsJTI1MjAoYWxsLWQpJTI1MjBFTg&rlid=0ccf28f0d4c113e2a61342af15568257",
+          "snippet": "Car rental prices are rising, but if you act fast, you can get a good deal! Book with confidence \u2013 Best price guarantee and Free cancellation policy",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rentals from Avis | Book Online & Save Now",
+          "link": "https://www.avis.com/en/home",
+          "snippet": "Reserve your next car rental online with Avis and save. A large selection of vehicles available & with the Avis Signature Series you can travel in style.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rental with Great Rates & Service | Enterprise Rent-A-Car",
+          "link": "https://www.enterprise.com/en/home.html",
+          "snippet": "Enjoy easy booking with thousands of airport and city locations near you. Lock in great rates when you book a rental car with Enterprise.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Discount car rental rates and rental car deals | Budget Car ...",
+          "link": "https://www.budget.com/en/home",
+          "snippet": "Budget offers reliable car rentals at low rates. Easily book a sedan, SUV, truck, or EV for your next trip. Get started today!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rental with the Best Prices | Rentcars",
+          "link": "https://www.rentcars.com/en/",
+          "snippet": "Jul 22, 2026 \u00b7 Rent a car and save up to 30%! Compare rates from over 350 car rental companies in 160 countries and find the best deals with Rentcars.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Find & Book Car Rental Deals - KAYAK",
+          "link": "https://www.kayak.co.in/cars",
+          "snippet": "KAYAK searches hundreds of other travel sites at once to find your ideal self drive car hire. Find the car rental you want and you could save up to 35%.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Find the best car rental deals - Skyscanner",
+          "link": "https://www.skyscanner.co.in/carhire",
+          "snippet": "Popular car rental destinations \u00b7 Find a cheap car hire deal near you \u00b7 Your trusted car hire companies, all in one place \u00b7 Hire a car with confidence \u00b7 The best ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "MyChoize: Self-Drive Car Rental | Rent a Car @ 25% off",
+          "link": "https://www.mychoize.com/",
+          "snippet": "Rent a Self-Drive car for daily, weekly or monthly with MyChoize \u2713 Car hire @ 25% Off \u2713 Get \u20b95000 Off on Car Subscription \u2713 Best deals \u2713 Doorstep Delivery.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Avis India: Best Luxury Car Rentals & Chauffeur Driven Cars in India",
+          "link": "https://www.avis.co.in/",
+          "snippet": "Book luxury car rental & chauffeur driven services in India. Plan your journey today with reliable & comfortable vehicles by Avis India.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Book Hourly Car Rental & Save Upto \u20b9200 Off - MakeMyTrip",
+          "link": "https://www.makemytrip.com/car-rental/",
+          "snippet": "Visit the MakeMyTrip website and log in to avail of great discounts and offers. \u00b7 Click on Cabs to start the booking process for car rentals. \u00b7 Select the type of ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Europcar: Car Rental - Rent a Car & Van Worldwide",
+          "link": "https://www.europcar.com/en-in",
+          "snippet": "... Favourites 2019 (for Germany, France and Spain). award-travel. World's Leading Car Rental Company Website. KAYAK 2020 Best Cleanliness. Europcar linkedin.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "All Car Rental Brands - CarFlexi",
+          "link": "https://www.carflexi.com/en-us/all-car-rental-brands",
+          "snippet": "CarFlexi is directly connected with all leading car rental companies as Alamo, Budget, Enterprise, Europcar, National, Thrifty, Payless, Hertz, Dollar and SIXT.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "hertz.com",
+          "link": "https://www.hertz.com/",
+          "snippet": "Visiter le site Web de Hertz Car Rental.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Revv - Car Rental, Self-Drive & Subscription Services",
+          "link": "https://www.revv.co.in/",
+          "snippet": "Compare & book affordable car rentals, self-drive cars & subscriptions across India. Doorstep delivery, 24/7 support, transparent pricing. Reserve now!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cheap Car Hire, Compare Rental Prices - Rentalcars.com",
+          "link": "https://www.rentalcars.com/",
+          "snippet": "Compare car hire deals and find the cheapest prices in more than 60000 locations worldwide. Book online today with the world's biggest online car rental ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rental | Enterprise Rent-A-Car",
+          "link": "https://www.enterprise.com/en/car-rental.html",
+          "snippet": "Renting a Car with Enterprise With 65 years in business Enterprise Rent-A-Car makes renting a car seamless so you can get right on your way. Make a car rental reservation online or through the Enterpr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cheap Car Hire, Compare Rental Prices - Rentalcars.com",
+          "link": "https://www.rentalcars.com/en/",
+          "snippet": "Compare car hire deals and find the cheapest prices in more than 60,000 locations worldwide. Book online today with the world's biggest online car rental service. Save on luxury, economy and family ca",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rental with Great Rates & Service | Enterprise Rent-A-Car",
+          "link": "https://www.enterprise.com/",
+          "snippet": "Replacement Rentals. Rent a Car After an Accident. Dealership & Service Vehicles. Payment Options.Our customized rental programs are designed specifically to meet your company's needs, saving you time",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Find cheap rental car deals | Priceline",
+          "link": "https://www.priceline.com/rental-cars",
+          "snippet": "Search car rentals. Find the best car rental deals. Drop-off location is the same.Why use Priceline? Trusted by 8 million travelers. Great deals from our rental car suppliers. Free cancellation on mos",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Europcar: Rental Cars - Car Rental & Van Rental",
+          "link": "https://www.europcar.com/",
+          "snippet": "Car rental and van rental worldwide. Discover very exciting offers and book online to save money with our convenient and hassle free booking. Find out more!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rentals: Find Cheap Car Rentals & Rental Car Deals - KAYAK",
+          "link": "https://www.kayak.com/cars",
+          "snippet": "KAYAK searches for rental car deals on hundreds of car rental sites to help you find the cheapest car rental.KAYAK compares rental car prices from all major car rental companies such as Thrifty, Dolla",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Fast & Convenient Car Rental at 1,500+ Locations | National Car Rental",
+          "link": "https://www.nationalcar.com/",
+          "snippet": "Join Emerald Club and enjoy exclusive benefits including counter bypass, choose your own car and earn rewards towards free rental days (select locations).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Car Rental Deals with Free Cancellation... | Discover Cars",
+          "link": "https://www.discovercars.com/",
+          "snippet": "The web site has clear instructions and it is easy to navigate through the reservati...We compare car rental prices, you save! Find the perfect rental car for your trip.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Compare Cheap Car Rental from $42 per day | Skyscanner",
+          "link": "https://www.skyscanner.com/car-rental",
+          "snippet": "Find the best car rental deals from trusted providers in over 18,000 locations worldwide with Skyscanner. Compare prices and book your car rental today.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rental with the Best Prices | Rentcars",
+          "link": "https://www.rentcars.com/",
+          "snippet": "Rent a car and save up to 30%! Compare rates from over 350 car rental companies in 160 countries and find the best deals with Rentcars.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rental with Klook - Hassle-Free Booking with Klook",
+          "link": "https://www.bing.com/aclick?ld=e8gMcJYH4ODgyLfysGcdz4dzVUCUxzlg1jzpl-6QIOuAam1aVuqb-TgzFaqUQ6fOa9ceLmK9FlRFU_nHqc_L2SvWFeD4jmQ09EIa66dp5j3oDHEPBkqLx50Jft3noD5dUNyWrCimeuNTvN10HZY4Otyf_VUJ3xyUr8wXYsrYUPSYDeqeJPeT9tPqQX-IpQJJ_GMUQ2Zm3Ze7V4XjzEZw_o74VRDzA&u=aHR0cHMlM2ElMmYlMmZ3d3cua2xvb2suY29tJTJmZW4tSU4lMmZjYXItcmVudGFscyUyZmNpdHklMmY1NDgtdHJhbmctcHJvdmluY2UtY2FyLXJlbnRhbHMlMmYlM2ZfY3VycmVuY3klM2RJTlIlMjZ1dG1fc291cmNlJTNkYmluZyUyNnV0bV9tZWRpdW0lM2RjcGMlMjZjYW1wYWlnbmlkJTNkNjYzNTM0MjUyJTI2YWRncm91cGlkJTNkMTMyMTYxNTYzNjc2NTUyOCUyNnRhcmdldGlkJTNka3dkLTgyNjAyNDE3NTkxNTYxJTNhbG9jLTkwJTI2bWF0Y2h0eXBlJTNkcCUyNmRldmljZSUzZGMlMjZjcmVhdGl2ZSUzZDgyNjAxMjE5NDAwNDMxJTI2ZXh0ZW5zaW9uaWQlM2QlMjZrZXl3b3JkJTNkY2FyJTI1MjByZW50YWwlMjZsb2NfaW50ZXJlc3RfbXMlM2QlMjZsb2NfcGh5c2ljYWxfbXMlM2QxNTUxODIlMjZuZXR3b3JrJTNkbyUyNnV0bV9jb250ZW50JTNkY2FtcGFpZ25pZF82NjM1MzQyNTJfYWRncm91cGlkXzEzMjE2MTU2MzY3NjU1MjglMjZtc2Nsa2lkJTNkZTEwMjg2YWE3NDdjMTliYjU3MzNlY2Y1YjVlYjEzNTI&rlid=e10286aa747c19bb5733ecf5b5eb1352",
+          "snippet": "klook.com has been visited by 100K+ users in the past month Compare Great Car Deals and Book with Confidence on Klook. Convenient Pick-up & Drop-off Locations. Flexible Short & Long Term Rental Option",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cheap Car Rental - Priceline Car Rental",
+          "link": "https://www.bing.com/aclick?ld=e8nk9Hmv25ySvmLkQw3Su4_jVUCUzvVaSU_AMkXNsoc7Utgw8rZ4SkT_DNFRo2SgPwUKAH5r7fzcigDOY5PHQEyy67f7btV3TAbGo8jRjtd_bjnRaFFgxKz_1bN_4bCS_yrgty69DY4UyoTR2LXoYAN52EiwjSAaxdtE4wfuBqebjHNKLnbZOJzs90iPcFVLxTaDOVP9_GAauJb1nkMhYTh_DLM0c&u=aHR0cHMlM2ElMmYlMmZ3d3cucHJpY2VsaW5lLmNvbSUyZnIlMmYlM2Zwcm9kdWN0JTNkY2FyJTI2dGhlbWUlM2RnZW5lcmljX2ludGwlMjZxdWVyeSUzZGNhciUyNTIwcmVudGFsJTI1MjBjb21wYW5pZXMlMjUyMG9mZmljaWFsJTI1MjB3ZWJzaXRlcyUyNmt3JTNkY2FyJTI1MjByZW50YWwlMjUyMHdlYnNpdGVzJTI2bWF0Y2glM2RiZSUyNnJlZmlkJTNkUExNU04lMjZyZWZjbGlja2lkJTNkRCUzYWNBc3RyYTE2MDY0MjE3MjAwbzc0MjE3MzA3NDcxODM2MjY3Nzg2MzE2a3dkLTc0MjE3MTg5MzA3OTQ0JTNhbG9jLTkwJTI2bXNjbGtpZCUzZDVmYzhjNGQwM2E2NTEyOGFjN2JjYWU4ZmZiZjIzY2RiJTI2dXRtX3NvdXJjZSUzZGJpbmclMjZ1dG1fbWVkaXVtJTNkY3BjJTI2dXRtX2NhbXBhaWduJTNkR2VuJTI1N0NDYXIlMjUyMFJlbnRhbCUyNTdDUm9vdCUyNTdDRGVza3RvcCUyNTdDTm9uQXVkJTI1N0NBc2lhJTI2dXRtX3Rlcm0lM2RjYXIlMjUyMHJlbnRhbCUyNTIwd2Vic2l0ZXMlMjZ1dG1fY29udGVudCUzZENhciUyNTIwUmVudGFsJTI1N0NSb290JTI1N0NTaXRlcyUyNTdDRXhhY3Q&rlid=5fc8c4d03a65128ac7bcae8ffbf23cdb",
+          "snippet": "Save up to 40% on Rental Cars. 18,500+ Rental Locations Worldwide! Compare and Save on a Wide Variety of Cars from Top Brands. Book Now! Save Big w/ Express Deals \u00b7 Our Bundles Save You More \u00b7 Exclusi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Car Rental Deals with Free Cancellation, Compare & Save!",
+          "link": "https://www.bing.com/aclick?ld=e8YYcOQF7tWlIuMHlwsWk1GjVUCUwnWhk3iH0jfRcJAWABRVfSR052KJ_iFScH-qHnpkLfg0qKWz8HUbWIlotMTz-o8Xe50vJnR_VA9eHUI8rtq7S2MXnQzqQosL9F-SadRBSQ0zza0WdQ2IRy-PBz4rbaLxoZgzlfMT26PMFqj9Y_kw1NVTBuqE_ltzVdXXanrU8v4ctbmhrvNDfbUK3vXaShUyc&u=aHR0cHMlM2ElMmYlMmZ3d3cuZGlzY292ZXJjYXJzLmNvbSUyZnBhcnRuZXJzJTJmbmF0aW9uYWwtMzYxNzcwJTNma2V5d29yZCUzZFNVUFBMSUVSJTI2bmV0d29yayUzZG8lMjZtc2Nsa2lkJTNkMGNjZjI4ZjBkNGMxMTNlMmE2MTM0MmFmMTU1NjgyNTclMjZ1dG1fc291cmNlJTNkYmluZyUyNnV0bV9tZWRpdW0lM2RjcGMlMjZ1dG1fY2FtcGFpZ24lM2RST0FTZHQlMjUyMER5bmFtaWMlMjUyMFBhcnRuZXJzJTI1MjBGZWVkJTI1MjAoYWxsLWQpJTI1MjBFTiUyNnV0bV90ZXJtJTNkU1VQUExJRVIlMjZ1dG1fY29udGVudCUzZFBhcnRuZXIlMjUyMExpbmtzJTI1MjBmcm9tJTI1MjBGZWVkJTI1MjBDUEFkdCUyNTIwRHluYW1pYyUyNTIwQWxsJTI1MjAoYWxsLWQpJTI1MjBFTg&rlid=0ccf28f0d4c113e2a61342af15568257",
+          "snippet": "Car rental prices are rising, but if you act fast, you can get a good deal! Book with confidence \u2013 Best price guarantee and Free cancellation policy",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rentals from Avis | Book Online & Save Now",
+          "link": "https://www.avis.com/en/home",
+          "snippet": "Reserve your next car rental online with Avis and save. A large selection of vehicles available & with the Avis Signature Series you can travel in style.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rental with Great Rates & Service | Enterprise Rent-A-Car",
+          "link": "https://www.enterprise.com/en/home.html",
+          "snippet": "Enjoy easy booking with thousands of airport and city locations near you. Lock in great rates when you book a rental car with Enterprise.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Discount car rental rates and rental car deals | Budget Car ...",
+          "link": "https://www.budget.com/en/home",
+          "snippet": "Budget offers reliable car rentals at low rates. Easily book a sedan, SUV, truck, or EV for your next trip. Get started today!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rental with the Best Prices | Rentcars",
+          "link": "https://www.rentcars.com/en/",
+          "snippet": "Jul 22, 2026 \u00b7 Rent a car and save up to 30%! Compare rates from over 350 car rental companies in 160 countries and find the best deals with Rentcars.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Find & Book Car Rental Deals - KAYAK",
+          "link": "https://www.kayak.co.in/cars",
+          "snippet": "KAYAK searches hundreds of other travel sites at once to find your ideal self drive car hire. Find the car rental you want and you could save up to 35%.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Find the best car rental deals - Skyscanner",
+          "link": "https://www.skyscanner.co.in/carhire",
+          "snippet": "Popular car rental destinations \u00b7 Find a cheap car hire deal near you \u00b7 Your trusted car hire companies, all in one place \u00b7 Hire a car with confidence \u00b7 The best ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "MyChoize: Self-Drive Car Rental | Rent a Car @ 25% off",
+          "link": "https://www.mychoize.com/",
+          "snippet": "Rent a Self-Drive car for daily, weekly or monthly with MyChoize \u2713 Car hire @ 25% Off \u2713 Get \u20b95000 Off on Car Subscription \u2713 Best deals \u2713 Doorstep Delivery.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Avis India: Best Luxury Car Rentals & Chauffeur Driven Cars in India",
+          "link": "https://www.avis.co.in/",
+          "snippet": "Book luxury car rental & chauffeur driven services in India. Plan your journey today with reliable & comfortable vehicles by Avis India.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Book Hourly Car Rental & Save Upto \u20b9200 Off - MakeMyTrip",
+          "link": "https://www.makemytrip.com/car-rental/",
+          "snippet": "Visit the MakeMyTrip website and log in to avail of great discounts and offers. \u00b7 Click on Cabs to start the booking process for car rentals. \u00b7 Select the type of ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Europcar: Car Rental - Rent a Car & Van Worldwide",
+          "link": "https://www.europcar.com/en-in",
+          "snippet": "... Favourites 2019 (for Germany, France and Spain). award-travel. World's Leading Car Rental Company Website. KAYAK 2020 Best Cleanliness. Europcar linkedin.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "All Car Rental Brands - CarFlexi",
+          "link": "https://www.carflexi.com/en-us/all-car-rental-brands",
+          "snippet": "CarFlexi is directly connected with all leading car rental companies as Alamo, Budget, Enterprise, Europcar, National, Thrifty, Payless, Hertz, Dollar and SIXT.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "hertz.com",
+          "link": "https://www.hertz.com/",
+          "snippet": "Visiter le site Web de Hertz Car Rental.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "car rental service providers corporate sites",
+      "level": "L1",
+      "result_count": 16,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "India's Best Corporate Car-Rental Company | Rego",
+          "link": "https://www.rego.co.in/",
+          "snippet": "Rego is a trusted provider of employee transportation services (ETS) in India, delivering safe, reliable, and efficient commute solutions. With 22+ years of experience, it operates in 295+ cities, ser",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Corporate Car Rental Solutions | Business Vehicle Hire",
+          "link": "https://www.perk.com/travel-solutions/corporate-car-rental/",
+          "snippet": "Perk's platform makes business travel car rental smooth and easy. We have partnered with leading providers for competitive prices guaranteed. Together with our best-in-class features, we save you time",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Corporate Car Rental Solutions | Zezgo Business Account Services",
+          "link": "https://www.zezgo.com/corporate",
+          "snippet": "Zezgo offers flexible and cost-effective car rental solutions for corporate clients and business travelers. Open a corporate account today and enjoy dedicated support, discounted rates, and global veh",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Business Car Rental | Enterprise Rent-A-Car",
+          "link": "https://www.enterprise.com/en/business-car-rental.html",
+          "snippet": "Rent with confidence with Enterprise's Complete Clean Pledge. Find an airport or neighborhood car rental location near you and hit the road!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Business Car Rental | Corporate Car Rental Solutions with SIXT",
+          "link": "https://www.sixt.com/business/car-rental/",
+          "snippet": "Flexible company car rental program for maximum flexibility If you need a last-minute rental car, you can always count on SIXT's business car rental solutions. Book for days or weeks in case of a busi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "B2B Car Rental & Mobility Solutions for the Travel Industry - CarTrawler",
+          "link": "https://corporate.cartrawler.com/",
+          "snippet": "The Human Traveltech Company CarTrawler is a leading B2B technology provider of car rental, ground transport and insurtech solutions to the global travel industry, fusing human ingenuity with technolo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Corporate | Budget Car Rental",
+          "link": "https://www.budget.com/en/products-services/services/group-rental/corporate",
+          "snippet": "Let Avis Production Program handle all the car rental needs of your cast and crew",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Fast & Convenient Car Rental at 1,500+ Locations | National Car Rental",
+          "link": "https://www.nationalcar.com/",
+          "snippet": "Join Emerald Club and enjoy exclusive benefits including counter bypass, choose your own car and earn rewards towards free rental days (select locations).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Find cheap rental car deals | Priceline",
+          "link": "https://www.priceline.com/rental-cars",
+          "snippet": "Search car rentals. Find the best car rental deals. Drop-off location is the same.Why use Priceline? Trusted by 8 million travelers. Great deals from our rental car suppliers. Free cancellation on mos",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Garenta Car Rental & Rent A Car",
+          "link": "https://www.garenta.com/",
+          "snippet": "What is Corporate Car Rental? You have the flexibility to rent a car on a daily, monthly, or long-term basis, with contracts that can be issued on behalf of legal entities. What are the Advantages of ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Hire in the UK, Europe & Worldwide | Avis Car Rental",
+          "link": "https://www.avis.co.uk/",
+          "snippet": "With 5,500+ car hire locations worldwide across 170 countries, Avis has a car for every occasion. Join Avis Preferred for free and get 10% off every European booking.10% discount, priority service and",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Car Rental Deals with Free Cancellation... | Discover Cars",
+          "link": "https://www.discovercars.com/",
+          "snippet": "The most-visited car rental comparison website, recognized with multiple industry awards. World Travel Tech Awards - World's Best Car Rental Booking Website 2025.I rented a car from EcoRent through Di",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Turo car rental marketplace | Car rentals, reimagined",
+          "link": "https://turo.com/",
+          "snippet": "Skip the car rental counter and rent anything from daily drivers to pickup trucks, from trusted, local hosts on the Turo car rental marketplace.Luxury car rental at Newark (EWR) airport. Average daily",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "All-inclusive car rental \u00b7 Sunny Cars",
+          "link": "https://www.sunnycars.com/",
+          "snippet": "All-inclusive car rental? Book your rental car at Sunny Cars for a carefree car rental in more than 120 countries worldwide.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "hertz.com",
+          "link": "https://www.hertz.com/",
+          "snippet": "Most valuable Corporate Car Rental Review: Pros and Cons 2023 (4).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Phuket International Airport | HKT",
+          "link": "https://phuket.airportthai.co.th/?lang=en",
+          "snippet": "Car Rental Services at Phuket Airport. Car Rental Services at Phuket Airport For passengers arriving at Phuket Airport who wish to travel into the city or continue their journey while maintaining priv",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "India's Best Corporate Car-Rental Company | Rego",
+          "link": "https://www.rego.co.in/",
+          "snippet": "Rego is a trusted provider of employee transportation services (ETS) in India, delivering safe, reliable, and efficient commute solutions. With 22+ years of experience, it operates in 295+ cities, ser",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Corporate Car Rental Solutions | Business Vehicle Hire",
+          "link": "https://www.perk.com/travel-solutions/corporate-car-rental/",
+          "snippet": "Perk's platform makes business travel car rental smooth and easy. We have partnered with leading providers for competitive prices guaranteed. Together with our best-in-class features, we save you time",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Corporate Car Rental Solutions | Zezgo Business Account Services",
+          "link": "https://www.zezgo.com/corporate",
+          "snippet": "Zezgo offers flexible and cost-effective car rental solutions for corporate clients and business travelers. Open a corporate account today and enjoy dedicated support, discounted rates, and global veh",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Business Car Rental | Enterprise Rent-A-Car",
+          "link": "https://www.enterprise.com/en/business-car-rental.html",
+          "snippet": "Rent with confidence with Enterprise's Complete Clean Pledge. Find an airport or neighborhood car rental location near you and hit the road!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Business Car Rental | Corporate Car Rental Solutions with SIXT",
+          "link": "https://www.sixt.com/business/car-rental/",
+          "snippet": "Flexible company car rental program for maximum flexibility If you need a last-minute rental car, you can always count on SIXT's business car rental solutions. Book for days or weeks in case of a busi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "B2B Car Rental & Mobility Solutions for the Travel Industry - CarTrawler",
+          "link": "https://corporate.cartrawler.com/",
+          "snippet": "The Human Traveltech Company CarTrawler is a leading B2B technology provider of car rental, ground transport and insurtech solutions to the global travel industry, fusing human ingenuity with technolo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Corporate | Budget Car Rental",
+          "link": "https://www.budget.com/en/products-services/services/group-rental/corporate",
+          "snippet": "Let Avis Production Program handle all the car rental needs of your cast and crew",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Fast & Convenient Car Rental at 1,500+ Locations | National Car Rental",
+          "link": "https://www.nationalcar.com/",
+          "snippet": "Join Emerald Club and enjoy exclusive benefits including counter bypass, choose your own car and earn rewards towards free rental days (select locations).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Find cheap rental car deals | Priceline",
+          "link": "https://www.priceline.com/rental-cars",
+          "snippet": "Search car rentals. Find the best car rental deals. Drop-off location is the same.Why use Priceline? Trusted by 8 million travelers. Great deals from our rental car suppliers. Free cancellation on mos",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Garenta Car Rental & Rent A Car",
+          "link": "https://www.garenta.com/",
+          "snippet": "What is Corporate Car Rental? You have the flexibility to rent a car on a daily, monthly, or long-term basis, with contracts that can be issued on behalf of legal entities. What are the Advantages of ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Hire in the UK, Europe & Worldwide | Avis Car Rental",
+          "link": "https://www.avis.co.uk/",
+          "snippet": "With 5,500+ car hire locations worldwide across 170 countries, Avis has a car for every occasion. Join Avis Preferred for free and get 10% off every European booking.10% discount, priority service and",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Car Rental Deals with Free Cancellation... | Discover Cars",
+          "link": "https://www.discovercars.com/",
+          "snippet": "The most-visited car rental comparison website, recognized with multiple industry awards. World Travel Tech Awards - World's Best Car Rental Booking Website 2025.I rented a car from EcoRent through Di",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Turo car rental marketplace | Car rentals, reimagined",
+          "link": "https://turo.com/",
+          "snippet": "Skip the car rental counter and rent anything from daily drivers to pickup trucks, from trusted, local hosts on the Turo car rental marketplace.Luxury car rental at Newark (EWR) airport. Average daily",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "All-inclusive car rental \u00b7 Sunny Cars",
+          "link": "https://www.sunnycars.com/",
+          "snippet": "All-inclusive car rental? Book your rental car at Sunny Cars for a carefree car rental in more than 120 countries worldwide.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "hertz.com",
+          "link": "https://www.hertz.com/",
+          "snippet": "Most valuable Corporate Car Rental Review: Pros and Cons 2023 (4).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Phuket International Airport | HKT",
+          "link": "https://phuket.airportthai.co.th/?lang=en",
+          "snippet": "Car Rental Services at Phuket Airport. Car Rental Services at Phuket Airport For passengers arriving at Phuket Airport who wish to travel into the city or continue their journey while maintaining priv",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "car rental distributors official site",
+      "level": "L2",
+      "result_count": 11,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Car Rental with Great Rates & Service | Enterprise Rent-A-Car",
+          "link": "https://www.enterprise.com/en/home.html",
+          "snippet": "Enjoy easy booking with thousands of airport and city locations near you. Lock in great rates when you book a rental car with Enterprise.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Revv - Car Rental, Self-Drive & Subscription Services",
+          "link": "https://www.revv.co.in/",
+          "snippet": "Compare & book affordable car rentals, self-drive cars & subscriptions across India. Doorstep delivery, 24/7 support, transparent pricing. Reserve now!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rental in Pune - Affordable & Reliable Car Hire @15% Discount - Revv",
+          "link": "https://www.revv.co.in/car-rental/pune",
+          "snippet": "Looking for hassle-free car rental in Pune? Explore Revv's full range of car rental services offering well-maintained cars, flexible pricing and self-drive options. Enjoy reliable cars with doorstep d",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Turo car rental marketplace | Car rentals, reimagined",
+          "link": "https://turo.com/",
+          "snippet": "Skip the car rental counter and rent anything from daily drivers to pickup trucks, from trusted, local hosts on the Turo car rental marketplace.Luxury car rental at Newark (EWR) airport. Average daily",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Fast & Convenient Car Rental at 1,500+ Locations | National Car Rental",
+          "link": "https://www.nationalcar.com/",
+          "snippet": "Join Emerald Club and enjoy exclusive benefits including counter bypass, choose your own car and earn rewards towards free rental days (select locations).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car rental in Europe, Asia and Africa \u2014 Localrent.com",
+          "link": "https://www.localrent.com/en/",
+          "snippet": "A wide selection of cars from local distributors, full pricing transparency, low deposits and round-the-clock support on the road.Car rental terms and conditions are clear and easy to understand. Very",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Deals on Car Rentals | Save with Thrifty",
+          "link": "https://www.thrifty.com/",
+          "snippet": "Reserve a rental car online and save time and money! With great car rental deals, and convenient pickup and drop-off locations, you'll find the absolute best rental car for your money.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "UK Car Hire | Save Up to 20% | Drivalia Car Rental",
+          "link": "https://drivalia.co.uk/",
+          "snippet": "Drivalia offers unbeatable car rental deals with top service. Rent a car today and enjoy hassle-free travel at the best prices!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rental Gateway in car rental - Car Rental and Mobility Tech...",
+          "link": "https://www.carrentalgateway.com/glossary/car-rental-gateway/",
+          "snippet": "Car Rental Gateway offers smooth car-rental distribution, with localised and unified translated supplier content in 25 languages. It provides direct online connectivity to more than 200 car-rental sup",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cars Scanner - Compare car rental deals worldwide",
+          "link": "https://cars-scanner.com/",
+          "snippet": "Compare car rental deals from trusted suppliers and save up to 70%. Free cancellation, newer models, and flexible pickup options worldwide.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sea Hawk Travels | Corporate Transportation Services in India",
+          "link": "https://seahawktravels.in/",
+          "snippet": "Sea Hawk Travels offers corporate car rentals, employee transport, luxury rentals, electric vehicles & fleet management across India. Get a quote today!",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Car Rental with Great Rates & Service | Enterprise Rent-A-Car",
+          "link": "https://www.enterprise.com/en/home.html",
+          "snippet": "Enjoy easy booking with thousands of airport and city locations near you. Lock in great rates when you book a rental car with Enterprise.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Revv - Car Rental, Self-Drive & Subscription Services",
+          "link": "https://www.revv.co.in/",
+          "snippet": "Compare & book affordable car rentals, self-drive cars & subscriptions across India. Doorstep delivery, 24/7 support, transparent pricing. Reserve now!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rental in Pune - Affordable & Reliable Car Hire @15% Discount - Revv",
+          "link": "https://www.revv.co.in/car-rental/pune",
+          "snippet": "Looking for hassle-free car rental in Pune? Explore Revv's full range of car rental services offering well-maintained cars, flexible pricing and self-drive options. Enjoy reliable cars with doorstep d",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Turo car rental marketplace | Car rentals, reimagined",
+          "link": "https://turo.com/",
+          "snippet": "Skip the car rental counter and rent anything from daily drivers to pickup trucks, from trusted, local hosts on the Turo car rental marketplace.Luxury car rental at Newark (EWR) airport. Average daily",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Fast & Convenient Car Rental at 1,500+ Locations | National Car Rental",
+          "link": "https://www.nationalcar.com/",
+          "snippet": "Join Emerald Club and enjoy exclusive benefits including counter bypass, choose your own car and earn rewards towards free rental days (select locations).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car rental in Europe, Asia and Africa \u2014 Localrent.com",
+          "link": "https://www.localrent.com/en/",
+          "snippet": "A wide selection of cars from local distributors, full pricing transparency, low deposits and round-the-clock support on the road.Car rental terms and conditions are clear and easy to understand. Very",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Deals on Car Rentals | Save with Thrifty",
+          "link": "https://www.thrifty.com/",
+          "snippet": "Reserve a rental car online and save time and money! With great car rental deals, and convenient pickup and drop-off locations, you'll find the absolute best rental car for your money.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "UK Car Hire | Save Up to 20% | Drivalia Car Rental",
+          "link": "https://drivalia.co.uk/",
+          "snippet": "Drivalia offers unbeatable car rental deals with top service. Rent a car today and enjoy hassle-free travel at the best prices!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rental Gateway in car rental - Car Rental and Mobility Tech...",
+          "link": "https://www.carrentalgateway.com/glossary/car-rental-gateway/",
+          "snippet": "Car Rental Gateway offers smooth car-rental distribution, with localised and unified translated supplier content in 25 languages. It provides direct online connectivity to more than 200 car-rental sup",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cars Scanner - Compare car rental deals worldwide",
+          "link": "https://cars-scanner.com/",
+          "snippet": "Compare car rental deals from trusted suppliers and save up to 70%. Free cancellation, newer models, and flexible pickup options worldwide.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sea Hawk Travels | Corporate Transportation Services in India",
+          "link": "https://seahawktravels.in/",
+          "snippet": "Sea Hawk Travels offers corporate car rentals, employee transport, luxury rentals, electric vehicles & fleet management across India. Get a quote today!",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "car rental vehicle distributors official site",
+      "level": "discovery",
+      "result_count": 22,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Car Rental with Great Rates & Service | Enterprise Rent-A-Car",
+          "link": "https://www.enterprise.com/en/home.html",
+          "snippet": "Enjoy easy booking with thousands of airport and city locations near you. Lock in great rates when you book a rental car with Enterprise.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "International Car Rental | Enterprise Rent-A-Car",
+          "link": "https://www.enterprise.com/en/car-rental-locations.html",
+          "snippet": "Book a car rental at any of our international airport and city locations. Whether home or away, get great rates and exceptional service with Enterprise.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Rent a Car | Reserve Now Online",
+          "link": "https://www.hertz.com/us/en/vehicles/cars",
+          "snippet": "Hertz offers a wide variety of cars in our rental car fleet, ensuring there's something for every need and occasion. Explore our car rental classes to find the ideal fit for your journey. Whether you'",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rentals from Avis | Book Online & Save Now",
+          "link": "https://www.avis.com/en/home",
+          "snippet": "Reserve your next car rental online with Avis and save. A large selection of vehicles available & with the Avis Signature Series you can travel in style.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Find cheap rental car deals | Priceline",
+          "link": "https://www.priceline.com/rental-cars",
+          "snippet": "Search car rentals. Find the best car rental deals. Drop-off location is the same.Trusted by 8 million travelers. Great deals from our rental car suppliers. Free cancellation on most bookings. No cred",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rental with Great Rates & Service | Enterprise Rent-A-Car",
+          "link": "https://www.enterprise.com/",
+          "snippet": "All International Car Rental Locations.Vehicles For Rent. Cars, SUVs, Trucks & Vans.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Europcar: Rental Cars - Car Rental & Van Rental",
+          "link": "https://www.europcar.com/",
+          "snippet": "Car rental and van rental worldwide. Discover very exciting offers and book online to save money with our convenient and hassle free booking. Find out more!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cheap Car Hire, Compare Rental Prices - Rentalcars.com",
+          "link": "https://www.rentalcars.com/en/",
+          "snippet": "Compare car hire deals and find the cheapest prices in more than 60,000 locations worldwide. Book online today with the world's biggest online car rental service.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Fast & Convenient Car Rental at 1,500+ Locations | National Car Rental",
+          "link": "https://www.nationalcar.com/",
+          "snippet": "All Vehicles. Cars.Enjoy Speed, Choice & Total Control. The Emerald Club is designed to make your car rental experience faster and more convenient. You can enjoy special privileges reserved for freque",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Discount car rental rates and rental car deals | Budget Car Rental",
+          "link": "https://www.budget.com/",
+          "snippet": "Car rental rates found on an auction or wholesale websites which do not display the name of the car rental company until after purchase, do not qualify. Car rental rates obtained from a website that r",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rentals: Find Cheap Car Rentals & Rental Car Deals - KAYAK",
+          "link": "https://www.kayak.com/cars",
+          "snippet": "KAYAK searches for rental car deals on hundreds of car rental sites to help you find the cheapest car rental.KAYAK compares rental car prices from all major car rental companies such as Thrifty, Dolla",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Turo car rental marketplace | Car rentals, reimagined",
+          "link": "https://turo.com/",
+          "snippet": "Skip the car rental counter and rent anything from daily drivers to pickup trucks, from trusted, local hosts on the Turo car rental marketplace.Luxury car rental at Newark (EWR) airport. Average daily",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Compare Cheap Car Rental from $42 per day | Skyscanner",
+          "link": "https://www.skyscanner.com/car-rental",
+          "snippet": "Find the best car rental deals from trusted providers in over 18,000 locations worldwide with Skyscanner. Compare prices and book your car rental today.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Revv - Car Rental, Self-Drive & Subscription Services",
+          "link": "https://www.revv.co.in/",
+          "snippet": "Compare & book affordable car rentals, self-drive cars & subscriptions across India. Doorstep delivery, 24/7 support, transparent pricing. Reserve now!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Zoomcar Self Drive Car Rentals in India | Book Online",
+          "link": "https://www.zoomcar.com/",
+          "snippet": "Top cars in City \u00b7 How to book a car on Zoomcar \u00b7 Why Zoomcar? \u00b7 Top Categories \u00b7 Zoom around all over India \u00b7 Planning Your Car Rental? Check Our FAQs \u00b7 Car Rental ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "MyChoize: Self-Drive Car Rental | Rent a Car @ 25% off",
+          "link": "https://www.mychoize.com/",
+          "snippet": "MyChoize is an endeavour to provide Indian users with the best self-drive cars using the Best in World Japanese Service and Technology but at Indian Prices.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rental India | Self Drive & Chauffeur-Driven - TransRentals",
+          "link": "https://transrentals.in/car-rental",
+          "snippet": "Rent cars across India at the best prices. Self-drive cars, chauffeur-driven sedans, SUVs, and hatchbacks available in 250+ cities.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rental Services in Hyderabad - IndiaMART",
+          "link": "https://dir.indiamart.com/hyderabad/car-rental.html",
+          "snippet": "We provide premium 12 Seater and 16 Seater Force Urbania luxury vehicle rentals for outstation travel across India, starting from Hyderabad. Our Urbania ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "List of Car Rentals in Chennai (Tamil Nadu) - D7 Lead Finder",
+          "link": "https://d7leadfinder.com/app/view-leads/42486764/",
+          "snippet": "Name, Phone, Email Address, Reviews, Ads, Category. Fly self driven cars, 9193314xxxx1, flycar50818ef5f467l.com. Register to View. 4.7 (214), Car Rental ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rental Services In Hyderabad (Secunderabad) - Tradeindia",
+          "link": "https://www.tradeindia.com/hyderabad/car-rental-services-city-196467.html",
+          "snippet": "Car Rental Service - Premium Commercial Vehicle Hiring Pan India Offline Travel Solutions. Get Latest Price. Business Type:Service Provider. Air Conditioning ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rental Suppliers - CarTrawler",
+          "link": "https://corporate.cartrawler.com/en-gb/who-we-work-with/car-rental-suppliers/",
+          "snippet": "Our global network of car rental suppliers enjoy access to more customers in more locations than any other provider, thanks to our partnership with over 70 ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Supplier Onboarding Inquiry",
+          "link": "https://marketplace.rentalcars.com/",
+          "snippet": "Website Address The URL of your business's primary car rental website. ... Can I register / list vans, trucks or industrial vehicles? No. We do not list ...",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Car Rental with Great Rates & Service | Enterprise Rent-A-Car",
+          "link": "https://www.enterprise.com/en/home.html",
+          "snippet": "Enjoy easy booking with thousands of airport and city locations near you. Lock in great rates when you book a rental car with Enterprise.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "International Car Rental | Enterprise Rent-A-Car",
+          "link": "https://www.enterprise.com/en/car-rental-locations.html",
+          "snippet": "Book a car rental at any of our international airport and city locations. Whether home or away, get great rates and exceptional service with Enterprise.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Rent a Car | Reserve Now Online",
+          "link": "https://www.hertz.com/us/en/vehicles/cars",
+          "snippet": "Hertz offers a wide variety of cars in our rental car fleet, ensuring there's something for every need and occasion. Explore our car rental classes to find the ideal fit for your journey. Whether you'",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rentals from Avis | Book Online & Save Now",
+          "link": "https://www.avis.com/en/home",
+          "snippet": "Reserve your next car rental online with Avis and save. A large selection of vehicles available & with the Avis Signature Series you can travel in style.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Find cheap rental car deals | Priceline",
+          "link": "https://www.priceline.com/rental-cars",
+          "snippet": "Search car rentals. Find the best car rental deals. Drop-off location is the same.Trusted by 8 million travelers. Great deals from our rental car suppliers. Free cancellation on most bookings. No cred",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rental with Great Rates & Service | Enterprise Rent-A-Car",
+          "link": "https://www.enterprise.com/",
+          "snippet": "All International Car Rental Locations.Vehicles For Rent. Cars, SUVs, Trucks & Vans.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Europcar: Rental Cars - Car Rental & Van Rental",
+          "link": "https://www.europcar.com/",
+          "snippet": "Car rental and van rental worldwide. Discover very exciting offers and book online to save money with our convenient and hassle free booking. Find out more!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cheap Car Hire, Compare Rental Prices - Rentalcars.com",
+          "link": "https://www.rentalcars.com/en/",
+          "snippet": "Compare car hire deals and find the cheapest prices in more than 60,000 locations worldwide. Book online today with the world's biggest online car rental service.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Fast & Convenient Car Rental at 1,500+ Locations | National Car Rental",
+          "link": "https://www.nationalcar.com/",
+          "snippet": "All Vehicles. Cars.Enjoy Speed, Choice & Total Control. The Emerald Club is designed to make your car rental experience faster and more convenient. You can enjoy special privileges reserved for freque",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Discount car rental rates and rental car deals | Budget Car Rental",
+          "link": "https://www.budget.com/",
+          "snippet": "Car rental rates found on an auction or wholesale websites which do not display the name of the car rental company until after purchase, do not qualify. Car rental rates obtained from a website that r",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rentals: Find Cheap Car Rentals & Rental Car Deals - KAYAK",
+          "link": "https://www.kayak.com/cars",
+          "snippet": "KAYAK searches for rental car deals on hundreds of car rental sites to help you find the cheapest car rental.KAYAK compares rental car prices from all major car rental companies such as Thrifty, Dolla",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Turo car rental marketplace | Car rentals, reimagined",
+          "link": "https://turo.com/",
+          "snippet": "Skip the car rental counter and rent anything from daily drivers to pickup trucks, from trusted, local hosts on the Turo car rental marketplace.Luxury car rental at Newark (EWR) airport. Average daily",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Compare Cheap Car Rental from $42 per day | Skyscanner",
+          "link": "https://www.skyscanner.com/car-rental",
+          "snippet": "Find the best car rental deals from trusted providers in over 18,000 locations worldwide with Skyscanner. Compare prices and book your car rental today.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Revv - Car Rental, Self-Drive & Subscription Services",
+          "link": "https://www.revv.co.in/",
+          "snippet": "Compare & book affordable car rentals, self-drive cars & subscriptions across India. Doorstep delivery, 24/7 support, transparent pricing. Reserve now!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Zoomcar Self Drive Car Rentals in India | Book Online",
+          "link": "https://www.zoomcar.com/",
+          "snippet": "Top cars in City \u00b7 How to book a car on Zoomcar \u00b7 Why Zoomcar? \u00b7 Top Categories \u00b7 Zoom around all over India \u00b7 Planning Your Car Rental? Check Our FAQs \u00b7 Car Rental ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "MyChoize: Self-Drive Car Rental | Rent a Car @ 25% off",
+          "link": "https://www.mychoize.com/",
+          "snippet": "MyChoize is an endeavour to provide Indian users with the best self-drive cars using the Best in World Japanese Service and Technology but at Indian Prices.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rental India | Self Drive & Chauffeur-Driven - TransRentals",
+          "link": "https://transrentals.in/car-rental",
+          "snippet": "Rent cars across India at the best prices. Self-drive cars, chauffeur-driven sedans, SUVs, and hatchbacks available in 250+ cities.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rental Services in Hyderabad - IndiaMART",
+          "link": "https://dir.indiamart.com/hyderabad/car-rental.html",
+          "snippet": "We provide premium 12 Seater and 16 Seater Force Urbania luxury vehicle rentals for outstation travel across India, starting from Hyderabad. Our Urbania ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "List of Car Rentals in Chennai (Tamil Nadu) - D7 Lead Finder",
+          "link": "https://d7leadfinder.com/app/view-leads/42486764/",
+          "snippet": "Name, Phone, Email Address, Reviews, Ads, Category. Fly self driven cars, 9193314xxxx1, flycar50818ef5f467l.com. Register to View. 4.7 (214), Car Rental ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rental Services In Hyderabad (Secunderabad) - Tradeindia",
+          "link": "https://www.tradeindia.com/hyderabad/car-rental-services-city-196467.html",
+          "snippet": "Car Rental Service - Premium Commercial Vehicle Hiring Pan India Offline Travel Solutions. Get Latest Price. Business Type:Service Provider. Air Conditioning ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rental Suppliers - CarTrawler",
+          "link": "https://corporate.cartrawler.com/en-gb/who-we-work-with/car-rental-suppliers/",
+          "snippet": "Our global network of car rental suppliers enjoy access to more customers in more locations than any other provider, thanks to our partnership with over 70 ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Supplier Onboarding Inquiry",
+          "link": "https://marketplace.rentalcars.com/",
+          "snippet": "Website Address The URL of your business's primary car rental website. ... Can I register / list vans, trucks or industrial vehicles? No. We do not list ...",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P2": {
+      "query": "car rental wholesalers corporate headquarters",
+      "level": "discovery",
+      "result_count": 16,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Fast & Convenient Car Rental at 1,500+ Locations | National Car Rental",
+          "link": "https://www.nationalcar.com/",
+          "snippet": "Join Emerald Club and enjoy exclusive benefits including counter bypass, choose your own car and earn rewards towards free rental days (select locations).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rental Wholesaler | B2B companies and suppliers | europages",
+          "link": "https://www.europages.co.uk/companies/wholesaler/car-rental.html",
+          "snippet": "232 suppliers for Car Rental Wholesaler Find wholesalers and contact them directly B2B martketplace Find companies now! We create custom carpets for offices, businesses, industries, car dealerships, g",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "B2B Portal for Travel agents, Hoteliers, Suppliers and Wholesalers",
+          "link": "https://www.tboholidays.com/",
+          "snippet": "TBO helps travel agencies do their business better. We are a top global travel distribution platform, simplifying business for suppliers like hotels, airlines, and car rentals, and buyers such as trav",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "UK Car Hire | Save Up to 20% | Drivalia Car Rental",
+          "link": "https://drivalia.co.uk/",
+          "snippet": "Save up to 20% on UK car hire! Drivalia offers unbeatable car rental deals with top service.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car rental in Europe, Asia and Africa \u2014 Localrent.com",
+          "link": "https://www.localrent.com/en/",
+          "snippet": "We rented a car in Tbilisi. The car was delivered to the airport.We rented a Seat Cordoba for 5 days, and I should say the car was excellent, the car rental was comfortable with a deposit of only \u20ac250",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Deals on Car Rentals | Save with Thrifty",
+          "link": "https://www.thrifty.com/",
+          "snippet": "Reserve a rental car online and save time and money! With great car rental deals, and convenient pickup and drop-off locations, you'll find the absolute best rental car for your money.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "usa car rental list - usa car rental for sale",
+          "link": "https://www.enlightcorp.com/sale-usa-car-rental",
+          "snippet": "All usa car rental wholesalers & usa car rental manufacturers come from members.Quality Suitable For Online Car Rental Solar Electric Car Solar 2 Rang Up To 550Km for sale.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Contact Us - National Car Rental",
+          "link": "https://www.nationalcar.com/en/support/contact-us.html",
+          "snippet": "Founded in 1947, National has grown from 60 locations in the U.S. to a global car rental company servicing the needs of business travelers in over 1,500 locations worldwide.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "B2B Car Rental & Mobility Solutions for the Travel Industry - CarTrawler",
+          "link": "https://corporate.cartrawler.com/",
+          "snippet": "CarTrawler is the world's leading B2B technology platform, connecting customers and travel companies to car rental and mobility solutions globally.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "National Car Rental Company Overview, Contact Details ... - LeadIQ",
+          "link": "https://leadiq.com/c/national-car-rental/5a1d95a22300005200844f3f",
+          "snippet": "Learn more about National Car Rental's company details, contact information, competitors, and more. Find accurate contact data easily with LeadIQ. Book a demo today.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Fast & Convenient Car Rental at 1,500+ Locations",
+          "link": "https://www.nationalcar.com/en/home.html",
+          "snippet": "Join Emerald Club and enjoy exclusive benefits including counter bypass, choose your own car and earn rewards towards free rental days (select locations).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "National Car Rental - Company Profile & Staff Directory | ContactOut",
+          "link": "https://contactout.com/company/National-Car-Rental-28080",
+          "snippet": "National Car Rental is a Travel Arrangements company located in 600 Corporate Park Dr, St Louis, Missouri 63105, US with 961 employees. Access National Car Rental's email format and staff directory fo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "N\u00dc Car Rentals",
+          "link": "https://nucarrentals.com/",
+          "snippet": "N\u00dc Car Rentals provides a wide selection of quality vehicles for your leisure or business car rental needs from economy and compact cars, to convertibles, SUVs, and minivans as well as luxury cars and",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Contact \u2014 N\u00dc Car Rentals",
+          "link": "https://nucarrentals.com/contact",
+          "snippet": "Companies within our corporate family We may share your personal information with our parent company and corporate affiliates, including EasyReservations.com and DriveRentalCars.com. This sharing enab",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "hertz.com",
+          "link": "https://www.hertz.com/",
+          "snippet": "Most valuable Corporate Car Rental Review: Pros and Cons 2023 (4).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Hertz Corporation - Investor Relations",
+          "link": "https://www.hertz.com/rentacar/abouthertz/index.jsp?c=CorporateProfile&targetPage=CorporateProfile.jsp",
+          "snippet": "Corporate Overview Hertz Global Holdings, Inc. is one of the world's leading car rental and mobility solutions providers. Its subsidiaries, including The Hertz Corporation, and licensees operate the H",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Fast & Convenient Car Rental at 1,500+ Locations | National Car Rental",
+          "link": "https://www.nationalcar.com/",
+          "snippet": "Join Emerald Club and enjoy exclusive benefits including counter bypass, choose your own car and earn rewards towards free rental days (select locations).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rental Wholesaler | B2B companies and suppliers | europages",
+          "link": "https://www.europages.co.uk/companies/wholesaler/car-rental.html",
+          "snippet": "232 suppliers for Car Rental Wholesaler Find wholesalers and contact them directly B2B martketplace Find companies now! We create custom carpets for offices, businesses, industries, car dealerships, g",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "B2B Portal for Travel agents, Hoteliers, Suppliers and Wholesalers",
+          "link": "https://www.tboholidays.com/",
+          "snippet": "TBO helps travel agencies do their business better. We are a top global travel distribution platform, simplifying business for suppliers like hotels, airlines, and car rentals, and buyers such as trav",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "UK Car Hire | Save Up to 20% | Drivalia Car Rental",
+          "link": "https://drivalia.co.uk/",
+          "snippet": "Save up to 20% on UK car hire! Drivalia offers unbeatable car rental deals with top service.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car rental in Europe, Asia and Africa \u2014 Localrent.com",
+          "link": "https://www.localrent.com/en/",
+          "snippet": "We rented a car in Tbilisi. The car was delivered to the airport.We rented a Seat Cordoba for 5 days, and I should say the car was excellent, the car rental was comfortable with a deposit of only \u20ac250",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Deals on Car Rentals | Save with Thrifty",
+          "link": "https://www.thrifty.com/",
+          "snippet": "Reserve a rental car online and save time and money! With great car rental deals, and convenient pickup and drop-off locations, you'll find the absolute best rental car for your money.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "usa car rental list - usa car rental for sale",
+          "link": "https://www.enlightcorp.com/sale-usa-car-rental",
+          "snippet": "All usa car rental wholesalers & usa car rental manufacturers come from members.Quality Suitable For Online Car Rental Solar Electric Car Solar 2 Rang Up To 550Km for sale.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Contact Us - National Car Rental",
+          "link": "https://www.nationalcar.com/en/support/contact-us.html",
+          "snippet": "Founded in 1947, National has grown from 60 locations in the U.S. to a global car rental company servicing the needs of business travelers in over 1,500 locations worldwide.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "B2B Car Rental & Mobility Solutions for the Travel Industry - CarTrawler",
+          "link": "https://corporate.cartrawler.com/",
+          "snippet": "CarTrawler is the world's leading B2B technology platform, connecting customers and travel companies to car rental and mobility solutions globally.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "National Car Rental Company Overview, Contact Details ... - LeadIQ",
+          "link": "https://leadiq.com/c/national-car-rental/5a1d95a22300005200844f3f",
+          "snippet": "Learn more about National Car Rental's company details, contact information, competitors, and more. Find accurate contact data easily with LeadIQ. Book a demo today.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Fast & Convenient Car Rental at 1,500+ Locations",
+          "link": "https://www.nationalcar.com/en/home.html",
+          "snippet": "Join Emerald Club and enjoy exclusive benefits including counter bypass, choose your own car and earn rewards towards free rental days (select locations).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "National Car Rental - Company Profile & Staff Directory | ContactOut",
+          "link": "https://contactout.com/company/National-Car-Rental-28080",
+          "snippet": "National Car Rental is a Travel Arrangements company located in 600 Corporate Park Dr, St Louis, Missouri 63105, US with 961 employees. Access National Car Rental's email format and staff directory fo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "N\u00dc Car Rentals",
+          "link": "https://nucarrentals.com/",
+          "snippet": "N\u00dc Car Rentals provides a wide selection of quality vehicles for your leisure or business car rental needs from economy and compact cars, to convertibles, SUVs, and minivans as well as luxury cars and",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Contact \u2014 N\u00dc Car Rentals",
+          "link": "https://nucarrentals.com/contact",
+          "snippet": "Companies within our corporate family We may share your personal information with our parent company and corporate affiliates, including EasyReservations.com and DriveRentalCars.com. This sharing enab",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "hertz.com",
+          "link": "https://www.hertz.com/",
+          "snippet": "Most valuable Corporate Car Rental Review: Pros and Cons 2023 (4).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Hertz Corporation - Investor Relations",
+          "link": "https://www.hertz.com/rentacar/abouthertz/index.jsp?c=CorporateProfile&targetPage=CorporateProfile.jsp",
+          "snippet": "Corporate Overview Hertz Global Holdings, Inc. is one of the world's leading car rental and mobility solutions providers. Its subsidiaries, including The Hertz Corporation, and licensees operate the H",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P3": {
+      "query": "car rental resellers official website",
+      "level": "discovery",
+      "result_count": 8,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Car Rental Resellers - Caren - Car Rental Platform",
+          "link": "https://caren.io/resellers/",
+          "snippet": "Car Rental Resellers Caren for Car Rental Brokers & OTA Caren API is available for car rental brokers and online travel agents (OTA).Full featured OTA booking website. Branded or unbranded supplier co",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Find cheap rental car deals | Priceline",
+          "link": "https://www.priceline.com/rental-cars",
+          "snippet": "Search car rentals. Find the best car rental deals. Drop-off location is the same.Why use Priceline? Trusted by 8 million travelers. Great deals from our rental car suppliers. Free cancellation on mos",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Fast & Convenient Car Rental at 1,500+ Locations | National Car Rental",
+          "link": "https://www.nationalcar.com/",
+          "snippet": "Join Emerald Club and enjoy exclusive benefits including counter bypass, choose your own car and earn rewards towards free rental days (select locations).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Turo car rental marketplace | Car rentals, reimagined",
+          "link": "https://turo.com/",
+          "snippet": "Skip the car rental counter and rent anything from daily drivers to pickup trucks, from trusted, local hosts on the Turo car rental marketplace.Affordable car rental at San Francisco (SFO) airport. Av",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rental with the Best Prices | Rentcars",
+          "link": "https://www.rentcars.com/",
+          "snippet": "Rent a car and save up to 30%! Compare rates from over 350 car rental companies in 160 countries and find the best deals with Rentcars.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cars Scanner - Compare car rental deals worldwide",
+          "link": "https://cars-scanner.com/",
+          "snippet": "Compare car rental deals from trusted suppliers and save up to 70%. Free cancellation, newer models, and flexible pickup options worldwide.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Deals on Car Rentals | Save with Thrifty",
+          "link": "https://www.thrifty.com/",
+          "snippet": "Reserve a rental car online and save time and money! With great car rental deals, and convenient pickup and drop-off locations, you'll find the absolute best rental car for your money.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "UK Car Hire | Save Up to 20% | Drivalia Car Rental",
+          "link": "https://drivalia.co.uk/",
+          "snippet": "Drivalia offers unbeatable car rental deals with top service. Rent a car today and enjoy hassle-free travel at the best prices!",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Car Rental Resellers - Caren - Car Rental Platform",
+          "link": "https://caren.io/resellers/",
+          "snippet": "Car Rental Resellers Caren for Car Rental Brokers & OTA Caren API is available for car rental brokers and online travel agents (OTA).Full featured OTA booking website. Branded or unbranded supplier co",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Find cheap rental car deals | Priceline",
+          "link": "https://www.priceline.com/rental-cars",
+          "snippet": "Search car rentals. Find the best car rental deals. Drop-off location is the same.Why use Priceline? Trusted by 8 million travelers. Great deals from our rental car suppliers. Free cancellation on mos",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Fast & Convenient Car Rental at 1,500+ Locations | National Car Rental",
+          "link": "https://www.nationalcar.com/",
+          "snippet": "Join Emerald Club and enjoy exclusive benefits including counter bypass, choose your own car and earn rewards towards free rental days (select locations).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Turo car rental marketplace | Car rentals, reimagined",
+          "link": "https://turo.com/",
+          "snippet": "Skip the car rental counter and rent anything from daily drivers to pickup trucks, from trusted, local hosts on the Turo car rental marketplace.Affordable car rental at San Francisco (SFO) airport. Av",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rental with the Best Prices | Rentcars",
+          "link": "https://www.rentcars.com/",
+          "snippet": "Rent a car and save up to 30%! Compare rates from over 350 car rental companies in 160 countries and find the best deals with Rentcars.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cars Scanner - Compare car rental deals worldwide",
+          "link": "https://cars-scanner.com/",
+          "snippet": "Compare car rental deals from trusted suppliers and save up to 70%. Free cancellation, newer models, and flexible pickup options worldwide.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Deals on Car Rentals | Save with Thrifty",
+          "link": "https://www.thrifty.com/",
+          "snippet": "Reserve a rental car online and save time and money! With great car rental deals, and convenient pickup and drop-off locations, you'll find the absolute best rental car for your money.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "UK Car Hire | Save Up to 20% | Drivalia Car Rental",
+          "link": "https://drivalia.co.uk/",
+          "snippet": "Drivalia offers unbeatable car rental deals with top service. Rent a car today and enjoy hassle-free travel at the best prices!",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P4": {
+      "query": "car rental system integrators corporate site",
+      "level": "discovery",
+      "result_count": 18,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Home - Wheels Car Rental System",
+          "link": "https://wheelsys.com/",
+          "snippet": "Wheels Car Rental System is a cloud-based software with a customer base of over 800 car rental businesses in 76 countries. It is easy to use, feature-rich, and integrated with brokers and travel agenc",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Corporate Car Rental System - Corporate | DIJI.TECH",
+          "link": "https://diji.tech/en/corporate/car-rental",
+          "snippet": "Negotiated rates, fleet management and approval workflow for a corporate car rental system.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rental Software - Management & Booking | RentSyst",
+          "link": "https://rentsyst.com/",
+          "snippet": "Car rental management software Cloud-based car rental management software unlocks new opportunities for your company. With it, you can control your car rental business, plan work, streamline routine o",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rental Software By Rent Centric",
+          "link": "https://www.rentcentric.com/",
+          "snippet": "Rent Centric toll processing integration helps your car rental operation effectively manage and streamline your toll processing, leading to improved efficiency, cost savings, and customer satisfaction",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Fleet Management Software for Business - FleetFinesse",
+          "link": "https://fleetfinesse.com/",
+          "snippet": "The easy car rental fleet management software you need. Manage reservations, payments, and assets in real time. Trusted by 500+ businesses worldwide. Try Free.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "TSD RENTAL - Car Rental Software - TSD Mobility Solutions",
+          "link": "https://tsdweb.com/car-rental-software/",
+          "snippet": "Develop a rental operation unlike any other. Whether you want to launch a car share program, offer delivery/collection, or try out a subscription model of business, TSD's versatility gives you control",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Integrations - HQ Rental Software",
+          "link": "https://hqrentalsoftware.com/integrations/",
+          "snippet": "Discover our +30 Car Rental Software Integrations and find out how HQ Rental Software makes your rental business and systems work together in seamless integration",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "UK Car Hire | Save Up to 20% | Drivalia Car Rental",
+          "link": "https://drivalia.co.uk/",
+          "snippet": "Save up to 20% on UK car hire! Drivalia offers unbeatable car rental deals with top service.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "B2C, B2B & Corporate Travel Agency Software Solutions - DIJI.TECH",
+          "link": "https://www.diji.tech/",
+          "snippet": "Flight tickets, hotels, car rentals, buses and more. Digitalize your travel agency with 100+ API integrations.100+ API Integrations. Integrate with global and local providers. Define your own contract",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Deals on Car Rentals | Save with Thrifty",
+          "link": "https://www.thrifty.com/",
+          "snippet": "Reserve a rental car online and save time and money! With great car rental deals, and convenient pickup and drop-off locations, you'll find the absolute best rental car for your money.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car rental in Europe, Asia and Africa \u2014 Localrent.com",
+          "link": "https://www.localrent.com/en/",
+          "snippet": "We rented a car in Tbilisi. The car was delivered to the airport. The manager insisted that we take pictures of all the chips and scratches on it.Our website aggregates cars from different rental comp",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Car Rental in the UAE | Great Deals on Rent a Car in Dubai.",
+          "link": "https://www.autostrad.com/",
+          "snippet": "Rent a car across the UAE with Autostrad. Daily, weekly and monthly rentals in Dubai and Abu Dhabi, with doorstep delivery available.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rentals in Italy from $12/day - Search for Rental Cars on KAYAK",
+          "link": "https://www.kayak.com/Italy-Car-Rentals.118.crc.html",
+          "snippet": "To rent a car in Italy, most rental agencies require drivers to be at least 21 years old and to have held a driving license for at least 12 months.Some car rental providers charge additional fees for ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Zipcar: Car Sharing Alternative for Daily and Hourly Car Rental",
+          "link": "https://www.zipcar.com/",
+          "snippet": "Zipcar is the world\u2019s leading car sharing alternative to car rental & ownership. Book cars on demand by the hour or day. Join instantly, drive in minutes.Most people are approved instantly and rent a ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cheap Car Rental Services Worldwide |Budget Rent a car",
+          "link": "https://www.budget.gr/en/",
+          "snippet": "Cheap Rent a Car Worldwide. Budget offers a full range of car rental options. You can expect a high level of service with low prices.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "24/7 Self Drive Car Rental at Agra Airport | Best Airport Rates!",
+          "link": "https://www.zoomcar.com/",
+          "snippet": "Book your 24/7 self drive car at Agra Airport now or on arrival - enjoy unbeatable rates, zero booking fees & instant airport pickup!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - TSD Mobility Solutions",
+          "link": "https://tsdweb.com/",
+          "snippet": "TSD designs and develops fleet mobility solutions for dealerships, auto manufacturers, auto groups, and car rental companies worldwide. Our car rental software and loaner car software power over 16K a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Online departures flight schedule of Vnukovo international airport",
+          "link": "https://www.vnukovo.ru/en/for-passengers/flights/online/?bound=departure",
+          "snippet": "Car rental. Porter service. Baggage Storage.We use Cookies to ensure the correct functioning of this website. By continuing to use the website, you confirm your agreement to our Personal Data Processi",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Home - Wheels Car Rental System",
+          "link": "https://wheelsys.com/",
+          "snippet": "Wheels Car Rental System is a cloud-based software with a customer base of over 800 car rental businesses in 76 countries. It is easy to use, feature-rich, and integrated with brokers and travel agenc",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Corporate Car Rental System - Corporate | DIJI.TECH",
+          "link": "https://diji.tech/en/corporate/car-rental",
+          "snippet": "Negotiated rates, fleet management and approval workflow for a corporate car rental system.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rental Software - Management & Booking | RentSyst",
+          "link": "https://rentsyst.com/",
+          "snippet": "Car rental management software Cloud-based car rental management software unlocks new opportunities for your company. With it, you can control your car rental business, plan work, streamline routine o",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rental Software By Rent Centric",
+          "link": "https://www.rentcentric.com/",
+          "snippet": "Rent Centric toll processing integration helps your car rental operation effectively manage and streamline your toll processing, leading to improved efficiency, cost savings, and customer satisfaction",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Fleet Management Software for Business - FleetFinesse",
+          "link": "https://fleetfinesse.com/",
+          "snippet": "The easy car rental fleet management software you need. Manage reservations, payments, and assets in real time. Trusted by 500+ businesses worldwide. Try Free.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "TSD RENTAL - Car Rental Software - TSD Mobility Solutions",
+          "link": "https://tsdweb.com/car-rental-software/",
+          "snippet": "Develop a rental operation unlike any other. Whether you want to launch a car share program, offer delivery/collection, or try out a subscription model of business, TSD's versatility gives you control",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Integrations - HQ Rental Software",
+          "link": "https://hqrentalsoftware.com/integrations/",
+          "snippet": "Discover our +30 Car Rental Software Integrations and find out how HQ Rental Software makes your rental business and systems work together in seamless integration",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "UK Car Hire | Save Up to 20% | Drivalia Car Rental",
+          "link": "https://drivalia.co.uk/",
+          "snippet": "Save up to 20% on UK car hire! Drivalia offers unbeatable car rental deals with top service.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "B2C, B2B & Corporate Travel Agency Software Solutions - DIJI.TECH",
+          "link": "https://www.diji.tech/",
+          "snippet": "Flight tickets, hotels, car rentals, buses and more. Digitalize your travel agency with 100+ API integrations.100+ API Integrations. Integrate with global and local providers. Define your own contract",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Deals on Car Rentals | Save with Thrifty",
+          "link": "https://www.thrifty.com/",
+          "snippet": "Reserve a rental car online and save time and money! With great car rental deals, and convenient pickup and drop-off locations, you'll find the absolute best rental car for your money.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car rental in Europe, Asia and Africa \u2014 Localrent.com",
+          "link": "https://www.localrent.com/en/",
+          "snippet": "We rented a car in Tbilisi. The car was delivered to the airport. The manager insisted that we take pictures of all the chips and scratches on it.Our website aggregates cars from different rental comp",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Car Rental in the UAE | Great Deals on Rent a Car in Dubai.",
+          "link": "https://www.autostrad.com/",
+          "snippet": "Rent a car across the UAE with Autostrad. Daily, weekly and monthly rentals in Dubai and Abu Dhabi, with doorstep delivery available.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rentals in Italy from $12/day - Search for Rental Cars on KAYAK",
+          "link": "https://www.kayak.com/Italy-Car-Rentals.118.crc.html",
+          "snippet": "To rent a car in Italy, most rental agencies require drivers to be at least 21 years old and to have held a driving license for at least 12 months.Some car rental providers charge additional fees for ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Zipcar: Car Sharing Alternative for Daily and Hourly Car Rental",
+          "link": "https://www.zipcar.com/",
+          "snippet": "Zipcar is the world\u2019s leading car sharing alternative to car rental & ownership. Book cars on demand by the hour or day. Join instantly, drive in minutes.Most people are approved instantly and rent a ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cheap Car Rental Services Worldwide |Budget Rent a car",
+          "link": "https://www.budget.gr/en/",
+          "snippet": "Cheap Rent a Car Worldwide. Budget offers a full range of car rental options. You can expect a high level of service with low prices.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "24/7 Self Drive Car Rental at Agra Airport | Best Airport Rates!",
+          "link": "https://www.zoomcar.com/",
+          "snippet": "Book your 24/7 self drive car at Agra Airport now or on arrival - enjoy unbeatable rates, zero booking fees & instant airport pickup!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - TSD Mobility Solutions",
+          "link": "https://tsdweb.com/",
+          "snippet": "TSD designs and develops fleet mobility solutions for dealerships, auto manufacturers, auto groups, and car rental companies worldwide. Our car rental software and loaner car software power over 16K a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Online departures flight schedule of Vnukovo international airport",
+          "link": "https://www.vnukovo.ru/en/for-passengers/flights/online/?bound=departure",
+          "snippet": "Car rental. Porter service. Baggage Storage.We use Cookies to ensure the correct functioning of this website. By continuing to use the website, you confirm your agreement to our Personal Data Processi",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P5": {
+      "query": "car rental service providers official site",
+      "level": "discovery",
+      "result_count": 18,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Find cheap rental car deals | Priceline",
+          "link": "https://www.priceline.com/rental-cars",
+          "snippet": "Search car rentals. Find the best car rental deals. Drop-off location is the same.Why use Priceline? Trusted by 8 million travelers. Great deals from our rental car suppliers. Free cancellation on mos",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Turo car rental marketplace | Car rentals, reimagined",
+          "link": "https://turo.com/",
+          "snippet": "Skip the car rental counter and rent anything from daily drivers to pickup trucks, from trusted, local hosts on the Turo car rental marketplace.Luxury car rental at Newark (EWR) airport. Average daily",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Hire in the UK, Europe & Worldwide | Avis Car Rental",
+          "link": "https://www.avis.co.uk/",
+          "snippet": "With 5,500+ car hire locations worldwide across 170 countries, Avis has a car for every occasion. Join Avis Preferred for free and get 10% off every European booking.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car rental service without a driver in 100 countries | GetRentacar.com",
+          "link": "https://getrentacar.com/",
+          "snippet": "International car rental service. We will help renters quickly book a car for rent anywhere in the world without overpayments and additional fees, and car owners \u2014 to rent a car on their terms.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rental with the Best Prices | Rentcars",
+          "link": "https://www.rentcars.com/",
+          "snippet": "Rent a car and save up to 30%! Compare rates from over 350 car rental companies in 160 countries and find the best deals with Rentcars.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rentals Worldwide & Travel Discount | QEEQ.COM",
+          "link": "https://www.qeeq.com/",
+          "snippet": "QEEQ compares car rental deals worldwide from leading brands such as Alamo, Easirent, ACE, Hertz, Routes, Dollar, Green Motion, Sixt, Aucar, Yesaway, Apex, Advantage, and more\u2014with car rental insuranc",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Fast & Convenient Car Rental at 1,500+ Locations | National Car Rental",
+          "link": "https://www.nationalcar.com/",
+          "snippet": "Join Emerald Club and enjoy exclusive benefits including counter bypass, choose your own car and earn rewards towards free rental days (select locations).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Revv - Car Rental, Self-Drive & Subscription Services",
+          "link": "https://www.revv.co.in/",
+          "snippet": "Compare & book affordable car rentals, self-drive cars & subscriptions across India. Doorstep delivery, 24/7 support, transparent pricing. Reserve now!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "India's Best Corporate Car-Rental Company | Rego",
+          "link": "https://www.rego.co.in/",
+          "snippet": "Rego is a trusted provider of employee transportation services (ETS) in India, delivering safe, reliable, and efficient commute solutions. With 22+ years of experience, it operates in 295+ cities, ser",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rental: Save More on Rental Cars, Vans & Trucks | Hertz",
+          "link": "https://www.hertz.com/us/en",
+          "snippet": "In airports around the world and rental car locations near you, get a great selection and price on rental cars, vans and trucks. Reserve your vehicle today.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Avis - Best Luxury Car Rentals & Chauffeur Driven Cars in India",
+          "link": "https://www.avis.co.in/",
+          "snippet": "Book luxury car rental & chauffeur driven services in India. Plan your journey today with reliable & comfortable vehicles by Avis India. Book now at the best price!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rentals from Avis | Book Online & Save Now",
+          "link": "https://www.avis.com/en/home",
+          "snippet": "Reserve your next car rental online with Avis and save. A large selection of vehicles available & with the Avis Signature Series you can travel in style.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Hire Taxi Service & Cab Booking from India's Best Car Rental Provider ...",
+          "link": "https://www.bharattaxi.com/",
+          "snippet": "Bharat Taxi offers 24*7 taxi booking and cab service facility at an affordable fare. Book online taxi service in India, cab for rent, and car rental with driver at best deals.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Zoomcar Self Drive Car Rentals in India | Book Online",
+          "link": "https://www.zoomcar.com/",
+          "snippet": "Enjoy affordable self-drive car hire with flexible plans and online booking. Hire a car for a day or choose monthly car rentals at Zoomcar.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rental with Great Rates & Service | Enterprise Rent-A-Car",
+          "link": "https://www.enterprise.com/en/home.html",
+          "snippet": "Enjoy easy booking with thousands of airport and city locations near you. Lock in great rates when you book a rental car with Enterprise.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rental with the Best Prices | Rentcars",
+          "link": "https://m.rentcars.com/",
+          "snippet": "Travel with up to 30% discount. Over 300 car rental companies in 160 countries. Search, compare and get your car rental with Rentcars.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rental Services | Avis Rent a Car",
+          "link": "https://www.avis.com/en/products-and-services/services",
+          "snippet": "Take advantage of our car rental services, including discounted pay now rates, long-term rental options, fuel plans, Avis Cares, low pay now rates and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "hertz.com",
+          "link": "https://www.hertz.com/",
+          "snippet": "world\u2019s leading car rental providers.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Find cheap rental car deals | Priceline",
+          "link": "https://www.priceline.com/rental-cars",
+          "snippet": "Search car rentals. Find the best car rental deals. Drop-off location is the same.Why use Priceline? Trusted by 8 million travelers. Great deals from our rental car suppliers. Free cancellation on mos",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Turo car rental marketplace | Car rentals, reimagined",
+          "link": "https://turo.com/",
+          "snippet": "Skip the car rental counter and rent anything from daily drivers to pickup trucks, from trusted, local hosts on the Turo car rental marketplace.Luxury car rental at Newark (EWR) airport. Average daily",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Hire in the UK, Europe & Worldwide | Avis Car Rental",
+          "link": "https://www.avis.co.uk/",
+          "snippet": "With 5,500+ car hire locations worldwide across 170 countries, Avis has a car for every occasion. Join Avis Preferred for free and get 10% off every European booking.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car rental service without a driver in 100 countries | GetRentacar.com",
+          "link": "https://getrentacar.com/",
+          "snippet": "International car rental service. We will help renters quickly book a car for rent anywhere in the world without overpayments and additional fees, and car owners \u2014 to rent a car on their terms.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rental with the Best Prices | Rentcars",
+          "link": "https://www.rentcars.com/",
+          "snippet": "Rent a car and save up to 30%! Compare rates from over 350 car rental companies in 160 countries and find the best deals with Rentcars.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rentals Worldwide & Travel Discount | QEEQ.COM",
+          "link": "https://www.qeeq.com/",
+          "snippet": "QEEQ compares car rental deals worldwide from leading brands such as Alamo, Easirent, ACE, Hertz, Routes, Dollar, Green Motion, Sixt, Aucar, Yesaway, Apex, Advantage, and more\u2014with car rental insuranc",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Fast & Convenient Car Rental at 1,500+ Locations | National Car Rental",
+          "link": "https://www.nationalcar.com/",
+          "snippet": "Join Emerald Club and enjoy exclusive benefits including counter bypass, choose your own car and earn rewards towards free rental days (select locations).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Revv - Car Rental, Self-Drive & Subscription Services",
+          "link": "https://www.revv.co.in/",
+          "snippet": "Compare & book affordable car rentals, self-drive cars & subscriptions across India. Doorstep delivery, 24/7 support, transparent pricing. Reserve now!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "India's Best Corporate Car-Rental Company | Rego",
+          "link": "https://www.rego.co.in/",
+          "snippet": "Rego is a trusted provider of employee transportation services (ETS) in India, delivering safe, reliable, and efficient commute solutions. With 22+ years of experience, it operates in 295+ cities, ser",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rental: Save More on Rental Cars, Vans & Trucks | Hertz",
+          "link": "https://www.hertz.com/us/en",
+          "snippet": "In airports around the world and rental car locations near you, get a great selection and price on rental cars, vans and trucks. Reserve your vehicle today.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Avis - Best Luxury Car Rentals & Chauffeur Driven Cars in India",
+          "link": "https://www.avis.co.in/",
+          "snippet": "Book luxury car rental & chauffeur driven services in India. Plan your journey today with reliable & comfortable vehicles by Avis India. Book now at the best price!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rentals from Avis | Book Online & Save Now",
+          "link": "https://www.avis.com/en/home",
+          "snippet": "Reserve your next car rental online with Avis and save. A large selection of vehicles available & with the Avis Signature Series you can travel in style.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Hire Taxi Service & Cab Booking from India's Best Car Rental Provider ...",
+          "link": "https://www.bharattaxi.com/",
+          "snippet": "Bharat Taxi offers 24*7 taxi booking and cab service facility at an affordable fare. Book online taxi service in India, cab for rent, and car rental with driver at best deals.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Zoomcar Self Drive Car Rentals in India | Book Online",
+          "link": "https://www.zoomcar.com/",
+          "snippet": "Enjoy affordable self-drive car hire with flexible plans and online booking. Hire a car for a day or choose monthly car rentals at Zoomcar.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rental with Great Rates & Service | Enterprise Rent-A-Car",
+          "link": "https://www.enterprise.com/en/home.html",
+          "snippet": "Enjoy easy booking with thousands of airport and city locations near you. Lock in great rates when you book a rental car with Enterprise.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rental with the Best Prices | Rentcars",
+          "link": "https://m.rentcars.com/",
+          "snippet": "Travel with up to 30% discount. Over 300 car rental companies in 160 countries. Search, compare and get your car rental with Rentcars.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rental Services | Avis Rent a Car",
+          "link": "https://www.avis.com/en/products-and-services/services",
+          "snippet": "Take advantage of our car rental services, including discounted pay now rates, long-term rental options, fuel plans, Avis Cares, low pay now rates and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "hertz.com",
+          "link": "https://www.hertz.com/",
+          "snippet": "world\u2019s leading car rental providers.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "vehicle maintenance for rentals corporate site",
+      "level": "discovery",
+      "result_count": 9,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "HQ Rental Software \u2013 The all-in-one platform for rental ...",
+          "link": "https://hqrentalsoftware.com/",
+          "snippet": "HQ Car Rental Software, complete fleet management software system incorporates real time availability, online reservation system, online payments, reporting, customizable rental agreements and much mo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 Best Corporate Car Rental Software: 2026 Comparison",
+          "link": "https://worldmetrics.org/best/corporate-car-rental-software/",
+          "snippet": "Corporate car rental software is a workflow system that manages rental reservations, vehicle assignment, driver handling, approvals, and return tracking while keeping operational records audit-ready.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "why corporate car rentals are beneficial for businesses",
+          "link": "https://www.advantagecarrentals.com/blog/why-corporate-rentals-are-beneficial-for-businesses-why-advantage-is-the-perfect-choice-for-that/",
+          "snippet": "Corporate car rentals are often very beneficial for businesses.However, when companies decide to rent their vehicles, they are free from liabilities. The cost of management & maintenance is included i",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Premium Car Rental at affordable prices | SIXT rent a car",
+          "link": "https://www.sixt.com/",
+          "snippet": "Car rental deals on premium cars & other like-new rentals 2,000+ rental car locations no hidden costs pay later option Rent a car easily online.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rental | Enterprise Rent-A-Car",
+          "link": "https://www.enterprise.com/en/car-rental.html",
+          "snippet": "Vehicles For Rent.Enterprise Rent-A-Car offers convenient one-way car rentals. We have a great selection of vehicles for trips across the city, across the country or from the airport.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "World\u2019s Largest Car Rental Company",
+          "link": "https://www.enterprise.com.tr/en/blog/arac-inceleme-ve-bakim/how-to-charge-electric-vehicles",
+          "snippet": "Corporate Car Rental.Both the vehicle and charging equipment should be at an appropriate temperature during charging. Extremely high or low temperatures may significantly reduce battery performance an",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Antalya Rent a Car | Antalya Car Rental | Turtas Car Hire Antalya",
+          "link": "https://www.antalyarentacar.com/",
+          "snippet": "Easy and safe rental. Vehicle maintenance is done regularly. All vehicles are clean. Delivery at the signed location. 24/7 customer support.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Garenta Car Rental & Rent A Car",
+          "link": "https://www.garenta.com/",
+          "snippet": "Rent a car online with Garenta! With a wide range of vehicles, affordable prices and advantageous campaigns, start your journey now!Can I Rent a Commercial Vehicle? You also have the option to select ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Fast & Convenient Car Rental at 1,500+ Locations | National Car Rental",
+          "link": "https://www.nationalcar.com/",
+          "snippet": "Join Emerald Club and enjoy exclusive benefits including counter bypass, choose your own car and earn rewards towards free rental days (select locations).",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "HQ Rental Software \u2013 The all-in-one platform for rental ...",
+          "link": "https://hqrentalsoftware.com/",
+          "snippet": "HQ Car Rental Software, complete fleet management software system incorporates real time availability, online reservation system, online payments, reporting, customizable rental agreements and much mo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 Best Corporate Car Rental Software: 2026 Comparison",
+          "link": "https://worldmetrics.org/best/corporate-car-rental-software/",
+          "snippet": "Corporate car rental software is a workflow system that manages rental reservations, vehicle assignment, driver handling, approvals, and return tracking while keeping operational records audit-ready.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "why corporate car rentals are beneficial for businesses",
+          "link": "https://www.advantagecarrentals.com/blog/why-corporate-rentals-are-beneficial-for-businesses-why-advantage-is-the-perfect-choice-for-that/",
+          "snippet": "Corporate car rentals are often very beneficial for businesses.However, when companies decide to rent their vehicles, they are free from liabilities. The cost of management & maintenance is included i",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Premium Car Rental at affordable prices | SIXT rent a car",
+          "link": "https://www.sixt.com/",
+          "snippet": "Car rental deals on premium cars & other like-new rentals 2,000+ rental car locations no hidden costs pay later option Rent a car easily online.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rental | Enterprise Rent-A-Car",
+          "link": "https://www.enterprise.com/en/car-rental.html",
+          "snippet": "Vehicles For Rent.Enterprise Rent-A-Car offers convenient one-way car rentals. We have a great selection of vehicles for trips across the city, across the country or from the airport.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "World\u2019s Largest Car Rental Company",
+          "link": "https://www.enterprise.com.tr/en/blog/arac-inceleme-ve-bakim/how-to-charge-electric-vehicles",
+          "snippet": "Corporate Car Rental.Both the vehicle and charging equipment should be at an appropriate temperature during charging. Extremely high or low temperatures may significantly reduce battery performance an",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Antalya Rent a Car | Antalya Car Rental | Turtas Car Hire Antalya",
+          "link": "https://www.antalyarentacar.com/",
+          "snippet": "Easy and safe rental. Vehicle maintenance is done regularly. All vehicles are clean. Delivery at the signed location. 24/7 customer support.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Garenta Car Rental & Rent A Car",
+          "link": "https://www.garenta.com/",
+          "snippet": "Rent a car online with Garenta! With a wide range of vehicles, affordable prices and advantageous campaigns, start your journey now!Can I Rent a Commercial Vehicle? You also have the option to select ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Fast & Convenient Car Rental at 1,500+ Locations | National Car Rental",
+          "link": "https://www.nationalcar.com/",
+          "snippet": "Join Emerald Club and enjoy exclusive benefits including counter bypass, choose your own car and earn rewards towards free rental days (select locations).",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P7": {
+      "query": "insurance for rental cars provider official site",
+      "level": "discovery",
+      "result_count": 6,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Car Rental with Great Rates & Service | Enterprise Rent-A-Car",
+          "link": "https://www.enterprise.com/",
+          "snippet": "Vehicles For Rent. Cars, SUVs, Trucks & Vans.Enterprise Rent-A-Car provides more than just traditional car rental. We're your global transportation solution.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cheap Car Rental Comparison with Auto Europe - Book now & save!",
+          "link": "https://www.autoeurope.com/",
+          "snippet": "To rent a car in Europe, drivers must be at least 21 years old (age may vary by car category). Some car rental suppliers will have rental options for drivers over the age of 18 and looking to rent a c",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rentals: Find Cheap Car Rentals & Rental Car Deals - KAYAK",
+          "link": "https://www.kayak.com/cars",
+          "snippet": "Can new drivers rent a car? New driver policies vary for each car rental agency. While some require renters to hold a driver\u2019s license for a minimum of 1 year, others only ask for a valid driver\u2019s lic",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Find cheap rental car deals | Priceline",
+          "link": "https://www.priceline.com/rental-cars",
+          "snippet": "Search car rentals. Find the best car rental deals. Drop-off location is the same.Book a car with free cancellation for flexibility. Why use Priceline? Trusted by 8 million travelers. Great deals from",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Europcar: Rental Cars - Car Rental & Van Rental",
+          "link": "https://www.europcar.com/",
+          "snippet": "Car rental and van rental worldwide. Discover very exciting offers and book online to save money with our convenient and hassle free booking. Find out more!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Rental Cover Insurance for Car Rental | TikTok",
+          "link": "https://www.tiktok.com/discover/rental-cover-insurance-for-car-rental",
+          "snippet": "For some drivers, rental car insurance is a necessity. For others, it's a redundant expense. Before you rent a car, it's worth reviewing the coverage on your personal car insurance policy.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Car Rental with Great Rates & Service | Enterprise Rent-A-Car",
+          "link": "https://www.enterprise.com/",
+          "snippet": "Vehicles For Rent. Cars, SUVs, Trucks & Vans.Enterprise Rent-A-Car provides more than just traditional car rental. We're your global transportation solution.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cheap Car Rental Comparison with Auto Europe - Book now & save!",
+          "link": "https://www.autoeurope.com/",
+          "snippet": "To rent a car in Europe, drivers must be at least 21 years old (age may vary by car category). Some car rental suppliers will have rental options for drivers over the age of 18 and looking to rent a c",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rentals: Find Cheap Car Rentals & Rental Car Deals - KAYAK",
+          "link": "https://www.kayak.com/cars",
+          "snippet": "Can new drivers rent a car? New driver policies vary for each car rental agency. While some require renters to hold a driver\u2019s license for a minimum of 1 year, others only ask for a valid driver\u2019s lic",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Find cheap rental car deals | Priceline",
+          "link": "https://www.priceline.com/rental-cars",
+          "snippet": "Search car rentals. Find the best car rental deals. Drop-off location is the same.Book a car with free cancellation for flexibility. Why use Priceline? Trusted by 8 million travelers. Great deals from",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Europcar: Rental Cars - Car Rental & Van Rental",
+          "link": "https://www.europcar.com/",
+          "snippet": "Car rental and van rental worldwide. Discover very exciting offers and book online to save money with our convenient and hassle free booking. Find out more!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Rental Cover Insurance for Car Rental | TikTok",
+          "link": "https://www.tiktok.com/discover/rental-cover-insurance-for-car-rental",
+          "snippet": "For some drivers, rental car insurance is a necessity. For others, it's a redundant expense. Before you rent a car, it's worth reviewing the coverage on your personal car insurance policy.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

@@ -1,0 +1,1134 @@
+{
+  "phase": 1,
+  "query": "Wildlife Hunting Tourism Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T20:38:31.326862+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "Wildlife Hunting Tourism",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "channel partner",
+    "industry_vertical": "tourism",
+    "industry_terms": [
+      "hunting tourism",
+      "wildlife management",
+      "guided hunts",
+      "hunting packages",
+      "safari tours"
+    ],
+    "ecosystem_functions": [
+      "distributing hunting packages",
+      "wholesaling hunting experiences",
+      "reselling hunting tours",
+      "providing guided hunting services",
+      "integrating hunting tourism solutions",
+      "partnering with local guides",
+      "facilitating wildlife management",
+      "promoting sustainable hunting practices"
+    ],
+    "interpretation_summary": "The Wildlife Hunting Tourism Market encompasses the activities and services related to hunting trips and experiences, including the management of wildlife resources and the promotion of hunting as a tourism activity. Par",
+    "relevance_keywords": [
+      "hunting tourism",
+      "wildlife tours",
+      "guided hunts",
+      "hunting packages",
+      "safari experiences"
+    ],
+    "negative_keywords": [
+      "news",
+      "blog",
+      "report",
+      "job",
+      "consultant"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "African Hunting Safaris",
+        "primary_domain": "africanhuntingsafaris.com",
+        "company_function": "hunting tourism service provider"
+      },
+      {
+        "canonical_name": "Hunting Adventures",
+        "primary_domain": "huntingadventures.com",
+        "company_function": "hunting tour distributor"
+      },
+      {
+        "canonical_name": "Safari Club International",
+        "primary_domain": "safariclub.org",
+        "company_function": "hunting tourism wholesaler"
+      },
+      {
+        "canonical_name": "Outdoor Adventures",
+        "primary_domain": "outdooradventures.com",
+        "company_function": "hunting experience reseller"
+      },
+      {
+        "canonical_name": "Wildlife Safari",
+        "primary_domain": "wildlifesafari.com",
+        "company_function": "guided hunting service provider"
+      },
+      {
+        "canonical_name": "Hunt & Fish",
+        "primary_domain": "huntandfish.com",
+        "company_function": "hunting tourism channel partner"
+      },
+      {
+        "canonical_name": "Hunting Trips",
+        "primary_domain": "huntingtrips.com",
+        "company_function": "hunting tour distributor"
+      },
+      {
+        "canonical_name": "Adventure Hunting",
+        "primary_domain": "adventurehunting.com",
+        "company_function": "hunting tourism wholesaler"
+      },
+      {
+        "canonical_name": "Wildlife Expeditions",
+        "primary_domain": "wildlifeexpeditions.com",
+        "company_function": "hunting experience reseller",
+        "segment": "Resellers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Safari Hunting",
+        "primary_domain": "safarihunting.com",
+        "company_function": "guided hunting service provider",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "Wildlife Hunting Tourism",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "Wildlife Hunting Tourism",
+    "include_keywords": [
+      "hunting tour distributors",
+      "wildlife hunting packages",
+      "guided hunting services",
+      "hunting tourism wholesalers",
+      "hunting experience resellers"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The Wildlife Hunting Tourism Market encompasses the activities and services related to hunting trips and experiences, including the management of wildlife resources and the promotion of hunting as a tourism activity. Participants include tour operators, service providers, and various channel partners that facilitate hunting experiences globally.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Channel Partners",
+        "description": "Entities that facilitate the distribution and promotion of hunting tourism services.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Regional Distributors",
+              "International Distributors"
+            ],
+            "participant_types": [
+              "distributor"
+            ],
+            "search_intents": [
+              "wildlife hunting tourism distributors",
+              "hunting tourism service distributors"
+            ]
+          },
+          {
+            "segment_name": "Wholesalers",
+            "sub_segments": [
+              "Local Wholesalers",
+              "Global Wholesalers"
+            ],
+            "participant_types": [
+              "wholesaler"
+            ],
+            "search_intents": [
+              "wildlife hunting tourism wholesalers",
+              "hunting tourism package wholesalers"
+            ]
+          },
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Online Resellers",
+              "Travel Resellers"
+            ],
+            "participant_types": [
+              "reseller"
+            ],
+            "search_intents": [
+              "wildlife hunting tourism resellers",
+              "hunting tourism experience resellers"
+            ]
+          },
+          {
+            "segment_name": "Service Providers",
+            "sub_segments": [
+              "Guided Hunting Services",
+              "Accommodation Providers"
+            ],
+            "participant_types": [
+              "service provider"
+            ],
+            "search_intents": [
+              "wildlife hunting tourism service providers",
+              "hunting trip service providers"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Wildlife Conservation",
+        "Hunting Equipment Manufacturing",
+        "Travel Agencies",
+        "Outdoor Adventure Tourism"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "search for wildlife hunting tourism distributors",
+        "sub_sector": "wildlife_hunting_distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "find hunting tourism wholesalers",
+        "sub_sector": "hunting_tour_wholesaler",
+        "layer_id": "L1",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "search for hunting experience resellers",
+        "sub_sector": "hunting_experience_reseller",
+        "layer_id": "L1",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "find wildlife hunting tourism service providers",
+        "sub_sector": "hunting_service_provider",
+        "layer_id": "L1",
+        "segment": "Service Providers"
+      },
+      {
+        "id": "M5",
+        "level": "market_map",
+        "text": "search for hunting tourism channel partners",
+        "sub_sector": "hunting_channel_partner",
+        "layer_id": "L1",
+        "segment": "Channel Partners"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "tourism",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "Wildlife Hunting Tourism companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "Wildlife Hunting Tourism distributors corporate sites"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "Wildlife Hunting Tourism service providers official site"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "discovery",
+      "text": "wildlife hunting tourism distributors official site"
+    },
+    {
+      "id": "P2",
+      "level": "discovery",
+      "text": "wildlife hunting tourism wholesalers corporate headquarters"
+    },
+    {
+      "id": "P3",
+      "level": "discovery",
+      "text": "wildlife hunting tourism resellers official website"
+    },
+    {
+      "id": "P4",
+      "level": "discovery",
+      "text": "wildlife hunting tourism service providers corporate site"
+    },
+    {
+      "id": "P5",
+      "level": "discovery",
+      "text": "wildlife hunting tourism system integrator official site"
+    },
+    {
+      "id": "P6",
+      "level": "discovery",
+      "text": "wildlife hunting tourism channel partner corporate profile"
+    },
+    {
+      "id": "P7",
+      "level": "discovery",
+      "text": "wildlife hunting tourism guided hunting services official site"
+    },
+    {
+      "id": "P8",
+      "level": "discovery",
+      "text": "wildlife hunting tourism accommodation providers corporate site"
+    },
+    {
+      "id": "P9",
+      "level": "volume",
+      "text": "authorized Wildlife Hunting Tourism distributor firm official"
+    },
+    {
+      "id": "P10",
+      "level": "volume",
+      "text": "Wildlife Hunting Tourism reseller channel partner official"
+    },
+    {
+      "id": "P11",
+      "level": "volume",
+      "text": "Wildlife Hunting Tourism service provider official website"
+    },
+    {
+      "id": "P12",
+      "level": "volume",
+      "text": "Wildlife Hunting Tourism system integrator official website"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "Wildlife Hunting Tourism companies official websites",
+      "level": "L0",
+      "result_count": 10,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Wildlife Hunting Tourism Market Share & Forecast, 2026-2033",
+          "link": "https://www.coherentmarketinsights.com/market-insight/wildlife-hunting-tourism-market-4922",
+          "snippet": "Wildlife Hunting Tourism Market Analysis & Forecast: 2026-2033.Currently, hunting tourism is considered one of the complimentary activities for nature tourism companies. Hunting is considered a sport ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "About - WildCro - hunting tourism",
+          "link": "https://wildcro.com/en/gallery/about",
+          "snippet": "wildlife consulting and hunting tourism. Home. Company. Blog. Consulting. Hunting tourism.Wildlife consulting and hunting tourism Dra\u017een Degme\u010di\u0107. Fru\u0161kogorska 46c, 31000 OSIJEK, HRVATSKA / CROATIA.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 Hunting Reserve in the World for Hunting Tourism & Safari...",
+          "link": "https://exploreallaboutnepal.com/10-top-hunting-reserve-in-the-world/",
+          "snippet": "These destinations are considered the Top Hunting Reserve in the World because they combine exceptional wildlife diversity, sustainable management, and adventure tourism opportunities. Hunters can pla",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wildlife Hunting Tourism Market, By Type, By Species type, By...",
+          "link": "https://www.giiresearch.com/report/coh2077334-wildlife-hunting-tourism-market-by-type-by-species.html",
+          "snippet": "Because wildlife is a renewable resource with a surplus, hunters aid in maintaining a healthy wildlife population for the habitat through wildlife hunting. Market Dynamics. Wildlife hunting tourism is",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The seven sins of hunting tourism - PMC",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7357523/",
+          "snippet": "Official websites use .gov A .gov website belongs to an official government organization in the United States.Tourism and the Consumption of Wildlife: Hunting, Shooting and Sport Fishing. Routledge; 2",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wildlife Hunting Tourism Market \u2013 HARDMAN AND WELL...",
+          "link": "https://www.hardmanwell.com/products/wildlife-hunting-tourism-market",
+          "snippet": "Wildlife hunting tourism helps African nations practice conservation while also improving the livelihoods of rural and indigenous people so that it reduces their dependence on foreign aid.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wildlife Hunting Tourism Market Share & Trends Report, 2030",
+          "link": "https://intentmarketresearch.com/latest-reports/wildlife-hunting-tourism-market-8032",
+          "snippet": "Travel, Tourism and Hospitality. Wildlife Hunting Tourism Market.The wildlife hunting tourism market has been experiencing steady growth, driven by the increasing interest in adventure tourism and the",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wildlife Hunting Tourism Market Is Thriving On Experience And...",
+          "link": "https://www.trendingwebwire.com/wildlife-hunting-tourism-market-is-thriving-on-experience-and-adventure-seeking-trends/",
+          "snippet": "The Wildlife Hunting Tourism Market provides visitors with unique experiences to pursue big-game and other wildlife in their natural habitats. Wildlife hunts offer recreational advantages like exercis",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "ABOUT US - Free Range Hunting Turkey - Turkey Wild Boar Stalking...",
+          "link": "https://www.freerangehuntingturkey.com/about-us/about-us",
+          "snippet": "Free Range Hunting Turkey; We have been actively hunting for 30 years.We have been engaged in hunting tourism for twenty years. After working and gaining experience in the world's best hunting compani",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wildlife Hunting Tourism Market Growth in Future... - Digital Journal",
+          "link": "https://www.digitaljournal.com/pr/wildlife-hunting-tourism-market-growth-in-future-scope-2022-2028",
+          "snippet": "Wildlife Hunting Tourism Market report studies the many aspects of the industry like the market size, market status, market trends and forecast, the report also provides brief information about the co",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Wildlife Hunting Tourism Market Share & Forecast, 2026-2033",
+          "link": "https://www.coherentmarketinsights.com/market-insight/wildlife-hunting-tourism-market-4922",
+          "snippet": "Wildlife Hunting Tourism Market Analysis & Forecast: 2026-2033.Currently, hunting tourism is considered one of the complimentary activities for nature tourism companies. Hunting is considered a sport ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "About - WildCro - hunting tourism",
+          "link": "https://wildcro.com/en/gallery/about",
+          "snippet": "wildlife consulting and hunting tourism. Home. Company. Blog. Consulting. Hunting tourism.Wildlife consulting and hunting tourism Dra\u017een Degme\u010di\u0107. Fru\u0161kogorska 46c, 31000 OSIJEK, HRVATSKA / CROATIA.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 Hunting Reserve in the World for Hunting Tourism & Safari...",
+          "link": "https://exploreallaboutnepal.com/10-top-hunting-reserve-in-the-world/",
+          "snippet": "These destinations are considered the Top Hunting Reserve in the World because they combine exceptional wildlife diversity, sustainable management, and adventure tourism opportunities. Hunters can pla",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wildlife Hunting Tourism Market, By Type, By Species type, By...",
+          "link": "https://www.giiresearch.com/report/coh2077334-wildlife-hunting-tourism-market-by-type-by-species.html",
+          "snippet": "Because wildlife is a renewable resource with a surplus, hunters aid in maintaining a healthy wildlife population for the habitat through wildlife hunting. Market Dynamics. Wildlife hunting tourism is",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The seven sins of hunting tourism - PMC",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7357523/",
+          "snippet": "Official websites use .gov A .gov website belongs to an official government organization in the United States.Tourism and the Consumption of Wildlife: Hunting, Shooting and Sport Fishing. Routledge; 2",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wildlife Hunting Tourism Market \u2013 HARDMAN AND WELL...",
+          "link": "https://www.hardmanwell.com/products/wildlife-hunting-tourism-market",
+          "snippet": "Wildlife hunting tourism helps African nations practice conservation while also improving the livelihoods of rural and indigenous people so that it reduces their dependence on foreign aid.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wildlife Hunting Tourism Market Share & Trends Report, 2030",
+          "link": "https://intentmarketresearch.com/latest-reports/wildlife-hunting-tourism-market-8032",
+          "snippet": "Travel, Tourism and Hospitality. Wildlife Hunting Tourism Market.The wildlife hunting tourism market has been experiencing steady growth, driven by the increasing interest in adventure tourism and the",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wildlife Hunting Tourism Market Is Thriving On Experience And...",
+          "link": "https://www.trendingwebwire.com/wildlife-hunting-tourism-market-is-thriving-on-experience-and-adventure-seeking-trends/",
+          "snippet": "The Wildlife Hunting Tourism Market provides visitors with unique experiences to pursue big-game and other wildlife in their natural habitats. Wildlife hunts offer recreational advantages like exercis",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "ABOUT US - Free Range Hunting Turkey - Turkey Wild Boar Stalking...",
+          "link": "https://www.freerangehuntingturkey.com/about-us/about-us",
+          "snippet": "Free Range Hunting Turkey; We have been actively hunting for 30 years.We have been engaged in hunting tourism for twenty years. After working and gaining experience in the world's best hunting compani",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wildlife Hunting Tourism Market Growth in Future... - Digital Journal",
+          "link": "https://www.digitaljournal.com/pr/wildlife-hunting-tourism-market-growth-in-future-scope-2022-2028",
+          "snippet": "Wildlife Hunting Tourism Market report studies the many aspects of the industry like the market size, market status, market trends and forecast, the report also provides brief information about the co",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "Wildlife Hunting Tourism distributors corporate sites",
+      "level": "L1",
+      "result_count": 6,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Wildlife Hunting Tourism Market Share & Forecast, 2026-2033",
+          "link": "https://www.coherentmarketinsights.com/market-insight/wildlife-hunting-tourism-market-4922",
+          "snippet": "Wildlife Hunting Tourism Market Analysis & Forecast: 2026-2033.Wildlife hunting tourism has been one of the most controversial topics across the globe, owing to rising wildlife conservation and enviro",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "(PDF) Chapter 4. Hunting and Fishing Tourism",
+          "link": "https://www.researchgate.net/publication/283272711_Chapter_4_Hunting_and_Fishing_Tourism",
+          "snippet": "describes international hunting tourism from Europe, as an example. Figure 4.4: Proportional representation of websites with the words tourism and. hunting (countries in grey only). Numbers and diamet",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wildlife Hunting Tourism Market, By Type (Big Game Trophy, Small...)",
+          "link": "https://www.marketresearch.com/Coherent-Market-Insights-v4137/Wildlife-Hunting-Tourism-Type-Big-31161092/",
+          "snippet": "The global wildlife hunting tourism market report caters to various stakeholders in this industry including investors, suppliers, distributors, new entrants, and financial analysts.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The seven sins of hunting tourism - PMC",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7357523/",
+          "snippet": "The context of hunting tourism reveals the following sins act cumulatively on the hunting tourist: \u201cThe Pay Effect\u201d, \u201cThe Tourist Bubble\u201d, \u201cLast Chance Tourism\u201d, \u201cThe Bucket List\u201d, \u201cWhen in Rome\u201d, \u201cTh",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Rest of the world - WildCro - hunting tourism",
+          "link": "https://wildcro.com/en/hunting-tourism/rest-of-the-world",
+          "snippet": "Wildlife consulting and hunting tourism Dra\u017een Degme\u010di\u0107. Fru\u0161kogorska 46c, 31000 OSIJEK, HRVATSKA / CROATIA.Equally, there is a whole range of possible additional unexpected shocks that hunters are ge",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wildlife Hunting Tourism Market \u2013 HARDMAN AND WELL...",
+          "link": "https://www.hardmanwell.com/products/wildlife-hunting-tourism-market",
+          "snippet": "Wildlife is a renewable resource with a surplus, hunter\u2019s aid in maintaining a healthy wildlife population for the habitat through wildlife hunting. Market Dynamics. Wildlife hunting tourism is an eff",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Wildlife Hunting Tourism Market Share & Forecast, 2026-2033",
+          "link": "https://www.coherentmarketinsights.com/market-insight/wildlife-hunting-tourism-market-4922",
+          "snippet": "Wildlife Hunting Tourism Market Analysis & Forecast: 2026-2033.Wildlife hunting tourism has been one of the most controversial topics across the globe, owing to rising wildlife conservation and enviro",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "(PDF) Chapter 4. Hunting and Fishing Tourism",
+          "link": "https://www.researchgate.net/publication/283272711_Chapter_4_Hunting_and_Fishing_Tourism",
+          "snippet": "describes international hunting tourism from Europe, as an example. Figure 4.4: Proportional representation of websites with the words tourism and. hunting (countries in grey only). Numbers and diamet",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wildlife Hunting Tourism Market, By Type (Big Game Trophy, Small...)",
+          "link": "https://www.marketresearch.com/Coherent-Market-Insights-v4137/Wildlife-Hunting-Tourism-Type-Big-31161092/",
+          "snippet": "The global wildlife hunting tourism market report caters to various stakeholders in this industry including investors, suppliers, distributors, new entrants, and financial analysts.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The seven sins of hunting tourism - PMC",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7357523/",
+          "snippet": "The context of hunting tourism reveals the following sins act cumulatively on the hunting tourist: \u201cThe Pay Effect\u201d, \u201cThe Tourist Bubble\u201d, \u201cLast Chance Tourism\u201d, \u201cThe Bucket List\u201d, \u201cWhen in Rome\u201d, \u201cTh",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Rest of the world - WildCro - hunting tourism",
+          "link": "https://wildcro.com/en/hunting-tourism/rest-of-the-world",
+          "snippet": "Wildlife consulting and hunting tourism Dra\u017een Degme\u010di\u0107. Fru\u0161kogorska 46c, 31000 OSIJEK, HRVATSKA / CROATIA.Equally, there is a whole range of possible additional unexpected shocks that hunters are ge",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wildlife Hunting Tourism Market \u2013 HARDMAN AND WELL...",
+          "link": "https://www.hardmanwell.com/products/wildlife-hunting-tourism-market",
+          "snippet": "Wildlife is a renewable resource with a surplus, hunter\u2019s aid in maintaining a healthy wildlife population for the habitat through wildlife hunting. Market Dynamics. Wildlife hunting tourism is an eff",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "Wildlife Hunting Tourism service providers official site",
+      "level": "L2",
+      "result_count": 6,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Wildlife Hunting Tourism Market Share & Forecast, 2026-2033",
+          "link": "https://www.coherentmarketinsights.com/market-insight/wildlife-hunting-tourism-market-4922",
+          "snippet": "Wildlife Hunting Tourism Market Analysis & Forecast: 2026-2033.Sustainable wildlife hunting tourism is a way to maintain and promote biodiversity. Sustainable hunting can lead to the preservation of w",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The seven sins of hunting tourism - PMC",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7357523/",
+          "snippet": "Official websites use .gov A .gov website belongs to an official government organization in the United States.Tourist hunters may try to follow guidelines provided by hunting organizations, such as Sa",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wildlife Hunting Tourism Market \u2013 HARDMAN AND WELL...",
+          "link": "https://www.hardmanwell.com/products/wildlife-hunting-tourism-market",
+          "snippet": "Wildlife hunting tourism helps African nations practice conservation while also improving the livelihoods of rural and indigenous people so that it reduces their dependence on foreign aid.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "About - WildCro - hunting tourism",
+          "link": "https://wildcro.com/en/gallery/about",
+          "snippet": "Wildlife consulting and hunting tourism Dra\u017een Degme\u010di\u0107. Fru\u0161kogorska 46c, 31000 OSIJEK, HRVATSKA / CROATIA.\u00a9 2025 wildcro - wildlife consulting and hunting tourism - design & hosting by Medialive.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Effects Of The Safari Hunting Tourism Ban On... | AfricaHunting.com",
+          "link": "https://www.africahunting.com/threads/effects-of-the-safari-hunting-tourism-ban-on-rural-livelihoods-wildlife-conservation.40700/",
+          "snippet": "As a tourism activity, it was made official by the 1990 Tourism Policy. It was run by safari hunting operators who market and sell hunts to clients in developed countries of North America and Europe (",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Hunting tourism in bosnia and herzegovina",
+          "link": "https://geografija.pmf.unsa.ba/jthm/files/123/JTHM++1/RADOVI+U+PDF-U/ithmc_conference_proceedings_book_v2-49-56.pdf",
+          "snippet": "Hunting tourism as a specific type of tourism in Bosnia and Herzegovina provides more efficient use of hunting grounds and wildlife due to the high taxes and the fact that hunters-guests are mainly fo",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Wildlife Hunting Tourism Market Share & Forecast, 2026-2033",
+          "link": "https://www.coherentmarketinsights.com/market-insight/wildlife-hunting-tourism-market-4922",
+          "snippet": "Wildlife Hunting Tourism Market Analysis & Forecast: 2026-2033.Sustainable wildlife hunting tourism is a way to maintain and promote biodiversity. Sustainable hunting can lead to the preservation of w",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The seven sins of hunting tourism - PMC",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7357523/",
+          "snippet": "Official websites use .gov A .gov website belongs to an official government organization in the United States.Tourist hunters may try to follow guidelines provided by hunting organizations, such as Sa",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wildlife Hunting Tourism Market \u2013 HARDMAN AND WELL...",
+          "link": "https://www.hardmanwell.com/products/wildlife-hunting-tourism-market",
+          "snippet": "Wildlife hunting tourism helps African nations practice conservation while also improving the livelihoods of rural and indigenous people so that it reduces their dependence on foreign aid.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "About - WildCro - hunting tourism",
+          "link": "https://wildcro.com/en/gallery/about",
+          "snippet": "Wildlife consulting and hunting tourism Dra\u017een Degme\u010di\u0107. Fru\u0161kogorska 46c, 31000 OSIJEK, HRVATSKA / CROATIA.\u00a9 2025 wildcro - wildlife consulting and hunting tourism - design & hosting by Medialive.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Effects Of The Safari Hunting Tourism Ban On... | AfricaHunting.com",
+          "link": "https://www.africahunting.com/threads/effects-of-the-safari-hunting-tourism-ban-on-rural-livelihoods-wildlife-conservation.40700/",
+          "snippet": "As a tourism activity, it was made official by the 1990 Tourism Policy. It was run by safari hunting operators who market and sell hunts to clients in developed countries of North America and Europe (",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Hunting tourism in bosnia and herzegovina",
+          "link": "https://geografija.pmf.unsa.ba/jthm/files/123/JTHM++1/RADOVI+U+PDF-U/ithmc_conference_proceedings_book_v2-49-56.pdf",
+          "snippet": "Hunting tourism as a specific type of tourism in Bosnia and Herzegovina provides more efficient use of hunting grounds and wildlife due to the high taxes and the fact that hunters-guests are mainly fo",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "wildlife hunting tourism distributors official site",
+      "level": "discovery",
+      "result_count": 5,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "(PDF) The Descriptive Overview of Hunting Tourism: General...",
+          "link": "https://www.researchgate.net/publication/359296387_The_Descriptive_Overview_of_Hunting_Tourism_General_Reviews_for_Turkey",
+          "snippet": "tourism, hunting tourism legislation, hunting tourism in Turkey and wildlife-based tourism potential of.Foreign hunters can hunt game and wild animal species in the hunting. grounds within the scope o",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The seven sins of hunting tourism - PMC",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7357523/",
+          "snippet": "Official websites use .gov A .gov website belongs to an official government organization in the United States.Tourism and the Consumption of Wildlife: Hunting, Shooting and Sport Fishing. Routledge; 2",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Rest of the world - WildCro - hunting tourism",
+          "link": "https://wildcro.com/en/hunting-tourism/rest-of-the-world",
+          "snippet": "Wildlife consulting and hunting tourism Dra\u017een Degme\u010di\u0107. Fru\u0161kogorska 46c, 31000 OSIJEK, HRVATSKA / CROATIA. mob: +385 95 532 7236.\u00a9 2025 wildcro - wildlife consulting and hunting tourism - design & h",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wildlife Hunting Tourism Market, By Type (Big Game Trophy, Small...)",
+          "link": "https://www.marketresearch.com/Coherent-Market-Insights-v4137/Wildlife-Hunting-Tourism-Type-Big-31161092/",
+          "snippet": "The global wildlife hunting tourism market report caters to various stakeholders in this industry including investors, suppliers, distributors, new entrants, and financial analysts.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Effects Of The Safari Hunting Tourism Ban On... | AfricaHunting.com",
+          "link": "https://www.africahunting.com/threads/effects-of-the-safari-hunting-tourism-ban-on-rural-livelihoods-wildlife-conservation.40700/",
+          "snippet": "As a tourism activity, it was made official by the 1990 Tourism Policy. It was run by safari hunting operators who market and sell hunts to clients in developed countries of North America and Europe (",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "(PDF) The Descriptive Overview of Hunting Tourism: General...",
+          "link": "https://www.researchgate.net/publication/359296387_The_Descriptive_Overview_of_Hunting_Tourism_General_Reviews_for_Turkey",
+          "snippet": "tourism, hunting tourism legislation, hunting tourism in Turkey and wildlife-based tourism potential of.Foreign hunters can hunt game and wild animal species in the hunting. grounds within the scope o",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The seven sins of hunting tourism - PMC",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7357523/",
+          "snippet": "Official websites use .gov A .gov website belongs to an official government organization in the United States.Tourism and the Consumption of Wildlife: Hunting, Shooting and Sport Fishing. Routledge; 2",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Rest of the world - WildCro - hunting tourism",
+          "link": "https://wildcro.com/en/hunting-tourism/rest-of-the-world",
+          "snippet": "Wildlife consulting and hunting tourism Dra\u017een Degme\u010di\u0107. Fru\u0161kogorska 46c, 31000 OSIJEK, HRVATSKA / CROATIA. mob: +385 95 532 7236.\u00a9 2025 wildcro - wildlife consulting and hunting tourism - design & h",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wildlife Hunting Tourism Market, By Type (Big Game Trophy, Small...)",
+          "link": "https://www.marketresearch.com/Coherent-Market-Insights-v4137/Wildlife-Hunting-Tourism-Type-Big-31161092/",
+          "snippet": "The global wildlife hunting tourism market report caters to various stakeholders in this industry including investors, suppliers, distributors, new entrants, and financial analysts.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Effects Of The Safari Hunting Tourism Ban On... | AfricaHunting.com",
+          "link": "https://www.africahunting.com/threads/effects-of-the-safari-hunting-tourism-ban-on-rural-livelihoods-wildlife-conservation.40700/",
+          "snippet": "As a tourism activity, it was made official by the 1990 Tourism Policy. It was run by safari hunting operators who market and sell hunts to clients in developed countries of North America and Europe (",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P2": {
+      "query": "wildlife hunting tourism wholesalers corporate headquarters",
+      "level": "discovery",
+      "result_count": 3,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Wildlife Hunting Tourism Market, By Type (Big Game Trophy, Small...)",
+          "link": "https://www.marketresearch.com/Coherent-Market-Insights-v4137/Wildlife-Hunting-Tourism-Type-Big-31161092/",
+          "snippet": "Because wildlife is a renewable resource with a surplus, hunters aid in maintaining a healthy wildlife population for the habitat through wildlife hunting. Market Dynamics. Wildlife hunting tourism is",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wildlife Hunting Tourism Market is Anticipated to Witness High...",
+          "link": "https://insightsmarketer.weebly.com/blog/wildlife-hunting-tourism-market-is-anticipated-to-witness-high-growth-owing-to-increasing-participation-in-hunting-activities",
+          "snippet": "Wildlife hunting tourism involves hunting of game animals like deer, birds, bear and other trophy animals in the wild for leisure or sport. It plays a significant role in wildlife conservation efforts",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wildlife Hunting Tourism Market Is Thriving On Experience And...",
+          "link": "https://www.trendingwebwire.com/wildlife-hunting-tourism-market-is-thriving-on-experience-and-adventure-seeking-trends/",
+          "snippet": "The Wildlife Hunting Tourism Market provides visitors with unique experiences to pursue big-game and other wildlife in their natural habitats. Wildlife hunts offer recreational advantages like exercis",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Wildlife Hunting Tourism Market, By Type (Big Game Trophy, Small...)",
+          "link": "https://www.marketresearch.com/Coherent-Market-Insights-v4137/Wildlife-Hunting-Tourism-Type-Big-31161092/",
+          "snippet": "Because wildlife is a renewable resource with a surplus, hunters aid in maintaining a healthy wildlife population for the habitat through wildlife hunting. Market Dynamics. Wildlife hunting tourism is",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wildlife Hunting Tourism Market is Anticipated to Witness High...",
+          "link": "https://insightsmarketer.weebly.com/blog/wildlife-hunting-tourism-market-is-anticipated-to-witness-high-growth-owing-to-increasing-participation-in-hunting-activities",
+          "snippet": "Wildlife hunting tourism involves hunting of game animals like deer, birds, bear and other trophy animals in the wild for leisure or sport. It plays a significant role in wildlife conservation efforts",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wildlife Hunting Tourism Market Is Thriving On Experience And...",
+          "link": "https://www.trendingwebwire.com/wildlife-hunting-tourism-market-is-thriving-on-experience-and-adventure-seeking-trends/",
+          "snippet": "The Wildlife Hunting Tourism Market provides visitors with unique experiences to pursue big-game and other wildlife in their natural habitats. Wildlife hunts offer recreational advantages like exercis",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P3": {
+      "query": "wildlife hunting tourism resellers official website",
+      "level": "discovery",
+      "result_count": 2,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Wildlife Hunting Tourism Market Share & Forecast, 2026-2033",
+          "link": "https://www.coherentmarketinsights.com/market-insight/wildlife-hunting-tourism-market-4922",
+          "snippet": "Wildlife Hunting Tourism Market Analysis & Forecast: 2026-2033.Sustainable wildlife hunting tourism is a way to maintain and promote biodiversity. Sustainable hunting can lead to the preservation of w",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The seven sins of hunting tourism - PMC",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7357523/",
+          "snippet": "An official website of the United States government.Introduction. Hunting tourism as part of wildlife tourism (up until Covid-19), appears to be increasing in popularity and scope (Moorhouse, Dahlsj\u00f6,",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Wildlife Hunting Tourism Market Share & Forecast, 2026-2033",
+          "link": "https://www.coherentmarketinsights.com/market-insight/wildlife-hunting-tourism-market-4922",
+          "snippet": "Wildlife Hunting Tourism Market Analysis & Forecast: 2026-2033.Sustainable wildlife hunting tourism is a way to maintain and promote biodiversity. Sustainable hunting can lead to the preservation of w",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The seven sins of hunting tourism - PMC",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7357523/",
+          "snippet": "An official website of the United States government.Introduction. Hunting tourism as part of wildlife tourism (up until Covid-19), appears to be increasing in popularity and scope (Moorhouse, Dahlsj\u00f6,",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P4": {
+      "query": "wildlife hunting tourism service providers corporate site",
+      "level": "discovery",
+      "result_count": 7,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Wildlife Hunting Tourism Market Share & Forecast, 2026-2033",
+          "link": "https://www.coherentmarketinsights.com/market-insight/wildlife-hunting-tourism-market-4922",
+          "snippet": "Wildlife Hunting Tourism Market Analysis & Forecast: 2026-2033.Sustainable wildlife hunting tourism is a way to maintain and promote biodiversity. Sustainable hunting can lead to the preservation of w",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "(PDF) Chapter 4. Hunting and Fishing Tourism",
+          "link": "https://www.researchgate.net/publication/283272711_Chapter_4_Hunting_and_Fishing_Tourism",
+          "snippet": "describes international hunting tourism from Europe, as an example. Figure 4.4: Proportional representation of websites with the words tourism and.It is these members who will provide the hunting expe",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "We Are Having The Wrong Discussion About Hunting Tourism",
+          "link": "https://www.africahunting.com/threads/we-are-having-the-wrong-discussion-about-hunting-tourism.50916/",
+          "snippet": "Hunting tourism has led to vastly improved conservation status of dozens of species. A few examples are the black wildebeest, bontebok, and the white rhino. Income from hunting tourism supports hundre",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wildlife Hunting Tourism Market \u2013 HARDMAN AND WELL...",
+          "link": "https://www.hardmanwell.com/products/wildlife-hunting-tourism-market",
+          "snippet": "Wildlife is a renewable resource with a surplus, hunter\u2019s aid in maintaining a healthy wildlife population for the habitat through wildlife hunting. Market Dynamics. Wildlife hunting tourism is an eff",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wildlife Hunting Tourism Market Share & Trends Report, 2030",
+          "link": "https://intentmarketresearch.com/latest-reports/wildlife-hunting-tourism-market-8032",
+          "snippet": "The wildlife hunting tourism market is highly competitive, with numerous operators and service providers offering a range of customized hunting experiences.7. Wildlife Hunting Tourism Market, by Servi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "About - WildCro - hunting tourism",
+          "link": "https://wildcro.com/en/gallery/about",
+          "snippet": "Adrenaline \u2013 wild boar hunting 02.06.2020.Wildlife consulting and hunting tourism Dra\u017een Degme\u010di\u0107. Fru\u0161kogorska 46c, 31000 OSIJEK, HRVATSKA / CROATIA.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wildlife Hunting Tourism Market Is Thriving On Experience And...",
+          "link": "https://www.trendingwebwire.com/wildlife-hunting-tourism-market-is-thriving-on-experience-and-adventure-seeking-trends/",
+          "snippet": "The Wildlife Hunting Tourism Market provides visitors with unique experiences to pursue big-game and other wildlife in their natural habitats. Wildlife hunts offer recreational advantages like exercis",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Wildlife Hunting Tourism Market Share & Forecast, 2026-2033",
+          "link": "https://www.coherentmarketinsights.com/market-insight/wildlife-hunting-tourism-market-4922",
+          "snippet": "Wildlife Hunting Tourism Market Analysis & Forecast: 2026-2033.Sustainable wildlife hunting tourism is a way to maintain and promote biodiversity. Sustainable hunting can lead to the preservation of w",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "(PDF) Chapter 4. Hunting and Fishing Tourism",
+          "link": "https://www.researchgate.net/publication/283272711_Chapter_4_Hunting_and_Fishing_Tourism",
+          "snippet": "describes international hunting tourism from Europe, as an example. Figure 4.4: Proportional representation of websites with the words tourism and.It is these members who will provide the hunting expe",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "We Are Having The Wrong Discussion About Hunting Tourism",
+          "link": "https://www.africahunting.com/threads/we-are-having-the-wrong-discussion-about-hunting-tourism.50916/",
+          "snippet": "Hunting tourism has led to vastly improved conservation status of dozens of species. A few examples are the black wildebeest, bontebok, and the white rhino. Income from hunting tourism supports hundre",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wildlife Hunting Tourism Market \u2013 HARDMAN AND WELL...",
+          "link": "https://www.hardmanwell.com/products/wildlife-hunting-tourism-market",
+          "snippet": "Wildlife is a renewable resource with a surplus, hunter\u2019s aid in maintaining a healthy wildlife population for the habitat through wildlife hunting. Market Dynamics. Wildlife hunting tourism is an eff",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wildlife Hunting Tourism Market Share & Trends Report, 2030",
+          "link": "https://intentmarketresearch.com/latest-reports/wildlife-hunting-tourism-market-8032",
+          "snippet": "The wildlife hunting tourism market is highly competitive, with numerous operators and service providers offering a range of customized hunting experiences.7. Wildlife Hunting Tourism Market, by Servi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "About - WildCro - hunting tourism",
+          "link": "https://wildcro.com/en/gallery/about",
+          "snippet": "Adrenaline \u2013 wild boar hunting 02.06.2020.Wildlife consulting and hunting tourism Dra\u017een Degme\u010di\u0107. Fru\u0161kogorska 46c, 31000 OSIJEK, HRVATSKA / CROATIA.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wildlife Hunting Tourism Market Is Thriving On Experience And...",
+          "link": "https://www.trendingwebwire.com/wildlife-hunting-tourism-market-is-thriving-on-experience-and-adventure-seeking-trends/",
+          "snippet": "The Wildlife Hunting Tourism Market provides visitors with unique experiences to pursue big-game and other wildlife in their natural habitats. Wildlife hunts offer recreational advantages like exercis",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P5": {
+      "query": "wildlife hunting tourism system integrator official site",
+      "level": "discovery",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "We Are Having The Wrong Discussion About Hunting Tourism",
+          "link": "https://www.africahunting.com/threads/we-are-having-the-wrong-discussion-about-hunting-tourism.50916/",
+          "snippet": "In African countries with well-established hunting tourism (\u201ctrophy hunting\u201d), natural habitat and populations of wildlife are typically growing or stable due to the simple fact that using the land as",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "We Are Having The Wrong Discussion About Hunting Tourism",
+          "link": "https://www.africahunting.com/threads/we-are-having-the-wrong-discussion-about-hunting-tourism.50916/",
+          "snippet": "In African countries with well-established hunting tourism (\u201ctrophy hunting\u201d), natural habitat and populations of wildlife are typically growing or stable due to the simple fact that using the land as",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "wildlife hunting tourism channel partner corporate profile",
+      "level": "discovery",
+      "result_count": 4,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Wildlife Hunting Tourism Market Share & Forecast, 2026-2033",
+          "link": "https://www.coherentmarketinsights.com/market-insight/wildlife-hunting-tourism-market-4922",
+          "snippet": "Wildlife Hunting Tourism Market valued at USD 812.9 Million in 2026, anticipated to reaching USD 3,251.5 Mn by 2033, with steady growth rate of 21.9%.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 Hunting Reserve in the World for Hunting Tourism & Safari...",
+          "link": "https://exploreallaboutnepal.com/10-top-hunting-reserve-in-the-world/",
+          "snippet": "Nepal\u2019s Dhorpatan Hunting Reserve stands out among the Top Hunting Reserve in the World for high-altitude hunting and rare Himalayan species. Similarly, African, North American, and European reserves ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "(PDF) Hunting and Fishing Tourism",
+          "link": "https://www.academia.edu/5293492/Hunting_and_Fishing_Tourism",
+          "snippet": "Hunting and Fishing Tourism. Profile image of Johannes Bauer Johannes Bauer.Hunting tourism seems to have become acceptable again, after many years of discredit by the conservation movement (of which ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "\u041e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u0438 \u0440\u0430\u0437\u0432\u0438\u0442\u0438\u044f \u043e\u0445\u043e\u0442\u043d\u0438\u0447\u044c\u0435\u0433\u043e \u0442\u0443\u0440\u0438\u0437\u043c\u0430...",
+          "link": "https://cyberleninka.ru/article/n/osobennosti-razvitiya-ohotnichiego-turizma-v-usloviyah-ekologicheskogo-krizisa",
+          "snippet": "The negative consequences of unorganized tourism are noted. The nature conservation role of organized hunting tourism is revealed. The effective directions of the anti-crisis ecological program of hun",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Wildlife Hunting Tourism Market Share & Forecast, 2026-2033",
+          "link": "https://www.coherentmarketinsights.com/market-insight/wildlife-hunting-tourism-market-4922",
+          "snippet": "Wildlife Hunting Tourism Market valued at USD 812.9 Million in 2026, anticipated to reaching USD 3,251.5 Mn by 2033, with steady growth rate of 21.9%.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 Hunting Reserve in the World for Hunting Tourism & Safari...",
+          "link": "https://exploreallaboutnepal.com/10-top-hunting-reserve-in-the-world/",
+          "snippet": "Nepal\u2019s Dhorpatan Hunting Reserve stands out among the Top Hunting Reserve in the World for high-altitude hunting and rare Himalayan species. Similarly, African, North American, and European reserves ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "(PDF) Hunting and Fishing Tourism",
+          "link": "https://www.academia.edu/5293492/Hunting_and_Fishing_Tourism",
+          "snippet": "Hunting and Fishing Tourism. Profile image of Johannes Bauer Johannes Bauer.Hunting tourism seems to have become acceptable again, after many years of discredit by the conservation movement (of which ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "\u041e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u0438 \u0440\u0430\u0437\u0432\u0438\u0442\u0438\u044f \u043e\u0445\u043e\u0442\u043d\u0438\u0447\u044c\u0435\u0433\u043e \u0442\u0443\u0440\u0438\u0437\u043c\u0430...",
+          "link": "https://cyberleninka.ru/article/n/osobennosti-razvitiya-ohotnichiego-turizma-v-usloviyah-ekologicheskogo-krizisa",
+          "snippet": "The negative consequences of unorganized tourism are noted. The nature conservation role of organized hunting tourism is revealed. The effective directions of the anti-crisis ecological program of hun",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P7": {
+      "query": "wildlife hunting tourism guided hunting services official site",
+      "level": "discovery",
+      "result_count": 4,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Wildlife Hunting Tourism Market Share & Forecast, 2026-2033",
+          "link": "https://www.coherentmarketinsights.com/market-insight/wildlife-hunting-tourism-market-4922",
+          "snippet": "Wildlife Hunting Tourism Market Analysis & Forecast: 2026-2033.Sustainable wildlife hunting tourism is a way to maintain and promote biodiversity. Sustainable hunting can lead to the preservation of w",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Hunting Tourism in New Zealand Booms as... - Travel And Tour World",
+          "link": "https://www.travelandtourworld.com/news/article/hunting-tourism-in-new-zealand-booms-as-one-of-the-countrys-top-earners-attracting-visitors-seeking-adventure-and-trophy-experiences/",
+          "snippet": "Tourism officials report significant increases in visitor arrivals focused exclusively on hunting trips, marking a notable shift in traveler preferences and spending patterns. Economic Impact and Regi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tourism and the Consumption of Wildlife: Hunting, Shooting and...",
+          "link": "https://epdf.pub/tourism-and-the-consumption-of-wildlife-hunting-shooting-and-sport-fishing-conte.html",
+          "snippet": "15 Communicating for wildlife management or hunting tourism: the case of the Manitoba spring bear hunt.Tourist hunts for these trophy animals are undertaken on the property with the use of a guide who",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wildlife Hunting Tourism Market, By Type (Big Game Trophy, Small...)",
+          "link": "https://www.marketresearch.com/Coherent-Market-Insights-v4137/Wildlife-Hunting-Tourism-Type-Big-31161092/",
+          "snippet": "Wildlife hunting tourism helps African nations to practice conservation while also improving the livelihoods of rural and indigenous people so that it reduces their dependence on foreign aids.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Wildlife Hunting Tourism Market Share & Forecast, 2026-2033",
+          "link": "https://www.coherentmarketinsights.com/market-insight/wildlife-hunting-tourism-market-4922",
+          "snippet": "Wildlife Hunting Tourism Market Analysis & Forecast: 2026-2033.Sustainable wildlife hunting tourism is a way to maintain and promote biodiversity. Sustainable hunting can lead to the preservation of w",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Hunting Tourism in New Zealand Booms as... - Travel And Tour World",
+          "link": "https://www.travelandtourworld.com/news/article/hunting-tourism-in-new-zealand-booms-as-one-of-the-countrys-top-earners-attracting-visitors-seeking-adventure-and-trophy-experiences/",
+          "snippet": "Tourism officials report significant increases in visitor arrivals focused exclusively on hunting trips, marking a notable shift in traveler preferences and spending patterns. Economic Impact and Regi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tourism and the Consumption of Wildlife: Hunting, Shooting and...",
+          "link": "https://epdf.pub/tourism-and-the-consumption-of-wildlife-hunting-shooting-and-sport-fishing-conte.html",
+          "snippet": "15 Communicating for wildlife management or hunting tourism: the case of the Manitoba spring bear hunt.Tourist hunts for these trophy animals are undertaken on the property with the use of a guide who",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wildlife Hunting Tourism Market, By Type (Big Game Trophy, Small...)",
+          "link": "https://www.marketresearch.com/Coherent-Market-Insights-v4137/Wildlife-Hunting-Tourism-Type-Big-31161092/",
+          "snippet": "Wildlife hunting tourism helps African nations to practice conservation while also improving the livelihoods of rural and indigenous people so that it reduces their dependence on foreign aids.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

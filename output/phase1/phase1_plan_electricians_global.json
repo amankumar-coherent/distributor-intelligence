@@ -1,0 +1,1027 @@
+{
+  "phase": 1,
+  "query": "Electricians Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T21:28:10.475318+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "electricians",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "electrical distribution",
+    "industry_terms": [
+      "electrical distribution",
+      "system integration",
+      "electrical components",
+      "lighting solutions",
+      "automation systems"
+    ],
+    "ecosystem_functions": [
+      "distributing electrical products",
+      "reselling electrical components",
+      "integrating electrical systems",
+      "providing installation services",
+      "offering maintenance services",
+      "acting as channel partners",
+      "wholesaling electrical supplies",
+      "facilitating system integration"
+    ],
+    "interpretation_summary": "The electricians market encompasses the distribution and sale of electrical products and services, including installation and maintenance. Participants include distributors, wholesalers, resellers, system integrators, se",
+    "relevance_keywords": [
+      "electrical distribution network",
+      "automation system integrator",
+      "electrical service solutions",
+      "wholesale electrical distributor",
+      "reseller of electrical components"
+    ],
+    "negative_keywords": [
+      "construction",
+      "manufacturing",
+      "retail",
+      "consulting",
+      "job postings"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "Graybar",
+        "primary_domain": "graybar.com",
+        "company_function": "electrical distributor"
+      },
+      {
+        "canonical_name": "Rexel",
+        "primary_domain": "rexel.com",
+        "company_function": "electrical wholesaler"
+      },
+      {
+        "canonical_name": "WESCO International",
+        "primary_domain": "wesco.com",
+        "company_function": "electrical distributor"
+      },
+      {
+        "canonical_name": "Anixter",
+        "primary_domain": "anixter.com",
+        "company_function": "distributor and reseller"
+      },
+      {
+        "canonical_name": "Sonepar",
+        "primary_domain": "sonepar.com",
+        "company_function": "electrical distributor"
+      },
+      {
+        "canonical_name": "Schneider Electric",
+        "primary_domain": "schneider-electric.com",
+        "company_function": "system integrator and service provider"
+      },
+      {
+        "canonical_name": "Siemens",
+        "primary_domain": "siemens.com",
+        "company_function": "system integrator"
+      },
+      {
+        "canonical_name": "Honeywell",
+        "primary_domain": "honeywell.com",
+        "company_function": "service provider and system integrator"
+      },
+      {
+        "canonical_name": "Eaton",
+        "primary_domain": "eaton.com",
+        "company_function": "Service provider and system integrator",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "ABB",
+        "primary_domain": "abb.com",
+        "company_function": "System integrator and service provider",
+        "segment": "System Integrators",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "electricians",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "electricians",
+    "include_keywords": [
+      "electrical distributor",
+      "wholesale electrical supplies",
+      "reseller of electrical products",
+      "system integration services",
+      "electrical service provider"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The electricians market encompasses the distribution and sale of electrical products and services, including installation and maintenance. Participants include distributors, wholesalers, resellers, system integrators, service providers, and channel partners operating globally.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Distribution",
+        "description": "This layer involves the distribution of electrical products through various channels.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Electrical component distributors",
+              "Lighting distributors"
+            ],
+            "participant_types": [
+              "distributor",
+              "wholesaler"
+            ],
+            "search_intents": [
+              "official electrical product distributor websites",
+              "electrical component wholesaler company sites"
+            ]
+          },
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Online resellers",
+              "Local resellers"
+            ],
+            "participant_types": [
+              "reseller"
+            ],
+            "search_intents": [
+              "electrical product reseller official sites",
+              "local electrical resellers websites"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L2",
+        "layer_name": "Integration Services",
+        "description": "This layer includes companies that integrate electrical systems and provide related services.",
+        "segments": [
+          {
+            "segment_name": "System Integrators",
+            "sub_segments": [
+              "Building automation integrators",
+              "Industrial automation integrators"
+            ],
+            "participant_types": [
+              "system integrator"
+            ],
+            "search_intents": [
+              "building automation system integrator websites",
+              "industrial automation integrators company sites"
+            ]
+          },
+          {
+            "segment_name": "Service Providers",
+            "sub_segments": [
+              "Electrical maintenance services",
+              "Installation services"
+            ],
+            "participant_types": [
+              "service provider"
+            ],
+            "search_intents": [
+              "electrical maintenance service providers",
+              "installation service providers for electrical systems"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Manufacturers",
+        "Retailers",
+        "Contractors",
+        "Consultants"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "search for official electrical product distributor websites",
+        "sub_sector": "electrical_distribution",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "find local electrical resellers websites",
+        "sub_sector": "electrical_reseller",
+        "layer_id": "L1",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "search for building automation system integrator websites",
+        "sub_sector": "system_integration",
+        "layer_id": "L2",
+        "segment": "System Integrators"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "find electrical maintenance service providers",
+        "sub_sector": "service_provider",
+        "layer_id": "L2",
+        "segment": "Service Providers"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "electrical distribution",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "electricians market companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "distributors of electrical products corporate sites"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "system integrators for electrical systems official site"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "discovery",
+      "text": "electrical product distributor official website"
+    },
+    {
+      "id": "P2",
+      "level": "discovery",
+      "text": "electrical component wholesaler corporate site"
+    },
+    {
+      "id": "P3",
+      "level": "discovery",
+      "text": "electrical product reseller official sites"
+    },
+    {
+      "id": "P4",
+      "level": "discovery",
+      "text": "local electrical resellers websites"
+    },
+    {
+      "id": "P5",
+      "level": "discovery",
+      "text": "building automation system integrator websites"
+    },
+    {
+      "id": "P6",
+      "level": "discovery",
+      "text": "industrial automation integrators company sites"
+    },
+    {
+      "id": "P7",
+      "level": "discovery",
+      "text": "electrical maintenance service providers"
+    },
+    {
+      "id": "P8",
+      "level": "discovery",
+      "text": "installation service providers for electrical systems"
+    },
+    {
+      "id": "P9",
+      "level": "volume",
+      "text": "authorized electricians distributor firm official"
+    },
+    {
+      "id": "P10",
+      "level": "volume",
+      "text": "electricians reseller channel partner official"
+    },
+    {
+      "id": "P11",
+      "level": "volume",
+      "text": "electricians system integrator official website"
+    },
+    {
+      "id": "P12",
+      "level": "volume",
+      "text": "electricians installer integration official"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "electricians market companies official websites",
+      "level": "L0",
+      "result_count": 10,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Electrical Work, Electricians in India",
+          "link": "https://m.indiamart.com/impcat/electrical-work.html",
+          "snippet": "Electrical Work, Electricians Providers in India. Get contact details and address of Electrical Work, Electricians firms and companies",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Recent Work - Electrical Marketers",
+          "link": "https://electricalmarketers.co.uk/recent-work/",
+          "snippet": "Marketing for Electricians.Industrial electrical experts PDR Electrical wanted a new website with SEO and copywriting that would appeal to the large industrial companies they specialise in.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Electricians Market Trends, Share and Forecast, 2026-2033",
+          "link": "https://www.coherentmarketinsights.com/industry-reports/electricians-market",
+          "snippet": "Electricians Market size is expected to reach USD 1.15 Tn by 2033, from USD 1 Tn in 2026, exhibiting a CAGR of 1.6% during the forecast period 2026-2033.Electricians market size and share analysis - g",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Electricians Market Growing by manufacturers, Demand | 2025-34",
+          "link": "https://www.forinsightsconsultancy.com/reports/electricians-market",
+          "snippet": "Electricians Market: Overview and Growth in the Upcoming Year. Electricians are crucial in ensuring safety and functionality of electrical systems in homes, businesses, and public spaces, with the dem",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Electricians Market Size, Share, Statistics And Research Stratagies...",
+          "link": "https://www.thebusinessresearchcompany.com/report/electricians-market",
+          "snippet": "Electricians Market Definition. An electrician is a skilled tradesperson who specializes in the installation, maintenance, repair, and operation of electrical systems and equipment. Their expertise ra",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Electrician Marketing Agency - Electrician Marketing Agency",
+          "link": "https://electricianmarketingagency.io/",
+          "snippet": "Electrician Marketing Agency knows the challenges of electrical businesses. Hence we specialize in SEO, PPC and Web Development for electricians.Electrician SEO. Convert visitors into customers with a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Electricians Market Competition Analysis 2025: How Players Are...",
+          "link": "https://cis.einnews.com/pr_news/876187953/electricians-market-competition-analysis-2025-how-players-are-shaping-growth",
+          "snippet": "Electricians Global Market Report 2025 \u2013 Market Size, Trends, And Forecast 2025-2034.This level of fragmentation reflects the industry\u2019s localized service delivery model, varied regulatory codes acros",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Electrician Marketing Strategies | Get More Leads | Ignite Digital",
+          "link": "https://ignitedigital.com/industries/electrician/marketing-strategies/",
+          "snippet": "Marketing Strategies for Electricians. At Ignite Digital, we help electrical contractors move past feast-or-famine booking cycles and toward predictable, scalable growth.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Find Licensed Electricians Near You | Electrician Marketplace",
+          "link": "https://electricianinthisarea.com/",
+          "snippet": "Our platform helps licensed companies \u2014 from electricians and plumbers to cleaning and maintenance firms \u2014 showcase their services, attract local customers, and grow their business.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Commercial & Residential Electrical Services | Mr. Electric",
+          "link": "https://mrelectric.com/",
+          "snippet": "Trust Mr. Electric for expert commercial and residential electrical services. Our local electricians handle repairs, installations, and more. Call us today for reliable solutions!",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Electrical Work, Electricians in India",
+          "link": "https://m.indiamart.com/impcat/electrical-work.html",
+          "snippet": "Electrical Work, Electricians Providers in India. Get contact details and address of Electrical Work, Electricians firms and companies",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Recent Work - Electrical Marketers",
+          "link": "https://electricalmarketers.co.uk/recent-work/",
+          "snippet": "Marketing for Electricians.Industrial electrical experts PDR Electrical wanted a new website with SEO and copywriting that would appeal to the large industrial companies they specialise in.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Electricians Market Trends, Share and Forecast, 2026-2033",
+          "link": "https://www.coherentmarketinsights.com/industry-reports/electricians-market",
+          "snippet": "Electricians Market size is expected to reach USD 1.15 Tn by 2033, from USD 1 Tn in 2026, exhibiting a CAGR of 1.6% during the forecast period 2026-2033.Electricians market size and share analysis - g",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Electricians Market Growing by manufacturers, Demand | 2025-34",
+          "link": "https://www.forinsightsconsultancy.com/reports/electricians-market",
+          "snippet": "Electricians Market: Overview and Growth in the Upcoming Year. Electricians are crucial in ensuring safety and functionality of electrical systems in homes, businesses, and public spaces, with the dem",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Electricians Market Size, Share, Statistics And Research Stratagies...",
+          "link": "https://www.thebusinessresearchcompany.com/report/electricians-market",
+          "snippet": "Electricians Market Definition. An electrician is a skilled tradesperson who specializes in the installation, maintenance, repair, and operation of electrical systems and equipment. Their expertise ra",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Electrician Marketing Agency - Electrician Marketing Agency",
+          "link": "https://electricianmarketingagency.io/",
+          "snippet": "Electrician Marketing Agency knows the challenges of electrical businesses. Hence we specialize in SEO, PPC and Web Development for electricians.Electrician SEO. Convert visitors into customers with a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Electricians Market Competition Analysis 2025: How Players Are...",
+          "link": "https://cis.einnews.com/pr_news/876187953/electricians-market-competition-analysis-2025-how-players-are-shaping-growth",
+          "snippet": "Electricians Global Market Report 2025 \u2013 Market Size, Trends, And Forecast 2025-2034.This level of fragmentation reflects the industry\u2019s localized service delivery model, varied regulatory codes acros",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Electrician Marketing Strategies | Get More Leads | Ignite Digital",
+          "link": "https://ignitedigital.com/industries/electrician/marketing-strategies/",
+          "snippet": "Marketing Strategies for Electricians. At Ignite Digital, we help electrical contractors move past feast-or-famine booking cycles and toward predictable, scalable growth.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Find Licensed Electricians Near You | Electrician Marketplace",
+          "link": "https://electricianinthisarea.com/",
+          "snippet": "Our platform helps licensed companies \u2014 from electricians and plumbers to cleaning and maintenance firms \u2014 showcase their services, attract local customers, and grow their business.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Commercial & Residential Electrical Services | Mr. Electric",
+          "link": "https://mrelectric.com/",
+          "snippet": "Trust Mr. Electric for expert commercial and residential electrical services. Our local electricians handle repairs, installations, and more. Call us today for reliable solutions!",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "distributors of electrical products corporate sites",
+      "level": "L1",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Rexel USA :: Rexel USA | Wholesale Electrical Supply ...",
+          "link": "https://www.rexelusa.com/companies",
+          "snippet": "Buy Electrical Supplies Online at Rexel USA. Wholesale electrical, industrial, lighting, tools, control and automation products. We are a value added wholesale distribution company that supplies produ",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Rexel USA :: Rexel USA | Wholesale Electrical Supply ...",
+          "link": "https://www.rexelusa.com/companies",
+          "snippet": "Buy Electrical Supplies Online at Rexel USA. Wholesale electrical, industrial, lighting, tools, control and automation products. We are a value added wholesale distribution company that supplies produ",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "system integrators for electrical systems official site",
+      "level": "L2",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "How to open System Properties in Control Panel in Windows 11",
+          "link": "https://www.thewindowsclub.com/how-to-open-system-properties-in-windows-10",
+          "snippet": "Jul 4, 2026 \u00b7 Learn how to open System Properties applet of Control Panel (Advanced System Settings) in Windows 11/10, instead of the Settings > About page in this post.",
+          "backend": "searxng"
+        }
+      ],
+      "sample": [
+        {
+          "title": "How to open System Properties in Control Panel in Windows 11",
+          "link": "https://www.thewindowsclub.com/how-to-open-system-properties-in-windows-10",
+          "snippet": "Jul 4, 2026 \u00b7 Learn how to open System Properties applet of Control Panel (Advanced System Settings) in Windows 11/10, instead of the Settings > About page in this post.",
+          "backend": "searxng"
+        }
+      ]
+    },
+    "P1": {
+      "query": "electrical product distributor official website",
+      "level": "discovery",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Electrical4U: Learn Electrical & Electronics Engineering (For Free)",
+          "link": "https://www.electrical4u.com/",
+          "snippet": "May 26, 2024 \u00b7 Electrical4U is dedicated to the teaching and sharing of all things related to electrical and electronics engineering.",
+          "backend": "searxng"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Electrical4U: Learn Electrical & Electronics Engineering (For Free)",
+          "link": "https://www.electrical4u.com/",
+          "snippet": "May 26, 2024 \u00b7 Electrical4U is dedicated to the teaching and sharing of all things related to electrical and electronics engineering.",
+          "backend": "searxng"
+        }
+      ]
+    },
+    "P2": {
+      "query": "electrical component wholesaler corporate site",
+      "level": "discovery",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Electrical4U: Learn Electrical & Electronics Engineering (For Free)",
+          "link": "https://www.electrical4u.com/",
+          "snippet": "May 26, 2024 \u00b7 Electrical4U is dedicated to the teaching and sharing of all things related to electrical and electronics engineering.",
+          "backend": "searxng"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Electrical4U: Learn Electrical & Electronics Engineering (For Free)",
+          "link": "https://www.electrical4u.com/",
+          "snippet": "May 26, 2024 \u00b7 Electrical4U is dedicated to the teaching and sharing of all things related to electrical and electronics engineering.",
+          "backend": "searxng"
+        }
+      ]
+    },
+    "P3": {
+      "query": "electrical product reseller official sites",
+      "level": "discovery",
+      "result_count": 12,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Electrical engineering - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Electrical_engineering",
+          "snippet": "Electrical engineering is an engineering discipline concerned with the study, design, and application of equipment, devices, and systems that use electricity, electronics, and electromagnetism. It eme",
+          "backend": "searxng"
+        },
+        {
+          "title": "Electrical Technology - All About Electrical & Electronic Engineering",
+          "link": "https://www.electricaltechnology.org/",
+          "snippet": "All About Electrical and Electronic Engineering & Technology - Electrical Wiring, Power System, Control, Automation, Machines, Q-A, Motors, How To",
+          "backend": "searxng"
+        },
+        {
+          "title": "Basics of Electricity: Essential Concepts Explained",
+          "link": "https://www.lincolntech.edu/news/skilled-trades/electrical/basics-of-electricity-explained",
+          "snippet": "Oct 14, 2025 \u00b7 Electricity plays a critical role in our modern daily existence. It is the energy source that powers everything from home appliances to highly sophisticated transportation systems, and ",
+          "backend": "searxng"
+        },
+        {
+          "title": "AliExpress Official - Global Online Shopping Platform",
+          "link": "https://aliexpressofficial.com/",
+          "snippet": "AliExpress \u2013 Official Website. Go to AliExpress. Top products. Payment is held in escrow until you confirm receipt, which means sellers only get paid when the order is actually delivered. If you\u2019re lo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "AliExpress - Affordable Chinese Stores & Free Shipping - Online...",
+          "link": "https://www.aliexpress.com/",
+          "snippet": "On AliExpress, shop online for over 111 million affordable products from China on Fashion, Men's and Women's Clothing, Electronics, Toys, Tools, Home & Garden on our marketplace with free shipping! Lo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Croma Electronics | Online Electronics Shopping | Buy Electronics Online",
+          "link": "https://www.croma.com/",
+          "snippet": "My Wishlist Have a look at your favourite products. My Devices & Plans Manage your devices and plans. My Service Requests Manage complaints, feedback, service requests.To Check Products & Delivery Opt",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Seller Page",
+          "link": "https://borneoseller.com/",
+          "snippet": "Borneo Schematics Seller. Find a seller near you. Contact them for support or to purchase our products.+19549994279. Website : imeiFree.Com. Payment Method : Crypto, Local Bank Transfer, Address : Loc",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sell on Amazon | Start selling on Amazon.com today",
+          "link": "https://sell.amazon.com/",
+          "snippet": "Learn how to create an Amazon selling account, list products, and grow your business with programs like Fulfillment by Amazon (FBA).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Jumbo Electronics | UAE's Online Shopping Store for Mobiles, Laptops...",
+          "link": "https://www.jumbo.ae/",
+          "snippet": "Jumbo is UAE\u2019s leading online electronics store. Shop the latest electronic products like Mobiles, Laptops, Smart TVs, Personal Audio, Smart home, Networking devices and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "eBay UK | Electronics, Cars, Fashion, Collectibles & More",
+          "link": "https://www.ebay.co.uk/",
+          "snippet": "Band Tee Sunday | Vintage Drops, Preowned Tees & NEW Official Merch. SURPRISE PARCELS!! WHO KNOWS WHAT YOU WILL GET!! PreLoved Clothing \u00a31 Starts [GREAT4RESELLERS]. Warhammer Auctions!!! Brand New Pro",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "JioMart: India's online shopping",
+          "link": "https://www.jiomart.com/",
+          "snippet": "Enable location Services. Enter pin code to see product availability, offer and discount.Should you encounter any bugs, glitches, lack of functionality, delayed deliveries, billing errors or other pro",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Manus: Hands On AI",
+          "link": "https://manus.im/",
+          "snippet": "Create slides. Build website. Design.Less structure, more intelligence. Product. Pricing Web app AI design AI slides AI image generator AI music generator Manus browser operator Wide Research Mail Man",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Electrical engineering - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Electrical_engineering",
+          "snippet": "Electrical engineering is an engineering discipline concerned with the study, design, and application of equipment, devices, and systems that use electricity, electronics, and electromagnetism. It eme",
+          "backend": "searxng"
+        },
+        {
+          "title": "Electrical Technology - All About Electrical & Electronic Engineering",
+          "link": "https://www.electricaltechnology.org/",
+          "snippet": "All About Electrical and Electronic Engineering & Technology - Electrical Wiring, Power System, Control, Automation, Machines, Q-A, Motors, How To",
+          "backend": "searxng"
+        },
+        {
+          "title": "Basics of Electricity: Essential Concepts Explained",
+          "link": "https://www.lincolntech.edu/news/skilled-trades/electrical/basics-of-electricity-explained",
+          "snippet": "Oct 14, 2025 \u00b7 Electricity plays a critical role in our modern daily existence. It is the energy source that powers everything from home appliances to highly sophisticated transportation systems, and ",
+          "backend": "searxng"
+        },
+        {
+          "title": "AliExpress Official - Global Online Shopping Platform",
+          "link": "https://aliexpressofficial.com/",
+          "snippet": "AliExpress \u2013 Official Website. Go to AliExpress. Top products. Payment is held in escrow until you confirm receipt, which means sellers only get paid when the order is actually delivered. If you\u2019re lo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "AliExpress - Affordable Chinese Stores & Free Shipping - Online...",
+          "link": "https://www.aliexpress.com/",
+          "snippet": "On AliExpress, shop online for over 111 million affordable products from China on Fashion, Men's and Women's Clothing, Electronics, Toys, Tools, Home & Garden on our marketplace with free shipping! Lo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Croma Electronics | Online Electronics Shopping | Buy Electronics Online",
+          "link": "https://www.croma.com/",
+          "snippet": "My Wishlist Have a look at your favourite products. My Devices & Plans Manage your devices and plans. My Service Requests Manage complaints, feedback, service requests.To Check Products & Delivery Opt",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Seller Page",
+          "link": "https://borneoseller.com/",
+          "snippet": "Borneo Schematics Seller. Find a seller near you. Contact them for support or to purchase our products.+19549994279. Website : imeiFree.Com. Payment Method : Crypto, Local Bank Transfer, Address : Loc",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sell on Amazon | Start selling on Amazon.com today",
+          "link": "https://sell.amazon.com/",
+          "snippet": "Learn how to create an Amazon selling account, list products, and grow your business with programs like Fulfillment by Amazon (FBA).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Jumbo Electronics | UAE's Online Shopping Store for Mobiles, Laptops...",
+          "link": "https://www.jumbo.ae/",
+          "snippet": "Jumbo is UAE\u2019s leading online electronics store. Shop the latest electronic products like Mobiles, Laptops, Smart TVs, Personal Audio, Smart home, Networking devices and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "eBay UK | Electronics, Cars, Fashion, Collectibles & More",
+          "link": "https://www.ebay.co.uk/",
+          "snippet": "Band Tee Sunday | Vintage Drops, Preowned Tees & NEW Official Merch. SURPRISE PARCELS!! WHO KNOWS WHAT YOU WILL GET!! PreLoved Clothing \u00a31 Starts [GREAT4RESELLERS]. Warhammer Auctions!!! Brand New Pro",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "JioMart: India's online shopping",
+          "link": "https://www.jiomart.com/",
+          "snippet": "Enable location Services. Enter pin code to see product availability, offer and discount.Should you encounter any bugs, glitches, lack of functionality, delayed deliveries, billing errors or other pro",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Manus: Hands On AI",
+          "link": "https://manus.im/",
+          "snippet": "Create slides. Build website. Design.Less structure, more intelligence. Product. Pricing Web app AI design AI slides AI image generator AI music generator Manus browser operator Wide Research Mail Man",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P4": {
+      "query": "local electrical resellers websites",
+      "level": "discovery",
+      "result_count": 4,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "What you should expect from today\u2019s power resellers - Electrical...",
+          "link": "https://electricalengineeringmagazine.co.uk/what-you-should-expect-from-todays-power-resellers/",
+          "snippet": "A reseller worth their salt today should be able to advise you on the latest approaches and initiatives to issues such as energy management and power distribution and products available, such as 3Pole",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Resale of Electricity in South Africa",
+          "link": "https://www.eskom.co.za/distribution/wp-content/uploads/2021/06/GuidelinesElectricityResale.pdf",
+          "snippet": "Reseller example 4 A property owner wants to resell electricity to businesses within a block of flats or shopping centre or mall. The property owner decides to outsource billing services, connections ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Online Shopping Site for Fashion, Electronics, Home & More | Meesho",
+          "link": "https://www.meesho.com/",
+          "snippet": "Shoes Men Flip Flops and Sandals Men Formal Shoes Loafers Girls Boys Babies Clothing Sets Frocks & Dresses T-Shirt & Polos Toys & Games Summer Picks Best Sellers Baby Gears Bags & Backpacks Kids Acces",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Body Corporate Electricity - Reseller VS Bulk | MyBroadband Forum",
+          "link": "https://mybroadband.co.za/forum/threads/body-corporate-electricity-reseller-vs-bulk.1035739/",
+          "snippet": "Has anyone converted their complex to the reseller tariff from the \"bulk\" one? Curious on the admin burden and what changes from a complex perspective. Current charge is R1.18 odd per kWh for the comp",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "What you should expect from today\u2019s power resellers - Electrical...",
+          "link": "https://electricalengineeringmagazine.co.uk/what-you-should-expect-from-todays-power-resellers/",
+          "snippet": "A reseller worth their salt today should be able to advise you on the latest approaches and initiatives to issues such as energy management and power distribution and products available, such as 3Pole",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Resale of Electricity in South Africa",
+          "link": "https://www.eskom.co.za/distribution/wp-content/uploads/2021/06/GuidelinesElectricityResale.pdf",
+          "snippet": "Reseller example 4 A property owner wants to resell electricity to businesses within a block of flats or shopping centre or mall. The property owner decides to outsource billing services, connections ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Online Shopping Site for Fashion, Electronics, Home & More | Meesho",
+          "link": "https://www.meesho.com/",
+          "snippet": "Shoes Men Flip Flops and Sandals Men Formal Shoes Loafers Girls Boys Babies Clothing Sets Frocks & Dresses T-Shirt & Polos Toys & Games Summer Picks Best Sellers Baby Gears Bags & Backpacks Kids Acces",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Body Corporate Electricity - Reseller VS Bulk | MyBroadband Forum",
+          "link": "https://mybroadband.co.za/forum/threads/body-corporate-electricity-reseller-vs-bulk.1035739/",
+          "snippet": "Has anyone converted their complex to the reseller tariff from the \"bulk\" one? Curious on the admin burden and what changes from a complex perspective. Current charge is R1.18 odd per kWh for the comp",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P5": {
+      "query": "building automation system integrator websites",
+      "level": "discovery",
+      "result_count": 2,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Building System Integrators",
+          "link": "https://www.bsiddc.com/",
+          "snippet": "Building Systems Integrators is founded on three fundamental requirements for a successful automation system, design\u00b7develop\u00b7commission. With over 127 years of combined experience in the facility auto",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Comfort the Intelligent Home System by Cytech Technology",
+          "link": "https://www.cytech.biz/dealers.php",
+          "snippet": "Distribution and integration of home automation and BMS to domestic and commercial propertys. We offer security, audio/video and building management solutions. Lighting control, visualisation platform",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Building System Integrators",
+          "link": "https://www.bsiddc.com/",
+          "snippet": "Building Systems Integrators is founded on three fundamental requirements for a successful automation system, design\u00b7develop\u00b7commission. With over 127 years of combined experience in the facility auto",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Comfort the Intelligent Home System by Cytech Technology",
+          "link": "https://www.cytech.biz/dealers.php",
+          "snippet": "Distribution and integration of home automation and BMS to domestic and commercial propertys. We offer security, audio/video and building management solutions. Lighting control, visualisation platform",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "industrial automation integrators company sites",
+      "level": "discovery",
+      "result_count": 6,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "JR Automation | Global Industrial Automation Company",
+          "link": "https://www.jrautomation.com/",
+          "snippet": "JR Automation builds intelligent and innovative automation technology solutions that revolutionize how the world's leading manufacturers produce and distribute.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Industrial automation system integrators | Schneider Electric United...",
+          "link": "https://www.se.com/us/en/partners/system-integrators/industry/",
+          "snippet": "Utilize solutions for industrial automation system integrators and deliver best-in-class architecture, innovative technology, and expert training. |",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Automation Systems Integrators Suppliers",
+          "link": "https://www.thomasnet.com/suppliers/usa/automation-systems-integrators-2310332",
+          "snippet": "Design, fabrication and installation of automation systems for industrial applications. Integrated robotic and conveyor systems are available. Automated assembly solutions and semi-automatic lean manu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Industrial Automation Integrators, LLC - Company Profile... | Metoree",
+          "link": "https://us.metoree.com/companies/161398/",
+          "snippet": "Industrial automation Integrators also specialize in CAD Design, Project Management, Customized Control Systems, and In-house and on-site Custom Fabrication.Company Type. Distributor. Website.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lumis Automation | Industrial Automation Integrators",
+          "link": "https://lumisautomation.com/",
+          "snippet": "Lumis Automation is a robotics and industrial automation company based in Orange County, California. Our diverse team of mechanical, electrical, and software engineers work together to design and deli",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - Torkwell | SCADA dealer, Schneider dealer, Allen bradley...",
+          "link": "https://www.torkwellautomation.com/",
+          "snippet": "Industrial IoT (IIoT) Solutions connect machines, sensors, and systems to collect and analyze real-time data. They help industries monitor operations, improve efficiency, reduce downtime, and enable p",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "JR Automation | Global Industrial Automation Company",
+          "link": "https://www.jrautomation.com/",
+          "snippet": "JR Automation builds intelligent and innovative automation technology solutions that revolutionize how the world's leading manufacturers produce and distribute.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Industrial automation system integrators | Schneider Electric United...",
+          "link": "https://www.se.com/us/en/partners/system-integrators/industry/",
+          "snippet": "Utilize solutions for industrial automation system integrators and deliver best-in-class architecture, innovative technology, and expert training. |",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Automation Systems Integrators Suppliers",
+          "link": "https://www.thomasnet.com/suppliers/usa/automation-systems-integrators-2310332",
+          "snippet": "Design, fabrication and installation of automation systems for industrial applications. Integrated robotic and conveyor systems are available. Automated assembly solutions and semi-automatic lean manu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Industrial Automation Integrators, LLC - Company Profile... | Metoree",
+          "link": "https://us.metoree.com/companies/161398/",
+          "snippet": "Industrial automation Integrators also specialize in CAD Design, Project Management, Customized Control Systems, and In-house and on-site Custom Fabrication.Company Type. Distributor. Website.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lumis Automation | Industrial Automation Integrators",
+          "link": "https://lumisautomation.com/",
+          "snippet": "Lumis Automation is a robotics and industrial automation company based in Orange County, California. Our diverse team of mechanical, electrical, and software engineers work together to design and deli",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - Torkwell | SCADA dealer, Schneider dealer, Allen bradley...",
+          "link": "https://www.torkwellautomation.com/",
+          "snippet": "Industrial IoT (IIoT) Solutions connect machines, sensors, and systems to collect and analyze real-time data. They help industries monitor operations, improve efficiency, reduce downtime, and enable p",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P7": {
+      "query": "electrical maintenance service providers",
+      "level": "discovery",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Electrical Maintenance Service in New Orleans | Big Easy Electricians",
+          "link": "https://www.bigeasyelectricians.com/services/electrical-maintenance/",
+          "snippet": "New Orleans has no shortage of electrical maintenance service providers, whatever your electrical needs.Factors Affecting Electrical Maintenance Needs. Electrical maintenance is an important part of o",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Electrical Maintenance Service in New Orleans | Big Easy Electricians",
+          "link": "https://www.bigeasyelectricians.com/services/electrical-maintenance/",
+          "snippet": "New Orleans has no shortage of electrical maintenance service providers, whatever your electrical needs.Factors Affecting Electrical Maintenance Needs. Electrical maintenance is an important part of o",
+          "backend": "ddgs_bing"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

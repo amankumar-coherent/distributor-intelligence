@@ -1,0 +1,2345 @@
+{
+  "phase": 1,
+  "query": "Margarine Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T21:10:08.734717+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "margarine",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "food production",
+    "industry_terms": [
+      "margarine",
+      "plant-based fats",
+      "emulsifiers",
+      "hydrogenated oils",
+      "spreadable fats"
+    ],
+    "ecosystem_functions": [
+      "manufacturing margarine",
+      "distributing margarine",
+      "wholesaling margarine",
+      "reselling margarine",
+      "providing logistics services",
+      "offering marketing services",
+      "integrating supply chain solutions",
+      "supporting retail operations"
+    ],
+    "interpretation_summary": "The margarine market encompasses the production and distribution of margarine, a butter substitute made from vegetable oils and fats. Key participants include manufacturers, distributors, and various channel partners inv",
+    "relevance_keywords": [
+      "margarine production",
+      "margarine distribution",
+      "wholesale margarine",
+      "margarine resellers",
+      "food service margarine"
+    ],
+    "negative_keywords": [
+      "butter",
+      "dairy",
+      "non-food",
+      "unrelated industries",
+      "news articles"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "Unilever",
+        "primary_domain": "unilever.com",
+        "company_function": "margarine manufacturer"
+      },
+      {
+        "canonical_name": "Bunge Limited",
+        "primary_domain": "bunge.com",
+        "company_function": "margarine manufacturer"
+      },
+      {
+        "canonical_name": "Cargill",
+        "primary_domain": "cargill.com",
+        "company_function": "margarine manufacturer"
+      },
+      {
+        "canonical_name": "Land O'Lakes",
+        "primary_domain": "landolakes.com",
+        "company_function": "margarine manufacturer"
+      },
+      {
+        "canonical_name": "Dawn Foods",
+        "primary_domain": "dawnfoods.com",
+        "company_function": "margarine manufacturer"
+      },
+      {
+        "canonical_name": "Sysco",
+        "primary_domain": "sysco.com",
+        "company_function": "food distributor"
+      },
+      {
+        "canonical_name": "Gordon Food Service",
+        "primary_domain": "gfs.com",
+        "company_function": "food distributor"
+      },
+      {
+        "canonical_name": "US Foods",
+        "primary_domain": "usfoods.com",
+        "company_function": "food distributor"
+      },
+      {
+        "canonical_name": "Performance Food Group",
+        "primary_domain": "pfgc.com",
+        "company_function": "food distributor",
+        "segment": "Distributors",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "McLane Company",
+        "primary_domain": "mclaneco.com",
+        "company_function": "food distributor",
+        "segment": "Distributors",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Amazon",
+        "primary_domain": "amazon.com",
+        "company_function": "online reseller",
+        "segment": "Resellers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Walmart",
+        "primary_domain": "walmart.com",
+        "company_function": "retail reseller",
+        "segment": "Resellers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Costco",
+        "primary_domain": "costco.com",
+        "company_function": "retail reseller",
+        "segment": "Resellers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Instacart",
+        "primary_domain": "instacart.com",
+        "company_function": "online reseller",
+        "segment": "Resellers",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "margarine",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "margarine",
+    "include_keywords": [
+      "margarine suppliers",
+      "bulk margarine",
+      "margarine distribution",
+      "margarine wholesalers",
+      "plant-based margarine"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The margarine market encompasses the production and distribution of margarine, a butter substitute made from vegetable oils and fats. Key participants include manufacturers, distributors, and various channel partners involved in the supply chain globally.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Manufacturing",
+        "description": "This layer involves the production of margarine from various vegetable oils and fats.",
+        "segments": [
+          {
+            "segment_name": "Margarine Manufacturers",
+            "sub_segments": [
+              "Plant-based margarine",
+              "Non-hydrogenated margarine"
+            ],
+            "participant_types": [
+              "manufacturer"
+            ],
+            "search_intents": [
+              "margarine manufacturers official site",
+              "plant-based margarine suppliers"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L2",
+        "layer_name": "Distribution",
+        "description": "This layer includes the distribution of margarine products through various channels.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Regional distributors",
+              "National distributors"
+            ],
+            "participant_types": [
+              "distributor"
+            ],
+            "search_intents": [
+              "margarine distributors near me",
+              "margarine wholesale distributors"
+            ]
+          },
+          {
+            "segment_name": "Wholesalers",
+            "sub_segments": [
+              "Food wholesalers",
+              "Grocery wholesalers"
+            ],
+            "participant_types": [
+              "wholesaler"
+            ],
+            "search_intents": [
+              "margarine wholesalers official site",
+              "bulk margarine suppliers"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L3",
+        "layer_name": "Retail and Resale",
+        "description": "This layer involves the retailing and reselling of margarine products to end consumers.",
+        "segments": [
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Online resellers",
+              "Local grocery resellers"
+            ],
+            "participant_types": [
+              "reseller"
+            ],
+            "search_intents": [
+              "buy margarine online",
+              "local margarine resellers"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L4",
+        "layer_name": "Service Providers",
+        "description": "This layer includes service providers that support the margarine supply chain.",
+        "segments": [
+          {
+            "segment_name": "Channel Partners",
+            "sub_segments": [
+              "Logistics providers",
+              "Marketing agencies"
+            ],
+            "participant_types": [
+              "service provider",
+              "channel partner"
+            ],
+            "search_intents": [
+              "margarine supply chain service providers",
+              "margarine marketing agencies"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Butter market",
+        "Dairy alternatives",
+        "Cooking oils",
+        "Food service providers"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "search for margarine manufacturers official site",
+        "sub_sector": "margarine_manufacturer",
+        "layer_id": "L1",
+        "segment": "Margarine Manufacturers"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "find margarine distributors near me",
+        "sub_sector": "margarine_distributor",
+        "layer_id": "L2",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "search for margarine wholesalers official site",
+        "sub_sector": "margarine_wholesaler",
+        "layer_id": "L2",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "buy margarine online",
+        "sub_sector": "margarine_reseller",
+        "layer_id": "L3",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M5",
+        "level": "market_map",
+        "text": "find margarine supply chain service providers",
+        "sub_sector": "margarine_service_provider",
+        "layer_id": "L4",
+        "segment": "Channel Partners"
+      },
+      {
+        "id": "M6",
+        "level": "market_map",
+        "text": "plant-based margarine suppliers",
+        "sub_sector": "margarine_manufacturer",
+        "layer_id": "L1",
+        "segment": "Margarine Manufacturers"
+      },
+      {
+        "id": "M7",
+        "level": "market_map",
+        "text": "margarine wholesale distributors",
+        "sub_sector": "margarine_distributor",
+        "layer_id": "L2",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M8",
+        "level": "market_map",
+        "text": "bulk margarine suppliers",
+        "sub_sector": "margarine_wholesaler",
+        "layer_id": "L2",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M9",
+        "level": "market_map",
+        "text": "local margarine resellers",
+        "sub_sector": "margarine_reseller",
+        "layer_id": "L3",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M10",
+        "level": "market_map",
+        "text": "margarine marketing agencies",
+        "sub_sector": "margarine_service_provider",
+        "layer_id": "L4",
+        "segment": "Channel Partners"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "food production",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "margarine companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "margarine distributors corporate sites"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "margarine wholesalers official site"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "market_map",
+      "text": "search for margarine manufacturers official site"
+    },
+    {
+      "id": "P2",
+      "level": "market_map",
+      "text": "find margarine distributors near me"
+    },
+    {
+      "id": "P3",
+      "level": "market_map",
+      "text": "search for margarine wholesalers official site"
+    },
+    {
+      "id": "P4",
+      "level": "market_map",
+      "text": "buy margarine online"
+    },
+    {
+      "id": "P5",
+      "level": "market_map",
+      "text": "find margarine supply chain service providers"
+    },
+    {
+      "id": "P6",
+      "level": "market_map",
+      "text": "plant-based margarine suppliers"
+    },
+    {
+      "id": "P7",
+      "level": "market_map",
+      "text": "margarine wholesale distributors"
+    },
+    {
+      "id": "P8",
+      "level": "market_map",
+      "text": "bulk margarine suppliers"
+    },
+    {
+      "id": "P9",
+      "level": "market_map",
+      "text": "local margarine resellers"
+    },
+    {
+      "id": "P10",
+      "level": "market_map",
+      "text": "margarine marketing agencies"
+    },
+    {
+      "id": "P11",
+      "level": "discovery",
+      "text": "margarine distributor corporate site"
+    },
+    {
+      "id": "P12",
+      "level": "discovery",
+      "text": "margarine wholesaler official site"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "margarine companies official websites",
+      "level": "L0",
+      "result_count": 12,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Flora Food Group - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Flora_Food_Group",
+          "snippet": "Flora Food Group B.V. is a Dutch food company owning multiple brands of margarine, food spreads, and plant-based foods, including Flora and Blue Band. It states that it is the largest plant-based cons",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "15 Best Margarine Manufacturers and Suppliers (2026)",
+          "link": "https://usetorg.com/category/margarine",
+          "snippet": "15 Best Margarine Manufacturers & Suppliers Looking for Margarine manufacturers to streamline your bulk or private label sourcing? Discover industry-aligned suppliers specializing in top-quality Marga",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine | B2B companies and suppliers | europages",
+          "link": "https://www.europages.co.uk/companies/margarine.html",
+          "snippet": "320 Companies and suppliers for Margarine Find wholesalers and contact them directly Leading B2B martketplace Find companies now! MAITRE MARGARINIER SINCE 1934 A 100% family-owned company, s.a. Aigrem",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "8 Best Margarine Brands for Baking (Updated 2026)",
+          "link": "https://bakinghow.com/best-margarine-brands/",
+          "snippet": "There you have it, folks! The top eight margarine brands for baking. While I am personally a big fan of Land O Lakes, any of these margarine companies will do justice to your baked treats. What is you",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine Manufacturers and Suppliers List - Forie.com",
+          "link": "https://www.forie.com/en/companies/margarine.htm",
+          "snippet": "Margarine Manufacturers and Suppliers Companies List of World. You are viewing the companies related to the keyword margarine.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Industrial Margarine Companies: Market Share & Analyst Report",
+          "link": "https://www.verifiedmarketresearch.com/blog/top-industrial-margarine-companies/",
+          "snippet": "According to Global Industrial Margarine Companies\u2019 Market Report, the top players of the margarine industry are introducing new ways to produce margarine in masses. It is an inexpensive butter substi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "What Are the Top 17 Industrial Margarine Companies in 2026?",
+          "link": "https://www.marketgrowthreports.com/blog/industrial-margarine-companies-407",
+          "snippet": "Industrial Margarine Companies \u2013 Top Company List [Updated]. Updated On: July 13, 2026 | Food & Beverages. The Industrial Margarine Market is estimated to be valued at USD 2311.18 million in 2026 and ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "What Is Margarine\u2014And How Is It Different Than Butter?",
+          "link": "https://www.rd.com/article/what-is-margarine/",
+          "snippet": "Margarine companies began reformulating their recipes to be healthier and free of trans fats, and in 2015, the FDA officially banned trans fats in all processed food made in the United States.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine Export Companies List",
+          "link": "https://www.turkishexporter.com.tr/en/companies/margarine.htm",
+          "snippet": "Margarine manufacturers, Margarine export companies list - B2b wholesalers, exporters, suppliers worldwide.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "12 Best Margarine Manufacturers and Brands - Keychain.com",
+          "link": "https://www.keychain.com/manufacturer/margarine",
+          "snippet": "The company specializes in the packaging of butter and margarine. Their product line includes Honeybrook Brand products as well as private labeled butter and margarine items. They provide these produc",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "FAQs | Unilever",
+          "link": "https://www.unilever.com/contact/faqs/",
+          "snippet": "View Investors. Search site. Home.Unilever \u2013 formed in 1930 when Dutch margarine company, Margarine Unie, merged with British soap-maker Lever Brothers \u2013 is a business founded on a sense of purpose, a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home | Royale Lacroix",
+          "link": "https://www.royalelacroix.com/?lang=en",
+          "snippet": "Royale Lacroix\u2019s experience in working with margarine and fats starts far back in its past. Royale Lacroix proposes a wide range of products, including table and cooking margarines, as well as product",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Flora Food Group - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Flora_Food_Group",
+          "snippet": "Flora Food Group B.V. is a Dutch food company owning multiple brands of margarine, food spreads, and plant-based foods, including Flora and Blue Band. It states that it is the largest plant-based cons",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "15 Best Margarine Manufacturers and Suppliers (2026)",
+          "link": "https://usetorg.com/category/margarine",
+          "snippet": "15 Best Margarine Manufacturers & Suppliers Looking for Margarine manufacturers to streamline your bulk or private label sourcing? Discover industry-aligned suppliers specializing in top-quality Marga",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine | B2B companies and suppliers | europages",
+          "link": "https://www.europages.co.uk/companies/margarine.html",
+          "snippet": "320 Companies and suppliers for Margarine Find wholesalers and contact them directly Leading B2B martketplace Find companies now! MAITRE MARGARINIER SINCE 1934 A 100% family-owned company, s.a. Aigrem",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "8 Best Margarine Brands for Baking (Updated 2026)",
+          "link": "https://bakinghow.com/best-margarine-brands/",
+          "snippet": "There you have it, folks! The top eight margarine brands for baking. While I am personally a big fan of Land O Lakes, any of these margarine companies will do justice to your baked treats. What is you",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine Manufacturers and Suppliers List - Forie.com",
+          "link": "https://www.forie.com/en/companies/margarine.htm",
+          "snippet": "Margarine Manufacturers and Suppliers Companies List of World. You are viewing the companies related to the keyword margarine.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Industrial Margarine Companies: Market Share & Analyst Report",
+          "link": "https://www.verifiedmarketresearch.com/blog/top-industrial-margarine-companies/",
+          "snippet": "According to Global Industrial Margarine Companies\u2019 Market Report, the top players of the margarine industry are introducing new ways to produce margarine in masses. It is an inexpensive butter substi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "What Are the Top 17 Industrial Margarine Companies in 2026?",
+          "link": "https://www.marketgrowthreports.com/blog/industrial-margarine-companies-407",
+          "snippet": "Industrial Margarine Companies \u2013 Top Company List [Updated]. Updated On: July 13, 2026 | Food & Beverages. The Industrial Margarine Market is estimated to be valued at USD 2311.18 million in 2026 and ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "What Is Margarine\u2014And How Is It Different Than Butter?",
+          "link": "https://www.rd.com/article/what-is-margarine/",
+          "snippet": "Margarine companies began reformulating their recipes to be healthier and free of trans fats, and in 2015, the FDA officially banned trans fats in all processed food made in the United States.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine Export Companies List",
+          "link": "https://www.turkishexporter.com.tr/en/companies/margarine.htm",
+          "snippet": "Margarine manufacturers, Margarine export companies list - B2b wholesalers, exporters, suppliers worldwide.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "12 Best Margarine Manufacturers and Brands - Keychain.com",
+          "link": "https://www.keychain.com/manufacturer/margarine",
+          "snippet": "The company specializes in the packaging of butter and margarine. Their product line includes Honeybrook Brand products as well as private labeled butter and margarine items. They provide these produc",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "FAQs | Unilever",
+          "link": "https://www.unilever.com/contact/faqs/",
+          "snippet": "View Investors. Search site. Home.Unilever \u2013 formed in 1930 when Dutch margarine company, Margarine Unie, merged with British soap-maker Lever Brothers \u2013 is a business founded on a sense of purpose, a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home | Royale Lacroix",
+          "link": "https://www.royalelacroix.com/?lang=en",
+          "snippet": "Royale Lacroix\u2019s experience in working with margarine and fats starts far back in its past. Royale Lacroix proposes a wide range of products, including table and cooking margarines, as well as product",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "margarine distributors corporate sites",
+      "level": "L1",
+      "result_count": 19,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Margarine - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Margarine",
+          "snippet": "Margarine[note 1] is a spread used for flavoring, baking, and cooking. It is most often used as a substitute for butter. Although originally made from animal fats, most margarine consumed today is \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is Margarine, How It's Made and Why You Should Avoid It",
+          "link": "https://www.cookist.com/what-is-margarine-how-its-made-and-why-you-should-avoid-it-at-all-costs/",
+          "snippet": "Margarine is a plant-based product used both in home cooking and in the food industry. It is a versatile food that is generally cheaper than butter, of which it is probably the best-known alternative ",
+          "backend": "searxng"
+        },
+        {
+          "title": "Butter Vs. Margarine: Which Is Healthier? Dietitians Explain",
+          "link": "https://www.prevention.com/food-nutrition/healthy-eating/a68899574/butter-vs-margarine/",
+          "snippet": "Oct 10, 2025 \u00b7 They're both primarily sources of fat, but is one more nutritious? Dietitians break down butter vs. margarine and share which you should include in your diet.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Margarines in Butter & Margarine - Walmart.com",
+          "link": "https://www.walmart.com/browse/food/margarines/976759_9176907_1001467_6384204",
+          "snippet": "Shop for Margarines in Butter & Margarine. Buy products such as Blue Bonnet Vegetable Oil Spread, 45 oz at Walmart and save.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Margarine | Definition, Production, & Ingredients | Britannica",
+          "link": "https://www.britannica.com/topic/margarine",
+          "snippet": "Jun 12, 2026 \u00b7 Margarine, food product made principally from vegetable or animal fats or oils in which is dispersed an aqueous portion containing milk products, salt, and ingredients such as flavoring",
+          "backend": "searxng"
+        },
+        {
+          "title": "Butter vs. Margarine: Which Is Healthier?",
+          "link": "https://www.healthline.com/nutrition/butter-vs-margarine",
+          "snippet": "Apr 2, 2025 \u00b7 Butter is a natural milk product while margarine is processed from altered vegetable oils. Learn the pros and cons of each and which may be better for you.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Butter or margarine \u2013 which is better for you? - BBC Food",
+          "link": "https://www.bbc.co.uk/food/articles/c4gwpdne732o",
+          "snippet": "Feb 13, 2026 \u00b7 Butter is higher in saturated fat but margarine is an ultra-processed food (UPF). So is one healthier than the other? This is what the experts say...",
+          "backend": "searxng"
+        },
+        {
+          "title": "Butter vs. margarine: Which is better for my heart?",
+          "link": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/expert-answers/butter-vs-margarine/faq-20058152",
+          "snippet": "Apr 30, 2025 \u00b7 Margarine often tops butter when it comes to heart health. Margarine is a blend of oils that are mostly unsaturated fat. Butter is made from cream or milk. The type of fat found in anim",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Is Margarine Really Made of? Differences to Butter - MedicineNet",
+          "link": "https://www.medicinenet.com/what_is_margarine_really_made_of/article.htm",
+          "snippet": "Jul 30, 2024 \u00b7 Margarine is a fatty, water-in-oil emulsion that's used as an alternative to butter. Learn whether it is healthier than butter.",
+          "backend": "searxng"
+        },
+        {
+          "title": "margarine Distributor | B2B companies and suppliers | europages",
+          "link": "https://www.europages.co.uk/companies/distributor/margarine.html",
+          "snippet": "55 suppliers for margarine Distributor Find wholesalers and contact them directly B2B martketplace Find companies now!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine Industry - Margarine Companies | Margarine Manufacturers",
+          "link": "https://foodcompaniesdirectory.com/food/margarine/",
+          "snippet": "Directory or List of Margarine Companies like Margarine Manufacturers, Margarine Suppliers, Margarine Distributors, Margarine Exporters, Margarine Importers etc. Find details like address, phone numbe",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Plant Based Margarine Market Research Report 2033",
+          "link": "https://dataintelo.com/report/plant-based-margarine-market",
+          "snippet": "Plant Based Margarine market valued at $4.8 billion in 2025, projected to reach $7.9 billion by 2033, growing at 7.3% CAGR amid health consciousness and sustainability demand.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nutritious margarine distributors, distributorship opportunity in india",
+          "link": "https://www.appointdistributors.com/distributors/food-beverage/milk-and-dairy-products/butter/nutritious-margarine-distributors",
+          "snippet": "Appointdistributors offers nutritious margarine distributorship opportunities in India. wanted distributors, dealers, and suppliers of nutritious margarine.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine - American International Foods, Inc.",
+          "link": "https://www.americaninternationalfoods.com/ingredient-categories/oils/margarine/",
+          "snippet": "AIFI is a leading margarine supplier & distributor offering high quality wholesale oils to manufacturers & processors at competitive prices.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Curious Questions: Margarine used to be pink \u2014 but why? | Country Life",
+          "link": "https://www.countrylife.co.uk/food-drink/curious-questions-was-margarine-really-once-pink-275093",
+          "snippet": "In response margarine manufacturers distributed margarine in its natural state together with a sachet of yellow dye which the consumer, in a process known as \u2018butter stomping\u2019, added and mixed into th",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Logistics of Margarine Distribution and Global Trade... - EssFeed",
+          "link": "https://essfeed.com/the-logistics-of-margarine-distribution-and-global-trade-networks-the-logistics-of-margarine-distribution-and-global-trade-networks/",
+          "snippet": "One of the key challenges in margarine distribution is maintaining product quality and freshness throughout the supply chain. Margarine is a perishable product that requires careful handling and stora",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine Kenya Suppliers, Trade & Prices | Market Overview... | Tridge",
+          "link": "https://www.tridge.com/market-overview/margarine/KE",
+          "snippet": "Margarine Kenya market overview: suppliers, trade, and price intelligence. Review 0 premium suppliers, 5 sampled export transactions, 8 export partner companies, and 32 import partner companies with S",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Butter and Margarine Market Size, Future Growth and Forecast 2033",
+          "link": "https://www.strategicrevenueinsights.com/industry/butter-and-margarine-market",
+          "snippet": "Distribution Channel Analysis. The distribution channels for butter and margarine products are diverse, with supermarkets and hypermarkets being the most prominent. These retail outlets offer a wide r",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Photo: Margarine Distributor Blue Band... \u2014 Yandex Maps",
+          "link": "https://yandex.com/maps/org/margarine_distributor_blue_band_huamantanga/33550095347/gallery/",
+          "snippet": "Photos of Margarine Distributor Blue Band - Huamantanga made by the business and Yandex Maps users.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Margarine - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Margarine",
+          "snippet": "Margarine[note 1] is a spread used for flavoring, baking, and cooking. It is most often used as a substitute for butter. Although originally made from animal fats, most margarine consumed today is \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is Margarine, How It's Made and Why You Should Avoid It",
+          "link": "https://www.cookist.com/what-is-margarine-how-its-made-and-why-you-should-avoid-it-at-all-costs/",
+          "snippet": "Margarine is a plant-based product used both in home cooking and in the food industry. It is a versatile food that is generally cheaper than butter, of which it is probably the best-known alternative ",
+          "backend": "searxng"
+        },
+        {
+          "title": "Butter Vs. Margarine: Which Is Healthier? Dietitians Explain",
+          "link": "https://www.prevention.com/food-nutrition/healthy-eating/a68899574/butter-vs-margarine/",
+          "snippet": "Oct 10, 2025 \u00b7 They're both primarily sources of fat, but is one more nutritious? Dietitians break down butter vs. margarine and share which you should include in your diet.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Margarines in Butter & Margarine - Walmart.com",
+          "link": "https://www.walmart.com/browse/food/margarines/976759_9176907_1001467_6384204",
+          "snippet": "Shop for Margarines in Butter & Margarine. Buy products such as Blue Bonnet Vegetable Oil Spread, 45 oz at Walmart and save.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Margarine | Definition, Production, & Ingredients | Britannica",
+          "link": "https://www.britannica.com/topic/margarine",
+          "snippet": "Jun 12, 2026 \u00b7 Margarine, food product made principally from vegetable or animal fats or oils in which is dispersed an aqueous portion containing milk products, salt, and ingredients such as flavoring",
+          "backend": "searxng"
+        },
+        {
+          "title": "Butter vs. Margarine: Which Is Healthier?",
+          "link": "https://www.healthline.com/nutrition/butter-vs-margarine",
+          "snippet": "Apr 2, 2025 \u00b7 Butter is a natural milk product while margarine is processed from altered vegetable oils. Learn the pros and cons of each and which may be better for you.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Butter or margarine \u2013 which is better for you? - BBC Food",
+          "link": "https://www.bbc.co.uk/food/articles/c4gwpdne732o",
+          "snippet": "Feb 13, 2026 \u00b7 Butter is higher in saturated fat but margarine is an ultra-processed food (UPF). So is one healthier than the other? This is what the experts say...",
+          "backend": "searxng"
+        },
+        {
+          "title": "Butter vs. margarine: Which is better for my heart?",
+          "link": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/expert-answers/butter-vs-margarine/faq-20058152",
+          "snippet": "Apr 30, 2025 \u00b7 Margarine often tops butter when it comes to heart health. Margarine is a blend of oils that are mostly unsaturated fat. Butter is made from cream or milk. The type of fat found in anim",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Is Margarine Really Made of? Differences to Butter - MedicineNet",
+          "link": "https://www.medicinenet.com/what_is_margarine_really_made_of/article.htm",
+          "snippet": "Jul 30, 2024 \u00b7 Margarine is a fatty, water-in-oil emulsion that's used as an alternative to butter. Learn whether it is healthier than butter.",
+          "backend": "searxng"
+        },
+        {
+          "title": "margarine Distributor | B2B companies and suppliers | europages",
+          "link": "https://www.europages.co.uk/companies/distributor/margarine.html",
+          "snippet": "55 suppliers for margarine Distributor Find wholesalers and contact them directly B2B martketplace Find companies now!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine Industry - Margarine Companies | Margarine Manufacturers",
+          "link": "https://foodcompaniesdirectory.com/food/margarine/",
+          "snippet": "Directory or List of Margarine Companies like Margarine Manufacturers, Margarine Suppliers, Margarine Distributors, Margarine Exporters, Margarine Importers etc. Find details like address, phone numbe",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Plant Based Margarine Market Research Report 2033",
+          "link": "https://dataintelo.com/report/plant-based-margarine-market",
+          "snippet": "Plant Based Margarine market valued at $4.8 billion in 2025, projected to reach $7.9 billion by 2033, growing at 7.3% CAGR amid health consciousness and sustainability demand.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nutritious margarine distributors, distributorship opportunity in india",
+          "link": "https://www.appointdistributors.com/distributors/food-beverage/milk-and-dairy-products/butter/nutritious-margarine-distributors",
+          "snippet": "Appointdistributors offers nutritious margarine distributorship opportunities in India. wanted distributors, dealers, and suppliers of nutritious margarine.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine - American International Foods, Inc.",
+          "link": "https://www.americaninternationalfoods.com/ingredient-categories/oils/margarine/",
+          "snippet": "AIFI is a leading margarine supplier & distributor offering high quality wholesale oils to manufacturers & processors at competitive prices.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Curious Questions: Margarine used to be pink \u2014 but why? | Country Life",
+          "link": "https://www.countrylife.co.uk/food-drink/curious-questions-was-margarine-really-once-pink-275093",
+          "snippet": "In response margarine manufacturers distributed margarine in its natural state together with a sachet of yellow dye which the consumer, in a process known as \u2018butter stomping\u2019, added and mixed into th",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Logistics of Margarine Distribution and Global Trade... - EssFeed",
+          "link": "https://essfeed.com/the-logistics-of-margarine-distribution-and-global-trade-networks-the-logistics-of-margarine-distribution-and-global-trade-networks/",
+          "snippet": "One of the key challenges in margarine distribution is maintaining product quality and freshness throughout the supply chain. Margarine is a perishable product that requires careful handling and stora",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine Kenya Suppliers, Trade & Prices | Market Overview... | Tridge",
+          "link": "https://www.tridge.com/market-overview/margarine/KE",
+          "snippet": "Margarine Kenya market overview: suppliers, trade, and price intelligence. Review 0 premium suppliers, 5 sampled export transactions, 8 export partner companies, and 32 import partner companies with S",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Butter and Margarine Market Size, Future Growth and Forecast 2033",
+          "link": "https://www.strategicrevenueinsights.com/industry/butter-and-margarine-market",
+          "snippet": "Distribution Channel Analysis. The distribution channels for butter and margarine products are diverse, with supermarkets and hypermarkets being the most prominent. These retail outlets offer a wide r",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Photo: Margarine Distributor Blue Band... \u2014 Yandex Maps",
+          "link": "https://yandex.com/maps/org/margarine_distributor_blue_band_huamantanga/33550095347/gallery/",
+          "snippet": "Photos of Margarine Distributor Blue Band - Huamantanga made by the business and Yandex Maps users.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "margarine wholesalers official site",
+      "level": "L2",
+      "result_count": 21,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Margarine - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Margarine",
+          "snippet": "Margarine[note 1] is a spread used for flavoring, baking, and cooking. It is most often used as a substitute for butter. Although \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is Margarine, How It's Made and Why You Should Avoid It",
+          "link": "https://www.cookist.com/what-is-margarine-how-its-made-and-why-you-should-avoid-it-at-all-costs/",
+          "snippet": "Margarine is a plant-based product used both in home cooking and in the food industry. It is a versatile food that is generally cheaper \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Butter Vs. Margarine: Which Is Healthier? Dietitians Explain",
+          "link": "https://www.prevention.com/food-nutrition/healthy-eating/a68899574/butter-vs-margarine/",
+          "snippet": "Oct 10, 2025 \u00b7 They're both primarily sources of fat, but is one more nutritious? Dietitians break down butter vs. margarine and share \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Margarines in Butter & Margarine - Walmart.com",
+          "link": "https://www.walmart.com/browse/food/margarines/976759_9176907_1001467_6384204",
+          "snippet": "Shop for Margarines in Butter & Margarine. Buy products such as Blue Bonnet Vegetable Oil Spread, 45 oz at Walmart and save.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Margarine | Definition, Production, & Ingredients | Britannica",
+          "link": "https://www.britannica.com/topic/margarine",
+          "snippet": "Jun 12, 2026 \u00b7 Margarine, food product made principally from vegetable or animal fats or oils in which is dispersed an aqueous \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Butter vs. Margarine: Which Is Healthier?",
+          "link": "https://www.healthline.com/nutrition/butter-vs-margarine",
+          "snippet": "Apr 2, 2025 \u00b7 Butter is a natural milk product while margarine is processed from altered vegetable oils. Learn the pros and cons of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Butter or margarine \u2013 which is better for you? - BBC Food",
+          "link": "https://www.bbc.co.uk/food/articles/c4gwpdne732o",
+          "snippet": "Feb 13, 2026 \u00b7 Butter is higher in saturated fat but margarine is an ultra-processed food (UPF). So is one healthier than the other? \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Butter vs. margarine: Which is better for my heart?",
+          "link": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/expert-answers/butter-vs-margarine/faq-20058152",
+          "snippet": "Apr 30, 2025 \u00b7 Margarine often tops butter when it comes to heart health. Margarine is a blend of oils that are mostly unsaturated fat. \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Is Margarine Really Made of? Differences to Butter - MedicineNet",
+          "link": "https://www.medicinenet.com/what_is_margarine_really_made_of/article.htm",
+          "snippet": "Jul 30, 2024 \u00b7 Margarine is a fatty, water-in-oil emulsion that's used as an alternative to butter. Learn whether it is healthier than butter.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Margarine Companies, Factories Manufacturers, Wholesale...",
+          "link": "https://www.tradees.com/products/Margarine/",
+          "snippet": "Wholesale Margarine, find high quality Margarine products in best price from Margarine companies factories manufacturers suppliers and wholesalers on Tradees.com.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine, Margarine Suppliers & Margarine Wholesalers At...",
+          "link": "https://www.tradekey.com/products/margarine.html",
+          "snippet": "Find Margarine Manufacturers, Margarine Suppliers & Wholesalers of Margarine from China, Hong Kong, USA & Margarine Products from India at TradeKey.com.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bulk Salted Margarine - Wholesale Pricing \u2013 Bakers Authority",
+          "link": "https://www.bakersauthority.com/products/admiration-margarine",
+          "snippet": "Salted margarine is great for cooking, frying, or pasta. Check out Admiration salted margarine at wholesale pricing.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine | B2B companies and suppliers | europages",
+          "link": "https://www.europages.co.uk/companies/margarine.html",
+          "snippet": "320 Companies and suppliers for Margarine Find wholesalers and contact them directly Leading B2B martketplace Find companies now! 20-49. Delivery: Worldwide. Wholesaler. Welcome to MIXT SP. Z O.O. Who",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Margarine, Oil & Others - Poh Hock & Co. Pte Ltd Official...",
+          "link": "https://pohhocksg.com/home/wholesale-products/wholesale-margarine-and-oil/",
+          "snippet": "Wholesale High Quality Adela and Marina Brand Margarine, Shortening, Cooking Oil for baking and food production. Official Distributor of Prima Flour.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Regular Margarine Suppliers, Export Data & Price Trends | Tridge",
+          "link": "https://www.tridge.com/market-overview/regular-margarine",
+          "snippet": "Regular Margarine global market overview covering 157 countries. Analyze supplier network (0 premium suppliers), 775 exporters and 1,480 importers with company-profile and analytics context in Supply ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine Export Companies List",
+          "link": "https://www.turkishexporter.com.tr/en/companies/margarine.htm",
+          "snippet": "Margarine manufacturers, Margarine export companies list - B2b wholesalers, exporters, suppliers worldwide.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Margarine Production Process China Manufacturer factory...",
+          "link": "https://www.sino-votator.com/margarine-production-process-china-manufacturer-product/",
+          "snippet": "Margarine Production Process Margarine production includes two parts: raw material preparation and cooling and plasticizing. The main equipment includes.Site Commissioning. Puff Margarine Table Margar",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bulk Margarine Market Trends 2026",
+          "link": "https://www.accio.com/business/bulk-margarine",
+          "snippet": "Explore 2026 bulk margarine market trends: industrial, vegan, and liquid formats. Discover growth forecasts, supplier insights, and strategic recommendations for B2B buyers. Click to find top supplier",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Margarine | Individual Margarine in Bulk",
+          "link": "https://www.webstaurantstore.com/54659/butter.html?filter=type:margarine",
+          "snippet": "Get whole individual margarine in bulk delivered straight to your kitchen from WebstaurantStore. Fast and free shipping on over 170,000+ products with our WebstaurantPlus membership!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine Price in Tajikistan - June 2026 Market Prices...",
+          "link": "https://www.selinawamucii.com/insights/prices/tajikistan/margarine/",
+          "snippet": "See June 2026 margarine prices in Tajikistan per kilogram (kg) and per pound (lb) - farmgate, wholesale and retail, with price history and trends.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine Wholesalers with best prices online in India",
+          "link": "https://www.hyperpure.com/in/margarine",
+          "snippet": "Explore our extensive catalog featuring the freshest produce sourced directly from local farmers. As your go-to wholesale seller of fruits and vegetables, Hyperpure caters to businesses, restaurants, ",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Margarine - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Margarine",
+          "snippet": "Margarine[note 1] is a spread used for flavoring, baking, and cooking. It is most often used as a substitute for butter. Although \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is Margarine, How It's Made and Why You Should Avoid It",
+          "link": "https://www.cookist.com/what-is-margarine-how-its-made-and-why-you-should-avoid-it-at-all-costs/",
+          "snippet": "Margarine is a plant-based product used both in home cooking and in the food industry. It is a versatile food that is generally cheaper \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Butter Vs. Margarine: Which Is Healthier? Dietitians Explain",
+          "link": "https://www.prevention.com/food-nutrition/healthy-eating/a68899574/butter-vs-margarine/",
+          "snippet": "Oct 10, 2025 \u00b7 They're both primarily sources of fat, but is one more nutritious? Dietitians break down butter vs. margarine and share \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Margarines in Butter & Margarine - Walmart.com",
+          "link": "https://www.walmart.com/browse/food/margarines/976759_9176907_1001467_6384204",
+          "snippet": "Shop for Margarines in Butter & Margarine. Buy products such as Blue Bonnet Vegetable Oil Spread, 45 oz at Walmart and save.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Margarine | Definition, Production, & Ingredients | Britannica",
+          "link": "https://www.britannica.com/topic/margarine",
+          "snippet": "Jun 12, 2026 \u00b7 Margarine, food product made principally from vegetable or animal fats or oils in which is dispersed an aqueous \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Butter vs. Margarine: Which Is Healthier?",
+          "link": "https://www.healthline.com/nutrition/butter-vs-margarine",
+          "snippet": "Apr 2, 2025 \u00b7 Butter is a natural milk product while margarine is processed from altered vegetable oils. Learn the pros and cons of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Butter or margarine \u2013 which is better for you? - BBC Food",
+          "link": "https://www.bbc.co.uk/food/articles/c4gwpdne732o",
+          "snippet": "Feb 13, 2026 \u00b7 Butter is higher in saturated fat but margarine is an ultra-processed food (UPF). So is one healthier than the other? \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Butter vs. margarine: Which is better for my heart?",
+          "link": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/expert-answers/butter-vs-margarine/faq-20058152",
+          "snippet": "Apr 30, 2025 \u00b7 Margarine often tops butter when it comes to heart health. Margarine is a blend of oils that are mostly unsaturated fat. \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Is Margarine Really Made of? Differences to Butter - MedicineNet",
+          "link": "https://www.medicinenet.com/what_is_margarine_really_made_of/article.htm",
+          "snippet": "Jul 30, 2024 \u00b7 Margarine is a fatty, water-in-oil emulsion that's used as an alternative to butter. Learn whether it is healthier than butter.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Margarine Companies, Factories Manufacturers, Wholesale...",
+          "link": "https://www.tradees.com/products/Margarine/",
+          "snippet": "Wholesale Margarine, find high quality Margarine products in best price from Margarine companies factories manufacturers suppliers and wholesalers on Tradees.com.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine, Margarine Suppliers & Margarine Wholesalers At...",
+          "link": "https://www.tradekey.com/products/margarine.html",
+          "snippet": "Find Margarine Manufacturers, Margarine Suppliers & Wholesalers of Margarine from China, Hong Kong, USA & Margarine Products from India at TradeKey.com.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bulk Salted Margarine - Wholesale Pricing \u2013 Bakers Authority",
+          "link": "https://www.bakersauthority.com/products/admiration-margarine",
+          "snippet": "Salted margarine is great for cooking, frying, or pasta. Check out Admiration salted margarine at wholesale pricing.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine | B2B companies and suppliers | europages",
+          "link": "https://www.europages.co.uk/companies/margarine.html",
+          "snippet": "320 Companies and suppliers for Margarine Find wholesalers and contact them directly Leading B2B martketplace Find companies now! 20-49. Delivery: Worldwide. Wholesaler. Welcome to MIXT SP. Z O.O. Who",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Margarine, Oil & Others - Poh Hock & Co. Pte Ltd Official...",
+          "link": "https://pohhocksg.com/home/wholesale-products/wholesale-margarine-and-oil/",
+          "snippet": "Wholesale High Quality Adela and Marina Brand Margarine, Shortening, Cooking Oil for baking and food production. Official Distributor of Prima Flour.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Regular Margarine Suppliers, Export Data & Price Trends | Tridge",
+          "link": "https://www.tridge.com/market-overview/regular-margarine",
+          "snippet": "Regular Margarine global market overview covering 157 countries. Analyze supplier network (0 premium suppliers), 775 exporters and 1,480 importers with company-profile and analytics context in Supply ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine Export Companies List",
+          "link": "https://www.turkishexporter.com.tr/en/companies/margarine.htm",
+          "snippet": "Margarine manufacturers, Margarine export companies list - B2b wholesalers, exporters, suppliers worldwide.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Margarine Production Process China Manufacturer factory...",
+          "link": "https://www.sino-votator.com/margarine-production-process-china-manufacturer-product/",
+          "snippet": "Margarine Production Process Margarine production includes two parts: raw material preparation and cooling and plasticizing. The main equipment includes.Site Commissioning. Puff Margarine Table Margar",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bulk Margarine Market Trends 2026",
+          "link": "https://www.accio.com/business/bulk-margarine",
+          "snippet": "Explore 2026 bulk margarine market trends: industrial, vegan, and liquid formats. Discover growth forecasts, supplier insights, and strategic recommendations for B2B buyers. Click to find top supplier",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Margarine | Individual Margarine in Bulk",
+          "link": "https://www.webstaurantstore.com/54659/butter.html?filter=type:margarine",
+          "snippet": "Get whole individual margarine in bulk delivered straight to your kitchen from WebstaurantStore. Fast and free shipping on over 170,000+ products with our WebstaurantPlus membership!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine Price in Tajikistan - June 2026 Market Prices...",
+          "link": "https://www.selinawamucii.com/insights/prices/tajikistan/margarine/",
+          "snippet": "See June 2026 margarine prices in Tajikistan per kilogram (kg) and per pound (lb) - farmgate, wholesale and retail, with price history and trends.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine Wholesalers with best prices online in India",
+          "link": "https://www.hyperpure.com/in/margarine",
+          "snippet": "Explore our extensive catalog featuring the freshest produce sourced directly from local farmers. As your go-to wholesale seller of fruits and vegetables, Hyperpure caters to businesses, restaurants, ",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "search for margarine manufacturers official site",
+      "level": "market_map",
+      "result_count": 10,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Top 100 Margarine Manufacturers in 2026 | ensun",
+          "link": "https://ensun.io/search/margarine",
+          "snippet": "Top Margarine Manufacturers. The B2B platform for the best purchasing decision. Identify and compare relevant B2B manufacturers, suppliers and retailers. Supplier discovery.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "15 Best Margarine Manufacturers and Suppliers (2026)",
+          "link": "https://usetorg.com/category/margarine",
+          "snippet": "Find top Margarine manufacturers and suppliers for your business High-quality products Competitive prices Fast quotes Sign up for free now.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine Manufacturers | United States - Manta.com",
+          "link": "https://www.manta.com/mb_35_C204F02S_000/margarine_and_margarine_oils",
+          "snippet": "Visit Website. Categorized under Margarine Manufacturers.Search Manta's Directory to find the Small Business you're looking for.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine Manufacturers and Suppliers List - Forie.com",
+          "link": "https://www.forie.com/en/companies/margarine.htm",
+          "snippet": "Margarine Manufacturers and Suppliers Companies List of World. You are viewing the companies related to the keyword margarine.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine Suppliers, Export Data & Price Trends | Tridge",
+          "link": "https://www.tridge.com/market-overview/margarine",
+          "snippet": "Key takeaways for search and sourcing teams. Margarine market coverage spans 159 countries. 2,009 exporter companies and 3,295 importer companies are indexed in the global supply chain intelligence ne",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine - 35 Manufacturers, Traders & Suppliers",
+          "link": "https://www.industrystock.com/en/companies/Food-Engineering/Food/Whey-products/Margarine",
+          "snippet": "Search: Press release. Search: Events / Trade fairs. 35 companies for Margarine B2B manufacturers, distributors & suppliers from 10 countries With special service for fast information and prices.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine Manufacturing Plant Suppliers, Manufacturer, Distributor...",
+          "link": "https://www.alibaba.com/margarine-manufacturing-plant-suppliers.html",
+          "snippet": "Alibaba offers 59 Margarine Manufacturing Plant Suppliers, and Margarine Manufacturing Plant Manufacturers, Distributors, Factories, Companies. There are 41 OEM, 42 ODM, 5 Self Patent.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Margarine Manufacturers - Margarine... - EC21",
+          "link": "https://www.ec21.com/ec-market/margarine-manufacturers.html",
+          "snippet": "Wholesale Margarine Manufacturers Find 29 margarine manufacturers products from 15 manufacturers & suppliers at EC21. Choose quality margarine manufacturers manufacturers, suppliers & exporters now - ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine | Baking Ingredients | BAKERpedia",
+          "link": "https://bakerpedia.com/ingredients/margarine/",
+          "snippet": "Search for: Margarine is a fat used widely as an ingredient or a spread that resembles butter, but is a common butter substitute.BAKERpedia Logo. Search for: Baker Community.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Our History | Unilever global company website - 1900 - 1950 | Unilever",
+          "link": "https://www.unilever.com/our-company/our-history-and-archives/1900-1950/",
+          "snippet": "Search site.By the end of the 1920s, Jurgens owns margarine factories in Scotland, Ireland and England and Lever Brothers controls 60% of the output of UK soap manufacturing. Before the decade is out,",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Top 100 Margarine Manufacturers in 2026 | ensun",
+          "link": "https://ensun.io/search/margarine",
+          "snippet": "Top Margarine Manufacturers. The B2B platform for the best purchasing decision. Identify and compare relevant B2B manufacturers, suppliers and retailers. Supplier discovery.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "15 Best Margarine Manufacturers and Suppliers (2026)",
+          "link": "https://usetorg.com/category/margarine",
+          "snippet": "Find top Margarine manufacturers and suppliers for your business High-quality products Competitive prices Fast quotes Sign up for free now.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine Manufacturers | United States - Manta.com",
+          "link": "https://www.manta.com/mb_35_C204F02S_000/margarine_and_margarine_oils",
+          "snippet": "Visit Website. Categorized under Margarine Manufacturers.Search Manta's Directory to find the Small Business you're looking for.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine Manufacturers and Suppliers List - Forie.com",
+          "link": "https://www.forie.com/en/companies/margarine.htm",
+          "snippet": "Margarine Manufacturers and Suppliers Companies List of World. You are viewing the companies related to the keyword margarine.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine Suppliers, Export Data & Price Trends | Tridge",
+          "link": "https://www.tridge.com/market-overview/margarine",
+          "snippet": "Key takeaways for search and sourcing teams. Margarine market coverage spans 159 countries. 2,009 exporter companies and 3,295 importer companies are indexed in the global supply chain intelligence ne",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine - 35 Manufacturers, Traders & Suppliers",
+          "link": "https://www.industrystock.com/en/companies/Food-Engineering/Food/Whey-products/Margarine",
+          "snippet": "Search: Press release. Search: Events / Trade fairs. 35 companies for Margarine B2B manufacturers, distributors & suppliers from 10 countries With special service for fast information and prices.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine Manufacturing Plant Suppliers, Manufacturer, Distributor...",
+          "link": "https://www.alibaba.com/margarine-manufacturing-plant-suppliers.html",
+          "snippet": "Alibaba offers 59 Margarine Manufacturing Plant Suppliers, and Margarine Manufacturing Plant Manufacturers, Distributors, Factories, Companies. There are 41 OEM, 42 ODM, 5 Self Patent.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Margarine Manufacturers - Margarine... - EC21",
+          "link": "https://www.ec21.com/ec-market/margarine-manufacturers.html",
+          "snippet": "Wholesale Margarine Manufacturers Find 29 margarine manufacturers products from 15 manufacturers & suppliers at EC21. Choose quality margarine manufacturers manufacturers, suppliers & exporters now - ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine | Baking Ingredients | BAKERpedia",
+          "link": "https://bakerpedia.com/ingredients/margarine/",
+          "snippet": "Search for: Margarine is a fat used widely as an ingredient or a spread that resembles butter, but is a common butter substitute.BAKERpedia Logo. Search for: Baker Community.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Our History | Unilever global company website - 1900 - 1950 | Unilever",
+          "link": "https://www.unilever.com/our-company/our-history-and-archives/1900-1950/",
+          "snippet": "Search site.By the end of the 1920s, Jurgens owns margarine factories in Scotland, Ireland and England and Lever Brothers controls 60% of the output of UK soap manufacturing. Before the decade is out,",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P2": {
+      "query": "find margarine distributors near me",
+      "level": "market_map",
+      "result_count": 3,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Biscuit/Cookies Margarine In Bakery, For Industrial/Commercial",
+          "link": "https://www.indiamart.com/proddetail/margarine-in-bakery-23785180688.html",
+          "snippet": "Get Biscuit/Cookies Margarine In Bakery, For Industrial/Commercial at best price in Pune, Maharashtra by Siddharth Agro Food Links and more retailers | ID: 23785180688",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Find Margarine suppliers for your company at MacRaesBlueBook.com",
+          "link": "https://www.macraesbluebook.com/search/product_company_list.cfm?prod_code=4803450",
+          "snippet": "Learn the phone number & street address for Margarine Distributors and Manufacturers. Even request a quote from numerous Margarine suppliers in one place",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarines in Butter & Margarine - Walmart.com",
+          "link": "https://www.walmart.com/browse/food/margarines/976759_9176907_1001467_6384204",
+          "snippet": "Shop for Margarines in Butter & Margarine. Buy products such as Blue Bonnet Vegetable Oil Spread, 45 oz at Walmart and save.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Biscuit/Cookies Margarine In Bakery, For Industrial/Commercial",
+          "link": "https://www.indiamart.com/proddetail/margarine-in-bakery-23785180688.html",
+          "snippet": "Get Biscuit/Cookies Margarine In Bakery, For Industrial/Commercial at best price in Pune, Maharashtra by Siddharth Agro Food Links and more retailers | ID: 23785180688",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Find Margarine suppliers for your company at MacRaesBlueBook.com",
+          "link": "https://www.macraesbluebook.com/search/product_company_list.cfm?prod_code=4803450",
+          "snippet": "Learn the phone number & street address for Margarine Distributors and Manufacturers. Even request a quote from numerous Margarine suppliers in one place",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarines in Butter & Margarine - Walmart.com",
+          "link": "https://www.walmart.com/browse/food/margarines/976759_9176907_1001467_6384204",
+          "snippet": "Shop for Margarines in Butter & Margarine. Buy products such as Blue Bonnet Vegetable Oil Spread, 45 oz at Walmart and save.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P3": {
+      "query": "search for margarine wholesalers official site",
+      "level": "market_map",
+      "result_count": 11,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Margarine Wholesalers with best prices online in India",
+          "link": "https://www.hyperpure.com/in/margarine",
+          "snippet": "Buy Margarine at wholesale price online.Whether you're searching for crisp apples or succulent berries, Hyperpure guarantees a delightful and nutritious experience. Trust Hyperpure for quality and fre",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine | B2B companies and suppliers | europages",
+          "link": "https://www.europages.co.uk/companies/margarine.html",
+          "snippet": "320 Companies and suppliers for Margarine Find wholesalers and contact them directly Leading B2B martketplace Find companies now! Delivery: Worldwide. Wholesaler. Welcome to MIXT SP. Z O.O. Wholesale.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine, Margarine Suppliers & Margarine Wholesalers At...",
+          "link": "https://www.tradekey.com/products/margarine.html",
+          "snippet": "Find Margarine Manufacturers, Margarine Suppliers & Wholesalers of Margarine from China, Hong Kong, USA & Margarine Products from India at TradeKey.com.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine Wholesale & Manufacturers | Lookup.pk",
+          "link": "https://www.lookup.pk/dynamic/search.aspx?searchtype=cat&class_id=1729",
+          "snippet": "Online Directory of Margarine Wholesale & Manufacturers in Pakistan, providing list of names, contact numbers, addresses and reviews.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine Export Companies List",
+          "link": "https://www.turkishexporter.com.tr/en/companies/margarine.htm",
+          "snippet": "Margarine manufacturers, Margarine export companies list - B2b wholesalers, exporters, suppliers worldwide.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Margarine, Oil & Others - Poh Hock & Co. Pte Ltd Official...",
+          "link": "https://pohhocksg.com/home/wholesale-products/wholesale-margarine-and-oil/",
+          "snippet": "Wholesale High Quality Adela and Marina Brand Margarine, Shortening, Cooking Oil for baking and food production. Official Distributor of Prima Flour.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine Ukraine Suppliers, Trade & Prices | Market... | Tridge",
+          "link": "https://www.tridge.com/market-overview/margarine/UA",
+          "snippet": "Margarine Ukraine market overview: suppliers, trade, and price intelligence.Monitor wholesale (5) and farmgate (0) price updates for procurement and trade strategy. Data reference year: 2026. Last upd",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine Price in Tajikistan - June 2026 Market Prices...",
+          "link": "https://www.selinawamucii.com/insights/prices/tajikistan/margarine/",
+          "snippet": "See June 2026 margarine prices in Tajikistan per kilogram (kg) and per pound (lb) - farmgate, wholesale and retail, with price history and trends.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "SIC Activities for the search Margarine Blending Manufacture",
+          "link": "https://www.siccode.co.uk/search/margarine-blending-manufacture",
+          "snippet": "There are 18 results found searching for MARGARINE BLENDING MANUFACTURE. Activity: margarine (wholesale) SIC Code: 46330 | Description: Wholesale of dairy products, eggs and edible oils and fats.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Yellow or white margarine? The tedious legal battle... - Click Americana",
+          "link": "https://clickamericana.com/topics/food-drink/yellow-long-legal-battle-butter-colored-margarine-1948",
+          "snippet": "Only half of the 500,000 retail grocers have licenses to sell uncolored margarine, and only 1 percent are licensed to sell colored margarine; 13 states require annual licenses for margarine wholesaler",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine Market Trends 2026: Growth & Insights",
+          "link": "https://www.accio.com/business/margarine",
+          "snippet": "Discover the latest margarine market trends for 2026, including growth forecasts, consumer preferences, and B2B opportunities.Product search. Blue Band Cake Margarine. View details.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Margarine Wholesalers with best prices online in India",
+          "link": "https://www.hyperpure.com/in/margarine",
+          "snippet": "Buy Margarine at wholesale price online.Whether you're searching for crisp apples or succulent berries, Hyperpure guarantees a delightful and nutritious experience. Trust Hyperpure for quality and fre",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine | B2B companies and suppliers | europages",
+          "link": "https://www.europages.co.uk/companies/margarine.html",
+          "snippet": "320 Companies and suppliers for Margarine Find wholesalers and contact them directly Leading B2B martketplace Find companies now! Delivery: Worldwide. Wholesaler. Welcome to MIXT SP. Z O.O. Wholesale.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine, Margarine Suppliers & Margarine Wholesalers At...",
+          "link": "https://www.tradekey.com/products/margarine.html",
+          "snippet": "Find Margarine Manufacturers, Margarine Suppliers & Wholesalers of Margarine from China, Hong Kong, USA & Margarine Products from India at TradeKey.com.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine Wholesale & Manufacturers | Lookup.pk",
+          "link": "https://www.lookup.pk/dynamic/search.aspx?searchtype=cat&class_id=1729",
+          "snippet": "Online Directory of Margarine Wholesale & Manufacturers in Pakistan, providing list of names, contact numbers, addresses and reviews.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine Export Companies List",
+          "link": "https://www.turkishexporter.com.tr/en/companies/margarine.htm",
+          "snippet": "Margarine manufacturers, Margarine export companies list - B2b wholesalers, exporters, suppliers worldwide.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Margarine, Oil & Others - Poh Hock & Co. Pte Ltd Official...",
+          "link": "https://pohhocksg.com/home/wholesale-products/wholesale-margarine-and-oil/",
+          "snippet": "Wholesale High Quality Adela and Marina Brand Margarine, Shortening, Cooking Oil for baking and food production. Official Distributor of Prima Flour.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine Ukraine Suppliers, Trade & Prices | Market... | Tridge",
+          "link": "https://www.tridge.com/market-overview/margarine/UA",
+          "snippet": "Margarine Ukraine market overview: suppliers, trade, and price intelligence.Monitor wholesale (5) and farmgate (0) price updates for procurement and trade strategy. Data reference year: 2026. Last upd",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine Price in Tajikistan - June 2026 Market Prices...",
+          "link": "https://www.selinawamucii.com/insights/prices/tajikistan/margarine/",
+          "snippet": "See June 2026 margarine prices in Tajikistan per kilogram (kg) and per pound (lb) - farmgate, wholesale and retail, with price history and trends.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "SIC Activities for the search Margarine Blending Manufacture",
+          "link": "https://www.siccode.co.uk/search/margarine-blending-manufacture",
+          "snippet": "There are 18 results found searching for MARGARINE BLENDING MANUFACTURE. Activity: margarine (wholesale) SIC Code: 46330 | Description: Wholesale of dairy products, eggs and edible oils and fats.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Yellow or white margarine? The tedious legal battle... - Click Americana",
+          "link": "https://clickamericana.com/topics/food-drink/yellow-long-legal-battle-butter-colored-margarine-1948",
+          "snippet": "Only half of the 500,000 retail grocers have licenses to sell uncolored margarine, and only 1 percent are licensed to sell colored margarine; 13 states require annual licenses for margarine wholesaler",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine Market Trends 2026: Growth & Insights",
+          "link": "https://www.accio.com/business/margarine",
+          "snippet": "Discover the latest margarine market trends for 2026, including growth forecasts, consumer preferences, and B2B opportunities.Product search. Blue Band Cake Margarine. View details.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P4": {
+      "query": "buy margarine online",
+      "level": "market_map",
+      "result_count": 21,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Buy Butter and Margarine Online at Best Prices - bigbasket",
+          "link": "https://www.bigbasket.com/pc/bakery-cakes-dairy/dairy/butter-margarine/",
+          "snippet": "Buy Quality margarine butter online at best price.bigbasket brings a variety of peanut,cocoa,shea and many more butters online to deliver at your doorsteps.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine Wholesalers with best prices online in India",
+          "link": "https://www.hyperpure.com/in/margarine",
+          "snippet": "Buy Margarine at wholesale price online Welcome to Hyperpure, your top choice for premium Margarine in Delhi, Gurugram (Gurgaon), Mumbai (Bombay), Noida, Bengaluru, Hyderabad, Ghaziabad, Faridabad, Ja",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarines in Butter & Margarine - Walmart.com",
+          "link": "https://www.walmart.com/browse/food/margarines/976759_9176907_1001467_6384204",
+          "snippet": "Shop for Margarines in Butter & Margarine. Buy products such as Blue Bonnet Vegetable Oil Spread, 45 oz at Walmart and save.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Amazon.com: Margarine",
+          "link": "https://www.amazon.com/margarine/s?k=margarine",
+          "snippet": "Amazon.com: margarine USDA Organic certified products are required to be produced using farming practices that maintain and improve soil and water quality, reduce the use of synthetic materials, conse",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Amazon.com: Butter, Margarine & Plant-Based Alternatives - Butter ...",
+          "link": "https://www.amazon.com/Butter-Margarine/b?node=6520421011",
+          "snippet": "1-24 of 77 results for \"Butter, Margarine & Plant-Based Alternatives\" Results Check each product page for other buying options.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Butter & Margarine in Dairy & Eggs - Walmart.com",
+          "link": "https://www.walmart.com/browse/food/butter-margarine/976759_9176907_1001467",
+          "snippet": "Shop for Butter & Margarine in Dairy & Eggs. Buy products such as Great Value Sweet Cream Salted Butter, 16 oz Box, 4 Sticks, Refrigerated at Walmart and save.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Butter & Margarine - Order Online & Save | Stop & Shop",
+          "link": "https://stopandshop.com/groceries/dairy-eggs/butter-margarine.html",
+          "snippet": "Wide assortment of Butter & Margarine and thousands of other foods delivered to your home or office by us. Save money on your first order. Try our grocery delivery service today!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Butter & Margarine Online at Best Prices | Wellness Forever",
+          "link": "https://www.wellnessforever.com/category/food-and-beverages/dairy/butter-and-margarine",
+          "snippet": "Buy Butter & Margarine Online at the Best Prices From Wellness Forever. Order Now and Get the Fastest Home Delivery at Your Doorsteps.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Margarine near me with free delivery",
+          "link": "https://www.sayweee.com/en/grocery-near-me/lang-en/explore/margarine",
+          "snippet": "Buy your favorite margarine online with free delivery. Weee! has nation wide free shipping options with low minimums.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Margarine Online in Pakistan | Metro Pakistan",
+          "link": "https://www.metro.pk/stores/Category-and-Products/Dairy/Margarine",
+          "snippet": "Buy Margarine in Butter and Margarine at Best Prices Online in Pakistan.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Butter and Margarine Online | London Grocery",
+          "link": "https://londongrocery.net/collections/butter-margarine",
+          "snippet": "Home. Butter and Margarine. Main Menu. Fruits (262).Stork Baking Margarine 2kg x 6. Sale price\u00a389.40 Regular price\u00a3107.30.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Butter & Margarine Online in Karachi at Best Prices - Naheed.pk",
+          "link": "https://www.naheed.pk/groceries-pets/dairy/butter-margarine",
+          "snippet": "Nurpur Butter, 100g. Blue Band Margarine Spread Tub, 700g. Quick View. Add to Cart.Adam's Butter 200g. Mumtaz Spreadable Margarine Tub 500g. Quick View.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine | Buy Margarine Online - EuropaFoodXB",
+          "link": "https://europafoodxb.com/category-fresh-food/milk-butter-eggs/margarine_405/",
+          "snippet": "Shop the best Margarine online. Enjoy fresh, high-quality Margarine at great prices. Fast delivery & easy shopping.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Shop Margarine & Spreads For Everyday Great Value | NTUC FairPrice",
+          "link": "https://www.fairprice.com.sg/category/margarine---spreads",
+          "snippet": "Buy Margarine & Spreads Online in Singapore. Explore a wide variety of margarine products at FairPrice.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Margarine in Butter and Margarine products... | METRO Online.",
+          "link": "https://www.metro-online.pk/store/dairy/butter-and-margarine/margarine",
+          "snippet": "Buy a wide variety of Margarine in Butter and Margarine products from METRO Online. We provide fast open box delivery, best prices and ease of Credit Card / Cash on Delivery.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Baker's Best Margarine 225g | Buy Butter & Margarine Online",
+          "link": "https://rarefoodshop.com/products/bakers-best",
+          "snippet": "Bakers Best Margarine 225g. San Miguel Food Butter & Margarine Baker's Best Margarine 225g.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Margarine Online at Best Price in Pakistan 2024 - Daraz.pk",
+          "link": "https://www.daraz.pk/groceries-dairy-chilled-milk-butter-eggs-margarine-spread/?page=2",
+          "snippet": "Buy Margarine online at the best prices in Pakistan 2024, exclusively on Daraz.pk. Explore our premium selection of high-quality margarine, perfect for baking and cooking.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Margarine Online in UAE | Tradeling",
+          "link": "https://www.tradeling.com/ae-en/catalog/margarine",
+          "snippet": "Margarine delivered across all UAE Emirates, including Dubai & Abu Dhabi.. Fast Delivery Competitive Prices.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Shop Frito Margarine Online with Best Discounts and Low Prices",
+          "link": "https://www.lazada.com.ph/tag/frito-margarine/",
+          "snippet": "Buying Frito Margarine with great prices online?The online marketplace has exclusive deals through LazMall, as well as other discounts when paying via LazWallet.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy & Import Margarines Wholesale - Sold by Peerless Foods, Australia",
+          "link": "https://globaltradeplaza.com/product/margarines",
+          "snippet": "Buy Online Wholesale Margarines from Supplier & Exporter in Australia. Buy online Margarines at wholesale price from Peerless Foods in Australia.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Butter & Margarine Online | 15 Minutes Instant... | noon Minutes",
+          "link": "https://minutes.noon.com/saudi-en/search/?f[category]=sa_butter_margarine",
+          "snippet": "5 %OFF. Natural Unsalted Butter. Add. Almarai Natural Unsalted Butter. 100g. 8.05. 8.50. Soft Butter Salted. Add. Lurpak Soft Butter Salted. 200g. 14.95. 10 %OFF. Add. Almarai Natural...",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Buy Butter and Margarine Online at Best Prices - bigbasket",
+          "link": "https://www.bigbasket.com/pc/bakery-cakes-dairy/dairy/butter-margarine/",
+          "snippet": "Buy Quality margarine butter online at best price.bigbasket brings a variety of peanut,cocoa,shea and many more butters online to deliver at your doorsteps.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine Wholesalers with best prices online in India",
+          "link": "https://www.hyperpure.com/in/margarine",
+          "snippet": "Buy Margarine at wholesale price online Welcome to Hyperpure, your top choice for premium Margarine in Delhi, Gurugram (Gurgaon), Mumbai (Bombay), Noida, Bengaluru, Hyderabad, Ghaziabad, Faridabad, Ja",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarines in Butter & Margarine - Walmart.com",
+          "link": "https://www.walmart.com/browse/food/margarines/976759_9176907_1001467_6384204",
+          "snippet": "Shop for Margarines in Butter & Margarine. Buy products such as Blue Bonnet Vegetable Oil Spread, 45 oz at Walmart and save.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Amazon.com: Margarine",
+          "link": "https://www.amazon.com/margarine/s?k=margarine",
+          "snippet": "Amazon.com: margarine USDA Organic certified products are required to be produced using farming practices that maintain and improve soil and water quality, reduce the use of synthetic materials, conse",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Amazon.com: Butter, Margarine & Plant-Based Alternatives - Butter ...",
+          "link": "https://www.amazon.com/Butter-Margarine/b?node=6520421011",
+          "snippet": "1-24 of 77 results for \"Butter, Margarine & Plant-Based Alternatives\" Results Check each product page for other buying options.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Butter & Margarine in Dairy & Eggs - Walmart.com",
+          "link": "https://www.walmart.com/browse/food/butter-margarine/976759_9176907_1001467",
+          "snippet": "Shop for Butter & Margarine in Dairy & Eggs. Buy products such as Great Value Sweet Cream Salted Butter, 16 oz Box, 4 Sticks, Refrigerated at Walmart and save.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Butter & Margarine - Order Online & Save | Stop & Shop",
+          "link": "https://stopandshop.com/groceries/dairy-eggs/butter-margarine.html",
+          "snippet": "Wide assortment of Butter & Margarine and thousands of other foods delivered to your home or office by us. Save money on your first order. Try our grocery delivery service today!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Butter & Margarine Online at Best Prices | Wellness Forever",
+          "link": "https://www.wellnessforever.com/category/food-and-beverages/dairy/butter-and-margarine",
+          "snippet": "Buy Butter & Margarine Online at the Best Prices From Wellness Forever. Order Now and Get the Fastest Home Delivery at Your Doorsteps.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Margarine near me with free delivery",
+          "link": "https://www.sayweee.com/en/grocery-near-me/lang-en/explore/margarine",
+          "snippet": "Buy your favorite margarine online with free delivery. Weee! has nation wide free shipping options with low minimums.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Margarine Online in Pakistan | Metro Pakistan",
+          "link": "https://www.metro.pk/stores/Category-and-Products/Dairy/Margarine",
+          "snippet": "Buy Margarine in Butter and Margarine at Best Prices Online in Pakistan.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Butter and Margarine Online | London Grocery",
+          "link": "https://londongrocery.net/collections/butter-margarine",
+          "snippet": "Home. Butter and Margarine. Main Menu. Fruits (262).Stork Baking Margarine 2kg x 6. Sale price\u00a389.40 Regular price\u00a3107.30.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Butter & Margarine Online in Karachi at Best Prices - Naheed.pk",
+          "link": "https://www.naheed.pk/groceries-pets/dairy/butter-margarine",
+          "snippet": "Nurpur Butter, 100g. Blue Band Margarine Spread Tub, 700g. Quick View. Add to Cart.Adam's Butter 200g. Mumtaz Spreadable Margarine Tub 500g. Quick View.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine | Buy Margarine Online - EuropaFoodXB",
+          "link": "https://europafoodxb.com/category-fresh-food/milk-butter-eggs/margarine_405/",
+          "snippet": "Shop the best Margarine online. Enjoy fresh, high-quality Margarine at great prices. Fast delivery & easy shopping.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Shop Margarine & Spreads For Everyday Great Value | NTUC FairPrice",
+          "link": "https://www.fairprice.com.sg/category/margarine---spreads",
+          "snippet": "Buy Margarine & Spreads Online in Singapore. Explore a wide variety of margarine products at FairPrice.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Margarine in Butter and Margarine products... | METRO Online.",
+          "link": "https://www.metro-online.pk/store/dairy/butter-and-margarine/margarine",
+          "snippet": "Buy a wide variety of Margarine in Butter and Margarine products from METRO Online. We provide fast open box delivery, best prices and ease of Credit Card / Cash on Delivery.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Baker's Best Margarine 225g | Buy Butter & Margarine Online",
+          "link": "https://rarefoodshop.com/products/bakers-best",
+          "snippet": "Bakers Best Margarine 225g. San Miguel Food Butter & Margarine Baker's Best Margarine 225g.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Margarine Online at Best Price in Pakistan 2024 - Daraz.pk",
+          "link": "https://www.daraz.pk/groceries-dairy-chilled-milk-butter-eggs-margarine-spread/?page=2",
+          "snippet": "Buy Margarine online at the best prices in Pakistan 2024, exclusively on Daraz.pk. Explore our premium selection of high-quality margarine, perfect for baking and cooking.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Margarine Online in UAE | Tradeling",
+          "link": "https://www.tradeling.com/ae-en/catalog/margarine",
+          "snippet": "Margarine delivered across all UAE Emirates, including Dubai & Abu Dhabi.. Fast Delivery Competitive Prices.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Shop Frito Margarine Online with Best Discounts and Low Prices",
+          "link": "https://www.lazada.com.ph/tag/frito-margarine/",
+          "snippet": "Buying Frito Margarine with great prices online?The online marketplace has exclusive deals through LazMall, as well as other discounts when paying via LazWallet.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy & Import Margarines Wholesale - Sold by Peerless Foods, Australia",
+          "link": "https://globaltradeplaza.com/product/margarines",
+          "snippet": "Buy Online Wholesale Margarines from Supplier & Exporter in Australia. Buy online Margarines at wholesale price from Peerless Foods in Australia.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Butter & Margarine Online | 15 Minutes Instant... | noon Minutes",
+          "link": "https://minutes.noon.com/saudi-en/search/?f[category]=sa_butter_margarine",
+          "snippet": "5 %OFF. Natural Unsalted Butter. Add. Almarai Natural Unsalted Butter. 100g. 8.05. 8.50. Soft Butter Salted. Add. Lurpak Soft Butter Salted. 200g. 14.95. 10 %OFF. Add. Almarai Natural...",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P5": {
+      "query": "find margarine supply chain service providers",
+      "level": "market_map",
+      "result_count": 14,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "15 Best Margarine Manufacturers and Suppliers (2026)",
+          "link": "https://usetorg.com/category/margarine",
+          "snippet": "Find top Margarine manufacturers and suppliers for your business High-quality products Competitive prices Fast quotes Sign up for free now. The margarine supply chain faces ongoing risks from logistic",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine Suppliers, Export Data & Price Trends | Tridge",
+          "link": "https://www.tridge.com/market-overview/margarine",
+          "snippet": "Margarine global market overview covering 159 countries. Analyze supplier network (2 premium suppliers), 2,006 exporters and 3,293 importers with company-profile and analytics context in Supply Chain ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine Market Size, Share, and Industry... | MarkWide Research",
+          "link": "https://markwideresearch.com/margarine-market",
+          "snippet": "Supply Chain Traceability:Implementing and maintaining the robust tracking systems required to verify and document the origin of palm oil for sustainability certification presents a significant operat",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine Exports from World - Volza",
+          "link": "https://www.volza.com/p/margarine/export/",
+          "snippet": "Discover Cost-Effective Margarine Suppliers. Use Volza's filters to find suppliers offering competitive prices and reduce procurement costs. Optimize Your Margarine Supply Chain. Map supplier networks",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "IMACE - European Margarine Association... : FoodDrinkEurope",
+          "link": "https://www.fooddrinkeurope.eu/member/imace-european-margarine-association/",
+          "snippet": "A sustainable margarine supply chain. Margarine: everyday healthy. Margarine: everyday healthy. To find out more about the European food and drink industry sign up to our monthly feature",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Plant-Based Margarines Market Size & Share 2025-2032",
+          "link": "https://www.360iresearch.com/library/intelligence/plant-based-margarines",
+          "snippet": "The Plant-Based Margarines Market is projected to grow by USD 5.54 billion at a CAGR of 5.05% by 2032.The plant-based margarine industry is undergoing seismic shifts driven by technological breakthrou",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine Brands Ranked From Worst To Best, According To...",
+          "link": "https://www.mashed.com/1534789/margarine-brands-ranked-worst-best/",
+          "snippet": "After all, margarine has a reputation for containing chemicals, hydrogenated oils, and bad fats. Even though many margarines have adjusted their ingredients, the stigma remains. These days, you'll mos",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Margarine Market Size, Manufacturers, Supply Chain, Sales...",
+          "link": "https://www.marketresearchreports.com/mrrpb5/global-margarine-market-size-manufacturers-supply-chain-sales-channel-and-clients-2024-2030",
+          "snippet": "The Margarine market size, estimations, and forecasts are provided in terms of sales volume (K MT) and revenue ($ millions), considering 2023 as the base year, with history and forecast data for the p",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Industrial vs Retail Margarine Distribution Models",
+          "link": "https://www.chemtradeasia.co.id/market-insights/industrial-vs-retail-margarine-supply-chain",
+          "snippet": "Retail Margarine Supply Chains: Complexity and Market Reach. Retail margarine distribution is fundamentally different, characterized by multi-tiered networks, diverse product formats, and a focus on c",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine for Baking: Best Options for Quality Results",
+          "link": "https://www.accio.com/business/margarine-for-baking",
+          "snippet": "Looking for the best margarine for baking? Discover top-rated, food-grade options for flaky pastries and cakes.What are the most popular sustainable packaging solutions for baking margarine? How can A",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Logistics of Margarine Distribution and Global Trade... - EssFeed",
+          "link": "https://essfeed.com/the-logistics-of-margarine-distribution-and-global-trade-networks-the-logistics-of-margarine-distribution-and-global-trade-networks/",
+          "snippet": "To ensure a steady supply of raw materials, margarine manufacturers rely on global trade networks to import ingredients from various countries. This involves navigating complex trade regulations, tari",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine Supplier for Afghanistan - MT ROYAL",
+          "link": "https://mtroyal.com.tr/en/margarine-supplier-for-afghanistan/",
+          "snippet": "Most industrial margarine is imported, making supply chains sensitive to logistics, border conditions, and regional trade dynamics. This creates several realities for producers: Limited room for trial",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Industrial Hard Margarine Market Size, Share & Growth Analysis...",
+          "link": "https://www.researchandmarkets.com/reports/6184763/industrial-hard-margarine-market-size-share-and",
+          "snippet": "Industrial Hard Margarine Market Analytics. The report employs rigorous tools, including Porter\u2019s Five Forces, value chain mapping, and scenario-based modelling, to assess supply-demand dynamics.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Butter and Margarine Supply, Demand and Key Producers...",
+          "link": "https://www.globalinforesearch.com/reports/2228860/butter-and-margarine",
+          "snippet": "Margarine is a substitute for butter. Manufacturers make margarine from plant-based oils, such as canola oil, palm fruit oil, and soybean oil. Although butter and margarine have different components, ",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "15 Best Margarine Manufacturers and Suppliers (2026)",
+          "link": "https://usetorg.com/category/margarine",
+          "snippet": "Find top Margarine manufacturers and suppliers for your business High-quality products Competitive prices Fast quotes Sign up for free now. The margarine supply chain faces ongoing risks from logistic",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine Suppliers, Export Data & Price Trends | Tridge",
+          "link": "https://www.tridge.com/market-overview/margarine",
+          "snippet": "Margarine global market overview covering 159 countries. Analyze supplier network (2 premium suppliers), 2,006 exporters and 3,293 importers with company-profile and analytics context in Supply Chain ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine Market Size, Share, and Industry... | MarkWide Research",
+          "link": "https://markwideresearch.com/margarine-market",
+          "snippet": "Supply Chain Traceability:Implementing and maintaining the robust tracking systems required to verify and document the origin of palm oil for sustainability certification presents a significant operat",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine Exports from World - Volza",
+          "link": "https://www.volza.com/p/margarine/export/",
+          "snippet": "Discover Cost-Effective Margarine Suppliers. Use Volza's filters to find suppliers offering competitive prices and reduce procurement costs. Optimize Your Margarine Supply Chain. Map supplier networks",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "IMACE - European Margarine Association... : FoodDrinkEurope",
+          "link": "https://www.fooddrinkeurope.eu/member/imace-european-margarine-association/",
+          "snippet": "A sustainable margarine supply chain. Margarine: everyday healthy. Margarine: everyday healthy. To find out more about the European food and drink industry sign up to our monthly feature",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Plant-Based Margarines Market Size & Share 2025-2032",
+          "link": "https://www.360iresearch.com/library/intelligence/plant-based-margarines",
+          "snippet": "The Plant-Based Margarines Market is projected to grow by USD 5.54 billion at a CAGR of 5.05% by 2032.The plant-based margarine industry is undergoing seismic shifts driven by technological breakthrou",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine Brands Ranked From Worst To Best, According To...",
+          "link": "https://www.mashed.com/1534789/margarine-brands-ranked-worst-best/",
+          "snippet": "After all, margarine has a reputation for containing chemicals, hydrogenated oils, and bad fats. Even though many margarines have adjusted their ingredients, the stigma remains. These days, you'll mos",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Margarine Market Size, Manufacturers, Supply Chain, Sales...",
+          "link": "https://www.marketresearchreports.com/mrrpb5/global-margarine-market-size-manufacturers-supply-chain-sales-channel-and-clients-2024-2030",
+          "snippet": "The Margarine market size, estimations, and forecasts are provided in terms of sales volume (K MT) and revenue ($ millions), considering 2023 as the base year, with history and forecast data for the p",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Industrial vs Retail Margarine Distribution Models",
+          "link": "https://www.chemtradeasia.co.id/market-insights/industrial-vs-retail-margarine-supply-chain",
+          "snippet": "Retail Margarine Supply Chains: Complexity and Market Reach. Retail margarine distribution is fundamentally different, characterized by multi-tiered networks, diverse product formats, and a focus on c",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine for Baking: Best Options for Quality Results",
+          "link": "https://www.accio.com/business/margarine-for-baking",
+          "snippet": "Looking for the best margarine for baking? Discover top-rated, food-grade options for flaky pastries and cakes.What are the most popular sustainable packaging solutions for baking margarine? How can A",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Logistics of Margarine Distribution and Global Trade... - EssFeed",
+          "link": "https://essfeed.com/the-logistics-of-margarine-distribution-and-global-trade-networks-the-logistics-of-margarine-distribution-and-global-trade-networks/",
+          "snippet": "To ensure a steady supply of raw materials, margarine manufacturers rely on global trade networks to import ingredients from various countries. This involves navigating complex trade regulations, tari",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine Supplier for Afghanistan - MT ROYAL",
+          "link": "https://mtroyal.com.tr/en/margarine-supplier-for-afghanistan/",
+          "snippet": "Most industrial margarine is imported, making supply chains sensitive to logistics, border conditions, and regional trade dynamics. This creates several realities for producers: Limited room for trial",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Industrial Hard Margarine Market Size, Share & Growth Analysis...",
+          "link": "https://www.researchandmarkets.com/reports/6184763/industrial-hard-margarine-market-size-share-and",
+          "snippet": "Industrial Hard Margarine Market Analytics. The report employs rigorous tools, including Porter\u2019s Five Forces, value chain mapping, and scenario-based modelling, to assess supply-demand dynamics.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Butter and Margarine Supply, Demand and Key Producers...",
+          "link": "https://www.globalinforesearch.com/reports/2228860/butter-and-margarine",
+          "snippet": "Margarine is a substitute for butter. Manufacturers make margarine from plant-based oils, such as canola oil, palm fruit oil, and soybean oil. Although butter and margarine have different components, ",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "plant-based margarine suppliers",
+      "level": "market_map",
+      "result_count": 9,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "15 Best Light Margarines Manufacturers and Suppliers (2026)",
+          "link": "https://usetorg.com/category/light-margarines",
+          "snippet": "Whether you're seeking plant-based light margarines or fortified blends, we've got your B2B needs covered. Explore our carefully vetted supplier network and start sourcing premium Light Margarines tha",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Plant Based Margarine Market Research Report 2033",
+          "link": "https://dataintelo.com/report/plant-based-margarine-market",
+          "snippet": "Kerry Group plc operates as a significant plant based margarine manufacturer and ingredients supplier, controlling 8.6% market share through proprietary ingredient technologies and food service distri",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine | B2B companies and suppliers | europages",
+          "link": "https://www.europages.co.uk/companies/margarine.html",
+          "snippet": "320 Companies and suppliers for Margarine Find wholesalers and contact them directly Leading B2B martketplace Find companies now! Plant-based Pastry Margarine with AirPillow Texture.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Plant-Based Margarines Market Size & Share 2025-2032",
+          "link": "https://www.360iresearch.com/library/intelligence/plant-based-margarines",
+          "snippet": "Plant-Based Margarines Market by Product Type (Hard Margarine, Soft Spread, Whipped Spread), Ingredient Source (Olive, Palm, Soy), Packaging Type, Application, Distribution Channel - Global Forecast 2",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Amazon.com: Plant Based Margarine",
+          "link": "https://www.amazon.com/plant-based-margarine/s?k=plant+based+margarine",
+          "snippet": "Blue Band Multi-Purpose Margarine Spread, Fortified with Vitamins A, D, E, B, Omega-3 & 6, Plant-Based, 2lbs.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Non Dairy Butter Substitutes Plant Based Margarine Alternatives",
+          "link": "https://www.walmart.com/c/kp/non-dairy-butter-substitutes-plant-based-margarine-alternatives",
+          "snippet": "Earth Balance Plant Butter Organic Whipped Plant Based Oil Spread, 13 oz. Tub. 5123.6 out of 5 Stars. 512 reviews.Best Sellers In Butter Margarine Plant Based Alternatives.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Plant-Based Margarines Market - Global Forecast 2026-2032",
+          "link": "https://www.researchandmarkets.com/reports/5924821/plant-based-margarines-market-global-forecast",
+          "snippet": "The plant-based margarines market expanded from USD 3.93 billion in 2025 to USD 4.13 billion in 2026 and is forecasted to grow at a CAGR of 5.57%, achieving a value of USD 5.74 billion by 2032.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Plant-Based Margarine Market \u2013 Size, Share, Trends, Analysis...",
+          "link": "https://markwideresearch.com/plant-based-margarine-market/",
+          "snippet": "The plant-based margarine market has experienced significant growth as consumers increasingly seek healthier and more sustainable alternatives to traditional dairy-based margarine.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "99.8% Pure Margarine for Export - Wholesale Available",
+          "link": "https://www.alibaba.com/showroom/margarine-for-export.html",
+          "snippet": "Plant-based margarine. Preferred by vegans and those with dairy intolerance.Margarine base fats. Margarine predominantly comprises vegetable oils like palm oil, canola oil, and sunflower oil. Their sp",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "15 Best Light Margarines Manufacturers and Suppliers (2026)",
+          "link": "https://usetorg.com/category/light-margarines",
+          "snippet": "Whether you're seeking plant-based light margarines or fortified blends, we've got your B2B needs covered. Explore our carefully vetted supplier network and start sourcing premium Light Margarines tha",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Plant Based Margarine Market Research Report 2033",
+          "link": "https://dataintelo.com/report/plant-based-margarine-market",
+          "snippet": "Kerry Group plc operates as a significant plant based margarine manufacturer and ingredients supplier, controlling 8.6% market share through proprietary ingredient technologies and food service distri",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine | B2B companies and suppliers | europages",
+          "link": "https://www.europages.co.uk/companies/margarine.html",
+          "snippet": "320 Companies and suppliers for Margarine Find wholesalers and contact them directly Leading B2B martketplace Find companies now! Plant-based Pastry Margarine with AirPillow Texture.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Plant-Based Margarines Market Size & Share 2025-2032",
+          "link": "https://www.360iresearch.com/library/intelligence/plant-based-margarines",
+          "snippet": "Plant-Based Margarines Market by Product Type (Hard Margarine, Soft Spread, Whipped Spread), Ingredient Source (Olive, Palm, Soy), Packaging Type, Application, Distribution Channel - Global Forecast 2",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Amazon.com: Plant Based Margarine",
+          "link": "https://www.amazon.com/plant-based-margarine/s?k=plant+based+margarine",
+          "snippet": "Blue Band Multi-Purpose Margarine Spread, Fortified with Vitamins A, D, E, B, Omega-3 & 6, Plant-Based, 2lbs.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Non Dairy Butter Substitutes Plant Based Margarine Alternatives",
+          "link": "https://www.walmart.com/c/kp/non-dairy-butter-substitutes-plant-based-margarine-alternatives",
+          "snippet": "Earth Balance Plant Butter Organic Whipped Plant Based Oil Spread, 13 oz. Tub. 5123.6 out of 5 Stars. 512 reviews.Best Sellers In Butter Margarine Plant Based Alternatives.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Plant-Based Margarines Market - Global Forecast 2026-2032",
+          "link": "https://www.researchandmarkets.com/reports/5924821/plant-based-margarines-market-global-forecast",
+          "snippet": "The plant-based margarines market expanded from USD 3.93 billion in 2025 to USD 4.13 billion in 2026 and is forecasted to grow at a CAGR of 5.57%, achieving a value of USD 5.74 billion by 2032.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Plant-Based Margarine Market \u2013 Size, Share, Trends, Analysis...",
+          "link": "https://markwideresearch.com/plant-based-margarine-market/",
+          "snippet": "The plant-based margarine market has experienced significant growth as consumers increasingly seek healthier and more sustainable alternatives to traditional dairy-based margarine.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "99.8% Pure Margarine for Export - Wholesale Available",
+          "link": "https://www.alibaba.com/showroom/margarine-for-export.html",
+          "snippet": "Plant-based margarine. Preferred by vegans and those with dairy intolerance.Margarine base fats. Margarine predominantly comprises vegetable oils like palm oil, canola oil, and sunflower oil. Their sp",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P7": {
+      "query": "margarine wholesale distributors",
+      "level": "market_map",
+      "result_count": 20,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Margarine - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Margarine",
+          "snippet": "Margarine[note 1] is a spread used for flavoring, baking, and cooking. It is most often used as a substitute for butter. Although \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is Margarine, How It's Made and Why You Should Avoid It",
+          "link": "https://www.cookist.com/what-is-margarine-how-its-made-and-why-you-should-avoid-it-at-all-costs/",
+          "snippet": "Margarine is a plant-based product used both in home cooking and in the food industry. It is a versatile food that is generally cheaper \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Butter Vs. Margarine: Which Is Healthier? Dietitians Explain",
+          "link": "https://www.prevention.com/food-nutrition/healthy-eating/a68899574/butter-vs-margarine/",
+          "snippet": "Oct 10, 2025 \u00b7 They're both primarily sources of fat, but is one more nutritious? Dietitians break down butter vs. margarine and share \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Margarines in Butter & Margarine - Walmart.com",
+          "link": "https://www.walmart.com/browse/food/margarines/976759_9176907_1001467_6384204",
+          "snippet": "Shop for Margarines in Butter & Margarine. Buy products such as Blue Bonnet Vegetable Oil Spread, 45 oz at Walmart and save.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Margarine | Definition, Production, & Ingredients | Britannica",
+          "link": "https://www.britannica.com/topic/margarine",
+          "snippet": "Jun 12, 2026 \u00b7 Margarine, food product made principally from vegetable or animal fats or oils in which is dispersed an aqueous \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Butter vs. Margarine: Which Is Healthier?",
+          "link": "https://www.healthline.com/nutrition/butter-vs-margarine",
+          "snippet": "Apr 2, 2025 \u00b7 Butter is a natural milk product while margarine is processed from altered vegetable oils. Learn the pros and cons of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Butter or margarine \u2013 which is better for you? - BBC Food",
+          "link": "https://www.bbc.co.uk/food/articles/c4gwpdne732o",
+          "snippet": "Feb 13, 2026 \u00b7 Butter is higher in saturated fat but margarine is an ultra-processed food (UPF). So is one healthier than the other? \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Butter vs. margarine: Which is better for my heart?",
+          "link": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/expert-answers/butter-vs-margarine/faq-20058152",
+          "snippet": "Apr 30, 2025 \u00b7 Margarine often tops butter when it comes to heart health. Margarine is a blend of oils that are mostly unsaturated fat. \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Is Margarine Really Made of? Differences to Butter - MedicineNet",
+          "link": "https://www.medicinenet.com/what_is_margarine_really_made_of/article.htm",
+          "snippet": "Jul 30, 2024 \u00b7 Margarine is a fatty, water-in-oil emulsion that's used as an alternative to butter. Learn whether it is healthier than butter.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Margarine, Margarine Suppliers & Margarine Wholesalers At...",
+          "link": "https://www.tradekey.com/products/margarine.html",
+          "snippet": "Find Margarine Manufacturers, Margarine Suppliers & Wholesalers of Margarine from China, Hong Kong, USA & Margarine Products from India at TradeKey.com.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine Suppliers, Export Data & Price Trends | Tridge",
+          "link": "https://www.tridge.com/market-overview/margarine",
+          "snippet": "Compare Margarine wholesale price ranges and YoY changes across the top 4 exporting countries to benchmark supplier price competitiveness.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Premium Butter and Margarine - Wholesale Quality Supplies",
+          "link": "https://www.alibaba.com/showroom/butter-and-margarine.html",
+          "snippet": "Find high-quality butter and margarine suppliers for your needs. Wholesale prices available for premium dairy products.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "margarine - offers from margarine manufacturers, suppliers, exporters...",
+          "link": "https://www.ec21.com/ks-margarine/",
+          "snippet": "manufacturers, exporters, suppliers, factories and distributors related to margarine.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine Market Trends 2026: Growth & Insights",
+          "link": "https://www.accio.com/business/margarine",
+          "snippet": "Discover the latest margarine market trends for 2026, including growth forecasts, consumer preferences, and B2B opportunities.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Margarine | Individual Margarine in Bulk",
+          "link": "https://www.webstaurantstore.com/54659/butter.html?filter=type:margarine",
+          "snippet": "Get whole individual margarine in bulk delivered straight to your kitchen from WebstaurantStore. Fast and free shipping on over 170,000+ products with our WebstaurantPlus membership!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine Sellers, Margarine Manufacturers, Margarine Exporters...",
+          "link": "https://b2b.tradeholding.com/default.cgi/action/viewcompanies/sellers-exporters-manufacturers-distributors/margarine/",
+          "snippet": "NMK Group: Seller of: palm shortening, margarine, rbd palm oil, rbd palm olein cooking oil, vegetable ghee, hydrogenated palm oil, hydrogenated palm kernel oil, specialty frying fats.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Margarine, Oil & Others - Poh Hock & Co. Pte Ltd Official...",
+          "link": "https://pohhocksg.com/home/wholesale-products/wholesale-margarine-and-oil/",
+          "snippet": "Wholesale High Quality Adela and Marina Brand Margarine, Shortening, Cooking Oil for baking and food production. Official Distributor of Prima Flour.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bulk Salted Margarine - Wholesale Pricing \u2013 Bakers Authority",
+          "link": "https://www.bakersauthority.com/products/admiration-margarine",
+          "snippet": "Salted margarine is great for cooking, frying, or pasta. Check out Admiration salted margarine at wholesale pricing.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy & Import Margarines Wholesale - Sold by Peerless Foods, Australia",
+          "link": "https://globaltradeplaza.com/product/margarines",
+          "snippet": "Buy Wholesale Margarines in Bulk at Cheapest Wholesale Price from Suppliers, Manufacturers and Exporters in Australia.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "margarin | B2B companies and suppliers | europages",
+          "link": "https://www.europages.co.uk/companies/margarin.html",
+          "snippet": "Delivery: Worldwide. Distributor. Wholesaler. ...Margarine by Limera International Food B.V., part of Dumilco Distribution Group in the Netherlands, is developed for international...",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Margarine - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Margarine",
+          "snippet": "Margarine[note 1] is a spread used for flavoring, baking, and cooking. It is most often used as a substitute for butter. Although \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is Margarine, How It's Made and Why You Should Avoid It",
+          "link": "https://www.cookist.com/what-is-margarine-how-its-made-and-why-you-should-avoid-it-at-all-costs/",
+          "snippet": "Margarine is a plant-based product used both in home cooking and in the food industry. It is a versatile food that is generally cheaper \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Butter Vs. Margarine: Which Is Healthier? Dietitians Explain",
+          "link": "https://www.prevention.com/food-nutrition/healthy-eating/a68899574/butter-vs-margarine/",
+          "snippet": "Oct 10, 2025 \u00b7 They're both primarily sources of fat, but is one more nutritious? Dietitians break down butter vs. margarine and share \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Margarines in Butter & Margarine - Walmart.com",
+          "link": "https://www.walmart.com/browse/food/margarines/976759_9176907_1001467_6384204",
+          "snippet": "Shop for Margarines in Butter & Margarine. Buy products such as Blue Bonnet Vegetable Oil Spread, 45 oz at Walmart and save.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Margarine | Definition, Production, & Ingredients | Britannica",
+          "link": "https://www.britannica.com/topic/margarine",
+          "snippet": "Jun 12, 2026 \u00b7 Margarine, food product made principally from vegetable or animal fats or oils in which is dispersed an aqueous \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Butter vs. Margarine: Which Is Healthier?",
+          "link": "https://www.healthline.com/nutrition/butter-vs-margarine",
+          "snippet": "Apr 2, 2025 \u00b7 Butter is a natural milk product while margarine is processed from altered vegetable oils. Learn the pros and cons of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Butter or margarine \u2013 which is better for you? - BBC Food",
+          "link": "https://www.bbc.co.uk/food/articles/c4gwpdne732o",
+          "snippet": "Feb 13, 2026 \u00b7 Butter is higher in saturated fat but margarine is an ultra-processed food (UPF). So is one healthier than the other? \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Butter vs. margarine: Which is better for my heart?",
+          "link": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/expert-answers/butter-vs-margarine/faq-20058152",
+          "snippet": "Apr 30, 2025 \u00b7 Margarine often tops butter when it comes to heart health. Margarine is a blend of oils that are mostly unsaturated fat. \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Is Margarine Really Made of? Differences to Butter - MedicineNet",
+          "link": "https://www.medicinenet.com/what_is_margarine_really_made_of/article.htm",
+          "snippet": "Jul 30, 2024 \u00b7 Margarine is a fatty, water-in-oil emulsion that's used as an alternative to butter. Learn whether it is healthier than butter.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Margarine, Margarine Suppliers & Margarine Wholesalers At...",
+          "link": "https://www.tradekey.com/products/margarine.html",
+          "snippet": "Find Margarine Manufacturers, Margarine Suppliers & Wholesalers of Margarine from China, Hong Kong, USA & Margarine Products from India at TradeKey.com.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine Suppliers, Export Data & Price Trends | Tridge",
+          "link": "https://www.tridge.com/market-overview/margarine",
+          "snippet": "Compare Margarine wholesale price ranges and YoY changes across the top 4 exporting countries to benchmark supplier price competitiveness.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Premium Butter and Margarine - Wholesale Quality Supplies",
+          "link": "https://www.alibaba.com/showroom/butter-and-margarine.html",
+          "snippet": "Find high-quality butter and margarine suppliers for your needs. Wholesale prices available for premium dairy products.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "margarine - offers from margarine manufacturers, suppliers, exporters...",
+          "link": "https://www.ec21.com/ks-margarine/",
+          "snippet": "manufacturers, exporters, suppliers, factories and distributors related to margarine.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine Market Trends 2026: Growth & Insights",
+          "link": "https://www.accio.com/business/margarine",
+          "snippet": "Discover the latest margarine market trends for 2026, including growth forecasts, consumer preferences, and B2B opportunities.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Margarine | Individual Margarine in Bulk",
+          "link": "https://www.webstaurantstore.com/54659/butter.html?filter=type:margarine",
+          "snippet": "Get whole individual margarine in bulk delivered straight to your kitchen from WebstaurantStore. Fast and free shipping on over 170,000+ products with our WebstaurantPlus membership!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Margarine Sellers, Margarine Manufacturers, Margarine Exporters...",
+          "link": "https://b2b.tradeholding.com/default.cgi/action/viewcompanies/sellers-exporters-manufacturers-distributors/margarine/",
+          "snippet": "NMK Group: Seller of: palm shortening, margarine, rbd palm oil, rbd palm olein cooking oil, vegetable ghee, hydrogenated palm oil, hydrogenated palm kernel oil, specialty frying fats.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Margarine, Oil & Others - Poh Hock & Co. Pte Ltd Official...",
+          "link": "https://pohhocksg.com/home/wholesale-products/wholesale-margarine-and-oil/",
+          "snippet": "Wholesale High Quality Adela and Marina Brand Margarine, Shortening, Cooking Oil for baking and food production. Official Distributor of Prima Flour.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bulk Salted Margarine - Wholesale Pricing \u2013 Bakers Authority",
+          "link": "https://www.bakersauthority.com/products/admiration-margarine",
+          "snippet": "Salted margarine is great for cooking, frying, or pasta. Check out Admiration salted margarine at wholesale pricing.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy & Import Margarines Wholesale - Sold by Peerless Foods, Australia",
+          "link": "https://globaltradeplaza.com/product/margarines",
+          "snippet": "Buy Wholesale Margarines in Bulk at Cheapest Wholesale Price from Suppliers, Manufacturers and Exporters in Australia.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "margarin | B2B companies and suppliers | europages",
+          "link": "https://www.europages.co.uk/companies/margarin.html",
+          "snippet": "Delivery: Worldwide. Distributor. Wholesaler. ...Margarine by Limera International Food B.V., part of Dumilco Distribution Group in the Netherlands, is developed for international...",
+          "backend": "ddgs_bing"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

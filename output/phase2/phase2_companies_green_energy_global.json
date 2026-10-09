@@ -1,0 +1,1150 @@
+{
+  "phase": 2,
+  "phase2_mode": "fast",
+  "query": "Green Energy Market",
+  "mock_mode": false,
+  "completed_at": "2026-07-24T08:23:08.625084+00:00",
+  "scope": {
+    "market": "Green Energy",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "channel partner",
+    "industry_vertical": "renewable energy",
+    "industry_terms": [
+      "solar energy",
+      "wind energy",
+      "hydroelectric power",
+      "energy storage",
+      "renewable energy systems"
+    ],
+    "ecosystem_functions": [
+      "distributing renewable energy products",
+      "integrating energy systems",
+      "providing energy services",
+      "reselling green technologies",
+      "wholesaling energy solutions",
+      "partnering for energy projects"
+    ],
+    "interpretation_summary": "The Green Energy Market encompasses the production, distribution, and consumption of renewable energy sources such as solar, wind, and hydroelectric power. Key participants include manufacturers of renewable energy techn",
+    "relevance_keywords": [
+      "renewable energy distributor",
+      "solar system integrator",
+      "energy efficiency reseller",
+      "green technology service provider",
+      "channel partner for renewable energy"
+    ],
+    "negative_keywords": [
+      "coal",
+      "oil",
+      "gas",
+      "traditional energy",
+      "consultants",
+      "job listings"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "SunPower",
+        "primary_domain": "sunpower.com",
+        "company_function": "solar energy solutions provider"
+      },
+      {
+        "canonical_name": "Sunnova Energy International",
+        "primary_domain": "sunnova.com",
+        "company_function": "residential solar service provider"
+      },
+      {
+        "canonical_name": "Vivint Solar",
+        "primary_domain": "vivintsolar.com",
+        "company_function": "solar energy reseller"
+      },
+      {
+        "canonical_name": "Enphase Energy",
+        "primary_domain": "enphase.com",
+        "company_function": "energy management technology provider"
+      },
+      {
+        "canonical_name": "NextEra Energy",
+        "primary_domain": "nexteraenergy.com",
+        "company_function": "renewable energy distributor"
+      },
+      {
+        "canonical_name": "Siemens AG",
+        "primary_domain": "siemens.com",
+        "company_function": "system integrator for energy solutions"
+      },
+      {
+        "canonical_name": "Schneider Electric",
+        "primary_domain": "schneider-electric.com",
+        "company_function": "energy management and automation provider"
+      },
+      {
+        "canonical_name": "Canadian Solar",
+        "primary_domain": "canadiansolar.com",
+        "company_function": "solar panel manufacturer and distributor"
+      },
+      {
+        "canonical_name": "First Solar",
+        "primary_domain": "firstsolar.com",
+        "company_function": "solar energy solutions provider"
+      },
+      {
+        "canonical_name": "RWE Renewables",
+        "primary_domain": "rwe.com",
+        "company_function": "renewable energy wholesaler"
+      },
+      {
+        "canonical_name": "Trina Solar",
+        "primary_domain": "trinasolar.com",
+        "company_function": "solar panel distributor"
+      },
+      {
+        "canonical_name": "Brookfield Renewable Partners",
+        "primary_domain": "brookfieldrenewable.com",
+        "company_function": "renewable energy service provider"
+      },
+      {
+        "canonical_name": "SMA Solar Technology",
+        "primary_domain": "sma.de",
+        "company_function": "solar inverter manufacturer and distributor"
+      },
+      {
+        "canonical_name": "JinkoSolar",
+        "primary_domain": "jinkosolar.com",
+        "company_function": "solar panel manufacturer and distributor"
+      }
+    ],
+    "search_topic": "Green Energy",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "Green Energy",
+    "include_keywords": [
+      "solar panel distributor",
+      "wind turbine wholesaler",
+      "energy storage reseller",
+      "renewable energy service provider",
+      "green energy channel partner"
+    ],
+    "exclude_keywords": [
+      "fossil fuels",
+      "nuclear energy",
+      "energy consulting",
+      "job boards",
+      "market reports",
+      "news articles"
+    ],
+    "scope_version": 2,
+    "market_definition": "The Green Energy Market encompasses the production, distribution, and consumption of renewable energy sources such as solar, wind, and hydroelectric power. Key participants include manufacturers of renewable energy technologies, channel partners like distributors and integrators, and end-users across various sectors globally.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Channel Partners",
+        "description": "Entities that facilitate the distribution and integration of green energy solutions.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Renewable Energy Equipment",
+              "Energy Storage Systems"
+            ],
+            "participant_types": [
+              "distributor",
+              "wholesaler"
+            ],
+            "search_intents": [
+              "green energy equipment distributor",
+              "renewable energy wholesalers"
+            ]
+          },
+          {
+            "segment_name": "System Integrators",
+            "sub_segments": [
+              "Solar Integrators",
+              "Wind Energy Integrators"
+            ],
+            "participant_types": [
+              "system integrator",
+              "service provider"
+            ],
+            "search_intents": [
+              "solar energy system integrators",
+              "wind energy integration services"
+            ]
+          },
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Solar Panel Resellers",
+              "Energy Efficiency Product Resellers"
+            ],
+            "participant_types": [
+              "reseller",
+              "channel partner"
+            ],
+            "search_intents": [
+              "renewable energy product resellers",
+              "energy efficiency product distributors"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Fossil Fuel Suppliers",
+        "Traditional Energy Utilities",
+        "Nuclear Energy Providers",
+        "Energy Consultants"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "search for green energy equipment distributors",
+        "sub_sector": "distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "find renewable energy wholesalers",
+        "sub_sector": "wholesaler",
+        "layer_id": "L1",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "search for renewable energy product resellers",
+        "sub_sector": "reseller",
+        "layer_id": "L1",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "find solar energy system integrators",
+        "sub_sector": "system_integrator",
+        "layer_id": "L1",
+        "segment": "System Integrators"
+      },
+      {
+        "id": "M5",
+        "level": "market_map",
+        "text": "search for green energy service providers",
+        "sub_sector": "service_provider",
+        "layer_id": "L1",
+        "segment": "Service Providers"
+      },
+      {
+        "id": "M6",
+        "level": "market_map",
+        "text": "find channel partners in renewable energy",
+        "sub_sector": "channel_partner",
+        "layer_id": "L1",
+        "segment": "Channel Partners"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "phase1_plan_path": "D:\\vendor-intel\\output\\phase1\\phase1_plan_green_energy_global.json",
+  "companies": [
+    {
+      "name": "Nordic Solar",
+      "domain": "nordic-solar.tech",
+      "discovery_source": "ddgs_bing+ddgs_yandex",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Siemens Energy",
+      "domain": "siemens-energy.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Gevernova",
+      "domain": "gevernova.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Sunnova",
+      "domain": "sunnova.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Nexteraenergy",
+      "domain": "nexteraenergy.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "SunPower",
+      "domain": "sunpower.com",
+      "discovery_source": "registry",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Vivintsolar",
+      "domain": "vivintsolar.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "New Energy \u2013 Reliance",
+      "domain": "ril.com",
+      "discovery_source": "ddgs_bing+searxng",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Apeasternpower",
+      "domain": "apeasternpower.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "DAH Solar",
+      "domain": "en.dahsolar.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Lmwindpower",
+      "domain": "lmwindpower.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Tesla",
+      "domain": "tesla.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Bizbwana",
+      "domain": "bizbwana.com",
+      "discovery_source": "ddgs_bing+ddgs_yandex",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Brookfieldrenewable",
+      "domain": "brookfieldrenewable.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Canadiansolar",
+      "domain": "canadiansolar.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Enphase",
+      "domain": "enphase.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Firstsolar",
+      "domain": "firstsolar.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Flyingfishlaundry",
+      "domain": "flyingfishlaundry.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Fronius",
+      "domain": "fronius.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Greenenergy",
+      "domain": "greenenergy.pro",
+      "discovery_source": "ddgs_bing+ddgs_duckduckgo",
+      "company_function": "distributor"
+    },
+    {
+      "name": "JinkoSolar",
+      "domain": "jinkosolar.com",
+      "discovery_source": "registry",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Ngel",
+      "domain": "ngel.in",
+      "discovery_source": "ddgs_bing",
+      "company_function": "exporter"
+    },
+    {
+      "name": "SMA Solar Technology",
+      "domain": "sma.de",
+      "discovery_source": "registry",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Schneider Electric",
+      "domain": "schneider-electric.com",
+      "discovery_source": "registry",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Siaz",
+      "domain": "siaz.co.zm",
+      "discovery_source": "ddgs_bing+ddgs_yandex",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Siemens",
+      "domain": "siemens.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Trinasolar",
+      "domain": "trinasolar.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Ankersolix",
+      "domain": "ankersolix.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Bluesunpv",
+      "domain": "bluesunpv.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Darfon",
+      "domain": "www.darfon.com.cn",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor",
+      "domain_corrected_from": "darfon.com.cn"
+    },
+    {
+      "name": "Eurasianet",
+      "domain": "eurasianet.org",
+      "discovery_source": "ddgs_bing",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Ever Greenenergy",
+      "domain": "ever-greenenergy.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Green Energy Elec",
+      "domain": "green-energy-elec.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Green Energy UK",
+      "domain": "100green.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Greenenergy Supply",
+      "domain": "greenenergy-supply.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Greenenergydistributors",
+      "domain": "greenenergydistributors.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Igenergysolutions",
+      "domain": "igenergysolutions.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Infozambia",
+      "domain": "infozambia.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Lumenergy",
+      "domain": "lumenergy.in",
+      "discovery_source": "ddgs_bing",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Nevada Register",
+      "domain": "nevada-register.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Sael",
+      "domain": "sael.co",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Shyamgreenenergy",
+      "domain": "shyamgreenenergy.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Tatapower",
+      "domain": "tatapower.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Windeurope",
+      "domain": "windeurope.org",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Alchemegreenenergy",
+      "domain": "alchemegreenenergy.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Allfrontierglobal",
+      "domain": "allfrontierglobal.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Amigoenergy",
+      "domain": "amigoenergy.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Anandalokenergy",
+      "domain": "anandalokenergy.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Anern",
+      "domain": "anern.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Anyaenergy",
+      "domain": "anyaenergy.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Apollo Greenenergy",
+      "domain": "apollo-greenenergy.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Atlantic Vn",
+      "domain": "atlantic-vn.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Australianmanufacturing",
+      "domain": "australianmanufacturing.com.au",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Avebattery",
+      "domain": "avebattery.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Behance",
+      "domain": "behance.net",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Beny",
+      "domain": "beny.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Biotech",
+      "domain": "biotech-india.org",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Bullfrogpower",
+      "domain": "bullfrogpower.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Bydeurope",
+      "domain": "bydeurope.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Capstoneenergyplus",
+      "domain": "capstoneenergyplus.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Cetcsolarenergy",
+      "domain": "cetcsolarenergy.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Chevron",
+      "domain": "chevron.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "China Telecommunications",
+      "domain": "china-telecommunications.com",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Chooseenergy",
+      "domain": "chooseenergy.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Color Meanings",
+      "domain": "color-meanings.com",
+      "discovery_source": "searxng",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Creativecow",
+      "domain": "creativecow.net",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Dbdh",
+      "domain": "dbdh.org",
+      "discovery_source": "ddgs_bing",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Energin",
+      "domain": "energin.solar",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Epc Shutdown Turnaround Maintenance",
+      "domain": "epc-shutdown-turnaround-maintenance.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Ergenergy",
+      "domain": "ergenergy.net",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Erso",
+      "domain": "erso.group",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Ettem",
+      "domain": "ettem.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "oem_manufacturer"
+    },
+    {
+      "name": "Europeanswitch",
+      "domain": "europeanswitch.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Fastercapital",
+      "domain": "fastercapital.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Futurefuels",
+      "domain": "futurefuels.in",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Geosi",
+      "domain": "geosi.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Green Energy",
+      "domain": "green-energy.bg",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Green Energy Venture",
+      "domain": "green-energy-venture.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Green Energyontario",
+      "domain": "green-energyontario.ca",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Greene",
+      "domain": "greene.solutions",
+      "discovery_source": "ddgs_duckduckgo",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Greenenergyconsumers",
+      "domain": "greenenergyconsumers.org",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Greenenergyfx1",
+      "domain": "greenenergyfx1.ltd",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Gsl Energy",
+      "domain": "gsl-energy.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Haier Energy",
+      "domain": "haier-energy.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Heeeper",
+      "domain": "heeeper.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Herodirect",
+      "domain": "herodirect.co.uk",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Herofutureenergies",
+      "domain": "herofutureenergies.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Hugergy",
+      "domain": "hugergy.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Ielts",
+      "domain": "ielts.net",
+      "discovery_source": "ddgs_bing",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Ipocentral",
+      "domain": "ipocentral.in",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Jobcaam",
+      "domain": "jobcaam.in",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Keralaclassify",
+      "domain": "keralaclassify.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Kiaanemobility",
+      "domain": "kiaanemobility.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Longi",
+      "domain": "longi.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Mahindrasusten",
+      "domain": "mahindrasusten.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Markakachestva",
+      "domain": "markakachestva.ru",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Martinglobalrenewables",
+      "domain": "martinglobalrenewables.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Masdar",
+      "domain": "masdar.ae",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Mdgreenenergy",
+      "domain": "mdgreenenergy.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Metrocpcinc",
+      "domain": "metrocpcinc.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Monsterenergy",
+      "domain": "monsterenergy.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Novometgroup",
+      "domain": "novometgroup.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Onloopenergy",
+      "domain": "onloopenergy.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Origen",
+      "domain": "origen.ae",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Ovoenergy",
+      "domain": "ovoenergy.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Partnering In Business",
+      "domain": "partnering-in-business.de",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Photovoltaicsolar",
+      "domain": "photovoltaicsolar.in",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Prakashgreenenergy",
+      "domain": "prakashgreenenergy.com",
+      "discovery_source": "ddgs_duckduckgo",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Proagri",
+      "domain": "proagri.co.za",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Reclaimenergy",
+      "domain": "reclaimenergy.co.uk",
+      "discovery_source": "ddgs_bing",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Saatvikgroup",
+      "domain": "saatvikgroup.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Sakopower",
+      "domain": "sakopower.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Saurenergy",
+      "domain": "saurenergy.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Sbpdcl",
+      "domain": "sbpdcl.co.in",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Search Zambia",
+      "domain": "search-zambia.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Semacoalition",
+      "domain": "semacoalition.org",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Solaricglobal",
+      "domain": "solaricglobal.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Solarpvmanufacturing",
+      "domain": "solarpvmanufacturing.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Solasenergy",
+      "domain": "solasenergy.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Soligent",
+      "domain": "soligent.net",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Sunapecopower",
+      "domain": "sunapecopower.com",
+      "discovery_source": "ddgs_duckduckgo",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Thecoloratlas",
+      "domain": "thecoloratlas.org",
+      "discovery_source": "searxng",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Thegreenshot",
+      "domain": "thegreenshot.io",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Tiannengglobal",
+      "domain": "tiannengglobal.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Trendsgroup",
+      "domain": "trendsgroup.org",
+      "discovery_source": "ddgs_bing",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Trustpilot",
+      "domain": "trustpilot.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Tt Sun",
+      "domain": "tt-sun.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Unigreen Energy",
+      "domain": "unigreen-energy.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Vfsmi",
+      "domain": "vfsmi.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Wartsila",
+      "domain": "wartsila.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Wolong Electric",
+      "domain": "www.wolong-electric.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer",
+      "domain_corrected_from": "wolong-electric.com"
+    },
+    {
+      "name": "Worldofrenewables",
+      "domain": "worldofrenewables.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Zaubee",
+      "domain": "zaubee.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    }
+  ],
+  "company_count": 133,
+  "discovery_stats": {
+    "raw_hits": 291,
+    "unique_names": 154,
+    "by_prompt_id": {
+      "D10": 5,
+      "D2": 2,
+      "D3": 2,
+      "D4": 2,
+      "D5": 1,
+      "D6": 3,
+      "D7": 1,
+      "D8": 5,
+      "D9": 2,
+      "HX0_dist": 4,
+      "HX0_expo": 4,
+      "HX0_inte": 1,
+      "HX0_manu": 4,
+      "HX0_syst": 7,
+      "HX1_dist": 6,
+      "HX1_expo": 5,
+      "HX1_inte": 3,
+      "HX1_manu": 2,
+      "HX1_syst": 8,
+      "L0": 7,
+      "L1": 11,
+      "L2": 2,
+      "M1": 3,
+      "M1_biot": 2,
+      "M1_cont": 3,
+      "M2": 3,
+      "M3": 5,
+      "M4": 7,
+      "M5": 4,
+      "MUHX1_ma": 5,
+      "MUP10": 5,
+      "P10": 3,
+      "P11": 2,
+      "P12": 1,
+      "P7": 2,
+      "P8": 1,
+      "P9": 12,
+      "SEED": 14,
+      "SEED2": 14,
+      "SEED3": 14,
+      "ST1a": 3,
+      "ST2a": 2,
+      "ST3a": 4,
+      "ST4a": 1,
+      "ST_L1_1": 9,
+      "ST_L1_2": 2,
+      "ST_L1_3": 5,
+      "T1a": 1,
+      "T1b": 8,
+      "T2a": 7,
+      "T2b": 4,
+      "T3b": 4,
+      "T4a": 3,
+      "T4b": 8,
+      "V1": 1,
+      "V2": 3,
+      "V3": 4,
+      "V4": 2,
+      "V5": 4,
+      "V6": 2,
+      "V7": 7,
+      "V8": 2,
+      "V9": 1,
+      "VX1": 3,
+      "VX2": 4,
+      "W1": 1,
+      "W2": 9
+    },
+    "by_funnel_level": {
+      "L0": 49,
+      "L1": 11,
+      "L2": 2,
+      "discovery": 229
+    },
+    "widen_loops": 3
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ]
+}

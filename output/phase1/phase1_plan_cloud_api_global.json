@@ -1,0 +1,1043 @@
+{
+  "phase": 1,
+  "query": "Cloud API Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T21:52:43.744117+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "Cloud API",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "Cloud Services",
+    "industry_terms": [
+      "API management",
+      "cloud integration",
+      "SaaS APIs",
+      "cloud service distribution",
+      "cloud connectivity"
+    ],
+    "ecosystem_functions": [
+      "distributing cloud APIs",
+      "reselling cloud services",
+      "integrating cloud solutions",
+      "providing consulting services",
+      "supporting cloud API implementations",
+      "enabling access to cloud functionalities",
+      "offering managed services",
+      "facilitating partnerships in cloud technology"
+    ],
+    "interpretation_summary": "The Cloud API Market encompasses services and products that enable developers to integrate cloud-based functionalities into applications via APIs. Participants include technology companies, distributors, and service prov",
+    "relevance_keywords": [
+      "API gateway",
+      "cloud service provider",
+      "integration platform",
+      "cloud application",
+      "API documentation"
+    ],
+    "negative_keywords": [
+      "hardware",
+      "on-premise",
+      "legacy systems",
+      "non-cloud solutions",
+      "physical products"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "Amazon Web Services",
+        "primary_domain": "aws.com",
+        "company_function": "cloud service provider"
+      },
+      {
+        "canonical_name": "Microsoft Azure",
+        "primary_domain": "azure.com",
+        "company_function": "cloud service provider"
+      },
+      {
+        "canonical_name": "Google Cloud",
+        "primary_domain": "cloud.google.com",
+        "company_function": "cloud service provider"
+      },
+      {
+        "canonical_name": "IBM Cloud",
+        "primary_domain": "ibm.com",
+        "company_function": "cloud service provider"
+      },
+      {
+        "canonical_name": "Salesforce",
+        "primary_domain": "salesforce.com",
+        "company_function": "cloud api reseller"
+      },
+      {
+        "canonical_name": "MuleSoft",
+        "primary_domain": "mulesoft.com",
+        "company_function": "integration platform provider"
+      },
+      {
+        "canonical_name": "Ingram Micro",
+        "primary_domain": "ingrammicro.com",
+        "company_function": "distributor"
+      },
+      {
+        "canonical_name": "Tech Data",
+        "primary_domain": "techdata.com",
+        "company_function": "distributor"
+      },
+      {
+        "canonical_name": "Softchoice",
+        "primary_domain": "softchoice.com",
+        "company_function": "reseller",
+        "segment": "Resellers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Accenture",
+        "primary_domain": "accenture.com",
+        "company_function": "consulting service provider",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Deloitte",
+        "primary_domain": "deloitte.com",
+        "company_function": "consulting service provider",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Rackspace",
+        "primary_domain": "rackspace.com",
+        "company_function": "cloud service provider",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "CDW",
+        "primary_domain": "cdw.com",
+        "company_function": "reseller",
+        "segment": "Resellers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Arrow Electronics",
+        "primary_domain": "arrow.com",
+        "company_function": "distributor",
+        "segment": "Distributors",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "Cloud API",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "Cloud API",
+    "include_keywords": [
+      "cloud API distributor",
+      "cloud API reseller",
+      "cloud integration services",
+      "managed cloud services",
+      "cloud API solutions"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The Cloud API Market encompasses services and products that enable developers to integrate cloud-based functionalities into applications via APIs. Participants include technology companies, distributors, and service providers operating globally to facilitate access to cloud services.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Distribution",
+        "description": "This layer involves the distribution of cloud API services and products to various end-users through different channels.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Value-Added Distributors",
+              "Wholesale Distributors"
+            ],
+            "participant_types": [
+              "distributor",
+              "wholesaler"
+            ],
+            "search_intents": [
+              "cloud API service distributors",
+              "wholesale cloud API providers"
+            ]
+          },
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Managed Service Resellers",
+              "Independent Resellers"
+            ],
+            "participant_types": [
+              "reseller"
+            ],
+            "search_intents": [
+              "cloud API resellers",
+              "managed service providers for cloud APIs"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L2",
+        "layer_name": "Integration Services",
+        "description": "This layer includes companies that integrate cloud APIs into existing systems for clients.",
+        "segments": [
+          {
+            "segment_name": "System Integrators",
+            "sub_segments": [
+              "Large System Integrators",
+              "Boutique Integrators"
+            ],
+            "participant_types": [
+              "system integrator"
+            ],
+            "search_intents": [
+              "cloud API system integrators",
+              "integration services for cloud APIs"
+            ]
+          },
+          {
+            "segment_name": "Service Providers",
+            "sub_segments": [
+              "Cloud Service Providers",
+              "Consulting Service Providers"
+            ],
+            "participant_types": [
+              "service provider"
+            ],
+            "search_intents": [
+              "cloud API service providers",
+              "consulting services for cloud APIs"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Cloud Infrastructure Providers",
+        "Software Development Companies",
+        "End-User Enterprises",
+        "Consulting Firms"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "search for cloud API service distributors",
+        "sub_sector": "distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "find cloud API resellers",
+        "sub_sector": "reseller",
+        "layer_id": "L1",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "search for cloud API system integrators",
+        "sub_sector": "system_integrator",
+        "layer_id": "L2",
+        "segment": "System Integrators"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "find cloud API service providers",
+        "sub_sector": "service_provider",
+        "layer_id": "L2",
+        "segment": "Service Providers"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "Cloud Services",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "Cloud API Market companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "Cloud API distributors corporate sites"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "Cloud API service providers official websites"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "discovery",
+      "text": "cloud API distributor corporate website"
+    },
+    {
+      "id": "P2",
+      "level": "discovery",
+      "text": "cloud API wholesaler official site"
+    },
+    {
+      "id": "P3",
+      "level": "discovery",
+      "text": "cloud API reseller corporate profile"
+    },
+    {
+      "id": "P4",
+      "level": "discovery",
+      "text": "cloud API system integrator official site"
+    },
+    {
+      "id": "P5",
+      "level": "discovery",
+      "text": "cloud API service provider corporate site"
+    },
+    {
+      "id": "P6",
+      "level": "discovery",
+      "text": "cloud API channel partner official website"
+    },
+    {
+      "id": "P7",
+      "level": "discovery",
+      "text": "cloud API consulting service provider site"
+    },
+    {
+      "id": "P8",
+      "level": "discovery",
+      "text": "cloud API managed service provider corporate site"
+    },
+    {
+      "id": "P9",
+      "level": "volume",
+      "text": "authorized Cloud API distributor firm official"
+    },
+    {
+      "id": "P10",
+      "level": "volume",
+      "text": "Cloud API reseller channel partner official"
+    },
+    {
+      "id": "P11",
+      "level": "volume",
+      "text": "Cloud API system integrator official website"
+    },
+    {
+      "id": "P12",
+      "level": "volume",
+      "text": "Cloud API consulting partner implementation official"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "Cloud API Market companies official websites",
+      "level": "L0",
+      "result_count": 9,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Cloud APIs | Google Cloud",
+          "link": "https://cloud.google.com/apis",
+          "snippet": "Google Cloud APIs allow you to automate your workflows by using your favorite language. Use these Cloud APIs with REST calls or client libraries in popular programming languages.Web-based interface fo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cloud API Market Size to Hit USD 8.56 Billion by 2035",
+          "link": "https://www.statifacts.com/outlook/cloud-api-market",
+          "snippet": "Cloud API Market Companies. Amazon Web Services (AWS).Information on when we delete personal data, the countries where we save data (e.g., US, EU, Singapore), and the companies we collaborate with can",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cloud API Market Size, Industry Forecast - 2026",
+          "link": "https://www.alliedmarketresearch.com/cloud-api-market",
+          "snippet": "Cloud API Market. APIs are widely being used to bring agility to the cloud, as APIs provide faster communication means and faster software patched distribution with ease to streamline updates.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cloud API Companies | Market Research Future",
+          "link": "https://www.marketresearchfuture.com/reports/cloud-api-market/companies",
+          "snippet": "Cloud API Market: Dive into the Latest News and Updates. The cloud has become the digital canvas for modern businesses, and APIs are the vibrant paints, enabling applications to interact and data to f",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cloud API Market Size, Competitive Trends & Forecast",
+          "link": "https://www.verifiedmarketreports.com/product/cloud-api-market/",
+          "snippet": "The Cloud API market has rapidly evolved as a critical component of the digital transformation jouey for organizations across various sectors. By providing a set of protocols that allow different soft",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cloud API Market Size, Share & Global Forecast Report 2026-2035",
+          "link": "https://www.researchnester.com/reports/cloud-api-market/6833",
+          "snippet": "Cloud API Market size was valued at USD 1.54 billion in 2025 and is likely to cross USD 8.06 billion by 2035, registering more than 18% CAGR during the forecast period i.e., between 2026-2035.Cloud AP",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Cloud API Market Expected to Reach USD... - IMARC Group",
+          "link": "https://www.imarcgroup.com/cloud-api-market-statistics",
+          "snippet": "Global Cloud API Market Statistics, Outlook and Regional Analysis 2025-2033.Cloud API market in Europe is witnessing growth, driven by a shift of focus towards data protection regulation, such as GDPR",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cloud API Market Companies",
+          "link": "https://www.skyquestt.com/report/cloud-api-market/companies",
+          "snippet": "The market for Cloud API was estimated to be valued at US$ XX Mn in 2021.Based on region, the Cloud API Market is segmented into North America, Europe, Asia Pacific, Middle East & Africa and Latin Ame",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cloud API Market to Reach USD 4660.61 Mn by 2035",
+          "link": "https://www.industryresearch.co/market-reports/cloud-api-market-310805",
+          "snippet": "Amazon Web Services, Inc.: 32% market share driven by extensive API usage across compute, storage, analytics, and AI-based services. Microsoft Corporation: 24% market share supported by strong enterpr",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Cloud APIs | Google Cloud",
+          "link": "https://cloud.google.com/apis",
+          "snippet": "Google Cloud APIs allow you to automate your workflows by using your favorite language. Use these Cloud APIs with REST calls or client libraries in popular programming languages.Web-based interface fo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cloud API Market Size to Hit USD 8.56 Billion by 2035",
+          "link": "https://www.statifacts.com/outlook/cloud-api-market",
+          "snippet": "Cloud API Market Companies. Amazon Web Services (AWS).Information on when we delete personal data, the countries where we save data (e.g., US, EU, Singapore), and the companies we collaborate with can",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cloud API Market Size, Industry Forecast - 2026",
+          "link": "https://www.alliedmarketresearch.com/cloud-api-market",
+          "snippet": "Cloud API Market. APIs are widely being used to bring agility to the cloud, as APIs provide faster communication means and faster software patched distribution with ease to streamline updates.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cloud API Companies | Market Research Future",
+          "link": "https://www.marketresearchfuture.com/reports/cloud-api-market/companies",
+          "snippet": "Cloud API Market: Dive into the Latest News and Updates. The cloud has become the digital canvas for modern businesses, and APIs are the vibrant paints, enabling applications to interact and data to f",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cloud API Market Size, Competitive Trends & Forecast",
+          "link": "https://www.verifiedmarketreports.com/product/cloud-api-market/",
+          "snippet": "The Cloud API market has rapidly evolved as a critical component of the digital transformation jouey for organizations across various sectors. By providing a set of protocols that allow different soft",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cloud API Market Size, Share & Global Forecast Report 2026-2035",
+          "link": "https://www.researchnester.com/reports/cloud-api-market/6833",
+          "snippet": "Cloud API Market size was valued at USD 1.54 billion in 2025 and is likely to cross USD 8.06 billion by 2035, registering more than 18% CAGR during the forecast period i.e., between 2026-2035.Cloud AP",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Cloud API Market Expected to Reach USD... - IMARC Group",
+          "link": "https://www.imarcgroup.com/cloud-api-market-statistics",
+          "snippet": "Global Cloud API Market Statistics, Outlook and Regional Analysis 2025-2033.Cloud API market in Europe is witnessing growth, driven by a shift of focus towards data protection regulation, such as GDPR",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cloud API Market Companies",
+          "link": "https://www.skyquestt.com/report/cloud-api-market/companies",
+          "snippet": "The market for Cloud API was estimated to be valued at US$ XX Mn in 2021.Based on region, the Cloud API Market is segmented into North America, Europe, Asia Pacific, Middle East & Africa and Latin Ame",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cloud API Market to Reach USD 4660.61 Mn by 2035",
+          "link": "https://www.industryresearch.co/market-reports/cloud-api-market-310805",
+          "snippet": "Amazon Web Services, Inc.: 32% market share driven by extensive API usage across compute, storage, analytics, and AI-based services. Microsoft Corporation: 24% market share supported by strong enterpr",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "Cloud API distributors corporate sites",
+      "level": "L1",
+      "result_count": 3,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Higgsfield Cloud API",
+          "link": "https://cloud.higgsfield.ai/",
+          "snippet": "API Management...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cloud API Market Research | Global Industry Analysis & Forecast To...",
+          "link": "https://industrygrowthinsights.com/report/cloud-api-market/",
+          "snippet": "Cloud API refers to the various application programming interfaces that allow developers to interact with cloud-based services.Cloud API Market Size and Volume Forecast by Sales Channel 7.3.1. Manufac",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How to Fix Token Limit Exceeded Errors: Cloud APIs and... | Markaicode",
+          "link": "https://markaicode.com/fix-token-limit-exceeded-errors-production/",
+          "snippet": "This guide covers cloud APIs (OpenAI, Anthropic) and local LLMs running via Ollama \u2014 because the error is the same whether you're paying per token or running free models on your own hardware. What you",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Higgsfield Cloud API",
+          "link": "https://cloud.higgsfield.ai/",
+          "snippet": "API Management...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cloud API Market Research | Global Industry Analysis & Forecast To...",
+          "link": "https://industrygrowthinsights.com/report/cloud-api-market/",
+          "snippet": "Cloud API refers to the various application programming interfaces that allow developers to interact with cloud-based services.Cloud API Market Size and Volume Forecast by Sales Channel 7.3.1. Manufac",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How to Fix Token Limit Exceeded Errors: Cloud APIs and... | Markaicode",
+          "link": "https://markaicode.com/fix-token-limit-exceeded-errors-production/",
+          "snippet": "This guide covers cloud APIs (OpenAI, Anthropic) and local LLMs running via Ollama \u2014 because the error is the same whether you're paying per token or running free models on your own hardware. What you",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "Cloud API service providers official websites",
+      "level": "L2",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Higgsfield Cloud API",
+          "link": "https://cloud.higgsfield.ai/",
+          "snippet": "API Management...",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Higgsfield Cloud API",
+          "link": "https://cloud.higgsfield.ai/",
+          "snippet": "API Management...",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "cloud API distributor corporate website",
+      "level": "discovery",
+      "result_count": 2,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Higgsfield Cloud API",
+          "link": "https://cloud.higgsfield.ai/",
+          "snippet": "API Management...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cloud APIs | Google Cloud",
+          "link": "https://cloud.google.com/apis",
+          "snippet": "Access Google Cloud products like BigQuery and Compute Engine from your code using REST APIs.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Higgsfield Cloud API",
+          "link": "https://cloud.higgsfield.ai/",
+          "snippet": "API Management...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cloud APIs | Google Cloud",
+          "link": "https://cloud.google.com/apis",
+          "snippet": "Access Google Cloud products like BigQuery and Compute Engine from your code using REST APIs.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P2": {
+      "query": "cloud API wholesaler official site",
+      "level": "discovery",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Higgsfield Cloud API",
+          "link": "https://cloud.higgsfield.ai/",
+          "snippet": "API Management...",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Higgsfield Cloud API",
+          "link": "https://cloud.higgsfield.ai/",
+          "snippet": "API Management...",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P3": {
+      "query": "cloud API reseller corporate profile",
+      "level": "discovery",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Higgsfield Cloud API",
+          "link": "https://cloud.higgsfield.ai/",
+          "snippet": "API Management...",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Higgsfield Cloud API",
+          "link": "https://cloud.higgsfield.ai/",
+          "snippet": "API Management...",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P4": {
+      "query": "cloud API system integrator official site",
+      "level": "discovery",
+      "result_count": 2,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Higgsfield Cloud API",
+          "link": "https://cloud.higgsfield.ai/",
+          "snippet": "API Management...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "TTLock - Global Leading Provider of Solutions for Smart Locks",
+          "link": "https://ttlock.com/",
+          "snippet": "On-premise Service. The program and the data are all on your own server. API. Software. Source code.Strengthen your management software by implementing smart lock functions. We provide APP SDK, Cloud ",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Higgsfield Cloud API",
+          "link": "https://cloud.higgsfield.ai/",
+          "snippet": "API Management...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "TTLock - Global Leading Provider of Solutions for Smart Locks",
+          "link": "https://ttlock.com/",
+          "snippet": "On-premise Service. The program and the data are all on your own server. API. Software. Source code.Strengthen your management software by implementing smart lock functions. We provide APP SDK, Cloud ",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P5": {
+      "query": "cloud API service provider corporate site",
+      "level": "discovery",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Higgsfield Cloud API",
+          "link": "https://cloud.higgsfield.ai/",
+          "snippet": "API Management...",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Higgsfield Cloud API",
+          "link": "https://cloud.higgsfield.ai/",
+          "snippet": "API Management...",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "cloud API channel partner official website",
+      "level": "discovery",
+      "result_count": 15,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "iCloud",
+          "link": "https://www.icloud.com/",
+          "snippet": "Log in to iCloud to access your photos, mail, notes, documents and more. Sign in with your Apple Account or create a new account to \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "AI and Cloud Computing Services",
+          "link": "https://cloud.google.com/",
+          "snippet": "Meet your business challenges head on with AI and cloud computing services from Google, including security, data management, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Personal File Sharing & Cloud Storage | Microsoft OneDrive",
+          "link": "https://onedrive.live.com/",
+          "snippet": "Discover OneDrive for secure and convenient file and document sharing. Get personal cloud storage for seamless file sharing with \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Cloud Storage",
+          "link": "https://cloud.google.com/storage",
+          "snippet": "Cloud Storage lets you store data with multiple redundancy options, virtually anywhere.",
+          "backend": "searxng"
+        },
+        {
+          "title": "ERP@CLOUD",
+          "link": "https://ums.fjwu.edu.pk/",
+          "snippet": "ERP@CLOUD is an academic management system designed to streamline educational processes efficiently.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Sign in - Claude",
+          "link": "https://claude.ai/",
+          "snippet": "Google Cloud\u2019s Vertex AI Microsoft Foundry Regional compliance Console login Resources Blog Claude partner network Community \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "iCloud Drive - Apple iCloud",
+          "link": "https://www.icloud.com/iclouddrive",
+          "snippet": "Store, organize and collaborate on files and folders with iCloud Drive. Easily upload, delete or recover files. Changes will sync across \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is the cloud? | Learning Center - Cloudflare",
+          "link": "https://www.cloudflare.com/learning/cloud/what-is-the-cloud/",
+          "snippet": "Hybrid cloud: hybrid cloud deployments combine public and private clouds, and may even include on-premises legacy servers. ...",
+          "backend": "searxng"
+        },
+        {
+          "title": "Cloud - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Cloud",
+          "snippet": "Etymology The origin of the term \"cloud\" can be found in the Old English words clud or clod, meaning a hill or a mass of stone. \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Xbox Cloud Gaming on Xbox.com",
+          "link": "https://www.xbox.com/en-us/play?msockid=30fe027fabfe6f7d3d3f15e0aafa6eb3",
+          "snippet": "Play Xbox Cloud Gaming on Xbox.com. Use your Xbox Game Pass Ultimate membership to play 100s of consoles games on PC and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Technical setup | Channel Services | Google Cloud Documentation",
+          "link": "https://docs.cloud.google.com/channel/docs/codelabs/setup",
+          "snippet": "Click Authorize to allow your service account to use the Cloud Channel API in the context of your Channel Services account. Note: If you use additional APIs in your final integration, you might have m",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Set up your Google Cloud reseller account - Partner Sales Console Help",
+          "link": "https://support.google.com/channelservices/answer/11559816?hl=en",
+          "snippet": "Cloud Channel API\u2014Developers and system integrators use the Toolkit to write applications that manage customers and their orders for Google products. For details, go to Cloud Channel API. Overview of ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "WhatsApp API Documentation | Messages, Groups & Webhooks",
+          "link": "https://whapi.cloud/docs",
+          "snippet": "Developer docs \u00b7 HTTP API. WhatsApp API Documentation. Everything you need to send and receive WhatsApp messages, automate groups and build integrations using simple HTTP requests. The API supports me",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "GroqCloud",
+          "link": "https://console.groq.com/",
+          "snippet": "Playground. API Keys. Dashboard. Docs.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The OAuth 2.0 Playground lets you play with OAuth 2.0 and the APIs...",
+          "link": "https://developers.google.com/oauthplayground/",
+          "snippet": "Site Verification API v1. Manage the list of sites and domains you control.Web Security Scanner API v1. See, edit, configure, and delete your Google Cloud data and see the email address for your Googl",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "iCloud",
+          "link": "https://www.icloud.com/",
+          "snippet": "Log in to iCloud to access your photos, mail, notes, documents and more. Sign in with your Apple Account or create a new account to \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "AI and Cloud Computing Services",
+          "link": "https://cloud.google.com/",
+          "snippet": "Meet your business challenges head on with AI and cloud computing services from Google, including security, data management, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Personal File Sharing & Cloud Storage | Microsoft OneDrive",
+          "link": "https://onedrive.live.com/",
+          "snippet": "Discover OneDrive for secure and convenient file and document sharing. Get personal cloud storage for seamless file sharing with \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Cloud Storage",
+          "link": "https://cloud.google.com/storage",
+          "snippet": "Cloud Storage lets you store data with multiple redundancy options, virtually anywhere.",
+          "backend": "searxng"
+        },
+        {
+          "title": "ERP@CLOUD",
+          "link": "https://ums.fjwu.edu.pk/",
+          "snippet": "ERP@CLOUD is an academic management system designed to streamline educational processes efficiently.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Sign in - Claude",
+          "link": "https://claude.ai/",
+          "snippet": "Google Cloud\u2019s Vertex AI Microsoft Foundry Regional compliance Console login Resources Blog Claude partner network Community \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "iCloud Drive - Apple iCloud",
+          "link": "https://www.icloud.com/iclouddrive",
+          "snippet": "Store, organize and collaborate on files and folders with iCloud Drive. Easily upload, delete or recover files. Changes will sync across \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is the cloud? | Learning Center - Cloudflare",
+          "link": "https://www.cloudflare.com/learning/cloud/what-is-the-cloud/",
+          "snippet": "Hybrid cloud: hybrid cloud deployments combine public and private clouds, and may even include on-premises legacy servers. ...",
+          "backend": "searxng"
+        },
+        {
+          "title": "Cloud - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Cloud",
+          "snippet": "Etymology The origin of the term \"cloud\" can be found in the Old English words clud or clod, meaning a hill or a mass of stone. \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Xbox Cloud Gaming on Xbox.com",
+          "link": "https://www.xbox.com/en-us/play?msockid=30fe027fabfe6f7d3d3f15e0aafa6eb3",
+          "snippet": "Play Xbox Cloud Gaming on Xbox.com. Use your Xbox Game Pass Ultimate membership to play 100s of consoles games on PC and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Technical setup | Channel Services | Google Cloud Documentation",
+          "link": "https://docs.cloud.google.com/channel/docs/codelabs/setup",
+          "snippet": "Click Authorize to allow your service account to use the Cloud Channel API in the context of your Channel Services account. Note: If you use additional APIs in your final integration, you might have m",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Set up your Google Cloud reseller account - Partner Sales Console Help",
+          "link": "https://support.google.com/channelservices/answer/11559816?hl=en",
+          "snippet": "Cloud Channel API\u2014Developers and system integrators use the Toolkit to write applications that manage customers and their orders for Google products. For details, go to Cloud Channel API. Overview of ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "WhatsApp API Documentation | Messages, Groups & Webhooks",
+          "link": "https://whapi.cloud/docs",
+          "snippet": "Developer docs \u00b7 HTTP API. WhatsApp API Documentation. Everything you need to send and receive WhatsApp messages, automate groups and build integrations using simple HTTP requests. The API supports me",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "GroqCloud",
+          "link": "https://console.groq.com/",
+          "snippet": "Playground. API Keys. Dashboard. Docs.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The OAuth 2.0 Playground lets you play with OAuth 2.0 and the APIs...",
+          "link": "https://developers.google.com/oauthplayground/",
+          "snippet": "Site Verification API v1. Manage the list of sites and domains you control.Web Security Scanner API v1. See, edit, configure, and delete your Google Cloud data and see the email address for your Googl",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P7": {
+      "query": "cloud API consulting service provider site",
+      "level": "discovery",
+      "result_count": 3,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Servion API Consulting Service | Verint",
+          "link": "https://www.verint.com/resources/servion-api-consulting-webinar/",
+          "snippet": "Servion\u2019s Verint Cloud API Consulting Service enables automatic data import and export between Verint Platform and other third-party solutions.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Higgsfield Cloud API",
+          "link": "https://cloud.higgsfield.ai/",
+          "snippet": "API Management...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Verint Connect",
+          "link": "https://verintconnect.com/marketplace/mp/listings/verint-cloud-api-consulting-service",
+          "snippet": "Verint Cloud API Consulting Service. Servion\u2019s API consulting service is ideal for clients looking for automatic data import and export between the Verint cloud platform and other third-party solution",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Servion API Consulting Service | Verint",
+          "link": "https://www.verint.com/resources/servion-api-consulting-webinar/",
+          "snippet": "Servion\u2019s Verint Cloud API Consulting Service enables automatic data import and export between Verint Platform and other third-party solutions.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Higgsfield Cloud API",
+          "link": "https://cloud.higgsfield.ai/",
+          "snippet": "API Management...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Verint Connect",
+          "link": "https://verintconnect.com/marketplace/mp/listings/verint-cloud-api-consulting-service",
+          "snippet": "Verint Cloud API Consulting Service. Servion\u2019s API consulting service is ideal for clients looking for automatic data import and export between the Verint cloud platform and other third-party solution",
+          "backend": "ddgs_bing"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

@@ -1,0 +1,1299 @@
+{
+  "phase": 1,
+  "query": "Organic Milk Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-24T00:11:18.419914+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "organic milk",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "dairy",
+    "industry_terms": [
+      "organic milk",
+      "certified organic",
+      "grass-fed dairy",
+      "sustainable farming",
+      "non-GMO"
+    ],
+    "ecosystem_functions": [
+      "organic farming",
+      "milk processing",
+      "distribution logistics",
+      "retail sales",
+      "marketing services",
+      "supply chain management",
+      "quality assurance",
+      "customer service",
+      "distributor",
+      "wholesaler",
+      "reseller",
+      "system integrator",
+      "service provider"
+    ],
+    "interpretation_summary": "The organic milk market encompasses the production, distribution, and sale of milk sourced from cows that are raised according to organic farming standards. Participants include dairy farmers, processors, and various dis",
+    "relevance_keywords": [
+      "organic certification",
+      "dairy farming practices",
+      "milk distribution",
+      "sustainable agriculture",
+      "organic product supply"
+    ],
+    "negative_keywords": [
+      "conventional",
+      "non-organic",
+      "processed foods",
+      "junk food",
+      "unrelated industries"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "Organic Valley",
+        "primary_domain": "organicvalley.coop",
+        "company_function": "cooperative of organic farmers"
+      },
+      {
+        "canonical_name": "Horizon Organic",
+        "primary_domain": "horizon.com",
+        "company_function": "organic milk producer"
+      },
+      {
+        "canonical_name": "Stonyfield Farm",
+        "primary_domain": "stonyfield.com",
+        "company_function": "organic yogurt and milk producer"
+      },
+      {
+        "canonical_name": "United Natural Foods,",
+        "primary_domain": "unfi.com",
+        "company_function": "distributor of organic products"
+      },
+      {
+        "canonical_name": "KeHE Distributors",
+        "primary_domain": "kehe.com",
+        "company_function": "wholesaler of organic products"
+      },
+      {
+        "canonical_name": "Whole Foods Market",
+        "primary_domain": "wholefoodsmarket.com",
+        "company_function": "retailer of organic products"
+      },
+      {
+        "canonical_name": "Thrive Market",
+        "primary_domain": "thrivemarket.com",
+        "company_function": "online organic grocery retailer"
+      },
+      {
+        "canonical_name": "C&S Wholesale Grocers",
+        "primary_domain": "cswg.com",
+        "company_function": "wholesaler of organic products"
+      },
+      {
+        "canonical_name": "FreshDirect",
+        "primary_domain": "freshdirect.com",
+        "company_function": "online grocery delivery service",
+        "segment": "Resellers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "UNFI Canada",
+        "primary_domain": "unfi.ca",
+        "company_function": "distributor of organic products in Canada",
+        "segment": "Distributors",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Nature's Path",
+        "primary_domain": "naturespath.com",
+        "company_function": "organic cereal and dairy producer",
+        "segment": "Organic Dairy Farmers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Organic Food Depot",
+        "primary_domain": "organicfooddepot.com",
+        "company_function": "organic product distributor",
+        "segment": "Distributors",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "The Organic Milk Company",
+        "primary_domain": "theorganicmilkcompany.com",
+        "company_function": "producer and distributor of organic milk",
+        "segment": "Organic Dairy Farmers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Blue Diamond Growers",
+        "primary_domain": "bluediamond.com",
+        "company_function": "producer and distributor of organic almond milk",
+        "segment": "Resellers",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "organic milk",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "organic milk",
+    "include_keywords": [
+      "organic milk distributor",
+      "wholesale organic dairy",
+      "organic milk reseller",
+      "organic dairy supply chain",
+      "organic milk service provider"
+    ],
+    "exclude_keywords": [
+      "conventional milk",
+      "milk alternatives",
+      "dairy equipment",
+      "milk packaging",
+      "news articles",
+      "job postings"
+    ],
+    "scope_version": 2,
+    "market_definition": "The organic milk market encompasses the production, distribution, and sale of milk sourced from cows that are raised according to organic farming standards. Participants include dairy farmers, processors, and various distribution channels such as wholesalers and retailers, operating globally.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Production",
+        "description": "This layer involves the farming and processing of organic milk, ensuring compliance with organic standards.",
+        "segments": [
+          {
+            "segment_name": "Organic Dairy Farmers",
+            "sub_segments": [
+              "Grass-fed",
+              "Grain-fed"
+            ],
+            "participant_types": [
+              "farmers",
+              "cooperatives"
+            ],
+            "search_intents": [
+              "organic dairy farmers near me",
+              "certified organic milk producers"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L2",
+        "layer_name": "Distribution",
+        "description": "This layer includes the various channels through which organic milk is distributed to retailers and consumers.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Regional Distributors",
+              "National Distributors"
+            ],
+            "participant_types": [
+              "distributors",
+              "wholesalers"
+            ],
+            "search_intents": [
+              "organic milk distributors",
+              "wholesale organic milk suppliers"
+            ]
+          },
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Retailers",
+              "Online Resellers"
+            ],
+            "participant_types": [
+              "retailers",
+              "e-commerce platforms"
+            ],
+            "search_intents": [
+              "buy organic milk online",
+              "organic milk retailers near me"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L3",
+        "layer_name": "Service Providers",
+        "description": "This layer includes companies that provide services related to the organic milk market, such as logistics and marketing.",
+        "segments": [
+          {
+            "segment_name": "Logistics Providers",
+            "sub_segments": [
+              "Cold Chain Logistics",
+              "Transportation Services"
+            ],
+            "participant_types": [
+              "logistics companies",
+              "transportation firms"
+            ],
+            "search_intents": [
+              "organic milk logistics services",
+              "cold chain transport for organic products"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Conventional Milk Producers",
+        "Dairy Equipment Manufacturers",
+        "Milk Packaging Suppliers",
+        "Non-Dairy Milk Alternatives"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "find certified organic dairy farmers",
+        "sub_sector": "organic_dairy_farming",
+        "layer_id": "L1",
+        "segment": "Organic Dairy Farmers"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "search for organic milk distributors",
+        "sub_sector": "organic_milk_distribution",
+        "layer_id": "L2",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "find organic milk retailers near me",
+        "sub_sector": "organic_milk_reselling",
+        "layer_id": "L2",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "search for organic milk logistics services",
+        "sub_sector": "organic_milk_logistics",
+        "layer_id": "L3",
+        "segment": "Logistics Providers"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "dairy",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "organic milk companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "organic milk distributor corporate site"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "organic milk wholesaler official website"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "discovery",
+      "text": "organic milk wholesaler official site"
+    },
+    {
+      "id": "P2",
+      "level": "discovery",
+      "text": "organic milk reseller corporate website"
+    },
+    {
+      "id": "P3",
+      "level": "discovery",
+      "text": "organic milk service provider official site"
+    },
+    {
+      "id": "P4",
+      "level": "discovery",
+      "text": "organic milk system integrator corporate site"
+    },
+    {
+      "id": "P5",
+      "level": "discovery",
+      "text": "organic milk logistics provider official site"
+    },
+    {
+      "id": "P6",
+      "level": "discovery",
+      "text": "organic milk channel partner corporate profile"
+    },
+    {
+      "id": "P7",
+      "level": "discovery",
+      "text": "organic milk distribution logistics official site"
+    },
+    {
+      "id": "P8",
+      "level": "discovery",
+      "text": "organic milk organic farming official website"
+    },
+    {
+      "id": "P9",
+      "level": "discovery",
+      "text": "organic milk milk processing official website"
+    },
+    {
+      "id": "P10",
+      "level": "discovery",
+      "text": "authorized organic milk distributor firm official"
+    },
+    {
+      "id": "P11",
+      "level": "discovery",
+      "text": "organic milk retail pharmacy chain corporate"
+    },
+    {
+      "id": "P12",
+      "level": "discovery",
+      "text": "organic milk service provider official website"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "organic milk companies official websites",
+      "level": "L0",
+      "result_count": 8,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Just Say No To UHT Milk | Food Renegade",
+          "link": "https://www.foodrenegade.com/just-say-no-to-uht-milk/",
+          "snippet": "Some organic milk companies \u201cenhance\u201d or add Omega 3, DHA, to their milk.First there is no official regulation on contrast to Europe or some countries in south America. Still UHT milk for example from",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Not in my body: BGH and the rise of organic milk",
+          "link": "https://faculty.washington.edu/stevehar/Dupuis.pdf",
+          "snippet": "The organic milk industry, in contrast, is more concentrated than its conventional counterpart. If the claims of the top ve companies in this sector are true (and it may be a bit hyped to con-vince Wa",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Horizon Organic",
+          "link": "https://horizon.com/",
+          "snippet": "Horizon Organic was the first organic dairy brand sold nationwide. We believe in the organic difference. Always have, always will. Explore our organic milk and organic dairy offerings, recipes and mor",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Pure, untouched, organic milk from cows raised with care",
+          "link": "https://akshayakalpa.org/",
+          "snippet": "Certified Organic Milk & other products delivered by 7 AM in Bengaluru, Chennai, and Hyderabad. 100% natural, 69% of you pay goes to farmers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Horizon Organic Milk Products",
+          "link": "https://horizon.com/organic-dairy-products/organic-milk/",
+          "snippet": "Explore all of our varieties of Horizon organic milk here. Our certified organic milk is filled with calcium, protein, vitamin D, B12, and B2.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Organic Valley\u00ae | Farmer-Owned Since 1988",
+          "link": "https://www.organicvalley.coop/",
+          "snippet": "Farmer-owned since 1988, we deliver USDA Certified Organic milk, cheese, butter, oat, & eggs made with simple ingredients for food that nourishes naturally.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Order Organic Fresh Cow Milk online at free delivery",
+          "link": "https://akshayakalpa.org/products/milk/",
+          "snippet": "Now Order online the goodness of organic milk and milk products, fresh from our farms to your doorstep! Akshayakalpa Organic Milk",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sustainable Organic Dairy - Straus Family Creamery",
+          "link": "https://www.strausfamilycreamery.com/",
+          "snippet": "Straus is committed to crafting premium certified organic milk, yogurt, ice cream, milk, butter, and sour cream with sustainable practices.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Just Say No To UHT Milk | Food Renegade",
+          "link": "https://www.foodrenegade.com/just-say-no-to-uht-milk/",
+          "snippet": "Some organic milk companies \u201cenhance\u201d or add Omega 3, DHA, to their milk.First there is no official regulation on contrast to Europe or some countries in south America. Still UHT milk for example from",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Not in my body: BGH and the rise of organic milk",
+          "link": "https://faculty.washington.edu/stevehar/Dupuis.pdf",
+          "snippet": "The organic milk industry, in contrast, is more concentrated than its conventional counterpart. If the claims of the top ve companies in this sector are true (and it may be a bit hyped to con-vince Wa",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Horizon Organic",
+          "link": "https://horizon.com/",
+          "snippet": "Horizon Organic was the first organic dairy brand sold nationwide. We believe in the organic difference. Always have, always will. Explore our organic milk and organic dairy offerings, recipes and mor",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Pure, untouched, organic milk from cows raised with care",
+          "link": "https://akshayakalpa.org/",
+          "snippet": "Certified Organic Milk & other products delivered by 7 AM in Bengaluru, Chennai, and Hyderabad. 100% natural, 69% of you pay goes to farmers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Horizon Organic Milk Products",
+          "link": "https://horizon.com/organic-dairy-products/organic-milk/",
+          "snippet": "Explore all of our varieties of Horizon organic milk here. Our certified organic milk is filled with calcium, protein, vitamin D, B12, and B2.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Organic Valley\u00ae | Farmer-Owned Since 1988",
+          "link": "https://www.organicvalley.coop/",
+          "snippet": "Farmer-owned since 1988, we deliver USDA Certified Organic milk, cheese, butter, oat, & eggs made with simple ingredients for food that nourishes naturally.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Order Organic Fresh Cow Milk online at free delivery",
+          "link": "https://akshayakalpa.org/products/milk/",
+          "snippet": "Now Order online the goodness of organic milk and milk products, fresh from our farms to your doorstep! Akshayakalpa Organic Milk",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sustainable Organic Dairy - Straus Family Creamery",
+          "link": "https://www.strausfamilycreamery.com/",
+          "snippet": "Straus is committed to crafting premium certified organic milk, yogurt, ice cream, milk, butter, and sour cream with sustainable practices.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "organic milk distributor corporate site",
+      "level": "L1",
+      "result_count": 7,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Sustainable Organic Dairy - Straus Family Creamery",
+          "link": "https://www.strausfamilycreamery.com/",
+          "snippet": "Jul 8, 2026 \u00b7 All of our premium dairy products begin with our organic milk and cream sourced from small-scale certified organic dairy farms in Marin and Sonoma Counties in Northern California.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Pure, untouched, organic milk from cows raised with care",
+          "link": "https://akshayakalpa.org/",
+          "snippet": "We bring you milk, straight from the farms, that is naturally healthy and full of flavour. It is pure, clean milk that is free from antibiotics, synthetic hormones, artificial additives, or chemical r",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Horizon Organic",
+          "link": "https://horizon.com/",
+          "snippet": "Explore our organic milk and organic dairy offerings, recipes and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Rootstock | Parents Fly 7,500 Miles for Organic Milk | Organic Valley",
+          "link": "https://www.organicvalley.coop/blog/parents-fly-7500-miles-for-organic-milk/",
+          "snippet": "She became an organic milk distributor. Making Organic Food Accessible. Ha and Phan were in the construction field and knew nothing about distribution, she said.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Milk Distributorship in India | Top 10 Milk Dealership",
+          "link": "https://franchisebyte.com/best-distributor/best-milk-distributorship-in-india/",
+          "snippet": "However, dealers can comfortably run the milk distribution business and earn competitive commissions from these Organic Milk Business Distributor brands. Amul Distributorship \u2013 Best Doodh Distributors",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Is Organic Milk Safe | TikTok",
+          "link": "https://www.tiktok.com/discover/is-organic-milk-safe",
+          "snippet": "Is your milk safe? Conventional dairy contains up to 20x more growth hormones, chemicals, and pesticides than organic milk. A1 dairy can also be inflammatory, whereas A2 dairy (found in goat\u2019s and she",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Organic Milk Factory \u2013 \"Organic milk\"",
+          "link": "https://organic-milk.com.ua/en/organic-milk/",
+          "snippet": "\u201cOrganic Milk\u201d has become the first company at the local market of organic milk products that carries its business activity in closed production cycle, from raw materials production to promotion of hi",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Sustainable Organic Dairy - Straus Family Creamery",
+          "link": "https://www.strausfamilycreamery.com/",
+          "snippet": "Jul 8, 2026 \u00b7 All of our premium dairy products begin with our organic milk and cream sourced from small-scale certified organic dairy farms in Marin and Sonoma Counties in Northern California.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Pure, untouched, organic milk from cows raised with care",
+          "link": "https://akshayakalpa.org/",
+          "snippet": "We bring you milk, straight from the farms, that is naturally healthy and full of flavour. It is pure, clean milk that is free from antibiotics, synthetic hormones, artificial additives, or chemical r",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Horizon Organic",
+          "link": "https://horizon.com/",
+          "snippet": "Explore our organic milk and organic dairy offerings, recipes and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Rootstock | Parents Fly 7,500 Miles for Organic Milk | Organic Valley",
+          "link": "https://www.organicvalley.coop/blog/parents-fly-7500-miles-for-organic-milk/",
+          "snippet": "She became an organic milk distributor. Making Organic Food Accessible. Ha and Phan were in the construction field and knew nothing about distribution, she said.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Milk Distributorship in India | Top 10 Milk Dealership",
+          "link": "https://franchisebyte.com/best-distributor/best-milk-distributorship-in-india/",
+          "snippet": "However, dealers can comfortably run the milk distribution business and earn competitive commissions from these Organic Milk Business Distributor brands. Amul Distributorship \u2013 Best Doodh Distributors",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Is Organic Milk Safe | TikTok",
+          "link": "https://www.tiktok.com/discover/is-organic-milk-safe",
+          "snippet": "Is your milk safe? Conventional dairy contains up to 20x more growth hormones, chemicals, and pesticides than organic milk. A1 dairy can also be inflammatory, whereas A2 dairy (found in goat\u2019s and she",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Organic Milk Factory \u2013 \"Organic milk\"",
+          "link": "https://organic-milk.com.ua/en/organic-milk/",
+          "snippet": "\u201cOrganic Milk\u201d has become the first company at the local market of organic milk products that carries its business activity in closed production cycle, from raw materials production to promotion of hi",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "organic milk wholesaler official website",
+      "level": "L2",
+      "result_count": 3,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "organic milk Wholesaler | B2B companies and suppliers | europages",
+          "link": "https://www.europages.co.uk/companies/wholesaler/organic+milk.html",
+          "snippet": "Companies - Suppliers - Services. organic milk.Wholesaler. Welcome to MILKYLAND, a significant leader in food distribution with a decade of experience in wholesale, import/export, and efficient logist",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Organic Milk Wholesalers & Suppliers in India - Export Quality",
+          "link": "https://www.kemfree.com/health/organic-milk-products/organic-milk",
+          "snippet": "Find reliable organic milk wholesalers, suppliers & exporters in India. Explore premium quality dairy products for your business needs.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Organic Milk Supplier | Next Day Bulk Delivery",
+          "link": "https://www.fruitandveg.co.uk/dairy/milk/organic-milk/",
+          "snippet": "Create Account. site logo.An experienced organic milk wholesaler, we are immersed in the world of healthy eating We supply a vast range of dairy produce as well as brilliantly fresh fruits, vegetables",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "organic milk Wholesaler | B2B companies and suppliers | europages",
+          "link": "https://www.europages.co.uk/companies/wholesaler/organic+milk.html",
+          "snippet": "Companies - Suppliers - Services. organic milk.Wholesaler. Welcome to MILKYLAND, a significant leader in food distribution with a decade of experience in wholesale, import/export, and efficient logist",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Organic Milk Wholesalers & Suppliers in India - Export Quality",
+          "link": "https://www.kemfree.com/health/organic-milk-products/organic-milk",
+          "snippet": "Find reliable organic milk wholesalers, suppliers & exporters in India. Explore premium quality dairy products for your business needs.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Organic Milk Supplier | Next Day Bulk Delivery",
+          "link": "https://www.fruitandveg.co.uk/dairy/milk/organic-milk/",
+          "snippet": "Create Account. site logo.An experienced organic milk wholesaler, we are immersed in the world of healthy eating We supply a vast range of dairy produce as well as brilliantly fresh fruits, vegetables",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "organic milk wholesaler official site",
+      "level": "discovery",
+      "result_count": 3,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "organic milk Wholesaler | B2B companies and suppliers | europages",
+          "link": "https://www.europages.co.uk/companies/wholesaler/organic+milk.html",
+          "snippet": "Companies - Suppliers - Services. organic milk. Filters.Wholesaler. FARES IMPORT EXPORT SRL is an internationally operating trading company focused on the import and export of high-quality agricultura",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Organic Milk Supplier | Next Day Bulk Delivery",
+          "link": "https://www.fruitandveg.co.uk/dairy/milk/organic-milk/",
+          "snippet": "Reliable suppliers of wholesale Organic Milk. We deliver across London and beyond, to restaurants, hotels, cafes and more.Superbly fresh organic milk is yours, delivered on a next-day wholesale basis ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Organic Milk Wholesalers & Suppliers in India - Export Quality",
+          "link": "https://www.kemfree.com/health/organic-milk-products/organic-milk",
+          "snippet": "The Best Organic Milk Wholesalers, Suppliers, and Exporters in India. In a world increasingly conscious of health and environmental concerns, organic products have surged in popularity.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "organic milk Wholesaler | B2B companies and suppliers | europages",
+          "link": "https://www.europages.co.uk/companies/wholesaler/organic+milk.html",
+          "snippet": "Companies - Suppliers - Services. organic milk. Filters.Wholesaler. FARES IMPORT EXPORT SRL is an internationally operating trading company focused on the import and export of high-quality agricultura",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Organic Milk Supplier | Next Day Bulk Delivery",
+          "link": "https://www.fruitandveg.co.uk/dairy/milk/organic-milk/",
+          "snippet": "Reliable suppliers of wholesale Organic Milk. We deliver across London and beyond, to restaurants, hotels, cafes and more.Superbly fresh organic milk is yours, delivered on a next-day wholesale basis ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Organic Milk Wholesalers & Suppliers in India - Export Quality",
+          "link": "https://www.kemfree.com/health/organic-milk-products/organic-milk",
+          "snippet": "The Best Organic Milk Wholesalers, Suppliers, and Exporters in India. In a world increasingly conscious of health and environmental concerns, organic products have surged in popularity.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P2": {
+      "query": "organic milk reseller corporate website",
+      "level": "discovery",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "The Milk That Milk Forgot: How Alexandre Family Farm... | IBTimes",
+          "link": "https://www.ibtimes.com/milk-that-milk-forgot-how-alexandre-family-farm-brought-a2-back-3805385",
+          "snippet": "The Alexandres have stayed ahead of the curve throughout their decades in the industry. They were the ninth certified organic dairy in California, the first certified regenerative dairy in the United ",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "The Milk That Milk Forgot: How Alexandre Family Farm... | IBTimes",
+          "link": "https://www.ibtimes.com/milk-that-milk-forgot-how-alexandre-family-farm-brought-a2-back-3805385",
+          "snippet": "The Alexandres have stayed ahead of the curve throughout their decades in the industry. They were the ninth certified organic dairy in California, the first certified regenerative dairy in the United ",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P3": {
+      "query": "organic milk service provider official site",
+      "level": "discovery",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Biotic Milk \u2013 Organic Milk Delivery Mobile App :: Behance",
+          "link": "https://www.behance.net/gallery/253014447/Biotic-Milk-Organic-Milk-Delivery-Mobile-App",
+          "snippet": "\u0412\u043e\u0439\u0442\u0438 \u0412\u043e\u0439\u0442\u0438. \u0438\u043b\u0438. Biotic Milk \u2013 Organic Milk Delivery Mobile App.The goal was to build a user-centric experience that promotes healthy living while making daily milk delivery simple, reliable, and con",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Biotic Milk \u2013 Organic Milk Delivery Mobile App :: Behance",
+          "link": "https://www.behance.net/gallery/253014447/Biotic-Milk-Organic-Milk-Delivery-Mobile-App",
+          "snippet": "\u0412\u043e\u0439\u0442\u0438 \u0412\u043e\u0439\u0442\u0438. \u0438\u043b\u0438. Biotic Milk \u2013 Organic Milk Delivery Mobile App.The goal was to build a user-centric experience that promotes healthy living while making daily milk delivery simple, reliable, and con",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P4": {
+      "query": "organic milk system integrator corporate site",
+      "level": "discovery",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_yandex"
+      ],
+      "results": [
+        {
+          "title": "Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com",
+          "link": "https://www.chase.com/",
+          "snippet": "Editor hotel picks. Restaurant guides. Chase Travel Corporate Solutions.",
+          "backend": "ddgs_yandex"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com",
+          "link": "https://www.chase.com/",
+          "snippet": "Editor hotel picks. Restaurant guides. Chase Travel Corporate Solutions.",
+          "backend": "ddgs_yandex"
+        }
+      ]
+    },
+    "P5": {
+      "query": "organic milk logistics provider official site",
+      "level": "discovery",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Fresh Organic Milk \u2013 B2B Companies & Suppliers | Europages",
+          "link": "https://www.europages.co.uk/companies/fresh+organic+milk.html",
+          "snippet": "This guide provides actionable insights tailored to selecting reliable and sustainable suppliers for fresh organic milk. It emphasizes measurable criteria, industry-specific standards, and practical r",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Fresh Organic Milk \u2013 B2B Companies & Suppliers | Europages",
+          "link": "https://www.europages.co.uk/companies/fresh+organic+milk.html",
+          "snippet": "This guide provides actionable insights tailored to selecting reliable and sustainable suppliers for fresh organic milk. It emphasizes measurable criteria, industry-specific standards, and practical r",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "organic milk channel partner corporate profile",
+      "level": "discovery",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Fitbit",
+          "link": "https://www.fitbit.com/dashboard",
+          "snippet": "Cocnut Milk, Organic Classic Unsweetened 13.5 Oz.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Fitbit",
+          "link": "https://www.fitbit.com/dashboard",
+          "snippet": "Cocnut Milk, Organic Classic Unsweetened 13.5 Oz.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P7": {
+      "query": "organic milk distribution logistics official site",
+      "level": "discovery",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Dean Foods, CROPP form joint venture to expand organic milk...",
+          "link": "https://www.refrigeratedfrozenfood.com/articles/91903-dean-foods-cropp-form-joint-venture-to-expand-organic-milk-distribution",
+          "snippet": "Dean Foods Co., Dallas, Texas, and CROPP Cooperative, an independent farmer cooperative based in La Farge, Wis., formed a strategic joint venture to bring organic milk to retailers through Dean Foods'",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Dean Foods, CROPP form joint venture to expand organic milk...",
+          "link": "https://www.refrigeratedfrozenfood.com/articles/91903-dean-foods-cropp-form-joint-venture-to-expand-organic-milk-distribution",
+          "snippet": "Dean Foods Co., Dallas, Texas, and CROPP Cooperative, an independent farmer cooperative based in La Farge, Wis., formed a strategic joint venture to bring organic milk to retailers through Dean Foods'",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "D1": {
+      "query": "organic milk manufacturer official website",
+      "level": "volume_supplement",
+      "result_count": 9,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Amazon.com: Organic 2% (Reduced Fat) Milk, 128 oz : Grocery...",
+          "link": "https://www.amazon.com/Organic-Valley-Reduced-Pasteurized-Gallon/dp/B000O6ICHI",
+          "snippet": "Certified USDA Organic, Non-GMO, Organic Valley organic milk is always produced without antibiotics, synthetic hormones, toxic pesticides or GMOs. Show more. Item details.Global Trade Identification N",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Organo Milk India Private Limited | LinkedIn",
+          "link": "https://in.linkedin.com/company/omilmilk",
+          "snippet": "About us. Welcome to Organo Milk Continually productize compelling quality of Milk .The complete Organic Milk products manufacturing Unit as serving since past 30 years.External link for Organo Milk I",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Page 8 Organic.pub",
+          "link": "https://s3.amazonaws.com/barchart-news-store-prod/external_links/USDA/20230922-dybdairyorganic.pdf",
+          "snippet": "Producers are mulling over sup-plying their surplus organic milk volumes to conventional milk oper-ations, as a major organic milk manufacturer in the region is expected. Estimated Total U.S. Sales of",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Horizon Organic",
+          "link": "https://horizon.com/",
+          "snippet": "Horizon Organic was the first organic dairy brand sold nationwide. We believe in the organic difference. Always have, always will. Explore our organic milk and organic dairy offerings, recipes and mor",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Horizon Organic Milk Products",
+          "link": "https://horizon.com/organic-dairy-products/organic-milk/",
+          "snippet": "Explore all of our varieties of Horizon organic milk here. Our certified organic milk is filled with calcium, protein, vitamin D, B12, and B2.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sustainable Organic Dairy - Straus Family Creamery",
+          "link": "https://www.strausfamilycreamery.com/",
+          "snippet": "Straus is committed to crafting premium certified organic milk, yogurt, ice cream, milk, butter, and sour cream with sustainable practices.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Pure, untouched, organic milk from cows raised with care",
+          "link": "https://akshayakalpa.org/",
+          "snippet": "Certified Organic Milk & other products delivered by 7 AM in Bengaluru, Chennai, and Hyderabad. 100% natural, 69% of you pay goes to farmers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Organic Valley\u00ae | Farmer-Owned Since 1988",
+          "link": "https://www.organicvalley.coop/",
+          "snippet": "Farmer-owned since 1988, we deliver USDA Certified Organic milk, cheese, butter, oat, & eggs made with simple ingredients for food that nourishes naturally.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Red Dot Design Award: weissenhorner.de",
+          "link": "https://www.red-dot.org/project/weissenhornerde-17904",
+          "snippet": "About weissenhorner.de. The design and the production of the website for organic milk manufacturer Wei\u00dfenhorner was focused on the visualisation of the brand\u2019s own values: quality, naturalness and tra",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Amazon.com: Organic 2% (Reduced Fat) Milk, 128 oz : Grocery...",
+          "link": "https://www.amazon.com/Organic-Valley-Reduced-Pasteurized-Gallon/dp/B000O6ICHI",
+          "snippet": "Certified USDA Organic, Non-GMO, Organic Valley organic milk is always produced without antibiotics, synthetic hormones, toxic pesticides or GMOs. Show more. Item details.Global Trade Identification N",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Organo Milk India Private Limited | LinkedIn",
+          "link": "https://in.linkedin.com/company/omilmilk",
+          "snippet": "About us. Welcome to Organo Milk Continually productize compelling quality of Milk .The complete Organic Milk products manufacturing Unit as serving since past 30 years.External link for Organo Milk I",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Page 8 Organic.pub",
+          "link": "https://s3.amazonaws.com/barchart-news-store-prod/external_links/USDA/20230922-dybdairyorganic.pdf",
+          "snippet": "Producers are mulling over sup-plying their surplus organic milk volumes to conventional milk oper-ations, as a major organic milk manufacturer in the region is expected. Estimated Total U.S. Sales of",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Horizon Organic",
+          "link": "https://horizon.com/",
+          "snippet": "Horizon Organic was the first organic dairy brand sold nationwide. We believe in the organic difference. Always have, always will. Explore our organic milk and organic dairy offerings, recipes and mor",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Horizon Organic Milk Products",
+          "link": "https://horizon.com/organic-dairy-products/organic-milk/",
+          "snippet": "Explore all of our varieties of Horizon organic milk here. Our certified organic milk is filled with calcium, protein, vitamin D, B12, and B2.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sustainable Organic Dairy - Straus Family Creamery",
+          "link": "https://www.strausfamilycreamery.com/",
+          "snippet": "Straus is committed to crafting premium certified organic milk, yogurt, ice cream, milk, butter, and sour cream with sustainable practices.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Pure, untouched, organic milk from cows raised with care",
+          "link": "https://akshayakalpa.org/",
+          "snippet": "Certified Organic Milk & other products delivered by 7 AM in Bengaluru, Chennai, and Hyderabad. 100% natural, 69% of you pay goes to farmers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Organic Valley\u00ae | Farmer-Owned Since 1988",
+          "link": "https://www.organicvalley.coop/",
+          "snippet": "Farmer-owned since 1988, we deliver USDA Certified Organic milk, cheese, butter, oat, & eggs made with simple ingredients for food that nourishes naturally.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Red Dot Design Award: weissenhorner.de",
+          "link": "https://www.red-dot.org/project/weissenhornerde-17904",
+          "snippet": "About weissenhorner.de. The design and the production of the website for organic milk manufacturer Wei\u00dfenhorner was focused on the visualisation of the brand\u2019s own values: quality, naturalness and tra",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "note": "Auto supplement \u2014 low Phase 1 hit count"
+    },
+    "D2": {
+      "query": "organic milk manufacturing company corporate site",
+      "level": "volume_supplement",
+      "result_count": 4,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Organic Milk Factory \u2013 \"Organic milk\"",
+          "link": "https://organic-milk.com.ua/en/organic-milk/",
+          "snippet": "LLC \u00abOrganic Milk\u00bb is included in the vertical-integrated company that consists of four complimentary companies, functioning in the sphere of plant-growing and livestock breeding. Organic factors of a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Organo Milk India Private Limited | LinkedIn",
+          "link": "https://in.linkedin.com/company/omilmilk",
+          "snippet": "About us. Welcome to Organo Milk Continually productize compelling quality of Milk .The complete Organic Milk products manufacturing Unit as serving since past 30 years.External link for Organo Milk I",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Absolute Reports\u00ae - Global A2 Organic Milk Market",
+          "link": "https://www.absolutereports.com/global-a2-organic-milk-market-27660723",
+          "snippet": "The a2 Milk Company A2 Organic Milk Product Portfolios and Specifications Table 81.The a2 Milk Company Latest Developments Table 84. GCMMF (Amul) Basic Information, A2 Organic Milk Manufacturing Base,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Organic Milk Market Growing with a Surprising Strength One...",
+          "link": "https://www.einnews.com/pr_news/688283830/organic-milk-market-growing-with-a-surprising-strength-one-shouldn-t-overlook",
+          "snippet": "- Organic Milk Market Production by Region Organic Milk Market Profile of Manufacturers-players are studied on the basis of SWOT, their products, production, value, financials, and other vital factors",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Organic Milk Factory \u2013 \"Organic milk\"",
+          "link": "https://organic-milk.com.ua/en/organic-milk/",
+          "snippet": "LLC \u00abOrganic Milk\u00bb is included in the vertical-integrated company that consists of four complimentary companies, functioning in the sphere of plant-growing and livestock breeding. Organic factors of a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Organo Milk India Private Limited | LinkedIn",
+          "link": "https://in.linkedin.com/company/omilmilk",
+          "snippet": "About us. Welcome to Organo Milk Continually productize compelling quality of Milk .The complete Organic Milk products manufacturing Unit as serving since past 30 years.External link for Organo Milk I",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Absolute Reports\u00ae - Global A2 Organic Milk Market",
+          "link": "https://www.absolutereports.com/global-a2-organic-milk-market-27660723",
+          "snippet": "The a2 Milk Company A2 Organic Milk Product Portfolios and Specifications Table 81.The a2 Milk Company Latest Developments Table 84. GCMMF (Amul) Basic Information, A2 Organic Milk Manufacturing Base,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Organic Milk Market Growing with a Surprising Strength One...",
+          "link": "https://www.einnews.com/pr_news/688283830/organic-milk-market-growing-with-a-surprising-strength-one-shouldn-t-overlook",
+          "snippet": "- Organic Milk Market Production by Region Organic Milk Market Profile of Manufacturers-players are studied on the basis of SWOT, their products, production, value, financials, and other vital factors",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "note": "Auto supplement \u2014 low Phase 1 hit count"
+    },
+    "D3": {
+      "query": "organic milk supplier official corporate site",
+      "level": "volume_supplement",
+      "result_count": 4,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "An Organic Cash Cow - The New York Times",
+          "link": "https://www.nytimes.com/2005/11/09/dining/arts/an-organic-cash-cow.html",
+          "snippet": "Organic milk accounts for more than 3 percent of all milk sold in the United States. But with an annual growth rate of 23 percent in an era when overall milk consumption is dropping by 8 percent a yea",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Organic Milk Factory \u2013 \"Organic milk\"",
+          "link": "https://organic-milk.com.ua/en/organic-milk/",
+          "snippet": "\u201cOrganic Milk\u201d has become the first company at the local market of organic milk products that carries its business activity in closed production cycle, from raw materials production to promotion of hi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Interest high in supplying organic milk | Otago Daily Times Online...",
+          "link": "https://www.odt.co.nz/rural-life/dairy/interest-high-supplying-organic-milk",
+          "snippet": "Fonterra's recruitment drive for organic milk suppliers in the South Island looks to have overtaken targeted numbers for processing at its Stirling cheese-making site in South Otago.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Scottish Organic Milk Producers (SOMP) Ltd: Grass to Milk...",
+          "link": "https://ec.europa.eu/eip/agriculture/en/find-connect/project-ideas/scottish-organic-milk-producers-somp-ltd-grass",
+          "snippet": "Project coordinator is searching for\u2026: Organic milk producers in Scotland. Additional informationQuarterly Group meetings, attended either in person or streamed online \u2022 Linkage of milk sales data to ",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "An Organic Cash Cow - The New York Times",
+          "link": "https://www.nytimes.com/2005/11/09/dining/arts/an-organic-cash-cow.html",
+          "snippet": "Organic milk accounts for more than 3 percent of all milk sold in the United States. But with an annual growth rate of 23 percent in an era when overall milk consumption is dropping by 8 percent a yea",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Organic Milk Factory \u2013 \"Organic milk\"",
+          "link": "https://organic-milk.com.ua/en/organic-milk/",
+          "snippet": "\u201cOrganic Milk\u201d has become the first company at the local market of organic milk products that carries its business activity in closed production cycle, from raw materials production to promotion of hi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Interest high in supplying organic milk | Otago Daily Times Online...",
+          "link": "https://www.odt.co.nz/rural-life/dairy/interest-high-supplying-organic-milk",
+          "snippet": "Fonterra's recruitment drive for organic milk suppliers in the South Island looks to have overtaken targeted numbers for processing at its Stirling cheese-making site in South Otago.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Scottish Organic Milk Producers (SOMP) Ltd: Grass to Milk...",
+          "link": "https://ec.europa.eu/eip/agriculture/en/find-connect/project-ideas/scottish-organic-milk-producers-somp-ltd-grass",
+          "snippet": "Project coordinator is searching for\u2026: Organic milk producers in Scotland. Additional informationQuarterly Group meetings, attended either in person or streamed online \u2022 Linkage of milk sales data to ",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "note": "Auto supplement \u2014 low Phase 1 hit count"
+    },
+    "D4": {
+      "query": "organic milk exporter official company",
+      "level": "volume_supplement",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Organic milk Export Data Global | Organic milk Exporters",
+          "link": "https://www.cybex.in/custom-data/export/all-countries/product-organic-milk",
+          "snippet": "Organic Milk Export data is a record of global trade transactions involving Organic Milk products. It includes shipment details like HS code, importer/exporter names, quantity, price, and origin/desti",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Organic milk Export Data Global | Organic milk Exporters",
+          "link": "https://www.cybex.in/custom-data/export/all-countries/product-organic-milk",
+          "snippet": "Organic Milk Export data is a record of global trade transactions involving Organic Milk products. It includes shipment details like HS code, importer/exporter names, quantity, price, and origin/desti",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "note": "Auto supplement \u2014 low Phase 1 hit count"
+    },
+    "D5": {
+      "query": "organic milk company headquarters official site",
+      "level": "volume_supplement",
+      "result_count": 4,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Organic Milk Factory \u2013 \"Organic milk\"",
+          "link": "https://organic-milk.com.ua/en/organic-milk/",
+          "snippet": "\u201cOrganic Milk\u201d has become the first company at the local market of organic milk products that carries its business activity in closed production cycle, from raw materials production to promotion of hi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "MOOMilk: Maine's Own Organic Milk Company | Whole Foods Market",
+          "link": "https://www.wholefoodsmarket.com/tips-and-ideas/archive/moomilk-maines-own-organic-milk-company",
+          "snippet": "That, in turn, provides Whole Foods Market\u00ae customers with more delicious organic milk. It truly is a winning situation for everyone involved, especially all you organic milk lovers in Maine and New E",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Developing a Taste for Organic Milk - The New York Times",
+          "link": "https://www.nytimes.com/1996/10/30/garden/developing-a-taste-for-organic-milk.html",
+          "snippet": "Almost all the companies offer organic milk as both nonfat and whole, as well as either 1 percent or 2 percent. Some also offer unhomogenized milk, chocolate milk, buttermilk, half-and-half, heavy cre",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "36 Milk Apartment: A Residential Building... - 24designclub",
+          "link": "https://24designclub.com/36-milk-apartment-onion-design-studio-bangkok-thailand/",
+          "snippet": "This project is a residential building transformation project located in Sukhumvit Road 36. Onion Design Studio has transformed a 30-year-old building into a new home for Butterfly Organic Milk Compan",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Organic Milk Factory \u2013 \"Organic milk\"",
+          "link": "https://organic-milk.com.ua/en/organic-milk/",
+          "snippet": "\u201cOrganic Milk\u201d has become the first company at the local market of organic milk products that carries its business activity in closed production cycle, from raw materials production to promotion of hi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "MOOMilk: Maine's Own Organic Milk Company | Whole Foods Market",
+          "link": "https://www.wholefoodsmarket.com/tips-and-ideas/archive/moomilk-maines-own-organic-milk-company",
+          "snippet": "That, in turn, provides Whole Foods Market\u00ae customers with more delicious organic milk. It truly is a winning situation for everyone involved, especially all you organic milk lovers in Maine and New E",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Developing a Taste for Organic Milk - The New York Times",
+          "link": "https://www.nytimes.com/1996/10/30/garden/developing-a-taste-for-organic-milk.html",
+          "snippet": "Almost all the companies offer organic milk as both nonfat and whole, as well as either 1 percent or 2 percent. Some also offer unhomogenized milk, chocolate milk, buttermilk, half-and-half, heavy cre",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "36 Milk Apartment: A Residential Building... - 24designclub",
+          "link": "https://24designclub.com/36-milk-apartment-onion-design-studio-bangkok-thailand/",
+          "snippet": "This project is a residential building transformation project located in Sukhumvit Road 36. Onion Design Studio has transformed a 30-year-old building into a new home for Butterfly Organic Milk Compan",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "note": "Auto supplement \u2014 low Phase 1 hit count"
+    },
+    "D6": {
+      "query": "organic milk subsidiary corporate profile",
+      "level": "volume_supplement",
+      "result_count": 2,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Visit of SECO, Embassy of Switzerland, and QFTP delegation... | QFTP",
+          "link": "https://qftp.org/en/visit-of-seco-embassy-of-switzerland-and-qftp-delegation-to-organic-enterprise-galeks-agro/",
+          "snippet": "Galeks-Agro and its subsidiary Organic Milk successfully represent their products both on the domestic and foreign markets, including at events such as Lviv Taste Fair (2023, 2024), Organic Fest at Si",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "This IPO May Have Already Reached Its Pinnacle | The Motley Fool",
+          "link": "https://www.fool.com/investing/general/2013/04/06/this-ipo-may-have-already-reached-its-pinnacle.aspx",
+          "snippet": "Dean Foods (DF+0.00%) , essentially the Pinnacle Foods of milk products, had flat sales growth from 2007 to 2011, just like conventional grocers. White Wave Foods , Dean's former organic milk subsidia",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Visit of SECO, Embassy of Switzerland, and QFTP delegation... | QFTP",
+          "link": "https://qftp.org/en/visit-of-seco-embassy-of-switzerland-and-qftp-delegation-to-organic-enterprise-galeks-agro/",
+          "snippet": "Galeks-Agro and its subsidiary Organic Milk successfully represent their products both on the domestic and foreign markets, including at events such as Lviv Taste Fair (2023, 2024), Organic Fest at Si",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "This IPO May Have Already Reached Its Pinnacle | The Motley Fool",
+          "link": "https://www.fool.com/investing/general/2013/04/06/this-ipo-may-have-already-reached-its-pinnacle.aspx",
+          "snippet": "Dean Foods (DF+0.00%) , essentially the Pinnacle Foods of milk products, had flat sales growth from 2007 to 2011, just like conventional grocers. White Wave Foods , Dean's former organic milk subsidia",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "note": "Auto supplement \u2014 low Phase 1 hit count"
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)",
+    "Low search volume in Phase 1 smoke test (27 total hits). Phase 2 will run more prompts; set SKIP_BING_HTML=false or start SearXNG if search is thin."
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+  "volume_supplement_searches": 6
+}

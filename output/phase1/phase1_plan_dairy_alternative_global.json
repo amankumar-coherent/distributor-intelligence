@@ -1,0 +1,1342 @@
+{
+  "phase": 1,
+  "query": "Dairy Alternative Market -- only include these channel-partner types: Distributor; Importer; Wholesaler; Dealer; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T20:56:45.115159+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "Dairy Alternative",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "food and beverage",
+    "industry_terms": [
+      "plant-based milk",
+      "vegan cheese",
+      "dairy-free yogurt",
+      "almond milk",
+      "soy milk"
+    ],
+    "ecosystem_functions": [
+      "manufacturing of plant-based dairy alternatives",
+      "distribution of dairy alternatives to retailers",
+      "importing dairy alternative products",
+      "wholesaling plant-based dairy products",
+      "retail sales of dairy alternatives",
+      "channel partnerships for dairy alternative distribution",
+      "logistics and supply chain management",
+      "marketing and promotion of dairy alternatives"
+    ],
+    "interpretation_summary": "The Dairy Alternative Market encompasses a range of plant-based products designed to replace traditional dairy items, including milk, cheese, and yogurt. Key participants include manufacturers of dairy alternatives, dist",
+    "relevance_keywords": [
+      "dairy alternatives",
+      "plant-based dairy",
+      "non-dairy products",
+      "vegan alternatives",
+      "milk substitutes"
+    ],
+    "negative_keywords": [
+      "traditional dairy",
+      "animal products",
+      "meat",
+      "eggs",
+      "cheese"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "Blue Diamond Growers",
+        "primary_domain": "bluediamond.com",
+        "company_function": "distributor"
+      },
+      {
+        "canonical_name": "UNFI",
+        "primary_domain": "unfi.com",
+        "company_function": "distributor"
+      },
+      {
+        "canonical_name": "KeHE Distributors",
+        "primary_domain": "kehe.com",
+        "company_function": "distributor"
+      },
+      {
+        "canonical_name": "Sysco",
+        "primary_domain": "sysco.com",
+        "company_function": "distributor"
+      },
+      {
+        "canonical_name": "Grocery Outlet",
+        "primary_domain": "groceryoutlet.com",
+        "company_function": "wholesaler"
+      },
+      {
+        "canonical_name": "PCC Community Markets",
+        "primary_domain": "pccmarkets.com",
+        "company_function": "wholesaler"
+      },
+      {
+        "canonical_name": "Whole Foods Market",
+        "primary_domain": "wholefoodsmarket.com",
+        "company_function": "wholesaler"
+      },
+      {
+        "canonical_name": "Daiya Foods",
+        "primary_domain": "daiyafoods.com",
+        "company_function": "plant-based cheese manufacturer"
+      },
+      {
+        "canonical_name": "Alpro",
+        "primary_domain": "alpro.com",
+        "company_function": "plant-based milk and yogurt producer",
+        "segment": "Plant-Based Milk Producers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Oatly",
+        "primary_domain": "oatly.com",
+        "company_function": "oat milk producer",
+        "segment": "Plant-Based Milk Producers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Silk",
+        "primary_domain": "silk.com",
+        "company_function": "soy and almond milk producer",
+        "segment": "Plant-Based Milk Producers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Ripple Foods",
+        "primary_domain": "ripplefoods.com",
+        "company_function": "pea milk producer",
+        "segment": "Plant-Based Milk Producers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Follow Your Heart",
+        "primary_domain": "followyourheart.com",
+        "company_function": "plant-based cheese and dressing producer",
+        "segment": "Plant-Based Cheese Producers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Earth Balance",
+        "primary_domain": "earthbalancenatural.com",
+        "company_function": "plant-based butter and spreads producer",
+        "segment": "Plant-Based Cheese Producers",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "Dairy Alternative",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "Dairy Alternative",
+    "include_keywords": [
+      "dairy alternative distributor",
+      "plant-based product importer",
+      "vegan cheese wholesaler",
+      "dairy-free product dealer",
+      "channel partner for dairy alternatives"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The Dairy Alternative Market encompasses a range of plant-based products designed to replace traditional dairy items, including milk, cheese, and yogurt. Key participants include manufacturers of dairy alternatives, distributors, importers, and wholesalers operating globally.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Manufacturing",
+        "description": "This layer involves the production of dairy alternative products from raw plant materials.",
+        "segments": [
+          {
+            "segment_name": "Plant-Based Milk Producers",
+            "sub_segments": [
+              "Almond Milk",
+              "Soy Milk",
+              "Oat Milk"
+            ],
+            "participant_types": [
+              "manufacturer"
+            ],
+            "search_intents": [
+              "plant-based milk manufacturers",
+              "almond milk production companies"
+            ]
+          },
+          {
+            "segment_name": "Plant-Based Cheese Producers",
+            "sub_segments": [
+              "Cashew Cheese",
+              "Soy Cheese",
+              "Coconut Cheese"
+            ],
+            "participant_types": [
+              "manufacturer"
+            ],
+            "search_intents": [
+              "plant-based cheese manufacturers",
+              "vegan cheese production companies"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L2",
+        "layer_name": "Distribution",
+        "description": "This layer includes the distribution channels that deliver dairy alternatives to retailers and consumers.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Regional Distributors",
+              "National Distributors"
+            ],
+            "participant_types": [
+              "distributor"
+            ],
+            "search_intents": [
+              "dairy alternative distributors",
+              "plant-based product distributors"
+            ]
+          },
+          {
+            "segment_name": "Wholesalers",
+            "sub_segments": [
+              "Food Service Wholesalers",
+              "Retail Wholesalers"
+            ],
+            "participant_types": [
+              "wholesaler"
+            ],
+            "search_intents": [
+              "wholesale dairy alternatives",
+              "bulk plant-based products wholesaler"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Importers",
+        "Wholesalers",
+        "Dealers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Traditional Dairy Products",
+        "Meat Alternatives",
+        "Plant-Based Snacks",
+        "Beverage Industry"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "search for plant-based milk manufacturers",
+        "sub_sector": "plant_based_milk_manufacturer",
+        "layer_id": "L1",
+        "segment": "Plant-Based Milk Producers"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "search for plant-based cheese manufacturers",
+        "sub_sector": "plant_based_cheese_manufacturer",
+        "layer_id": "L1",
+        "segment": "Plant-Based Cheese Producers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "search for dairy alternative distributors",
+        "sub_sector": "dairy_alternative_distributor",
+        "layer_id": "L2",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "search for dairy alternative wholesalers",
+        "sub_sector": "dairy_alternative_wholesaler",
+        "layer_id": "L2",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M5",
+        "level": "market_map",
+        "text": "search for dairy alternative dealers",
+        "sub_sector": "dairy_alternative_dealer",
+        "layer_id": "L2",
+        "segment": "Dealers"
+      },
+      {
+        "id": "M6",
+        "level": "market_map",
+        "text": "search for dairy alternative channel partners",
+        "sub_sector": "dairy_alternative_channel_partner",
+        "layer_id": "L2",
+        "segment": "Channel Partners"
+      },
+      {
+        "id": "M7",
+        "level": "market_map",
+        "text": "rechercher des fabricants de produits laitiers v\u00e9g\u00e9taux",
+        "sub_sector": "produits_laitiers_vegetaux",
+        "layer_id": "L1",
+        "segment": "Plant-Based Milk Producers"
+      },
+      {
+        "id": "M8",
+        "level": "market_map",
+        "text": "rechercher des fabricants de fromage v\u00e9g\u00e9talien",
+        "sub_sector": "fromage_vegetalien",
+        "layer_id": "L1",
+        "segment": "Plant-Based Cheese Producers"
+      },
+      {
+        "id": "M9",
+        "level": "market_map",
+        "text": "rechercher des distributeurs de produits laitiers v\u00e9g\u00e9taux",
+        "sub_sector": "distributeur_de_produits_laitiers_vegetaux",
+        "layer_id": "L2",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M10",
+        "level": "market_map",
+        "text": "rechercher des grossistes de produits laitiers v\u00e9g\u00e9taux",
+        "sub_sector": "grossiste_de_produits_laitiers_vegetaux",
+        "layer_id": "L2",
+        "segment": "Wholesalers"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "food and beverage",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "Dairy Alternative Market companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "Dairy alternative distributors corporate sites"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "Dairy alternative wholesalers official websites"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "market_map",
+      "text": "search for plant-based milk manufacturers"
+    },
+    {
+      "id": "P2",
+      "level": "market_map",
+      "text": "search for plant-based cheese manufacturers"
+    },
+    {
+      "id": "P3",
+      "level": "market_map",
+      "text": "search for dairy alternative distributors"
+    },
+    {
+      "id": "P4",
+      "level": "market_map",
+      "text": "search for dairy alternative wholesalers"
+    },
+    {
+      "id": "P5",
+      "level": "market_map",
+      "text": "search for dairy alternative dealers"
+    },
+    {
+      "id": "P6",
+      "level": "market_map",
+      "text": "search for dairy alternative channel partners"
+    },
+    {
+      "id": "P7",
+      "level": "market_map",
+      "text": "rechercher des fabricants de produits laitiers v\u00e9g\u00e9taux"
+    },
+    {
+      "id": "P8",
+      "level": "market_map",
+      "text": "rechercher des fabricants de fromage v\u00e9g\u00e9talien"
+    },
+    {
+      "id": "P9",
+      "level": "market_map",
+      "text": "rechercher des distributeurs de produits laitiers v\u00e9g\u00e9taux"
+    },
+    {
+      "id": "P10",
+      "level": "market_map",
+      "text": "rechercher des grossistes de produits laitiers v\u00e9g\u00e9taux"
+    },
+    {
+      "id": "P11",
+      "level": "discovery",
+      "text": "dairy alternative distributors official website"
+    },
+    {
+      "id": "P12",
+      "level": "discovery",
+      "text": "dairy alternative importers corporate site"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "Dairy Alternative Market companies official websites",
+      "level": "L0",
+      "result_count": 20,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Best Dairy Farming in India | Parag Milk Food",
+          "link": "https://www.paragmilkfoods.com/index.php",
+          "snippet": "Competing in the Market with Strong Brands Our products play a central role in people\u2019s lives, they awake to them and consume them all day long. We believe in making dairy moments enjoyable, inspiring",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "India Dairy Alternatives Market Size & Growth to 2031",
+          "link": "https://www.mordorintelligence.com/industry-reports/india-dairy-alternatives-market",
+          "snippet": "The India Dairy Alternatives Market worth USD 128.34 million in 2026 is growing at a CAGR of 9.63% to reach USD 203.28 million by 2031. Tata Consumer Products Limited, Nestl\u00c3\u00a9, Oatly Group AB, Danone ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "India Dairy Alternatives Market Size, Share, and Industry Trends ...",
+          "link": "https://markwideresearch.com/india-dairy-alternatives-market",
+          "snippet": "India Dairy Alternatives Market Insights Oat protein concentrate is recalibrating cost structures across India Dairy Alternatives formulations, narrowing the price gap with traditional dairy. Epigamia",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternatives Market Size, Share | Growth Report [2034]",
+          "link": "https://www.fortunebusinessinsights.com/industry-reports/dairy-alternatives-market-100221",
+          "snippet": "The global dairy alternatives market research report provides a detailed analysis of the market and focuses on key aspects such as leading companies, market segmentation, product types, and leading di",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternatives Market Growth, Size, Share, Trends",
+          "link": "https://www.marketsandmarkets.com/Market-Reports/dairy-alternatives-market-677.html",
+          "snippet": "The dairy alternatives industry in the Asia-Pacific region is expanding, driven by changing consumer lifestyles. The dairy alternatives market in this region is currently undergoing significant change",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Companies In North America Dairy Alternatives Market",
+          "link": "https://www.6wresearch.com/market-takeaways-view/top-companies-in-north-america-dairy-alternatives-market",
+          "snippet": "North America dairy alternatives market is rapidly evolving sector, driven by increasing demand for plant-based products that cater to modern dietary preferences.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Dairy Alternatives Companies Transforming the Future of ...",
+          "link": "https://www.marketsandmarkets.com/blog/FB/top-dairy-alternatives-companies",
+          "snippet": "Jul 7, 2026 \u00b7 Explore the top dairy alternative companies driving innovation in the global dairy alternatives market. Learn about key players, growth strategies, and industry trends shaping the future",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternatives Market Size to Hit USD 102.74 Bn by 2035",
+          "link": "https://www.precedenceresearch.com/dairy-alternatives-market",
+          "snippet": "Dairy Alternatives Market Companies. Other Major Key Players.Dairy Alternatives Market Key Takeaways. By source, the soy segment held a revenue share of 35.5% in 2025. However, the almond segment is r",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternatives Market Size Share & Trends Report, 2034",
+          "link": "https://www.imarcgroup.com/dairy-alternatives-market",
+          "snippet": "Site Selection. Regulatory Compliance. Consumer Insights & Behavior Research.The dairy alternatives market is competitive, and this industry has a mix of the older, established dairy companies with ne",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternative Market \u2013 Global... | Data Bridge Market Research",
+          "link": "https://www.databridgemarketresearch.com/reports/global-dairy-alternative-market",
+          "snippet": "Global Dairy Alternative Market. Market Size in USD Billion.Companies like Danone S.A. (France), Blue Diamond Growers (U.S.), Earth\u2019s Own (Canada), Hain Celestial (U.S.), Organic Valley (U.S.)are the ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternatives Market Forecast 2025\u20132035 | Growth & Trends",
+          "link": "https://www.meticulousresearch.com/product/dairy-alternatives-market-5128",
+          "snippet": "Dairy Alternatives Market by Product Type (Plant-Based Milk, Cheese, Yogurt, Butter, Ice Cream), Source (Almond, Soy, Oat, Coconut), Form, Application, Distribution Channel, End User, & Geography - Gl",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternatives Market Size, Share, Growth, Analysis \u2013 2031",
+          "link": "https://www.alliedmarketresearch.com/dairy-alternatives-market",
+          "snippet": "Dairy Alternatives Market Size is Estimated to Register $55.5 Billion from 2022 to 2031, Driven by Rising Demand for Plant-Based Products.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternative Market Size, Share, Trends & Forecast 2026-2034",
+          "link": "https://www.renub.com/dairy-alternatives-market-consumption-forecast-global-analysis-by-plant-based-milk-regions-companies-p.php",
+          "snippet": "Global Dairy Alternative Market Report by Product, Source, Distribution Channel, Countries and Company Analysis 2026-2034.The dairy alternative market is gaining momentum due to shifting consumer prio",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 5 Dairy Alternatives Market Latest Trends in 2023 | FHA-FnB",
+          "link": "https://fhafnb.com/blog/dairy-alternatives-market/",
+          "snippet": "In this article we discuss about dairy alternatives market trends in 2023 including plant-based milk, health consciousness, oat consumption, and coconut milk.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "North America Dairy Alternative Market \u2013 Size, Share, Trends...",
+          "link": "https://markwideresearch.com/north-america-dairy-alternative-market/",
+          "snippet": "Dairy alternatives are plant-based products that serve as substitutes for dairy milk and related products. This market analysis provides insights into the key drivers, restraints, opportunities, and t",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternative Beverages Market Trends Report 2035",
+          "link": "https://www.globalgrowthinsights.com/market-reports/dairy-alternative-beverages-market-101124",
+          "snippet": "Dairy Alternative Beverages Market Size, Share, Growth and Industry Analysis, By Types (Almond, Soy, Oat, Others), By Applications (Hypermarkets and Supermarkets, Independent Retailers, Convenience St",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternative Market Share, Size, & Growth 2025-2035",
+          "link": "https://www.metatechinsights.com/industry-insights/dairy-alternative-market-1420",
+          "snippet": "The Dairy alternative market accounted for USD 32.8 Billion in 2024 and is expected to reach USD 113.2 Billion by 2035, growing at a CAGR of around 11.9% between 2025 and 2035. The dairy alternative m",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Opportunities abound in the dairy-alternative market | Dairy Foods",
+          "link": "https://www.dairyfoods.com/articles/96724-opportunities-abound-in-the-dairy-alternative-market",
+          "snippet": "With the market for dairy alternatives fully established, dairy processors should follow the latest trends, particularly since the popularity of a particular dairy alternative can change rapidly. Over",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternative Market Size, Share & Forecast 2035",
+          "link": "https://www.transparencymarketresearch.com/dairy-alternative-market.html",
+          "snippet": "The Dairy Alternative Market is projected to grow significantly through 2035, driven by rising consumer demand for plant-based foods, increasing lactose intolerance and dairy allergies, and expanding ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 27 Dairy Alternatives Companies",
+          "link": "https://www.inven.ai/company-lists/top-27-dairy-alternatives-companies",
+          "snippet": "",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Best Dairy Farming in India | Parag Milk Food",
+          "link": "https://www.paragmilkfoods.com/index.php",
+          "snippet": "Competing in the Market with Strong Brands Our products play a central role in people\u2019s lives, they awake to them and consume them all day long. We believe in making dairy moments enjoyable, inspiring",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "India Dairy Alternatives Market Size & Growth to 2031",
+          "link": "https://www.mordorintelligence.com/industry-reports/india-dairy-alternatives-market",
+          "snippet": "The India Dairy Alternatives Market worth USD 128.34 million in 2026 is growing at a CAGR of 9.63% to reach USD 203.28 million by 2031. Tata Consumer Products Limited, Nestl\u00c3\u00a9, Oatly Group AB, Danone ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "India Dairy Alternatives Market Size, Share, and Industry Trends ...",
+          "link": "https://markwideresearch.com/india-dairy-alternatives-market",
+          "snippet": "India Dairy Alternatives Market Insights Oat protein concentrate is recalibrating cost structures across India Dairy Alternatives formulations, narrowing the price gap with traditional dairy. Epigamia",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternatives Market Size, Share | Growth Report [2034]",
+          "link": "https://www.fortunebusinessinsights.com/industry-reports/dairy-alternatives-market-100221",
+          "snippet": "The global dairy alternatives market research report provides a detailed analysis of the market and focuses on key aspects such as leading companies, market segmentation, product types, and leading di",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternatives Market Growth, Size, Share, Trends",
+          "link": "https://www.marketsandmarkets.com/Market-Reports/dairy-alternatives-market-677.html",
+          "snippet": "The dairy alternatives industry in the Asia-Pacific region is expanding, driven by changing consumer lifestyles. The dairy alternatives market in this region is currently undergoing significant change",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Companies In North America Dairy Alternatives Market",
+          "link": "https://www.6wresearch.com/market-takeaways-view/top-companies-in-north-america-dairy-alternatives-market",
+          "snippet": "North America dairy alternatives market is rapidly evolving sector, driven by increasing demand for plant-based products that cater to modern dietary preferences.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Dairy Alternatives Companies Transforming the Future of ...",
+          "link": "https://www.marketsandmarkets.com/blog/FB/top-dairy-alternatives-companies",
+          "snippet": "Jul 7, 2026 \u00b7 Explore the top dairy alternative companies driving innovation in the global dairy alternatives market. Learn about key players, growth strategies, and industry trends shaping the future",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternatives Market Size to Hit USD 102.74 Bn by 2035",
+          "link": "https://www.precedenceresearch.com/dairy-alternatives-market",
+          "snippet": "Dairy Alternatives Market Companies. Other Major Key Players.Dairy Alternatives Market Key Takeaways. By source, the soy segment held a revenue share of 35.5% in 2025. However, the almond segment is r",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternatives Market Size Share & Trends Report, 2034",
+          "link": "https://www.imarcgroup.com/dairy-alternatives-market",
+          "snippet": "Site Selection. Regulatory Compliance. Consumer Insights & Behavior Research.The dairy alternatives market is competitive, and this industry has a mix of the older, established dairy companies with ne",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternative Market \u2013 Global... | Data Bridge Market Research",
+          "link": "https://www.databridgemarketresearch.com/reports/global-dairy-alternative-market",
+          "snippet": "Global Dairy Alternative Market. Market Size in USD Billion.Companies like Danone S.A. (France), Blue Diamond Growers (U.S.), Earth\u2019s Own (Canada), Hain Celestial (U.S.), Organic Valley (U.S.)are the ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternatives Market Forecast 2025\u20132035 | Growth & Trends",
+          "link": "https://www.meticulousresearch.com/product/dairy-alternatives-market-5128",
+          "snippet": "Dairy Alternatives Market by Product Type (Plant-Based Milk, Cheese, Yogurt, Butter, Ice Cream), Source (Almond, Soy, Oat, Coconut), Form, Application, Distribution Channel, End User, & Geography - Gl",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternatives Market Size, Share, Growth, Analysis \u2013 2031",
+          "link": "https://www.alliedmarketresearch.com/dairy-alternatives-market",
+          "snippet": "Dairy Alternatives Market Size is Estimated to Register $55.5 Billion from 2022 to 2031, Driven by Rising Demand for Plant-Based Products.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternative Market Size, Share, Trends & Forecast 2026-2034",
+          "link": "https://www.renub.com/dairy-alternatives-market-consumption-forecast-global-analysis-by-plant-based-milk-regions-companies-p.php",
+          "snippet": "Global Dairy Alternative Market Report by Product, Source, Distribution Channel, Countries and Company Analysis 2026-2034.The dairy alternative market is gaining momentum due to shifting consumer prio",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 5 Dairy Alternatives Market Latest Trends in 2023 | FHA-FnB",
+          "link": "https://fhafnb.com/blog/dairy-alternatives-market/",
+          "snippet": "In this article we discuss about dairy alternatives market trends in 2023 including plant-based milk, health consciousness, oat consumption, and coconut milk.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "North America Dairy Alternative Market \u2013 Size, Share, Trends...",
+          "link": "https://markwideresearch.com/north-america-dairy-alternative-market/",
+          "snippet": "Dairy alternatives are plant-based products that serve as substitutes for dairy milk and related products. This market analysis provides insights into the key drivers, restraints, opportunities, and t",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternative Beverages Market Trends Report 2035",
+          "link": "https://www.globalgrowthinsights.com/market-reports/dairy-alternative-beverages-market-101124",
+          "snippet": "Dairy Alternative Beverages Market Size, Share, Growth and Industry Analysis, By Types (Almond, Soy, Oat, Others), By Applications (Hypermarkets and Supermarkets, Independent Retailers, Convenience St",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternative Market Share, Size, & Growth 2025-2035",
+          "link": "https://www.metatechinsights.com/industry-insights/dairy-alternative-market-1420",
+          "snippet": "The Dairy alternative market accounted for USD 32.8 Billion in 2024 and is expected to reach USD 113.2 Billion by 2035, growing at a CAGR of around 11.9% between 2025 and 2035. The dairy alternative m",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Opportunities abound in the dairy-alternative market | Dairy Foods",
+          "link": "https://www.dairyfoods.com/articles/96724-opportunities-abound-in-the-dairy-alternative-market",
+          "snippet": "With the market for dairy alternatives fully established, dairy processors should follow the latest trends, particularly since the popularity of a particular dairy alternative can change rapidly. Over",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternative Market Size, Share & Forecast 2035",
+          "link": "https://www.transparencymarketresearch.com/dairy-alternative-market.html",
+          "snippet": "The Dairy Alternative Market is projected to grow significantly through 2035, driven by rising consumer demand for plant-based foods, increasing lactose intolerance and dairy allergies, and expanding ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 27 Dairy Alternatives Companies",
+          "link": "https://www.inven.ai/company-lists/top-27-dairy-alternatives-companies",
+          "snippet": "",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "Dairy alternative distributors corporate sites",
+      "level": "L1",
+      "result_count": 12,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Dairy Alternatives Market Forecast 2025\u20132035 | Growth & Trends",
+          "link": "https://www.meticulousresearch.com/product/dairy-alternatives-market-5128",
+          "snippet": "+1-646-781-8004. Dairy Alternatives Market by Product Type (Plant-Based Milk, Cheese, Yogurt, Butter, Ice Cream), Source (Almond, Soy, Oat, Coconut), Form, Application, Distribution Channel, End User,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternative (Beverage) Market- By Type | IndustryARC",
+          "link": "https://www.industryarc.com/Report/7430/dairy-alternative-beverage-market.html",
+          "snippet": "Dairy Alternative (Beverage) Market Size is forecast to reach $ 13,300 Million by 2030, at a CAGR of 12% during forecast period 2024-2030.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternatives Market Growth, Size, Share, Trends",
+          "link": "https://www.marketsandmarkets.com/Market-Reports/dairy-alternatives-market-677.html",
+          "snippet": "Dairy Alternatives Market by Source (Soy, Almond, Coconut, Oats, Hemp), Application (Milk, Yogurt, Ice Creams, Cheese, Creamers), Distribution Channel (Retail, Online Stores, Foodservice), Formulation",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Packaged Facts lists dairy alternative beverage trends to watch",
+          "link": "https://www.foodnavigator-usa.com/Article/2017/11/09/Packaged-Facts-lists-dairy-alternative-beverage-trends-to-watch/",
+          "snippet": "US per capita consumption of dairy milk beverages decreased by 22% from 197 pounds to 154 pounds between 2000 and 2016, according to data* from USDA\u2019s economic research service, with the biggest drop ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternative Market Share, Opportunities, Industry 2031",
+          "link": "https://growthmarketreports.com/report/dairy-alternative-protein-market-north-america-industry-analysis",
+          "snippet": "North America Dairy Alternative Market Outlook. Vegan milk has extensively gained its popularity in the non-dairy segment and is considered intensively healthy, sustainable, and animal friendly dairy ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternative Market \u2013 Global... | Data Bridge Market Research",
+          "link": "https://www.databridgemarketresearch.com/reports/global-dairy-alternative-market",
+          "snippet": "Global Dairy Alternative Market Size, Share, and Trends Analysis Report \u2013 Industry Overview and Forecast to 2032.Dairy Alternative Market Scope. The market is segmented on the basis of product type, t",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 Plant-Based Dairy Alternative provider companies",
+          "link": "https://www.foodinfotech.com/top-10-plant-based-dairy-alternative-provider-companies/",
+          "snippet": "The dairy alternative market is expanding rapidly, driven by consumer demand for healthier, sustainable, and ethical plant-based options.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "90 Food Brands that use Dedicated Dairy-Free Facilities",
+          "link": "https://godairyfree.org/food-and-grocery/dedicated-dairy-free-facilities",
+          "snippet": "We found dozens of brands that use Dedicated Dairy-Free Facilities. Includes dairy alternatives, snack foods, meal helpers, desserts & more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternatives Products Companies - Market Research Future",
+          "link": "https://www.marketresearchfuture.com/reports/dairy-alternatives-market/companies",
+          "snippet": "Discover dairy-free delights from top companies. Elevate your lifestyle with a diverse range of high-quality dairy alternative products, crafted for taste and nutritional excellence.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 50 Companies in the Dairy Alternatives Market: Key Insights ...",
+          "link": "https://www.sphericalinsights.com/blogs/top-50-companies-in-the-dairy-alternatives-market-key-insights-innovations",
+          "snippet": "The company emphasizes transparency, innovation, and traceability throughout its supply chain, contributing to its strong industry standing Are you ready to discover more about the dairy alternatives ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 Dairy Alternatives Suppliers For Lactose Intolerant and Vegan ...",
+          "link": "https://www.extrapolate.com/blog/top-10-dairy-alternatives-manufacturers-2024",
+          "snippet": "This blog explores the top 10 dairy alternatives manufacturers that supply non-dairy alternatives for lactose intolerant and vegan consumers in 2024 globally.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Inven 2026",
+          "link": "https://www.inven.ai/company-lists/top-27-dairy-alternatives-companies",
+          "snippet": "Want to Find More Dairy Alternatives Companies? If you want to find more companies that offer various plant-based products such as milk, cheese, and yogurt you can do so with Inven. This list was buil",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Dairy Alternatives Market Forecast 2025\u20132035 | Growth & Trends",
+          "link": "https://www.meticulousresearch.com/product/dairy-alternatives-market-5128",
+          "snippet": "+1-646-781-8004. Dairy Alternatives Market by Product Type (Plant-Based Milk, Cheese, Yogurt, Butter, Ice Cream), Source (Almond, Soy, Oat, Coconut), Form, Application, Distribution Channel, End User,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternative (Beverage) Market- By Type | IndustryARC",
+          "link": "https://www.industryarc.com/Report/7430/dairy-alternative-beverage-market.html",
+          "snippet": "Dairy Alternative (Beverage) Market Size is forecast to reach $ 13,300 Million by 2030, at a CAGR of 12% during forecast period 2024-2030.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternatives Market Growth, Size, Share, Trends",
+          "link": "https://www.marketsandmarkets.com/Market-Reports/dairy-alternatives-market-677.html",
+          "snippet": "Dairy Alternatives Market by Source (Soy, Almond, Coconut, Oats, Hemp), Application (Milk, Yogurt, Ice Creams, Cheese, Creamers), Distribution Channel (Retail, Online Stores, Foodservice), Formulation",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Packaged Facts lists dairy alternative beverage trends to watch",
+          "link": "https://www.foodnavigator-usa.com/Article/2017/11/09/Packaged-Facts-lists-dairy-alternative-beverage-trends-to-watch/",
+          "snippet": "US per capita consumption of dairy milk beverages decreased by 22% from 197 pounds to 154 pounds between 2000 and 2016, according to data* from USDA\u2019s economic research service, with the biggest drop ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternative Market Share, Opportunities, Industry 2031",
+          "link": "https://growthmarketreports.com/report/dairy-alternative-protein-market-north-america-industry-analysis",
+          "snippet": "North America Dairy Alternative Market Outlook. Vegan milk has extensively gained its popularity in the non-dairy segment and is considered intensively healthy, sustainable, and animal friendly dairy ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternative Market \u2013 Global... | Data Bridge Market Research",
+          "link": "https://www.databridgemarketresearch.com/reports/global-dairy-alternative-market",
+          "snippet": "Global Dairy Alternative Market Size, Share, and Trends Analysis Report \u2013 Industry Overview and Forecast to 2032.Dairy Alternative Market Scope. The market is segmented on the basis of product type, t",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 Plant-Based Dairy Alternative provider companies",
+          "link": "https://www.foodinfotech.com/top-10-plant-based-dairy-alternative-provider-companies/",
+          "snippet": "The dairy alternative market is expanding rapidly, driven by consumer demand for healthier, sustainable, and ethical plant-based options.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "90 Food Brands that use Dedicated Dairy-Free Facilities",
+          "link": "https://godairyfree.org/food-and-grocery/dedicated-dairy-free-facilities",
+          "snippet": "We found dozens of brands that use Dedicated Dairy-Free Facilities. Includes dairy alternatives, snack foods, meal helpers, desserts & more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternatives Products Companies - Market Research Future",
+          "link": "https://www.marketresearchfuture.com/reports/dairy-alternatives-market/companies",
+          "snippet": "Discover dairy-free delights from top companies. Elevate your lifestyle with a diverse range of high-quality dairy alternative products, crafted for taste and nutritional excellence.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 50 Companies in the Dairy Alternatives Market: Key Insights ...",
+          "link": "https://www.sphericalinsights.com/blogs/top-50-companies-in-the-dairy-alternatives-market-key-insights-innovations",
+          "snippet": "The company emphasizes transparency, innovation, and traceability throughout its supply chain, contributing to its strong industry standing Are you ready to discover more about the dairy alternatives ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 Dairy Alternatives Suppliers For Lactose Intolerant and Vegan ...",
+          "link": "https://www.extrapolate.com/blog/top-10-dairy-alternatives-manufacturers-2024",
+          "snippet": "This blog explores the top 10 dairy alternatives manufacturers that supply non-dairy alternatives for lactose intolerant and vegan consumers in 2024 globally.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Inven 2026",
+          "link": "https://www.inven.ai/company-lists/top-27-dairy-alternatives-companies",
+          "snippet": "Want to Find More Dairy Alternatives Companies? If you want to find more companies that offer various plant-based products such as milk, cheese, and yogurt you can do so with Inven. This list was buil",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "Dairy alternative wholesalers official websites",
+      "level": "L2",
+      "result_count": 2,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Packaged Facts lists dairy alternative beverage trends to watch",
+          "link": "https://www.foodnavigator-usa.com/Article/2017/11/09/Packaged-Facts-lists-dairy-alternative-beverage-trends-to-watch/",
+          "snippet": "\u201cThe plant-based dairy beverage alternatives category has seen an expansion of several nut- and legume-based milk alternatives beyond soy, rice, coconut, and almond to include varieties made from cash",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternative Beverages Market 2020 Global Key Vendors...",
+          "link": "https://icrowdnewswire.com/2021/01/08/dairy-alternative-beverages-market-2020-global-key-vendors-analysis-revenue-trends-amp-forecast-to-2026/",
+          "snippet": "New Study Reports \u201cDairy Alternative Beverages Market 2020 Global Market Opportunities, Challenges, Strategies and Forecasts 2026\u201d has been Added on WiseGuyReports.The global Dairy Alternative Beverag",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Packaged Facts lists dairy alternative beverage trends to watch",
+          "link": "https://www.foodnavigator-usa.com/Article/2017/11/09/Packaged-Facts-lists-dairy-alternative-beverage-trends-to-watch/",
+          "snippet": "\u201cThe plant-based dairy beverage alternatives category has seen an expansion of several nut- and legume-based milk alternatives beyond soy, rice, coconut, and almond to include varieties made from cash",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternative Beverages Market 2020 Global Key Vendors...",
+          "link": "https://icrowdnewswire.com/2021/01/08/dairy-alternative-beverages-market-2020-global-key-vendors-analysis-revenue-trends-amp-forecast-to-2026/",
+          "snippet": "New Study Reports \u201cDairy Alternative Beverages Market 2020 Global Market Opportunities, Challenges, Strategies and Forecasts 2026\u201d has been Added on WiseGuyReports.The global Dairy Alternative Beverag",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "search for plant-based milk manufacturers",
+      "level": "market_map",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Top 10 Plant-Based Dairy Alternative provider companies",
+          "link": "https://www.foodinfotech.com/top-10-plant-based-dairy-alternative-provider-companies/",
+          "snippet": "With more people moving away from traditional dairy products, there's a rising demand for plant-based milk, cheese, yogurt, and sauces. These products are typically derived from oats, soy, almonds, co",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Top 10 Plant-Based Dairy Alternative provider companies",
+          "link": "https://www.foodinfotech.com/top-10-plant-based-dairy-alternative-provider-companies/",
+          "snippet": "With more people moving away from traditional dairy products, there's a rising demand for plant-based milk, cheese, yogurt, and sauces. These products are typically derived from oats, soy, almonds, co",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P2": {
+      "query": "search for plant-based cheese manufacturers",
+      "level": "market_map",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Top 100 Plant-Based Cheese Companies in 2026 | ensun",
+          "link": "https://ensun.io/search/plant-based-cheese",
+          "snippet": "Identify and compare relevant B2B manufacturers, suppliers and retailers. Max. The company specializes in 100% plant-based cheese and other dairy alternatives, using traditional cheese-making techniqu",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Top 100 Plant-Based Cheese Companies in 2026 | ensun",
+          "link": "https://ensun.io/search/plant-based-cheese",
+          "snippet": "Identify and compare relevant B2B manufacturers, suppliers and retailers. Max. The company specializes in 100% plant-based cheese and other dairy alternatives, using traditional cheese-making techniqu",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P3": {
+      "query": "search for dairy alternative distributors",
+      "level": "market_map",
+      "result_count": 6,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Dairy Alternative (Beverage) Market- By Type | IndustryARC",
+          "link": "https://www.industryarc.com/Report/7430/dairy-alternative-beverage-market.html",
+          "snippet": "Dairy Alternative (Beverage) Market Size is forecast to reach $ 13,300 Million by 2030, at a CAGR of 12% during forecast period 2024-2030.table_chartT-20Dairy Alternative (Beverage) Market Distributor",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternatives Market Forecast 2025\u20132035 | Growth & Trends",
+          "link": "https://www.meticulousresearch.com/product/dairy-alternatives-market-5128",
+          "snippet": "+1-646-781-8004. Dairy Alternatives Market by Product Type (Plant-Based Milk, Cheese, Yogurt, Butter, Ice Cream), Source (Almond, Soy, Oat, Coconut), Form, Application, Distribution Channel, End User,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternative Market Share, Opportunities, Industry 2031",
+          "link": "https://growthmarketreports.com/report/dairy-alternative-protein-market-north-america-industry-analysis",
+          "snippet": "Search reports.North America Dairy Alternative Market Outlook. Vegan milk has extensively gained its popularity in the non-dairy segment and is considered intensively healthy, sustainable, and animal ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternatives Market Growth, Size, Share, Trends",
+          "link": "https://www.marketsandmarkets.com/Market-Reports/dairy-alternatives-market-677.html",
+          "snippet": "Dairy Alternatives Market by Source (Soy, Almond, Coconut, Oats, Hemp), Application (Milk, Yogurt, Ice Creams, Cheese, Creamers), Distribution Channel (Retail, Online Stores, Foodservice), Formulation",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternatives Market Research, Growth Trajectory 2026-36",
+          "link": "https://www.pristinemarketinsights.com/dairy-alternatives-market-report",
+          "snippet": "Strategic insights and market intelligence for the dairy alternatives market, including forecasts, growth indicators, and long-term outlook for portfolio and investment planning.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy alternatives on the rise",
+          "link": "https://www.supermarketnews.com/dairy/dairy-alternatives-on-the-rise",
+          "snippet": "The global dairy alternatives market is expected to reach $35.06 billion by 2024, according to a report by Grand View Research.The biggest downside for alternative dairy, according to Cargill, is the ",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Dairy Alternative (Beverage) Market- By Type | IndustryARC",
+          "link": "https://www.industryarc.com/Report/7430/dairy-alternative-beverage-market.html",
+          "snippet": "Dairy Alternative (Beverage) Market Size is forecast to reach $ 13,300 Million by 2030, at a CAGR of 12% during forecast period 2024-2030.table_chartT-20Dairy Alternative (Beverage) Market Distributor",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternatives Market Forecast 2025\u20132035 | Growth & Trends",
+          "link": "https://www.meticulousresearch.com/product/dairy-alternatives-market-5128",
+          "snippet": "+1-646-781-8004. Dairy Alternatives Market by Product Type (Plant-Based Milk, Cheese, Yogurt, Butter, Ice Cream), Source (Almond, Soy, Oat, Coconut), Form, Application, Distribution Channel, End User,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternative Market Share, Opportunities, Industry 2031",
+          "link": "https://growthmarketreports.com/report/dairy-alternative-protein-market-north-america-industry-analysis",
+          "snippet": "Search reports.North America Dairy Alternative Market Outlook. Vegan milk has extensively gained its popularity in the non-dairy segment and is considered intensively healthy, sustainable, and animal ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternatives Market Growth, Size, Share, Trends",
+          "link": "https://www.marketsandmarkets.com/Market-Reports/dairy-alternatives-market-677.html",
+          "snippet": "Dairy Alternatives Market by Source (Soy, Almond, Coconut, Oats, Hemp), Application (Milk, Yogurt, Ice Creams, Cheese, Creamers), Distribution Channel (Retail, Online Stores, Foodservice), Formulation",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternatives Market Research, Growth Trajectory 2026-36",
+          "link": "https://www.pristinemarketinsights.com/dairy-alternatives-market-report",
+          "snippet": "Strategic insights and market intelligence for the dairy alternatives market, including forecasts, growth indicators, and long-term outlook for portfolio and investment planning.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy alternatives on the rise",
+          "link": "https://www.supermarketnews.com/dairy/dairy-alternatives-on-the-rise",
+          "snippet": "The global dairy alternatives market is expected to reach $35.06 billion by 2024, according to a report by Grand View Research.The biggest downside for alternative dairy, according to Cargill, is the ",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P4": {
+      "query": "search for dairy alternative wholesalers",
+      "level": "market_map",
+      "result_count": 2,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Dairy Alternatives Market Growth, Size, Share, Trends",
+          "link": "https://www.marketsandmarkets.com/Market-Reports/dairy-alternatives-market-677.html",
+          "snippet": "Soy-based dairy alternatives are considered efficient substitutes for dairy products and occupy a significant share of the dairy alternatives market.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternative Beverages Market 2020 Global Key Vendors...",
+          "link": "https://icrowdnewswire.com/2021/01/08/dairy-alternative-beverages-market-2020-global-key-vendors-analysis-revenue-trends-amp-forecast-to-2026/",
+          "snippet": "New Study Reports \u201cDairy Alternative Beverages Market 2020 Global Market Opportunities, Challenges, Strategies and Forecasts 2026\u201d has been Added on WiseGuyReports.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Dairy Alternatives Market Growth, Size, Share, Trends",
+          "link": "https://www.marketsandmarkets.com/Market-Reports/dairy-alternatives-market-677.html",
+          "snippet": "Soy-based dairy alternatives are considered efficient substitutes for dairy products and occupy a significant share of the dairy alternatives market.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternative Beverages Market 2020 Global Key Vendors...",
+          "link": "https://icrowdnewswire.com/2021/01/08/dairy-alternative-beverages-market-2020-global-key-vendors-analysis-revenue-trends-amp-forecast-to-2026/",
+          "snippet": "New Study Reports \u201cDairy Alternative Beverages Market 2020 Global Market Opportunities, Challenges, Strategies and Forecasts 2026\u201d has been Added on WiseGuyReports.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P5": {
+      "query": "search for dairy alternative dealers",
+      "level": "market_map",
+      "result_count": 4,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Dairy Alternatives Market Size, Share, Growth, Analysis \u2013 2031",
+          "link": "https://www.alliedmarketresearch.com/dairy-alternatives-market",
+          "snippet": "Dairy Alternatives Market Size is Estimated to Register $55.5 Billion from 2022 to 2031, Driven by Rising Demand for Plant-Based Products.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternatives Market Growth, Size, Share, Trends",
+          "link": "https://www.marketsandmarkets.com/Market-Reports/dairy-alternatives-market-677.html",
+          "snippet": "Soy-based dairy alternatives are considered efficient substitutes for dairy products and occupy a significant share of the dairy alternatives market.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternative (Beverage) Market- By Type | IndustryARC",
+          "link": "https://www.industryarc.com/Report/7430/dairy-alternative-beverage-market.html",
+          "snippet": "Dairy Alternative (Beverage) Market Size is forecast to reach $ 13,300 Million by 2030, at a CAGR of 12% during forecast period 2024-2030.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sizzling alt-meat market cools amid pandemic",
+          "link": "https://www.dw.com/en/demand-for-plant-based-food-products-declines-amid-pandemic/a-59906308",
+          "snippet": "Sales of plant-based meat and dairy alternatives have started declining for some big name producers. After a year that saw rabid demand cause widespread oat milk shortages at Starbucks, the outlook fo",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Dairy Alternatives Market Size, Share, Growth, Analysis \u2013 2031",
+          "link": "https://www.alliedmarketresearch.com/dairy-alternatives-market",
+          "snippet": "Dairy Alternatives Market Size is Estimated to Register $55.5 Billion from 2022 to 2031, Driven by Rising Demand for Plant-Based Products.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternatives Market Growth, Size, Share, Trends",
+          "link": "https://www.marketsandmarkets.com/Market-Reports/dairy-alternatives-market-677.html",
+          "snippet": "Soy-based dairy alternatives are considered efficient substitutes for dairy products and occupy a significant share of the dairy alternatives market.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternative (Beverage) Market- By Type | IndustryARC",
+          "link": "https://www.industryarc.com/Report/7430/dairy-alternative-beverage-market.html",
+          "snippet": "Dairy Alternative (Beverage) Market Size is forecast to reach $ 13,300 Million by 2030, at a CAGR of 12% during forecast period 2024-2030.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sizzling alt-meat market cools amid pandemic",
+          "link": "https://www.dw.com/en/demand-for-plant-based-food-products-declines-amid-pandemic/a-59906308",
+          "snippet": "Sales of plant-based meat and dairy alternatives have started declining for some big name producers. After a year that saw rabid demand cause widespread oat milk shortages at Starbucks, the outlook fo",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "search for dairy alternative channel partners",
+      "level": "market_map",
+      "result_count": 7,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Dairy Alternatives Market Growth, Size, Share, Trends",
+          "link": "https://www.marketsandmarkets.com/Market-Reports/dairy-alternatives-market-677.html",
+          "snippet": "Dairy Alternatives Market by Source (Soy, Almond, Coconut, Oats, Hemp), Application (Milk, Yogurt, Ice Creams, Cheese, Creamers), Distribution Channel (Retail, Online Stores, Foodservice), Formulation",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternative Market \u2013 Global... | Data Bridge Market Research",
+          "link": "https://www.databridgemarketresearch.com/reports/global-dairy-alternative-market",
+          "snippet": "The Dairy Alternative market was valued at USD 27.11 Billion in 2024 and is expected to reach USD 63.15 Billion by 2032, growing at a CAGR of 11.20% (2024-2032). Get insights on trends, segmentation, ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Packaged Facts lists dairy alternative beverage trends to watch",
+          "link": "https://www.foodnavigator-usa.com/Article/2017/11/09/Packaged-Facts-lists-dairy-alternative-beverage-trends-to-watch/",
+          "snippet": "Per capita consumption of dairy milk beverages plunges 22% between 2000 and 2016; plant-based alternatives pick up the slack. By Elaine Watson. 09-Nov-2017 Last updated on 09-Nov-2017 at 16:37 GMT.Acc",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternatives Market Forecast 2025\u20132035 | Growth & Trends",
+          "link": "https://www.meticulousresearch.com/product/dairy-alternatives-market-5128",
+          "snippet": "+1-646-781-8004. Dairy Alternatives Market by Product Type (Plant-Based Milk, Cheese, Yogurt, Butter, Ice Cream), Source (Almond, Soy, Oat, Coconut), Form, Application, Distribution Channel, End User,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Marketing Plan for Dairy Alternative Plant Milk Beverages \u2013 \u2013 AVVALE",
+          "link": "https://avvale.co.uk/pages/marketing-plan-for-dairy-alternative-plant-milk-beverages-businesses",
+          "snippet": "Avvale offers an editable marketing plan template for dairy alternative plant milk beverages. Set goals, channels, budget, timeline. Get the template or expert.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternative (Beverage) Market- By Type | IndustryARC",
+          "link": "https://www.industryarc.com/Report/7430/dairy-alternative-beverage-market.html",
+          "snippet": "9.Dairy Alternative Beverage Market \u2013 by Sales Channel (Market Size - US$ Million/Billion).12.Dairy Alternative Beverage Market \u2013 Entropy. 12.1New Product Launches. 12.2M&As, Collaborations, JVs and P",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternatives Market Research, Growth Trajectory 2026-36",
+          "link": "https://www.pristinemarketinsights.com/dairy-alternatives-market-report",
+          "snippet": "The dairy alternatives market encompasses plant-based substitutes for traditional dairy products, including beverages, yogurts, and spreads. The scope covers production methods, ingredient sources, di",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Dairy Alternatives Market Growth, Size, Share, Trends",
+          "link": "https://www.marketsandmarkets.com/Market-Reports/dairy-alternatives-market-677.html",
+          "snippet": "Dairy Alternatives Market by Source (Soy, Almond, Coconut, Oats, Hemp), Application (Milk, Yogurt, Ice Creams, Cheese, Creamers), Distribution Channel (Retail, Online Stores, Foodservice), Formulation",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternative Market \u2013 Global... | Data Bridge Market Research",
+          "link": "https://www.databridgemarketresearch.com/reports/global-dairy-alternative-market",
+          "snippet": "The Dairy Alternative market was valued at USD 27.11 Billion in 2024 and is expected to reach USD 63.15 Billion by 2032, growing at a CAGR of 11.20% (2024-2032). Get insights on trends, segmentation, ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Packaged Facts lists dairy alternative beverage trends to watch",
+          "link": "https://www.foodnavigator-usa.com/Article/2017/11/09/Packaged-Facts-lists-dairy-alternative-beverage-trends-to-watch/",
+          "snippet": "Per capita consumption of dairy milk beverages plunges 22% between 2000 and 2016; plant-based alternatives pick up the slack. By Elaine Watson. 09-Nov-2017 Last updated on 09-Nov-2017 at 16:37 GMT.Acc",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternatives Market Forecast 2025\u20132035 | Growth & Trends",
+          "link": "https://www.meticulousresearch.com/product/dairy-alternatives-market-5128",
+          "snippet": "+1-646-781-8004. Dairy Alternatives Market by Product Type (Plant-Based Milk, Cheese, Yogurt, Butter, Ice Cream), Source (Almond, Soy, Oat, Coconut), Form, Application, Distribution Channel, End User,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Marketing Plan for Dairy Alternative Plant Milk Beverages \u2013 \u2013 AVVALE",
+          "link": "https://avvale.co.uk/pages/marketing-plan-for-dairy-alternative-plant-milk-beverages-businesses",
+          "snippet": "Avvale offers an editable marketing plan template for dairy alternative plant milk beverages. Set goals, channels, budget, timeline. Get the template or expert.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternative (Beverage) Market- By Type | IndustryARC",
+          "link": "https://www.industryarc.com/Report/7430/dairy-alternative-beverage-market.html",
+          "snippet": "9.Dairy Alternative Beverage Market \u2013 by Sales Channel (Market Size - US$ Million/Billion).12.Dairy Alternative Beverage Market \u2013 Entropy. 12.1New Product Launches. 12.2M&As, Collaborations, JVs and P",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dairy Alternatives Market Research, Growth Trajectory 2026-36",
+          "link": "https://www.pristinemarketinsights.com/dairy-alternatives-market-report",
+          "snippet": "The dairy alternatives market encompasses plant-based substitutes for traditional dairy products, including beverages, yogurts, and spreads. The scope covers production methods, ingredient sources, di",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P7": {
+      "query": "rechercher des fabricants de produits laitiers v\u00e9g\u00e9taux",
+      "level": "market_map",
+      "result_count": 4,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Au-del\u00e0 du Vegan : Guide des Alternatives au Lait...",
+          "link": "https://www.universchocolat.com/chocolat-vegetal-2-0/",
+          "snippet": "Sans produits laitiers, les fabricants doivent s\u2019appuyer sur des ingr\u00e9dients v\u00e9g\u00e9taux pour obtenir la cristallisation d\u00e9sir\u00e9e. Techniques pour une cristallisation parfaite.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "March\u00e9 des produits laitiers v\u00e9g\u00e9taux en Europe occidentale...",
+          "link": "https://strategyh.com/fr/report/plant-based-dairy-market-in-western-europe/",
+          "snippet": "Avec un TCAC projet\u00e9 de 5.89%, le march\u00e9 des produits laitiers \u00e0 base de plantes en Europe occidentale devrait cro\u00eetre 6.2 milliards en 2026 en USD 8.3 milliards par 2031, soulignant une expansion sou",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Fromages v\u00e9g\u00e9taux en bloc et \u00e0 tartiner | DUX",
+          "link": "https://duxmangermieux.com/fr/fromages-vegetaux-en-bloc-et-a-tartiner/",
+          "snippet": "Les fromages v\u00e9g\u00e9taux, \u00e9galement appel\u00e9s \u00ab fauxmages \u00bb, gagnent en popularit\u00e9 aupr\u00e8s des consommateurs \u00e0 la recherche d'alternatives sans produits laitiers pour des raisons \u00e9thiques, environnementales",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "PGPR et carragh\u00e9nane dans les alternatives laiti\u00e8res \u00e0 base de plantes",
+          "link": "https://www.cnchemsino.com/fr/blog/pgpr-and-carrageenan-in-plant-based-dairy-alternatives.html",
+          "snippet": "Dans les produits laitiers v\u00e9g\u00e9taux,ses bienfaits sont particuli\u00e8rement pr\u00e9cieux : \u00c9paissit et stabilise :Emp\u00eache la s\u00e9paration des prot\u00e9ines dans les laits de noix ou de soja. Am\u00e9liore le corps et la",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Au-del\u00e0 du Vegan : Guide des Alternatives au Lait...",
+          "link": "https://www.universchocolat.com/chocolat-vegetal-2-0/",
+          "snippet": "Sans produits laitiers, les fabricants doivent s\u2019appuyer sur des ingr\u00e9dients v\u00e9g\u00e9taux pour obtenir la cristallisation d\u00e9sir\u00e9e. Techniques pour une cristallisation parfaite.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "March\u00e9 des produits laitiers v\u00e9g\u00e9taux en Europe occidentale...",
+          "link": "https://strategyh.com/fr/report/plant-based-dairy-market-in-western-europe/",
+          "snippet": "Avec un TCAC projet\u00e9 de 5.89%, le march\u00e9 des produits laitiers \u00e0 base de plantes en Europe occidentale devrait cro\u00eetre 6.2 milliards en 2026 en USD 8.3 milliards par 2031, soulignant une expansion sou",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Fromages v\u00e9g\u00e9taux en bloc et \u00e0 tartiner | DUX",
+          "link": "https://duxmangermieux.com/fr/fromages-vegetaux-en-bloc-et-a-tartiner/",
+          "snippet": "Les fromages v\u00e9g\u00e9taux, \u00e9galement appel\u00e9s \u00ab fauxmages \u00bb, gagnent en popularit\u00e9 aupr\u00e8s des consommateurs \u00e0 la recherche d'alternatives sans produits laitiers pour des raisons \u00e9thiques, environnementales",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "PGPR et carragh\u00e9nane dans les alternatives laiti\u00e8res \u00e0 base de plantes",
+          "link": "https://www.cnchemsino.com/fr/blog/pgpr-and-carrageenan-in-plant-based-dairy-alternatives.html",
+          "snippet": "Dans les produits laitiers v\u00e9g\u00e9taux,ses bienfaits sont particuli\u00e8rement pr\u00e9cieux : \u00c9paissit et stabilise :Emp\u00eache la s\u00e9paration des prot\u00e9ines dans les laits de noix ou de soja. Am\u00e9liore le corps et la",
+          "backend": "ddgs_bing"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

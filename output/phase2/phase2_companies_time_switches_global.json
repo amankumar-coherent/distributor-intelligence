@@ -1,0 +1,946 @@
+{
+  "phase": 2,
+  "phase2_mode": "fast",
+  "query": "Time Switches Market",
+  "mock_mode": false,
+  "completed_at": "2026-07-24T07:08:39.282259+00:00",
+  "scope": {
+    "market": "Time Switches",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "Electrical Equipment",
+    "industry_terms": [
+      "time switches",
+      "programmable timers",
+      "digital timers",
+      "mechanical timers",
+      "smart timers"
+    ],
+    "ecosystem_functions": [
+      "distributing time switches",
+      "reselling time switches",
+      "integrating time switch systems",
+      "providing service for time switches",
+      "acting as channel partners for time switches"
+    ],
+    "interpretation_summary": "The Time Switches Market encompasses devices that automate the control of electrical devices based on time schedules. Participants include manufacturers, distributors, and various channel partners such as wholesalers and",
+    "relevance_keywords": [
+      "time control devices",
+      "automated timers",
+      "electrical control systems",
+      "timer distributors",
+      "smart time switches"
+    ],
+    "negative_keywords": [
+      "home appliances",
+      "furniture",
+      "toys",
+      "clothing",
+      "food products"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "Schneider Electric",
+        "primary_domain": "schneider-electric.com",
+        "company_function": "manufacturer and distributor of electrical equipment including time switches"
+      },
+      {
+        "canonical_name": "Honeywell",
+        "primary_domain": "honeywell.com",
+        "company_function": "provider of time switches and control systems"
+      },
+      {
+        "canonical_name": "Leviton",
+        "primary_domain": "leviton.com",
+        "company_function": "manufacturer of electrical devices including time switches"
+      },
+      {
+        "canonical_name": "Lutron Electronics",
+        "primary_domain": "lutron.com",
+        "company_function": "provider of lighting control systems including time switches"
+      },
+      {
+        "canonical_name": "Intermatic",
+        "primary_domain": "intermatic.com",
+        "company_function": "manufacturer of time switches and timers"
+      },
+      {
+        "canonical_name": "Siemens",
+        "primary_domain": "siemens.com",
+        "company_function": "provider of automation solutions including time switches"
+      },
+      {
+        "canonical_name": "Eaton",
+        "primary_domain": "eaton.com",
+        "company_function": "manufacturer of electrical components including time switches"
+      },
+      {
+        "canonical_name": "Digital Timer Co.",
+        "primary_domain": "digitaltimer.com",
+        "company_function": "specializes in digital timers and time switches"
+      },
+      {
+        "canonical_name": "Wattstopper",
+        "primary_domain": "wattstopper.com",
+        "company_function": "provider of energy management solutions including time switches"
+      },
+      {
+        "canonical_name": "Enerlites",
+        "primary_domain": "enerlites.com",
+        "company_function": "manufacturer of time switches and related products"
+      },
+      {
+        "canonical_name": "Cree Lighting",
+        "primary_domain": "cree.com",
+        "company_function": "provider of lighting solutions including time switches"
+      },
+      {
+        "canonical_name": "Tork",
+        "primary_domain": "tork.com",
+        "company_function": "manufacturer of timers and time switches"
+      },
+      {
+        "canonical_name": "GROVE",
+        "primary_domain": "grove.com",
+        "company_function": "provider of smart home devices including time switches"
+      },
+      {
+        "canonical_name": "Kichler Lighting",
+        "primary_domain": "kichler.com",
+        "company_function": "manufacturer of lighting controls including time switches"
+      }
+    ],
+    "search_topic": "Time Switches",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "Time Switches",
+    "include_keywords": [
+      "electrical time switches",
+      "programmable time switches",
+      "digital time control",
+      "automatic timers",
+      "timer control systems"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The Time Switches Market encompasses devices that automate the control of electrical devices based on time schedules. Participants include manufacturers, distributors, and various channel partners such as wholesalers and system integrators, operating globally.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Distribution",
+        "description": "This layer involves the distribution of time switches through various channel partners.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Electrical distributors",
+              "Industrial distributors"
+            ],
+            "participant_types": [
+              "distributor",
+              "wholesaler"
+            ],
+            "search_intents": [
+              "time switches distributors",
+              "electrical time switch wholesalers"
+            ]
+          },
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Online resellers",
+              "Retail resellers"
+            ],
+            "participant_types": [
+              "reseller",
+              "channel partner"
+            ],
+            "search_intents": [
+              "buy time switches online",
+              "time switch resellers"
+            ]
+          },
+          {
+            "segment_name": "System Integrators",
+            "sub_segments": [
+              "Building automation integrators",
+              "Industrial control system integrators"
+            ],
+            "participant_types": [
+              "system integrator",
+              "service provider"
+            ],
+            "search_intents": [
+              "time switch system integrators",
+              "automated time switch service providers"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Manufacturers",
+        "Retailers",
+        "End Users",
+        "OEMs"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "time switches distributors near me",
+        "sub_sector": "distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "wholesale time switches suppliers",
+        "sub_sector": "wholesaler",
+        "layer_id": "L1",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "buy time switches from resellers",
+        "sub_sector": "reseller",
+        "layer_id": "L1",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "system integrators for time switches",
+        "sub_sector": "system_integrator",
+        "layer_id": "L1",
+        "segment": "System Integrators"
+      },
+      {
+        "id": "M5",
+        "level": "market_map",
+        "text": "service providers for time switches",
+        "sub_sector": "service_provider",
+        "layer_id": "L1",
+        "segment": "Service Providers"
+      },
+      {
+        "id": "M6",
+        "level": "market_map",
+        "text": "channel partners for time switches",
+        "sub_sector": "channel_partner",
+        "layer_id": "L1",
+        "segment": "Channel Partners"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "phase1_plan_path": "D:\\vendor-intel\\output\\phase1\\phase1_plan_time_switches_global.json",
+  "companies": [
+    {
+      "name": "Digitaltimer",
+      "domain": "digitaltimer.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Timeanddate",
+      "domain": "timeanddate.com",
+      "discovery_source": "ddgs_bing+searxng",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Todaydateandtime",
+      "domain": "todaydateandtime.com",
+      "discovery_source": "searxng",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Clock",
+      "domain": "clock.now",
+      "discovery_source": "ddgs_bing+searxng",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Savvytime",
+      "domain": "savvytime.com",
+      "discovery_source": "searxng",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Aliontimer",
+      "domain": "aliontimer.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Bigtimer",
+      "domain": "bigtimer.net",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Dayspedia",
+      "domain": "dayspedia.com",
+      "discovery_source": "searxng",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Nutronicsindia",
+      "domain": "nutronicsindia.in",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Worldtimebuddy",
+      "domain": "worldtimebuddy.com",
+      "discovery_source": "searxng",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Account",
+      "domain": "account.apple.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Cree",
+      "domain": "cree.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Eaton",
+      "domain": "eaton.com",
+      "discovery_source": "registry",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Eleb2b",
+      "domain": "eleb2b.com",
+      "discovery_source": "ddgs_bing+ddgs_yandex",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Enerlites",
+      "domain": "enerlites.com",
+      "discovery_source": "registry",
+      "company_function": "vendor"
+    },
+    {
+      "name": "GROVE",
+      "domain": "grove.com",
+      "discovery_source": "registry",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Graesslin",
+      "domain": "graesslin.de",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Honeywell",
+      "domain": "honeywell.com",
+      "discovery_source": "registry",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Intermatic",
+      "domain": "intermatic.com",
+      "discovery_source": "registry",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Kichler",
+      "domain": "kichler.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Leviton",
+      "domain": "leviton.com",
+      "discovery_source": "registry",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Lutron",
+      "domain": "lutron.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Schneider Electric",
+      "domain": "schneider-electric.com",
+      "discovery_source": "registry",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Siemens",
+      "domain": "siemens.com",
+      "discovery_source": "registry",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Tork",
+      "domain": "tork.com",
+      "discovery_source": "registry",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Wattstopper",
+      "domain": "wattstopper.com",
+      "discovery_source": "registry",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Worldometers",
+      "domain": "worldometers.info",
+      "discovery_source": "searxng",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Eskimo",
+      "domain": "eskimo.travel",
+      "discovery_source": "ddgs_bing",
+      "company_function": "landscape"
+    },
+    {
+      "name": "Littelfuse",
+      "domain": "littelfuse.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Mcmaster",
+      "domain": "mcmaster.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Nvidia",
+      "domain": "nvidia.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Online Stopwatch",
+      "domain": "online-stopwatch.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Perforum",
+      "domain": "perforum.io",
+      "discovery_source": "ddgs_bing",
+      "company_function": "landscape"
+    },
+    {
+      "name": "Pomodorotechnique",
+      "domain": "pomodorotechnique.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Quo (formerly OpenPhone)",
+      "domain": "quo.com",
+      "discovery_source": "ddgs_bing+ddgs_yandex",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Steelseries",
+      "domain": "steelseries.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "landscape"
+    },
+    {
+      "name": "Superfeederstore",
+      "domain": "superfeederstore.com",
+      "discovery_source": "ddgs_bing+ddgs_yandex",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Timermatic",
+      "domain": "timermatic.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Airdroid",
+      "domain": "airdroid.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Analog",
+      "domain": "analog.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Aten",
+      "domain": "aten.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Awoof",
+      "domain": "awoof.live",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Canakit",
+      "domain": "canakit.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Chess",
+      "domain": "chess.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Controlsys",
+      "domain": "controlsys.org",
+      "discovery_source": "ddgs_bing",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Corporate",
+      "domain": "corporate.target.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Darshinal",
+      "domain": "darshinal.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Dciclock",
+      "domain": "dciclock.co.in",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Delhimetrorail",
+      "domain": "delhimetrorail.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Developers",
+      "domain": "developers.notion.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Dhgate",
+      "domain": "dhgate.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Easynt",
+      "domain": "easynt.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Electronicdisplays",
+      "domain": "electronicdisplays.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Elma",
+      "domain": "elma.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Elotronics",
+      "domain": "elotronics.com",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Etei",
+      "domain": "etei.com",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Gicindia",
+      "domain": "gicindia.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Hcs77",
+      "domain": "hcs77.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Headquarters",
+      "domain": "company-headquarters.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Hifactory",
+      "domain": "hifactory.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Hindustanpetroleum",
+      "domain": "hindustanpetroleum.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Hogslat",
+      "domain": "hogslat.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Icmcontrols",
+      "domain": "icmcontrols.com",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Kel Switch",
+      "domain": "kel-switch.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Kwsuspensions",
+      "domain": "kwsuspensions.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Legrand",
+      "domain": "legrand.com.au",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Letopv",
+      "domain": "letopv.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Machineryoffers",
+      "domain": "machineryoffers.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Marketsizer",
+      "domain": "marketsizer.io",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Mastersintime",
+      "domain": "mastersintime.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Modelcontextprotocol",
+      "domain": "modelcontextprotocol.io",
+      "discovery_source": "ddgs_bing",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Moss Link",
+      "domain": "moss-link.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "oem_manufacturer"
+    },
+    {
+      "name": "Multispanindia",
+      "domain": "multispanindia.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Netmirror",
+      "domain": "netmirror.gg",
+      "discovery_source": "ddgs_bing",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Omadanetworks",
+      "domain": "omadanetworks.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Onlinealarmkur",
+      "domain": "onlinealarmkur.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Playstation",
+      "domain": "playstation.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Pmcontrols",
+      "domain": "pmcontrols.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Progressive",
+      "domain": "progressive.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Project Audio",
+      "domain": "project-audio.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Proton",
+      "domain": "proton.me",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Ramp",
+      "domain": "ramp.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Rdelectricals",
+      "domain": "rdelectricals.co.in",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Royalprojects",
+      "domain": "royalprojects.co.in",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Sitime",
+      "domain": "sitime.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Sl Mechanicaltimer",
+      "domain": "sl-mechanicaltimer.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Soundon",
+      "domain": "soundon.global",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Sudoku",
+      "domain": "sudoku.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "oem_manufacturer"
+    },
+    {
+      "name": "Tclf",
+      "domain": "tclf.org",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Templates",
+      "domain": "templates.blakadder.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Theben",
+      "domain": "theben.de",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Thegameslayer",
+      "domain": "thegameslayer.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Thekronometre",
+      "domain": "thekronometre.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Tradewheel",
+      "domain": "tradewheel.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Ultratechts",
+      "domain": "ultratechts.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Vclock",
+      "domain": "vclock.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Walmart",
+      "domain": "walmart.com",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Wooting",
+      "domain": "wooting.io",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Wowelectricals",
+      "domain": "wowelectricals.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Xiaomiflasherpro",
+      "domain": "xiaomiflasherpro.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Zerogpt",
+      "domain": "zerogpt.com",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "system_integrator"
+    }
+  ],
+  "company_count": 101,
+  "discovery_stats": {
+    "raw_hits": 411,
+    "unique_names": 119,
+    "by_prompt_id": {
+      "D10": 10,
+      "D2": 3,
+      "D3": 2,
+      "D4": 1,
+      "D5": 12,
+      "D6": 11,
+      "D7": 12,
+      "D8": 1,
+      "D9": 12,
+      "HX0_manu": 2,
+      "HX0_rese": 3,
+      "HX1_dist": 1,
+      "HX1_manu": 10,
+      "HX1_rese": 12,
+      "L0": 1,
+      "L1": 8,
+      "L2": 3,
+      "M1": 13,
+      "M1_biot": 1,
+      "M2": 4,
+      "M3": 1,
+      "M5": 2,
+      "M6": 1,
+      "MUHX1_ma": 9,
+      "MUV3": 11,
+      "P10": 12,
+      "P11": 10,
+      "P12": 10,
+      "P8": 10,
+      "P9": 12,
+      "SEED": 14,
+      "SEED2": 14,
+      "SEED3": 14,
+      "ST1a": 2,
+      "ST1b": 13,
+      "ST3a": 10,
+      "ST4a": 10,
+      "ST_L1_1": 1,
+      "ST_L1_2": 13,
+      "ST_L1_3": 14,
+      "T1a": 11,
+      "T1b": 1,
+      "T2a": 7,
+      "T2b": 3,
+      "T3a": 8,
+      "T3b": 6,
+      "T4a": 6,
+      "V1": 2,
+      "V2": 1,
+      "V3": 9,
+      "V4": 1,
+      "V5": 12,
+      "V6": 6,
+      "V7": 3,
+      "V8": 3,
+      "VX1": 1,
+      "VX2": 9,
+      "W1": 12,
+      "W2": 5
+    },
+    "by_funnel_level": {
+      "L0": 43,
+      "L1": 8,
+      "L2": 3,
+      "discovery": 357
+    },
+    "widen_loops": 3
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ]
+}

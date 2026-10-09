@@ -1,0 +1,1586 @@
+{
+  "phase": 1,
+  "query": "API Management Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T22:09:10.392466+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "API Management",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "channel partner",
+    "industry_vertical": "API management",
+    "industry_terms": [
+      "API management",
+      "API gateway",
+      "API lifecycle management",
+      "API analytics",
+      "API integration"
+    ],
+    "ecosystem_functions": [
+      "distributing API management solutions",
+      "integrating API services",
+      "providing technical support",
+      "consulting on API strategies",
+      "reselling API management software",
+      "wholesaling API solutions",
+      "partnering for API deployment",
+      "offering managed API services"
+    ],
+    "interpretation_summary": "The API Management Market encompasses technologies and services that facilitate the creation, deployment, and management of application programming interfaces (APIs). Key participants include software vendors, service pr",
+    "relevance_keywords": [
+      "API management solutions",
+      "API integration",
+      "API gateway services",
+      "API lifecycle management",
+      "API analytics tools"
+    ],
+    "negative_keywords": [
+      "software development",
+      "programming",
+      "hardware",
+      "networking",
+      "IT support"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "MuleSoft",
+        "primary_domain": "mulesoft.com",
+        "company_function": "service providers"
+      },
+      {
+        "canonical_name": "Axway",
+        "primary_domain": "axway.com",
+        "company_function": "distributors"
+      },
+      {
+        "canonical_name": "Tibco Software",
+        "primary_domain": "tibco.com",
+        "company_function": "resellers"
+      },
+      {
+        "canonical_name": "IBM",
+        "primary_domain": "ibm.com",
+        "company_function": "system integrators"
+      },
+      {
+        "canonical_name": "Google Cloud",
+        "primary_domain": "cloud.google.com",
+        "company_function": "service providers"
+      },
+      {
+        "canonical_name": "Microsoft",
+        "primary_domain": "microsoft.com",
+        "company_function": "resellers"
+      },
+      {
+        "canonical_name": "Amazon Web Services",
+        "primary_domain": "aws.amazon.com",
+        "company_function": "channel partners"
+      },
+      {
+        "canonical_name": "Red Hat",
+        "primary_domain": "redhat.com",
+        "company_function": "distributors"
+      },
+      {
+        "canonical_name": "Dell Boomi",
+        "primary_domain": "boomi.com",
+        "company_function": "Integration platform as a service",
+        "segment": "System Integrators",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "SAP",
+        "primary_domain": "sap.com",
+        "company_function": "API management solutions",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Oracle",
+        "primary_domain": "oracle.com",
+        "company_function": "API management and integration services",
+        "segment": "Resellers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "WSO2",
+        "primary_domain": "wso2.com",
+        "company_function": "Open-source API management solutions",
+        "segment": "Channel Partners",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Postman",
+        "primary_domain": "postman.com",
+        "company_function": "API development and management platform",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Integromat",
+        "primary_domain": "integromat.com",
+        "company_function": "API integration and automation",
+        "segment": "System Integrators",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "API Management",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "API Management",
+    "include_keywords": [
+      "API management distributor",
+      "API solution reseller",
+      "API integration service provider",
+      "API management wholesaler",
+      "API management service provider"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The API Management Market encompasses technologies and services that facilitate the creation, deployment, and management of application programming interfaces (APIs). Key participants include software vendors, service providers, and various channel partners that help distribute and integrate API solutions globally.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Channel Partners",
+        "description": "Entities that distribute and integrate API management solutions.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Regional Distributors",
+              "Global Distributors"
+            ],
+            "participant_types": [
+              "distributor"
+            ],
+            "search_intents": [
+              "API management solution distributors",
+              "API management software distributors"
+            ]
+          },
+          {
+            "segment_name": "Wholesalers",
+            "sub_segments": [
+              "API solution wholesalers",
+              "Technology wholesalers"
+            ],
+            "participant_types": [
+              "wholesaler"
+            ],
+            "search_intents": [
+              "API management wholesalers",
+              "API solution wholesale providers"
+            ]
+          },
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Value-Added Resellers",
+              "Independent Resellers"
+            ],
+            "participant_types": [
+              "reseller"
+            ],
+            "search_intents": [
+              "API management resellers",
+              "API solution resellers"
+            ]
+          },
+          {
+            "segment_name": "System Integrators",
+            "sub_segments": [
+              "IT System Integrators",
+              "API Integration Specialists"
+            ],
+            "participant_types": [
+              "system integrator"
+            ],
+            "search_intents": [
+              "API management system integrators",
+              "API integration service providers"
+            ]
+          },
+          {
+            "segment_name": "Service Providers",
+            "sub_segments": [
+              "Managed Service Providers",
+              "Consulting Service Providers"
+            ],
+            "participant_types": [
+              "service provider"
+            ],
+            "search_intents": [
+              "API management service providers",
+              "API management consulting services"
+            ]
+          },
+          {
+            "segment_name": "Channel Partners",
+            "sub_segments": [
+              "Technology Partners",
+              "Strategic Alliances"
+            ],
+            "participant_types": [
+              "channel partner"
+            ],
+            "search_intents": [
+              "API management channel partners",
+              "API technology partners"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "API Development Tools",
+        "API Security Solutions",
+        "API Analytics",
+        "Cloud Service Providers"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "API management solution distributors",
+        "sub_sector": "distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "API management wholesalers",
+        "sub_sector": "wholesaler",
+        "layer_id": "L1",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "API management resellers",
+        "sub_sector": "reseller",
+        "layer_id": "L1",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "API management system integrators",
+        "sub_sector": "system_integrator",
+        "layer_id": "L1",
+        "segment": "System Integrators"
+      },
+      {
+        "id": "M5",
+        "level": "market_map",
+        "text": "API management service providers",
+        "sub_sector": "service_provider",
+        "layer_id": "L1",
+        "segment": "Service Providers"
+      },
+      {
+        "id": "M6",
+        "level": "market_map",
+        "text": "API management channel partners",
+        "sub_sector": "channel_partner",
+        "layer_id": "L1",
+        "segment": "Channel Partners"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "API management",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "API Management companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "API Management channel partners corporate sites"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "API Management distributors official website"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "market_map",
+      "text": "API management solution distributors"
+    },
+    {
+      "id": "P2",
+      "level": "market_map",
+      "text": "API management wholesalers"
+    },
+    {
+      "id": "P3",
+      "level": "market_map",
+      "text": "API management resellers"
+    },
+    {
+      "id": "P4",
+      "level": "market_map",
+      "text": "API management system integrators"
+    },
+    {
+      "id": "P5",
+      "level": "market_map",
+      "text": "API management service providers"
+    },
+    {
+      "id": "P6",
+      "level": "market_map",
+      "text": "API management channel partners"
+    },
+    {
+      "id": "P7",
+      "level": "discovery",
+      "text": "API management solution distributors official site"
+    },
+    {
+      "id": "P8",
+      "level": "discovery",
+      "text": "API management wholesalers corporate headquarters"
+    },
+    {
+      "id": "P9",
+      "level": "discovery",
+      "text": "API management resellers official website"
+    },
+    {
+      "id": "P10",
+      "level": "discovery",
+      "text": "API management system integrators corporate site"
+    },
+    {
+      "id": "P11",
+      "level": "discovery",
+      "text": "API management service providers official website"
+    },
+    {
+      "id": "P12",
+      "level": "discovery",
+      "text": "API management channel partners corporate profile"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "API Management companies official websites",
+      "level": "L0",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "konghq.com/products/kong-gateway",
+          "link": "https://konghq.com/products/kong-gateway",
+          "snippet": "Open-Source API Management and Microservice Management Secure...",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "konghq.com/products/kong-gateway",
+          "link": "https://konghq.com/products/kong-gateway",
+          "snippet": "Open-Source API Management and Microservice Management Secure...",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "API Management channel partners corporate sites",
+      "level": "L1",
+      "result_count": 18,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "API - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/API",
+          "snippet": "An application programming interface (API) is a connection between computers or between computer programs. It is a type of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Introduction to API (Application Programming Interface)",
+          "link": "https://www.geeksforgeeks.org/software-testing/what-is-an-api/",
+          "snippet": "Jul 8, 2026 \u00b7 An API (Application Programming Interface) is a set of rules that allows different software applications to communicate \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Are APIs? A Beginner's Guide (with examples) - DEV Community",
+          "link": "https://dev.to/icornea/what-are-apis-a-beginners-guide-with-examples-4ok8",
+          "snippet": "Apr 15, 2025 \u00b7 In today\u2019s tech-driven world, you\u2019ve probably heard the term API thrown around in conversations about web \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "American Petroleum Institute | API",
+          "link": "https://www.api.org/",
+          "snippet": "The American Petroleum Institute (API) is the only national trade association that represents all aspects of America\u2019s oil and natural \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "API Platform | OpenAI",
+          "link": "https://openai.com/api/",
+          "snippet": "Feb 16, 2026 \u00b7 Our API platform offers our latest models and guides for safety best practices.",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is an API? A Beginner's Guide to APIs | Postman",
+          "link": "https://www.postman.com/what-is-an-api/",
+          "snippet": "An API, which stands for application programming interface, is a set of protocols that enable different software components to \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is an API (application programming interface)? - IBM",
+          "link": "https://www.ibm.com/think/topics/api",
+          "snippet": "Apr 9, 2024 \u00b7 An API, or application programming interface, is a set of rules or protocols that enables software applications to \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is an API? - Application Programming Interfaces Explained - AWS",
+          "link": "https://aws.amazon.com/what-is/api/",
+          "snippet": "Find out what is an API, how and why businesses use APIs, and how to use APIs on AWS.",
+          "backend": "searxng"
+        },
+        {
+          "title": "API Portal",
+          "link": "https://myportal.api.org/",
+          "snippet": "Jul 1, 2026 \u00b7 The API Portal is your login for everything you do with API including the Webstore, the ICP Portal, myCerts, Engine Oil, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is an API? - Akamai",
+          "link": "https://www.akamai.com/glossary/how-do-apis-work",
+          "snippet": "API is an abbreviation of application programming interface, a set of rules, protocols, and definitions that allow different software \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Channel Management API",
+          "link": "https://docs.bokun.io/en/categories/92-channel-management-api",
+          "snippet": "/ API, Connectivity & Partners.Channel Management API. 4 articles. Getting Started. Last updated on May 20, 2026 at 1:25 PM. Introduction to How to Create and Map Channel Manager Products.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "API Hub",
+          "link": "https://rapidapi.com/",
+          "snippet": "Explore your APIs...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "API Keys - GroqCloud",
+          "link": "https://console.groq.com/keys",
+          "snippet": "Remember to keep your API keys safe to prevent unauthorized access.Only team owners or users with the developer role may create or manage API keys.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Management API Reference - Auth0 Docs",
+          "link": "https://auth0.com/docs/api/management/v2",
+          "snippet": "Use of the Auth0 Management API requires a Management API access token. To learn how to request this token, read Management API Access Tokens. The Auth0 Management API uses JSON Web Tokens (JWTs) to a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "CIO Guide to Universal API Managment | Davitt Corporate Partners",
+          "link": "https://www.davittcorporatepartners.com/cio-guide-to-universal-api-managment/",
+          "snippet": "This website uses cookies to improve your experience while you navigate through the website. Out of these, the cookies that are categorized as necessary are stored on your browser as they are essentia",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "OpenAI Platform",
+          "link": "https://platform.openai.com/",
+          "snippet": "OpenAI Platform Access Realtime models and manage API keys.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "OpenAI.fm",
+          "link": "https://www.openai.fm/",
+          "snippet": "An interactive demo for developers to try the latest text-to-speech model in the OpenAI API...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Supabase Docs",
+          "link": "https://supabase.com/docs",
+          "snippet": "Add and manage email and password, passwordless, OAuth, and mobile logins to your project through a suite of identity providers and APIs.Listen to database changes, store and sync user states across c",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "API - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/API",
+          "snippet": "An application programming interface (API) is a connection between computers or between computer programs. It is a type of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Introduction to API (Application Programming Interface)",
+          "link": "https://www.geeksforgeeks.org/software-testing/what-is-an-api/",
+          "snippet": "Jul 8, 2026 \u00b7 An API (Application Programming Interface) is a set of rules that allows different software applications to communicate \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Are APIs? A Beginner's Guide (with examples) - DEV Community",
+          "link": "https://dev.to/icornea/what-are-apis-a-beginners-guide-with-examples-4ok8",
+          "snippet": "Apr 15, 2025 \u00b7 In today\u2019s tech-driven world, you\u2019ve probably heard the term API thrown around in conversations about web \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "American Petroleum Institute | API",
+          "link": "https://www.api.org/",
+          "snippet": "The American Petroleum Institute (API) is the only national trade association that represents all aspects of America\u2019s oil and natural \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "API Platform | OpenAI",
+          "link": "https://openai.com/api/",
+          "snippet": "Feb 16, 2026 \u00b7 Our API platform offers our latest models and guides for safety best practices.",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is an API? A Beginner's Guide to APIs | Postman",
+          "link": "https://www.postman.com/what-is-an-api/",
+          "snippet": "An API, which stands for application programming interface, is a set of protocols that enable different software components to \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is an API (application programming interface)? - IBM",
+          "link": "https://www.ibm.com/think/topics/api",
+          "snippet": "Apr 9, 2024 \u00b7 An API, or application programming interface, is a set of rules or protocols that enables software applications to \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is an API? - Application Programming Interfaces Explained - AWS",
+          "link": "https://aws.amazon.com/what-is/api/",
+          "snippet": "Find out what is an API, how and why businesses use APIs, and how to use APIs on AWS.",
+          "backend": "searxng"
+        },
+        {
+          "title": "API Portal",
+          "link": "https://myportal.api.org/",
+          "snippet": "Jul 1, 2026 \u00b7 The API Portal is your login for everything you do with API including the Webstore, the ICP Portal, myCerts, Engine Oil, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is an API? - Akamai",
+          "link": "https://www.akamai.com/glossary/how-do-apis-work",
+          "snippet": "API is an abbreviation of application programming interface, a set of rules, protocols, and definitions that allow different software \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Channel Management API",
+          "link": "https://docs.bokun.io/en/categories/92-channel-management-api",
+          "snippet": "/ API, Connectivity & Partners.Channel Management API. 4 articles. Getting Started. Last updated on May 20, 2026 at 1:25 PM. Introduction to How to Create and Map Channel Manager Products.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "API Hub",
+          "link": "https://rapidapi.com/",
+          "snippet": "Explore your APIs...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "API Keys - GroqCloud",
+          "link": "https://console.groq.com/keys",
+          "snippet": "Remember to keep your API keys safe to prevent unauthorized access.Only team owners or users with the developer role may create or manage API keys.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Management API Reference - Auth0 Docs",
+          "link": "https://auth0.com/docs/api/management/v2",
+          "snippet": "Use of the Auth0 Management API requires a Management API access token. To learn how to request this token, read Management API Access Tokens. The Auth0 Management API uses JSON Web Tokens (JWTs) to a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "CIO Guide to Universal API Managment | Davitt Corporate Partners",
+          "link": "https://www.davittcorporatepartners.com/cio-guide-to-universal-api-managment/",
+          "snippet": "This website uses cookies to improve your experience while you navigate through the website. Out of these, the cookies that are categorized as necessary are stored on your browser as they are essentia",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "OpenAI Platform",
+          "link": "https://platform.openai.com/",
+          "snippet": "OpenAI Platform Access Realtime models and manage API keys.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "OpenAI.fm",
+          "link": "https://www.openai.fm/",
+          "snippet": "An interactive demo for developers to try the latest text-to-speech model in the OpenAI API...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Supabase Docs",
+          "link": "https://supabase.com/docs",
+          "snippet": "Add and manage email and password, passwordless, OAuth, and mobile logins to your project through a suite of identity providers and APIs.Listen to database changes, store and sync user states across c",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "API Management distributors official website",
+      "level": "L2",
+      "result_count": 12,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "API - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/API",
+          "snippet": "An application programming interface (API) is a connection between computers or between computer programs. It is a type of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Introduction to API (Application Programming Interface)",
+          "link": "https://www.geeksforgeeks.org/software-testing/what-is-an-api/",
+          "snippet": "Jul 8, 2026 \u00b7 An API (Application Programming Interface) is a set of rules that allows different software applications to communicate \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Are APIs? A Beginner's Guide (with examples) - DEV Community",
+          "link": "https://dev.to/icornea/what-are-apis-a-beginners-guide-with-examples-4ok8",
+          "snippet": "Apr 15, 2025 \u00b7 In today\u2019s tech-driven world, you\u2019ve probably heard the term API thrown around in conversations about web \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "American Petroleum Institute | API",
+          "link": "https://www.api.org/",
+          "snippet": "The American Petroleum Institute (API) is the only national trade association that represents all aspects of America\u2019s oil and natural \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "API Platform | OpenAI",
+          "link": "https://openai.com/api/",
+          "snippet": "Feb 16, 2026 \u00b7 Our API platform offers our latest models and guides for safety best practices.",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is an API? A Beginner's Guide to APIs | Postman",
+          "link": "https://www.postman.com/what-is-an-api/",
+          "snippet": "An API, which stands for application programming interface, is a set of protocols that enable different software components to \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is an API (application programming interface)? - IBM",
+          "link": "https://www.ibm.com/think/topics/api",
+          "snippet": "Apr 9, 2024 \u00b7 An API, or application programming interface, is a set of rules or protocols that enables software applications to \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is an API? - Application Programming Interfaces Explained - AWS",
+          "link": "https://aws.amazon.com/what-is/api/",
+          "snippet": "Find out what is an API, how and why businesses use APIs, and how to use APIs on AWS.",
+          "backend": "searxng"
+        },
+        {
+          "title": "API Portal",
+          "link": "https://myportal.api.org/",
+          "snippet": "Jul 1, 2026 \u00b7 The API Portal is your login for everything you do with API including the Webstore, the ICP Portal, myCerts, Engine Oil, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is an API? - Akamai",
+          "link": "https://www.akamai.com/glossary/how-do-apis-work",
+          "snippet": "API is an abbreviation of application programming interface, a set of rules, protocols, and definitions that allow different software \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Cloud APIs | Google Cloud",
+          "link": "https://cloud.google.com/apis",
+          "snippet": "Web-based interface for managing and monitoring cloud apps.Web App and API Protection. Security and Resilience Framework. Risk and compliance as code (RCaC).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "National Payments Corporation of India (NPCI) - Enabling digital...",
+          "link": "https://www.npci.org.in/",
+          "snippet": "API Accelerator Program.Management Team. Advisors. Organization Structure.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "API - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/API",
+          "snippet": "An application programming interface (API) is a connection between computers or between computer programs. It is a type of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Introduction to API (Application Programming Interface)",
+          "link": "https://www.geeksforgeeks.org/software-testing/what-is-an-api/",
+          "snippet": "Jul 8, 2026 \u00b7 An API (Application Programming Interface) is a set of rules that allows different software applications to communicate \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Are APIs? A Beginner's Guide (with examples) - DEV Community",
+          "link": "https://dev.to/icornea/what-are-apis-a-beginners-guide-with-examples-4ok8",
+          "snippet": "Apr 15, 2025 \u00b7 In today\u2019s tech-driven world, you\u2019ve probably heard the term API thrown around in conversations about web \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "American Petroleum Institute | API",
+          "link": "https://www.api.org/",
+          "snippet": "The American Petroleum Institute (API) is the only national trade association that represents all aspects of America\u2019s oil and natural \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "API Platform | OpenAI",
+          "link": "https://openai.com/api/",
+          "snippet": "Feb 16, 2026 \u00b7 Our API platform offers our latest models and guides for safety best practices.",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is an API? A Beginner's Guide to APIs | Postman",
+          "link": "https://www.postman.com/what-is-an-api/",
+          "snippet": "An API, which stands for application programming interface, is a set of protocols that enable different software components to \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is an API (application programming interface)? - IBM",
+          "link": "https://www.ibm.com/think/topics/api",
+          "snippet": "Apr 9, 2024 \u00b7 An API, or application programming interface, is a set of rules or protocols that enables software applications to \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is an API? - Application Programming Interfaces Explained - AWS",
+          "link": "https://aws.amazon.com/what-is/api/",
+          "snippet": "Find out what is an API, how and why businesses use APIs, and how to use APIs on AWS.",
+          "backend": "searxng"
+        },
+        {
+          "title": "API Portal",
+          "link": "https://myportal.api.org/",
+          "snippet": "Jul 1, 2026 \u00b7 The API Portal is your login for everything you do with API including the Webstore, the ICP Portal, myCerts, Engine Oil, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is an API? - Akamai",
+          "link": "https://www.akamai.com/glossary/how-do-apis-work",
+          "snippet": "API is an abbreviation of application programming interface, a set of rules, protocols, and definitions that allow different software \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Cloud APIs | Google Cloud",
+          "link": "https://cloud.google.com/apis",
+          "snippet": "Web-based interface for managing and monitoring cloud apps.Web App and API Protection. Security and Resilience Framework. Risk and compliance as code (RCaC).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "National Payments Corporation of India (NPCI) - Enabling digital...",
+          "link": "https://www.npci.org.in/",
+          "snippet": "API Accelerator Program.Management Team. Advisors. Organization Structure.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "API management solution distributors",
+      "level": "market_map",
+      "result_count": 5,
+      "results_target": 28,
+      "backends": [
+        "ddgs_yandex"
+      ],
+      "results": [
+        {
+          "title": "Cloud Computing, Hosting Services, and APIs | Google Cloud",
+          "link": "https://cloud.google.com/gcp",
+          "snippet": "Google Distributed Cloud. Fully managed solutions for the edge and data centers.Apigee API Management. Manage the full life cycle of APIs anywhere with visibility and control. Cloud Tasks. Task manage",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "konghq.com/products/kong-gateway",
+          "link": "https://konghq.com/products/kong-gateway",
+          "snippet": "a next-generation API management solution.",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Cloud Computing Services | Microsoft Azure",
+          "link": "https://azure.microsoft.com/",
+          "snippet": "Run and manage applications your way with your preferred Linux distribution on Azure.Azure API Management. Deliver AI-ready APIs with built-in governance, security, analytics, and Azure scalability.",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Praminda \u00b7 Portfolio",
+          "link": "https://www.praminda.xyz/",
+          "snippet": "A fully featured API management solution including security, rate limiting, API analytics, and developer portals. The gateway component could handle 2500 TPS per instance while all other QoS features ",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Anthos \u2013 Fiontec",
+          "link": "https://fiontec.eu/api-management/anthos/",
+          "snippet": "Api Management. Anthos.Policy management. Managing multiple clusters presents another obstacle in ensuring the uniform application of security and regulatory compliance policies throughout your fleet.",
+          "backend": "ddgs_yandex"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Cloud Computing, Hosting Services, and APIs | Google Cloud",
+          "link": "https://cloud.google.com/gcp",
+          "snippet": "Google Distributed Cloud. Fully managed solutions for the edge and data centers.Apigee API Management. Manage the full life cycle of APIs anywhere with visibility and control. Cloud Tasks. Task manage",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "konghq.com/products/kong-gateway",
+          "link": "https://konghq.com/products/kong-gateway",
+          "snippet": "a next-generation API management solution.",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Cloud Computing Services | Microsoft Azure",
+          "link": "https://azure.microsoft.com/",
+          "snippet": "Run and manage applications your way with your preferred Linux distribution on Azure.Azure API Management. Deliver AI-ready APIs with built-in governance, security, analytics, and Azure scalability.",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Praminda \u00b7 Portfolio",
+          "link": "https://www.praminda.xyz/",
+          "snippet": "A fully featured API management solution including security, rate limiting, API analytics, and developer portals. The gateway component could handle 2500 TPS per instance while all other QoS features ",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Anthos \u2013 Fiontec",
+          "link": "https://fiontec.eu/api-management/anthos/",
+          "snippet": "Api Management. Anthos.Policy management. Managing multiple clusters presents another obstacle in ensuring the uniform application of security and regulatory compliance policies throughout your fleet.",
+          "backend": "ddgs_yandex"
+        }
+      ]
+    },
+    "P2": {
+      "query": "API management wholesalers",
+      "level": "market_map",
+      "result_count": 17,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "API - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/API",
+          "snippet": "An application programming interface (API) is a connection between computers or between computer programs. It is a type of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Introduction to API (Application Programming Interface)",
+          "link": "https://www.geeksforgeeks.org/software-testing/what-is-an-api/",
+          "snippet": "Jul 8, 2026 \u00b7 An API (Application Programming Interface) is a set of rules that allows different software applications to communicate \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Are APIs? A Beginner's Guide (with examples) - DEV Community",
+          "link": "https://dev.to/icornea/what-are-apis-a-beginners-guide-with-examples-4ok8",
+          "snippet": "Apr 15, 2025 \u00b7 In today\u2019s tech-driven world, you\u2019ve probably heard the term API thrown around in conversations about web \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "American Petroleum Institute | API",
+          "link": "https://www.api.org/",
+          "snippet": "The American Petroleum Institute (API) is the only national trade association that represents all aspects of America\u2019s oil and natural \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "API Platform | OpenAI",
+          "link": "https://openai.com/api/",
+          "snippet": "Feb 16, 2026 \u00b7 Our API platform offers our latest models and guides for safety best practices.",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is an API? A Beginner's Guide to APIs | Postman",
+          "link": "https://www.postman.com/what-is-an-api/",
+          "snippet": "An API, which stands for application programming interface, is a set of protocols that enable different software components to \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is an API (application programming interface)? - IBM",
+          "link": "https://www.ibm.com/think/topics/api",
+          "snippet": "Apr 9, 2024 \u00b7 An API, or application programming interface, is a set of rules or protocols that enables software applications to \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is an API? - Application Programming Interfaces Explained - AWS",
+          "link": "https://aws.amazon.com/what-is/api/",
+          "snippet": "Find out what is an API, how and why businesses use APIs, and how to use APIs on AWS.",
+          "backend": "searxng"
+        },
+        {
+          "title": "API Portal",
+          "link": "https://myportal.api.org/",
+          "snippet": "Jul 1, 2026 \u00b7 The API Portal is your login for everything you do with API including the Webstore, the ICP Portal, myCerts, Engine Oil, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is an API? - Akamai",
+          "link": "https://www.akamai.com/glossary/how-do-apis-work",
+          "snippet": "API is an abbreviation of application programming interface, a set of rules, protocols, and definitions that allow different software \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Integrating PrestaShop with wholesalers and running inventory...",
+          "link": "https://prestashow.com/en/prestashop-blog/102/importing-products-from-multiple-wholesalers-and-managing-warehouses-in-prestashop",
+          "snippet": "Self-integrate your store with wholesalers. Manage the flow of products in your store. We offer an agile and unique module for importing product data from API and from XML and CSV files.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Postman: The World's Leading API Platform | Sign Up for Free",
+          "link": "https://www.postman.com/",
+          "snippet": "The AI-native API Platform. Develop, test, manage, and distribute APIs and services. Built for engineers. Designed for enterprise scale.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "10 Inventory Software for Wholesale Distributors - Vencru",
+          "link": "https://vencru.com/blog/10-inventory-software-for-wholesale-distributors/",
+          "snippet": "Discover top inventory management software for wholesale distributors, optimizing operations and enhancing efficiency for business growth.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "10 Best Wholesale Distribution Software for 2023 | Logiwa | WMS",
+          "link": "https://www.logiwa.com/blog/wholesale-distribution-software",
+          "snippet": "Wholesalers & Distributors Hybrid wholesale distribution software for 3PL transitions.Supply chain management. Storage and internal process control. Open API integration.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Navigating the B2B Wholesale Market: Strategies for Success and...",
+          "link": "https://www.clarity-ventures.com/ecommerce/wholesale-ecommerce/platforms-for-b2b-wholesalers",
+          "snippet": "Automated Product Catalogs and Management. Wholesalers often manage thousands of SKUs across multiple categories in complex product hierarchies.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Whols - WooCommerce Wholesale Prices Plugin",
+          "link": "https://wpwhols.com/",
+          "snippet": "Wholesaler Registration Management. Add a sleek wholesaler registration form anywhere on your site with a simple shortcode and take control of your wholesale requests.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "CodesWholesale \u2014 B2B Wholesale Platform for Digital Game Keys...",
+          "link": "https://codeswholesale.com/",
+          "snippet": "Buy at wholesale, automate delivery with the API, and trade with zero inventory risk. Create free account See how it works.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "API - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/API",
+          "snippet": "An application programming interface (API) is a connection between computers or between computer programs. It is a type of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Introduction to API (Application Programming Interface)",
+          "link": "https://www.geeksforgeeks.org/software-testing/what-is-an-api/",
+          "snippet": "Jul 8, 2026 \u00b7 An API (Application Programming Interface) is a set of rules that allows different software applications to communicate \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Are APIs? A Beginner's Guide (with examples) - DEV Community",
+          "link": "https://dev.to/icornea/what-are-apis-a-beginners-guide-with-examples-4ok8",
+          "snippet": "Apr 15, 2025 \u00b7 In today\u2019s tech-driven world, you\u2019ve probably heard the term API thrown around in conversations about web \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "American Petroleum Institute | API",
+          "link": "https://www.api.org/",
+          "snippet": "The American Petroleum Institute (API) is the only national trade association that represents all aspects of America\u2019s oil and natural \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "API Platform | OpenAI",
+          "link": "https://openai.com/api/",
+          "snippet": "Feb 16, 2026 \u00b7 Our API platform offers our latest models and guides for safety best practices.",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is an API? A Beginner's Guide to APIs | Postman",
+          "link": "https://www.postman.com/what-is-an-api/",
+          "snippet": "An API, which stands for application programming interface, is a set of protocols that enable different software components to \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is an API (application programming interface)? - IBM",
+          "link": "https://www.ibm.com/think/topics/api",
+          "snippet": "Apr 9, 2024 \u00b7 An API, or application programming interface, is a set of rules or protocols that enables software applications to \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is an API? - Application Programming Interfaces Explained - AWS",
+          "link": "https://aws.amazon.com/what-is/api/",
+          "snippet": "Find out what is an API, how and why businesses use APIs, and how to use APIs on AWS.",
+          "backend": "searxng"
+        },
+        {
+          "title": "API Portal",
+          "link": "https://myportal.api.org/",
+          "snippet": "Jul 1, 2026 \u00b7 The API Portal is your login for everything you do with API including the Webstore, the ICP Portal, myCerts, Engine Oil, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is an API? - Akamai",
+          "link": "https://www.akamai.com/glossary/how-do-apis-work",
+          "snippet": "API is an abbreviation of application programming interface, a set of rules, protocols, and definitions that allow different software \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Integrating PrestaShop with wholesalers and running inventory...",
+          "link": "https://prestashow.com/en/prestashop-blog/102/importing-products-from-multiple-wholesalers-and-managing-warehouses-in-prestashop",
+          "snippet": "Self-integrate your store with wholesalers. Manage the flow of products in your store. We offer an agile and unique module for importing product data from API and from XML and CSV files.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Postman: The World's Leading API Platform | Sign Up for Free",
+          "link": "https://www.postman.com/",
+          "snippet": "The AI-native API Platform. Develop, test, manage, and distribute APIs and services. Built for engineers. Designed for enterprise scale.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "10 Inventory Software for Wholesale Distributors - Vencru",
+          "link": "https://vencru.com/blog/10-inventory-software-for-wholesale-distributors/",
+          "snippet": "Discover top inventory management software for wholesale distributors, optimizing operations and enhancing efficiency for business growth.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "10 Best Wholesale Distribution Software for 2023 | Logiwa | WMS",
+          "link": "https://www.logiwa.com/blog/wholesale-distribution-software",
+          "snippet": "Wholesalers & Distributors Hybrid wholesale distribution software for 3PL transitions.Supply chain management. Storage and internal process control. Open API integration.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Navigating the B2B Wholesale Market: Strategies for Success and...",
+          "link": "https://www.clarity-ventures.com/ecommerce/wholesale-ecommerce/platforms-for-b2b-wholesalers",
+          "snippet": "Automated Product Catalogs and Management. Wholesalers often manage thousands of SKUs across multiple categories in complex product hierarchies.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Whols - WooCommerce Wholesale Prices Plugin",
+          "link": "https://wpwhols.com/",
+          "snippet": "Wholesaler Registration Management. Add a sleek wholesaler registration form anywhere on your site with a simple shortcode and take control of your wholesale requests.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "CodesWholesale \u2014 B2B Wholesale Platform for Digital Game Keys...",
+          "link": "https://codeswholesale.com/",
+          "snippet": "Buy at wholesale, automate delivery with the API, and trade with zero inventory risk. Create free account See how it works.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P3": {
+      "query": "API management resellers",
+      "level": "market_map",
+      "result_count": 19,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "API - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/API",
+          "snippet": "An application programming interface (API) is a connection between computers or between computer programs. It is a type of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Introduction to API (Application Programming Interface)",
+          "link": "https://www.geeksforgeeks.org/software-testing/what-is-an-api/",
+          "snippet": "Jul 8, 2026 \u00b7 An API (Application Programming Interface) is a set of rules that allows different software applications to communicate \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Are APIs? A Beginner's Guide (with examples) - DEV Community",
+          "link": "https://dev.to/icornea/what-are-apis-a-beginners-guide-with-examples-4ok8",
+          "snippet": "Apr 15, 2025 \u00b7 In today\u2019s tech-driven world, you\u2019ve probably heard the term API thrown around in conversations about web \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "American Petroleum Institute | API",
+          "link": "https://www.api.org/",
+          "snippet": "The American Petroleum Institute (API) is the only national trade association that represents all aspects of America\u2019s oil and natural \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "API Platform | OpenAI",
+          "link": "https://openai.com/api/",
+          "snippet": "Feb 16, 2026 \u00b7 Our API platform offers our latest models and guides for safety best practices.",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is an API? A Beginner's Guide to APIs | Postman",
+          "link": "https://www.postman.com/what-is-an-api/",
+          "snippet": "An API, which stands for application programming interface, is a set of protocols that enable different software components to \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is an API (application programming interface)? - IBM",
+          "link": "https://www.ibm.com/think/topics/api",
+          "snippet": "Apr 9, 2024 \u00b7 An API, or application programming interface, is a set of rules or protocols that enables software applications to \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is an API? - Application Programming Interfaces Explained - AWS",
+          "link": "https://aws.amazon.com/what-is/api/",
+          "snippet": "Find out what is an API, how and why businesses use APIs, and how to use APIs on AWS.",
+          "backend": "searxng"
+        },
+        {
+          "title": "API Portal",
+          "link": "https://myportal.api.org/",
+          "snippet": "Jul 1, 2026 \u00b7 The API Portal is your login for everything you do with API including the Webstore, the ICP Portal, myCerts, Engine Oil, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is an API? - Akamai",
+          "link": "https://www.akamai.com/glossary/how-do-apis-work",
+          "snippet": "API is an abbreviation of application programming interface, a set of rules, protocols, and definitions that allow different software \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Retailed - The inventory management tool for resellers",
+          "link": "https://www.retailed.io/",
+          "snippet": "Streamline inventory management, leverage our tailored advice, and access comprehensive datasets and APIs for the retail and resale industry.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Documentation Resources & API Guides for Resellers | OpenSRS",
+          "link": "https://opensrs.com/resources/documentation/",
+          "snippet": "Access OpenSRS docs, API guides, service policies, and agreements for domains, email, SSL, and reseller account setup, all in one place.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sessions management - Netim support",
+          "link": "https://support.netim.com/en/docs/resellers/manage-my-reseller-account/sessions-management",
+          "snippet": "Home \u00bb Resellers \u00bb Manage my reseller account \u00bb Sessions management.Sessions are needed in order to perform requests whatever the interface used (Netim direct or an API).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "API Tokens in WHM",
+          "link": "https://api.docs.cpanel.net/whm/tokens",
+          "snippet": "System Package Management.You can use API tokens instead of a password to call WHM API 1 functions over HTTPS. This is useful, for example, to allow a reseller user or third-party...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Welcome \u2014 SpaceXAI API & Developer Tools for... | SpaceXAI Console",
+          "link": "https://console.x.ai/",
+          "snippet": "The SpaceXAI Console is your gateway to the SpaceXAI API. Access Grok AI text API, voice API, image generation, and developer tools to build with Grok.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Multi Tenant WHMCS Guide: How to REALLY Manage Resellers",
+          "link": "https://katamaze.com/blog/39/multi-tenant-whmcs-guide-how-to-really-manage-resellers",
+          "snippet": "You want resellers customizing their instance of WHMCS. Because WHMCS can work with multiple of templates. You want to offer reseller access to WHMCS API for integrations.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Postman: The World's Leading API Platform | Sign Up for Free",
+          "link": "https://www.postman.com/",
+          "snippet": "The AI-native API Platform. Develop, test, manage, and distribute APIs and services. Built for engineers. Designed for enterprise scale.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Introduction - KeyAuth",
+          "link": "https://docs.keyauth.cc/",
+          "snippet": "Seller API. Application Settings.Delete A Reseller or Manager Account. Retrieve All Resellers and Managers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "SMM Raja \u2014 Best & Cheapest SMM Reseller Panel Since 2014",
+          "link": "https://www.smmraja.com/",
+          "snippet": "The #1 SMM reseller panel trusted worldwide since 2014. Instant delivery, lowest rates, full API & white-label panels from $11/mo. Start reselling today.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "API - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/API",
+          "snippet": "An application programming interface (API) is a connection between computers or between computer programs. It is a type of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Introduction to API (Application Programming Interface)",
+          "link": "https://www.geeksforgeeks.org/software-testing/what-is-an-api/",
+          "snippet": "Jul 8, 2026 \u00b7 An API (Application Programming Interface) is a set of rules that allows different software applications to communicate \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Are APIs? A Beginner's Guide (with examples) - DEV Community",
+          "link": "https://dev.to/icornea/what-are-apis-a-beginners-guide-with-examples-4ok8",
+          "snippet": "Apr 15, 2025 \u00b7 In today\u2019s tech-driven world, you\u2019ve probably heard the term API thrown around in conversations about web \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "American Petroleum Institute | API",
+          "link": "https://www.api.org/",
+          "snippet": "The American Petroleum Institute (API) is the only national trade association that represents all aspects of America\u2019s oil and natural \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "API Platform | OpenAI",
+          "link": "https://openai.com/api/",
+          "snippet": "Feb 16, 2026 \u00b7 Our API platform offers our latest models and guides for safety best practices.",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is an API? A Beginner's Guide to APIs | Postman",
+          "link": "https://www.postman.com/what-is-an-api/",
+          "snippet": "An API, which stands for application programming interface, is a set of protocols that enable different software components to \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is an API (application programming interface)? - IBM",
+          "link": "https://www.ibm.com/think/topics/api",
+          "snippet": "Apr 9, 2024 \u00b7 An API, or application programming interface, is a set of rules or protocols that enables software applications to \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is an API? - Application Programming Interfaces Explained - AWS",
+          "link": "https://aws.amazon.com/what-is/api/",
+          "snippet": "Find out what is an API, how and why businesses use APIs, and how to use APIs on AWS.",
+          "backend": "searxng"
+        },
+        {
+          "title": "API Portal",
+          "link": "https://myportal.api.org/",
+          "snippet": "Jul 1, 2026 \u00b7 The API Portal is your login for everything you do with API including the Webstore, the ICP Portal, myCerts, Engine Oil, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is an API? - Akamai",
+          "link": "https://www.akamai.com/glossary/how-do-apis-work",
+          "snippet": "API is an abbreviation of application programming interface, a set of rules, protocols, and definitions that allow different software \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Retailed - The inventory management tool for resellers",
+          "link": "https://www.retailed.io/",
+          "snippet": "Streamline inventory management, leverage our tailored advice, and access comprehensive datasets and APIs for the retail and resale industry.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Documentation Resources & API Guides for Resellers | OpenSRS",
+          "link": "https://opensrs.com/resources/documentation/",
+          "snippet": "Access OpenSRS docs, API guides, service policies, and agreements for domains, email, SSL, and reseller account setup, all in one place.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sessions management - Netim support",
+          "link": "https://support.netim.com/en/docs/resellers/manage-my-reseller-account/sessions-management",
+          "snippet": "Home \u00bb Resellers \u00bb Manage my reseller account \u00bb Sessions management.Sessions are needed in order to perform requests whatever the interface used (Netim direct or an API).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "API Tokens in WHM",
+          "link": "https://api.docs.cpanel.net/whm/tokens",
+          "snippet": "System Package Management.You can use API tokens instead of a password to call WHM API 1 functions over HTTPS. This is useful, for example, to allow a reseller user or third-party...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Welcome \u2014 SpaceXAI API & Developer Tools for... | SpaceXAI Console",
+          "link": "https://console.x.ai/",
+          "snippet": "The SpaceXAI Console is your gateway to the SpaceXAI API. Access Grok AI text API, voice API, image generation, and developer tools to build with Grok.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Multi Tenant WHMCS Guide: How to REALLY Manage Resellers",
+          "link": "https://katamaze.com/blog/39/multi-tenant-whmcs-guide-how-to-really-manage-resellers",
+          "snippet": "You want resellers customizing their instance of WHMCS. Because WHMCS can work with multiple of templates. You want to offer reseller access to WHMCS API for integrations.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Postman: The World's Leading API Platform | Sign Up for Free",
+          "link": "https://www.postman.com/",
+          "snippet": "The AI-native API Platform. Develop, test, manage, and distribute APIs and services. Built for engineers. Designed for enterprise scale.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Introduction - KeyAuth",
+          "link": "https://docs.keyauth.cc/",
+          "snippet": "Seller API. Application Settings.Delete A Reseller or Manager Account. Retrieve All Resellers and Managers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "SMM Raja \u2014 Best & Cheapest SMM Reseller Panel Since 2014",
+          "link": "https://www.smmraja.com/",
+          "snippet": "The #1 SMM reseller panel trusted worldwide since 2014. Instant delivery, lowest rates, full API & white-label panels from $11/mo. Start reselling today.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P4": {
+      "query": "API management system integrators",
+      "level": "market_map",
+      "result_count": 2,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Why Boomi\u2019s Recognition in APIM Matters for Your Agentic Future",
+          "link": "https://boomi.com/blog/gartner-apim-mq-boomi-agentic-future/",
+          "snippet": "API Management Lead agentic transformation with total API control.Integrate capabilities into your own solutions. Systems Integrators. Implement Boomi solutions for clients. Technology Partners.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Turbo360 BAM for System Integrators - Qureshi",
+          "link": "https://qureshi.me/turbo360-bam-for-system-integrators/",
+          "snippet": "API Management exposes the order intake API. Logic Apps manage validation, enrichment, and invoicing. Functions execute essential business calculations. Data Factory transfers data into the reporting ",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Why Boomi\u2019s Recognition in APIM Matters for Your Agentic Future",
+          "link": "https://boomi.com/blog/gartner-apim-mq-boomi-agentic-future/",
+          "snippet": "API Management Lead agentic transformation with total API control.Integrate capabilities into your own solutions. Systems Integrators. Implement Boomi solutions for clients. Technology Partners.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Turbo360 BAM for System Integrators - Qureshi",
+          "link": "https://qureshi.me/turbo360-bam-for-system-integrators/",
+          "snippet": "API Management exposes the order intake API. Logic Apps manage validation, enrichment, and invoicing. Functions execute essential business calculations. Data Factory transfers data into the reporting ",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P5": {
+      "query": "API management service providers",
+      "level": "market_map",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Kong named leading API management provider by Gartner",
+          "link": "https://channellife.co.uk/story/kong-named-leading-api-management-provider-by-gartner",
+          "snippet": "Kong facilitates businesses in their evolution into API-first companies. Recognised by over 600 organisations worldwide, Kong's unified cloud API platform improves developer productivity across API ma",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Kong named leading API management provider by Gartner",
+          "link": "https://channellife.co.uk/story/kong-named-leading-api-management-provider-by-gartner",
+          "snippet": "Kong facilitates businesses in their evolution into API-first companies. Recognised by over 600 organisations worldwide, Kong's unified cloud API platform improves developer productivity across API ma",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "API management channel partners",
+      "level": "market_map",
+      "result_count": 4,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Why Connections Matter to Partners",
+          "link": "https://boomi.com/blog/why-connections-matter-to-partners/",
+          "snippet": "API Management Simplify API deployment and management.The overall growth in our ACV through channel partners is 20% year-over-year, and 50% with our Elite and Select partnership levels. That\u2019s why we ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Download Postman | Get Started for Free",
+          "link": "https://www.postman.com/downloads/",
+          "snippet": "Partner API Management. Onboard partners in days, not months. API Lifecycle Management. Run every stage as one connected system. SDLC Automation.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Gravitee.io Launches First Partner Programme To... - UK Tech News",
+          "link": "https://uktechnews.co.uk/2021/08/06/gravitee-io-launches-first-partner-programme-to-tame-the-global-api-jungle/",
+          "snippet": "Gravitee.io, the open source API management platform, today launched its first partner programme. The company is actively seeking technology partners, system integrators, consultancies, SaaS and cloud",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "AI and Cloud Computing Services | Google Cloud",
+          "link": "https://cloud.google.com/",
+          "snippet": "Apigee API Management. Manage the full life cycle of APIs anywhere with visibility and control. Cloud Tasks. Task management service for asynchronous task execution.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Why Connections Matter to Partners",
+          "link": "https://boomi.com/blog/why-connections-matter-to-partners/",
+          "snippet": "API Management Simplify API deployment and management.The overall growth in our ACV through channel partners is 20% year-over-year, and 50% with our Elite and Select partnership levels. That\u2019s why we ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Download Postman | Get Started for Free",
+          "link": "https://www.postman.com/downloads/",
+          "snippet": "Partner API Management. Onboard partners in days, not months. API Lifecycle Management. Run every stage as one connected system. SDLC Automation.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Gravitee.io Launches First Partner Programme To... - UK Tech News",
+          "link": "https://uktechnews.co.uk/2021/08/06/gravitee-io-launches-first-partner-programme-to-tame-the-global-api-jungle/",
+          "snippet": "Gravitee.io, the open source API management platform, today launched its first partner programme. The company is actively seeking technology partners, system integrators, consultancies, SaaS and cloud",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "AI and Cloud Computing Services | Google Cloud",
+          "link": "https://cloud.google.com/",
+          "snippet": "Apigee API Management. Manage the full life cycle of APIs anywhere with visibility and control. Cloud Tasks. Task management service for asynchronous task execution.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P7": {
+      "query": "API management solution distributors official site",
+      "level": "discovery",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Unlocking the Power of APIs with Anypoint Platform | Medium",
+          "link": "https://medium.com/@yogeshmulecraft/unlocking-the-power-of-apis-with-anypoint-platform-9460c59773ba",
+          "snippet": "It provides both API management and integration capabilities in one seamless, cloud-native solution. Get Yogesh Manikkavasagam\u2019s stories in your inbox. Join Medium for free to get updates from this wr",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Unlocking the Power of APIs with Anypoint Platform | Medium",
+          "link": "https://medium.com/@yogeshmulecraft/unlocking-the-power-of-apis-with-anypoint-platform-9460c59773ba",
+          "snippet": "It provides both API management and integration capabilities in one seamless, cloud-native solution. Get Yogesh Manikkavasagam\u2019s stories in your inbox. Join Medium for free to get updates from this wr",
+          "backend": "ddgs_bing"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

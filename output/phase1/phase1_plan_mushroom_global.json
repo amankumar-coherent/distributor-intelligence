@@ -1,0 +1,2827 @@
+{
+  "phase": 1,
+  "query": "Mushroom Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T21:09:10.481785+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "mushroom",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "food distribution",
+    "industry_terms": [
+      "edible mushrooms",
+      "medicinal mushrooms",
+      "cultivation",
+      "distribution",
+      "wholesale"
+    ],
+    "ecosystem_functions": [
+      "distributing mushrooms to retailers",
+      "wholesaling mushrooms to food services",
+      "reselling mushrooms to consumers",
+      "integrating mushrooms into food systems",
+      "providing services related to mushroom distribution",
+      "acting as channel partners for mushroom products"
+    ],
+    "interpretation_summary": "The mushroom market encompasses the cultivation, distribution, and sale of various types of mushrooms, including edible and medicinal varieties. Participants include growers, distributors, wholesalers, and retailers oper",
+    "relevance_keywords": [
+      "mushroom distribution",
+      "wholesale mushrooms",
+      "mushroom resellers",
+      "mushroom service providers",
+      "mushroom supply chain"
+    ],
+    "negative_keywords": [
+      "agricultural equipment",
+      "mushroom farming",
+      "mushroom cultivation",
+      "mushroom research",
+      "mushroom equipment"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "Monterey Mushrooms",
+        "primary_domain": "montereymushrooms.com",
+        "company_function": "mushroom distributor"
+      },
+      {
+        "canonical_name": "Highline Mushrooms",
+        "primary_domain": "highlinemushrooms.com",
+        "company_function": "mushroom wholesaler"
+      },
+      {
+        "canonical_name": "Mushroom Company",
+        "primary_domain": "mushroomcompany.com",
+        "company_function": "mushroom reseller"
+      },
+      {
+        "canonical_name": "Shroom Brothers",
+        "primary_domain": "shroombrothers.com",
+        "company_function": "mushroom service provider"
+      },
+      {
+        "canonical_name": "Fungi Perfecti",
+        "primary_domain": "fungiperfecti.com",
+        "company_function": "mushroom channel partner"
+      },
+      {
+        "canonical_name": "Earthy Delights",
+        "primary_domain": "earthydelights.com",
+        "company_function": "mushroom distributor"
+      },
+      {
+        "canonical_name": "Agaricus Bisporus",
+        "primary_domain": "agaricusbisporus.com",
+        "company_function": "mushroom wholesaler"
+      },
+      {
+        "canonical_name": "Mushroom Harvest",
+        "primary_domain": "mushroomharvest.com",
+        "company_function": "mushroom reseller"
+      },
+      {
+        "canonical_name": "Mushroom Network",
+        "primary_domain": "mushroomnetwork.com",
+        "company_function": "mushroom service provider",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Mushroom Distribution Services",
+        "primary_domain": "mushroomdistributionservices.com",
+        "company_function": "mushroom channel partner",
+        "segment": "Channel Partners",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "mushroom",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "mushroom",
+    "include_keywords": [
+      "fresh mushrooms distributor",
+      "bulk mushroom supplier",
+      "dried mushrooms wholesaler",
+      "mushroom reselling services",
+      "mushroom channel partners"
+    ],
+    "exclude_keywords": [
+      "mushroom cultivation news",
+      "mushroom research reports",
+      "mushroom blogs",
+      "mushroom job boards",
+      "mushroom equipment suppliers"
+    ],
+    "scope_version": 2,
+    "market_definition": "The mushroom market encompasses the cultivation, distribution, and sale of various types of mushrooms, including edible and medicinal varieties. Participants include growers, distributors, wholesalers, and retailers operating on a global scale.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Distribution",
+        "description": "This layer involves the distribution of mushrooms from producers to various market channels.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Fresh mushroom distributors",
+              "Dried mushroom distributors"
+            ],
+            "participant_types": [
+              "distributor",
+              "wholesaler"
+            ],
+            "search_intents": [
+              "mushroom distributors near me",
+              "wholesale mushroom suppliers"
+            ]
+          },
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Retail resellers",
+              "Online resellers"
+            ],
+            "participant_types": [
+              "reseller",
+              "channel partner"
+            ],
+            "search_intents": [
+              "buy mushrooms online",
+              "mushroom resellers in my area"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L2",
+        "layer_name": "Wholesale",
+        "description": "This layer focuses on the wholesale trade of mushrooms, supplying retailers and food service companies.",
+        "segments": [
+          {
+            "segment_name": "Wholesalers",
+            "sub_segments": [
+              "Fresh mushroom wholesalers",
+              "Dried mushroom wholesalers"
+            ],
+            "participant_types": [
+              "wholesaler",
+              "service provider"
+            ],
+            "search_intents": [
+              "bulk mushroom wholesalers",
+              "mushroom wholesale suppliers"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L3",
+        "layer_name": "Integration Services",
+        "description": "This layer includes services that integrate mushroom products into food systems or retail environments.",
+        "segments": [
+          {
+            "segment_name": "System Integrators",
+            "sub_segments": [
+              "Food service integrators",
+              "Retail system integrators"
+            ],
+            "participant_types": [
+              "system integrator",
+              "service provider"
+            ],
+            "search_intents": [
+              "mushroom food service integration",
+              "mushroom retail system solutions"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Mushroom growers",
+        "Research institutions",
+        "Agricultural equipment suppliers",
+        "Packaging manufacturers"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "find mushroom distributors in your area",
+        "sub_sector": "mushroom_distribution",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "search for mushroom resellers online",
+        "sub_sector": "mushroom_reselling",
+        "layer_id": "L1",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "bulk mushroom wholesalers in your region",
+        "sub_sector": "mushroom_wholesale",
+        "layer_id": "L2",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "mushroom food service integration solutions",
+        "sub_sector": "mushroom_integration",
+        "layer_id": "L3",
+        "segment": "System Integrators"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "food distribution",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "mushroom companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "mushroom distributor corporate site"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "mushroom wholesaler official website"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "discovery",
+      "text": "mushroom reseller official website"
+    },
+    {
+      "id": "P2",
+      "level": "discovery",
+      "text": "mushroom service provider corporate site"
+    },
+    {
+      "id": "P3",
+      "level": "discovery",
+      "text": "mushroom channel partner official website"
+    },
+    {
+      "id": "P4",
+      "level": "discovery",
+      "text": "mushroom distribution services corporate site"
+    },
+    {
+      "id": "P5",
+      "level": "discovery",
+      "text": "mushroom food service integration official site"
+    },
+    {
+      "id": "P6",
+      "level": "discovery",
+      "text": "mushroom retail system integrator corporate site"
+    },
+    {
+      "id": "P7",
+      "level": "discovery",
+      "text": "authorized mushroom distributor firm official"
+    },
+    {
+      "id": "P8",
+      "level": "discovery",
+      "text": "mushroom reseller channel partner official"
+    },
+    {
+      "id": "P9",
+      "level": "discovery",
+      "text": "mushroom system integrator official website"
+    },
+    {
+      "id": "P10",
+      "level": "discovery",
+      "text": "medicinal mushrooms distributor reseller official"
+    },
+    {
+      "id": "P11",
+      "level": "discovery",
+      "text": "cultivation distributor reseller official"
+    },
+    {
+      "id": "P12",
+      "level": "discovery",
+      "text": "distribution distributor reseller official"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "mushroom companies official websites",
+      "level": "L0",
+      "result_count": 21,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Top 5 Mushroom Companies Worldwide",
+          "link": "https://www.expertmarketresearch.com/blogs/top-mushroom-companies",
+          "snippet": "The top mushroom companies include Costa Group, Hughes Group, Monaghan Mushrooms, Monterey Mushrooms Inc., and Okechamp S.A among others.To place an order through our website, select the license type ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 11 Reishi Mushroom Companies in the World",
+          "link": "https://www.imarcgroup.com/blog/top-reishi-mushroom-companies",
+          "snippet": "Project Execution & Site Management. Operations Readiness & Ramp-Up.The global reishi mushroom market size reached US$ 3.9 Billion in 2023. As per the analysis by IMARC Group, the top reishi mushroom ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 7 Functional Mushroom Companies - Verified Market Research",
+          "link": "https://www.verifiedmarketresearch.com/blog/top-functional-mushroom-companies/",
+          "snippet": "Real Mushroom-one of the top functional mushroom companies. Established in 2015 and based in Vancouver, Canada, Real Mushrooms focuses on high-quality functional mushroom supplements, made exclusively",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 5 Mushroom Companies and Brands of 2024 - Calm Leaf",
+          "link": "https://www.thecalmleaf.com/blog/top-5-mushroom-companies-and-brands-of-2024/",
+          "snippet": "NOC Official Sale.We at The Calm Leaf are extremely excited to see the rise of the mushroom this past year, with many top brands and companies releasing mushroom-infused products that are both recreat",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "mushroomgroup.com",
+          "link": "https://mushroomgroup.com/",
+          "snippet": "Mushroom\u2019s first companies, including the iconic Mushroom Records and...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "25 Mushroom Companies to Watch in 2025 Part 4 16. Myceliumatters...",
+          "link": "https://www.linkedin.com/posts/dennis-walker-19684927_25-mushroom-companies-to-watch-in-2025-part-activity-7284232815095758848-spBs",
+          "snippet": "Myceliumatters is a Los Angeles based mushroom company that connects people to the myco community through events and workshops - they're also the founders of the El Paso Fungi Fest, Long Beach Mushroo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mushroom Guru (Pty) Ltd Information | SignalHire Company Profile",
+          "link": "https://www.signalhire.com/companies/mushroom-guru-pty-ltd",
+          "snippet": "Contact top employees from Mushroom Guru (Pty) Ltd. Summary. The company currently specializes in the Health, Wellness and Fitness area.Mushroom Guru (Pty) Ltd operates in the Bookkeeping industries. ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Om founder: \u2018It\u2019s a very great time for all mushroom companies\u2019",
+          "link": "https://www.foodnavigator-usa.com/Article/2019/01/16/Om-founder-It-s-a-very-great-time-for-all-mushroom-companies/",
+          "snippet": "Om was founded by integrative medicine professional Sandra Carter (left) and mycologist Steve Farrar. Om co-founder Sandra Carter has noticed a \"dramatic change in the sophistication\" of knowledge of ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mushroom Material - 2026 Company Profile, Team, Funding... - Tracxn",
+          "link": "https://tracxn.com/d/companies/mushroom-material/__jZ9DXO01P4RVY9UIh5aSGNHx2XCEzQyy8CpB14OTah0",
+          "snippet": "Explore Mushroom Material's in-depth company profile, including funding details, key investors, leadership, and competitors.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Texas Mushroom Companies \u2014 Central Texas Mycological Society",
+          "link": "https://www.centraltexasmycology.org/texas-mushroom-companies",
+          "snippet": "Texas Mushroom Companies. Sign-up for Our Newsletter! Sign up with your email address to receive weekly updates about upcoming events, workshops, giveaways and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "List of Mushrooms companies in United States",
+          "link": "https://www.listofcompaniesin.com/united-states/mushrooms/",
+          "snippet": "Just getting started, looking for buyers for fresh mushrooms, differnet type of gourmet mushrooms as season and weather permitting, will ship c. O. D. Directly to your company anywhere in the United S",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Giorgio Fresh Mushrooms | America's Favorite Mushroom",
+          "link": "https://www.giorgiofresh.com/",
+          "snippet": "Giorgio is known as America's Favorite Mushroom and for good reason. We've been growing mushrooms for three generations and today Giorgio is one of the largest mushroom growers in the world. Rooted in",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "happymushrooms.com - HappyMushroom Grow Kits",
+          "link": "https://happymushrooms.com/",
+          "snippet": "Grow Your Own Happy Mushrooms in Just 3 Weeks! No Experience Needed SHop Grow kit Grown in the USA Fast Discreet Shipping 60 Day Guarantee Expert Support The Foolproof Way to Grow Happy Mushrooms at H",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Shop Real Mushrooms\u00ae - Organic Mushroom Extract Powders & Capsules",
+          "link": "https://realmushrooms.com/",
+          "snippet": "Award winning organic mushroom supplements in extract powders and capsules. Over 94,000 5-star reviews. $75 Free Shipping. 20% off your first order. Try us now!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home | Mushrooms Inc",
+          "link": "https://www.mushroomsinc.com/",
+          "snippet": "Mushrooms Inc. is a publicly traded company (MSRM) and creates an investor path that is broad. This avenue allows financial supporters to fuel discovery while reaping the potential benefits that the s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Far West Fungi - Organic Mushrooms, Grow Kits & Mushroom Products",
+          "link": "https://farwestfungi.com/",
+          "snippet": "Far West Fungi grows and sells fresh organically grown and wild mushrooms, mushroom grow kits and mushroom products.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Our U.S. Companies - The Giorgi Companies, Inc.",
+          "link": "https://thegiorgicompanies.com/our-companies/",
+          "snippet": "Our U.S. Companies Giorgi Mushroom Company (GMC) is a vertically integrated, family owned and operated agribusiness in Berks County, Pennsylvania. GMC is the largest, single-location mushroom farm in ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Organic Mushroom Powder & Capsules | Om",
+          "link": "https://ommushrooms.com/",
+          "snippet": "Our powerful single species and mushroom superfood blends are designed to promote immunity, vitality, cognitive health and energy. Shop now!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home | Mother Earth Organic Mushrooms",
+          "link": "https://organicmushrooms.com/",
+          "snippet": "One Mother of a mushroom supplier. Mother Earth Organic Mushrooms is the original powerhouse in the organic mushroom industry, providing 100% Certified Organic mushrooms to retail, food service, distr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Fungi Perfecti | Home",
+          "link": "https://fungi.com/",
+          "snippet": "Fungi Perfecti\u00ae is a family-owned, environmentally friendly company specializing in using mushrooms to improve the health of the planet and its people. Founded by mycologist and author Paul Stamets in",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Link to openpr.com",
+          "link": "https://www.openpr.com/news/3492150/leading-reishi-mushroom-companies-in-the-world-by-imarc-group",
+          "snippet": "The site owner hides the web page description.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Top 5 Mushroom Companies Worldwide",
+          "link": "https://www.expertmarketresearch.com/blogs/top-mushroom-companies",
+          "snippet": "The top mushroom companies include Costa Group, Hughes Group, Monaghan Mushrooms, Monterey Mushrooms Inc., and Okechamp S.A among others.To place an order through our website, select the license type ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 11 Reishi Mushroom Companies in the World",
+          "link": "https://www.imarcgroup.com/blog/top-reishi-mushroom-companies",
+          "snippet": "Project Execution & Site Management. Operations Readiness & Ramp-Up.The global reishi mushroom market size reached US$ 3.9 Billion in 2023. As per the analysis by IMARC Group, the top reishi mushroom ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 7 Functional Mushroom Companies - Verified Market Research",
+          "link": "https://www.verifiedmarketresearch.com/blog/top-functional-mushroom-companies/",
+          "snippet": "Real Mushroom-one of the top functional mushroom companies. Established in 2015 and based in Vancouver, Canada, Real Mushrooms focuses on high-quality functional mushroom supplements, made exclusively",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 5 Mushroom Companies and Brands of 2024 - Calm Leaf",
+          "link": "https://www.thecalmleaf.com/blog/top-5-mushroom-companies-and-brands-of-2024/",
+          "snippet": "NOC Official Sale.We at The Calm Leaf are extremely excited to see the rise of the mushroom this past year, with many top brands and companies releasing mushroom-infused products that are both recreat",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "mushroomgroup.com",
+          "link": "https://mushroomgroup.com/",
+          "snippet": "Mushroom\u2019s first companies, including the iconic Mushroom Records and...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "25 Mushroom Companies to Watch in 2025 Part 4 16. Myceliumatters...",
+          "link": "https://www.linkedin.com/posts/dennis-walker-19684927_25-mushroom-companies-to-watch-in-2025-part-activity-7284232815095758848-spBs",
+          "snippet": "Myceliumatters is a Los Angeles based mushroom company that connects people to the myco community through events and workshops - they're also the founders of the El Paso Fungi Fest, Long Beach Mushroo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mushroom Guru (Pty) Ltd Information | SignalHire Company Profile",
+          "link": "https://www.signalhire.com/companies/mushroom-guru-pty-ltd",
+          "snippet": "Contact top employees from Mushroom Guru (Pty) Ltd. Summary. The company currently specializes in the Health, Wellness and Fitness area.Mushroom Guru (Pty) Ltd operates in the Bookkeeping industries. ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Om founder: \u2018It\u2019s a very great time for all mushroom companies\u2019",
+          "link": "https://www.foodnavigator-usa.com/Article/2019/01/16/Om-founder-It-s-a-very-great-time-for-all-mushroom-companies/",
+          "snippet": "Om was founded by integrative medicine professional Sandra Carter (left) and mycologist Steve Farrar. Om co-founder Sandra Carter has noticed a \"dramatic change in the sophistication\" of knowledge of ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mushroom Material - 2026 Company Profile, Team, Funding... - Tracxn",
+          "link": "https://tracxn.com/d/companies/mushroom-material/__jZ9DXO01P4RVY9UIh5aSGNHx2XCEzQyy8CpB14OTah0",
+          "snippet": "Explore Mushroom Material's in-depth company profile, including funding details, key investors, leadership, and competitors.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Texas Mushroom Companies \u2014 Central Texas Mycological Society",
+          "link": "https://www.centraltexasmycology.org/texas-mushroom-companies",
+          "snippet": "Texas Mushroom Companies. Sign-up for Our Newsletter! Sign up with your email address to receive weekly updates about upcoming events, workshops, giveaways and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "List of Mushrooms companies in United States",
+          "link": "https://www.listofcompaniesin.com/united-states/mushrooms/",
+          "snippet": "Just getting started, looking for buyers for fresh mushrooms, differnet type of gourmet mushrooms as season and weather permitting, will ship c. O. D. Directly to your company anywhere in the United S",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Giorgio Fresh Mushrooms | America's Favorite Mushroom",
+          "link": "https://www.giorgiofresh.com/",
+          "snippet": "Giorgio is known as America's Favorite Mushroom and for good reason. We've been growing mushrooms for three generations and today Giorgio is one of the largest mushroom growers in the world. Rooted in",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "happymushrooms.com - HappyMushroom Grow Kits",
+          "link": "https://happymushrooms.com/",
+          "snippet": "Grow Your Own Happy Mushrooms in Just 3 Weeks! No Experience Needed SHop Grow kit Grown in the USA Fast Discreet Shipping 60 Day Guarantee Expert Support The Foolproof Way to Grow Happy Mushrooms at H",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Shop Real Mushrooms\u00ae - Organic Mushroom Extract Powders & Capsules",
+          "link": "https://realmushrooms.com/",
+          "snippet": "Award winning organic mushroom supplements in extract powders and capsules. Over 94,000 5-star reviews. $75 Free Shipping. 20% off your first order. Try us now!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home | Mushrooms Inc",
+          "link": "https://www.mushroomsinc.com/",
+          "snippet": "Mushrooms Inc. is a publicly traded company (MSRM) and creates an investor path that is broad. This avenue allows financial supporters to fuel discovery while reaping the potential benefits that the s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Far West Fungi - Organic Mushrooms, Grow Kits & Mushroom Products",
+          "link": "https://farwestfungi.com/",
+          "snippet": "Far West Fungi grows and sells fresh organically grown and wild mushrooms, mushroom grow kits and mushroom products.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Our U.S. Companies - The Giorgi Companies, Inc.",
+          "link": "https://thegiorgicompanies.com/our-companies/",
+          "snippet": "Our U.S. Companies Giorgi Mushroom Company (GMC) is a vertically integrated, family owned and operated agribusiness in Berks County, Pennsylvania. GMC is the largest, single-location mushroom farm in ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Organic Mushroom Powder & Capsules | Om",
+          "link": "https://ommushrooms.com/",
+          "snippet": "Our powerful single species and mushroom superfood blends are designed to promote immunity, vitality, cognitive health and energy. Shop now!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home | Mother Earth Organic Mushrooms",
+          "link": "https://organicmushrooms.com/",
+          "snippet": "One Mother of a mushroom supplier. Mother Earth Organic Mushrooms is the original powerhouse in the organic mushroom industry, providing 100% Certified Organic mushrooms to retail, food service, distr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Fungi Perfecti | Home",
+          "link": "https://fungi.com/",
+          "snippet": "Fungi Perfecti\u00ae is a family-owned, environmentally friendly company specializing in using mushrooms to improve the health of the planet and its people. Founded by mycologist and author Paul Stamets in",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Link to openpr.com",
+          "link": "https://www.openpr.com/news/3492150/leading-reishi-mushroom-companies-in-the-world-by-imarc-group",
+          "snippet": "The site owner hides the web page description.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "mushroom distributor corporate site",
+      "level": "L1",
+      "result_count": 28,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Mushroom - Wikipedia",
+          "link": "https://en.m.wikipedia.org/wiki/Mushroom",
+          "snippet": "Pholiota squarrosa growing at the base of a tree A mushroom is the fleshy, spore -bearing fruiting body of a fungus, typically \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "21 Types Of Mushrooms From A to Z (With Photos) - Live Eat Learn",
+          "link": "https://www.liveeatlearn.com/types-of-mushrooms-how-to-use-them/",
+          "snippet": "Feb 10, 2024 \u00b7 Common types of mushrooms and how to use them to add delicious flavor and texture to your cooking (including \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Mushroom | Definition, Characteristics, Species, & Facts | Britannica",
+          "link": "https://www.britannica.com/science/mushroom",
+          "snippet": "Jul 10, 2026 \u00b7 Mushroom, the conspicuous umbrella-shaped fruiting body (sporophore) of certain fungi, typically of the order \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "25 Most Common Mushroom Types (With Pictures)",
+          "link": "https://bootstrapbee.com/mushrooms/mushroom-types",
+          "snippet": "This guide introduces you to the most common types of edible mushrooms with pictures. Each type has its own distinct taste and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Health Benefits of Mushrooms - WebMD",
+          "link": "https://www.webmd.com/diet/health-benefits-mushrooms",
+          "snippet": "Dec 17, 2025 \u00b7 Mushroom Benefits Despite being such a low-calorie food, mushrooms pack a nutritional punch. Different types of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "100 Common Types of Mushrooms Names with Pictures",
+          "link": "https://www.vocabineer.com/100-types-of-mushrooms/",
+          "snippet": "Jun 22, 2026 \u00b7 Explore 100 types of mushrooms names with pictures, including edible, wild, and medicinal types for students and ESL \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Mushroom Identifier | Identify Mushrooms by Photo Instantly",
+          "link": "https://www.mushroomidentifier.org/",
+          "snippet": "Identify mushrooms from a photo in seconds. Upload images, add notes, and get a fast AI-powered mushroom identification.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Mushroom Identification Guide: Edible & Poisonous | FungiAtlas",
+          "link": "https://fungiatlas.com/",
+          "snippet": "Explore all types of mushrooms \u2014 edible, inedible, poisonous, medicinal, and psychoactive. Learn how to identify wild fungi with \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Mushroom Facts - The Ultimate Guide To Mushrooms",
+          "link": "https://www.activewild.com/mushroom-facts/",
+          "snippet": "Oct 26, 2023 \u00b7 Mushroom facts. What is a mushroom, life cycle, different types, comparison to toadstools, complete guide to \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Mushrooms: Nutrition, Types, 20 Benefits, Side Effects & How to Eat \u2026",
+          "link": "https://myhealthopedia.com/mushrooms-nutrition-types-benefits-side-effects/",
+          "snippet": "Jun 28, 2025 \u00b7 Explore the full guide to mushrooms: Learn what they are, their nutrition profile, 20 health benefits, 10 side effects, how \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Distributors \u2014 Mycopia Mushrooms",
+          "link": "https://www.mycopia.com/distributors",
+          "snippet": "Wholesalers Grow Your Mushroom Business! Organic specialty mushrooms will add to your bottom line and enhance your company's image. Specialty mushrooms are one of the fastest growing segments in produ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mycopia Mushrooms",
+          "link": "https://www.mycopia.com/",
+          "snippet": "Pioneers in Specialty Mushroom Cultivation. We harvest eight varieties of organic specialty mushrooms for America's finest restaurants, specialty food wholesalers and gourmet grocers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mushrooms Manufacturers and Suppliers in the USA and Canada",
+          "link": "https://www.thomasnet.com/suppliers/usa/mushrooms-97010235",
+          "snippet": "Manufacturer of mushrooms and mushroom foods. White, brown, and portabella mushrooms are available, as well as shiitake, maitake, enoki, oyster, royal trumpet, and beech mushrooms. Fresh organic and d",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "South Mill Champs | Fresh Mushroom Production & Wholesale",
+          "link": "https://southmill.com/",
+          "snippet": "South Mill Champs supplies fresh, frozen and dried mushroom products to grocers, wholesalers and food service businesses across North America. Get in touch.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Giorgio Fresh Mushrooms | America's Favorite Mushroom",
+          "link": "https://www.giorgiofresh.com/",
+          "snippet": "Giorgio Fresh grows high quality white mushrooms, crimini (cremini) mushrooms, baby bella mushrooms, and other exotic mushrooms for distributors, wholesalers, restaurants, chefs and consumers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nammex - Organically Grown Mushroom Extracts",
+          "link": "https://www.nammex.com/",
+          "snippet": "Nammex specializes in mushroom ingredients and is the premier supplier of organically certified mushroom extracts. Our commitment to quality and 50 years of mushroom growing experience is your guarant",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Guan's Mushroom - Leading grower of specialty mushrooms in North America",
+          "link": "https://guansmushroom.com/",
+          "snippet": "Established in 1996, Guan's Mushroom is a leading grower and distributor of fresh specialty mushrooms in North America, with three farms in California and five distribution centers located in San Fran",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "shiitake mushrooms Distributor | B2B companies and... | europages",
+          "link": "https://www.europages.co.uk/companies/distributor/shiitake+mushrooms.html",
+          "snippet": "36 suppliers for shiitake mushrooms Distributor Find wholesalers and contact them directly B2B martketplace Find companies now! THE MUSHROOM SITE, LDA. is a company that produces, promotes, and sells ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Monaghan Mushrooms - A Natural Future",
+          "link": "https://www.monaghan.eu/",
+          "snippet": "Packing & Distribution. Mushrooms. Nutrition. Immunity.The European Mushrooms site provides lots of information about using mushrooms as a unique and...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 98 Mushroom Companies in Italy (2026) | ensun",
+          "link": "https://ensun.io/search/mushroom/italy",
+          "snippet": "Top Mushroom Companies in Italy. The B2B platform for the best purchasing decision. Identify and compare relevant B2B manufacturers, suppliers and retailers.Versilfood is a distributor that specialize",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Become a Wholesale Mushroom Distributor | South Mill Champs",
+          "link": "https://southmill.com/partnerships/",
+          "snippet": "As a Partner or Distributor of South Mill Champs mushrooms, you can expect high-quality mushrooms, always. You can be assured, the South Mill Champs\u2019 team is committed to supporting our customers, dis",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 Mushroom Distributors & Supply Chain Leaders in 2023",
+          "link": "https://essfeed.com/top-10-mushroom-distributors-supply-chain-leaders/",
+          "snippet": "Distribution Network. Phillips Mushroom Farms employs a direct-to-consumer model, supplying to grocery stores, restaurants, and food distributors. Their efficient supply chain management ensures timel",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mushroom Distribution South Mill New Orleans LLC",
+          "link": "https://www.producemarketguide.com/company/141065/mushroom-distribution-south-mill-new-orleans-llc",
+          "snippet": "South Mill owns four Distribution Centers in Houston, Atlanta, Dallas and New Orleans. They receive mushroom deliveries from our corporate facility in Kennett Square, Pennsylvania six days a week.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - Clover Specialties, Inc.",
+          "link": "https://cloverspecialties.com/",
+          "snippet": "Welcome to Clover Specialties, your trusted wholesale mushroom supplier and importer, processor and distributor of gourmet and industrial food ingredients. Our range of products include high-quality f",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Champ Fungi",
+          "link": "https://champfungi.com/",
+          "snippet": "Today the Champ-Fungi group of companies is a diversified group of companies with activities in the cultivation of button mushrooms, Shitake and related \"Asian\" mushrooms, High-density baby leaf produ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - The Giorgi Companies, Inc.",
+          "link": "https://thegiorgicompanies.com/",
+          "snippet": "We are a privately held and diversified agricultural, food manufacturing and food packaging company with a long-term focus. Our U.S. Companies Giorgi Mushroom, Co. Giorgio Fresh, Co. Giorgio Foods, In",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "\uc9c0\ub9ac\uc0b0\ubc84\uc12f\uc601\ub18d\uc870\ud569\ubc95\uc778 Company... - Jobploy: Foreign Recruitment",
+          "link": "https://www.jobploy.kr/en/company/jirisan-mushroom-farming-association-corporation",
+          "snippet": "King Oyster Mushroom: This is Jirisan Mushroom Agricultural Cooperative Corporation's flagship product, accounting for 90% of its exports. It is sold categorized by size for stir-frying and grilling, ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Man accused of selling psilocybin to 20 Colorado students arrested",
+          "link": "https://coloradosun.com/2024/10/23/benjamin-harmon-arrest-boulder-county/",
+          "snippet": "Authorities say Benjamin Harmon distributed psilocybin to 15-year-old James O\u2019Neal before he fell 145 feet from a crane on a construction site and died after ingesting the mushrooms.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Mushroom - Wikipedia",
+          "link": "https://en.m.wikipedia.org/wiki/Mushroom",
+          "snippet": "Pholiota squarrosa growing at the base of a tree A mushroom is the fleshy, spore -bearing fruiting body of a fungus, typically \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "21 Types Of Mushrooms From A to Z (With Photos) - Live Eat Learn",
+          "link": "https://www.liveeatlearn.com/types-of-mushrooms-how-to-use-them/",
+          "snippet": "Feb 10, 2024 \u00b7 Common types of mushrooms and how to use them to add delicious flavor and texture to your cooking (including \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Mushroom | Definition, Characteristics, Species, & Facts | Britannica",
+          "link": "https://www.britannica.com/science/mushroom",
+          "snippet": "Jul 10, 2026 \u00b7 Mushroom, the conspicuous umbrella-shaped fruiting body (sporophore) of certain fungi, typically of the order \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "25 Most Common Mushroom Types (With Pictures)",
+          "link": "https://bootstrapbee.com/mushrooms/mushroom-types",
+          "snippet": "This guide introduces you to the most common types of edible mushrooms with pictures. Each type has its own distinct taste and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Health Benefits of Mushrooms - WebMD",
+          "link": "https://www.webmd.com/diet/health-benefits-mushrooms",
+          "snippet": "Dec 17, 2025 \u00b7 Mushroom Benefits Despite being such a low-calorie food, mushrooms pack a nutritional punch. Different types of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "100 Common Types of Mushrooms Names with Pictures",
+          "link": "https://www.vocabineer.com/100-types-of-mushrooms/",
+          "snippet": "Jun 22, 2026 \u00b7 Explore 100 types of mushrooms names with pictures, including edible, wild, and medicinal types for students and ESL \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Mushroom Identifier | Identify Mushrooms by Photo Instantly",
+          "link": "https://www.mushroomidentifier.org/",
+          "snippet": "Identify mushrooms from a photo in seconds. Upload images, add notes, and get a fast AI-powered mushroom identification.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Mushroom Identification Guide: Edible & Poisonous | FungiAtlas",
+          "link": "https://fungiatlas.com/",
+          "snippet": "Explore all types of mushrooms \u2014 edible, inedible, poisonous, medicinal, and psychoactive. Learn how to identify wild fungi with \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Mushroom Facts - The Ultimate Guide To Mushrooms",
+          "link": "https://www.activewild.com/mushroom-facts/",
+          "snippet": "Oct 26, 2023 \u00b7 Mushroom facts. What is a mushroom, life cycle, different types, comparison to toadstools, complete guide to \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Mushrooms: Nutrition, Types, 20 Benefits, Side Effects & How to Eat \u2026",
+          "link": "https://myhealthopedia.com/mushrooms-nutrition-types-benefits-side-effects/",
+          "snippet": "Jun 28, 2025 \u00b7 Explore the full guide to mushrooms: Learn what they are, their nutrition profile, 20 health benefits, 10 side effects, how \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Distributors \u2014 Mycopia Mushrooms",
+          "link": "https://www.mycopia.com/distributors",
+          "snippet": "Wholesalers Grow Your Mushroom Business! Organic specialty mushrooms will add to your bottom line and enhance your company's image. Specialty mushrooms are one of the fastest growing segments in produ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mycopia Mushrooms",
+          "link": "https://www.mycopia.com/",
+          "snippet": "Pioneers in Specialty Mushroom Cultivation. We harvest eight varieties of organic specialty mushrooms for America's finest restaurants, specialty food wholesalers and gourmet grocers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mushrooms Manufacturers and Suppliers in the USA and Canada",
+          "link": "https://www.thomasnet.com/suppliers/usa/mushrooms-97010235",
+          "snippet": "Manufacturer of mushrooms and mushroom foods. White, brown, and portabella mushrooms are available, as well as shiitake, maitake, enoki, oyster, royal trumpet, and beech mushrooms. Fresh organic and d",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "South Mill Champs | Fresh Mushroom Production & Wholesale",
+          "link": "https://southmill.com/",
+          "snippet": "South Mill Champs supplies fresh, frozen and dried mushroom products to grocers, wholesalers and food service businesses across North America. Get in touch.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Giorgio Fresh Mushrooms | America's Favorite Mushroom",
+          "link": "https://www.giorgiofresh.com/",
+          "snippet": "Giorgio Fresh grows high quality white mushrooms, crimini (cremini) mushrooms, baby bella mushrooms, and other exotic mushrooms for distributors, wholesalers, restaurants, chefs and consumers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nammex - Organically Grown Mushroom Extracts",
+          "link": "https://www.nammex.com/",
+          "snippet": "Nammex specializes in mushroom ingredients and is the premier supplier of organically certified mushroom extracts. Our commitment to quality and 50 years of mushroom growing experience is your guarant",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Guan's Mushroom - Leading grower of specialty mushrooms in North America",
+          "link": "https://guansmushroom.com/",
+          "snippet": "Established in 1996, Guan's Mushroom is a leading grower and distributor of fresh specialty mushrooms in North America, with three farms in California and five distribution centers located in San Fran",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "shiitake mushrooms Distributor | B2B companies and... | europages",
+          "link": "https://www.europages.co.uk/companies/distributor/shiitake+mushrooms.html",
+          "snippet": "36 suppliers for shiitake mushrooms Distributor Find wholesalers and contact them directly B2B martketplace Find companies now! THE MUSHROOM SITE, LDA. is a company that produces, promotes, and sells ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Monaghan Mushrooms - A Natural Future",
+          "link": "https://www.monaghan.eu/",
+          "snippet": "Packing & Distribution. Mushrooms. Nutrition. Immunity.The European Mushrooms site provides lots of information about using mushrooms as a unique and...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 98 Mushroom Companies in Italy (2026) | ensun",
+          "link": "https://ensun.io/search/mushroom/italy",
+          "snippet": "Top Mushroom Companies in Italy. The B2B platform for the best purchasing decision. Identify and compare relevant B2B manufacturers, suppliers and retailers.Versilfood is a distributor that specialize",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Become a Wholesale Mushroom Distributor | South Mill Champs",
+          "link": "https://southmill.com/partnerships/",
+          "snippet": "As a Partner or Distributor of South Mill Champs mushrooms, you can expect high-quality mushrooms, always. You can be assured, the South Mill Champs\u2019 team is committed to supporting our customers, dis",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 Mushroom Distributors & Supply Chain Leaders in 2023",
+          "link": "https://essfeed.com/top-10-mushroom-distributors-supply-chain-leaders/",
+          "snippet": "Distribution Network. Phillips Mushroom Farms employs a direct-to-consumer model, supplying to grocery stores, restaurants, and food distributors. Their efficient supply chain management ensures timel",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mushroom Distribution South Mill New Orleans LLC",
+          "link": "https://www.producemarketguide.com/company/141065/mushroom-distribution-south-mill-new-orleans-llc",
+          "snippet": "South Mill owns four Distribution Centers in Houston, Atlanta, Dallas and New Orleans. They receive mushroom deliveries from our corporate facility in Kennett Square, Pennsylvania six days a week.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - Clover Specialties, Inc.",
+          "link": "https://cloverspecialties.com/",
+          "snippet": "Welcome to Clover Specialties, your trusted wholesale mushroom supplier and importer, processor and distributor of gourmet and industrial food ingredients. Our range of products include high-quality f",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Champ Fungi",
+          "link": "https://champfungi.com/",
+          "snippet": "Today the Champ-Fungi group of companies is a diversified group of companies with activities in the cultivation of button mushrooms, Shitake and related \"Asian\" mushrooms, High-density baby leaf produ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - The Giorgi Companies, Inc.",
+          "link": "https://thegiorgicompanies.com/",
+          "snippet": "We are a privately held and diversified agricultural, food manufacturing and food packaging company with a long-term focus. Our U.S. Companies Giorgi Mushroom, Co. Giorgio Fresh, Co. Giorgio Foods, In",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "\uc9c0\ub9ac\uc0b0\ubc84\uc12f\uc601\ub18d\uc870\ud569\ubc95\uc778 Company... - Jobploy: Foreign Recruitment",
+          "link": "https://www.jobploy.kr/en/company/jirisan-mushroom-farming-association-corporation",
+          "snippet": "King Oyster Mushroom: This is Jirisan Mushroom Agricultural Cooperative Corporation's flagship product, accounting for 90% of its exports. It is sold categorized by size for stir-frying and grilling, ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Man accused of selling psilocybin to 20 Colorado students arrested",
+          "link": "https://coloradosun.com/2024/10/23/benjamin-harmon-arrest-boulder-county/",
+          "snippet": "Authorities say Benjamin Harmon distributed psilocybin to 15-year-old James O\u2019Neal before he fell 145 feet from a crane on a construction site and died after ingesting the mushrooms.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "mushroom wholesaler official website",
+      "level": "L2",
+      "result_count": 28,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Mushroom - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Mushroom",
+          "snippet": "Typical mushrooms are the fruit bodies of members of the order Agaricales, whose type genus is Agaricus and type species is the field mushroom, Agaricus campestris.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "wholesalemushroom.in",
+          "link": "https://wholesalemushroom.in/",
+          "snippet": "wholesalemushroom.in",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "MushroomShop.in | Mushroom Farming Training Platform",
+          "link": "https://mushroomshop.in/",
+          "snippet": "Join MushroomShop \u2013 India\u2019s leading mushroom farming training platform. Learn cultivation, buy spawn, start your mushroom business, and scale globally.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mushroom Wholesalers & Distributors in India",
+          "link": "https://m.indiamart.com/impcat/fresh-mushroom.html?biz=30",
+          "snippet": "Find here Mushroom wholesalers & distributors in India. Get contact details & address of companies engaged in wholesale trade & distribution of Mushroom across India.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mushroom - Wholesale Price & Mandi Rate for Mushroom",
+          "link": "https://m.indiamart.com/impcat/fresh-mushroom.html",
+          "snippet": "Find here details of companies selling Mushroom, for your purchase requirements. Get latest info on Mushroom, suppliers, manufacturers, wholesalers, traders, wholesale suppliers with Mushroom prices f",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Mushroom Manufacturer in India | Manegrow",
+          "link": "https://www.manegrow.com/",
+          "snippet": "Discover Manegrow, the best mushroom manufacturer in India, delivering fresh, high-quality mushrooms with sustainable farming. Trusted by businesses nationwide.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mushroom Farmer & Producers in India | Dr Kurade's Mushrooms",
+          "link": "https://drkurades.com/",
+          "snippet": "Get the fresh mushrooms in India from Dr. Kurade, the largest mushroom farmer & producer in india. Choose from a variety of mushrooms and experience quality",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "B2B Business - mrmushroom",
+          "link": "https://mrmushroom.co.in/b2b-business/",
+          "snippet": "Looking for quality mushrooms at scale? You've come to the right place. At Mr. Mushroom, we grow and supply farm-fresh, sustainably cultivated mushrooms trusted by restaurants, food manufacturers, dea",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "MUSHROOMAG PRIVATE LIMITED",
+          "link": "https://mushroomers.in/",
+          "snippet": "We're revolutionizing the mushroom industry by creating a sustainable ecosystem that supports marginalized farmers, visually challenged, and differently abled youth. Our goal is to make high-protein, ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "BM MUSHROOM ONLINE STORE",
+          "link": "https://www.bmmushroom.shop/",
+          "snippet": "BM Mushroom is a leading brand dedicated to empowering mushroom enthusiasts with high-quality training, premium spawn, cultivation accessories, and innovative mushroom-based products.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "21 Types Of Mushrooms From A to Z (With Photos) - Live Eat Learn",
+          "link": "https://www.liveeatlearn.com/types-of-mushrooms-how-to-use-them/",
+          "snippet": "Feb 10, 2024 \u00b7 From button to shiitake, we\u2019re covering the most popular types of mushrooms from A to Z in this helpful guide to mushrooms! There are about 10,000 types of mushrooms worldwide. They are",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "100 Common Types of Mushrooms Names with Pictures",
+          "link": "https://www.vocabineer.com/100-types-of-mushrooms/",
+          "snippet": "Jun 22, 2026 \u00b7 Common types of mushrooms include button mushroom, portobello mushroom, cremini mushroom, shiitake mushroom, oyster mushroom, enoki mushroom, porcini mushroom, morel mushroom, chanterel",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Health Benefits of Mushrooms - WebMD",
+          "link": "https://www.webmd.com/diet/health-benefits-mushrooms",
+          "snippet": "Dec 17, 2025 \u00b7 Naturally low in calories, mushrooms are packed with B vitamins, selenium, potassium, and copper \u2014 nutrients that help your body make energy, keep your nerves working, and protect it fr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "25 Most Common Mushroom Types (With Pictures)",
+          "link": "https://bootstrapbee.com/mushrooms/mushroom-types",
+          "snippet": "The most common mushroom types include the versatile and mild White Button, the slightly richer Cremini, the large and meaty Portobello, and the woody-flavored Shiitake. Each type offers unique flavor",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mushroom | Definition, Characteristics, Species, & Facts |...",
+          "link": "https://www.britannica.com/science/mushroom",
+          "snippet": "Jul 10, 2026 \u00b7 Mushroom, the conspicuous umbrella-shaped fruiting body (sporophore) of certain fungi, typically of the order Agaricales in the phylum Basidiomycota but also of some other groups.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mushroom Identification Guide: Edible & Poisonous | FungiAtlas",
+          "link": "https://fungiatlas.com/",
+          "snippet": "Explore all types of mushrooms \u2014 edible, inedible, poisonous, medicinal, and psychoactive. Learn how to identify wild fungi with photos, facts, and safety tips.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "32 Best Mushroom Recipes for Cozy, Flavorful Family Meals",
+          "link": "https://www.thepioneerwoman.com/food-cooking/meals-menus/g68020957/best-mushroom-recipes/",
+          "snippet": "Sep 24, 2025 \u00b7 Fall in love with fungi again with these mushroom recipes and ideas. We're making mushrooms the star of the show with ideas for dinner, lunch, and beyond.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mushrooms are good for you. But here's who needs to be careful.",
+          "link": "https://www.usatoday.com/story/life/health-wellness/2025/11/29/are-mushrooms-good-for-you/87468305007/",
+          "snippet": "Nov 29, 2025 \u00b7 Though often classified as vegetables in culinary terms, mushrooms are technically fungi - which is a separate kingdom from either plants or animals.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mushrooms: Nutrition, Types, 20 Benefits, Side Effects & How to...",
+          "link": "https://myhealthopedia.com/mushrooms-nutrition-types-benefits-side-effects/",
+          "snippet": "Jun 28, 2025 \u00b7 Mushrooms are one of nature\u2019s most intriguing foods. They\u2019re not a vegetable, fruit, or meat\u2014yet they fit into every type of cuisine. They grow in forests, farms, and sometimes even you",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mitrofresh | Mushroom Wholesaler & exotic & Asian products",
+          "link": "https://www.mitrofresh.com/en",
+          "snippet": "Mitrofresh is a wholesale supplier of wild & exotic Mushrooms, Asian vegetables, Exotic fruits, Roots and more.What type of business are you * Wholesaler Retailer Gastronomy Supplier / Grower. Subject",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Largest Mushroom Wholesaler In Europe",
+          "link": "https://royalgreenwholesale.com/",
+          "snippet": "Royal Green Wholesale verkoopt cannabidiol (CBD), magic truffels, vaporizers, en nog veel meer. Voor 16:00 besteld is vandaag verzonden Meertalige Klanten Ondersteuning. Mushroom Bong 3D Fantasia. Qui",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "China Mushroom manufacturers, Mushroom suppliers, Mushroom...",
+          "link": "https://www.fgfungi.com/products/Mushroom.html",
+          "snippet": "Zhejiang Fangge Pharmaceutical Industry Co., Ltd. is a professional China Mushroom manufacturer and supplier, if you are looking for the best Mushroom with low price, consult us now!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mushrooms Wholesalers - High Quality Dried & Fresh",
+          "link": "https://www.alibaba.com/showroom/mushrooms-wholesalers.html",
+          "snippet": "Find high-quality mushrooms wholesalers for your food supply needs. Bulk orders available on dried shiitake, oyster, and more. Perfect for cooking and health.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mycopia Mushrooms",
+          "link": "https://www.mycopia.com/",
+          "snippet": "Mycopia Mushrooms produces a variety of organic specialty mushrooms for America\u2019s finest restaurants, specialty food wholesalers, and gourmet grocers.Follow us on social media, explore the website, or",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "mushrooms Wholesaler | B2B companies and suppliers | europages",
+          "link": "https://www.europages.co.uk/companies/wholesaler/mushrooms.html",
+          "snippet": "306 suppliers for mushrooms Wholesaler Find wholesalers and contact them directly B2B martketplace Find companies now!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Fungi Origin | Wholesale Dried Mushrooms Ontario Canada",
+          "link": "https://fungiorigin.com/",
+          "snippet": "Premium Dried Mushrooms Wholesale in Ontario. Top-grade dried mushrooms sourced from Asia, carefully processed, and supplied in bulk for restaurants, supermarkets, distributors, and wholesale buyers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Get Wholesale Mushrooms for Smoke Shops \u2013 Got Vape Wholesale",
+          "link": "https://www.gotvapewholesale.com/collections/wholesale-mushrooms",
+          "snippet": "Shop Wholesale Mushrooms online at Got Vape. Take advantage of exclusive financing options and get started with our easy ordering process.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale mushroom bars for your store",
+          "link": "https://www.faire.com/discover/mushroom-bars",
+          "snippet": "Shop wholesale mushroom bars and more for your store on Faire. Browse unique products from thousands of independent brands.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Mushroom - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Mushroom",
+          "snippet": "Typical mushrooms are the fruit bodies of members of the order Agaricales, whose type genus is Agaricus and type species is the field mushroom, Agaricus campestris.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "wholesalemushroom.in",
+          "link": "https://wholesalemushroom.in/",
+          "snippet": "wholesalemushroom.in",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "MushroomShop.in | Mushroom Farming Training Platform",
+          "link": "https://mushroomshop.in/",
+          "snippet": "Join MushroomShop \u2013 India\u2019s leading mushroom farming training platform. Learn cultivation, buy spawn, start your mushroom business, and scale globally.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mushroom Wholesalers & Distributors in India",
+          "link": "https://m.indiamart.com/impcat/fresh-mushroom.html?biz=30",
+          "snippet": "Find here Mushroom wholesalers & distributors in India. Get contact details & address of companies engaged in wholesale trade & distribution of Mushroom across India.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mushroom - Wholesale Price & Mandi Rate for Mushroom",
+          "link": "https://m.indiamart.com/impcat/fresh-mushroom.html",
+          "snippet": "Find here details of companies selling Mushroom, for your purchase requirements. Get latest info on Mushroom, suppliers, manufacturers, wholesalers, traders, wholesale suppliers with Mushroom prices f",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Mushroom Manufacturer in India | Manegrow",
+          "link": "https://www.manegrow.com/",
+          "snippet": "Discover Manegrow, the best mushroom manufacturer in India, delivering fresh, high-quality mushrooms with sustainable farming. Trusted by businesses nationwide.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mushroom Farmer & Producers in India | Dr Kurade's Mushrooms",
+          "link": "https://drkurades.com/",
+          "snippet": "Get the fresh mushrooms in India from Dr. Kurade, the largest mushroom farmer & producer in india. Choose from a variety of mushrooms and experience quality",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "B2B Business - mrmushroom",
+          "link": "https://mrmushroom.co.in/b2b-business/",
+          "snippet": "Looking for quality mushrooms at scale? You've come to the right place. At Mr. Mushroom, we grow and supply farm-fresh, sustainably cultivated mushrooms trusted by restaurants, food manufacturers, dea",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "MUSHROOMAG PRIVATE LIMITED",
+          "link": "https://mushroomers.in/",
+          "snippet": "We're revolutionizing the mushroom industry by creating a sustainable ecosystem that supports marginalized farmers, visually challenged, and differently abled youth. Our goal is to make high-protein, ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "BM MUSHROOM ONLINE STORE",
+          "link": "https://www.bmmushroom.shop/",
+          "snippet": "BM Mushroom is a leading brand dedicated to empowering mushroom enthusiasts with high-quality training, premium spawn, cultivation accessories, and innovative mushroom-based products.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "21 Types Of Mushrooms From A to Z (With Photos) - Live Eat Learn",
+          "link": "https://www.liveeatlearn.com/types-of-mushrooms-how-to-use-them/",
+          "snippet": "Feb 10, 2024 \u00b7 From button to shiitake, we\u2019re covering the most popular types of mushrooms from A to Z in this helpful guide to mushrooms! There are about 10,000 types of mushrooms worldwide. They are",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "100 Common Types of Mushrooms Names with Pictures",
+          "link": "https://www.vocabineer.com/100-types-of-mushrooms/",
+          "snippet": "Jun 22, 2026 \u00b7 Common types of mushrooms include button mushroom, portobello mushroom, cremini mushroom, shiitake mushroom, oyster mushroom, enoki mushroom, porcini mushroom, morel mushroom, chanterel",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Health Benefits of Mushrooms - WebMD",
+          "link": "https://www.webmd.com/diet/health-benefits-mushrooms",
+          "snippet": "Dec 17, 2025 \u00b7 Naturally low in calories, mushrooms are packed with B vitamins, selenium, potassium, and copper \u2014 nutrients that help your body make energy, keep your nerves working, and protect it fr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "25 Most Common Mushroom Types (With Pictures)",
+          "link": "https://bootstrapbee.com/mushrooms/mushroom-types",
+          "snippet": "The most common mushroom types include the versatile and mild White Button, the slightly richer Cremini, the large and meaty Portobello, and the woody-flavored Shiitake. Each type offers unique flavor",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mushroom | Definition, Characteristics, Species, & Facts |...",
+          "link": "https://www.britannica.com/science/mushroom",
+          "snippet": "Jul 10, 2026 \u00b7 Mushroom, the conspicuous umbrella-shaped fruiting body (sporophore) of certain fungi, typically of the order Agaricales in the phylum Basidiomycota but also of some other groups.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mushroom Identification Guide: Edible & Poisonous | FungiAtlas",
+          "link": "https://fungiatlas.com/",
+          "snippet": "Explore all types of mushrooms \u2014 edible, inedible, poisonous, medicinal, and psychoactive. Learn how to identify wild fungi with photos, facts, and safety tips.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "32 Best Mushroom Recipes for Cozy, Flavorful Family Meals",
+          "link": "https://www.thepioneerwoman.com/food-cooking/meals-menus/g68020957/best-mushroom-recipes/",
+          "snippet": "Sep 24, 2025 \u00b7 Fall in love with fungi again with these mushroom recipes and ideas. We're making mushrooms the star of the show with ideas for dinner, lunch, and beyond.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mushrooms are good for you. But here's who needs to be careful.",
+          "link": "https://www.usatoday.com/story/life/health-wellness/2025/11/29/are-mushrooms-good-for-you/87468305007/",
+          "snippet": "Nov 29, 2025 \u00b7 Though often classified as vegetables in culinary terms, mushrooms are technically fungi - which is a separate kingdom from either plants or animals.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mushrooms: Nutrition, Types, 20 Benefits, Side Effects & How to...",
+          "link": "https://myhealthopedia.com/mushrooms-nutrition-types-benefits-side-effects/",
+          "snippet": "Jun 28, 2025 \u00b7 Mushrooms are one of nature\u2019s most intriguing foods. They\u2019re not a vegetable, fruit, or meat\u2014yet they fit into every type of cuisine. They grow in forests, farms, and sometimes even you",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mitrofresh | Mushroom Wholesaler & exotic & Asian products",
+          "link": "https://www.mitrofresh.com/en",
+          "snippet": "Mitrofresh is a wholesale supplier of wild & exotic Mushrooms, Asian vegetables, Exotic fruits, Roots and more.What type of business are you * Wholesaler Retailer Gastronomy Supplier / Grower. Subject",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Largest Mushroom Wholesaler In Europe",
+          "link": "https://royalgreenwholesale.com/",
+          "snippet": "Royal Green Wholesale verkoopt cannabidiol (CBD), magic truffels, vaporizers, en nog veel meer. Voor 16:00 besteld is vandaag verzonden Meertalige Klanten Ondersteuning. Mushroom Bong 3D Fantasia. Qui",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "China Mushroom manufacturers, Mushroom suppliers, Mushroom...",
+          "link": "https://www.fgfungi.com/products/Mushroom.html",
+          "snippet": "Zhejiang Fangge Pharmaceutical Industry Co., Ltd. is a professional China Mushroom manufacturer and supplier, if you are looking for the best Mushroom with low price, consult us now!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mushrooms Wholesalers - High Quality Dried & Fresh",
+          "link": "https://www.alibaba.com/showroom/mushrooms-wholesalers.html",
+          "snippet": "Find high-quality mushrooms wholesalers for your food supply needs. Bulk orders available on dried shiitake, oyster, and more. Perfect for cooking and health.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mycopia Mushrooms",
+          "link": "https://www.mycopia.com/",
+          "snippet": "Mycopia Mushrooms produces a variety of organic specialty mushrooms for America\u2019s finest restaurants, specialty food wholesalers, and gourmet grocers.Follow us on social media, explore the website, or",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "mushrooms Wholesaler | B2B companies and suppliers | europages",
+          "link": "https://www.europages.co.uk/companies/wholesaler/mushrooms.html",
+          "snippet": "306 suppliers for mushrooms Wholesaler Find wholesalers and contact them directly B2B martketplace Find companies now!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Fungi Origin | Wholesale Dried Mushrooms Ontario Canada",
+          "link": "https://fungiorigin.com/",
+          "snippet": "Premium Dried Mushrooms Wholesale in Ontario. Top-grade dried mushrooms sourced from Asia, carefully processed, and supplied in bulk for restaurants, supermarkets, distributors, and wholesale buyers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Get Wholesale Mushrooms for Smoke Shops \u2013 Got Vape Wholesale",
+          "link": "https://www.gotvapewholesale.com/collections/wholesale-mushrooms",
+          "snippet": "Shop Wholesale Mushrooms online at Got Vape. Take advantage of exclusive financing options and get started with our easy ordering process.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale mushroom bars for your store",
+          "link": "https://www.faire.com/discover/mushroom-bars",
+          "snippet": "Shop wholesale mushroom bars and more for your store on Faire. Browse unique products from thousands of independent brands.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "mushroom reseller official website",
+      "level": "discovery",
+      "result_count": 26,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Mushroom - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Mushroom",
+          "snippet": "Typical mushrooms are the fruit bodies of members of the order Agaricales, whose type genus is Agaricus and type species is the field mushroom, Agaricus campestris.",
+          "backend": "searxng"
+        },
+        {
+          "title": "21 Types Of Mushrooms From A to Z (With Photos) - Live Eat Learn",
+          "link": "https://www.liveeatlearn.com/types-of-mushrooms-how-to-use-them/",
+          "snippet": "Feb 10, 2024 \u00b7 From button to shiitake, we\u2019re covering the most popular types of mushrooms from A to Z in this helpful guide to mushrooms! There are about 10,000 types of mushrooms worldwide. They are",
+          "backend": "searxng"
+        },
+        {
+          "title": "100 Common Types of Mushrooms Names with Pictures",
+          "link": "https://www.vocabineer.com/100-types-of-mushrooms/",
+          "snippet": "Jun 22, 2026 \u00b7 Common types of mushrooms include button mushroom, portobello mushroom, cremini mushroom, shiitake mushroom, oyster mushroom, enoki mushroom, porcini mushroom, morel \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Mushroom | Definition, Characteristics, Species, & Facts | Britannica",
+          "link": "https://www.britannica.com/science/mushroom",
+          "snippet": "Jul 10, 2026 \u00b7 Mushroom, the conspicuous umbrella-shaped fruiting body (sporophore) of certain fungi, typically of the order Agaricales in the phylum Basidiomycota but also of some other groups.",
+          "backend": "searxng"
+        },
+        {
+          "title": "25 Most Common Mushroom Types (With Pictures)",
+          "link": "https://bootstrapbee.com/mushrooms/mushroom-types",
+          "snippet": "The most common mushroom types include the versatile and mild White Button, the slightly richer Cremini, the large and meaty Portobello, and the woody-flavored Shiitake.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Health Benefits of Mushrooms - WebMD",
+          "link": "https://www.webmd.com/diet/health-benefits-mushrooms",
+          "snippet": "Dec 17, 2025 \u00b7 Naturally low in calories, mushrooms are packed with B vitamins, selenium, potassium, and copper \u2014 nutrients that help your body make energy, keep your nerves working, and protect it \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Mushrooms: Nutrition, Types, 20 Benefits, Side Effects & How to Eat \u2026",
+          "link": "https://myhealthopedia.com/mushrooms-nutrition-types-benefits-side-effects/",
+          "snippet": "Jun 28, 2025 \u00b7 Mushrooms are one of nature\u2019s most intriguing foods. They\u2019re not a vegetable, fruit, or meat\u2014yet they fit into every type of cuisine. They grow in forests, farms, and sometimes even you",
+          "backend": "searxng"
+        },
+        {
+          "title": "Edible mushroom - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Edible_mushroom",
+          "snippet": "Edible mushrooms are consumed for their nutritional and culinary value, often either being cultivated or harvested wild. Easily cultivated and common wild mushrooms are often available in markets; tho",
+          "backend": "searxng"
+        },
+        {
+          "title": "Types Of Mushrooms: 30 Varieties With Pictures",
+          "link": "https://www.vegrecipesofindia.com/types-of-mushrooms/",
+          "snippet": "Nov 16, 2025 \u00b7 There are many types of mushrooms available around the world, and each one has its own shape, flavor and use in cooking. In this guide, I\u2019m sharing the common edible mushrooms you\u2019ll \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "39 Different Types of Edible Mushrooms - Clean Green Simple",
+          "link": "https://cleangreensimple.com/article/different-types-of-mushrooms/",
+          "snippet": "Apr 1, 2026 \u00b7 There are about 3,000 edible mushroom species, but only around 200 are commonly consumed. The most widely used include button, cremini, portobello, shiitake, oyster, and chanterelle \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Shroom Bros \u2013 Buy Magic Mushrooms USA at #1 Shroom Dispensary",
+          "link": "https://shroombros.us/",
+          "snippet": "Shroom Bros is United States\u2019 #1 Online Magic Mushroom Dispensary which offers premium magic shroom products. We ship our magic mushrooms discreetly in airtight packaging via FedEx to Americans 19+.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Shop Real Mushrooms\u00ae - Organic Mushroom Extract Powders & Capsules",
+          "link": "https://realmushrooms.com/",
+          "snippet": "Real Mushrooms was born from a decades-long mission to transform the functional mushroom industry from the ground up through unmatched quality, responsible sourcing, and rigorous...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Become a Mondo Growkits Reseller | Magic Mushrooms & Truffles",
+          "link": "https://www.mondogrowkits.com/reseller/",
+          "snippet": "Official producer of magic mushroom & truffle growkits. Become a reseller and access premium wholesale products with fast, discreet shipping.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "MUSHEEZ\u00ae B2B Organic functional mushroom extracts",
+          "link": "https://musheez.eu/",
+          "snippet": "MUSHEEZ\u00ae FUNCTIONAL MUSHROOM EXTRACTS Your reliable European B2B partner for Novel Food compliant, functional mushroom ingredients and finished products for food and food supplement markets across Eur",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Oriveda Mushroom Extracts - the undisputed quality benchmark since 2010",
+          "link": "https://oriveda.com/",
+          "snippet": "Oriveda\u00ae has been in business since 2010, making it one of the most experienced and reliable online sellers of functional mushroom extracts. The Oriveda\u00ae brand guarantees you get premium well-tested p",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Your supplier for medicinal mushroom extracts and powders",
+          "link": "https://www.mycotrition.com/",
+          "snippet": "We offer extracts, powders and capsules of 17 different medicinal mushrooms, including the most popular ones such as reishi, chaga, Cordyceps and maitake. You can also order rarer mushroom species, su",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mushroom Networks Reseller Partners Login Page | Mushroom Networks",
+          "link": "https://www.mushroomnetworks.com/partners/",
+          "snippet": "Mushroom Networks Partners To learn about our partnership programs, please call us at +1 (858) 452-1031 or click on the \u201cContact Sales\u201d button at the bottom-left corner. If you are already a partner, ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Magic Mushrooms, Magic Truffles & Microdose | Worldwide Shipping",
+          "link": "https://www.wholecelium.com/",
+          "snippet": "Order Mushrooms Grow kits, Magic Truffles & Shrooms online. Fast delivery to Europe, North America, South America, Asia, Africa, Australia",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "happymushrooms.com \u2013 HappyMushroom Grow Kits",
+          "link": "https://happymushrooms.com/",
+          "snippet": "We want you to absolutely love your experience with Happy Mushrooms. If your kit doesn\u2019t fruit properly or you\u2019re not satisfied for any reason, just let us know within 60 days.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Eden Shrooms Online Store | Psychedelic & Magic Mushrooms",
+          "link": "https://www.edenshrooms.com/shop/",
+          "snippet": "Eden Shrooms collaborates with world-class cultivators to bring the finest gourmet mushroom spawn while offering medicinal spawns. Shop now!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Giorgio Fresh Mushrooms | America's Favorite Mushroom",
+          "link": "https://www.giorgiofresh.com/",
+          "snippet": "Giorgio \u00ae Mushroom Recipes Giorgio is known as America\u2019s Favorite Mushroom and for good reason. We\u2019ve been growing mushrooms for three generations and today Giorgio is one of the largest mushroom grow",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mushrooms Home | Buying Shrooms Online in USA",
+          "link": "https://mushroomshome.com/",
+          "snippet": "Welcome to Mushrooms Home, your number-one online destination for magic mushrooms and truffles. Our mission is to provide our customers with an exceptional selection of high-quality psychedelic mushro",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "JOHNLEEMUSHROOM RESELLER Product Guide: 15 Best Things to...",
+          "link": "https://www.cherrypicksreviews.com/brand/johnleemushroom-reseller",
+          "snippet": "We analyze all JOHNLEEMUSHROOM RESELLER products @Amazon, Selected 15 best-selling items from JOHNLEEMUSHROOM RESELLER and recommended Dried Truffles, Scallops, Dried Morel Mushrooms to buy in January",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Amazon Best Sellers: Best Mushrooms in Biological Sciences",
+          "link": "https://www.amazon.com/gp/bestsellers/books/13557/ref=zg_b_bs_13557_1",
+          "snippet": "Discover the best books in Amazon Best Sellers. Find the top 100 most popular Amazon books.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sporeworks.com",
+          "link": "https://sporeworks.com/",
+          "snippet": "Spore Works has been supplying quality rare and exotic mushroom spores since October of 1998. Our primary focus is providing our customers with the highest quality spore and culture material, and the ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - Shroom Bros USA",
+          "link": "https://shroombrosusa.com/",
+          "snippet": "Look no further than Shroom Bros USA, your one-stop destination for premium magic mushrooms, DMT, Gummies and LSD. At Shroom Bros, we believe in the power of psychedelics to unlock the mind and expand",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Mushroom - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Mushroom",
+          "snippet": "Typical mushrooms are the fruit bodies of members of the order Agaricales, whose type genus is Agaricus and type species is the field mushroom, Agaricus campestris.",
+          "backend": "searxng"
+        },
+        {
+          "title": "21 Types Of Mushrooms From A to Z (With Photos) - Live Eat Learn",
+          "link": "https://www.liveeatlearn.com/types-of-mushrooms-how-to-use-them/",
+          "snippet": "Feb 10, 2024 \u00b7 From button to shiitake, we\u2019re covering the most popular types of mushrooms from A to Z in this helpful guide to mushrooms! There are about 10,000 types of mushrooms worldwide. They are",
+          "backend": "searxng"
+        },
+        {
+          "title": "100 Common Types of Mushrooms Names with Pictures",
+          "link": "https://www.vocabineer.com/100-types-of-mushrooms/",
+          "snippet": "Jun 22, 2026 \u00b7 Common types of mushrooms include button mushroom, portobello mushroom, cremini mushroom, shiitake mushroom, oyster mushroom, enoki mushroom, porcini mushroom, morel \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Mushroom | Definition, Characteristics, Species, & Facts | Britannica",
+          "link": "https://www.britannica.com/science/mushroom",
+          "snippet": "Jul 10, 2026 \u00b7 Mushroom, the conspicuous umbrella-shaped fruiting body (sporophore) of certain fungi, typically of the order Agaricales in the phylum Basidiomycota but also of some other groups.",
+          "backend": "searxng"
+        },
+        {
+          "title": "25 Most Common Mushroom Types (With Pictures)",
+          "link": "https://bootstrapbee.com/mushrooms/mushroom-types",
+          "snippet": "The most common mushroom types include the versatile and mild White Button, the slightly richer Cremini, the large and meaty Portobello, and the woody-flavored Shiitake.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Health Benefits of Mushrooms - WebMD",
+          "link": "https://www.webmd.com/diet/health-benefits-mushrooms",
+          "snippet": "Dec 17, 2025 \u00b7 Naturally low in calories, mushrooms are packed with B vitamins, selenium, potassium, and copper \u2014 nutrients that help your body make energy, keep your nerves working, and protect it \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Mushrooms: Nutrition, Types, 20 Benefits, Side Effects & How to Eat \u2026",
+          "link": "https://myhealthopedia.com/mushrooms-nutrition-types-benefits-side-effects/",
+          "snippet": "Jun 28, 2025 \u00b7 Mushrooms are one of nature\u2019s most intriguing foods. They\u2019re not a vegetable, fruit, or meat\u2014yet they fit into every type of cuisine. They grow in forests, farms, and sometimes even you",
+          "backend": "searxng"
+        },
+        {
+          "title": "Edible mushroom - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Edible_mushroom",
+          "snippet": "Edible mushrooms are consumed for their nutritional and culinary value, often either being cultivated or harvested wild. Easily cultivated and common wild mushrooms are often available in markets; tho",
+          "backend": "searxng"
+        },
+        {
+          "title": "Types Of Mushrooms: 30 Varieties With Pictures",
+          "link": "https://www.vegrecipesofindia.com/types-of-mushrooms/",
+          "snippet": "Nov 16, 2025 \u00b7 There are many types of mushrooms available around the world, and each one has its own shape, flavor and use in cooking. In this guide, I\u2019m sharing the common edible mushrooms you\u2019ll \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "39 Different Types of Edible Mushrooms - Clean Green Simple",
+          "link": "https://cleangreensimple.com/article/different-types-of-mushrooms/",
+          "snippet": "Apr 1, 2026 \u00b7 There are about 3,000 edible mushroom species, but only around 200 are commonly consumed. The most widely used include button, cremini, portobello, shiitake, oyster, and chanterelle \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Shroom Bros \u2013 Buy Magic Mushrooms USA at #1 Shroom Dispensary",
+          "link": "https://shroombros.us/",
+          "snippet": "Shroom Bros is United States\u2019 #1 Online Magic Mushroom Dispensary which offers premium magic shroom products. We ship our magic mushrooms discreetly in airtight packaging via FedEx to Americans 19+.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Shop Real Mushrooms\u00ae - Organic Mushroom Extract Powders & Capsules",
+          "link": "https://realmushrooms.com/",
+          "snippet": "Real Mushrooms was born from a decades-long mission to transform the functional mushroom industry from the ground up through unmatched quality, responsible sourcing, and rigorous...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Become a Mondo Growkits Reseller | Magic Mushrooms & Truffles",
+          "link": "https://www.mondogrowkits.com/reseller/",
+          "snippet": "Official producer of magic mushroom & truffle growkits. Become a reseller and access premium wholesale products with fast, discreet shipping.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "MUSHEEZ\u00ae B2B Organic functional mushroom extracts",
+          "link": "https://musheez.eu/",
+          "snippet": "MUSHEEZ\u00ae FUNCTIONAL MUSHROOM EXTRACTS Your reliable European B2B partner for Novel Food compliant, functional mushroom ingredients and finished products for food and food supplement markets across Eur",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Oriveda Mushroom Extracts - the undisputed quality benchmark since 2010",
+          "link": "https://oriveda.com/",
+          "snippet": "Oriveda\u00ae has been in business since 2010, making it one of the most experienced and reliable online sellers of functional mushroom extracts. The Oriveda\u00ae brand guarantees you get premium well-tested p",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Your supplier for medicinal mushroom extracts and powders",
+          "link": "https://www.mycotrition.com/",
+          "snippet": "We offer extracts, powders and capsules of 17 different medicinal mushrooms, including the most popular ones such as reishi, chaga, Cordyceps and maitake. You can also order rarer mushroom species, su",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mushroom Networks Reseller Partners Login Page | Mushroom Networks",
+          "link": "https://www.mushroomnetworks.com/partners/",
+          "snippet": "Mushroom Networks Partners To learn about our partnership programs, please call us at +1 (858) 452-1031 or click on the \u201cContact Sales\u201d button at the bottom-left corner. If you are already a partner, ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Magic Mushrooms, Magic Truffles & Microdose | Worldwide Shipping",
+          "link": "https://www.wholecelium.com/",
+          "snippet": "Order Mushrooms Grow kits, Magic Truffles & Shrooms online. Fast delivery to Europe, North America, South America, Asia, Africa, Australia",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "happymushrooms.com \u2013 HappyMushroom Grow Kits",
+          "link": "https://happymushrooms.com/",
+          "snippet": "We want you to absolutely love your experience with Happy Mushrooms. If your kit doesn\u2019t fruit properly or you\u2019re not satisfied for any reason, just let us know within 60 days.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Eden Shrooms Online Store | Psychedelic & Magic Mushrooms",
+          "link": "https://www.edenshrooms.com/shop/",
+          "snippet": "Eden Shrooms collaborates with world-class cultivators to bring the finest gourmet mushroom spawn while offering medicinal spawns. Shop now!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Giorgio Fresh Mushrooms | America's Favorite Mushroom",
+          "link": "https://www.giorgiofresh.com/",
+          "snippet": "Giorgio \u00ae Mushroom Recipes Giorgio is known as America\u2019s Favorite Mushroom and for good reason. We\u2019ve been growing mushrooms for three generations and today Giorgio is one of the largest mushroom grow",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mushrooms Home | Buying Shrooms Online in USA",
+          "link": "https://mushroomshome.com/",
+          "snippet": "Welcome to Mushrooms Home, your number-one online destination for magic mushrooms and truffles. Our mission is to provide our customers with an exceptional selection of high-quality psychedelic mushro",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "JOHNLEEMUSHROOM RESELLER Product Guide: 15 Best Things to...",
+          "link": "https://www.cherrypicksreviews.com/brand/johnleemushroom-reseller",
+          "snippet": "We analyze all JOHNLEEMUSHROOM RESELLER products @Amazon, Selected 15 best-selling items from JOHNLEEMUSHROOM RESELLER and recommended Dried Truffles, Scallops, Dried Morel Mushrooms to buy in January",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Amazon Best Sellers: Best Mushrooms in Biological Sciences",
+          "link": "https://www.amazon.com/gp/bestsellers/books/13557/ref=zg_b_bs_13557_1",
+          "snippet": "Discover the best books in Amazon Best Sellers. Find the top 100 most popular Amazon books.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sporeworks.com",
+          "link": "https://sporeworks.com/",
+          "snippet": "Spore Works has been supplying quality rare and exotic mushroom spores since October of 1998. Our primary focus is providing our customers with the highest quality spore and culture material, and the ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - Shroom Bros USA",
+          "link": "https://shroombrosusa.com/",
+          "snippet": "Look no further than Shroom Bros USA, your one-stop destination for premium magic mushrooms, DMT, Gummies and LSD. At Shroom Bros, we believe in the power of psychedelics to unlock the mind and expand",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P2": {
+      "query": "mushroom service provider corporate site",
+      "level": "discovery",
+      "result_count": 14,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Mushroom - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Mushroom",
+          "snippet": "Typical mushrooms are the fruit bodies of members of the order Agaricales, whose type genus is Agaricus and type species is the field mushroom, Agaricus campestris.",
+          "backend": "searxng"
+        },
+        {
+          "title": "21 Types Of Mushrooms From A to Z (With Photos) - Live Eat Learn",
+          "link": "https://www.liveeatlearn.com/types-of-mushrooms-how-to-use-them/",
+          "snippet": "Feb 10, 2024 \u00b7 From button to shiitake, we\u2019re covering the most popular types of mushrooms from A to Z in this helpful guide to mushrooms! There are about 10,000 types of mushrooms worldwide. They are",
+          "backend": "searxng"
+        },
+        {
+          "title": "100 Common Types of Mushrooms Names with Pictures",
+          "link": "https://www.vocabineer.com/100-types-of-mushrooms/",
+          "snippet": "Jun 22, 2026 \u00b7 Common types of mushrooms include button mushroom, portobello mushroom, cremini mushroom, shiitake mushroom, oyster mushroom, enoki mushroom, porcini mushroom, morel \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Mushroom | Definition, Characteristics, Species, & Facts | Britannica",
+          "link": "https://www.britannica.com/science/mushroom",
+          "snippet": "Jul 10, 2026 \u00b7 Mushroom, the conspicuous umbrella-shaped fruiting body (sporophore) of certain fungi, typically of the order Agaricales in the phylum Basidiomycota but also of some other groups.",
+          "backend": "searxng"
+        },
+        {
+          "title": "25 Most Common Mushroom Types (With Pictures)",
+          "link": "https://bootstrapbee.com/mushrooms/mushroom-types",
+          "snippet": "The most common mushroom types include the versatile and mild White Button, the slightly richer Cremini, the large and meaty Portobello, and the woody-flavored Shiitake.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Health Benefits of Mushrooms - WebMD",
+          "link": "https://www.webmd.com/diet/health-benefits-mushrooms",
+          "snippet": "Dec 17, 2025 \u00b7 Naturally low in calories, mushrooms are packed with B vitamins, selenium, potassium, and copper \u2014 nutrients that help your body make energy, keep your nerves working, and protect it \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Mushrooms: Nutrition, Types, 20 Benefits, Side Effects & How to Eat \u2026",
+          "link": "https://myhealthopedia.com/mushrooms-nutrition-types-benefits-side-effects/",
+          "snippet": "Jun 28, 2025 \u00b7 Mushrooms are one of nature\u2019s most intriguing foods. They\u2019re not a vegetable, fruit, or meat\u2014yet they fit into every type of cuisine. They grow in forests, farms, and sometimes even you",
+          "backend": "searxng"
+        },
+        {
+          "title": "Edible mushroom - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Edible_mushroom",
+          "snippet": "Edible mushrooms are consumed for their nutritional and culinary value, often either being cultivated or harvested wild. Easily cultivated and common wild mushrooms are often available in markets; tho",
+          "backend": "searxng"
+        },
+        {
+          "title": "Types Of Mushrooms: 30 Varieties With Pictures",
+          "link": "https://www.vegrecipesofindia.com/types-of-mushrooms/",
+          "snippet": "Nov 16, 2025 \u00b7 There are many types of mushrooms available around the world, and each one has its own shape, flavor and use in cooking. In this guide, I\u2019m sharing the common edible mushrooms you\u2019ll \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "39 Different Types of Edible Mushrooms - Clean Green Simple",
+          "link": "https://cleangreensimple.com/article/different-types-of-mushrooms/",
+          "snippet": "Apr 1, 2026 \u00b7 There are about 3,000 edible mushroom species, but only around 200 are commonly consumed. The most widely used include button, cremini, portobello, shiitake, oyster, and chanterelle \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Sri Lankan Fresh Mushroom Suppliers, Manufacturers, Wholesalers...",
+          "link": "https://www.go4worldbusiness.com/suppliers/sri-lanka/fresh-mushroom.html",
+          "snippet": "Mushrooms.Export. Supplier Of Fresh Mushroom. Service Provider Of Manufacturer & Exporter. Inquire Now Add to Favorites.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dining: Mushroom Service | Robb Report",
+          "link": "https://robbreport.com/food-drink/dining/dining-mushroom-service-241097/",
+          "snippet": "Raymond Blanc is gaining mastery over mushrooms, inside and out. Having conquered them within the bounds of his kitchen, the French chef is attempting to grow them on his property.Robb Report is a par",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "'Mushroom Websites' Spread A Deluge Of Disinformation In Bulgaria",
+          "link": "https://www.rferl.org/a/bulgaria-disinformation-mushroom-websites/32893788.html",
+          "snippet": "Bulgaria has long proved prone to pro-Russian disinformation campaigns, and those efforts have intensified amid the Kremlin\u2019s full-scale invasion of Ukraine. A new report sheds light on how fake news ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The World's Largest Mushroom Looks Nothing Like... | Snopes.com",
+          "link": "https://www.snopes.com/fact-check/worlds-largest-mushroom/",
+          "snippet": "While the \"world's largest mushroom\" may conjure up images of one single enormous spore, Armillaria ostoyae, or the honey mushroom, is actually a sprawling organism that covers acres of forest floor.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Mushroom - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Mushroom",
+          "snippet": "Typical mushrooms are the fruit bodies of members of the order Agaricales, whose type genus is Agaricus and type species is the field mushroom, Agaricus campestris.",
+          "backend": "searxng"
+        },
+        {
+          "title": "21 Types Of Mushrooms From A to Z (With Photos) - Live Eat Learn",
+          "link": "https://www.liveeatlearn.com/types-of-mushrooms-how-to-use-them/",
+          "snippet": "Feb 10, 2024 \u00b7 From button to shiitake, we\u2019re covering the most popular types of mushrooms from A to Z in this helpful guide to mushrooms! There are about 10,000 types of mushrooms worldwide. They are",
+          "backend": "searxng"
+        },
+        {
+          "title": "100 Common Types of Mushrooms Names with Pictures",
+          "link": "https://www.vocabineer.com/100-types-of-mushrooms/",
+          "snippet": "Jun 22, 2026 \u00b7 Common types of mushrooms include button mushroom, portobello mushroom, cremini mushroom, shiitake mushroom, oyster mushroom, enoki mushroom, porcini mushroom, morel \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Mushroom | Definition, Characteristics, Species, & Facts | Britannica",
+          "link": "https://www.britannica.com/science/mushroom",
+          "snippet": "Jul 10, 2026 \u00b7 Mushroom, the conspicuous umbrella-shaped fruiting body (sporophore) of certain fungi, typically of the order Agaricales in the phylum Basidiomycota but also of some other groups.",
+          "backend": "searxng"
+        },
+        {
+          "title": "25 Most Common Mushroom Types (With Pictures)",
+          "link": "https://bootstrapbee.com/mushrooms/mushroom-types",
+          "snippet": "The most common mushroom types include the versatile and mild White Button, the slightly richer Cremini, the large and meaty Portobello, and the woody-flavored Shiitake.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Health Benefits of Mushrooms - WebMD",
+          "link": "https://www.webmd.com/diet/health-benefits-mushrooms",
+          "snippet": "Dec 17, 2025 \u00b7 Naturally low in calories, mushrooms are packed with B vitamins, selenium, potassium, and copper \u2014 nutrients that help your body make energy, keep your nerves working, and protect it \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Mushrooms: Nutrition, Types, 20 Benefits, Side Effects & How to Eat \u2026",
+          "link": "https://myhealthopedia.com/mushrooms-nutrition-types-benefits-side-effects/",
+          "snippet": "Jun 28, 2025 \u00b7 Mushrooms are one of nature\u2019s most intriguing foods. They\u2019re not a vegetable, fruit, or meat\u2014yet they fit into every type of cuisine. They grow in forests, farms, and sometimes even you",
+          "backend": "searxng"
+        },
+        {
+          "title": "Edible mushroom - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Edible_mushroom",
+          "snippet": "Edible mushrooms are consumed for their nutritional and culinary value, often either being cultivated or harvested wild. Easily cultivated and common wild mushrooms are often available in markets; tho",
+          "backend": "searxng"
+        },
+        {
+          "title": "Types Of Mushrooms: 30 Varieties With Pictures",
+          "link": "https://www.vegrecipesofindia.com/types-of-mushrooms/",
+          "snippet": "Nov 16, 2025 \u00b7 There are many types of mushrooms available around the world, and each one has its own shape, flavor and use in cooking. In this guide, I\u2019m sharing the common edible mushrooms you\u2019ll \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "39 Different Types of Edible Mushrooms - Clean Green Simple",
+          "link": "https://cleangreensimple.com/article/different-types-of-mushrooms/",
+          "snippet": "Apr 1, 2026 \u00b7 There are about 3,000 edible mushroom species, but only around 200 are commonly consumed. The most widely used include button, cremini, portobello, shiitake, oyster, and chanterelle \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Sri Lankan Fresh Mushroom Suppliers, Manufacturers, Wholesalers...",
+          "link": "https://www.go4worldbusiness.com/suppliers/sri-lanka/fresh-mushroom.html",
+          "snippet": "Mushrooms.Export. Supplier Of Fresh Mushroom. Service Provider Of Manufacturer & Exporter. Inquire Now Add to Favorites.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dining: Mushroom Service | Robb Report",
+          "link": "https://robbreport.com/food-drink/dining/dining-mushroom-service-241097/",
+          "snippet": "Raymond Blanc is gaining mastery over mushrooms, inside and out. Having conquered them within the bounds of his kitchen, the French chef is attempting to grow them on his property.Robb Report is a par",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "'Mushroom Websites' Spread A Deluge Of Disinformation In Bulgaria",
+          "link": "https://www.rferl.org/a/bulgaria-disinformation-mushroom-websites/32893788.html",
+          "snippet": "Bulgaria has long proved prone to pro-Russian disinformation campaigns, and those efforts have intensified amid the Kremlin\u2019s full-scale invasion of Ukraine. A new report sheds light on how fake news ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The World's Largest Mushroom Looks Nothing Like... | Snopes.com",
+          "link": "https://www.snopes.com/fact-check/worlds-largest-mushroom/",
+          "snippet": "While the \"world's largest mushroom\" may conjure up images of one single enormous spore, Armillaria ostoyae, or the honey mushroom, is actually a sprawling organism that covers acres of forest floor.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P3": {
+      "query": "mushroom channel partner official website",
+      "level": "discovery",
+      "result_count": 14,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Mushroom - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Mushroom",
+          "snippet": "Typical mushrooms are the fruit bodies of members of the order Agaricales, whose type genus is Agaricus and type species is the field mushroom, Agaricus campestris.",
+          "backend": "searxng"
+        },
+        {
+          "title": "21 Types Of Mushrooms From A to Z (With Photos) - Live Eat Learn",
+          "link": "https://www.liveeatlearn.com/types-of-mushrooms-how-to-use-them/",
+          "snippet": "Feb 10, 2024 \u00b7 From button to shiitake, we\u2019re covering the most popular types of mushrooms from A to Z in this helpful guide to mushrooms! There are about 10,000 types of mushrooms worldwide. They are",
+          "backend": "searxng"
+        },
+        {
+          "title": "100 Common Types of Mushrooms Names with Pictures",
+          "link": "https://www.vocabineer.com/100-types-of-mushrooms/",
+          "snippet": "Jun 22, 2026 \u00b7 Common types of mushrooms include button mushroom, portobello mushroom, cremini mushroom, shiitake mushroom, oyster mushroom, enoki mushroom, porcini mushroom, morel \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Mushroom | Definition, Characteristics, Species, & Facts | Britannica",
+          "link": "https://www.britannica.com/science/mushroom",
+          "snippet": "Jul 10, 2026 \u00b7 Mushroom, the conspicuous umbrella-shaped fruiting body (sporophore) of certain fungi, typically of the order Agaricales in the phylum Basidiomycota but also of some other groups.",
+          "backend": "searxng"
+        },
+        {
+          "title": "25 Most Common Mushroom Types (With Pictures)",
+          "link": "https://bootstrapbee.com/mushrooms/mushroom-types",
+          "snippet": "The most common mushroom types include the versatile and mild White Button, the slightly richer Cremini, the large and meaty Portobello, and the woody-flavored Shiitake.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Health Benefits of Mushrooms - WebMD",
+          "link": "https://www.webmd.com/diet/health-benefits-mushrooms",
+          "snippet": "Dec 17, 2025 \u00b7 Naturally low in calories, mushrooms are packed with B vitamins, selenium, potassium, and copper \u2014 nutrients that help your body make energy, keep your nerves working, and protect it \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Mushrooms: Nutrition, Types, 20 Benefits, Side Effects & How to Eat \u2026",
+          "link": "https://myhealthopedia.com/mushrooms-nutrition-types-benefits-side-effects/",
+          "snippet": "Jun 28, 2025 \u00b7 Mushrooms are one of nature\u2019s most intriguing foods. They\u2019re not a vegetable, fruit, or meat\u2014yet they fit into every type of cuisine. They grow in forests, farms, and sometimes even you",
+          "backend": "searxng"
+        },
+        {
+          "title": "Edible mushroom - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Edible_mushroom",
+          "snippet": "Edible mushrooms are consumed for their nutritional and culinary value, often either being cultivated or harvested wild. Easily cultivated and common wild mushrooms are often available in markets; tho",
+          "backend": "searxng"
+        },
+        {
+          "title": "Types Of Mushrooms: 30 Varieties With Pictures",
+          "link": "https://www.vegrecipesofindia.com/types-of-mushrooms/",
+          "snippet": "Nov 16, 2025 \u00b7 There are many types of mushrooms available around the world, and each one has its own shape, flavor and use in cooking. In this guide, I\u2019m sharing the common edible mushrooms you\u2019ll \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "39 Different Types of Edible Mushrooms - Clean Green Simple",
+          "link": "https://cleangreensimple.com/article/different-types-of-mushrooms/",
+          "snippet": "Apr 1, 2026 \u00b7 There are about 3,000 edible mushroom species, but only around 200 are commonly consumed. The most widely used include button, cremini, portobello, shiitake, oyster, and chanterelle \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Mushroom Market Size, Share & Industry Report 2034",
+          "link": "https://www.imarcgroup.com/mushroom-market",
+          "snippet": "Site Selection. Regulatory Compliance.Mushroom Market Size, Share, Trends and Forecast by Mushroom Type, Form, Distribution Channel, End-Use, and Region, 2026-2034.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Yaki Shiitake (Shiitake & Scallion Yakitori) for The Mushroom Channel",
+          "link": "https://www.lafujimama.com/yaki-shiitake-shiitake-scallion-yakitori-for-the-mushroom-channel/",
+          "snippet": "With the beautiful weather we\u2019ve been having here in Southern California, I\u2019ve been craving things cooked on the grill. Recently I whipped up some yaki shiitake, a mushroom twist on Japanese yakitori.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Welcome to Host Defense\u00ae Mushrooms",
+          "link": "https://hostdefense.com/",
+          "snippet": "Mushroom Mycelium Formulas From the Trusted Experts! Welcome to Host Defense Mushrooms! Founded by Paul Stamets, our mushroom mycelium and fruit bodies grown on our certified organic farm in Washingto",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mushroom FM, the Home of the Fun Guys, with Four... | Mushroom FM",
+          "link": "https://www.mushroomfm.com/",
+          "snippet": "You can also follow the official Mushroom FM Mastodon account for show announcements and other news, or subscribe to our low-traffic, announcements-only email list.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Mushroom - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Mushroom",
+          "snippet": "Typical mushrooms are the fruit bodies of members of the order Agaricales, whose type genus is Agaricus and type species is the field mushroom, Agaricus campestris.",
+          "backend": "searxng"
+        },
+        {
+          "title": "21 Types Of Mushrooms From A to Z (With Photos) - Live Eat Learn",
+          "link": "https://www.liveeatlearn.com/types-of-mushrooms-how-to-use-them/",
+          "snippet": "Feb 10, 2024 \u00b7 From button to shiitake, we\u2019re covering the most popular types of mushrooms from A to Z in this helpful guide to mushrooms! There are about 10,000 types of mushrooms worldwide. They are",
+          "backend": "searxng"
+        },
+        {
+          "title": "100 Common Types of Mushrooms Names with Pictures",
+          "link": "https://www.vocabineer.com/100-types-of-mushrooms/",
+          "snippet": "Jun 22, 2026 \u00b7 Common types of mushrooms include button mushroom, portobello mushroom, cremini mushroom, shiitake mushroom, oyster mushroom, enoki mushroom, porcini mushroom, morel \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Mushroom | Definition, Characteristics, Species, & Facts | Britannica",
+          "link": "https://www.britannica.com/science/mushroom",
+          "snippet": "Jul 10, 2026 \u00b7 Mushroom, the conspicuous umbrella-shaped fruiting body (sporophore) of certain fungi, typically of the order Agaricales in the phylum Basidiomycota but also of some other groups.",
+          "backend": "searxng"
+        },
+        {
+          "title": "25 Most Common Mushroom Types (With Pictures)",
+          "link": "https://bootstrapbee.com/mushrooms/mushroom-types",
+          "snippet": "The most common mushroom types include the versatile and mild White Button, the slightly richer Cremini, the large and meaty Portobello, and the woody-flavored Shiitake.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Health Benefits of Mushrooms - WebMD",
+          "link": "https://www.webmd.com/diet/health-benefits-mushrooms",
+          "snippet": "Dec 17, 2025 \u00b7 Naturally low in calories, mushrooms are packed with B vitamins, selenium, potassium, and copper \u2014 nutrients that help your body make energy, keep your nerves working, and protect it \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Mushrooms: Nutrition, Types, 20 Benefits, Side Effects & How to Eat \u2026",
+          "link": "https://myhealthopedia.com/mushrooms-nutrition-types-benefits-side-effects/",
+          "snippet": "Jun 28, 2025 \u00b7 Mushrooms are one of nature\u2019s most intriguing foods. They\u2019re not a vegetable, fruit, or meat\u2014yet they fit into every type of cuisine. They grow in forests, farms, and sometimes even you",
+          "backend": "searxng"
+        },
+        {
+          "title": "Edible mushroom - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Edible_mushroom",
+          "snippet": "Edible mushrooms are consumed for their nutritional and culinary value, often either being cultivated or harvested wild. Easily cultivated and common wild mushrooms are often available in markets; tho",
+          "backend": "searxng"
+        },
+        {
+          "title": "Types Of Mushrooms: 30 Varieties With Pictures",
+          "link": "https://www.vegrecipesofindia.com/types-of-mushrooms/",
+          "snippet": "Nov 16, 2025 \u00b7 There are many types of mushrooms available around the world, and each one has its own shape, flavor and use in cooking. In this guide, I\u2019m sharing the common edible mushrooms you\u2019ll \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "39 Different Types of Edible Mushrooms - Clean Green Simple",
+          "link": "https://cleangreensimple.com/article/different-types-of-mushrooms/",
+          "snippet": "Apr 1, 2026 \u00b7 There are about 3,000 edible mushroom species, but only around 200 are commonly consumed. The most widely used include button, cremini, portobello, shiitake, oyster, and chanterelle \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Mushroom Market Size, Share & Industry Report 2034",
+          "link": "https://www.imarcgroup.com/mushroom-market",
+          "snippet": "Site Selection. Regulatory Compliance.Mushroom Market Size, Share, Trends and Forecast by Mushroom Type, Form, Distribution Channel, End-Use, and Region, 2026-2034.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Yaki Shiitake (Shiitake & Scallion Yakitori) for The Mushroom Channel",
+          "link": "https://www.lafujimama.com/yaki-shiitake-shiitake-scallion-yakitori-for-the-mushroom-channel/",
+          "snippet": "With the beautiful weather we\u2019ve been having here in Southern California, I\u2019ve been craving things cooked on the grill. Recently I whipped up some yaki shiitake, a mushroom twist on Japanese yakitori.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Welcome to Host Defense\u00ae Mushrooms",
+          "link": "https://hostdefense.com/",
+          "snippet": "Mushroom Mycelium Formulas From the Trusted Experts! Welcome to Host Defense Mushrooms! Founded by Paul Stamets, our mushroom mycelium and fruit bodies grown on our certified organic farm in Washingto",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mushroom FM, the Home of the Fun Guys, with Four... | Mushroom FM",
+          "link": "https://www.mushroomfm.com/",
+          "snippet": "You can also follow the official Mushroom FM Mastodon account for show announcements and other news, or subscribe to our low-traffic, announcements-only email list.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P4": {
+      "query": "mushroom distribution services corporate site",
+      "level": "discovery",
+      "result_count": 28,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Mushroom - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Mushroom",
+          "snippet": "Typical mushrooms are the fruit bodies of members of the order Agaricales, whose type genus is Agaricus and type species is the \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "21 Types Of Mushrooms From A to Z (With Photos) - Live Eat Learn",
+          "link": "https://www.liveeatlearn.com/types-of-mushrooms-how-to-use-them/",
+          "snippet": "Feb 10, 2024 \u00b7 From button to shiitake, we\u2019re covering the most popular types of mushrooms from A to Z in this helpful guide to \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "100 Common Types of Mushrooms Names with Pictures",
+          "link": "https://www.vocabineer.com/100-types-of-mushrooms/",
+          "snippet": "Jun 22, 2026 \u00b7 Common types of mushrooms include button mushroom, portobello mushroom, cremini mushroom, shiitake \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Mushroom | Definition, Characteristics, Species, & Facts | Britannica",
+          "link": "https://www.britannica.com/science/mushroom",
+          "snippet": "Jul 10, 2026 \u00b7 Mushroom, the conspicuous umbrella-shaped fruiting body (sporophore) of certain fungi, typically of the order \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "25 Most Common Mushroom Types (With Pictures)",
+          "link": "https://bootstrapbee.com/mushrooms/mushroom-types",
+          "snippet": "The most common mushroom types include the versatile and mild White Button, the slightly richer Cremini, the large and meaty \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Health Benefits of Mushrooms - WebMD",
+          "link": "https://www.webmd.com/diet/health-benefits-mushrooms",
+          "snippet": "Dec 17, 2025 \u00b7 Naturally low in calories, mushrooms are packed with B vitamins, selenium, potassium, and copper \u2014 nutrients that \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Mushroom Identification Guide: Edible & Poisonous | FungiAtlas",
+          "link": "https://fungiatlas.com/",
+          "snippet": "Explore all types of mushrooms \u2014 edible, inedible, poisonous, medicinal, and psychoactive. Learn how to identify wild fungi with \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "39 Different Types of Edible Mushrooms - Clean Green Simple",
+          "link": "https://cleangreensimple.com/article/different-types-of-mushrooms/",
+          "snippet": "Apr 1, 2026 \u00b7 There are about 3,000 edible mushroom species, but only around 200 are commonly consumed. The most widely used \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Mushroom Facts - The Ultimate Guide To Mushrooms",
+          "link": "https://www.activewild.com/mushroom-facts/",
+          "snippet": "Oct 26, 2023 \u00b7 Mushroom facts. What is a mushroom, life cycle, different types, comparison to toadstools, complete guide to \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Edible mushroom - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Edible_mushroom",
+          "snippet": "Edible mushrooms are consumed for their nutritional and culinary value, often either being cultivated or harvested wild. Easily \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Mushroom - Wikipedia",
+          "link": "https://en.m.wikipedia.org/wiki/Mushroom",
+          "snippet": "Mushroom Pholiota squarrosa growing at the base of a tree A mushroom is the fleshy, spore -bearing fruiting body of a fungus, typically produced above ground on soil or another food source. A toadstoo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "One Dollar Short - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/One_Dollar_Short",
+          "snippet": "Mushroom Distribution Services, Rapido. Members.Label: Mushroom Distribution Services (ODS 001). Format: CD, DD. \u2014 Board Game. Released: 26 March 2001. Label: Rapido / Festival Mushroom Records (02015",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "www.mushroomdistribution.com",
+          "link": "https://www.mushroomdistribution.com/",
+          "snippet": "www.mushroomdistribution.com",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mushroom World Group",
+          "link": "https://mushroomworldgroup.com/",
+          "snippet": "Mushroom World Group, a place where ability to recognize and thrive on possibilities, refining risks into potential assets drives us towards growth and success.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Mushroom Manufacturer in India | Manegrow",
+          "link": "https://www.manegrow.com/",
+          "snippet": "Discover Manegrow, the best mushroom manufacturer in India, delivering fresh, high-quality mushrooms with sustainable farming. Trusted by businesses nationwide.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mushroom Wholesalers & Distributors in India",
+          "link": "https://m.indiamart.com/impcat/fresh-mushroom.html?biz=30",
+          "snippet": "Find here Mushroom wholesalers & distributors in India. Get contact details & address of companies engaged in wholesale trade & distribution of Mushroom across India.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mycopia Mushrooms",
+          "link": "https://www.mycopia.com/",
+          "snippet": "Pioneers in Specialty Mushroom Cultivation. We harvest eight varieties of organic specialty mushrooms for America's finest restaurants, specialty food wholesalers and gourmet grocers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mushroom Supply and Services Inc. - MSS REFRESH SITE - home",
+          "link": "https://www.mushroomsupplyinc.com/",
+          "snippet": "Located in Landenberg, PA, Mushroom Supply and Services ships mushroom growing supplies and equipment worldwide. From small growers to large-scale operations, we provide expert mushroom consulting, di",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home | Mushrooms Inc",
+          "link": "https://www.mushroomsinc.com/",
+          "snippet": "Discover the power of Mushrooms Inc.'s mushroom supplements, engineered for superior health benefits. Our unique blends, including SPORT+ and Longevity, are designed to elevate athletic performance an",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mushroom Company in India | Manufacturer | Nuvedo",
+          "link": "https://nuvedo.com/about/",
+          "snippet": "Mission At Nuvedo, we're committed to bringing the healing benefits of functional mushrooms to the people and the planet, through highest quality products and services, setting the standard for mushro",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mushroomag Private Limited",
+          "link": "https://mushroomers.in/",
+          "snippet": "We're revolutionizing the mushroom industry by creating a sustainable ecosystem that supports marginalized farmers, visually challenged, and differently abled youth. Our goal is to make high-protein, ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mushrooms are good for you. But here's who needs to be careful.",
+          "link": "https://www.usatoday.com/story/life/health-wellness/2025/11/29/are-mushrooms-good-for-you/87468305007/",
+          "snippet": "Nov 29, 2025 \u00b7 Mushrooms make for a popular ingredient in countless recipes, from soups and salads to sandwiches and pasta. But their popularity doesn't mean mushrooms are OK for just anyone to enjoy.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mushrooms: Nutrition, Types, 20 Benefits, Side Effects & How to...",
+          "link": "https://myhealthopedia.com/mushrooms-nutrition-types-benefits-side-effects/",
+          "snippet": "Jun 28, 2025 \u00b7 Explore the full guide to mushrooms: Learn what they are, their nutrition profile, 20 health benefits, 10 side effects, how to cook and eat them safely, daily limits, best times to eat,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "32 Best Mushroom Recipes for Cozy, Flavorful Family Meals",
+          "link": "https://www.thepioneerwoman.com/food-cooking/meals-menus/g68020957/best-mushroom-recipes/",
+          "snippet": "Sep 24, 2025 \u00b7 Fall in love with fungi again with these mushroom recipes and ideas. We're making mushrooms the star of the show with ideas for dinner, lunch, and beyond.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Monaghan Mushrooms - A Natural Future",
+          "link": "https://www.monaghan.eu/",
+          "snippet": "Packing & Distribution. Mushrooms. Nutrition. Immunity.The European Mushrooms site provides lots of information about using mushrooms as a unique and...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "shiitake mushrooms Distributor | B2B companies and... | europages",
+          "link": "https://www.europages.co.uk/companies/distributor/shiitake+mushrooms.html",
+          "snippet": "36 suppliers for shiitake mushrooms Distributor Find wholesalers and contact them directly B2B martketplace Find companies now!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "MUSHROOM DISTRIBUTION SERVICES LIMITED - Free Company...",
+          "link": "https://www.companieslist.co.uk/03321616-mushroom-distribution-services-limited",
+          "snippet": "Learn more about MUSHROOM DISTRIBUTION SERVICES LIMITED. Check the company's details for free and view the Companies House information, company documents and list of directors.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mushroom Distribution South Mill New Orleans LLC",
+          "link": "https://www.producemarketguide.com/company/141065/mushroom-distribution-south-mill-new-orleans-llc",
+          "snippet": "South Mill owns four Distribution Centers in Houston, Atlanta, Dallas and New Orleans. They receive mushroom deliveries from our corporate facility in Kennett Square, Pennsylvania six days a week.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Mushroom - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Mushroom",
+          "snippet": "Typical mushrooms are the fruit bodies of members of the order Agaricales, whose type genus is Agaricus and type species is the \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "21 Types Of Mushrooms From A to Z (With Photos) - Live Eat Learn",
+          "link": "https://www.liveeatlearn.com/types-of-mushrooms-how-to-use-them/",
+          "snippet": "Feb 10, 2024 \u00b7 From button to shiitake, we\u2019re covering the most popular types of mushrooms from A to Z in this helpful guide to \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "100 Common Types of Mushrooms Names with Pictures",
+          "link": "https://www.vocabineer.com/100-types-of-mushrooms/",
+          "snippet": "Jun 22, 2026 \u00b7 Common types of mushrooms include button mushroom, portobello mushroom, cremini mushroom, shiitake \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Mushroom | Definition, Characteristics, Species, & Facts | Britannica",
+          "link": "https://www.britannica.com/science/mushroom",
+          "snippet": "Jul 10, 2026 \u00b7 Mushroom, the conspicuous umbrella-shaped fruiting body (sporophore) of certain fungi, typically of the order \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "25 Most Common Mushroom Types (With Pictures)",
+          "link": "https://bootstrapbee.com/mushrooms/mushroom-types",
+          "snippet": "The most common mushroom types include the versatile and mild White Button, the slightly richer Cremini, the large and meaty \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Health Benefits of Mushrooms - WebMD",
+          "link": "https://www.webmd.com/diet/health-benefits-mushrooms",
+          "snippet": "Dec 17, 2025 \u00b7 Naturally low in calories, mushrooms are packed with B vitamins, selenium, potassium, and copper \u2014 nutrients that \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Mushroom Identification Guide: Edible & Poisonous | FungiAtlas",
+          "link": "https://fungiatlas.com/",
+          "snippet": "Explore all types of mushrooms \u2014 edible, inedible, poisonous, medicinal, and psychoactive. Learn how to identify wild fungi with \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "39 Different Types of Edible Mushrooms - Clean Green Simple",
+          "link": "https://cleangreensimple.com/article/different-types-of-mushrooms/",
+          "snippet": "Apr 1, 2026 \u00b7 There are about 3,000 edible mushroom species, but only around 200 are commonly consumed. The most widely used \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Mushroom Facts - The Ultimate Guide To Mushrooms",
+          "link": "https://www.activewild.com/mushroom-facts/",
+          "snippet": "Oct 26, 2023 \u00b7 Mushroom facts. What is a mushroom, life cycle, different types, comparison to toadstools, complete guide to \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Edible mushroom - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Edible_mushroom",
+          "snippet": "Edible mushrooms are consumed for their nutritional and culinary value, often either being cultivated or harvested wild. Easily \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Mushroom - Wikipedia",
+          "link": "https://en.m.wikipedia.org/wiki/Mushroom",
+          "snippet": "Mushroom Pholiota squarrosa growing at the base of a tree A mushroom is the fleshy, spore -bearing fruiting body of a fungus, typically produced above ground on soil or another food source. A toadstoo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "One Dollar Short - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/One_Dollar_Short",
+          "snippet": "Mushroom Distribution Services, Rapido. Members.Label: Mushroom Distribution Services (ODS 001). Format: CD, DD. \u2014 Board Game. Released: 26 March 2001. Label: Rapido / Festival Mushroom Records (02015",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "www.mushroomdistribution.com",
+          "link": "https://www.mushroomdistribution.com/",
+          "snippet": "www.mushroomdistribution.com",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mushroom World Group",
+          "link": "https://mushroomworldgroup.com/",
+          "snippet": "Mushroom World Group, a place where ability to recognize and thrive on possibilities, refining risks into potential assets drives us towards growth and success.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Mushroom Manufacturer in India | Manegrow",
+          "link": "https://www.manegrow.com/",
+          "snippet": "Discover Manegrow, the best mushroom manufacturer in India, delivering fresh, high-quality mushrooms with sustainable farming. Trusted by businesses nationwide.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mushroom Wholesalers & Distributors in India",
+          "link": "https://m.indiamart.com/impcat/fresh-mushroom.html?biz=30",
+          "snippet": "Find here Mushroom wholesalers & distributors in India. Get contact details & address of companies engaged in wholesale trade & distribution of Mushroom across India.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mycopia Mushrooms",
+          "link": "https://www.mycopia.com/",
+          "snippet": "Pioneers in Specialty Mushroom Cultivation. We harvest eight varieties of organic specialty mushrooms for America's finest restaurants, specialty food wholesalers and gourmet grocers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mushroom Supply and Services Inc. - MSS REFRESH SITE - home",
+          "link": "https://www.mushroomsupplyinc.com/",
+          "snippet": "Located in Landenberg, PA, Mushroom Supply and Services ships mushroom growing supplies and equipment worldwide. From small growers to large-scale operations, we provide expert mushroom consulting, di",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home | Mushrooms Inc",
+          "link": "https://www.mushroomsinc.com/",
+          "snippet": "Discover the power of Mushrooms Inc.'s mushroom supplements, engineered for superior health benefits. Our unique blends, including SPORT+ and Longevity, are designed to elevate athletic performance an",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mushroom Company in India | Manufacturer | Nuvedo",
+          "link": "https://nuvedo.com/about/",
+          "snippet": "Mission At Nuvedo, we're committed to bringing the healing benefits of functional mushrooms to the people and the planet, through highest quality products and services, setting the standard for mushro",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mushroomag Private Limited",
+          "link": "https://mushroomers.in/",
+          "snippet": "We're revolutionizing the mushroom industry by creating a sustainable ecosystem that supports marginalized farmers, visually challenged, and differently abled youth. Our goal is to make high-protein, ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mushrooms are good for you. But here's who needs to be careful.",
+          "link": "https://www.usatoday.com/story/life/health-wellness/2025/11/29/are-mushrooms-good-for-you/87468305007/",
+          "snippet": "Nov 29, 2025 \u00b7 Mushrooms make for a popular ingredient in countless recipes, from soups and salads to sandwiches and pasta. But their popularity doesn't mean mushrooms are OK for just anyone to enjoy.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mushrooms: Nutrition, Types, 20 Benefits, Side Effects & How to...",
+          "link": "https://myhealthopedia.com/mushrooms-nutrition-types-benefits-side-effects/",
+          "snippet": "Jun 28, 2025 \u00b7 Explore the full guide to mushrooms: Learn what they are, their nutrition profile, 20 health benefits, 10 side effects, how to cook and eat them safely, daily limits, best times to eat,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "32 Best Mushroom Recipes for Cozy, Flavorful Family Meals",
+          "link": "https://www.thepioneerwoman.com/food-cooking/meals-menus/g68020957/best-mushroom-recipes/",
+          "snippet": "Sep 24, 2025 \u00b7 Fall in love with fungi again with these mushroom recipes and ideas. We're making mushrooms the star of the show with ideas for dinner, lunch, and beyond.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Monaghan Mushrooms - A Natural Future",
+          "link": "https://www.monaghan.eu/",
+          "snippet": "Packing & Distribution. Mushrooms. Nutrition. Immunity.The European Mushrooms site provides lots of information about using mushrooms as a unique and...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "shiitake mushrooms Distributor | B2B companies and... | europages",
+          "link": "https://www.europages.co.uk/companies/distributor/shiitake+mushrooms.html",
+          "snippet": "36 suppliers for shiitake mushrooms Distributor Find wholesalers and contact them directly B2B martketplace Find companies now!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "MUSHROOM DISTRIBUTION SERVICES LIMITED - Free Company...",
+          "link": "https://www.companieslist.co.uk/03321616-mushroom-distribution-services-limited",
+          "snippet": "Learn more about MUSHROOM DISTRIBUTION SERVICES LIMITED. Check the company's details for free and view the Companies House information, company documents and list of directors.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mushroom Distribution South Mill New Orleans LLC",
+          "link": "https://www.producemarketguide.com/company/141065/mushroom-distribution-south-mill-new-orleans-llc",
+          "snippet": "South Mill owns four Distribution Centers in Houston, Atlanta, Dallas and New Orleans. They receive mushroom deliveries from our corporate facility in Kennett Square, Pennsylvania six days a week.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P5": {
+      "query": "mushroom food service integration official site",
+      "level": "discovery",
+      "result_count": 11,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Mushroom - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Mushroom",
+          "snippet": "Typical mushrooms are the fruit bodies of members of the order Agaricales, whose type genus is Agaricus and type species is the \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "21 Types Of Mushrooms From A to Z (With Photos) - Live Eat Learn",
+          "link": "https://www.liveeatlearn.com/types-of-mushrooms-how-to-use-them/",
+          "snippet": "Feb 10, 2024 \u00b7 From button to shiitake, we\u2019re covering the most popular types of mushrooms from A to Z in this helpful guide to \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "100 Common Types of Mushrooms Names with Pictures",
+          "link": "https://www.vocabineer.com/100-types-of-mushrooms/",
+          "snippet": "Jun 22, 2026 \u00b7 Common types of mushrooms include button mushroom, portobello mushroom, cremini mushroom, shiitake \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Mushroom | Definition, Characteristics, Species, & Facts | Britannica",
+          "link": "https://www.britannica.com/science/mushroom",
+          "snippet": "Jul 10, 2026 \u00b7 Mushroom, the conspicuous umbrella-shaped fruiting body (sporophore) of certain fungi, typically of the order \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "25 Most Common Mushroom Types (With Pictures)",
+          "link": "https://bootstrapbee.com/mushrooms/mushroom-types",
+          "snippet": "The most common mushroom types include the versatile and mild White Button, the slightly richer Cremini, the large and meaty \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Health Benefits of Mushrooms - WebMD",
+          "link": "https://www.webmd.com/diet/health-benefits-mushrooms",
+          "snippet": "Dec 17, 2025 \u00b7 Naturally low in calories, mushrooms are packed with B vitamins, selenium, potassium, and copper \u2014 nutrients that \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Mushrooms: Nutrition, Types, 20 Benefits, Side Effects & How to Eat \u2026",
+          "link": "https://myhealthopedia.com/mushrooms-nutrition-types-benefits-side-effects/",
+          "snippet": "Jun 28, 2025 \u00b7 Mushrooms are one of nature\u2019s most intriguing foods. They\u2019re not a vegetable, fruit, or meat\u2014yet they fit into every \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Edible mushroom - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Edible_mushroom",
+          "snippet": "Edible mushrooms are consumed for their nutritional and culinary value, often either being cultivated or harvested wild. Easily \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Types Of Mushrooms: 30 Varieties With Pictures",
+          "link": "https://www.vegrecipesofindia.com/types-of-mushrooms/",
+          "snippet": "Nov 16, 2025 \u00b7 There are many types of mushrooms available around the world, and each one has its own shape, flavor and use in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "39 Different Types of Edible Mushrooms - Clean Green Simple",
+          "link": "https://cleangreensimple.com/article/different-types-of-mushrooms/",
+          "snippet": "Apr 1, 2026 \u00b7 There are about 3,000 edible mushroom species, but only around 200 are commonly consumed. The most widely used \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "PowerPoint Presentation",
+          "link": "https://www.horticulture.com.au/globalassets/laserfiche/assets/project-reports/mu22012/mushroom-food-service-strategy-final.pdf",
+          "snippet": "Discussions with informed food service and mushroom industry stakeholders, including USMC. Mushroom industry stakeholder workshop to review draft strategy. and align on priorities. Mushroom Food Servi",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Mushroom - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Mushroom",
+          "snippet": "Typical mushrooms are the fruit bodies of members of the order Agaricales, whose type genus is Agaricus and type species is the \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "21 Types Of Mushrooms From A to Z (With Photos) - Live Eat Learn",
+          "link": "https://www.liveeatlearn.com/types-of-mushrooms-how-to-use-them/",
+          "snippet": "Feb 10, 2024 \u00b7 From button to shiitake, we\u2019re covering the most popular types of mushrooms from A to Z in this helpful guide to \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "100 Common Types of Mushrooms Names with Pictures",
+          "link": "https://www.vocabineer.com/100-types-of-mushrooms/",
+          "snippet": "Jun 22, 2026 \u00b7 Common types of mushrooms include button mushroom, portobello mushroom, cremini mushroom, shiitake \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Mushroom | Definition, Characteristics, Species, & Facts | Britannica",
+          "link": "https://www.britannica.com/science/mushroom",
+          "snippet": "Jul 10, 2026 \u00b7 Mushroom, the conspicuous umbrella-shaped fruiting body (sporophore) of certain fungi, typically of the order \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "25 Most Common Mushroom Types (With Pictures)",
+          "link": "https://bootstrapbee.com/mushrooms/mushroom-types",
+          "snippet": "The most common mushroom types include the versatile and mild White Button, the slightly richer Cremini, the large and meaty \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Health Benefits of Mushrooms - WebMD",
+          "link": "https://www.webmd.com/diet/health-benefits-mushrooms",
+          "snippet": "Dec 17, 2025 \u00b7 Naturally low in calories, mushrooms are packed with B vitamins, selenium, potassium, and copper \u2014 nutrients that \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Mushrooms: Nutrition, Types, 20 Benefits, Side Effects & How to Eat \u2026",
+          "link": "https://myhealthopedia.com/mushrooms-nutrition-types-benefits-side-effects/",
+          "snippet": "Jun 28, 2025 \u00b7 Mushrooms are one of nature\u2019s most intriguing foods. They\u2019re not a vegetable, fruit, or meat\u2014yet they fit into every \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Edible mushroom - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Edible_mushroom",
+          "snippet": "Edible mushrooms are consumed for their nutritional and culinary value, often either being cultivated or harvested wild. Easily \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Types Of Mushrooms: 30 Varieties With Pictures",
+          "link": "https://www.vegrecipesofindia.com/types-of-mushrooms/",
+          "snippet": "Nov 16, 2025 \u00b7 There are many types of mushrooms available around the world, and each one has its own shape, flavor and use in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "39 Different Types of Edible Mushrooms - Clean Green Simple",
+          "link": "https://cleangreensimple.com/article/different-types-of-mushrooms/",
+          "snippet": "Apr 1, 2026 \u00b7 There are about 3,000 edible mushroom species, but only around 200 are commonly consumed. The most widely used \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "PowerPoint Presentation",
+          "link": "https://www.horticulture.com.au/globalassets/laserfiche/assets/project-reports/mu22012/mushroom-food-service-strategy-final.pdf",
+          "snippet": "Discussions with informed food service and mushroom industry stakeholders, including USMC. Mushroom industry stakeholder workshop to review draft strategy. and align on priorities. Mushroom Food Servi",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "mushroom retail system integrator corporate site",
+      "level": "discovery",
+      "result_count": 10,
+      "results_target": 28,
+      "backends": [
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Mushroom - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Mushroom",
+          "snippet": "Typical mushrooms are the fruit bodies of members of the order Agaricales, whose type genus is Agaricus and type species is the \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "21 Types Of Mushrooms From A to Z (With Photos) - Live Eat Learn",
+          "link": "https://www.liveeatlearn.com/types-of-mushrooms-how-to-use-them/",
+          "snippet": "Feb 10, 2024 \u00b7 From button to shiitake, we\u2019re covering the most popular types of mushrooms from A to Z in this helpful guide to \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "100 Common Types of Mushrooms Names with Pictures",
+          "link": "https://www.vocabineer.com/100-types-of-mushrooms/",
+          "snippet": "Jun 22, 2026 \u00b7 Common types of mushrooms include button mushroom, portobello mushroom, cremini mushroom, shiitake \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Mushroom | Definition, Characteristics, Species, & Facts | Britannica",
+          "link": "https://www.britannica.com/science/mushroom",
+          "snippet": "Jul 10, 2026 \u00b7 Mushroom, the conspicuous umbrella-shaped fruiting body (sporophore) of certain fungi, typically of the order \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "25 Most Common Mushroom Types (With Pictures)",
+          "link": "https://bootstrapbee.com/mushrooms/mushroom-types",
+          "snippet": "The most common mushroom types include the versatile and mild White Button, the slightly richer Cremini, the large and meaty \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Health Benefits of Mushrooms - WebMD",
+          "link": "https://www.webmd.com/diet/health-benefits-mushrooms",
+          "snippet": "Dec 17, 2025 \u00b7 Naturally low in calories, mushrooms are packed with B vitamins, selenium, potassium, and copper \u2014 nutrients that \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Mushrooms: Nutrition, Types, 20 Benefits, Side Effects & How to Eat \u2026",
+          "link": "https://myhealthopedia.com/mushrooms-nutrition-types-benefits-side-effects/",
+          "snippet": "Jun 28, 2025 \u00b7 Mushrooms are one of nature\u2019s most intriguing foods. They\u2019re not a vegetable, fruit, or meat\u2014yet they fit into every \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Edible mushroom - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Edible_mushroom",
+          "snippet": "Edible mushrooms are consumed for their nutritional and culinary value, often either being cultivated or harvested wild. Easily \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Types Of Mushrooms: 30 Varieties With Pictures",
+          "link": "https://www.vegrecipesofindia.com/types-of-mushrooms/",
+          "snippet": "Nov 16, 2025 \u00b7 There are many types of mushrooms available around the world, and each one has its own shape, flavor and use in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "39 Different Types of Edible Mushrooms - Clean Green Simple",
+          "link": "https://cleangreensimple.com/article/different-types-of-mushrooms/",
+          "snippet": "Apr 1, 2026 \u00b7 There are about 3,000 edible mushroom species, but only around 200 are commonly consumed. The most widely used \u2026",
+          "backend": "searxng"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Mushroom - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Mushroom",
+          "snippet": "Typical mushrooms are the fruit bodies of members of the order Agaricales, whose type genus is Agaricus and type species is the \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "21 Types Of Mushrooms From A to Z (With Photos) - Live Eat Learn",
+          "link": "https://www.liveeatlearn.com/types-of-mushrooms-how-to-use-them/",
+          "snippet": "Feb 10, 2024 \u00b7 From button to shiitake, we\u2019re covering the most popular types of mushrooms from A to Z in this helpful guide to \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "100 Common Types of Mushrooms Names with Pictures",
+          "link": "https://www.vocabineer.com/100-types-of-mushrooms/",
+          "snippet": "Jun 22, 2026 \u00b7 Common types of mushrooms include button mushroom, portobello mushroom, cremini mushroom, shiitake \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Mushroom | Definition, Characteristics, Species, & Facts | Britannica",
+          "link": "https://www.britannica.com/science/mushroom",
+          "snippet": "Jul 10, 2026 \u00b7 Mushroom, the conspicuous umbrella-shaped fruiting body (sporophore) of certain fungi, typically of the order \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "25 Most Common Mushroom Types (With Pictures)",
+          "link": "https://bootstrapbee.com/mushrooms/mushroom-types",
+          "snippet": "The most common mushroom types include the versatile and mild White Button, the slightly richer Cremini, the large and meaty \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Health Benefits of Mushrooms - WebMD",
+          "link": "https://www.webmd.com/diet/health-benefits-mushrooms",
+          "snippet": "Dec 17, 2025 \u00b7 Naturally low in calories, mushrooms are packed with B vitamins, selenium, potassium, and copper \u2014 nutrients that \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Mushrooms: Nutrition, Types, 20 Benefits, Side Effects & How to Eat \u2026",
+          "link": "https://myhealthopedia.com/mushrooms-nutrition-types-benefits-side-effects/",
+          "snippet": "Jun 28, 2025 \u00b7 Mushrooms are one of nature\u2019s most intriguing foods. They\u2019re not a vegetable, fruit, or meat\u2014yet they fit into every \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Edible mushroom - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Edible_mushroom",
+          "snippet": "Edible mushrooms are consumed for their nutritional and culinary value, often either being cultivated or harvested wild. Easily \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Types Of Mushrooms: 30 Varieties With Pictures",
+          "link": "https://www.vegrecipesofindia.com/types-of-mushrooms/",
+          "snippet": "Nov 16, 2025 \u00b7 There are many types of mushrooms available around the world, and each one has its own shape, flavor and use in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "39 Different Types of Edible Mushrooms - Clean Green Simple",
+          "link": "https://cleangreensimple.com/article/different-types-of-mushrooms/",
+          "snippet": "Apr 1, 2026 \u00b7 There are about 3,000 edible mushroom species, but only around 200 are commonly consumed. The most widely used \u2026",
+          "backend": "searxng"
+        }
+      ]
+    },
+    "P7": {
+      "query": "authorized mushroom distributor firm official",
+      "level": "discovery",
+      "result_count": 8,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Musical Mushroom Distributors | Find a Retailer Near You",
+          "link": "https://www.musicalmushroom.com/distributors",
+          "snippet": "Find Musical Mushroom\u00ae retail partners worldwide.If you purchase your product through a distributor, you need to get local technical support from them and also follow their policies for any product re",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Monaghan Mushrooms - A Natural Future",
+          "link": "https://www.monaghan.eu/",
+          "snippet": "Monaghan is one of the largest mushroom producers in the world. Committed to shaping the future of food to help people live healthier lives.Monaghan Mushrooms Peat Free. Monaghan Takes a giant leap.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "tinned mushrooms Distributor | B2B companies and... | europages",
+          "link": "https://www.europages.co.uk/companies/distributor/tinned+mushrooms.html",
+          "snippet": "21 suppliers for tinned mushrooms Distributor Find wholesalers and contact them directly B2B martketplace Find companies now! We specialize in the production and distribution of frozen and fresh meat,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "FDA Issues Highest Risk Warning After Mushrooms... - Newsweek",
+          "link": "https://www.newsweek.com/fda-issues-risk-warning-after-mushrooms-recalled-nationwide-2098304",
+          "snippet": "As reported by Newsweek, the firm-initiated recall affects enoki mushrooms distributed by Hofood99 Inc, located at 21903 56th Avenue Oakland Gardens, New York, 11364.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 Mushroom supplier Companies and Products Compare 2025",
+          "link": "https://www.sourcifychina.com/top-mushroom-supplier-compare/",
+          "snippet": "Are you curious about where to find the finest mushrooms? Comparing top mushroom supplier factories is essential for ensuring quality and freshness.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top seeds list from 0 to 50",
+          "link": "https://woolstrand.art/view/maps/topseeds",
+          "snippet": "count. list maps. distribution. village.mushroom.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Charcoal Burner \u2013 Edibility, Identification, Distribution \u2013 Galloway Wild...",
+          "link": "https://gallowaywildfoods.com/charcoal-burner-edibility-identification-distribution/",
+          "snippet": "IMG_6742. Edibility \u2013 4/5 \u2013 An excellent firm-textured mushroom. Distribution \u2013 4/5 \u2013 Widely distributed and common in its habitat throughout the UK.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Man accused of selling psilocybin to 20 Colorado students arrested",
+          "link": "https://coloradosun.com/2024/10/23/benjamin-harmon-arrest-boulder-county/",
+          "snippet": "Man accused of distributing psilocybin mushrooms to 20 Boulder County high school students faces 40 counts.Harmon was initially arrested Aug. 8 for allegedly distributing a controlled substance to a m",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Musical Mushroom Distributors | Find a Retailer Near You",
+          "link": "https://www.musicalmushroom.com/distributors",
+          "snippet": "Find Musical Mushroom\u00ae retail partners worldwide.If you purchase your product through a distributor, you need to get local technical support from them and also follow their policies for any product re",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Monaghan Mushrooms - A Natural Future",
+          "link": "https://www.monaghan.eu/",
+          "snippet": "Monaghan is one of the largest mushroom producers in the world. Committed to shaping the future of food to help people live healthier lives.Monaghan Mushrooms Peat Free. Monaghan Takes a giant leap.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "tinned mushrooms Distributor | B2B companies and... | europages",
+          "link": "https://www.europages.co.uk/companies/distributor/tinned+mushrooms.html",
+          "snippet": "21 suppliers for tinned mushrooms Distributor Find wholesalers and contact them directly B2B martketplace Find companies now! We specialize in the production and distribution of frozen and fresh meat,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "FDA Issues Highest Risk Warning After Mushrooms... - Newsweek",
+          "link": "https://www.newsweek.com/fda-issues-risk-warning-after-mushrooms-recalled-nationwide-2098304",
+          "snippet": "As reported by Newsweek, the firm-initiated recall affects enoki mushrooms distributed by Hofood99 Inc, located at 21903 56th Avenue Oakland Gardens, New York, 11364.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 Mushroom supplier Companies and Products Compare 2025",
+          "link": "https://www.sourcifychina.com/top-mushroom-supplier-compare/",
+          "snippet": "Are you curious about where to find the finest mushrooms? Comparing top mushroom supplier factories is essential for ensuring quality and freshness.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top seeds list from 0 to 50",
+          "link": "https://woolstrand.art/view/maps/topseeds",
+          "snippet": "count. list maps. distribution. village.mushroom.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Charcoal Burner \u2013 Edibility, Identification, Distribution \u2013 Galloway Wild...",
+          "link": "https://gallowaywildfoods.com/charcoal-burner-edibility-identification-distribution/",
+          "snippet": "IMG_6742. Edibility \u2013 4/5 \u2013 An excellent firm-textured mushroom. Distribution \u2013 4/5 \u2013 Widely distributed and common in its habitat throughout the UK.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Man accused of selling psilocybin to 20 Colorado students arrested",
+          "link": "https://coloradosun.com/2024/10/23/benjamin-harmon-arrest-boulder-county/",
+          "snippet": "Man accused of distributing psilocybin mushrooms to 20 Boulder County high school students faces 40 counts.Harmon was initially arrested Aug. 8 for allegedly distributing a controlled substance to a m",
+          "backend": "ddgs_bing"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

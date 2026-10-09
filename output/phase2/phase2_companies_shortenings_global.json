@@ -1,0 +1,984 @@
+{
+  "phase": 2,
+  "phase2_mode": "fast",
+  "query": "Shortenings Market",
+  "mock_mode": false,
+  "completed_at": "2026-07-24T10:04:19.993181+00:00",
+  "scope": {
+    "market": "shortenings",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "food ingredients",
+    "industry_terms": [
+      "shortenings",
+      "vegetable oils",
+      "fats",
+      "baking ingredients",
+      "food service"
+    ],
+    "ecosystem_functions": [
+      "distributing shortenings",
+      "wholesaling food ingredients",
+      "reselling food products",
+      "providing application services",
+      "consulting on food formulations",
+      "integrating food service solutions"
+    ],
+    "interpretation_summary": "The shortenings market encompasses a variety of fat-based products used in food preparation and baking, primarily involving vegetable oils and animal fats. Participants include manufacturers, distributors, and various ch",
+    "relevance_keywords": [
+      "shortening distribution",
+      "food ingredient suppliers",
+      "baking fats",
+      "vegetable shortening",
+      "food service solutions"
+    ],
+    "negative_keywords": [
+      "retail",
+      "consumer products",
+      "unrelated industries",
+      "news articles",
+      "job listings"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "Cargill",
+        "primary_domain": "cargill.com",
+        "company_function": "food ingredient supplier"
+      },
+      {
+        "canonical_name": "Archer Daniels Midland Company",
+        "primary_domain": "adm.com",
+        "company_function": "agricultural processor and distributor"
+      },
+      {
+        "canonical_name": "Bunge North America",
+        "primary_domain": "bunge.com",
+        "company_function": "food ingredient supplier"
+      },
+      {
+        "canonical_name": "Wilmar International",
+        "primary_domain": "wilmar-international.com",
+        "company_function": "agricultural and food products distributor"
+      },
+      {
+        "canonical_name": "Kerry Group",
+        "primary_domain": "kerrygroup.com",
+        "company_function": "food ingredient supplier"
+      },
+      {
+        "canonical_name": "MGP Ingredients",
+        "primary_domain": "mgpingredients.com",
+        "company_function": "food ingredient supplier"
+      },
+      {
+        "canonical_name": "Baker's Choice",
+        "primary_domain": "bakerschoice.com",
+        "company_function": "baking ingredient supplier"
+      },
+      {
+        "canonical_name": "Dawn Foods",
+        "primary_domain": "dawnfoods.com",
+        "company_function": "food service provider"
+      },
+      {
+        "canonical_name": "Rich Products",
+        "primary_domain": "richs.com",
+        "company_function": "food service provider"
+      },
+      {
+        "canonical_name": "Pinnacle Foods",
+        "primary_domain": "pinnaclefoods.com",
+        "company_function": "food ingredient supplier"
+      }
+    ],
+    "search_topic": "shortenings",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "shortenings",
+    "include_keywords": [
+      "bulk shortening suppliers",
+      "food service shortening distributors",
+      "shortening wholesalers",
+      "shortening resellers",
+      "channel partners for shortenings"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The shortenings market encompasses a variety of fat-based products used in food preparation and baking, primarily involving vegetable oils and animal fats. Participants include manufacturers, distributors, and various channel partners that facilitate the supply of these products globally.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Distribution",
+        "description": "This layer involves the distribution of shortenings from manufacturers to various market segments.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "national distributors",
+              "regional distributors"
+            ],
+            "participant_types": [
+              "distributor",
+              "wholesaler"
+            ],
+            "search_intents": [
+              "shortening distributors near me",
+              "wholesale shortening suppliers"
+            ]
+          },
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "food service resellers",
+              "retail resellers"
+            ],
+            "participant_types": [
+              "reseller",
+              "channel partner"
+            ],
+            "search_intents": [
+              "buy shortening from resellers",
+              "shortening resellers online"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L2",
+        "layer_name": "Service Providers",
+        "description": "This layer includes companies that provide services related to the use and application of shortenings in food production.",
+        "segments": [
+          {
+            "segment_name": "Service Providers",
+            "sub_segments": [
+              "consulting services",
+              "application services"
+            ],
+            "participant_types": [
+              "service provider"
+            ],
+            "search_intents": [
+              "shortening application service providers",
+              "consultants for shortening usage"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Retailers",
+        "Food Manufacturers",
+        "Ingredient Suppliers",
+        "Exporters"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "find shortening distributors for food service",
+        "sub_sector": "distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "bulk shortening wholesalers for baking",
+        "sub_sector": "wholesaler",
+        "layer_id": "L1",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "shortening resellers for food products",
+        "sub_sector": "reseller",
+        "layer_id": "L1",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "consultants for shortening application",
+        "sub_sector": "service_provider",
+        "layer_id": "L2",
+        "segment": "Service Providers"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "phase1_plan_path": "D:\\vendor-intel\\output\\phase1\\phase1_plan_shortenings_global.json",
+  "companies": [
+    {
+      "name": "Saporitofoods",
+      "domain": "saporitofoods.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Cargill",
+      "domain": "cargill.com",
+      "discovery_source": "ddgs_bing+registry",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Dawnfoods",
+      "domain": "dawnfoods.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Gillco",
+      "domain": "gillco.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Restricttransfat",
+      "domain": "restricttransfat.ca",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Richardson Food & Ingredients",
+      "domain": "richardsonfoodandingredients.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Venturafoods",
+      "domain": "venturafoods.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Bakersauthority",
+      "domain": "bakersauthority.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Ariyancorp",
+      "domain": "ariyancorp.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Bakerschoice",
+      "domain": "bakerschoice.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Bunge",
+      "domain": "bunge.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Coastpacking",
+      "domain": "coastpacking.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Industryarc",
+      "domain": "industryarc.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Kerrygroup",
+      "domain": "kerrygroup.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Mgpingredients",
+      "domain": "mgpingredients.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Peerlessfoods",
+      "domain": "peerlessfoods.com.au",
+      "discovery_source": "ddgs_bing",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Pinnaclefoods",
+      "domain": "pinnaclefoods.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Richs",
+      "domain": "richs.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Wilmar International",
+      "domain": "www.wilmar-international.com",
+      "discovery_source": "registry",
+      "company_function": "vendor",
+      "domain_corrected_from": "wilmar-international.com"
+    },
+    {
+      "name": "Alternativeto",
+      "domain": "alternativeto.net",
+      "discovery_source": "searxng",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Bakels",
+      "domain": "bakels.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Bremeringredients",
+      "domain": "bremeringredients.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Cvoils",
+      "domain": "cvoils.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Disjobelusa",
+      "domain": "disjobelusa.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Gfsstore",
+      "domain": "gfsstore.com",
+      "discovery_source": "searxng",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Globalinsightservices",
+      "domain": "globalinsightservices.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Macarfoods",
+      "domain": "macarfoods.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Makendi",
+      "domain": "makendi.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Pacificmedan",
+      "domain": "pacificmedan.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Performancefoodservice",
+      "domain": "performancefoodservice.com",
+      "discovery_source": "ddgs_bing+searxng",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Shortenings",
+      "domain": "shortenings.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Shorturl",
+      "domain": "shorturl.at",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Allfreshfoodproducts",
+      "domain": "allfreshfoodproducts.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Allrecipes",
+      "domain": "allrecipes.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Alternatives",
+      "domain": "alternatives.org",
+      "discovery_source": "searxng",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Alternativesinc",
+      "domain": "alternativesinc.org",
+      "discovery_source": "searxng",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Androidmultitool",
+      "domain": "androidmultitool.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Androidwintool",
+      "domain": "androidwintool.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Approvedfood",
+      "domain": "approvedfood.co.uk",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Aromeya",
+      "domain": "aromeya.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Barillagroup",
+      "domain": "barillagroup.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Batoryfoods",
+      "domain": "batoryfoods.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Bitly",
+      "domain": "bitly.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Borneoseller",
+      "domain": "borneoseller.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Buzzfile",
+      "domain": "buzzfile.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Byrdie",
+      "domain": "byrdie.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Calget",
+      "domain": "calget.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Canteen",
+      "domain": "canteen.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Capitolfoodco",
+      "domain": "capitolfoodco.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Checkertr",
+      "domain": "checkertr.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Cheflerfoods",
+      "domain": "cheflerfoods.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Conagrafoodservice",
+      "domain": "conagrafoodservice.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Denki",
+      "domain": "denki.tss-shop.com",
+      "discovery_source": "searxng",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Doehler",
+      "domain": "doehler.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Esmadrid",
+      "domain": "esmadrid.com",
+      "discovery_source": "searxng",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Exabytes",
+      "domain": "exabytes.my",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Fatxplorer",
+      "domain": "fatxplorer.eaton-works.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Flozic",
+      "domain": "flozic.ai",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Foodservices",
+      "domain": "foodservices.premierfmcg.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Ghostauthtool",
+      "domain": "ghostauthtool.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Go4worldbusiness",
+      "domain": "go4worldbusiness.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Goldenstatefoods",
+      "domain": "goldenstatefoods.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Hdsupplysolutions",
+      "domain": "hdsupplysolutions.com",
+      "discovery_source": "searxng",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Home | FMC",
+      "domain": "fmc.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Ignitefoodservice",
+      "domain": "ignitefoodservice.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Indonesia",
+      "domain": "indonesia.tradekey.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Ingredientsnetwork",
+      "domain": "ingredientsnetwork.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Insights",
+      "domain": "insights.cerco.ai",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Larchfield",
+      "domain": "larchfield.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Linkshortener",
+      "domain": "linkshortener.io",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Livereacting",
+      "domain": "livereacting.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "importer"
+    },
+    {
+      "name": "Mail",
+      "domain": "mail.services.live.com",
+      "discovery_source": "searxng",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Modelcontextprotocol",
+      "domain": "modelcontextprotocol.io",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Morandiglobal",
+      "domain": "morandiglobal.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Mxplayer",
+      "domain": "mxplayer.in",
+      "discovery_source": "ddgs_bing",
+      "company_function": "contract_manufacturer"
+    },
+    {
+      "name": "Openinapp",
+      "domain": "openinapp.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "importer"
+    },
+    {
+      "name": "Oukosher",
+      "domain": "oukosher.org",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Outlook",
+      "domain": "outlook.office365.com",
+      "discovery_source": "searxng",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Palmazia",
+      "domain": "palmazia.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "oem_manufacturer"
+    },
+    {
+      "name": "Phoenixservicetool",
+      "domain": "phoenixservicetool.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Products & Services",
+      "domain": "gfs.com",
+      "discovery_source": "searxng",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Publer",
+      "domain": "publer.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "importer"
+    },
+    {
+      "name": "Puratos",
+      "domain": "puratos.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Rebrandly",
+      "domain": "rebrandly.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Rockpapershotgun",
+      "domain": "rockpapershotgun.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Roundeyesupply",
+      "domain": "roundeyesupply.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Salvavidas Pharma",
+      "domain": "salvavidaspharma.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Sandisk",
+      "domain": "sandisk.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Sensient",
+      "domain": "sensient.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Short",
+      "domain": "short.io",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Singapore",
+      "domain": "singapore.tradekey.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Skillbuilder",
+      "domain": "skillbuilder.aws",
+      "discovery_source": "ddgs_bing",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Smarte",
+      "domain": "smarte.pro",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Sodexo North America",
+      "domain": "us.sodexo.com",
+      "discovery_source": "searxng",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Sounddevices",
+      "domain": "sounddevices.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Supermarketperimeter",
+      "domain": "supermarketperimeter.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Texasbakerysupply",
+      "domain": "texasbakerysupply.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Tinyurl",
+      "domain": "tinyurl.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Tradekey",
+      "domain": "tradekey.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Trendhunter",
+      "domain": "trendhunter.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Tubepilot",
+      "domain": "tubepilot.ai",
+      "discovery_source": "ddgs_bing",
+      "company_function": "importer"
+    },
+    {
+      "name": "Tysonfoodservice",
+      "domain": "tysonfoodservice.com",
+      "discovery_source": "searxng",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Usafactorynet",
+      "domain": "usafactorynet.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Useluminix",
+      "domain": "useluminix.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Usfoods",
+      "domain": "usfoods.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Wholefoodsmarket",
+      "domain": "wholefoodsmarket.com",
+      "discovery_source": "searxng",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Wilmarsugar Anz",
+      "domain": "wilmarsugar-anz.com",
+      "discovery_source": "searxng",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Wisesheets",
+      "domain": "wisesheets.io",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Wordsanswers",
+      "domain": "wordsanswers.info",
+      "discovery_source": "searxng",
+      "company_function": "consulting"
+    },
+    {
+      "name": "Xiaomiflasherpro",
+      "domain": "xiaomiflasherpro.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Zinkfsg",
+      "domain": "zinkfsg.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    }
+  ],
+  "company_count": 111,
+  "discovery_stats": {
+    "raw_hits": 203,
+    "unique_names": 123,
+    "by_prompt_id": {
+      "D10": 1,
+      "D2": 2,
+      "D3": 2,
+      "D4": 1,
+      "D5": 8,
+      "D6": 1,
+      "D7": 1,
+      "D8": 5,
+      "D9": 1,
+      "HX0_dist": 7,
+      "HX0_expo": 1,
+      "HX0_inte": 3,
+      "HX0_manu": 1,
+      "HX0_rese": 7,
+      "HX1_dist": 5,
+      "HX1_expo": 1,
+      "HX1_inte": 2,
+      "HX1_manu": 2,
+      "HX1_rese": 7,
+      "L0": 5,
+      "L1": 1,
+      "L2": 1,
+      "M1": 1,
+      "M1_api_": 2,
+      "M1_expo": 2,
+      "M2": 1,
+      "M3": 2,
+      "MUV9": 1,
+      "P11": 1,
+      "P12": 1,
+      "P3": 1,
+      "P6": 4,
+      "P7": 2,
+      "P9": 4,
+      "SEED": 10,
+      "SEED2": 10,
+      "SEED3": 10,
+      "SE_archerdani_1": 3,
+      "SE_archerdani_2": 1,
+      "SE_archerdani_3": 1,
+      "SE_bungenorth_1": 1,
+      "SE_bungenorth_2": 1,
+      "SE_cargill_2": 7,
+      "SE_cargill_3": 1,
+      "SE_wilmarinte_1": 2,
+      "SE_wilmarinte_2": 1,
+      "ST1a": 1,
+      "ST2a": 2,
+      "ST3a": 1,
+      "ST4a": 4,
+      "ST_L1_1": 7,
+      "ST_L1_2": 5,
+      "T1a": 1,
+      "T2a": 2,
+      "T2b": 2,
+      "T3a": 2,
+      "T3b": 7,
+      "T4a": 8,
+      "T4b": 9,
+      "V5": 1,
+      "V6": 4,
+      "V7": 7,
+      "V8": 3,
+      "VX1": 1,
+      "VX2": 1
+    },
+    "by_funnel_level": {
+      "L0": 35,
+      "L1": 1,
+      "L2": 1,
+      "discovery": 166
+    },
+    "widen_loops": 3
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ]
+}

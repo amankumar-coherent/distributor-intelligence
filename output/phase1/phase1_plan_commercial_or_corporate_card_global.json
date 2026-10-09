@@ -1,0 +1,1545 @@
+{
+  "phase": 1,
+  "query": "Commercial or Corporate Card Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T21:13:53.563105+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "Commercial or Corporate Card",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "channel partner",
+    "industry_vertical": "financial services",
+    "industry_terms": [
+      "corporate card",
+      "business credit card",
+      "expense management",
+      "payment processing",
+      "transaction management"
+    ],
+    "ecosystem_functions": [
+      "issuing corporate cards",
+      "processing transactions",
+      "distributing card solutions",
+      "integrating payment systems",
+      "managing expenses",
+      "providing customer support",
+      "facilitating merchant acceptance",
+      "offering financial analytics"
+    ],
+    "interpretation_summary": "The Commercial or Corporate Card Market encompasses the issuance and management of cards used by businesses for purchasing goods and services. Key participants include financial institutions, card networks, and various c",
+    "relevance_keywords": [
+      "corporate card issuer",
+      "business payment solutions",
+      "expense tracking",
+      "transaction processing",
+      "financial services"
+    ],
+    "negative_keywords": [
+      "personal finance",
+      "consumer banking",
+      "credit card offers",
+      "financial advice",
+      "investment services"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "American Express",
+        "primary_domain": "americanexpress.com",
+        "company_function": "issuer and payment network"
+      },
+      {
+        "canonical_name": "Visa",
+        "primary_domain": "visa.com",
+        "company_function": "payment network"
+      },
+      {
+        "canonical_name": "Mastercard",
+        "primary_domain": "mastercard.com",
+        "company_function": "payment network"
+      },
+      {
+        "canonical_name": "Chase Bank",
+        "primary_domain": "chase.com",
+        "company_function": "issuer"
+      },
+      {
+        "canonical_name": "Citi",
+        "primary_domain": "citi.com",
+        "company_function": "issuer"
+      },
+      {
+        "canonical_name": "Wells Fargo",
+        "primary_domain": "wellsfargo.com",
+        "company_function": "issuer"
+      },
+      {
+        "canonical_name": "Brex",
+        "primary_domain": "brex.com",
+        "company_function": "corporate card provider"
+      },
+      {
+        "canonical_name": "Ramp",
+        "primary_domain": "ramp.com",
+        "company_function": "corporate card provider"
+      },
+      {
+        "canonical_name": "Divvy",
+        "primary_domain": "getdivvy.com",
+        "company_function": "expense management and corporate card provider",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Airbase",
+        "primary_domain": "airbase.com",
+        "company_function": "expense management and corporate card provider",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Bill.com",
+        "primary_domain": "bill.com",
+        "company_function": "payment processing service",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Spendesk",
+        "primary_domain": "spendesk.com",
+        "company_function": "expense management service",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Pleo",
+        "primary_domain": "pleo.io",
+        "company_function": "expense management and corporate card provider",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Soldo",
+        "primary_domain": "soldo.com",
+        "company_function": "expense management and corporate card provider",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "or Corporate Card",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "Commercial or Corporate Card",
+    "include_keywords": [
+      "corporate card solutions",
+      "business expense cards",
+      "commercial card programs",
+      "payment network integration",
+      "financial transaction services"
+    ],
+    "exclude_keywords": [
+      "consumer credit cards",
+      "personal loans",
+      "banking news",
+      "financial blogs",
+      "job postings",
+      "consulting services"
+    ],
+    "scope_version": 2,
+    "market_definition": "The Commercial or Corporate Card Market encompasses the issuance and management of cards used by businesses for purchasing goods and services. Key participants include financial institutions, card networks, and various channel partners such as distributors, wholesalers, and service providers operating globally.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Issuers",
+        "description": "Financial institutions that issue corporate cards to businesses.",
+        "segments": [
+          {
+            "segment_name": "Banks",
+            "sub_segments": [
+              "Commercial Banks",
+              "Investment Banks"
+            ],
+            "participant_types": [
+              "issuer",
+              "financial institution"
+            ],
+            "search_intents": [
+              "corporate card issuer sites",
+              "business credit card providers"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L2",
+        "layer_name": "Card Networks",
+        "description": "Networks that facilitate transactions between cardholders and merchants.",
+        "segments": [
+          {
+            "segment_name": "Payment Networks",
+            "sub_segments": [
+              "Visa",
+              "Mastercard",
+              "American Express"
+            ],
+            "participant_types": [
+              "network operator"
+            ],
+            "search_intents": [
+              "corporate card network providers",
+              "business payment network solutions"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L3",
+        "layer_name": "Channel Partners",
+        "description": "Entities that distribute and integrate corporate card solutions.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Regional Distributors",
+              "Global Distributors"
+            ],
+            "participant_types": [
+              "distributor",
+              "wholesaler"
+            ],
+            "search_intents": [
+              "corporate card distributors",
+              "business card wholesalers"
+            ]
+          },
+          {
+            "segment_name": "Service Providers",
+            "sub_segments": [
+              "Expense Management Services",
+              "Payment Processing Services"
+            ],
+            "participant_types": [
+              "service provider",
+              "system integrator"
+            ],
+            "search_intents": [
+              "corporate card service providers",
+              "business card integration services"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Consumer Credit Card Market",
+        "Payment Processing Services",
+        "Retail Banking",
+        "Mobile Payment Solutions"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "corporate card issuer sites",
+        "sub_sector": "issuer",
+        "layer_id": "L1",
+        "segment": "Banks"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "business payment network solutions",
+        "sub_sector": "network operator",
+        "layer_id": "L2",
+        "segment": "Payment Networks"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "corporate card distributors",
+        "sub_sector": "distributor",
+        "layer_id": "L3",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "corporate card service providers",
+        "sub_sector": "service provider",
+        "layer_id": "L3",
+        "segment": "Service Providers"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "financial services",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "Commercial or Corporate Card Market companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "Corporate card distributors official site"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "Corporate card service providers corporate site"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "discovery",
+      "text": "corporate card issuer sites"
+    },
+    {
+      "id": "P2",
+      "level": "discovery",
+      "text": "business credit card providers"
+    },
+    {
+      "id": "P3",
+      "level": "discovery",
+      "text": "corporate card distributors"
+    },
+    {
+      "id": "P4",
+      "level": "discovery",
+      "text": "business card wholesalers"
+    },
+    {
+      "id": "P5",
+      "level": "discovery",
+      "text": "corporate card service providers"
+    },
+    {
+      "id": "P6",
+      "level": "discovery",
+      "text": "business card integration services"
+    },
+    {
+      "id": "P7",
+      "level": "discovery",
+      "text": "payment processing service providers"
+    },
+    {
+      "id": "P8",
+      "level": "discovery",
+      "text": "expense management services official site"
+    },
+    {
+      "id": "P9",
+      "level": "discovery",
+      "text": "corporate card issuing corporate cards official website"
+    },
+    {
+      "id": "P10",
+      "level": "discovery",
+      "text": "corporate card processing transactions official website"
+    },
+    {
+      "id": "P11",
+      "level": "discovery",
+      "text": "authorized or Corporate Card distributor firm official"
+    },
+    {
+      "id": "P12",
+      "level": "discovery",
+      "text": "or Corporate Card system integrator official website"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "Commercial or Corporate Card Market companies official websites",
+      "level": "L0",
+      "result_count": 12,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Card Issuing Solutions | Commercial Card Solutions | Corporate ...",
+          "link": "https://www.fiserv.com/en/solutions/card-issuing-solutions/commercial-card-solutions.html",
+          "snippet": "Commercial Card Solutions Strengthen the business-to-business value chain with corporate card payment processing and digital solutions. Fiserv\u2019s commercial card solutions provide robust support for bu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Commercial Cards - Corporate Card | Corpay",
+          "link": "https://www.corpay.com/commercial-cards/corporate-cards",
+          "snippet": "Empower your business with Corpay's corporate card solutions. Set spending controls, simplify expense tracking, and gain real-time visibility into company spend.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Get the Best Corporate Card in India - Volopay",
+          "link": "https://www.volopay.com/in/corporate-cards/",
+          "snippet": "A business corporate card is a payment card issued to employees specifically for work-related expenses. Unlike personal cards, corporate expense cards are owned by the company and used for business pu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Business Credit Cards - Apply for Corporate Credit Card | SBI Card",
+          "link": "https://www.sbicard.com/en/corporate.page",
+          "snippet": "Business Credit Cards - Apply for SBI Corporate Credit Card in India & achieve higher efficiencies & savings. Browse from different types of visa corporate credit cards.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Commercial Or Corporate Card Market Size, Share and Forecast...",
+          "link": "https://www.coherentmarketinsights.com/market-insight/commercial-or-corporate-card-market-2091",
+          "snippet": "This market includes sophisticated virtual card platforms, multi-currency corporate credit lines, and integrated expense reconciliation systems, along with cloud-based management software, ERP connect",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Spend Management, Corporate Cards & Accounts Payable... | Ramp",
+          "link": "https://ramp.com/",
+          "snippet": "Make expense management easy with Ramp's spend management platform. Combine global corporate cards, travel, expenses and accounts payable to automate finance operations and improve efficiency.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Commercial or Corporate Card Market Size, Trends, Growth",
+          "link": "https://www.marketreportsworld.com/market-reports/commercial-or-corporate-card-market-14714036",
+          "snippet": "\u201cGeopolitical Tensions Impacting Corporate Card Market\u201d. Trade wars and political unrest are messing with the business card market. Sanctions and tariffs make international payments costlier, affectin",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Commercial or Corporate Card Market is Projected to Reach USD...",
+          "link": "https://introspectivemarketresearch.com/press-release/commercial-or-corporate-card-market/",
+          "snippet": "The collaboration focuses on virtual corporate card solutions that support online payments, automated reconciliations, and spending controls, empowering businesses to manage distributed teams effectiv",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Commercial And Corporate Card Market Report 2025 Edition...",
+          "link": "https://www.cognitivemarketresearch.com/commercial-and-corporate-card-market-report",
+          "snippet": "We have various report editions of Commercial And Corporate Card Market, hence please contact our sales team and author directly to obtain/purchase a desired Edition eg, Global Edition, Regional Editi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Commercial or Corporate Card Market Forecast 2035 | Growth",
+          "link": "https://www.businessresearchinsights.com/market-reports/commercial-or-corporate-card-market-118455",
+          "snippet": "Large Enterprises: The Commercial or Corporate Card Market for big organizations allows streamlined expense control, efficient cash drift, superior reporting, and tailor-made financial solutions, usin",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Commercial Or Corporate Card Market Size, Future Growth and...",
+          "link": "https://www.strategicrevenueinsights.com/industry/commercial-or-corporate-card-market",
+          "snippet": "Regional Market Intelligence of Commercial or Corporate Card. Region. Current Market Size (USD Billion).The growth of the Commercial or Corporate Card market is significantly influenced by the increas",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Commercial or Corporate Card Market Size, Share, Growth 2033",
+          "link": "https://www.themarketintelligence.com/market-reports/commercial-or-corporate-card-market-5154",
+          "snippet": "The pandemic accelerated the growth of the Commercial or Corporate Card Market, as companies moved toward digital payment solutions. Remote work and online transactions led to increased adoption of vi",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Card Issuing Solutions | Commercial Card Solutions | Corporate ...",
+          "link": "https://www.fiserv.com/en/solutions/card-issuing-solutions/commercial-card-solutions.html",
+          "snippet": "Commercial Card Solutions Strengthen the business-to-business value chain with corporate card payment processing and digital solutions. Fiserv\u2019s commercial card solutions provide robust support for bu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Commercial Cards - Corporate Card | Corpay",
+          "link": "https://www.corpay.com/commercial-cards/corporate-cards",
+          "snippet": "Empower your business with Corpay's corporate card solutions. Set spending controls, simplify expense tracking, and gain real-time visibility into company spend.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Get the Best Corporate Card in India - Volopay",
+          "link": "https://www.volopay.com/in/corporate-cards/",
+          "snippet": "A business corporate card is a payment card issued to employees specifically for work-related expenses. Unlike personal cards, corporate expense cards are owned by the company and used for business pu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Business Credit Cards - Apply for Corporate Credit Card | SBI Card",
+          "link": "https://www.sbicard.com/en/corporate.page",
+          "snippet": "Business Credit Cards - Apply for SBI Corporate Credit Card in India & achieve higher efficiencies & savings. Browse from different types of visa corporate credit cards.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Commercial Or Corporate Card Market Size, Share and Forecast...",
+          "link": "https://www.coherentmarketinsights.com/market-insight/commercial-or-corporate-card-market-2091",
+          "snippet": "This market includes sophisticated virtual card platforms, multi-currency corporate credit lines, and integrated expense reconciliation systems, along with cloud-based management software, ERP connect",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Spend Management, Corporate Cards & Accounts Payable... | Ramp",
+          "link": "https://ramp.com/",
+          "snippet": "Make expense management easy with Ramp's spend management platform. Combine global corporate cards, travel, expenses and accounts payable to automate finance operations and improve efficiency.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Commercial or Corporate Card Market Size, Trends, Growth",
+          "link": "https://www.marketreportsworld.com/market-reports/commercial-or-corporate-card-market-14714036",
+          "snippet": "\u201cGeopolitical Tensions Impacting Corporate Card Market\u201d. Trade wars and political unrest are messing with the business card market. Sanctions and tariffs make international payments costlier, affectin",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Commercial or Corporate Card Market is Projected to Reach USD...",
+          "link": "https://introspectivemarketresearch.com/press-release/commercial-or-corporate-card-market/",
+          "snippet": "The collaboration focuses on virtual corporate card solutions that support online payments, automated reconciliations, and spending controls, empowering businesses to manage distributed teams effectiv",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Commercial And Corporate Card Market Report 2025 Edition...",
+          "link": "https://www.cognitivemarketresearch.com/commercial-and-corporate-card-market-report",
+          "snippet": "We have various report editions of Commercial And Corporate Card Market, hence please contact our sales team and author directly to obtain/purchase a desired Edition eg, Global Edition, Regional Editi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Commercial or Corporate Card Market Forecast 2035 | Growth",
+          "link": "https://www.businessresearchinsights.com/market-reports/commercial-or-corporate-card-market-118455",
+          "snippet": "Large Enterprises: The Commercial or Corporate Card Market for big organizations allows streamlined expense control, efficient cash drift, superior reporting, and tailor-made financial solutions, usin",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Commercial Or Corporate Card Market Size, Future Growth and...",
+          "link": "https://www.strategicrevenueinsights.com/industry/commercial-or-corporate-card-market",
+          "snippet": "Regional Market Intelligence of Commercial or Corporate Card. Region. Current Market Size (USD Billion).The growth of the Commercial or Corporate Card market is significantly influenced by the increas",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Commercial or Corporate Card Market Size, Share, Growth 2033",
+          "link": "https://www.themarketintelligence.com/market-reports/commercial-or-corporate-card-market-5154",
+          "snippet": "The pandemic accelerated the growth of the Commercial or Corporate Card Market, as companies moved toward digital payment solutions. Remote work and online transactions led to increased adoption of vi",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "Corporate card distributors official site",
+      "level": "L1",
+      "result_count": 4,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Commercial Cards - Corporate Card | Corpay",
+          "link": "https://www.corpay.com/commercial-cards/corporate-cards",
+          "snippet": "Empower your business with Corpay's corporate card solutions. Set spending controls, simplify expense tracking, and gain real-time visibility into company spend.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "home.cards.citidirect.com",
+          "link": "https://home.cards.citidirect.com/",
+          "snippet": "Acc\u00e9der \u00e0 la page de Citimanager Corporate Card Connexion.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Spend Management, Corporate Cards & Accounts Payable... | Ramp",
+          "link": "https://ramp.com/",
+          "snippet": "Make expense management easy with Ramp's spend management platform. Combine global corporate cards, travel, expenses and accounts payable to automate finance operations and improve efficiency.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Airwallex: Trusted Global Payments & Financial Platform",
+          "link": "https://www.airwallex.com/",
+          "snippet": "\"Airwallex is an innovative fintech platform with a first-class customer support team. They transformed the previously painful process of creating corporate cards into something simple.\" \"Airwallex is",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Commercial Cards - Corporate Card | Corpay",
+          "link": "https://www.corpay.com/commercial-cards/corporate-cards",
+          "snippet": "Empower your business with Corpay's corporate card solutions. Set spending controls, simplify expense tracking, and gain real-time visibility into company spend.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "home.cards.citidirect.com",
+          "link": "https://home.cards.citidirect.com/",
+          "snippet": "Acc\u00e9der \u00e0 la page de Citimanager Corporate Card Connexion.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Spend Management, Corporate Cards & Accounts Payable... | Ramp",
+          "link": "https://ramp.com/",
+          "snippet": "Make expense management easy with Ramp's spend management platform. Combine global corporate cards, travel, expenses and accounts payable to automate finance operations and improve efficiency.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Airwallex: Trusted Global Payments & Financial Platform",
+          "link": "https://www.airwallex.com/",
+          "snippet": "\"Airwallex is an innovative fintech platform with a first-class customer support team. They transformed the previously painful process of creating corporate cards into something simple.\" \"Airwallex is",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "Corporate card service providers corporate site",
+      "level": "L2",
+      "result_count": 4,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Spend Management, Corporate Cards & Accounts Payable... | Ramp",
+          "link": "https://ramp.com/",
+          "snippet": "Combine global corporate cards, travel, expenses and accounts payable to automate finance operations and improve efficiency.US corporate payments processed by Ramp:0.7849682%. Time is money. Save both",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "American Express\u00ae Canada | Credit Cards, Travel & Insurance",
+          "link": "https://www.americanexpress.com/en-ca/",
+          "snippet": "The Powerful Backing Of American Express. Find A Card That Meets Your Needs - Rewards, Travel, Cash Back. Apply Now Or Login To Your Account.Corporate Cards.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Commercial Payment Cards Market Share | CAGR of 7.9%.",
+          "link": "https://market.us/report/commercial-payment-cards-market/",
+          "snippet": "Snowballing number of corporate card service providers in Europe is one of the major factors driving the growth of the commercial payment cards market in this region.Corporate card. Key Market Players",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Reap | Global financial infrastructure powered by stablecoins",
+          "link": "https://reap.global/",
+          "snippet": "Corporate Cards. The ultimate corporate credit card for Web3 ecosystem businesses. Payments. Send stablecoins from anywhere - recipients get paid in local currency, fast and friction-free.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Spend Management, Corporate Cards & Accounts Payable... | Ramp",
+          "link": "https://ramp.com/",
+          "snippet": "Combine global corporate cards, travel, expenses and accounts payable to automate finance operations and improve efficiency.US corporate payments processed by Ramp:0.7849682%. Time is money. Save both",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "American Express\u00ae Canada | Credit Cards, Travel & Insurance",
+          "link": "https://www.americanexpress.com/en-ca/",
+          "snippet": "The Powerful Backing Of American Express. Find A Card That Meets Your Needs - Rewards, Travel, Cash Back. Apply Now Or Login To Your Account.Corporate Cards.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Commercial Payment Cards Market Share | CAGR of 7.9%.",
+          "link": "https://market.us/report/commercial-payment-cards-market/",
+          "snippet": "Snowballing number of corporate card service providers in Europe is one of the major factors driving the growth of the commercial payment cards market in this region.Corporate card. Key Market Players",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Reap | Global financial infrastructure powered by stablecoins",
+          "link": "https://reap.global/",
+          "snippet": "Corporate Cards. The ultimate corporate credit card for Web3 ecosystem businesses. Payments. Send stablecoins from anywhere - recipients get paid in local currency, fast and friction-free.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "corporate card issuer sites",
+      "level": "discovery",
+      "result_count": 14,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Card Issuing Solutions | Commercial Card Solutions | Corporate ...",
+          "link": "https://www.fiserv.com/en/solutions/card-issuing-solutions/commercial-card-solutions.html",
+          "snippet": "Commercial Card Solutions Strengthen the business-to-business value chain with corporate card payment processing and digital solutions. Fiserv's commercial card solutions provide robust support for bu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Overview - Emburse Cards - Emburse",
+          "link": "https://cards.emburse.com/",
+          "snippet": "Emburse Cards offer managed physical and virtual corporate cards and p-cards for employee and team-driven vendor spend.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Corporate Cards for Startups | Up to 1.5% Cashback | Rho",
+          "link": "https://www.rho.co/product/corporate-cards",
+          "snippet": "Issue corporate cards in minutes. Earn up to 1.5% cashback. Real-time spend controls, automated receipts, no personal guarantee. Built for founders.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Best Expensify Card Alternatives | Merchant Maverick",
+          "link": "https://www.merchantmaverick.com/alternatives-to-expensify/",
+          "snippet": "Best Alternatives To The Expensify Corporate Card. These alternative corporate cards to Expensify all have cash back for your business spending, expense management, accounting features, business integ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How can I configure corporate card issuers?",
+          "link": "https://docs.oracle.com/en/cloud/saas/financials/25a/faiex/how-can-i-configure-corporate-card-issuers.html",
+          "snippet": "You can set up a corporate card issuer through the Manage Corporate Card Issuers page. You can enter the card issuer's site information and payment information.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "9 tools to enhance corporate card services in 2026",
+          "link": "https://blog.pleo.io/en/9-tools-to-enhance-corporate-card-services",
+          "snippet": "What to look for in a corporate card service tool. The tools we\u2019ve covered in this list tackle different aspects of managing company spend, from issuing cards and setting spend limits to integrating e",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Spend Management, Corporate Cards & Accounts Payable... | Ramp",
+          "link": "https://ramp.com/",
+          "snippet": "Make expense management easy with Ramp's spend management platform. Combine global corporate cards, travel, expenses and accounts payable to automate finance operations and improve efficiency.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How to Apply for a Corporate Credit Card | J.P. Morgan",
+          "link": "https://www.jpmorgan.com/insights/payments/commercial-cards/how-to-apply-for-a-corporate-credit-card",
+          "snippet": "When you apply for a corporate card, be sure to consider the three ways issuers structure corporate card liability: Corporate liability: The company\u2014not the business owners or employees\u2014is solely resp",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How to Choose the Right Corporate Card Program | Slash",
+          "link": "https://www.slash.com/blog/corporate-card-program",
+          "snippet": "Corporate Credit Cards Explained: How They Work and How to Choose the Right Program. When you imagine using a corporate credit card, you might picture an executive breezing through airport lounges or ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Corporate Cards for Business and Singapore... | Airwallex SG",
+          "link": "https://www.airwallex.com/sg/blog/best-corporate-card-in-2024",
+          "snippet": "Get the best corporate card for small businesses in Singapore. Enjoy more savings, better security, and faster expense reconciliation from Airwallex.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Signals: Has fintech remade the corporate card?",
+          "link": "https://www.thisweekinfintech.com/p/has-fintech-remade-the-corporate-card",
+          "snippet": "Traditional top bank card issuers like American Express, Citibank, and Chase dominated the space alongside super-regional players like US Bank. In 2017, with the founding of Brex, a new era of corpora",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Corporate Card: Apply for Corporate Credit Card Online | HDFC Bank",
+          "link": "https://www.hdfc.bank.in/commercial-credit-cards/corporate-premium-credit-card",
+          "snippet": "Corporate Credit Card: Apply for a Corporate Card online with HDFC Bank. Enjoy insurance protection, access to airport lounges & earn reward points on your business spends.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Corporate Credit Card with Corporate Liability | Axis Bank",
+          "link": "https://www.axis.bank.in/cards/commercial-credit-card/corporate-credit-card-with-corporate-liability",
+          "snippet": "Fresh issuance of Axis Bank Corporate Card with Individual Liability has been discontinued. Contents on this site are applicable only to existing Axis Bank Corporate Credit Cardholders (with individua",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Business Credit Cards - Apply for Corporate Credit Card | SBI Card",
+          "link": "https://www.sbicard.com/en/corporate.page",
+          "snippet": "Business Credit Cards - Apply for SBI Corporate Credit Card in India & achieve higher efficiencies & savings. Browse from different types of visa corporate credit cards.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Card Issuing Solutions | Commercial Card Solutions | Corporate ...",
+          "link": "https://www.fiserv.com/en/solutions/card-issuing-solutions/commercial-card-solutions.html",
+          "snippet": "Commercial Card Solutions Strengthen the business-to-business value chain with corporate card payment processing and digital solutions. Fiserv's commercial card solutions provide robust support for bu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Overview - Emburse Cards - Emburse",
+          "link": "https://cards.emburse.com/",
+          "snippet": "Emburse Cards offer managed physical and virtual corporate cards and p-cards for employee and team-driven vendor spend.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Corporate Cards for Startups | Up to 1.5% Cashback | Rho",
+          "link": "https://www.rho.co/product/corporate-cards",
+          "snippet": "Issue corporate cards in minutes. Earn up to 1.5% cashback. Real-time spend controls, automated receipts, no personal guarantee. Built for founders.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Best Expensify Card Alternatives | Merchant Maverick",
+          "link": "https://www.merchantmaverick.com/alternatives-to-expensify/",
+          "snippet": "Best Alternatives To The Expensify Corporate Card. These alternative corporate cards to Expensify all have cash back for your business spending, expense management, accounting features, business integ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How can I configure corporate card issuers?",
+          "link": "https://docs.oracle.com/en/cloud/saas/financials/25a/faiex/how-can-i-configure-corporate-card-issuers.html",
+          "snippet": "You can set up a corporate card issuer through the Manage Corporate Card Issuers page. You can enter the card issuer's site information and payment information.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "9 tools to enhance corporate card services in 2026",
+          "link": "https://blog.pleo.io/en/9-tools-to-enhance-corporate-card-services",
+          "snippet": "What to look for in a corporate card service tool. The tools we\u2019ve covered in this list tackle different aspects of managing company spend, from issuing cards and setting spend limits to integrating e",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Spend Management, Corporate Cards & Accounts Payable... | Ramp",
+          "link": "https://ramp.com/",
+          "snippet": "Make expense management easy with Ramp's spend management platform. Combine global corporate cards, travel, expenses and accounts payable to automate finance operations and improve efficiency.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How to Apply for a Corporate Credit Card | J.P. Morgan",
+          "link": "https://www.jpmorgan.com/insights/payments/commercial-cards/how-to-apply-for-a-corporate-credit-card",
+          "snippet": "When you apply for a corporate card, be sure to consider the three ways issuers structure corporate card liability: Corporate liability: The company\u2014not the business owners or employees\u2014is solely resp",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How to Choose the Right Corporate Card Program | Slash",
+          "link": "https://www.slash.com/blog/corporate-card-program",
+          "snippet": "Corporate Credit Cards Explained: How They Work and How to Choose the Right Program. When you imagine using a corporate credit card, you might picture an executive breezing through airport lounges or ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Corporate Cards for Business and Singapore... | Airwallex SG",
+          "link": "https://www.airwallex.com/sg/blog/best-corporate-card-in-2024",
+          "snippet": "Get the best corporate card for small businesses in Singapore. Enjoy more savings, better security, and faster expense reconciliation from Airwallex.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Signals: Has fintech remade the corporate card?",
+          "link": "https://www.thisweekinfintech.com/p/has-fintech-remade-the-corporate-card",
+          "snippet": "Traditional top bank card issuers like American Express, Citibank, and Chase dominated the space alongside super-regional players like US Bank. In 2017, with the founding of Brex, a new era of corpora",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Corporate Card: Apply for Corporate Credit Card Online | HDFC Bank",
+          "link": "https://www.hdfc.bank.in/commercial-credit-cards/corporate-premium-credit-card",
+          "snippet": "Corporate Credit Card: Apply for a Corporate Card online with HDFC Bank. Enjoy insurance protection, access to airport lounges & earn reward points on your business spends.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Corporate Credit Card with Corporate Liability | Axis Bank",
+          "link": "https://www.axis.bank.in/cards/commercial-credit-card/corporate-credit-card-with-corporate-liability",
+          "snippet": "Fresh issuance of Axis Bank Corporate Card with Individual Liability has been discontinued. Contents on this site are applicable only to existing Axis Bank Corporate Credit Cardholders (with individua",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Business Credit Cards - Apply for Corporate Credit Card | SBI Card",
+          "link": "https://www.sbicard.com/en/corporate.page",
+          "snippet": "Business Credit Cards - Apply for SBI Corporate Credit Card in India & achieve higher efficiencies & savings. Browse from different types of visa corporate credit cards.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P2": {
+      "query": "business credit card providers",
+      "level": "discovery",
+      "result_count": 2,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Best Business Credit Cards for July 2026 - WalletHub7 Best Corporate Cards: Control Spend & Earn RewardsBest Business Cr",
+          "link": "https://wallethub.com/best-business-credit-cards",
+          "snippet": "3 days ago \u00b7 July 2026's best business credit cards are selected by WalletHub editors from 1,500+ credit card offers. Get expert help choosing the best business card. Jun 4, 2025 \u00b7 If you\u2019re in the ma",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "7 Best Corporate Cards: Control Spend & Earn Rewards",
+          "link": "https://www.techrepublic.com/article/best-corporate-cards/",
+          "snippet": "Jun 4, 2025 \u00b7 If you\u2019re in the market for a corporate credit card for your business, I\u2019ve done some research and compiled 7 of what I believe are some of the best options:",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Best Business Credit Cards for July 2026 - WalletHub7 Best Corporate Cards: Control Spend & Earn RewardsBest Business Cr",
+          "link": "https://wallethub.com/best-business-credit-cards",
+          "snippet": "3 days ago \u00b7 July 2026's best business credit cards are selected by WalletHub editors from 1,500+ credit card offers. Get expert help choosing the best business card. Jun 4, 2025 \u00b7 If you\u2019re in the ma",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "7 Best Corporate Cards: Control Spend & Earn Rewards",
+          "link": "https://www.techrepublic.com/article/best-corporate-cards/",
+          "snippet": "Jun 4, 2025 \u00b7 If you\u2019re in the market for a corporate credit card for your business, I\u2019ve done some research and compiled 7 of what I believe are some of the best options:",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P3": {
+      "query": "corporate card distributors",
+      "level": "discovery",
+      "result_count": 4,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Spend Management, Corporate Cards & Accounts Payable... | Ramp",
+          "link": "https://ramp.com/",
+          "snippet": "Make expense management easy with Ramp's spend management platform. Combine global corporate cards, travel, expenses and accounts payable to automate finance operations...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Business Banking, Cards & Treasury | Slash",
+          "link": "https://www.slash.com/",
+          "snippet": "Slash business banking dashboard showing corporate cards, treasury, and payment management.Banking, cards,1 crypto,4 treasury6 and more. All on one platform.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Find Top Wholesale Greeting Card Distributors for... - HMG Pop Up",
+          "link": "https://hmgpopup.com/find-top-wholesale-greeting-card-distributors-for-your-business/",
+          "snippet": "Corporate Cards.Wholesale greeting cards are cards you buy in bulk from a distributor at a lower price. You then sell them in your store for a profit.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cards | JCB Global Website",
+          "link": "https://www.global.jcb/en/products/cards/index.html",
+          "snippet": "JCB CARD Biz Gold. Suitable for various cases, from large-scale corporate card schemes to self-employed individuals / business owners. Affinity Cards to suit your interests and lifestyles.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Spend Management, Corporate Cards & Accounts Payable... | Ramp",
+          "link": "https://ramp.com/",
+          "snippet": "Make expense management easy with Ramp's spend management platform. Combine global corporate cards, travel, expenses and accounts payable to automate finance operations...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Business Banking, Cards & Treasury | Slash",
+          "link": "https://www.slash.com/",
+          "snippet": "Slash business banking dashboard showing corporate cards, treasury, and payment management.Banking, cards,1 crypto,4 treasury6 and more. All on one platform.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Find Top Wholesale Greeting Card Distributors for... - HMG Pop Up",
+          "link": "https://hmgpopup.com/find-top-wholesale-greeting-card-distributors-for-your-business/",
+          "snippet": "Corporate Cards.Wholesale greeting cards are cards you buy in bulk from a distributor at a lower price. You then sell them in your store for a profit.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cards | JCB Global Website",
+          "link": "https://www.global.jcb/en/products/cards/index.html",
+          "snippet": "JCB CARD Biz Gold. Suitable for various cases, from large-scale corporate card schemes to self-employed individuals / business owners. Affinity Cards to suit your interests and lifestyles.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P4": {
+      "query": "business card wholesalers",
+      "level": "discovery",
+      "result_count": 13,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Top Business Card Wholesalers: Compare Leading Suppliers",
+          "link": "https://www.sohofac.com/business-card-wholesaler/",
+          "snippet": "Discover top business card wholesalers with detailed company info, pros, cons, and feature comparisons to help you find the best wholesale solution.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Metal Business Card - Buy Reliable Metal Business Card...",
+          "link": "https://m.made-in-china.com/wholesale/metal-business-card.html",
+          "snippet": "Shopping Guide. Find wholesale metal business card online from China metal business card wholesalers and dropshippers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Verified Supplier Anodized Aluminium Business Cards... | Alibaba.com",
+          "link": "https://www.alibaba.com/showroom/anodized-aluminium-business-cards.html",
+          "snippet": "Shop our collection of anodized aluminium business cards. Customize your cards with laser engraving for a sleek and professional look. Wholesale prices.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "business card - Wholesale business card",
+          "link": "https://www.polstate.com/buy-business-card",
+          "snippet": "All business card wholesalers & business card manufacturers come from members. We doesn't provide business card products or service, please contact them directly and verify their...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Business Card, Business Card Suppliers & Business Card...",
+          "link": "https://www.tradekey.com/products/business-card.html",
+          "snippet": "Personalized PVC Business Card. Min Order: 100 Piece. FOB Price: 0.334 / Piece. Elevate your business image with customized PVC business cards designed for exceptional durability.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "scan business card - scan business card online Wholesalers",
+          "link": "https://www.burrillandco.com/buy-scan-business-card",
+          "snippet": "...Business Cards Personalised Business Cards Product Description: Printed matter, printed books, pictures, etc. are various printed products, and are the general term for various finished...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Smart Business Card Wholesaler: Premium NFC & RFID Cards",
+          "link": "https://www.accio.com/supplier/smart-business-card-wholesaler",
+          "snippet": "How to Choose Smart Business Card Wholesaler Suppliers. Selecting a reliable wholesaler requires evaluating both technical capabilities and business practices.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "printing business card list - printing business card for sale",
+          "link": "https://www.chinaqualitycrafts.com/wholesale-printing-business-card",
+          "snippet": "All printing business card wholesalers & printing business card manufacturers come from members.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "designing a business card list - designing a business card for sale",
+          "link": "https://www.chinacsw.com/designing-a-business-card-wholesale",
+          "snippet": "All designing a business card wholesalers & designing a business card manufacturers come from members.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Creative metal card premium metal membership card... - AliExpress",
+          "link": "https://www.aliexpress.com/item/32774975129.html",
+          "snippet": "steel business cards. metal card wholesalers.metal business card with qr code.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vegetable & Fruit Wholesalers QR Code Business Card | Zazzle",
+          "link": "https://www.zazzle.com/vegetable_fruit_wholesalers_qr_code_business_card-256598492279923219",
+          "snippet": "Vegetable & Fruit Wholesalers Business Card featuring a QR Code on the back. Calling card for a Vegetable and Fruit Wholesalers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Cheap Business Card... - Buy in Bulk on DHgate.com",
+          "link": "https://www.dhgate.com/wholesale/business+card+company.html",
+          "snippet": "Find wholesale business card company deals with top-quality business card manufacturers and business cards. Buy in bulk now and enjoy great discounts on DHgate.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Custom PVC Business Card Plastic Gift Certificate Cards, RFID Gift...",
+          "link": "https://www.nfctagfactory.com/products/pvc-gift-card.html",
+          "snippet": "Product name: rfid card for school students. Application: Business Card, Social media card. Size: 85.5*54mm or Customized. MOQ: 100pcs.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Top Business Card Wholesalers: Compare Leading Suppliers",
+          "link": "https://www.sohofac.com/business-card-wholesaler/",
+          "snippet": "Discover top business card wholesalers with detailed company info, pros, cons, and feature comparisons to help you find the best wholesale solution.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Metal Business Card - Buy Reliable Metal Business Card...",
+          "link": "https://m.made-in-china.com/wholesale/metal-business-card.html",
+          "snippet": "Shopping Guide. Find wholesale metal business card online from China metal business card wholesalers and dropshippers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Verified Supplier Anodized Aluminium Business Cards... | Alibaba.com",
+          "link": "https://www.alibaba.com/showroom/anodized-aluminium-business-cards.html",
+          "snippet": "Shop our collection of anodized aluminium business cards. Customize your cards with laser engraving for a sleek and professional look. Wholesale prices.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "business card - Wholesale business card",
+          "link": "https://www.polstate.com/buy-business-card",
+          "snippet": "All business card wholesalers & business card manufacturers come from members. We doesn't provide business card products or service, please contact them directly and verify their...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Business Card, Business Card Suppliers & Business Card...",
+          "link": "https://www.tradekey.com/products/business-card.html",
+          "snippet": "Personalized PVC Business Card. Min Order: 100 Piece. FOB Price: 0.334 / Piece. Elevate your business image with customized PVC business cards designed for exceptional durability.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "scan business card - scan business card online Wholesalers",
+          "link": "https://www.burrillandco.com/buy-scan-business-card",
+          "snippet": "...Business Cards Personalised Business Cards Product Description: Printed matter, printed books, pictures, etc. are various printed products, and are the general term for various finished...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Smart Business Card Wholesaler: Premium NFC & RFID Cards",
+          "link": "https://www.accio.com/supplier/smart-business-card-wholesaler",
+          "snippet": "How to Choose Smart Business Card Wholesaler Suppliers. Selecting a reliable wholesaler requires evaluating both technical capabilities and business practices.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "printing business card list - printing business card for sale",
+          "link": "https://www.chinaqualitycrafts.com/wholesale-printing-business-card",
+          "snippet": "All printing business card wholesalers & printing business card manufacturers come from members.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "designing a business card list - designing a business card for sale",
+          "link": "https://www.chinacsw.com/designing-a-business-card-wholesale",
+          "snippet": "All designing a business card wholesalers & designing a business card manufacturers come from members.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Creative metal card premium metal membership card... - AliExpress",
+          "link": "https://www.aliexpress.com/item/32774975129.html",
+          "snippet": "steel business cards. metal card wholesalers.metal business card with qr code.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vegetable & Fruit Wholesalers QR Code Business Card | Zazzle",
+          "link": "https://www.zazzle.com/vegetable_fruit_wholesalers_qr_code_business_card-256598492279923219",
+          "snippet": "Vegetable & Fruit Wholesalers Business Card featuring a QR Code on the back. Calling card for a Vegetable and Fruit Wholesalers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Cheap Business Card... - Buy in Bulk on DHgate.com",
+          "link": "https://www.dhgate.com/wholesale/business+card+company.html",
+          "snippet": "Find wholesale business card company deals with top-quality business card manufacturers and business cards. Buy in bulk now and enjoy great discounts on DHgate.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Custom PVC Business Card Plastic Gift Certificate Cards, RFID Gift...",
+          "link": "https://www.nfctagfactory.com/products/pvc-gift-card.html",
+          "snippet": "Product name: rfid card for school students. Application: Business Card, Social media card. Size: 85.5*54mm or Customized. MOQ: 100pcs.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P5": {
+      "query": "corporate card service providers",
+      "level": "discovery",
+      "result_count": 9,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Account & cards | Corporate Clients - Commerzbank",
+          "link": "https://www.commerzbank.com/account-cashmanagement/products/accounts-cards/",
+          "snippet": "Commerzbank Corporate Cards. Corporate Card Classic.All additional services, such as the provision of the credit card platform via web or mobile app, are provided by Pliant GmbH, headquartered in Germ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "What is a Corporate Card? Guide For Your Business... | Airwallex",
+          "link": "https://www.airwallex.com/global/blog/what-are-corporate-cards",
+          "snippet": "Visa\u2019s corporate card service, for example, is available through all the big banks, and they provide you with the name and contact details of the specific person who deals with these cards. So, it\u2019s n",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Spend Management, Corporate Cards & Accounts Payable... | Ramp",
+          "link": "https://ramp.com/",
+          "snippet": "Make expense management easy with Ramp's spend management platform. Combine global corporate cards, travel, expenses and accounts payable to automate finance operations and improve efficiency.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Business Banking, Cards & Treasury | Slash",
+          "link": "https://www.slash.com/",
+          "snippet": "Slash is a complete financial platform with business banking, corporate cards with up to 2% cashback, treasury, working capital, and global payments.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "10 Best Virtual Credit Card Providers in 2026",
+          "link": "https://www.volopay.com/au/blog/best-virtual-credit-card-providers/",
+          "snippet": "Best virtual card providers in Australia in 2026 - Top picks. Importance of virtual credit cards for businesses.- The NAB Virtual Corporate Card provides a digital payment solution for your business, ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "10 Top Spend Management Software Solutions for 2026 | Order.co",
+          "link": "https://www.order.co/blog/spend-management/spend-management-software/",
+          "snippet": "Airbase serves customers from the computer software, IT services, financial services, and automotive industries. Top Features: Guided procurement. Accounts payable automation. Expense management. Corp",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bolt Group",
+          "link": "https://www.bolt.net/",
+          "snippet": "Corporate card service. Includes: Multi-currency ready \u2014 pay and get paid globally in multiple currencies. Low FX fees \u2014 keep more of your money when moving across borders. No hidden costs \u2014 no accoun",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Business Account | Manage Your Finances | Revolut Business",
+          "link": "https://www.revolut.com/business/",
+          "snippet": "Investment services are provided by Revolut Trading Ltd (No. 11567840), which is authorised and regulated by the Financial Conduct Authority (FRN: 933846).Spend management. Corporate cards Expenses Bi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Reap | Global financial infrastructure powered by stablecoins",
+          "link": "https://reap.global/",
+          "snippet": "Business ready. Corporate Cards. The ultimate corporate credit card for Web3 ecosystem businesses. Payments. Send stablecoins from anywhere - recipients get paid in local currency, fast and friction-f",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Account & cards | Corporate Clients - Commerzbank",
+          "link": "https://www.commerzbank.com/account-cashmanagement/products/accounts-cards/",
+          "snippet": "Commerzbank Corporate Cards. Corporate Card Classic.All additional services, such as the provision of the credit card platform via web or mobile app, are provided by Pliant GmbH, headquartered in Germ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "What is a Corporate Card? Guide For Your Business... | Airwallex",
+          "link": "https://www.airwallex.com/global/blog/what-are-corporate-cards",
+          "snippet": "Visa\u2019s corporate card service, for example, is available through all the big banks, and they provide you with the name and contact details of the specific person who deals with these cards. So, it\u2019s n",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Spend Management, Corporate Cards & Accounts Payable... | Ramp",
+          "link": "https://ramp.com/",
+          "snippet": "Make expense management easy with Ramp's spend management platform. Combine global corporate cards, travel, expenses and accounts payable to automate finance operations and improve efficiency.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Business Banking, Cards & Treasury | Slash",
+          "link": "https://www.slash.com/",
+          "snippet": "Slash is a complete financial platform with business banking, corporate cards with up to 2% cashback, treasury, working capital, and global payments.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "10 Best Virtual Credit Card Providers in 2026",
+          "link": "https://www.volopay.com/au/blog/best-virtual-credit-card-providers/",
+          "snippet": "Best virtual card providers in Australia in 2026 - Top picks. Importance of virtual credit cards for businesses.- The NAB Virtual Corporate Card provides a digital payment solution for your business, ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "10 Top Spend Management Software Solutions for 2026 | Order.co",
+          "link": "https://www.order.co/blog/spend-management/spend-management-software/",
+          "snippet": "Airbase serves customers from the computer software, IT services, financial services, and automotive industries. Top Features: Guided procurement. Accounts payable automation. Expense management. Corp",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bolt Group",
+          "link": "https://www.bolt.net/",
+          "snippet": "Corporate card service. Includes: Multi-currency ready \u2014 pay and get paid globally in multiple currencies. Low FX fees \u2014 keep more of your money when moving across borders. No hidden costs \u2014 no accoun",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Business Account | Manage Your Finances | Revolut Business",
+          "link": "https://www.revolut.com/business/",
+          "snippet": "Investment services are provided by Revolut Trading Ltd (No. 11567840), which is authorised and regulated by the Financial Conduct Authority (FRN: 933846).Spend management. Corporate cards Expenses Bi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Reap | Global financial infrastructure powered by stablecoins",
+          "link": "https://reap.global/",
+          "snippet": "Business ready. Corporate Cards. The ultimate corporate credit card for Web3 ecosystem businesses. Payments. Send stablecoins from anywhere - recipients get paid in local currency, fast and friction-f",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "business card integration services",
+      "level": "discovery",
+      "result_count": 10,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Digital Business Cards for Sales Teams - businesscards.io",
+          "link": "https://businesscards.io/for/sales",
+          "snippet": "Sales professional sharing a digital business card at a meeting. Turn every meeting, trade show, and cold call into a qualified lead.Ability to embed a Youtube or Vimeo video to your business card to ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "DigiVCard \u2013 Your Ultimate Digital Business Card Solution",
+          "link": "https://digivcard.io/",
+          "snippet": "CRM Integration. Icon of a digital business card inside a scanning frame, symbolizing NFC or QR-based digital card sharing. Instantly Convert Paper Business Cards to Digital.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Digital Business Card | Trowas - Touch Share Connect",
+          "link": "https://trowas.com/en",
+          "snippet": "Artificial Intelligence Powered Business Card Scanner. Instantly digitize physical business cards, event badges and QR codes by scanning them. Automatically classify information with AI support and in",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "CCA Business Cards",
+          "link": "https://www.colorcardadministrator.com/?page=api",
+          "snippet": "Business Card Management. Systems Software Integrator.CCA will integrate with your proprietary backend systems or to any Human Capital Management program that allows for API integration. Online Busine",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Pricing | Social Card",
+          "link": "https://www.joinsocialcard.com/pricing",
+          "snippet": "Google Wallet business card integration. Web Pages.Does Social Card offer print services? No. Social Card is a 100% digital solution focused on providing long-term sustainability solutions to our cust",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "vCard SaaS - Digital Business Card Builder - Bio Links Builder",
+          "link": "https://codecanyon.net/item/vcard-saas-digital-business-card-builder-bio-links-builder/34885397",
+          "snippet": "No fragmented tools. No patchwork integrations. One codebase, one admin panel, one coherent digital business card platform \u2014 built to serve your users and generate subscription revenue from day one. v",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Automate businesscards.io integrations with Nekton",
+          "link": "https://nekton.ai/integration/businesscardsio",
+          "snippet": "businesscards.io businesscards.io integrations. Use Nekton to connect businesscards.io with thousands of other services, and automate your day-to-day tasks. Describe what you want to automate in plain",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Credit card payment processor, online payments... | Authorize.net",
+          "link": "https://www.authorize.net/",
+          "snippet": "Authorize.net is an online payment system and credit card payment processor. We provide secure credit card payment processing systems for subscriptions, retail, and mobile, serving as your trusted cre",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "ISO8583 Integration Services - Card Payments",
+          "link": "https://neapay.com/iso8583-processing-service-connect-acquire-switch-interface-convert.html",
+          "snippet": "Integrate card payments schemes and payments protocols. SaaS, no business or technical knowledge required. As Service in Cloud, Configured, Customized, Deployed, Tested, Guaranteed. Continous Support ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wallet Business Card Guide: Stand Out in 2025 \u2022 Spreadly",
+          "link": "https://spreadly.app/en/blog/wallet-business-card",
+          "snippet": "Deeper Integrations with Business Tools. Integration is set to become a defining feature of the modern wallet business card. Expect seamless connections to CRM, HR, and scheduling platforms, eliminati",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Digital Business Cards for Sales Teams - businesscards.io",
+          "link": "https://businesscards.io/for/sales",
+          "snippet": "Sales professional sharing a digital business card at a meeting. Turn every meeting, trade show, and cold call into a qualified lead.Ability to embed a Youtube or Vimeo video to your business card to ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "DigiVCard \u2013 Your Ultimate Digital Business Card Solution",
+          "link": "https://digivcard.io/",
+          "snippet": "CRM Integration. Icon of a digital business card inside a scanning frame, symbolizing NFC or QR-based digital card sharing. Instantly Convert Paper Business Cards to Digital.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Digital Business Card | Trowas - Touch Share Connect",
+          "link": "https://trowas.com/en",
+          "snippet": "Artificial Intelligence Powered Business Card Scanner. Instantly digitize physical business cards, event badges and QR codes by scanning them. Automatically classify information with AI support and in",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "CCA Business Cards",
+          "link": "https://www.colorcardadministrator.com/?page=api",
+          "snippet": "Business Card Management. Systems Software Integrator.CCA will integrate with your proprietary backend systems or to any Human Capital Management program that allows for API integration. Online Busine",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Pricing | Social Card",
+          "link": "https://www.joinsocialcard.com/pricing",
+          "snippet": "Google Wallet business card integration. Web Pages.Does Social Card offer print services? No. Social Card is a 100% digital solution focused on providing long-term sustainability solutions to our cust",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "vCard SaaS - Digital Business Card Builder - Bio Links Builder",
+          "link": "https://codecanyon.net/item/vcard-saas-digital-business-card-builder-bio-links-builder/34885397",
+          "snippet": "No fragmented tools. No patchwork integrations. One codebase, one admin panel, one coherent digital business card platform \u2014 built to serve your users and generate subscription revenue from day one. v",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Automate businesscards.io integrations with Nekton",
+          "link": "https://nekton.ai/integration/businesscardsio",
+          "snippet": "businesscards.io businesscards.io integrations. Use Nekton to connect businesscards.io with thousands of other services, and automate your day-to-day tasks. Describe what you want to automate in plain",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Credit card payment processor, online payments... | Authorize.net",
+          "link": "https://www.authorize.net/",
+          "snippet": "Authorize.net is an online payment system and credit card payment processor. We provide secure credit card payment processing systems for subscriptions, retail, and mobile, serving as your trusted cre",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "ISO8583 Integration Services - Card Payments",
+          "link": "https://neapay.com/iso8583-processing-service-connect-acquire-switch-interface-convert.html",
+          "snippet": "Integrate card payments schemes and payments protocols. SaaS, no business or technical knowledge required. As Service in Cloud, Configured, Customized, Deployed, Tested, Guaranteed. Continous Support ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wallet Business Card Guide: Stand Out in 2025 \u2022 Spreadly",
+          "link": "https://spreadly.app/en/blog/wallet-business-card",
+          "snippet": "Deeper Integrations with Business Tools. Integration is set to become a defining feature of the modern wallet business card. Expect seamless connections to CRM, HR, and scheduling platforms, eliminati",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P7": {
+      "query": "payment processing service providers",
+      "level": "discovery",
+      "result_count": 7,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Top 21 IT Consulting Companies in Germany",
+          "link": "https://www.inven.ai/company-lists/top-21-it-consulting-companies-in-germany",
+          "snippet": "Top 21 IT Consulting Companies in Germany 1. T-Systems International Website: t-systems.com Ownership type: Corporate \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Top 100 Technology Consulting Companies in Germany (2026) | ensun",
+          "link": "https://ensun.io/search/technology-consulting/germany",
+          "snippet": "Discover all relevant Technology Consulting Companies in Germany, including cbs Corporate Business Solutions and Assecor",
+          "backend": "searxng"
+        },
+        {
+          "title": "Credit card payment processor, online payments... | Authorize.net",
+          "link": "https://www.authorize.net/",
+          "snippet": "Authorize.net is an online payment system and credit card payment processor.Find a reseller. Our preferred resellers provide merchant services that combine a merchant account along with Authorize.net ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Credit Card Processing Companies - PaymentProcessing.com",
+          "link": "https://www.paymentprocessing.com/credit-card-processing-reviews/",
+          "snippet": "This causes a big problem when it comes to cash flow, especially if this payment processing service is your only provider. Getting your account set up again takes time and energy, and PSPs are not kno",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Digital Payment Service Provider | AsiaPay",
+          "link": "https://asiapay.com/",
+          "snippet": "AsiaPay is an all-in-one digital payment service provider that supports banks, merchants, and other PSPs in accepting digital payments through cards, bank accounts/netbanking, digital wallets, buy now",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nashua Restaurant Payment Processing Services - Monify",
+          "link": "https://www.mymonify.com/nashua-restuarant-payment-processing-services/",
+          "snippet": "Secure, EMV chip-enabled credit card processing with your POS system. Experts in Payment Processing In Serving New Hampshire.Our business service providers can tailor a transaction processing package ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 52 sites like paysoft.solutions & alternatives",
+          "link": "https://www.sitelike.org/similar/paysoft.solutions/",
+          "snippet": "Their services include credit card processing, fraud prevention, and comprehensive reporting to streamline e-commerce operations. Payment service provider.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Top 21 IT Consulting Companies in Germany",
+          "link": "https://www.inven.ai/company-lists/top-21-it-consulting-companies-in-germany",
+          "snippet": "Top 21 IT Consulting Companies in Germany 1. T-Systems International Website: t-systems.com Ownership type: Corporate \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Top 100 Technology Consulting Companies in Germany (2026) | ensun",
+          "link": "https://ensun.io/search/technology-consulting/germany",
+          "snippet": "Discover all relevant Technology Consulting Companies in Germany, including cbs Corporate Business Solutions and Assecor",
+          "backend": "searxng"
+        },
+        {
+          "title": "Credit card payment processor, online payments... | Authorize.net",
+          "link": "https://www.authorize.net/",
+          "snippet": "Authorize.net is an online payment system and credit card payment processor.Find a reseller. Our preferred resellers provide merchant services that combine a merchant account along with Authorize.net ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Credit Card Processing Companies - PaymentProcessing.com",
+          "link": "https://www.paymentprocessing.com/credit-card-processing-reviews/",
+          "snippet": "This causes a big problem when it comes to cash flow, especially if this payment processing service is your only provider. Getting your account set up again takes time and energy, and PSPs are not kno",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Digital Payment Service Provider | AsiaPay",
+          "link": "https://asiapay.com/",
+          "snippet": "AsiaPay is an all-in-one digital payment service provider that supports banks, merchants, and other PSPs in accepting digital payments through cards, bank accounts/netbanking, digital wallets, buy now",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nashua Restaurant Payment Processing Services - Monify",
+          "link": "https://www.mymonify.com/nashua-restuarant-payment-processing-services/",
+          "snippet": "Secure, EMV chip-enabled credit card processing with your POS system. Experts in Payment Processing In Serving New Hampshire.Our business service providers can tailor a transaction processing package ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 52 sites like paysoft.solutions & alternatives",
+          "link": "https://www.sitelike.org/similar/paysoft.solutions/",
+          "snippet": "Their services include credit card processing, fraud prevention, and comprehensive reporting to streamline e-commerce operations. Payment service provider.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

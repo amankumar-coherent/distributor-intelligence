@@ -1,0 +1,1667 @@
+{
+  "phase": 1,
+  "query": "Security Spending Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T21:39:23.210705+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "Security Spending",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "security",
+    "industry_terms": [
+      "cybersecurity",
+      "physical security",
+      "integrated security solutions",
+      "managed security services",
+      "security consulting"
+    ],
+    "ecosystem_functions": [
+      "distributing security products",
+      "wholesaling security equipment",
+      "reselling security solutions",
+      "integrating security systems",
+      "providing security services",
+      "partnering for security solutions",
+      "consulting on security strategies",
+      "responding to security incidents"
+    ],
+    "interpretation_summary": "The Security Spending Market encompasses the financial investments made by organizations in security products and services, including physical security, cybersecurity, and integrated security solutions. Key participants",
+    "relevance_keywords": [
+      "security solutions",
+      "cybersecurity products",
+      "physical security systems",
+      "integrated security services",
+      "security distribution"
+    ],
+    "negative_keywords": [
+      "unrelated industries",
+      "general news",
+      "job postings",
+      "consulting firms",
+      "market analysis"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "Ingram Micro",
+        "primary_domain": "ingrammicro.com",
+        "company_function": "distributor of it products and security solutions"
+      },
+      {
+        "canonical_name": "Tech Data",
+        "primary_domain": "techdata.com",
+        "company_function": "distributor of technology products including security"
+      },
+      {
+        "canonical_name": "Synnex",
+        "primary_domain": "synnex.com",
+        "company_function": "distributor of it and security products"
+      },
+      {
+        "canonical_name": "D&H Distributing",
+        "primary_domain": "dandh.com",
+        "company_function": "distributor specializing in security solutions"
+      },
+      {
+        "canonical_name": "Arrow Electronics",
+        "primary_domain": "arrow.com",
+        "company_function": "distributor of electronic components and security products"
+      },
+      {
+        "canonical_name": "CDW",
+        "primary_domain": "cdw.com",
+        "company_function": "reseller of it and security solutions"
+      },
+      {
+        "canonical_name": "Insight Enterprises",
+        "primary_domain": "insight.com",
+        "company_function": "reseller of technology and security products"
+      },
+      {
+        "canonical_name": "Softchoice",
+        "primary_domain": "softchoice.com",
+        "company_function": "reseller of it and security solutions"
+      },
+      {
+        "canonical_name": "Secureworks",
+        "primary_domain": "secureworks.com",
+        "company_function": "Managed Security Service Provider",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Trustwave",
+        "primary_domain": "trustwave.com",
+        "company_function": "Managed Security Service Provider",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "AT&T Cybersecurity",
+        "primary_domain": "att.com",
+        "company_function": "Cybersecurity service provider",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Accenture",
+        "primary_domain": "accenture.com",
+        "company_function": "Consulting and integration services in security",
+        "segment": "System Integrators",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "IBM Security",
+        "primary_domain": "ibm.com",
+        "company_function": "Cybersecurity solutions and integration",
+        "segment": "System Integrators",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Cisco Systems",
+        "primary_domain": "cisco.com",
+        "company_function": "Provider of security products and integration services",
+        "segment": "System Integrators",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "Security Spending",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "Security Spending",
+    "include_keywords": [
+      "security product distributor",
+      "cybersecurity reseller",
+      "security system integrator",
+      "managed security service provider",
+      "security consulting services"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The Security Spending Market encompasses the financial investments made by organizations in security products and services, including physical security, cybersecurity, and integrated security solutions. Key participants include distributors, wholesalers, resellers, system integrators, service providers, and channel partners operating globally.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Distribution",
+        "description": "This layer involves the distribution of security products and services through various channel partners.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Physical Security Distributors",
+              "Cybersecurity Distributors"
+            ],
+            "participant_types": [
+              "distributor"
+            ],
+            "search_intents": [
+              "security product distributor official site",
+              "cybersecurity distributor company website"
+            ]
+          },
+          {
+            "segment_name": "Wholesalers",
+            "sub_segments": [
+              "Bulk Security Equipment Wholesalers"
+            ],
+            "participant_types": [
+              "wholesaler"
+            ],
+            "search_intents": [
+              "wholesale security equipment suppliers",
+              "security wholesaler official site"
+            ]
+          },
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Value-Added Resellers (VARs)",
+              "Managed Security Service Providers (MSSPs)"
+            ],
+            "participant_types": [
+              "reseller"
+            ],
+            "search_intents": [
+              "security solutions reseller company",
+              "managed security service provider official site"
+            ]
+          },
+          {
+            "segment_name": "System Integrators",
+            "sub_segments": [
+              "Physical Security Integrators",
+              "Cybersecurity Integrators"
+            ],
+            "participant_types": [
+              "system integrator"
+            ],
+            "search_intents": [
+              "security system integrator official site",
+              "cybersecurity integration services company"
+            ]
+          },
+          {
+            "segment_name": "Service Providers",
+            "sub_segments": [
+              "Security Consulting Services",
+              "Incident Response Services"
+            ],
+            "participant_types": [
+              "service provider"
+            ],
+            "search_intents": [
+              "security consulting services company",
+              "incident response service provider official site"
+            ]
+          },
+          {
+            "segment_name": "Channel Partners",
+            "sub_segments": [
+              "Technology Partners",
+              "Sales Partners"
+            ],
+            "participant_types": [
+              "channel partner"
+            ],
+            "search_intents": [
+              "security technology channel partner official site",
+              "security sales partner company website"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Manufacturers",
+        "End Users",
+        "Consultants",
+        "Market Research Firms"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "search for security product distributor official site",
+        "sub_sector": "security_distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "search for wholesale security equipment suppliers",
+        "sub_sector": "security_wholesaler",
+        "layer_id": "L1",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "search for security solutions reseller company",
+        "sub_sector": "security_reseller",
+        "layer_id": "L1",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "search for security system integrator official site",
+        "sub_sector": "security_integrator",
+        "layer_id": "L1",
+        "segment": "System Integrators"
+      },
+      {
+        "id": "M5",
+        "level": "market_map",
+        "text": "search for security consulting services company",
+        "sub_sector": "security_service_provider",
+        "layer_id": "L1",
+        "segment": "Service Providers"
+      },
+      {
+        "id": "M6",
+        "level": "market_map",
+        "text": "search for security technology channel partner official site",
+        "sub_sector": "security_channel_partner",
+        "layer_id": "L1",
+        "segment": "Channel Partners"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "security",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "Security Spending Market companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "Security product distributor corporate site"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "Security service provider official website"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "market_map",
+      "text": "search for security product distributor official site"
+    },
+    {
+      "id": "P2",
+      "level": "market_map",
+      "text": "search for wholesale security equipment suppliers"
+    },
+    {
+      "id": "P3",
+      "level": "market_map",
+      "text": "search for security solutions reseller company"
+    },
+    {
+      "id": "P4",
+      "level": "market_map",
+      "text": "search for security system integrator official site"
+    },
+    {
+      "id": "P5",
+      "level": "market_map",
+      "text": "search for security consulting services company"
+    },
+    {
+      "id": "P6",
+      "level": "market_map",
+      "text": "search for security technology channel partner official site"
+    },
+    {
+      "id": "P7",
+      "level": "discovery",
+      "text": "security product distributor official site"
+    },
+    {
+      "id": "P8",
+      "level": "discovery",
+      "text": "wholesale security equipment suppliers"
+    },
+    {
+      "id": "P9",
+      "level": "discovery",
+      "text": "security solutions reseller company"
+    },
+    {
+      "id": "P10",
+      "level": "discovery",
+      "text": "security system integrator official site"
+    },
+    {
+      "id": "P11",
+      "level": "discovery",
+      "text": "security consulting services company"
+    },
+    {
+      "id": "P12",
+      "level": "discovery",
+      "text": "security technology channel partner official site"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "Security Spending Market companies official websites",
+      "level": "L0",
+      "result_count": 4,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Security Spending Market Size, Share and Forecast, 2026-2033",
+          "link": "https://www.coherentmarketinsights.com/market-insight/security-spending-market-6144",
+          "snippet": "Mar 26, 2026 \u00b7 Security Spending Market size is estimated to be valued at US$ 203.26 Bn in 2026 and is expected to expand at a CAGR of 8.2%, reaching US$ 352.90 Bn by 2033.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Worldwide Security Spending Guide",
+          "link": "https://www.idc.com/tracker/showproductinfo.jsp?containerId=IDC_P33461",
+          "snippet": "IDC's Worldwide Security Spending Guide examines the security opportunity from a technology, industry, company size, and geography perspective. This comprehensive database, delivered via IDC's Custome",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "IT Security Spending Market Analysis and Future Prospects... | Medium",
+          "link": "https://medium.com/@simmy.mandley/it-security-spending-market-analysis-and-future-prospects-for-2030-2a7c7847a48d",
+          "snippet": "The world of the it security spending market is a complex and ever-evolving landscape, shaped by consumer demands and technological advancements.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "30+ Industry Turnover Statistics | Sourced 2026 Stats",
+          "link": "https://wifitalents.com/industry-turnover-statistics/",
+          "snippet": "Cloud, AI, and security spending are accelerating fast as companies invest more and optimize costs.Our research team aggregates data from peer-reviewed studies, official statistics, industry reports, ",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Security Spending Market Size, Share and Forecast, 2026-2033",
+          "link": "https://www.coherentmarketinsights.com/market-insight/security-spending-market-6144",
+          "snippet": "Mar 26, 2026 \u00b7 Security Spending Market size is estimated to be valued at US$ 203.26 Bn in 2026 and is expected to expand at a CAGR of 8.2%, reaching US$ 352.90 Bn by 2033.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Worldwide Security Spending Guide",
+          "link": "https://www.idc.com/tracker/showproductinfo.jsp?containerId=IDC_P33461",
+          "snippet": "IDC's Worldwide Security Spending Guide examines the security opportunity from a technology, industry, company size, and geography perspective. This comprehensive database, delivered via IDC's Custome",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "IT Security Spending Market Analysis and Future Prospects... | Medium",
+          "link": "https://medium.com/@simmy.mandley/it-security-spending-market-analysis-and-future-prospects-for-2030-2a7c7847a48d",
+          "snippet": "The world of the it security spending market is a complex and ever-evolving landscape, shaped by consumer demands and technological advancements.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "30+ Industry Turnover Statistics | Sourced 2026 Stats",
+          "link": "https://wifitalents.com/industry-turnover-statistics/",
+          "snippet": "Cloud, AI, and security spending are accelerating fast as companies invest more and optimize costs.Our research team aggregates data from peer-reviewed studies, official statistics, industry reports, ",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "Security product distributor corporate site",
+      "level": "L1",
+      "result_count": 13,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Security, AV & Smart Product Distributor | ADI Global",
+          "link": "https://www.adiglobal.com/",
+          "snippet": "Jul 14, 2026 \u00b7 ADI is a leading distributor and solution provider of security, AV, and smart living products serving over 100,000 customers worldwide. We offer access to a broad portfolio of products,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Distributor of Security, AV & Low Voltage Products ...",
+          "link": "https://www.adiglobaldistribution.us/",
+          "snippet": "ADI is the leading global wholesale distributor of security, AV, and low-voltage products. Shop today and learn more about ADI Global Distribution US.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "IDN Global, Inc. \u2013 Wholesale Distributor of Security Hardware ...",
+          "link": "https://www.idn-inc.com/",
+          "snippet": "With a wholesale distribution network of more than 50 locations representing over 300 manufacturers, IDN offers customers the strength and buying power of a national organization along with local prod",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Security Equipment Wholesale Distributors | Security ...",
+          "link": "https://sesonline.com/",
+          "snippet": "As the nation's leading security equipment wholesale distributors, Security Equipment Supply has 14 locations across the United States that have large in-house inventories and offer customized product",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "APD | Wholesale Security Product Distributor | Fire, Access ...",
+          "link": "https://apdlink.com/",
+          "snippet": "Wholesale distributor of security, fire alarm, access control & surveillance products since 1972. Serving licensed integrators from MN, TX & MT.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tyco Security Products and Solutions",
+          "link": "https://www.tyco.com/",
+          "snippet": "Jun 17, 2019 \u00b7 Tyco provides cyber-resilient systems with a range of capabilities to address the diverse security needs of our customers. We help technology partners integrate their third-party soluti",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - WHOLESALE Security Products Distributor",
+          "link": "https://thesecuritysourceinc.com/",
+          "snippet": "Our customers and suppliers say they find us to be unique as a leading wholesale security products distributor, but that\u2019s for you to discover and experience for yourself.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Leader in Cybersecurity Protection & Software for... - Palo Alto Networks",
+          "link": "https://www.paloaltonetworks.com/",
+          "snippet": "Implement Zero Trust, Secure your Network, Cloud workloads, Hybrid Workforce, Leverage Threat Intelligence & Security Consulting. Cybersecurity Services & Education for CISO\u2019s, Head of Infrastructure,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "PPT - Security system distributor PowerPoint Presentation, free...",
+          "link": "https://www.slideserve.com/techsourced/security-system-distributor",
+          "snippet": "Many enterprises appoint security system distributor who claim that to ensure security, a CCTV camera is enough. The security product distributor have many devices which capture everyday activities wh",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Protect your digital moments | F\u2011Secure",
+          "link": "https://www.f-secure.com/",
+          "snippet": "Brilliantly simple security expriences. One app with award-winning antivirus, unlimited VPN and identity protection. Download a free trial today.F-Secure Scam Protection. Stay safe against online scam",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Gentex Corporation | Ops-Core Headborne Protection",
+          "link": "https://www.gentexcorp.com/ops-core/",
+          "snippet": "Ops-Core specializes in comprehensive headborne system solutions for elite defense, law enforcement, and security forces.Learn About Gentex Corporation. At Gentex, we\u2019re constantly evolving and making",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sandisk SSDs, Memory Cards, and Flash Drives for Your... | Sandisk",
+          "link": "https://www.sandisk.com/",
+          "snippet": "Sandisk\u2019s automotive-grade products are developed in alignment with key industry standards and quality frameworks. These standards guide our design, development, and validation processes to meet the s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Android Studio machine checklist | OS, RAM, virtualization",
+          "link": "https://android-studio.net/requirements.html",
+          "snippet": "Install packages track supported Windows, macOS, and Linux distributions. Corporate images should verify driver compatibility for GPU accelerated emulator modes and USB debugging. Keep OS updates curr",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Security, AV & Smart Product Distributor | ADI Global",
+          "link": "https://www.adiglobal.com/",
+          "snippet": "Jul 14, 2026 \u00b7 ADI is a leading distributor and solution provider of security, AV, and smart living products serving over 100,000 customers worldwide. We offer access to a broad portfolio of products,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Distributor of Security, AV & Low Voltage Products ...",
+          "link": "https://www.adiglobaldistribution.us/",
+          "snippet": "ADI is the leading global wholesale distributor of security, AV, and low-voltage products. Shop today and learn more about ADI Global Distribution US.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "IDN Global, Inc. \u2013 Wholesale Distributor of Security Hardware ...",
+          "link": "https://www.idn-inc.com/",
+          "snippet": "With a wholesale distribution network of more than 50 locations representing over 300 manufacturers, IDN offers customers the strength and buying power of a national organization along with local prod",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Security Equipment Wholesale Distributors | Security ...",
+          "link": "https://sesonline.com/",
+          "snippet": "As the nation's leading security equipment wholesale distributors, Security Equipment Supply has 14 locations across the United States that have large in-house inventories and offer customized product",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "APD | Wholesale Security Product Distributor | Fire, Access ...",
+          "link": "https://apdlink.com/",
+          "snippet": "Wholesale distributor of security, fire alarm, access control & surveillance products since 1972. Serving licensed integrators from MN, TX & MT.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tyco Security Products and Solutions",
+          "link": "https://www.tyco.com/",
+          "snippet": "Jun 17, 2019 \u00b7 Tyco provides cyber-resilient systems with a range of capabilities to address the diverse security needs of our customers. We help technology partners integrate their third-party soluti",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - WHOLESALE Security Products Distributor",
+          "link": "https://thesecuritysourceinc.com/",
+          "snippet": "Our customers and suppliers say they find us to be unique as a leading wholesale security products distributor, but that\u2019s for you to discover and experience for yourself.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Leader in Cybersecurity Protection & Software for... - Palo Alto Networks",
+          "link": "https://www.paloaltonetworks.com/",
+          "snippet": "Implement Zero Trust, Secure your Network, Cloud workloads, Hybrid Workforce, Leverage Threat Intelligence & Security Consulting. Cybersecurity Services & Education for CISO\u2019s, Head of Infrastructure,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "PPT - Security system distributor PowerPoint Presentation, free...",
+          "link": "https://www.slideserve.com/techsourced/security-system-distributor",
+          "snippet": "Many enterprises appoint security system distributor who claim that to ensure security, a CCTV camera is enough. The security product distributor have many devices which capture everyday activities wh",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Protect your digital moments | F\u2011Secure",
+          "link": "https://www.f-secure.com/",
+          "snippet": "Brilliantly simple security expriences. One app with award-winning antivirus, unlimited VPN and identity protection. Download a free trial today.F-Secure Scam Protection. Stay safe against online scam",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Gentex Corporation | Ops-Core Headborne Protection",
+          "link": "https://www.gentexcorp.com/ops-core/",
+          "snippet": "Ops-Core specializes in comprehensive headborne system solutions for elite defense, law enforcement, and security forces.Learn About Gentex Corporation. At Gentex, we\u2019re constantly evolving and making",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sandisk SSDs, Memory Cards, and Flash Drives for Your... | Sandisk",
+          "link": "https://www.sandisk.com/",
+          "snippet": "Sandisk\u2019s automotive-grade products are developed in alignment with key industry standards and quality frameworks. These standards guide our design, development, and validation processes to meet the s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Android Studio machine checklist | OS, RAM, virtualization",
+          "link": "https://android-studio.net/requirements.html",
+          "snippet": "Install packages track supported Windows, macOS, and Linux distributions. Corporate images should verify driver compatibility for GPU accelerated emulator modes and USB debugging. Keep OS updates curr",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "Security service provider official website",
+      "level": "L2",
+      "result_count": 9,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Office Help & Training",
+          "link": "https://support.office.com/en-us/article/Go-to-the-Office-365-Security-Compliance-Center-7e696a40-b86b-4a20-afcc-559218b7b1b8",
+          "snippet": "We would like to show you a description here but the site won\u2019t allow us.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Leader in Cybersecurity Protection & Software for... - Palo Alto Networks",
+          "link": "https://www.paloaltonetworks.com/",
+          "snippet": "Cybersecurity Services & Education for CISO\u2019s, Head of Infrastructure, Network Security Engineers, Cloud Architects & SOC Managers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Allot - Cybersecurity Solutions & Network Intelligence",
+          "link": "https://www.allot.com/",
+          "snippet": "Allot is a global provider of innovative cybersecurity solutions & network intelligence for Service Providers and Enterprises.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "SharkTeam - The World\u2019s Leading Web3 Security Service Provider",
+          "link": "https://sharkteam.org/",
+          "snippet": "The World\u2019s Leading Web3 Security Service Provider...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - Cape",
+          "link": "https://www.cape.co/",
+          "snippet": "Cape is premium wireless coverage with an added layer of personal security. Talk, text, and live with the confidence that you\u2019re protected.Cape, a privacy-focused cell service provider, officially eme",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Welcome to Cloudflare - Powering the next generation of applications",
+          "link": "https://www.cloudflare.com/",
+          "snippet": "Security, connectivity, and code run in 335+ cities around the world, within 50ms of 95% of the world's population. Run anywhere. Our network is close to your users, applications, and sites. It optimi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Propel | Your benefits, made easier",
+          "link": "https://www.propel.app/",
+          "snippet": "Top-tier security. Benefits updates. Exclusive savings.Then, Propel gathers your EBT balance and transaction history, makes it easier to read, and displays it in the app. This means you don't need to ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Certifications - Cisco",
+          "link": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/index.html",
+          "snippet": "Explore CCIE Security. Service Provider. Propel next-gen networking solutions. Revolutionize IT infrastructure for businesses worldwide. Stay ahead of emerging technologies, and master strategic netwo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Juniper Networks, Now Part of HPE \u2013 Leading the Convergence of AI...",
+          "link": "https://www.juniper.net/",
+          "snippet": "Security. Service provider. Cloud operator.Together, we're building industry-leading, secure, AI-native networks \u2013 purpose-built with and for AI. As AI and networking converge, we're driving a bold tr",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Office Help & Training",
+          "link": "https://support.office.com/en-us/article/Go-to-the-Office-365-Security-Compliance-Center-7e696a40-b86b-4a20-afcc-559218b7b1b8",
+          "snippet": "We would like to show you a description here but the site won\u2019t allow us.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Leader in Cybersecurity Protection & Software for... - Palo Alto Networks",
+          "link": "https://www.paloaltonetworks.com/",
+          "snippet": "Cybersecurity Services & Education for CISO\u2019s, Head of Infrastructure, Network Security Engineers, Cloud Architects & SOC Managers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Allot - Cybersecurity Solutions & Network Intelligence",
+          "link": "https://www.allot.com/",
+          "snippet": "Allot is a global provider of innovative cybersecurity solutions & network intelligence for Service Providers and Enterprises.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "SharkTeam - The World\u2019s Leading Web3 Security Service Provider",
+          "link": "https://sharkteam.org/",
+          "snippet": "The World\u2019s Leading Web3 Security Service Provider...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - Cape",
+          "link": "https://www.cape.co/",
+          "snippet": "Cape is premium wireless coverage with an added layer of personal security. Talk, text, and live with the confidence that you\u2019re protected.Cape, a privacy-focused cell service provider, officially eme",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Welcome to Cloudflare - Powering the next generation of applications",
+          "link": "https://www.cloudflare.com/",
+          "snippet": "Security, connectivity, and code run in 335+ cities around the world, within 50ms of 95% of the world's population. Run anywhere. Our network is close to your users, applications, and sites. It optimi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Propel | Your benefits, made easier",
+          "link": "https://www.propel.app/",
+          "snippet": "Top-tier security. Benefits updates. Exclusive savings.Then, Propel gathers your EBT balance and transaction history, makes it easier to read, and displays it in the app. This means you don't need to ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Certifications - Cisco",
+          "link": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/index.html",
+          "snippet": "Explore CCIE Security. Service Provider. Propel next-gen networking solutions. Revolutionize IT infrastructure for businesses worldwide. Stay ahead of emerging technologies, and master strategic netwo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Juniper Networks, Now Part of HPE \u2013 Leading the Convergence of AI...",
+          "link": "https://www.juniper.net/",
+          "snippet": "Security. Service provider. Cloud operator.Together, we're building industry-leading, secure, AI-native networks \u2013 purpose-built with and for AI. As AI and networking converge, we're driving a bold tr",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "search for security product distributor official site",
+      "level": "market_map",
+      "result_count": 3,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Security, AV & Smart Product Distributor | ADI Global",
+          "link": "https://www.adiglobal.com/",
+          "snippet": "ADI is a leading distributor and solution provider of security, AV and smart living products. Learn more about our products, services and software.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sandisk SSDs, Memory Cards, and Flash Drives for Your... | Sandisk",
+          "link": "https://www.sandisk.com/",
+          "snippet": "Sandisk\u2019s automotive-grade products are developed in alignment with key industry standards and quality frameworks. These standards guide our design, development, and validation processes to meet the s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dips for Security Product Distributor | Goi\u00e2nia - GO",
+          "link": "https://guiafacil.com/site/dips-for-security-product-distributor/goiania/go/87325247",
+          "snippet": "Tentando encontrar algu\u00e9m que atue no segmento de Alarmes em Goi\u00e2nia, GO e conferir as outras unidades abaixo? Consulte-nos! Dips for Security Product Distributor pode lhe ajudar!",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Security, AV & Smart Product Distributor | ADI Global",
+          "link": "https://www.adiglobal.com/",
+          "snippet": "ADI is a leading distributor and solution provider of security, AV and smart living products. Learn more about our products, services and software.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sandisk SSDs, Memory Cards, and Flash Drives for Your... | Sandisk",
+          "link": "https://www.sandisk.com/",
+          "snippet": "Sandisk\u2019s automotive-grade products are developed in alignment with key industry standards and quality frameworks. These standards guide our design, development, and validation processes to meet the s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dips for Security Product Distributor | Goi\u00e2nia - GO",
+          "link": "https://guiafacil.com/site/dips-for-security-product-distributor/goiania/go/87325247",
+          "snippet": "Tentando encontrar algu\u00e9m que atue no segmento de Alarmes em Goi\u00e2nia, GO e conferir as outras unidades abaixo? Consulte-nos! Dips for Security Product Distributor pode lhe ajudar!",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P2": {
+      "query": "search for wholesale security equipment suppliers",
+      "level": "market_map",
+      "result_count": 12,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Security Equipment Suppliers, all Quality Security Equipment...",
+          "link": "https://www.alibaba.com/security-equipment-suppliers.html",
+          "snippet": "Security Equipment, Security Equipment Suppliers Directory - Find variety Security Equipment Suppliers, Manufacturers, Companies from around the World at welding equipment ,machinery industry equipmen",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Fortify Boundaries with China Wholesale Security Equipment...",
+          "link": "https://www.globalsources.com/manufacturers/security-equipment.html",
+          "snippet": "27856 wholesale \"Security Equipment\" products from 433 suppliers.Contact Supplier. Factory price 24v 24w power supply with security equipment for audio speaker.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Security Equipment - Security Equipment... - EC21",
+          "link": "https://www.ec21.com/ec-market/security-equipment.html",
+          "snippet": "Wholesale Security Equipment Find 1,623 security equipment products from 947 manufacturers & suppliers at EC21. Choose quality security equipment manufacturers, suppliers & exporters now - EC21.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Safety Security Equipment Wholesale Suppliers, Manufacturers...",
+          "link": "https://www.go4worldbusiness.com/suppliers/safety-security-equipment.html",
+          "snippet": "Buy premium Safety Security Equipment in bulk from verified wholesale suppliers and manufacturers. Best prices, bulk discounts, trusted deals at go4WorldBusiness.com.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Security Systems Wholesale Suppliers | Bulk Surveillance & Alarms",
+          "link": "https://www.accio.com/supplier/security-systems-wholesale-suppliers",
+          "snippet": "Need bulk security systems? Source surveillance cameras, alarms, and access control from verified wholesale suppliers. Get competitive pricing and custom solutions today!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Other Security Equipment International Wholesale Suppliers...",
+          "link": "https://www.esources.co.uk/international-suppliers/313/",
+          "snippet": "HideRefine your other security equipment wholesale suppliers search by country (except UK)Profile: For over 10 years our company has been supplying DVR security systems to the security industry. We ha",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "China Surveillance Security Equipment... | Made-in-China.com",
+          "link": "https://www.made-in-china.com/products-search/hot-china-products/Surveillance_Security_Equipment.html",
+          "snippet": "Our Surveillance Security Equipment manufacturers & suppliers, security equipment wholesalers and Surveillance Security Equipment offer dependable safety and security products at Competitive price. Pr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Security System Wholesale Suppliers Archives - TechVision USA",
+          "link": "https://techvisionusa.com/securitynews/tag/security-system-wholesale-suppliers/",
+          "snippet": "Home \u00bb Posts Tagged \"Security System Wholesale Suppliers\". 09 Apr.Wholesale Security Hardware Online TechVision USA is your source for Wholesale Security Hardware Online, including Access control, IP ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Security Equipment Suppliers: Unleashing the Power of...",
+          "link": "https://securityequipmentcenter.com/wholesale-security-equipment/",
+          "snippet": "Wholesale security equipment suppliers offer a wide range of security products for various industries, ensuring safety and protection.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Security Officer Equipment Guide: Essential Gear 2026",
+          "link": "https://yeyienterprise.com/security-officer-equipment-guide/",
+          "snippet": "Security professionals source their equipment from multiple channels: 1. Online Stores. Many buyers search for: security equipment store near me. tactical gear store nearby. buy security guard equipme",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 Wholesale security cameras China",
+          "link": "https://www.sourcifychina.com/wholesale-security-cameras-China/",
+          "snippet": "Top 5 Security Camera Wholesale Suppliers. Product Details: Security cameras from various suppliers including ICSEECAM, Lorex, Reolink, Zosi, and Wyze, offering a range of features such as night visio",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Security Camera Distributors | Online Wholesale Surveillance...",
+          "link": "https://www.securitycameraking.com/securityinfo/security-camera-distributors/",
+          "snippet": "And our unique partnerships with security camera manufacturers and surveillance equipment suppliers enable us to sell our security cameras for wholesale prices.Generic selectors. Exact matches only. S",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Security Equipment Suppliers, all Quality Security Equipment...",
+          "link": "https://www.alibaba.com/security-equipment-suppliers.html",
+          "snippet": "Security Equipment, Security Equipment Suppliers Directory - Find variety Security Equipment Suppliers, Manufacturers, Companies from around the World at welding equipment ,machinery industry equipmen",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Fortify Boundaries with China Wholesale Security Equipment...",
+          "link": "https://www.globalsources.com/manufacturers/security-equipment.html",
+          "snippet": "27856 wholesale \"Security Equipment\" products from 433 suppliers.Contact Supplier. Factory price 24v 24w power supply with security equipment for audio speaker.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Security Equipment - Security Equipment... - EC21",
+          "link": "https://www.ec21.com/ec-market/security-equipment.html",
+          "snippet": "Wholesale Security Equipment Find 1,623 security equipment products from 947 manufacturers & suppliers at EC21. Choose quality security equipment manufacturers, suppliers & exporters now - EC21.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Safety Security Equipment Wholesale Suppliers, Manufacturers...",
+          "link": "https://www.go4worldbusiness.com/suppliers/safety-security-equipment.html",
+          "snippet": "Buy premium Safety Security Equipment in bulk from verified wholesale suppliers and manufacturers. Best prices, bulk discounts, trusted deals at go4WorldBusiness.com.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Security Systems Wholesale Suppliers | Bulk Surveillance & Alarms",
+          "link": "https://www.accio.com/supplier/security-systems-wholesale-suppliers",
+          "snippet": "Need bulk security systems? Source surveillance cameras, alarms, and access control from verified wholesale suppliers. Get competitive pricing and custom solutions today!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Other Security Equipment International Wholesale Suppliers...",
+          "link": "https://www.esources.co.uk/international-suppliers/313/",
+          "snippet": "HideRefine your other security equipment wholesale suppliers search by country (except UK)Profile: For over 10 years our company has been supplying DVR security systems to the security industry. We ha",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "China Surveillance Security Equipment... | Made-in-China.com",
+          "link": "https://www.made-in-china.com/products-search/hot-china-products/Surveillance_Security_Equipment.html",
+          "snippet": "Our Surveillance Security Equipment manufacturers & suppliers, security equipment wholesalers and Surveillance Security Equipment offer dependable safety and security products at Competitive price. Pr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Security System Wholesale Suppliers Archives - TechVision USA",
+          "link": "https://techvisionusa.com/securitynews/tag/security-system-wholesale-suppliers/",
+          "snippet": "Home \u00bb Posts Tagged \"Security System Wholesale Suppliers\". 09 Apr.Wholesale Security Hardware Online TechVision USA is your source for Wholesale Security Hardware Online, including Access control, IP ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Security Equipment Suppliers: Unleashing the Power of...",
+          "link": "https://securityequipmentcenter.com/wholesale-security-equipment/",
+          "snippet": "Wholesale security equipment suppliers offer a wide range of security products for various industries, ensuring safety and protection.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Security Officer Equipment Guide: Essential Gear 2026",
+          "link": "https://yeyienterprise.com/security-officer-equipment-guide/",
+          "snippet": "Security professionals source their equipment from multiple channels: 1. Online Stores. Many buyers search for: security equipment store near me. tactical gear store nearby. buy security guard equipme",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 Wholesale security cameras China",
+          "link": "https://www.sourcifychina.com/wholesale-security-cameras-China/",
+          "snippet": "Top 5 Security Camera Wholesale Suppliers. Product Details: Security cameras from various suppliers including ICSEECAM, Lorex, Reolink, Zosi, and Wyze, offering a range of features such as night visio",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Security Camera Distributors | Online Wholesale Surveillance...",
+          "link": "https://www.securitycameraking.com/securityinfo/security-camera-distributors/",
+          "snippet": "And our unique partnerships with security camera manufacturers and surveillance equipment suppliers enable us to sell our security cameras for wholesale prices.Generic selectors. Exact matches only. S",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P3": {
+      "query": "search for security solutions reseller company",
+      "level": "market_map",
+      "result_count": 12,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Managed Cybersecurity Solutions | Clone Systems, Inc.",
+          "link": "https://www.clone-systems.com/",
+          "snippet": "Discover managed cybersecurity solutions that protect your business.Global Security Experience By securing customers across numerous industries and continents, we have gained a unique insight that ena",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "ADEON International - IT Security Solutions & Reseller Support",
+          "link": "https://adeon.international/",
+          "snippet": "Being value-added distributor, we provide IT security solutions with a full range of services \u2013 professional technical support, marketing and sales support, security services and other forms of suppor",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Security Camera Cloud Video Surveillance & Storage Solutions for...",
+          "link": "https://www.camcloud.com/solutions",
+          "snippet": "Company. About Camcloud. Reseller Solutions. Contact.Become a Camcloud Reseller. Enhance your solutions and earn recurring revenue. Build a profitable recurring revenue stream on your camera installat",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Database of resellers for Cyber Security Products and Solutions",
+          "link": "https://en.compubase.net/Database-of-resellers-for-Cyber-Security-Products-and-Solutions_a277.html",
+          "snippet": "compuBase has the largest database of security product and service resellers (unified threat management, firewalls, anti-spam, anti-virus...), currently containing company profiles for this activity, ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sophos Partners: Resellers, OEM & System Integration",
+          "link": "https://www.sophos.com/en-us/partners",
+          "snippet": "Open search. Products. Defense system overview.Reseller Partner. Expand profitability and customer reach by delivering comprehensive cybersecurity solutions with Sophos as your trusted vendor of choic",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Kaspersky Cyber Security Solutions for Home and... | Kaspersky",
+          "link": "https://www.kaspersky.com/",
+          "snippet": "Official Site \u2013 A Global Leader in next-generation cybersecurity solutions and services, Kaspersky offers premium protection against all cyber threats for your home and business.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Security, Network Management, and Communication Software",
+          "link": "https://gfi.ai/products-and-solutions",
+          "snippet": "Security. All-in-one next-generation firewall and UTM. Patch management, vulnerability scanning, and network auditing. Anti-spam and email security for mail servers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "InterNetX | Expert domain & encryption solutions for your business",
+          "link": "https://www.internetx.com/en/",
+          "snippet": "InterNetX is one of the world's leading providers for b2b domain and encryption solutions.We only offer the highest quality of security solutions by trusted TLS/SSL providers. We have the ideal soluti",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "CommBase Technical Solutions, LLC - Web Site Portfolio",
+          "link": "https://www.commbasetech.com/reseller-SecuritySoftwareSolutions-v2.htm",
+          "snippet": "CommBase Technical Solutions, LLC Security Research and Benchmarking Policies: We ask the right questions to each technology vendor to properly qualify them during our benchmarking process.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Digital Certificates - PKI - SSL/TLS GlobalSign GMO",
+          "link": "https://www.globalsign.com/",
+          "snippet": "We're experts in automated, Scalable, Integrated Digital Certificates Solutions, SSLs/TLSs, managed PKI, IoT, authentication & email security.Secure your website with SSL/TLS Certificates. Managed SSL",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "All-in-One Protection: Antivirus, VPN & Scam Guard | Best Antivirus",
+          "link": "https://www.malwarebytes.com/",
+          "snippet": "Solutions. Premium security antivirus. Privacy VPN. Identity Theft Protection. Personal Data Remover.Search for: Photo of a woman looking at a mobile phone in a rool full of plants. Callouts from the ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Managed IT Services San Gabriel CA | ACCOTEQ",
+          "link": "https://accoteq.com/",
+          "snippet": "Need reliable managed IT services in San Gabriel, CA? ACCOTEQ offers cybersecurity, IT support, VoIP, and network solutions with 24/7 monitoring.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Managed Cybersecurity Solutions | Clone Systems, Inc.",
+          "link": "https://www.clone-systems.com/",
+          "snippet": "Discover managed cybersecurity solutions that protect your business.Global Security Experience By securing customers across numerous industries and continents, we have gained a unique insight that ena",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "ADEON International - IT Security Solutions & Reseller Support",
+          "link": "https://adeon.international/",
+          "snippet": "Being value-added distributor, we provide IT security solutions with a full range of services \u2013 professional technical support, marketing and sales support, security services and other forms of suppor",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Security Camera Cloud Video Surveillance & Storage Solutions for...",
+          "link": "https://www.camcloud.com/solutions",
+          "snippet": "Company. About Camcloud. Reseller Solutions. Contact.Become a Camcloud Reseller. Enhance your solutions and earn recurring revenue. Build a profitable recurring revenue stream on your camera installat",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Database of resellers for Cyber Security Products and Solutions",
+          "link": "https://en.compubase.net/Database-of-resellers-for-Cyber-Security-Products-and-Solutions_a277.html",
+          "snippet": "compuBase has the largest database of security product and service resellers (unified threat management, firewalls, anti-spam, anti-virus...), currently containing company profiles for this activity, ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sophos Partners: Resellers, OEM & System Integration",
+          "link": "https://www.sophos.com/en-us/partners",
+          "snippet": "Open search. Products. Defense system overview.Reseller Partner. Expand profitability and customer reach by delivering comprehensive cybersecurity solutions with Sophos as your trusted vendor of choic",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Kaspersky Cyber Security Solutions for Home and... | Kaspersky",
+          "link": "https://www.kaspersky.com/",
+          "snippet": "Official Site \u2013 A Global Leader in next-generation cybersecurity solutions and services, Kaspersky offers premium protection against all cyber threats for your home and business.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Security, Network Management, and Communication Software",
+          "link": "https://gfi.ai/products-and-solutions",
+          "snippet": "Security. All-in-one next-generation firewall and UTM. Patch management, vulnerability scanning, and network auditing. Anti-spam and email security for mail servers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "InterNetX | Expert domain & encryption solutions for your business",
+          "link": "https://www.internetx.com/en/",
+          "snippet": "InterNetX is one of the world's leading providers for b2b domain and encryption solutions.We only offer the highest quality of security solutions by trusted TLS/SSL providers. We have the ideal soluti",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "CommBase Technical Solutions, LLC - Web Site Portfolio",
+          "link": "https://www.commbasetech.com/reseller-SecuritySoftwareSolutions-v2.htm",
+          "snippet": "CommBase Technical Solutions, LLC Security Research and Benchmarking Policies: We ask the right questions to each technology vendor to properly qualify them during our benchmarking process.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Digital Certificates - PKI - SSL/TLS GlobalSign GMO",
+          "link": "https://www.globalsign.com/",
+          "snippet": "We're experts in automated, Scalable, Integrated Digital Certificates Solutions, SSLs/TLSs, managed PKI, IoT, authentication & email security.Secure your website with SSL/TLS Certificates. Managed SSL",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "All-in-One Protection: Antivirus, VPN & Scam Guard | Best Antivirus",
+          "link": "https://www.malwarebytes.com/",
+          "snippet": "Solutions. Premium security antivirus. Privacy VPN. Identity Theft Protection. Personal Data Remover.Search for: Photo of a woman looking at a mobile phone in a rool full of plants. Callouts from the ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Managed IT Services San Gabriel CA | ACCOTEQ",
+          "link": "https://accoteq.com/",
+          "snippet": "Need reliable managed IT services in San Gabriel, CA? ACCOTEQ offers cybersecurity, IT support, VoIP, and network solutions with 24/7 monitoring.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P4": {
+      "query": "search for security system integrator official site",
+      "level": "market_map",
+      "result_count": 13,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Security System Integrator - CGL Electronic Security, Inc",
+          "link": "https://cglsecurity.com/",
+          "snippet": "CGL Electronic Security, an SDM Top 100\u2013ranked security system integrator, delivers customized electronic security solutions that protect your most valued assets.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Should You Hire a Security Integrator for Your Building?",
+          "link": "https://www.pelco.com/blog/security-systems-integrator",
+          "snippet": "Why hire a building security systems integrator. What to expect from a security system integrator. Benefits of an integrated security solution. How to choose a security integrator near you.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Troubleshooting Security System | Maintenance Security... | Apptech",
+          "link": "https://www.apptech.com.sg/",
+          "snippet": "Maintenance Security System- Apptech offers troubleshooting security system services in Singapore, ensuring your security infrastructure stays efficient and fully operational.Security System Integrato",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Choosing the Right Security System Integrator For Your Project",
+          "link": "https://www.avigilon.com/blog/security-system-integrator",
+          "snippet": "Creating a comprehensive security system based on current requirementsCustomizing and optimizing all site-specific security systemsWhen searching for a security system integrator, consider these point",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bosch Bosch Security and Safety Systems Middle East - - Saudi Arabia",
+          "link": "https://www.boschsecurity.com/dealer_v3/Content.ashx?country=AE&language=en&regionguid=b5b015cf-d967-43b7-bf87-79f698c9c413&action=getbyregion&mode=dealer",
+          "snippet": "all dealer types Distributors System Integrator & Official Agent System Integrator & Service Partner System Integrators.Almajal Group Four S for Security & Safety. System Integrators. Access Control S",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Azerbaijan Genetec Authorized Partner & System Integrator",
+          "link": "https://thedefero.com/",
+          "snippet": "The Defero Solutions is Genetec\u2019s official system integrator in Azerbaijan. Delivering unified security, perimeter security, access control and traffic management solutions for SOCAR, MOIA and major i",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How to Choose the Right Security System Integrator",
+          "link": "https://resolutepartners.com/security-system-integrators/",
+          "snippet": "Learn how to find the right security system integrator for your organization by evaluating expertise, compliance, scalability & support.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Network Dynamics Limited \u2014 Official Integrator & Distributor",
+          "link": "https://networkdymanicsltd.com/",
+          "snippet": "Official Integrator & Distributor. Global Trade Solutions. Network Dynamics Limited is an international trading company and authorized integrator, distributing premium defence, security, and technolog",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Integrated Security System Solutions | Radiant India",
+          "link": "https://radiant.in/top-best-security-system-integrator-and-installation-service-provider-expert-company-in-india/",
+          "snippet": "Get advanced security system integration from Radiant. Hire India's top provider for custom surveillance and IT protection. Request your free quote today!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Exacq Resellers | Exacq from Tyco Security Products",
+          "link": "https://www.exacq.com/resellers/",
+          "snippet": "Search Knowledge Base.If you are a security system integrator, IT integrator, reseller or installer of video systems, our goal is to help you achieve more, grow more, and do more for your customers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "SecFire - Security System Integrator Germany",
+          "link": "https://secfire.de/en/",
+          "snippet": "Security System Integrator Germany. Protect your production sites, office buildings, warehouses or other facilities with our intelligent security solutions. Learn more. Get in touch.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Keep your security updates fully updated with security system...",
+          "link": "https://medium.com/@pingsecurellc/keep-your-security-updates-fully-updated-with-security-system-integrators-db95d3c316a4",
+          "snippet": "Will security system integrators be able to standardize operations based on reliable event driving systems? What are the available choices for security solutions? How the availability of a security sy",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "TVT CCTV: The award winning CCTV Camera Company",
+          "link": "https://cctvdesk.com/tvt-cctv/",
+          "snippet": "So from above article, you understand well that how big company is TVT CCTV, so if you are Security system integrator, be ready for the change in the market and training yourself for TVT CCTV. If you ",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Security System Integrator - CGL Electronic Security, Inc",
+          "link": "https://cglsecurity.com/",
+          "snippet": "CGL Electronic Security, an SDM Top 100\u2013ranked security system integrator, delivers customized electronic security solutions that protect your most valued assets.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Should You Hire a Security Integrator for Your Building?",
+          "link": "https://www.pelco.com/blog/security-systems-integrator",
+          "snippet": "Why hire a building security systems integrator. What to expect from a security system integrator. Benefits of an integrated security solution. How to choose a security integrator near you.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Troubleshooting Security System | Maintenance Security... | Apptech",
+          "link": "https://www.apptech.com.sg/",
+          "snippet": "Maintenance Security System- Apptech offers troubleshooting security system services in Singapore, ensuring your security infrastructure stays efficient and fully operational.Security System Integrato",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Choosing the Right Security System Integrator For Your Project",
+          "link": "https://www.avigilon.com/blog/security-system-integrator",
+          "snippet": "Creating a comprehensive security system based on current requirementsCustomizing and optimizing all site-specific security systemsWhen searching for a security system integrator, consider these point",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bosch Bosch Security and Safety Systems Middle East - - Saudi Arabia",
+          "link": "https://www.boschsecurity.com/dealer_v3/Content.ashx?country=AE&language=en&regionguid=b5b015cf-d967-43b7-bf87-79f698c9c413&action=getbyregion&mode=dealer",
+          "snippet": "all dealer types Distributors System Integrator & Official Agent System Integrator & Service Partner System Integrators.Almajal Group Four S for Security & Safety. System Integrators. Access Control S",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Azerbaijan Genetec Authorized Partner & System Integrator",
+          "link": "https://thedefero.com/",
+          "snippet": "The Defero Solutions is Genetec\u2019s official system integrator in Azerbaijan. Delivering unified security, perimeter security, access control and traffic management solutions for SOCAR, MOIA and major i",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How to Choose the Right Security System Integrator",
+          "link": "https://resolutepartners.com/security-system-integrators/",
+          "snippet": "Learn how to find the right security system integrator for your organization by evaluating expertise, compliance, scalability & support.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Network Dynamics Limited \u2014 Official Integrator & Distributor",
+          "link": "https://networkdymanicsltd.com/",
+          "snippet": "Official Integrator & Distributor. Global Trade Solutions. Network Dynamics Limited is an international trading company and authorized integrator, distributing premium defence, security, and technolog",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Integrated Security System Solutions | Radiant India",
+          "link": "https://radiant.in/top-best-security-system-integrator-and-installation-service-provider-expert-company-in-india/",
+          "snippet": "Get advanced security system integration from Radiant. Hire India's top provider for custom surveillance and IT protection. Request your free quote today!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Exacq Resellers | Exacq from Tyco Security Products",
+          "link": "https://www.exacq.com/resellers/",
+          "snippet": "Search Knowledge Base.If you are a security system integrator, IT integrator, reseller or installer of video systems, our goal is to help you achieve more, grow more, and do more for your customers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "SecFire - Security System Integrator Germany",
+          "link": "https://secfire.de/en/",
+          "snippet": "Security System Integrator Germany. Protect your production sites, office buildings, warehouses or other facilities with our intelligent security solutions. Learn more. Get in touch.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Keep your security updates fully updated with security system...",
+          "link": "https://medium.com/@pingsecurellc/keep-your-security-updates-fully-updated-with-security-system-integrators-db95d3c316a4",
+          "snippet": "Will security system integrators be able to standardize operations based on reliable event driving systems? What are the available choices for security solutions? How the availability of a security sy",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "TVT CCTV: The award winning CCTV Camera Company",
+          "link": "https://cctvdesk.com/tvt-cctv/",
+          "snippet": "So from above article, you understand well that how big company is TVT CCTV, so if you are Security system integrator, be ready for the change in the market and training yourself for TVT CCTV. If you ",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P5": {
+      "query": "search for security consulting services company",
+      "level": "market_map",
+      "result_count": 12,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Security Consultive Services | Cybersecurity Consultants",
+          "link": "https://corsicatech.com/services/security-consultative-services/",
+          "snippet": "Cybersecurity consulting services are advisory services provided by cybersecurity experts.Work with a Cybersecurity Consultant. An IT and managed cybersecurity services provider like Corsica Technolog",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "A B Security & Consulting Service, 27408 Russell Ln... - MapQuest",
+          "link": "https://www.mapquest.com/us/california/a-b-security-consulting-service-379592812",
+          "snippet": "A B Security & Consulting Service is a company based in Canyon Country, CA that specializes in providing security solutions and consulting services. With a focus on ensuring the safety and security of",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Pangana Inc. - Crunchbase Company Profile & Funding",
+          "link": "https://www.crunchbase.com/organization/pangana-inc",
+          "snippet": "Web3 Consulting and Security Services covers feasibility, architecture, and security-focused advisory for blockchain projects.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Security Consulting Services - Ismena website",
+          "link": "https://192.143.160.34.bc.googleusercontent.com/security-consulting-services/",
+          "snippet": "Security Consulting Services. We take pride in having a team of experts who assess vulnerabilities, craft tailored security strategies, and provide actionable risk mitigation recommendations.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Manny Gomez: Security Experts and Consultants | Medium",
+          "link": "https://medium.com/@mannygomezny/manny-gomez-security-experts-and-consultants-e9693cb89ac9",
+          "snippet": "Security Consultation Services Offered by Manny Gomez. Manny Gomez and his team offer a range of consulting services that are tailored to meet the specific needs of each client. These include: Network",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Jupiter Fire Alarm Company \u2013 Expert Security & Protection",
+          "link": "https://integratedfirealarms.com/top-rated-jupiter-fire-alarm-company/",
+          "snippet": "Expert Security Consulting for Various Sectors. We are different from your average company who can only do part of the job in that \u201cwe can do everything you need.\u201d In fact, we offer a full line of sec",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Uberl\u00e2ndia, MG At Home Workforce Connectivity Consulting",
+          "link": "https://www.progent.com/remote-workforce-solutions-uberlandia-advisor.htm",
+          "snippet": "Cybersecurity Companies Symantec VPN Consulting Services Symantec Security. DotNET Application Programmer .NET iOS Contract Development.Teleworkers Helpdesk Consultants. Home Worker Security IT Servic",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Osint Losena Ltd.",
+          "link": "https://osint.ltd/",
+          "snippet": "Offline Services. Private investigations. Corporate defense. Security consulting.Our company was established in 2020 by a team of information technology professionals with the aim of providing OSINT s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Post-Quantum | Quantum Navigator",
+          "link": "https://entangledfuture.com/company/post-quantum/",
+          "snippet": "It provides post-quantum cryptographic software, security consulting, and implementation support to enterprises, government agencies, and technology companies preparing for the point when current encr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Secure Tech Consultancy (Pvt) Ltd | LinkedIn",
+          "link": "https://www.linkedin.com/company/securetech-consultancy",
+          "snippet": "Secure Tech Consultancy is an IT Consulting and IT Systems development firm with a focus on customized, enterprise level Identity and Security management systems using the latest biometric, cryptograp",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Acompio India - go beyond listings",
+          "link": "https://www.acompio.in/search_Security-consulting-services__Madurai.html",
+          "snippet": "Results for Security consulting services in Madurai.You can limit your search at any time by searching for names, search terms or industries. Each search can also be limited to city or postcode. By cl",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Article on Workplace Safety, Workplace Violence Prevention",
+          "link": "https://www.theimg.com/blog/2013/02/consulting-firm-workplace-violence-prevention/",
+          "snippet": "Global Risk & Security Consulting Services.The company\u2019s expert security consultants provide services such as executive, employee, VIP, and expatriate travel security, risk and threat assessments, wor",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Security Consultive Services | Cybersecurity Consultants",
+          "link": "https://corsicatech.com/services/security-consultative-services/",
+          "snippet": "Cybersecurity consulting services are advisory services provided by cybersecurity experts.Work with a Cybersecurity Consultant. An IT and managed cybersecurity services provider like Corsica Technolog",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "A B Security & Consulting Service, 27408 Russell Ln... - MapQuest",
+          "link": "https://www.mapquest.com/us/california/a-b-security-consulting-service-379592812",
+          "snippet": "A B Security & Consulting Service is a company based in Canyon Country, CA that specializes in providing security solutions and consulting services. With a focus on ensuring the safety and security of",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Pangana Inc. - Crunchbase Company Profile & Funding",
+          "link": "https://www.crunchbase.com/organization/pangana-inc",
+          "snippet": "Web3 Consulting and Security Services covers feasibility, architecture, and security-focused advisory for blockchain projects.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Security Consulting Services - Ismena website",
+          "link": "https://192.143.160.34.bc.googleusercontent.com/security-consulting-services/",
+          "snippet": "Security Consulting Services. We take pride in having a team of experts who assess vulnerabilities, craft tailored security strategies, and provide actionable risk mitigation recommendations.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Manny Gomez: Security Experts and Consultants | Medium",
+          "link": "https://medium.com/@mannygomezny/manny-gomez-security-experts-and-consultants-e9693cb89ac9",
+          "snippet": "Security Consultation Services Offered by Manny Gomez. Manny Gomez and his team offer a range of consulting services that are tailored to meet the specific needs of each client. These include: Network",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Jupiter Fire Alarm Company \u2013 Expert Security & Protection",
+          "link": "https://integratedfirealarms.com/top-rated-jupiter-fire-alarm-company/",
+          "snippet": "Expert Security Consulting for Various Sectors. We are different from your average company who can only do part of the job in that \u201cwe can do everything you need.\u201d In fact, we offer a full line of sec",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Uberl\u00e2ndia, MG At Home Workforce Connectivity Consulting",
+          "link": "https://www.progent.com/remote-workforce-solutions-uberlandia-advisor.htm",
+          "snippet": "Cybersecurity Companies Symantec VPN Consulting Services Symantec Security. DotNET Application Programmer .NET iOS Contract Development.Teleworkers Helpdesk Consultants. Home Worker Security IT Servic",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Osint Losena Ltd.",
+          "link": "https://osint.ltd/",
+          "snippet": "Offline Services. Private investigations. Corporate defense. Security consulting.Our company was established in 2020 by a team of information technology professionals with the aim of providing OSINT s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Post-Quantum | Quantum Navigator",
+          "link": "https://entangledfuture.com/company/post-quantum/",
+          "snippet": "It provides post-quantum cryptographic software, security consulting, and implementation support to enterprises, government agencies, and technology companies preparing for the point when current encr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Secure Tech Consultancy (Pvt) Ltd | LinkedIn",
+          "link": "https://www.linkedin.com/company/securetech-consultancy",
+          "snippet": "Secure Tech Consultancy is an IT Consulting and IT Systems development firm with a focus on customized, enterprise level Identity and Security management systems using the latest biometric, cryptograp",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Acompio India - go beyond listings",
+          "link": "https://www.acompio.in/search_Security-consulting-services__Madurai.html",
+          "snippet": "Results for Security consulting services in Madurai.You can limit your search at any time by searching for names, search terms or industries. Each search can also be limited to city or postcode. By cl",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Article on Workplace Safety, Workplace Violence Prevention",
+          "link": "https://www.theimg.com/blog/2013/02/consulting-firm-workplace-violence-prevention/",
+          "snippet": "Global Risk & Security Consulting Services.The company\u2019s expert security consultants provide services such as executive, employee, VIP, and expatriate travel security, risk and threat assessments, wor",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "search for security technology channel partner official site",
+      "level": "market_map",
+      "result_count": 5,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Partner Locator",
+          "link": "https://partnerlocator.checkpoint.com/",
+          "snippet": "You deserve the best security\u2122.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Symantec\u2122 Enterprise Cloud Cyber Security",
+          "link": "https://www.broadcom.com/products/cybersecurity",
+          "snippet": "To meet today's Cyber Security challenges, enterprises need an integrated cyber defense platform that integrates industry-leading solutions and solves for the most pressing C-level challenges like evo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Leader in Cybersecurity Protection & Software for... - Palo Alto Networks",
+          "link": "https://www.paloaltonetworks.com/",
+          "snippet": "Implement Zero Trust, Secure your Network, Cloud workloads, Hybrid Workforce, Leverage Threat Intelligence & Security Consulting.Palo Alto Networks logo. magnifying glass search icon. Products. Soluti",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Los Alamos National Laboratory",
+          "link": "https://www.lanl.gov/",
+          "snippet": "Los Alamos National Laboratory addresses national security challenges by advancing breakthroughs in science and technology. We work alongside the Department of Energy to support energy advancements an",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Protect your digital moments | F\u2011Secure",
+          "link": "https://www.f-secure.com/",
+          "snippet": "Brilliantly simple security expriences. One app with award-winning antivirus, unlimited VPN and identity protection. Download a free trial today.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Partner Locator",
+          "link": "https://partnerlocator.checkpoint.com/",
+          "snippet": "You deserve the best security\u2122.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Symantec\u2122 Enterprise Cloud Cyber Security",
+          "link": "https://www.broadcom.com/products/cybersecurity",
+          "snippet": "To meet today's Cyber Security challenges, enterprises need an integrated cyber defense platform that integrates industry-leading solutions and solves for the most pressing C-level challenges like evo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Leader in Cybersecurity Protection & Software for... - Palo Alto Networks",
+          "link": "https://www.paloaltonetworks.com/",
+          "snippet": "Implement Zero Trust, Secure your Network, Cloud workloads, Hybrid Workforce, Leverage Threat Intelligence & Security Consulting.Palo Alto Networks logo. magnifying glass search icon. Products. Soluti",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Los Alamos National Laboratory",
+          "link": "https://www.lanl.gov/",
+          "snippet": "Los Alamos National Laboratory addresses national security challenges by advancing breakthroughs in science and technology. We work alongside the Department of Energy to support energy advancements an",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Protect your digital moments | F\u2011Secure",
+          "link": "https://www.f-secure.com/",
+          "snippet": "Brilliantly simple security expriences. One app with award-winning antivirus, unlimited VPN and identity protection. Download a free trial today.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P7": {
+      "query": "security product distributor official site",
+      "level": "discovery",
+      "result_count": 4,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Office Help & Training",
+          "link": "https://support.office.com/en-us/article/Go-to-the-Office-365-Security-Compliance-Center-7e696a40-b86b-4a20-afcc-559218b7b1b8",
+          "snippet": "We would like to show you a description here but the site won\u2019t allow us.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Security, AV & Smart Product Distributor | ADI Global",
+          "link": "https://www.adiglobal.com/",
+          "snippet": "ADI is a leading distributor and solution provider of security, AV and smart living products. Learn more about our products, services and software.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Distributors Security Cameras",
+          "link": "https://www.aasec.com.my/distributors/",
+          "snippet": "Official Distributor.Rosslare Security Products, a division of Rosslare Enterprises Ltd. manufactures and markets high-quality security products through its worldwide offices and channel partners.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "AI Infrastructure, Secure Networking, and Software Solutions - Cisco",
+          "link": "https://www.cisco.com/",
+          "snippet": "Products and Services. Close. Solutions.Distributed, optimized enforcement. Deliver zero-trust segmentation and application protection with a highly-distributed security fabric and unified management ",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Office Help & Training",
+          "link": "https://support.office.com/en-us/article/Go-to-the-Office-365-Security-Compliance-Center-7e696a40-b86b-4a20-afcc-559218b7b1b8",
+          "snippet": "We would like to show you a description here but the site won\u2019t allow us.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Security, AV & Smart Product Distributor | ADI Global",
+          "link": "https://www.adiglobal.com/",
+          "snippet": "ADI is a leading distributor and solution provider of security, AV and smart living products. Learn more about our products, services and software.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Distributors Security Cameras",
+          "link": "https://www.aasec.com.my/distributors/",
+          "snippet": "Official Distributor.Rosslare Security Products, a division of Rosslare Enterprises Ltd. manufactures and markets high-quality security products through its worldwide offices and channel partners.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "AI Infrastructure, Secure Networking, and Software Solutions - Cisco",
+          "link": "https://www.cisco.com/",
+          "snippet": "Products and Services. Close. Solutions.Distributed, optimized enforcement. Deliver zero-trust segmentation and application protection with a highly-distributed security fabric and unified management ",
+          "backend": "ddgs_bing"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

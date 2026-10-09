@@ -1,0 +1,2084 @@
+{
+  "phase": 1,
+  "query": "Commercial Aircraft Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T21:25:35.208695+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "commercial aircraft",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "aviation",
+    "industry_terms": [
+      "commercial aircraft",
+      "aircraft components",
+      "aircraft systems",
+      "maintenance services",
+      "integration services"
+    ],
+    "ecosystem_functions": [
+      "distributing aircraft",
+      "wholesaling aircraft parts",
+      "reselling aircraft",
+      "integrating aircraft systems",
+      "providing maintenance services",
+      "repairing aircraft",
+      "acting as channel partners",
+      "facilitating aircraft sales"
+    ],
+    "interpretation_summary": "The commercial aircraft market encompasses the production, distribution, and servicing of aircraft designed for passenger and cargo transport. Key participants include manufacturers, distributors, and service providers o",
+    "relevance_keywords": [
+      "aircraft distributor",
+      "aircraft wholesaler",
+      "aircraft reseller",
+      "system integrator",
+      "service provider"
+    ],
+    "negative_keywords": [
+      "military",
+      "private",
+      "helicopter",
+      "drone",
+      "unmanned"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "Boeing",
+        "primary_domain": "boeing.com",
+        "company_function": "aircraft manufacturer and distributor"
+      },
+      {
+        "canonical_name": "Airbus",
+        "primary_domain": "airbus.com",
+        "company_function": "aircraft manufacturer and distributor"
+      },
+      {
+        "canonical_name": "Honeywell",
+        "primary_domain": "honeywell.com",
+        "company_function": "system integrator and service provider"
+      },
+      {
+        "canonical_name": "Rockwell Collins",
+        "primary_domain": "rockwellcollins.com",
+        "company_function": "system integrator and service provider"
+      },
+      {
+        "canonical_name": "General Electric",
+        "primary_domain": "ge.com",
+        "company_function": "service provider and system integrator"
+      },
+      {
+        "canonical_name": "Safran",
+        "primary_domain": "safran-group.com",
+        "company_function": "service provider and system integrator"
+      },
+      {
+        "canonical_name": "Textron Aviation",
+        "primary_domain": "txtav.com",
+        "company_function": "aircraft reseller"
+      },
+      {
+        "canonical_name": "Spirit AeroSystems",
+        "primary_domain": "spiritaero.com",
+        "company_function": "aircraft parts distributor"
+      },
+      {
+        "canonical_name": "Hawker Beechcraft",
+        "primary_domain": "hawkerbeechcraft.com",
+        "company_function": "aircraft reseller",
+        "segment": "Resellers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "L3Harris Technologies",
+        "primary_domain": "l3harris.com",
+        "company_function": "system integrator",
+        "segment": "System Integrators",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Northrop Grumman",
+        "primary_domain": "northropgrumman.com",
+        "company_function": "service provider and system integrator",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Textron",
+        "primary_domain": "textron.com",
+        "company_function": "aircraft wholesaler",
+        "segment": "Wholesalers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Aviall",
+        "primary_domain": "aviall.com",
+        "company_function": "aircraft parts distributor",
+        "segment": "Distributors",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "AAR Corp",
+        "primary_domain": "aarcorp.com",
+        "company_function": "service provider and distributor",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "aircraft",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "commercial aircraft",
+    "include_keywords": [
+      "aircraft distribution",
+      "aircraft wholesaling",
+      "aircraft reselling",
+      "system integration for aircraft",
+      "aircraft service providers"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The commercial aircraft market encompasses the production, distribution, and servicing of aircraft designed for passenger and cargo transport. Key participants include manufacturers, distributors, and service providers operating globally to meet the demands of airlines and freight companies.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Distribution",
+        "description": "This layer involves the distribution of commercial aircraft and related components through various channels.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Regional Distributors",
+              "Global Distributors"
+            ],
+            "participant_types": [
+              "aircraft distributors",
+              "parts distributors"
+            ],
+            "search_intents": [
+              "commercial aircraft distributors",
+              "aircraft parts distributors"
+            ]
+          },
+          {
+            "segment_name": "Wholesalers",
+            "sub_segments": [
+              "Aircraft Wholesalers",
+              "Component Wholesalers"
+            ],
+            "participant_types": [
+              "aircraft wholesalers",
+              "component wholesalers"
+            ],
+            "search_intents": [
+              "commercial aircraft wholesalers",
+              "aircraft component wholesalers"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L2",
+        "layer_name": "Reselling",
+        "description": "This layer focuses on the resale of aircraft and components to end-users.",
+        "segments": [
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "New Aircraft Resellers",
+              "Used Aircraft Resellers"
+            ],
+            "participant_types": [
+              "aircraft resellers"
+            ],
+            "search_intents": [
+              "commercial aircraft resellers",
+              "used aircraft resellers"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L3",
+        "layer_name": "Integration Services",
+        "description": "This layer includes companies that integrate systems and provide services related to aircraft.",
+        "segments": [
+          {
+            "segment_name": "System Integrators",
+            "sub_segments": [
+              "Avionics Integrators",
+              "Flight Control System Integrators"
+            ],
+            "participant_types": [
+              "system integrators"
+            ],
+            "search_intents": [
+              "aircraft system integrators",
+              "avionics system integrators"
+            ]
+          },
+          {
+            "segment_name": "Service Providers",
+            "sub_segments": [
+              "Maintenance Providers",
+              "Repair Providers"
+            ],
+            "participant_types": [
+              "service providers"
+            ],
+            "search_intents": [
+              "aircraft maintenance service providers",
+              "aircraft repair service providers"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Military Aircraft Market",
+        "Private Jet Market",
+        "Helicopter Market",
+        "Drone Market"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "search for commercial aircraft distributors",
+        "sub_sector": "distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "search for commercial aircraft wholesalers",
+        "sub_sector": "wholesaler",
+        "layer_id": "L1",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "search for commercial aircraft resellers",
+        "sub_sector": "reseller",
+        "layer_id": "L2",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "search for aircraft system integrators",
+        "sub_sector": "system_integrator",
+        "layer_id": "L3",
+        "segment": "System Integrators"
+      },
+      {
+        "id": "M5",
+        "level": "market_map",
+        "text": "search for aircraft maintenance service providers",
+        "sub_sector": "service_provider",
+        "layer_id": "L3",
+        "segment": "Service Providers"
+      },
+      {
+        "id": "M6",
+        "level": "market_map",
+        "text": "distribuidores de aeronaves comerciales",
+        "sub_sector": "distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M7",
+        "level": "market_map",
+        "text": "mayoristas de aeronaves comerciales",
+        "sub_sector": "wholesaler",
+        "layer_id": "L1",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M8",
+        "level": "market_map",
+        "text": "revendedores de aeronaves comerciales",
+        "sub_sector": "reseller",
+        "layer_id": "L2",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M9",
+        "level": "market_map",
+        "text": "integradores de sistemas de aeronaves",
+        "sub_sector": "system_integrator",
+        "layer_id": "L3",
+        "segment": "System Integrators"
+      },
+      {
+        "id": "M10",
+        "level": "market_map",
+        "text": "proveedores de servicios de mantenimiento de aeronaves",
+        "sub_sector": "service_provider",
+        "layer_id": "L3",
+        "segment": "Service Providers"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "aviation",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "commercial aircraft companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "commercial aircraft distributors corporate sites"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "aircraft system integrators official websites"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "market_map",
+      "text": "search for commercial aircraft distributors"
+    },
+    {
+      "id": "P2",
+      "level": "market_map",
+      "text": "search for commercial aircraft wholesalers"
+    },
+    {
+      "id": "P3",
+      "level": "market_map",
+      "text": "search for commercial aircraft resellers"
+    },
+    {
+      "id": "P4",
+      "level": "market_map",
+      "text": "search for aircraft system integrators"
+    },
+    {
+      "id": "P5",
+      "level": "market_map",
+      "text": "search for aircraft maintenance service providers"
+    },
+    {
+      "id": "P6",
+      "level": "market_map",
+      "text": "distribuidores de aeronaves comerciales"
+    },
+    {
+      "id": "P7",
+      "level": "market_map",
+      "text": "mayoristas de aeronaves comerciales"
+    },
+    {
+      "id": "P8",
+      "level": "market_map",
+      "text": "revendedores de aeronaves comerciales"
+    },
+    {
+      "id": "P9",
+      "level": "market_map",
+      "text": "integradores de sistemas de aeronaves"
+    },
+    {
+      "id": "P10",
+      "level": "market_map",
+      "text": "proveedores de servicios de mantenimiento de aeronaves"
+    },
+    {
+      "id": "P11",
+      "level": "discovery",
+      "text": "commercial aircraft distributor official site"
+    },
+    {
+      "id": "P12",
+      "level": "discovery",
+      "text": "commercial aircraft wholesaler corporate headquarters"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "commercial aircraft companies official websites",
+      "level": "L0",
+      "result_count": 21,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Aerospace manufacturer - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Aerospace_manufacturer",
+          "snippet": "... business aircraft will amount for $18 billion and civil helicopters for $4 billion. Largest aerospace companies. edit. By Revenue ($ billion). Company, 2022 ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aircraft Manufacturers 2026: Global Directory - The Flying Engineer",
+          "link": "https://theflyingengineer.com/aircraft-manufacturers/",
+          "snippet": "12 Jan 2026 ... Boeing and Airbus dominate the large commercial aircraft market, while companies like COMAC and emerging electric aviation firms are rapidly ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Commercial - The Boeing Company",
+          "link": "https://www.boeing.com/commercial",
+          "snippet": "The Boeing 747 and 737NG models have transitioned from being available for commercial purchase to becoming integral parts of customer fleets worldwide. Commercial Airplanes is a global manufacturer of",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cessna Aircraft | Jet, Turboprop and Piston Models",
+          "link": "https://cessna.txtav.com/",
+          "snippet": "Cessna's line of Citation jets, Caravan turboprops and classic pistons dominate the sky. From learning to fly to flying your business, you'll find your aircraft solution.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Homepage | Aircraft & Services | Airbus",
+          "link": "https://www.aircraft.airbus.com/en",
+          "snippet": "Our purpose is to offer aircraft and services that meet your customer needs, while leading commercial aviation towards greater sustainability and safety.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Commercial Aircraft - Airbus",
+          "link": "https://www.airbus.com/en/products-services/commercial-aircraft",
+          "snippet": "Explore Airbus Commercial Aircraft: from passenger to cargo airplanes, we're connecting the world responsibly with efficiency, safety, and innovation.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The World's Top 10 Aircraft Manufacturers in 2025 - SkyArt",
+          "link": "https://www.skyart.com/blog/airports/the-worlds-top-10-aircraft-manufacturers-in-2025?srsltid=AfmBOorZKcjnbQfG16-c27I7_EpV7HOGnvthUhfAj2t9Qd6KhNqrr1iW",
+          "snippet": "29 Aug 2025 ... Bombardier now focuses solely on luxury business aviation after selling its commercial aircraft programs. ... The cookie settings on this website ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Pilatus Aircraft | Swiss Aircraft Manufacturer | Pilatus Aircraft Ltd",
+          "link": "https://www.pilatus-aircraft.com/",
+          "snippet": "Discover Pilatus Aircraft, the leading Swiss aircraft manufacturer. Our models like the PC-12, PC-24 stand for versatility, Swiss quality, and innovation.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Commercial Aircraft Corporation of China, Ltd.",
+          "link": "https://english.comac.cc/",
+          "snippet": "Company Profile. Chairman's Oration. Management Overview.C909 aircraft is the first new short-medium range turbofan regional jet independently developed by China in accordance with international civil",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "NetJets | World's Leading Private Jet Company | Fractional Aircraft...",
+          "link": "https://www.netjets.com/",
+          "snippet": "NetJets is the world\u2019s largest private jet company, offering fractional aircraft ownership and private jet card programs. Experience the ultimate in private jet travel, from departure to return.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Discover how our aircraft are tailored to meet your unique needs.",
+          "link": "https://www.hondajet.com/",
+          "snippet": "About Us. Founded in 2006, Honda Aircraft Company is the latest venture in Honda\u2019s drive to enhance the freedom of mobility. We use the most advanced technologies to build safer, more efficient aircra",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aircraft Commerce",
+          "link": "https://www.aircraft-commerce.com/",
+          "snippet": "Aircraft Commerce, along with our partners Aircraft IT, are pleased to launch Aircraft Analytics, a powerful new subscription-based digital resource for the industry. Aircraft Analytics provides real-",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "United Aircraft Corporation (UAC)",
+          "link": "https://uacrussia.ru/en/",
+          "snippet": "",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Pioneering sustainable aerospace | Airbus",
+          "link": "https://www.airbus.com/en",
+          "snippet": "Airbus designs, manufactures and delivers industry-leading commercial aircraft, helicopters, military transports, satellites, launchers and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Welcome | Bombardier",
+          "link": "https://bombardier.com/en",
+          "snippet": "At Bombardier, we design, build and maintain the world's peak-performing aircraft for the world's most discerning people, businesses and governments. That means not simply exceeding standards, but und",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dassault Aviation, a major player to aeronautics",
+          "link": "https://www.dassault-aviation.com/en/",
+          "snippet": "Dassault Aviation is a French aerospace company with proven dual expertise as a manufacturer of both military aircraft and business jets. Creator of more than 100 prototypes in the last century, with ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Find Airplane Manufacturers & Brands | GlobalAir.com Directory ...",
+          "link": "https://www.globalair.com/directories/aircraft-manufacturers-18.html",
+          "snippet": "If you get in touch with an aircraft manufacturing company listed on this page ... Aircraft Manufacturers: Commercial \u00b7 Aircraft Manufacturers: Corporate",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Pioneering sustainable aerospace | Airbus",
+          "link": "https://www.airbus.com/",
+          "snippet": "Airbus designs, manufactures and delivers industry-leading commercial aircraft, helicopters, military transports, satellites, launchers and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Welcome | Bombardier",
+          "link": "https://bombardier.com/",
+          "snippet": "Our craft, your flight. We design, build and maintain the world\u2019s peak-performing aircraft for the world\u2019s most discerning people, businesses and governments.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "AIC JETS Corp. | We Keep Your Fleet Flying",
+          "link": "https://www.aicjetscorp.com/",
+          "snippet": "AIC JETS Corp. - Group of Companies. Airbus, Boeing, Embraer, Gulfstream, Cessna, Dassault Falcon, Beechcraft Aircraft Sales, Brokerage and Lease Corporation. Registered vendor and in continued partne",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Leading Aerospace and Defense | Lockheed Martin",
+          "link": "https://www.lockheedmartin.com/",
+          "snippet": "By navigating around this site you consent to cookies being stored on your machine.Accept Edit your cookie settings.Sikorsky Autonomous Aircraft Black Hawk Family Commercial Aircraft. Explore All Airc",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Aerospace manufacturer - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Aerospace_manufacturer",
+          "snippet": "... business aircraft will amount for $18 billion and civil helicopters for $4 billion. Largest aerospace companies. edit. By Revenue ($ billion). Company, 2022 ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aircraft Manufacturers 2026: Global Directory - The Flying Engineer",
+          "link": "https://theflyingengineer.com/aircraft-manufacturers/",
+          "snippet": "12 Jan 2026 ... Boeing and Airbus dominate the large commercial aircraft market, while companies like COMAC and emerging electric aviation firms are rapidly ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Commercial - The Boeing Company",
+          "link": "https://www.boeing.com/commercial",
+          "snippet": "The Boeing 747 and 737NG models have transitioned from being available for commercial purchase to becoming integral parts of customer fleets worldwide. Commercial Airplanes is a global manufacturer of",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cessna Aircraft | Jet, Turboprop and Piston Models",
+          "link": "https://cessna.txtav.com/",
+          "snippet": "Cessna's line of Citation jets, Caravan turboprops and classic pistons dominate the sky. From learning to fly to flying your business, you'll find your aircraft solution.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Homepage | Aircraft & Services | Airbus",
+          "link": "https://www.aircraft.airbus.com/en",
+          "snippet": "Our purpose is to offer aircraft and services that meet your customer needs, while leading commercial aviation towards greater sustainability and safety.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Commercial Aircraft - Airbus",
+          "link": "https://www.airbus.com/en/products-services/commercial-aircraft",
+          "snippet": "Explore Airbus Commercial Aircraft: from passenger to cargo airplanes, we're connecting the world responsibly with efficiency, safety, and innovation.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The World's Top 10 Aircraft Manufacturers in 2025 - SkyArt",
+          "link": "https://www.skyart.com/blog/airports/the-worlds-top-10-aircraft-manufacturers-in-2025?srsltid=AfmBOorZKcjnbQfG16-c27I7_EpV7HOGnvthUhfAj2t9Qd6KhNqrr1iW",
+          "snippet": "29 Aug 2025 ... Bombardier now focuses solely on luxury business aviation after selling its commercial aircraft programs. ... The cookie settings on this website ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Pilatus Aircraft | Swiss Aircraft Manufacturer | Pilatus Aircraft Ltd",
+          "link": "https://www.pilatus-aircraft.com/",
+          "snippet": "Discover Pilatus Aircraft, the leading Swiss aircraft manufacturer. Our models like the PC-12, PC-24 stand for versatility, Swiss quality, and innovation.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Commercial Aircraft Corporation of China, Ltd.",
+          "link": "https://english.comac.cc/",
+          "snippet": "Company Profile. Chairman's Oration. Management Overview.C909 aircraft is the first new short-medium range turbofan regional jet independently developed by China in accordance with international civil",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "NetJets | World's Leading Private Jet Company | Fractional Aircraft...",
+          "link": "https://www.netjets.com/",
+          "snippet": "NetJets is the world\u2019s largest private jet company, offering fractional aircraft ownership and private jet card programs. Experience the ultimate in private jet travel, from departure to return.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Discover how our aircraft are tailored to meet your unique needs.",
+          "link": "https://www.hondajet.com/",
+          "snippet": "About Us. Founded in 2006, Honda Aircraft Company is the latest venture in Honda\u2019s drive to enhance the freedom of mobility. We use the most advanced technologies to build safer, more efficient aircra",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aircraft Commerce",
+          "link": "https://www.aircraft-commerce.com/",
+          "snippet": "Aircraft Commerce, along with our partners Aircraft IT, are pleased to launch Aircraft Analytics, a powerful new subscription-based digital resource for the industry. Aircraft Analytics provides real-",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "United Aircraft Corporation (UAC)",
+          "link": "https://uacrussia.ru/en/",
+          "snippet": "",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Pioneering sustainable aerospace | Airbus",
+          "link": "https://www.airbus.com/en",
+          "snippet": "Airbus designs, manufactures and delivers industry-leading commercial aircraft, helicopters, military transports, satellites, launchers and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Welcome | Bombardier",
+          "link": "https://bombardier.com/en",
+          "snippet": "At Bombardier, we design, build and maintain the world's peak-performing aircraft for the world's most discerning people, businesses and governments. That means not simply exceeding standards, but und",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dassault Aviation, a major player to aeronautics",
+          "link": "https://www.dassault-aviation.com/en/",
+          "snippet": "Dassault Aviation is a French aerospace company with proven dual expertise as a manufacturer of both military aircraft and business jets. Creator of more than 100 prototypes in the last century, with ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Find Airplane Manufacturers & Brands | GlobalAir.com Directory ...",
+          "link": "https://www.globalair.com/directories/aircraft-manufacturers-18.html",
+          "snippet": "If you get in touch with an aircraft manufacturing company listed on this page ... Aircraft Manufacturers: Commercial \u00b7 Aircraft Manufacturers: Corporate",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Pioneering sustainable aerospace | Airbus",
+          "link": "https://www.airbus.com/",
+          "snippet": "Airbus designs, manufactures and delivers industry-leading commercial aircraft, helicopters, military transports, satellites, launchers and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Welcome | Bombardier",
+          "link": "https://bombardier.com/",
+          "snippet": "Our craft, your flight. We design, build and maintain the world\u2019s peak-performing aircraft for the world\u2019s most discerning people, businesses and governments.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "AIC JETS Corp. | We Keep Your Fleet Flying",
+          "link": "https://www.aicjetscorp.com/",
+          "snippet": "AIC JETS Corp. - Group of Companies. Airbus, Boeing, Embraer, Gulfstream, Cessna, Dassault Falcon, Beechcraft Aircraft Sales, Brokerage and Lease Corporation. Registered vendor and in continued partne",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Leading Aerospace and Defense | Lockheed Martin",
+          "link": "https://www.lockheedmartin.com/",
+          "snippet": "By navigating around this site you consent to cookies being stored on your machine.Accept Edit your cookie settings.Sikorsky Autonomous Aircraft Black Hawk Family Commercial Aircraft. Explore All Airc",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "commercial aircraft distributors corporate sites",
+      "level": "L1",
+      "result_count": 13,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Aircraft Parts Distribution is a leading provider of business jet parts.",
+          "link": "https://aircraftparts.net/",
+          "snippet": "Aircraft Parts Distribution provides different levels of pricing from bulk buys with OEMs, manufacturers, excess buys, consignment inventories, and teardowns while offering a high level of customer su",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aircraft Commerce",
+          "link": "https://www.aircraft-commerce.com/",
+          "snippet": "Aircraft Commerce is an air transport industry bi-monthly publication that scrutinises the economics of commercial aircraft & engines from all relevant aspects.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Commercial Aircraft Corporation of China, Ltd.",
+          "link": "https://english.comac.cc/",
+          "snippet": "First CBJ put into commercial operation. C909.The baseline version of C929 widebody aircraft has a layout of 282 to 440 seats, which can extensively meet the global market demand of international and ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aviation Parts | Aircraft Spare Parts | OEM | Distributor - Topcast",
+          "link": "https://topcast.com/",
+          "snippet": "Aircraft spare parts distributor like Topcast are responsible for sourcing, stocking, and delivering aircraft components and spare parts to meet the specific needs of our aircraft parts supplier clien",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "PAG | MRO, Engine, Distribution, Aircraft Parts, & DER Services",
+          "link": "https://www.precisionaviationgroup.com/",
+          "snippet": "PAG tip to tail MRO capabilities, including avionics, components, engines, distribution plus inventory of in-stock aircraft parts 200,000.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Proponent: Fast, Easy, And Reliable Aircraft Parts Partner",
+          "link": "https://www.proponent.com/",
+          "snippet": "We are the world\u2019s largest independent aircraft parts distribution company.At Proponent, we understand that one distributor, including us, cannot do everything. We leverage our strengths to provide ou",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Yakovlev is a leading manufacturer of commercial airliners within the...",
+          "link": "https://eng.yakovlev.ru/",
+          "snippet": "We provide the complete aviation design-to-after-sales support work cycle. We unite the scientific, production, and service capacities of commercial aircraft industry across the country.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "New & Used Aircraft For Sale | Controller",
+          "link": "https://www.controller.com/",
+          "snippet": "Find jets, piston airplanes, turboprops, helicopters, and other aircraft for sale on Controller.com, the world\u2019s leading marketplace to buy and sell aircraft.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Pioneering sustainable aerospace | Airbus",
+          "link": "https://www.airbus.com/",
+          "snippet": "Airbus designs, manufactures and delivers industry-leading commercial aircraft, helicopters, military transports, satellites, launchers and more.The life cycle of an aircraft. Corporate Jets. Helicopt",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 17 Boeing Alternatives & Competitors in 2026",
+          "link": "https://www.marketing91.com/boeing-competitors/",
+          "snippet": "In 2022, Boeing delivered 480 commercial airplanes and recorded 808 net orders. It recorded revenue of $66,608 million in 2022. The various products of Boeing are military and commercial aircraft, wea",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - Africair, Inc.",
+          "link": "https://africair.com/",
+          "snippet": "Beechcraft King Air 360 The Next King Rises. Learn More. Authorized Distributor for Thrush Aircraft.Since 1968, Africair has been transforming the African Aviation Industry by distributing aircraft an",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Moog Inc. - Shaping the way our world moves",
+          "link": "https://www.moog.com/",
+          "snippet": "Moog\u2019s high-performance systems control military and commercial aircraft, satellites and space vehicles, launch vehicles, missiles, automated industrial machinery, marine and medical equipment.This Si",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Arezo",
+          "link": "https://www.arezoaviation.in/",
+          "snippet": "We specialize in Air charter , Air Ambulance, Chardham Yatra and our another Core Business of support & distributing Aircraft Spare parts ,Lubricant and Pilot Supply for Commercial, General, Corporate",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Aircraft Parts Distribution is a leading provider of business jet parts.",
+          "link": "https://aircraftparts.net/",
+          "snippet": "Aircraft Parts Distribution provides different levels of pricing from bulk buys with OEMs, manufacturers, excess buys, consignment inventories, and teardowns while offering a high level of customer su",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aircraft Commerce",
+          "link": "https://www.aircraft-commerce.com/",
+          "snippet": "Aircraft Commerce is an air transport industry bi-monthly publication that scrutinises the economics of commercial aircraft & engines from all relevant aspects.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Commercial Aircraft Corporation of China, Ltd.",
+          "link": "https://english.comac.cc/",
+          "snippet": "First CBJ put into commercial operation. C909.The baseline version of C929 widebody aircraft has a layout of 282 to 440 seats, which can extensively meet the global market demand of international and ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aviation Parts | Aircraft Spare Parts | OEM | Distributor - Topcast",
+          "link": "https://topcast.com/",
+          "snippet": "Aircraft spare parts distributor like Topcast are responsible for sourcing, stocking, and delivering aircraft components and spare parts to meet the specific needs of our aircraft parts supplier clien",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "PAG | MRO, Engine, Distribution, Aircraft Parts, & DER Services",
+          "link": "https://www.precisionaviationgroup.com/",
+          "snippet": "PAG tip to tail MRO capabilities, including avionics, components, engines, distribution plus inventory of in-stock aircraft parts 200,000.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Proponent: Fast, Easy, And Reliable Aircraft Parts Partner",
+          "link": "https://www.proponent.com/",
+          "snippet": "We are the world\u2019s largest independent aircraft parts distribution company.At Proponent, we understand that one distributor, including us, cannot do everything. We leverage our strengths to provide ou",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Yakovlev is a leading manufacturer of commercial airliners within the...",
+          "link": "https://eng.yakovlev.ru/",
+          "snippet": "We provide the complete aviation design-to-after-sales support work cycle. We unite the scientific, production, and service capacities of commercial aircraft industry across the country.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "New & Used Aircraft For Sale | Controller",
+          "link": "https://www.controller.com/",
+          "snippet": "Find jets, piston airplanes, turboprops, helicopters, and other aircraft for sale on Controller.com, the world\u2019s leading marketplace to buy and sell aircraft.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Pioneering sustainable aerospace | Airbus",
+          "link": "https://www.airbus.com/",
+          "snippet": "Airbus designs, manufactures and delivers industry-leading commercial aircraft, helicopters, military transports, satellites, launchers and more.The life cycle of an aircraft. Corporate Jets. Helicopt",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 17 Boeing Alternatives & Competitors in 2026",
+          "link": "https://www.marketing91.com/boeing-competitors/",
+          "snippet": "In 2022, Boeing delivered 480 commercial airplanes and recorded 808 net orders. It recorded revenue of $66,608 million in 2022. The various products of Boeing are military and commercial aircraft, wea",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - Africair, Inc.",
+          "link": "https://africair.com/",
+          "snippet": "Beechcraft King Air 360 The Next King Rises. Learn More. Authorized Distributor for Thrush Aircraft.Since 1968, Africair has been transforming the African Aviation Industry by distributing aircraft an",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Moog Inc. - Shaping the way our world moves",
+          "link": "https://www.moog.com/",
+          "snippet": "Moog\u2019s high-performance systems control military and commercial aircraft, satellites and space vehicles, launch vehicles, missiles, automated industrial machinery, marine and medical equipment.This Si",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Arezo",
+          "link": "https://www.arezoaviation.in/",
+          "snippet": "We specialize in Air charter , Air Ambulance, Chardham Yatra and our another Core Business of support & distributing Aircraft Spare parts ,Lubricant and Pilot Supply for Commercial, General, Corporate",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "aircraft system integrators official websites",
+      "level": "L2",
+      "result_count": 21,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Aircraft | Lockheed Martin",
+          "link": "https://www.lockheedmartin.com/en-us/capabilities/aircraft.html",
+          "snippet": "Discover Lockheed Martin's military aircraft leadership in combat, air mobility, and reconnaissance. Advanced technology for unmatched capabilities.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Hunton & Williams Launches Unmanned Aircraft Systems Integration...",
+          "link": "https://www.suasnews.com/2014/11/hunton-williams-launches-unmanned-aircraft-systems-integration-unit/",
+          "snippet": "Hunton & Williams LLP announces the formation of a multidisciplinary Unmanned Aircraft Systems Integration Unit to assist clients with the legal complexities associated with the developing regu\u2026",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "BAE Systems: Home",
+          "link": "https://www.baesystems.com/en",
+          "snippet": "The programme began in May 1983, when our predecessor company, British Aerospace, signed a contract with the British Government for a one-off research aircraft.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aircraft Systems Integration from EMBRAER Perspective",
+          "link": "https://www.icas.org/media/pdf/Workshops/2015/ICAS+2015+Workshop+Systems_Integration_Embraer.pdf",
+          "snippet": "31 Aug 2015 ... Page 2. This information is the property of Embraer and cannot be ... Aircraft/System integration is the task of ensuring all the aircraft systems ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aircraft Missionization and Avionics | L3Harris\u00ae Fast. Forward.",
+          "link": "https://www.l3harris.com/all-capabilities/aircraft-missionization-and-avionics",
+          "snippet": "As a full-service aircraft systems integrator, L3Harris solutions are ... On This Page. Aircraft Modification; Electro-Optical/Infrared ISR and Targeting ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aircraft Integration & Modification - Sierra Nevada Corporation | SNC",
+          "link": "https://www.sncorp.com/capabilities/aircraft-integration-modification/",
+          "snippet": "As the global threat landscape quickly evolves, the need for rapid modification of systems is critical. SNC's industry-leading aircraft integration ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tata Advanced Systems",
+          "link": "https://www.tataadvancedsystems.com/",
+          "snippet": "... Aircraft (MTA) program, subject to U.S. and Indian government approvals. image. 03rd Sep 2024. #TataAdvancedSystems is excited to showcase its defence ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Training Systems Integration (TSI) - CAE",
+          "link": "https://www.cae.com/content/docs/defense-security/BM024_Training_Systems_Integration_SINGLE-PAGE_INT_v18-LR.pdf",
+          "snippet": "Training Systems Integration (TSI). Page 12. Who has the experience and ... We purchased Grob G120TP aircraft to deliver live flight training in addition to ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "AIS - Aircraft Integrated Solutions",
+          "link": "https://aircraftis.com/",
+          "snippet": "Aircraft Integrated Solutions, along with our partners, delivers best-in-class, full-service engineering and production solutions across all disciplines. Our strategic focus is based upon purpose-buil",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "AVIAGE SYSTEMS - Official Website",
+          "link": "https://www.aviagesystems.com/en/",
+          "snippet": "AVIAGE SYSTEMS is committed to providing integrated solutions for civil aircraft, covering system safety analysis, integration verification planning, laboratory setup, integration ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "AS-1 Aircraft Systems and Systems Integration - SAE StandardsWorks",
+          "link": "https://standardsworks.sae.org/standards-committees/1-aircraft-systems-systems-integration",
+          "snippet": "A page that displays information about a standards committee, as well as providing a mechanism to search for standards committees.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Welcome To Dynon",
+          "link": "https://dynonavionics.com/",
+          "snippet": "Offering a new level of avionics, systems, panels, and aircraft integration. ADVANCEDPANEL is the only program of its kind in aviation. Better by Design: Discover the \"full stack\u201d of Trig Transponder,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "GE Aerospace - Home | GE Aerospace",
+          "link": "https://www.geaerospace.com/",
+          "snippet": "Our portfolio of brandsUnsurpassed reliability and performance. GE Aerospace is a world-leading provider of jet and turboprop engines, as well as integrated systems for commercial, military, business ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Moog Inc. - Shaping the way our world moves",
+          "link": "https://www.moog.com/",
+          "snippet": "Moog is a worldwide designer, manufacturer, and integrator of precision motion control components and systems. Moog\u2019s high-performance systems control military and commercial aircraft, satellites and ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Eyes in the Sky: ACUASI keeps an Unmanned Eye to Prevent Whale...",
+          "link": "https://www.maritimemagazines.com/marine-technology/202208/eyes-in-the-sky-acuasi-keeps-an-unmanned-eye-to-prevent-whale-collisions/",
+          "snippet": "The Alaska Center for Unmanned Aircraft Systems Integration is back in Canada to help prevent endangered North Atlantic right whales from colliding with vessels in the busy Gulf of St. Lawrence. By Ro",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "S-PLANE | LinkedIn",
+          "link": "https://za.linkedin.com/company/s-plane-automation-pty-ltd",
+          "snippet": "Typical S-PLANE customers are aircraft system integrators, aircraft manufacturers, service providers and government agencies. Products are qualified and certified to appropriate industrial, aeronautic",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Curtiss-Wright Introduces New 25-hour Flight Data Recorder and...",
+          "link": "https://www.eejournal.com/industry_news/curtiss-wright-introduces-new-25-hour-flight-data-recorder-and-cockpit-voice-recorders-for-the-defense-aviation-market/",
+          "snippet": "These recorders provide aircraft system integrators with a cost-efficient solution that leverages advanced technologies developed for compact commercial and military platforms.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "UAS Integration Pilot Program | Federal Aviation Administration",
+          "link": "https://www.faa.gov/uas/programs_partnerships/completed/integration_pilot_program",
+          "snippet": "3 Jun 2022 ... Program Overview Beginning in 2017, the Unmanned Aircraft System (UAS) Integration ... Official websites use .gov. A .gov website belongs to an ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Airbus: Pioneering sustainable aerospace",
+          "link": "https://www.airbus.com/en",
+          "snippet": "Meet Daniel, Aircraft Systems Engineer at Airbus Defence and Space in Getafe, Spain ... Let's stay in touch. Contact us. Footer menu. Connected websites Connected ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Avionics Integration | Collins Aerospace - RTX",
+          "link": "https://www.rtx.com/collinsaerospace/what-we-do/industries/military-and-defense/avionics/avionics-integration",
+          "snippet": "When it's time to upgrade your aircraft's avionics, turn to Collins Aerospace for the product selection to suit your aircraft systems and the expertise to ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Pioneering Avionics Integration for Commercial Jets",
+          "link": "https://www.asigllc.com/",
+          "snippet": "From cockpit to control tower, and across global networks, our systems offer clarity, reliability, and advanced security features. Our team works closely with you to design a communication system that",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Aircraft | Lockheed Martin",
+          "link": "https://www.lockheedmartin.com/en-us/capabilities/aircraft.html",
+          "snippet": "Discover Lockheed Martin's military aircraft leadership in combat, air mobility, and reconnaissance. Advanced technology for unmatched capabilities.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Hunton & Williams Launches Unmanned Aircraft Systems Integration...",
+          "link": "https://www.suasnews.com/2014/11/hunton-williams-launches-unmanned-aircraft-systems-integration-unit/",
+          "snippet": "Hunton & Williams LLP announces the formation of a multidisciplinary Unmanned Aircraft Systems Integration Unit to assist clients with the legal complexities associated with the developing regu\u2026",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "BAE Systems: Home",
+          "link": "https://www.baesystems.com/en",
+          "snippet": "The programme began in May 1983, when our predecessor company, British Aerospace, signed a contract with the British Government for a one-off research aircraft.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aircraft Systems Integration from EMBRAER Perspective",
+          "link": "https://www.icas.org/media/pdf/Workshops/2015/ICAS+2015+Workshop+Systems_Integration_Embraer.pdf",
+          "snippet": "31 Aug 2015 ... Page 2. This information is the property of Embraer and cannot be ... Aircraft/System integration is the task of ensuring all the aircraft systems ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aircraft Missionization and Avionics | L3Harris\u00ae Fast. Forward.",
+          "link": "https://www.l3harris.com/all-capabilities/aircraft-missionization-and-avionics",
+          "snippet": "As a full-service aircraft systems integrator, L3Harris solutions are ... On This Page. Aircraft Modification; Electro-Optical/Infrared ISR and Targeting ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aircraft Integration & Modification - Sierra Nevada Corporation | SNC",
+          "link": "https://www.sncorp.com/capabilities/aircraft-integration-modification/",
+          "snippet": "As the global threat landscape quickly evolves, the need for rapid modification of systems is critical. SNC's industry-leading aircraft integration ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tata Advanced Systems",
+          "link": "https://www.tataadvancedsystems.com/",
+          "snippet": "... Aircraft (MTA) program, subject to U.S. and Indian government approvals. image. 03rd Sep 2024. #TataAdvancedSystems is excited to showcase its defence ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Training Systems Integration (TSI) - CAE",
+          "link": "https://www.cae.com/content/docs/defense-security/BM024_Training_Systems_Integration_SINGLE-PAGE_INT_v18-LR.pdf",
+          "snippet": "Training Systems Integration (TSI). Page 12. Who has the experience and ... We purchased Grob G120TP aircraft to deliver live flight training in addition to ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "AIS - Aircraft Integrated Solutions",
+          "link": "https://aircraftis.com/",
+          "snippet": "Aircraft Integrated Solutions, along with our partners, delivers best-in-class, full-service engineering and production solutions across all disciplines. Our strategic focus is based upon purpose-buil",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "AVIAGE SYSTEMS - Official Website",
+          "link": "https://www.aviagesystems.com/en/",
+          "snippet": "AVIAGE SYSTEMS is committed to providing integrated solutions for civil aircraft, covering system safety analysis, integration verification planning, laboratory setup, integration ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "AS-1 Aircraft Systems and Systems Integration - SAE StandardsWorks",
+          "link": "https://standardsworks.sae.org/standards-committees/1-aircraft-systems-systems-integration",
+          "snippet": "A page that displays information about a standards committee, as well as providing a mechanism to search for standards committees.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Welcome To Dynon",
+          "link": "https://dynonavionics.com/",
+          "snippet": "Offering a new level of avionics, systems, panels, and aircraft integration. ADVANCEDPANEL is the only program of its kind in aviation. Better by Design: Discover the \"full stack\u201d of Trig Transponder,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "GE Aerospace - Home | GE Aerospace",
+          "link": "https://www.geaerospace.com/",
+          "snippet": "Our portfolio of brandsUnsurpassed reliability and performance. GE Aerospace is a world-leading provider of jet and turboprop engines, as well as integrated systems for commercial, military, business ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Moog Inc. - Shaping the way our world moves",
+          "link": "https://www.moog.com/",
+          "snippet": "Moog is a worldwide designer, manufacturer, and integrator of precision motion control components and systems. Moog\u2019s high-performance systems control military and commercial aircraft, satellites and ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Eyes in the Sky: ACUASI keeps an Unmanned Eye to Prevent Whale...",
+          "link": "https://www.maritimemagazines.com/marine-technology/202208/eyes-in-the-sky-acuasi-keeps-an-unmanned-eye-to-prevent-whale-collisions/",
+          "snippet": "The Alaska Center for Unmanned Aircraft Systems Integration is back in Canada to help prevent endangered North Atlantic right whales from colliding with vessels in the busy Gulf of St. Lawrence. By Ro",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "S-PLANE | LinkedIn",
+          "link": "https://za.linkedin.com/company/s-plane-automation-pty-ltd",
+          "snippet": "Typical S-PLANE customers are aircraft system integrators, aircraft manufacturers, service providers and government agencies. Products are qualified and certified to appropriate industrial, aeronautic",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Curtiss-Wright Introduces New 25-hour Flight Data Recorder and...",
+          "link": "https://www.eejournal.com/industry_news/curtiss-wright-introduces-new-25-hour-flight-data-recorder-and-cockpit-voice-recorders-for-the-defense-aviation-market/",
+          "snippet": "These recorders provide aircraft system integrators with a cost-efficient solution that leverages advanced technologies developed for compact commercial and military platforms.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "UAS Integration Pilot Program | Federal Aviation Administration",
+          "link": "https://www.faa.gov/uas/programs_partnerships/completed/integration_pilot_program",
+          "snippet": "3 Jun 2022 ... Program Overview Beginning in 2017, the Unmanned Aircraft System (UAS) Integration ... Official websites use .gov. A .gov website belongs to an ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Airbus: Pioneering sustainable aerospace",
+          "link": "https://www.airbus.com/en",
+          "snippet": "Meet Daniel, Aircraft Systems Engineer at Airbus Defence and Space in Getafe, Spain ... Let's stay in touch. Contact us. Footer menu. Connected websites Connected ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Avionics Integration | Collins Aerospace - RTX",
+          "link": "https://www.rtx.com/collinsaerospace/what-we-do/industries/military-and-defense/avionics/avionics-integration",
+          "snippet": "When it's time to upgrade your aircraft's avionics, turn to Collins Aerospace for the product selection to suit your aircraft systems and the expertise to ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Pioneering Avionics Integration for Commercial Jets",
+          "link": "https://www.asigllc.com/",
+          "snippet": "From cockpit to control tower, and across global networks, our systems offer clarity, reliability, and advanced security features. Our team works closely with you to design a communication system that",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "search for commercial aircraft distributors",
+      "level": "market_map",
+      "result_count": 14,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Aircraft Parts Distributors | Aviation Hardware... | Dialogic Fasteners",
+          "link": "https://dialogic-fasteners.com/aviation-fastener-suppliers/",
+          "snippet": "Aircraft Fasteners You Can Trust. Dialogic Fasteners has proudly served both the U.S. Military and private commercial aviation industry for over 30 years. If you\u2019re a mechanic or engineer searching fo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "New & Used Aircraft For Sale | Controller",
+          "link": "https://www.controller.com/",
+          "snippet": "Search For Parts. Search Salvaged Aircraft. Select a Manufacturer.The site includes listings for private, commercial, military, agricultural, and other aircraft markets, as well as equipment such as f",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aviation Parts | Aircraft Spare Parts | OEM | Distributor - Topcast",
+          "link": "https://topcast.com/",
+          "snippet": "Aircraft spare parts distributor work closely with aircraft parts to source genuine and certified parts, which is critical for the safety and reliability of aircraft operations.This protects airlines ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "PAG | MRO, Engine, Distribution, Aircraft Parts, & DER Services",
+          "link": "https://www.precisionaviationgroup.com/",
+          "snippet": "PAG tip to tail MRO capabilities, including avionics, components, engines, distribution plus inventory of in-stock aircraft parts 200,000.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aircraft Parts Distribution is a leading provider of business jet parts.",
+          "link": "https://aircraftparts.net/",
+          "snippet": "Private Aircraft Owner. Aircraft Parts Distribution is a trusted partner for our maintenance department. Their reliability, fair pricing, and ability to deliver even under tight deadlines have been in",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aircraft Commerce",
+          "link": "https://www.aircraft-commerce.com/",
+          "snippet": "Aircraft Commerce is an air transport industry bi-monthly publication that scrutinises the economics of commercial aircraft & engines from all relevant aspects. Advanced search. To see what is in our ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Commercial",
+          "link": "https://www.boeing.com/commercial",
+          "snippet": "Search. Commercial.Commercial Airplanes is a global manufacturer of commercial jetliners. These aircraft are now celebrated for their safety, comfort, reliability and performance in various operationa",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The List of Aircraft and Spacecraft Manufacturers",
+          "link": "https://www.revfine.com/aerospace-companies/",
+          "snippet": "Search forGE Aviation, formerly known as General Electric Aircraft Engines, is a subsidiary of the General Electric Company. It is one of the largest aerospace companies in the United States and is pr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Distributors of aircraft parts & accessories | .AERO",
+          "link": "https://information.aero/category/registrant_group/aerospace/distributors_aircraft_parts_accessories",
+          "snippet": "Dakota Air Parts works with OEM's, manufacturers, distributors, as well operators/end-users to support worldwide distribution requirements in many different areas including BOA\u2019s, Spares Procurement, ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "gracesguide.co.uk/Aircraft_Distributors",
+          "link": "https://www.gracesguide.co.uk/Aircraft_Distributors",
+          "snippet": "Aircraft Distributors.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tecnam Aircraft: Single & Twin Engine Planes | Soar Higher",
+          "link": "https://tecnam.com/",
+          "snippet": "Open Search. MENU. Find Your Aircraft.For flight training, commercial operations or private use, our twin engine aircraft will fulfill your ambition efficiently.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - Africair, Inc.",
+          "link": "https://africair.com/",
+          "snippet": "Beechcraft King Air 360 The Next King Rises. Learn More. Authorized Distributor for Thrush Aircraft.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Pioneering sustainable aerospace | Airbus",
+          "link": "https://www.airbus.com/",
+          "snippet": "Airbus designs, manufactures and delivers industry-leading commercial aircraft, helicopters, military transports, satellites, launchers and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "GitHub...",
+          "link": "https://github.com/777connectmarketing/Aircraft-Navigation-Converter-Distributors",
+          "snippet": "Whether for commercial airliners, military aircraft, or cutting-edge UAVs, reliable distributors of navigation converters provide the essential support needed to maintain safe, efficient, and advanced",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Aircraft Parts Distributors | Aviation Hardware... | Dialogic Fasteners",
+          "link": "https://dialogic-fasteners.com/aviation-fastener-suppliers/",
+          "snippet": "Aircraft Fasteners You Can Trust. Dialogic Fasteners has proudly served both the U.S. Military and private commercial aviation industry for over 30 years. If you\u2019re a mechanic or engineer searching fo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "New & Used Aircraft For Sale | Controller",
+          "link": "https://www.controller.com/",
+          "snippet": "Search For Parts. Search Salvaged Aircraft. Select a Manufacturer.The site includes listings for private, commercial, military, agricultural, and other aircraft markets, as well as equipment such as f",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aviation Parts | Aircraft Spare Parts | OEM | Distributor - Topcast",
+          "link": "https://topcast.com/",
+          "snippet": "Aircraft spare parts distributor work closely with aircraft parts to source genuine and certified parts, which is critical for the safety and reliability of aircraft operations.This protects airlines ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "PAG | MRO, Engine, Distribution, Aircraft Parts, & DER Services",
+          "link": "https://www.precisionaviationgroup.com/",
+          "snippet": "PAG tip to tail MRO capabilities, including avionics, components, engines, distribution plus inventory of in-stock aircraft parts 200,000.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aircraft Parts Distribution is a leading provider of business jet parts.",
+          "link": "https://aircraftparts.net/",
+          "snippet": "Private Aircraft Owner. Aircraft Parts Distribution is a trusted partner for our maintenance department. Their reliability, fair pricing, and ability to deliver even under tight deadlines have been in",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aircraft Commerce",
+          "link": "https://www.aircraft-commerce.com/",
+          "snippet": "Aircraft Commerce is an air transport industry bi-monthly publication that scrutinises the economics of commercial aircraft & engines from all relevant aspects. Advanced search. To see what is in our ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Commercial",
+          "link": "https://www.boeing.com/commercial",
+          "snippet": "Search. Commercial.Commercial Airplanes is a global manufacturer of commercial jetliners. These aircraft are now celebrated for their safety, comfort, reliability and performance in various operationa",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The List of Aircraft and Spacecraft Manufacturers",
+          "link": "https://www.revfine.com/aerospace-companies/",
+          "snippet": "Search forGE Aviation, formerly known as General Electric Aircraft Engines, is a subsidiary of the General Electric Company. It is one of the largest aerospace companies in the United States and is pr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Distributors of aircraft parts & accessories | .AERO",
+          "link": "https://information.aero/category/registrant_group/aerospace/distributors_aircraft_parts_accessories",
+          "snippet": "Dakota Air Parts works with OEM's, manufacturers, distributors, as well operators/end-users to support worldwide distribution requirements in many different areas including BOA\u2019s, Spares Procurement, ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "gracesguide.co.uk/Aircraft_Distributors",
+          "link": "https://www.gracesguide.co.uk/Aircraft_Distributors",
+          "snippet": "Aircraft Distributors.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tecnam Aircraft: Single & Twin Engine Planes | Soar Higher",
+          "link": "https://tecnam.com/",
+          "snippet": "Open Search. MENU. Find Your Aircraft.For flight training, commercial operations or private use, our twin engine aircraft will fulfill your ambition efficiently.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - Africair, Inc.",
+          "link": "https://africair.com/",
+          "snippet": "Beechcraft King Air 360 The Next King Rises. Learn More. Authorized Distributor for Thrush Aircraft.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Pioneering sustainable aerospace | Airbus",
+          "link": "https://www.airbus.com/",
+          "snippet": "Airbus designs, manufactures and delivers industry-leading commercial aircraft, helicopters, military transports, satellites, launchers and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "GitHub...",
+          "link": "https://github.com/777connectmarketing/Aircraft-Navigation-Converter-Distributors",
+          "snippet": "Whether for commercial airliners, military aircraft, or cutting-edge UAVs, reliable distributors of navigation converters provide the essential support needed to maintain safe, efficient, and advanced",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P2": {
+      "query": "search for commercial aircraft wholesalers",
+      "level": "market_map",
+      "result_count": 10,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "China Wholesale Aircraft Products at Factory Prices... | Global Sources",
+          "link": "https://www.globalsources.com/manufacturers/aircraft.html",
+          "snippet": "8996 wholesale \"Aircraft\" products from 264 suppliers. Shop online for wholesale aircraft?Can one buy customized aircraft in bulk for commercial aviation? Indeed, Chinese providers offer customized ai",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aircraft Wholesalers Suppliers, Manufacturer, Distributor, Factories...",
+          "link": "https://www.alibaba.com/aircraft-wholesalers-suppliers.html",
+          "snippet": "Alibaba offers 1,328 Aircraft Wholesalers Suppliers, and Aircraft Wholesalers Manufacturers, Distributors, Factories, Companies. There are 820 OEM, 753 ODM, 153 Self Patent.Search For. Top Selected Su",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "China Small Aircraft, Small Aircraft Wholesale... | Made-in-China.com",
+          "link": "https://www.made-in-china.com/products-search/hot-china-products/Small_Aircraft.html",
+          "snippet": "China Small Aircraft wholesale - Select 2026 high quality Small Aircraft products in best price from certified Chinese Small Panel manufacturers, Small Refrigerator suppliers, wholesalers and factory ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aircraft for Sale | Buy or Sell Airplanes, Jets, & Helicopters",
+          "link": "https://www.aircraftdealer.com/",
+          "snippet": "Aircraft for sale on your #1 trusted searchable database AircraftDealer.com. Find, Buy or Sell any type of aviation aircraft, such as Cessna, Gulfstream, Boeing, Piper & more.Your search for a. starts",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aircraft Commerce",
+          "link": "https://www.aircraft-commerce.com/",
+          "snippet": "Aircraft Commerce is an air transport industry bi-monthly publication that scrutinises the economics of commercial aircraft & engines from all relevant aspects.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Commercial",
+          "link": "https://www.boeing.com/commercial",
+          "snippet": "Search. Commercial.Commercial Airplanes is a global manufacturer of commercial jetliners. These aircraft are now celebrated for their safety, comfort, reliability and performance in various operationa",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "New & Used Aircraft For Sale | Controller",
+          "link": "https://www.controller.com/",
+          "snippet": "Search For Parts. Search Salvaged Aircraft.The site includes listings for private, commercial, military, agricultural, and other aircraft markets, as well as equipment such as fuel tanks, power units,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "aircraft Wholesaler | B2B companies and suppliers | europages",
+          "link": "https://www.europages.co.uk/companies/wholesaler/aircraft.html",
+          "snippet": "164 suppliers for aircraft Wholesaler Find wholesalers and contact them directly B2B martketplace Find companies now! Commercial Halls. Other products. Schwarzmann X\u00ae.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "evtol passenger aircraft wholesaler - Trusted Supply & Delivery",
+          "link": "https://www.accio.com/supplier/evtol-passenger-aircraft-wholesaler",
+          "snippet": "Find top evtol passenger aircraft wholesalers with verified suppliers. Explore reliable options for commercial transport.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Pioneering sustainable aerospace | Airbus",
+          "link": "https://www.airbus.com/",
+          "snippet": "Airbus designs, manufactures and delivers industry-leading commercial aircraft, helicopters, military transports, satellites, launchers and more.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "China Wholesale Aircraft Products at Factory Prices... | Global Sources",
+          "link": "https://www.globalsources.com/manufacturers/aircraft.html",
+          "snippet": "8996 wholesale \"Aircraft\" products from 264 suppliers. Shop online for wholesale aircraft?Can one buy customized aircraft in bulk for commercial aviation? Indeed, Chinese providers offer customized ai",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aircraft Wholesalers Suppliers, Manufacturer, Distributor, Factories...",
+          "link": "https://www.alibaba.com/aircraft-wholesalers-suppliers.html",
+          "snippet": "Alibaba offers 1,328 Aircraft Wholesalers Suppliers, and Aircraft Wholesalers Manufacturers, Distributors, Factories, Companies. There are 820 OEM, 753 ODM, 153 Self Patent.Search For. Top Selected Su",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "China Small Aircraft, Small Aircraft Wholesale... | Made-in-China.com",
+          "link": "https://www.made-in-china.com/products-search/hot-china-products/Small_Aircraft.html",
+          "snippet": "China Small Aircraft wholesale - Select 2026 high quality Small Aircraft products in best price from certified Chinese Small Panel manufacturers, Small Refrigerator suppliers, wholesalers and factory ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aircraft for Sale | Buy or Sell Airplanes, Jets, & Helicopters",
+          "link": "https://www.aircraftdealer.com/",
+          "snippet": "Aircraft for sale on your #1 trusted searchable database AircraftDealer.com. Find, Buy or Sell any type of aviation aircraft, such as Cessna, Gulfstream, Boeing, Piper & more.Your search for a. starts",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aircraft Commerce",
+          "link": "https://www.aircraft-commerce.com/",
+          "snippet": "Aircraft Commerce is an air transport industry bi-monthly publication that scrutinises the economics of commercial aircraft & engines from all relevant aspects.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Commercial",
+          "link": "https://www.boeing.com/commercial",
+          "snippet": "Search. Commercial.Commercial Airplanes is a global manufacturer of commercial jetliners. These aircraft are now celebrated for their safety, comfort, reliability and performance in various operationa",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "New & Used Aircraft For Sale | Controller",
+          "link": "https://www.controller.com/",
+          "snippet": "Search For Parts. Search Salvaged Aircraft.The site includes listings for private, commercial, military, agricultural, and other aircraft markets, as well as equipment such as fuel tanks, power units,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "aircraft Wholesaler | B2B companies and suppliers | europages",
+          "link": "https://www.europages.co.uk/companies/wholesaler/aircraft.html",
+          "snippet": "164 suppliers for aircraft Wholesaler Find wholesalers and contact them directly B2B martketplace Find companies now! Commercial Halls. Other products. Schwarzmann X\u00ae.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "evtol passenger aircraft wholesaler - Trusted Supply & Delivery",
+          "link": "https://www.accio.com/supplier/evtol-passenger-aircraft-wholesaler",
+          "snippet": "Find top evtol passenger aircraft wholesalers with verified suppliers. Explore reliable options for commercial transport.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Pioneering sustainable aerospace | Airbus",
+          "link": "https://www.airbus.com/",
+          "snippet": "Airbus designs, manufactures and delivers industry-leading commercial aircraft, helicopters, military transports, satellites, launchers and more.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P3": {
+      "query": "search for commercial aircraft resellers",
+      "level": "market_map",
+      "result_count": 10,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "New & Used Aircraft For Sale | Controller",
+          "link": "https://www.controller.com/",
+          "snippet": "Find jets, piston airplanes, turboprops, helicopters, and other aircraft for sale on Controller.com, the world\u2019s leading marketplace to buy and sell aircraft.Search For Parts. Search Salvaged Aircraft",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Search For Aircraft & Aircraft Parts - Airplane Sale... | Trade-A-Plane",
+          "link": "https://www.trade-a-plane.com/",
+          "snippet": "Trade-A-Plane has a wide selection of aircraft for sale. Search our database to find the best new and used aircraft for sale such as business jets, helicopters and more now.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aircraft for Sale | Buy or Sell Airplanes, Jets, & Helicopters",
+          "link": "https://www.aircraftdealer.com/",
+          "snippet": "Aircraft for sale on your #1 trusted searchable database AircraftDealer.com. Find, Buy or Sell any type of aviation aircraft, such as Cessna, Gulfstream, Boeing, Piper & more.Your search for a.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aircraft For Sale Exclusively by IADA | AircraftExchange",
+          "link": "https://aircraftexchange.com/",
+          "snippet": "Find aircraft for sale represented exclusively by IADA, the world\u2019s only accredited aircraft dealers.Search popular aircraft manufacturers & models online.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Used Aircraft and Airplanes for Sale - AirCraft24.com",
+          "link": "https://www.aircraft24.com/",
+          "snippet": "Detailed search: Single Prop, Multiprop, Turboprop, Jet, Helicopter. Detailed search Browse by Brand. Buy and sell used aircraft on AirCraft24.com. 1,055 Planes for sale. Powerful adverts for private ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Commercial",
+          "link": "https://www.boeing.com/commercial",
+          "snippet": "Search. Commercial.Commercial Airplanes is a global manufacturer of commercial jetliners. These aircraft are now celebrated for their safety, comfort, reliability and performance in various operationa",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aircraft Commerce",
+          "link": "https://www.aircraft-commerce.com/",
+          "snippet": "Aircraft Commerce is an air transport industry bi-monthly publication that scrutinises the economics of commercial aircraft & engines from all relevant aspects.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aircraft Parts links listed at Avhome.com",
+          "link": "https://avhome.com/Aircraft/Parts/",
+          "snippet": "AOG Aviation Spares - Aircraft parts and salvage. General aviation through commercial jets. Out Hits: 6486, Rating: 5.5 , Votes:4 Rate It. Air Tech - - Provides tools, logbooks, eye rinse, shirts, emb",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Commercial Aircraft Corporation of China, Ltd.",
+          "link": "https://english.comac.cc/",
+          "snippet": "The baseline version of C929 widebody aircraft has a layout of 282 to 440 seats, which can extensively meet the global market demand of international and regional air passenger ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Pioneering sustainable aerospace | Airbus",
+          "link": "https://www.airbus.com/",
+          "snippet": "Airbus designs, manufactures and delivers industry-leading commercial aircraft, helicopters, military transports, satellites, launchers and more.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "New & Used Aircraft For Sale | Controller",
+          "link": "https://www.controller.com/",
+          "snippet": "Find jets, piston airplanes, turboprops, helicopters, and other aircraft for sale on Controller.com, the world\u2019s leading marketplace to buy and sell aircraft.Search For Parts. Search Salvaged Aircraft",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Search For Aircraft & Aircraft Parts - Airplane Sale... | Trade-A-Plane",
+          "link": "https://www.trade-a-plane.com/",
+          "snippet": "Trade-A-Plane has a wide selection of aircraft for sale. Search our database to find the best new and used aircraft for sale such as business jets, helicopters and more now.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aircraft for Sale | Buy or Sell Airplanes, Jets, & Helicopters",
+          "link": "https://www.aircraftdealer.com/",
+          "snippet": "Aircraft for sale on your #1 trusted searchable database AircraftDealer.com. Find, Buy or Sell any type of aviation aircraft, such as Cessna, Gulfstream, Boeing, Piper & more.Your search for a.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aircraft For Sale Exclusively by IADA | AircraftExchange",
+          "link": "https://aircraftexchange.com/",
+          "snippet": "Find aircraft for sale represented exclusively by IADA, the world\u2019s only accredited aircraft dealers.Search popular aircraft manufacturers & models online.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Used Aircraft and Airplanes for Sale - AirCraft24.com",
+          "link": "https://www.aircraft24.com/",
+          "snippet": "Detailed search: Single Prop, Multiprop, Turboprop, Jet, Helicopter. Detailed search Browse by Brand. Buy and sell used aircraft on AirCraft24.com. 1,055 Planes for sale. Powerful adverts for private ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Commercial",
+          "link": "https://www.boeing.com/commercial",
+          "snippet": "Search. Commercial.Commercial Airplanes is a global manufacturer of commercial jetliners. These aircraft are now celebrated for their safety, comfort, reliability and performance in various operationa",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aircraft Commerce",
+          "link": "https://www.aircraft-commerce.com/",
+          "snippet": "Aircraft Commerce is an air transport industry bi-monthly publication that scrutinises the economics of commercial aircraft & engines from all relevant aspects.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aircraft Parts links listed at Avhome.com",
+          "link": "https://avhome.com/Aircraft/Parts/",
+          "snippet": "AOG Aviation Spares - Aircraft parts and salvage. General aviation through commercial jets. Out Hits: 6486, Rating: 5.5 , Votes:4 Rate It. Air Tech - - Provides tools, logbooks, eye rinse, shirts, emb",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Commercial Aircraft Corporation of China, Ltd.",
+          "link": "https://english.comac.cc/",
+          "snippet": "The baseline version of C929 widebody aircraft has a layout of 282 to 440 seats, which can extensively meet the global market demand of international and regional air passenger ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Pioneering sustainable aerospace | Airbus",
+          "link": "https://www.airbus.com/",
+          "snippet": "Airbus designs, manufactures and delivers industry-leading commercial aircraft, helicopters, military transports, satellites, launchers and more.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P4": {
+      "query": "search for aircraft system integrators",
+      "level": "market_map",
+      "result_count": 13,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "IDG aircraft integrated drive generator system - Aircraft Electrical",
+          "link": "https://www.aircraftengineer.info/idg-integrated-drive-generator-system/",
+          "snippet": "IDG \u2013 integrated drive generator system. March 29, 2022February 14, 2018 by aeinfo.Read caution notes and Follow Aircraft Maintenance Manual Step by Step. Ensure that the Entire IDG oil System is prop",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "DC arc fault detection methods in MEA distribution systems",
+          "link": "https://pureportal.strath.ac.uk/en/publications/dc-arc-fault-detection-methods-in-mea-distribution-systems",
+          "snippet": "However, a significant challenge in the use of DC systems is the reliable detection of arc faults. Arcing presents a significant fire risk to aircraft and their presence can result in critical system ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "In-Flight Wi-Fi Providers: A Comparison of LEO/GEO Systems",
+          "link": "https://www.landing.aero/articles/en/inflight-wifi-providers-comparison",
+          "snippet": "Aircraft do not themselves own satellites \u2013 instead inflightsystem providers bundle satellite links with onboard equipment and management. Key integrators include",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Baseball, Boeing and BVLOS - Inside Unmanned Systems",
+          "link": "https://insideunmannedsystems.com/baseball-boeing-and-bvlos/",
+          "snippet": "Search forUnder the Federal Aviation Administration\u2019s Unmanned Aircraft Systems Integration Pilot Program, Iris is partnering with the city of Reno to test the effectiveness of BVLOS-capable drones du",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "MMR-Centric Multisensor Integration Architecture for Civil Aviation...",
+          "link": "https://www.ion.org/publications/abstract.cfm?articleID=6376",
+          "snippet": "Search/Browse Publications.The MMR-Centric architecture enables aircraft system integrators to use existing avionics to meet their future navigational needs.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Welcome To Dynon",
+          "link": "https://dynonavionics.com/",
+          "snippet": "The premier provider of avionics for experimental and light sport aircraft. There\u2019s a reason over 20,000 pilots FLYDYNON. Blazing a trail in affordability and integration, Dynon Certified brings a new",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "GE Aerospace - Home | GE Aerospace",
+          "link": "https://www.geaerospace.com/",
+          "snippet": "Search. Advancing flight for future generations. Watch.GE Aerospace is a world-leading provider of jet and turboprop engines, as well as integrated systems for commercial, military, business and gener",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Curtiss-Wright Introduces New 25-hour Flight Data Recorder and...",
+          "link": "https://www.eejournal.com/industry_news/curtiss-wright-introduces-new-25-hour-flight-data-recorder-and-cockpit-voice-recorders-for-the-defense-aviation-market/",
+          "snippet": "Search forThese recorders provide aircraft system integrators with a cost-efficient solution that leverages advanced technologies developed for compact commercial and military platforms.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "HOME PAGE - S-PLANE Automation",
+          "link": "https://s-plane.com/home-page/",
+          "snippet": "S-PLANE Automation specialises in certification-ready automation, simulation, communication & ground control solutions for manned and unmanned aircraft.Our typical customers are aircraft system integr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "X-BAT clears major engine test as GE advances runway-free combat jet",
+          "link": "https://interestingengineering.com/innovation/x-bat-clears-major-engine-test",
+          "snippet": "Skip to content. Interesting Engineering. Search.GE completes key engine test for X-BAT aircraft that takes off without runways. The successful integration and engine light-off of the AVEN nozzle mark",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "NASA, GE Aerospace Work Enables Hybrid-Electric Flight...",
+          "link": "https://www.nasa.gov/directorates/rtmd/nasa-ge-hybrid-electric-flight/",
+          "snippet": "Suggested Searches. Climate Change.An aircraft powered by a megawatt-class hybrid-electric engine developed in collaboration with NASA and built by GE Aerospace, demonstrated flight of an innovation t",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tradespace Exploration of Electrified Propulsion and... | IEEE Xplore",
+          "link": "https://ieeexplore.ieee.org/document/9235150",
+          "snippet": "Understanding this tradespace helps to reduce risk in generator development and allows for improved coordination between generator designers and aircraft-system integrators.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Link to reddit.com",
+          "link": "https://www.reddit.com/r/u_Maleficent-Drawer259/comments/sg4y8a/flight_control_system_aircraft_system_integrations/",
+          "snippet": "The site owner hides the web page description.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "IDG aircraft integrated drive generator system - Aircraft Electrical",
+          "link": "https://www.aircraftengineer.info/idg-integrated-drive-generator-system/",
+          "snippet": "IDG \u2013 integrated drive generator system. March 29, 2022February 14, 2018 by aeinfo.Read caution notes and Follow Aircraft Maintenance Manual Step by Step. Ensure that the Entire IDG oil System is prop",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "DC arc fault detection methods in MEA distribution systems",
+          "link": "https://pureportal.strath.ac.uk/en/publications/dc-arc-fault-detection-methods-in-mea-distribution-systems",
+          "snippet": "However, a significant challenge in the use of DC systems is the reliable detection of arc faults. Arcing presents a significant fire risk to aircraft and their presence can result in critical system ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "In-Flight Wi-Fi Providers: A Comparison of LEO/GEO Systems",
+          "link": "https://www.landing.aero/articles/en/inflight-wifi-providers-comparison",
+          "snippet": "Aircraft do not themselves own satellites \u2013 instead inflightsystem providers bundle satellite links with onboard equipment and management. Key integrators include",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Baseball, Boeing and BVLOS - Inside Unmanned Systems",
+          "link": "https://insideunmannedsystems.com/baseball-boeing-and-bvlos/",
+          "snippet": "Search forUnder the Federal Aviation Administration\u2019s Unmanned Aircraft Systems Integration Pilot Program, Iris is partnering with the city of Reno to test the effectiveness of BVLOS-capable drones du",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "MMR-Centric Multisensor Integration Architecture for Civil Aviation...",
+          "link": "https://www.ion.org/publications/abstract.cfm?articleID=6376",
+          "snippet": "Search/Browse Publications.The MMR-Centric architecture enables aircraft system integrators to use existing avionics to meet their future navigational needs.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Welcome To Dynon",
+          "link": "https://dynonavionics.com/",
+          "snippet": "The premier provider of avionics for experimental and light sport aircraft. There\u2019s a reason over 20,000 pilots FLYDYNON. Blazing a trail in affordability and integration, Dynon Certified brings a new",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "GE Aerospace - Home | GE Aerospace",
+          "link": "https://www.geaerospace.com/",
+          "snippet": "Search. Advancing flight for future generations. Watch.GE Aerospace is a world-leading provider of jet and turboprop engines, as well as integrated systems for commercial, military, business and gener",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Curtiss-Wright Introduces New 25-hour Flight Data Recorder and...",
+          "link": "https://www.eejournal.com/industry_news/curtiss-wright-introduces-new-25-hour-flight-data-recorder-and-cockpit-voice-recorders-for-the-defense-aviation-market/",
+          "snippet": "Search forThese recorders provide aircraft system integrators with a cost-efficient solution that leverages advanced technologies developed for compact commercial and military platforms.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "HOME PAGE - S-PLANE Automation",
+          "link": "https://s-plane.com/home-page/",
+          "snippet": "S-PLANE Automation specialises in certification-ready automation, simulation, communication & ground control solutions for manned and unmanned aircraft.Our typical customers are aircraft system integr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "X-BAT clears major engine test as GE advances runway-free combat jet",
+          "link": "https://interestingengineering.com/innovation/x-bat-clears-major-engine-test",
+          "snippet": "Skip to content. Interesting Engineering. Search.GE completes key engine test for X-BAT aircraft that takes off without runways. The successful integration and engine light-off of the AVEN nozzle mark",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "NASA, GE Aerospace Work Enables Hybrid-Electric Flight...",
+          "link": "https://www.nasa.gov/directorates/rtmd/nasa-ge-hybrid-electric-flight/",
+          "snippet": "Suggested Searches. Climate Change.An aircraft powered by a megawatt-class hybrid-electric engine developed in collaboration with NASA and built by GE Aerospace, demonstrated flight of an innovation t",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tradespace Exploration of Electrified Propulsion and... | IEEE Xplore",
+          "link": "https://ieeexplore.ieee.org/document/9235150",
+          "snippet": "Understanding this tradespace helps to reduce risk in generator development and allows for improved coordination between generator designers and aircraft-system integrators.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Link to reddit.com",
+          "link": "https://www.reddit.com/r/u_Maleficent-Drawer259/comments/sg4y8a/flight_control_system_aircraft_system_integrations/",
+          "snippet": "The site owner hides the web page description.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P5": {
+      "query": "search for aircraft maintenance service providers",
+      "level": "market_map",
+      "result_count": 13,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Aircraft Maintenance Service Providers - Premium Blogging Platform",
+          "link": "https://postr.yruz.one/aircraft-maintenance-service-providers",
+          "snippet": "Airtron provides Aircraft Maintenance Service Providers with in-flight system troubleshooting services. Our team is equipped to diagnose and address issues that arise during flight, providing rapid so",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aircraft Maintenance Services in North Carolina...",
+          "link": "https://www.thomasnet.com/north-carolina/aircraft-maintenance-services-85-1.html",
+          "snippet": "Aircraft maintenance and engineering services for defense and federal agencies. Workforce analysis, testing, software development and cybersecurity services are available. Strategic planning, project ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Hong Kong\u2019s Largest Aircraft Maintenance Service Provider...",
+          "link": "https://www.iaasiaonline.com/hong-kongs-largest-aircraft-maintenance-service-provider-achieves-300-improvement-in-integration-time-with-boomi/",
+          "snippet": "With Boomi\u2019s award-winning integration platform as a service (iPaaS), HAECO experiences 3X improvement to processing and integration times.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Search For Aircraft & Aircraft Parts - Airplane Sale... | Trade-A-Plane",
+          "link": "https://www.trade-a-plane.com/",
+          "snippet": "Trade-A-Plane has a wide selection of aircraft for sale. Search our database to find the best new and used aircraft for sale such as business jets, helicopters and more now. Toggle navigation. Aircraf",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aircraft Maintenance Service Providers for... - Niche Nest",
+          "link": "https://nichenest.xyz/aircraft-maintenance-service-providers-for-turbomachinery/",
+          "snippet": "Airtron provides Aircraft Maintenance Service Providers with hydraulic fluid management services. We handle the analysis, replacement, and maintenance of hydraulic fluids to ensure that hydraulic syst",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Homepage Lufthansa Technik",
+          "link": "https://www.lufthansa-technik.com/",
+          "snippet": "We also provide you with many additional aircraft services such as cabin products, material pooling and digital fleet support. Our customers include airlines, lessors, governments, and private jet own",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Airtron 920",
+          "link": "https://www.addonface.com/airtron920",
+          "snippet": "Aircraft Maintenance Service Providers play a crucial role in ensuring the safety, reliability, and efficiency of aircraft operations. These providers offer a range of services, including routine main",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "FL Technics Strengthens Regional Presence as the... - AeroMorning",
+          "link": "https://aeromorning.com/en/fl-technics-strengthens-regional-presence-as-the-sole-independent-amo-service-provider-at-abu-dhabi-terminal-a/",
+          "snippet": "Search forFL Technics is a global provider of aircraft maintenance, repair, and overhaul (MRO) services. The Company specialises in base and line maintenance, spare parts and component support, engine",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home | Turkish Technic",
+          "link": "https://turkishtechnic.com/",
+          "snippet": "Turkish Technic Services.Component Capability Search. 2 Continents, 11 Hangars, 647.000 m\u00b2 Enclosed Area, Maintenance Of 56 Aircraft Simultaneously. Having more than 16.000 components found in our cap",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Homepage | Swiss AS",
+          "link": "https://swiss-as.com/",
+          "snippet": "Events. News. Search. Customer Portal.Designed by Swiss AviationSoftware (Swiss-AS) based on more than 35 years of experience in aviation software, AMOS is a comprehensive aircraft maintenance and eng",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Air Astana Group Careers",
+          "link": "https://job.airastana.com/?trk=public_post_comment-text",
+          "snippet": "Aircraft maintenance services. Ground service agents. Passenger check-in and preparing aircraft for departure.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Rionegro MRO Goes Live with AMOS",
+          "link": "https://www.aircraftit.com/news/rionegro-mro-goes-live-with-amos/",
+          "snippet": "They provide maintenance support to major airline airline operators.Rionegro MRO, based in Rionegro Colombia, is a full-service aircraft maintenance, repair, and overhaul (MRO) provider serving major ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ryan Air Pest Analysis: Technological Factors - 1096 Words",
+          "link": "https://ivypanda.com/essays/ryan-air-pest-analysis-technological-factors/",
+          "snippet": "Current service providers on aircraft maintenance services contracted by Ryan Air.Cargo and commercial passenger aircraft maintenance services. Other services offered by this service provider include.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Aircraft Maintenance Service Providers - Premium Blogging Platform",
+          "link": "https://postr.yruz.one/aircraft-maintenance-service-providers",
+          "snippet": "Airtron provides Aircraft Maintenance Service Providers with in-flight system troubleshooting services. Our team is equipped to diagnose and address issues that arise during flight, providing rapid so",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aircraft Maintenance Services in North Carolina...",
+          "link": "https://www.thomasnet.com/north-carolina/aircraft-maintenance-services-85-1.html",
+          "snippet": "Aircraft maintenance and engineering services for defense and federal agencies. Workforce analysis, testing, software development and cybersecurity services are available. Strategic planning, project ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Hong Kong\u2019s Largest Aircraft Maintenance Service Provider...",
+          "link": "https://www.iaasiaonline.com/hong-kongs-largest-aircraft-maintenance-service-provider-achieves-300-improvement-in-integration-time-with-boomi/",
+          "snippet": "With Boomi\u2019s award-winning integration platform as a service (iPaaS), HAECO experiences 3X improvement to processing and integration times.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Search For Aircraft & Aircraft Parts - Airplane Sale... | Trade-A-Plane",
+          "link": "https://www.trade-a-plane.com/",
+          "snippet": "Trade-A-Plane has a wide selection of aircraft for sale. Search our database to find the best new and used aircraft for sale such as business jets, helicopters and more now. Toggle navigation. Aircraf",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aircraft Maintenance Service Providers for... - Niche Nest",
+          "link": "https://nichenest.xyz/aircraft-maintenance-service-providers-for-turbomachinery/",
+          "snippet": "Airtron provides Aircraft Maintenance Service Providers with hydraulic fluid management services. We handle the analysis, replacement, and maintenance of hydraulic fluids to ensure that hydraulic syst",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Homepage Lufthansa Technik",
+          "link": "https://www.lufthansa-technik.com/",
+          "snippet": "We also provide you with many additional aircraft services such as cabin products, material pooling and digital fleet support. Our customers include airlines, lessors, governments, and private jet own",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Airtron 920",
+          "link": "https://www.addonface.com/airtron920",
+          "snippet": "Aircraft Maintenance Service Providers play a crucial role in ensuring the safety, reliability, and efficiency of aircraft operations. These providers offer a range of services, including routine main",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "FL Technics Strengthens Regional Presence as the... - AeroMorning",
+          "link": "https://aeromorning.com/en/fl-technics-strengthens-regional-presence-as-the-sole-independent-amo-service-provider-at-abu-dhabi-terminal-a/",
+          "snippet": "Search forFL Technics is a global provider of aircraft maintenance, repair, and overhaul (MRO) services. The Company specialises in base and line maintenance, spare parts and component support, engine",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home | Turkish Technic",
+          "link": "https://turkishtechnic.com/",
+          "snippet": "Turkish Technic Services.Component Capability Search. 2 Continents, 11 Hangars, 647.000 m\u00b2 Enclosed Area, Maintenance Of 56 Aircraft Simultaneously. Having more than 16.000 components found in our cap",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Homepage | Swiss AS",
+          "link": "https://swiss-as.com/",
+          "snippet": "Events. News. Search. Customer Portal.Designed by Swiss AviationSoftware (Swiss-AS) based on more than 35 years of experience in aviation software, AMOS is a comprehensive aircraft maintenance and eng",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Air Astana Group Careers",
+          "link": "https://job.airastana.com/?trk=public_post_comment-text",
+          "snippet": "Aircraft maintenance services. Ground service agents. Passenger check-in and preparing aircraft for departure.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Rionegro MRO Goes Live with AMOS",
+          "link": "https://www.aircraftit.com/news/rionegro-mro-goes-live-with-amos/",
+          "snippet": "They provide maintenance support to major airline airline operators.Rionegro MRO, based in Rionegro Colombia, is a full-service aircraft maintenance, repair, and overhaul (MRO) provider serving major ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ryan Air Pest Analysis: Technological Factors - 1096 Words",
+          "link": "https://ivypanda.com/essays/ryan-air-pest-analysis-technological-factors/",
+          "snippet": "Current service providers on aircraft maintenance services contracted by Ryan Air.Cargo and commercial passenger aircraft maintenance services. Other services offered by this service provider include.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "distribuidores de aeronaves comerciales",
+      "level": "market_map",
+      "result_count": 3,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Aircraft Sales, Corredores de aeronaves, y distribuidores de...",
+          "link": "https://cfsjets.com/aircraft-sales-accredited-dealer-international-aircraft-dealers-association-iada/?lang=es",
+          "snippet": "La industria de transacciones de aeronaves ha sido moldeada por la Asociaci\u00f3n Internacional de Concesionarios de Aeronaves. Desde 1991, ha continuado desarrollando est\u00e1ndares para estructuras, product",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aeronaves comerciales | nVent SCHROFF",
+          "link": "https://www.nvent.com/es-mx/schroff/commercial-aircraft",
+          "snippet": "Eventos. Encuentre una oficina de ventas o un distribuidor. Cont\u00e1ctenos.Aeronaves comerciales. Confiabilidad excepcional. Protecci\u00f3n superior.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "El dominio indiscutible de AircraftExchange en el... | FsMex.com",
+          "link": "https://www.fsmex.com/foros/index.php?threads/el-dominio-indiscutible-de-aircraftexchange-en-el-mercado-de-aeronaves-comerciales-usadas.69801/",
+          "snippet": "En un sector donde la transparencia, la confianza y la calidad son esenciales, AircraftExchange contin\u00faa consolid\u00e1ndose como el mercado en l\u00ednea l\u00edder para la compraventa de aeronaves comerciales usad",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Aircraft Sales, Corredores de aeronaves, y distribuidores de...",
+          "link": "https://cfsjets.com/aircraft-sales-accredited-dealer-international-aircraft-dealers-association-iada/?lang=es",
+          "snippet": "La industria de transacciones de aeronaves ha sido moldeada por la Asociaci\u00f3n Internacional de Concesionarios de Aeronaves. Desde 1991, ha continuado desarrollando est\u00e1ndares para estructuras, product",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aeronaves comerciales | nVent SCHROFF",
+          "link": "https://www.nvent.com/es-mx/schroff/commercial-aircraft",
+          "snippet": "Eventos. Encuentre una oficina de ventas o un distribuidor. Cont\u00e1ctenos.Aeronaves comerciales. Confiabilidad excepcional. Protecci\u00f3n superior.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "El dominio indiscutible de AircraftExchange en el... | FsMex.com",
+          "link": "https://www.fsmex.com/foros/index.php?threads/el-dominio-indiscutible-de-aircraftexchange-en-el-mercado-de-aeronaves-comerciales-usadas.69801/",
+          "snippet": "En un sector donde la transparencia, la confianza y la calidad son esenciales, AircraftExchange contin\u00faa consolid\u00e1ndose como el mercado en l\u00ednea l\u00edder para la compraventa de aeronaves comerciales usad",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P7": {
+      "query": "mayoristas de aeronaves comerciales",
+      "level": "market_map",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Aeronaves comerciales | nVent SCHROFF",
+          "link": "https://www.nvent.com/es-pe/schroff/commercial-aircraft",
+          "snippet": "Aeronaves comerciales. Confiabilidad excepcional. Protecci\u00f3n superior.Los Lok Tainers ofrecen un funcionamiento sin herramientas opcional y son ideales para los golpes y vibraciones moderados que suel",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Aeronaves comerciales | nVent SCHROFF",
+          "link": "https://www.nvent.com/es-pe/schroff/commercial-aircraft",
+          "snippet": "Aeronaves comerciales. Confiabilidad excepcional. Protecci\u00f3n superior.Los Lok Tainers ofrecen un funcionamiento sin herramientas opcional y son ideales para los golpes y vibraciones moderados que suel",
+          "backend": "ddgs_bing"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

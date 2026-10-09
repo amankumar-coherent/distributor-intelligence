@@ -1,0 +1,1689 @@
+{
+  "phase": 1,
+  "query": "Oilseed Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T21:43:53.681283+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "oilseed",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "agriculture",
+    "industry_terms": [
+      "oilseed",
+      "soybean",
+      "canola",
+      "sunflower",
+      "oil extraction"
+    ],
+    "ecosystem_functions": [
+      "distributing oilseed products",
+      "wholesaling oilseed products",
+      "reselling oilseed products",
+      "providing logistics services",
+      "consulting on oilseed markets",
+      "integrating oilseed supply chains"
+    ],
+    "interpretation_summary": "The oilseed market encompasses the production, processing, and distribution of oilseeds such as soybeans, sunflowers, and canola. Key participants include farmers, processors, and various channel partners involved in the",
+    "relevance_keywords": [
+      "oilseed distribution",
+      "oilseed supply",
+      "oilseed processing",
+      "oilseed wholesaling",
+      "oilseed logistics"
+    ],
+    "negative_keywords": [
+      "agriculture",
+      "farming",
+      "crop production",
+      "food processing",
+      "biofuels"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "Cargill",
+        "primary_domain": "cargill.com",
+        "company_function": "distributor and processor of oilseeds"
+      },
+      {
+        "canonical_name": "Archer Daniels Midland Company",
+        "primary_domain": "adm.com",
+        "company_function": "wholesaler and distributor of oilseeds"
+      },
+      {
+        "canonical_name": "Bunge Limited",
+        "primary_domain": "bunge.com",
+        "company_function": "oilseed processor and distributor"
+      },
+      {
+        "canonical_name": "Louis Dreyfus Company",
+        "primary_domain": "ldc.com",
+        "company_function": "global oilseed trader and distributor"
+      },
+      {
+        "canonical_name": "Olam International",
+        "primary_domain": "olamgroup.com",
+        "company_function": "distributor of oilseeds and agricultural products"
+      },
+      {
+        "canonical_name": "Wilmar International",
+        "primary_domain": "wilmar-international.com",
+        "company_function": "oilseed processor and distributor"
+      },
+      {
+        "canonical_name": "CHS",
+        "primary_domain": "chsinc.com",
+        "company_function": "wholesaler and distributor of oilseeds"
+      },
+      {
+        "canonical_name": "SunOpta",
+        "primary_domain": "sunopta.com",
+        "company_function": "reseller and distributor of oilseed products"
+      },
+      {
+        "canonical_name": "GrainCorp",
+        "primary_domain": "graincorp.com.au",
+        "company_function": "oilseed distributor and service provider",
+        "segment": "Distributors",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Noble Group",
+        "primary_domain": "noblegroupholdings.com",
+        "company_function": "distributor and trader of oilseeds",
+        "segment": "Distributors",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Ceres Global Ag Corp",
+        "primary_domain": "ceresglobalagcorp.com",
+        "company_function": "oilseed distributor and service provider",
+        "segment": "Distributors",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Ag Processing Inc.",
+        "primary_domain": "agp.com",
+        "company_function": "oilseed processor and distributor",
+        "segment": "Distributors",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Pacific Coast Canola",
+        "primary_domain": "pacificcoastcanola.com",
+        "company_function": "oilseed processor and distributor",
+        "segment": "Distributors",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Sime Darby Plantation",
+        "primary_domain": "simedarby.com",
+        "company_function": "oilseed producer and distributor",
+        "segment": "Distributors",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "oilseed",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "oilseed",
+    "include_keywords": [
+      "oilseed distributors",
+      "wholesale oilseeds",
+      "oilseed resellers",
+      "oilseed logistics",
+      "oilseed supply chain services"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The oilseed market encompasses the production, processing, and distribution of oilseeds such as soybeans, sunflowers, and canola. Key participants include farmers, processors, and various channel partners involved in the distribution and sale of oilseed products globally.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Distribution",
+        "description": "This layer involves the distribution of oilseed products from processors to various market segments.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "regional distributors",
+              "national distributors"
+            ],
+            "participant_types": [
+              "distributor",
+              "wholesaler"
+            ],
+            "search_intents": [
+              "oilseed product distributors",
+              "wholesale oilseed suppliers"
+            ]
+          },
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "retail resellers",
+              "online resellers"
+            ],
+            "participant_types": [
+              "reseller",
+              "channel partner"
+            ],
+            "search_intents": [
+              "oilseed product resellers",
+              "channel partners for oilseeds"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L2",
+        "layer_name": "Service Providers",
+        "description": "Service providers offer support services related to oilseed distribution and processing.",
+        "segments": [
+          {
+            "segment_name": "Logistics Providers",
+            "sub_segments": [
+              "transportation",
+              "warehousing"
+            ],
+            "participant_types": [
+              "service provider"
+            ],
+            "search_intents": [
+              "oilseed logistics services",
+              "transportation for oilseed products"
+            ]
+          },
+          {
+            "segment_name": "Consultants",
+            "sub_segments": [
+              "market consultants",
+              "supply chain consultants"
+            ],
+            "participant_types": [
+              "service provider"
+            ],
+            "search_intents": [
+              "oilseed market consulting services",
+              "supply chain consulting for oilseeds"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Farmers",
+        "Processors",
+        "Exporters",
+        "Retailers"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "search for oilseed product distributors",
+        "sub_sector": "oilseed_distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "search for oilseed product resellers",
+        "sub_sector": "oilseed_reseller",
+        "layer_id": "L1",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "search for logistics services for oilseed products",
+        "sub_sector": "oilseed_logistics",
+        "layer_id": "L2",
+        "segment": "Logistics Providers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "search for consulting services for oilseed markets",
+        "sub_sector": "oilseed_consultant",
+        "layer_id": "L2",
+        "segment": "Consultants"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "agriculture",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "oilseed companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "oilseed distributors corporate sites"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "oilseed resellers official website"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "discovery",
+      "text": "oilseed distributor corporate site"
+    },
+    {
+      "id": "P2",
+      "level": "discovery",
+      "text": "oilseed wholesaler official website"
+    },
+    {
+      "id": "P3",
+      "level": "discovery",
+      "text": "oilseed reseller corporate profile"
+    },
+    {
+      "id": "P4",
+      "level": "discovery",
+      "text": "oilseed service provider official site"
+    },
+    {
+      "id": "P5",
+      "level": "discovery",
+      "text": "oilseed logistics provider corporate site"
+    },
+    {
+      "id": "P6",
+      "level": "discovery",
+      "text": "oilseed market consultant official website"
+    },
+    {
+      "id": "P7",
+      "level": "discovery",
+      "text": "oilseed channel partner corporate profile"
+    },
+    {
+      "id": "P8",
+      "level": "discovery",
+      "text": "oilseed supply chain integrator official site"
+    },
+    {
+      "id": "P9",
+      "level": "volume",
+      "text": "authorized oilseed distributor firm official"
+    },
+    {
+      "id": "P10",
+      "level": "volume",
+      "text": "oilseed reseller channel partner official"
+    },
+    {
+      "id": "P11",
+      "level": "volume",
+      "text": "oilseed service provider official website"
+    },
+    {
+      "id": "P12",
+      "level": "volume",
+      "text": "oilseed consulting partner implementation official"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "oilseed companies official websites",
+      "level": "L0",
+      "result_count": 15,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Home - Oilseeds International, LLC",
+          "link": "https://oilseedssf.com/",
+          "snippet": "Oilseeds International LLC. Home. Our Company. Products.Oilseeds International, LLC. was founded in 1981, intent on pioneering the worldwide expansion of the specialty vegetable oil markets via produc",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Oilseed Market Size to Surpass USD 401.40 Billion by 2035",
+          "link": "https://www.precedenceresearch.com/oilseed-market",
+          "snippet": "Oilseed Market Companies. Segments Covered in the Report. Revenue, 2025.Distribution Process: Here, the oils are packaged and sold to edible oil markets, food manufacturers, and retail supply chains. ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Oilseed Crops \u2013 B2B Companies & Suppliers | Europages",
+          "link": "https://www.europages.co.uk/companies/oilseed-crops.html",
+          "snippet": "Companies - Suppliers - Services. oilseed crops. Filters.Royal Bio is a wholesale company of 100% pure and organic natural ingredients for the cosmetics, food, pharma, and phytosanitary sectors. We ma",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Oilseed Export Companies List",
+          "link": "https://www.turkishexporter.com.tr/en/companies/oilseed.htm",
+          "snippet": "Oilseed manufacturers, Oilseed export companies list - B2b wholesalers, exporters, suppliers worldwide.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Which Are the Top Oilseeds Companies in 2026?",
+          "link": "https://www.marketgrowthreports.com/blog/oilseeds-companies-343",
+          "snippet": "Explore the global Oilseeds Market with comprehensive industry analysis, regional insights, company profiles, latest 2025 developments, growth opportunities, and future market outlook through 2035.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "oilseeds - Companies for oilseeds - Manufacturers, Exporters...",
+          "link": "https://m.ec21.com/mobile/cSearch.jsp?keyword=oilseeds",
+          "snippet": "Oilseeds: The company exports oilseeds like soybeans, sunflower seeds, and groundnuts. These products are processed and packaged to meet international standards.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Oilseeds Market Companies",
+          "link": "https://www.skyquestt.com/report/oilseeds-market/companies",
+          "snippet": "Numerous companies, both large-scale multinational corporations and regional players, operate in the market. These companies engage in activities such as cultivation, processing, and distribution of o",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Oilseed Market Companies",
+          "link": "https://www.coherentmarketinsights.com/industry-reports/oilseed-market/companies",
+          "snippet": "2024 and 2031 Oilseed Market Companies Report includes a Forecast to 2031 and Historical Overview.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Oilseed Production Companies & Agribusiness Insights",
+          "link": "https://farmonaut.com/precision-farming/oilseed-industry-insights-top-agribusiness-titans-compared",
+          "snippet": "Oilseed Industry Comparison. \u201cInstitutional ownership in oilseed companies can significantly impact stock volatility, affecting up to 20% of market fluctuations.\u201dExplore real-time crop health monitori",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Oilseeds Market Size, Share, Growth, Revenue By Forecast...",
+          "link": "https://www.marketresearchfuture.com/reports/oilseeds-market/companies",
+          "snippet": "Oilseeds Companies .jpg Oilseeds Market Outlook. Oilseeds Market is marked by a competitive landscape shaped by key players adopting diverse strategies to secure their market positions. Among the prom",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "DOD - Directorate of Oilseeds Development",
+          "link": "https://oilseeds.dac.gov.in/",
+          "snippet": "The Directorate of Oilseeds Development (DOD) is looking after the monitoring of Oilseed Development Programmes and Oil Palm Development Programme/schemes implemented in the country and also Central s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Our Company - Oilseeds International, LLC",
+          "link": "https://oilseedssf.com/our-company/",
+          "snippet": "Today, Oilseeds focus on supplying specialty vegetable oils to nutritional products, natural food, and premium snack food companies in North America. Our product line consists of signature oils\u2014high o",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Fayz Oil",
+          "link": "https://www.fayzoil.com/",
+          "snippet": "EFKO Group of Companies. Oilseed Processing Partner.Visit Official Website. Reliable Cooperation. Built for long-term value and mutual growth.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Elevator and Co-Op Grain NIR Quality Testing | SCiO",
+          "link": "https://scionir.com/solutions/grain-and-oilseed/seed-companies/",
+          "snippet": "Grain & Oilseed analysis in seconds. Unlock grain quality & quantity information throughout the supply chain.SCIO helps seed companies to \u201cunlock\u201d the data contained within seeds at lightening speed, ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - GrainStore.eu",
+          "link": "https://grainstore.eu/en/home/",
+          "snippet": "Papas Oil, Leading company in oilseed processing and trade in cereals and oilseeds.In the face of Grainstore and their team we see a professional and reliable business partner.\" ACM Montana, one of th",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Home - Oilseeds International, LLC",
+          "link": "https://oilseedssf.com/",
+          "snippet": "Oilseeds International LLC. Home. Our Company. Products.Oilseeds International, LLC. was founded in 1981, intent on pioneering the worldwide expansion of the specialty vegetable oil markets via produc",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Oilseed Market Size to Surpass USD 401.40 Billion by 2035",
+          "link": "https://www.precedenceresearch.com/oilseed-market",
+          "snippet": "Oilseed Market Companies. Segments Covered in the Report. Revenue, 2025.Distribution Process: Here, the oils are packaged and sold to edible oil markets, food manufacturers, and retail supply chains. ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Oilseed Crops \u2013 B2B Companies & Suppliers | Europages",
+          "link": "https://www.europages.co.uk/companies/oilseed-crops.html",
+          "snippet": "Companies - Suppliers - Services. oilseed crops. Filters.Royal Bio is a wholesale company of 100% pure and organic natural ingredients for the cosmetics, food, pharma, and phytosanitary sectors. We ma",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Oilseed Export Companies List",
+          "link": "https://www.turkishexporter.com.tr/en/companies/oilseed.htm",
+          "snippet": "Oilseed manufacturers, Oilseed export companies list - B2b wholesalers, exporters, suppliers worldwide.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Which Are the Top Oilseeds Companies in 2026?",
+          "link": "https://www.marketgrowthreports.com/blog/oilseeds-companies-343",
+          "snippet": "Explore the global Oilseeds Market with comprehensive industry analysis, regional insights, company profiles, latest 2025 developments, growth opportunities, and future market outlook through 2035.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "oilseeds - Companies for oilseeds - Manufacturers, Exporters...",
+          "link": "https://m.ec21.com/mobile/cSearch.jsp?keyword=oilseeds",
+          "snippet": "Oilseeds: The company exports oilseeds like soybeans, sunflower seeds, and groundnuts. These products are processed and packaged to meet international standards.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Oilseeds Market Companies",
+          "link": "https://www.skyquestt.com/report/oilseeds-market/companies",
+          "snippet": "Numerous companies, both large-scale multinational corporations and regional players, operate in the market. These companies engage in activities such as cultivation, processing, and distribution of o",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Oilseed Market Companies",
+          "link": "https://www.coherentmarketinsights.com/industry-reports/oilseed-market/companies",
+          "snippet": "2024 and 2031 Oilseed Market Companies Report includes a Forecast to 2031 and Historical Overview.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Oilseed Production Companies & Agribusiness Insights",
+          "link": "https://farmonaut.com/precision-farming/oilseed-industry-insights-top-agribusiness-titans-compared",
+          "snippet": "Oilseed Industry Comparison. \u201cInstitutional ownership in oilseed companies can significantly impact stock volatility, affecting up to 20% of market fluctuations.\u201dExplore real-time crop health monitori",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Oilseeds Market Size, Share, Growth, Revenue By Forecast...",
+          "link": "https://www.marketresearchfuture.com/reports/oilseeds-market/companies",
+          "snippet": "Oilseeds Companies .jpg Oilseeds Market Outlook. Oilseeds Market is marked by a competitive landscape shaped by key players adopting diverse strategies to secure their market positions. Among the prom",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "DOD - Directorate of Oilseeds Development",
+          "link": "https://oilseeds.dac.gov.in/",
+          "snippet": "The Directorate of Oilseeds Development (DOD) is looking after the monitoring of Oilseed Development Programmes and Oil Palm Development Programme/schemes implemented in the country and also Central s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Our Company - Oilseeds International, LLC",
+          "link": "https://oilseedssf.com/our-company/",
+          "snippet": "Today, Oilseeds focus on supplying specialty vegetable oils to nutritional products, natural food, and premium snack food companies in North America. Our product line consists of signature oils\u2014high o",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Fayz Oil",
+          "link": "https://www.fayzoil.com/",
+          "snippet": "EFKO Group of Companies. Oilseed Processing Partner.Visit Official Website. Reliable Cooperation. Built for long-term value and mutual growth.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Elevator and Co-Op Grain NIR Quality Testing | SCiO",
+          "link": "https://scionir.com/solutions/grain-and-oilseed/seed-companies/",
+          "snippet": "Grain & Oilseed analysis in seconds. Unlock grain quality & quantity information throughout the supply chain.SCIO helps seed companies to \u201cunlock\u201d the data contained within seeds at lightening speed, ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - GrainStore.eu",
+          "link": "https://grainstore.eu/en/home/",
+          "snippet": "Papas Oil, Leading company in oilseed processing and trade in cereals and oilseeds.In the face of Grainstore and their team we see a professional and reliable business partner.\" ACM Montana, one of th",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "oilseed distributors corporate sites",
+      "level": "L1",
+      "result_count": 11,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "oilseeds Distributor | B2B companies and suppliers | europages",
+          "link": "https://www.europages.co.uk/companies/distributor/oilseeds.html",
+          "snippet": "Importer - exporter - distributor of grains, cereals, oilseeds, and agro by-products. Agricultural raw materials. Corn, wheat, sunflower, soybeans, sorghum, soybean hulls, sunflower pellets...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "OILSEEDS INTERNATIONAL, LTD. in Arkansas",
+          "link": "https://www.internationalcorp.org/oilseeds-international-ltd",
+          "snippet": "OILSEEDS INTERNATIONAL, LTD. is an entity created in Arkansas and is a Foreign For Profit Corporation in accordance with local law. Having the registration number 100203213, it is currently Good Stand",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "United Oilseed Producers Ltd - Company Profile... - Bloomberg Markets",
+          "link": "https://www.bloomberg.com/profile/company/0266167D:LN?leadSource=uverify+wall",
+          "snippet": "Company profile page for United Oilseed Producers Ltd including stock price, company news, press releases, executives, board members, and contact information.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Variant of NAICS 2002 - Goods and Services - 41112 - Oilseed and...",
+          "link": "https://www23.statcan.gc.ca/imdb/p3VD.pl?Function=getVD&TVD=138071&CVD=138076&CPV=41112&CST=01012002&CLV=5&MLV=6",
+          "snippet": "41112 - Oilseed and Grain Wholesaler-DistributorsCAN. This industry comprises establishments primarily engaged in wholesaling oilseeds and grains. Establishments operating grain elevators other than p",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Oilseed Seed Market Research Report 2033",
+          "link": "https://dataintelo.com/report/oilseed-seed-market",
+          "snippet": "The oilseed seed market is segmented by distribution channel into direct sales, retail, online, and others, reflecting the evolving landscape of seed marketing and distribution. Direct sales remain a ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Oilseed Market Research Report 2025",
+          "link": "https://www.themarketreports.com/report/global-oilseed-market-research-report",
+          "snippet": "Burrus Seed Oilseed Corporation Information Table 80. Burrus Seed Specification and Application Table 81.Channels of Distribution (Direct Vs Distribution) Figure 70. Distributors Profiles Figure 71. B",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Oilseed Crop Distributors - Seed Manitoba",
+          "link": "https://seedmb.ca/trials/oilseed-crops/oilseed-crop-distributors/",
+          "snippet": "Oilseed Distributors Distributor Contacts for Listed Varieties Download PDF OnlinePartners.Distributors. Growers List. Oilseed Crops. Canola. Flax.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bunge | LinkedIn",
+          "link": "https://www.linkedin.com/company/bunge",
+          "snippet": "We are a world leader in grain origination, storage, distribution, oilseed processing and refining, offering a broad portfolio of plant-based oils, fats, and proteins.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "OIL WORLD ISTA Mielke GmbH: Independent Global Market Analyses...",
+          "link": "https://www.oilworld.biz/",
+          "snippet": "In the 2026 issue of the OIL WORLD ANNUAL we analyse all the important price-making factors and publish our first 2026/27 projections for each of the 10 oilseeds, 17 oils & fats and 12 oilmeals.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The big five companies that control the world's grain... | The Independent",
+          "link": "https://www.independent.co.uk/news/uk/home-news/the-big-five-companies-that-control-the-world-s-grain-trade-8462266.html",
+          "snippet": "Distributes grain and oilseeds. Glencore International. Anglo-Swiss multinational has about one-tenth of the grain market. Also distributes oilseeds and sugar. Louis Dreyfus. French company founded in",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bunge completes acquisition of IFF soy protein and lecithin businesses...",
+          "link": "https://millingmea.com/bunge-completes-acquisition-of-iff-soy-protein-and-lecithin-businesses/",
+          "snippet": "Bunge operates with more than 34,000 employees globally and maintains a strong footprint in grain origination, storage, distribution, oilseed processing and refining.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "oilseeds Distributor | B2B companies and suppliers | europages",
+          "link": "https://www.europages.co.uk/companies/distributor/oilseeds.html",
+          "snippet": "Importer - exporter - distributor of grains, cereals, oilseeds, and agro by-products. Agricultural raw materials. Corn, wheat, sunflower, soybeans, sorghum, soybean hulls, sunflower pellets...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "OILSEEDS INTERNATIONAL, LTD. in Arkansas",
+          "link": "https://www.internationalcorp.org/oilseeds-international-ltd",
+          "snippet": "OILSEEDS INTERNATIONAL, LTD. is an entity created in Arkansas and is a Foreign For Profit Corporation in accordance with local law. Having the registration number 100203213, it is currently Good Stand",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "United Oilseed Producers Ltd - Company Profile... - Bloomberg Markets",
+          "link": "https://www.bloomberg.com/profile/company/0266167D:LN?leadSource=uverify+wall",
+          "snippet": "Company profile page for United Oilseed Producers Ltd including stock price, company news, press releases, executives, board members, and contact information.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Variant of NAICS 2002 - Goods and Services - 41112 - Oilseed and...",
+          "link": "https://www23.statcan.gc.ca/imdb/p3VD.pl?Function=getVD&TVD=138071&CVD=138076&CPV=41112&CST=01012002&CLV=5&MLV=6",
+          "snippet": "41112 - Oilseed and Grain Wholesaler-DistributorsCAN. This industry comprises establishments primarily engaged in wholesaling oilseeds and grains. Establishments operating grain elevators other than p",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Oilseed Seed Market Research Report 2033",
+          "link": "https://dataintelo.com/report/oilseed-seed-market",
+          "snippet": "The oilseed seed market is segmented by distribution channel into direct sales, retail, online, and others, reflecting the evolving landscape of seed marketing and distribution. Direct sales remain a ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Oilseed Market Research Report 2025",
+          "link": "https://www.themarketreports.com/report/global-oilseed-market-research-report",
+          "snippet": "Burrus Seed Oilseed Corporation Information Table 80. Burrus Seed Specification and Application Table 81.Channels of Distribution (Direct Vs Distribution) Figure 70. Distributors Profiles Figure 71. B",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Oilseed Crop Distributors - Seed Manitoba",
+          "link": "https://seedmb.ca/trials/oilseed-crops/oilseed-crop-distributors/",
+          "snippet": "Oilseed Distributors Distributor Contacts for Listed Varieties Download PDF OnlinePartners.Distributors. Growers List. Oilseed Crops. Canola. Flax.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bunge | LinkedIn",
+          "link": "https://www.linkedin.com/company/bunge",
+          "snippet": "We are a world leader in grain origination, storage, distribution, oilseed processing and refining, offering a broad portfolio of plant-based oils, fats, and proteins.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "OIL WORLD ISTA Mielke GmbH: Independent Global Market Analyses...",
+          "link": "https://www.oilworld.biz/",
+          "snippet": "In the 2026 issue of the OIL WORLD ANNUAL we analyse all the important price-making factors and publish our first 2026/27 projections for each of the 10 oilseeds, 17 oils & fats and 12 oilmeals.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The big five companies that control the world's grain... | The Independent",
+          "link": "https://www.independent.co.uk/news/uk/home-news/the-big-five-companies-that-control-the-world-s-grain-trade-8462266.html",
+          "snippet": "Distributes grain and oilseeds. Glencore International. Anglo-Swiss multinational has about one-tenth of the grain market. Also distributes oilseeds and sugar. Louis Dreyfus. French company founded in",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bunge completes acquisition of IFF soy protein and lecithin businesses...",
+          "link": "https://millingmea.com/bunge-completes-acquisition-of-iff-soy-protein-and-lecithin-businesses/",
+          "snippet": "Bunge operates with more than 34,000 employees globally and maintains a strong footprint in grain origination, storage, distribution, oilseed processing and refining.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "oilseed resellers official website",
+      "level": "L2",
+      "result_count": 13,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Our Company - Oilseeds International, LLC",
+          "link": "https://oilseedssf.com/our-company/",
+          "snippet": "Today, Oilseeds focus on supplying specialty vegetable oils to nutritional products, natural food, and premium snack food companies in North America.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "OILSEED s.r.o. \u2013 Pine Nuts, Czech Blue Poppy, Natural ...",
+          "link": "https://oilseed.cz/",
+          "snippet": "Oilseed s.r.o. are producers and distributors of Siberian pine nuts, Czech poppy seeds, Tajik apricots and roasted nuts. We are INC members and experts in our respective products.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home | Mountain States Oilseeds LLC | Mustard | Safflower | Flax",
+          "link": "https://www.msoilseeds.com/",
+          "snippet": "Our Products are Grown in the USA. Mountain States Oilseeds LLC is a U.S. based company distributing top quality food-grade oilseeds worldwide with an environmental initiative. Safflower, Yellow Musta",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - Oilseeds International, LLC",
+          "link": "https://oilseedssf.com/",
+          "snippet": "Oilseeds International is a leading global supplier of commodity and superior quality specialty vegetable oils. The RITO Partnership was established on June 7, 1993 for the purpose of manufacturing, m",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Grain & Oilseeds - Perdue",
+          "link": "https://www.perdueagribusiness.com/grain_oilseeds/",
+          "snippet": "Looking to sell your grain or purchase grain and oilseed products for feed, food, or industrial applications? We can help. Our unique expertise allows us to help growers optimize production and qualit",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Oilseeds Wholesale Suppliers, Manufacturers & Distributors",
+          "link": "https://www.go4worldbusiness.com/suppliers/oilseeds.html",
+          "snippet": "Buy premium Oilseeds in bulk from verified wholesale suppliers and manufacturers. Best prices, bulk discounts, trusted deals at go4WorldBusiness.com.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Sellers - OilSeed Life Marketplace",
+          "link": "https://ftknive.com/product-category/bundlespromotions/best-sellers/",
+          "snippet": "Best Sellers. Show only products on sale. All Categories.Compare. OilSeed Life Marketplace advocates a quality lifestyle for smokers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top tips on contracts for oilseeds sellers | AHDB",
+          "link": "https://ahdb.org.uk/knowledge-library/top-tips-on-contracts-for-oilseeds-sellers",
+          "snippet": "Oilseed crushers require that the crop is grown from certified seeds or, for open-pollinated varieties, from first generation farm-saved seed. Hybrid varieties are excluded from the farm-saved seed ex",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Trade In Oils, Seeds And Fats | FOSFA International",
+          "link": "https://www.fosfa.org/",
+          "snippet": "We provide standard contract forms and supporting services that are the foundation for fair and transparent global free trade in oils, oilseeds and fats.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Unlocking export opportunities: Exploring the legal... - Businessday NG",
+          "link": "https://businessday.ng/news/legal-business/article/unlocking-export-opportunities-exploring-the-legal-and-regulatory-aspects-of-oilseed-export-in-nigeria/",
+          "snippet": "Oilseeds are described as seeds from crops grown to provide vegetable and cooking oil, and include palm kernel, sesame seeds, melon seeds, soya beans, and groundnuts, among others, in Nigeria. This ar",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Creating connections to empower agriculture | CHS Inc.",
+          "link": "https://www.chsinc.com/",
+          "snippet": "Grains. Animal nutrition. Oilseed products. Energy.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Unlocking Export Opportunities: Exploring the... - Foundation Chambers",
+          "link": "https://foundationchambers.com/unlocking-export-opportunities-exploring-the-legal-and-regulatory-aspects-of-oilseed-export-in-nigeria/",
+          "snippet": "Official Report: Foundation Chambers Essay Writing Competition 2024. An Analysis of the Nigeria Shipping and Port Economic Regulatory Agency Bill 2023. Unlocking Export Opportunities: Exploring the le",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Checking your browser...",
+          "link": "https://www.oilseeds.com/",
+          "snippet": "Checking your browser...",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Our Company - Oilseeds International, LLC",
+          "link": "https://oilseedssf.com/our-company/",
+          "snippet": "Today, Oilseeds focus on supplying specialty vegetable oils to nutritional products, natural food, and premium snack food companies in North America.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "OILSEED s.r.o. \u2013 Pine Nuts, Czech Blue Poppy, Natural ...",
+          "link": "https://oilseed.cz/",
+          "snippet": "Oilseed s.r.o. are producers and distributors of Siberian pine nuts, Czech poppy seeds, Tajik apricots and roasted nuts. We are INC members and experts in our respective products.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home | Mountain States Oilseeds LLC | Mustard | Safflower | Flax",
+          "link": "https://www.msoilseeds.com/",
+          "snippet": "Our Products are Grown in the USA. Mountain States Oilseeds LLC is a U.S. based company distributing top quality food-grade oilseeds worldwide with an environmental initiative. Safflower, Yellow Musta",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - Oilseeds International, LLC",
+          "link": "https://oilseedssf.com/",
+          "snippet": "Oilseeds International is a leading global supplier of commodity and superior quality specialty vegetable oils. The RITO Partnership was established on June 7, 1993 for the purpose of manufacturing, m",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Grain & Oilseeds - Perdue",
+          "link": "https://www.perdueagribusiness.com/grain_oilseeds/",
+          "snippet": "Looking to sell your grain or purchase grain and oilseed products for feed, food, or industrial applications? We can help. Our unique expertise allows us to help growers optimize production and qualit",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Oilseeds Wholesale Suppliers, Manufacturers & Distributors",
+          "link": "https://www.go4worldbusiness.com/suppliers/oilseeds.html",
+          "snippet": "Buy premium Oilseeds in bulk from verified wholesale suppliers and manufacturers. Best prices, bulk discounts, trusted deals at go4WorldBusiness.com.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Sellers - OilSeed Life Marketplace",
+          "link": "https://ftknive.com/product-category/bundlespromotions/best-sellers/",
+          "snippet": "Best Sellers. Show only products on sale. All Categories.Compare. OilSeed Life Marketplace advocates a quality lifestyle for smokers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top tips on contracts for oilseeds sellers | AHDB",
+          "link": "https://ahdb.org.uk/knowledge-library/top-tips-on-contracts-for-oilseeds-sellers",
+          "snippet": "Oilseed crushers require that the crop is grown from certified seeds or, for open-pollinated varieties, from first generation farm-saved seed. Hybrid varieties are excluded from the farm-saved seed ex",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Trade In Oils, Seeds And Fats | FOSFA International",
+          "link": "https://www.fosfa.org/",
+          "snippet": "We provide standard contract forms and supporting services that are the foundation for fair and transparent global free trade in oils, oilseeds and fats.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Unlocking export opportunities: Exploring the legal... - Businessday NG",
+          "link": "https://businessday.ng/news/legal-business/article/unlocking-export-opportunities-exploring-the-legal-and-regulatory-aspects-of-oilseed-export-in-nigeria/",
+          "snippet": "Oilseeds are described as seeds from crops grown to provide vegetable and cooking oil, and include palm kernel, sesame seeds, melon seeds, soya beans, and groundnuts, among others, in Nigeria. This ar",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Creating connections to empower agriculture | CHS Inc.",
+          "link": "https://www.chsinc.com/",
+          "snippet": "Grains. Animal nutrition. Oilseed products. Energy.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Unlocking Export Opportunities: Exploring the... - Foundation Chambers",
+          "link": "https://foundationchambers.com/unlocking-export-opportunities-exploring-the-legal-and-regulatory-aspects-of-oilseed-export-in-nigeria/",
+          "snippet": "Official Report: Foundation Chambers Essay Writing Competition 2024. An Analysis of the Nigeria Shipping and Port Economic Regulatory Agency Bill 2023. Unlocking Export Opportunities: Exploring the le",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Checking your browser...",
+          "link": "https://www.oilseeds.com/",
+          "snippet": "Checking your browser...",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "oilseed distributor corporate site",
+      "level": "discovery",
+      "result_count": 13,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "oilseed crops Distributor | B2B companies and suppliers | europages",
+          "link": "https://www.europages.co.uk/companies/distributor/oilseed-crops.html",
+          "snippet": "Distributor. Trade of pesticides, fertilizers - soil and leaf, seeds for field crops/sunflower, maize, oilseed rape, wheat/ and parallel trade of pesticides in other EU countries. If you are intereste",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "United Oilseed Producers Ltd - Company Profile... - Bloomberg Markets",
+          "link": "https://www.bloomberg.com/profile/company/0266167D:LN",
+          "snippet": "Company profile page for United Oilseed Producers Ltd including stock price, company news, executives, board members, and contact information.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "OILSEEDS INTERNATIONAL, LTD. in Arkansas",
+          "link": "https://www.internationalcorp.org/oilseeds-international-ltd",
+          "snippet": "OILSEEDS INTERNATIONAL, LTD. is an entity created in Arkansas and is a Foreign For Profit Corporation in accordance with local law. Having the registration number 100203213, it is currently Good Stand",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Oilseed Distributor - TriLinc",
+          "link": "https://www.trilincglobal.com/impact/borrower-spotlights/oilseed-distributor/",
+          "snippet": "Oilseed Distributor. < Return to Spotlight Map.The borrower is actively engaged in the communities where it operates and has a specific focus on corporate social responsibility programs in education, ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Oilseed Crop Distributors - Seed Manitoba",
+          "link": "https://seedmb.ca/trials/oilseed-crops/oilseed-crop-distributors/",
+          "snippet": "Oilseed Distributors Distributor Contacts for Listed Varieties Download PDF OnlinePartners.Distributors. Growers List. Oilseed Crops. Canola. Flax.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Govt freed edible oil, oilseed distributors, large chain stores from...",
+          "link": "https://agrinews.in/govt-freed-edible-oil-oilseed-distributors-large-chain-stores-from-stock-limit-orders/",
+          "snippet": "Because of a dramatic drop in prices, the government freed edible oil and oilseed distributors and large chain stores from stock limit orders on Tuesday. \u2018The order will take effect immediately,\u2019 the ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Oilseed Market Research Report 2025",
+          "link": "https://www.themarketreports.com/report/global-oilseed-market-research-report",
+          "snippet": "Burrus Seed Oilseed Corporation Information Table 80. Burrus Seed Specification and Application Table 81.Channels of Distribution (Direct Vs Distribution) Figure 70. Distributors Profiles Figure 71. B",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home",
+          "link": "https://www.wilmar-international.com/",
+          "snippet": "Corporate Policies. Stock Information.One of the World\u2019s Largest Oil Palm Plantation Owners. Learn More. A Leading Oilseed Crusher and Flour & Rice Miller in Asia.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bunge | LinkedIn",
+          "link": "https://www.linkedin.com/company/bunge",
+          "snippet": "We are a world leader in grain origination, storage, distribution, oilseed processing and refining, offering a broad portfolio of plant-based oils, fats, and proteins.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The big five companies that control the world's grain... | The Independent",
+          "link": "https://www.independent.co.uk/news/uk/home-news/the-big-five-companies-that-control-the-world-s-grain-trade-8462266.html",
+          "snippet": "US-based corporation operating in 75 countries. Runs 265 processing plants converting corn, wheat and cocoa into food and animal feed and for energy.Distributes grain and oilseeds. Glencore Internatio",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "OIL WORLD ISTA Mielke GmbH: Independent Global Market Analyses...",
+          "link": "https://www.oilworld.biz/",
+          "snippet": "In the 2026 issue of the OIL WORLD ANNUAL we analyse all the important price-making factors and publish our first 2026/27 projections for each of the 10 oilseeds, 17 oils & fats and 12 oilmeals.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bunge completes acquisition of IFF soy protein and lecithin businesses...",
+          "link": "https://millingmea.com/bunge-completes-acquisition-of-iff-soy-protein-and-lecithin-businesses/",
+          "snippet": "In meat and alternative protein systems, they enhance structure and protein claims while managing formulation costs. By broadening its portfolio, Bunge can offer integrated ingredient solutions suppor",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Louis Dreyfus Company B.V. Analysis & Company... - GlobalData",
+          "link": "https://www.globaldata.com/company-profile/louis-dreyfus-company-bv/analysis/",
+          "snippet": "Visit Corporate Site.Through the Value Chain segment, the company originates, processes and distributes oilseeds, grains and juice platforms. It also operates freight services, carbon solutions and gl",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "oilseed crops Distributor | B2B companies and suppliers | europages",
+          "link": "https://www.europages.co.uk/companies/distributor/oilseed-crops.html",
+          "snippet": "Distributor. Trade of pesticides, fertilizers - soil and leaf, seeds for field crops/sunflower, maize, oilseed rape, wheat/ and parallel trade of pesticides in other EU countries. If you are intereste",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "United Oilseed Producers Ltd - Company Profile... - Bloomberg Markets",
+          "link": "https://www.bloomberg.com/profile/company/0266167D:LN",
+          "snippet": "Company profile page for United Oilseed Producers Ltd including stock price, company news, executives, board members, and contact information.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "OILSEEDS INTERNATIONAL, LTD. in Arkansas",
+          "link": "https://www.internationalcorp.org/oilseeds-international-ltd",
+          "snippet": "OILSEEDS INTERNATIONAL, LTD. is an entity created in Arkansas and is a Foreign For Profit Corporation in accordance with local law. Having the registration number 100203213, it is currently Good Stand",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Oilseed Distributor - TriLinc",
+          "link": "https://www.trilincglobal.com/impact/borrower-spotlights/oilseed-distributor/",
+          "snippet": "Oilseed Distributor. < Return to Spotlight Map.The borrower is actively engaged in the communities where it operates and has a specific focus on corporate social responsibility programs in education, ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Oilseed Crop Distributors - Seed Manitoba",
+          "link": "https://seedmb.ca/trials/oilseed-crops/oilseed-crop-distributors/",
+          "snippet": "Oilseed Distributors Distributor Contacts for Listed Varieties Download PDF OnlinePartners.Distributors. Growers List. Oilseed Crops. Canola. Flax.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Govt freed edible oil, oilseed distributors, large chain stores from...",
+          "link": "https://agrinews.in/govt-freed-edible-oil-oilseed-distributors-large-chain-stores-from-stock-limit-orders/",
+          "snippet": "Because of a dramatic drop in prices, the government freed edible oil and oilseed distributors and large chain stores from stock limit orders on Tuesday. \u2018The order will take effect immediately,\u2019 the ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Oilseed Market Research Report 2025",
+          "link": "https://www.themarketreports.com/report/global-oilseed-market-research-report",
+          "snippet": "Burrus Seed Oilseed Corporation Information Table 80. Burrus Seed Specification and Application Table 81.Channels of Distribution (Direct Vs Distribution) Figure 70. Distributors Profiles Figure 71. B",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home",
+          "link": "https://www.wilmar-international.com/",
+          "snippet": "Corporate Policies. Stock Information.One of the World\u2019s Largest Oil Palm Plantation Owners. Learn More. A Leading Oilseed Crusher and Flour & Rice Miller in Asia.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bunge | LinkedIn",
+          "link": "https://www.linkedin.com/company/bunge",
+          "snippet": "We are a world leader in grain origination, storage, distribution, oilseed processing and refining, offering a broad portfolio of plant-based oils, fats, and proteins.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The big five companies that control the world's grain... | The Independent",
+          "link": "https://www.independent.co.uk/news/uk/home-news/the-big-five-companies-that-control-the-world-s-grain-trade-8462266.html",
+          "snippet": "US-based corporation operating in 75 countries. Runs 265 processing plants converting corn, wheat and cocoa into food and animal feed and for energy.Distributes grain and oilseeds. Glencore Internatio",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "OIL WORLD ISTA Mielke GmbH: Independent Global Market Analyses...",
+          "link": "https://www.oilworld.biz/",
+          "snippet": "In the 2026 issue of the OIL WORLD ANNUAL we analyse all the important price-making factors and publish our first 2026/27 projections for each of the 10 oilseeds, 17 oils & fats and 12 oilmeals.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bunge completes acquisition of IFF soy protein and lecithin businesses...",
+          "link": "https://millingmea.com/bunge-completes-acquisition-of-iff-soy-protein-and-lecithin-businesses/",
+          "snippet": "In meat and alternative protein systems, they enhance structure and protein claims while managing formulation costs. By broadening its portfolio, Bunge can offer integrated ingredient solutions suppor",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Louis Dreyfus Company B.V. Analysis & Company... - GlobalData",
+          "link": "https://www.globaldata.com/company-profile/louis-dreyfus-company-bv/analysis/",
+          "snippet": "Visit Corporate Site.Through the Value Chain segment, the company originates, processes and distributes oilseeds, grains and juice platforms. It also operates freight services, carbon solutions and gl",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P2": {
+      "query": "oilseed wholesaler official website",
+      "level": "discovery",
+      "result_count": 9,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Oilseeds Wholesaler | B2B companies and suppliers | europages",
+          "link": "https://www.europages.co.uk/companies/wholesaler/oilseeds.html",
+          "snippet": "340 suppliers for Oilseeds Wholesaler Find wholesalers and contact them directly B2B martketplace Find companies now! We specialize in the import and distribution of high-quality grains, flours, oils,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Oilseeds Wholesale Suppliers, Manufacturers & Distributors",
+          "link": "https://www.go4worldbusiness.com/suppliers/oilseeds.html",
+          "snippet": "Buy premium Oilseeds in bulk from verified wholesale suppliers and manufacturers. Best prices, bulk discounts, trusted deals at go4WorldBusiness.com.Get Quotes From Suppliers Worldwide. Find Verified ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Oilseeds Export & Import | GrainProTrade",
+          "link": "https://grain-protrade.com/oilseeds/",
+          "snippet": "Grain Protrade offers superior oilseeds, promoting sustainability and quality for all your agricultural demands. Explore now!Grain ProTrade \u2013 oilseeds wholesale supplier. Are you looking to elevate yo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Export of cereals, legumes, and oilseeds wholesale | grainru.com",
+          "link": "https://grainru.com/en",
+          "snippet": "Export of legumes and oilseeds in large quantities. Artisolla (GrainRU) - a reliable exporter from Russia of high-quality legumes, oilseeds, and cereals for over 15 years. Production, processing, stor",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy & Import Oilseeds Wholesale - Sold by gedco SA, Switzerland",
+          "link": "https://globaltradeplaza.com/product/oilseeds",
+          "snippet": "Buy Wholesale Oilseeds in Bulk at Cheapest Wholesale Price from Suppliers, Manufacturers and Exporters in Switzerland. Import Wholesale Oilseeds, Sold by - gedco SA on Global Trade Plaza B2B Marketpla",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Oilseeds - Oilseeds Manufacturers, Suppliers - EC21",
+          "link": "https://www.ec21.com/ec-market/oilseeds.html",
+          "snippet": "Wholesale Oilseeds Find 70 oilseeds products from 39 manufacturers & suppliers at EC21. Choose quality oilseeds manufacturers, suppliers & exporters now - EC21. Wholesale oilseeds: FishMeal 65% Protei",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Oilseeds - Sunflower Seeds, Flax, Rapeseed, Soybeans",
+          "link": "https://www.cavusogullaritarim.com/en/oilseeds/",
+          "snippet": "Wholesale oilseeds with \u00c7avu\u015fo\u011fullar\u0131 Tar\u0131m. Supply of sunflower seeds, flaxseed, rapeseed (canola), and soybeans. High oil content, optimum moisture, and international quality.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Oilseeds wholesale \u2013 Import of products from Russia",
+          "link": "https://productimport1.com/en/seed/oil/",
+          "snippet": "Oilseeds wholesale. leave a request.Oilseeds are important for beekeepers in the production of honey, as all representatives of these crops are excellent honey plants. You can buy oilseeds in bulk by ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Smoking Accessories Wholesale Supplier | Glass Pipe Wholesale...",
+          "link": "https://oilseedlife.com/",
+          "snippet": "Smoking Accessories Wholesale Supplier Serving the U.S. Market for 10+ Years.OilSeed and ZTCSMOKE is a proprietary smoking accessories brand under ZTCSMOKE, a China-based manufacturer and smoke shop w",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Oilseeds Wholesaler | B2B companies and suppliers | europages",
+          "link": "https://www.europages.co.uk/companies/wholesaler/oilseeds.html",
+          "snippet": "340 suppliers for Oilseeds Wholesaler Find wholesalers and contact them directly B2B martketplace Find companies now! We specialize in the import and distribution of high-quality grains, flours, oils,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Oilseeds Wholesale Suppliers, Manufacturers & Distributors",
+          "link": "https://www.go4worldbusiness.com/suppliers/oilseeds.html",
+          "snippet": "Buy premium Oilseeds in bulk from verified wholesale suppliers and manufacturers. Best prices, bulk discounts, trusted deals at go4WorldBusiness.com.Get Quotes From Suppliers Worldwide. Find Verified ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Oilseeds Export & Import | GrainProTrade",
+          "link": "https://grain-protrade.com/oilseeds/",
+          "snippet": "Grain Protrade offers superior oilseeds, promoting sustainability and quality for all your agricultural demands. Explore now!Grain ProTrade \u2013 oilseeds wholesale supplier. Are you looking to elevate yo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Export of cereals, legumes, and oilseeds wholesale | grainru.com",
+          "link": "https://grainru.com/en",
+          "snippet": "Export of legumes and oilseeds in large quantities. Artisolla (GrainRU) - a reliable exporter from Russia of high-quality legumes, oilseeds, and cereals for over 15 years. Production, processing, stor",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy & Import Oilseeds Wholesale - Sold by gedco SA, Switzerland",
+          "link": "https://globaltradeplaza.com/product/oilseeds",
+          "snippet": "Buy Wholesale Oilseeds in Bulk at Cheapest Wholesale Price from Suppliers, Manufacturers and Exporters in Switzerland. Import Wholesale Oilseeds, Sold by - gedco SA on Global Trade Plaza B2B Marketpla",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Oilseeds - Oilseeds Manufacturers, Suppliers - EC21",
+          "link": "https://www.ec21.com/ec-market/oilseeds.html",
+          "snippet": "Wholesale Oilseeds Find 70 oilseeds products from 39 manufacturers & suppliers at EC21. Choose quality oilseeds manufacturers, suppliers & exporters now - EC21. Wholesale oilseeds: FishMeal 65% Protei",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Oilseeds - Sunflower Seeds, Flax, Rapeseed, Soybeans",
+          "link": "https://www.cavusogullaritarim.com/en/oilseeds/",
+          "snippet": "Wholesale oilseeds with \u00c7avu\u015fo\u011fullar\u0131 Tar\u0131m. Supply of sunflower seeds, flaxseed, rapeseed (canola), and soybeans. High oil content, optimum moisture, and international quality.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Oilseeds wholesale \u2013 Import of products from Russia",
+          "link": "https://productimport1.com/en/seed/oil/",
+          "snippet": "Oilseeds wholesale. leave a request.Oilseeds are important for beekeepers in the production of honey, as all representatives of these crops are excellent honey plants. You can buy oilseeds in bulk by ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Smoking Accessories Wholesale Supplier | Glass Pipe Wholesale...",
+          "link": "https://oilseedlife.com/",
+          "snippet": "Smoking Accessories Wholesale Supplier Serving the U.S. Market for 10+ Years.OilSeed and ZTCSMOKE is a proprietary smoking accessories brand under ZTCSMOKE, a China-based manufacturer and smoke shop w",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P3": {
+      "query": "oilseed reseller corporate profile",
+      "level": "discovery",
+      "result_count": 8,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Oilseeds Wholesale Suppliers, Manufacturers & Distributors",
+          "link": "https://www.go4worldbusiness.com/suppliers/oilseeds.html",
+          "snippet": "86 Oilseeds Suppliers. Short on time? Let Oilseeds sellers contact you. Submit.Research studies suggest that the Mediterranean diet which is rich in monounsaturated fatty acids help prevent coronary a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Hedging with Grain and Oilseed Futures and Options",
+          "link": "https://www.interactivebrokers.eu/campus/trading-course/hedging-with-grain-and-oilseed-futures-and-options/",
+          "snippet": "Gain an understanding of how buyers and sellers of grains and oilseeds utilize futures and options to hedge their position to manage price risk. This course will enhance the hedger\u2019s understanding of ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Unlocking export opportunities: Exploring the legal... - Businessday NG",
+          "link": "https://businessday.ng/news/legal-business/article/unlocking-export-opportunities-exploring-the-legal-and-regulatory-aspects-of-oilseed-export-in-nigeria/",
+          "snippet": "Oilseeds are described as seeds from crops grown to provide vegetable and cooking oil, and include palm kernel, sesame seeds, melon seeds, soya beans, and groundnuts, among others, in Nigeria. This ar",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home",
+          "link": "https://www.wilmar-international.com/",
+          "snippet": "About Us. Corporate Profile.One of the World\u2019s Largest Oil Palm Plantation Owners. Learn More. A Leading Oilseed Crusher and Flour & Rice Miller in Asia.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Your Trusted Partner in the Vegetable Oil Value Chain - Allseeds",
+          "link": "https://www.allseeds.com/",
+          "snippet": "Oilseed Crushing at Industrial Scale. Our modern plant in Pivdennyi Port has a daily crushing capacity of 2,400 mt/day sunflower seeds, 1,800 mt/day rapeseeds or 1,500 mt/day soybeans. The plant featu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "VAD INDUSTRIES PVT. LTD. | LinkedIn",
+          "link": "https://in.linkedin.com/company/vad-industries",
+          "snippet": "Azerbaijan., Oilseeds Manufacturers, Oilseeds Exporters, Oilseeds Importers, Oilseeds Suppliers, Oilseeds Exports, Oilseeds Imports, Oilseeds Retailers, Oilseeds Sellers, Oilseeds Buyers, Oilseeds Pro",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Establishing a Selling Price Range using Grain Options",
+          "link": "https://www.cmegroup.com/education/courses/hedging-with-grain-and-oilseed-futures-and-options/risk-management-for-sellers-of-commoditities/establishing-a-selling-price-range-using-grain-options",
+          "snippet": "Establishing a Commodity Selling Price Range. There are many risk management strategies for price protection during uncertain markets. These strategies are necessary for grain and oilseed sellers like",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buyers and Sellers",
+          "link": "https://sunflowernsa.com/buyers/?detail=oilseedsuppliers",
+          "snippet": "Home \u00bb Buyers and Sellers. Oilseed Suppliers. Advanced Sunflower. 740 2nd Street SW.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Oilseeds Wholesale Suppliers, Manufacturers & Distributors",
+          "link": "https://www.go4worldbusiness.com/suppliers/oilseeds.html",
+          "snippet": "86 Oilseeds Suppliers. Short on time? Let Oilseeds sellers contact you. Submit.Research studies suggest that the Mediterranean diet which is rich in monounsaturated fatty acids help prevent coronary a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Hedging with Grain and Oilseed Futures and Options",
+          "link": "https://www.interactivebrokers.eu/campus/trading-course/hedging-with-grain-and-oilseed-futures-and-options/",
+          "snippet": "Gain an understanding of how buyers and sellers of grains and oilseeds utilize futures and options to hedge their position to manage price risk. This course will enhance the hedger\u2019s understanding of ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Unlocking export opportunities: Exploring the legal... - Businessday NG",
+          "link": "https://businessday.ng/news/legal-business/article/unlocking-export-opportunities-exploring-the-legal-and-regulatory-aspects-of-oilseed-export-in-nigeria/",
+          "snippet": "Oilseeds are described as seeds from crops grown to provide vegetable and cooking oil, and include palm kernel, sesame seeds, melon seeds, soya beans, and groundnuts, among others, in Nigeria. This ar",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home",
+          "link": "https://www.wilmar-international.com/",
+          "snippet": "About Us. Corporate Profile.One of the World\u2019s Largest Oil Palm Plantation Owners. Learn More. A Leading Oilseed Crusher and Flour & Rice Miller in Asia.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Your Trusted Partner in the Vegetable Oil Value Chain - Allseeds",
+          "link": "https://www.allseeds.com/",
+          "snippet": "Oilseed Crushing at Industrial Scale. Our modern plant in Pivdennyi Port has a daily crushing capacity of 2,400 mt/day sunflower seeds, 1,800 mt/day rapeseeds or 1,500 mt/day soybeans. The plant featu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "VAD INDUSTRIES PVT. LTD. | LinkedIn",
+          "link": "https://in.linkedin.com/company/vad-industries",
+          "snippet": "Azerbaijan., Oilseeds Manufacturers, Oilseeds Exporters, Oilseeds Importers, Oilseeds Suppliers, Oilseeds Exports, Oilseeds Imports, Oilseeds Retailers, Oilseeds Sellers, Oilseeds Buyers, Oilseeds Pro",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Establishing a Selling Price Range using Grain Options",
+          "link": "https://www.cmegroup.com/education/courses/hedging-with-grain-and-oilseed-futures-and-options/risk-management-for-sellers-of-commoditities/establishing-a-selling-price-range-using-grain-options",
+          "snippet": "Establishing a Commodity Selling Price Range. There are many risk management strategies for price protection during uncertain markets. These strategies are necessary for grain and oilseed sellers like",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buyers and Sellers",
+          "link": "https://sunflowernsa.com/buyers/?detail=oilseedsuppliers",
+          "snippet": "Home \u00bb Buyers and Sellers. Oilseed Suppliers. Advanced Sunflower. 740 2nd Street SW.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P4": {
+      "query": "oilseed service provider official site",
+      "level": "discovery",
+      "result_count": 12,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Oilseeds",
+          "link": "https://www.intertek.com/agriculture/oilseeds/",
+          "snippet": "At Intertek, we provide a global one-stop solution for risk control and technical expertise along the entire oilseed supply chain.The Magdeburg, Germany lab also offers NMR (RMN) testing for oilseeds.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Roll Services | Oilseed Processing | B\u00fchler Group",
+          "link": "https://www.buhlergroup.com/global/en/services/hardware/Oilseed-processing.html",
+          "snippet": "Oilseed processing. Roll services. Our replacement or refurbished cracking rollers for your oilseed processing provide robust grinding, low maintenance and high reliability. Overview Applications Fact",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Grains, Feeds & Oilseeds | SGS USA",
+          "link": "https://www.sgs.com/en-us/service-groups/grains-feeds-and-oilseeds",
+          "snippet": "Grains and oilseeds testing from SGS \u2013 ensure the quality of your grains and oilseeds.With innovative technology, the latest testing methods and expert scientists and technicians, our laboratories pro",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Grains & Oilseeds || Louis Dreyfus Company",
+          "link": "https://www.ldc.com/us/en/who-we-are/business-lines/grains-oilseeds/",
+          "snippet": "About Grains & Oilseeds. Grains are an indispensable source of food in many developing nations, and play an important role in diets around the world, providing vitamins, minerals, carbohydrates, fats,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Oilseeds: World Markets and Trade | Economics, Statistics, and...",
+          "link": "https://esmis.nal.usda.gov/publication/oilseeds-world-markets-and-trade",
+          "snippet": "Official websites use .gov A .gov website belongs to an official government organization in the United States.This monthly report includes data on U.S. and global trade, production, consumption and st",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "OILSEED s.r.o. \u2013 Pine Nuts, Czech Blue Poppy, Natural & Roasted Nuts",
+          "link": "https://oilseed.cz/",
+          "snippet": "Oilseed s.r.o. are producers and distributors of Siberian pine nuts, Czech poppy seeds, Tajik apricots and roasted nuts. We are INC members and experts in our respective products. We provide a complet",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Publication | Oilseeds: World Markets and Trade",
+          "link": "https://usda.library.cornell.edu/concern/publications/tx31qh68h?locale=en",
+          "snippet": "This monthly report includes data on U.S. and global trade, production, consumption and stocks, as well as analysis of developments affecting world trade in oilseeds.Footer content with page navigatio",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Custom Service - OilSeed Life Marketplace",
+          "link": "https://oilseedlife.com/custom-service/",
+          "snippet": "OilSeed Life Marketplace. Home. Shop / Wholesale Catalog.We do not just customize products \u2014 We help your brand stand out in the market. What We Provide. Service Type. Description. Best For.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Types of Oilseeds Explained | Luxwisp",
+          "link": "https://www.luxwisp.com/types-of-oilseeds-explained/",
+          "snippet": "Importance of Oilseeds. Oilseeds play a pivotal role in global agriculture and food supply chains. They are essential sources of edible oils, accounting for nearly 90% of the world\u2019s vegetable oil pro",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Your Trusted Partner in the Vegetable Oil Value Chain - Allseeds",
+          "link": "https://www.allseeds.com/",
+          "snippet": "We procure oilseeds directly from farmers and offer competitive terms, timely payments, and professional service. All raw materials are controlled by an independent laboratory in accordance with Europ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Richardson International | Canada's Leading Agribusiness",
+          "link": "https://www.richardson.ca/",
+          "snippet": "We are committed to quality and excellence in all aspects of our business. Canada's leading agribusiness and worldwide handler of Canadian grown grains and oilseeds. International oat miller and manuf",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "OIL WORLD ISTA Mielke GmbH: Independent Global Market Analyses...",
+          "link": "https://www.oilworld.biz/",
+          "snippet": "This website uses cookies to ensure you get the best experience on our website.In the 2026 issue of the OIL WORLD ANNUAL we analyse all the important price-making factors and publish our first 2026/27",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Oilseeds",
+          "link": "https://www.intertek.com/agriculture/oilseeds/",
+          "snippet": "At Intertek, we provide a global one-stop solution for risk control and technical expertise along the entire oilseed supply chain.The Magdeburg, Germany lab also offers NMR (RMN) testing for oilseeds.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Roll Services | Oilseed Processing | B\u00fchler Group",
+          "link": "https://www.buhlergroup.com/global/en/services/hardware/Oilseed-processing.html",
+          "snippet": "Oilseed processing. Roll services. Our replacement or refurbished cracking rollers for your oilseed processing provide robust grinding, low maintenance and high reliability. Overview Applications Fact",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Grains, Feeds & Oilseeds | SGS USA",
+          "link": "https://www.sgs.com/en-us/service-groups/grains-feeds-and-oilseeds",
+          "snippet": "Grains and oilseeds testing from SGS \u2013 ensure the quality of your grains and oilseeds.With innovative technology, the latest testing methods and expert scientists and technicians, our laboratories pro",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Grains & Oilseeds || Louis Dreyfus Company",
+          "link": "https://www.ldc.com/us/en/who-we-are/business-lines/grains-oilseeds/",
+          "snippet": "About Grains & Oilseeds. Grains are an indispensable source of food in many developing nations, and play an important role in diets around the world, providing vitamins, minerals, carbohydrates, fats,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Oilseeds: World Markets and Trade | Economics, Statistics, and...",
+          "link": "https://esmis.nal.usda.gov/publication/oilseeds-world-markets-and-trade",
+          "snippet": "Official websites use .gov A .gov website belongs to an official government organization in the United States.This monthly report includes data on U.S. and global trade, production, consumption and st",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "OILSEED s.r.o. \u2013 Pine Nuts, Czech Blue Poppy, Natural & Roasted Nuts",
+          "link": "https://oilseed.cz/",
+          "snippet": "Oilseed s.r.o. are producers and distributors of Siberian pine nuts, Czech poppy seeds, Tajik apricots and roasted nuts. We are INC members and experts in our respective products. We provide a complet",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Publication | Oilseeds: World Markets and Trade",
+          "link": "https://usda.library.cornell.edu/concern/publications/tx31qh68h?locale=en",
+          "snippet": "This monthly report includes data on U.S. and global trade, production, consumption and stocks, as well as analysis of developments affecting world trade in oilseeds.Footer content with page navigatio",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Custom Service - OilSeed Life Marketplace",
+          "link": "https://oilseedlife.com/custom-service/",
+          "snippet": "OilSeed Life Marketplace. Home. Shop / Wholesale Catalog.We do not just customize products \u2014 We help your brand stand out in the market. What We Provide. Service Type. Description. Best For.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Types of Oilseeds Explained | Luxwisp",
+          "link": "https://www.luxwisp.com/types-of-oilseeds-explained/",
+          "snippet": "Importance of Oilseeds. Oilseeds play a pivotal role in global agriculture and food supply chains. They are essential sources of edible oils, accounting for nearly 90% of the world\u2019s vegetable oil pro",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Your Trusted Partner in the Vegetable Oil Value Chain - Allseeds",
+          "link": "https://www.allseeds.com/",
+          "snippet": "We procure oilseeds directly from farmers and offer competitive terms, timely payments, and professional service. All raw materials are controlled by an independent laboratory in accordance with Europ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Richardson International | Canada's Leading Agribusiness",
+          "link": "https://www.richardson.ca/",
+          "snippet": "We are committed to quality and excellence in all aspects of our business. Canada's leading agribusiness and worldwide handler of Canadian grown grains and oilseeds. International oat miller and manuf",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "OIL WORLD ISTA Mielke GmbH: Independent Global Market Analyses...",
+          "link": "https://www.oilworld.biz/",
+          "snippet": "This website uses cookies to ensure you get the best experience on our website.In the 2026 issue of the OIL WORLD ANNUAL we analyse all the important price-making factors and publish our first 2026/27",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P5": {
+      "query": "oilseed logistics provider corporate site",
+      "level": "discovery",
+      "result_count": 6,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Safya Savka Port | Aves Logistics & Oilseed Export Hub",
+          "link": "https://avesoils.com/savka-port/",
+          "snippet": "Discover the Safya Savka Port by Aves \u2014 a strategic logistics and export hub supporting efficient oilseed and vegetable oil distribution with quality service.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "SGI Trade SA - Your reliable agriculture partner",
+          "link": "https://www.sgitrade.com/",
+          "snippet": "Our own logistics company with a fleet of over 57 railway carriages. The main region of activity is the Baltics.Market coverage. We supply grains & oilseeds to 15+ countries over world by river and se",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Structural maneuver: the agro-industrial complex is... | Logistic OS",
+          "link": "https://logisticos.org/news/2026/06/8329",
+          "snippet": "Oilseed vector: sunflower sets a record, soybeans lose ground. The main surprise of the forecast revision was the significant increase in the sunflower harvest estimate.Start working with the global. ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "China-Focused Agri Trade Faces Strain from Port Congestion and...",
+          "link": "https://commodity-board.com/port-congestion-and-shipping-bottlenecks-tighten-logistics-for-china-focused-agri-trades",
+          "snippet": "Importers and exporters of grains, oilseeds and specialty crops should prioritise diversified port usage within China, early booking of space on key lanes and closer coordination between logistics and",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "COFCO International | LinkedIn",
+          "link": "https://www.linkedin.com/company/cofco",
+          "snippet": "We provide the food the world needs in a responsible way. | COFCO International is a global agri-business with a clear vision, strong values and a positive culture, focused on being a leader in the gl",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "EFKO Group | Grainrus Partners",
+          "link": "https://grainrus.com/en/company/partners/gruppa-kompaniy-efko/",
+          "snippet": "Logistics and storage of grain and oilseeds. Shipment to river transport, storage services to grain and oilseed processing enterprises.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Safya Savka Port | Aves Logistics & Oilseed Export Hub",
+          "link": "https://avesoils.com/savka-port/",
+          "snippet": "Discover the Safya Savka Port by Aves \u2014 a strategic logistics and export hub supporting efficient oilseed and vegetable oil distribution with quality service.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "SGI Trade SA - Your reliable agriculture partner",
+          "link": "https://www.sgitrade.com/",
+          "snippet": "Our own logistics company with a fleet of over 57 railway carriages. The main region of activity is the Baltics.Market coverage. We supply grains & oilseeds to 15+ countries over world by river and se",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Structural maneuver: the agro-industrial complex is... | Logistic OS",
+          "link": "https://logisticos.org/news/2026/06/8329",
+          "snippet": "Oilseed vector: sunflower sets a record, soybeans lose ground. The main surprise of the forecast revision was the significant increase in the sunflower harvest estimate.Start working with the global. ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "China-Focused Agri Trade Faces Strain from Port Congestion and...",
+          "link": "https://commodity-board.com/port-congestion-and-shipping-bottlenecks-tighten-logistics-for-china-focused-agri-trades",
+          "snippet": "Importers and exporters of grains, oilseeds and specialty crops should prioritise diversified port usage within China, early booking of space on key lanes and closer coordination between logistics and",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "COFCO International | LinkedIn",
+          "link": "https://www.linkedin.com/company/cofco",
+          "snippet": "We provide the food the world needs in a responsible way. | COFCO International is a global agri-business with a clear vision, strong values and a positive culture, focused on being a leader in the gl",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "EFKO Group | Grainrus Partners",
+          "link": "https://grainrus.com/en/company/partners/gruppa-kompaniy-efko/",
+          "snippet": "Logistics and storage of grain and oilseeds. Shipment to river transport, storage services to grain and oilseed processing enterprises.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "oilseed market consultant official website",
+      "level": "discovery",
+      "result_count": 4,
+      "results_target": 28,
+      "backends": [
+        "ddgs_yandex"
+      ],
+      "results": [
+        {
+          "title": "Kernel processes 3.2 mln tons of oilseeds during the season",
+          "link": "https://ukragroconsult.com/en/news/kernel-processes-3-2-mln-tons-of-oilseeds-during-the-season/",
+          "snippet": "Kernel\u2019s oilseed crushing plants processed nearly 3.2 mln tons of crops in the 2026 financial year, which ended on June 30, 2026. This was 8% below the previous season\u2019s result. The figures were publi",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "OIL WORLD ISTA Mielke GmbH: Independent Global Market Analyses...",
+          "link": "https://www.oilworld.biz/",
+          "snippet": "OIL WORLD. Independent Global Market Analyses & Forecasts Since 1958.In the 2026 issue of the OIL WORLD ANNUAL we analyse all the important price-making factors and publish our first 2026/27 projectio",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Analyst Insight: A longer-term bearish sentiment for grain and oilseed...",
+          "link": "https://ahdb.org.uk/news/analyst-insight-a-longer-term-bearish-sentiment-for-grain-and-oilseed-markets",
+          "snippet": "On Tuesday, AHDB held our annual Grain Market Outlook (GMO) Conference in York. The day focused on optimising business potential, and the first session of the day looked at the outlook for global grai",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "International Grains Council",
+          "link": "https://igc.int/en/markets/marketinfo-goi.aspx",
+          "snippet": "Market Information \u00bb Market Information. Export Prices. Grains & Oilseeds Index (GOI).",
+          "backend": "ddgs_yandex"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Kernel processes 3.2 mln tons of oilseeds during the season",
+          "link": "https://ukragroconsult.com/en/news/kernel-processes-3-2-mln-tons-of-oilseeds-during-the-season/",
+          "snippet": "Kernel\u2019s oilseed crushing plants processed nearly 3.2 mln tons of crops in the 2026 financial year, which ended on June 30, 2026. This was 8% below the previous season\u2019s result. The figures were publi",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "OIL WORLD ISTA Mielke GmbH: Independent Global Market Analyses...",
+          "link": "https://www.oilworld.biz/",
+          "snippet": "OIL WORLD. Independent Global Market Analyses & Forecasts Since 1958.In the 2026 issue of the OIL WORLD ANNUAL we analyse all the important price-making factors and publish our first 2026/27 projectio",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Analyst Insight: A longer-term bearish sentiment for grain and oilseed...",
+          "link": "https://ahdb.org.uk/news/analyst-insight-a-longer-term-bearish-sentiment-for-grain-and-oilseed-markets",
+          "snippet": "On Tuesday, AHDB held our annual Grain Market Outlook (GMO) Conference in York. The day focused on optimising business potential, and the first session of the day looked at the outlook for global grai",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "International Grains Council",
+          "link": "https://igc.int/en/markets/marketinfo-goi.aspx",
+          "snippet": "Market Information \u00bb Market Information. Export Prices. Grains & Oilseeds Index (GOI).",
+          "backend": "ddgs_yandex"
+        }
+      ]
+    },
+    "P7": {
+      "query": "oilseed channel partner corporate profile",
+      "level": "discovery",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Home",
+          "link": "https://www.wilmar-international.com/",
+          "snippet": "About Us. Corporate Profile.One of the World\u2019s Largest Oil Palm Plantation Owners. Learn More. A Leading Oilseed Crusher and Flour & Rice Miller in Asia.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Home",
+          "link": "https://www.wilmar-international.com/",
+          "snippet": "About Us. Corporate Profile.One of the World\u2019s Largest Oil Palm Plantation Owners. Learn More. A Leading Oilseed Crusher and Flour & Rice Miller in Asia.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

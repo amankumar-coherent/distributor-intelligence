@@ -1,0 +1,2762 @@
+{
+  "phase": 1,
+  "query": "Caffeine Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T21:33:28.302662+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "caffeine",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "food and beverage",
+    "industry_terms": [
+      "caffeine distribution",
+      "caffeine wholesaling",
+      "caffeine reselling",
+      "caffeine service providers",
+      "caffeine logistics"
+    ],
+    "ecosystem_functions": [
+      "distributing caffeine products",
+      "wholesaling caffeine ingredients",
+      "reselling caffeine to end-users",
+      "integrating caffeine solutions",
+      "providing logistics for caffeine distribution",
+      "consulting on caffeine market trends",
+      "ensuring regulatory compliance for caffeine products",
+      "supporting caffeine supply chain management"
+    ],
+    "interpretation_summary": "The caffeine market encompasses the production, distribution, and sale of caffeine as a standalone product and as an ingredient in various beverages and food products. Participants include manufacturers, distributors, wh",
+    "relevance_keywords": [
+      "caffeine suppliers",
+      "caffeine distributors",
+      "caffeine wholesalers",
+      "caffeine resellers",
+      "caffeine service providers"
+    ],
+    "negative_keywords": [
+      "coffee",
+      "tea",
+      "energy drinks",
+      "soft drinks",
+      "beverages"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "Caffeine Solutions",
+        "primary_domain": "caffeinesolutions.com",
+        "company_function": "distributor of caffeine products"
+      },
+      {
+        "canonical_name": "Caffeine Wholesale",
+        "primary_domain": "caffeinewholesale.com",
+        "company_function": "wholesaler of caffeine ingredients"
+      },
+      {
+        "canonical_name": "Caffeine Resellers",
+        "primary_domain": "caffeineresellers.com",
+        "company_function": "reseller of caffeine products"
+      },
+      {
+        "canonical_name": "Logistics Caffeine",
+        "primary_domain": "logisticscaffeine.com",
+        "company_function": "logistics provider for caffeine distribution"
+      },
+      {
+        "canonical_name": "Caffeine Consulting Group",
+        "primary_domain": "caffeineconsulting.com",
+        "company_function": "consultant for caffeine market"
+      },
+      {
+        "canonical_name": "Caffeine Distribution Co.",
+        "primary_domain": "caffeinedistribution.com",
+        "company_function": "distributor of caffeine ingredients"
+      },
+      {
+        "canonical_name": "Caffeine Supply Chain",
+        "primary_domain": "caffeinesupplychain.com",
+        "company_function": "service provider for caffeine logistics"
+      },
+      {
+        "canonical_name": "Caffeine Market Advisors",
+        "primary_domain": "caffeinemarketadvisors.com",
+        "company_function": "consultant for caffeine industry"
+      }
+    ],
+    "search_topic": "caffeine",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "caffeine",
+    "include_keywords": [
+      "bulk caffeine suppliers",
+      "caffeine distribution services",
+      "wholesale caffeine products",
+      "caffeine reselling platforms",
+      "caffeine channel partners"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The caffeine market encompasses the production, distribution, and sale of caffeine as a standalone product and as an ingredient in various beverages and food products. Participants include manufacturers, distributors, wholesalers, and retailers operating globally.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Distribution",
+        "description": "This layer involves the distribution of caffeine products to various market segments.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Food and beverage distributors",
+              "Pharmaceutical distributors"
+            ],
+            "participant_types": [
+              "distributor",
+              "wholesaler"
+            ],
+            "search_intents": [
+              "caffeine distributors near me",
+              "wholesale caffeine suppliers"
+            ]
+          },
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Online resellers",
+              "Retail resellers"
+            ],
+            "participant_types": [
+              "reseller",
+              "channel partner"
+            ],
+            "search_intents": [
+              "buy caffeine from resellers",
+              "caffeine resellers online"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L2",
+        "layer_name": "Service Providers",
+        "description": "Service providers offer support and solutions related to caffeine distribution and sales.",
+        "segments": [
+          {
+            "segment_name": "Logistics Providers",
+            "sub_segments": [
+              "Freight forwarders",
+              "Warehousing services"
+            ],
+            "participant_types": [
+              "service provider"
+            ],
+            "search_intents": [
+              "caffeine logistics services",
+              "caffeine distribution service providers"
+            ]
+          },
+          {
+            "segment_name": "Consultants",
+            "sub_segments": [
+              "Market consultants",
+              "Regulatory consultants"
+            ],
+            "participant_types": [
+              "service provider"
+            ],
+            "search_intents": [
+              "caffeine market consulting services",
+              "caffeine regulatory compliance consultants"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Raw material suppliers",
+        "Manufacturers of caffeine products",
+        "Retailers of finished goods",
+        "Research and development firms"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "find caffeine distributors for bulk orders",
+        "sub_sector": "distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "search for caffeine resellers online",
+        "sub_sector": "reseller",
+        "layer_id": "L1",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "caffeine logistics service providers",
+        "sub_sector": "service_provider",
+        "layer_id": "L2",
+        "segment": "Logistics Providers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "caffeine market consulting services",
+        "sub_sector": "service_provider",
+        "layer_id": "L2",
+        "segment": "Consultants"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "food and beverage",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "Caffeine market companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "Caffeine distributors corporate sites"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "Caffeine wholesalers official website"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "discovery",
+      "text": "Caffeine distributor official site"
+    },
+    {
+      "id": "P2",
+      "level": "discovery",
+      "text": "Caffeine wholesaler corporate headquarters"
+    },
+    {
+      "id": "P3",
+      "level": "discovery",
+      "text": "Caffeine reseller official website"
+    },
+    {
+      "id": "P4",
+      "level": "discovery",
+      "text": "Caffeine logistics provider corporate site"
+    },
+    {
+      "id": "P5",
+      "level": "discovery",
+      "text": "Caffeine service provider official site"
+    },
+    {
+      "id": "P6",
+      "level": "discovery",
+      "text": "Caffeine channel partner corporate profile"
+    },
+    {
+      "id": "P7",
+      "level": "discovery",
+      "text": "Caffeine distribution service providers official site"
+    },
+    {
+      "id": "P8",
+      "level": "discovery",
+      "text": "Caffeine market consultant corporate website"
+    },
+    {
+      "id": "P9",
+      "level": "volume",
+      "text": "authorized caffeine distributor firm official"
+    },
+    {
+      "id": "P10",
+      "level": "volume",
+      "text": "caffeine reseller channel partner official"
+    },
+    {
+      "id": "P11",
+      "level": "volume",
+      "text": "caffeine system integrator official website"
+    },
+    {
+      "id": "P12",
+      "level": "volume",
+      "text": "caffeine consulting partner implementation official"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "Caffeine market companies official websites",
+      "level": "L0",
+      "result_count": 28,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Caffeine - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Caffeine",
+          "snippet": "Caffeine is a central nervous system stimulant that may reduce fatigue and drowsiness. [10] At normal doses, caffeine has variable \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Zhorn Software",
+          "link": "https://zhornsoftware.co.uk/caffeine/",
+          "snippet": "Caffeine Prevent your computer from going to sleep If you have problems with your PC locking or going to sleep, caffeine will keep it \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine: How much is too much? - Mayo Clinic",
+          "link": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/caffeine/art-20045678",
+          "snippet": "Feb 21, 2025 \u00b7 Caffeine has its perks, but it can pose problems too. Find out how much is too much and if you need to cut down.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Download",
+          "link": "https://caffeine.en.lo4d.com/windows",
+          "snippet": "Dec 28, 2024 \u00b7 Caffeine, free download for Windows. Prevents the PC from going to sleep or activating the screensaver. Helps \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine: What It Is, Benefits and Side Effects",
+          "link": "https://health.clevelandclinic.org/caffeine",
+          "snippet": "Mar 21, 2025 \u00b7 Can\u2019t get through the day without your morning cup of joe? Caffeine is one of the most commonly used stimulants in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Is Caffeine, and Is It Good or Bad for Health?",
+          "link": "https://www.healthline.com/nutrition/what-is-caffeine",
+          "snippet": "Jun 3, 2020 \u00b7 Caffeine is a natural stimulant consumed throughout the world. This article reviews caffeine and its health effects, both \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Better Health Channel",
+          "link": "https://www.betterhealth.vic.gov.au/health/healthyliving/caffeine",
+          "snippet": "Aug 2, 2022 \u00b7 Caffeine is a drug that stimulates (increases the activity of) your brain and nervous system. Caffeine is found in many \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Happens to Your Brain When You Drink Caffeine Every Day",
+          "link": "https://www.verywellhealth.com/what-does-caffeine-do-to-your-brain-11907104",
+          "snippet": "Feb 23, 2026 \u00b7 Learn how caffeine affects brain chemicals and health, sleep, and mood. Understand safe daily limits, hidden sources, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - MedlinePlus",
+          "link": "https://medlineplus.gov/caffeine.html",
+          "snippet": "Sep 8, 2021 \u00b7 What is caffeine? Caffeine is a bitter substance that occurs naturally in more than 60 plants including: Coffee beans \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Pharmacology of caffeine and its effects on the human body",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2772417424000104",
+          "snippet": "Apr 1, 2024 \u00b7 Caffeine is the world's most popular stimulant and psychoactive substance. Given the ubiquitous use of caffeine, it is \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "18 Caffeine Manufacturers in 2026 - Metoree",
+          "link": "https://us.metoree.com/categories/6199/",
+          "snippet": "18 Caffeine Manufacturers in 2026 This section provides an overview for caffeine as well as their applications and principles. Also, please take a look at the list of 18 caffeine manufacturers and the",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Caffeine Market Companies - Rankings, Profiles, SWOT ...",
+          "link": "https://www.reportprime.com/caffeine-r18265/company",
+          "snippet": "Caffeine Market Detailed Company Profiles \u00b7 1) CSPC Pharmaceutical Group \u00b7 2) BASF SE (Nutrition & Health) \u00b7 3) Aarti Industries \u00b7 4) Taj Pharmaceuticals \u00b7 5) ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Caffeine Providers | Compare 20 Companies",
+          "link": "https://www.pharmamanufacturingdirectory.com/category/chemicals-raw-materials/caffeine",
+          "snippet": "Compare Caffeine providers listed in the Pharmaceutical Manufacturing Resource Directory. Browse the latest products and services for your business, read company reviews, download white papers, and re",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 Companies in the Natural Caffeine Extracts Industry ...",
+          "link": "https://chemicalresearchinsight.com/2025/09/09/top-10-companies-in-the-natural-caffeine-extracts-industry-2025-market-leaders-powering-the-clean-energy-revolution/",
+          "snippet": "Sep 9, 2025 \u00b7 The Global Natural Caffeine Extracts Market was valued at USD 267.8 Million in 2023 and is projected to reach USD 412.9 Million by 2030, growing at a Compound Annual Growth Rate (CAGR) o",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Energy drink with caffeine and flavour | Sting Energy",
+          "link": "https://www.stingenergy.com/",
+          "snippet": "Sting Energy: The ultimate boost for work, study & everyday life. Enjoy bold soft drink flavors powered by Caffeine and B-Vitamins. Affordable energy for you!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine Suppliers - Thomasnet",
+          "link": "https://www.thomasnet.com/suppliers/usa/caffeine-9942426",
+          "snippet": "Caffeine Suppliers Distributor of raw materials, ingredients, and specialty chemicals. Products include adhesives, sealants, agrochemicals, animal feed ingredients, base chemicals, intermediates, and ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sunshine Energy Beverages | Vitamins, Electrolytes & 70mg of Caffeine",
+          "link": "https://drinkthesunshine.com/",
+          "snippet": "Sunshine sparkling energy waters and good energy drinks are brimming with vitamins, electrolytes and just 70 mg of natural caffeine. Enjoy the crisp, refreshing taste of our caffeinated waters with ze",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "B2B Lead Generation Agency | Caffeine Marketing",
+          "link": "https://www.caffeinemarketing.com/",
+          "snippet": "Tech, SaaS, and fintech companies partner with Caffeine Marketing to fill their pipelines with high-value prospects using our proven demand generation systems. We deliver measurable results in weeks, ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine Marketing Reviews (33), Pricing, Services & Verified Ratings",
+          "link": "https://clutch.co/profile/caffeine-marketing-0",
+          "snippet": "Caffeine Marketing has provided branding and web development services for an edtech company. The team has also launched marketing campaigns and handled demand generation efforts. Caffeine Marketing ha",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Effects of Mixing Alcohol and Caffeine | Alcohol Use | CDC",
+          "link": "https://www.cdc.gov/alcohol/about-alcohol-use/alcohol-caffeine.html",
+          "snippet": "An official website of the United States government. Here's how you know.U.S. Food and Drug Administration. Update on caffeinated alcohol beverages: FDA announces progress on removal of certain caffei",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine Market Size Report, 2024-2030",
+          "link": "https://www.industryarc.com/Research/Caffeine-Market-Research-504527",
+          "snippet": "9.Caffeine Market - Company Analysis. table_viewTables and Figures.Analyst signal Comparative analysis benchmarks leading companies in the Caffeine Market on market share, product portfolio depth, fin",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine Marketing Company Profile - TechBehemoths",
+          "link": "https://techbehemoths.com/company/caffeine-marketing-1",
+          "snippet": "Marketing Strategy. Web Design. Advertising. Market Research. SEO. Pay Per Click. Caffeine Marketing Stats. ! You can learn more about company stats on TechBehemoths in this article.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine Market Size Growth Of $1.2 billion by 2031 | JoinTown...",
+          "link": "https://www.einnews.com/pr_news/646827488/caffeine-market-size-growth-of-1-2-billion-by-2031-jointown-pharmaceutical-spectrum-laboratory-taj-pharma-etc",
+          "snippet": "The caffeine market size was valued at $715.20 million in 2021, and is estimated to reach $1.2 billion by 2031, growing at a CAGR of 5.2% from 2022 to 2031. Caffeine is widely used in the pharmaceutic",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine Marketing | Saleshandy Agency Partner",
+          "link": "https://www.saleshandy.com/agencies/caffeine-marketing/",
+          "snippet": "Caffeine Marketing is a dynamic player in the realm of digital marketing, specializing in email marketing and lead generation. Known for its strategic approach, the company focuses on building meaning",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine Market Analysis, Growth by Top Companies... | Medium",
+          "link": "https://medium.com/@manoj_40775/caffeine-market-analysis-growth-by-top-companies-trends-by-types-and-application-forecast-d0f982528015",
+          "snippet": "The caffeine market encompasses the production, distribution, and consumption of caffeine, a natural stimulant that is widely consumed worldwide. Caffeine is primarily derived from natural sources suc",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine Marketing - Marketing Agency in Atlanta",
+          "link": "https://www.marketingmonk.so/agency-directory/agency/caffeine-marketing",
+          "snippet": "Company Intelligence & Overview. Business Foundation. Caffeine Marketing was founded in 2017 by Evan Knox, a fourth-generation entrepreneur whose personal mission drives the company's core purpose of ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine Market Size, Opportunities, & YoY Growth Rate, 2033",
+          "link": "https://www.coherentmarketinsights.com/market-insight/caffeine-market-4449",
+          "snippet": "29 Apr 2026 ... Page number: 250+ ... Demand for cosmetic chemicals such as caffeine is expected to rise as a result of skincare companies focusing on personal ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Encapsulated Caffeine Market Growth & Trends - ReAnIn",
+          "link": "https://www.reanin.com/reports/encapsulated-caffeine-market",
+          "snippet": "By Product Type;. Powder, Capsules, Tablets and Liquid. By End User;. Retail Consumers, Food Manufacturers, Beverage Companies and Health Supplements ...",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Caffeine - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Caffeine",
+          "snippet": "Caffeine is a central nervous system stimulant that may reduce fatigue and drowsiness. [10] At normal doses, caffeine has variable \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Zhorn Software",
+          "link": "https://zhornsoftware.co.uk/caffeine/",
+          "snippet": "Caffeine Prevent your computer from going to sleep If you have problems with your PC locking or going to sleep, caffeine will keep it \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine: How much is too much? - Mayo Clinic",
+          "link": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/caffeine/art-20045678",
+          "snippet": "Feb 21, 2025 \u00b7 Caffeine has its perks, but it can pose problems too. Find out how much is too much and if you need to cut down.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Download",
+          "link": "https://caffeine.en.lo4d.com/windows",
+          "snippet": "Dec 28, 2024 \u00b7 Caffeine, free download for Windows. Prevents the PC from going to sleep or activating the screensaver. Helps \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine: What It Is, Benefits and Side Effects",
+          "link": "https://health.clevelandclinic.org/caffeine",
+          "snippet": "Mar 21, 2025 \u00b7 Can\u2019t get through the day without your morning cup of joe? Caffeine is one of the most commonly used stimulants in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Is Caffeine, and Is It Good or Bad for Health?",
+          "link": "https://www.healthline.com/nutrition/what-is-caffeine",
+          "snippet": "Jun 3, 2020 \u00b7 Caffeine is a natural stimulant consumed throughout the world. This article reviews caffeine and its health effects, both \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Better Health Channel",
+          "link": "https://www.betterhealth.vic.gov.au/health/healthyliving/caffeine",
+          "snippet": "Aug 2, 2022 \u00b7 Caffeine is a drug that stimulates (increases the activity of) your brain and nervous system. Caffeine is found in many \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Happens to Your Brain When You Drink Caffeine Every Day",
+          "link": "https://www.verywellhealth.com/what-does-caffeine-do-to-your-brain-11907104",
+          "snippet": "Feb 23, 2026 \u00b7 Learn how caffeine affects brain chemicals and health, sleep, and mood. Understand safe daily limits, hidden sources, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - MedlinePlus",
+          "link": "https://medlineplus.gov/caffeine.html",
+          "snippet": "Sep 8, 2021 \u00b7 What is caffeine? Caffeine is a bitter substance that occurs naturally in more than 60 plants including: Coffee beans \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Pharmacology of caffeine and its effects on the human body",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2772417424000104",
+          "snippet": "Apr 1, 2024 \u00b7 Caffeine is the world's most popular stimulant and psychoactive substance. Given the ubiquitous use of caffeine, it is \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "18 Caffeine Manufacturers in 2026 - Metoree",
+          "link": "https://us.metoree.com/categories/6199/",
+          "snippet": "18 Caffeine Manufacturers in 2026 This section provides an overview for caffeine as well as their applications and principles. Also, please take a look at the list of 18 caffeine manufacturers and the",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Caffeine Market Companies - Rankings, Profiles, SWOT ...",
+          "link": "https://www.reportprime.com/caffeine-r18265/company",
+          "snippet": "Caffeine Market Detailed Company Profiles \u00b7 1) CSPC Pharmaceutical Group \u00b7 2) BASF SE (Nutrition & Health) \u00b7 3) Aarti Industries \u00b7 4) Taj Pharmaceuticals \u00b7 5) ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Caffeine Providers | Compare 20 Companies",
+          "link": "https://www.pharmamanufacturingdirectory.com/category/chemicals-raw-materials/caffeine",
+          "snippet": "Compare Caffeine providers listed in the Pharmaceutical Manufacturing Resource Directory. Browse the latest products and services for your business, read company reviews, download white papers, and re",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 Companies in the Natural Caffeine Extracts Industry ...",
+          "link": "https://chemicalresearchinsight.com/2025/09/09/top-10-companies-in-the-natural-caffeine-extracts-industry-2025-market-leaders-powering-the-clean-energy-revolution/",
+          "snippet": "Sep 9, 2025 \u00b7 The Global Natural Caffeine Extracts Market was valued at USD 267.8 Million in 2023 and is projected to reach USD 412.9 Million by 2030, growing at a Compound Annual Growth Rate (CAGR) o",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Energy drink with caffeine and flavour | Sting Energy",
+          "link": "https://www.stingenergy.com/",
+          "snippet": "Sting Energy: The ultimate boost for work, study & everyday life. Enjoy bold soft drink flavors powered by Caffeine and B-Vitamins. Affordable energy for you!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine Suppliers - Thomasnet",
+          "link": "https://www.thomasnet.com/suppliers/usa/caffeine-9942426",
+          "snippet": "Caffeine Suppliers Distributor of raw materials, ingredients, and specialty chemicals. Products include adhesives, sealants, agrochemicals, animal feed ingredients, base chemicals, intermediates, and ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sunshine Energy Beverages | Vitamins, Electrolytes & 70mg of Caffeine",
+          "link": "https://drinkthesunshine.com/",
+          "snippet": "Sunshine sparkling energy waters and good energy drinks are brimming with vitamins, electrolytes and just 70 mg of natural caffeine. Enjoy the crisp, refreshing taste of our caffeinated waters with ze",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "B2B Lead Generation Agency | Caffeine Marketing",
+          "link": "https://www.caffeinemarketing.com/",
+          "snippet": "Tech, SaaS, and fintech companies partner with Caffeine Marketing to fill their pipelines with high-value prospects using our proven demand generation systems. We deliver measurable results in weeks, ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine Marketing Reviews (33), Pricing, Services & Verified Ratings",
+          "link": "https://clutch.co/profile/caffeine-marketing-0",
+          "snippet": "Caffeine Marketing has provided branding and web development services for an edtech company. The team has also launched marketing campaigns and handled demand generation efforts. Caffeine Marketing ha",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Effects of Mixing Alcohol and Caffeine | Alcohol Use | CDC",
+          "link": "https://www.cdc.gov/alcohol/about-alcohol-use/alcohol-caffeine.html",
+          "snippet": "An official website of the United States government. Here's how you know.U.S. Food and Drug Administration. Update on caffeinated alcohol beverages: FDA announces progress on removal of certain caffei",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine Market Size Report, 2024-2030",
+          "link": "https://www.industryarc.com/Research/Caffeine-Market-Research-504527",
+          "snippet": "9.Caffeine Market - Company Analysis. table_viewTables and Figures.Analyst signal Comparative analysis benchmarks leading companies in the Caffeine Market on market share, product portfolio depth, fin",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine Marketing Company Profile - TechBehemoths",
+          "link": "https://techbehemoths.com/company/caffeine-marketing-1",
+          "snippet": "Marketing Strategy. Web Design. Advertising. Market Research. SEO. Pay Per Click. Caffeine Marketing Stats. ! You can learn more about company stats on TechBehemoths in this article.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine Market Size Growth Of $1.2 billion by 2031 | JoinTown...",
+          "link": "https://www.einnews.com/pr_news/646827488/caffeine-market-size-growth-of-1-2-billion-by-2031-jointown-pharmaceutical-spectrum-laboratory-taj-pharma-etc",
+          "snippet": "The caffeine market size was valued at $715.20 million in 2021, and is estimated to reach $1.2 billion by 2031, growing at a CAGR of 5.2% from 2022 to 2031. Caffeine is widely used in the pharmaceutic",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine Marketing | Saleshandy Agency Partner",
+          "link": "https://www.saleshandy.com/agencies/caffeine-marketing/",
+          "snippet": "Caffeine Marketing is a dynamic player in the realm of digital marketing, specializing in email marketing and lead generation. Known for its strategic approach, the company focuses on building meaning",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine Market Analysis, Growth by Top Companies... | Medium",
+          "link": "https://medium.com/@manoj_40775/caffeine-market-analysis-growth-by-top-companies-trends-by-types-and-application-forecast-d0f982528015",
+          "snippet": "The caffeine market encompasses the production, distribution, and consumption of caffeine, a natural stimulant that is widely consumed worldwide. Caffeine is primarily derived from natural sources suc",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine Marketing - Marketing Agency in Atlanta",
+          "link": "https://www.marketingmonk.so/agency-directory/agency/caffeine-marketing",
+          "snippet": "Company Intelligence & Overview. Business Foundation. Caffeine Marketing was founded in 2017 by Evan Knox, a fourth-generation entrepreneur whose personal mission drives the company's core purpose of ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine Market Size, Opportunities, & YoY Growth Rate, 2033",
+          "link": "https://www.coherentmarketinsights.com/market-insight/caffeine-market-4449",
+          "snippet": "29 Apr 2026 ... Page number: 250+ ... Demand for cosmetic chemicals such as caffeine is expected to rise as a result of skincare companies focusing on personal ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Encapsulated Caffeine Market Growth & Trends - ReAnIn",
+          "link": "https://www.reanin.com/reports/encapsulated-caffeine-market",
+          "snippet": "By Product Type;. Powder, Capsules, Tablets and Liquid. By End User;. Retail Consumers, Food Manufacturers, Beverage Companies and Health Supplements ...",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "Caffeine distributors corporate sites",
+      "level": "L1",
+      "result_count": 19,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Caffeine - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Caffeine",
+          "snippet": "The most common sources of caffeine for human consumption are the tea leaves of the Camellia sinensis plant and the coffee bean, the seed of the Coffea plant. Some people drink beverages \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Zhorn Software",
+          "link": "https://zhornsoftware.co.uk/caffeine/",
+          "snippet": "If you have problems with your PC locking or going to sleep, caffeine will keep it awake. It works by simulating a keypress once every 59 seconds, so your machine thinks you're still working at the \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine: How much is too much? - Mayo Clinic",
+          "link": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/caffeine/art-20045678",
+          "snippet": "Feb 21, 2025 \u00b7 Up to 400 milligrams (mg) of caffeine a day seems safe for most adults. That's about the amount of caffeine in four cups of brewed coffee, 10 cans of cola or two \"energy shot\" drinks. K",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Download",
+          "link": "https://caffeine.en.lo4d.com/windows",
+          "snippet": "Dec 28, 2024 \u00b7 Caffeine, free download for Windows. Prevents the PC from going to sleep or activating the screensaver. Helps prevent your PC from locking or shutting down.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine: What It Is, Benefits and Side Effects",
+          "link": "https://health.clevelandclinic.org/caffeine",
+          "snippet": "Mar 21, 2025 \u00b7 What is caffeine? Caffeine is a type of drug called a stimulant, meaning it increases chemicals in your brain called neurotransmitters.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Better Health Channel",
+          "link": "https://www.betterhealth.vic.gov.au/health/healthyliving/caffeine",
+          "snippet": "Aug 2, 2022 \u00b7 Caffeine is a drug that stimulates (increases the activity of) your brain and nervous system. Caffeine is found in many drinks such as coffee, tea, soft drinks and energy drinks. Chocola",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Is Caffeine, and Is It Good or Bad for Health?",
+          "link": "https://www.healthline.com/nutrition/what-is-caffeine",
+          "snippet": "Jun 3, 2020 \u00b7 Caffeine is a natural stimulant consumed throughout the world. This article reviews caffeine and its health effects, both good and bad.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - MedlinePlus",
+          "link": "https://medlineplus.gov/caffeine.html",
+          "snippet": "Sep 8, 2021 \u00b7 Caffeine can interfere with your ability to recognize how drunk you are, which can lead you to drink more. This also makes you more likely to make bad decisions.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Pharmacology of caffeine and its effects on the human body",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2772417424000104",
+          "snippet": "Apr 1, 2024 \u00b7 While caffeine consumption is generally safe, this review paper also examines the potential effects that caffeine could have on human health and development.",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Happens to Your Brain When You Drink Caffeine Every Day",
+          "link": "https://www.verywellhealth.com/what-does-caffeine-do-to-your-brain-11907104",
+          "snippet": "Feb 23, 2026 \u00b7 Learn how caffeine affects brain chemicals and health, sleep, and mood. Understand safe daily limits, hidden sources, and signs you\u2019re getting too much.",
+          "backend": "searxng"
+        },
+        {
+          "title": "18 Caffeine Manufacturers in 2026 | Metoree",
+          "link": "https://us.metoree.com/categories/6199/",
+          "snippet": "Global Distribution of Caffeine Manufacturers by Country. What Is Caffeine?In addition, the various effects of caffeine diminish with regular consumption, and tolerance develops. List of 18 Caffeine M",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine API Manufacturers | Suppliers | Pharmacompass.com",
+          "link": "https://www.pharmacompass.com/listed-active-pharmaceutical-ingredients/caffeine",
+          "snippet": "Website. Corporate PDF.The Caffeine suppliers may include Caffeine API manufacturers, exporters, distributors and traders. click here to find a list of Caffeine suppliers with USDMF, JDMF, KDMF, CEP, ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "FDA issues warning letters to 5 caffeine distributors | Fox News",
+          "link": "https://www.foxnews.com/health/fda-issues-warning-letters-to-5-caffeine-distributors",
+          "snippet": "The U.S. Food and Drug Administration on Tuesday issued warning letters to five distributors of pure powdered caffeine, as the federal agency stepped up efforts to curtail ingestion of the stimulant i",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Warnings issued to powdered caffeine distributors",
+          "link": "https://www.kcci.com/article/warnings-issued-to-powdered-caffeine-distributors/6911442",
+          "snippet": "The Food and Drug Administration has issued warning letters to five distributors of pure powdered caffeine, saying the products put consumers at risk of illness or injury. The letters are dated Aug.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "FDA Issues Warning Letters to Powdered Caffeine Distributors - Drug...",
+          "link": "https://www.drugdiscoverytrends.com/fda-issues-warning-letters-to-powdered-caffeine-distributors/",
+          "snippet": "The Food and Drug Administration has issued warning letters to five distributors of pure powdered caffeine, saying the products put consumers at risk. The letters, which are dated Aug.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "FDA Warns Powdered Caffeine Distributors About... | Gephardt Daily",
+          "link": "https://gephardtdaily.com/national-international/fda-warns-powdered-caffeine-distributors-about-safety-concerns/",
+          "snippet": "The letters follow the deaths of two otherwise healthy teenagers in 2014 after consuming caffeine supplements. \u201cWhile consumers of caffeinated products such as coffee, tea, and soda may be aware of ca",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Zest Tea Company Profile - Office Locations, Competitors... | Craft.co",
+          "link": "https://craft.co/zest-tea",
+          "snippet": "Zest Tea is a company that manufactures and distributes caffeine-infused teas. It supplies loose leaf tea, as well as tea bags and sparkling teas. The Company's products are designed for mental clarit",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Pregnancy and birth; a print off and keep guide for expectant...",
+          "link": "https://dadbloguk.com/pregnancy-and-birth-for-dads/",
+          "snippet": "Mar 24, 2014 \u00b7 Many women go off caffeine and foods which have a distinctive smell. If your partner is feeling nauseous the most helpful thing you can do is not to cook in the kitchen, maybe eat out o",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Fighting fatigue with Energex Plus - Dad Blog UK",
+          "link": "https://dadbloguk.com/healthspan-energex-plus/",
+          "snippet": "Apr 25, 2016 \u00b7 Energex Plus also contains caffeine and taurine to help keep you alert (taurine is also an antioxidant). The big question, of course, is whether this stuff is any good.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Caffeine - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Caffeine",
+          "snippet": "The most common sources of caffeine for human consumption are the tea leaves of the Camellia sinensis plant and the coffee bean, the seed of the Coffea plant. Some people drink beverages \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Zhorn Software",
+          "link": "https://zhornsoftware.co.uk/caffeine/",
+          "snippet": "If you have problems with your PC locking or going to sleep, caffeine will keep it awake. It works by simulating a keypress once every 59 seconds, so your machine thinks you're still working at the \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine: How much is too much? - Mayo Clinic",
+          "link": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/caffeine/art-20045678",
+          "snippet": "Feb 21, 2025 \u00b7 Up to 400 milligrams (mg) of caffeine a day seems safe for most adults. That's about the amount of caffeine in four cups of brewed coffee, 10 cans of cola or two \"energy shot\" drinks. K",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Download",
+          "link": "https://caffeine.en.lo4d.com/windows",
+          "snippet": "Dec 28, 2024 \u00b7 Caffeine, free download for Windows. Prevents the PC from going to sleep or activating the screensaver. Helps prevent your PC from locking or shutting down.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine: What It Is, Benefits and Side Effects",
+          "link": "https://health.clevelandclinic.org/caffeine",
+          "snippet": "Mar 21, 2025 \u00b7 What is caffeine? Caffeine is a type of drug called a stimulant, meaning it increases chemicals in your brain called neurotransmitters.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Better Health Channel",
+          "link": "https://www.betterhealth.vic.gov.au/health/healthyliving/caffeine",
+          "snippet": "Aug 2, 2022 \u00b7 Caffeine is a drug that stimulates (increases the activity of) your brain and nervous system. Caffeine is found in many drinks such as coffee, tea, soft drinks and energy drinks. Chocola",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Is Caffeine, and Is It Good or Bad for Health?",
+          "link": "https://www.healthline.com/nutrition/what-is-caffeine",
+          "snippet": "Jun 3, 2020 \u00b7 Caffeine is a natural stimulant consumed throughout the world. This article reviews caffeine and its health effects, both good and bad.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - MedlinePlus",
+          "link": "https://medlineplus.gov/caffeine.html",
+          "snippet": "Sep 8, 2021 \u00b7 Caffeine can interfere with your ability to recognize how drunk you are, which can lead you to drink more. This also makes you more likely to make bad decisions.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Pharmacology of caffeine and its effects on the human body",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2772417424000104",
+          "snippet": "Apr 1, 2024 \u00b7 While caffeine consumption is generally safe, this review paper also examines the potential effects that caffeine could have on human health and development.",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Happens to Your Brain When You Drink Caffeine Every Day",
+          "link": "https://www.verywellhealth.com/what-does-caffeine-do-to-your-brain-11907104",
+          "snippet": "Feb 23, 2026 \u00b7 Learn how caffeine affects brain chemicals and health, sleep, and mood. Understand safe daily limits, hidden sources, and signs you\u2019re getting too much.",
+          "backend": "searxng"
+        },
+        {
+          "title": "18 Caffeine Manufacturers in 2026 | Metoree",
+          "link": "https://us.metoree.com/categories/6199/",
+          "snippet": "Global Distribution of Caffeine Manufacturers by Country. What Is Caffeine?In addition, the various effects of caffeine diminish with regular consumption, and tolerance develops. List of 18 Caffeine M",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine API Manufacturers | Suppliers | Pharmacompass.com",
+          "link": "https://www.pharmacompass.com/listed-active-pharmaceutical-ingredients/caffeine",
+          "snippet": "Website. Corporate PDF.The Caffeine suppliers may include Caffeine API manufacturers, exporters, distributors and traders. click here to find a list of Caffeine suppliers with USDMF, JDMF, KDMF, CEP, ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "FDA issues warning letters to 5 caffeine distributors | Fox News",
+          "link": "https://www.foxnews.com/health/fda-issues-warning-letters-to-5-caffeine-distributors",
+          "snippet": "The U.S. Food and Drug Administration on Tuesday issued warning letters to five distributors of pure powdered caffeine, as the federal agency stepped up efforts to curtail ingestion of the stimulant i",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Warnings issued to powdered caffeine distributors",
+          "link": "https://www.kcci.com/article/warnings-issued-to-powdered-caffeine-distributors/6911442",
+          "snippet": "The Food and Drug Administration has issued warning letters to five distributors of pure powdered caffeine, saying the products put consumers at risk of illness or injury. The letters are dated Aug.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "FDA Issues Warning Letters to Powdered Caffeine Distributors - Drug...",
+          "link": "https://www.drugdiscoverytrends.com/fda-issues-warning-letters-to-powdered-caffeine-distributors/",
+          "snippet": "The Food and Drug Administration has issued warning letters to five distributors of pure powdered caffeine, saying the products put consumers at risk. The letters, which are dated Aug.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "FDA Warns Powdered Caffeine Distributors About... | Gephardt Daily",
+          "link": "https://gephardtdaily.com/national-international/fda-warns-powdered-caffeine-distributors-about-safety-concerns/",
+          "snippet": "The letters follow the deaths of two otherwise healthy teenagers in 2014 after consuming caffeine supplements. \u201cWhile consumers of caffeinated products such as coffee, tea, and soda may be aware of ca",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Zest Tea Company Profile - Office Locations, Competitors... | Craft.co",
+          "link": "https://craft.co/zest-tea",
+          "snippet": "Zest Tea is a company that manufactures and distributes caffeine-infused teas. It supplies loose leaf tea, as well as tea bags and sparkling teas. The Company's products are designed for mental clarit",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Pregnancy and birth; a print off and keep guide for expectant...",
+          "link": "https://dadbloguk.com/pregnancy-and-birth-for-dads/",
+          "snippet": "Mar 24, 2014 \u00b7 Many women go off caffeine and foods which have a distinctive smell. If your partner is feeling nauseous the most helpful thing you can do is not to cook in the kitchen, maybe eat out o",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Fighting fatigue with Energex Plus - Dad Blog UK",
+          "link": "https://dadbloguk.com/healthspan-energex-plus/",
+          "snippet": "Apr 25, 2016 \u00b7 Energex Plus also contains caffeine and taurine to help keep you alert (taurine is also an antioxidant). The big question, of course, is whether this stuff is any good.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "Caffeine wholesalers official website",
+      "level": "L2",
+      "result_count": 28,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Caffeine - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Caffeine",
+          "snippet": "The most common sources of caffeine for human consumption are the tea leaves of the Camellia sinensis plant and the coffee bean, the seed of the Coffea plant. Some people drink beverages \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Zhorn Software",
+          "link": "https://zhornsoftware.co.uk/caffeine/",
+          "snippet": "If you have problems with your PC locking or going to sleep, caffeine will keep it awake. It works by simulating a keypress once every 59 seconds, so your machine thinks you're still working at the \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Download",
+          "link": "https://caffeine.en.lo4d.com/windows",
+          "snippet": "Dec 28, 2024 \u00b7 Caffeine, free download for Windows. Prevents the PC from going to sleep or activating the screensaver. Helps prevent your PC from locking or shutting down.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine: How much is too much? - Mayo Clinic",
+          "link": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/caffeine/art-20045678",
+          "snippet": "Feb 21, 2025 \u00b7 Up to 400 milligrams (mg) of caffeine a day seems safe for most adults. That's about the amount of caffeine in four cups of brewed coffee, 10 cans of cola or two \"energy shot\" drinks. K",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine: What It Is, Benefits and Side Effects",
+          "link": "https://health.clevelandclinic.org/caffeine",
+          "snippet": "Mar 21, 2025 \u00b7 What is caffeine? Caffeine is a type of drug called a stimulant, meaning it increases chemicals in your brain called neurotransmitters.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Better Health Channel",
+          "link": "https://www.betterhealth.vic.gov.au/health/healthyliving/caffeine",
+          "snippet": "Aug 2, 2022 \u00b7 Caffeine is a drug that stimulates (increases the activity of) your brain and nervous system. Caffeine is found in many drinks such as coffee, tea, soft drinks and energy drinks. Chocola",
+          "backend": "searxng"
+        },
+        {
+          "title": "Coffee and heart health: How many cups of caffeinated coffee are safe ...",
+          "link": "https://newsroom.heart.org/news/coffee-and-heart-health-how-many-cups-of-caffeinated-coffee-are-safe-to-drink-each-day",
+          "snippet": "3 days ago \u00b7 Statement Highlights: The latest research indicates that consuming up to 400 mg of caffeine/day (equivalent to up to 5, 8-ounce cups of caffeinated coffee per day) is generally safe for \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Is Caffeine, and Is It Good or Bad for Health?",
+          "link": "https://www.healthline.com/nutrition/what-is-caffeine",
+          "snippet": "Jun 3, 2020 \u00b7 Caffeine is a natural stimulant consumed throughout the world. This article reviews caffeine and its health effects, both good and bad.",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Happens to Your Brain When You Drink Caffeine Every Day",
+          "link": "https://www.verywellhealth.com/what-does-caffeine-do-to-your-brain-11907104",
+          "snippet": "Feb 23, 2026 \u00b7 Learn how caffeine affects brain chemicals and health, sleep, and mood. Understand safe daily limits, hidden sources, and signs you\u2019re getting too much.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Pharmacology of caffeine and its effects on the human body",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2772417424000104",
+          "snippet": "Apr 1, 2024 \u00b7 While caffeine consumption is generally safe, this review paper also examines the potential effects that caffeine could have on human health and development.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine Supplier | Bulk Distributor | Vivioncaffeine powder suppliers USAWholesale Pouch Supplier \u2013 Nicotine & Caffeine",
+          "link": "https://vivion.com/bulk-caffeine-supplier/",
+          "snippet": "Looking for a trusted Caffeine supplier? Choose Vivion, your prime destination for bulk Caffeine. We guarantee unparalleled product quality & support. Find where to buy products from suppliers in the ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine Powder Supplier | Finlays",
+          "link": "https://www.finlays.net/product/tea-extracts-aromas/caffeine-powder/",
+          "snippet": "Finlays is a global bulk caffeine powder supplier, processed at our own facility in the UK, our caffeine is produced to a minimum 95% purity and can even be produced to a minimum 98.5% purity if requi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale caffeine powder for your shop",
+          "link": "https://www.faire.com/en-gb/discover/caffeine-powder",
+          "snippet": "Unlock wholesale price. Hydrate \u2013 Chicory & Electrolytes\u2013 6 Jars and other Wholesale caffeine powder for your store trending on Faire.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy In Bulk Caffeine Powder Bulk Natural Caffeine... | Alibaba.com",
+          "link": "https://www.alibaba.com/showroom/caffeine-powder-bulk.html",
+          "snippet": "Discover bulk caffeine powder with 99% purity, food-grade, and lab-tested for energy supplements or beverages. OEM & wholesale available.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine, Caffeine Suppliers & Caffeine Wholesalers At TradeKey.com",
+          "link": "https://www.tradekey.com/products/caffeine.html",
+          "snippet": "Find Caffeine Manufacturers, Caffeine Suppliers & Wholesalers of Caffeine from China, Hong Kong, USA & Caffeine Products from India at TradeKey.com.Wholesale Caffeinated Energy Drink. Min Order: 10000",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Caffeine - Caffeine Manufacturers, Suppliers - EC21",
+          "link": "https://www.ec21.com/ec-market/caffeine.html",
+          "snippet": "Wholesale Caffeine Find 272 caffeine products from 159 manufacturers & suppliers at EC21. Choose quality caffeine manufacturers, suppliers & exporters now - EC21.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Refreshing China Wholesale Caffeine Products at... | Global Sources",
+          "link": "https://www.globalsources.com/manufacturers/caffeine.html",
+          "snippet": "3997 wholesale \"Caffeine\" products from 63 suppliers.Global Sources has a full-scale list of wholesale caffeine products at factory prices featured by verified wholesalers & manufacturers from China, ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine Wholesale Suppliers, Manufacturers & Distributors",
+          "link": "https://www.go4worldbusiness.com/find?searchText=caffeine&BuyersOrSuppliers=suppliers",
+          "snippet": "Buy premium Caffeine in bulk from verified wholesale suppliers and manufacturers. Best prices, bulk discounts, trusted deals at go4WorldBusiness.com.Find Verified Caffeine Suppliers, Manufacturers and",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Caffeine & Energy Pouches | STATERA Brand Owner",
+          "link": "https://stateravibe.com/wholesale",
+          "snippet": "Partner with STATERA, the official brand owner. High-margin wholesale programs for premium caffeine pouches and energy pouches for global distributors.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine - Wholesale / Distributor - Nutrimeo",
+          "link": "https://www.nutrimeo.com/eu/store/caffeine",
+          "snippet": "Nutrimeo is an official supplier of the biggest sports nutrition brands. Grow your business with our selection of consumer-recognized products.Caffeine+Taurine - 60 Caps. BioTech USA. Full box: 12 uni",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "PurCaf\u00ae - Organic Caffeine [Bulk Ingredient] - Applied Food Sciences",
+          "link": "https://appliedfoods.com/ingredients/purcaf/",
+          "snippet": "Applied Food Sciences is the world's leading caffeine supplier selling more than 5 billion servings of clean energy. ... This website is accessible from many ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Natural Caffeine from Coffee Beans in Bulk",
+          "link": "https://nucaffeine.co/bulk-natural-caffeine",
+          "snippet": "Get the best deals on natural caffeine from coffee beans in bulk. Our true wholesale pricing ensures you maintain your product margins. Shop now!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine Anhydrous Supplier | 58-08-2 - Silver Fern Chemical",
+          "link": "https://www.silverfernchemical.com/chemical-supplier-58-08-2/caffeine-anhydrous-distributor-401.aspx",
+          "snippet": "Caffeine Anhydrous - CAF. Silver Fern is a leading supplier and distributor of bulk specialty chemicals, with over 20 years of serving North America's top ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bulk Pure Caffeine Powder - Pure Bulk Supplements - PureBulk, Inc.",
+          "link": "https://purebulk.com/products/caffeine-powder-pure-bulk?srsltid=AfmBOopTGCTX7me-5PQn24mf6lS5AV1BFhotLWnQIST11Oibt0Ax2uUs",
+          "snippet": "Caffeine Powder Pure Bulk 20kg. $849.95 /. Shipping calculated at checkout ... Site Map \u00b7 Sourcing \u00b7 Teacher Discount \u00b7 Wholesale \u00b7 Careers. CONTACT. 1640 Austin ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale \u2013 Caffeine Roasters",
+          "link": "https://caffeineusa.com/pages/wholesale",
+          "snippet": "Wholesale Are you rushing to work every morning and don\u2019t have time to stop by Caffeine Roasters to get your favourite cup of coffee? Don\u2019t worry, we have you covered! From now on you can enjoy freshl",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "caffeine powder suppliers USA",
+          "link": "https://www.americanchemicalsuppliers.com/list/search?search=caffeine+powder",
+          "snippet": "Find where to buy products from suppliers in the USA, including: distributors, industrial manufacturers in America, bulk supplies and wholesalers of raw ingredients & finished goods.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Pouch Supplier \u2013 Nicotine & Caffeine | Buy Pouches ...",
+          "link": "https://buypouchesonline.com/pages/nicotine-caffeine-pouch-distributor-usa",
+          "snippet": "Buy Pouches Online is the #1 online store for nicotine and caffeine pouches\u2014trusted by thousands of customers across the U.S. In addition to direct-to-consumer sales, we also offer exclusive wholesale",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "caffeine suppliers USA",
+          "link": "https://www.americanchemicalsuppliers.com/list/search?search=caffeine",
+          "snippet": "Find where to buy products from suppliers in the USA, including: distributors, industrial manufacturers in America, bulk supplies and wholesalers of raw ingredients & finished goods.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Caffeine - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Caffeine",
+          "snippet": "The most common sources of caffeine for human consumption are the tea leaves of the Camellia sinensis plant and the coffee bean, the seed of the Coffea plant. Some people drink beverages \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Zhorn Software",
+          "link": "https://zhornsoftware.co.uk/caffeine/",
+          "snippet": "If you have problems with your PC locking or going to sleep, caffeine will keep it awake. It works by simulating a keypress once every 59 seconds, so your machine thinks you're still working at the \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Download",
+          "link": "https://caffeine.en.lo4d.com/windows",
+          "snippet": "Dec 28, 2024 \u00b7 Caffeine, free download for Windows. Prevents the PC from going to sleep or activating the screensaver. Helps prevent your PC from locking or shutting down.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine: How much is too much? - Mayo Clinic",
+          "link": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/caffeine/art-20045678",
+          "snippet": "Feb 21, 2025 \u00b7 Up to 400 milligrams (mg) of caffeine a day seems safe for most adults. That's about the amount of caffeine in four cups of brewed coffee, 10 cans of cola or two \"energy shot\" drinks. K",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine: What It Is, Benefits and Side Effects",
+          "link": "https://health.clevelandclinic.org/caffeine",
+          "snippet": "Mar 21, 2025 \u00b7 What is caffeine? Caffeine is a type of drug called a stimulant, meaning it increases chemicals in your brain called neurotransmitters.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Better Health Channel",
+          "link": "https://www.betterhealth.vic.gov.au/health/healthyliving/caffeine",
+          "snippet": "Aug 2, 2022 \u00b7 Caffeine is a drug that stimulates (increases the activity of) your brain and nervous system. Caffeine is found in many drinks such as coffee, tea, soft drinks and energy drinks. Chocola",
+          "backend": "searxng"
+        },
+        {
+          "title": "Coffee and heart health: How many cups of caffeinated coffee are safe ...",
+          "link": "https://newsroom.heart.org/news/coffee-and-heart-health-how-many-cups-of-caffeinated-coffee-are-safe-to-drink-each-day",
+          "snippet": "3 days ago \u00b7 Statement Highlights: The latest research indicates that consuming up to 400 mg of caffeine/day (equivalent to up to 5, 8-ounce cups of caffeinated coffee per day) is generally safe for \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Is Caffeine, and Is It Good or Bad for Health?",
+          "link": "https://www.healthline.com/nutrition/what-is-caffeine",
+          "snippet": "Jun 3, 2020 \u00b7 Caffeine is a natural stimulant consumed throughout the world. This article reviews caffeine and its health effects, both good and bad.",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Happens to Your Brain When You Drink Caffeine Every Day",
+          "link": "https://www.verywellhealth.com/what-does-caffeine-do-to-your-brain-11907104",
+          "snippet": "Feb 23, 2026 \u00b7 Learn how caffeine affects brain chemicals and health, sleep, and mood. Understand safe daily limits, hidden sources, and signs you\u2019re getting too much.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Pharmacology of caffeine and its effects on the human body",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2772417424000104",
+          "snippet": "Apr 1, 2024 \u00b7 While caffeine consumption is generally safe, this review paper also examines the potential effects that caffeine could have on human health and development.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine Supplier | Bulk Distributor | Vivioncaffeine powder suppliers USAWholesale Pouch Supplier \u2013 Nicotine & Caffeine",
+          "link": "https://vivion.com/bulk-caffeine-supplier/",
+          "snippet": "Looking for a trusted Caffeine supplier? Choose Vivion, your prime destination for bulk Caffeine. We guarantee unparalleled product quality & support. Find where to buy products from suppliers in the ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine Powder Supplier | Finlays",
+          "link": "https://www.finlays.net/product/tea-extracts-aromas/caffeine-powder/",
+          "snippet": "Finlays is a global bulk caffeine powder supplier, processed at our own facility in the UK, our caffeine is produced to a minimum 95% purity and can even be produced to a minimum 98.5% purity if requi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale caffeine powder for your shop",
+          "link": "https://www.faire.com/en-gb/discover/caffeine-powder",
+          "snippet": "Unlock wholesale price. Hydrate \u2013 Chicory & Electrolytes\u2013 6 Jars and other Wholesale caffeine powder for your store trending on Faire.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy In Bulk Caffeine Powder Bulk Natural Caffeine... | Alibaba.com",
+          "link": "https://www.alibaba.com/showroom/caffeine-powder-bulk.html",
+          "snippet": "Discover bulk caffeine powder with 99% purity, food-grade, and lab-tested for energy supplements or beverages. OEM & wholesale available.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine, Caffeine Suppliers & Caffeine Wholesalers At TradeKey.com",
+          "link": "https://www.tradekey.com/products/caffeine.html",
+          "snippet": "Find Caffeine Manufacturers, Caffeine Suppliers & Wholesalers of Caffeine from China, Hong Kong, USA & Caffeine Products from India at TradeKey.com.Wholesale Caffeinated Energy Drink. Min Order: 10000",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Caffeine - Caffeine Manufacturers, Suppliers - EC21",
+          "link": "https://www.ec21.com/ec-market/caffeine.html",
+          "snippet": "Wholesale Caffeine Find 272 caffeine products from 159 manufacturers & suppliers at EC21. Choose quality caffeine manufacturers, suppliers & exporters now - EC21.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Refreshing China Wholesale Caffeine Products at... | Global Sources",
+          "link": "https://www.globalsources.com/manufacturers/caffeine.html",
+          "snippet": "3997 wholesale \"Caffeine\" products from 63 suppliers.Global Sources has a full-scale list of wholesale caffeine products at factory prices featured by verified wholesalers & manufacturers from China, ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine Wholesale Suppliers, Manufacturers & Distributors",
+          "link": "https://www.go4worldbusiness.com/find?searchText=caffeine&BuyersOrSuppliers=suppliers",
+          "snippet": "Buy premium Caffeine in bulk from verified wholesale suppliers and manufacturers. Best prices, bulk discounts, trusted deals at go4WorldBusiness.com.Find Verified Caffeine Suppliers, Manufacturers and",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Caffeine & Energy Pouches | STATERA Brand Owner",
+          "link": "https://stateravibe.com/wholesale",
+          "snippet": "Partner with STATERA, the official brand owner. High-margin wholesale programs for premium caffeine pouches and energy pouches for global distributors.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine - Wholesale / Distributor - Nutrimeo",
+          "link": "https://www.nutrimeo.com/eu/store/caffeine",
+          "snippet": "Nutrimeo is an official supplier of the biggest sports nutrition brands. Grow your business with our selection of consumer-recognized products.Caffeine+Taurine - 60 Caps. BioTech USA. Full box: 12 uni",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "PurCaf\u00ae - Organic Caffeine [Bulk Ingredient] - Applied Food Sciences",
+          "link": "https://appliedfoods.com/ingredients/purcaf/",
+          "snippet": "Applied Food Sciences is the world's leading caffeine supplier selling more than 5 billion servings of clean energy. ... This website is accessible from many ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Natural Caffeine from Coffee Beans in Bulk",
+          "link": "https://nucaffeine.co/bulk-natural-caffeine",
+          "snippet": "Get the best deals on natural caffeine from coffee beans in bulk. Our true wholesale pricing ensures you maintain your product margins. Shop now!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine Anhydrous Supplier | 58-08-2 - Silver Fern Chemical",
+          "link": "https://www.silverfernchemical.com/chemical-supplier-58-08-2/caffeine-anhydrous-distributor-401.aspx",
+          "snippet": "Caffeine Anhydrous - CAF. Silver Fern is a leading supplier and distributor of bulk specialty chemicals, with over 20 years of serving North America's top ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bulk Pure Caffeine Powder - Pure Bulk Supplements - PureBulk, Inc.",
+          "link": "https://purebulk.com/products/caffeine-powder-pure-bulk?srsltid=AfmBOopTGCTX7me-5PQn24mf6lS5AV1BFhotLWnQIST11Oibt0Ax2uUs",
+          "snippet": "Caffeine Powder Pure Bulk 20kg. $849.95 /. Shipping calculated at checkout ... Site Map \u00b7 Sourcing \u00b7 Teacher Discount \u00b7 Wholesale \u00b7 Careers. CONTACT. 1640 Austin ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale \u2013 Caffeine Roasters",
+          "link": "https://caffeineusa.com/pages/wholesale",
+          "snippet": "Wholesale Are you rushing to work every morning and don\u2019t have time to stop by Caffeine Roasters to get your favourite cup of coffee? Don\u2019t worry, we have you covered! From now on you can enjoy freshl",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "caffeine powder suppliers USA",
+          "link": "https://www.americanchemicalsuppliers.com/list/search?search=caffeine+powder",
+          "snippet": "Find where to buy products from suppliers in the USA, including: distributors, industrial manufacturers in America, bulk supplies and wholesalers of raw ingredients & finished goods.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Pouch Supplier \u2013 Nicotine & Caffeine | Buy Pouches ...",
+          "link": "https://buypouchesonline.com/pages/nicotine-caffeine-pouch-distributor-usa",
+          "snippet": "Buy Pouches Online is the #1 online store for nicotine and caffeine pouches\u2014trusted by thousands of customers across the U.S. In addition to direct-to-consumer sales, we also offer exclusive wholesale",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "caffeine suppliers USA",
+          "link": "https://www.americanchemicalsuppliers.com/list/search?search=caffeine",
+          "snippet": "Find where to buy products from suppliers in the USA, including: distributors, industrial manufacturers in America, bulk supplies and wholesalers of raw ingredients & finished goods.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "Caffeine distributor official site",
+      "level": "discovery",
+      "result_count": 19,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Caffeine - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Caffeine",
+          "snippet": "The most common sources of caffeine for human consumption are the tea leaves of the Camellia sinensis plant and the coffee bean, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Zhorn Software",
+          "link": "https://zhornsoftware.co.uk/caffeine/",
+          "snippet": "If you have problems with your PC locking or going to sleep, caffeine will keep it awake. It works by simulating a keypress once every \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Download",
+          "link": "https://caffeine.en.lo4d.com/windows",
+          "snippet": "Dec 28, 2024 \u00b7 Caffeine, free download for Windows. Prevents the PC from going to sleep or activating the screensaver. Helps \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine: How much is too much? - Mayo Clinic",
+          "link": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/caffeine/art-20045678",
+          "snippet": "Feb 21, 2025 \u00b7 Up to 400 milligrams (mg) of caffeine a day seems safe for most adults. That's about the amount of caffeine in four \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine: What It Is, Benefits and Side Effects",
+          "link": "https://health.clevelandclinic.org/caffeine",
+          "snippet": "Mar 21, 2025 \u00b7 What is caffeine? Caffeine is a type of drug called a stimulant, meaning it increases chemicals in your brain called \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Better Health Channel",
+          "link": "https://www.betterhealth.vic.gov.au/health/healthyliving/caffeine",
+          "snippet": "Aug 2, 2022 \u00b7 Caffeine is a drug that stimulates (increases the activity of) your brain and nervous system. Caffeine is found in many \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Coffee and heart health: How many cups of caffeinated coffee are safe ...",
+          "link": "https://newsroom.heart.org/news/coffee-and-heart-health-how-many-cups-of-caffeinated-coffee-are-safe-to-drink-each-day",
+          "snippet": "3 days ago \u00b7 Statement Highlights: The latest research indicates that consuming up to 400 mg of caffeine/day (equivalent to up to 5, 8 \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Is Caffeine, and Is It Good or Bad for Health?",
+          "link": "https://www.healthline.com/nutrition/what-is-caffeine",
+          "snippet": "Jun 3, 2020 \u00b7 Caffeine is a natural stimulant consumed throughout the world. This article reviews caffeine and its health effects, both \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Happens to Your Brain When You Drink Caffeine Every Day",
+          "link": "https://www.verywellhealth.com/what-does-caffeine-do-to-your-brain-11907104",
+          "snippet": "Feb 23, 2026 \u00b7 Learn how caffeine affects brain chemicals and health, sleep, and mood. Understand safe daily limits, hidden sources, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Pharmacology of caffeine and its effects on the human body",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2772417424000104",
+          "snippet": "Apr 1, 2024 \u00b7 While caffeine consumption is generally safe, this review paper also examines the potential effects that caffeine could \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "T & M Distributing | Caffeine Pills & Caffeine Supplements",
+          "link": "https://www.tmdistributing.com/",
+          "snippet": "T&M Distributing is the leading distributor of low cost caffeine pills.Buy Two Get One Free. Not available on all sizes. T&M Distributing. The true pioneer in mail order caffeine products!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "18 Caffeine Manufacturers in 2026 | Metoree",
+          "link": "https://us.metoree.com/categories/6199/",
+          "snippet": "Global Distribution of Caffeine Manufacturers by Country. What Is Caffeine?In addition, the various effects of caffeine diminish with regular consumption, and tolerance develops. List of 18 Caffeine M",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine API Suppliers - Find All GMP Manufacturers",
+          "link": "https://pharmaoffer.com/api-excipient-supplier/central-nervous-system-agents/caffeine",
+          "snippet": "Caffeine API manufacturers & distributors. Compare qualified Caffeine API suppliers worldwide. We currently have 21 companies offering Caffeine API, with manufacturing taking place in 11 different cou",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine | C8H10N4O2 | CID 2519 - PubChem",
+          "link": "https://pubchem.ncbi.nlm.nih.gov/compound/2519",
+          "snippet": "An official website of the United States government. Here is how you know. The .gov means it\u2019s official.Caffeine Tablets (Available from one or more manufacturer, distributor and/or repackager by gene",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Warnings issued to powdered caffeine distributors",
+          "link": "https://www.kcci.com/article/warnings-issued-to-powdered-caffeine-distributors/6911442",
+          "snippet": "The Food and Drug Administration has issued warning letters to five distributors of pure powdered caffeine, saying the products put consumers at risk of illness or injury. The letters are dated Aug.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine | 58-08-2 | SynZeal",
+          "link": "https://www.synzeal.com/en/caffeine-2",
+          "snippet": "Caffeine Distributor.SynZeal product information given on this website is as per the existing understanding while publishing the details on website. The customer is responsible for assessing the accur",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine Citrate: Package Insert / Prescribing Info / MOA",
+          "link": "https://www.drugs.com/pro/caffeine-citrate.html",
+          "snippet": "Distribution. Caffeine is rapidly distributed into the brain. Caffeine levels in the cerebrospinal fluid of preterm neonates approximate their plasma levels. The mean volume of distribution of caffein",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ascaso | Singapore Exclusive Distributor \u2013 Caffeine Pro Singapore",
+          "link": "https://www.caffeinepro.com.sg/collections/ascaso",
+          "snippet": "Caffeine Pro Singapore. Coffee Machines. Ascaso.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Freemen Nutra Group Announces Distribution Agreement With...",
+          "link": "https://www.accessnewswire.com/newsroom/en/business-and-professional-services/freemen-nutra-group-announces-distribution-agreement-with-phoenix-971476",
+          "snippet": "Investor Relations. IR Website essentials.This groundbreaking collaboration positions Freemen Nutra as a key global distributor of Phoenix's competitively priced synthetic caffeine, offering businesse",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Caffeine - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Caffeine",
+          "snippet": "The most common sources of caffeine for human consumption are the tea leaves of the Camellia sinensis plant and the coffee bean, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Zhorn Software",
+          "link": "https://zhornsoftware.co.uk/caffeine/",
+          "snippet": "If you have problems with your PC locking or going to sleep, caffeine will keep it awake. It works by simulating a keypress once every \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Download",
+          "link": "https://caffeine.en.lo4d.com/windows",
+          "snippet": "Dec 28, 2024 \u00b7 Caffeine, free download for Windows. Prevents the PC from going to sleep or activating the screensaver. Helps \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine: How much is too much? - Mayo Clinic",
+          "link": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/caffeine/art-20045678",
+          "snippet": "Feb 21, 2025 \u00b7 Up to 400 milligrams (mg) of caffeine a day seems safe for most adults. That's about the amount of caffeine in four \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine: What It Is, Benefits and Side Effects",
+          "link": "https://health.clevelandclinic.org/caffeine",
+          "snippet": "Mar 21, 2025 \u00b7 What is caffeine? Caffeine is a type of drug called a stimulant, meaning it increases chemicals in your brain called \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Better Health Channel",
+          "link": "https://www.betterhealth.vic.gov.au/health/healthyliving/caffeine",
+          "snippet": "Aug 2, 2022 \u00b7 Caffeine is a drug that stimulates (increases the activity of) your brain and nervous system. Caffeine is found in many \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Coffee and heart health: How many cups of caffeinated coffee are safe ...",
+          "link": "https://newsroom.heart.org/news/coffee-and-heart-health-how-many-cups-of-caffeinated-coffee-are-safe-to-drink-each-day",
+          "snippet": "3 days ago \u00b7 Statement Highlights: The latest research indicates that consuming up to 400 mg of caffeine/day (equivalent to up to 5, 8 \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Is Caffeine, and Is It Good or Bad for Health?",
+          "link": "https://www.healthline.com/nutrition/what-is-caffeine",
+          "snippet": "Jun 3, 2020 \u00b7 Caffeine is a natural stimulant consumed throughout the world. This article reviews caffeine and its health effects, both \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Happens to Your Brain When You Drink Caffeine Every Day",
+          "link": "https://www.verywellhealth.com/what-does-caffeine-do-to-your-brain-11907104",
+          "snippet": "Feb 23, 2026 \u00b7 Learn how caffeine affects brain chemicals and health, sleep, and mood. Understand safe daily limits, hidden sources, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Pharmacology of caffeine and its effects on the human body",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2772417424000104",
+          "snippet": "Apr 1, 2024 \u00b7 While caffeine consumption is generally safe, this review paper also examines the potential effects that caffeine could \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "T & M Distributing | Caffeine Pills & Caffeine Supplements",
+          "link": "https://www.tmdistributing.com/",
+          "snippet": "T&M Distributing is the leading distributor of low cost caffeine pills.Buy Two Get One Free. Not available on all sizes. T&M Distributing. The true pioneer in mail order caffeine products!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "18 Caffeine Manufacturers in 2026 | Metoree",
+          "link": "https://us.metoree.com/categories/6199/",
+          "snippet": "Global Distribution of Caffeine Manufacturers by Country. What Is Caffeine?In addition, the various effects of caffeine diminish with regular consumption, and tolerance develops. List of 18 Caffeine M",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine API Suppliers - Find All GMP Manufacturers",
+          "link": "https://pharmaoffer.com/api-excipient-supplier/central-nervous-system-agents/caffeine",
+          "snippet": "Caffeine API manufacturers & distributors. Compare qualified Caffeine API suppliers worldwide. We currently have 21 companies offering Caffeine API, with manufacturing taking place in 11 different cou",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine | C8H10N4O2 | CID 2519 - PubChem",
+          "link": "https://pubchem.ncbi.nlm.nih.gov/compound/2519",
+          "snippet": "An official website of the United States government. Here is how you know. The .gov means it\u2019s official.Caffeine Tablets (Available from one or more manufacturer, distributor and/or repackager by gene",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Warnings issued to powdered caffeine distributors",
+          "link": "https://www.kcci.com/article/warnings-issued-to-powdered-caffeine-distributors/6911442",
+          "snippet": "The Food and Drug Administration has issued warning letters to five distributors of pure powdered caffeine, saying the products put consumers at risk of illness or injury. The letters are dated Aug.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine | 58-08-2 | SynZeal",
+          "link": "https://www.synzeal.com/en/caffeine-2",
+          "snippet": "Caffeine Distributor.SynZeal product information given on this website is as per the existing understanding while publishing the details on website. The customer is responsible for assessing the accur",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine Citrate: Package Insert / Prescribing Info / MOA",
+          "link": "https://www.drugs.com/pro/caffeine-citrate.html",
+          "snippet": "Distribution. Caffeine is rapidly distributed into the brain. Caffeine levels in the cerebrospinal fluid of preterm neonates approximate their plasma levels. The mean volume of distribution of caffein",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ascaso | Singapore Exclusive Distributor \u2013 Caffeine Pro Singapore",
+          "link": "https://www.caffeinepro.com.sg/collections/ascaso",
+          "snippet": "Caffeine Pro Singapore. Coffee Machines. Ascaso.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Freemen Nutra Group Announces Distribution Agreement With...",
+          "link": "https://www.accessnewswire.com/newsroom/en/business-and-professional-services/freemen-nutra-group-announces-distribution-agreement-with-phoenix-971476",
+          "snippet": "Investor Relations. IR Website essentials.This groundbreaking collaboration positions Freemen Nutra as a key global distributor of Phoenix's competitively priced synthetic caffeine, offering businesse",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P2": {
+      "query": "Caffeine wholesaler corporate headquarters",
+      "level": "discovery",
+      "result_count": 15,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Caffeine - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Caffeine",
+          "snippet": "The most common sources of caffeine for human consumption are the tea leaves of the Camellia sinensis plant and the coffee bean, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Zhorn Software",
+          "link": "https://zhornsoftware.co.uk/caffeine/",
+          "snippet": "If you have problems with your PC locking or going to sleep, caffeine will keep it awake. It works by simulating a keypress once every \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Download",
+          "link": "https://caffeine.en.lo4d.com/windows",
+          "snippet": "Dec 28, 2024 \u00b7 Caffeine, free download for Windows. Prevents the PC from going to sleep or activating the screensaver. Helps \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine: How much is too much? - Mayo Clinic",
+          "link": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/caffeine/art-20045678",
+          "snippet": "Feb 21, 2025 \u00b7 Up to 400 milligrams (mg) of caffeine a day seems safe for most adults. That's about the amount of caffeine in four \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine: What It Is, Benefits and Side Effects",
+          "link": "https://health.clevelandclinic.org/caffeine",
+          "snippet": "Mar 21, 2025 \u00b7 What is caffeine? Caffeine is a type of drug called a stimulant, meaning it increases chemicals in your brain called \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Better Health Channel",
+          "link": "https://www.betterhealth.vic.gov.au/health/healthyliving/caffeine",
+          "snippet": "Aug 2, 2022 \u00b7 Caffeine is a drug that stimulates (increases the activity of) your brain and nervous system. Caffeine is found in many \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Coffee and heart health: How many cups of caffeinated coffee are safe ...",
+          "link": "https://newsroom.heart.org/news/coffee-and-heart-health-how-many-cups-of-caffeinated-coffee-are-safe-to-drink-each-day",
+          "snippet": "3 days ago \u00b7 Statement Highlights: The latest research indicates that consuming up to 400 mg of caffeine/day (equivalent to up to 5, 8 \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Is Caffeine, and Is It Good or Bad for Health?",
+          "link": "https://www.healthline.com/nutrition/what-is-caffeine",
+          "snippet": "Jun 3, 2020 \u00b7 Caffeine is a natural stimulant consumed throughout the world. This article reviews caffeine and its health effects, both \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Happens to Your Brain When You Drink Caffeine Every Day",
+          "link": "https://www.verywellhealth.com/what-does-caffeine-do-to-your-brain-11907104",
+          "snippet": "Feb 23, 2026 \u00b7 Learn how caffeine affects brain chemicals and health, sleep, and mood. Understand safe daily limits, hidden sources, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Pharmacology of caffeine and its effects on the human body",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2772417424000104",
+          "snippet": "Apr 1, 2024 \u00b7 While caffeine consumption is generally safe, this review paper also examines the potential effects that caffeine could \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Buy In Bulk Caffeine Powder Bulk Natural Caffeine... | Alibaba.com",
+          "link": "https://www.alibaba.com/showroom/caffeine-powder-bulk.html",
+          "snippet": "Discover bulk caffeine powder with 99% purity, food-grade, and lab-tested for energy supplements or beverages. OEM & wholesale available.OEM/ODM Guarana Extract Powder - Natural Caffeine (Caffeine Anh",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Caffeine - Caffeine Manufacturers, Suppliers - EC21",
+          "link": "https://www.ec21.com/ec-market/caffeine.html",
+          "snippet": "Wholesale Caffeine Find 272 caffeine products from 159 manufacturers & suppliers at EC21. Choose quality caffeine manufacturers, suppliers & exporters now - EC21. Place of origin : Korea. Hyeseong Cor",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine, Caffeine Suppliers & Caffeine Wholesalers At TradeKey.com",
+          "link": "https://www.tradekey.com/products/caffeine.html",
+          "snippet": "Find Caffeine Manufacturers, Caffeine Suppliers & Wholesalers of Caffeine from China, Hong Kong, USA & Caffeine Products from India at TradeKey.com.Wholesale Caffeinated Energy Drink. Min Order: 10000",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine wholesale from the manufacturer | supplier",
+          "link": "https://bgmilk.ru/en/ingredients/kofein",
+          "snippet": "Caffeine. Get a consultation. or to clarify by phone.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "For the past 6 months, I\u2019ve secretly been working on a new project.",
+          "link": "https://www.linkedin.com/posts/ben-schreiber_for-the-past-6-months-ive-secretly-been-activity-7165714334780780545--egb",
+          "snippet": "At Brand Caffeine, we\u2019ve spent the past 4 years working with consumer brands to deploy over $25M in paid advertising. In the process, we've developed a deep expertise in paid growth, SRO, and UGC.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Caffeine - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Caffeine",
+          "snippet": "The most common sources of caffeine for human consumption are the tea leaves of the Camellia sinensis plant and the coffee bean, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Zhorn Software",
+          "link": "https://zhornsoftware.co.uk/caffeine/",
+          "snippet": "If you have problems with your PC locking or going to sleep, caffeine will keep it awake. It works by simulating a keypress once every \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Download",
+          "link": "https://caffeine.en.lo4d.com/windows",
+          "snippet": "Dec 28, 2024 \u00b7 Caffeine, free download for Windows. Prevents the PC from going to sleep or activating the screensaver. Helps \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine: How much is too much? - Mayo Clinic",
+          "link": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/caffeine/art-20045678",
+          "snippet": "Feb 21, 2025 \u00b7 Up to 400 milligrams (mg) of caffeine a day seems safe for most adults. That's about the amount of caffeine in four \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine: What It Is, Benefits and Side Effects",
+          "link": "https://health.clevelandclinic.org/caffeine",
+          "snippet": "Mar 21, 2025 \u00b7 What is caffeine? Caffeine is a type of drug called a stimulant, meaning it increases chemicals in your brain called \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Better Health Channel",
+          "link": "https://www.betterhealth.vic.gov.au/health/healthyliving/caffeine",
+          "snippet": "Aug 2, 2022 \u00b7 Caffeine is a drug that stimulates (increases the activity of) your brain and nervous system. Caffeine is found in many \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Coffee and heart health: How many cups of caffeinated coffee are safe ...",
+          "link": "https://newsroom.heart.org/news/coffee-and-heart-health-how-many-cups-of-caffeinated-coffee-are-safe-to-drink-each-day",
+          "snippet": "3 days ago \u00b7 Statement Highlights: The latest research indicates that consuming up to 400 mg of caffeine/day (equivalent to up to 5, 8 \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Is Caffeine, and Is It Good or Bad for Health?",
+          "link": "https://www.healthline.com/nutrition/what-is-caffeine",
+          "snippet": "Jun 3, 2020 \u00b7 Caffeine is a natural stimulant consumed throughout the world. This article reviews caffeine and its health effects, both \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Happens to Your Brain When You Drink Caffeine Every Day",
+          "link": "https://www.verywellhealth.com/what-does-caffeine-do-to-your-brain-11907104",
+          "snippet": "Feb 23, 2026 \u00b7 Learn how caffeine affects brain chemicals and health, sleep, and mood. Understand safe daily limits, hidden sources, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Pharmacology of caffeine and its effects on the human body",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2772417424000104",
+          "snippet": "Apr 1, 2024 \u00b7 While caffeine consumption is generally safe, this review paper also examines the potential effects that caffeine could \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Buy In Bulk Caffeine Powder Bulk Natural Caffeine... | Alibaba.com",
+          "link": "https://www.alibaba.com/showroom/caffeine-powder-bulk.html",
+          "snippet": "Discover bulk caffeine powder with 99% purity, food-grade, and lab-tested for energy supplements or beverages. OEM & wholesale available.OEM/ODM Guarana Extract Powder - Natural Caffeine (Caffeine Anh",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Caffeine - Caffeine Manufacturers, Suppliers - EC21",
+          "link": "https://www.ec21.com/ec-market/caffeine.html",
+          "snippet": "Wholesale Caffeine Find 272 caffeine products from 159 manufacturers & suppliers at EC21. Choose quality caffeine manufacturers, suppliers & exporters now - EC21. Place of origin : Korea. Hyeseong Cor",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine, Caffeine Suppliers & Caffeine Wholesalers At TradeKey.com",
+          "link": "https://www.tradekey.com/products/caffeine.html",
+          "snippet": "Find Caffeine Manufacturers, Caffeine Suppliers & Wholesalers of Caffeine from China, Hong Kong, USA & Caffeine Products from India at TradeKey.com.Wholesale Caffeinated Energy Drink. Min Order: 10000",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine wholesale from the manufacturer | supplier",
+          "link": "https://bgmilk.ru/en/ingredients/kofein",
+          "snippet": "Caffeine. Get a consultation. or to clarify by phone.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "For the past 6 months, I\u2019ve secretly been working on a new project.",
+          "link": "https://www.linkedin.com/posts/ben-schreiber_for-the-past-6-months-ive-secretly-been-activity-7165714334780780545--egb",
+          "snippet": "At Brand Caffeine, we\u2019ve spent the past 4 years working with consumer brands to deploy over $25M in paid advertising. In the process, we've developed a deep expertise in paid growth, SRO, and UGC.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P3": {
+      "query": "Caffeine reseller official website",
+      "level": "discovery",
+      "result_count": 13,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Caffeine - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Caffeine",
+          "snippet": "The most common sources of caffeine for human consumption are the tea leaves of the Camellia sinensis plant and the coffee bean, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Zhorn Software",
+          "link": "https://zhornsoftware.co.uk/caffeine/",
+          "snippet": "If you have problems with your PC locking or going to sleep, caffeine will keep it awake. It works by simulating a keypress once every \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Download",
+          "link": "https://caffeine.en.lo4d.com/windows",
+          "snippet": "Dec 28, 2024 \u00b7 Caffeine, free download for Windows. Prevents the PC from going to sleep or activating the screensaver. Helps \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine: How much is too much? - Mayo Clinic",
+          "link": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/caffeine/art-20045678",
+          "snippet": "Feb 21, 2025 \u00b7 Up to 400 milligrams (mg) of caffeine a day seems safe for most adults. That's about the amount of caffeine in four \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine: What It Is, Benefits and Side Effects",
+          "link": "https://health.clevelandclinic.org/caffeine",
+          "snippet": "Mar 21, 2025 \u00b7 What is caffeine? Caffeine is a type of drug called a stimulant, meaning it increases chemicals in your brain called \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Better Health Channel",
+          "link": "https://www.betterhealth.vic.gov.au/health/healthyliving/caffeine",
+          "snippet": "Aug 2, 2022 \u00b7 Caffeine is a drug that stimulates (increases the activity of) your brain and nervous system. Caffeine is found in many \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Coffee and heart health: How many cups of caffeinated coffee are safe ...",
+          "link": "https://newsroom.heart.org/news/coffee-and-heart-health-how-many-cups-of-caffeinated-coffee-are-safe-to-drink-each-day",
+          "snippet": "3 days ago \u00b7 Statement Highlights: The latest research indicates that consuming up to 400 mg of caffeine/day (equivalent to up to 5, 8 \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Is Caffeine, and Is It Good or Bad for Health?",
+          "link": "https://www.healthline.com/nutrition/what-is-caffeine",
+          "snippet": "Jun 3, 2020 \u00b7 Caffeine is a natural stimulant consumed throughout the world. This article reviews caffeine and its health effects, both \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Happens to Your Brain When You Drink Caffeine Every Day",
+          "link": "https://www.verywellhealth.com/what-does-caffeine-do-to-your-brain-11907104",
+          "snippet": "Feb 23, 2026 \u00b7 Learn how caffeine affects brain chemicals and health, sleep, and mood. Understand safe daily limits, hidden sources, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Pharmacology of caffeine and its effects on the human body",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2772417424000104",
+          "snippet": "Apr 1, 2024 \u00b7 While caffeine consumption is generally safe, this review paper also examines the potential effects that caffeine could \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine Reviews 2026: Details, Pricing, & Features | G2",
+          "link": "https://www.g2.com/products/caffeine/reviews",
+          "snippet": "Caffeine Reviews & Product Details. Caffeine is a new way for you and your friends to enjoy and create live gaming, entertainment, and creative arts broadcasts.Pricing details for this product isn\u2019t c",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Decaf Tea Bags Online | Caffeine-Free Tea - Teapigs Australia",
+          "link": "https://teapigs.com.au/collections/caffeine-free-tea",
+          "snippet": "Discover our curated collection of Caffeine-free teas, including a variety of decaf options. Buy premium no caffeine tea in Australia. Free delivery over $75.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine products with the fewest additives - Toxinless",
+          "link": "https://www.toxinless.com/caffeine",
+          "snippet": "I've let this site get extremely old-and-dusty over the last 9 years. Please don't rely on it: the information is out of date, and my opinions on how to evaluate risk have changed a lot since then. I'",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Caffeine - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Caffeine",
+          "snippet": "The most common sources of caffeine for human consumption are the tea leaves of the Camellia sinensis plant and the coffee bean, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Zhorn Software",
+          "link": "https://zhornsoftware.co.uk/caffeine/",
+          "snippet": "If you have problems with your PC locking or going to sleep, caffeine will keep it awake. It works by simulating a keypress once every \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Download",
+          "link": "https://caffeine.en.lo4d.com/windows",
+          "snippet": "Dec 28, 2024 \u00b7 Caffeine, free download for Windows. Prevents the PC from going to sleep or activating the screensaver. Helps \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine: How much is too much? - Mayo Clinic",
+          "link": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/caffeine/art-20045678",
+          "snippet": "Feb 21, 2025 \u00b7 Up to 400 milligrams (mg) of caffeine a day seems safe for most adults. That's about the amount of caffeine in four \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine: What It Is, Benefits and Side Effects",
+          "link": "https://health.clevelandclinic.org/caffeine",
+          "snippet": "Mar 21, 2025 \u00b7 What is caffeine? Caffeine is a type of drug called a stimulant, meaning it increases chemicals in your brain called \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Better Health Channel",
+          "link": "https://www.betterhealth.vic.gov.au/health/healthyliving/caffeine",
+          "snippet": "Aug 2, 2022 \u00b7 Caffeine is a drug that stimulates (increases the activity of) your brain and nervous system. Caffeine is found in many \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Coffee and heart health: How many cups of caffeinated coffee are safe ...",
+          "link": "https://newsroom.heart.org/news/coffee-and-heart-health-how-many-cups-of-caffeinated-coffee-are-safe-to-drink-each-day",
+          "snippet": "3 days ago \u00b7 Statement Highlights: The latest research indicates that consuming up to 400 mg of caffeine/day (equivalent to up to 5, 8 \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Is Caffeine, and Is It Good or Bad for Health?",
+          "link": "https://www.healthline.com/nutrition/what-is-caffeine",
+          "snippet": "Jun 3, 2020 \u00b7 Caffeine is a natural stimulant consumed throughout the world. This article reviews caffeine and its health effects, both \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Happens to Your Brain When You Drink Caffeine Every Day",
+          "link": "https://www.verywellhealth.com/what-does-caffeine-do-to-your-brain-11907104",
+          "snippet": "Feb 23, 2026 \u00b7 Learn how caffeine affects brain chemicals and health, sleep, and mood. Understand safe daily limits, hidden sources, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Pharmacology of caffeine and its effects on the human body",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2772417424000104",
+          "snippet": "Apr 1, 2024 \u00b7 While caffeine consumption is generally safe, this review paper also examines the potential effects that caffeine could \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine Reviews 2026: Details, Pricing, & Features | G2",
+          "link": "https://www.g2.com/products/caffeine/reviews",
+          "snippet": "Caffeine Reviews & Product Details. Caffeine is a new way for you and your friends to enjoy and create live gaming, entertainment, and creative arts broadcasts.Pricing details for this product isn\u2019t c",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Decaf Tea Bags Online | Caffeine-Free Tea - Teapigs Australia",
+          "link": "https://teapigs.com.au/collections/caffeine-free-tea",
+          "snippet": "Discover our curated collection of Caffeine-free teas, including a variety of decaf options. Buy premium no caffeine tea in Australia. Free delivery over $75.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine products with the fewest additives - Toxinless",
+          "link": "https://www.toxinless.com/caffeine",
+          "snippet": "I've let this site get extremely old-and-dusty over the last 9 years. Please don't rely on it: the information is out of date, and my opinions on how to evaluate risk have changed a lot since then. I'",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P4": {
+      "query": "Caffeine logistics provider corporate site",
+      "level": "discovery",
+      "result_count": 10,
+      "results_target": 28,
+      "backends": [
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Caffeine - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Caffeine",
+          "snippet": "The most common sources of caffeine for human consumption are the tea leaves of the Camellia sinensis plant and the coffee bean, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Zhorn Software",
+          "link": "https://zhornsoftware.co.uk/caffeine/",
+          "snippet": "If you have problems with your PC locking or going to sleep, caffeine will keep it awake. It works by simulating a keypress once every \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Download",
+          "link": "https://caffeine.en.lo4d.com/windows",
+          "snippet": "Dec 28, 2024 \u00b7 Caffeine, free download for Windows. Prevents the PC from going to sleep or activating the screensaver. Helps \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine: How much is too much? - Mayo Clinic",
+          "link": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/caffeine/art-20045678",
+          "snippet": "Feb 21, 2025 \u00b7 Up to 400 milligrams (mg) of caffeine a day seems safe for most adults. That's about the amount of caffeine in four \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine: What It Is, Benefits and Side Effects",
+          "link": "https://health.clevelandclinic.org/caffeine",
+          "snippet": "Mar 21, 2025 \u00b7 What is caffeine? Caffeine is a type of drug called a stimulant, meaning it increases chemicals in your brain called \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Better Health Channel",
+          "link": "https://www.betterhealth.vic.gov.au/health/healthyliving/caffeine",
+          "snippet": "Aug 2, 2022 \u00b7 Caffeine is a drug that stimulates (increases the activity of) your brain and nervous system. Caffeine is found in many \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Coffee and heart health: How many cups of caffeinated coffee are safe ...",
+          "link": "https://newsroom.heart.org/news/coffee-and-heart-health-how-many-cups-of-caffeinated-coffee-are-safe-to-drink-each-day",
+          "snippet": "3 days ago \u00b7 Statement Highlights: The latest research indicates that consuming up to 400 mg of caffeine/day (equivalent to up to 5, 8 \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Is Caffeine, and Is It Good or Bad for Health?",
+          "link": "https://www.healthline.com/nutrition/what-is-caffeine",
+          "snippet": "Jun 3, 2020 \u00b7 Caffeine is a natural stimulant consumed throughout the world. This article reviews caffeine and its health effects, both \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Happens to Your Brain When You Drink Caffeine Every Day",
+          "link": "https://www.verywellhealth.com/what-does-caffeine-do-to-your-brain-11907104",
+          "snippet": "Feb 23, 2026 \u00b7 Learn how caffeine affects brain chemicals and health, sleep, and mood. Understand safe daily limits, hidden sources, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Pharmacology of caffeine and its effects on the human body",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2772417424000104",
+          "snippet": "Apr 1, 2024 \u00b7 While caffeine consumption is generally safe, this review paper also examines the potential effects that caffeine could \u2026",
+          "backend": "searxng"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Caffeine - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Caffeine",
+          "snippet": "The most common sources of caffeine for human consumption are the tea leaves of the Camellia sinensis plant and the coffee bean, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Zhorn Software",
+          "link": "https://zhornsoftware.co.uk/caffeine/",
+          "snippet": "If you have problems with your PC locking or going to sleep, caffeine will keep it awake. It works by simulating a keypress once every \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Download",
+          "link": "https://caffeine.en.lo4d.com/windows",
+          "snippet": "Dec 28, 2024 \u00b7 Caffeine, free download for Windows. Prevents the PC from going to sleep or activating the screensaver. Helps \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine: How much is too much? - Mayo Clinic",
+          "link": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/caffeine/art-20045678",
+          "snippet": "Feb 21, 2025 \u00b7 Up to 400 milligrams (mg) of caffeine a day seems safe for most adults. That's about the amount of caffeine in four \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine: What It Is, Benefits and Side Effects",
+          "link": "https://health.clevelandclinic.org/caffeine",
+          "snippet": "Mar 21, 2025 \u00b7 What is caffeine? Caffeine is a type of drug called a stimulant, meaning it increases chemicals in your brain called \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Better Health Channel",
+          "link": "https://www.betterhealth.vic.gov.au/health/healthyliving/caffeine",
+          "snippet": "Aug 2, 2022 \u00b7 Caffeine is a drug that stimulates (increases the activity of) your brain and nervous system. Caffeine is found in many \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Coffee and heart health: How many cups of caffeinated coffee are safe ...",
+          "link": "https://newsroom.heart.org/news/coffee-and-heart-health-how-many-cups-of-caffeinated-coffee-are-safe-to-drink-each-day",
+          "snippet": "3 days ago \u00b7 Statement Highlights: The latest research indicates that consuming up to 400 mg of caffeine/day (equivalent to up to 5, 8 \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Is Caffeine, and Is It Good or Bad for Health?",
+          "link": "https://www.healthline.com/nutrition/what-is-caffeine",
+          "snippet": "Jun 3, 2020 \u00b7 Caffeine is a natural stimulant consumed throughout the world. This article reviews caffeine and its health effects, both \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Happens to Your Brain When You Drink Caffeine Every Day",
+          "link": "https://www.verywellhealth.com/what-does-caffeine-do-to-your-brain-11907104",
+          "snippet": "Feb 23, 2026 \u00b7 Learn how caffeine affects brain chemicals and health, sleep, and mood. Understand safe daily limits, hidden sources, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Pharmacology of caffeine and its effects on the human body",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2772417424000104",
+          "snippet": "Apr 1, 2024 \u00b7 While caffeine consumption is generally safe, this review paper also examines the potential effects that caffeine could \u2026",
+          "backend": "searxng"
+        }
+      ]
+    },
+    "P5": {
+      "query": "Caffeine service provider official site",
+      "level": "discovery",
+      "result_count": 19,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Caffeine - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Caffeine",
+          "snippet": "The most common sources of caffeine for human consumption are the tea leaves of the Camellia sinensis plant and the coffee bean, the seed of the Coffea plant. Some people drink beverages \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Zhorn Software",
+          "link": "https://zhornsoftware.co.uk/caffeine/",
+          "snippet": "If you have problems with your PC locking or going to sleep, caffeine will keep it awake. It works by simulating a keypress once every 59 seconds, so your machine thinks you're still working at the \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Download",
+          "link": "https://caffeine.en.lo4d.com/windows",
+          "snippet": "Dec 28, 2024 \u00b7 Caffeine, free download for Windows. Prevents the PC from going to sleep or activating the screensaver. Helps prevent your PC from locking or shutting down.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine: How much is too much? - Mayo Clinic",
+          "link": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/caffeine/art-20045678",
+          "snippet": "Feb 21, 2025 \u00b7 Up to 400 milligrams (mg) of caffeine a day seems safe for most adults. That's about the amount of caffeine in four cups of brewed coffee, 10 cans of cola or two \"energy shot\" drinks. K",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine: What It Is, Benefits and Side Effects",
+          "link": "https://health.clevelandclinic.org/caffeine",
+          "snippet": "Mar 21, 2025 \u00b7 What is caffeine? Caffeine is a type of drug called a stimulant, meaning it increases chemicals in your brain called neurotransmitters.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Better Health Channel",
+          "link": "https://www.betterhealth.vic.gov.au/health/healthyliving/caffeine",
+          "snippet": "Aug 2, 2022 \u00b7 Caffeine is a drug that stimulates (increases the activity of) your brain and nervous system. Caffeine is found in many drinks such as coffee, tea, soft drinks and energy drinks. Chocola",
+          "backend": "searxng"
+        },
+        {
+          "title": "Coffee and heart health: How many cups of caffeinated coffee are safe ...",
+          "link": "https://newsroom.heart.org/news/coffee-and-heart-health-how-many-cups-of-caffeinated-coffee-are-safe-to-drink-each-day",
+          "snippet": "3 days ago \u00b7 Statement Highlights: The latest research indicates that consuming up to 400 mg of caffeine/day (equivalent to up to 5, 8-ounce cups of caffeinated coffee per day) is generally safe for \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Is Caffeine, and Is It Good or Bad for Health?",
+          "link": "https://www.healthline.com/nutrition/what-is-caffeine",
+          "snippet": "Jun 3, 2020 \u00b7 Caffeine is a natural stimulant consumed throughout the world. This article reviews caffeine and its health effects, both good and bad.",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Happens to Your Brain When You Drink Caffeine Every Day",
+          "link": "https://www.verywellhealth.com/what-does-caffeine-do-to-your-brain-11907104",
+          "snippet": "Feb 23, 2026 \u00b7 Learn how caffeine affects brain chemicals and health, sleep, and mood. Understand safe daily limits, hidden sources, and signs you\u2019re getting too much.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Pharmacology of caffeine and its effects on the human body",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2772417424000104",
+          "snippet": "Apr 1, 2024 \u00b7 While caffeine consumption is generally safe, this review paper also examines the potential effects that caffeine could have on human health and development.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine (service) - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Caffeine_(service)",
+          "snippet": "Caffeine was a live streaming platform for gaming, sports, and other entertainment content.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine Service - Caffeine Limited",
+          "link": "https://caffeinelimited.com/caffiene-service/",
+          "snippet": "Official Service Partners for: Caffeine Care Plans. What's Included: Annual Front End Service Filter Exchange Compliance (PSSR). Get a Quote.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How Much Caffeine Is in Instant Coffee? \u2014 Corner Coffee Store",
+          "link": "https://cornercoffeestore.com/how-much-caffeine-in-instant-coffee/",
+          "snippet": "It may not provide as complex or rich of flavors as whole bean coffee or espresso, but it\u2019s significantly easier to make and about 30% less caffeinated. There are 96 milligrams of caffeine in a 12-oun",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Services",
+          "link": "https://www.caffeinemarketing.com/services",
+          "snippet": "Our services include comprehensive site audits, Core Web Vitals optimization meeting Google's performance standards, site architecture improvements, schema markup implementation enabling rich results ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine | ASC",
+          "link": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a/performance-supplements2/caffeine",
+          "snippet": "A range of products provide caffeine in our everyday diets. Table 1 provides a summary of common foods, drinks and over-the-counter preparations available in Australia, while Table 2 provides a summar",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How to Cancel Your Caffeine Subscription (2026) | Chargeback",
+          "link": "https://www.joinchargeback.com/cancels/how-to-cancel-caffeine-caffeine-tv",
+          "snippet": "This article and service are not officially affiliated with Caffeine. Bella Khan, Subscription Cancellation Expert.If you're unable to cancel Caffeine online, contact their customer service directly u",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine in the diet: MedlinePlus Medical Encyclopedia",
+          "link": "https://medlineplus.gov/ency/article/002445.htm",
+          "snippet": "Official websites use .gov A .gov website belongs to an official government organization in the United States.Many drugs will interact with caffeine. Talk to your health care provider about possible i",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine - Services & Company Info",
+          "link": "https://clutch.co/profile/caffeine",
+          "snippet": "Caffeine. Not yet reviewed. Visit Website. Contact. Get a custom proposal. Ask a question. Join their Network. Visit Website.Join their Network. 1800 Massachusetts Ave, NW Washington, DC 20036. Site F",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How Much Caffeine Do You Get from What You Eat or Drink? \u2013 CAFELY",
+          "link": "https://cafely.com/blogs/info/how-much-caffeine-in-coffee",
+          "snippet": "Caffeinated water comes in single-serves and RTD bottles or drops, powders, and tablets that you add to water for multiple servings. Some are also infused with flavorings and other beneficial compound",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Caffeine - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Caffeine",
+          "snippet": "The most common sources of caffeine for human consumption are the tea leaves of the Camellia sinensis plant and the coffee bean, the seed of the Coffea plant. Some people drink beverages \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Zhorn Software",
+          "link": "https://zhornsoftware.co.uk/caffeine/",
+          "snippet": "If you have problems with your PC locking or going to sleep, caffeine will keep it awake. It works by simulating a keypress once every 59 seconds, so your machine thinks you're still working at the \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Download",
+          "link": "https://caffeine.en.lo4d.com/windows",
+          "snippet": "Dec 28, 2024 \u00b7 Caffeine, free download for Windows. Prevents the PC from going to sleep or activating the screensaver. Helps prevent your PC from locking or shutting down.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine: How much is too much? - Mayo Clinic",
+          "link": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/caffeine/art-20045678",
+          "snippet": "Feb 21, 2025 \u00b7 Up to 400 milligrams (mg) of caffeine a day seems safe for most adults. That's about the amount of caffeine in four cups of brewed coffee, 10 cans of cola or two \"energy shot\" drinks. K",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine: What It Is, Benefits and Side Effects",
+          "link": "https://health.clevelandclinic.org/caffeine",
+          "snippet": "Mar 21, 2025 \u00b7 What is caffeine? Caffeine is a type of drug called a stimulant, meaning it increases chemicals in your brain called neurotransmitters.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Better Health Channel",
+          "link": "https://www.betterhealth.vic.gov.au/health/healthyliving/caffeine",
+          "snippet": "Aug 2, 2022 \u00b7 Caffeine is a drug that stimulates (increases the activity of) your brain and nervous system. Caffeine is found in many drinks such as coffee, tea, soft drinks and energy drinks. Chocola",
+          "backend": "searxng"
+        },
+        {
+          "title": "Coffee and heart health: How many cups of caffeinated coffee are safe ...",
+          "link": "https://newsroom.heart.org/news/coffee-and-heart-health-how-many-cups-of-caffeinated-coffee-are-safe-to-drink-each-day",
+          "snippet": "3 days ago \u00b7 Statement Highlights: The latest research indicates that consuming up to 400 mg of caffeine/day (equivalent to up to 5, 8-ounce cups of caffeinated coffee per day) is generally safe for \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Is Caffeine, and Is It Good or Bad for Health?",
+          "link": "https://www.healthline.com/nutrition/what-is-caffeine",
+          "snippet": "Jun 3, 2020 \u00b7 Caffeine is a natural stimulant consumed throughout the world. This article reviews caffeine and its health effects, both good and bad.",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Happens to Your Brain When You Drink Caffeine Every Day",
+          "link": "https://www.verywellhealth.com/what-does-caffeine-do-to-your-brain-11907104",
+          "snippet": "Feb 23, 2026 \u00b7 Learn how caffeine affects brain chemicals and health, sleep, and mood. Understand safe daily limits, hidden sources, and signs you\u2019re getting too much.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Pharmacology of caffeine and its effects on the human body",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2772417424000104",
+          "snippet": "Apr 1, 2024 \u00b7 While caffeine consumption is generally safe, this review paper also examines the potential effects that caffeine could have on human health and development.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine (service) - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Caffeine_(service)",
+          "snippet": "Caffeine was a live streaming platform for gaming, sports, and other entertainment content.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine Service - Caffeine Limited",
+          "link": "https://caffeinelimited.com/caffiene-service/",
+          "snippet": "Official Service Partners for: Caffeine Care Plans. What's Included: Annual Front End Service Filter Exchange Compliance (PSSR). Get a Quote.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How Much Caffeine Is in Instant Coffee? \u2014 Corner Coffee Store",
+          "link": "https://cornercoffeestore.com/how-much-caffeine-in-instant-coffee/",
+          "snippet": "It may not provide as complex or rich of flavors as whole bean coffee or espresso, but it\u2019s significantly easier to make and about 30% less caffeinated. There are 96 milligrams of caffeine in a 12-oun",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Services",
+          "link": "https://www.caffeinemarketing.com/services",
+          "snippet": "Our services include comprehensive site audits, Core Web Vitals optimization meeting Google's performance standards, site architecture improvements, schema markup implementation enabling rich results ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine | ASC",
+          "link": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a/performance-supplements2/caffeine",
+          "snippet": "A range of products provide caffeine in our everyday diets. Table 1 provides a summary of common foods, drinks and over-the-counter preparations available in Australia, while Table 2 provides a summar",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How to Cancel Your Caffeine Subscription (2026) | Chargeback",
+          "link": "https://www.joinchargeback.com/cancels/how-to-cancel-caffeine-caffeine-tv",
+          "snippet": "This article and service are not officially affiliated with Caffeine. Bella Khan, Subscription Cancellation Expert.If you're unable to cancel Caffeine online, contact their customer service directly u",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine in the diet: MedlinePlus Medical Encyclopedia",
+          "link": "https://medlineplus.gov/ency/article/002445.htm",
+          "snippet": "Official websites use .gov A .gov website belongs to an official government organization in the United States.Many drugs will interact with caffeine. Talk to your health care provider about possible i",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine - Services & Company Info",
+          "link": "https://clutch.co/profile/caffeine",
+          "snippet": "Caffeine. Not yet reviewed. Visit Website. Contact. Get a custom proposal. Ask a question. Join their Network. Visit Website.Join their Network. 1800 Massachusetts Ave, NW Washington, DC 20036. Site F",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How Much Caffeine Do You Get from What You Eat or Drink? \u2013 CAFELY",
+          "link": "https://cafely.com/blogs/info/how-much-caffeine-in-coffee",
+          "snippet": "Caffeinated water comes in single-serves and RTD bottles or drops, powders, and tablets that you add to water for multiple servings. Some are also infused with flavorings and other beneficial compound",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "Caffeine channel partner corporate profile",
+      "level": "discovery",
+      "result_count": 15,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Caffeine - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Caffeine",
+          "snippet": "The most common sources of caffeine for human consumption are the tea leaves of the Camellia sinensis plant and the coffee bean, the seed of the Coffea plant. Some people drink beverages \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Zhorn Software",
+          "link": "https://zhornsoftware.co.uk/caffeine/",
+          "snippet": "If you have problems with your PC locking or going to sleep, caffeine will keep it awake. It works by simulating a keypress once every 59 seconds, so your machine thinks you're still working at the \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Download",
+          "link": "https://caffeine.en.lo4d.com/windows",
+          "snippet": "Dec 28, 2024 \u00b7 Caffeine, free download for Windows. Prevents the PC from going to sleep or activating the screensaver. Helps prevent your PC from locking or shutting down.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine: How much is too much? - Mayo Clinic",
+          "link": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/caffeine/art-20045678",
+          "snippet": "Feb 21, 2025 \u00b7 Up to 400 milligrams (mg) of caffeine a day seems safe for most adults. That's about the amount of caffeine in four cups of brewed coffee, 10 cans of cola or two \"energy shot\" drinks. K",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine: What It Is, Benefits and Side Effects",
+          "link": "https://health.clevelandclinic.org/caffeine",
+          "snippet": "Mar 21, 2025 \u00b7 What is caffeine? Caffeine is a type of drug called a stimulant, meaning it increases chemicals in your brain called neurotransmitters.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Better Health Channel",
+          "link": "https://www.betterhealth.vic.gov.au/health/healthyliving/caffeine",
+          "snippet": "Aug 2, 2022 \u00b7 Caffeine is a drug that stimulates (increases the activity of) your brain and nervous system. Caffeine is found in many drinks such as coffee, tea, soft drinks and energy drinks. Chocola",
+          "backend": "searxng"
+        },
+        {
+          "title": "Coffee and heart health: How many cups of caffeinated coffee are safe ...",
+          "link": "https://newsroom.heart.org/news/coffee-and-heart-health-how-many-cups-of-caffeinated-coffee-are-safe-to-drink-each-day",
+          "snippet": "3 days ago \u00b7 Statement Highlights: The latest research indicates that consuming up to 400 mg of caffeine/day (equivalent to up to 5, 8-ounce cups of caffeinated coffee per day) is generally safe for \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Is Caffeine, and Is It Good or Bad for Health?",
+          "link": "https://www.healthline.com/nutrition/what-is-caffeine",
+          "snippet": "Jun 3, 2020 \u00b7 Caffeine is a natural stimulant consumed throughout the world. This article reviews caffeine and its health effects, both good and bad.",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Happens to Your Brain When You Drink Caffeine Every Day",
+          "link": "https://www.verywellhealth.com/what-does-caffeine-do-to-your-brain-11907104",
+          "snippet": "Feb 23, 2026 \u00b7 Learn how caffeine affects brain chemicals and health, sleep, and mood. Understand safe daily limits, hidden sources, and signs you\u2019re getting too much.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Pharmacology of caffeine and its effects on the human body",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2772417424000104",
+          "snippet": "Apr 1, 2024 \u00b7 While caffeine consumption is generally safe, this review paper also examines the potential effects that caffeine could have on human health and development.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine: Business Model Canvas \u2013 businessmodelcanvastemplate.com",
+          "link": "https://businessmodelcanvastemplate.com/products/caffeine-business-model-canvas",
+          "snippet": "High-profile celebrity partnerships, led by Drake, act as marketing engines and a strategic advisory board for Caffeine, delivering credibility and a combined audience exceeding 100 million followers ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine YouTube stats, analytics, and sponsorship insights",
+          "link": "https://app.thoughtleaders.io/youtube/caffeine",
+          "snippet": "Discover Caffeine YouTube stats and analytics with our detailed tracking progress charts, channel rankings, realtime views count, future predictions, sponsorships, and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Drake Signs Multiyear Live-Streaming Partnership with Caffeine",
+          "link": "https://variety.com/2020/music/news/drake-signs-multi-year-live-streaming-partnership-with-caffeine-1203487877/",
+          "snippet": "Live streaming service Caffeine.TV has announced an exclusive multi-year partnership with Drake.Produced in partnership with Ultimate Rap League (URL), the first battle will stream live from Atlanta o",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine | healthdirect",
+          "link": "https://www.healthdirect.gov.au/caffeine",
+          "snippet": "Caffeine is a stimulant found in coffee, tea, chocolate and energy drinks. It acts on your brain and nervous system. Learn how caffeine affects you.24 hour health advice you can count on. 1800 022 222",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Channel momentum so strong, I\u2019m drifting my way from the Rhombus...",
+          "link": "https://www.linkedin.com/posts/hannah-livergood_channel-momentum-so-strong-im-drifting-activity-7394762725471502336-U1Jd",
+          "snippet": "View profile for Hannah Livergood. See you all next week! Fueled by caffeine, channel partners, and hoping Legal thinks this is funny. (To be fair, the go-cart is branded and was charging when I arriv",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Caffeine - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Caffeine",
+          "snippet": "The most common sources of caffeine for human consumption are the tea leaves of the Camellia sinensis plant and the coffee bean, the seed of the Coffea plant. Some people drink beverages \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Zhorn Software",
+          "link": "https://zhornsoftware.co.uk/caffeine/",
+          "snippet": "If you have problems with your PC locking or going to sleep, caffeine will keep it awake. It works by simulating a keypress once every 59 seconds, so your machine thinks you're still working at the \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Download",
+          "link": "https://caffeine.en.lo4d.com/windows",
+          "snippet": "Dec 28, 2024 \u00b7 Caffeine, free download for Windows. Prevents the PC from going to sleep or activating the screensaver. Helps prevent your PC from locking or shutting down.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine: How much is too much? - Mayo Clinic",
+          "link": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/caffeine/art-20045678",
+          "snippet": "Feb 21, 2025 \u00b7 Up to 400 milligrams (mg) of caffeine a day seems safe for most adults. That's about the amount of caffeine in four cups of brewed coffee, 10 cans of cola or two \"energy shot\" drinks. K",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine: What It Is, Benefits and Side Effects",
+          "link": "https://health.clevelandclinic.org/caffeine",
+          "snippet": "Mar 21, 2025 \u00b7 What is caffeine? Caffeine is a type of drug called a stimulant, meaning it increases chemicals in your brain called neurotransmitters.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Better Health Channel",
+          "link": "https://www.betterhealth.vic.gov.au/health/healthyliving/caffeine",
+          "snippet": "Aug 2, 2022 \u00b7 Caffeine is a drug that stimulates (increases the activity of) your brain and nervous system. Caffeine is found in many drinks such as coffee, tea, soft drinks and energy drinks. Chocola",
+          "backend": "searxng"
+        },
+        {
+          "title": "Coffee and heart health: How many cups of caffeinated coffee are safe ...",
+          "link": "https://newsroom.heart.org/news/coffee-and-heart-health-how-many-cups-of-caffeinated-coffee-are-safe-to-drink-each-day",
+          "snippet": "3 days ago \u00b7 Statement Highlights: The latest research indicates that consuming up to 400 mg of caffeine/day (equivalent to up to 5, 8-ounce cups of caffeinated coffee per day) is generally safe for \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Is Caffeine, and Is It Good or Bad for Health?",
+          "link": "https://www.healthline.com/nutrition/what-is-caffeine",
+          "snippet": "Jun 3, 2020 \u00b7 Caffeine is a natural stimulant consumed throughout the world. This article reviews caffeine and its health effects, both good and bad.",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Happens to Your Brain When You Drink Caffeine Every Day",
+          "link": "https://www.verywellhealth.com/what-does-caffeine-do-to-your-brain-11907104",
+          "snippet": "Feb 23, 2026 \u00b7 Learn how caffeine affects brain chemicals and health, sleep, and mood. Understand safe daily limits, hidden sources, and signs you\u2019re getting too much.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Pharmacology of caffeine and its effects on the human body",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2772417424000104",
+          "snippet": "Apr 1, 2024 \u00b7 While caffeine consumption is generally safe, this review paper also examines the potential effects that caffeine could have on human health and development.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine: Business Model Canvas \u2013 businessmodelcanvastemplate.com",
+          "link": "https://businessmodelcanvastemplate.com/products/caffeine-business-model-canvas",
+          "snippet": "High-profile celebrity partnerships, led by Drake, act as marketing engines and a strategic advisory board for Caffeine, delivering credibility and a combined audience exceeding 100 million followers ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine YouTube stats, analytics, and sponsorship insights",
+          "link": "https://app.thoughtleaders.io/youtube/caffeine",
+          "snippet": "Discover Caffeine YouTube stats and analytics with our detailed tracking progress charts, channel rankings, realtime views count, future predictions, sponsorships, and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Drake Signs Multiyear Live-Streaming Partnership with Caffeine",
+          "link": "https://variety.com/2020/music/news/drake-signs-multi-year-live-streaming-partnership-with-caffeine-1203487877/",
+          "snippet": "Live streaming service Caffeine.TV has announced an exclusive multi-year partnership with Drake.Produced in partnership with Ultimate Rap League (URL), the first battle will stream live from Atlanta o",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine | healthdirect",
+          "link": "https://www.healthdirect.gov.au/caffeine",
+          "snippet": "Caffeine is a stimulant found in coffee, tea, chocolate and energy drinks. It acts on your brain and nervous system. Learn how caffeine affects you.24 hour health advice you can count on. 1800 022 222",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Channel momentum so strong, I\u2019m drifting my way from the Rhombus...",
+          "link": "https://www.linkedin.com/posts/hannah-livergood_channel-momentum-so-strong-im-drifting-activity-7394762725471502336-U1Jd",
+          "snippet": "View profile for Hannah Livergood. See you all next week! Fueled by caffeine, channel partners, and hoping Legal thinks this is funny. (To be fair, the go-cart is branded and was charging when I arriv",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P7": {
+      "query": "Caffeine distribution service providers official site",
+      "level": "discovery",
+      "result_count": 18,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Caffeine - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Caffeine",
+          "snippet": "The most common sources of caffeine for human consumption are the tea leaves of the Camellia sinensis plant and the coffee bean, the seed of the Coffea plant. Some people drink beverages \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Zhorn Software",
+          "link": "https://zhornsoftware.co.uk/caffeine/",
+          "snippet": "If you have problems with your PC locking or going to sleep, caffeine will keep it awake. It works by simulating a keypress once every 59 seconds, so your machine thinks you're still working at the \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Download",
+          "link": "https://caffeine.en.lo4d.com/windows",
+          "snippet": "Dec 28, 2024 \u00b7 Caffeine, free download for Windows. Prevents the PC from going to sleep or activating the screensaver. Helps prevent your PC from locking or shutting down.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine: How much is too much? - Mayo Clinic",
+          "link": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/caffeine/art-20045678",
+          "snippet": "Feb 21, 2025 \u00b7 Up to 400 milligrams (mg) of caffeine a day seems safe for most adults. That's about the amount of caffeine in four cups of brewed coffee, 10 cans of cola or two \"energy shot\" drinks. K",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine: What It Is, Benefits and Side Effects",
+          "link": "https://health.clevelandclinic.org/caffeine",
+          "snippet": "Mar 21, 2025 \u00b7 What is caffeine? Caffeine is a type of drug called a stimulant, meaning it increases chemicals in your brain called neurotransmitters.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Better Health Channel",
+          "link": "https://www.betterhealth.vic.gov.au/health/healthyliving/caffeine",
+          "snippet": "Aug 2, 2022 \u00b7 Caffeine is a drug that stimulates (increases the activity of) your brain and nervous system. Caffeine is found in many drinks such as coffee, tea, soft drinks and energy drinks. Chocola",
+          "backend": "searxng"
+        },
+        {
+          "title": "Coffee and heart health: How many cups of caffeinated coffee are safe ...",
+          "link": "https://newsroom.heart.org/news/coffee-and-heart-health-how-many-cups-of-caffeinated-coffee-are-safe-to-drink-each-day",
+          "snippet": "3 days ago \u00b7 Statement Highlights: The latest research indicates that consuming up to 400 mg of caffeine/day (equivalent to up to 5, 8-ounce cups of caffeinated coffee per day) is generally safe for \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Is Caffeine, and Is It Good or Bad for Health?",
+          "link": "https://www.healthline.com/nutrition/what-is-caffeine",
+          "snippet": "Jun 3, 2020 \u00b7 Caffeine is a natural stimulant consumed throughout the world. This article reviews caffeine and its health effects, both good and bad.",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Happens to Your Brain When You Drink Caffeine Every Day",
+          "link": "https://www.verywellhealth.com/what-does-caffeine-do-to-your-brain-11907104",
+          "snippet": "Feb 23, 2026 \u00b7 Learn how caffeine affects brain chemicals and health, sleep, and mood. Understand safe daily limits, hidden sources, and signs you\u2019re getting too much.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Pharmacology of caffeine and its effects on the human body",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2772417424000104",
+          "snippet": "Apr 1, 2024 \u00b7 While caffeine consumption is generally safe, this review paper also examines the potential effects that caffeine could have on human health and development.",
+          "backend": "searxng"
+        },
+        {
+          "title": "The clinical toxicology of caffeine: A review and case study - PMC",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6247400/",
+          "snippet": "Official websites use .gov A .gov website belongs to an official government organization in the United States.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine | API EU Written Confirmation | WC | Pharmacompass.com",
+          "link": "https://www.pharmacompass.com/written-confirmation/caffeine",
+          "snippet": "A Caffeine supplier is an individual or a company that provides Caffeine active pharmaceutical ingredient (API) or Caffeine finished formulations upon request. The Caffeine suppliers may include Caffe",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Freemen Nutra Group Announces Distribution Agreement With...",
+          "link": "https://www.accessnewswire.com/newsroom/en/business-and-professional-services/freemen-nutra-group-announces-distribution-agreement-with-phoenix-971476",
+          "snippet": "ACCESS Newswire is the leading global press release distribution service. Tell your story and reach millions of journalists. Contact us today to get started.Partnerships. Distribution agreement brings",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Max Caffeine Per Day: What Every... - Indonesia Specialty Coffee",
+          "link": "https://specialtycoffee.id/articles/max-caffeine-per-day/",
+          "snippet": "Caffeine per Serving. Cups to Reach 400mg. Drip Coffee (240ml).When someone pushes past max caffeine per day, the body sends clear signals. Common symptoms of too much caffeine include: Restlessness a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How Much Caffeine Is in Nescafe Gold Espresso: Complete Guide",
+          "link": "https://www.bitget.com/wiki/how-much-caffeine-is-in-nescafe-gold-espresso",
+          "snippet": "But how much caffeine does it actually contain? According to the official product information and recent packaging updates, a standard serving (one 200ml cup) of Nescafe Gold Espresso contains approxi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "FDA Goes After 5 Pure Powdered Caffeine Distributors With Warning...",
+          "link": "https://www.jstor.org/stable/26700077",
+          "snippet": "ITHAKA websites, which ITHAKA manages from its location in the United States, use cookies for different purposes, such as to ensure web site function, display non-targeted ads, provide social media fe",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Zest Tea Company Profile - Office Locations, Competitors... | Craft.co",
+          "link": "https://craft.co/zest-tea",
+          "snippet": "Zest Tea is a company that manufactures and distributes caffeine-infused teas. It supplies loose leaf tea, as well as tea bags and sparkling teas. The Company's products are designed for mental clarit",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "IP-Based Rate Limiting for Spring APIs using... | Medium",
+          "link": "https://medium.com/@okan.ardic/ip-based-rate-limiting-for-spring-apis-using-bucket4j-3-alternatives-1ad62ca0579f",
+          "snippet": "Distributed rate-limiting via Hazelcast. 2-) Adding Dependencies. You can choose one of the three options and skip the others.If you don\u2019t need distributed rate-limiting features, you can easily confi",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Caffeine - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Caffeine",
+          "snippet": "The most common sources of caffeine for human consumption are the tea leaves of the Camellia sinensis plant and the coffee bean, the seed of the Coffea plant. Some people drink beverages \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Zhorn Software",
+          "link": "https://zhornsoftware.co.uk/caffeine/",
+          "snippet": "If you have problems with your PC locking or going to sleep, caffeine will keep it awake. It works by simulating a keypress once every 59 seconds, so your machine thinks you're still working at the \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Download",
+          "link": "https://caffeine.en.lo4d.com/windows",
+          "snippet": "Dec 28, 2024 \u00b7 Caffeine, free download for Windows. Prevents the PC from going to sleep or activating the screensaver. Helps prevent your PC from locking or shutting down.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine: How much is too much? - Mayo Clinic",
+          "link": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/caffeine/art-20045678",
+          "snippet": "Feb 21, 2025 \u00b7 Up to 400 milligrams (mg) of caffeine a day seems safe for most adults. That's about the amount of caffeine in four cups of brewed coffee, 10 cans of cola or two \"energy shot\" drinks. K",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine: What It Is, Benefits and Side Effects",
+          "link": "https://health.clevelandclinic.org/caffeine",
+          "snippet": "Mar 21, 2025 \u00b7 What is caffeine? Caffeine is a type of drug called a stimulant, meaning it increases chemicals in your brain called neurotransmitters.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Caffeine - Better Health Channel",
+          "link": "https://www.betterhealth.vic.gov.au/health/healthyliving/caffeine",
+          "snippet": "Aug 2, 2022 \u00b7 Caffeine is a drug that stimulates (increases the activity of) your brain and nervous system. Caffeine is found in many drinks such as coffee, tea, soft drinks and energy drinks. Chocola",
+          "backend": "searxng"
+        },
+        {
+          "title": "Coffee and heart health: How many cups of caffeinated coffee are safe ...",
+          "link": "https://newsroom.heart.org/news/coffee-and-heart-health-how-many-cups-of-caffeinated-coffee-are-safe-to-drink-each-day",
+          "snippet": "3 days ago \u00b7 Statement Highlights: The latest research indicates that consuming up to 400 mg of caffeine/day (equivalent to up to 5, 8-ounce cups of caffeinated coffee per day) is generally safe for \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Is Caffeine, and Is It Good or Bad for Health?",
+          "link": "https://www.healthline.com/nutrition/what-is-caffeine",
+          "snippet": "Jun 3, 2020 \u00b7 Caffeine is a natural stimulant consumed throughout the world. This article reviews caffeine and its health effects, both good and bad.",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Happens to Your Brain When You Drink Caffeine Every Day",
+          "link": "https://www.verywellhealth.com/what-does-caffeine-do-to-your-brain-11907104",
+          "snippet": "Feb 23, 2026 \u00b7 Learn how caffeine affects brain chemicals and health, sleep, and mood. Understand safe daily limits, hidden sources, and signs you\u2019re getting too much.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Pharmacology of caffeine and its effects on the human body",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2772417424000104",
+          "snippet": "Apr 1, 2024 \u00b7 While caffeine consumption is generally safe, this review paper also examines the potential effects that caffeine could have on human health and development.",
+          "backend": "searxng"
+        },
+        {
+          "title": "The clinical toxicology of caffeine: A review and case study - PMC",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6247400/",
+          "snippet": "Official websites use .gov A .gov website belongs to an official government organization in the United States.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Caffeine | API EU Written Confirmation | WC | Pharmacompass.com",
+          "link": "https://www.pharmacompass.com/written-confirmation/caffeine",
+          "snippet": "A Caffeine supplier is an individual or a company that provides Caffeine active pharmaceutical ingredient (API) or Caffeine finished formulations upon request. The Caffeine suppliers may include Caffe",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Freemen Nutra Group Announces Distribution Agreement With...",
+          "link": "https://www.accessnewswire.com/newsroom/en/business-and-professional-services/freemen-nutra-group-announces-distribution-agreement-with-phoenix-971476",
+          "snippet": "ACCESS Newswire is the leading global press release distribution service. Tell your story and reach millions of journalists. Contact us today to get started.Partnerships. Distribution agreement brings",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Max Caffeine Per Day: What Every... - Indonesia Specialty Coffee",
+          "link": "https://specialtycoffee.id/articles/max-caffeine-per-day/",
+          "snippet": "Caffeine per Serving. Cups to Reach 400mg. Drip Coffee (240ml).When someone pushes past max caffeine per day, the body sends clear signals. Common symptoms of too much caffeine include: Restlessness a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How Much Caffeine Is in Nescafe Gold Espresso: Complete Guide",
+          "link": "https://www.bitget.com/wiki/how-much-caffeine-is-in-nescafe-gold-espresso",
+          "snippet": "But how much caffeine does it actually contain? According to the official product information and recent packaging updates, a standard serving (one 200ml cup) of Nescafe Gold Espresso contains approxi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "FDA Goes After 5 Pure Powdered Caffeine Distributors With Warning...",
+          "link": "https://www.jstor.org/stable/26700077",
+          "snippet": "ITHAKA websites, which ITHAKA manages from its location in the United States, use cookies for different purposes, such as to ensure web site function, display non-targeted ads, provide social media fe",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Zest Tea Company Profile - Office Locations, Competitors... | Craft.co",
+          "link": "https://craft.co/zest-tea",
+          "snippet": "Zest Tea is a company that manufactures and distributes caffeine-infused teas. It supplies loose leaf tea, as well as tea bags and sparkling teas. The Company's products are designed for mental clarit",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "IP-Based Rate Limiting for Spring APIs using... | Medium",
+          "link": "https://medium.com/@okan.ardic/ip-based-rate-limiting-for-spring-apis-using-bucket4j-3-alternatives-1ad62ca0579f",
+          "snippet": "Distributed rate-limiting via Hazelcast. 2-) Adding Dependencies. You can choose one of the three options and skip the others.If you don\u2019t need distributed rate-limiting features, you can easily confi",
+          "backend": "ddgs_bing"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

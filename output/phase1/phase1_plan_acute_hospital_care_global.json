@@ -1,0 +1,1104 @@
+{
+  "phase": 1,
+  "query": "Acute Hospital Care Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T21:57:13.657237+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "Acute Hospital Care",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "Healthcare",
+    "industry_terms": [
+      "acute care",
+      "hospital services",
+      "medical devices",
+      "healthcare integration",
+      "clinical support"
+    ],
+    "ecosystem_functions": [
+      "logistics management",
+      "supply chain coordination",
+      "equipment distribution",
+      "system integration",
+      "technical support",
+      "clinical service delivery",
+      "healthcare technology implementation",
+      "resale of medical supplies"
+    ],
+    "interpretation_summary": "The Acute Hospital Care Market encompasses the provision of healthcare services in hospital settings, focusing on acute care for patients with severe or urgent medical conditions. Key participants include healthcare prov",
+    "relevance_keywords": [
+      "hospital supply chain",
+      "acute care equipment",
+      "healthcare logistics",
+      "medical device distribution",
+      "clinical integration services"
+    ],
+    "negative_keywords": [
+      "long-term care",
+      "home healthcare",
+      "telemedicine",
+      "pharmaceutical manufacturing"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "McKesson",
+        "primary_domain": "mckesson.com",
+        "company_function": "medical supply distributor"
+      },
+      {
+        "canonical_name": "Cardinal Health",
+        "primary_domain": "cardinalhealth.com",
+        "company_function": "healthcare services and products distributor"
+      },
+      {
+        "canonical_name": "Henry Schein",
+        "primary_domain": "henryschein.com",
+        "company_function": "medical supplies reseller"
+      },
+      {
+        "canonical_name": "Sysmex",
+        "primary_domain": "sysmex.com",
+        "company_function": "healthcare system integrator"
+      },
+      {
+        "canonical_name": "Cerner",
+        "primary_domain": "cerner.com",
+        "company_function": "healthcare it service provider"
+      },
+      {
+        "canonical_name": "Owens & Minor",
+        "primary_domain": "owens-minor.com",
+        "company_function": "medical supply distributor"
+      },
+      {
+        "canonical_name": "Baxter International",
+        "primary_domain": "baxter.com",
+        "company_function": "medical devices and services provider"
+      },
+      {
+        "canonical_name": "Philips Healthcare",
+        "primary_domain": "philips.com",
+        "company_function": "healthcare technology integrator"
+      },
+      {
+        "canonical_name": "GE Healthcare",
+        "primary_domain": "gehealthcare.com",
+        "company_function": "medical technology and services provider",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Medline Industries",
+        "primary_domain": "medline.com",
+        "company_function": "medical supplies distributor",
+        "segment": "Distributors",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Thermo Fisher Scientific",
+        "primary_domain": "thermofisher.com",
+        "company_function": "medical equipment reseller",
+        "segment": "Resellers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Allscripts Healthcare Solutions",
+        "primary_domain": "allscripts.com",
+        "company_function": "healthcare IT service provider",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Roche Diagnostics",
+        "primary_domain": "roche.com",
+        "company_function": "diagnostic equipment distributor",
+        "segment": "Distributors",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Siemens Healthineers",
+        "primary_domain": "siemens-healthineers.com",
+        "company_function": "healthcare technology provider",
+        "segment": "System Integrators",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "Acute Hospital Care",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "Acute Hospital Care",
+    "include_keywords": [
+      "acute care distributors",
+      "hospital supply wholesalers",
+      "medical equipment resellers",
+      "healthcare system integrators",
+      "clinical service providers"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The Acute Hospital Care Market encompasses the provision of healthcare services in hospital settings, focusing on acute care for patients with severe or urgent medical conditions. Key participants include healthcare providers, channel partners, and service providers operating globally to facilitate the delivery of acute care services.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Distribution",
+        "description": "This layer involves the logistics and supply chain management of medical supplies and equipment to hospitals.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "medical device distributors",
+              "pharmaceutical distributors"
+            ],
+            "participant_types": [
+              "distributor",
+              "wholesaler"
+            ],
+            "search_intents": [
+              "acute care medical device distributor",
+              "hospital supply wholesaler"
+            ]
+          },
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "online resellers",
+              "local resellers"
+            ],
+            "participant_types": [
+              "reseller"
+            ],
+            "search_intents": [
+              "acute care equipment reseller",
+              "hospital supplies online reseller"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L2",
+        "layer_name": "Integration Services",
+        "description": "This layer focuses on the integration of various healthcare systems and technologies to enhance hospital care.",
+        "segments": [
+          {
+            "segment_name": "System Integrators",
+            "sub_segments": [
+              "healthcare IT integrators",
+              "medical equipment integrators"
+            ],
+            "participant_types": [
+              "system integrator"
+            ],
+            "search_intents": [
+              "hospital system integrator",
+              "healthcare IT integration services"
+            ]
+          },
+          {
+            "segment_name": "Service Providers",
+            "sub_segments": [
+              "clinical service providers",
+              "technical support services"
+            ],
+            "participant_types": [
+              "service provider"
+            ],
+            "search_intents": [
+              "acute care service provider",
+              "hospital technical support services"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Long-term care facilities",
+        "Home healthcare",
+        "Telehealth services",
+        "Pharmaceutical manufacturers"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "acute care medical device distributor",
+        "sub_sector": "distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "hospital supply wholesaler",
+        "sub_sector": "wholesaler",
+        "layer_id": "L1",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "acute care equipment reseller",
+        "sub_sector": "reseller",
+        "layer_id": "L1",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "hospital system integrator",
+        "sub_sector": "system_integrator",
+        "layer_id": "L2",
+        "segment": "System Integrators"
+      },
+      {
+        "id": "M5",
+        "level": "market_map",
+        "text": "acute care service provider",
+        "sub_sector": "service_provider",
+        "layer_id": "L2",
+        "segment": "Service Providers"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "Healthcare",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "Acute Hospital Care companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "Acute care equipment distributor corporate site"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "hospital system integrator official site"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "discovery",
+      "text": "acute care medical device distributor official site"
+    },
+    {
+      "id": "P2",
+      "level": "discovery",
+      "text": "hospital supply wholesaler corporate headquarters"
+    },
+    {
+      "id": "P3",
+      "level": "discovery",
+      "text": "acute care equipment reseller corporate site"
+    },
+    {
+      "id": "P4",
+      "level": "discovery",
+      "text": "hospital supplies online reseller official website"
+    },
+    {
+      "id": "P5",
+      "level": "discovery",
+      "text": "hospital system integrator corporate website"
+    },
+    {
+      "id": "P6",
+      "level": "discovery",
+      "text": "healthcare IT integration services official site"
+    },
+    {
+      "id": "P7",
+      "level": "discovery",
+      "text": "acute care service provider corporate profile"
+    },
+    {
+      "id": "P8",
+      "level": "discovery",
+      "text": "hospital technical support services official site"
+    },
+    {
+      "id": "P9",
+      "level": "volume",
+      "text": "Acute Hospital Care logistics management official website"
+    },
+    {
+      "id": "P10",
+      "level": "volume",
+      "text": "Acute Hospital Care supply chain coordination official"
+    },
+    {
+      "id": "P11",
+      "level": "volume",
+      "text": "authorized Acute Hospital Care distributor firm official"
+    },
+    {
+      "id": "P12",
+      "level": "volume",
+      "text": "Acute Hospital Care system integrator official website"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "Acute Hospital Care companies official websites",
+      "level": "L0",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "ScionHealth | Patient-Centered Acute and Post-Acute Hospital Solutions",
+          "link": "https://www.scionhealth.com/",
+          "snippet": "ScionHealth operates specialty hospitals and community health systems that provide the right level of care based on each patient's needs. Our specialty hospitals provide advanced long-term acute care ",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "ScionHealth | Patient-Centered Acute and Post-Acute Hospital Solutions",
+          "link": "https://www.scionhealth.com/",
+          "snippet": "ScionHealth operates specialty hospitals and community health systems that provide the right level of care based on each patient's needs. Our specialty hospitals provide advanced long-term acute care ",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "Acute care equipment distributor corporate site",
+      "level": "L1",
+      "result_count": 6,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "What Does the Word Acute Mean in Medical Terms?",
+          "link": "https://scienceinsights.org/what-does-the-word-acute-mean-in-medical-terms/",
+          "snippet": "Acute care is the branch of medicine focused on short-term, often urgent treatment. Emergency rooms, intensive care units, and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Outfitting Patient Rooms with Essential Healthcare Equipment",
+          "link": "https://blog.cmecorp.com/outfitting-patient-rooms-with-essential-healthcare-equipment",
+          "snippet": "Every piece of healthcare equipment in an acute care in-patient room has a distinct role in the care, recovery, and safety of the patient. Healthcare equipment included in hospital patient rooms and t",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Medical Supplies & Equipment | McKessonMedline \u2013 Medical supply products and supply chain solutions ...Improve",
+          "link": "https://www.mckesson.com/medical-supplies/",
+          "snippet": "Shop medical supplies and healthcare equipment for home health agencies, home infusion therapy, assisted living facilities and long term care facilities. We offer general and advanced wound care produ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Google",
+          "link": "https://www.google.com/",
+          "snippet": "15 Leading Hospitals in Chennai for Quality Medical Care and Top Doctors.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Improve outcomes with proven hospital supplies and solutions",
+          "link": "https://www.medline.com/about-us/who-we-serve/acute-care/",
+          "snippet": "Discover our portfolio of hospital supplies and solutions for a range of acute care settings.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sarnova - Sarnova",
+          "link": "https://www.sarnova.com/",
+          "snippet": "Sarnova and its family of companies: Bound Tree Medical, Cardio Partners, Digitech, Emergency Medical Products and Tri-anim Health Services have been serving the emergency medical services (EMS) and a",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "What Does the Word Acute Mean in Medical Terms?",
+          "link": "https://scienceinsights.org/what-does-the-word-acute-mean-in-medical-terms/",
+          "snippet": "Acute care is the branch of medicine focused on short-term, often urgent treatment. Emergency rooms, intensive care units, and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Outfitting Patient Rooms with Essential Healthcare Equipment",
+          "link": "https://blog.cmecorp.com/outfitting-patient-rooms-with-essential-healthcare-equipment",
+          "snippet": "Every piece of healthcare equipment in an acute care in-patient room has a distinct role in the care, recovery, and safety of the patient. Healthcare equipment included in hospital patient rooms and t",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Medical Supplies & Equipment | McKessonMedline \u2013 Medical supply products and supply chain solutions ...Improve",
+          "link": "https://www.mckesson.com/medical-supplies/",
+          "snippet": "Shop medical supplies and healthcare equipment for home health agencies, home infusion therapy, assisted living facilities and long term care facilities. We offer general and advanced wound care produ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Google",
+          "link": "https://www.google.com/",
+          "snippet": "15 Leading Hospitals in Chennai for Quality Medical Care and Top Doctors.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Improve outcomes with proven hospital supplies and solutions",
+          "link": "https://www.medline.com/about-us/who-we-serve/acute-care/",
+          "snippet": "Discover our portfolio of hospital supplies and solutions for a range of acute care settings.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sarnova - Sarnova",
+          "link": "https://www.sarnova.com/",
+          "snippet": "Sarnova and its family of companies: Bound Tree Medical, Cardio Partners, Digitech, Emergency Medical Products and Tri-anim Health Services have been serving the emergency medical services (EMS) and a",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "hospital system integrator official site",
+      "level": "L2",
+      "result_count": 3,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Guangzhou United Family Hospital - UFH",
+          "link": "https://guangzhou.ufh.com.cn/locations/guangzhou-united-family-hospital?lang=en",
+          "snippet": "Guangzhou United Family Hospital is open to care for patients in 2018. The total building area of Guangzhou United Family Hospital \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "NANFANG HOSPITAL SOUTHERN MEDICAL UNIVERSITY",
+          "link": "https://baike.baidu.com/en/item/NANFANG%20HOSPITAL%20SOUTHERN%20MEDICAL%20UNIVERSITY/668407",
+          "snippet": "It undertakes tasks such as clinical medical care, medical education, medical research, and preventive healthcare. It is a large-scale \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Redefining Healthcare Delivery Everywhere Care Happens | Baxter",
+          "link": "https://www.baxter.com/",
+          "snippet": "With essential healthcare solutions for the hospital, physician's office and other sites of care, learn how Baxter is working to make a greater impact.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Guangzhou United Family Hospital - UFH",
+          "link": "https://guangzhou.ufh.com.cn/locations/guangzhou-united-family-hospital?lang=en",
+          "snippet": "Guangzhou United Family Hospital is open to care for patients in 2018. The total building area of Guangzhou United Family Hospital \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "NANFANG HOSPITAL SOUTHERN MEDICAL UNIVERSITY",
+          "link": "https://baike.baidu.com/en/item/NANFANG%20HOSPITAL%20SOUTHERN%20MEDICAL%20UNIVERSITY/668407",
+          "snippet": "It undertakes tasks such as clinical medical care, medical education, medical research, and preventive healthcare. It is a large-scale \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Redefining Healthcare Delivery Everywhere Care Happens | Baxter",
+          "link": "https://www.baxter.com/",
+          "snippet": "With essential healthcare solutions for the hospital, physician's office and other sites of care, learn how Baxter is working to make a greater impact.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "acute care medical device distributor official site",
+      "level": "discovery",
+      "result_count": 3,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "What Does the Word Acute Mean in Medical Terms?",
+          "link": "https://scienceinsights.org/what-does-the-word-acute-mean-in-medical-terms/",
+          "snippet": "Acute care is the branch of medicine focused on short-term, often urgent treatment. Emergency rooms, intensive care units, and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Medical Supplies and Hospital Equipment Online",
+          "link": "https://mfimedical.com/",
+          "snippet": "Shop top-quality medical equipment, supplies, and accessories from leading brands online at MFI Medical. Trusted by healthcare professionals.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Advancing the World of Health | BD",
+          "link": "https://www.bd.com/en-us",
+          "snippet": "Distributor. Administration Devices for Drug and Medical Kits. Advanced Hemodynamic Monitoring Solutions. BD Acute Urology.Discover connection beyond connectivity. BD Incada\u2122 Connected Care Platform i",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "What Does the Word Acute Mean in Medical Terms?",
+          "link": "https://scienceinsights.org/what-does-the-word-acute-mean-in-medical-terms/",
+          "snippet": "Acute care is the branch of medicine focused on short-term, often urgent treatment. Emergency rooms, intensive care units, and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Medical Supplies and Hospital Equipment Online",
+          "link": "https://mfimedical.com/",
+          "snippet": "Shop top-quality medical equipment, supplies, and accessories from leading brands online at MFI Medical. Trusted by healthcare professionals.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Advancing the World of Health | BD",
+          "link": "https://www.bd.com/en-us",
+          "snippet": "Distributor. Administration Devices for Drug and Medical Kits. Advanced Hemodynamic Monitoring Solutions. BD Acute Urology.Discover connection beyond connectivity. BD Incada\u2122 Connected Care Platform i",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P2": {
+      "query": "hospital supply wholesaler corporate headquarters",
+      "level": "discovery",
+      "result_count": 4,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Guangzhou United Family Hospital - UFH",
+          "link": "https://guangzhou.ufh.com.cn/locations/guangzhou-united-family-hospital?lang=en",
+          "snippet": "Guangzhou United Family Hospital is open to care for patients in 2018. The total building area of Guangzhou United Family Hospital is over 60 thousand square meters with over 100 beds.",
+          "backend": "searxng"
+        },
+        {
+          "title": "NANFANG HOSPITAL SOUTHERN MEDICAL UNIVERSITY",
+          "link": "https://baike.baidu.com/en/item/NANFANG%20HOSPITAL%20SOUTHERN%20MEDICAL%20UNIVERSITY/668407",
+          "snippet": "It undertakes tasks such as clinical medical care, medical education, medical research, and preventive healthcare. It is a large-scale comprehensive Tertiary A Hospital and a National Regional Medical",
+          "backend": "searxng"
+        },
+        {
+          "title": "Pharmaceutical Exporter India | Bulk Cargo Medicines & Generic Drugs...",
+          "link": "https://www.fedeltyhealthcare.com/",
+          "snippet": "Fedelty Healthcare is a leading pharmaceutical bulk cargo exporter and generic drugs supplier in India, offering contract manufacturing, wholesale medicines, and hospital supply to Venezuela, Saudi Ar",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "GS1 Document Type",
+          "link": "https://documents.gs1us.org/adobe/assets/deliver/urn:aaid:aem:afe61ac3-0f92-47e8-991a-9bfb2b9aebc1/Guideline-GLN-Hierarchy-Best-Practices.pdf",
+          "snippet": "GS1 Healthcare consists of participants from all stakeholders of the healthcare supply chain: manufacturers, wholesalers, and distributors, as well as hospitals and pharmacy retailers.The Corporate lo",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Guangzhou United Family Hospital - UFH",
+          "link": "https://guangzhou.ufh.com.cn/locations/guangzhou-united-family-hospital?lang=en",
+          "snippet": "Guangzhou United Family Hospital is open to care for patients in 2018. The total building area of Guangzhou United Family Hospital is over 60 thousand square meters with over 100 beds.",
+          "backend": "searxng"
+        },
+        {
+          "title": "NANFANG HOSPITAL SOUTHERN MEDICAL UNIVERSITY",
+          "link": "https://baike.baidu.com/en/item/NANFANG%20HOSPITAL%20SOUTHERN%20MEDICAL%20UNIVERSITY/668407",
+          "snippet": "It undertakes tasks such as clinical medical care, medical education, medical research, and preventive healthcare. It is a large-scale comprehensive Tertiary A Hospital and a National Regional Medical",
+          "backend": "searxng"
+        },
+        {
+          "title": "Pharmaceutical Exporter India | Bulk Cargo Medicines & Generic Drugs...",
+          "link": "https://www.fedeltyhealthcare.com/",
+          "snippet": "Fedelty Healthcare is a leading pharmaceutical bulk cargo exporter and generic drugs supplier in India, offering contract manufacturing, wholesale medicines, and hospital supply to Venezuela, Saudi Ar",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "GS1 Document Type",
+          "link": "https://documents.gs1us.org/adobe/assets/deliver/urn:aaid:aem:afe61ac3-0f92-47e8-991a-9bfb2b9aebc1/Guideline-GLN-Hierarchy-Best-Practices.pdf",
+          "snippet": "GS1 Healthcare consists of participants from all stakeholders of the healthcare supply chain: manufacturers, wholesalers, and distributors, as well as hospitals and pharmacy retailers.The Corporate lo",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P3": {
+      "query": "acute care equipment reseller corporate site",
+      "level": "discovery",
+      "result_count": 6,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "What Does the Word Acute Mean in Medical Terms?",
+          "link": "https://scienceinsights.org/what-does-the-word-acute-mean-in-medical-terms/",
+          "snippet": "Acute care is the branch of medicine focused on short-term, often urgent treatment. Emergency rooms, intensive care units, and surgical wards are all acute care settings. The goal is to stabilize and ",
+          "backend": "searxng"
+        },
+        {
+          "title": "Acute Care Equipment Solutions | LinkedIn",
+          "link": "https://www.linkedin.com/company/acute-care-equipment-solutions",
+          "snippet": "Acute Care Equipment Solutions represents medical device manufacturers recognized as the market leaders in their product space. Our focus is to represent a very select group of companies enabling our ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Quality Standards: Acute care equipment and drug lists",
+          "link": "https://www.resus.org.uk/library/quality-standards-cpr/acute-care-equipment-and-drug-lists",
+          "snippet": "The equipment and drug lists on this page are in reference to the Acute Care Quality Standards. The core standards for the provision of cardiopulmonary resuscitation across all healthcare settings are",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Different Types of Medical Equipment and Hospital... - Shiprocket Cargo",
+          "link": "https://cargo.shiprocket.in/blog/medical-equipment-and-hospital-supplies/",
+          "snippet": "Table of Contentshide1: Storage and Transport of Hospital Equipment and Supplies6: Acute Care1: Storage and Transport of Hospital Equipment and Supplies. Equipment that is used to store...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Health Insurance | Allianz Care Official Site",
+          "link": "https://www.allianzcare.com/",
+          "snippet": "Allianz Care is a market leader in international health insurance & private healthcare for globally mobile people, a global network with a local touch.It typically includes services like hospitalizati",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Prime TC patient transport chair | Stryker",
+          "link": "https://www.stryker.com/us/en/acute-care/products/prime-tc.html",
+          "snippet": "ProCare for acute care. Every day, you count on your medical equipment to perform at its best. With ProCare Services, our people help to ensure your equipment is ready to perform when it's needed and ",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "What Does the Word Acute Mean in Medical Terms?",
+          "link": "https://scienceinsights.org/what-does-the-word-acute-mean-in-medical-terms/",
+          "snippet": "Acute care is the branch of medicine focused on short-term, often urgent treatment. Emergency rooms, intensive care units, and surgical wards are all acute care settings. The goal is to stabilize and ",
+          "backend": "searxng"
+        },
+        {
+          "title": "Acute Care Equipment Solutions | LinkedIn",
+          "link": "https://www.linkedin.com/company/acute-care-equipment-solutions",
+          "snippet": "Acute Care Equipment Solutions represents medical device manufacturers recognized as the market leaders in their product space. Our focus is to represent a very select group of companies enabling our ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Quality Standards: Acute care equipment and drug lists",
+          "link": "https://www.resus.org.uk/library/quality-standards-cpr/acute-care-equipment-and-drug-lists",
+          "snippet": "The equipment and drug lists on this page are in reference to the Acute Care Quality Standards. The core standards for the provision of cardiopulmonary resuscitation across all healthcare settings are",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Different Types of Medical Equipment and Hospital... - Shiprocket Cargo",
+          "link": "https://cargo.shiprocket.in/blog/medical-equipment-and-hospital-supplies/",
+          "snippet": "Table of Contentshide1: Storage and Transport of Hospital Equipment and Supplies6: Acute Care1: Storage and Transport of Hospital Equipment and Supplies. Equipment that is used to store...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Health Insurance | Allianz Care Official Site",
+          "link": "https://www.allianzcare.com/",
+          "snippet": "Allianz Care is a market leader in international health insurance & private healthcare for globally mobile people, a global network with a local touch.It typically includes services like hospitalizati",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Prime TC patient transport chair | Stryker",
+          "link": "https://www.stryker.com/us/en/acute-care/products/prime-tc.html",
+          "snippet": "ProCare for acute care. Every day, you count on your medical equipment to perform at its best. With ProCare Services, our people help to ensure your equipment is ready to perform when it's needed and ",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P4": {
+      "query": "hospital supplies online reseller official website",
+      "level": "discovery",
+      "result_count": 2,
+      "results_target": 28,
+      "backends": [
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Guangzhou United Family Hospital - UFH",
+          "link": "https://guangzhou.ufh.com.cn/locations/guangzhou-united-family-hospital?lang=en",
+          "snippet": "Guangzhou United Family Hospital is open to care for patients in 2018. The total building area of Guangzhou United Family Hospital is over 60 thousand square meters with over 100 beds.",
+          "backend": "searxng"
+        },
+        {
+          "title": "NANFANG HOSPITAL SOUTHERN MEDICAL UNIVERSITY",
+          "link": "https://baike.baidu.com/en/item/NANFANG%20HOSPITAL%20SOUTHERN%20MEDICAL%20UNIVERSITY/668407",
+          "snippet": "It undertakes tasks such as clinical medical care, medical education, medical research, and preventive healthcare. It is a large-scale comprehensive Tertiary A Hospital and a National Regional Medical",
+          "backend": "searxng"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Guangzhou United Family Hospital - UFH",
+          "link": "https://guangzhou.ufh.com.cn/locations/guangzhou-united-family-hospital?lang=en",
+          "snippet": "Guangzhou United Family Hospital is open to care for patients in 2018. The total building area of Guangzhou United Family Hospital is over 60 thousand square meters with over 100 beds.",
+          "backend": "searxng"
+        },
+        {
+          "title": "NANFANG HOSPITAL SOUTHERN MEDICAL UNIVERSITY",
+          "link": "https://baike.baidu.com/en/item/NANFANG%20HOSPITAL%20SOUTHERN%20MEDICAL%20UNIVERSITY/668407",
+          "snippet": "It undertakes tasks such as clinical medical care, medical education, medical research, and preventive healthcare. It is a large-scale comprehensive Tertiary A Hospital and a National Regional Medical",
+          "backend": "searxng"
+        }
+      ]
+    },
+    "P5": {
+      "query": "hospital system integrator corporate website",
+      "level": "discovery",
+      "result_count": 4,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Guangzhou United Family Hospital - UFH",
+          "link": "https://guangzhou.ufh.com.cn/locations/guangzhou-united-family-hospital?lang=en",
+          "snippet": "Guangzhou United Family Hospital is open to care for patients in 2018. The total building area of Guangzhou United Family Hospital is over 60 thousand square meters with over 100 beds.",
+          "backend": "searxng"
+        },
+        {
+          "title": "NANFANG HOSPITAL SOUTHERN MEDICAL UNIVERSITY",
+          "link": "https://baike.baidu.com/en/item/NANFANG%20HOSPITAL%20SOUTHERN%20MEDICAL%20UNIVERSITY/668407",
+          "snippet": "It undertakes tasks such as clinical medical care, medical education, medical research, and preventive healthcare. It is a large-scale comprehensive Tertiary A Hospital and a National Regional Medical",
+          "backend": "searxng"
+        },
+        {
+          "title": "Google",
+          "link": "https://www.google.com/",
+          "snippet": "15 Leading Hospitals in Chennai for Quality Medical Care and Top Doctors.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Redefining Healthcare Delivery Everywhere Care Happens | Baxter",
+          "link": "https://www.baxter.com/",
+          "snippet": "With essential healthcare solutions for the hospital, physician's office and other sites of care, learn how Baxter is working to make a greater impact.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Guangzhou United Family Hospital - UFH",
+          "link": "https://guangzhou.ufh.com.cn/locations/guangzhou-united-family-hospital?lang=en",
+          "snippet": "Guangzhou United Family Hospital is open to care for patients in 2018. The total building area of Guangzhou United Family Hospital is over 60 thousand square meters with over 100 beds.",
+          "backend": "searxng"
+        },
+        {
+          "title": "NANFANG HOSPITAL SOUTHERN MEDICAL UNIVERSITY",
+          "link": "https://baike.baidu.com/en/item/NANFANG%20HOSPITAL%20SOUTHERN%20MEDICAL%20UNIVERSITY/668407",
+          "snippet": "It undertakes tasks such as clinical medical care, medical education, medical research, and preventive healthcare. It is a large-scale comprehensive Tertiary A Hospital and a National Regional Medical",
+          "backend": "searxng"
+        },
+        {
+          "title": "Google",
+          "link": "https://www.google.com/",
+          "snippet": "15 Leading Hospitals in Chennai for Quality Medical Care and Top Doctors.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Redefining Healthcare Delivery Everywhere Care Happens | Baxter",
+          "link": "https://www.baxter.com/",
+          "snippet": "With essential healthcare solutions for the hospital, physician's office and other sites of care, learn how Baxter is working to make a greater impact.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "healthcare IT integration services official site",
+      "level": "discovery",
+      "result_count": 3,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Lab Outreach Software | Outreach Laboratory Services",
+          "link": "https://lifepoint.com/",
+          "snippet": "Lifepoint Informatics\u2019 hospital outreach service lab solution is the trusted leader in healthcare information technology, advancing value-based healthcare with uncomplicated clinical integration, heal",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Healthcare IT Services: Secure & Efficient Solutions",
+          "link": "https://microwize.com/healthcare-it-services/",
+          "snippet": "Healthcare IT (information technology) services are designed to support physicians, groups, medical billing companies, and even hospitals. Our healthcare IT services include network and hardware manag",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Redefining Healthcare Delivery Everywhere Care Happens | Baxter",
+          "link": "https://www.baxter.com/",
+          "snippet": "With essential healthcare solutions for the hospital, physician's office and other sites of care, learn how Baxter is working to make a greater impact.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Lab Outreach Software | Outreach Laboratory Services",
+          "link": "https://lifepoint.com/",
+          "snippet": "Lifepoint Informatics\u2019 hospital outreach service lab solution is the trusted leader in healthcare information technology, advancing value-based healthcare with uncomplicated clinical integration, heal",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Healthcare IT Services: Secure & Efficient Solutions",
+          "link": "https://microwize.com/healthcare-it-services/",
+          "snippet": "Healthcare IT (information technology) services are designed to support physicians, groups, medical billing companies, and even hospitals. Our healthcare IT services include network and hardware manag",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Redefining Healthcare Delivery Everywhere Care Happens | Baxter",
+          "link": "https://www.baxter.com/",
+          "snippet": "With essential healthcare solutions for the hospital, physician's office and other sites of care, learn how Baxter is working to make a greater impact.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P7": {
+      "query": "acute care service provider corporate profile",
+      "level": "discovery",
+      "result_count": 10,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "What Does the Word Acute Mean in Medical Terms?",
+          "link": "https://scienceinsights.org/what-does-the-word-acute-mean-in-medical-terms/",
+          "snippet": "Acute care is the branch of medicine focused on short-term, often urgent treatment. Emergency rooms, intensive care units, and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Britney Anderson, US Acute Care Solutions: Profile and Biography",
+          "link": "https://www.bloomberg.com/profile/person/24723044",
+          "snippet": "The Company provides medicine management services for emergency, hospital, critical care, and observation, as well as offers post-acute, and transitional care management services. U.S. Acute Care Solu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Acute Care in Magnolia, TX - Internal Medicine Diagnostic Center",
+          "link": "https://mytexasmd.com/acute-care/",
+          "snippet": "Our Acute Care Services in Magnolia, TX. Our board-certified physicians are dedicated to offering the Magnolia community individualized, patient-centered treatment. We are committed to providing promp",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Humana partners with in-home provider for 24/7 care",
+          "link": "https://www.modernhealthcare.com/care-delivery/humana-partners-home-provider-247-care",
+          "snippet": "Humana has partnered with in-home service provider DispatchHealth to offer in-home emergency and acute care to its 8.4 million Medicare members, as demand for out-of-office treatment rises during the ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Expert Care - Anemia, Flu, COVID, Dizziness & Leg Swelling, FL",
+          "link": "https://harborphysicians.com/acute-care/",
+          "snippet": "Acute Care.That\u2019s why our urgent care services provide fast and effective treatment when you need it most. If you\u2019re feeling unwell or have a non-life-threatening injury, visit us for same-day care.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Acute Care Occupational Therapist - Multiple Opportunities -- up to...",
+          "link": "https://www.floridajobfinders.com/jobs/acute-care-occupational-therapist-multiple-opportunities-up-to-10k-in-incentives-2965_95700",
+          "snippet": "With services spanning acute care, skilled nursing, home health, and outpatient settings, our team delivers exceptional, evidence-based care that restores function and enhances quality of life. At Lee",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Acute Care Nursing - Car Buying Tips",
+          "link": "https://tunxis.commnet.edu/car/acute-care-nursing.html",
+          "snippet": "Acute Care Nursing The direct care eligibility pathway is for nurses who provide direct care to acutely/critically ill adult patients regardless of their physical location..",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nursing Agency Melbourne - Caring 24/7 Reliable Nursing Agency",
+          "link": "https://caring247.com.au/",
+          "snippet": "Melbourne's trusted nursing agency for private care, aged care & acute care. Registered nurses are available 24/7.Personalised Services For Your Health. Your companion to provide Quality care to the p",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "InTouch Health | telemedicine.arizona.edu",
+          "link": "https://telemedicine.arizona.edu/servicedirectory/intouch-health",
+          "snippet": "Service Provider Directory. Southwest TRC. T-Health. Telemedicine In The News.AcuteCare Telemedicine (ACT) is the leading practice-based provider of Telemedicine services for hospitals seeking around-",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "2025 California Existing Building Code, Title 24, Part 10...",
+          "link": "https://codes.iccsafe.org/s/CAEBC2025P1/chapter-3a-provisions-for-all-compliance-methods/CAEBC2025P1-Ch03A-Sec312A.3",
+          "snippet": "buildings are removed from general acute care service, whichever comes first. 2.All basic acute care services or supplemental serviceson the hospital\u2019s license are provided in SPC buildingssatisfying ",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "What Does the Word Acute Mean in Medical Terms?",
+          "link": "https://scienceinsights.org/what-does-the-word-acute-mean-in-medical-terms/",
+          "snippet": "Acute care is the branch of medicine focused on short-term, often urgent treatment. Emergency rooms, intensive care units, and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Britney Anderson, US Acute Care Solutions: Profile and Biography",
+          "link": "https://www.bloomberg.com/profile/person/24723044",
+          "snippet": "The Company provides medicine management services for emergency, hospital, critical care, and observation, as well as offers post-acute, and transitional care management services. U.S. Acute Care Solu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Acute Care in Magnolia, TX - Internal Medicine Diagnostic Center",
+          "link": "https://mytexasmd.com/acute-care/",
+          "snippet": "Our Acute Care Services in Magnolia, TX. Our board-certified physicians are dedicated to offering the Magnolia community individualized, patient-centered treatment. We are committed to providing promp",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Humana partners with in-home provider for 24/7 care",
+          "link": "https://www.modernhealthcare.com/care-delivery/humana-partners-home-provider-247-care",
+          "snippet": "Humana has partnered with in-home service provider DispatchHealth to offer in-home emergency and acute care to its 8.4 million Medicare members, as demand for out-of-office treatment rises during the ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Expert Care - Anemia, Flu, COVID, Dizziness & Leg Swelling, FL",
+          "link": "https://harborphysicians.com/acute-care/",
+          "snippet": "Acute Care.That\u2019s why our urgent care services provide fast and effective treatment when you need it most. If you\u2019re feeling unwell or have a non-life-threatening injury, visit us for same-day care.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Acute Care Occupational Therapist - Multiple Opportunities -- up to...",
+          "link": "https://www.floridajobfinders.com/jobs/acute-care-occupational-therapist-multiple-opportunities-up-to-10k-in-incentives-2965_95700",
+          "snippet": "With services spanning acute care, skilled nursing, home health, and outpatient settings, our team delivers exceptional, evidence-based care that restores function and enhances quality of life. At Lee",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Acute Care Nursing - Car Buying Tips",
+          "link": "https://tunxis.commnet.edu/car/acute-care-nursing.html",
+          "snippet": "Acute Care Nursing The direct care eligibility pathway is for nurses who provide direct care to acutely/critically ill adult patients regardless of their physical location..",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nursing Agency Melbourne - Caring 24/7 Reliable Nursing Agency",
+          "link": "https://caring247.com.au/",
+          "snippet": "Melbourne's trusted nursing agency for private care, aged care & acute care. Registered nurses are available 24/7.Personalised Services For Your Health. Your companion to provide Quality care to the p",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "InTouch Health | telemedicine.arizona.edu",
+          "link": "https://telemedicine.arizona.edu/servicedirectory/intouch-health",
+          "snippet": "Service Provider Directory. Southwest TRC. T-Health. Telemedicine In The News.AcuteCare Telemedicine (ACT) is the leading practice-based provider of Telemedicine services for hospitals seeking around-",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "2025 California Existing Building Code, Title 24, Part 10...",
+          "link": "https://codes.iccsafe.org/s/CAEBC2025P1/chapter-3a-provisions-for-all-compliance-methods/CAEBC2025P1-Ch03A-Sec312A.3",
+          "snippet": "buildings are removed from general acute care service, whichever comes first. 2.All basic acute care services or supplemental serviceson the hospital\u2019s license are provided in SPC buildingssatisfying ",
+          "backend": "ddgs_bing"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

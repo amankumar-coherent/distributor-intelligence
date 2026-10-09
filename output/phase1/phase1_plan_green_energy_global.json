@@ -1,0 +1,1314 @@
+{
+  "phase": 1,
+  "query": "Green Energy Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T21:46:18.982483+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "Green Energy",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "channel partner",
+    "industry_vertical": "renewable energy",
+    "industry_terms": [
+      "solar energy",
+      "wind energy",
+      "hydroelectric power",
+      "energy storage",
+      "renewable energy systems"
+    ],
+    "ecosystem_functions": [
+      "distributing renewable energy products",
+      "integrating energy systems",
+      "providing energy services",
+      "reselling green technologies",
+      "wholesaling energy solutions",
+      "partnering for energy projects"
+    ],
+    "interpretation_summary": "The Green Energy Market encompasses the production, distribution, and consumption of renewable energy sources such as solar, wind, and hydroelectric power. Key participants include manufacturers of renewable energy techn",
+    "relevance_keywords": [
+      "renewable energy distributor",
+      "solar system integrator",
+      "energy efficiency reseller",
+      "green technology service provider",
+      "channel partner for renewable energy"
+    ],
+    "negative_keywords": [
+      "coal",
+      "oil",
+      "gas",
+      "traditional energy",
+      "consultants",
+      "job listings"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "SunPower",
+        "primary_domain": "sunpower.com",
+        "company_function": "solar energy solutions provider"
+      },
+      {
+        "canonical_name": "Sunnova Energy International",
+        "primary_domain": "sunnova.com",
+        "company_function": "residential solar service provider"
+      },
+      {
+        "canonical_name": "Vivint Solar",
+        "primary_domain": "vivintsolar.com",
+        "company_function": "solar energy reseller"
+      },
+      {
+        "canonical_name": "Enphase Energy",
+        "primary_domain": "enphase.com",
+        "company_function": "energy management technology provider"
+      },
+      {
+        "canonical_name": "NextEra Energy",
+        "primary_domain": "nexteraenergy.com",
+        "company_function": "renewable energy distributor"
+      },
+      {
+        "canonical_name": "Siemens AG",
+        "primary_domain": "siemens.com",
+        "company_function": "system integrator for energy solutions"
+      },
+      {
+        "canonical_name": "Schneider Electric",
+        "primary_domain": "schneider-electric.com",
+        "company_function": "energy management and automation provider"
+      },
+      {
+        "canonical_name": "Canadian Solar",
+        "primary_domain": "canadiansolar.com",
+        "company_function": "solar panel manufacturer and distributor"
+      },
+      {
+        "canonical_name": "First Solar",
+        "primary_domain": "firstsolar.com",
+        "company_function": "solar energy solutions provider",
+        "segment": "System Integrators",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "RWE Renewables",
+        "primary_domain": "rwe.com",
+        "company_function": "renewable energy wholesaler",
+        "segment": "Wholesalers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Trina Solar",
+        "primary_domain": "trinasolar.com",
+        "company_function": "solar panel distributor",
+        "segment": "Distributors",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Brookfield Renewable Partners",
+        "primary_domain": "brookfieldrenewable.com",
+        "company_function": "renewable energy service provider",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "SMA Solar Technology",
+        "primary_domain": "sma.de",
+        "company_function": "solar inverter manufacturer and distributor",
+        "segment": "Distributors",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "JinkoSolar",
+        "primary_domain": "jinkosolar.com",
+        "company_function": "solar panel manufacturer and distributor",
+        "segment": "Distributors",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "Green Energy",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "Green Energy",
+    "include_keywords": [
+      "solar panel distributor",
+      "wind turbine wholesaler",
+      "energy storage reseller",
+      "renewable energy service provider",
+      "green energy channel partner"
+    ],
+    "exclude_keywords": [
+      "fossil fuels",
+      "nuclear energy",
+      "energy consulting",
+      "job boards",
+      "market reports",
+      "news articles"
+    ],
+    "scope_version": 2,
+    "market_definition": "The Green Energy Market encompasses the production, distribution, and consumption of renewable energy sources such as solar, wind, and hydroelectric power. Key participants include manufacturers of renewable energy technologies, channel partners like distributors and integrators, and end-users across various sectors globally.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Channel Partners",
+        "description": "Entities that facilitate the distribution and integration of green energy solutions.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Renewable Energy Equipment",
+              "Energy Storage Systems"
+            ],
+            "participant_types": [
+              "distributor",
+              "wholesaler"
+            ],
+            "search_intents": [
+              "green energy equipment distributor",
+              "renewable energy wholesalers"
+            ]
+          },
+          {
+            "segment_name": "System Integrators",
+            "sub_segments": [
+              "Solar Integrators",
+              "Wind Energy Integrators"
+            ],
+            "participant_types": [
+              "system integrator",
+              "service provider"
+            ],
+            "search_intents": [
+              "solar energy system integrators",
+              "wind energy integration services"
+            ]
+          },
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Solar Panel Resellers",
+              "Energy Efficiency Product Resellers"
+            ],
+            "participant_types": [
+              "reseller",
+              "channel partner"
+            ],
+            "search_intents": [
+              "renewable energy product resellers",
+              "energy efficiency product distributors"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Fossil Fuel Suppliers",
+        "Traditional Energy Utilities",
+        "Nuclear Energy Providers",
+        "Energy Consultants"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "search for green energy equipment distributors",
+        "sub_sector": "distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "find renewable energy wholesalers",
+        "sub_sector": "wholesaler",
+        "layer_id": "L1",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "search for renewable energy product resellers",
+        "sub_sector": "reseller",
+        "layer_id": "L1",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "find solar energy system integrators",
+        "sub_sector": "system_integrator",
+        "layer_id": "L1",
+        "segment": "System Integrators"
+      },
+      {
+        "id": "M5",
+        "level": "market_map",
+        "text": "search for green energy service providers",
+        "sub_sector": "service_provider",
+        "layer_id": "L1",
+        "segment": "Service Providers"
+      },
+      {
+        "id": "M6",
+        "level": "market_map",
+        "text": "find channel partners in renewable energy",
+        "sub_sector": "channel_partner",
+        "layer_id": "L1",
+        "segment": "Channel Partners"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "renewable energy",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "Green Energy Market companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "Green Energy distributors corporate sites"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "Green Energy system integrators official websites"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "market_map",
+      "text": "search for green energy equipment distributors"
+    },
+    {
+      "id": "P2",
+      "level": "market_map",
+      "text": "find renewable energy wholesalers"
+    },
+    {
+      "id": "P3",
+      "level": "market_map",
+      "text": "search for renewable energy product resellers"
+    },
+    {
+      "id": "P4",
+      "level": "market_map",
+      "text": "find solar energy system integrators"
+    },
+    {
+      "id": "P5",
+      "level": "market_map",
+      "text": "search for green energy service providers"
+    },
+    {
+      "id": "P6",
+      "level": "market_map",
+      "text": "find channel partners in renewable energy"
+    },
+    {
+      "id": "P7",
+      "level": "discovery",
+      "text": "green energy equipment distributor official site"
+    },
+    {
+      "id": "P8",
+      "level": "discovery",
+      "text": "renewable energy wholesalers corporate headquarters"
+    },
+    {
+      "id": "P9",
+      "level": "discovery",
+      "text": "solar energy system integrators corporate website"
+    },
+    {
+      "id": "P10",
+      "level": "discovery",
+      "text": "wind energy integration services official site"
+    },
+    {
+      "id": "P11",
+      "level": "discovery",
+      "text": "renewable energy product resellers official website"
+    },
+    {
+      "id": "P12",
+      "level": "discovery",
+      "text": "energy efficiency product distributors corporate site"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "Green Energy Market companies official websites",
+      "level": "L0",
+      "result_count": 8,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Global Leading Renewable & Green Energy Company | ReNew",
+          "link": "https://www.renew.com/",
+          "snippet": "ReNew(NASDAQ: RNW),a global renewable company offering clean & green energy with a portfolio of 20.2 GW including Wind, Solar, Hybrid & Hydro Power.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "NTPC Renewable Energy - Official Website of NTPC Renewable Energy",
+          "link": "https://ntpcrel.co.in/",
+          "snippet": "NTPC Renewable Energy NTPC Renewable Energy Ltd. (NTPCREL), a subsidiary of NTPC Green Energy Limited (NGEL), was established on October 7, 2020, to drive NTPC's renewable energy growth and support In",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Renewable & Green Energy Company in India - Tata Power",
+          "link": "https://www.tatapower.com/renewables",
+          "snippet": "Tata Power is India's leading renewable energy company, delivering clean and green power through advanced solar and wind projects. Explore our full range of renewable energy solutions.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "17 Largest Green Energy Companies Dominating the Market",
+          "link": "https://www.thegreenshot.io/uncategorized/largest-green-energy-companies/",
+          "snippet": "Discover the top 17 green energy companies leading the market in 2025, with a combined market cap of $844.12 billion and innovative technologies driving the renewable revolution.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "New Energy - Reliance | Aim to Build World's Leading New Energy And New ...",
+          "link": "https://www.ril.com/businesses/new-energy-materials",
+          "snippet": "RIL's aim is to build one of the world's leading New Energy and New Materials businesses that can bridge the green energy divide in India and globally. It will help achieve our commitment of Net Carbo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Energy UK - 100% Renewable Electricity & Green Gas Supplier",
+          "link": "https://100green.com/",
+          "snippet": "Move your home completely away from fossil fuels. The UK's only eco\u2011labelled energy tariff gives you 100% renewable gas and electricity whilst protecting local wildlife \u2014 a truly greener choice.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "NGEL - NTPC Green Energy Limited",
+          "link": "https://www.ngel.in/",
+          "snippet": "NGEL is an umbrella company for the green business initiatives of NTPC and undertakes projects through organic and inorganic routes and aims to be the flag-bearer of NTPC\u2019s green energy journey to ach",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nordic Solar - Investing in green energy, creating a clean and...",
+          "link": "https://nordic-solar.tech/",
+          "snippet": "Invest in green energy and support clean technologies.Learn how to start investing in green technology and earn a steady income from renewable energy.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Global Leading Renewable & Green Energy Company | ReNew",
+          "link": "https://www.renew.com/",
+          "snippet": "ReNew(NASDAQ: RNW),a global renewable company offering clean & green energy with a portfolio of 20.2 GW including Wind, Solar, Hybrid & Hydro Power.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "NTPC Renewable Energy - Official Website of NTPC Renewable Energy",
+          "link": "https://ntpcrel.co.in/",
+          "snippet": "NTPC Renewable Energy NTPC Renewable Energy Ltd. (NTPCREL), a subsidiary of NTPC Green Energy Limited (NGEL), was established on October 7, 2020, to drive NTPC's renewable energy growth and support In",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Renewable & Green Energy Company in India - Tata Power",
+          "link": "https://www.tatapower.com/renewables",
+          "snippet": "Tata Power is India's leading renewable energy company, delivering clean and green power through advanced solar and wind projects. Explore our full range of renewable energy solutions.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "17 Largest Green Energy Companies Dominating the Market",
+          "link": "https://www.thegreenshot.io/uncategorized/largest-green-energy-companies/",
+          "snippet": "Discover the top 17 green energy companies leading the market in 2025, with a combined market cap of $844.12 billion and innovative technologies driving the renewable revolution.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "New Energy - Reliance | Aim to Build World's Leading New Energy And New ...",
+          "link": "https://www.ril.com/businesses/new-energy-materials",
+          "snippet": "RIL's aim is to build one of the world's leading New Energy and New Materials businesses that can bridge the green energy divide in India and globally. It will help achieve our commitment of Net Carbo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Energy UK - 100% Renewable Electricity & Green Gas Supplier",
+          "link": "https://100green.com/",
+          "snippet": "Move your home completely away from fossil fuels. The UK's only eco\u2011labelled energy tariff gives you 100% renewable gas and electricity whilst protecting local wildlife \u2014 a truly greener choice.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "NGEL - NTPC Green Energy Limited",
+          "link": "https://www.ngel.in/",
+          "snippet": "NGEL is an umbrella company for the green business initiatives of NTPC and undertakes projects through organic and inorganic routes and aims to be the flag-bearer of NTPC\u2019s green energy journey to ach",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nordic Solar - Investing in green energy, creating a clean and...",
+          "link": "https://nordic-solar.tech/",
+          "snippet": "Invest in green energy and support clean technologies.Learn how to start investing in green technology and earn a steady income from renewable energy.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "Green Energy distributors corporate sites",
+      "level": "L1",
+      "result_count": 14,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Green Energy Distributors | LinkedIn",
+          "link": "https://zm.linkedin.com/company/greenenergydistributors",
+          "snippet": "Green Energy Distributors. Solar Electric Power Generation. Lusaka, Lusaka 241 followers.Proficient in using design and simulation tools like PVsyst, AutoCAD, and ETAP. Experience in site assessments,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "GREEN ENERGY DISTRIBUTORS LTD overview - Find and update...",
+          "link": "https://find-and-update.company-information.service.gov.uk/company/16438259",
+          "snippet": "GREEN ENERGY DISTRIBUTORS LTD - Free company information from Companies House including registered office address, filing history, accounts, annual return, officers, charges, business activity.More fo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Energy Distributors | Electricals Lighting & Tools, Solar...",
+          "link": "https://bizbwana.com/orgs/green-energy-distributors",
+          "snippet": "Green Energy Distributors provide complete professional energy consultancy services including site evaluations, system designs, engineering, installations and monitoring.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "GREEN ENERGY DISTRIBUTORS \u2013 Solar Industry Association of...",
+          "link": "https://siaz.co.zm/member-spotlight/green-energy-distributors/",
+          "snippet": "Green Energy Distributors pride themselves on collaborative project approaches, setting the standard for communication with their customers. Their flexibility allows them to tailor solutions to their ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Energy Distributors - Infozambia",
+          "link": "https://infozambia.com/listing/green-energy-distributors/",
+          "snippet": "Green Energy Distributors is a full-service electrical, solar and LED lighting supply and contracting firm. The company\u2019s core competencies includes but not limited to solar and electrical component s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "GREEN ENERGY DISTRIBUTORS, LLC... | Nevada-register.com",
+          "link": "https://www.nevada-register.com/832963-green-energy-distributors-llc",
+          "snippet": "The company GREEN ENERGY DISTRIBUTORS, LLC is managed by 4 persons in total. The persons responsible for business activities are BDA2 LLC with the seat at 218 MAIN STREET #460, KIRKLAND, 98033...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Energy Distributors Ltd: Sales Agents",
+          "link": "https://completebusinessopportunities.co.uk/business-opportunities/green-energy-distributors-ltd/",
+          "snippet": "Green Energy Distributors Ltd (GED) is at the forefront of the UK\u2019s clean energy revolution. With a powerful mission to reduce carbon emissions and drive the transition to net zero, GED offers an exce",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nordic Solar - Investing in green energy, creating a clean and...",
+          "link": "https://nordic-solar.tech/",
+          "snippet": "Invest in green energy and support clean technologies.Learn how to start investing in green technology and earn a steady income from renewable energy.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Solutions For Green Energy | Sustainable Power Strategies",
+          "link": "https://greenenergydistributors.com/solutions-for-green-energy/",
+          "snippet": "Our process begins with a comprehensive review of your energy requirements and site conditions, followed by designing a tailored plan that incorporates the most appropriate renewable sources.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Soligent | Clean Energy Distributor",
+          "link": "https://www.soligent.net/",
+          "snippet": "Explore green energy solutions with Soligent, North America's largest clean energy distributor.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Solar Panel Manufacturers in India | Saatvik Green Energy",
+          "link": "https://saatvikgroup.com/",
+          "snippet": "Saatvik Green Energy is at the forefront of delivering comprehensive, end-to-end Solar EPC solutions, ensuring seamless project execution from concept to completion.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "SAEL | Renewable and Green Energy Company India",
+          "link": "https://www.sael.co/",
+          "snippet": "A diversified and integrated Renewable Energy company India's largest Agri Waste to Energy player A leading manufacturer for Bifacial TOPCon solar modules Endeavoring to make a sustainable impact At S",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Energy Distributors - LinkedIn",
+          "link": "https://www.linkedin.com/company/greenenergydistributors",
+          "snippet": "Lighting | Full-service Electrical, Solar and LED Lighting Supply and Contracting firm.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "APEPDCL",
+          "link": "https://apeasternpower.com/",
+          "snippet": "APEPDCL towards Green Energy First utility to introduce electric Cars Installation of Solar AGL Pumpsets Installation of Solar Rooftop. Pay your bill using SCNO, Aadhar Number or Mobile No View or dow",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Green Energy Distributors | LinkedIn",
+          "link": "https://zm.linkedin.com/company/greenenergydistributors",
+          "snippet": "Green Energy Distributors. Solar Electric Power Generation. Lusaka, Lusaka 241 followers.Proficient in using design and simulation tools like PVsyst, AutoCAD, and ETAP. Experience in site assessments,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "GREEN ENERGY DISTRIBUTORS LTD overview - Find and update...",
+          "link": "https://find-and-update.company-information.service.gov.uk/company/16438259",
+          "snippet": "GREEN ENERGY DISTRIBUTORS LTD - Free company information from Companies House including registered office address, filing history, accounts, annual return, officers, charges, business activity.More fo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Energy Distributors | Electricals Lighting & Tools, Solar...",
+          "link": "https://bizbwana.com/orgs/green-energy-distributors",
+          "snippet": "Green Energy Distributors provide complete professional energy consultancy services including site evaluations, system designs, engineering, installations and monitoring.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "GREEN ENERGY DISTRIBUTORS \u2013 Solar Industry Association of...",
+          "link": "https://siaz.co.zm/member-spotlight/green-energy-distributors/",
+          "snippet": "Green Energy Distributors pride themselves on collaborative project approaches, setting the standard for communication with their customers. Their flexibility allows them to tailor solutions to their ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Energy Distributors - Infozambia",
+          "link": "https://infozambia.com/listing/green-energy-distributors/",
+          "snippet": "Green Energy Distributors is a full-service electrical, solar and LED lighting supply and contracting firm. The company\u2019s core competencies includes but not limited to solar and electrical component s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "GREEN ENERGY DISTRIBUTORS, LLC... | Nevada-register.com",
+          "link": "https://www.nevada-register.com/832963-green-energy-distributors-llc",
+          "snippet": "The company GREEN ENERGY DISTRIBUTORS, LLC is managed by 4 persons in total. The persons responsible for business activities are BDA2 LLC with the seat at 218 MAIN STREET #460, KIRKLAND, 98033...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Energy Distributors Ltd: Sales Agents",
+          "link": "https://completebusinessopportunities.co.uk/business-opportunities/green-energy-distributors-ltd/",
+          "snippet": "Green Energy Distributors Ltd (GED) is at the forefront of the UK\u2019s clean energy revolution. With a powerful mission to reduce carbon emissions and drive the transition to net zero, GED offers an exce",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nordic Solar - Investing in green energy, creating a clean and...",
+          "link": "https://nordic-solar.tech/",
+          "snippet": "Invest in green energy and support clean technologies.Learn how to start investing in green technology and earn a steady income from renewable energy.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Solutions For Green Energy | Sustainable Power Strategies",
+          "link": "https://greenenergydistributors.com/solutions-for-green-energy/",
+          "snippet": "Our process begins with a comprehensive review of your energy requirements and site conditions, followed by designing a tailored plan that incorporates the most appropriate renewable sources.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Soligent | Clean Energy Distributor",
+          "link": "https://www.soligent.net/",
+          "snippet": "Explore green energy solutions with Soligent, North America's largest clean energy distributor.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Solar Panel Manufacturers in India | Saatvik Green Energy",
+          "link": "https://saatvikgroup.com/",
+          "snippet": "Saatvik Green Energy is at the forefront of delivering comprehensive, end-to-end Solar EPC solutions, ensuring seamless project execution from concept to completion.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "SAEL | Renewable and Green Energy Company India",
+          "link": "https://www.sael.co/",
+          "snippet": "A diversified and integrated Renewable Energy company India's largest Agri Waste to Energy player A leading manufacturer for Bifacial TOPCon solar modules Endeavoring to make a sustainable impact At S",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Energy Distributors - LinkedIn",
+          "link": "https://www.linkedin.com/company/greenenergydistributors",
+          "snippet": "Lighting | Full-service Electrical, Solar and LED Lighting Supply and Contracting firm.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "APEPDCL",
+          "link": "https://apeasternpower.com/",
+          "snippet": "APEPDCL towards Green Energy First utility to introduce electric Cars Installation of Solar AGL Pumpsets Installation of Solar Rooftop. Pay your bill using SCNO, Aadhar Number or Mobile No View or dow",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "Green Energy system integrators official websites",
+      "level": "L2",
+      "result_count": 2,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Nordic Solar - Investing in green energy, creating a clean and...",
+          "link": "https://nordic-solar.tech/",
+          "snippet": "Invest in green energy and support clean technologies.Learn how to start investing in green technology and earn a steady income from renewable energy.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Gotion",
+          "link": "https://en.gotion.com.cn/",
+          "snippet": "Make Green Energy. Accessible and Sustainable.Responsible for the R&D of cells, modules and battery management systems, energy storage systems, and next-generation materials. Gotion-NTU Smart Energy L",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Nordic Solar - Investing in green energy, creating a clean and...",
+          "link": "https://nordic-solar.tech/",
+          "snippet": "Invest in green energy and support clean technologies.Learn how to start investing in green technology and earn a steady income from renewable energy.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Gotion",
+          "link": "https://en.gotion.com.cn/",
+          "snippet": "Make Green Energy. Accessible and Sustainable.Responsible for the R&D of cells, modules and battery management systems, energy storage systems, and next-generation materials. Gotion-NTU Smart Energy L",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "search for green energy equipment distributors",
+      "level": "market_map",
+      "result_count": 3,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Online list of Solar PV Panels and Green Energy Equipment...",
+          "link": "https://solarpvmanufacturing.com/distribution/",
+          "snippet": "search.home Distribution All Companies. SOLAR PV DISTRIBUTION, INSTALLATION & SUPPORT \u2022 The list of Solar Panel and other Solar Energy Equipment DISTRIBUTORS.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Energy Wind Turbines Suppliers, all Quality Green Energy...",
+          "link": "https://www.alibaba.com/green-energy-wind-turbines-suppliers.html",
+          "snippet": "Green Energy Wind Turbines, Green Energy Wind Turbines Suppliers Directory - Find variety Green Energy Wind Turbines Suppliers, Manufacturers, Companies from around the World at solar energy systems ,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nordic Solar - Investing in green energy, creating a clean and...",
+          "link": "https://nordic-solar.tech/",
+          "snippet": "Invest in green energy and support clean technologies.Learn how to start investing in green technology and earn a steady income from renewable energy.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Online list of Solar PV Panels and Green Energy Equipment...",
+          "link": "https://solarpvmanufacturing.com/distribution/",
+          "snippet": "search.home Distribution All Companies. SOLAR PV DISTRIBUTION, INSTALLATION & SUPPORT \u2022 The list of Solar Panel and other Solar Energy Equipment DISTRIBUTORS.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Energy Wind Turbines Suppliers, all Quality Green Energy...",
+          "link": "https://www.alibaba.com/green-energy-wind-turbines-suppliers.html",
+          "snippet": "Green Energy Wind Turbines, Green Energy Wind Turbines Suppliers Directory - Find variety Green Energy Wind Turbines Suppliers, Manufacturers, Companies from around the World at solar energy systems ,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nordic Solar - Investing in green energy, creating a clean and...",
+          "link": "https://nordic-solar.tech/",
+          "snippet": "Invest in green energy and support clean technologies.Learn how to start investing in green technology and earn a steady income from renewable energy.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P2": {
+      "query": "find renewable energy wholesalers",
+      "level": "market_map",
+      "result_count": 10,
+      "results_target": 28,
+      "backends": [
+        "ddgs_yandex"
+      ],
+      "results": [
+        {
+          "title": "renewable energy Wholesaler | B2B companies and... | europages",
+          "link": "https://www.europages.co.uk/companies/wholesaler/renewable-energy.html",
+          "snippet": "344 suppliers for renewable energy Wholesaler Find wholesalers and contact them directly B2B martketplace Find companies now!",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Wholesale Solar Renewable Energy - Buy Reliable Solar Renewable...",
+          "link": "https://m.made-in-china.com/wholesale/solar-renewable-energy.html",
+          "snippet": "Shopping Guide. Find wholesale solar renewable energy online from China solar renewable energy wholesalers and dropshippers.",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "renewable energy - offers from renewable energy manufacturers...",
+          "link": "https://www.ec21.com/ks-renewable-energy/",
+          "snippet": "This page is your renewable energy one-stop source for the competitive price and quality. If you have a difficulty finding a right supplier, post your Buying Leads for FREE now! Get Listed. EC21 is th",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "renewable energy world list - renewable energy world for sale",
+          "link": "https://www.china-telecommunications.com/renewable-energy-world-sale",
+          "snippet": "Renewable Energy World. Haven't found right suppliers. Our buyer assistants can help you find the most suitable, 100% reliable suppliers from China.",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Renewable Energy Wholesalers, Renewable Energy Suppliers...",
+          "link": "https://www.ipindiasuppliers.com/(X(1)S(cggol1rzhivgenaumevpwd45))/energy-power/renewable-energy.html?AspxAutoDetectCookieSupport=1",
+          "snippet": "Service provider of renewable energy advisory, energy efficiency and carbon management solutions trader, supplier and manufacturer of solar panelsManufacturer and supplier of dc energy meter, energy s",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Renewable Energy Export Companies List",
+          "link": "https://www.turkishexporter.com.tr/en/companies/renewable-energy.htm",
+          "snippet": "Renewable Energy manufacturers, Renewable Energy export companies list - B2b wholesalers, exporters, suppliers worldwide.",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Hero Direct | Your new renewable energy supplier and distributor.",
+          "link": "https://www.herodirect.co.uk/",
+          "snippet": "Logo Nationwide Same/Next Day Delivery Specialist Renewable Energy Wholesalers & Distributors.",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "G-VOLT \u2013 B2B solar wholesaler | PV, inverters, storage, heat pumps",
+          "link": "https://b2b.gvolt.eu/en/g-volt-renewable-energy-wholesaler-for-installers-and-distributors",
+          "snippet": "G-VOLT \u2013 Renewable Energy Wholesaler for Installers and Distributor. The best service always, forever. The B2B platform for RES, a system that saves your valuable time and allows you to place orders a",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "ft.com/content/70f3ce57-1d02-4aa9-a94f-d8d728671672",
+          "link": "https://www.ft.com/content/70f3ce57-1d02-4aa9-a94f-d8d728671672",
+          "snippet": "Microsoft's blockbuster 10 GW renewable energy goal.",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Procarte | LinkedIn",
+          "link": "https://www.linkedin.com/company/procarte/",
+          "snippet": "Professional renewable energy wholesaler. | Procarte is a fast-growing distributor of photovoltaic (PV) and HVAC solutions - based in Kielce, Poland. We serve both the Polish and European markets thro",
+          "backend": "ddgs_yandex"
+        }
+      ],
+      "sample": [
+        {
+          "title": "renewable energy Wholesaler | B2B companies and... | europages",
+          "link": "https://www.europages.co.uk/companies/wholesaler/renewable-energy.html",
+          "snippet": "344 suppliers for renewable energy Wholesaler Find wholesalers and contact them directly B2B martketplace Find companies now!",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Wholesale Solar Renewable Energy - Buy Reliable Solar Renewable...",
+          "link": "https://m.made-in-china.com/wholesale/solar-renewable-energy.html",
+          "snippet": "Shopping Guide. Find wholesale solar renewable energy online from China solar renewable energy wholesalers and dropshippers.",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "renewable energy - offers from renewable energy manufacturers...",
+          "link": "https://www.ec21.com/ks-renewable-energy/",
+          "snippet": "This page is your renewable energy one-stop source for the competitive price and quality. If you have a difficulty finding a right supplier, post your Buying Leads for FREE now! Get Listed. EC21 is th",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "renewable energy world list - renewable energy world for sale",
+          "link": "https://www.china-telecommunications.com/renewable-energy-world-sale",
+          "snippet": "Renewable Energy World. Haven't found right suppliers. Our buyer assistants can help you find the most suitable, 100% reliable suppliers from China.",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Renewable Energy Wholesalers, Renewable Energy Suppliers...",
+          "link": "https://www.ipindiasuppliers.com/(X(1)S(cggol1rzhivgenaumevpwd45))/energy-power/renewable-energy.html?AspxAutoDetectCookieSupport=1",
+          "snippet": "Service provider of renewable energy advisory, energy efficiency and carbon management solutions trader, supplier and manufacturer of solar panelsManufacturer and supplier of dc energy meter, energy s",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Renewable Energy Export Companies List",
+          "link": "https://www.turkishexporter.com.tr/en/companies/renewable-energy.htm",
+          "snippet": "Renewable Energy manufacturers, Renewable Energy export companies list - B2b wholesalers, exporters, suppliers worldwide.",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Hero Direct | Your new renewable energy supplier and distributor.",
+          "link": "https://www.herodirect.co.uk/",
+          "snippet": "Logo Nationwide Same/Next Day Delivery Specialist Renewable Energy Wholesalers & Distributors.",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "G-VOLT \u2013 B2B solar wholesaler | PV, inverters, storage, heat pumps",
+          "link": "https://b2b.gvolt.eu/en/g-volt-renewable-energy-wholesaler-for-installers-and-distributors",
+          "snippet": "G-VOLT \u2013 Renewable Energy Wholesaler for Installers and Distributor. The best service always, forever. The B2B platform for RES, a system that saves your valuable time and allows you to place orders a",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "ft.com/content/70f3ce57-1d02-4aa9-a94f-d8d728671672",
+          "link": "https://www.ft.com/content/70f3ce57-1d02-4aa9-a94f-d8d728671672",
+          "snippet": "Microsoft's blockbuster 10 GW renewable energy goal.",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Procarte | LinkedIn",
+          "link": "https://www.linkedin.com/company/procarte/",
+          "snippet": "Professional renewable energy wholesaler. | Procarte is a fast-growing distributor of photovoltaic (PV) and HVAC solutions - based in Kielce, Poland. We serve both the Polish and European markets thro",
+          "backend": "ddgs_yandex"
+        }
+      ]
+    },
+    "P3": {
+      "query": "search for renewable energy product resellers",
+      "level": "market_map",
+      "result_count": 7,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "GE Vernova | The Energy of Change",
+          "link": "https://www.gevernova.com/",
+          "snippet": "GE Vernova is accelerating the path to more reliable, affordable, and sustainable energy through our innovative portfolio of electrification and decarbonization technologies.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Electric Cars, Solar & Clean Energy | Tesla",
+          "link": "https://www.tesla.com/",
+          "snippet": "Tesla is building a world of amazing abundance with AI, electric cars, solar, home batteries and integrated renewable energy solutions for homes and businesses.Megapack. Massive Batteries for Massive ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "sciencedirect.com/journal/renewable-energy",
+          "link": "https://www.sciencedirect.com/journal/renewable-energy",
+          "snippet": "Renewable Energy \u2013 An International Journal.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Masdar | Pioneering Energy Worldwide",
+          "link": "https://masdar.ae/",
+          "snippet": "Deploying renewable energy projects and realising low-carbon urban development.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Hawaiian Hospitality Group A Reseller Of Photovoltaic, A Renewable...",
+          "link": "https://worldofrenewables.com/hawaiian_hospitality_group_a_reseller_of_photovoltaic_a_renewabl/",
+          "snippet": "Driven by demand for renewable energy and advances in technology, the photovoltaic system is an emission-free source of electricity that converts solar radiation into direct current electricity and is",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Amazon.com: 12000W Vertical Axis Wind Turbine, 5-Blade Low Noise...",
+          "link": "https://www.amazon.com/Vertical-Generator-Controller-Efficient-Renewable/dp/B0G64JZW89",
+          "snippet": "Efficient Energy Conversion: This Vertical Wind Turbine offers impressive energy conversion efficiency. Its unique design optimizes wind energy capture, converting it into usable electricity. Perfect ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Anji Anenji Solar Hybrid Inverter 11kw - High Efficiency",
+          "link": "https://www.alibaba.com/product-detail/IN-STOCK-Anji-Anenji-Solar-Hybrid_1601484707000.html",
+          "snippet": "Renewable Energy.Product descriptions from the supplier. Report abuse. $440.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "GE Vernova | The Energy of Change",
+          "link": "https://www.gevernova.com/",
+          "snippet": "GE Vernova is accelerating the path to more reliable, affordable, and sustainable energy through our innovative portfolio of electrification and decarbonization technologies.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Electric Cars, Solar & Clean Energy | Tesla",
+          "link": "https://www.tesla.com/",
+          "snippet": "Tesla is building a world of amazing abundance with AI, electric cars, solar, home batteries and integrated renewable energy solutions for homes and businesses.Megapack. Massive Batteries for Massive ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "sciencedirect.com/journal/renewable-energy",
+          "link": "https://www.sciencedirect.com/journal/renewable-energy",
+          "snippet": "Renewable Energy \u2013 An International Journal.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Masdar | Pioneering Energy Worldwide",
+          "link": "https://masdar.ae/",
+          "snippet": "Deploying renewable energy projects and realising low-carbon urban development.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Hawaiian Hospitality Group A Reseller Of Photovoltaic, A Renewable...",
+          "link": "https://worldofrenewables.com/hawaiian_hospitality_group_a_reseller_of_photovoltaic_a_renewabl/",
+          "snippet": "Driven by demand for renewable energy and advances in technology, the photovoltaic system is an emission-free source of electricity that converts solar radiation into direct current electricity and is",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Amazon.com: 12000W Vertical Axis Wind Turbine, 5-Blade Low Noise...",
+          "link": "https://www.amazon.com/Vertical-Generator-Controller-Efficient-Renewable/dp/B0G64JZW89",
+          "snippet": "Efficient Energy Conversion: This Vertical Wind Turbine offers impressive energy conversion efficiency. Its unique design optimizes wind energy capture, converting it into usable electricity. Perfect ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Anji Anenji Solar Hybrid Inverter 11kw - High Efficiency",
+          "link": "https://www.alibaba.com/product-detail/IN-STOCK-Anji-Anenji-Solar-Hybrid_1601484707000.html",
+          "snippet": "Renewable Energy.Product descriptions from the supplier. Report abuse. $440.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P4": {
+      "query": "find solar energy system integrators",
+      "level": "market_map",
+      "result_count": 8,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Anker SOLIX | Portable Power Stations & Solar Generators",
+          "link": "https://www.ankersolix.com/",
+          "snippet": "Home Battery System. Portable Power Station. Solar Generator.Solar Batteries for Maximum Energy Independence. Store excess solar energy by day, use it by night\u2014reduce grid dependence, lower electricit",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Electric Cars, Solar & Clean Energy | Tesla",
+          "link": "https://www.tesla.com/",
+          "snippet": "Tesla is building a world of amazing abundance with AI, electric cars, solar, home batteries and integrated renewable energy solutions for homes and businesses.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "OnLoop Energy: Small Wind Turbine, Solar and Hybrid Solutions",
+          "link": "https://www.onloopenergy.com/",
+          "snippet": "Solar Energy Systems. Rooftop and ground-mounted solar installations for residential, commercial, industrial, and government applications, engineered for efficiency and durability.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Siemens Energy | Let's make tomorrow different today",
+          "link": "https://www.siemens-energy.com/",
+          "snippet": "Energy technology powering tomorrow's energy systems. Siemens Energy is a leader in energy technology supporting companies and countries worldwide in building resilient, affordable and sustainable ene",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lumenergy - Endless Energy Everyday",
+          "link": "https://lumenergy.in/",
+          "snippet": "Solar Power Plants, Outdoor LED Lighting, Smart City Solutions, EPC, AMC, R&D. We provide end to end solutions in solar energy systems - Lumenergy Innovations.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "5kw Integrate System 230V off Grid Hybrid Solar Wind Power...",
+          "link": "https://tanfon.en.made-in-china.com/product/iOTQxaFDYEhw/China-5kw-Integrate-System-230V-off-Grid-Hybrid-Solar-Wind-Power-System-5kw.html",
+          "snippet": "Main Products: Solar Energy System, Wind Power System, Solar Panel, Solar Inverter, Solar Controller, Solar Battery, PV Combiner, Lithium Ion Batteries, Solar Gnerator, Energy Storage Container.Solar ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "GE Vernova | The Energy of Change",
+          "link": "https://www.gevernova.com/",
+          "snippet": "GE Vernova is accelerating the path to more reliable, affordable, and sustainable energy through our innovative portfolio of electrification and decarbonization technologies.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Fronius International",
+          "link": "https://www.fronius.com/",
+          "snippet": "Fronius Solar & Energy.Use solar energy around the clock with the Fronius Reserva. The high-voltage battery with DC coupling ensures a highly efficient energy transfer. Thanks to its modular capacity ",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Anker SOLIX | Portable Power Stations & Solar Generators",
+          "link": "https://www.ankersolix.com/",
+          "snippet": "Home Battery System. Portable Power Station. Solar Generator.Solar Batteries for Maximum Energy Independence. Store excess solar energy by day, use it by night\u2014reduce grid dependence, lower electricit",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Electric Cars, Solar & Clean Energy | Tesla",
+          "link": "https://www.tesla.com/",
+          "snippet": "Tesla is building a world of amazing abundance with AI, electric cars, solar, home batteries and integrated renewable energy solutions for homes and businesses.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "OnLoop Energy: Small Wind Turbine, Solar and Hybrid Solutions",
+          "link": "https://www.onloopenergy.com/",
+          "snippet": "Solar Energy Systems. Rooftop and ground-mounted solar installations for residential, commercial, industrial, and government applications, engineered for efficiency and durability.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Siemens Energy | Let's make tomorrow different today",
+          "link": "https://www.siemens-energy.com/",
+          "snippet": "Energy technology powering tomorrow's energy systems. Siemens Energy is a leader in energy technology supporting companies and countries worldwide in building resilient, affordable and sustainable ene",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lumenergy - Endless Energy Everyday",
+          "link": "https://lumenergy.in/",
+          "snippet": "Solar Power Plants, Outdoor LED Lighting, Smart City Solutions, EPC, AMC, R&D. We provide end to end solutions in solar energy systems - Lumenergy Innovations.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "5kw Integrate System 230V off Grid Hybrid Solar Wind Power...",
+          "link": "https://tanfon.en.made-in-china.com/product/iOTQxaFDYEhw/China-5kw-Integrate-System-230V-off-Grid-Hybrid-Solar-Wind-Power-System-5kw.html",
+          "snippet": "Main Products: Solar Energy System, Wind Power System, Solar Panel, Solar Inverter, Solar Controller, Solar Battery, PV Combiner, Lithium Ion Batteries, Solar Gnerator, Energy Storage Container.Solar ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "GE Vernova | The Energy of Change",
+          "link": "https://www.gevernova.com/",
+          "snippet": "GE Vernova is accelerating the path to more reliable, affordable, and sustainable energy through our innovative portfolio of electrification and decarbonization technologies.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Fronius International",
+          "link": "https://www.fronius.com/",
+          "snippet": "Fronius Solar & Energy.Use solar energy around the clock with the Fronius Reserva. The high-voltage battery with DC coupling ensures a highly efficient energy transfer. Thanks to its modular capacity ",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P5": {
+      "query": "search for green energy service providers",
+      "level": "market_map",
+      "result_count": 5,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Wind Energy | EuropeanSwitch",
+          "link": "https://www.europeanswitch.com/providers/wind-energy/",
+          "snippet": "Wind Energy Providers. 42 providers listed Updated regularly as new providers are verified.Engie Belgium develops offshore wind, solar and nuclear energy management platforms as one of Belgium's large",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Energy Suppliers, Manufacturer, Distributor, Factories, Alibaba",
+          "link": "https://www.alibaba.com/green-energy-suppliers.html",
+          "snippet": "Alibaba offers 3,649 Green Energy Suppliers, and Green Energy Manufacturers, Distributors, Factories, Companies. There are 2,625 OEM, 2,474 ODM, 891 Self Patent. Find high quality Green Energy Supplie",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Email green, secure, simple and ad-free - posteo.de",
+          "link": "https://posteo.de/en",
+          "snippet": "Posteo: Email, calendar, address book, notes Green, secure, ad-free100% real green energy from Green Planet EnergyAll data can be encrypted at the touch of a buttonNo third-party providers involved in",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nordic Solar - Investing in green energy, creating a clean and...",
+          "link": "https://nordic-solar.tech/",
+          "snippet": "Invest in green energy and support clean technologies.Learn how to start investing in green technology and earn a steady income from renewable energy.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Metropolitan Facilities Solutions | District of Columbia",
+          "link": "https://metrocpcinc.com/",
+          "snippet": "We are a team of qualified green energy service-providers, trying to ensure that your urban development project happens without a glitch.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Wind Energy | EuropeanSwitch",
+          "link": "https://www.europeanswitch.com/providers/wind-energy/",
+          "snippet": "Wind Energy Providers. 42 providers listed Updated regularly as new providers are verified.Engie Belgium develops offshore wind, solar and nuclear energy management platforms as one of Belgium's large",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Green Energy Suppliers, Manufacturer, Distributor, Factories, Alibaba",
+          "link": "https://www.alibaba.com/green-energy-suppliers.html",
+          "snippet": "Alibaba offers 3,649 Green Energy Suppliers, and Green Energy Manufacturers, Distributors, Factories, Companies. There are 2,625 OEM, 2,474 ODM, 891 Self Patent. Find high quality Green Energy Supplie",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Email green, secure, simple and ad-free - posteo.de",
+          "link": "https://posteo.de/en",
+          "snippet": "Posteo: Email, calendar, address book, notes Green, secure, ad-free100% real green energy from Green Planet EnergyAll data can be encrypted at the touch of a buttonNo third-party providers involved in",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nordic Solar - Investing in green energy, creating a clean and...",
+          "link": "https://nordic-solar.tech/",
+          "snippet": "Invest in green energy and support clean technologies.Learn how to start investing in green technology and earn a steady income from renewable energy.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Metropolitan Facilities Solutions | District of Columbia",
+          "link": "https://metrocpcinc.com/",
+          "snippet": "We are a team of qualified green energy service-providers, trying to ensure that your urban development project happens without a glitch.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "find channel partners in renewable energy",
+      "level": "market_map",
+      "result_count": 2,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Sunfraa Green Energy Private Limited | LinkedIn",
+          "link": "https://in.linkedin.com/company/sunfraa-green-energy-private-limited",
+          "snippet": "Our channel partnership with Adani Solar marks a strategic step forward in delivering smarter, future ready energy solutions.Find people you know at Sunfraa Green Energy Private Limited. Browse recomm",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "(I) As the world grapples with the finite nature of fossil fuel reserves and...",
+          "link": "https://khodethi.edu.vn/hoi-dap/i-as-the-world-grapples-with-the-finite-nature-of-fossil-fuel-reserves-and-the-detrimental-impac-x7wdr43egx",
+          "snippet": "The economic impact of transitioning to renewable energy is another critical consideration. While the initial investment in renewable energy infrastructure can be substantial, the long-term benefits i",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Sunfraa Green Energy Private Limited | LinkedIn",
+          "link": "https://in.linkedin.com/company/sunfraa-green-energy-private-limited",
+          "snippet": "Our channel partnership with Adani Solar marks a strategic step forward in delivering smarter, future ready energy solutions.Find people you know at Sunfraa Green Energy Private Limited. Browse recomm",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "(I) As the world grapples with the finite nature of fossil fuel reserves and...",
+          "link": "https://khodethi.edu.vn/hoi-dap/i-as-the-world-grapples-with-the-finite-nature-of-fossil-fuel-reserves-and-the-detrimental-impac-x7wdr43egx",
+          "snippet": "The economic impact of transitioning to renewable energy is another critical consideration. While the initial investment in renewable energy infrastructure can be substantial, the long-term benefits i",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P7": {
+      "query": "green energy equipment distributor official site",
+      "level": "discovery",
+      "result_count": 2,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Photovoltaic Solar | Solar Energy Equipment Distributor & Installer in...",
+          "link": "https://photovoltaicsolar.in/",
+          "snippet": "GREEN ENERGY. Real Solution To Climate Change. Discover Now.Genuine advice based on evaluation of your requirements, solar resource viability at your site, system size, economics involved and availabi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nordic Solar - Investing in green energy, creating a clean and...",
+          "link": "https://nordic-solar.tech/",
+          "snippet": "Invest in green energy and support clean technologies.Learn how to start investing in green technology and earn a steady income from renewable energy.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Photovoltaic Solar | Solar Energy Equipment Distributor & Installer in...",
+          "link": "https://photovoltaicsolar.in/",
+          "snippet": "GREEN ENERGY. Real Solution To Climate Change. Discover Now.Genuine advice based on evaluation of your requirements, solar resource viability at your site, system size, economics involved and availabi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nordic Solar - Investing in green energy, creating a clean and...",
+          "link": "https://nordic-solar.tech/",
+          "snippet": "Invest in green energy and support clean technologies.Learn how to start investing in green technology and earn a steady income from renewable energy.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

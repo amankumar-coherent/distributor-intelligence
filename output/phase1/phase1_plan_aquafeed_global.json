@@ -1,0 +1,1770 @@
+{
+  "phase": 1,
+  "query": "Aquafeed Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T21:22:48.158452+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "aquafeed",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "aquaculture",
+    "industry_terms": [
+      "aquafeed",
+      "fish feed",
+      "shrimp feed",
+      "aquaculture nutrition",
+      "feed additives"
+    ],
+    "ecosystem_functions": [
+      "feed formulation",
+      "logistics management",
+      "retail distribution",
+      "consulting services",
+      "system integration",
+      "wholesale supply",
+      "channel partnerships",
+      "market analysis"
+    ],
+    "interpretation_summary": "The aquafeed market encompasses the production and distribution of feed specifically formulated for aquatic animals, including fish and shellfish. Key participants include manufacturers, distributors, and various channel",
+    "relevance_keywords": [
+      "aquaculture",
+      "feed formulation",
+      "nutritional supplements",
+      "sustainable aquafeed",
+      "marine feed"
+    ],
+    "negative_keywords": [
+      "pet food",
+      "livestock feed",
+      "agriculture",
+      "unrelated industries"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "Cargill Aqua Nutrition",
+        "primary_domain": "cargill.com",
+        "company_function": "aquafeed manufacturer"
+      },
+      {
+        "canonical_name": "Skretting",
+        "primary_domain": "skretting.com",
+        "company_function": "aquafeed manufacturer"
+      },
+      {
+        "canonical_name": "Alltech",
+        "primary_domain": "alltech.com",
+        "company_function": "aquafeed manufacturer"
+      },
+      {
+        "canonical_name": "Nutreco",
+        "primary_domain": "nutreco.com",
+        "company_function": "aquafeed manufacturer"
+      },
+      {
+        "canonical_name": "Beneo",
+        "primary_domain": "beneo.com",
+        "company_function": "aquafeed distributor"
+      },
+      {
+        "canonical_name": "Ridley",
+        "primary_domain": "ridley.com.au",
+        "company_function": "aquafeed distributor"
+      },
+      {
+        "canonical_name": "Hatchery Feed",
+        "primary_domain": "hatcheryfeed.com",
+        "company_function": "aquafeed distributor"
+      },
+      {
+        "canonical_name": "AquaGen",
+        "primary_domain": "aquagen.no",
+        "company_function": "aquafeed distributor"
+      },
+      {
+        "canonical_name": "Aquaculture Systems",
+        "primary_domain": "aquaculturesystems.com",
+        "company_function": "service provider",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Aquafarm Equipment",
+        "primary_domain": "aquafarmequipment.com",
+        "company_function": "system integrator",
+        "segment": "System Integrators",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "AquaBioTech Group",
+        "primary_domain": "aquabt.com",
+        "company_function": "service provider",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "AquaStar",
+        "primary_domain": "aquastar.com",
+        "company_function": "reseller",
+        "segment": "Resellers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Fish Feed Company",
+        "primary_domain": "fishfeedcompany.com",
+        "company_function": "reseller",
+        "segment": "Resellers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Coppens International",
+        "primary_domain": "coppens.com",
+        "company_function": "aquafeed manufacturer",
+        "segment": "Feed Manufacturers",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "aquafeed",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "aquafeed",
+    "include_keywords": [
+      "aquafeed distributors",
+      "aquaculture feed suppliers",
+      "fish feed manufacturers",
+      "shrimp feed wholesalers",
+      "aquaculture service providers"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The aquafeed market encompasses the production and distribution of feed specifically formulated for aquatic animals, including fish and shellfish. Key participants include manufacturers, distributors, and various channel partners that facilitate the delivery of aquafeed products globally.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Manufacturing",
+        "description": "This layer involves the production of aquafeed, including raw material sourcing and formulation.",
+        "segments": [
+          {
+            "segment_name": "Feed Manufacturers",
+            "sub_segments": [
+              "Fish feed",
+              "Shrimp feed",
+              "Specialty feed"
+            ],
+            "participant_types": [
+              "manufacturer"
+            ],
+            "search_intents": [
+              "aquafeed manufacturers official site",
+              "aquaculture feed production companies"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L2",
+        "layer_name": "Distribution",
+        "description": "This layer includes the logistics and distribution of aquafeed products to various markets.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Regional distributors",
+              "International distributors"
+            ],
+            "participant_types": [
+              "distributor"
+            ],
+            "search_intents": [
+              "aquafeed distributors near me",
+              "aquaculture feed distributors"
+            ]
+          },
+          {
+            "segment_name": "Wholesalers",
+            "sub_segments": [
+              "Local wholesalers",
+              "Online wholesalers"
+            ],
+            "participant_types": [
+              "wholesaler"
+            ],
+            "search_intents": [
+              "aquafeed wholesalers official site",
+              "bulk aquaculture feed suppliers"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L3",
+        "layer_name": "Retail and Resale",
+        "description": "This layer involves the retailing and reselling of aquafeed products to end-users.",
+        "segments": [
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Online resellers",
+              "Local resellers"
+            ],
+            "participant_types": [
+              "reseller"
+            ],
+            "search_intents": [
+              "aquafeed resellers official site",
+              "aquaculture feed retailers"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L4",
+        "layer_name": "Service Providers",
+        "description": "This layer includes companies that provide additional services related to aquafeed, such as consulting and integration.",
+        "segments": [
+          {
+            "segment_name": "Service Providers",
+            "sub_segments": [
+              "Consultants",
+              "System Integrators"
+            ],
+            "participant_types": [
+              "service provider",
+              "system integrator"
+            ],
+            "search_intents": [
+              "aquafeed service providers official site",
+              "aquaculture feed consulting services"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Aquaculture Equipment",
+        "Fish Farming",
+        "Marine Biology Research",
+        "Aquatic Veterinary Services"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "search for aquafeed manufacturers official site",
+        "sub_sector": "feed_manufacturer",
+        "layer_id": "L1",
+        "segment": "Feed Manufacturers"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "find aquafeed distributors near me",
+        "sub_sector": "distributor",
+        "layer_id": "L2",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "search for aquafeed wholesalers official site",
+        "sub_sector": "wholesaler",
+        "layer_id": "L2",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "find aquafeed resellers official site",
+        "sub_sector": "reseller",
+        "layer_id": "L3",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M5",
+        "level": "market_map",
+        "text": "search for aquafeed service providers official site",
+        "sub_sector": "service_provider",
+        "layer_id": "L4",
+        "segment": "Service Providers"
+      },
+      {
+        "id": "M6",
+        "level": "market_map",
+        "text": "find aquaculture system integrators",
+        "sub_sector": "system_integrator",
+        "layer_id": "L4",
+        "segment": "System Integrators"
+      },
+      {
+        "id": "M7",
+        "level": "market_map",
+        "text": "search for fish feed manufacturers official site",
+        "sub_sector": "feed_manufacturer",
+        "layer_id": "L1",
+        "segment": "Feed Manufacturers"
+      },
+      {
+        "id": "M8",
+        "level": "market_map",
+        "text": "find shrimp feed manufacturers",
+        "sub_sector": "feed_manufacturer",
+        "layer_id": "L1",
+        "segment": "Feed Manufacturers"
+      },
+      {
+        "id": "M9",
+        "level": "market_map",
+        "text": "search for international aquafeed distributors",
+        "sub_sector": "distributor",
+        "layer_id": "L2",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M10",
+        "level": "market_map",
+        "text": "find online aquafeed resellers",
+        "sub_sector": "reseller",
+        "layer_id": "L3",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M11",
+        "level": "market_map",
+        "text": "search for aquaculture feed consulting services",
+        "sub_sector": "service_provider",
+        "layer_id": "L4",
+        "segment": "Service Providers"
+      },
+      {
+        "id": "M12",
+        "level": "market_map",
+        "text": "search for aquafeed system integration services",
+        "sub_sector": "system_integrator",
+        "layer_id": "L4",
+        "segment": "System Integrators"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "aquaculture",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "aquafeed companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "aquafeed distributors corporate sites"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "aquafeed service providers official site"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "market_map",
+      "text": "search for aquafeed manufacturers official site"
+    },
+    {
+      "id": "P2",
+      "level": "market_map",
+      "text": "find aquafeed distributors near me"
+    },
+    {
+      "id": "P3",
+      "level": "market_map",
+      "text": "search for aquafeed wholesalers official site"
+    },
+    {
+      "id": "P4",
+      "level": "market_map",
+      "text": "find aquafeed resellers official site"
+    },
+    {
+      "id": "P5",
+      "level": "market_map",
+      "text": "search for aquafeed service providers official site"
+    },
+    {
+      "id": "P6",
+      "level": "market_map",
+      "text": "find aquaculture system integrators"
+    },
+    {
+      "id": "P7",
+      "level": "market_map",
+      "text": "search for fish feed manufacturers official site"
+    },
+    {
+      "id": "P8",
+      "level": "market_map",
+      "text": "find shrimp feed manufacturers"
+    },
+    {
+      "id": "P9",
+      "level": "market_map",
+      "text": "search for international aquafeed distributors"
+    },
+    {
+      "id": "P10",
+      "level": "market_map",
+      "text": "find online aquafeed resellers"
+    },
+    {
+      "id": "P11",
+      "level": "market_map",
+      "text": "search for aquaculture feed consulting services"
+    },
+    {
+      "id": "P12",
+      "level": "market_map",
+      "text": "search for aquafeed system integration services"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "aquafeed companies official websites",
+      "level": "L0",
+      "result_count": 14,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Top 100 Aquafeed Companies in 2026 | ensun",
+          "link": "https://ensun.io/search/aquafeed",
+          "snippet": "International Aquafeed. Visita nuestra web.Some interesting numbers and facts about your company results for Aquafeed. Country with most fitting companies. United States.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Aquafeed Companies in the World",
+          "link": "https://www.fortunebusinessinsights.com/blog/top-aquafeed-companies-in-the-world-10719",
+          "snippet": "Below mentioned are the top aquafeed companies functioning in the global market like Cargill Inc., Alltech, Archer Daniels Midland Company, BioMar AS etc.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 9 Aquafeed Companies in India",
+          "link": "https://www.imarcgroup.com/blog/top-indian-aquafeed-companies",
+          "snippet": "Technological Feasibility. Site Selection. Regulatory Compliance.List of Top Companies Operating in the India Aquafeed Industry: The India aquafeed market has several major players including Avanti Fe",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 7 Aquafeed Companies | Verified Market Research",
+          "link": "https://www.verifiedmarketresearch.com/blog/top-aquafeed-companies/",
+          "snippet": "The Global Aquafeed Companies Market report depicts the growth and developments of the market. Take a look at the sample report. Top 7 aquafeed companies adapting fishmeal to plant-based solutions.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Companies in the US Aquafeed Market - Cargill (US) and ADM...",
+          "link": "https://www.marketsandmarkets.com/ResearchInsight/us-aquafeed-companies.asp",
+          "snippet": "US Aquafeed Market. 7500+ companies worldwide approach us every year for their revenue growth initiatives. Global top 2000 strategist rely on us for their growth strategies.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 6 Aquafeed Companies, Providers in Asia Pacific",
+          "link": "https://www.expertmarketresearch.com/blogs/top-aquafeed-companies-in-asia-pacific",
+          "snippet": "Top 6 Companies in the Asia Pacific Aquafeed Market in 2026. Home. Blogs.Aquafeed performs an essential role in providing aquatic species with support for normal growth and health. It also aids in red",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 5 Aquafeed Companies | Global Aquafeed Industry Leaders",
+          "link": "https://www.strategymrc.com/blog/top-aquafeed-companies/",
+          "snippet": "Discover the top 5 aquafeed companies dominating the global aquaculture market in 2025. Learn about their innovations, products, and market impact.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquafeed companies back initiative for fisheries improvement",
+          "link": "https://www.aquafeed.com/newsroom/news/aquafeed-companies-back-initiative-for-fisheries-improvement/",
+          "snippet": "Aquafeed companies joined the initiative. Cargill and Skretting brought their expertise and insights to the development of the concept and have agreed to participate in a pilot project to showcase and",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquafeed Market: Trends, Opportunities and Competitive Analysis",
+          "link": "https://www.lucintel.com/aquafeed-market.aspx",
+          "snippet": "List of Aquafeed Companies Companies in the market compete on the basis of product quality offered.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquafeed Market Size, Share & Trends Report, 2026-2033",
+          "link": "https://www.grandviewresearch.com/industry-analysis/aquafeed-and-aquaculture-additive-market",
+          "snippet": "The company offers species-specific aquafeed solutions for salmon, shrimp, tilapia, and other finfish, leveraging advanced R&D capabilities, precision nutrition technologies, and digital farm advisory",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquafeed.com | LinkedIn",
+          "link": "https://www.linkedin.com/company/aquafeed.com-linx-publishing",
+          "snippet": "Aquafeed.com Portal: A high-traffic hub for daily news and industry updates, exclusive interviews, in-depth market reports, and comprehensive global event coverage. \u2022 Aquafeed Magazine: The sector\u2019s f",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "F3 FIN: Feed Innovation Network",
+          "link": "https://f3fin.org/",
+          "snippet": "Aquafeed Companies. LEARN MORE. Fish Farmers/Operators.The F3 Team welcomes collaboration with governments, NGOs, and companies to attain the goal of sustainable feeds in aquaculture so that our share",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Products | sparos I&D | nutrition in aquaculture",
+          "link": "https://www.sparos.pt/products/",
+          "snippet": "Aquafeed companies to provide tailored client support. Academics to leverage their research.Get a Web app license to run by your own an unlimited number of predictions. Contract our services where we ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nutrition - CAT-Center for Aquaculture Technologies",
+          "link": "https://aquatechcenter.com/services/nutrition/",
+          "snippet": "Who we work with. Organizations interested in developing products for use in aquatic species including: Aquafeed companies. Aquafeed researchers. Aquaculture producers. Animal health companies.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Top 100 Aquafeed Companies in 2026 | ensun",
+          "link": "https://ensun.io/search/aquafeed",
+          "snippet": "International Aquafeed. Visita nuestra web.Some interesting numbers and facts about your company results for Aquafeed. Country with most fitting companies. United States.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Aquafeed Companies in the World",
+          "link": "https://www.fortunebusinessinsights.com/blog/top-aquafeed-companies-in-the-world-10719",
+          "snippet": "Below mentioned are the top aquafeed companies functioning in the global market like Cargill Inc., Alltech, Archer Daniels Midland Company, BioMar AS etc.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 9 Aquafeed Companies in India",
+          "link": "https://www.imarcgroup.com/blog/top-indian-aquafeed-companies",
+          "snippet": "Technological Feasibility. Site Selection. Regulatory Compliance.List of Top Companies Operating in the India Aquafeed Industry: The India aquafeed market has several major players including Avanti Fe",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 7 Aquafeed Companies | Verified Market Research",
+          "link": "https://www.verifiedmarketresearch.com/blog/top-aquafeed-companies/",
+          "snippet": "The Global Aquafeed Companies Market report depicts the growth and developments of the market. Take a look at the sample report. Top 7 aquafeed companies adapting fishmeal to plant-based solutions.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Companies in the US Aquafeed Market - Cargill (US) and ADM...",
+          "link": "https://www.marketsandmarkets.com/ResearchInsight/us-aquafeed-companies.asp",
+          "snippet": "US Aquafeed Market. 7500+ companies worldwide approach us every year for their revenue growth initiatives. Global top 2000 strategist rely on us for their growth strategies.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 6 Aquafeed Companies, Providers in Asia Pacific",
+          "link": "https://www.expertmarketresearch.com/blogs/top-aquafeed-companies-in-asia-pacific",
+          "snippet": "Top 6 Companies in the Asia Pacific Aquafeed Market in 2026. Home. Blogs.Aquafeed performs an essential role in providing aquatic species with support for normal growth and health. It also aids in red",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 5 Aquafeed Companies | Global Aquafeed Industry Leaders",
+          "link": "https://www.strategymrc.com/blog/top-aquafeed-companies/",
+          "snippet": "Discover the top 5 aquafeed companies dominating the global aquaculture market in 2025. Learn about their innovations, products, and market impact.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquafeed companies back initiative for fisheries improvement",
+          "link": "https://www.aquafeed.com/newsroom/news/aquafeed-companies-back-initiative-for-fisheries-improvement/",
+          "snippet": "Aquafeed companies joined the initiative. Cargill and Skretting brought their expertise and insights to the development of the concept and have agreed to participate in a pilot project to showcase and",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquafeed Market: Trends, Opportunities and Competitive Analysis",
+          "link": "https://www.lucintel.com/aquafeed-market.aspx",
+          "snippet": "List of Aquafeed Companies Companies in the market compete on the basis of product quality offered.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquafeed Market Size, Share & Trends Report, 2026-2033",
+          "link": "https://www.grandviewresearch.com/industry-analysis/aquafeed-and-aquaculture-additive-market",
+          "snippet": "The company offers species-specific aquafeed solutions for salmon, shrimp, tilapia, and other finfish, leveraging advanced R&D capabilities, precision nutrition technologies, and digital farm advisory",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquafeed.com | LinkedIn",
+          "link": "https://www.linkedin.com/company/aquafeed.com-linx-publishing",
+          "snippet": "Aquafeed.com Portal: A high-traffic hub for daily news and industry updates, exclusive interviews, in-depth market reports, and comprehensive global event coverage. \u2022 Aquafeed Magazine: The sector\u2019s f",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "F3 FIN: Feed Innovation Network",
+          "link": "https://f3fin.org/",
+          "snippet": "Aquafeed Companies. LEARN MORE. Fish Farmers/Operators.The F3 Team welcomes collaboration with governments, NGOs, and companies to attain the goal of sustainable feeds in aquaculture so that our share",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Products | sparos I&D | nutrition in aquaculture",
+          "link": "https://www.sparos.pt/products/",
+          "snippet": "Aquafeed companies to provide tailored client support. Academics to leverage their research.Get a Web app license to run by your own an unlimited number of predictions. Contract our services where we ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nutrition - CAT-Center for Aquaculture Technologies",
+          "link": "https://aquatechcenter.com/services/nutrition/",
+          "snippet": "Who we work with. Organizations interested in developing products for use in aquatic species including: Aquafeed companies. Aquafeed researchers. Aquaculture producers. Animal health companies.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "aquafeed distributors corporate sites",
+      "level": "L1",
+      "result_count": 18,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "International Aquafeed Directory - International Aquafeed",
+          "link": "https://www.aquafeed.co.uk/companies/international-aquafeed-directory/",
+          "snippet": "International Aquafeed Directory & Buyers' Guide is an easy-to-use publication for manufacturers of fish feed to source suppliers throughout the world. This specialist directory & buyer's guide is pro",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 Leading US Aquafeed Companies to Watch Through 2031",
+          "link": "https://www.marketsandmarkets.com/blog/FB/top-us-aquafeed-companies",
+          "snippet": "Discover the top 10 leading companies shaping the US Aquafeed Market through 2031. Explore innovations in sustainable aquafeed, fish nutrition, functional ingredients, precision feeding, and market gr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - Nutreco Corporate",
+          "link": "https://www.nutreco.com/",
+          "snippet": "Nutreco is a global leader in animal nutrition and aquafeed. Our advanced nutritional solutions are at the origin of food for millions of consumers worldwide.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 100 Aquafeed Companies in 2026 | ensun",
+          "link": "https://ensun.io/search/aquafeed",
+          "snippet": "Aquafeed Nutricao Animal specializes in high-quality feed for fish, particularly tilapia, during their breeding and fattening phases. The company emphasizes innovation and research to enhance product ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 Leading Aquafeed Companies to Watch Through 2031",
+          "link": "https://www.marketsandmarkets.com/blog/FB/key-companies-in-aquafeed",
+          "snippet": "Explore the top 10 aquafeed companies driving innovation through 2031. Discover market leaders, sustainable feed technologies, and growth strategies shaping global aquaculture.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 9 Aquafeed Companies in India - IMARC Group",
+          "link": "https://www.imarcgroup.com/blog/top-indian-aquafeed-companies",
+          "snippet": "List of top Indian Aquafeed Companies including Avanti Feeds Limited, Godrej Agrovet Limited, Growel Feeds Pvt. Ltd, Happy Feeds, IB Group, IFB Agro Industries Limited, Skretting India, Sreema's Feeds",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquafeed Ingredients Supplier | Scoular",
+          "link": "https://www.scoular.com/aquafeed-ingredients/",
+          "snippet": "Here to serve you We're a global partner for aquafeed manufacturers and aquaculture producers, offering safe, high-quality and sustainable solutions, delivered reliably. Whether you need custom marine",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquafeed.com | Your expert aquafeed information platform",
+          "link": "https://www.aquafeed.com/",
+          "snippet": "Aquafeed.com is the only media exclusively dedicated to the aquafeed industry that has been serving the information needs of aquafeed professionals since 1998.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global AquaFeed Market Outlook...",
+          "link": "https://www.vicmarketresearch.com/index.php?c=show&id=183085",
+          "snippet": "Global Market AquaFeed Average Price (USD/MT) of Key Manufacturers (2020-2025) Table 11. Manufacturers AquaFeed Production Sites and Area Served Table 12.AquaFeed Industrial Chain Analysis Figure 69. ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Antibiotic Free Aquafeed Market Research Report 2034",
+          "link": "https://dataintelo.com/report/antibiotic-free-aquafeed-market",
+          "snippet": "The Antibiotic Free Aquafeed market was valued at $8.2 billion in 2025 and is projected to reach $14.7 billion by 2034, growing at 6.8% CAGR.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquafeed-Biomar \u2013 Aquafeed Distribution",
+          "link": "https://www.shop.aquafeed-biomar.ro/",
+          "snippet": "Aquafeed Distribution - Distribuitor furaj BioMar in Romania. BioMar - Lider mondial \u00een diete de \u00eenalt\u0103 performan\u021b\u0103 pentru peste 45 de specii diferite de pe\u0219ti.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquafeed Market | Global Market Analysis Report - 2035",
+          "link": "https://www.futuremarketinsights.com/reports/aquafeed-market",
+          "snippet": "Aquafeed Market Value Analysis. Expansion is anchored in intensive aquaculture and rising interest in sustainable seafood production. Health-oriented formulations support productivity while minimizing",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Philippines Aquafeed Market, Market Size, Major companies, Revenue...",
+          "link": "https://www.tracedataresearch.com/industry-report/philippines-aquafeed-market",
+          "snippet": "The report titled \u201cPhilippines Aquafeed Market Outlook to 2032 \u2013 By Feed Type, By Aquaculture Species, By Form, By Distribution Channel, and By Region\u201d provides a comprehensive analysis of the aquafee",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Japan Aquafeed Market Research Report and Forecast 2034",
+          "link": "https://www.imarcgroup.com/japan-aquafeed-market",
+          "snippet": "Technological Feasibility. Site Selection. Regulatory Compliance. Consumer Insights & Behavior Research.Japan Aquafeed Market Size, Share, Trends and Forecast by End User, Ingredient, and Product Form",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Absolute Reports\u00ae - Global Aquafeed Market",
+          "link": "https://www.absolutereports.com/global-aquafeed-market-21608345",
+          "snippet": "Request sample of market research report on Global Aquafeed Market. Explore detailed TOC, tables and figures of Global Aquafeed Market.AquaFeed Industrial Chain Analysis Figure 68. Channels of Distrib",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global AquaFeed Sales Market Report, Competitive Analysis and...",
+          "link": "https://www.themarketreports.com/report/global-aquafeed-sales-market-report-competitive-analysis-and-regional-opportunities",
+          "snippet": "Manufacturing Process Analysis of AquaFeed Figure 44. AquaFeed Industrial Chain Figure 45. Channels of Distribution (Direct Vs Distribution) Figure 46. Distributors Profiles Figure 47. Bottom-up and T",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Amalgam Foods",
+          "link": "https://amalgamfoods.com/",
+          "snippet": "Amalgam Nutrients & Feeds Amalgam Nutrients & Feeds Ltd. specializes in production of ingredients for the Poultry feed and Aquafeed Industry.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquaculture Feed and Nutrition Companies - Tracxn",
+          "link": "https://tracxn.com/d/sectors/aquaculture-feed-and-nutrition/__2JSYvPz-XE3kvi-pMS5PITbmgpLAdK0E6D8e9q32Btg/companies",
+          "snippet": "Here is a List of top companies in Aquaculture Feed and Nutrition 1. Avanti Feeds Integrated seafood company, shrimp exporter, aquafeed manufacturer, committed to sustainability. The company operates ",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "International Aquafeed Directory - International Aquafeed",
+          "link": "https://www.aquafeed.co.uk/companies/international-aquafeed-directory/",
+          "snippet": "International Aquafeed Directory & Buyers' Guide is an easy-to-use publication for manufacturers of fish feed to source suppliers throughout the world. This specialist directory & buyer's guide is pro",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 Leading US Aquafeed Companies to Watch Through 2031",
+          "link": "https://www.marketsandmarkets.com/blog/FB/top-us-aquafeed-companies",
+          "snippet": "Discover the top 10 leading companies shaping the US Aquafeed Market through 2031. Explore innovations in sustainable aquafeed, fish nutrition, functional ingredients, precision feeding, and market gr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - Nutreco Corporate",
+          "link": "https://www.nutreco.com/",
+          "snippet": "Nutreco is a global leader in animal nutrition and aquafeed. Our advanced nutritional solutions are at the origin of food for millions of consumers worldwide.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 100 Aquafeed Companies in 2026 | ensun",
+          "link": "https://ensun.io/search/aquafeed",
+          "snippet": "Aquafeed Nutricao Animal specializes in high-quality feed for fish, particularly tilapia, during their breeding and fattening phases. The company emphasizes innovation and research to enhance product ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 Leading Aquafeed Companies to Watch Through 2031",
+          "link": "https://www.marketsandmarkets.com/blog/FB/key-companies-in-aquafeed",
+          "snippet": "Explore the top 10 aquafeed companies driving innovation through 2031. Discover market leaders, sustainable feed technologies, and growth strategies shaping global aquaculture.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 9 Aquafeed Companies in India - IMARC Group",
+          "link": "https://www.imarcgroup.com/blog/top-indian-aquafeed-companies",
+          "snippet": "List of top Indian Aquafeed Companies including Avanti Feeds Limited, Godrej Agrovet Limited, Growel Feeds Pvt. Ltd, Happy Feeds, IB Group, IFB Agro Industries Limited, Skretting India, Sreema's Feeds",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquafeed Ingredients Supplier | Scoular",
+          "link": "https://www.scoular.com/aquafeed-ingredients/",
+          "snippet": "Here to serve you We're a global partner for aquafeed manufacturers and aquaculture producers, offering safe, high-quality and sustainable solutions, delivered reliably. Whether you need custom marine",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquafeed.com | Your expert aquafeed information platform",
+          "link": "https://www.aquafeed.com/",
+          "snippet": "Aquafeed.com is the only media exclusively dedicated to the aquafeed industry that has been serving the information needs of aquafeed professionals since 1998.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global AquaFeed Market Outlook...",
+          "link": "https://www.vicmarketresearch.com/index.php?c=show&id=183085",
+          "snippet": "Global Market AquaFeed Average Price (USD/MT) of Key Manufacturers (2020-2025) Table 11. Manufacturers AquaFeed Production Sites and Area Served Table 12.AquaFeed Industrial Chain Analysis Figure 69. ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Antibiotic Free Aquafeed Market Research Report 2034",
+          "link": "https://dataintelo.com/report/antibiotic-free-aquafeed-market",
+          "snippet": "The Antibiotic Free Aquafeed market was valued at $8.2 billion in 2025 and is projected to reach $14.7 billion by 2034, growing at 6.8% CAGR.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquafeed-Biomar \u2013 Aquafeed Distribution",
+          "link": "https://www.shop.aquafeed-biomar.ro/",
+          "snippet": "Aquafeed Distribution - Distribuitor furaj BioMar in Romania. BioMar - Lider mondial \u00een diete de \u00eenalt\u0103 performan\u021b\u0103 pentru peste 45 de specii diferite de pe\u0219ti.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquafeed Market | Global Market Analysis Report - 2035",
+          "link": "https://www.futuremarketinsights.com/reports/aquafeed-market",
+          "snippet": "Aquafeed Market Value Analysis. Expansion is anchored in intensive aquaculture and rising interest in sustainable seafood production. Health-oriented formulations support productivity while minimizing",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Philippines Aquafeed Market, Market Size, Major companies, Revenue...",
+          "link": "https://www.tracedataresearch.com/industry-report/philippines-aquafeed-market",
+          "snippet": "The report titled \u201cPhilippines Aquafeed Market Outlook to 2032 \u2013 By Feed Type, By Aquaculture Species, By Form, By Distribution Channel, and By Region\u201d provides a comprehensive analysis of the aquafee",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Japan Aquafeed Market Research Report and Forecast 2034",
+          "link": "https://www.imarcgroup.com/japan-aquafeed-market",
+          "snippet": "Technological Feasibility. Site Selection. Regulatory Compliance. Consumer Insights & Behavior Research.Japan Aquafeed Market Size, Share, Trends and Forecast by End User, Ingredient, and Product Form",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Absolute Reports\u00ae - Global Aquafeed Market",
+          "link": "https://www.absolutereports.com/global-aquafeed-market-21608345",
+          "snippet": "Request sample of market research report on Global Aquafeed Market. Explore detailed TOC, tables and figures of Global Aquafeed Market.AquaFeed Industrial Chain Analysis Figure 68. Channels of Distrib",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global AquaFeed Sales Market Report, Competitive Analysis and...",
+          "link": "https://www.themarketreports.com/report/global-aquafeed-sales-market-report-competitive-analysis-and-regional-opportunities",
+          "snippet": "Manufacturing Process Analysis of AquaFeed Figure 44. AquaFeed Industrial Chain Figure 45. Channels of Distribution (Direct Vs Distribution) Figure 46. Distributors Profiles Figure 47. Bottom-up and T",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Amalgam Foods",
+          "link": "https://amalgamfoods.com/",
+          "snippet": "Amalgam Nutrients & Feeds Amalgam Nutrients & Feeds Ltd. specializes in production of ingredients for the Poultry feed and Aquafeed Industry.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquaculture Feed and Nutrition Companies - Tracxn",
+          "link": "https://tracxn.com/d/sectors/aquaculture-feed-and-nutrition/__2JSYvPz-XE3kvi-pMS5PITbmgpLAdK0E6D8e9q32Btg/companies",
+          "snippet": "Here is a List of top companies in Aquaculture Feed and Nutrition 1. Avanti Feeds Integrated seafood company, shrimp exporter, aquafeed manufacturer, committed to sustainability. The company operates ",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "aquafeed service providers official site",
+      "level": "L2",
+      "result_count": 16,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Aquafeed Manufacturers Solutions | Scoular",
+          "link": "https://www.scoular.com/who-we-serve/aquaculture-feed-manufacturers/",
+          "snippet": "Depend on Scoular for aquafeed ingredients that meet nutritional specs and on-time delivery. Discover the difference.This provides stable, well-paying jobs to the local municipalities, while at the sa",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquafeed Manufacturers - Vietfeeds Feed Ingredients from Vietnam",
+          "link": "https://vietfeeds.com/who-we-serve/aquafeed-manufacturers/",
+          "snippet": "About us. Sustainability. Who We Serve.aquafeed manufacturers pictures. Count on Vietfeeds for reliable aquaculture feed ingredients. Contact Us. Vietfeeds partners with aquafeed producers who require",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquafeed Manufacturers \u2013 C&D Commodities Limited",
+          "link": "https://cndcommodities.asia/who-we-serve/aquafeed-manufacturers/",
+          "snippet": "Who We Serve. Farmers. Grain Processors. Animal Feed Manufacturers.Customized Aquafeed Solutions. At CND Commodities, we understand that aquafeed manufacturers require high-quality and sustainable ing",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Indian insect company certified to use its products in aquafeeds",
+          "link": "https://www.aquafeed.com/products/suppliers-news/indian-insect-company-certified-to-use-its-products-in-aquafeeds/",
+          "snippet": "Loopworm secured CAA approval for its insect-based aquafeed in India and is already exporting protein to a global salmon feed manufacturer.Suscribe to aquafeed.com. Stay up to date on the latest news ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Market Research Reports and Consulting \u2013 Global Insight Services...",
+          "link": "https://www.globalinsightservices.com/reports/aquafeed-market/",
+          "snippet": "The global aquafeed market is increasingly influenced by tariffs and geopolitical tensions, notably affecting supply chains in Europe and Asia. In Europe, Germany's aquafeed sector adapts by sourcing ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquafeed Market: Sustainable Growth & Innovations 2024-2025",
+          "link": "https://www.nextmsc.com/news/aquafeed-market-evolves-with-sustainable-innovations-in-2024-2025",
+          "snippet": "Explore the aquafeed market's latest trends, sustainable innovations, key players, and growth regions in 2024-2025.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "USSEC Provides Technical Service to Aquafeed and Fish Producers...",
+          "link": "https://ussec.org/news/ussec-technical-service-aquafeed-fish-producers-colombia/",
+          "snippet": "They agreed that USSEC would provide support to the feed producer through providing technical service to its customers and working with big trout customers in Colombia\u2019s Pereira and Popayan regions.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquafeed.com | Your expert aquafeed information platform",
+          "link": "https://www.aquafeed.com/",
+          "snippet": "Aquafeed.com is the only media exclusively dedicated to the aquafeed industry that has been serving the information needs of aquafeed professionals since 1998.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "TATEH Aquafeeds",
+          "link": "https://www.tateh.com/services",
+          "snippet": "Quality Sales And Technical Service We offer reliable technical support to aquafarmers, including assistance with operations, water quality monitoring, cage visits, and expert advice. Our skilled team",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "International Aquafeed Directory - International Aquafeed",
+          "link": "https://www.aquafeed.co.uk/companies/international-aquafeed-directory/",
+          "snippet": "International Aquafeed Directory & Buyers' Guide is an easy-to-use publication for manufacturers of fish feed to source suppliers throughout the world. This specialist directory & buyer's guide is pro",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Contact Aquafeed Specialists | Scoular",
+          "link": "https://www.scoular.com/aquafeed-contact/",
+          "snippet": "Work with our aquafeed experts to create solutions tailored to your aquaculture needs. Contact us today to get started.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquaculture Feed | Aquafeeds For Warm & Cold Water Fish | Cargill",
+          "link": "https://www.cargill.com/animal-nutrition/species/aquaculture",
+          "snippet": "5 great reasons to choose Cargill for aquaculture Why choose Cargill for aquaculture? Experience - EWOS has been in the aqua feed market for about 80 years, and Cargill has 120 years of experience in ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Enzyme Treated Pre Digested Fishmeal Protein Hydrolysate Powder...",
+          "link": "https://www.ecer.com/corp/details-uuu5chg-put2rkt-enzyme-treated-pre-digested-fishmeal-protein-hydrolysate-powder-for-aquafeed-industry.html",
+          "snippet": "Enzyme treated or \u2018pre digested\u2019 fishmeals have become a well desired commodity within the aquafeed industry. This hydrolysate is spray dried to achieve a fine powder with a particle size of around 50",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Zoonomi SA | \u0396\u03c9\u03bf\u03bd\u03bf\u03bc\u03ae \u0391\u0392\u0395\u0395",
+          "link": "https://www.zoonomi.gr/en/",
+          "snippet": "Excellent Quality Raw Materials. Premium Quality Aquafeeds. \u00abThe company\u2019s goal in each of its actions is to achieve quality.The quality of products & services: ISO 9001.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquaculture Nutrition Solutions - ADM",
+          "link": "https://www.adm.com/en-us/products-services/animal-nutrition/species/aquaculture/",
+          "snippet": "A Go-to Partner for Aquaculture Feed Turn to ADM for innovative nutritional solutions and services that lead to stronger, healthier fish and shrimp. We help aquafeed manufacturers build their unique r",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Symrise Aqua Feed",
+          "link": "https://aquafeed.symrise.com/",
+          "snippet": "Symrise Aqua Feed specializes in developing, testing, and manufacturing sustainable ingredients and palatability enhancers for high-performance aquafeeds with a low carbon footprint.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Aquafeed Manufacturers Solutions | Scoular",
+          "link": "https://www.scoular.com/who-we-serve/aquaculture-feed-manufacturers/",
+          "snippet": "Depend on Scoular for aquafeed ingredients that meet nutritional specs and on-time delivery. Discover the difference.This provides stable, well-paying jobs to the local municipalities, while at the sa",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquafeed Manufacturers - Vietfeeds Feed Ingredients from Vietnam",
+          "link": "https://vietfeeds.com/who-we-serve/aquafeed-manufacturers/",
+          "snippet": "About us. Sustainability. Who We Serve.aquafeed manufacturers pictures. Count on Vietfeeds for reliable aquaculture feed ingredients. Contact Us. Vietfeeds partners with aquafeed producers who require",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquafeed Manufacturers \u2013 C&D Commodities Limited",
+          "link": "https://cndcommodities.asia/who-we-serve/aquafeed-manufacturers/",
+          "snippet": "Who We Serve. Farmers. Grain Processors. Animal Feed Manufacturers.Customized Aquafeed Solutions. At CND Commodities, we understand that aquafeed manufacturers require high-quality and sustainable ing",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Indian insect company certified to use its products in aquafeeds",
+          "link": "https://www.aquafeed.com/products/suppliers-news/indian-insect-company-certified-to-use-its-products-in-aquafeeds/",
+          "snippet": "Loopworm secured CAA approval for its insect-based aquafeed in India and is already exporting protein to a global salmon feed manufacturer.Suscribe to aquafeed.com. Stay up to date on the latest news ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Market Research Reports and Consulting \u2013 Global Insight Services...",
+          "link": "https://www.globalinsightservices.com/reports/aquafeed-market/",
+          "snippet": "The global aquafeed market is increasingly influenced by tariffs and geopolitical tensions, notably affecting supply chains in Europe and Asia. In Europe, Germany's aquafeed sector adapts by sourcing ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquafeed Market: Sustainable Growth & Innovations 2024-2025",
+          "link": "https://www.nextmsc.com/news/aquafeed-market-evolves-with-sustainable-innovations-in-2024-2025",
+          "snippet": "Explore the aquafeed market's latest trends, sustainable innovations, key players, and growth regions in 2024-2025.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "USSEC Provides Technical Service to Aquafeed and Fish Producers...",
+          "link": "https://ussec.org/news/ussec-technical-service-aquafeed-fish-producers-colombia/",
+          "snippet": "They agreed that USSEC would provide support to the feed producer through providing technical service to its customers and working with big trout customers in Colombia\u2019s Pereira and Popayan regions.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquafeed.com | Your expert aquafeed information platform",
+          "link": "https://www.aquafeed.com/",
+          "snippet": "Aquafeed.com is the only media exclusively dedicated to the aquafeed industry that has been serving the information needs of aquafeed professionals since 1998.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "TATEH Aquafeeds",
+          "link": "https://www.tateh.com/services",
+          "snippet": "Quality Sales And Technical Service We offer reliable technical support to aquafarmers, including assistance with operations, water quality monitoring, cage visits, and expert advice. Our skilled team",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "International Aquafeed Directory - International Aquafeed",
+          "link": "https://www.aquafeed.co.uk/companies/international-aquafeed-directory/",
+          "snippet": "International Aquafeed Directory & Buyers' Guide is an easy-to-use publication for manufacturers of fish feed to source suppliers throughout the world. This specialist directory & buyer's guide is pro",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Contact Aquafeed Specialists | Scoular",
+          "link": "https://www.scoular.com/aquafeed-contact/",
+          "snippet": "Work with our aquafeed experts to create solutions tailored to your aquaculture needs. Contact us today to get started.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquaculture Feed | Aquafeeds For Warm & Cold Water Fish | Cargill",
+          "link": "https://www.cargill.com/animal-nutrition/species/aquaculture",
+          "snippet": "5 great reasons to choose Cargill for aquaculture Why choose Cargill for aquaculture? Experience - EWOS has been in the aqua feed market for about 80 years, and Cargill has 120 years of experience in ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Enzyme Treated Pre Digested Fishmeal Protein Hydrolysate Powder...",
+          "link": "https://www.ecer.com/corp/details-uuu5chg-put2rkt-enzyme-treated-pre-digested-fishmeal-protein-hydrolysate-powder-for-aquafeed-industry.html",
+          "snippet": "Enzyme treated or \u2018pre digested\u2019 fishmeals have become a well desired commodity within the aquafeed industry. This hydrolysate is spray dried to achieve a fine powder with a particle size of around 50",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Zoonomi SA | \u0396\u03c9\u03bf\u03bd\u03bf\u03bc\u03ae \u0391\u0392\u0395\u0395",
+          "link": "https://www.zoonomi.gr/en/",
+          "snippet": "Excellent Quality Raw Materials. Premium Quality Aquafeeds. \u00abThe company\u2019s goal in each of its actions is to achieve quality.The quality of products & services: ISO 9001.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquaculture Nutrition Solutions - ADM",
+          "link": "https://www.adm.com/en-us/products-services/animal-nutrition/species/aquaculture/",
+          "snippet": "A Go-to Partner for Aquaculture Feed Turn to ADM for innovative nutritional solutions and services that lead to stronger, healthier fish and shrimp. We help aquafeed manufacturers build their unique r",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Symrise Aqua Feed",
+          "link": "https://aquafeed.symrise.com/",
+          "snippet": "Symrise Aqua Feed specializes in developing, testing, and manufacturing sustainable ingredients and palatability enhancers for high-performance aquafeeds with a low carbon footprint.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "search for aquafeed manufacturers official site",
+      "level": "market_map",
+      "result_count": 14,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Aquafeed.com | Your expert aquafeed information platform",
+          "link": "https://www.aquafeed.com/",
+          "snippet": "Jul 1, 2026 \u00b7 Aquafeed.com is the only media exclusively dedicated to the aquafeed industry that has been serving the information needs of aquafeed professionals since 1998.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 100 Aquafeed Companies in 2026 | ensun",
+          "link": "https://ensun.io/search/aquafeed",
+          "snippet": "Top Aquafeed Companies. The B2B platform for the best purchasing decision. Identify and compare relevant B2B manufacturers, suppliers and retailers. Supplier discovery.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquafeed Manufacturers Solutions | Scoular",
+          "link": "https://www.scoular.com/who-we-serve/aquaculture-feed-manufacturers/",
+          "snippet": "Home > Who we serve > Aquafeed manufacturers. Aquafeed Manufacturers. Aerial view of fish farms in the ocean, showcasing floating nets and structures for aquaculture. Your partner for premium ingredie",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Certification programs for aquafeed manufacturing - Responsible...",
+          "link": "https://www.globalseafood.org/advocate/certification-programs-for-aquafeed-manufacturing/",
+          "snippet": "Eliminating \u2018audit fatigue\u2019 and other efficiencies will benefit all stakeholders. aquafeed manufacturing. Planned cooperation among leading programs should streamline the certification process for fee",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquafeed Manufacturers - Vietfeeds Feed Ingredients from Vietnam",
+          "link": "https://vietfeeds.com/who-we-serve/aquafeed-manufacturers/",
+          "snippet": "Contact us. Search for: English.aquafeed manufacturers pictures. Count on Vietfeeds for reliable aquaculture feed ingredients. Contact Us. Vietfeeds partners with aquafeed producers who require consis",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Fish Feed Manufacturers in the USA Reviewed",
+          "link": "https://www.sohoify.com/top-10-fish-feed-manufacturers-in-usa/",
+          "snippet": "Cons. Website. Welcome to Zeigler Feed Manufacturing. Aquaculture, Animal & Research \u2026Aquaculture Feed. Aquafeeds For Warm & Cold Water Fish. Cargill. Aquafeed Manufacturers Solutions. Scoular.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Oxivia\u2122 Range of Antioxidants for Aquafeed | Kemin South Asia",
+          "link": "https://www.kemin.com/in/en/markets/aquaculture/products/oxivia",
+          "snippet": "Oxivia\u2122. Harmful effects of Oxidation in Aquafeed. Oxidation is the irreversible process by which oxygen combines with nutrients in an ingredient or finished diet, creating rancidity and decreasing th",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquafeed Manufacturers | Yellow Pages Vietnam",
+          "link": "https://www.yellowpages.com.vn/tagclass/20491098/aquafeed-manufacturers.html",
+          "snippet": "Source from 22 verified Aquafeed Manufacturers in Vietnam. B2B suppliers used by FDI enterprises for domestic sourcing on Yellow Pages Vietnam.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "International Aquafeed Directory - International Aquafeed",
+          "link": "https://www.aquafeed.co.uk/companies/international-aquafeed-directory/",
+          "snippet": "19 hours ago \u00b7 International Aquafeed Directory & Buyers\u2019 Guide is an easy-to-use publication for manufacturers of fish feed to source suppliers throughout the world.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquafeed.com | Products",
+          "link": "https://www.aquafeed.com/products/",
+          "snippet": "The redesigned ECS 2.0 combines energy savings, easier maintenance and more precise pellet density control for aquafeed manufacturers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 100 Aquafeed Companies in United States (2026) | ensun",
+          "link": "https://ensun.io/search/aquafeed/united-states",
+          "snippet": "Discover all relevant Aquafeed Companies in United States, including Kemin Industries and Archer Daniels Midland Company",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "CFI report highlights single-cell proteins as scalable fishmeal...",
+          "link": "https://www.feedbusinessmea.com/2026/05/20/cfi-report-highlights-single-cell-proteins-as-scalable-fishmeal-alternative-for-aquafeed-industry/",
+          "snippet": "\u2022 Aquafeed manufacturers should strengthen partnerships, validate performance, and secure offtake agreements. \u2022 Investors are encouraged to fund large-scale production facilities to accelerate economi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - Nutreco Corporate",
+          "link": "https://www.nutreco.com/",
+          "snippet": "Nutreco is a global leader in animal nutrition and aquafeed. Our advanced nutritional solutions are at the origin of food for millions of consumers worldwide.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquaculture Nutrition Solutions - ADM",
+          "link": "https://www.adm.com/en-us/products-services/animal-nutrition/species/aquaculture/",
+          "snippet": "We help aquafeed manufacturers build their unique range of products and customize fish and shrimp feed for different physiological stages and specificities like rearing systems and feeding regime.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Aquafeed.com | Your expert aquafeed information platform",
+          "link": "https://www.aquafeed.com/",
+          "snippet": "Jul 1, 2026 \u00b7 Aquafeed.com is the only media exclusively dedicated to the aquafeed industry that has been serving the information needs of aquafeed professionals since 1998.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 100 Aquafeed Companies in 2026 | ensun",
+          "link": "https://ensun.io/search/aquafeed",
+          "snippet": "Top Aquafeed Companies. The B2B platform for the best purchasing decision. Identify and compare relevant B2B manufacturers, suppliers and retailers. Supplier discovery.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquafeed Manufacturers Solutions | Scoular",
+          "link": "https://www.scoular.com/who-we-serve/aquaculture-feed-manufacturers/",
+          "snippet": "Home > Who we serve > Aquafeed manufacturers. Aquafeed Manufacturers. Aerial view of fish farms in the ocean, showcasing floating nets and structures for aquaculture. Your partner for premium ingredie",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Certification programs for aquafeed manufacturing - Responsible...",
+          "link": "https://www.globalseafood.org/advocate/certification-programs-for-aquafeed-manufacturing/",
+          "snippet": "Eliminating \u2018audit fatigue\u2019 and other efficiencies will benefit all stakeholders. aquafeed manufacturing. Planned cooperation among leading programs should streamline the certification process for fee",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquafeed Manufacturers - Vietfeeds Feed Ingredients from Vietnam",
+          "link": "https://vietfeeds.com/who-we-serve/aquafeed-manufacturers/",
+          "snippet": "Contact us. Search for: English.aquafeed manufacturers pictures. Count on Vietfeeds for reliable aquaculture feed ingredients. Contact Us. Vietfeeds partners with aquafeed producers who require consis",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Fish Feed Manufacturers in the USA Reviewed",
+          "link": "https://www.sohoify.com/top-10-fish-feed-manufacturers-in-usa/",
+          "snippet": "Cons. Website. Welcome to Zeigler Feed Manufacturing. Aquaculture, Animal & Research \u2026Aquaculture Feed. Aquafeeds For Warm & Cold Water Fish. Cargill. Aquafeed Manufacturers Solutions. Scoular.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Oxivia\u2122 Range of Antioxidants for Aquafeed | Kemin South Asia",
+          "link": "https://www.kemin.com/in/en/markets/aquaculture/products/oxivia",
+          "snippet": "Oxivia\u2122. Harmful effects of Oxidation in Aquafeed. Oxidation is the irreversible process by which oxygen combines with nutrients in an ingredient or finished diet, creating rancidity and decreasing th",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquafeed Manufacturers | Yellow Pages Vietnam",
+          "link": "https://www.yellowpages.com.vn/tagclass/20491098/aquafeed-manufacturers.html",
+          "snippet": "Source from 22 verified Aquafeed Manufacturers in Vietnam. B2B suppliers used by FDI enterprises for domestic sourcing on Yellow Pages Vietnam.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "International Aquafeed Directory - International Aquafeed",
+          "link": "https://www.aquafeed.co.uk/companies/international-aquafeed-directory/",
+          "snippet": "19 hours ago \u00b7 International Aquafeed Directory & Buyers\u2019 Guide is an easy-to-use publication for manufacturers of fish feed to source suppliers throughout the world.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquafeed.com | Products",
+          "link": "https://www.aquafeed.com/products/",
+          "snippet": "The redesigned ECS 2.0 combines energy savings, easier maintenance and more precise pellet density control for aquafeed manufacturers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 100 Aquafeed Companies in United States (2026) | ensun",
+          "link": "https://ensun.io/search/aquafeed/united-states",
+          "snippet": "Discover all relevant Aquafeed Companies in United States, including Kemin Industries and Archer Daniels Midland Company",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "CFI report highlights single-cell proteins as scalable fishmeal...",
+          "link": "https://www.feedbusinessmea.com/2026/05/20/cfi-report-highlights-single-cell-proteins-as-scalable-fishmeal-alternative-for-aquafeed-industry/",
+          "snippet": "\u2022 Aquafeed manufacturers should strengthen partnerships, validate performance, and secure offtake agreements. \u2022 Investors are encouraged to fund large-scale production facilities to accelerate economi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - Nutreco Corporate",
+          "link": "https://www.nutreco.com/",
+          "snippet": "Nutreco is a global leader in animal nutrition and aquafeed. Our advanced nutritional solutions are at the origin of food for millions of consumers worldwide.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquaculture Nutrition Solutions - ADM",
+          "link": "https://www.adm.com/en-us/products-services/animal-nutrition/species/aquaculture/",
+          "snippet": "We help aquafeed manufacturers build their unique range of products and customize fish and shrimp feed for different physiological stages and specificities like rearing systems and feeding regime.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P2": {
+      "query": "find aquafeed distributors near me",
+      "level": "market_map",
+      "result_count": 5,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Aquafeed Market | Global Market Analysis Report - 2035",
+          "link": "https://www.futuremarketinsights.com/reports/aquafeed-market",
+          "snippet": "Aquafeed Market Size, Market Forecast and Outlook By FMI. The aquafeed market is expected to expand from USD 56.6 Billion in 2025 to USD 109.2 Billion by 2035 with a CAGR of 6.8%.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Japan Aquafeed Market Research Report and Forecast 2034",
+          "link": "https://www.imarcgroup.com/japan-aquafeed-market",
+          "snippet": "Japan Aquafeed Market Size, Share, Trends and Forecast by End User, Ingredient, and Product Form, 2026-2034.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquafeed making equipment - Making.com",
+          "link": "https://making.com/aquafeed",
+          "snippet": "Aquafeed. Find innovative production technology for making aquafeed and connect directly with world-leading specialists.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquafeed-Biomar \u2013 Aquafeed Distribution",
+          "link": "https://www.shop.aquafeed-biomar.ro/",
+          "snippet": "Aquafeed Distribution - Distribuitor furaj BioMar in Romania. BioMar - Lider mondial \u00een diete de \u00eenalt\u0103 performan\u021b\u0103 pentru peste 45 de specii diferite de pe\u0219ti.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquaculture Feed Market: Nutritional Solutions for Sustainable...",
+          "link": "https://grovly.com/aquaculture-feed-market/",
+          "snippet": "Key components of the aquaculture feed industry include: Feed Manufacturers: Feed manufacturers produce and distribute aquafeeds to aquaculture producers, utilizing raw materials such as fishmeal, fis",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Aquafeed Market | Global Market Analysis Report - 2035",
+          "link": "https://www.futuremarketinsights.com/reports/aquafeed-market",
+          "snippet": "Aquafeed Market Size, Market Forecast and Outlook By FMI. The aquafeed market is expected to expand from USD 56.6 Billion in 2025 to USD 109.2 Billion by 2035 with a CAGR of 6.8%.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Japan Aquafeed Market Research Report and Forecast 2034",
+          "link": "https://www.imarcgroup.com/japan-aquafeed-market",
+          "snippet": "Japan Aquafeed Market Size, Share, Trends and Forecast by End User, Ingredient, and Product Form, 2026-2034.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquafeed making equipment - Making.com",
+          "link": "https://making.com/aquafeed",
+          "snippet": "Aquafeed. Find innovative production technology for making aquafeed and connect directly with world-leading specialists.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquafeed-Biomar \u2013 Aquafeed Distribution",
+          "link": "https://www.shop.aquafeed-biomar.ro/",
+          "snippet": "Aquafeed Distribution - Distribuitor furaj BioMar in Romania. BioMar - Lider mondial \u00een diete de \u00eenalt\u0103 performan\u021b\u0103 pentru peste 45 de specii diferite de pe\u0219ti.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquaculture Feed Market: Nutritional Solutions for Sustainable...",
+          "link": "https://grovly.com/aquaculture-feed-market/",
+          "snippet": "Key components of the aquaculture feed industry include: Feed Manufacturers: Feed manufacturers produce and distribute aquafeeds to aquaculture producers, utilizing raw materials such as fishmeal, fis",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P3": {
+      "query": "search for aquafeed wholesalers official site",
+      "level": "market_map",
+      "result_count": 6,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Aquafeed Export Companies List | TurkishExporter b2b platform",
+          "link": "https://www.turkishexporter.com.tr/en/companies/aquafeed.htm",
+          "snippet": "Aquafeed manufacturers, Aquafeed export companies list - B2b wholesalers, exporters, suppliers worldwide.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Volare to open Finland's first insect-for-aquafeed fly farm | The Fish Site",
+          "link": "https://thefishsite.com/articles/volare-to-open-finlands-first-insect-for-aquafeed-fly-farm",
+          "snippet": "Site search.How Volare's fly farm should appear when completed. The startup aims to produce 5,000 tonnes of insect-based proteins and lipids a year and will be targetting the aquafeed sector as well a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquafeed Market | Global Market Analysis Report - 2035",
+          "link": "https://www.futuremarketinsights.com/reports/aquafeed-market",
+          "snippet": "Aquafeed Market Size, Market Forecast and Outlook By FMI. The aquafeed market is expected to expand from USD 56.6 Billion in 2025 to USD 109.2 Billion by 2035 with a CAGR of 6.8%.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquafeed | Wedolist Web Directories",
+          "link": "https://www.wedolist.com/website/aquafeed/",
+          "snippet": "Search forKeywords: Aquaculture feed. Website ID: 190. Date Added: January 22, 2025.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Yalelo Zambia opens 100th retail store as aquaculture firm expands...",
+          "link": "https://www.feedbusinessmea.com/2026/07/20/yalelo-zambia-opens-100th-retail-store-as-aquaculture-firm-expands-nationwide-footprint/",
+          "snippet": "Anpario expands feed additive portfolio with global rollout of AmpLIPhy and QuadriCal. CFI report highlights single-cell proteins as scalable fishmeal alternative for aquafeed industry.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Enzyme Treated Pre Digested Fishmeal Protein Hydrolysate Powder...",
+          "link": "https://www.ecer.com/corp/details-uuu5chg-put2rkt-enzyme-treated-pre-digested-fishmeal-protein-hydrolysate-powder-for-aquafeed-industry.html",
+          "snippet": "About This Product. Enzyme treated pre digested fishmeal water soluble suitable for aquafeed industry. Enzyme treated or \u2018pre digested\u2019 fishmeals have become a well desired commodity within the aquafe",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Aquafeed Export Companies List | TurkishExporter b2b platform",
+          "link": "https://www.turkishexporter.com.tr/en/companies/aquafeed.htm",
+          "snippet": "Aquafeed manufacturers, Aquafeed export companies list - B2b wholesalers, exporters, suppliers worldwide.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Volare to open Finland's first insect-for-aquafeed fly farm | The Fish Site",
+          "link": "https://thefishsite.com/articles/volare-to-open-finlands-first-insect-for-aquafeed-fly-farm",
+          "snippet": "Site search.How Volare's fly farm should appear when completed. The startup aims to produce 5,000 tonnes of insect-based proteins and lipids a year and will be targetting the aquafeed sector as well a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquafeed Market | Global Market Analysis Report - 2035",
+          "link": "https://www.futuremarketinsights.com/reports/aquafeed-market",
+          "snippet": "Aquafeed Market Size, Market Forecast and Outlook By FMI. The aquafeed market is expected to expand from USD 56.6 Billion in 2025 to USD 109.2 Billion by 2035 with a CAGR of 6.8%.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquafeed | Wedolist Web Directories",
+          "link": "https://www.wedolist.com/website/aquafeed/",
+          "snippet": "Search forKeywords: Aquaculture feed. Website ID: 190. Date Added: January 22, 2025.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Yalelo Zambia opens 100th retail store as aquaculture firm expands...",
+          "link": "https://www.feedbusinessmea.com/2026/07/20/yalelo-zambia-opens-100th-retail-store-as-aquaculture-firm-expands-nationwide-footprint/",
+          "snippet": "Anpario expands feed additive portfolio with global rollout of AmpLIPhy and QuadriCal. CFI report highlights single-cell proteins as scalable fishmeal alternative for aquafeed industry.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Enzyme Treated Pre Digested Fishmeal Protein Hydrolysate Powder...",
+          "link": "https://www.ecer.com/corp/details-uuu5chg-put2rkt-enzyme-treated-pre-digested-fishmeal-protein-hydrolysate-powder-for-aquafeed-industry.html",
+          "snippet": "About This Product. Enzyme treated pre digested fishmeal water soluble suitable for aquafeed industry. Enzyme treated or \u2018pre digested\u2019 fishmeals have become a well desired commodity within the aquafe",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P4": {
+      "query": "find aquafeed resellers official site",
+      "level": "market_map",
+      "result_count": 5,
+      "results_target": 28,
+      "backends": [
+        "ddgs_yandex"
+      ],
+      "results": [
+        {
+          "title": "Aquafeed making equipment - Making.com",
+          "link": "https://making.com/aquafeed",
+          "snippet": "Aquafeed. Find innovative production technology for making aquafeed and connect directly with world-leading specialists.",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "\u041a\u043e\u0440\u043c\u043b\u0435\u043d\u0438\u0435 \u043e\u0441\u0435\u0442\u0440\u043e\u0432\u044b\u0445 \u0440\u044b\u0431 | aquafeed.ru | \u0421\u0442\u0430\u0442\u044c\u0438",
+          "link": "https://aquafeed.ru/statie/o_kormah/92",
+          "snippet": "\u041f\u043e\u043b\u0443\u0447\u0438\u0442\u044c \u043a\u043e\u043d\u0441\u0443\u043b\u044c\u0442\u0430\u0446\u0438\u044e. \u0417\u0430\u043f\u043e\u043b\u043d\u0438\u0442\u0435 \u044d\u0442\u0443 \u0444\u043e\u0440\u043c\u0443, \u0430 \u043b\u0443\u0447\u0448\u0435 \u043e\u0431\u0441\u0442\u043e\u044f\u0442\u0435\u043b\u044c\u043d\u043e \u043e\u043f\u0438\u0448\u0438\u0442\u0435 \u0432\u0430\u0448\u0443 \u0437\u0430\u0434\u0430\u0447\u0443 \u0432 \u043f\u0438\u0441\u044c\u043c\u0435 \u043f\u043e \u0430\u0434\u0440\u0435\u0441\u0443 sales@aquafeed.ru.",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Aquafeed.com | German-Kenyan aquafeed venture to build East...",
+          "link": "https://www.aquafeed.com/regions/africa/german-kenyan-aquafeed-venture-to-build-east-africas-largest-aquafeed-mill/",
+          "snippet": "A joint German and Kenyan venture, DiscoverAqua, will establish a state-of-the-art aquafeed plant at Athi River, Machakos County, Kenya. B\u00fchler has secured the contract for a plant with a capacity of ",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Yalelo Zambia opens 100th retail store as aquaculture firm expands...",
+          "link": "https://www.feedbusinessmea.com/2026/07/20/yalelo-zambia-opens-100th-retail-store-as-aquaculture-firm-expands-nationwide-footprint/",
+          "snippet": "Anpario expands feed additive portfolio with global rollout of AmpLIPhy and QuadriCal. CFI report highlights single-cell proteins as scalable fishmeal alternative for aquafeed industry.",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Enzyme Treated Pre Digested Fishmeal Protein Hydrolysate Powder...",
+          "link": "https://www.ecer.com/corp/details-uuu5chg-put2rkt-enzyme-treated-pre-digested-fishmeal-protein-hydrolysate-powder-for-aquafeed-industry.html",
+          "snippet": "About This Product. Enzyme treated pre digested fishmeal water soluble suitable for aquafeed industry. Enzyme treated or \u2018pre digested\u2019 fishmeals have become a well desired commodity within the aquafe",
+          "backend": "ddgs_yandex"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Aquafeed making equipment - Making.com",
+          "link": "https://making.com/aquafeed",
+          "snippet": "Aquafeed. Find innovative production technology for making aquafeed and connect directly with world-leading specialists.",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "\u041a\u043e\u0440\u043c\u043b\u0435\u043d\u0438\u0435 \u043e\u0441\u0435\u0442\u0440\u043e\u0432\u044b\u0445 \u0440\u044b\u0431 | aquafeed.ru | \u0421\u0442\u0430\u0442\u044c\u0438",
+          "link": "https://aquafeed.ru/statie/o_kormah/92",
+          "snippet": "\u041f\u043e\u043b\u0443\u0447\u0438\u0442\u044c \u043a\u043e\u043d\u0441\u0443\u043b\u044c\u0442\u0430\u0446\u0438\u044e. \u0417\u0430\u043f\u043e\u043b\u043d\u0438\u0442\u0435 \u044d\u0442\u0443 \u0444\u043e\u0440\u043c\u0443, \u0430 \u043b\u0443\u0447\u0448\u0435 \u043e\u0431\u0441\u0442\u043e\u044f\u0442\u0435\u043b\u044c\u043d\u043e \u043e\u043f\u0438\u0448\u0438\u0442\u0435 \u0432\u0430\u0448\u0443 \u0437\u0430\u0434\u0430\u0447\u0443 \u0432 \u043f\u0438\u0441\u044c\u043c\u0435 \u043f\u043e \u0430\u0434\u0440\u0435\u0441\u0443 sales@aquafeed.ru.",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Aquafeed.com | German-Kenyan aquafeed venture to build East...",
+          "link": "https://www.aquafeed.com/regions/africa/german-kenyan-aquafeed-venture-to-build-east-africas-largest-aquafeed-mill/",
+          "snippet": "A joint German and Kenyan venture, DiscoverAqua, will establish a state-of-the-art aquafeed plant at Athi River, Machakos County, Kenya. B\u00fchler has secured the contract for a plant with a capacity of ",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Yalelo Zambia opens 100th retail store as aquaculture firm expands...",
+          "link": "https://www.feedbusinessmea.com/2026/07/20/yalelo-zambia-opens-100th-retail-store-as-aquaculture-firm-expands-nationwide-footprint/",
+          "snippet": "Anpario expands feed additive portfolio with global rollout of AmpLIPhy and QuadriCal. CFI report highlights single-cell proteins as scalable fishmeal alternative for aquafeed industry.",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Enzyme Treated Pre Digested Fishmeal Protein Hydrolysate Powder...",
+          "link": "https://www.ecer.com/corp/details-uuu5chg-put2rkt-enzyme-treated-pre-digested-fishmeal-protein-hydrolysate-powder-for-aquafeed-industry.html",
+          "snippet": "About This Product. Enzyme treated pre digested fishmeal water soluble suitable for aquafeed industry. Enzyme treated or \u2018pre digested\u2019 fishmeals have become a well desired commodity within the aquafe",
+          "backend": "ddgs_yandex"
+        }
+      ]
+    },
+    "P5": {
+      "query": "search for aquafeed service providers official site",
+      "level": "market_map",
+      "result_count": 4,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Top 100 Aquafeed Companies in 2026 | ensun",
+          "link": "https://ensun.io/search/aquafeed",
+          "snippet": "Related searches for Aquafeed. Technologies which have been searched by others and may be interesting for youBy using high-quality ingredients, aquafeed providers can enhance the overall health and pr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquafeed Manufacturers Solutions | Scoular",
+          "link": "https://www.scoular.com/who-we-serve/aquaculture-feed-manufacturers/",
+          "snippet": "Global Network. Contact Us. Home > Who we serve > Aquafeed manufacturers. Aquafeed Manufacturers. Aerial view of fish farms in the ocean, showcasing floating nets and structures for aquaculture. Your ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquafeed Manufacturers - Vietfeeds Feed Ingredients from Vietnam",
+          "link": "https://vietfeeds.com/who-we-serve/aquafeed-manufacturers/",
+          "snippet": "Vietfeeds serves aquafeed manufacturers with fish meal, shrimp meal, rice bran, DORB and yeast from Vietnam, supporting high-protein aquaculture diets.Press Releases. Contact us. Search for: English.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Are we moving closer to fish-free feed? | The Fish Site",
+          "link": "https://thefishsite.com/articles/are-we-moving-closer-to-fish-free-feed-f3",
+          "snippet": "Site search.Economic projections suggest that if aquafeed formulation remains as is, demand for fish oil and fish meal will outstrip supply by 2030. This scenario has led to major reductions in the us",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Top 100 Aquafeed Companies in 2026 | ensun",
+          "link": "https://ensun.io/search/aquafeed",
+          "snippet": "Related searches for Aquafeed. Technologies which have been searched by others and may be interesting for youBy using high-quality ingredients, aquafeed providers can enhance the overall health and pr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquafeed Manufacturers Solutions | Scoular",
+          "link": "https://www.scoular.com/who-we-serve/aquaculture-feed-manufacturers/",
+          "snippet": "Global Network. Contact Us. Home > Who we serve > Aquafeed manufacturers. Aquafeed Manufacturers. Aerial view of fish farms in the ocean, showcasing floating nets and structures for aquaculture. Your ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aquafeed Manufacturers - Vietfeeds Feed Ingredients from Vietnam",
+          "link": "https://vietfeeds.com/who-we-serve/aquafeed-manufacturers/",
+          "snippet": "Vietfeeds serves aquafeed manufacturers with fish meal, shrimp meal, rice bran, DORB and yeast from Vietnam, supporting high-protein aquaculture diets.Press Releases. Contact us. Search for: English.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Are we moving closer to fish-free feed? | The Fish Site",
+          "link": "https://thefishsite.com/articles/are-we-moving-closer-to-fish-free-feed-f3",
+          "snippet": "Site search.Economic projections suggest that if aquafeed formulation remains as is, demand for fish oil and fish meal will outstrip supply by 2030. This scenario has led to major reductions in the us",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "find aquaculture system integrators",
+      "level": "market_map",
+      "result_count": 8,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "(PDF) Aquaculture Production Systems",
+          "link": "https://www.academia.edu/36260785/Aquaculture_Production_Systems",
+          "snippet": "The opposite extreme is found with the use of the recirculating aquaculture systems. Most of this type of production is conducted indoors and systems can be designed to operate at almost any temperatu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "(PDF) Use of Ecosystems Science in Ecological Aquaculture",
+          "link": "https://www.researchgate.net/publication/254970270_Use_of_Ecosystems_Science_in_Ecological_Aquaculture",
+          "snippet": "ecologically integrated aquaculture systems that have positive impacts on both. natural and social ecosystems. What this book has described is the history, practices and pedagogy of `ecological. aquac",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Recent Advanced Techniques for Sustainable Aquaculture Production",
+          "link": "https://www.frontiersin.org/research-topics/71317/recent-advanced-techniques-for-sustainable-aquaculture-production/magazine",
+          "snippet": "Environmental Sustainability: Implementing Integrated Multi-Trophic Aquaculture (IMTA) systems, which combine finfish, shellfish, and seaweed, helps recycle nutrients and reduce pollution.Find out mor",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Feasibility Study of Automated Brackish Water Fish Pond Systems...",
+          "link": "https://ph02.tci-thaijo.org/index.php/tsujournal/article/view/265010",
+          "snippet": "The proposed system -- designated AutoPond-BW -- integrates eight categories of IoT-enabled sensors connected through an MQTT-based data pipeline to a cloud analytics platform.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Continuous Circulation Systems Market Research Report 2034",
+          "link": "https://dataintelo.com/report/continuous-circulation-systems-market",
+          "snippet": "Recirculating aquaculture systems (RAS) represent a prominent application subset within the broader continuous circulation systems market, specifically designed for fish and seafood production; they r",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Automated Water Quality Monitoring and Maintenance for Aquaculture...",
+          "link": "https://www.journalajrcos.com/index.php/AJRCOS/article/view/888",
+          "snippet": "The system integrates pH, temperature, turbidity, and ultrasonic sensors with ESP32 microcontrollers and a Blynk-based mobile interface for real-time monitoring and remote control.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Partner with a Leading Roots Blower Company for Robust Aeration...",
+          "link": "https://zhanermachinery.com/partner-with-a-leading-roots-blower-company-for-robust-aeration-solutions/",
+          "snippet": "For wastewater treatment plant engineers, aquaculture system integrators, and industrial equipment distributors in Southeast Asia, selecting the right aeration technology is a high-stakes decision.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tidal-Diurnal Interactions and Nitrogen Dynamics: Integrating Variability",
+          "link": "https://neptjournal.com/upload-images/(24)D-1875.pdf",
+          "snippet": "integrated multi-trophic aquaculture (IMTA) systems, nitrite. These fluctuations directly affect the ecological. including seaweed, mollusks, or biofilm reactors, can be used conditions of aquaculture",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "(PDF) Aquaculture Production Systems",
+          "link": "https://www.academia.edu/36260785/Aquaculture_Production_Systems",
+          "snippet": "The opposite extreme is found with the use of the recirculating aquaculture systems. Most of this type of production is conducted indoors and systems can be designed to operate at almost any temperatu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "(PDF) Use of Ecosystems Science in Ecological Aquaculture",
+          "link": "https://www.researchgate.net/publication/254970270_Use_of_Ecosystems_Science_in_Ecological_Aquaculture",
+          "snippet": "ecologically integrated aquaculture systems that have positive impacts on both. natural and social ecosystems. What this book has described is the history, practices and pedagogy of `ecological. aquac",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Recent Advanced Techniques for Sustainable Aquaculture Production",
+          "link": "https://www.frontiersin.org/research-topics/71317/recent-advanced-techniques-for-sustainable-aquaculture-production/magazine",
+          "snippet": "Environmental Sustainability: Implementing Integrated Multi-Trophic Aquaculture (IMTA) systems, which combine finfish, shellfish, and seaweed, helps recycle nutrients and reduce pollution.Find out mor",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Feasibility Study of Automated Brackish Water Fish Pond Systems...",
+          "link": "https://ph02.tci-thaijo.org/index.php/tsujournal/article/view/265010",
+          "snippet": "The proposed system -- designated AutoPond-BW -- integrates eight categories of IoT-enabled sensors connected through an MQTT-based data pipeline to a cloud analytics platform.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Continuous Circulation Systems Market Research Report 2034",
+          "link": "https://dataintelo.com/report/continuous-circulation-systems-market",
+          "snippet": "Recirculating aquaculture systems (RAS) represent a prominent application subset within the broader continuous circulation systems market, specifically designed for fish and seafood production; they r",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Automated Water Quality Monitoring and Maintenance for Aquaculture...",
+          "link": "https://www.journalajrcos.com/index.php/AJRCOS/article/view/888",
+          "snippet": "The system integrates pH, temperature, turbidity, and ultrasonic sensors with ESP32 microcontrollers and a Blynk-based mobile interface for real-time monitoring and remote control.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Partner with a Leading Roots Blower Company for Robust Aeration...",
+          "link": "https://zhanermachinery.com/partner-with-a-leading-roots-blower-company-for-robust-aeration-solutions/",
+          "snippet": "For wastewater treatment plant engineers, aquaculture system integrators, and industrial equipment distributors in Southeast Asia, selecting the right aeration technology is a high-stakes decision.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tidal-Diurnal Interactions and Nitrogen Dynamics: Integrating Variability",
+          "link": "https://neptjournal.com/upload-images/(24)D-1875.pdf",
+          "snippet": "integrated multi-trophic aquaculture (IMTA) systems, nitrite. These fluctuations directly affect the ecological. including seaweed, mollusks, or biofilm reactors, can be used conditions of aquaculture",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P7": {
+      "query": "search for fish feed manufacturers official site",
+      "level": "market_map",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "BioMar set to begin production at new aquafeed mill | Feed Strategy",
+          "link": "https://www.feedstrategy.com/animal-feed-manufacturing/animal-feed-manufacturers/article/15441047/biomar-set-to-begin-production-at-new-aquafeed-mill",
+          "snippet": "Fish feed production facility in Tasmania scheduled to begin full production by midyear.In a press release, the company said it would begin commissioning the AUD56 million (US$39 million) fish feed pr",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "BioMar set to begin production at new aquafeed mill | Feed Strategy",
+          "link": "https://www.feedstrategy.com/animal-feed-manufacturing/animal-feed-manufacturers/article/15441047/biomar-set-to-begin-production-at-new-aquafeed-mill",
+          "snippet": "Fish feed production facility in Tasmania scheduled to begin full production by midyear.In a press release, the company said it would begin commissioning the AUD56 million (US$39 million) fish feed pr",
+          "backend": "ddgs_bing"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

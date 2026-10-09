@@ -1,0 +1,1467 @@
+{
+  "phase": 1,
+  "query": "Lung Cancer Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T22:02:17.097900+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "lung cancer",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "healthcare",
+    "industry_terms": [
+      "lung cancer diagnostics",
+      "oncology treatments",
+      "chemotherapy",
+      "radiation therapy",
+      "targeted therapy"
+    ],
+    "ecosystem_functions": [
+      "distributing lung cancer medications",
+      "wholesaling medical devices",
+      "reselling oncology products",
+      "integrating lung cancer treatment systems",
+      "providing telehealth services",
+      "partnering with healthcare providers",
+      "managing supply chains for lung cancer products",
+      "facilitating access to lung cancer treatments"
+    ],
+    "interpretation_summary": "The lung cancer market encompasses products and services related to the diagnosis, treatment, and management of lung cancer. Key participants include pharmaceutical companies, medical device manufacturers, and various ch",
+    "relevance_keywords": [
+      "lung cancer treatment",
+      "oncology distribution",
+      "medical supply chain",
+      "cancer diagnostics",
+      "telemedicine oncology"
+    ],
+    "negative_keywords": [
+      "news",
+      "blog",
+      "directory",
+      "report",
+      "job",
+      "consulting"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "McKesson",
+        "primary_domain": "mckesson.com",
+        "company_function": "medical supply distributor"
+      },
+      {
+        "canonical_name": "Cardinal Health",
+        "primary_domain": "cardinalhealth.com",
+        "company_function": "pharmaceutical wholesaler"
+      },
+      {
+        "canonical_name": "AmerisourceBergen",
+        "primary_domain": "amerisourcebergen.com",
+        "company_function": "medical supply distributor"
+      },
+      {
+        "canonical_name": "Henry Schein",
+        "primary_domain": "henryschein.com",
+        "company_function": "medical supply reseller"
+      },
+      {
+        "canonical_name": "Thermo Fisher Scientific",
+        "primary_domain": "thermofisher.com",
+        "company_function": "service provider for oncology diagnostics"
+      },
+      {
+        "canonical_name": "Owens & Minor",
+        "primary_domain": "owens-minor.com",
+        "company_function": "medical supply distributor"
+      },
+      {
+        "canonical_name": "Cencosud",
+        "primary_domain": "cencosud.com",
+        "company_function": "retail reseller of medical supplies"
+      },
+      {
+        "canonical_name": "Fresenius Kabi",
+        "primary_domain": "fresenius-kabi.com",
+        "company_function": "wholesaler of oncology products"
+      },
+      {
+        "canonical_name": "Roche",
+        "primary_domain": "roche.com",
+        "company_function": "service provider for lung cancer treatments",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Sysmex Corporation",
+        "primary_domain": "sysmex.com",
+        "company_function": "integrator of diagnostic systems",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Baxter International",
+        "primary_domain": "baxter.com",
+        "company_function": "medical supply distributor",
+        "segment": "Distributors",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "BD (Becton, Dickinson and Company)",
+        "primary_domain": "bd.com",
+        "company_function": "wholesaler of medical devices",
+        "segment": "Wholesalers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Medline Industries",
+        "primary_domain": "medline.com",
+        "company_function": "medical supply distributor",
+        "segment": "Distributors",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Hologic",
+        "primary_domain": "hologic.com",
+        "company_function": "service provider for women's health and oncology",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "lung cancer",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "lung cancer",
+    "include_keywords": [
+      "lung cancer distributors",
+      "oncology wholesalers",
+      "medical supply resellers",
+      "lung cancer service providers",
+      "telehealth for lung cancer"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The lung cancer market encompasses products and services related to the diagnosis, treatment, and management of lung cancer. Key participants include pharmaceutical companies, medical device manufacturers, and various channel partners such as distributors and service providers operating globally.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Distribution",
+        "description": "This layer includes entities that facilitate the distribution of lung cancer-related products to healthcare providers.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Onshore distributors",
+              "Offshore distributors"
+            ],
+            "participant_types": [
+              "medical supply distributors",
+              "pharmaceutical distributors"
+            ],
+            "search_intents": [
+              "lung cancer product distributors",
+              "medical supply distributors for lung cancer"
+            ]
+          },
+          {
+            "segment_name": "Wholesalers",
+            "sub_segments": [
+              "Pharmaceutical wholesalers",
+              "Medical device wholesalers"
+            ],
+            "participant_types": [
+              "wholesale drug distributors",
+              "medical equipment wholesalers"
+            ],
+            "search_intents": [
+              "lung cancer wholesalers",
+              "wholesale suppliers for lung cancer treatments"
+            ]
+          },
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Online resellers",
+              "Retail resellers"
+            ],
+            "participant_types": [
+              "e-commerce platforms",
+              "medical supply retailers"
+            ],
+            "search_intents": [
+              "lung cancer product resellers",
+              "medical supply resellers for lung cancer"
+            ]
+          },
+          {
+            "segment_name": "Service Providers",
+            "sub_segments": [
+              "Healthcare service providers",
+              "Telehealth services"
+            ],
+            "participant_types": [
+              "oncology clinics",
+              "telemedicine providers"
+            ],
+            "search_intents": [
+              "lung cancer service providers",
+              "oncology service providers for lung cancer"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Pharmaceutical manufacturers",
+        "Research institutions",
+        "Clinical trial organizations",
+        "Regulatory bodies"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "lung cancer product distributors",
+        "sub_sector": "distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "lung cancer wholesalers",
+        "sub_sector": "wholesaler",
+        "layer_id": "L1",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "lung cancer product resellers",
+        "sub_sector": "reseller",
+        "layer_id": "L1",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "lung cancer service providers",
+        "sub_sector": "service_provider",
+        "layer_id": "L1",
+        "segment": "Service Providers"
+      },
+      {
+        "id": "M5",
+        "level": "market_map",
+        "text": "lung cancer channel partners",
+        "sub_sector": "channel_partner",
+        "layer_id": "L1",
+        "segment": "Channel Partners"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "healthcare",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "lung cancer companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "lung cancer distributors corporate sites"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "lung cancer service providers official site"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "discovery",
+      "text": "lung cancer product distributors official site"
+    },
+    {
+      "id": "P2",
+      "level": "discovery",
+      "text": "lung cancer wholesalers corporate headquarters"
+    },
+    {
+      "id": "P3",
+      "level": "discovery",
+      "text": "lung cancer product resellers official website"
+    },
+    {
+      "id": "P4",
+      "level": "discovery",
+      "text": "lung cancer service providers corporate profile"
+    },
+    {
+      "id": "P5",
+      "level": "discovery",
+      "text": "lung cancer medication distributors official site"
+    },
+    {
+      "id": "P6",
+      "level": "discovery",
+      "text": "oncology product wholesalers corporate site"
+    },
+    {
+      "id": "P7",
+      "level": "discovery",
+      "text": "medical supply resellers for lung cancer official site"
+    },
+    {
+      "id": "P8",
+      "level": "discovery",
+      "text": "telehealth services for lung cancer corporate site"
+    },
+    {
+      "id": "P9",
+      "level": "discovery",
+      "text": "authorized lung cancer distributor firm official"
+    },
+    {
+      "id": "P10",
+      "level": "discovery",
+      "text": "lung cancer reseller channel partner official"
+    },
+    {
+      "id": "P11",
+      "level": "discovery",
+      "text": "lung cancer system integrator official website"
+    },
+    {
+      "id": "P12",
+      "level": "discovery",
+      "text": "lung cancer service provider official website"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "lung cancer companies official websites",
+      "level": "L0",
+      "result_count": 9,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Seven lung cancer companies advancing new treatments in 2025",
+          "link": "https://www.labiotech.eu/best-biotech/lung-cancer-companies/",
+          "snippet": "Lung cancer companies. Add Labiotech as your Google Preferred Source.Meanwhile, the lung cancer company\u2019s second-most advanced clinical candidate, neladalkib (NVL-655), is also being tested in a phase",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lung Cancer Screening Market Top Companies | Lung Cancer...",
+          "link": "https://www.emergenresearch.com/blog/top-10-companies-in-lung-cancer-screening-market",
+          "snippet": "Top 10 Companies in Lung Cancer Screening Market.Lung cancer screening is a type of medical exam used to detect the early stages of lung cancer. It has been proven to reduce deaths from the disease, a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lung Cancer Program | OSF Cancer Institute | OSF HealthCare",
+          "link": "https://www.osfhealthcare.org/services/specialties/cancer/conditions-treatments/cancer-programs/lung-cancer",
+          "snippet": "Get advanced lung cancer care with personalized treatment plans. Expert team, cutting-edge therapies and compassionate support from diagnosis to recovery.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Small Cell Lung Cancer Market | SCLC Therapies, Companies",
+          "link": "https://www.delveinsight.com/report-store/small-cell-lung-cancer-market",
+          "snippet": "Which leading companies are working in the Small Cell Lung Cancer Market? Ipsen Biopharmaceuticals, Bristol-Myers Squibb, Xcovery Holding Company, EpicentRx, Amgen, and others are evaluating their lea",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lung Cancer Market Size, Share | Global Industry 2035",
+          "link": "https://www.marketresearchfuture.com/reports/lung-cancer-market-1185",
+          "snippet": "The Global Lung Cancer Market size was valued at USD 32.2 Billion in 2024, and the market is projected to grow from USD 34.69 Billion in 2025 to USD 72.97 Billion by 2035, registering a CAGR of 7.7% d",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Non-Small Cell Lung Cancer Pipeline 2025: Key Companies, MOA...",
+          "link": "https://www.abnewswire.com/pressreleases/nonsmall-cell-lung-cancer-pipeline-2025-key-companies-moa-roa-and-clinical-trials-evaluation-by-delveinsight-abbvie-xcovery-sanofi-pfizer-mirati-therapeutics-astrazeneca-daiichi-sankyo_736670.html",
+          "snippet": "Detailed analysis of collaborations (company-company collaborations and company-academia collaborations), licensing agreement and financing details for future advancement of the Non-Small Cell Lung Ca",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lung Cancer Market Size, Trends and Forecast to 2034",
+          "link": "https://www.prophecymarketinsights.com/market_insight/Lung-Cancer-Market-4974",
+          "snippet": "Lung Cancer Market Size was valued at USD 35.2 Billion in 2024 and is expected to reach USD 164.7 Billion by 2034, growing at a CAGR of 18.5%. When cancer starts in the lungs is called Lung Cancer. Ca",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Immunotherapy for Lung Cancer: Does It Work?",
+          "link": "https://www.healthline.com/health/lung-cancer/immunotherapy",
+          "snippet": "Immunotherapy for lung cancer includes new and upcoming drugs that show great promise. They use your immune system to target cancer cells. We tell you what you need to know.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lung nodules: Causes, symptoms, diagnosis, and treatment",
+          "link": "https://www.medicalnewstoday.com/articles/317531",
+          "snippet": "Lung nodules are small growths on the lungs. They are very common and can be benign or malignant.A lung nodule does not always indicate lung cancer, and most of these nodules are noncancerous. Noncanc",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Seven lung cancer companies advancing new treatments in 2025",
+          "link": "https://www.labiotech.eu/best-biotech/lung-cancer-companies/",
+          "snippet": "Lung cancer companies. Add Labiotech as your Google Preferred Source.Meanwhile, the lung cancer company\u2019s second-most advanced clinical candidate, neladalkib (NVL-655), is also being tested in a phase",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lung Cancer Screening Market Top Companies | Lung Cancer...",
+          "link": "https://www.emergenresearch.com/blog/top-10-companies-in-lung-cancer-screening-market",
+          "snippet": "Top 10 Companies in Lung Cancer Screening Market.Lung cancer screening is a type of medical exam used to detect the early stages of lung cancer. It has been proven to reduce deaths from the disease, a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lung Cancer Program | OSF Cancer Institute | OSF HealthCare",
+          "link": "https://www.osfhealthcare.org/services/specialties/cancer/conditions-treatments/cancer-programs/lung-cancer",
+          "snippet": "Get advanced lung cancer care with personalized treatment plans. Expert team, cutting-edge therapies and compassionate support from diagnosis to recovery.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Small Cell Lung Cancer Market | SCLC Therapies, Companies",
+          "link": "https://www.delveinsight.com/report-store/small-cell-lung-cancer-market",
+          "snippet": "Which leading companies are working in the Small Cell Lung Cancer Market? Ipsen Biopharmaceuticals, Bristol-Myers Squibb, Xcovery Holding Company, EpicentRx, Amgen, and others are evaluating their lea",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lung Cancer Market Size, Share | Global Industry 2035",
+          "link": "https://www.marketresearchfuture.com/reports/lung-cancer-market-1185",
+          "snippet": "The Global Lung Cancer Market size was valued at USD 32.2 Billion in 2024, and the market is projected to grow from USD 34.69 Billion in 2025 to USD 72.97 Billion by 2035, registering a CAGR of 7.7% d",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Non-Small Cell Lung Cancer Pipeline 2025: Key Companies, MOA...",
+          "link": "https://www.abnewswire.com/pressreleases/nonsmall-cell-lung-cancer-pipeline-2025-key-companies-moa-roa-and-clinical-trials-evaluation-by-delveinsight-abbvie-xcovery-sanofi-pfizer-mirati-therapeutics-astrazeneca-daiichi-sankyo_736670.html",
+          "snippet": "Detailed analysis of collaborations (company-company collaborations and company-academia collaborations), licensing agreement and financing details for future advancement of the Non-Small Cell Lung Ca",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lung Cancer Market Size, Trends and Forecast to 2034",
+          "link": "https://www.prophecymarketinsights.com/market_insight/Lung-Cancer-Market-4974",
+          "snippet": "Lung Cancer Market Size was valued at USD 35.2 Billion in 2024 and is expected to reach USD 164.7 Billion by 2034, growing at a CAGR of 18.5%. When cancer starts in the lungs is called Lung Cancer. Ca",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Immunotherapy for Lung Cancer: Does It Work?",
+          "link": "https://www.healthline.com/health/lung-cancer/immunotherapy",
+          "snippet": "Immunotherapy for lung cancer includes new and upcoming drugs that show great promise. They use your immune system to target cancer cells. We tell you what you need to know.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lung nodules: Causes, symptoms, diagnosis, and treatment",
+          "link": "https://www.medicalnewstoday.com/articles/317531",
+          "snippet": "Lung nodules are small growths on the lungs. They are very common and can be benign or malignant.A lung nodule does not always indicate lung cancer, and most of these nodules are noncancerous. Noncanc",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "lung cancer distributors corporate sites",
+      "level": "L1",
+      "result_count": 5,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Lung Cancer Screening Software Market Size & Report By 2031",
+          "link": "https://www.databridgemarketresearch.com/reports/global-lung-cancer-screening-software-market?Somesh=",
+          "snippet": "Third Party Distributors. Lung Cancer Screening Software Market Regional Analysis. The market is analysed and market size insights and trends are provided by country, mode of delivery, product, type, ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lung nodules: Causes, symptoms, diagnosis, and treatment",
+          "link": "https://www.medicalnewstoday.com/articles/317531",
+          "snippet": "Lung nodules are small growths on the lungs. They are very common and can be benign or malignant. Learn more here.ArtistGNDphotography/Getty Images. A lung nodule does not always indicate lung cancer,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Where Do Cancerous Lung Nodules Usually Appear?",
+          "link": "https://int.livhospital.com/cancerous-lung-nodule-locations/",
+          "snippet": "Upper Lobe Cancer Distribution Patterns. Lung nodules that are cancerous often show up in the upper lobes.Yes, upper lobe nodules can be cancerous. The upper lobes are common sites for lung cancer, ma",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Radiology Assistant : Mediastinal Lymph Node Map",
+          "link": "https://radiologyassistant.nl/chest/mediastinum/mediastinum-lymph-node-map",
+          "snippet": "The IASLC Lung Cancer Staging Project: A Proposal for a New International Lymph Node Map in the Forthcoming Seventh Edition of the TNM Classification for Lung Cancer.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lobectomy: Procedure, Risks, and Recovery | WebMD",
+          "link": "https://www.webmd.com/lung-cancer/lobectomy-lung-surgery",
+          "snippet": "Lung cancer commonly requires a lobectomy to remove parts of your lung called lobes. (Photo Credit: iStock/Getty Images). If your surgeon removes two lobes of your lung, it's called a bilobectomy.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Lung Cancer Screening Software Market Size & Report By 2031",
+          "link": "https://www.databridgemarketresearch.com/reports/global-lung-cancer-screening-software-market?Somesh=",
+          "snippet": "Third Party Distributors. Lung Cancer Screening Software Market Regional Analysis. The market is analysed and market size insights and trends are provided by country, mode of delivery, product, type, ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lung nodules: Causes, symptoms, diagnosis, and treatment",
+          "link": "https://www.medicalnewstoday.com/articles/317531",
+          "snippet": "Lung nodules are small growths on the lungs. They are very common and can be benign or malignant. Learn more here.ArtistGNDphotography/Getty Images. A lung nodule does not always indicate lung cancer,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Where Do Cancerous Lung Nodules Usually Appear?",
+          "link": "https://int.livhospital.com/cancerous-lung-nodule-locations/",
+          "snippet": "Upper Lobe Cancer Distribution Patterns. Lung nodules that are cancerous often show up in the upper lobes.Yes, upper lobe nodules can be cancerous. The upper lobes are common sites for lung cancer, ma",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Radiology Assistant : Mediastinal Lymph Node Map",
+          "link": "https://radiologyassistant.nl/chest/mediastinum/mediastinum-lymph-node-map",
+          "snippet": "The IASLC Lung Cancer Staging Project: A Proposal for a New International Lymph Node Map in the Forthcoming Seventh Edition of the TNM Classification for Lung Cancer.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lobectomy: Procedure, Risks, and Recovery | WebMD",
+          "link": "https://www.webmd.com/lung-cancer/lobectomy-lung-surgery",
+          "snippet": "Lung cancer commonly requires a lobectomy to remove parts of your lung called lobes. (Photo Credit: iStock/Getty Images). If your surgeon removes two lobes of your lung, it's called a bilobectomy.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "lung cancer service providers official site",
+      "level": "L2",
+      "result_count": 10,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Lung Cancer Program | OSF Cancer Institute | OSF HealthCare",
+          "link": "https://www.osfhealthcare.org/services/specialties/cancer/conditions-treatments/cancer-programs/lung-cancer",
+          "snippet": "Get advanced lung cancer care with personalized treatment plans. Expert team, cutting-edge therapies and compassionate support from diagnosis to recovery.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lunger Cancer Resources",
+          "link": "https://www.kraskickers.org/lung-cancer-resources",
+          "snippet": "CancerCare provides free, professional support services for people affected by lung cancer, as well as lung cancer treatment information and additional resources.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lung Cancer Service - Milton Keynes University Hospital",
+          "link": "https://www.mkuh.nhs.uk/lungs/lung-cancer-service",
+          "snippet": "Welcome to our comprehensive Lung Cancer Service in Milton Keynes University Hospital, where we focus on providing expert care, support, and advanced treatment options for patients diagnosed with lung",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Immunotherapy for Lung Cancer: Does It Work?",
+          "link": "https://www.healthline.com/health/lung-cancer/immunotherapy",
+          "snippet": "Immunotherapy for lung cancer includes new and upcoming drugs that show great promise. They use your immune system to target cancer cells. We tell you what you need to know.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lung Cancer Clinical Quality Data Platform - Home",
+          "link": "https://lucap-au.com/",
+          "snippet": "A national data platform that enables the performance of lung cancer service providers to be compared against a set of national standards and supports innovative research in lung cancer care and treat",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "CANVAS \u2013 International Centre For Cancer Vaccine Science",
+          "link": "https://canvas.ug.edu.pl/",
+          "snippet": "Enhancing Cancer Vaccine Science for New Therapy Pathways. The CANVAS project - a platform for an in-depth preparation for the therapy of non-small cell lung cancer and an exceptional opportunity for ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lung nodules (pulmonary nodules): What you need... | UT MD Anderson",
+          "link": "https://www.mdanderson.org/cancerwise/lung-nodules--what-you-need-to-know.h00-159703068.html",
+          "snippet": "Lung nodules may also be cancerous. When that happens, they could either be caused by lung cancer or a different type of cancer that has spread to the lung from another place. Unfortunately, the lung ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "What Is Lung Cancer? - Types, Causes, & Symptoms",
+          "link": "https://www.lungcancercenter.com/lung-cancer/",
+          "snippet": "Is Lung Cancer Usually Fatal? Cancer, a result of cell mutation, is often triggered by factors like chemical exposure and environmental substances such as asbestos.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "9 Health Issues That Can Cause Black Mucus",
+          "link": "https://www.verywellhealth.com/black-mucus-5225596",
+          "snippet": "Lung cancer can damage airway tissues and form tumors that interfere with normal mucus clearance. In rare cases\u2014such as with bronchopulmonary melanoma\u2014it may lead to black or dark-colored mucus. Commo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Clinical Trials Archive - TOGA - Thoracic Oncology Group Australasia",
+          "link": "https://thoraciconcology.org.au/clinical-trials/",
+          "snippet": "The lung cancer was still under control 12 months after starting treatment in 38% of the participants, but this was not a statistically significant outcome.Metastatic spread of cancer from its primary",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Lung Cancer Program | OSF Cancer Institute | OSF HealthCare",
+          "link": "https://www.osfhealthcare.org/services/specialties/cancer/conditions-treatments/cancer-programs/lung-cancer",
+          "snippet": "Get advanced lung cancer care with personalized treatment plans. Expert team, cutting-edge therapies and compassionate support from diagnosis to recovery.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lunger Cancer Resources",
+          "link": "https://www.kraskickers.org/lung-cancer-resources",
+          "snippet": "CancerCare provides free, professional support services for people affected by lung cancer, as well as lung cancer treatment information and additional resources.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lung Cancer Service - Milton Keynes University Hospital",
+          "link": "https://www.mkuh.nhs.uk/lungs/lung-cancer-service",
+          "snippet": "Welcome to our comprehensive Lung Cancer Service in Milton Keynes University Hospital, where we focus on providing expert care, support, and advanced treatment options for patients diagnosed with lung",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Immunotherapy for Lung Cancer: Does It Work?",
+          "link": "https://www.healthline.com/health/lung-cancer/immunotherapy",
+          "snippet": "Immunotherapy for lung cancer includes new and upcoming drugs that show great promise. They use your immune system to target cancer cells. We tell you what you need to know.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lung Cancer Clinical Quality Data Platform - Home",
+          "link": "https://lucap-au.com/",
+          "snippet": "A national data platform that enables the performance of lung cancer service providers to be compared against a set of national standards and supports innovative research in lung cancer care and treat",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "CANVAS \u2013 International Centre For Cancer Vaccine Science",
+          "link": "https://canvas.ug.edu.pl/",
+          "snippet": "Enhancing Cancer Vaccine Science for New Therapy Pathways. The CANVAS project - a platform for an in-depth preparation for the therapy of non-small cell lung cancer and an exceptional opportunity for ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lung nodules (pulmonary nodules): What you need... | UT MD Anderson",
+          "link": "https://www.mdanderson.org/cancerwise/lung-nodules--what-you-need-to-know.h00-159703068.html",
+          "snippet": "Lung nodules may also be cancerous. When that happens, they could either be caused by lung cancer or a different type of cancer that has spread to the lung from another place. Unfortunately, the lung ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "What Is Lung Cancer? - Types, Causes, & Symptoms",
+          "link": "https://www.lungcancercenter.com/lung-cancer/",
+          "snippet": "Is Lung Cancer Usually Fatal? Cancer, a result of cell mutation, is often triggered by factors like chemical exposure and environmental substances such as asbestos.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "9 Health Issues That Can Cause Black Mucus",
+          "link": "https://www.verywellhealth.com/black-mucus-5225596",
+          "snippet": "Lung cancer can damage airway tissues and form tumors that interfere with normal mucus clearance. In rare cases\u2014such as with bronchopulmonary melanoma\u2014it may lead to black or dark-colored mucus. Commo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Clinical Trials Archive - TOGA - Thoracic Oncology Group Australasia",
+          "link": "https://thoraciconcology.org.au/clinical-trials/",
+          "snippet": "The lung cancer was still under control 12 months after starting treatment in 38% of the participants, but this was not a statistically significant outcome.Metastatic spread of cancer from its primary",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "lung cancer product distributors official site",
+      "level": "discovery",
+      "result_count": 9,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Lung nodules (pulmonary nodules): What you need... | UT MD Anderson",
+          "link": "https://www.mdanderson.org/cancerwise/lung-nodules--what-you-need-to-know.h00-159703068.html",
+          "snippet": "Histoplasmosis (Mississippi Valley). Lung nodules may also be cancerous. When that happens, they could either be caused by lung cancer or a different type of cancer that has spread to the lung from an",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Amazon.com | Lung Cancer Awareness Support Products Lung...",
+          "link": "https://www.amazon.com/Lung-Cancer-Awareness-Stainless-Insulated/dp/B0FVBDNZKN",
+          "snippet": "About this item. Lung cancer awareness shirts, lung cancer awareness products, lung cancer shirt, lung cancer survivor gifts for woman, Lung cancer Support Squad. Lung cancer warrior, lung cancer gift",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "For Early-Stage Lung Cancer, a New Biomarker and Treatment Target?",
+          "link": "https://www.cancer.gov/news-events/cancer-currents-blog/2019/early-stage-lung-cancer-biomarker",
+          "snippet": "An official website of the United States government.For Early-Stage Lung Cancer, Study Identifies Potential New Biomarker, Treatment Target. January 3, 2019, by NCI Staff.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lung nodules: Causes, symptoms, diagnosis, and treatment",
+          "link": "https://www.medicalnewstoday.com/articles/317531",
+          "snippet": "Lung nodules are small growths on the lungs. They are very common and can be benign or malignant. Learn more here.ArtistGNDphotography/Getty Images. A lung nodule does not always indicate lung cancer,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lung Cancer Program | OSF Cancer Institute | OSF HealthCare",
+          "link": "https://www.osfhealthcare.org/services/specialties/cancer/conditions-treatments/cancer-programs/lung-cancer",
+          "snippet": "Get advanced lung cancer care with personalized treatment plans. Expert team, cutting-edge therapies and compassionate support from diagnosis to recovery.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "When to Worry About Lung Nodules or a Spot on the Lungs",
+          "link": "https://www.cancercenter.com/community/blog/2021/05/when-to-worry-about-lung-nodules",
+          "snippet": "What does a spot on your lung mean?Can a CT scan tell if a lung nodule is cancerous?What are the benefits of getting an early lung cancer diagnosis?",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Does Vaping Cause Lung Cancer?",
+          "link": "https://health.clevelandclinic.org/vaping-and-lung-cancer",
+          "snippet": "\u201cLung cancer doesn\u2019t develop suddenly,\u201d Dr. Choi notes. \u201cWhen people with a history of smoking develop lung cancer, it\u2019s usually decades after they started the habit \u2014 often in their 60s or later. The",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Radiology Assistant : Home",
+          "link": "https://radiologyassistant.nl/",
+          "snippet": "Lung Adenocarcinoma. TNM classification 9\u1d57\u02b0 edition. Cystic Lung Cancer. Mediastinum. Mediastinal Lymph Node Map.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "9 Health Issues That Can Cause Black Mucus",
+          "link": "https://www.verywellhealth.com/black-mucus-5225596",
+          "snippet": "Lung cancer can damage airway tissues and form tumors that interfere with normal mucus clearance. In rare cases\u2014such as with bronchopulmonary melanoma\u2014it may lead to black or dark-colored mucus. Commo",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Lung nodules (pulmonary nodules): What you need... | UT MD Anderson",
+          "link": "https://www.mdanderson.org/cancerwise/lung-nodules--what-you-need-to-know.h00-159703068.html",
+          "snippet": "Histoplasmosis (Mississippi Valley). Lung nodules may also be cancerous. When that happens, they could either be caused by lung cancer or a different type of cancer that has spread to the lung from an",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Amazon.com | Lung Cancer Awareness Support Products Lung...",
+          "link": "https://www.amazon.com/Lung-Cancer-Awareness-Stainless-Insulated/dp/B0FVBDNZKN",
+          "snippet": "About this item. Lung cancer awareness shirts, lung cancer awareness products, lung cancer shirt, lung cancer survivor gifts for woman, Lung cancer Support Squad. Lung cancer warrior, lung cancer gift",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "For Early-Stage Lung Cancer, a New Biomarker and Treatment Target?",
+          "link": "https://www.cancer.gov/news-events/cancer-currents-blog/2019/early-stage-lung-cancer-biomarker",
+          "snippet": "An official website of the United States government.For Early-Stage Lung Cancer, Study Identifies Potential New Biomarker, Treatment Target. January 3, 2019, by NCI Staff.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lung nodules: Causes, symptoms, diagnosis, and treatment",
+          "link": "https://www.medicalnewstoday.com/articles/317531",
+          "snippet": "Lung nodules are small growths on the lungs. They are very common and can be benign or malignant. Learn more here.ArtistGNDphotography/Getty Images. A lung nodule does not always indicate lung cancer,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lung Cancer Program | OSF Cancer Institute | OSF HealthCare",
+          "link": "https://www.osfhealthcare.org/services/specialties/cancer/conditions-treatments/cancer-programs/lung-cancer",
+          "snippet": "Get advanced lung cancer care with personalized treatment plans. Expert team, cutting-edge therapies and compassionate support from diagnosis to recovery.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "When to Worry About Lung Nodules or a Spot on the Lungs",
+          "link": "https://www.cancercenter.com/community/blog/2021/05/when-to-worry-about-lung-nodules",
+          "snippet": "What does a spot on your lung mean?Can a CT scan tell if a lung nodule is cancerous?What are the benefits of getting an early lung cancer diagnosis?",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Does Vaping Cause Lung Cancer?",
+          "link": "https://health.clevelandclinic.org/vaping-and-lung-cancer",
+          "snippet": "\u201cLung cancer doesn\u2019t develop suddenly,\u201d Dr. Choi notes. \u201cWhen people with a history of smoking develop lung cancer, it\u2019s usually decades after they started the habit \u2014 often in their 60s or later. The",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Radiology Assistant : Home",
+          "link": "https://radiologyassistant.nl/",
+          "snippet": "Lung Adenocarcinoma. TNM classification 9\u1d57\u02b0 edition. Cystic Lung Cancer. Mediastinum. Mediastinal Lymph Node Map.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "9 Health Issues That Can Cause Black Mucus",
+          "link": "https://www.verywellhealth.com/black-mucus-5225596",
+          "snippet": "Lung cancer can damage airway tissues and form tumors that interfere with normal mucus clearance. In rare cases\u2014such as with bronchopulmonary melanoma\u2014it may lead to black or dark-colored mucus. Commo",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P2": {
+      "query": "lung cancer wholesalers corporate headquarters",
+      "level": "discovery",
+      "result_count": 9,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Lung Cancer, Lung Cancer Suppliers & Lung Cancer Wholesalers...",
+          "link": "https://www.tradekey.com/products/lung-cancer.html",
+          "snippet": "Find Lung cancer Manufacturers, Lung cancer Suppliers & Wholesalers of Lung cancer from China, Hong Kong, USA & Lung cancer Products from India at TradeKey.com.Breast And Lung Cancer Ribbons. FOB Pric",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "LetsMeds Cancer Medicine | Hepatitis Drug | Lowest Price",
+          "link": "https://www.letsmeds.com/?route=common/home",
+          "snippet": "\u201cRevolutionizing Non-Small Cell Lung Cancer Treatment: A Guide to Innovative Therapies and Care Options\u201d. Cancer is a disease that affects millions of people worldwide. It occurs when abnormal cells i",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "lung cancer - offers from lung cancer manufacturers, suppliers...",
+          "link": "https://www.ec21.com/ks-lung-cancer/",
+          "snippet": "lung cancer, liver cancer, papillary thyroid carcinoma, and acute kidney injury (AKI) and other diseases. What's morecancer and has a specific positive rate in lung cancer and gastric cancer. Overexpr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "survival rate lung cancer - Wholesale survival rate lung cancer",
+          "link": "https://www.chinalane.org/buy-survival-rate-lung-cancer",
+          "snippet": "Focus Products : prevention of lung cancer , lung cancer information.Wholesale Carcinoembryonic Antigen CEA ELISA Cancer Marker Test KIT Laboratory Or Hospital High Precision from china suppliers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "China Lung Cancer, Lung Cancer Wholesale... | Made-in-China.com",
+          "link": "https://www.made-in-china.com/products-search/hot-china-products/Lung_Cancer.html",
+          "snippet": "China Lung Cancer wholesale - Select 2026 high quality Lung Cancer products in best price from certified Chinese Tea Flower manufacturers, China Egcg suppliers, wholesalers and factory on Made-in-Chin",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lung nodules (pulmonary nodules): What you need... | UT MD Anderson",
+          "link": "https://www.mdanderson.org/cancerwise/lung-nodules--what-you-need-to-know.h00-159703068.html",
+          "snippet": "Corporate Alliances.Lung nodules may also be cancerous. When that happens, they could either be caused by lung cancer or a different type of cancer that has spread to the lung from another place. Unfo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lung nodules: Causes, symptoms, diagnosis, and treatment",
+          "link": "https://www.medicalnewstoday.com/articles/317531",
+          "snippet": "Lung nodules are small growths on the lungs. They are very common and can be benign or malignant.A lung nodule does not always indicate lung cancer, and most of these nodules are noncancerous. Noncanc",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "lung cancer treatment - Wholesale lung cancer treatment",
+          "link": "https://www.spintoband.com/wholesale-lung-cancer-treatment",
+          "snippet": "All lung cancer treatment wholesalers & lung cancer treatment manufacturers come from members.Wholesale Hot Sale Low Price Cancer Treatment China Organic Fresh Artemisia Annua Extract Artemisimin 98% ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Geftinat Tablets for Non-small cell lung cancer | Wholesaler, Supplier...",
+          "link": "https://www.specialitymedz.com/product/geftinat/",
+          "snippet": "Cancers of the non-small cell lung are treated with it. Patients without a history of cancer treatment, those with particular aberrant epidermal growth factor (EGFR) genes, and those whose NSCLC cance",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Lung Cancer, Lung Cancer Suppliers & Lung Cancer Wholesalers...",
+          "link": "https://www.tradekey.com/products/lung-cancer.html",
+          "snippet": "Find Lung cancer Manufacturers, Lung cancer Suppliers & Wholesalers of Lung cancer from China, Hong Kong, USA & Lung cancer Products from India at TradeKey.com.Breast And Lung Cancer Ribbons. FOB Pric",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "LetsMeds Cancer Medicine | Hepatitis Drug | Lowest Price",
+          "link": "https://www.letsmeds.com/?route=common/home",
+          "snippet": "\u201cRevolutionizing Non-Small Cell Lung Cancer Treatment: A Guide to Innovative Therapies and Care Options\u201d. Cancer is a disease that affects millions of people worldwide. It occurs when abnormal cells i",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "lung cancer - offers from lung cancer manufacturers, suppliers...",
+          "link": "https://www.ec21.com/ks-lung-cancer/",
+          "snippet": "lung cancer, liver cancer, papillary thyroid carcinoma, and acute kidney injury (AKI) and other diseases. What's morecancer and has a specific positive rate in lung cancer and gastric cancer. Overexpr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "survival rate lung cancer - Wholesale survival rate lung cancer",
+          "link": "https://www.chinalane.org/buy-survival-rate-lung-cancer",
+          "snippet": "Focus Products : prevention of lung cancer , lung cancer information.Wholesale Carcinoembryonic Antigen CEA ELISA Cancer Marker Test KIT Laboratory Or Hospital High Precision from china suppliers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "China Lung Cancer, Lung Cancer Wholesale... | Made-in-China.com",
+          "link": "https://www.made-in-china.com/products-search/hot-china-products/Lung_Cancer.html",
+          "snippet": "China Lung Cancer wholesale - Select 2026 high quality Lung Cancer products in best price from certified Chinese Tea Flower manufacturers, China Egcg suppliers, wholesalers and factory on Made-in-Chin",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lung nodules (pulmonary nodules): What you need... | UT MD Anderson",
+          "link": "https://www.mdanderson.org/cancerwise/lung-nodules--what-you-need-to-know.h00-159703068.html",
+          "snippet": "Corporate Alliances.Lung nodules may also be cancerous. When that happens, they could either be caused by lung cancer or a different type of cancer that has spread to the lung from another place. Unfo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lung nodules: Causes, symptoms, diagnosis, and treatment",
+          "link": "https://www.medicalnewstoday.com/articles/317531",
+          "snippet": "Lung nodules are small growths on the lungs. They are very common and can be benign or malignant.A lung nodule does not always indicate lung cancer, and most of these nodules are noncancerous. Noncanc",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "lung cancer treatment - Wholesale lung cancer treatment",
+          "link": "https://www.spintoband.com/wholesale-lung-cancer-treatment",
+          "snippet": "All lung cancer treatment wholesalers & lung cancer treatment manufacturers come from members.Wholesale Hot Sale Low Price Cancer Treatment China Organic Fresh Artemisia Annua Extract Artemisimin 98% ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Geftinat Tablets for Non-small cell lung cancer | Wholesaler, Supplier...",
+          "link": "https://www.specialitymedz.com/product/geftinat/",
+          "snippet": "Cancers of the non-small cell lung are treated with it. Patients without a history of cancer treatment, those with particular aberrant epidermal growth factor (EGFR) genes, and those whose NSCLC cance",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P3": {
+      "query": "lung cancer product resellers official website",
+      "level": "discovery",
+      "result_count": 4,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Amazon.com | Lung Cancer Awareness Products Support Lung...",
+          "link": "https://www.amazon.com/Lung-Cancer-Awareness-Stainless-Insulated/dp/B0FV9744RG",
+          "snippet": "About this item. Lung cancer awareness shirts, lung cancer awareness products, lung cancer shirt, lung cancer survivor gifts for woman. Lung cancer warrior, lung cancer gifts. Dual wall insulated: kee",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Does Vaping Cause Lung Cancer?",
+          "link": "https://health.clevelandclinic.org/vaping-and-lung-cancer",
+          "snippet": "\u201cLung cancer doesn\u2019t develop suddenly,\u201d Dr. Choi notes. \u201cWhen people with a history of smoking develop lung cancer, it\u2019s usually decades after they started the habit \u2014 often in their 60s or later. The",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "verywellhealth.com/how-do-people-die-from-lung-cancer-2249013",
+          "link": "https://www.verywellhealth.com/how-do-people-die-from-lung-cancer-2249013",
+          "snippet": "Understanding what can lead to lung cancer deaths, including tumor spread...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Immunotherapy for Lung Cancer: Does It Work?",
+          "link": "https://www.healthline.com/health/lung-cancer/immunotherapy",
+          "snippet": "Immunotherapy for lung cancer includes new and upcoming drugs that show great promise. They use your immune system to target cancer cells. We tell you what you need to know.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Amazon.com | Lung Cancer Awareness Products Support Lung...",
+          "link": "https://www.amazon.com/Lung-Cancer-Awareness-Stainless-Insulated/dp/B0FV9744RG",
+          "snippet": "About this item. Lung cancer awareness shirts, lung cancer awareness products, lung cancer shirt, lung cancer survivor gifts for woman. Lung cancer warrior, lung cancer gifts. Dual wall insulated: kee",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Does Vaping Cause Lung Cancer?",
+          "link": "https://health.clevelandclinic.org/vaping-and-lung-cancer",
+          "snippet": "\u201cLung cancer doesn\u2019t develop suddenly,\u201d Dr. Choi notes. \u201cWhen people with a history of smoking develop lung cancer, it\u2019s usually decades after they started the habit \u2014 often in their 60s or later. The",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "verywellhealth.com/how-do-people-die-from-lung-cancer-2249013",
+          "link": "https://www.verywellhealth.com/how-do-people-die-from-lung-cancer-2249013",
+          "snippet": "Understanding what can lead to lung cancer deaths, including tumor spread...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Immunotherapy for Lung Cancer: Does It Work?",
+          "link": "https://www.healthline.com/health/lung-cancer/immunotherapy",
+          "snippet": "Immunotherapy for lung cancer includes new and upcoming drugs that show great promise. They use your immune system to target cancer cells. We tell you what you need to know.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P4": {
+      "query": "lung cancer service providers corporate profile",
+      "level": "discovery",
+      "result_count": 9,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Lung Cancer Program | OSF Cancer Institute | OSF HealthCare",
+          "link": "https://www.osfhealthcare.org/services/specialties/cancer/conditions-treatments/cancer-programs/lung-cancer",
+          "snippet": "Get advanced lung cancer care with personalized treatment plans. Expert team, cutting-edge therapies and compassionate support from diagnosis to recovery.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lung Cancer Blood Tests and Other Screening Tools",
+          "link": "https://www.verywellhealth.com/lung-cancer-diagnosis-blood-test-5210824",
+          "snippet": "Researchers are looking for ways to find lung cancer earlier with a simple blood test. At the present time, however, no blood test can definitively diagnose the condition. Blood tests are often done t",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lung nodules (pulmonary nodules): What you need... | UT MD Anderson",
+          "link": "https://www.mdanderson.org/cancerwise/lung-nodules--what-you-need-to-know.h00-159703068.html",
+          "snippet": "Histoplasmosis (Mississippi Valley). Lung nodules may also be cancerous. When that happens, they could either be caused by lung cancer or a different type of cancer that has spread to the lung from an",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "CANVAS \u2013 International Centre For Cancer Vaccine Science",
+          "link": "https://canvas.ug.edu.pl/",
+          "snippet": "Enhancing Cancer Vaccine Science for New Therapy Pathways. The CANVAS project - a platform for an in-depth preparation for the therapy of non-small cell lung cancer and an exceptional opportunity for ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lunger Cancer Resources",
+          "link": "https://www.kraskickers.org/lung-cancer-resources",
+          "snippet": "CancerCare provides free, professional support services for people affected by lung cancer, as well as lung cancer treatment information and additional resources.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lung Cancer Service - Milton Keynes University Hospital",
+          "link": "https://www.mkuh.nhs.uk/lungs/lung-cancer-service",
+          "snippet": "Welcome to our comprehensive Lung Cancer Service in Milton Keynes University Hospital, where we focus on providing expert care, support, and advanced treatment options for patients diagnosed with lung",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Recognising Lung Cancer in Primary Care | Advances in Therapy",
+          "link": "https://link.springer.com/article/10.1007/s12325-018-0843-5",
+          "snippet": "This is challenging, as most lung cancer symptoms are non-specific or are common respiratory symptoms which usually represent benign disease. Identification of patients at risk of lung cancer who requ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Quality statement 5: Treatment with curative intent | Lung cancer in...",
+          "link": "https://www.nice.org.uk/guidance/qs17/chapter/Quality-statement-5-Treatment-with-curative-intent",
+          "snippet": "Service providers (such as secondary and tertiary care) ensure that lung cancer multidisciplinary team meetings include all specialist core members to support decisions on treatment for adults with lu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Targeted Therapy Offers Hope to Woman Diagnosed with Stage...",
+          "link": "https://www.umms.org/umgccc/cancer-services/cancer-types/thoracic/lung/patient-story",
+          "snippet": "Ms. Dolbier, a former teacher who is now 50, said that people associate lung cancer with smokers, and she, like roughly 15 percent of patients diagnosed with lung cancer, has never smoked. The cancer ",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Lung Cancer Program | OSF Cancer Institute | OSF HealthCare",
+          "link": "https://www.osfhealthcare.org/services/specialties/cancer/conditions-treatments/cancer-programs/lung-cancer",
+          "snippet": "Get advanced lung cancer care with personalized treatment plans. Expert team, cutting-edge therapies and compassionate support from diagnosis to recovery.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lung Cancer Blood Tests and Other Screening Tools",
+          "link": "https://www.verywellhealth.com/lung-cancer-diagnosis-blood-test-5210824",
+          "snippet": "Researchers are looking for ways to find lung cancer earlier with a simple blood test. At the present time, however, no blood test can definitively diagnose the condition. Blood tests are often done t",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lung nodules (pulmonary nodules): What you need... | UT MD Anderson",
+          "link": "https://www.mdanderson.org/cancerwise/lung-nodules--what-you-need-to-know.h00-159703068.html",
+          "snippet": "Histoplasmosis (Mississippi Valley). Lung nodules may also be cancerous. When that happens, they could either be caused by lung cancer or a different type of cancer that has spread to the lung from an",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "CANVAS \u2013 International Centre For Cancer Vaccine Science",
+          "link": "https://canvas.ug.edu.pl/",
+          "snippet": "Enhancing Cancer Vaccine Science for New Therapy Pathways. The CANVAS project - a platform for an in-depth preparation for the therapy of non-small cell lung cancer and an exceptional opportunity for ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lunger Cancer Resources",
+          "link": "https://www.kraskickers.org/lung-cancer-resources",
+          "snippet": "CancerCare provides free, professional support services for people affected by lung cancer, as well as lung cancer treatment information and additional resources.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lung Cancer Service - Milton Keynes University Hospital",
+          "link": "https://www.mkuh.nhs.uk/lungs/lung-cancer-service",
+          "snippet": "Welcome to our comprehensive Lung Cancer Service in Milton Keynes University Hospital, where we focus on providing expert care, support, and advanced treatment options for patients diagnosed with lung",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Recognising Lung Cancer in Primary Care | Advances in Therapy",
+          "link": "https://link.springer.com/article/10.1007/s12325-018-0843-5",
+          "snippet": "This is challenging, as most lung cancer symptoms are non-specific or are common respiratory symptoms which usually represent benign disease. Identification of patients at risk of lung cancer who requ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Quality statement 5: Treatment with curative intent | Lung cancer in...",
+          "link": "https://www.nice.org.uk/guidance/qs17/chapter/Quality-statement-5-Treatment-with-curative-intent",
+          "snippet": "Service providers (such as secondary and tertiary care) ensure that lung cancer multidisciplinary team meetings include all specialist core members to support decisions on treatment for adults with lu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Targeted Therapy Offers Hope to Woman Diagnosed with Stage...",
+          "link": "https://www.umms.org/umgccc/cancer-services/cancer-types/thoracic/lung/patient-story",
+          "snippet": "Ms. Dolbier, a former teacher who is now 50, said that people associate lung cancer with smokers, and she, like roughly 15 percent of patients diagnosed with lung cancer, has never smoked. The cancer ",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P5": {
+      "query": "lung cancer medication distributors official site",
+      "level": "discovery",
+      "result_count": 6,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Tagrisso: Lung Cancer Medication Dosage & Side Effects",
+          "link": "https://www.medicinenet.com/tagrisso_osimertinib/article.htm",
+          "snippet": "Tagrisso (osimertinib) is a prescription medication used to treat adults with non-small cell lung cancer (NSCLC). Tagrisso may cause serious side effects, including lung problems, heart problems, seve",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Small-cell lung cancer medication: Types and side effects",
+          "link": "https://www.medicalnewstoday.com/articles/small-cell-lung-cancer-medication",
+          "snippet": "Small-cell lung cancer medications treatment often requires combination of medications, surgery, or radiation. Learn more about the types.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Is Emphysema Considered Cancer? The Risks - Acibadem Health...",
+          "link": "https://www.acibademhealthpoint.com/is-emphysema-considered-cancer-the-risks/",
+          "snippet": "The Risks Emphysema and lung cancer are two distinct conditions that affect the lungs, but it is important to understand their differences. Emphysema is a chronic respiratory disease that mainly resul",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Where Do Cancerous Lung Nodules Usually Appear?",
+          "link": "https://int.livhospital.com/cancerous-lung-nodule-locations/",
+          "snippet": "Cancerous lung nodule locations help doctors assess spread, plan biopsy, and detect malignancies. Learn where nodules often appear in lung cancer patients.Upper Lobe Cancer Distribution Patterns. Lung",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Immunotherapy for Lung Cancer: Does It Work?",
+          "link": "https://www.healthline.com/health/lung-cancer/immunotherapy",
+          "snippet": "How does immunotherapy for lung cancer work? Your immune system works to protect you from infection and illness. Your immune cells are trained to target and attack foreign substances, such as germs an",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Rare Disease Drugs Distributor In Delhi - Aark Pharmaceuticals",
+          "link": "https://aarkpharma.com/rare-disease-drugs-distributor-in-delhi/",
+          "snippet": "For example, lung cancer treatment may involve targeted drugs like Erlotinib, which specifically targets the EGFR mutation. These treatments are generally considered good options for patients with spe",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Tagrisso: Lung Cancer Medication Dosage & Side Effects",
+          "link": "https://www.medicinenet.com/tagrisso_osimertinib/article.htm",
+          "snippet": "Tagrisso (osimertinib) is a prescription medication used to treat adults with non-small cell lung cancer (NSCLC). Tagrisso may cause serious side effects, including lung problems, heart problems, seve",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Small-cell lung cancer medication: Types and side effects",
+          "link": "https://www.medicalnewstoday.com/articles/small-cell-lung-cancer-medication",
+          "snippet": "Small-cell lung cancer medications treatment often requires combination of medications, surgery, or radiation. Learn more about the types.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Is Emphysema Considered Cancer? The Risks - Acibadem Health...",
+          "link": "https://www.acibademhealthpoint.com/is-emphysema-considered-cancer-the-risks/",
+          "snippet": "The Risks Emphysema and lung cancer are two distinct conditions that affect the lungs, but it is important to understand their differences. Emphysema is a chronic respiratory disease that mainly resul",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Where Do Cancerous Lung Nodules Usually Appear?",
+          "link": "https://int.livhospital.com/cancerous-lung-nodule-locations/",
+          "snippet": "Cancerous lung nodule locations help doctors assess spread, plan biopsy, and detect malignancies. Learn where nodules often appear in lung cancer patients.Upper Lobe Cancer Distribution Patterns. Lung",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Immunotherapy for Lung Cancer: Does It Work?",
+          "link": "https://www.healthline.com/health/lung-cancer/immunotherapy",
+          "snippet": "How does immunotherapy for lung cancer work? Your immune system works to protect you from infection and illness. Your immune cells are trained to target and attack foreign substances, such as germs an",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Rare Disease Drugs Distributor In Delhi - Aark Pharmaceuticals",
+          "link": "https://aarkpharma.com/rare-disease-drugs-distributor-in-delhi/",
+          "snippet": "For example, lung cancer treatment may involve targeted drugs like Erlotinib, which specifically targets the EGFR mutation. These treatments are generally considered good options for patients with spe",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "oncology product wholesalers corporate site",
+      "level": "discovery",
+      "result_count": 9,
+      "results_target": 28,
+      "backends": [
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "National Cancer Centre Singapore | Cancer Treatment & Care",
+          "link": "https://www.nccs.com.sg/",
+          "snippet": "National Cancer Centre Singapore delivers advanced cancer treatment, exceptional care and pioneering research \u2014 a trusted global leader in cancer care.",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Is Oncology? - American Cancer Society",
+          "link": "https://www.cancer.org/cancer/preparing-for-treatment/what-is-oncology.html",
+          "snippet": "What does oncology mean? Oncology is the study of cancer. The word comes from the Greek word onkos, meaning tumor or mass. It is the branch of medicine that focuses on the diagnosis, treatment, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Oncology - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Oncology",
+          "snippet": "Oncology is a branch of medicine that deals with the study, treatment, diagnosis, and prevention of cancer. [1][2] A medical professional who practices oncology is an oncologist. Cancer was first foun",
+          "backend": "searxng"
+        },
+        {
+          "title": "Oncology: Types, Diagnosis, Treatment - Verywell Health",
+          "link": "https://www.verywellhealth.com/what-is-oncology-5074859",
+          "snippet": "May 15, 2026 \u00b7 Oncology is the field of medicine that addresses cancer. Learn about the oncology team, diagnosis, and treatment. Reviewed by a board-certified physician.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Comprehensive Cancer Information - NCI",
+          "link": "https://www.cancer.gov/",
+          "snippet": "Accurate, up-to-date, comprehensive cancer information from the U.S. government's principal agency for cancer research.",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Is Cancer? - NCI",
+          "link": "https://www.cancer.gov/about-cancer/understanding/what-is-cancer",
+          "snippet": "Oct 11, 2021 \u00b7 Explanations about what cancer is, how cancer cells differ from normal cells, and genetic changes that cause cancer to grow and spread.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Oncology News Central: a leading oncology digital media outlet",
+          "link": "https://www.oncologynewscentral.com/",
+          "snippet": "Oncology News Central provides high quality, thought-provoking information to oncology professionals with the goal of improving the outcomes and lives of cancer patients.",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Is An Oncologist? Types & What They Do - Cleveland Clinic",
+          "link": "https://my.clevelandclinic.org/health/articles/22145-oncologist",
+          "snippet": "Nov 25, 2024 \u00b7 What is an oncologist? An oncologist is a cancer doctor. These healthcare providers specialize in oncology \u2014 the branch of medicine that focuses on diagnosing, staging and treating \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Oncology Center: Types, Symptoms, Causes, Tests, and Treatments",
+          "link": "https://www.webmd.com/cancer/default.htm",
+          "snippet": "Start here for information on common types of cancer, including breast, lung, colon, skin, prostate, and ovarian cancer. Get the facts on cancer symptoms, treatments, and recovery.",
+          "backend": "searxng"
+        }
+      ],
+      "sample": [
+        {
+          "title": "National Cancer Centre Singapore | Cancer Treatment & Care",
+          "link": "https://www.nccs.com.sg/",
+          "snippet": "National Cancer Centre Singapore delivers advanced cancer treatment, exceptional care and pioneering research \u2014 a trusted global leader in cancer care.",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Is Oncology? - American Cancer Society",
+          "link": "https://www.cancer.org/cancer/preparing-for-treatment/what-is-oncology.html",
+          "snippet": "What does oncology mean? Oncology is the study of cancer. The word comes from the Greek word onkos, meaning tumor or mass. It is the branch of medicine that focuses on the diagnosis, treatment, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Oncology - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Oncology",
+          "snippet": "Oncology is a branch of medicine that deals with the study, treatment, diagnosis, and prevention of cancer. [1][2] A medical professional who practices oncology is an oncologist. Cancer was first foun",
+          "backend": "searxng"
+        },
+        {
+          "title": "Oncology: Types, Diagnosis, Treatment - Verywell Health",
+          "link": "https://www.verywellhealth.com/what-is-oncology-5074859",
+          "snippet": "May 15, 2026 \u00b7 Oncology is the field of medicine that addresses cancer. Learn about the oncology team, diagnosis, and treatment. Reviewed by a board-certified physician.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Comprehensive Cancer Information - NCI",
+          "link": "https://www.cancer.gov/",
+          "snippet": "Accurate, up-to-date, comprehensive cancer information from the U.S. government's principal agency for cancer research.",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Is Cancer? - NCI",
+          "link": "https://www.cancer.gov/about-cancer/understanding/what-is-cancer",
+          "snippet": "Oct 11, 2021 \u00b7 Explanations about what cancer is, how cancer cells differ from normal cells, and genetic changes that cause cancer to grow and spread.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Oncology News Central: a leading oncology digital media outlet",
+          "link": "https://www.oncologynewscentral.com/",
+          "snippet": "Oncology News Central provides high quality, thought-provoking information to oncology professionals with the goal of improving the outcomes and lives of cancer patients.",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Is An Oncologist? Types & What They Do - Cleveland Clinic",
+          "link": "https://my.clevelandclinic.org/health/articles/22145-oncologist",
+          "snippet": "Nov 25, 2024 \u00b7 What is an oncologist? An oncologist is a cancer doctor. These healthcare providers specialize in oncology \u2014 the branch of medicine that focuses on diagnosing, staging and treating \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Oncology Center: Types, Symptoms, Causes, Tests, and Treatments",
+          "link": "https://www.webmd.com/cancer/default.htm",
+          "snippet": "Start here for information on common types of cancer, including breast, lung, colon, skin, prostate, and ovarian cancer. Get the facts on cancer symptoms, treatments, and recovery.",
+          "backend": "searxng"
+        }
+      ]
+    },
+    "P7": {
+      "query": "medical supply resellers for lung cancer official site",
+      "level": "discovery",
+      "result_count": 3,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Amazon Best Sellers: Best Lung Cancer",
+          "link": "https://www.amazon.com/Best-Sellers-Lung-Cancer/zgbs/digital-text/11717385011",
+          "snippet": "Discover the best Lung Cancer in Best Sellers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "What Is Lung Cancer? - Types, Causes, & Symptoms",
+          "link": "https://www.lungcancercenter.com/lung-cancer/",
+          "snippet": "Lung cancer has multiple causes and risk factors. The most significant risk factor is cigarette smoking, which is responsible for the majority of lung cancer cases. Pre-existing conditions, such as tu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lung Cancer Program | OSF Cancer Institute | OSF HealthCare",
+          "link": "https://www.osfhealthcare.org/services/specialties/cancer/conditions-treatments/cancer-programs/lung-cancer",
+          "snippet": "Get advanced lung cancer care with personalized treatment plans. Expert team, cutting-edge therapies and compassionate support from diagnosis to recovery.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Amazon Best Sellers: Best Lung Cancer",
+          "link": "https://www.amazon.com/Best-Sellers-Lung-Cancer/zgbs/digital-text/11717385011",
+          "snippet": "Discover the best Lung Cancer in Best Sellers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "What Is Lung Cancer? - Types, Causes, & Symptoms",
+          "link": "https://www.lungcancercenter.com/lung-cancer/",
+          "snippet": "Lung cancer has multiple causes and risk factors. The most significant risk factor is cigarette smoking, which is responsible for the majority of lung cancer cases. Pre-existing conditions, such as tu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lung Cancer Program | OSF Cancer Institute | OSF HealthCare",
+          "link": "https://www.osfhealthcare.org/services/specialties/cancer/conditions-treatments/cancer-programs/lung-cancer",
+          "snippet": "Get advanced lung cancer care with personalized treatment plans. Expert team, cutting-edge therapies and compassionate support from diagnosis to recovery.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

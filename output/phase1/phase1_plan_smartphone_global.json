@@ -1,0 +1,3323 @@
+{
+  "phase": 1,
+  "query": "Global Smartphone Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-30T12:30:19.574403+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "smartphone",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "mobile devices",
+    "industry_terms": [
+      "smartphone distribution",
+      "mobile device wholesaling",
+      "smartphone reselling",
+      "system integration for smartphones",
+      "mobile service solutions"
+    ],
+    "ecosystem_functions": [
+      "distributing smartphones to retailers",
+      "wholesaling smartphones in bulk",
+      "reselling smartphones to end consumers",
+      "integrating smartphone solutions for enterprises",
+      "providing mobile services for smartphones",
+      "partnering with manufacturers for distribution",
+      "offering value-added services for smartphones",
+      "facilitating smartphone supply chain management"
+    ],
+    "interpretation_summary": "The global smartphone market encompasses the production, distribution, and sale of smartphones, which are mobile devices that combine cellular and computing capabilities. Key participants include manufacturers, distribut",
+    "relevance_keywords": [
+      "smartphone supply chain",
+      "mobile device distribution",
+      "smartphone retail",
+      "smartphone integration services",
+      "smartphone service offerings"
+    ],
+    "negative_keywords": [
+      "tablet",
+      "laptop",
+      "accessories",
+      "wearables",
+      "gaming devices"
+    ],
+    "seed_companies": [
+      {
+        "name": "Ingram Micro",
+        "domain": "ingrammicro.com",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "TD SYNNEX",
+        "domain": "tdsynnex.com",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "D&H Distributing",
+        "domain": "dandh.com",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "ALSO Holding",
+        "domain": "also.com",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Esprinet",
+        "domain": "esprinet.com",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Exertis",
+        "domain": "exertis.com",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Intcomex",
+        "domain": "intcomex.com",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Data Select",
+        "domain": "dataselect.com",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Mobile Phones Factory",
+        "domain": "mobilephonesfactory.com",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "ORSO Distribution",
+        "domain": "orsodistribution.com",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Mobile Depot",
+        "domain": "mobiledepot.eu",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "XS Distribution",
+        "domain": "xsdistribution.com",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Redington",
+        "domain": "redingtongroup.com",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Savex Technologies",
+        "domain": "savex.in",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Supertron Electronics",
+        "domain": "supertronindia.com",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Neoteric Informatique",
+        "domain": "neoteric.co.in",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Rashi Peripherals",
+        "domain": "rptechindia.com",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Softcell Technologies",
+        "domain": "softcell.com",
+        "company_function": "channel_partner",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Compusoluciones",
+        "domain": "compusoluciones.com",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "CT Internacional",
+        "domain": "ctinternacional.com.mx",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Nexsys",
+        "domain": "nexsysla.com",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Dicker Data",
+        "domain": "dickerdata.com.au",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Bluechip Infotech",
+        "domain": "bluechipit.com.au",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Synnex Thailand",
+        "domain": "synnex.co.th",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "SiS Distribution",
+        "domain": "sis.com.sg",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "CDW",
+        "domain": "cdw.com",
+        "company_function": "channel_partner",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "SHI International",
+        "domain": "shi.com",
+        "company_function": "channel_partner",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Insight Enterprises",
+        "domain": "insight.com",
+        "company_function": "channel_partner",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Connection",
+        "domain": "connection.com",
+        "company_function": "channel_partner",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Zones",
+        "domain": "zones.com",
+        "company_function": "channel_partner",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Softchoice",
+        "domain": "softchoice.com",
+        "company_function": "channel_partner",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "3G Mobile",
+        "domain": "3gmobile.com",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Rectron",
+        "domain": "rectron.co.za",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Logicom",
+        "domain": "logicom.com",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Brightstar",
+        "domain": "brightstar.com",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Copaco",
+        "domain": "copaco.com",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "The Phone Hub",
+        "domain": "thephonehub.com",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Emitac",
+        "domain": "emitac.ae",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Pinnacle Micro",
+        "domain": "pinnacle.co.za",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "TCCM",
+        "domain": "tccm.com",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Top Trading",
+        "domain": "toptrading.ee",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Asbis",
+        "domain": "asbis.com",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Komsa",
+        "domain": "komsa.com",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Handtec",
+        "domain": "handtec.co.uk",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Westcoast",
+        "domain": "westcoast.co.uk",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Computer Gross",
+        "domain": "computergross.it",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Vinzeo",
+        "domain": "vinzeo.com",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "TelePart",
+        "domain": "telepart.eu",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Elko Group",
+        "domain": "elkogroup.com",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Softcat",
+        "domain": "softcat.com",
+        "company_function": "channel_partner",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Cancom",
+        "domain": "cancom.com",
+        "company_function": "channel_partner",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Bechtle",
+        "domain": "bechtle.com",
+        "company_function": "channel_partner",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Computacenter",
+        "domain": "computacenter.com",
+        "company_function": "channel_partner",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "eD system",
+        "domain": "edsystem.cz",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "AB SA",
+        "domain": "ab.pl",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "CompuCell",
+        "domain": "compu-cell.com",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Sama Tel",
+        "domain": "samatel.ae",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Jumbo Electronics",
+        "domain": "jumbo.ae",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Aptec",
+        "domain": "aptec.com",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Ban Leong Technologies",
+        "domain": "banleong.com.sg",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "ECS Holdings",
+        "domain": "ecs.com.sg",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Digiworld",
+        "domain": "digiworld.com.vn",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Erajaya",
+        "domain": "erajaya.com",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "MSI-ECS",
+        "domain": "msiecs.com.ph",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Conexio",
+        "domain": "conexio.co.jp",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Synnex FPT",
+        "domain": "synnexfpt.com",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Creative Newtech",
+        "domain": "creativenewtech.com",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Grupo Deltron",
+        "domain": "deltron.com.pe",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "PCH Mayoreo",
+        "domain": "pchmayoreo.com",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Memory Set",
+        "domain": "memory.es",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "AT Computers",
+        "domain": "atcomputers.cz",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "PhoneHub Europe",
+        "domain": "thephonehub.eu",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Teleplus GSM",
+        "domain": "teleplusgsm.com",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Siewert & Kau",
+        "domain": "siewert-kau.de",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Exertis Ireland",
+        "domain": "exertis.ie",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Arena Bilgisayar",
+        "domain": "arena.com.tr",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Index Group",
+        "domain": "index.com.tr",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Penta Teknoloji",
+        "domain": "penta.com.tr",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Datagate Bilgisayar",
+        "domain": "datagate.com.tr",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      },
+      {
+        "name": "Indeks Bilgisayar",
+        "domain": "indeks.com.tr",
+        "company_function": "distributor",
+        "is_seed": true,
+        "is_analyst_seed": true,
+        "analyst_seed": true
+      }
+    ],
+    "search_topic": "smartphone",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "smartphone",
+    "include_keywords": [
+      "smartphone distributor",
+      "bulk smartphone wholesaler",
+      "authorized smartphone reseller",
+      "smartphone system integration",
+      "mobile service provider"
+    ],
+    "exclude_keywords": [
+      "smartphone news",
+      "smartphone blogs",
+      "smartphone market reports",
+      "smartphone job boards",
+      "smartphone consultants",
+      "smartphone manufacturers"
+    ],
+    "scope_version": 2,
+    "market_definition": "The global smartphone market encompasses the production, distribution, and sale of smartphones, which are mobile devices that combine cellular and computing capabilities. Key participants include manufacturers, distributors, wholesalers, resellers, system integrators, and service providers operating on a global scale.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Distribution",
+        "description": "This layer involves the distribution of smartphones from manufacturers to various sales channels.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Regional Distributors",
+              "National Distributors"
+            ],
+            "participant_types": [
+              "distributor"
+            ],
+            "search_intents": [
+              "smartphone distributors near me",
+              "global smartphone distribution companies"
+            ]
+          },
+          {
+            "segment_name": "Wholesalers",
+            "sub_segments": [
+              "Bulk Wholesalers",
+              "Online Wholesalers"
+            ],
+            "participant_types": [
+              "wholesaler"
+            ],
+            "search_intents": [
+              "smartphone wholesalers in my area",
+              "bulk smartphone suppliers"
+            ]
+          },
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Retail Resellers",
+              "Online Resellers"
+            ],
+            "participant_types": [
+              "reseller"
+            ],
+            "search_intents": [
+              "authorized smartphone resellers",
+              "smartphone resellers online"
+            ]
+          },
+          {
+            "segment_name": "System Integrators",
+            "sub_segments": [
+              "Enterprise Integrators",
+              "SMB Integrators"
+            ],
+            "participant_types": [
+              "system integrator"
+            ],
+            "search_intents": [
+              "smartphone system integrators",
+              "enterprise smartphone solutions providers"
+            ]
+          },
+          {
+            "segment_name": "Service Providers",
+            "sub_segments": [
+              "Mobile Service Providers",
+              "Value-Added Service Providers"
+            ],
+            "participant_types": [
+              "service provider"
+            ],
+            "search_intents": [
+              "smartphone service providers",
+              "mobile service solutions for smartphones"
+            ]
+          },
+          {
+            "segment_name": "Channel Partners",
+            "sub_segments": [
+              "Technology Partners",
+              "Sales Partners"
+            ],
+            "participant_types": [
+              "channel partner"
+            ],
+            "search_intents": [
+              "smartphone channel partners",
+              "technology partners for smartphones"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Smartphone Manufacturers",
+        "Retail Stores",
+        "Mobile Network Operators",
+        "Accessory Suppliers"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "search for smartphone distributors globally",
+        "sub_sector": "distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "find bulk smartphone wholesalers in my region",
+        "sub_sector": "wholesaler",
+        "layer_id": "L1",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "look for authorized smartphone resellers",
+        "sub_sector": "reseller",
+        "layer_id": "L1",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "search for smartphone system integrators",
+        "sub_sector": "system_integrator",
+        "layer_id": "L1",
+        "segment": "System Integrators"
+      },
+      {
+        "id": "M5",
+        "level": "market_map",
+        "text": "find smartphone service providers in my area",
+        "sub_sector": "service_provider",
+        "layer_id": "L1",
+        "segment": "Service Providers"
+      },
+      {
+        "id": "M6",
+        "level": "market_map",
+        "text": "search for smartphone channel partners",
+        "sub_sector": "channel_partner",
+        "layer_id": "L1",
+        "segment": "Channel Partners"
+      },
+      {
+        "id": "M7",
+        "level": "market_map",
+        "text": "distribuidores de smartphones en el mundo",
+        "sub_sector": "distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M8",
+        "level": "market_map",
+        "text": "mayoristas de smartphones en mi región",
+        "sub_sector": "wholesaler",
+        "layer_id": "L1",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M9",
+        "level": "market_map",
+        "text": "revendedores autorizados de smartphones",
+        "sub_sector": "reseller",
+        "layer_id": "L1",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M10",
+        "level": "market_map",
+        "text": "integradores de sistemas de smartphones",
+        "sub_sector": "system_integrator",
+        "layer_id": "L1",
+        "segment": "System Integrators"
+      },
+      {
+        "id": "M11",
+        "level": "market_map",
+        "text": "proveedores de servicios de smartphones en mi área",
+        "sub_sector": "service_provider",
+        "layer_id": "L1",
+        "segment": "Service Providers"
+      },
+      {
+        "id": "M12",
+        "level": "market_map",
+        "text": "socios de canal de smartphones",
+        "sub_sector": "channel_partner",
+        "layer_id": "L1",
+        "segment": "Channel Partners"
+      }
+    ],
+    "market_map_source": "llm",
+    "seeds": [
+      "Ingram Micro",
+      "TD SYNNEX",
+      "D&H Distributing",
+      "ALSO Holding",
+      "Esprinet",
+      "Exertis",
+      "Intcomex",
+      "Data Select",
+      "Mobile Phones Factory",
+      "ORSO Distribution",
+      "Mobile Depot",
+      "XS Distribution",
+      "Redington",
+      "Savex Technologies",
+      "Supertron Electronics",
+      "Neoteric Informatique",
+      "Rashi Peripherals",
+      "Softcell Technologies",
+      "Compusoluciones",
+      "CT Internacional",
+      "Nexsys",
+      "Dicker Data",
+      "Bluechip Infotech",
+      "Synnex Thailand",
+      "SiS Distribution",
+      "CDW",
+      "SHI International",
+      "Insight Enterprises",
+      "Connection",
+      "Zones",
+      "Softchoice",
+      "3G Mobile",
+      "Rectron",
+      "Logicom",
+      "Brightstar",
+      "Copaco",
+      "The Phone Hub",
+      "Emitac",
+      "Pinnacle Micro",
+      "TCCM",
+      "Top Trading",
+      "Asbis",
+      "Komsa",
+      "Handtec",
+      "Westcoast",
+      "Computer Gross",
+      "Vinzeo",
+      "TelePart",
+      "Elko Group",
+      "Softcat",
+      "Cancom",
+      "Bechtle",
+      "Computacenter",
+      "eD system",
+      "AB SA",
+      "CompuCell",
+      "Sama Tel",
+      "Jumbo Electronics",
+      "Aptec",
+      "Ban Leong Technologies",
+      "ECS Holdings",
+      "Digiworld",
+      "Erajaya",
+      "MSI-ECS",
+      "Conexio",
+      "Synnex FPT",
+      "Creative Newtech",
+      "Grupo Deltron",
+      "PCH Mayoreo",
+      "Memory Set",
+      "AT Computers",
+      "PhoneHub Europe",
+      "Teleplus GSM",
+      "Siewert & Kau",
+      "Exertis Ireland",
+      "Arena Bilgisayar",
+      "Index Group",
+      "Penta Teknoloji",
+      "Datagate Bilgisayar",
+      "Indeks Bilgisayar"
+    ],
+    "_analyst_seed_domains": [
+      "ingrammicro.com",
+      "tdsynnex.com",
+      "dandh.com",
+      "also.com",
+      "esprinet.com",
+      "exertis.com",
+      "intcomex.com",
+      "dataselect.com",
+      "mobilephonesfactory.com",
+      "orsodistribution.com",
+      "mobiledepot.eu",
+      "xsdistribution.com",
+      "redingtongroup.com",
+      "savex.in",
+      "supertronindia.com",
+      "neoteric.co.in",
+      "rptechindia.com",
+      "softcell.com",
+      "compusoluciones.com",
+      "ctinternacional.com.mx",
+      "nexsysla.com",
+      "dickerdata.com.au",
+      "bluechipit.com.au",
+      "synnex.co.th",
+      "sis.com.sg",
+      "cdw.com",
+      "shi.com",
+      "insight.com",
+      "connection.com",
+      "zones.com",
+      "softchoice.com",
+      "3gmobile.com",
+      "rectron.co.za",
+      "logicom.com",
+      "brightstar.com",
+      "copaco.com",
+      "thephonehub.com",
+      "emitac.ae",
+      "pinnacle.co.za",
+      "tccm.com",
+      "toptrading.ee",
+      "asbis.com",
+      "komsa.com",
+      "handtec.co.uk",
+      "westcoast.co.uk",
+      "computergross.it",
+      "vinzeo.com",
+      "telepart.eu",
+      "elkogroup.com",
+      "softcat.com",
+      "cancom.com",
+      "bechtle.com",
+      "computacenter.com",
+      "edsystem.cz",
+      "ab.pl",
+      "compu-cell.com",
+      "samatel.ae",
+      "jumbo.ae",
+      "aptec.com",
+      "banleong.com.sg",
+      "ecs.com.sg",
+      "digiworld.com.vn",
+      "erajaya.com",
+      "msiecs.com.ph",
+      "conexio.co.jp",
+      "synnexfpt.com",
+      "creativenewtech.com",
+      "deltron.com.pe",
+      "pchmayoreo.com",
+      "memory.es",
+      "atcomputers.cz",
+      "thephonehub.eu",
+      "teleplusgsm.com",
+      "siewert-kau.de",
+      "exertis.ie",
+      "arena.com.tr",
+      "index.com.tr",
+      "penta.com.tr",
+      "datagate.com.tr",
+      "indeks.com.tr"
+    ]
+  },
+  "scope_source": "llm",
+  "industry_vertical": "mobile devices",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "active",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample firmographics: founded=1975 hq=Redmond qid=Q2283"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK → https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "smartphone companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "smartphone distributors corporate sites"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "smartphone service providers official website"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "market_map",
+      "text": "search for smartphone distributors globally"
+    },
+    {
+      "id": "P2",
+      "level": "market_map",
+      "text": "find bulk smartphone wholesalers in my region"
+    },
+    {
+      "id": "P3",
+      "level": "market_map",
+      "text": "look for authorized smartphone resellers"
+    },
+    {
+      "id": "P4",
+      "level": "market_map",
+      "text": "search for smartphone system integrators"
+    },
+    {
+      "id": "P5",
+      "level": "market_map",
+      "text": "find smartphone service providers in my area"
+    },
+    {
+      "id": "P6",
+      "level": "market_map",
+      "text": "search for smartphone channel partners"
+    },
+    {
+      "id": "P7",
+      "level": "market_map",
+      "text": "distribuidores de smartphones en el mundo"
+    },
+    {
+      "id": "P8",
+      "level": "market_map",
+      "text": "mayoristas de smartphones en mi región"
+    },
+    {
+      "id": "P9",
+      "level": "market_map",
+      "text": "revendedores autorizados de smartphones"
+    },
+    {
+      "id": "P10",
+      "level": "market_map",
+      "text": "integradores de sistemas de smartphones"
+    },
+    {
+      "id": "P11",
+      "level": "market_map",
+      "text": "proveedores de servicios de smartphones en mi área"
+    },
+    {
+      "id": "P12",
+      "level": "market_map",
+      "text": "socios de canal de smartphones"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "smartphone companies official websites",
+      "level": "L0",
+      "result_count": 28,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Compare phones, smartphones, tablets - GSMArena.com",
+          "link": "https://m.gsmarena.com/compare.php3",
+          "snippet": "Jul 22, 2026 · Compare detailed specifications of mobile phones, smartphones and tablets side by side. Find which one's for you!",
+          "backend": "searxng"
+        },
+        {
+          "title": "Cell Phones: Smartphones and Mobile Phones - Best Buy",
+          "link": "https://www.bestbuy.com/site/electronics/mobile-cell-phones/abcat0800000.c?id=abcat0800000",
+          "snippet": "Shop Best Buy for phones. Text, call and search the web with cell phones from popular brands. Browse our selection to find the best …",
+          "backend": "searxng"
+        },
+        {
+          "title": "Best phones 2026 tested — our top picks - Tom's Guide",
+          "link": "https://www.tomsguide.com/best-picks/best-phones",
+          "snippet": "In order for a smartphone to make our best phone list, it needs to excel on several tests that we run on every handset. We perform …",
+          "backend": "searxng"
+        },
+        {
+          "title": "The Best Phones We've Tested for 2026 | PCMag",
+          "link": "https://www.pcmag.com/picks/the-best-phones",
+          "snippet": "Jun 17, 2026 · Whether you want a standard slab-style smartphone, a modern folding phone, or a basic feature phone, there are …",
+          "backend": "searxng"
+        },
+        {
+          "title": "Smartphone - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Smartphone",
+          "snippet": "A smartphone is a mobile device that combines the functionality of a traditional mobile phone (feature phone) with advanced …",
+          "backend": "searxng"
+        },
+        {
+          "title": "Smartphones : Latest & New Smartphones List 2026 - Gadgets 360",
+          "link": "https://www.gadgets360.com/mobiles/smartphones",
+          "snippet": "Here are the latest smartphone models globally, sorted by popularity. You can also find new launched smartphone models by sorting …",
+          "backend": "searxng"
+        },
+        {
+          "title": "iPhone - Apple",
+          "link": "https://www.apple.com/iphone/",
+          "snippet": "Switching from Android to iPhone is simple. iPhone holds its value longer than other smartphones. New look. Even more magic. Your …",
+          "backend": "searxng"
+        },
+        {
+          "title": "The 6 Best Smartphones for 2026 | Reviews by Wirecutter",
+          "link": "https://www.nytimes.com/wirecutter/reviews/best-smartphones/",
+          "snippet": "Apr 3, 2026 · Whether you prefer iPhones or Android, we have smartphone recommendations for every budget.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Fairphone | Official Website",
+          "link": "https://www.fairphone.com/",
+          "snippet": "Shopping from the USA? We don't ship there directly yet, but you can buy from our official USA partners. ... The Fairphone (Gen. 6) /e/OS The Fairphone (Gen. 6) /e/OS · Family-friendly smartphones Tra",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Verizon: Wireless, Internet, TV and Phone Services | Official Site",
+          "link": "https://www.verizon.com/",
+          "snippet": "Shop Verizon smartphone deals and wireless plans on the largest 4G LTE network. First to 5G. Get Fios for the fastest internet, TV and phone service.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Smartphone Market Share: Quarterly - Counterpoint Research",
+          "link": "https://counterpointresearch.com/en/insights/global-smartphone-share",
+          "snippet": "May 18, 2026 ... Both benefited from solid mid-tier segment performance and government subsidies in China. ... Among the top five smartphone brands, Xiaomi grew ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10: Smartphone Manufacturers",
+          "link": "https://manufacturingdigital.com/top10/top-10-phone-manufacturers",
+          "snippet": "Apr 29, 2026 ... The top smartphone manufacturers implementing new technologies and grappling with supply chain issues include Apple, OPPO, ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "We're HMD, makers of Android™ smartphones and feature phones.",
+          "link": "https://www.hmd.com/en_in",
+          "snippet": "The largest European manufacturer of smartphones and makers of Nokia phones.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mobile Phones Brands | List of Smartphone Brands (2026) - NDTV Gadgets 360",
+          "link": "https://www.gadgets360.com/mobiles/all-brands",
+          "snippet": "Find here the list of all mobile phones brands of India and Worldwide, Also check latest smartphones from top & best company like Samsung, Apple, Xiaomi, Vivo, Oppo, OnePlus and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Latest Mobile Phones, Smartphones, Accessories - Lava Official Website",
+          "link": "https://lavamobiles.com/",
+          "snippet": "LAVA Mobiles, an Indian mobile phone company offers a wide range of latest smartphones, feature phones, tablets and accessories with latest technologies at best price in India. Shop Now.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Phone and Smartphone Companies and Related Links",
+          "link": "https://www.computerhope.com/network/phone.htm",
+          "snippet": "A comprehensive list of phone and smartphone companies, including service, communication, and accessory providers, with related Internet resources.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "vivo India | Explore vivo Smartphones with Latest Technology",
+          "link": "https://www.vivo.com/in",
+          "snippet": "Welcome to vivo Official Site. Explore our latest smartphone models with stunning displays, high-quality cameras, and long-lasting battery. Click now!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mobile Phones Brands List: Most Popular Brands for Smartphones - India Today",
+          "link": "https://www.indiatoday.in/technology/mobiles",
+          "snippet": "1 week ago - Discover the most popular mobile phone brands for smartphones with our comprehensive list. From Apple to Samsung to Xiaomi, we have got all the top brands covered. Compare features, price",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Mobile Phones and Accessories Online | Latest Smartphones & Gadgets",
+          "link": "https://www.nationalmobile.in/",
+          "snippet": "June 23, 2026 - Explore a wide range of mobile phones and accessories at unbeatable prices. Shop the latest smartphones, chargers and more. Fast delivery and great offers on top brands. Find your perf",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "TECNO Mobile | Official TECNO Website",
+          "link": "https://www.tecno-mobile.com/",
+          "snippet": "Explore the latest TECNO smartphones on the official TECNO website. Find the best phone with cutting-edge features, long lasting batteries and affordable prices.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "OPPO Official Site | OPPO India",
+          "link": "https://www.oppo.com/in/",
+          "snippet": "2 weeks ago - Learn more about the all new OPPO Reno14 series and more innovative OPPO smartphones, Tablets, Audios and Accessories at OPPO Official Site.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "DOOGEE Official Website & Mall | World Leading Rugged Phone Brand",
+          "link": "https://www.doogee.com/",
+          "snippet": "Pioneering in Smart Device Technology for 16 Years. 50 Million + Global Customers. The World's No. 1 rugged smartphone brand. Available in 100+ Markets.Shop with your preferred option. Follow us on ou",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Latest Mobile Phones, Smartphones, Accessories - Lava Official...",
+          "link": "https://www.lavamobiles.com/",
+          "snippet": "LAVA Mobiles, an Indian mobile phone company offers a wide range of latest smartphones, feature phones, tablets and accessories with latest technologies at best price in India. Shop Now.Smartphones. N",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "OUKITEL | Rugged Smartphones | Smartphones | Portable Power...",
+          "link": "https://oukitel.com/",
+          "snippet": "Oukitel, one of the leading manufacturers of rugged electronics—rugged smartphones, rugged tablets and commercial smartphones. Oukitel also offers portable power stations, best solution for your home ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The 10 Largest Smartphone Companies In The World - Zippia",
+          "link": "https://www.zippia.com/advice/largest-smartphone-companies/",
+          "snippet": "Zippia Official Logo.Largest Smartphone Companies Research Summary. The largest smartphone company in the world is Apple, with 2025 sales of $400 billion and a market share of 22%.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "New Cell Phones for Sale | Buy Smartphones Online or in... | T-Mobile",
+          "link": "https://www.t-mobile.com/cell-phones",
+          "snippet": "Explore T-Mobile's selection of the latest cell phones and smartphones. Compare models, prices, and features from the most popular brands today!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 Best Smartphone Companies in World 2025",
+          "link": "https://bd-info.com/best-smartphone-companies-in-world/",
+          "snippet": "Here are your Top 10 Best smartphone companies in world. Yes! recently we collect this list for you. Samsung tops the list of companies in the world.TECNO is also the Official Partner of Manchester Ci",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Motorola IN: Latest Premium 5G & Flip Android Flagship Phones",
+          "link": "https://www.motorola.in/",
+          "snippet": "Explore the latest android phones, premium 5G smartphones, best flip phones, and top flagship Motorola devices.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Compare phones, smartphones, tablets - GSMArena.com",
+          "link": "https://m.gsmarena.com/compare.php3",
+          "snippet": "Jul 22, 2026 · Compare detailed specifications of mobile phones, smartphones and tablets side by side. Find which one's for you!",
+          "backend": "searxng"
+        },
+        {
+          "title": "Cell Phones: Smartphones and Mobile Phones - Best Buy",
+          "link": "https://www.bestbuy.com/site/electronics/mobile-cell-phones/abcat0800000.c?id=abcat0800000",
+          "snippet": "Shop Best Buy for phones. Text, call and search the web with cell phones from popular brands. Browse our selection to find the best …",
+          "backend": "searxng"
+        },
+        {
+          "title": "Best phones 2026 tested — our top picks - Tom's Guide",
+          "link": "https://www.tomsguide.com/best-picks/best-phones",
+          "snippet": "In order for a smartphone to make our best phone list, it needs to excel on several tests that we run on every handset. We perform …",
+          "backend": "searxng"
+        },
+        {
+          "title": "The Best Phones We've Tested for 2026 | PCMag",
+          "link": "https://www.pcmag.com/picks/the-best-phones",
+          "snippet": "Jun 17, 2026 · Whether you want a standard slab-style smartphone, a modern folding phone, or a basic feature phone, there are …",
+          "backend": "searxng"
+        },
+        {
+          "title": "Smartphone - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Smartphone",
+          "snippet": "A smartphone is a mobile device that combines the functionality of a traditional mobile phone (feature phone) with advanced …",
+          "backend": "searxng"
+        },
+        {
+          "title": "Smartphones : Latest & New Smartphones List 2026 - Gadgets 360",
+          "link": "https://www.gadgets360.com/mobiles/smartphones",
+          "snippet": "Here are the latest smartphone models globally, sorted by popularity. You can also find new launched smartphone models by sorting …",
+          "backend": "searxng"
+        },
+        {
+          "title": "iPhone - Apple",
+          "link": "https://www.apple.com/iphone/",
+          "snippet": "Switching from Android to iPhone is simple. iPhone holds its value longer than other smartphones. New look. Even more magic. Your …",
+          "backend": "searxng"
+        },
+        {
+          "title": "The 6 Best Smartphones for 2026 | Reviews by Wirecutter",
+          "link": "https://www.nytimes.com/wirecutter/reviews/best-smartphones/",
+          "snippet": "Apr 3, 2026 · Whether you prefer iPhones or Android, we have smartphone recommendations for every budget.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Fairphone | Official Website",
+          "link": "https://www.fairphone.com/",
+          "snippet": "Shopping from the USA? We don't ship there directly yet, but you can buy from our official USA partners. ... The Fairphone (Gen. 6) /e/OS The Fairphone (Gen. 6) /e/OS · Family-friendly smartphones Tra",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Verizon: Wireless, Internet, TV and Phone Services | Official Site",
+          "link": "https://www.verizon.com/",
+          "snippet": "Shop Verizon smartphone deals and wireless plans on the largest 4G LTE network. First to 5G. Get Fios for the fastest internet, TV and phone service.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Smartphone Market Share: Quarterly - Counterpoint Research",
+          "link": "https://counterpointresearch.com/en/insights/global-smartphone-share",
+          "snippet": "May 18, 2026 ... Both benefited from solid mid-tier segment performance and government subsidies in China. ... Among the top five smartphone brands, Xiaomi grew ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10: Smartphone Manufacturers",
+          "link": "https://manufacturingdigital.com/top10/top-10-phone-manufacturers",
+          "snippet": "Apr 29, 2026 ... The top smartphone manufacturers implementing new technologies and grappling with supply chain issues include Apple, OPPO, ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "We're HMD, makers of Android™ smartphones and feature phones.",
+          "link": "https://www.hmd.com/en_in",
+          "snippet": "The largest European manufacturer of smartphones and makers of Nokia phones.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mobile Phones Brands | List of Smartphone Brands (2026) - NDTV Gadgets 360",
+          "link": "https://www.gadgets360.com/mobiles/all-brands",
+          "snippet": "Find here the list of all mobile phones brands of India and Worldwide, Also check latest smartphones from top & best company like Samsung, Apple, Xiaomi, Vivo, Oppo, OnePlus and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Latest Mobile Phones, Smartphones, Accessories - Lava Official Website",
+          "link": "https://lavamobiles.com/",
+          "snippet": "LAVA Mobiles, an Indian mobile phone company offers a wide range of latest smartphones, feature phones, tablets and accessories with latest technologies at best price in India. Shop Now.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Phone and Smartphone Companies and Related Links",
+          "link": "https://www.computerhope.com/network/phone.htm",
+          "snippet": "A comprehensive list of phone and smartphone companies, including service, communication, and accessory providers, with related Internet resources.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "vivo India | Explore vivo Smartphones with Latest Technology",
+          "link": "https://www.vivo.com/in",
+          "snippet": "Welcome to vivo Official Site. Explore our latest smartphone models with stunning displays, high-quality cameras, and long-lasting battery. Click now!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mobile Phones Brands List: Most Popular Brands for Smartphones - India Today",
+          "link": "https://www.indiatoday.in/technology/mobiles",
+          "snippet": "1 week ago - Discover the most popular mobile phone brands for smartphones with our comprehensive list. From Apple to Samsung to Xiaomi, we have got all the top brands covered. Compare features, price",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Mobile Phones and Accessories Online | Latest Smartphones & Gadgets",
+          "link": "https://www.nationalmobile.in/",
+          "snippet": "June 23, 2026 - Explore a wide range of mobile phones and accessories at unbeatable prices. Shop the latest smartphones, chargers and more. Fast delivery and great offers on top brands. Find your perf",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "TECNO Mobile | Official TECNO Website",
+          "link": "https://www.tecno-mobile.com/",
+          "snippet": "Explore the latest TECNO smartphones on the official TECNO website. Find the best phone with cutting-edge features, long lasting batteries and affordable prices.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "OPPO Official Site | OPPO India",
+          "link": "https://www.oppo.com/in/",
+          "snippet": "2 weeks ago - Learn more about the all new OPPO Reno14 series and more innovative OPPO smartphones, Tablets, Audios and Accessories at OPPO Official Site.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "DOOGEE Official Website & Mall | World Leading Rugged Phone Brand",
+          "link": "https://www.doogee.com/",
+          "snippet": "Pioneering in Smart Device Technology for 16 Years. 50 Million + Global Customers. The World's No. 1 rugged smartphone brand. Available in 100+ Markets.Shop with your preferred option. Follow us on ou",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Latest Mobile Phones, Smartphones, Accessories - Lava Official...",
+          "link": "https://www.lavamobiles.com/",
+          "snippet": "LAVA Mobiles, an Indian mobile phone company offers a wide range of latest smartphones, feature phones, tablets and accessories with latest technologies at best price in India. Shop Now.Smartphones. N",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "OUKITEL | Rugged Smartphones | Smartphones | Portable Power...",
+          "link": "https://oukitel.com/",
+          "snippet": "Oukitel, one of the leading manufacturers of rugged electronics—rugged smartphones, rugged tablets and commercial smartphones. Oukitel also offers portable power stations, best solution for your home ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The 10 Largest Smartphone Companies In The World - Zippia",
+          "link": "https://www.zippia.com/advice/largest-smartphone-companies/",
+          "snippet": "Zippia Official Logo.Largest Smartphone Companies Research Summary. The largest smartphone company in the world is Apple, with 2025 sales of $400 billion and a market share of 22%.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "New Cell Phones for Sale | Buy Smartphones Online or in... | T-Mobile",
+          "link": "https://www.t-mobile.com/cell-phones",
+          "snippet": "Explore T-Mobile's selection of the latest cell phones and smartphones. Compare models, prices, and features from the most popular brands today!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 Best Smartphone Companies in World 2025",
+          "link": "https://bd-info.com/best-smartphone-companies-in-world/",
+          "snippet": "Here are your Top 10 Best smartphone companies in world. Yes! recently we collect this list for you. Samsung tops the list of companies in the world.TECNO is also the Official Partner of Manchester Ci",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Motorola IN: Latest Premium 5G & Flip Android Flagship Phones",
+          "link": "https://www.motorola.in/",
+          "snippet": "Explore the latest android phones, premium 5G smartphones, best flip phones, and top flagship Motorola devices.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "smartphone distributors corporate sites",
+      "level": "L1",
+      "result_count": 26,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "google_ai_scraper",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Compare phones, smartphones, tablets - GSMArena.com",
+          "link": "https://m.gsmarena.com/compare.php3",
+          "snippet": "Jul 22, 2026 · Compare detailed specifications of mobile phones, smartphones and tablets side by side. Find which one's for you!",
+          "backend": "searxng"
+        },
+        {
+          "title": "Cell Phones: Smartphones and Mobile Phones - Best Buy",
+          "link": "https://www.bestbuy.com/site/electronics/mobile-cell-phones/abcat0800000.c?id=abcat0800000",
+          "snippet": "Shop Best Buy for phones. Text, call and search the web with cell phones from popular brands. Browse our selection to find the best …",
+          "backend": "searxng"
+        },
+        {
+          "title": "Best phones 2026 tested — our top picks - Tom's Guide",
+          "link": "https://www.tomsguide.com/best-picks/best-phones",
+          "snippet": "In order for a smartphone to make our best phone list, it needs to excel on several tests that we run on every handset. We perform …",
+          "backend": "searxng"
+        },
+        {
+          "title": "The Best Phones We've Tested for 2026 | PCMag",
+          "link": "https://www.pcmag.com/picks/the-best-phones",
+          "snippet": "Jun 17, 2026 · Whether you want a standard slab-style smartphone, a modern folding phone, or a basic feature phone, there are …",
+          "backend": "searxng"
+        },
+        {
+          "title": "Smartphone - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Smartphone",
+          "snippet": "A smartphone is a mobile device that combines the functionality of a traditional mobile phone (feature phone) with advanced …",
+          "backend": "searxng"
+        },
+        {
+          "title": "Smartphones : Latest & New Smartphones List 2026 - Gadgets 360",
+          "link": "https://www.gadgets360.com/mobiles/smartphones",
+          "snippet": "Here are the latest smartphone models globally, sorted by popularity. You can also find new launched smartphone models by sorting …",
+          "backend": "searxng"
+        },
+        {
+          "title": "iPhone - Apple",
+          "link": "https://www.apple.com/iphone/",
+          "snippet": "Switching from Android to iPhone is simple. iPhone holds its value longer than other smartphones. New look. Even more magic. Your …",
+          "backend": "searxng"
+        },
+        {
+          "title": "The 6 Best Smartphones for 2026 | Reviews by Wirecutter",
+          "link": "https://www.nytimes.com/wirecutter/reviews/best-smartphones/",
+          "snippet": "Apr 3, 2026 · Whether you prefer iPhones or Android, we have smartphone recommendations for every budget.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Cellpex — Wholesale Smartphones, Tablets & Accessories",
+          "link": "https://www.cellpex.com/",
+          "snippet": "Buy and sell wholesale smartphones, tablets & accessories. Connect with verified suppliers, dealers and wholesalers worldwide. Free to browse.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Connect Distributors - Wholesale Electronics Distributor",
+          "link": "https://connectdist.com/",
+          "snippet": "Connect Distributors is a global distributor of high-quality electronics and smartphones, with multiple shipping points and optimized logistics.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Trade-In Tech | Verified Wholesale Platform For Smartphone ...",
+          "link": "https://www.tradeintech.com/",
+          "snippet": "Trade-In Tech is an online social network based in the consumer electronics industry. Connect with verified electronics distributors, wholesalers, and retailers from all over the world. Buy and sell s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "KT Corp Worldwide - Buy Smartphones at Wholesale prices",
+          "link": "https://ktcorpworldwide.com/",
+          "snippet": "Shop bulk smartphones, tablets, laptops & wearables at KT Corp Wholesale — trusted, R2-certified electronics supplier for resellers worldwide.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Hyundai Mobile enters U.S. smartphone fray with distribution ...",
+          "link": "https://www.fierce-network.com/wireless/hyundai-mobile-enters-u-s-smartphone-fray-distribution-through-gci-viaero-and-iwireless",
+          "snippet": "Apr 18, 2016 ... Hyundai Mobile is now working in the US smartphone market with a handful of sub-$200 Android smartphones the company is distributing online and through smaller ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Magnum Distributions | B2B Smartphone Distribution",
+          "link": "https://magnumgourmet.com/",
+          "snippet": "Magnum Distributions is a technology distribution partner supporting retailers, resellers, and corporate procurement teams with reliable sourcing from globally recognized smartphone brands. Request a ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "smartphone distributor | B2B companies and suppliers | europages",
+          "link": "https://www.europages.co.uk/companies/smartphone-distributor.html",
+          "snippet": "181 Companies and suppliers for smartphone distributor Find wholesalers and contact them directly Leading B2B martketplace Find companies now! HEM France is a wholesaler and B2B distributor specializi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Unlocked Smartphones Distributor: Top Suppliers 2025",
+          "link": "https://www.accio.com/supplier/unlocked-smartphones-distributor",
+          "snippet": "Where do phone resellers get their products? Phone resellers primarily source devices through bulk purchases from corporate upgrade programs or distributor partnerships.original smartphones distributo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Custom Smartphone OEM & Bulk Supply | Reliable Smartphone...",
+          "link": "https://qingsm.tech/custom-smartphones/smartphone-distributor-supplier.html",
+          "snippet": "Leading smartphone distributor supplier specializing in custom OEM smartphones, bulk supply, and global logistics. Partner with us for tailored mobile solutions, competitive pricing, and reliable deli",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Smartphone and Accessories Distributor in Dubai | Global FZCO",
+          "link": "https://www.globalfzco.com/products",
+          "snippet": "Our Distribution journey. As a trusted, authorized distributor, we bring you directly to the source for the world's top smartphone brands.A person holding a cell phone in their hand. We have proudly s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Smartphone Market Size, Share & Trends Report, 2026-2033",
+          "link": "https://www.grandviewresearch.com/industry-analysis/smart-phone-market",
+          "snippet": "Smartphone Market (2026 - 2033). Size, Share & Trends Analysis Report By Operating System (Android, iOS), By Distribution Channel (Online, Offline), By Price Range (Entry Level, Mid-Range, Premium), B",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Smartphone Distribution – BlueTel",
+          "link": "https://bluetel.ae/smartphone-distribution/",
+          "snippet": "Smartphone Distribution March 19, 2021. Future generation of phones January 5, 2021.BlueTel acknowledges the fast-paced essence of the Smartphone sector and has developed end-to-end supply chain solut",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Cell Phones & Smartphones for Sale | Trusted Distributor ...",
+          "link": "https://www.todayscloseout.com/",
+          "snippet": "Wholesale Cell Phones TodaysCloseout is the global leader in premium wholesale phones, offering carrier and manufacturer direct New, Refurbished, and Used R2 & ISO devices from top brands like wholesa",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Mobile Phone Distributor USA | Bulk Smartphones",
+          "link": "https://globalphonesolutions.com/",
+          "snippet": "What products does Global Phone Solutions distribute? We are a leading mobility distribution company offering a wide range of genuine mobile phones and ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Your Wholesale Mobile Phones Supplier - US Mobile Phones",
+          "link": "https://usmphones.com/",
+          "snippet": "USMP is the world's most trusted Wholesale Mobile Supplier. Thousands of businesses have trusted US Mobile Phones for Wholesale Refurbished Cell Phones. We're not just your wholesale smartphones suppl",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Electronics Distributor | SM Distribution",
+          "link": "https://smdistribution.co/",
+          "snippet": "SM Distribution is a global distributor of high-quality electronics and smartphones. Get quick and efficient turnaround, outstanding customer service, impeccable attention to detail, favorable wholesa",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Explore reports - Euromonitor.com",
+          "link": "https://www.euromonitor.com/store/explore-reports/consumer-electronics/mobile-phones",
+          "snippet": "Hotels and Camping Sites: ISIC 551 (19). Primary Materials (75).In 2025, mobile phones in Austria recorded a low decline in retail volume sales, with feature phones experiencing a more pronounced down",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Google Search (cleaned) — smartphone distributors corporate sites",
+          "link": "https://www.google.com/search?q=smartphone+distributors+corporate+sites",
+          "snippet": "Here are some corporate sites for smartphone distributors in India:\n\n- **GetDistributors**: Offers smartphone distributorship and dealership opportunities. [getdistributors.com](https://www.getdistrib",
+          "backend": "google_ai_scraper"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Compare phones, smartphones, tablets - GSMArena.com",
+          "link": "https://m.gsmarena.com/compare.php3",
+          "snippet": "Jul 22, 2026 · Compare detailed specifications of mobile phones, smartphones and tablets side by side. Find which one's for you!",
+          "backend": "searxng"
+        },
+        {
+          "title": "Cell Phones: Smartphones and Mobile Phones - Best Buy",
+          "link": "https://www.bestbuy.com/site/electronics/mobile-cell-phones/abcat0800000.c?id=abcat0800000",
+          "snippet": "Shop Best Buy for phones. Text, call and search the web with cell phones from popular brands. Browse our selection to find the best …",
+          "backend": "searxng"
+        },
+        {
+          "title": "Best phones 2026 tested — our top picks - Tom's Guide",
+          "link": "https://www.tomsguide.com/best-picks/best-phones",
+          "snippet": "In order for a smartphone to make our best phone list, it needs to excel on several tests that we run on every handset. We perform …",
+          "backend": "searxng"
+        },
+        {
+          "title": "The Best Phones We've Tested for 2026 | PCMag",
+          "link": "https://www.pcmag.com/picks/the-best-phones",
+          "snippet": "Jun 17, 2026 · Whether you want a standard slab-style smartphone, a modern folding phone, or a basic feature phone, there are …",
+          "backend": "searxng"
+        },
+        {
+          "title": "Smartphone - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Smartphone",
+          "snippet": "A smartphone is a mobile device that combines the functionality of a traditional mobile phone (feature phone) with advanced …",
+          "backend": "searxng"
+        },
+        {
+          "title": "Smartphones : Latest & New Smartphones List 2026 - Gadgets 360",
+          "link": "https://www.gadgets360.com/mobiles/smartphones",
+          "snippet": "Here are the latest smartphone models globally, sorted by popularity. You can also find new launched smartphone models by sorting …",
+          "backend": "searxng"
+        },
+        {
+          "title": "iPhone - Apple",
+          "link": "https://www.apple.com/iphone/",
+          "snippet": "Switching from Android to iPhone is simple. iPhone holds its value longer than other smartphones. New look. Even more magic. Your …",
+          "backend": "searxng"
+        },
+        {
+          "title": "The 6 Best Smartphones for 2026 | Reviews by Wirecutter",
+          "link": "https://www.nytimes.com/wirecutter/reviews/best-smartphones/",
+          "snippet": "Apr 3, 2026 · Whether you prefer iPhones or Android, we have smartphone recommendations for every budget.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Cellpex — Wholesale Smartphones, Tablets & Accessories",
+          "link": "https://www.cellpex.com/",
+          "snippet": "Buy and sell wholesale smartphones, tablets & accessories. Connect with verified suppliers, dealers and wholesalers worldwide. Free to browse.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Connect Distributors - Wholesale Electronics Distributor",
+          "link": "https://connectdist.com/",
+          "snippet": "Connect Distributors is a global distributor of high-quality electronics and smartphones, with multiple shipping points and optimized logistics.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Trade-In Tech | Verified Wholesale Platform For Smartphone ...",
+          "link": "https://www.tradeintech.com/",
+          "snippet": "Trade-In Tech is an online social network based in the consumer electronics industry. Connect with verified electronics distributors, wholesalers, and retailers from all over the world. Buy and sell s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "KT Corp Worldwide - Buy Smartphones at Wholesale prices",
+          "link": "https://ktcorpworldwide.com/",
+          "snippet": "Shop bulk smartphones, tablets, laptops & wearables at KT Corp Wholesale — trusted, R2-certified electronics supplier for resellers worldwide.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Hyundai Mobile enters U.S. smartphone fray with distribution ...",
+          "link": "https://www.fierce-network.com/wireless/hyundai-mobile-enters-u-s-smartphone-fray-distribution-through-gci-viaero-and-iwireless",
+          "snippet": "Apr 18, 2016 ... Hyundai Mobile is now working in the US smartphone market with a handful of sub-$200 Android smartphones the company is distributing online and through smaller ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Magnum Distributions | B2B Smartphone Distribution",
+          "link": "https://magnumgourmet.com/",
+          "snippet": "Magnum Distributions is a technology distribution partner supporting retailers, resellers, and corporate procurement teams with reliable sourcing from globally recognized smartphone brands. Request a ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "smartphone distributor | B2B companies and suppliers | europages",
+          "link": "https://www.europages.co.uk/companies/smartphone-distributor.html",
+          "snippet": "181 Companies and suppliers for smartphone distributor Find wholesalers and contact them directly Leading B2B martketplace Find companies now! HEM France is a wholesaler and B2B distributor specializi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Unlocked Smartphones Distributor: Top Suppliers 2025",
+          "link": "https://www.accio.com/supplier/unlocked-smartphones-distributor",
+          "snippet": "Where do phone resellers get their products? Phone resellers primarily source devices through bulk purchases from corporate upgrade programs or distributor partnerships.original smartphones distributo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Custom Smartphone OEM & Bulk Supply | Reliable Smartphone...",
+          "link": "https://qingsm.tech/custom-smartphones/smartphone-distributor-supplier.html",
+          "snippet": "Leading smartphone distributor supplier specializing in custom OEM smartphones, bulk supply, and global logistics. Partner with us for tailored mobile solutions, competitive pricing, and reliable deli",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Smartphone and Accessories Distributor in Dubai | Global FZCO",
+          "link": "https://www.globalfzco.com/products",
+          "snippet": "Our Distribution journey. As a trusted, authorized distributor, we bring you directly to the source for the world's top smartphone brands.A person holding a cell phone in their hand. We have proudly s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Smartphone Market Size, Share & Trends Report, 2026-2033",
+          "link": "https://www.grandviewresearch.com/industry-analysis/smart-phone-market",
+          "snippet": "Smartphone Market (2026 - 2033). Size, Share & Trends Analysis Report By Operating System (Android, iOS), By Distribution Channel (Online, Offline), By Price Range (Entry Level, Mid-Range, Premium), B",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Smartphone Distribution – BlueTel",
+          "link": "https://bluetel.ae/smartphone-distribution/",
+          "snippet": "Smartphone Distribution March 19, 2021. Future generation of phones January 5, 2021.BlueTel acknowledges the fast-paced essence of the Smartphone sector and has developed end-to-end supply chain solut",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Cell Phones & Smartphones for Sale | Trusted Distributor ...",
+          "link": "https://www.todayscloseout.com/",
+          "snippet": "Wholesale Cell Phones TodaysCloseout is the global leader in premium wholesale phones, offering carrier and manufacturer direct New, Refurbished, and Used R2 & ISO devices from top brands like wholesa",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Mobile Phone Distributor USA | Bulk Smartphones",
+          "link": "https://globalphonesolutions.com/",
+          "snippet": "What products does Global Phone Solutions distribute? We are a leading mobility distribution company offering a wide range of genuine mobile phones and ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Your Wholesale Mobile Phones Supplier - US Mobile Phones",
+          "link": "https://usmphones.com/",
+          "snippet": "USMP is the world's most trusted Wholesale Mobile Supplier. Thousands of businesses have trusted US Mobile Phones for Wholesale Refurbished Cell Phones. We're not just your wholesale smartphones suppl",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Electronics Distributor | SM Distribution",
+          "link": "https://smdistribution.co/",
+          "snippet": "SM Distribution is a global distributor of high-quality electronics and smartphones. Get quick and efficient turnaround, outstanding customer service, impeccable attention to detail, favorable wholesa",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Explore reports - Euromonitor.com",
+          "link": "https://www.euromonitor.com/store/explore-reports/consumer-electronics/mobile-phones",
+          "snippet": "Hotels and Camping Sites: ISIC 551 (19). Primary Materials (75).In 2025, mobile phones in Austria recorded a low decline in retail volume sales, with feature phones experiencing a more pronounced down",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Google Search (cleaned) — smartphone distributors corporate sites",
+          "link": "https://www.google.com/search?q=smartphone+distributors+corporate+sites",
+          "snippet": "Here are some corporate sites for smartphone distributors in India:\n\n- **GetDistributors**: Offers smartphone distributorship and dealership opportunities. [getdistributors.com](https://www.getdistrib",
+          "backend": "google_ai_scraper"
+        }
+      ]
+    },
+    "L2": {
+      "query": "smartphone service providers official website",
+      "level": "L2",
+      "result_count": 12,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Smartphone - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Smartphone",
+          "snippet": "A smartphone is a mobile device that combines the functionality of a traditional mobile phone (feature phone) with advanced …",
+          "backend": "searxng"
+        },
+        {
+          "title": "Compare phones, smartphones, tablets - GSMArena.com",
+          "link": "https://m.gsmarena.com/compare.php3",
+          "snippet": "Jul 14, 2026 · Compare detailed specifications of mobile phones, smartphones and tablets side by side. Find which one's for you!",
+          "backend": "searxng"
+        },
+        {
+          "title": "Cell Phones: Smartphones and Mobile Phones - Best Buy",
+          "link": "https://www.bestbuy.com/site/electronics/mobile-cell-phones/abcat0800000.c?id%3Dabcat0800000",
+          "snippet": "Shop Best Buy for phones. Text, call and search the web with cell phones from popular brands. Browse our selection to find the best …",
+          "backend": "searxng"
+        },
+        {
+          "title": "Best phones 2026 tested — our top picks - Tom's Guide",
+          "link": "https://www.tomsguide.com/best-picks/best-phones",
+          "snippet": "In order for a smartphone to make our best phone list, it needs to excel on several tests that we run on every handset. We perform …",
+          "backend": "searxng"
+        },
+        {
+          "title": "The Best Phones We've Tested for 2026 | PCMag",
+          "link": "https://www.pcmag.com/picks/the-best-phones",
+          "snippet": "Jun 17, 2026 · Whether you want a standard slab-style smartphone, a modern folding phone, or a basic feature phone, there are …",
+          "backend": "searxng"
+        },
+        {
+          "title": "Amazon.com: Smartphones",
+          "link": "https://www.amazon.com/smartphones/s?k=smartphones",
+          "snippet": "Discover advanced smartphones with impressive cameras, fast performance, and 5G connectivity.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Pay As You Go Smartphone - Best Cheap Plans, Service",
+          "link": "https://prepaidsmartphones.com/",
+          "snippet": "Official Cricket Wireless details here. Oh, release date is June 22.Summary of Current Prepaid Smartphones: The listings are updated and we have provided links to the official websites and some smartp",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Rugged Outdoor Smartphones & Tablets & Regular... - Blackview",
+          "link": "https://www.blackview.hk/",
+          "snippet": "Welcome to Blackview official site. We keep producing professional outdoor smartphones and tablets for everyone in need around the world.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Free Government Smartphones with Free Minutes, Texts & Data",
+          "link": "https://freegovernmentsmartphones.com/",
+          "snippet": "There is an article on our site covering the general guidelines regarding eligibility issues. Free Government Smartphones and Cell Phones in All States.Of course, free government smartphone service pr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Simplicity Plan: Unlimited data plan for one price per line | Verizon",
+          "link": "https://www.verizon.com/plans/unlimited/",
+          "snippet": "1. Based on RootMetrics® United States RootScore® Report: 2H 2025. Tested with best commercially available smartphones on three national mobile networks across all available network types. Your experi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "NTT DOCOMO Home",
+          "link": "https://www.docomo.ne.jp/english/",
+          "snippet": "Introduction to iPhone, iPad, smartphones, tablets, and other products, sp-mode, i-mode, and various other services, billing plans, support, campaign information, and docomo Hikari.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Fix Mobile Phone in Bondowoso (Near Me And Cheap)... - Najmal",
+          "link": "https://www.najmal.com/fix-mobile-phone-in-bondowoso-near/",
+          "snippet": "It’s recommended to refer to the official website or contact the smartphone manufacturer or service provider for detailed information about the specific smartphone services available to you. Mobile ph",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Smartphone - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Smartphone",
+          "snippet": "A smartphone is a mobile device that combines the functionality of a traditional mobile phone (feature phone) with advanced …",
+          "backend": "searxng"
+        },
+        {
+          "title": "Compare phones, smartphones, tablets - GSMArena.com",
+          "link": "https://m.gsmarena.com/compare.php3",
+          "snippet": "Jul 14, 2026 · Compare detailed specifications of mobile phones, smartphones and tablets side by side. Find which one's for you!",
+          "backend": "searxng"
+        },
+        {
+          "title": "Cell Phones: Smartphones and Mobile Phones - Best Buy",
+          "link": "https://www.bestbuy.com/site/electronics/mobile-cell-phones/abcat0800000.c?id%3Dabcat0800000",
+          "snippet": "Shop Best Buy for phones. Text, call and search the web with cell phones from popular brands. Browse our selection to find the best …",
+          "backend": "searxng"
+        },
+        {
+          "title": "Best phones 2026 tested — our top picks - Tom's Guide",
+          "link": "https://www.tomsguide.com/best-picks/best-phones",
+          "snippet": "In order for a smartphone to make our best phone list, it needs to excel on several tests that we run on every handset. We perform …",
+          "backend": "searxng"
+        },
+        {
+          "title": "The Best Phones We've Tested for 2026 | PCMag",
+          "link": "https://www.pcmag.com/picks/the-best-phones",
+          "snippet": "Jun 17, 2026 · Whether you want a standard slab-style smartphone, a modern folding phone, or a basic feature phone, there are …",
+          "backend": "searxng"
+        },
+        {
+          "title": "Amazon.com: Smartphones",
+          "link": "https://www.amazon.com/smartphones/s?k=smartphones",
+          "snippet": "Discover advanced smartphones with impressive cameras, fast performance, and 5G connectivity.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Pay As You Go Smartphone - Best Cheap Plans, Service",
+          "link": "https://prepaidsmartphones.com/",
+          "snippet": "Official Cricket Wireless details here. Oh, release date is June 22.Summary of Current Prepaid Smartphones: The listings are updated and we have provided links to the official websites and some smartp",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Rugged Outdoor Smartphones & Tablets & Regular... - Blackview",
+          "link": "https://www.blackview.hk/",
+          "snippet": "Welcome to Blackview official site. We keep producing professional outdoor smartphones and tablets for everyone in need around the world.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Free Government Smartphones with Free Minutes, Texts & Data",
+          "link": "https://freegovernmentsmartphones.com/",
+          "snippet": "There is an article on our site covering the general guidelines regarding eligibility issues. Free Government Smartphones and Cell Phones in All States.Of course, free government smartphone service pr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Simplicity Plan: Unlimited data plan for one price per line | Verizon",
+          "link": "https://www.verizon.com/plans/unlimited/",
+          "snippet": "1. Based on RootMetrics® United States RootScore® Report: 2H 2025. Tested with best commercially available smartphones on three national mobile networks across all available network types. Your experi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "NTT DOCOMO Home",
+          "link": "https://www.docomo.ne.jp/english/",
+          "snippet": "Introduction to iPhone, iPad, smartphones, tablets, and other products, sp-mode, i-mode, and various other services, billing plans, support, campaign information, and docomo Hikari.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Fix Mobile Phone in Bondowoso (Near Me And Cheap)... - Najmal",
+          "link": "https://www.najmal.com/fix-mobile-phone-in-bondowoso-near/",
+          "snippet": "It’s recommended to refer to the official website or contact the smartphone manufacturer or service provider for detailed information about the specific smartphone services available to you. Mobile ph",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "search for smartphone distributors globally",
+      "level": "market_map",
+      "result_count": 20,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "google_ai_scraper"
+      ],
+      "results": [
+        {
+          "title": "IDC - Smartphone Market Share",
+          "link": "https://www.idc.com/promo/smartphone-market-share/",
+          "snippet": "Who were the Top 5 Smartphone Companies in Q1 2026? Despite the current market challenges, Samsung and Apple - the two leading companies, were also the only two companies in the global top 5 to regist",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Axis Mobiles — Wholesale Smartphones for Global Distributors",
+          "link": "https://axismobiles.com/",
+          "snippet": "Bulk smartphones for distributors and retailers in 120+ countries. Competitive wholesale pricing on iPhone, Samsung Galaxy, and more — authentic stock with IMEI manifests and reliable global logistics",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Smartphone Market Share: Quarterly - Counterpoint Research",
+          "link": "https://counterpointresearch.com/en/insights/global-smartphone-share",
+          "snippet": "May 18, 2026 ... Low-cost 5G and the diffusion of GenAI in lower price segments are key trends to look out for in 2025. Global Smartphone Shipments Market Share ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "PR | Omdia - Informa",
+          "link": "https://omdia.tech.informa.com/pr",
+          "snippet": "You can refine search by selecting one of these areas. Segment. Segment ... Omdia: Global smartphone market down 4% in 2Q26 while Apple and Samsung soared.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Smartphone Market Size, Share, Value | Growth Report [2034]",
+          "link": "https://www.fortunebusinessinsights.com/industry-reports/smartphone-market-100308",
+          "snippet": "Looking to go beyond standard insights? Our premium ... By Distribution Channel Analysis. Global Smartphone Market Share, By Distribution Channel, 2026.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Smartphone Market Size, Share, Trends & Growth Report, 2033",
+          "link": "https://www.marketdataforecast.com/market-reports/smartphone-market",
+          "snippet": "Jul 1, 2026 ... Global Smartphone Market Size, Share, Trends & Growth Forecast Report Segmented By Operating System (Android, iOS and Others), Distribution ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Smartphones - Worldwide | Statista Market Forecast",
+          "link": "https://www.statista.com/outlook/cmo/consumer-electronics/telephony/smartphones/worldwide/?srsltid=AfmBOoqout9ADEcY9D9IuK2My9WOK0Yhnd24USfSJ-FPG_42l2Tggysq",
+          "snippet": "Find the fact · Tell the story · Win the pitch · Understand the market · Develop ... global distribution networks. For more information on the data displayed ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Trade-In Tech | Verified Wholesale Platform For Smartphone ...",
+          "link": "https://www.tradeintech.com/",
+          "snippet": "Trade-In Tech is an online social network based in the consumer electronics industry. Connect with verified electronics distributors, wholesalers, and retailers from all over the world. Buy and sell s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale phones & smartphones - Bulk new, used & refurbished ...",
+          "link": "https://merkandi.com/categories/smartphones-mobile-phones/87",
+          "snippet": "Wholesale cell phones and smartphones at Merkandi. Buy new, used, and refurbished devices from global suppliers. Best deals on bulk mobile phones. Your go-to su",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Smartphone Distributors & Dealers In India",
+          "link": "https://www.getdistributors.com/smartphone-distributors.html",
+          "snippet": "Explore the diverse network of Smartphone manufacturers, dealers, distributors and wholesale suppliers in India. Find out options for every budget, from 50 K to 5 Cr, to make your search easy. Get pro",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Authorized Mobile Distributor USA | Wholesale Smartphones",
+          "link": "https://globalphonesolutions.com/united-states/",
+          "snippet": "January 9, 2026 - At Global Phone Solutions, we’ve built a strong foundation in the U.S. market by partnering with top global smartphone brands to deliver fast, compliant, and scalable distribution so",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cheaper smartphones distributor for bulk sales",
+          "link": "https://www.accio.com/t-v2/supplier/cheaper-smartphones-distributor",
+          "snippet": "October 17, 2025 - Find reliable cheaper smartphones distributor for bulk orders. Get verified suppliers, competitive pricing, and fast delivery. Click to explore top options now!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Smartphone Exports Data 2025: Top 10 Smartphone Manufacturers & Suppliers Database - TradeImeX Blog",
+          "link": "https://www.tradeimex.in/blogs/global-smartphone-exports-2025-smartphone-manufacturers-suppliers-database",
+          "snippet": "April 23, 2026 - Discover global smartphone export data 2025, with top smartphone manufacturers, export trends, & smartphone exports by country for market analysis.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Mobile Phones Bulk Stock l Ageing stock l Over Stock l mobile bulk stock distributors in India - excess2sell",
+          "link": "https://www.excess2sell.com/wholesale/telecom-mobility/mobile-phones",
+          "snippet": "Buy mobiles, tablets, desktops and more in bulk with best prices from Distributors in India. Sign up to get Amazing deals by smartphone wholesalers and wholesale dealers in India at Excess2sell. Buy ,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Smartphones Suppliers, Manufacturers (OEM, ODM & OBM ...",
+          "link": "https://www.globalsources.com/category/smartphones-manufacturer-supplier_23032/",
+          "snippet": "Buy smartphones in bulk online from 123 verified wholesale smartphones suppliers, manufacturers (OEM, ODM & OBM), distributors, and factory lists on Global Sources.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Smartphone market share by vendor 2025| Statista",
+          "link": "https://www.statista.com/statistics/271492/global-market-share-held-by-leading-smartphone-vendors/",
+          "snippet": "In 2025, Apple ranked as the market leader in the global smartphone market with a ****-percent share of all shipments.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Smartphone Suppliers - sourceready.com",
+          "link": "https://www.sourceready.com/supplier/list/best-smartphone-suppliers",
+          "snippet": "Best Smartphone Suppliers Discover a curated selection of global vendors specializing in smartphone components, accessories, and manufacturing services, streamlining your sourcing process for innovati",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Smartphones Global Active Suppliers and Exporters Directory | TTV",
+          "link": "https://www.thetradevision.com/global/smartphones-suppliers",
+          "snippet": "Explore International Smartphones Suppliers, Exporters & Manufacturers directory. Discover top active suppliers, their profiles, price patterns, qty, trading partners etc. Ideal resource for How to im",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Cell Phones & Smartphones for Sale | Trusted ...",
+          "link": "https://www.todayscloseout.com/",
+          "snippet": "May 9, 2026 · Wholesale Cell Phones TodaysCloseout is the global leader in premium wholesale phones, offering carrier and manufacturer direct New, Refurbished, and Used R2 & ISO devices from top brand",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Google Search (cleaned) — search for smartphone distributors globally",
+          "link": "https://www.google.com/search?q=search+for+smartphone+distributors+globally",
+          "snippet": "There are several platforms and companies that serve as global distributors of smartphones:\n\n- **TradeWheel**: A B2B platform connecting buyers with leading smartphone exporters and distributors world",
+          "backend": "google_ai_scraper"
+        }
+      ],
+      "sample": [
+        {
+          "title": "IDC - Smartphone Market Share",
+          "link": "https://www.idc.com/promo/smartphone-market-share/",
+          "snippet": "Who were the Top 5 Smartphone Companies in Q1 2026? Despite the current market challenges, Samsung and Apple - the two leading companies, were also the only two companies in the global top 5 to regist",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Axis Mobiles — Wholesale Smartphones for Global Distributors",
+          "link": "https://axismobiles.com/",
+          "snippet": "Bulk smartphones for distributors and retailers in 120+ countries. Competitive wholesale pricing on iPhone, Samsung Galaxy, and more — authentic stock with IMEI manifests and reliable global logistics",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Smartphone Market Share: Quarterly - Counterpoint Research",
+          "link": "https://counterpointresearch.com/en/insights/global-smartphone-share",
+          "snippet": "May 18, 2026 ... Low-cost 5G and the diffusion of GenAI in lower price segments are key trends to look out for in 2025. Global Smartphone Shipments Market Share ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "PR | Omdia - Informa",
+          "link": "https://omdia.tech.informa.com/pr",
+          "snippet": "You can refine search by selecting one of these areas. Segment. Segment ... Omdia: Global smartphone market down 4% in 2Q26 while Apple and Samsung soared.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Smartphone Market Size, Share, Value | Growth Report [2034]",
+          "link": "https://www.fortunebusinessinsights.com/industry-reports/smartphone-market-100308",
+          "snippet": "Looking to go beyond standard insights? Our premium ... By Distribution Channel Analysis. Global Smartphone Market Share, By Distribution Channel, 2026.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Smartphone Market Size, Share, Trends & Growth Report, 2033",
+          "link": "https://www.marketdataforecast.com/market-reports/smartphone-market",
+          "snippet": "Jul 1, 2026 ... Global Smartphone Market Size, Share, Trends & Growth Forecast Report Segmented By Operating System (Android, iOS and Others), Distribution ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Smartphones - Worldwide | Statista Market Forecast",
+          "link": "https://www.statista.com/outlook/cmo/consumer-electronics/telephony/smartphones/worldwide/?srsltid=AfmBOoqout9ADEcY9D9IuK2My9WOK0Yhnd24USfSJ-FPG_42l2Tggysq",
+          "snippet": "Find the fact · Tell the story · Win the pitch · Understand the market · Develop ... global distribution networks. For more information on the data displayed ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Trade-In Tech | Verified Wholesale Platform For Smartphone ...",
+          "link": "https://www.tradeintech.com/",
+          "snippet": "Trade-In Tech is an online social network based in the consumer electronics industry. Connect with verified electronics distributors, wholesalers, and retailers from all over the world. Buy and sell s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale phones & smartphones - Bulk new, used & refurbished ...",
+          "link": "https://merkandi.com/categories/smartphones-mobile-phones/87",
+          "snippet": "Wholesale cell phones and smartphones at Merkandi. Buy new, used, and refurbished devices from global suppliers. Best deals on bulk mobile phones. Your go-to su",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Smartphone Distributors & Dealers In India",
+          "link": "https://www.getdistributors.com/smartphone-distributors.html",
+          "snippet": "Explore the diverse network of Smartphone manufacturers, dealers, distributors and wholesale suppliers in India. Find out options for every budget, from 50 K to 5 Cr, to make your search easy. Get pro",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Authorized Mobile Distributor USA | Wholesale Smartphones",
+          "link": "https://globalphonesolutions.com/united-states/",
+          "snippet": "January 9, 2026 - At Global Phone Solutions, we’ve built a strong foundation in the U.S. market by partnering with top global smartphone brands to deliver fast, compliant, and scalable distribution so",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cheaper smartphones distributor for bulk sales",
+          "link": "https://www.accio.com/t-v2/supplier/cheaper-smartphones-distributor",
+          "snippet": "October 17, 2025 - Find reliable cheaper smartphones distributor for bulk orders. Get verified suppliers, competitive pricing, and fast delivery. Click to explore top options now!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Smartphone Exports Data 2025: Top 10 Smartphone Manufacturers & Suppliers Database - TradeImeX Blog",
+          "link": "https://www.tradeimex.in/blogs/global-smartphone-exports-2025-smartphone-manufacturers-suppliers-database",
+          "snippet": "April 23, 2026 - Discover global smartphone export data 2025, with top smartphone manufacturers, export trends, & smartphone exports by country for market analysis.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Mobile Phones Bulk Stock l Ageing stock l Over Stock l mobile bulk stock distributors in India - excess2sell",
+          "link": "https://www.excess2sell.com/wholesale/telecom-mobility/mobile-phones",
+          "snippet": "Buy mobiles, tablets, desktops and more in bulk with best prices from Distributors in India. Sign up to get Amazing deals by smartphone wholesalers and wholesale dealers in India at Excess2sell. Buy ,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Smartphones Suppliers, Manufacturers (OEM, ODM & OBM ...",
+          "link": "https://www.globalsources.com/category/smartphones-manufacturer-supplier_23032/",
+          "snippet": "Buy smartphones in bulk online from 123 verified wholesale smartphones suppliers, manufacturers (OEM, ODM & OBM), distributors, and factory lists on Global Sources.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Smartphone market share by vendor 2025| Statista",
+          "link": "https://www.statista.com/statistics/271492/global-market-share-held-by-leading-smartphone-vendors/",
+          "snippet": "In 2025, Apple ranked as the market leader in the global smartphone market with a ****-percent share of all shipments.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Smartphone Suppliers - sourceready.com",
+          "link": "https://www.sourceready.com/supplier/list/best-smartphone-suppliers",
+          "snippet": "Best Smartphone Suppliers Discover a curated selection of global vendors specializing in smartphone components, accessories, and manufacturing services, streamlining your sourcing process for innovati",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Smartphones Global Active Suppliers and Exporters Directory | TTV",
+          "link": "https://www.thetradevision.com/global/smartphones-suppliers",
+          "snippet": "Explore International Smartphones Suppliers, Exporters & Manufacturers directory. Discover top active suppliers, their profiles, price patterns, qty, trading partners etc. Ideal resource for How to im",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Cell Phones & Smartphones for Sale | Trusted ...",
+          "link": "https://www.todayscloseout.com/",
+          "snippet": "May 9, 2026 · Wholesale Cell Phones TodaysCloseout is the global leader in premium wholesale phones, offering carrier and manufacturer direct New, Refurbished, and Used R2 & ISO devices from top brand",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Google Search (cleaned) — search for smartphone distributors globally",
+          "link": "https://www.google.com/search?q=search+for+smartphone+distributors+globally",
+          "snippet": "There are several platforms and companies that serve as global distributors of smartphones:\n\n- **TradeWheel**: A B2B platform connecting buyers with leading smartphone exporters and distributors world",
+          "backend": "google_ai_scraper"
+        }
+      ]
+    },
+    "P2": {
+      "query": "find bulk smartphone wholesalers in my region",
+      "level": "market_map",
+      "result_count": 13,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "google_ai_scraper"
+      ],
+      "results": [
+        {
+          "title": "Wholesale phones & smartphones - Bulk new, used & refurbished mobile ...",
+          "link": "https://merkandi.us/categories/smartphones-mobile-phones/87",
+          "snippet": "This category features an extensive selection of wholesale mobile phones - including new, used, refurbished, and ex-display models, as well as consumer returns and off-lease devices. You'll find a wid",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Phones | Bulk B2B Smartphone Lots | TodaysCloseout",
+          "link": "https://www.todayscloseout.com/wholesale-phones/",
+          "snippet": "Today's Closeout offers an extensive selection of wholesale phones, perfect for businesses & resellers looking to stock high-quality mobile smartphones in bulk at below wholesale prices. Our inventory",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Cell Phone Wholesale Distributors in USA | Bulk Deals ...",
+          "link": "https://www.accio.com/supplier/cell-phone-wholesale-distributors-in-usa",
+          "snippet": "Jul 21, 2026 · Need bulk smartphones at wholesale prices? Discover trusted USA distributors with competitive MOQs. Compare deals on new & refurbished phones today - click for supplier details!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Business Smartphones in Bulk | Wholesale Phones | Nobility",
+          "link": "https://nobilitywireless.com/business-smartphones-in-bulk/",
+          "snippet": "Buy business smartphones in bulk at wholesale prices. Nobility Wireless supplies unlocked phones from Apple, Samsung, and more — fast quotes.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mobile Phone Wholesalers Ernakulam - Bulk Deals on Smartphones",
+          "link": "https://www.justdial.com/Ernakulam/Mobile-Phone-Wholesalers/nct-11230274",
+          "snippet": "Find mobile phone wholesalers in Ernakulam on Justdial. Compare suppliers, check bulk prices, explore the latest smartphones, and read dealer reviews.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "EKMOBAIL - Wholesale Smartphones for Global Distribution",
+          "link": "https://ekmobail.ae.org/",
+          "snippet": "Discover EKMOBAIL's premium wholesale smartphone solutions. Fast export processing and competitive pricing for global distributors and retailers.EKMOBAIL provides leading smartphone brands at wholesal",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bulk Smartphone Procurement: Save with Bulk Deals",
+          "link": "https://www.accio.com/find-supplier/bulk-smartphone-procurement",
+          "snippet": "Looking for bulk smartphone procurement? Discover top suppliers, cost-saving benefits, and how to choose the right partner. Click to explore reliable options and get competitive pricing today!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Your Trusted Smartphone Wholesaler in the U.S.",
+          "link": "https://anythingamerica.com/",
+          "snippet": "Anything America: The Market's Leading Smartphone Wholesaler Based in the United States.We help resellers source smartphones directly from the same U.S. carrier auctions your local phone wholesalers u",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Mobile Phone Distributor USA | Bulk Smartphones",
+          "link": "https://globalphonesolutions.com/",
+          "snippet": "Leading USA mobile phone distributor offering wholesale smartphones, bulk devices, and global telecom supply for retailers and resellers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Used Phone Supplier - US Based Bulk Electronics Distributor",
+          "link": "https://www.macaleginelectronics.com/",
+          "snippet": "Macalegin Electronics, LLC. is a U.S. based wholesale supplier of used smartphones and tablets. We have a combined 30 years of experience in the mobile electronics and distribution industry. Our prima",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Cell Phones & Smartphones for Sale | Trusted Distributor ...",
+          "link": "https://www.todayscloseout.com/",
+          "snippet": "Wholesale Cell Phones TodaysCloseout is the global leader in premium wholesale phones, offering carrier and manufacturer direct New, Refurbished, and Used R2 & ISO devices from top brands like wholesa",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Brand New Phones | TG Wireless - Page 8",
+          "link": "https://tgwireless.com/brand-new/?page=8",
+          "snippet": "Brand new wholesale phones at TG Wireless. Factory-sealed unlocked smartphones from Apple, Samsung, and more. Bulk pricing for resellers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Google Search (cleaned) — find bulk smartphone wholesalers in my region",
+          "link": "https://www.google.com/search?q=find+bulk+smartphone+wholesalers+in+my+region",
+          "snippet": "To find bulk smartphone wholesalers in your region, consider the following options in Mumbai:\n\n- **Justdial**: Lists numerous mobile phone wholesalers and distributors, including Royal Sports, Rajguru",
+          "backend": "google_ai_scraper"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Wholesale phones & smartphones - Bulk new, used & refurbished mobile ...",
+          "link": "https://merkandi.us/categories/smartphones-mobile-phones/87",
+          "snippet": "This category features an extensive selection of wholesale mobile phones - including new, used, refurbished, and ex-display models, as well as consumer returns and off-lease devices. You'll find a wid",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Phones | Bulk B2B Smartphone Lots | TodaysCloseout",
+          "link": "https://www.todayscloseout.com/wholesale-phones/",
+          "snippet": "Today's Closeout offers an extensive selection of wholesale phones, perfect for businesses & resellers looking to stock high-quality mobile smartphones in bulk at below wholesale prices. Our inventory",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Cell Phone Wholesale Distributors in USA | Bulk Deals ...",
+          "link": "https://www.accio.com/supplier/cell-phone-wholesale-distributors-in-usa",
+          "snippet": "Jul 21, 2026 · Need bulk smartphones at wholesale prices? Discover trusted USA distributors with competitive MOQs. Compare deals on new & refurbished phones today - click for supplier details!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Business Smartphones in Bulk | Wholesale Phones | Nobility",
+          "link": "https://nobilitywireless.com/business-smartphones-in-bulk/",
+          "snippet": "Buy business smartphones in bulk at wholesale prices. Nobility Wireless supplies unlocked phones from Apple, Samsung, and more — fast quotes.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mobile Phone Wholesalers Ernakulam - Bulk Deals on Smartphones",
+          "link": "https://www.justdial.com/Ernakulam/Mobile-Phone-Wholesalers/nct-11230274",
+          "snippet": "Find mobile phone wholesalers in Ernakulam on Justdial. Compare suppliers, check bulk prices, explore the latest smartphones, and read dealer reviews.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "EKMOBAIL - Wholesale Smartphones for Global Distribution",
+          "link": "https://ekmobail.ae.org/",
+          "snippet": "Discover EKMOBAIL's premium wholesale smartphone solutions. Fast export processing and competitive pricing for global distributors and retailers.EKMOBAIL provides leading smartphone brands at wholesal",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bulk Smartphone Procurement: Save with Bulk Deals",
+          "link": "https://www.accio.com/find-supplier/bulk-smartphone-procurement",
+          "snippet": "Looking for bulk smartphone procurement? Discover top suppliers, cost-saving benefits, and how to choose the right partner. Click to explore reliable options and get competitive pricing today!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Your Trusted Smartphone Wholesaler in the U.S.",
+          "link": "https://anythingamerica.com/",
+          "snippet": "Anything America: The Market's Leading Smartphone Wholesaler Based in the United States.We help resellers source smartphones directly from the same U.S. carrier auctions your local phone wholesalers u",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Mobile Phone Distributor USA | Bulk Smartphones",
+          "link": "https://globalphonesolutions.com/",
+          "snippet": "Leading USA mobile phone distributor offering wholesale smartphones, bulk devices, and global telecom supply for retailers and resellers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Used Phone Supplier - US Based Bulk Electronics Distributor",
+          "link": "https://www.macaleginelectronics.com/",
+          "snippet": "Macalegin Electronics, LLC. is a U.S. based wholesale supplier of used smartphones and tablets. We have a combined 30 years of experience in the mobile electronics and distribution industry. Our prima",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Cell Phones & Smartphones for Sale | Trusted Distributor ...",
+          "link": "https://www.todayscloseout.com/",
+          "snippet": "Wholesale Cell Phones TodaysCloseout is the global leader in premium wholesale phones, offering carrier and manufacturer direct New, Refurbished, and Used R2 & ISO devices from top brands like wholesa",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Brand New Phones | TG Wireless - Page 8",
+          "link": "https://tgwireless.com/brand-new/?page=8",
+          "snippet": "Brand new wholesale phones at TG Wireless. Factory-sealed unlocked smartphones from Apple, Samsung, and more. Bulk pricing for resellers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Google Search (cleaned) — find bulk smartphone wholesalers in my region",
+          "link": "https://www.google.com/search?q=find+bulk+smartphone+wholesalers+in+my+region",
+          "snippet": "To find bulk smartphone wholesalers in your region, consider the following options in Mumbai:\n\n- **Justdial**: Lists numerous mobile phone wholesalers and distributors, including Royal Sports, Rajguru",
+          "backend": "google_ai_scraper"
+        }
+      ]
+    },
+    "P3": {
+      "query": "look for authorized smartphone resellers",
+      "level": "market_map",
+      "result_count": 12,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "google_ai_scraper"
+      ],
+      "results": [
+        {
+          "title": "Premium & Certified Refurbished Smartphones | Reebelo US",
+          "link": "https://reebelo.com/collections/smartphones",
+          "snippet": "Explore the Best Deals on Refurbished Smartphones Explore the ultimate collection of certified pre-owned and refurbished smartphones from the world's top brands. Whether you're upgrading to an iPhone ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Oukitel Smartphone Reseller List – OUKITEL",
+          "link": "https://oukitel.com/pages/reseller",
+          "snippet": "Rugged Phones. Smartphones. Accessories.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Apple Smartphones - Apple Quality. Wholesale Pricing.",
+          "link": "https://wholesaleapplesmartphones.com/",
+          "snippet": "The world of smartphone reselling and distribution is wide-reaching, and we’re proud to support a growing network of professionals who rely on timely, high-quality Apple inventory. These are just some",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "PhoneMarket.nl - Smartphones | Tablets | B2B | Black Friday Deals",
+          "link": "https://en.phonemarket.nl/",
+          "snippet": "Whether you are looking for a new smartphone, tablet, or smartwatch, at ... Partners · Environmentally friendly packaging · VAT reverse charge mechanism ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cell Phones: Smartphones and Mobile Phones - Best Buy",
+          "link": "https://www.bestbuy.com/site/electronics/mobile-cell-phones/abcat0800000.c?id=abcat0800000",
+          "snippet": "Shop Best Buy for phones. Text, call and search the web with cell phones from popular brands. Browse our selection to find the best smartphone for you.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Cell Phones & Smartphones for Sale | Trusted Distributor ...",
+          "link": "https://www.todayscloseout.com/",
+          "snippet": "Looking for wholesale phones at closeout prices? TodaysCloseout.com is a ... As your certified Android Zero-Touch Enrollment partners, we simplify your ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Stop Worrying About Fake Phones: Your Ultimate Guide to Spotting a Scam When Buying Used Smartphones in India | Ovantica",
+          "link": "https://ovantica.com/blog/guide-to-spotting-a-scam-when-buying-used-smartphones",
+          "snippet": "The original retail box and the sales invoice from an authorized dealer are concrete proof of a device's legitimate purchase history. Always ask for these documents. A seller who is upfront with the b",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Smartphones - Authorized Xiaomi Store Kenya",
+          "link": "https://xiaomistores.co.ke/xiaomi/smartphones/",
+          "snippet": "Discover our range of Redmi phones, Xiaomi phones, POCO phones, tablets, and accessories designed to keep you connected and productive.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Used Cell Phones | Certified Refurbished Phones | Gazelle",
+          "link": "https://buy.gazelle.com/collections/cell-phones",
+          "snippet": "Looking for a phone but dont want to spend a fortune? Check out gazelle's refurbished smartphones today! Get free shipping & 30-day risk-free returns today!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Reselling Phones Legit | TikTok",
+          "link": "https://www.tiktok.com/discover/reselling-phones-legit",
+          "snippet": "Looking for a legit Apple supplier? Start your iPhone business today with low MOQ and affordable prices! DM us now!Use this information to elevate your selling strategy #tech #phones #reseller #smartp",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Amazon.ae: Mobile Phones: Electronics",
+          "link": "https://www.amazon.ae/Mobile-Phones/b?ie=UTF8&node=15415001031",
+          "snippet": "Choose from a wide range of Smartphones and Cell Phones in UAE at best prices. Fast and free shipping, free returns and cash on delivery available on eligible purchase.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Google Search (cleaned) — look for authorized smartphone resellers",
+          "link": "https://www.google.com/search?q=look+for+authorized+smartphone+resellers",
+          "snippet": "To find authorized smartphone resellers, you can consider the following options in Mumbai:\n\n- **Apple Authorised Reseller - iPlanet**: Located at Ventura Building, Central Ave, opposite D Mart.\n- **Ph",
+          "backend": "google_ai_scraper"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Premium & Certified Refurbished Smartphones | Reebelo US",
+          "link": "https://reebelo.com/collections/smartphones",
+          "snippet": "Explore the Best Deals on Refurbished Smartphones Explore the ultimate collection of certified pre-owned and refurbished smartphones from the world's top brands. Whether you're upgrading to an iPhone ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Oukitel Smartphone Reseller List – OUKITEL",
+          "link": "https://oukitel.com/pages/reseller",
+          "snippet": "Rugged Phones. Smartphones. Accessories.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Apple Smartphones - Apple Quality. Wholesale Pricing.",
+          "link": "https://wholesaleapplesmartphones.com/",
+          "snippet": "The world of smartphone reselling and distribution is wide-reaching, and we’re proud to support a growing network of professionals who rely on timely, high-quality Apple inventory. These are just some",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "PhoneMarket.nl - Smartphones | Tablets | B2B | Black Friday Deals",
+          "link": "https://en.phonemarket.nl/",
+          "snippet": "Whether you are looking for a new smartphone, tablet, or smartwatch, at ... Partners · Environmentally friendly packaging · VAT reverse charge mechanism ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cell Phones: Smartphones and Mobile Phones - Best Buy",
+          "link": "https://www.bestbuy.com/site/electronics/mobile-cell-phones/abcat0800000.c?id=abcat0800000",
+          "snippet": "Shop Best Buy for phones. Text, call and search the web with cell phones from popular brands. Browse our selection to find the best smartphone for you.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Cell Phones & Smartphones for Sale | Trusted Distributor ...",
+          "link": "https://www.todayscloseout.com/",
+          "snippet": "Looking for wholesale phones at closeout prices? TodaysCloseout.com is a ... As your certified Android Zero-Touch Enrollment partners, we simplify your ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Stop Worrying About Fake Phones: Your Ultimate Guide to Spotting a Scam When Buying Used Smartphones in India | Ovantica",
+          "link": "https://ovantica.com/blog/guide-to-spotting-a-scam-when-buying-used-smartphones",
+          "snippet": "The original retail box and the sales invoice from an authorized dealer are concrete proof of a device's legitimate purchase history. Always ask for these documents. A seller who is upfront with the b",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Smartphones - Authorized Xiaomi Store Kenya",
+          "link": "https://xiaomistores.co.ke/xiaomi/smartphones/",
+          "snippet": "Discover our range of Redmi phones, Xiaomi phones, POCO phones, tablets, and accessories designed to keep you connected and productive.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Used Cell Phones | Certified Refurbished Phones | Gazelle",
+          "link": "https://buy.gazelle.com/collections/cell-phones",
+          "snippet": "Looking for a phone but dont want to spend a fortune? Check out gazelle's refurbished smartphones today! Get free shipping & 30-day risk-free returns today!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Reselling Phones Legit | TikTok",
+          "link": "https://www.tiktok.com/discover/reselling-phones-legit",
+          "snippet": "Looking for a legit Apple supplier? Start your iPhone business today with low MOQ and affordable prices! DM us now!Use this information to elevate your selling strategy #tech #phones #reseller #smartp",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Amazon.ae: Mobile Phones: Electronics",
+          "link": "https://www.amazon.ae/Mobile-Phones/b?ie=UTF8&node=15415001031",
+          "snippet": "Choose from a wide range of Smartphones and Cell Phones in UAE at best prices. Fast and free shipping, free returns and cash on delivery available on eligible purchase.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Google Search (cleaned) — look for authorized smartphone resellers",
+          "link": "https://www.google.com/search?q=look+for+authorized+smartphone+resellers",
+          "snippet": "To find authorized smartphone resellers, you can consider the following options in Mumbai:\n\n- **Apple Authorised Reseller - iPlanet**: Located at Ventura Building, Central Ave, opposite D Mart.\n- **Ph",
+          "backend": "google_ai_scraper"
+        }
+      ]
+    },
+    "P4": {
+      "query": "search for smartphone system integrators",
+      "level": "market_map",
+      "result_count": 6,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "google_ai_scraper"
+      ],
+      "results": [
+        {
+          "title": "Mobile Integration for Enhanced Enterprise Connectivity | Mitel",
+          "link": "https://www.mitel.com/features-benefits/mobile-integration",
+          "snippet": "Mobile integration in business phone systems allows you to handoff a VoIP call from a smartphone to a desk phone and back seamlessly. You can also share access to contacts across both devices, enjoy W",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "20 Smartphone Apps For Your Next AV System Integration Project",
+          "link": "https://leaprofessional.com/blog/phone-apps-for-av-installer/",
+          "snippet": "November 6, 2024 - How can you spot an AV system integrator? Scroll through their Notes app.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mobile device integration services: Choosing a mobile operating system | TechTarget",
+          "link": "https://www.techtarget.com/searchmobilecomputing/tip/Mobile-device-integration-services-Choosing-a-mobile-operating-system",
+          "snippet": "January 18, 2010 - Solution providers can offer mobile device integration services to help their customers avoid such consequences by choosing the right mobile operating system (OS) for a customer's n",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Smartphones",
+          "link": "https://www.arm.com/markets/consumer-technologies/smartphones",
+          "snippet": "Mali G1 GPUs redefine mobile graphics, delivering scalable performance and efficiency across smartphone tiers, with advanced features including next-generation ray tracing and AI acceleration for imme",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mobile Device Integration | Borer Data Systems Ltd",
+          "link": "https://www.borer.co.uk/borer-technology/mobile-device-access-control/",
+          "snippet": "October 15, 2019 - Mobile Device Integration with FUSION Applications is enabled on both smartphones and computer tablets, giving them a high degree of portability, affordability, flexibility and func",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Google Search (cleaned) — search for smartphone system integrators",
+          "link": "https://www.google.com/search?q=search+for+smartphone+system+integrators",
+          "snippet": "GURUSONS is one of India's leading system integrators, providing customer-friendly products and solutions in the field of telecom and video conferencing. Other notable system integrators in India incl",
+          "backend": "google_ai_scraper"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Mobile Integration for Enhanced Enterprise Connectivity | Mitel",
+          "link": "https://www.mitel.com/features-benefits/mobile-integration",
+          "snippet": "Mobile integration in business phone systems allows you to handoff a VoIP call from a smartphone to a desk phone and back seamlessly. You can also share access to contacts across both devices, enjoy W",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "20 Smartphone Apps For Your Next AV System Integration Project",
+          "link": "https://leaprofessional.com/blog/phone-apps-for-av-installer/",
+          "snippet": "November 6, 2024 - How can you spot an AV system integrator? Scroll through their Notes app.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mobile device integration services: Choosing a mobile operating system | TechTarget",
+          "link": "https://www.techtarget.com/searchmobilecomputing/tip/Mobile-device-integration-services-Choosing-a-mobile-operating-system",
+          "snippet": "January 18, 2010 - Solution providers can offer mobile device integration services to help their customers avoid such consequences by choosing the right mobile operating system (OS) for a customer's n",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Smartphones",
+          "link": "https://www.arm.com/markets/consumer-technologies/smartphones",
+          "snippet": "Mali G1 GPUs redefine mobile graphics, delivering scalable performance and efficiency across smartphone tiers, with advanced features including next-generation ray tracing and AI acceleration for imme",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mobile Device Integration | Borer Data Systems Ltd",
+          "link": "https://www.borer.co.uk/borer-technology/mobile-device-access-control/",
+          "snippet": "October 15, 2019 - Mobile Device Integration with FUSION Applications is enabled on both smartphones and computer tablets, giving them a high degree of portability, affordability, flexibility and func",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Google Search (cleaned) — search for smartphone system integrators",
+          "link": "https://www.google.com/search?q=search+for+smartphone+system+integrators",
+          "snippet": "GURUSONS is one of India's leading system integrators, providing customer-friendly products and solutions in the field of telecom and video conferencing. Other notable system integrators in India incl",
+          "backend": "google_ai_scraper"
+        }
+      ]
+    },
+    "P5": {
+      "query": "find smartphone service providers in my area",
+      "level": "market_map",
+      "result_count": 11,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "google_ai_scraper"
+      ],
+      "results": [
+        {
+          "title": "Assistenza Smartphone: centri assistenza Smartphone",
+          "link": "https://www.trovalocali.com/cellulari.htm",
+          "snippet": "Scopri l'operatore più vicino a te, scegliendo fra le marche di tuo interesse. Segnalaci centri assistenza mancanti o dati errati. I centri assistenza per Smartphone sono inseriti per marca, sia nelle",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Assistenza Telefoni e Riparazione Smartphone: Negozi vicino a me",
+          "link": "https://www.paginegialle.it/assistenza_telefonia.htm",
+          "snippet": "Devi riparare il tuo Smartphone e cerchi un Centro d'Assistenza per Telefoni? Scopri la lista completa su Pagine Gialle con Orari, Contatti e Indirizzi.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Negozi - i-ReStore franchising di riparazione smartphone e tablet",
+          "link": "https://www.i-restore.it/negozi-di-riparazione-smartphone-e-tablet.html",
+          "snippet": "Hai bisogno di un assistente esperto per il tuo smartphone, iPhone, Samsung, Nokia, Oppo, Huawei e Motorola? In questa sezione i-ReStore propone una riparazione professionale garantita eseguita da tec",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Service Point Unieuro: Riparazione Smartphone e Assistenza tecnica",
+          "link": "https://www.unieuro.it/online/service-point",
+          "snippet": "Scopri i Service Point Unieuro: riparazioni smartphone fuori garanzia, configurazione PC, applicazione pellicole e trasferimento dati. Trova il punto vendita più vicino.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Verizon: Wireless, Internet, TV and Phone Services | Official Site",
+          "link": "https://www.verizon.com/",
+          "snippet": "Shop Verizon smartphone deals and wireless plans on the largest 4G LTE network. First to 5G. Get Fios for the fastest internet, TV and phone service.Exclusive perks & services. Trade-in your device. E",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Murena Smartphones & /e/OS",
+          "link": "https://murena.com/smartphones/",
+          "snippet": "Murena smartphones offer a privacy-first solution with /e/OS, a fully de-Googled, open-source mobile operating system.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mobile Phone Service Near Me | Find Mobile Offers by Address",
+          "link": "https://www.smartmove.us/wireless",
+          "snippet": "SmartMove makes it easy to find the best mobile service providers and cost-saving packages in your area. It doesn’t matter what you’re looking for — an unlimited data plan, a prepaid plan, or a plan t",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "TrovaTelefonia: trova i negozi di telefonia e cellulari vicino a te",
+          "link": "http://www.trovatelefonia.com/",
+          "snippet": "TrovaTelefonia è il sito internet ideale per chi cerca negozi in zona che offrano telefoni cellulari, smartphone e abbonamenti telefonici. Seleziona la categoria di tuo interesse per consultare gratui",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vendita e Riparazione di Cellulari vicino a te: recapiti",
+          "link": "https://www.paginebianche.it/cellulari.htm",
+          "snippet": "Potrai accedere online a numeri di telefono ed indirizzi, individuare facilmente il negozio più vicino a casa tua e metterti subito in contatto per richiedere informazioni e prezzi dello smartphone ch",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "T-Mobile® Official Site | Best 5G Network & Unlimited Data Plans",
+          "link": "https://www.t-mobile.com/",
+          "snippet": "New financed smartphone, qualifying credit, trade-in an eligible phone in good condition & port-in (AT&T, Verizon, or another eligible carrier) and qualifying service required. See complete list at T-",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Google Search (cleaned) — find smartphone service providers in my area",
+          "link": "https://www.google.com/search?q=find+smartphone+service+providers+in+my+area",
+          "snippet": "Top smartphone service providers in Mumbai include:\n\n- **Krishna Telecom**: Mobile phone repair shop, located at Powai Vihar Complex, Emerald building. Contact: 099302 67333.\n- **iFix Mobiles Accessor",
+          "backend": "google_ai_scraper"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Assistenza Smartphone: centri assistenza Smartphone",
+          "link": "https://www.trovalocali.com/cellulari.htm",
+          "snippet": "Scopri l'operatore più vicino a te, scegliendo fra le marche di tuo interesse. Segnalaci centri assistenza mancanti o dati errati. I centri assistenza per Smartphone sono inseriti per marca, sia nelle",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Assistenza Telefoni e Riparazione Smartphone: Negozi vicino a me",
+          "link": "https://www.paginegialle.it/assistenza_telefonia.htm",
+          "snippet": "Devi riparare il tuo Smartphone e cerchi un Centro d'Assistenza per Telefoni? Scopri la lista completa su Pagine Gialle con Orari, Contatti e Indirizzi.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Negozi - i-ReStore franchising di riparazione smartphone e tablet",
+          "link": "https://www.i-restore.it/negozi-di-riparazione-smartphone-e-tablet.html",
+          "snippet": "Hai bisogno di un assistente esperto per il tuo smartphone, iPhone, Samsung, Nokia, Oppo, Huawei e Motorola? In questa sezione i-ReStore propone una riparazione professionale garantita eseguita da tec",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Service Point Unieuro: Riparazione Smartphone e Assistenza tecnica",
+          "link": "https://www.unieuro.it/online/service-point",
+          "snippet": "Scopri i Service Point Unieuro: riparazioni smartphone fuori garanzia, configurazione PC, applicazione pellicole e trasferimento dati. Trova il punto vendita più vicino.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Verizon: Wireless, Internet, TV and Phone Services | Official Site",
+          "link": "https://www.verizon.com/",
+          "snippet": "Shop Verizon smartphone deals and wireless plans on the largest 4G LTE network. First to 5G. Get Fios for the fastest internet, TV and phone service.Exclusive perks & services. Trade-in your device. E",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Murena Smartphones & /e/OS",
+          "link": "https://murena.com/smartphones/",
+          "snippet": "Murena smartphones offer a privacy-first solution with /e/OS, a fully de-Googled, open-source mobile operating system.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mobile Phone Service Near Me | Find Mobile Offers by Address",
+          "link": "https://www.smartmove.us/wireless",
+          "snippet": "SmartMove makes it easy to find the best mobile service providers and cost-saving packages in your area. It doesn’t matter what you’re looking for — an unlimited data plan, a prepaid plan, or a plan t",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "TrovaTelefonia: trova i negozi di telefonia e cellulari vicino a te",
+          "link": "http://www.trovatelefonia.com/",
+          "snippet": "TrovaTelefonia è il sito internet ideale per chi cerca negozi in zona che offrano telefoni cellulari, smartphone e abbonamenti telefonici. Seleziona la categoria di tuo interesse per consultare gratui",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vendita e Riparazione di Cellulari vicino a te: recapiti",
+          "link": "https://www.paginebianche.it/cellulari.htm",
+          "snippet": "Potrai accedere online a numeri di telefono ed indirizzi, individuare facilmente il negozio più vicino a casa tua e metterti subito in contatto per richiedere informazioni e prezzi dello smartphone ch",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "T-Mobile® Official Site | Best 5G Network & Unlimited Data Plans",
+          "link": "https://www.t-mobile.com/",
+          "snippet": "New financed smartphone, qualifying credit, trade-in an eligible phone in good condition & port-in (AT&T, Verizon, or another eligible carrier) and qualifying service required. See complete list at T-",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Google Search (cleaned) — find smartphone service providers in my area",
+          "link": "https://www.google.com/search?q=find+smartphone+service+providers+in+my+area",
+          "snippet": "Top smartphone service providers in Mumbai include:\n\n- **Krishna Telecom**: Mobile phone repair shop, located at Powai Vihar Complex, Emerald building. Contact: 099302 67333.\n- **iFix Mobiles Accessor",
+          "backend": "google_ai_scraper"
+        }
+      ]
+    },
+    "P6": {
+      "query": "search for smartphone channel partners",
+      "level": "market_map",
+      "result_count": 7,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "google_ai_scraper"
+      ],
+      "results": [
+        {
+          "title": "Partners - Mobiezy",
+          "link": "https://mobiezy.com/channel-partnership/",
+          "snippet": "July 11, 2022 - Channel partners are required to be IT savvy and well versed with the Smartphone apps, both Android and IOS, and would need to have laptops/smartphones available to them to be able to ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "VMware, Verizon Partner on 'Dual-Identity... | Channel Insider",
+          "link": "https://www.channelinsider.com/news-and-trends/vmware-verizon-partner-on-dual-identity-smartphone/",
+          "snippet": "View our editorial policy here. Virtualization software maker VMware revealed Oct. 19 that it has partnered with telcom Verizon Wireless to develop Android-based, 3G- and 4G-LTE-network smartphones wi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "HP Plots Smartphone Channel Power Play | CRN",
+          "link": "https://www.crn.com/news/mobility/226100090/hp-plots-smartphone-channel-power-play",
+          "snippet": "LaRocca oversees HP's PartnerOne channel program. \"Our intention is to bring a fully serviceable set of services to the consumer and commercial markets based on the Palm OS,\" DiFranco said.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Compare smartphones from NanoReview - specs, ratings, reviews",
+          "link": "https://nanoreview.info/en/compare/phone",
+          "snippet": "Choose the best smartphone with NanoReview. Compare specs, performance tests, reviews, and smartphones ratings for 2026.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Gionee Partners with Indus OS to Indianize their Smartphone",
+          "link": "https://smestreet.in/technology/gionee-partners-with-indus-os-to-indianize-their-smartphone/",
+          "snippet": "Liu Lirong, gionee, Smartphone, Channel Partners.The partnership with Indus OS aligns with Gionee’s long-term strategy to establish a clear software differentiation in the presently cluttered Indian s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Inside BlackBerry's Device, Smartphone Channel... | ChannelE2E",
+          "link": "https://www.channele2e.com/post/inside-blackberrys-device-smartphone-channel-strategy",
+          "snippet": "Open Search Bar.BlackBerry: VARs, Distributors and Channel Partners. Thurber is now six weeks into his job at BlackBerry. At first, he felt inundated with information -- and it took time to sort throu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Google Search (cleaned) — search for smartphone channel partners",
+          "link": "https://www.google.com/search?q=search+for+smartphone+channel+partners",
+          "snippet": "To find smartphone channel partners, you can explore various partner ecosystems from major manufacturers. Here are some notable options:\n\n- **Android Partners**: A wide range of manufacturers ship Pla",
+          "backend": "google_ai_scraper"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Partners - Mobiezy",
+          "link": "https://mobiezy.com/channel-partnership/",
+          "snippet": "July 11, 2022 - Channel partners are required to be IT savvy and well versed with the Smartphone apps, both Android and IOS, and would need to have laptops/smartphones available to them to be able to ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "VMware, Verizon Partner on 'Dual-Identity... | Channel Insider",
+          "link": "https://www.channelinsider.com/news-and-trends/vmware-verizon-partner-on-dual-identity-smartphone/",
+          "snippet": "View our editorial policy here. Virtualization software maker VMware revealed Oct. 19 that it has partnered with telcom Verizon Wireless to develop Android-based, 3G- and 4G-LTE-network smartphones wi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "HP Plots Smartphone Channel Power Play | CRN",
+          "link": "https://www.crn.com/news/mobility/226100090/hp-plots-smartphone-channel-power-play",
+          "snippet": "LaRocca oversees HP's PartnerOne channel program. \"Our intention is to bring a fully serviceable set of services to the consumer and commercial markets based on the Palm OS,\" DiFranco said.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Compare smartphones from NanoReview - specs, ratings, reviews",
+          "link": "https://nanoreview.info/en/compare/phone",
+          "snippet": "Choose the best smartphone with NanoReview. Compare specs, performance tests, reviews, and smartphones ratings for 2026.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Gionee Partners with Indus OS to Indianize their Smartphone",
+          "link": "https://smestreet.in/technology/gionee-partners-with-indus-os-to-indianize-their-smartphone/",
+          "snippet": "Liu Lirong, gionee, Smartphone, Channel Partners.The partnership with Indus OS aligns with Gionee’s long-term strategy to establish a clear software differentiation in the presently cluttered Indian s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Inside BlackBerry's Device, Smartphone Channel... | ChannelE2E",
+          "link": "https://www.channele2e.com/post/inside-blackberrys-device-smartphone-channel-strategy",
+          "snippet": "Open Search Bar.BlackBerry: VARs, Distributors and Channel Partners. Thurber is now six weeks into his job at BlackBerry. At first, he felt inundated with information -- and it took time to sort throu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Google Search (cleaned) — search for smartphone channel partners",
+          "link": "https://www.google.com/search?q=search+for+smartphone+channel+partners",
+          "snippet": "To find smartphone channel partners, you can explore various partner ecosystems from major manufacturers. Here are some notable options:\n\n- **Android Partners**: A wide range of manufacturers ship Pla",
+          "backend": "google_ai_scraper"
+        }
+      ]
+    },
+    "P7": {
+      "query": "distribuidores de smartphones en el mundo",
+      "level": "market_map",
+      "result_count": 25,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "google_ai_scraper"
+      ],
+      "results": [
+        {
+          "title": "Los 5 principales proveedores de smartphones del mundo",
+          "link": "https://www.merca20.com/los-5-principales-proveedores-de-smartphones-del-mundo/",
+          "snippet": "Seguida de Apple con 206.3 millones y de Huawei con 142.5 millones. Xiaomi, en cuarta posición con 94.55 millones. Sin embargo, este año, las cifras han colocado a los principales proveedores de smart",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "HONOR ya es la tercera marca más grande de smartphones en...",
+          "link": "https://tecnocat.com.mx/noticias/honor-ya-es-la-tercera-marca-mas-grande-de-smartphones-en-china-asegura-counterpoint/",
+          "snippet": "De acuerdo con un nuevo reporte de Counterpoint, HONOR ha tenido un gran impacto en el mercado de smartphones, con un crecimiento en ventas del 18% intermensual en China. Lo cual, consolidó a la marca",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mini smartphones distribuidor: calidad y precio",
+          "link": "https://es.accio.com/supplier/mini-smartphones-distribuidor",
+          "snippet": "Smart Pest Control. ¿Dónde Encontrar Proveedores Distribuidores de Mini Smartphones? Guangdong, China, concentra el 70% de la producción global de mini smartphones.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Xiaomi se coloca como la marca número 1 de smartphones en...",
+          "link": "https://www.zonamovilidad.es/xiaomi-numero-uno-venta-smartphones-primer-trimestre-2020-espana-oppo-top-5",
+          "snippet": "Xiaomi ha disparado sus ventas durante el primer trimestre del año, superando a Samsung y Huawei y colocándose en la compañía que más vende del mercado. Las cifras que aporta Canalys son relativas al ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "La mayoría de smartphones en el mundo... | EL COMERCIO PERÚ",
+          "link": "https://elcomercio.pe/tecnologia/actualidad/mayoria-smartphones-mundo-son-hechos-china-noticia-1524238/",
+          "snippet": "China se convirtió en el mayor productor mundial de smartphones en 2012 con un total de 224 millones de unidades vendidas, informaron las autoridades chinas a través de la agencia oficial Xinhua.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bienvenido a \"El Mundo de Smartphones ACER\"!",
+          "link": "https://www.xataka.com.mx/n/bienvenido-a-mundo-smartphones-acer",
+          "snippet": "¡Smartphones ACER llega a México! una marca enfocada en una variedad de soluciones tecnológicas y dispositivos, también cuenta con un catálogo para conectar a las personas a lo largo de todo el mundo,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cuota de mercado de smartphones: España y mundo, marcas líderes",
+          "link": "https://www.todoandroid.es/cuota-de-mercado-de-las-marcas-de-smartphones-quien-lidera-y-por-que/",
+          "snippet": "Cuota de mercado de smartphones en España y mundo: líderes por marca, sistemas y tendencias 2025 con datos clave y análisis claro.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Marcas de móviles más vendidas en el mundo - TreceBits",
+          "link": "https://www.trecebits.com/ranking-empresas-fabricantes-ventas-moviles/",
+          "snippet": "Conoce el ranking de empresas fabricantes de teléfonos móviles que más smartphones venden en todo el mundo.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Estos son los 10 principales fabricantes de smartphones actuales",
+          "link": "https://tecnouniverse.com/estos-son-los-10-principales-fabricantes-de-smartphones-actuales/",
+          "snippet": "En el segundo trimestre de 2024, el mercado global de smartphones ha mostrado un crecimiento en los envíos de dispositivos, según los datos de la firma de investigación Omdia. En total, se enviaron 29",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mayorista Teléfonos Móviles y Smartphones. Proveedor al por mayor",
+          "link": "https://www.infortisa.com/categoria/telefonia-y-fax/moviles/",
+          "snippet": "Mayorista Teléfonos Móviles al mejor precio. Proveedor de móviles para comprar al por mayor distribuidores, empresas y dropshipping. Envíos 24h.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ni Apple, ni Samsung: el smartphone más delgado del mundo es el...",
+          "link": "https://www.lanacion.com.ar/tecnologia/ni-apple-ni-samsung-el-smartphone-mas-delgado-del-mundo-es-el-tecno-spark-slim-nid05032025/",
+          "snippet": "La china Tecno mostró en Barcelona el smartphone más delgado, adelantándose al Galaxy S25 Edge y al rumoreado iPhone 17 Air. 5 de marzo de 2025.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Estas son las ventas de los fabricantes de smartphones",
+          "link": "https://www.pasionmovil.com/analisis/estas-son-las-ventas-de-los-principales-fabricantes-de-smartphones-en-el-mundo/",
+          "snippet": "En el último informe de envíos de celulares de Omdia se totalizaron 301,6 millones de unidades en el 3T23, un 0,7% menos que en el 3T22. Comparado con el trimestre anterior, sin embargo, supone un aum",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Récord en la venta de smartphones en América Latina en 2024",
+          "link": "https://www.mobileworldlive.com/spanish/record-en-la-venta-de-smartphones-en-america-latina-en-2024/",
+          "snippet": "13 Mar 2025 ... Samsung mantuvo la primera posición con 42,9 millones de unidades enviadas en 2024, representando una cuota de mercado del 31%. En 2023, la ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lotes de móviles al por mayor - Comprar teléfonos y smartphones ...",
+          "link": "https://merkandi.es/categories/telefonos/27",
+          "snippet": "Debido a la variedad de fuentes y la calidad de los productos ofrecidos, atendemos nuestra oferta tanto a minoristas de Internet, mayoristas de electrónica y ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cerca nel Sito - Givi",
+          "link": "https://www.givi.es/searches",
+          "snippet": "Configurador de smartphones.Del 3 al 5 de julio, el Misano World Circuit acogió la World Ducati Week 2026, el gran evento internacional que cada dos años reúne a miles de motociclistas y aficionados d",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Apple superará a Samsung en 2025 y se convertirá en el mayor...",
+          "link": "https://www.eleconomista.com.mx/empresas/apple-superara-samsung-2025-convertira-mayor-fabricante-smartphones-mundo-20251127-788575.html",
+          "snippet": "En concreto, se espera que Apple alcance alrededor de 243 millones de unidades de 'smartphones' enviadas durante este año, frente a los 235 millones de envíos a nivel global que se esperan de Samsung,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Xiaomi apunta a convertirse en el segundo mayor distribuidor de...",
+          "link": "https://pisapapeles.net/xiaomi-apunta-a-convertirse-en-el-segundo-mayor-distribuidor-de-smartphones-a-nivel-mundial-en-2021/",
+          "snippet": "Honor Robot Phone: fabricación masiva desde agosto y lanzamiento en el tercer trimestre de 2026.Xiaomi apunta alto. Según fuentes sin revelar contactadas al medio Nikkei Asia, Xiaomi aspira a vender 2",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Las 10 principales marcas de teléfonos móviles: cuota de mercado global ...",
+          "link": "https://netvaluator.com/es/las-10-principales-marcas-de-telefonos-moviles-cuota-de-mercado-global-en-2025/",
+          "snippet": "El mercado de los smartphones en 2025 está definido por una feroz competencia entre un puñado de gigantes globales. Cada marca aporta su propia estrategia, innovación y fortaleza de mercado para asegu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Samsung, Apple y Xiaomi, las marcas que lideran en el mercado mundial ...",
+          "link": "https://www.larepublica.co/internet-economy/samsung-apple-y-xiaomi-las-marcas-que-lideran-actualmente-el-mercado-de-celulares-3957992",
+          "snippet": "COMPAÑÍAS ALTERNATIVAS El mercado global de smartphones también está compuesto por otras marcas que día a día se hacen un nombre a partir de la relación calidad precio. \"Xiaomi y Oppo básicamente lo q",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "El mapa que muestra cuáles son las marcas de móviles más vendidas en ...",
+          "link": "https://computerhoy.20minutos.es/moviles/mapa-muestra-cuales-son-marcas-moviles-vendidas-cada-continente-1335014",
+          "snippet": "Del poder de las ya afamadas Apple y Samsung al crecimiento imparable de la desconocida Transsion, el mercado de los smartphones cambia casi mensualmente, con alguna que otra sorpresa. Estas son las m",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Apple supera a Samsung y se convierte en el mayor vendedor de ...",
+          "link": "https://www.infobae.com/tecno/2026/01/20/apple-supera-a-samsung-y-se-convierte-en-el-mayor-vendedor-de-smartphones-del-mundo/",
+          "snippet": "20 Jan 2026 ... Apple supera a Samsung y se convierte en el mayor vendedor de smartphones del mundo · La razón por la que Stephen Hawking aseguraba que el ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Móviles, tablets y accesorios de las mejores marcas | R",
+          "link": "https://mundo-r.com/particulares/por-ser-cliente/smartphones",
+          "snippet": "La mejor selección de smartphones, tablets y otros dispositivos de las primeras marcas y modelos del mercado. Descubre ofertas en Mundo-R. ¡Entra ya!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ni Xiaomi ni Apple: esta marca logró derrotarlas y vender más...",
+          "link": "https://larepublica.pe/tecnologia/smartphone/2024/04/16/ni-xiaomi-ni-apple-esta-marca-logro-derrotarlas-y-vender-mas-telefonos-en-todo-el-mundo-1417136",
+          "snippet": "Pese a tener menos ventas que Apple, las cifras de esta marca china son alentadoras, ya que experimentaron un crecimiento de más de 10 millones. Como podrás apreciar en el cuadro, en el primer trimest",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Principales empresas en el mercado de teléfonos inteligentes: líderes y ...",
+          "link": "https://www.verifiedmarketreports.com/es/blog/top-10-companies-in-smartphone/",
+          "snippet": "Principales empresas en el mercado de teléfonos inteligentes: líderes y perspectivas para 2034 Introducción La industria mundial de los teléfonos inteligentes sigue siendo una piedra angular de la eco",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Google Search (cleaned) — distribuidores de smartphones en el mundo",
+          "link": "https://www.google.com/search?q=distribuidores+de+smartphones+en+el+mundo",
+          "snippet": "Los principales distribuidores de smartphones en el mundo incluyen a empresas como Samsung y Apple, que lideran el mercado en términos de ventas y producción. En 2025, Apple superó a Samsung como el m",
+          "backend": "google_ai_scraper"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Los 5 principales proveedores de smartphones del mundo",
+          "link": "https://www.merca20.com/los-5-principales-proveedores-de-smartphones-del-mundo/",
+          "snippet": "Seguida de Apple con 206.3 millones y de Huawei con 142.5 millones. Xiaomi, en cuarta posición con 94.55 millones. Sin embargo, este año, las cifras han colocado a los principales proveedores de smart",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "HONOR ya es la tercera marca más grande de smartphones en...",
+          "link": "https://tecnocat.com.mx/noticias/honor-ya-es-la-tercera-marca-mas-grande-de-smartphones-en-china-asegura-counterpoint/",
+          "snippet": "De acuerdo con un nuevo reporte de Counterpoint, HONOR ha tenido un gran impacto en el mercado de smartphones, con un crecimiento en ventas del 18% intermensual en China. Lo cual, consolidó a la marca",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mini smartphones distribuidor: calidad y precio",
+          "link": "https://es.accio.com/supplier/mini-smartphones-distribuidor",
+          "snippet": "Smart Pest Control. ¿Dónde Encontrar Proveedores Distribuidores de Mini Smartphones? Guangdong, China, concentra el 70% de la producción global de mini smartphones.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Xiaomi se coloca como la marca número 1 de smartphones en...",
+          "link": "https://www.zonamovilidad.es/xiaomi-numero-uno-venta-smartphones-primer-trimestre-2020-espana-oppo-top-5",
+          "snippet": "Xiaomi ha disparado sus ventas durante el primer trimestre del año, superando a Samsung y Huawei y colocándose en la compañía que más vende del mercado. Las cifras que aporta Canalys son relativas al ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "La mayoría de smartphones en el mundo... | EL COMERCIO PERÚ",
+          "link": "https://elcomercio.pe/tecnologia/actualidad/mayoria-smartphones-mundo-son-hechos-china-noticia-1524238/",
+          "snippet": "China se convirtió en el mayor productor mundial de smartphones en 2012 con un total de 224 millones de unidades vendidas, informaron las autoridades chinas a través de la agencia oficial Xinhua.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bienvenido a \"El Mundo de Smartphones ACER\"!",
+          "link": "https://www.xataka.com.mx/n/bienvenido-a-mundo-smartphones-acer",
+          "snippet": "¡Smartphones ACER llega a México! una marca enfocada en una variedad de soluciones tecnológicas y dispositivos, también cuenta con un catálogo para conectar a las personas a lo largo de todo el mundo,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cuota de mercado de smartphones: España y mundo, marcas líderes",
+          "link": "https://www.todoandroid.es/cuota-de-mercado-de-las-marcas-de-smartphones-quien-lidera-y-por-que/",
+          "snippet": "Cuota de mercado de smartphones en España y mundo: líderes por marca, sistemas y tendencias 2025 con datos clave y análisis claro.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Marcas de móviles más vendidas en el mundo - TreceBits",
+          "link": "https://www.trecebits.com/ranking-empresas-fabricantes-ventas-moviles/",
+          "snippet": "Conoce el ranking de empresas fabricantes de teléfonos móviles que más smartphones venden en todo el mundo.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Estos son los 10 principales fabricantes de smartphones actuales",
+          "link": "https://tecnouniverse.com/estos-son-los-10-principales-fabricantes-de-smartphones-actuales/",
+          "snippet": "En el segundo trimestre de 2024, el mercado global de smartphones ha mostrado un crecimiento en los envíos de dispositivos, según los datos de la firma de investigación Omdia. En total, se enviaron 29",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mayorista Teléfonos Móviles y Smartphones. Proveedor al por mayor",
+          "link": "https://www.infortisa.com/categoria/telefonia-y-fax/moviles/",
+          "snippet": "Mayorista Teléfonos Móviles al mejor precio. Proveedor de móviles para comprar al por mayor distribuidores, empresas y dropshipping. Envíos 24h.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ni Apple, ni Samsung: el smartphone más delgado del mundo es el...",
+          "link": "https://www.lanacion.com.ar/tecnologia/ni-apple-ni-samsung-el-smartphone-mas-delgado-del-mundo-es-el-tecno-spark-slim-nid05032025/",
+          "snippet": "La china Tecno mostró en Barcelona el smartphone más delgado, adelantándose al Galaxy S25 Edge y al rumoreado iPhone 17 Air. 5 de marzo de 2025.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Estas son las ventas de los fabricantes de smartphones",
+          "link": "https://www.pasionmovil.com/analisis/estas-son-las-ventas-de-los-principales-fabricantes-de-smartphones-en-el-mundo/",
+          "snippet": "En el último informe de envíos de celulares de Omdia se totalizaron 301,6 millones de unidades en el 3T23, un 0,7% menos que en el 3T22. Comparado con el trimestre anterior, sin embargo, supone un aum",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Récord en la venta de smartphones en América Latina en 2024",
+          "link": "https://www.mobileworldlive.com/spanish/record-en-la-venta-de-smartphones-en-america-latina-en-2024/",
+          "snippet": "13 Mar 2025 ... Samsung mantuvo la primera posición con 42,9 millones de unidades enviadas en 2024, representando una cuota de mercado del 31%. En 2023, la ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lotes de móviles al por mayor - Comprar teléfonos y smartphones ...",
+          "link": "https://merkandi.es/categories/telefonos/27",
+          "snippet": "Debido a la variedad de fuentes y la calidad de los productos ofrecidos, atendemos nuestra oferta tanto a minoristas de Internet, mayoristas de electrónica y ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cerca nel Sito - Givi",
+          "link": "https://www.givi.es/searches",
+          "snippet": "Configurador de smartphones.Del 3 al 5 de julio, el Misano World Circuit acogió la World Ducati Week 2026, el gran evento internacional que cada dos años reúne a miles de motociclistas y aficionados d",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Apple superará a Samsung en 2025 y se convertirá en el mayor...",
+          "link": "https://www.eleconomista.com.mx/empresas/apple-superara-samsung-2025-convertira-mayor-fabricante-smartphones-mundo-20251127-788575.html",
+          "snippet": "En concreto, se espera que Apple alcance alrededor de 243 millones de unidades de 'smartphones' enviadas durante este año, frente a los 235 millones de envíos a nivel global que se esperan de Samsung,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Xiaomi apunta a convertirse en el segundo mayor distribuidor de...",
+          "link": "https://pisapapeles.net/xiaomi-apunta-a-convertirse-en-el-segundo-mayor-distribuidor-de-smartphones-a-nivel-mundial-en-2021/",
+          "snippet": "Honor Robot Phone: fabricación masiva desde agosto y lanzamiento en el tercer trimestre de 2026.Xiaomi apunta alto. Según fuentes sin revelar contactadas al medio Nikkei Asia, Xiaomi aspira a vender 2",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Las 10 principales marcas de teléfonos móviles: cuota de mercado global ...",
+          "link": "https://netvaluator.com/es/las-10-principales-marcas-de-telefonos-moviles-cuota-de-mercado-global-en-2025/",
+          "snippet": "El mercado de los smartphones en 2025 está definido por una feroz competencia entre un puñado de gigantes globales. Cada marca aporta su propia estrategia, innovación y fortaleza de mercado para asegu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Samsung, Apple y Xiaomi, las marcas que lideran en el mercado mundial ...",
+          "link": "https://www.larepublica.co/internet-economy/samsung-apple-y-xiaomi-las-marcas-que-lideran-actualmente-el-mercado-de-celulares-3957992",
+          "snippet": "COMPAÑÍAS ALTERNATIVAS El mercado global de smartphones también está compuesto por otras marcas que día a día se hacen un nombre a partir de la relación calidad precio. \"Xiaomi y Oppo básicamente lo q",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "El mapa que muestra cuáles son las marcas de móviles más vendidas en ...",
+          "link": "https://computerhoy.20minutos.es/moviles/mapa-muestra-cuales-son-marcas-moviles-vendidas-cada-continente-1335014",
+          "snippet": "Del poder de las ya afamadas Apple y Samsung al crecimiento imparable de la desconocida Transsion, el mercado de los smartphones cambia casi mensualmente, con alguna que otra sorpresa. Estas son las m",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Apple supera a Samsung y se convierte en el mayor vendedor de ...",
+          "link": "https://www.infobae.com/tecno/2026/01/20/apple-supera-a-samsung-y-se-convierte-en-el-mayor-vendedor-de-smartphones-del-mundo/",
+          "snippet": "20 Jan 2026 ... Apple supera a Samsung y se convierte en el mayor vendedor de smartphones del mundo · La razón por la que Stephen Hawking aseguraba que el ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Móviles, tablets y accesorios de las mejores marcas | R",
+          "link": "https://mundo-r.com/particulares/por-ser-cliente/smartphones",
+          "snippet": "La mejor selección de smartphones, tablets y otros dispositivos de las primeras marcas y modelos del mercado. Descubre ofertas en Mundo-R. ¡Entra ya!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ni Xiaomi ni Apple: esta marca logró derrotarlas y vender más...",
+          "link": "https://larepublica.pe/tecnologia/smartphone/2024/04/16/ni-xiaomi-ni-apple-esta-marca-logro-derrotarlas-y-vender-mas-telefonos-en-todo-el-mundo-1417136",
+          "snippet": "Pese a tener menos ventas que Apple, las cifras de esta marca china son alentadoras, ya que experimentaron un crecimiento de más de 10 millones. Como podrás apreciar en el cuadro, en el primer trimest",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Principales empresas en el mercado de teléfonos inteligentes: líderes y ...",
+          "link": "https://www.verifiedmarketreports.com/es/blog/top-10-companies-in-smartphone/",
+          "snippet": "Principales empresas en el mercado de teléfonos inteligentes: líderes y perspectivas para 2034 Introducción La industria mundial de los teléfonos inteligentes sigue siendo una piedra angular de la eco",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Google Search (cleaned) — distribuidores de smartphones en el mundo",
+          "link": "https://www.google.com/search?q=distribuidores+de+smartphones+en+el+mundo",
+          "snippet": "Los principales distribuidores de smartphones en el mundo incluyen a empresas como Samsung y Apple, que lideran el mercado en términos de ventas y producción. En 2025, Apple superó a Samsung como el m",
+          "backend": "google_ai_scraper"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

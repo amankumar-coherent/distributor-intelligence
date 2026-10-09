@@ -1,0 +1,1171 @@
+{
+  "phase": 1,
+  "query": "Orphan Drugs Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T21:32:32.372991+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "orphan drugs",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "pharmaceuticals",
+    "industry_terms": [
+      "orphan drugs",
+      "rare diseases",
+      "biologics",
+      "small molecules",
+      "specialty pharmaceuticals"
+    ],
+    "ecosystem_functions": [
+      "manufacturing orphan drugs",
+      "distributing orphan drugs",
+      "reselling orphan drugs",
+      "providing logistics for orphan drugs",
+      "integrating healthcare systems for orphan drugs",
+      "consulting on orphan drug distribution",
+      "marketing orphan drugs",
+      "facilitating sales of orphan drugs",
+      "wholesaling orphan drugs"
+    ],
+    "interpretation_summary": "The orphan drugs market encompasses pharmaceuticals developed specifically to treat rare diseases, which affect a small percentage of the population. Participants include manufacturers, distributors, and various channel",
+    "relevance_keywords": [
+      "orphan drug manufacturers",
+      "specialty distributors",
+      "pharmaceutical wholesalers",
+      "rare disease service providers",
+      "healthcare system integrators"
+    ],
+    "negative_keywords": [
+      "generic drugs",
+      "over-the-counter",
+      "clinical trials",
+      "medical devices",
+      "health supplements"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "Genzyme",
+        "primary_domain": "genzyme.com",
+        "company_function": "manufacturer of orphan drugs"
+      },
+      {
+        "canonical_name": "Shire Pharmaceuticals",
+        "primary_domain": "shire.com",
+        "company_function": "manufacturer of orphan drugs"
+      },
+      {
+        "canonical_name": "Amgen",
+        "primary_domain": "amgen.com",
+        "company_function": "manufacturer of orphan drugs"
+      },
+      {
+        "canonical_name": "McKesson",
+        "primary_domain": "mckesson.com",
+        "company_function": "distributor of orphan drugs"
+      },
+      {
+        "canonical_name": "Cardinal Health",
+        "primary_domain": "cardinalhealth.com",
+        "company_function": "distributor of orphan drugs"
+      },
+      {
+        "canonical_name": "AmerisourceBergen",
+        "primary_domain": "amerisourcebergen.com",
+        "company_function": "distributor of orphan drugs"
+      },
+      {
+        "canonical_name": "Fresenius Kabi",
+        "primary_domain": "fresenius-kabi.com",
+        "company_function": "wholesaler of orphan drugs"
+      },
+      {
+        "canonical_name": "CuraScript SD",
+        "primary_domain": "curascript.com",
+        "company_function": "wholesaler of orphan drugs"
+      },
+      {
+        "canonical_name": "Omnicare",
+        "primary_domain": "omnicare.com",
+        "company_function": "wholesaler of orphan drugs",
+        "segment": "Wholesalers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Thermo Fisher Scientific",
+        "primary_domain": "thermofisher.com",
+        "company_function": "service provider for orphan drugs",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "IQVIA",
+        "primary_domain": "iqvia.com",
+        "company_function": "service provider for orphan drugs",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Celerion",
+        "primary_domain": "celerion.com",
+        "company_function": "service provider for orphan drugs",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Veeva Systems",
+        "primary_domain": "veeva.com",
+        "company_function": "system integrator for orphan drugs",
+        "segment": "System Integrators",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Oracle Corporation",
+        "primary_domain": "oracle.com",
+        "company_function": "system integrator for orphan drugs",
+        "segment": "System Integrators",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "orphan drugs",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "orphan drugs",
+    "include_keywords": [
+      "orphan drug distribution",
+      "rare disease medication",
+      "specialty drug wholesalers",
+      "pharmaceutical resellers",
+      "healthcare system integration"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The orphan drugs market encompasses pharmaceuticals developed specifically to treat rare diseases, which affect a small percentage of the population. Participants include manufacturers, distributors, and various channel partners that facilitate the delivery of these specialized medications globally.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Manufacturing",
+        "description": "This layer includes the production of orphan drugs by pharmaceutical companies.",
+        "segments": [
+          {
+            "segment_name": "Orphan Drug Manufacturers",
+            "sub_segments": [
+              "Biologics",
+              "Small Molecules"
+            ],
+            "participant_types": [
+              "manufacturer"
+            ],
+            "search_intents": [
+              "orphan drug manufacturers official site",
+              "biologics orphan drug producers"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L2",
+        "layer_name": "Distribution",
+        "description": "This layer involves the distribution of orphan drugs through various channels.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Specialty Distributors",
+              "General Distributors"
+            ],
+            "participant_types": [
+              "distributor"
+            ],
+            "search_intents": [
+              "orphan drug distributors official site",
+              "specialty pharmaceutical distributors"
+            ]
+          },
+          {
+            "segment_name": "Wholesalers",
+            "sub_segments": [
+              "Regional Wholesalers",
+              "National Wholesalers"
+            ],
+            "participant_types": [
+              "wholesaler"
+            ],
+            "search_intents": [
+              "orphan drug wholesalers official site",
+              "pharmaceutical wholesalers for rare diseases"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L3",
+        "layer_name": "Channel Partners",
+        "description": "Channel partners facilitate the sale and distribution of orphan drugs.",
+        "segments": [
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Online Resellers",
+              "Pharmacy Resellers"
+            ],
+            "participant_types": [
+              "reseller"
+            ],
+            "search_intents": [
+              "orphan drug resellers official site",
+              "rare disease medication resellers"
+            ]
+          },
+          {
+            "segment_name": "Service Providers",
+            "sub_segments": [
+              "Logistics Providers",
+              "Consulting Services"
+            ],
+            "participant_types": [
+              "service provider"
+            ],
+            "search_intents": [
+              "orphan drug service providers official site",
+              "logistics for orphan drugs"
+            ]
+          },
+          {
+            "segment_name": "System Integrators",
+            "sub_segments": [
+              "Healthcare System Integrators",
+              "IT System Integrators"
+            ],
+            "participant_types": [
+              "system integrator"
+            ],
+            "search_intents": [
+              "orphan drug system integrators official site",
+              "healthcare IT for orphan drugs"
+            ]
+          },
+          {
+            "segment_name": "Channel Partners",
+            "sub_segments": [
+              "Marketing Partners",
+              "Sales Partners"
+            ],
+            "participant_types": [
+              "channel partner"
+            ],
+            "search_intents": [
+              "orphan drug channel partners official site",
+              "marketing partners for rare disease drugs"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Generic Drug Market",
+        "Over-the-Counter Drugs",
+        "Pharmaceutical Equipment Suppliers",
+        "Clinical Research Organizations"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "search for orphan drug manufacturers official site",
+        "sub_sector": "manufacturing",
+        "layer_id": "L1",
+        "segment": "Orphan Drug Manufacturers"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "search for orphan drug distributors official site",
+        "sub_sector": "distribution",
+        "layer_id": "L2",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "search for orphan drug wholesalers official site",
+        "sub_sector": "distribution",
+        "layer_id": "L2",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "search for orphan drug resellers official site",
+        "sub_sector": "sales",
+        "layer_id": "L3",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M5",
+        "level": "market_map",
+        "text": "search for orphan drug service providers official site",
+        "sub_sector": "services",
+        "layer_id": "L3",
+        "segment": "Service Providers"
+      },
+      {
+        "id": "M6",
+        "level": "market_map",
+        "text": "search for orphan drug system integrators official site",
+        "sub_sector": "integration",
+        "layer_id": "L3",
+        "segment": "System Integrators"
+      },
+      {
+        "id": "M7",
+        "level": "market_map",
+        "text": "search for orphan drug channel partners official site",
+        "sub_sector": "partnerships",
+        "layer_id": "L3",
+        "segment": "Channel Partners"
+      },
+      {
+        "id": "M8",
+        "level": "market_map",
+        "text": "buscar fabricantes de medicamentos hu\u00e9rfanos",
+        "sub_sector": "manufacturing",
+        "layer_id": "L1",
+        "segment": "Orphan Drug Manufacturers"
+      },
+      {
+        "id": "M9",
+        "level": "market_map",
+        "text": "buscar distribuidores de medicamentos hu\u00e9rfanos",
+        "sub_sector": "distribution",
+        "layer_id": "L2",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M10",
+        "level": "market_map",
+        "text": "buscar mayoristas de medicamentos hu\u00e9rfanos",
+        "sub_sector": "distribution",
+        "layer_id": "L2",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M11",
+        "level": "market_map",
+        "text": "buscar revendedores de medicamentos hu\u00e9rfanos",
+        "sub_sector": "sales",
+        "layer_id": "L3",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M12",
+        "level": "market_map",
+        "text": "buscar proveedores de servicios de medicamentos hu\u00e9rfanos",
+        "sub_sector": "services",
+        "layer_id": "L3",
+        "segment": "Service Providers"
+      },
+      {
+        "id": "M13",
+        "level": "market_map",
+        "text": "buscar integradores de sistemas de medicamentos hu\u00e9rfanos",
+        "sub_sector": "integration",
+        "layer_id": "L3",
+        "segment": "System Integrators"
+      },
+      {
+        "id": "M14",
+        "level": "market_map",
+        "text": "buscar socios de canal de medicamentos hu\u00e9rfanos",
+        "sub_sector": "partnerships",
+        "layer_id": "L3",
+        "segment": "Channel Partners"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "pharmaceuticals",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "orphan drugs companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "distributors of orphan drugs corporate sites"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "service providers for orphan drugs official site"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "market_map",
+      "text": "search for orphan drug manufacturers official site"
+    },
+    {
+      "id": "P2",
+      "level": "market_map",
+      "text": "search for orphan drug distributors official site"
+    },
+    {
+      "id": "P3",
+      "level": "market_map",
+      "text": "search for orphan drug wholesalers official site"
+    },
+    {
+      "id": "P4",
+      "level": "market_map",
+      "text": "search for orphan drug resellers official site"
+    },
+    {
+      "id": "P5",
+      "level": "market_map",
+      "text": "search for orphan drug service providers official site"
+    },
+    {
+      "id": "P6",
+      "level": "market_map",
+      "text": "search for orphan drug system integrators official site"
+    },
+    {
+      "id": "P7",
+      "level": "market_map",
+      "text": "search for orphan drug channel partners official site"
+    },
+    {
+      "id": "P8",
+      "level": "market_map",
+      "text": "buscar fabricantes de medicamentos hu\u00e9rfanos"
+    },
+    {
+      "id": "P9",
+      "level": "market_map",
+      "text": "buscar distribuidores de medicamentos hu\u00e9rfanos"
+    },
+    {
+      "id": "P10",
+      "level": "market_map",
+      "text": "buscar mayoristas de medicamentos hu\u00e9rfanos"
+    },
+    {
+      "id": "P11",
+      "level": "market_map",
+      "text": "buscar revendedores de medicamentos hu\u00e9rfanos"
+    },
+    {
+      "id": "P12",
+      "level": "market_map",
+      "text": "buscar proveedores de servicios de medicamentos hu\u00e9rfanos"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "orphan drugs companies official websites",
+      "level": "L0",
+      "result_count": 5,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "M\u00e9dunik USA is a company dedicated to providing access to orphan drugs",
+          "link": "https://medunikusa.com/",
+          "snippet": "Our Products We made it our mission to bring orphan drugs to the U.S and ensure that Americans living with rare diseases have access to the most effective treatments available anywhere.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Orphanet : Diseases",
+          "link": "https://www.orpha.net/en/disease",
+          "snippet": "Orphan drugs. Search. Patient organisations.Orphanet uses the European definition of a rare disease, as defined by the European Union Regulation on Orphan Medicinal Products (1999), that being a disea",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Orphan Drug Supply | Rare Disease Medicines Worldwide \u2013 GNH India",
+          "link": "https://www.gnhindia.com/services/orphan-drug-supply",
+          "snippet": "GNH India supplies orphan drugs and rare disease medicines globally through Named Patient Programs, compassionate use, and parallel import pathways.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Half of newly developed drugs are the result of this 1983 Law - AOL",
+          "link": "https://www.aol.com/articles/half-newly-developed-drugs-result-130006000.html",
+          "snippet": "Who Is Developing These Drugs? The orphan drug pipeline runs in large part on smaller companies. Small and midsize firms have long made up a big share of the sponsors behind orphan drugs.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Rare Disease Therapeutics - Rare Disease Therapeutics, Inc.",
+          "link": "https://www.raretx.com/",
+          "snippet": "We have helped bring life-saving and life-extending treatments to people with unmet medical needs for over 30 years. As America\u2019s first exclusively orphan drug company, we have expertise in regulatory",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "M\u00e9dunik USA is a company dedicated to providing access to orphan drugs",
+          "link": "https://medunikusa.com/",
+          "snippet": "Our Products We made it our mission to bring orphan drugs to the U.S and ensure that Americans living with rare diseases have access to the most effective treatments available anywhere.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Orphanet : Diseases",
+          "link": "https://www.orpha.net/en/disease",
+          "snippet": "Orphan drugs. Search. Patient organisations.Orphanet uses the European definition of a rare disease, as defined by the European Union Regulation on Orphan Medicinal Products (1999), that being a disea",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Orphan Drug Supply | Rare Disease Medicines Worldwide \u2013 GNH India",
+          "link": "https://www.gnhindia.com/services/orphan-drug-supply",
+          "snippet": "GNH India supplies orphan drugs and rare disease medicines globally through Named Patient Programs, compassionate use, and parallel import pathways.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Half of newly developed drugs are the result of this 1983 Law - AOL",
+          "link": "https://www.aol.com/articles/half-newly-developed-drugs-result-130006000.html",
+          "snippet": "Who Is Developing These Drugs? The orphan drug pipeline runs in large part on smaller companies. Small and midsize firms have long made up a big share of the sponsors behind orphan drugs.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Rare Disease Therapeutics - Rare Disease Therapeutics, Inc.",
+          "link": "https://www.raretx.com/",
+          "snippet": "We have helped bring life-saving and life-extending treatments to people with unmet medical needs for over 30 years. As America\u2019s first exclusively orphan drug company, we have expertise in regulatory",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "distributors of orphan drugs corporate sites",
+      "level": "L1",
+      "result_count": 9,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Orphanet : Diseases",
+          "link": "https://www.orpha.net/en/disease",
+          "snippet": "Orphan drugs. Search. Patient organisations.Orphanet uses the European definition of a rare disease, as defined by the European Union Regulation on Orphan Medicinal Products (1999), that being a disea",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "ExCEEd Orphan \u2013 Experts for Orphan Drugs",
+          "link": "https://www.exceedorphan.com/",
+          "snippet": "Experts for Orphan Drugs in Central & Eastern Europe. To deliver your unique medicine to each and every patient with rare disease by providing integral business solutions.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "World Orphan Drug Alliance (WODA)",
+          "link": "https://www.woda-alliance.com/",
+          "snippet": "We are a global alliance of full-service regional distributors. As full-service providers, we support pharmaceutical partners with orphan portfolios with all services required for commercialization of",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Orphan Drug Supply - Parksley Global",
+          "link": "https://parksleyglobal.com/services/orphan-drug-supply/",
+          "snippet": "Parksley support successful orphan drug cross-border distribution by Utilizing morally approved supply channels while maintaining the standards of supply chain security. Our purpose behind supplying t",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "World Orphan Drug Alliance - combining forces to reach patients with ...",
+          "link": "https://www.effrx.com/world-orphan-drug-alliance-combining-forces-to-reach-patients-with-rare-diseases-across-the-globe/",
+          "snippet": "World Orphan Drug Alliance (WODA) is a new global alliance of full-service regional distributors for orphan drugs. WODA covers 68 countries on 4 continents. There are more than 64 million potential pa",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "One World \u2013 International Specialty Pharma Distributor",
+          "link": "https://one-world-inc.com/",
+          "snippet": "Orphan drugs for rare and ultra-rare diseases. Newly launched specialty drugs with delayed international distribution. Replacement supply for drug shortages. DEA controlled substances.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Leader Local Partner - GNH India",
+          "link": "https://www.gnhindia.com/blog/global-leader-local-partner",
+          "snippet": "ORPHAN DRUG PIONEERS About Us. Key USPs As India's first domestic distributor of orphan drugs, GNH India has revolutionized access to rare disease treatments, ensuring patients receive life-saving med",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sunshine Pharmaceutical",
+          "link": "https://www.sunshinebiopharmaindia.in/",
+          "snippet": "With a vision to make a mark in the medicine segment, and facilitating the premium Pharma-products in the most hassle-free manner, Sunshine Biopharma offers a full range of branded, generic, and orpha",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tecbiotec | LinkedIn",
+          "link": "https://in.linkedin.com/company/tecbiotec",
+          "snippet": "TecBiotec is a subsidiary of Tapadiya Lifescience, a pharmaceutical authorized distributor since 1990s. We have access to more than 400,000 line of products at very competitive prices due to our direc",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Orphanet : Diseases",
+          "link": "https://www.orpha.net/en/disease",
+          "snippet": "Orphan drugs. Search. Patient organisations.Orphanet uses the European definition of a rare disease, as defined by the European Union Regulation on Orphan Medicinal Products (1999), that being a disea",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "ExCEEd Orphan \u2013 Experts for Orphan Drugs",
+          "link": "https://www.exceedorphan.com/",
+          "snippet": "Experts for Orphan Drugs in Central & Eastern Europe. To deliver your unique medicine to each and every patient with rare disease by providing integral business solutions.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "World Orphan Drug Alliance (WODA)",
+          "link": "https://www.woda-alliance.com/",
+          "snippet": "We are a global alliance of full-service regional distributors. As full-service providers, we support pharmaceutical partners with orphan portfolios with all services required for commercialization of",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Orphan Drug Supply - Parksley Global",
+          "link": "https://parksleyglobal.com/services/orphan-drug-supply/",
+          "snippet": "Parksley support successful orphan drug cross-border distribution by Utilizing morally approved supply channels while maintaining the standards of supply chain security. Our purpose behind supplying t",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "World Orphan Drug Alliance - combining forces to reach patients with ...",
+          "link": "https://www.effrx.com/world-orphan-drug-alliance-combining-forces-to-reach-patients-with-rare-diseases-across-the-globe/",
+          "snippet": "World Orphan Drug Alliance (WODA) is a new global alliance of full-service regional distributors for orphan drugs. WODA covers 68 countries on 4 continents. There are more than 64 million potential pa",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "One World \u2013 International Specialty Pharma Distributor",
+          "link": "https://one-world-inc.com/",
+          "snippet": "Orphan drugs for rare and ultra-rare diseases. Newly launched specialty drugs with delayed international distribution. Replacement supply for drug shortages. DEA controlled substances.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Leader Local Partner - GNH India",
+          "link": "https://www.gnhindia.com/blog/global-leader-local-partner",
+          "snippet": "ORPHAN DRUG PIONEERS About Us. Key USPs As India's first domestic distributor of orphan drugs, GNH India has revolutionized access to rare disease treatments, ensuring patients receive life-saving med",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sunshine Pharmaceutical",
+          "link": "https://www.sunshinebiopharmaindia.in/",
+          "snippet": "With a vision to make a mark in the medicine segment, and facilitating the premium Pharma-products in the most hassle-free manner, Sunshine Biopharma offers a full range of branded, generic, and orpha",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tecbiotec | LinkedIn",
+          "link": "https://in.linkedin.com/company/tecbiotec",
+          "snippet": "TecBiotec is a subsidiary of Tapadiya Lifescience, a pharmaceutical authorized distributor since 1990s. We have access to more than 400,000 line of products at very competitive prices due to our direc",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "service providers for orphan drugs official site",
+      "level": "L2",
+      "result_count": 5,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Orphan Drug Supply - Toro Pharmaceuticals",
+          "link": "https://toroindia.com/orphan-drug-supply/",
+          "snippet": "The development and distribution of orphan drugs play a critical role in addressing the unique medical needs of patients with rare diseases. Often, these conditions need more effective treatment optio",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "IORD - Indian Organization for Rare Diseases | A not-for-profit ...",
+          "link": "https://www.rarediseases.in/",
+          "snippet": "For more than a decade after IORD came onto the scene, India neither had an official definition for rare diseases nor public policy on Rare Diseases or Orphan Drugs in India. Worse, lack of trained do",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Orphanet : Diseases",
+          "link": "https://www.orpha.net/en/disease",
+          "snippet": "Knowledge on rare diseases and orphan drugs.The provided information is based on published scientific articles. Disease profiles are expert- reviewed texts. These general texts may not apply to specif",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "'Orphan Drugs & Rare Diseases', London, UK | Event | CORDIS",
+          "link": "https://cordis.europa.eu/event/id/35983-orphan-drugs-rare-diseases-london-uk",
+          "snippet": "A conference on 'Orphan Drugs & Rare Diseases'will be held from 14 to 15 October 2013 in London, UK. Within the EU population, rare diseases affect fewer than 5 patients in every 10,000.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sunshine Pharmaceutical",
+          "link": "http://www.sunshinebiopharmaindia.in/",
+          "snippet": "With a vision to make a mark in the medicine segment, and facilitating the premium Pharma-products in the most hassle-free manner, Sunshine Biopharma offers a full range of branded, generic, and orpha",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Orphan Drug Supply - Toro Pharmaceuticals",
+          "link": "https://toroindia.com/orphan-drug-supply/",
+          "snippet": "The development and distribution of orphan drugs play a critical role in addressing the unique medical needs of patients with rare diseases. Often, these conditions need more effective treatment optio",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "IORD - Indian Organization for Rare Diseases | A not-for-profit ...",
+          "link": "https://www.rarediseases.in/",
+          "snippet": "For more than a decade after IORD came onto the scene, India neither had an official definition for rare diseases nor public policy on Rare Diseases or Orphan Drugs in India. Worse, lack of trained do",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Orphanet : Diseases",
+          "link": "https://www.orpha.net/en/disease",
+          "snippet": "Knowledge on rare diseases and orphan drugs.The provided information is based on published scientific articles. Disease profiles are expert- reviewed texts. These general texts may not apply to specif",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "'Orphan Drugs & Rare Diseases', London, UK | Event | CORDIS",
+          "link": "https://cordis.europa.eu/event/id/35983-orphan-drugs-rare-diseases-london-uk",
+          "snippet": "A conference on 'Orphan Drugs & Rare Diseases'will be held from 14 to 15 October 2013 in London, UK. Within the EU population, rare diseases affect fewer than 5 patients in every 10,000.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sunshine Pharmaceutical",
+          "link": "http://www.sunshinebiopharmaindia.in/",
+          "snippet": "With a vision to make a mark in the medicine segment, and facilitating the premium Pharma-products in the most hassle-free manner, Sunshine Biopharma offers a full range of branded, generic, and orpha",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "search for orphan drug manufacturers official site",
+      "level": "market_map",
+      "result_count": 7,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Orphan drug - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Orphan_drug",
+          "snippet": "An orphan drug would not be profitable to produce without government assistance, due to the small population of patients affected by the conditions. The conditions that orphan drugs are used to treat ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Orphanet : Diseases",
+          "link": "https://www.orpha.net/en/disease",
+          "snippet": "Orphan drugs. Search.Watch the 'search for a disease' video tutorial. Procedures: Orphanet inventory of rare diseases.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Orphan Drug Supply | Rare Disease Medicines Worldwide \u2013 GNH India",
+          "link": "https://www.gnhindia.com/services/orphan-drug-supply",
+          "snippet": "What Is Orphan Drug Supply? Orphan drugs are medicines developed to treat rare diseases \u2014 conditions that affect fewer than 1 in 2,000 people in the European Union or fewer than 200,000 patients in th",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Orphan Drugs \u2013 Sourcing API from Emerging Markets",
+          "link": "https://www.pharmafocusasia.com/whitepapers/orphan-drugs",
+          "snippet": "Orphan drug manufacturers face several challenges in spite of the relaxations provided. One such difficulty is managing the cost involved in manufacturing orphan drugs.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Orphan Drug Market Size, Share, Analysis, Industry 2035",
+          "link": "https://www.rootsanalysis.com/reports/orphan-drug-market.html",
+          "snippet": "Under this scheme, nine orphan drug manufacturers and medical device developers will be selected to enhance research in six areas.This market report includes an easily searchable excel database of all",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sobi - Transforming the lives of people with rare diseasesOrphanDB | Cot\u00e9 OrphanV\u00e9rification de la connexion... - Orphan",
+          "link": "https://www.sobi.com/en",
+          "snippet": "Jul 16, 2026 \u00b7 Sobi is a specialised international biopharmaceutical company transforming the lives of people with rare diseases. Learn more about us here. Providing industry leaders a single source o",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "OrphanDB | Cot\u00e9 Orphan",
+          "link": "https://coteorphan.com/app/",
+          "snippet": "Providing industry leaders a single source of truth to all FDA and EMA orphan drug status! Access and search the FDA and EMA databases of orphan drugs to check for designation status",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Orphan drug - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Orphan_drug",
+          "snippet": "An orphan drug would not be profitable to produce without government assistance, due to the small population of patients affected by the conditions. The conditions that orphan drugs are used to treat ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Orphanet : Diseases",
+          "link": "https://www.orpha.net/en/disease",
+          "snippet": "Orphan drugs. Search.Watch the 'search for a disease' video tutorial. Procedures: Orphanet inventory of rare diseases.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Orphan Drug Supply | Rare Disease Medicines Worldwide \u2013 GNH India",
+          "link": "https://www.gnhindia.com/services/orphan-drug-supply",
+          "snippet": "What Is Orphan Drug Supply? Orphan drugs are medicines developed to treat rare diseases \u2014 conditions that affect fewer than 1 in 2,000 people in the European Union or fewer than 200,000 patients in th",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Orphan Drugs \u2013 Sourcing API from Emerging Markets",
+          "link": "https://www.pharmafocusasia.com/whitepapers/orphan-drugs",
+          "snippet": "Orphan drug manufacturers face several challenges in spite of the relaxations provided. One such difficulty is managing the cost involved in manufacturing orphan drugs.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Orphan Drug Market Size, Share, Analysis, Industry 2035",
+          "link": "https://www.rootsanalysis.com/reports/orphan-drug-market.html",
+          "snippet": "Under this scheme, nine orphan drug manufacturers and medical device developers will be selected to enhance research in six areas.This market report includes an easily searchable excel database of all",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sobi - Transforming the lives of people with rare diseasesOrphanDB | Cot\u00e9 OrphanV\u00e9rification de la connexion... - Orphan",
+          "link": "https://www.sobi.com/en",
+          "snippet": "Jul 16, 2026 \u00b7 Sobi is a specialised international biopharmaceutical company transforming the lives of people with rare diseases. Learn more about us here. Providing industry leaders a single source o",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "OrphanDB | Cot\u00e9 Orphan",
+          "link": "https://coteorphan.com/app/",
+          "snippet": "Providing industry leaders a single source of truth to all FDA and EMA orphan drug status! Access and search the FDA and EMA databases of orphan drugs to check for designation status",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P2": {
+      "query": "search for orphan drug distributors official site",
+      "level": "market_map",
+      "result_count": 4,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Orphanet",
+          "link": "https://www.orpha.net/",
+          "snippet": "Orphan drugs. Search. Patient organisations.OrphaNews is a freely available, twice-monthly electronic newsletter for the rare disease community, presenting an overview of scientific and political news",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Orphan Drug Supply | Rare Disease Medicines Worldwide \u2013 GNH India",
+          "link": "https://www.gnhindia.com/services/orphan-drug-supply",
+          "snippet": "What is an orphan drug? Orphan drugs are medicines developed specifically for rare diseases. In the EU, a disease is classified as rare if it affects fewer than 1 in 2,000 people; in the USA, the thre",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "FDA Drug Rejections: Makary & Prasad Debate Rare... - Archyworldys",
+          "link": "https://www.archyworldys.com/fda-drug-rejections-makary-prasad-debate-rare-diseases/",
+          "snippet": "Orphan drugs are medications developed to treat rare diseases, defined as those affecting fewer than 200,000 people in the United States. Developing these drugs is often less profitable, requiring spe",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Rosario Cestau, Country Manager, Aegerion Argentina",
+          "link": "https://pharmaboardroom.com/interviews/rosario-cestau-country-manager-aegerion-argentina/",
+          "snippet": "Search forTags: orphan drugs. Aegerion\u2019s representative in Argentina discusses her efforts to raise awareness of Homozygous Familial Hypercholesteremia (HoFH), the rare disease targeted by her company",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Orphanet",
+          "link": "https://www.orpha.net/",
+          "snippet": "Orphan drugs. Search. Patient organisations.OrphaNews is a freely available, twice-monthly electronic newsletter for the rare disease community, presenting an overview of scientific and political news",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Orphan Drug Supply | Rare Disease Medicines Worldwide \u2013 GNH India",
+          "link": "https://www.gnhindia.com/services/orphan-drug-supply",
+          "snippet": "What is an orphan drug? Orphan drugs are medicines developed specifically for rare diseases. In the EU, a disease is classified as rare if it affects fewer than 1 in 2,000 people; in the USA, the thre",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "FDA Drug Rejections: Makary & Prasad Debate Rare... - Archyworldys",
+          "link": "https://www.archyworldys.com/fda-drug-rejections-makary-prasad-debate-rare-diseases/",
+          "snippet": "Orphan drugs are medications developed to treat rare diseases, defined as those affecting fewer than 200,000 people in the United States. Developing these drugs is often less profitable, requiring spe",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Rosario Cestau, Country Manager, Aegerion Argentina",
+          "link": "https://pharmaboardroom.com/interviews/rosario-cestau-country-manager-aegerion-argentina/",
+          "snippet": "Search forTags: orphan drugs. Aegerion\u2019s representative in Argentina discusses her efforts to raise awareness of Homozygous Familial Hypercholesteremia (HoFH), the rare disease targeted by her company",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P3": {
+      "query": "search for orphan drug wholesalers official site",
+      "level": "market_map",
+      "result_count": 3,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Orphanet : Diseases",
+          "link": "https://www.orpha.net/en/disease",
+          "snippet": "Orphan drugs. Search.Watch the 'search for a disease' video tutorial. Procedures: Orphanet inventory of rare diseases.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "'I helped test a wonder drug - then I was denied it'",
+          "link": "https://www.bbc.com/news/stories-47954400",
+          "snippet": "Site search.Then in 2000, the European Commission introduced incentives to encourage the production of \"orphan drugs\" for people with rare conditions, ruling that companies would enjoy up to 12 years ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Proguanil tablet Price In India | Wholesale Supplier - Oddway",
+          "link": "https://www.oddwayinternational.com/proguanil-tablet/",
+          "snippet": "Orphan Drugs. Alternative Medicine.For proguanil hydrochloride tablets, we handle small institutional requests where feasible and larger bulk orders for wholesalers, distributors, and public health pr",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Orphanet : Diseases",
+          "link": "https://www.orpha.net/en/disease",
+          "snippet": "Orphan drugs. Search.Watch the 'search for a disease' video tutorial. Procedures: Orphanet inventory of rare diseases.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "'I helped test a wonder drug - then I was denied it'",
+          "link": "https://www.bbc.com/news/stories-47954400",
+          "snippet": "Site search.Then in 2000, the European Commission introduced incentives to encourage the production of \"orphan drugs\" for people with rare conditions, ruling that companies would enjoy up to 12 years ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Proguanil tablet Price In India | Wholesale Supplier - Oddway",
+          "link": "https://www.oddwayinternational.com/proguanil-tablet/",
+          "snippet": "Orphan Drugs. Alternative Medicine.For proguanil hydrochloride tablets, we handle small institutional requests where feasible and larger bulk orders for wholesalers, distributors, and public health pr",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P4": {
+      "query": "search for orphan drug resellers official site",
+      "level": "market_map",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Orphanet : Diseases",
+          "link": "https://www.orpha.net/en/disease",
+          "snippet": "Orphan drugs. Search.Watch the 'search for a disease' video tutorial. Procedures: Orphanet inventory of rare diseases.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Orphanet : Diseases",
+          "link": "https://www.orpha.net/en/disease",
+          "snippet": "Orphan drugs. Search.Watch the 'search for a disease' video tutorial. Procedures: Orphanet inventory of rare diseases.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P5": {
+      "query": "search for orphan drug service providers official site",
+      "level": "market_map",
+      "result_count": 2,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Orphanet",
+          "link": "https://www.orpha.net/",
+          "snippet": "Orphan drugs. Search. Patient organisations.Orphanet works with the rare disease community in order to provide its users with quality, up-to-date information on rare diseases and to improve its servic",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "FDA Drug Rejections: Makary & Prasad Debate Rare... - Archyworldys",
+          "link": "https://www.archyworldys.com/fda-drug-rejections-makary-prasad-debate-rare-diseases/",
+          "snippet": "Orphan drugs are medications developed to treat rare diseases, defined as those affecting fewer than 200,000 people in the United States. Developing these drugs is often less profitable, requiring spe",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Orphanet",
+          "link": "https://www.orpha.net/",
+          "snippet": "Orphan drugs. Search. Patient organisations.Orphanet works with the rare disease community in order to provide its users with quality, up-to-date information on rare diseases and to improve its servic",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "FDA Drug Rejections: Makary & Prasad Debate Rare... - Archyworldys",
+          "link": "https://www.archyworldys.com/fda-drug-rejections-makary-prasad-debate-rare-diseases/",
+          "snippet": "Orphan drugs are medications developed to treat rare diseases, defined as those affecting fewer than 200,000 people in the United States. Developing these drugs is often less profitable, requiring spe",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "search for orphan drug system integrators official site",
+      "level": "market_map",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Orphanet : Diseases",
+          "link": "https://www.orpha.net/en/disease",
+          "snippet": "Orphan drugs. Search.Watch the 'search for a disease' video tutorial. Procedures: Orphanet inventory of rare diseases.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Orphanet : Diseases",
+          "link": "https://www.orpha.net/en/disease",
+          "snippet": "Orphan drugs. Search.Watch the 'search for a disease' video tutorial. Procedures: Orphanet inventory of rare diseases.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P7": {
+      "query": "search for orphan drug channel partners official site",
+      "level": "market_map",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Orphanet",
+          "link": "https://www.orpha.net/",
+          "snippet": "Orphan drugs. Search. Patient organisations.Partner with Orphanet and support us in our mission to improve knowledge and information on rare diseases.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Orphanet",
+          "link": "https://www.orpha.net/",
+          "snippet": "Orphan drugs. Search. Patient organisations.Partner with Orphanet and support us in our mission to improve knowledge and information on rare diseases.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

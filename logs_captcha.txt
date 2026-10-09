@@ -1,0 +1,45 @@
+  [ai-mode] loading staged extension from profile: C:\Users\aman.kumar\Downloads\vendor-intel\data\ai_mode_chrome_profile_extensions\captcha-raptor
+  [ai-mode] loading extension: C:\Users\aman.kumar\Downloads\vendor-intel\data\ai_mode_chrome_profile_extensions\captcha-raptor
+  [ai-mode] verifying the extension actually registered...
+  [ai-mode] ====================================================================
+  [ai-mode] extensions requested -> switching to bundled Chromium.
+  [ai-mode] Reason: this Chrome is enterprise-managed and refuses
+  [ai-mode] command-line unpacked extensions (verified: not loaded).
+  [ai-mode] TRADE-OFF: Chromium is CAPTCHA'd more often than real Chrome.
+  [ai-mode] To keep real Chrome instead (extension will NOT load), set
+  [ai-mode]   GOOGLE_AI_MODE_EXTENSIONS_NEED_CHROMIUM=false
+  [ai-mode] ====================================================================
+  [ai-mode] extension(s) active: 1 background worker(s)
+profile: C:\Users\aman.kumar\Downloads\vendor-intel\data\ai_mode_chrome_profile_chromium
+
+================================================================
+A Chromium window is open on the automation profile.
+Solve the 'I'm not a robot' CAPTCHA there.
+When normal results load, CLOSE THE WINDOW to save and exit.
+Waiting up to 25 minutes.
+================================================================
+node:events:487
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:75:18)
+    at writeOrBuffer (node:internal/streams/writable:570:12)
+    at _write (node:internal/streams/writable:499:10)
+    at Writable.write (node:internal/streams/writable:508:10)
+    at PipeTransport.send (C:\Users\aman.kumar\Downloads\vendor-intel\.venv\Lib\site-packages\patchright\driver\package\lib\coreBundle.js:35762:25)
+    at dispatcherConnection.onmessage (C:\Users\aman.kumar\Downloads\vendor-intel\.venv\Lib\site-packages\patchright\driver\package\lib\coreBundle.js:69458:59)
+    at DispatcherConnection.sendEvent (C:\Users\aman.kumar\Downloads\vendor-intel\.venv\Lib\site-packages\patchright\driver\package\lib\coreBundle.js:24894:14)
+    at _PageDispatcher._dispatchEvent (C:\Users\aman.kumar\Downloads\vendor-intel\.venv\Lib\site-packages\patchright\driver\package\lib\coreBundle.js:24827:25)
+    at _Page.<anonymous> (C:\Users\aman.kumar\Downloads\vendor-intel\.venv\Lib\site-packages\patchright\driver\package\lib\coreBundle.js:53813:16)
+    at _Page.emit (node:events:509:28)
+Emitted 'error' event on Socket instance at:
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  errno: -4047,
+  syscall: 'write',
+  code: 'EPIPE'
+}
+
+Node.js v24.16.0

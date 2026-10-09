@@ -1,0 +1,2641 @@
+{
+  "phase": 1,
+  "query": "Vodka Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T21:54:56.830228+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "vodka",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "alcoholic beverages",
+    "industry_terms": [
+      "vodka",
+      "distillation",
+      "fermentation",
+      "grain vodka",
+      "potato vodka"
+    ],
+    "ecosystem_functions": [
+      "vodka production",
+      "distribution logistics",
+      "wholesale supply",
+      "retail sales",
+      "marketing services",
+      "brand management",
+      "customer service",
+      "e-commerce integration"
+    ],
+    "interpretation_summary": "The vodka market encompasses the production, distribution, and sale of vodka, a distilled alcoholic beverage made primarily from fermented grains or potatoes. Participants include manufacturers, distributors, wholesalers",
+    "relevance_keywords": [
+      "vodka suppliers",
+      "vodka distributors",
+      "vodka retailers",
+      "vodka brands",
+      "vodka marketing"
+    ],
+    "negative_keywords": [
+      "beer",
+      "wine",
+      "non-alcoholic",
+      "soft drinks",
+      "food service"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "Diageo",
+        "primary_domain": "diageo.com",
+        "company_function": "vodka manufacturer and distributor"
+      },
+      {
+        "canonical_name": "Pernod Ricard",
+        "primary_domain": "pernod-ricard.com",
+        "company_function": "vodka manufacturer and distributor"
+      },
+      {
+        "canonical_name": "Brown-Forman",
+        "primary_domain": "brown-forman.com",
+        "company_function": "vodka manufacturer and distributor"
+      },
+      {
+        "canonical_name": "Southern Glazer's Wine & Spirits",
+        "primary_domain": "sgws.com",
+        "company_function": "distributor of vodka and spirits"
+      },
+      {
+        "canonical_name": "Republic National Distributing Company",
+        "primary_domain": "rndc-usa.com",
+        "company_function": "distributor of vodka and spirits"
+      },
+      {
+        "canonical_name": "Breakthru Beverage Group",
+        "primary_domain": "breakthrubev.com",
+        "company_function": "distributor of vodka and spirits"
+      },
+      {
+        "canonical_name": "Total Wine & More",
+        "primary_domain": "totalwine.com",
+        "company_function": "retailer of vodka and spirits"
+      },
+      {
+        "canonical_name": "Drizly",
+        "primary_domain": "drizly.com",
+        "company_function": "online retailer of vodka"
+      },
+      {
+        "canonical_name": "Vivino",
+        "primary_domain": "vivino.com",
+        "company_function": "online retailer of vodka",
+        "segment": "Resellers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "MHW, Ltd.",
+        "primary_domain": "mhwlimited.com",
+        "company_function": "service provider for vodka distribution",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "The Wine and Spirits Wholesalers of America",
+        "primary_domain": "wswa.org",
+        "company_function": "advocacy and service provider for vodka wholesalers",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "E. & J. Gallo Winery",
+        "primary_domain": "ejgallo.com",
+        "company_function": "distributor and service provider for vodka",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Sazerac Company",
+        "primary_domain": "sazerac.com",
+        "company_function": "vodka manufacturer and distributor",
+        "segment": "Vodka Manufacturers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Belvedere Vodka",
+        "primary_domain": "belvederevodka.com",
+        "company_function": "vodka manufacturer and distributor",
+        "segment": "Vodka Manufacturers",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "vodka",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "vodka",
+    "include_keywords": [
+      "premium vodka",
+      "craft vodka",
+      "vodka brands",
+      "vodka distribution",
+      "vodka wholesalers"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The vodka market encompasses the production, distribution, and sale of vodka, a distilled alcoholic beverage made primarily from fermented grains or potatoes. Participants include manufacturers, distributors, wholesalers, and retailers operating globally.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Production",
+        "description": "This layer involves the manufacturing of vodka, including the fermentation and distillation processes.",
+        "segments": [
+          {
+            "segment_name": "Vodka Manufacturers",
+            "sub_segments": [
+              "Grain-based vodka",
+              "Potato-based vodka"
+            ],
+            "participant_types": [
+              "distiller",
+              "brand owner"
+            ],
+            "search_intents": [
+              "vodka manufacturers official site",
+              "grain-based vodka producers"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L2",
+        "layer_name": "Distribution",
+        "description": "This layer includes the logistics and distribution of vodka from manufacturers to retailers and consumers.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Regional distributors",
+              "National distributors"
+            ],
+            "participant_types": [
+              "distributor",
+              "wholesaler"
+            ],
+            "search_intents": [
+              "vodka distributors official site",
+              "wholesale vodka suppliers"
+            ]
+          },
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Retailers",
+              "Online resellers"
+            ],
+            "participant_types": [
+              "retailer",
+              "e-commerce platform"
+            ],
+            "search_intents": [
+              "vodka retailers official site",
+              "buy vodka online"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L3",
+        "layer_name": "Service Providers",
+        "description": "This layer includes companies that provide services related to the vodka market, such as marketing and logistics.",
+        "segments": [
+          {
+            "segment_name": "Marketing Agencies",
+            "sub_segments": [
+              "Branding agencies",
+              "Digital marketing firms"
+            ],
+            "participant_types": [
+              "service provider",
+              "consultant"
+            ],
+            "search_intents": [
+              "vodka marketing agencies official site",
+              "spirits marketing services"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Beer Market",
+        "Wine Market",
+        "Spirits Market",
+        "Non-Alcoholic Beverages",
+        "Food Service Industry"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "vodka manufacturers official site",
+        "sub_sector": "vodka_producer",
+        "layer_id": "L1",
+        "segment": "Vodka Manufacturers"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "vodka distributors official site",
+        "sub_sector": "vodka_distributor",
+        "layer_id": "L2",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "vodka retailers official site",
+        "sub_sector": "vodka_reseller",
+        "layer_id": "L2",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "vodka marketing agencies official site",
+        "sub_sector": "vodka_service_provider",
+        "layer_id": "L3",
+        "segment": "Service Providers"
+      },
+      {
+        "id": "M5",
+        "level": "market_map",
+        "text": "wholesale vodka suppliers",
+        "sub_sector": "vodka_wholesaler",
+        "layer_id": "L2",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M6",
+        "level": "market_map",
+        "text": "vodka channel partners official site",
+        "sub_sector": "vodka_channel_partner",
+        "layer_id": "L2",
+        "segment": "Channel Partners"
+      },
+      {
+        "id": "M7",
+        "level": "market_map",
+        "text": "vodka system integrators official site",
+        "sub_sector": "vodka_system_integrator",
+        "layer_id": "L3",
+        "segment": "System Integrators"
+      },
+      {
+        "id": "M8",
+        "level": "market_map",
+        "text": "vodka logistics service providers",
+        "sub_sector": "vodka_service_provider",
+        "layer_id": "L3",
+        "segment": "Service Providers"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "alcoholic beverages",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "vodka companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "vodka distributors corporate sites"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "vodka wholesalers official site"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "market_map",
+      "text": "vodka manufacturers official site"
+    },
+    {
+      "id": "P2",
+      "level": "market_map",
+      "text": "vodka distributors official site"
+    },
+    {
+      "id": "P3",
+      "level": "market_map",
+      "text": "vodka retailers official site"
+    },
+    {
+      "id": "P4",
+      "level": "market_map",
+      "text": "vodka marketing agencies official site"
+    },
+    {
+      "id": "P5",
+      "level": "market_map",
+      "text": "wholesale vodka suppliers"
+    },
+    {
+      "id": "P6",
+      "level": "market_map",
+      "text": "vodka channel partners official site"
+    },
+    {
+      "id": "P7",
+      "level": "market_map",
+      "text": "vodka system integrators official site"
+    },
+    {
+      "id": "P8",
+      "level": "market_map",
+      "text": "vodka logistics service providers"
+    },
+    {
+      "id": "P9",
+      "level": "discovery",
+      "text": "vodka manufacturer official site"
+    },
+    {
+      "id": "P10",
+      "level": "discovery",
+      "text": "vodka distributor corporate site"
+    },
+    {
+      "id": "P11",
+      "level": "discovery",
+      "text": "vodka wholesaler official website"
+    },
+    {
+      "id": "P12",
+      "level": "discovery",
+      "text": "vodka reseller corporate site"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "vodka companies official websites",
+      "level": "L0",
+      "result_count": 28,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Vodka - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Vodka",
+          "snippet": "Vodka (Polish: w\u00f3dka [\u02c8vutka]; Russian: \u0432\u043e\u0434\u043a\u0430 [\u02c8votk\u0259]) is a clear distilled alcoholic beverage. Its varieties originated in Poland and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "19 Popular American Vodkas, Ranked Worst To Best",
+          "link": "https://www.tastingtable.com/2013352/popular-american-vodka-ranked-best-worst/",
+          "snippet": "Nov 10, 2025 \u00b7 We taste-tested and ranked 19 popular American vodka brands, from Tito's to Trader Joe's, highlighting the best \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The Top 50 Vodka Brands Ranked - MyBartender",
+          "link": "https://mybartender.com/brands/best-vodkas/",
+          "snippet": "May 17, 2026 \u00b7 Discover the top vodkas to elevate your cocktail game. From smooth and crisp to bold and flavorful, find the perfect \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The 5 Best Vodkas of 2026 | Reviews by Wirecutter",
+          "link": "https://www.nytimes.com/wirecutter/reviews/best-vodka/",
+          "snippet": "Dec 4, 2025 \u00b7 After tasting 15 different vodkas, our testers developed a newfound respect for the spirit, and found five favorites.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Buy Vodka Online | Total Wine & More",
+          "link": "https://www.totalwine.com/spirits/vodka/c/000897?msockid=1dc2f11d348364163ec7e68035b46525",
+          "snippet": "Shop the best vodka at the lowest prices at Total Wine & More. Our wide selection includes Tito's, Tower, Gallant, and Grey Goose \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "10 Best Vodka Brands in 2026 - Men's Journal",
+          "link": "https://www.mensjournal.com/drink/best-vodka-brands",
+          "snippet": "Dec 2, 2025 \u00b7 Vodka is far more than a booze booster for your next cocktail. These 10 top bottles confirm why vodka is the king of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Vodka in Spirits - Walmart.com",
+          "link": "https://www.walmart.com/browse/food/vodka/976759_2975985_8439204_4596432",
+          "snippet": "Shop for Vodka in Spirits. Buy products such as USKO Classic Vodka 700ml, Imported by think distributors, Kamchatka Original \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "19 Best Vodka Brands in 2025 (Top Shelf & Cheap) - Parade",
+          "link": "https://parade.com/1248844/kelli-acciardo/best-vodka-brands/",
+          "snippet": "Oct 8, 2025 \u00b7 When it comes to the smoothest, top-shelf vodka brands in the world, we've rounded up the 19 best vodkas at every \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "List of vodka brands - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/List_of_vodka_brands",
+          "snippet": "List of vodka brands This is a list of vodka brands. Vodka is a distilled beverage composed primarily of water and ethanol, sometimes \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Vodka Delivery in Yuma, AZ | Liquor Store Near Me",
+          "link": "https://liquorstorenearme.com/pages/arizona-yuma-vodka",
+          "snippet": "Order vodka online in Yuma, AZ and get bottles shipped directly by our fulfillment team.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Welcome to Absolut Vodka - Absolut Vodka",
+          "link": "https://www.absolut.com/en/",
+          "snippet": "Absolut Vodka is the leading brand of Premium vodka offering the true taste of vodka in original or your favorite flavors made from natural ingredients.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Absolut Vodka",
+          "link": "https://www.absolut.com/en-us/",
+          "snippet": "Welcome to the home of Absolut Vodka. Explore our selection of vodka, including Absolut flavors like vanilla and lime vodka, and vodka cocktails.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Smirnoff Vodka | The World's No. 1 Vodka",
+          "link": "https://www.smirnoff.com/en-us",
+          "snippet": "Smirnoff Vodka is the number one vodka in the world, thanks to its smooth, classic taste. Find your favorite Smirnoff vodka flavor or drink recipe here.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Premium Vodka Brands: Smirnoff, Ciroc and More | Diageo",
+          "link": "https://www.diageo.com/en/our-brands/vodka",
+          "snippet": "Our exceptional vodka portfolio represents global excellence through meticulous distillation processes, pure ingredients, and innovative craftsmanship, delivering iconic vodka brands including Smirnof",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Belvedere Vodka | Premium Vodka",
+          "link": "https://www.belvederevodka.com/en-int",
+          "snippet": "Belvedere. A luxury vodka of distinct taste and character. Supremely smooth. Impossible to ignore.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Finlandia Vodka",
+          "link": "https://www.finlandia.com/",
+          "snippet": "I would like to receive email from Finlandia Vodka. I expressly consent to receive email marketing communications from Finlandia Vodka, Coca-Cola HBC (CCHBC) and its affiliates about their products, s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Welcome to Absolut Vodka \u2013 Absolut Vodka",
+          "link": "https://www.absolut.com/",
+          "snippet": "Absolut Vodka is the leading brand of Premium vodka offering the true taste of vodka in original or your favorite flavors made from natural ingredients.Explore the history and heritage of Absolut Vodk",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Our story - Crystal Head Vodka",
+          "link": "https://www.crystalheadvodka.com/",
+          "snippet": "Creativity is at the heart of everything we do. It is why we craft the purest, smoothest vodka with one of a kind packaging and imaginative thinking. Crystal Head uses only the highest-quality ingredi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tito's Handmade Vodka - Tito\u2019s Handmade Vodka",
+          "link": "https://www.titosvodka.com/",
+          "snippet": "Small black and brown fluffy dog sitting in branded Tito's Handmade Vodka lawn chair wearing orange Tito's Handmade Vodka bandana. Vodka For Dog People. We started by lending a hand to a few dogs foun",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "vodka | B2B companies and suppliers | europages",
+          "link": "https://www.europages.co.uk/companies/vodka.html",
+          "snippet": "278 Companies and suppliers for vodka Find wholesalers and contact them directly Leading B2B martketplace Find companies now!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Official site | Nemiroff",
+          "link": "https://nemiroff.vodka/en/",
+          "snippet": "Welcome to the official Nemiroff website. Learn more about us, our products, the production process, and much more fascinating information.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Belvedere Vodka | Premium Vodka",
+          "link": "https://www.belvederevodka.com/",
+          "snippet": "The Official Vodka of Formula 1\u00ae.In order to better serve my needs, I understand that my data is processed, analyzed and shared with our parent company, LVMH, which includes Belvedere Vodka plus other",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 Vodka Companies in Spain - Emails & Contacts (June 2026)",
+          "link": "https://aeroleads.com/list/top-vodka-companies-in-spain",
+          "snippet": "This is a curated list of 10 Vodka companies in Spain. Last refreshed June 2026. The list breaks down as 10 with websites, 10 with LinkedIn profiles, 10 with employee estimates, and 2 with available c",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Reyka Vodka. Crafted in Iceland.",
+          "link": "https://reyka.com/",
+          "snippet": "Sorry, you are too young to enter this site. You will now be automatically redirected to www.responsibility.org.By entering this site you agree to our Terms & Conditions and Privacy Policy Please drin",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vodka Export Companies List",
+          "link": "https://www.turkishexporter.com.tr/en/companies/vodka.htm",
+          "snippet": "Vodka manufacturers, Vodka export companies list - B2b wholesalers, exporters, suppliers worldwide.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Perfect Vodka - 2026 Company Profile & Competitors - Tracxn",
+          "link": "https://tracxn.com/d/companies/perfectvodka/__R_wfWMnrOwYqydi6-qi5ZJhtnCb9vH-sGpVVbdygc-U",
+          "snippet": "Explore Perfect Vodka's in-depth company profile, including funding details, key investors, leadership, and competitors.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Phillips Distilling Company \u2014 Vodka, Gin, Whiskey, Rum, Tequila, Whiskey",
+          "link": "https://phillipsdistilling.com/",
+          "snippet": "Since 1912, Phillips Distilling Company has been producing high-quality spirits and popular brands. Please enjoy with friends and always in moderation.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Absolut Company",
+          "link": "https://theabsolutcompany.com/",
+          "snippet": "The Absolut Company oversees the production, packaging and strategic marketing of a portfolio of lifestyle spirits brands within Pernod Ricard. Our portfolio includes the world's premium vodka, Absolu",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Vodka - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Vodka",
+          "snippet": "Vodka (Polish: w\u00f3dka [\u02c8vutka]; Russian: \u0432\u043e\u0434\u043a\u0430 [\u02c8votk\u0259]) is a clear distilled alcoholic beverage. Its varieties originated in Poland and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "19 Popular American Vodkas, Ranked Worst To Best",
+          "link": "https://www.tastingtable.com/2013352/popular-american-vodka-ranked-best-worst/",
+          "snippet": "Nov 10, 2025 \u00b7 We taste-tested and ranked 19 popular American vodka brands, from Tito's to Trader Joe's, highlighting the best \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The Top 50 Vodka Brands Ranked - MyBartender",
+          "link": "https://mybartender.com/brands/best-vodkas/",
+          "snippet": "May 17, 2026 \u00b7 Discover the top vodkas to elevate your cocktail game. From smooth and crisp to bold and flavorful, find the perfect \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The 5 Best Vodkas of 2026 | Reviews by Wirecutter",
+          "link": "https://www.nytimes.com/wirecutter/reviews/best-vodka/",
+          "snippet": "Dec 4, 2025 \u00b7 After tasting 15 different vodkas, our testers developed a newfound respect for the spirit, and found five favorites.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Buy Vodka Online | Total Wine & More",
+          "link": "https://www.totalwine.com/spirits/vodka/c/000897?msockid=1dc2f11d348364163ec7e68035b46525",
+          "snippet": "Shop the best vodka at the lowest prices at Total Wine & More. Our wide selection includes Tito's, Tower, Gallant, and Grey Goose \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "10 Best Vodka Brands in 2026 - Men's Journal",
+          "link": "https://www.mensjournal.com/drink/best-vodka-brands",
+          "snippet": "Dec 2, 2025 \u00b7 Vodka is far more than a booze booster for your next cocktail. These 10 top bottles confirm why vodka is the king of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Vodka in Spirits - Walmart.com",
+          "link": "https://www.walmart.com/browse/food/vodka/976759_2975985_8439204_4596432",
+          "snippet": "Shop for Vodka in Spirits. Buy products such as USKO Classic Vodka 700ml, Imported by think distributors, Kamchatka Original \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "19 Best Vodka Brands in 2025 (Top Shelf & Cheap) - Parade",
+          "link": "https://parade.com/1248844/kelli-acciardo/best-vodka-brands/",
+          "snippet": "Oct 8, 2025 \u00b7 When it comes to the smoothest, top-shelf vodka brands in the world, we've rounded up the 19 best vodkas at every \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "List of vodka brands - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/List_of_vodka_brands",
+          "snippet": "List of vodka brands This is a list of vodka brands. Vodka is a distilled beverage composed primarily of water and ethanol, sometimes \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Vodka Delivery in Yuma, AZ | Liquor Store Near Me",
+          "link": "https://liquorstorenearme.com/pages/arizona-yuma-vodka",
+          "snippet": "Order vodka online in Yuma, AZ and get bottles shipped directly by our fulfillment team.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Welcome to Absolut Vodka - Absolut Vodka",
+          "link": "https://www.absolut.com/en/",
+          "snippet": "Absolut Vodka is the leading brand of Premium vodka offering the true taste of vodka in original or your favorite flavors made from natural ingredients.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Absolut Vodka",
+          "link": "https://www.absolut.com/en-us/",
+          "snippet": "Welcome to the home of Absolut Vodka. Explore our selection of vodka, including Absolut flavors like vanilla and lime vodka, and vodka cocktails.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Smirnoff Vodka | The World's No. 1 Vodka",
+          "link": "https://www.smirnoff.com/en-us",
+          "snippet": "Smirnoff Vodka is the number one vodka in the world, thanks to its smooth, classic taste. Find your favorite Smirnoff vodka flavor or drink recipe here.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Premium Vodka Brands: Smirnoff, Ciroc and More | Diageo",
+          "link": "https://www.diageo.com/en/our-brands/vodka",
+          "snippet": "Our exceptional vodka portfolio represents global excellence through meticulous distillation processes, pure ingredients, and innovative craftsmanship, delivering iconic vodka brands including Smirnof",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Belvedere Vodka | Premium Vodka",
+          "link": "https://www.belvederevodka.com/en-int",
+          "snippet": "Belvedere. A luxury vodka of distinct taste and character. Supremely smooth. Impossible to ignore.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Finlandia Vodka",
+          "link": "https://www.finlandia.com/",
+          "snippet": "I would like to receive email from Finlandia Vodka. I expressly consent to receive email marketing communications from Finlandia Vodka, Coca-Cola HBC (CCHBC) and its affiliates about their products, s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Welcome to Absolut Vodka \u2013 Absolut Vodka",
+          "link": "https://www.absolut.com/",
+          "snippet": "Absolut Vodka is the leading brand of Premium vodka offering the true taste of vodka in original or your favorite flavors made from natural ingredients.Explore the history and heritage of Absolut Vodk",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Our story - Crystal Head Vodka",
+          "link": "https://www.crystalheadvodka.com/",
+          "snippet": "Creativity is at the heart of everything we do. It is why we craft the purest, smoothest vodka with one of a kind packaging and imaginative thinking. Crystal Head uses only the highest-quality ingredi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tito's Handmade Vodka - Tito\u2019s Handmade Vodka",
+          "link": "https://www.titosvodka.com/",
+          "snippet": "Small black and brown fluffy dog sitting in branded Tito's Handmade Vodka lawn chair wearing orange Tito's Handmade Vodka bandana. Vodka For Dog People. We started by lending a hand to a few dogs foun",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "vodka | B2B companies and suppliers | europages",
+          "link": "https://www.europages.co.uk/companies/vodka.html",
+          "snippet": "278 Companies and suppliers for vodka Find wholesalers and contact them directly Leading B2B martketplace Find companies now!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Official site | Nemiroff",
+          "link": "https://nemiroff.vodka/en/",
+          "snippet": "Welcome to the official Nemiroff website. Learn more about us, our products, the production process, and much more fascinating information.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Belvedere Vodka | Premium Vodka",
+          "link": "https://www.belvederevodka.com/",
+          "snippet": "The Official Vodka of Formula 1\u00ae.In order to better serve my needs, I understand that my data is processed, analyzed and shared with our parent company, LVMH, which includes Belvedere Vodka plus other",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 Vodka Companies in Spain - Emails & Contacts (June 2026)",
+          "link": "https://aeroleads.com/list/top-vodka-companies-in-spain",
+          "snippet": "This is a curated list of 10 Vodka companies in Spain. Last refreshed June 2026. The list breaks down as 10 with websites, 10 with LinkedIn profiles, 10 with employee estimates, and 2 with available c",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Reyka Vodka. Crafted in Iceland.",
+          "link": "https://reyka.com/",
+          "snippet": "Sorry, you are too young to enter this site. You will now be automatically redirected to www.responsibility.org.By entering this site you agree to our Terms & Conditions and Privacy Policy Please drin",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vodka Export Companies List",
+          "link": "https://www.turkishexporter.com.tr/en/companies/vodka.htm",
+          "snippet": "Vodka manufacturers, Vodka export companies list - B2b wholesalers, exporters, suppliers worldwide.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Perfect Vodka - 2026 Company Profile & Competitors - Tracxn",
+          "link": "https://tracxn.com/d/companies/perfectvodka/__R_wfWMnrOwYqydi6-qi5ZJhtnCb9vH-sGpVVbdygc-U",
+          "snippet": "Explore Perfect Vodka's in-depth company profile, including funding details, key investors, leadership, and competitors.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Phillips Distilling Company \u2014 Vodka, Gin, Whiskey, Rum, Tequila, Whiskey",
+          "link": "https://phillipsdistilling.com/",
+          "snippet": "Since 1912, Phillips Distilling Company has been producing high-quality spirits and popular brands. Please enjoy with friends and always in moderation.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Absolut Company",
+          "link": "https://theabsolutcompany.com/",
+          "snippet": "The Absolut Company oversees the production, packaging and strategic marketing of a portfolio of lifestyle spirits brands within Pernod Ricard. Our portfolio includes the world's premium vodka, Absolu",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "vodka distributors corporate sites",
+      "level": "L1",
+      "result_count": 19,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Vodka - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Vodka",
+          "snippet": "It is also used in cocktails and mixed drinks, such as the vodka martini, Cosmopolitan, vodka tonic, screwdriver, greyhound, Black or \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The Top 50 Vodka Brands Ranked - MyBartender",
+          "link": "https://mybartender.com/brands/best-vodkas/",
+          "snippet": "May 17, 2026 \u00b7 With craft distillers pushing boundaries and classics holding strong, we decided it was time to refresh our definitive \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The 5 Best Vodkas of 2026 | Reviews by Wirecutter",
+          "link": "https://www.nytimes.com/wirecutter/reviews/best-vodka/",
+          "snippet": "Dec 4, 2025 \u00b7 Our picks include a briny vodka that\u2019s great for martinis, a richer option for those with a sweet tooth, and a creamy \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "19 Popular American Vodkas, Ranked Worst To Best",
+          "link": "https://www.tastingtable.com/2013352/popular-american-vodka-ranked-best-worst/",
+          "snippet": "Nov 10, 2025 \u00b7 We taste-tested and ranked 19 popular American vodka brands, from Tito's to Trader Joe's, highlighting the best \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The 14 Best Vodkas to Drink - Liquor.com",
+          "link": "https://www.liquor.com/best-vodkas-4846777",
+          "snippet": "Apr 28, 2022 \u00b7 Vodka is one of the most versatile spirits for cocktail-making. We researched the best options for you, from organic to \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "19 Best Vodka Brands in 2025 (Top Shelf & Cheap) - Parade",
+          "link": "https://parade.com/1248844/kelli-acciardo/best-vodka-brands/",
+          "snippet": "Oct 8, 2025 \u00b7 When it comes to the smoothest, top-shelf vodka brands in the world, we've rounded up the 19 best vodkas at every \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "10 Best Vodka Brands in 2026 - Men's Journal",
+          "link": "https://www.mensjournal.com/drink/best-vodka-brands",
+          "snippet": "Dec 2, 2025 \u00b7 Here we\u2019ve set out to pay some overdue tribute to the spirit\u2019s notable character and complexity by singling out 10 of our \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The Complete Vodka Guide | Learn About Vodka! (UPDATED 2026)",
+          "link": "https://vinepair.com/explore/category-type/vodka/",
+          "snippet": "2 days ago \u00b7 Get all of our Vodka Reviews, Brand Profiles, Cocktail Recipes & Articles in one place. Learn about Vodka by reading \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "9 Types of Vodka, Explained - Parade",
+          "link": "https://parade.com/food/types-of-vodka",
+          "snippet": "Aug 22, 2025 \u00b7 Vodka is known for its neutral flavor and versatility, but not all bottles are the same. We talked to drink experts to get \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "12 Best Vodkas To Drink Straight, According To Experts",
+          "link": "https://www.mashed.com/2004987/best-vodkas-to-drink-straight-according-to-experts/",
+          "snippet": "Oct 29, 2025 \u00b7 When you picture drinking spirits straight, you might imagine a neat glass of whiskey or a tequila shot. Vodka, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Vodka Distributor | B2B companies and suppliers | europages",
+          "link": "https://www.europages.co.uk/companies/distributor/vodka.html",
+          "snippet": "89 suppliers for Vodka Distributor Find wholesalers and contact them directly B2B martketplace Find companies now! We stand out for the distribution of wines with Denominaci\u00f3n de Origen, covering some",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vodka Distributors Suppliers, all Quality Vodka Distributors...",
+          "link": "https://www.alibaba.com/vodka-distributors-suppliers.html",
+          "snippet": "Vodka Distributors, Vodka Distributors Suppliers Directory - Find variety Vodka Distributors Suppliers, Manufacturers, Companies from around the World at ciroc vodka ,grey goose vodka ,thick bottom vo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vodka wholesale | distributor | GCG Trading",
+          "link": "https://global-consumer-goods.com/vodka.html",
+          "snippet": "As featured inVodka distributor on Fort Waynesvodka distributors on Digital Journal",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vavoom Vodka\u2122 | Award-Winning Luxury Vodka | Voted Best Vodka...",
+          "link": "https://vavoomvodka.com/",
+          "snippet": "Vavoom Vodka\u2122 \u2014 the ultra-premium Italian glass bottle vodka voted Best Vodka of 2020. Smooth, gluten-free, and the ultimate luxury gift for executives, weddings & home bars.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Signature Distributors to Launch Premium White-Label Gin, Vodka...",
+          "link": "https://timebusinessnews.com/signature-distributors-to-launch-premium-white-label-gin-vodka-rum-in-2026-awrs-in-progress/",
+          "snippet": "As your prospective Gin Distributor, Vodka Distributor and Rum Distributor, the company\u2019s intent is to enable profitable, sustainable growth within the rules\u2014no shortcuts. Choosing a white-label partn",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Absolut Vodka Distributor Singapore | Vodka Wholesale",
+          "link": "https://www.alcools.sg/brand/absolut-vodka-distributor-singapore/",
+          "snippet": "Absolut is a globally recognized premium vodka brand known for its iconic design, bold collaborations, and commitment to sustainability. Widely present in bars, restaurants, and hospitality venues, Ab",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vodka Brands Corp. Company & People | VDKB | Barron's",
+          "link": "https://www.barrons.com/market-data/stocks/vdkb/company-people",
+          "snippet": "Vodka Brands Corp. engages in the import and distribution of alcoholic beverages. Its products are primarily sold to wholesale distributors as well as state alcohol control agencies. The firm's brands",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vodka | B2B companies and suppliers - europages UK",
+          "link": "https://www.europages.co.uk/companies/vodka.html",
+          "snippet": "CANARY ISLAND WORLDWIDE SL is a company specialized in the import and export of food products and beverages. We stand out for the distribution of wines with ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Allied Beverage Group Distribution - Park Street",
+          "link": "https://www.parkstreet.com/liquor-distributors/allied-beverage-group/",
+          "snippet": "Today, Allied Beverage Group has a vast and varied portfolio with several categories, including them as one of the ten biggest alcohol distributors in the USA. The company has over 15,000 products in ",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Vodka - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Vodka",
+          "snippet": "It is also used in cocktails and mixed drinks, such as the vodka martini, Cosmopolitan, vodka tonic, screwdriver, greyhound, Black or \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The Top 50 Vodka Brands Ranked - MyBartender",
+          "link": "https://mybartender.com/brands/best-vodkas/",
+          "snippet": "May 17, 2026 \u00b7 With craft distillers pushing boundaries and classics holding strong, we decided it was time to refresh our definitive \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The 5 Best Vodkas of 2026 | Reviews by Wirecutter",
+          "link": "https://www.nytimes.com/wirecutter/reviews/best-vodka/",
+          "snippet": "Dec 4, 2025 \u00b7 Our picks include a briny vodka that\u2019s great for martinis, a richer option for those with a sweet tooth, and a creamy \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "19 Popular American Vodkas, Ranked Worst To Best",
+          "link": "https://www.tastingtable.com/2013352/popular-american-vodka-ranked-best-worst/",
+          "snippet": "Nov 10, 2025 \u00b7 We taste-tested and ranked 19 popular American vodka brands, from Tito's to Trader Joe's, highlighting the best \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The 14 Best Vodkas to Drink - Liquor.com",
+          "link": "https://www.liquor.com/best-vodkas-4846777",
+          "snippet": "Apr 28, 2022 \u00b7 Vodka is one of the most versatile spirits for cocktail-making. We researched the best options for you, from organic to \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "19 Best Vodka Brands in 2025 (Top Shelf & Cheap) - Parade",
+          "link": "https://parade.com/1248844/kelli-acciardo/best-vodka-brands/",
+          "snippet": "Oct 8, 2025 \u00b7 When it comes to the smoothest, top-shelf vodka brands in the world, we've rounded up the 19 best vodkas at every \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "10 Best Vodka Brands in 2026 - Men's Journal",
+          "link": "https://www.mensjournal.com/drink/best-vodka-brands",
+          "snippet": "Dec 2, 2025 \u00b7 Here we\u2019ve set out to pay some overdue tribute to the spirit\u2019s notable character and complexity by singling out 10 of our \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The Complete Vodka Guide | Learn About Vodka! (UPDATED 2026)",
+          "link": "https://vinepair.com/explore/category-type/vodka/",
+          "snippet": "2 days ago \u00b7 Get all of our Vodka Reviews, Brand Profiles, Cocktail Recipes & Articles in one place. Learn about Vodka by reading \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "9 Types of Vodka, Explained - Parade",
+          "link": "https://parade.com/food/types-of-vodka",
+          "snippet": "Aug 22, 2025 \u00b7 Vodka is known for its neutral flavor and versatility, but not all bottles are the same. We talked to drink experts to get \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "12 Best Vodkas To Drink Straight, According To Experts",
+          "link": "https://www.mashed.com/2004987/best-vodkas-to-drink-straight-according-to-experts/",
+          "snippet": "Oct 29, 2025 \u00b7 When you picture drinking spirits straight, you might imagine a neat glass of whiskey or a tequila shot. Vodka, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Vodka Distributor | B2B companies and suppliers | europages",
+          "link": "https://www.europages.co.uk/companies/distributor/vodka.html",
+          "snippet": "89 suppliers for Vodka Distributor Find wholesalers and contact them directly B2B martketplace Find companies now! We stand out for the distribution of wines with Denominaci\u00f3n de Origen, covering some",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vodka Distributors Suppliers, all Quality Vodka Distributors...",
+          "link": "https://www.alibaba.com/vodka-distributors-suppliers.html",
+          "snippet": "Vodka Distributors, Vodka Distributors Suppliers Directory - Find variety Vodka Distributors Suppliers, Manufacturers, Companies from around the World at ciroc vodka ,grey goose vodka ,thick bottom vo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vodka wholesale | distributor | GCG Trading",
+          "link": "https://global-consumer-goods.com/vodka.html",
+          "snippet": "As featured inVodka distributor on Fort Waynesvodka distributors on Digital Journal",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vavoom Vodka\u2122 | Award-Winning Luxury Vodka | Voted Best Vodka...",
+          "link": "https://vavoomvodka.com/",
+          "snippet": "Vavoom Vodka\u2122 \u2014 the ultra-premium Italian glass bottle vodka voted Best Vodka of 2020. Smooth, gluten-free, and the ultimate luxury gift for executives, weddings & home bars.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Signature Distributors to Launch Premium White-Label Gin, Vodka...",
+          "link": "https://timebusinessnews.com/signature-distributors-to-launch-premium-white-label-gin-vodka-rum-in-2026-awrs-in-progress/",
+          "snippet": "As your prospective Gin Distributor, Vodka Distributor and Rum Distributor, the company\u2019s intent is to enable profitable, sustainable growth within the rules\u2014no shortcuts. Choosing a white-label partn",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Absolut Vodka Distributor Singapore | Vodka Wholesale",
+          "link": "https://www.alcools.sg/brand/absolut-vodka-distributor-singapore/",
+          "snippet": "Absolut is a globally recognized premium vodka brand known for its iconic design, bold collaborations, and commitment to sustainability. Widely present in bars, restaurants, and hospitality venues, Ab",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vodka Brands Corp. Company & People | VDKB | Barron's",
+          "link": "https://www.barrons.com/market-data/stocks/vdkb/company-people",
+          "snippet": "Vodka Brands Corp. engages in the import and distribution of alcoholic beverages. Its products are primarily sold to wholesale distributors as well as state alcohol control agencies. The firm's brands",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vodka | B2B companies and suppliers - europages UK",
+          "link": "https://www.europages.co.uk/companies/vodka.html",
+          "snippet": "CANARY ISLAND WORLDWIDE SL is a company specialized in the import and export of food products and beverages. We stand out for the distribution of wines with ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Allied Beverage Group Distribution - Park Street",
+          "link": "https://www.parkstreet.com/liquor-distributors/allied-beverage-group/",
+          "snippet": "Today, Allied Beverage Group has a vast and varied portfolio with several categories, including them as one of the ten biggest alcohol distributors in the USA. The company has over 15,000 products in ",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "vodka wholesalers official site",
+      "level": "L2",
+      "result_count": 18,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Vodka - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Vodka",
+          "snippet": "It is also used in cocktails and mixed drinks, such as the vodka martini, Cosmopolitan, vodka tonic, screwdriver, greyhound, Black or \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The Top 50 Vodka Brands Ranked - MyBartender",
+          "link": "https://mybartender.com/brands/best-vodkas/",
+          "snippet": "May 17, 2026 \u00b7 With craft distillers pushing boundaries and classics holding strong, we decided it was time to refresh our definitive \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The 5 Best Vodkas of 2026 | Reviews by Wirecutter",
+          "link": "https://www.nytimes.com/wirecutter/reviews/best-vodka/",
+          "snippet": "Dec 4, 2025 \u00b7 Our picks include a briny vodka that\u2019s great for martinis, a richer option for those with a sweet tooth, and a creamy \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "19 Popular American Vodkas, Ranked Worst To Best",
+          "link": "https://www.tastingtable.com/2013352/popular-american-vodka-ranked-best-worst/",
+          "snippet": "Nov 10, 2025 \u00b7 We taste-tested and ranked 19 popular American vodka brands, from Tito's to Trader Joe's, highlighting the best \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The 14 Best Vodkas to Drink - Liquor.com",
+          "link": "https://www.liquor.com/best-vodkas-4846777",
+          "snippet": "Apr 28, 2022 \u00b7 Vodka is one of the most versatile spirits for cocktail-making. We researched the best options for you, from organic to \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "19 Best Vodka Brands in 2025 (Top Shelf & Cheap) - Parade",
+          "link": "https://parade.com/1248844/kelli-acciardo/best-vodka-brands/",
+          "snippet": "Oct 8, 2025 \u00b7 When it comes to the smoothest, top-shelf vodka brands in the world, we've rounded up the 19 best vodkas at every \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "10 Best Vodka Brands in 2026 - Men's Journal",
+          "link": "https://www.mensjournal.com/drink/best-vodka-brands",
+          "snippet": "Dec 2, 2025 \u00b7 Here we\u2019ve set out to pay some overdue tribute to the spirit\u2019s notable character and complexity by singling out 10 of our \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The Complete Vodka Guide | Learn About Vodka! (UPDATED 2026)",
+          "link": "https://vinepair.com/explore/category-type/vodka/",
+          "snippet": "2 days ago \u00b7 Get all of our Vodka Reviews, Brand Profiles, Cocktail Recipes & Articles in one place. Learn about Vodka by reading \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "9 Types of Vodka, Explained - Parade",
+          "link": "https://parade.com/food/types-of-vodka",
+          "snippet": "Aug 22, 2025 \u00b7 Vodka is known for its neutral flavor and versatility, but not all bottles are the same. We talked to drink experts to get \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "12 Best Vodkas To Drink Straight, According To Experts",
+          "link": "https://www.mashed.com/2004987/best-vodkas-to-drink-straight-according-to-experts/",
+          "snippet": "Oct 29, 2025 \u00b7 When you picture drinking spirits straight, you might imagine a neat glass of whiskey or a tequila shot. Vodka, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Vodkas - Vodka 750ml Glass Bottle with Cork Cap",
+          "link": "https://www.alibaba.com/showroom/vodka.html",
+          "snippet": "Discover premium vodka bottles with custom labeling and durable glass packaging, perfect for mixology and wholesale use.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale vodka - vendors, suppliers, bulk sale | B2B Merkandi.com",
+          "link": "https://merkandi.com/wholesale/vodka",
+          "snippet": "Convenient Access to Vodka Wholesalers. Buying vodka wholesale offers retailers significant advantages, combining practicality with a wide array of choices to meet diverse consumer preferences.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vodkas - Wholesale Drinks BV",
+          "link": "https://wholesale-drinksbv.com/vodkas/",
+          "snippet": "Buy wholesale drinks at competitive prices. We supply energy drinks, soft drinks, mineral water, beers, spirits & more in bulk across Europe & Africa. Official Vodka Brand Websites.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Au Vodka Wholesale | Ultra Premium British Vodka",
+          "link": "https://auvodkawholesale.co.uk/",
+          "snippet": "Au Vodka Wholesale. Au Vodka x Tango Apple Cans - Case of 12. Regular price \u00a319.99.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Vodka, Wholesale Vodka... | Made-in-China.com",
+          "link": "https://www.made-in-china.com/products-search/hot-china-products/Wholesale_Vodka.html",
+          "snippet": "Wholesale Vodka - Select 2025 high quality Wholesale Vodka products in best price from certified Chinese Glass Container manufacturers, Custom Bottle suppliers, wholesalers and factory on Made-in-Chin",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Imperial vodka wholesaler",
+          "link": "https://impervodka.eu/",
+          "snippet": "Welcome to Imperial Vodka, your go-to destination for premium alcohol distribution. With a focus on excellence, we connect top-notch producers with satisfied customers. We\u2019re proud to be your reliable",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Collections \u2013 Wodka Company",
+          "link": "https://wodkacompany.com/collections",
+          "snippet": "POLISH VODKA. Poland is actually the homeland of vodka. It\u2019s such a culturally important product, deeply rooted in every part of Poland\u2019s culture, cuisine, celebration, life and living. Can't establis",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Supplier of drinks - Soft Drinks, Beer, Whiskey, Cognac",
+          "link": "https://multidrinksgrpbv.com/",
+          "snippet": "We are one of the leading Wholesale Supplier of drinks -Energy drinks ,Soft drinks Beers, Mineral Sparkling Water, Vodka and Tequilla in Europe, America, Asia, Middle East and France.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Vodka - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Vodka",
+          "snippet": "It is also used in cocktails and mixed drinks, such as the vodka martini, Cosmopolitan, vodka tonic, screwdriver, greyhound, Black or \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The Top 50 Vodka Brands Ranked - MyBartender",
+          "link": "https://mybartender.com/brands/best-vodkas/",
+          "snippet": "May 17, 2026 \u00b7 With craft distillers pushing boundaries and classics holding strong, we decided it was time to refresh our definitive \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The 5 Best Vodkas of 2026 | Reviews by Wirecutter",
+          "link": "https://www.nytimes.com/wirecutter/reviews/best-vodka/",
+          "snippet": "Dec 4, 2025 \u00b7 Our picks include a briny vodka that\u2019s great for martinis, a richer option for those with a sweet tooth, and a creamy \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "19 Popular American Vodkas, Ranked Worst To Best",
+          "link": "https://www.tastingtable.com/2013352/popular-american-vodka-ranked-best-worst/",
+          "snippet": "Nov 10, 2025 \u00b7 We taste-tested and ranked 19 popular American vodka brands, from Tito's to Trader Joe's, highlighting the best \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The 14 Best Vodkas to Drink - Liquor.com",
+          "link": "https://www.liquor.com/best-vodkas-4846777",
+          "snippet": "Apr 28, 2022 \u00b7 Vodka is one of the most versatile spirits for cocktail-making. We researched the best options for you, from organic to \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "19 Best Vodka Brands in 2025 (Top Shelf & Cheap) - Parade",
+          "link": "https://parade.com/1248844/kelli-acciardo/best-vodka-brands/",
+          "snippet": "Oct 8, 2025 \u00b7 When it comes to the smoothest, top-shelf vodka brands in the world, we've rounded up the 19 best vodkas at every \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "10 Best Vodka Brands in 2026 - Men's Journal",
+          "link": "https://www.mensjournal.com/drink/best-vodka-brands",
+          "snippet": "Dec 2, 2025 \u00b7 Here we\u2019ve set out to pay some overdue tribute to the spirit\u2019s notable character and complexity by singling out 10 of our \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The Complete Vodka Guide | Learn About Vodka! (UPDATED 2026)",
+          "link": "https://vinepair.com/explore/category-type/vodka/",
+          "snippet": "2 days ago \u00b7 Get all of our Vodka Reviews, Brand Profiles, Cocktail Recipes & Articles in one place. Learn about Vodka by reading \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "9 Types of Vodka, Explained - Parade",
+          "link": "https://parade.com/food/types-of-vodka",
+          "snippet": "Aug 22, 2025 \u00b7 Vodka is known for its neutral flavor and versatility, but not all bottles are the same. We talked to drink experts to get \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "12 Best Vodkas To Drink Straight, According To Experts",
+          "link": "https://www.mashed.com/2004987/best-vodkas-to-drink-straight-according-to-experts/",
+          "snippet": "Oct 29, 2025 \u00b7 When you picture drinking spirits straight, you might imagine a neat glass of whiskey or a tequila shot. Vodka, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Vodkas - Vodka 750ml Glass Bottle with Cork Cap",
+          "link": "https://www.alibaba.com/showroom/vodka.html",
+          "snippet": "Discover premium vodka bottles with custom labeling and durable glass packaging, perfect for mixology and wholesale use.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale vodka - vendors, suppliers, bulk sale | B2B Merkandi.com",
+          "link": "https://merkandi.com/wholesale/vodka",
+          "snippet": "Convenient Access to Vodka Wholesalers. Buying vodka wholesale offers retailers significant advantages, combining practicality with a wide array of choices to meet diverse consumer preferences.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vodkas - Wholesale Drinks BV",
+          "link": "https://wholesale-drinksbv.com/vodkas/",
+          "snippet": "Buy wholesale drinks at competitive prices. We supply energy drinks, soft drinks, mineral water, beers, spirits & more in bulk across Europe & Africa. Official Vodka Brand Websites.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Au Vodka Wholesale | Ultra Premium British Vodka",
+          "link": "https://auvodkawholesale.co.uk/",
+          "snippet": "Au Vodka Wholesale. Au Vodka x Tango Apple Cans - Case of 12. Regular price \u00a319.99.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Vodka, Wholesale Vodka... | Made-in-China.com",
+          "link": "https://www.made-in-china.com/products-search/hot-china-products/Wholesale_Vodka.html",
+          "snippet": "Wholesale Vodka - Select 2025 high quality Wholesale Vodka products in best price from certified Chinese Glass Container manufacturers, Custom Bottle suppliers, wholesalers and factory on Made-in-Chin",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Imperial vodka wholesaler",
+          "link": "https://impervodka.eu/",
+          "snippet": "Welcome to Imperial Vodka, your go-to destination for premium alcohol distribution. With a focus on excellence, we connect top-notch producers with satisfied customers. We\u2019re proud to be your reliable",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Collections \u2013 Wodka Company",
+          "link": "https://wodkacompany.com/collections",
+          "snippet": "POLISH VODKA. Poland is actually the homeland of vodka. It\u2019s such a culturally important product, deeply rooted in every part of Poland\u2019s culture, cuisine, celebration, life and living. Can't establis",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Supplier of drinks - Soft Drinks, Beer, Whiskey, Cognac",
+          "link": "https://multidrinksgrpbv.com/",
+          "snippet": "We are one of the leading Wholesale Supplier of drinks -Energy drinks ,Soft drinks Beers, Mineral Sparkling Water, Vodka and Tequilla in Europe, America, Asia, Middle East and France.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "vodka manufacturers official site",
+      "level": "market_map",
+      "result_count": 22,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Vodka - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Vodka",
+          "snippet": "Vodka (Polish: w\u00f3dka [\u02c8vutka]; Russian: \u0432\u043e\u0434\u043a\u0430 [\u02c8votk\u0259]) is a clear distilled alcoholic beverage. Its varieties originated in Poland and Russia. [1] Vodka is composed mainly of water and ethanol \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "19 Popular American Vodkas, Ranked Worst To Best",
+          "link": "https://www.tastingtable.com/2013352/popular-american-vodka-ranked-best-worst/",
+          "snippet": "Nov 10, 2025 \u00b7 We taste-tested and ranked 19 popular American vodka brands, from Tito's to Trader Joe's, highlighting the best bottles for flavor, value, and availability.",
+          "backend": "searxng"
+        },
+        {
+          "title": "The Top 50 Vodka Brands Ranked - MyBartender",
+          "link": "https://mybartender.com/brands/best-vodkas/",
+          "snippet": "May 17, 2026 \u00b7 Discover the top vodkas to elevate your cocktail game. From smooth and crisp to bold and flavorful, find the perfect bottle for your next drink.",
+          "backend": "searxng"
+        },
+        {
+          "title": "The 5 Best Vodkas of 2026 | Reviews by Wirecutter",
+          "link": "https://www.nytimes.com/wirecutter/reviews/best-vodka/",
+          "snippet": "Dec 4, 2025 \u00b7 After tasting 15 different vodkas, our testers developed a newfound respect for the spirit, and found five favorites.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Buy Vodka Online | Total Wine & More",
+          "link": "https://www.totalwine.com/spirits/vodka/c/000897?msockid=177d5c871f0e6c030fbd4b181e7c6d16",
+          "snippet": "Shop the best vodka at the lowest prices at Total Wine & More. Our wide selection includes Tito's, Tower, Gallant, and Grey Goose vodka.",
+          "backend": "searxng"
+        },
+        {
+          "title": "10 Best Vodka Brands in 2026 - Men's Journal",
+          "link": "https://www.mensjournal.com/drink/best-vodka-brands",
+          "snippet": "Dec 2, 2025 \u00b7 Vodka is far more than a booze booster for your next cocktail. These 10 top bottles confirm why vodka is the king of spirits.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Vodka in Spirits - Walmart.com",
+          "link": "https://www.walmart.com/browse/food/vodka/976759_2975985_8439204_4596432",
+          "snippet": "Shop for Vodka in Spirits. Buy products such as Kamchatka Original Vodka, 1.75 L, Caliber Vodka, 1.75L Bottle of Vodka, 80 Proof at Walmart and save.",
+          "backend": "searxng"
+        },
+        {
+          "title": "19 Best Vodka Brands in 2025 (Top Shelf & Cheap) - Parade",
+          "link": "https://parade.com/1248844/kelli-acciardo/best-vodka-brands/",
+          "snippet": "Oct 8, 2025 \u00b7 When it comes to the smoothest, top-shelf vodka brands in the world, we've rounded up the 19 best vodkas at every price. Learn why vodka tastes so good.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Which Vodka Is Best? A Taste Test of Svedka, Stoli, Grey Goose, and ...",
+          "link": "https://www.bonappetit.com/story/best-vodka-taste-test",
+          "snippet": "May 9, 2024 \u00b7 Who makes the best vodka? We hosted a taste test in the test kitchen and tried 11 popular brands, from Tito's and Smirnoff to Svedka and Grey Goose.",
+          "backend": "searxng"
+        },
+        {
+          "title": "List of vodka brands - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/List_of_vodka_brands",
+          "snippet": "List of vodka brands This is a list of vodka brands. Vodka is a distilled beverage composed primarily of water and ethanol, sometimes with traces of impurities and flavorings. Vodka is made by the \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Platinka - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Platinka",
+          "snippet": "Platinka is a brand of vodka manufactured in Brest, Belarus and owned by Atlanta, Georgia-based World Elite Spirits, LLC.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Welcome to Absolut Vodka \u2013 Absolut Vodka",
+          "link": "https://www.absolut.com/",
+          "snippet": "Absolut Vodka is the leading brand of Premium vodka offering the true taste of vodka in original or your favorite flavors made from natural ingredients.Do not forward to anyone under legal drinking ag",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "15 Best Vodka Manufacturers and Suppliers (2026)",
+          "link": "https://usetorg.com/category/vodka",
+          "snippet": "Find top Vodka manufacturers and suppliers for your business High-quality products Competitive prices Fast quotes Sign up for free now.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 100 Private Label Vodka Manufacturers in 2026 | ensun",
+          "link": "https://ensun.io/search/private-label-vodka",
+          "snippet": "Top Private Label Vodka Manufacturers. The B2B platform for the best purchasing decision. Identify and compare relevant B2B manufacturers, suppliers and retailers. Supplier discovery.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Premium Vodka Manufacturers - Quality & Customization",
+          "link": "https://www.alibaba.com/showroom/vodka-manufacturer.html",
+          "snippet": "Find reliable vodka manufacturers for your beverage needs. Wholesale prices and custom bottling options. Perfect for private labels and premium brands.Smart factory search. sourceCardIcon. Top manufac",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vodka Manufacturers & Suppliers, China vodka Manufacturers Price",
+          "link": "https://www.made-in-china.com/manufacturers/vodka.html",
+          "snippet": "vodka manufacturers/supplier, China vodka manufacturer & factory list, find best price in Chinese vodka manufacturers, suppliers, factories, exporters & wholesalers quickly on Made-in-China.com.Servic",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 100 Best High-End Vodka Brands in the World",
+          "link": "https://www.theinternationalman.com/vodka.php",
+          "snippet": "BELUGA VODKA - Official site (Russian).CRYSTAL HEAD VODKA - additive-free vodka manufactured by Globefill Inc. in Newfoundland and Labrador, Canada. It was conceived of and founded by actor Dan Aykroy",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Continental VODKA - manufacturer's website",
+          "link": "https://fortuna-distillery.com/en/brands/continental/",
+          "snippet": "RUSSKYI VEK Birch Vodka. Kontinental Classic. HUNTA White Horizon.The information on this site is intended for visitors over 18 years of age.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Belvedere Vodka | Premium Vodka",
+          "link": "https://www.belvederevodka.com/",
+          "snippet": "Belvedere. A luxury vodka of distinct taste and character. Supremely smooth. Impossible to ignore.The Official Vodka of Formula 1\u00ae. Dirty BREW captured by pierre-ange carlotti.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Liquor Bottle Manufacturer | Custom Vodka Bottles Wholesale",
+          "link": "https://ruisenbottle.com/vodka-bottles",
+          "snippet": "Custom Vodka Bottles Manufacturer. Vodka is a classic strong alcoholic beverage, usually made from pure grains or potatoes. It is known for its clarity, clean taste, and delicate aroma, which is very ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Professional China Wholesale Vodka Products at... | Global Sources",
+          "link": "https://www.globalsources.com/manufacturers/vodka.html",
+          "snippet": "Expand business horizons with wholesale vodka offering expert representation at factory prices. Source vodka products from factories throughout China, India, Korea, etc. or bulk buy from manufacturers",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Discover Diageo | Diageo",
+          "link": "https://www.diageo.com/",
+          "snippet": "Link toSupply Chain and Manufacturing graduate programme page.The most popular vodka in the world. The finest Caribbean rums. A versatile whisky, with an unmistakable smoothness and balanced flavour p",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Vodka - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Vodka",
+          "snippet": "Vodka (Polish: w\u00f3dka [\u02c8vutka]; Russian: \u0432\u043e\u0434\u043a\u0430 [\u02c8votk\u0259]) is a clear distilled alcoholic beverage. Its varieties originated in Poland and Russia. [1] Vodka is composed mainly of water and ethanol \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "19 Popular American Vodkas, Ranked Worst To Best",
+          "link": "https://www.tastingtable.com/2013352/popular-american-vodka-ranked-best-worst/",
+          "snippet": "Nov 10, 2025 \u00b7 We taste-tested and ranked 19 popular American vodka brands, from Tito's to Trader Joe's, highlighting the best bottles for flavor, value, and availability.",
+          "backend": "searxng"
+        },
+        {
+          "title": "The Top 50 Vodka Brands Ranked - MyBartender",
+          "link": "https://mybartender.com/brands/best-vodkas/",
+          "snippet": "May 17, 2026 \u00b7 Discover the top vodkas to elevate your cocktail game. From smooth and crisp to bold and flavorful, find the perfect bottle for your next drink.",
+          "backend": "searxng"
+        },
+        {
+          "title": "The 5 Best Vodkas of 2026 | Reviews by Wirecutter",
+          "link": "https://www.nytimes.com/wirecutter/reviews/best-vodka/",
+          "snippet": "Dec 4, 2025 \u00b7 After tasting 15 different vodkas, our testers developed a newfound respect for the spirit, and found five favorites.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Buy Vodka Online | Total Wine & More",
+          "link": "https://www.totalwine.com/spirits/vodka/c/000897?msockid=177d5c871f0e6c030fbd4b181e7c6d16",
+          "snippet": "Shop the best vodka at the lowest prices at Total Wine & More. Our wide selection includes Tito's, Tower, Gallant, and Grey Goose vodka.",
+          "backend": "searxng"
+        },
+        {
+          "title": "10 Best Vodka Brands in 2026 - Men's Journal",
+          "link": "https://www.mensjournal.com/drink/best-vodka-brands",
+          "snippet": "Dec 2, 2025 \u00b7 Vodka is far more than a booze booster for your next cocktail. These 10 top bottles confirm why vodka is the king of spirits.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Vodka in Spirits - Walmart.com",
+          "link": "https://www.walmart.com/browse/food/vodka/976759_2975985_8439204_4596432",
+          "snippet": "Shop for Vodka in Spirits. Buy products such as Kamchatka Original Vodka, 1.75 L, Caliber Vodka, 1.75L Bottle of Vodka, 80 Proof at Walmart and save.",
+          "backend": "searxng"
+        },
+        {
+          "title": "19 Best Vodka Brands in 2025 (Top Shelf & Cheap) - Parade",
+          "link": "https://parade.com/1248844/kelli-acciardo/best-vodka-brands/",
+          "snippet": "Oct 8, 2025 \u00b7 When it comes to the smoothest, top-shelf vodka brands in the world, we've rounded up the 19 best vodkas at every price. Learn why vodka tastes so good.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Which Vodka Is Best? A Taste Test of Svedka, Stoli, Grey Goose, and ...",
+          "link": "https://www.bonappetit.com/story/best-vodka-taste-test",
+          "snippet": "May 9, 2024 \u00b7 Who makes the best vodka? We hosted a taste test in the test kitchen and tried 11 popular brands, from Tito's and Smirnoff to Svedka and Grey Goose.",
+          "backend": "searxng"
+        },
+        {
+          "title": "List of vodka brands - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/List_of_vodka_brands",
+          "snippet": "List of vodka brands This is a list of vodka brands. Vodka is a distilled beverage composed primarily of water and ethanol, sometimes with traces of impurities and flavorings. Vodka is made by the \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Platinka - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Platinka",
+          "snippet": "Platinka is a brand of vodka manufactured in Brest, Belarus and owned by Atlanta, Georgia-based World Elite Spirits, LLC.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Welcome to Absolut Vodka \u2013 Absolut Vodka",
+          "link": "https://www.absolut.com/",
+          "snippet": "Absolut Vodka is the leading brand of Premium vodka offering the true taste of vodka in original or your favorite flavors made from natural ingredients.Do not forward to anyone under legal drinking ag",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "15 Best Vodka Manufacturers and Suppliers (2026)",
+          "link": "https://usetorg.com/category/vodka",
+          "snippet": "Find top Vodka manufacturers and suppliers for your business High-quality products Competitive prices Fast quotes Sign up for free now.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 100 Private Label Vodka Manufacturers in 2026 | ensun",
+          "link": "https://ensun.io/search/private-label-vodka",
+          "snippet": "Top Private Label Vodka Manufacturers. The B2B platform for the best purchasing decision. Identify and compare relevant B2B manufacturers, suppliers and retailers. Supplier discovery.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Premium Vodka Manufacturers - Quality & Customization",
+          "link": "https://www.alibaba.com/showroom/vodka-manufacturer.html",
+          "snippet": "Find reliable vodka manufacturers for your beverage needs. Wholesale prices and custom bottling options. Perfect for private labels and premium brands.Smart factory search. sourceCardIcon. Top manufac",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vodka Manufacturers & Suppliers, China vodka Manufacturers Price",
+          "link": "https://www.made-in-china.com/manufacturers/vodka.html",
+          "snippet": "vodka manufacturers/supplier, China vodka manufacturer & factory list, find best price in Chinese vodka manufacturers, suppliers, factories, exporters & wholesalers quickly on Made-in-China.com.Servic",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 100 Best High-End Vodka Brands in the World",
+          "link": "https://www.theinternationalman.com/vodka.php",
+          "snippet": "BELUGA VODKA - Official site (Russian).CRYSTAL HEAD VODKA - additive-free vodka manufactured by Globefill Inc. in Newfoundland and Labrador, Canada. It was conceived of and founded by actor Dan Aykroy",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Continental VODKA - manufacturer's website",
+          "link": "https://fortuna-distillery.com/en/brands/continental/",
+          "snippet": "RUSSKYI VEK Birch Vodka. Kontinental Classic. HUNTA White Horizon.The information on this site is intended for visitors over 18 years of age.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Belvedere Vodka | Premium Vodka",
+          "link": "https://www.belvederevodka.com/",
+          "snippet": "Belvedere. A luxury vodka of distinct taste and character. Supremely smooth. Impossible to ignore.The Official Vodka of Formula 1\u00ae. Dirty BREW captured by pierre-ange carlotti.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Liquor Bottle Manufacturer | Custom Vodka Bottles Wholesale",
+          "link": "https://ruisenbottle.com/vodka-bottles",
+          "snippet": "Custom Vodka Bottles Manufacturer. Vodka is a classic strong alcoholic beverage, usually made from pure grains or potatoes. It is known for its clarity, clean taste, and delicate aroma, which is very ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Professional China Wholesale Vodka Products at... | Global Sources",
+          "link": "https://www.globalsources.com/manufacturers/vodka.html",
+          "snippet": "Expand business horizons with wholesale vodka offering expert representation at factory prices. Source vodka products from factories throughout China, India, Korea, etc. or bulk buy from manufacturers",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Discover Diageo | Diageo",
+          "link": "https://www.diageo.com/",
+          "snippet": "Link toSupply Chain and Manufacturing graduate programme page.The most popular vodka in the world. The finest Caribbean rums. A versatile whisky, with an unmistakable smoothness and balanced flavour p",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P2": {
+      "query": "vodka distributors official site",
+      "level": "market_map",
+      "result_count": 21,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Vodka - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Vodka",
+          "snippet": "Vodka (Polish: w\u00f3dka [\u02c8vutka]; Russian: \u0432\u043e\u0434\u043a\u0430 [\u02c8votk\u0259]) is a clear distilled alcoholic beverage. Its varieties originated in Poland and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "19 Popular American Vodkas, Ranked Worst To Best",
+          "link": "https://www.tastingtable.com/2013352/popular-american-vodka-ranked-best-worst/",
+          "snippet": "Nov 10, 2025 \u00b7 We taste-tested and ranked 19 popular American vodka brands, from Tito's to Trader Joe's, highlighting the best \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The Top 50 Vodka Brands Ranked - MyBartender",
+          "link": "https://mybartender.com/brands/best-vodkas/",
+          "snippet": "May 17, 2026 \u00b7 Discover the top vodkas to elevate your cocktail game. From smooth and crisp to bold and flavorful, find the perfect \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The 5 Best Vodkas of 2026 | Reviews by Wirecutter",
+          "link": "https://www.nytimes.com/wirecutter/reviews/best-vodka/",
+          "snippet": "Dec 4, 2025 \u00b7 After tasting 15 different vodkas, our testers developed a newfound respect for the spirit, and found five favorites.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Buy Vodka Online | Total Wine & More",
+          "link": "https://www.totalwine.com/spirits/vodka/c/000897?msockid=19ff9a6232cf6c50356b8dfd33796daf",
+          "snippet": "Shop the best vodka at the lowest prices at Total Wine & More. Our wide selection includes Tito's, Tower, Gallant, and Grey Goose \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "10 Best Vodka Brands in 2026 - Men's Journal",
+          "link": "https://www.mensjournal.com/drink/best-vodka-brands",
+          "snippet": "Dec 2, 2025 \u00b7 Vodka is far more than a booze booster for your next cocktail. These 10 top bottles confirm why vodka is the king of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Vodka in Spirits - Walmart.com",
+          "link": "https://www.walmart.com/browse/food/vodka/976759_2975985_8439204_4596432",
+          "snippet": "Shop for Vodka in Spirits. Buy products such as Kamchatka Original Vodka, 1.75 L, Caliber Vodka, 1.75L Bottle of Vodka, 80 Proof at \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "19 Best Vodka Brands in 2025 (Top Shelf & Cheap) - Parade",
+          "link": "https://parade.com/1248844/kelli-acciardo/best-vodka-brands/",
+          "snippet": "Oct 8, 2025 \u00b7 When it comes to the smoothest, top-shelf vodka brands in the world, we've rounded up the 19 best vodkas at every \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Which Vodka Is Best? A Taste Test of Svedka, Stoli, Grey Goose, and ...",
+          "link": "https://www.bonappetit.com/story/best-vodka-taste-test",
+          "snippet": "May 9, 2024 \u00b7 Who makes the best vodka? We hosted a taste test in the test kitchen and tried 11 popular brands, from Tito's and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "List of vodka brands - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/List_of_vodka_brands",
+          "snippet": "List of vodka brands This is a list of vodka brands. Vodka is a distilled beverage composed primarily of water and ethanol, sometimes \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Vavoom Vodka Be Beautiful Be You Collection",
+          "link": "https://vavoomvodka.com/collections",
+          "snippet": "Vavoom Vodka Translation of \"stai, bella\" in English. stai. you're are you. bella. beautiful nice which means be beautiful and be you.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vodka Distributor | B2B companies and suppliers | europages",
+          "link": "https://www.europages.co.uk/companies/distributor/vodka.html",
+          "snippet": "89 suppliers for Vodka Distributor Find wholesalers and contact them directly B2B martketplace Find companies now!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vodka \u2013 Pallini",
+          "link": "https://pallini.com/en/distribution/vodka/",
+          "snippet": "Microfiltered Seawater and Samphire together for a vodka with a unique flavor of pure experimentation.Roberto cavalli vodka. Sophisticated, elegant, dedicated to the most discerning palates.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vodka wholesale | distributor | GCG Trading",
+          "link": "https://global-consumer-goods.com/vodka.html",
+          "snippet": "As featured invodka distributors on Digital JournalVodka distributor on Western Tribune",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vodka Distributors Suppliers, all Quality Vodka Distributors...",
+          "link": "https://www.alibaba.com/vodka-distributors-suppliers.html",
+          "snippet": "Vodka Distributors, Vodka Distributors Suppliers Directory - Find variety Vodka Distributors Suppliers, Manufacturers, Companies from around the World at ciroc vodka ,grey goose vodka ,thick bottom vo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vodka Distributors Vodka Wholesale Liquor Russian Vodka Importer",
+          "link": "https://www.prowoodusa.com/products/Brandy/1.html",
+          "snippet": "Vodka distributors, Vodka wholesale liquor Russian Vodka importer from award winning brands such as Imperial Vodka, Beluga Vodka, Moscow Moon Nights Vodka.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Angostura named vodka distributor - Trinidad Guardian",
+          "link": "https://www.guardian.co.tt/article-6.2.363812.f40ef1dbbb",
+          "snippet": "Angostura has been appointed the official distributor of Tito's Handmade Vodka in T&T. The brand, known as America's original craft vodka, is now available at bars, restaurants, wholesalers and retail",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Spirits - Lithuanian Beer",
+          "link": "https://lithuanianbeer.co.uk/spirits/",
+          "snippet": "As the official UK distributor, Lithuanian Beer Ltd. is delighted to bring the taste of Lithuanian Vodka to the UK market. Savour the smooth and authentic flavours of Lithuania, crafted with expertise",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Welcome! Beverage Trade Network",
+          "link": "https://beveragetradenetwork.com/",
+          "snippet": "Connecting wineries, breweries, distilleries, beverage brand owners, importers, distributors, brokers and other beverage professionals locally and globally.Anestasia Vodka. Bird Wines. We expanded our",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Stay updated with the latest news from Nemiroff. Keep track of all our...",
+          "link": "https://nemiroff.vodka/en/news/",
+          "snippet": "Nemiroff Vodka Strengthens Partnership with Coca-Cola HBC and Signs Next Partnership for Vodka Distribution in Armenia.Nemiroff Goes 384 440 km up to the Moon as the Official Partner of the Spacebit\u2019s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How Tito\u2019s New Distribution Deal in California Explains... | VinePair",
+          "link": "https://vinepair.com/articles/titos-vodka-california-distribution-reyes-rndc/",
+          "snippet": "Tito\u2019s Handmade Vodka, the best-selling liquor in the U.S., is jumping ship truck from its current California distributor, Republic National Distributing Company, in favor of the middle-tier juggernau",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Vodka - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Vodka",
+          "snippet": "Vodka (Polish: w\u00f3dka [\u02c8vutka]; Russian: \u0432\u043e\u0434\u043a\u0430 [\u02c8votk\u0259]) is a clear distilled alcoholic beverage. Its varieties originated in Poland and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "19 Popular American Vodkas, Ranked Worst To Best",
+          "link": "https://www.tastingtable.com/2013352/popular-american-vodka-ranked-best-worst/",
+          "snippet": "Nov 10, 2025 \u00b7 We taste-tested and ranked 19 popular American vodka brands, from Tito's to Trader Joe's, highlighting the best \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The Top 50 Vodka Brands Ranked - MyBartender",
+          "link": "https://mybartender.com/brands/best-vodkas/",
+          "snippet": "May 17, 2026 \u00b7 Discover the top vodkas to elevate your cocktail game. From smooth and crisp to bold and flavorful, find the perfect \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The 5 Best Vodkas of 2026 | Reviews by Wirecutter",
+          "link": "https://www.nytimes.com/wirecutter/reviews/best-vodka/",
+          "snippet": "Dec 4, 2025 \u00b7 After tasting 15 different vodkas, our testers developed a newfound respect for the spirit, and found five favorites.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Buy Vodka Online | Total Wine & More",
+          "link": "https://www.totalwine.com/spirits/vodka/c/000897?msockid=19ff9a6232cf6c50356b8dfd33796daf",
+          "snippet": "Shop the best vodka at the lowest prices at Total Wine & More. Our wide selection includes Tito's, Tower, Gallant, and Grey Goose \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "10 Best Vodka Brands in 2026 - Men's Journal",
+          "link": "https://www.mensjournal.com/drink/best-vodka-brands",
+          "snippet": "Dec 2, 2025 \u00b7 Vodka is far more than a booze booster for your next cocktail. These 10 top bottles confirm why vodka is the king of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Vodka in Spirits - Walmart.com",
+          "link": "https://www.walmart.com/browse/food/vodka/976759_2975985_8439204_4596432",
+          "snippet": "Shop for Vodka in Spirits. Buy products such as Kamchatka Original Vodka, 1.75 L, Caliber Vodka, 1.75L Bottle of Vodka, 80 Proof at \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "19 Best Vodka Brands in 2025 (Top Shelf & Cheap) - Parade",
+          "link": "https://parade.com/1248844/kelli-acciardo/best-vodka-brands/",
+          "snippet": "Oct 8, 2025 \u00b7 When it comes to the smoothest, top-shelf vodka brands in the world, we've rounded up the 19 best vodkas at every \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Which Vodka Is Best? A Taste Test of Svedka, Stoli, Grey Goose, and ...",
+          "link": "https://www.bonappetit.com/story/best-vodka-taste-test",
+          "snippet": "May 9, 2024 \u00b7 Who makes the best vodka? We hosted a taste test in the test kitchen and tried 11 popular brands, from Tito's and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "List of vodka brands - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/List_of_vodka_brands",
+          "snippet": "List of vodka brands This is a list of vodka brands. Vodka is a distilled beverage composed primarily of water and ethanol, sometimes \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Vavoom Vodka Be Beautiful Be You Collection",
+          "link": "https://vavoomvodka.com/collections",
+          "snippet": "Vavoom Vodka Translation of \"stai, bella\" in English. stai. you're are you. bella. beautiful nice which means be beautiful and be you.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vodka Distributor | B2B companies and suppliers | europages",
+          "link": "https://www.europages.co.uk/companies/distributor/vodka.html",
+          "snippet": "89 suppliers for Vodka Distributor Find wholesalers and contact them directly B2B martketplace Find companies now!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vodka \u2013 Pallini",
+          "link": "https://pallini.com/en/distribution/vodka/",
+          "snippet": "Microfiltered Seawater and Samphire together for a vodka with a unique flavor of pure experimentation.Roberto cavalli vodka. Sophisticated, elegant, dedicated to the most discerning palates.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vodka wholesale | distributor | GCG Trading",
+          "link": "https://global-consumer-goods.com/vodka.html",
+          "snippet": "As featured invodka distributors on Digital JournalVodka distributor on Western Tribune",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vodka Distributors Suppliers, all Quality Vodka Distributors...",
+          "link": "https://www.alibaba.com/vodka-distributors-suppliers.html",
+          "snippet": "Vodka Distributors, Vodka Distributors Suppliers Directory - Find variety Vodka Distributors Suppliers, Manufacturers, Companies from around the World at ciroc vodka ,grey goose vodka ,thick bottom vo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vodka Distributors Vodka Wholesale Liquor Russian Vodka Importer",
+          "link": "https://www.prowoodusa.com/products/Brandy/1.html",
+          "snippet": "Vodka distributors, Vodka wholesale liquor Russian Vodka importer from award winning brands such as Imperial Vodka, Beluga Vodka, Moscow Moon Nights Vodka.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Angostura named vodka distributor - Trinidad Guardian",
+          "link": "https://www.guardian.co.tt/article-6.2.363812.f40ef1dbbb",
+          "snippet": "Angostura has been appointed the official distributor of Tito's Handmade Vodka in T&T. The brand, known as America's original craft vodka, is now available at bars, restaurants, wholesalers and retail",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Spirits - Lithuanian Beer",
+          "link": "https://lithuanianbeer.co.uk/spirits/",
+          "snippet": "As the official UK distributor, Lithuanian Beer Ltd. is delighted to bring the taste of Lithuanian Vodka to the UK market. Savour the smooth and authentic flavours of Lithuania, crafted with expertise",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Welcome! Beverage Trade Network",
+          "link": "https://beveragetradenetwork.com/",
+          "snippet": "Connecting wineries, breweries, distilleries, beverage brand owners, importers, distributors, brokers and other beverage professionals locally and globally.Anestasia Vodka. Bird Wines. We expanded our",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Stay updated with the latest news from Nemiroff. Keep track of all our...",
+          "link": "https://nemiroff.vodka/en/news/",
+          "snippet": "Nemiroff Vodka Strengthens Partnership with Coca-Cola HBC and Signs Next Partnership for Vodka Distribution in Armenia.Nemiroff Goes 384 440 km up to the Moon as the Official Partner of the Spacebit\u2019s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How Tito\u2019s New Distribution Deal in California Explains... | VinePair",
+          "link": "https://vinepair.com/articles/titos-vodka-california-distribution-reyes-rndc/",
+          "snippet": "Tito\u2019s Handmade Vodka, the best-selling liquor in the U.S., is jumping ship truck from its current California distributor, Republic National Distributing Company, in favor of the middle-tier juggernau",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P3": {
+      "query": "vodka retailers official site",
+      "level": "market_map",
+      "result_count": 12,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Vodka - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Vodka",
+          "snippet": "Vodka (Polish: w\u00f3dka [\u02c8vutka]; Russian: \u0432\u043e\u0434\u043a\u0430 [\u02c8votk\u0259]) is a clear distilled alcoholic beverage. Its varieties originated in Poland and Russia. [1] Vodka is composed mainly of water and ethanol \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "19 Popular American Vodkas, Ranked Worst To Best",
+          "link": "https://www.tastingtable.com/2013352/popular-american-vodka-ranked-best-worst/",
+          "snippet": "Nov 10, 2025 \u00b7 We taste-tested and ranked 19 popular American vodka brands, from Tito's to Trader Joe's, highlighting the best bottles for flavor, value, and availability.",
+          "backend": "searxng"
+        },
+        {
+          "title": "The Top 50 Vodka Brands Ranked - MyBartender",
+          "link": "https://mybartender.com/brands/best-vodkas/",
+          "snippet": "May 17, 2026 \u00b7 Discover the top vodkas to elevate your cocktail game. From smooth and crisp to bold and flavorful, find the perfect bottle for your next drink.",
+          "backend": "searxng"
+        },
+        {
+          "title": "The 5 Best Vodkas of 2026 | Reviews by Wirecutter",
+          "link": "https://www.nytimes.com/wirecutter/reviews/best-vodka/",
+          "snippet": "Dec 4, 2025 \u00b7 After tasting 15 different vodkas, our testers developed a newfound respect for the spirit, and found five favorites.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Buy Vodka Online | Total Wine & More",
+          "link": "https://www.totalwine.com/spirits/vodka/c/000897?msockid=3ed13f9adac862b8302a2805db6463a9",
+          "snippet": "Shop the best vodka at the lowest prices at Total Wine & More. Our wide selection includes Tito's, Tower, Gallant, and Grey Goose vodka.",
+          "backend": "searxng"
+        },
+        {
+          "title": "10 Best Vodka Brands in 2026 - Men's Journal",
+          "link": "https://www.mensjournal.com/drink/best-vodka-brands",
+          "snippet": "Dec 2, 2025 \u00b7 Vodka is far more than a booze booster for your next cocktail. These 10 top bottles confirm why vodka is the king of spirits.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Vodka in Spirits - Walmart.com",
+          "link": "https://www.walmart.com/browse/food/vodka/976759_2975985_8439204_4596432",
+          "snippet": "Shop for Vodka in Spirits. Buy products such as Kamchatka Original Vodka, 1.75 L, Caliber Vodka, 1.75L Bottle of Vodka, 80 Proof at Walmart and save.",
+          "backend": "searxng"
+        },
+        {
+          "title": "19 Best Vodka Brands in 2025 (Top Shelf & Cheap) - Parade",
+          "link": "https://parade.com/1248844/kelli-acciardo/best-vodka-brands/",
+          "snippet": "Oct 8, 2025 \u00b7 When it comes to the smoothest, top-shelf vodka brands in the world, we've rounded up the 19 best vodkas at every price. Learn why vodka tastes so good.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Which Vodka Is Best? A Taste Test of Svedka, Stoli, Grey Goose, and ...",
+          "link": "https://www.bonappetit.com/story/best-vodka-taste-test",
+          "snippet": "May 9, 2024 \u00b7 Who makes the best vodka? We hosted a taste test in the test kitchen and tried 11 popular brands, from Tito's and Smirnoff to Svedka and Grey Goose.",
+          "backend": "searxng"
+        },
+        {
+          "title": "List of vodka brands - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/List_of_vodka_brands",
+          "snippet": "List of vodka brands This is a list of vodka brands. Vodka is a distilled beverage composed primarily of water and ethanol, sometimes with traces of impurities and flavorings. Vodka is made by the \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Ten award-winning vodkas you should know... - The Spirits Business",
+          "link": "https://www.thespiritsbusiness.com/2025/09/ten-award-winning-vodkas-you-should-know-about/",
+          "snippet": "Vodka remains one of the world\u2019s biggest-selling spirits categories \u2013 and for good reason. The spirit has demonstrated its longevity and ability to adapt and reinvent itself when needed through the de",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Where to buy? - Fervino",
+          "link": "https://fervino.com/en/wbuy.html",
+          "snippet": "FORTUNA.VODKA retail chain. Krasnodar, ul. Rostovskoe shosse, 29.This website contains information that is not recommended for persons under the age of majority. To enter the website, confirm your age",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Vodka - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Vodka",
+          "snippet": "Vodka (Polish: w\u00f3dka [\u02c8vutka]; Russian: \u0432\u043e\u0434\u043a\u0430 [\u02c8votk\u0259]) is a clear distilled alcoholic beverage. Its varieties originated in Poland and Russia. [1] Vodka is composed mainly of water and ethanol \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "19 Popular American Vodkas, Ranked Worst To Best",
+          "link": "https://www.tastingtable.com/2013352/popular-american-vodka-ranked-best-worst/",
+          "snippet": "Nov 10, 2025 \u00b7 We taste-tested and ranked 19 popular American vodka brands, from Tito's to Trader Joe's, highlighting the best bottles for flavor, value, and availability.",
+          "backend": "searxng"
+        },
+        {
+          "title": "The Top 50 Vodka Brands Ranked - MyBartender",
+          "link": "https://mybartender.com/brands/best-vodkas/",
+          "snippet": "May 17, 2026 \u00b7 Discover the top vodkas to elevate your cocktail game. From smooth and crisp to bold and flavorful, find the perfect bottle for your next drink.",
+          "backend": "searxng"
+        },
+        {
+          "title": "The 5 Best Vodkas of 2026 | Reviews by Wirecutter",
+          "link": "https://www.nytimes.com/wirecutter/reviews/best-vodka/",
+          "snippet": "Dec 4, 2025 \u00b7 After tasting 15 different vodkas, our testers developed a newfound respect for the spirit, and found five favorites.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Buy Vodka Online | Total Wine & More",
+          "link": "https://www.totalwine.com/spirits/vodka/c/000897?msockid=3ed13f9adac862b8302a2805db6463a9",
+          "snippet": "Shop the best vodka at the lowest prices at Total Wine & More. Our wide selection includes Tito's, Tower, Gallant, and Grey Goose vodka.",
+          "backend": "searxng"
+        },
+        {
+          "title": "10 Best Vodka Brands in 2026 - Men's Journal",
+          "link": "https://www.mensjournal.com/drink/best-vodka-brands",
+          "snippet": "Dec 2, 2025 \u00b7 Vodka is far more than a booze booster for your next cocktail. These 10 top bottles confirm why vodka is the king of spirits.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Vodka in Spirits - Walmart.com",
+          "link": "https://www.walmart.com/browse/food/vodka/976759_2975985_8439204_4596432",
+          "snippet": "Shop for Vodka in Spirits. Buy products such as Kamchatka Original Vodka, 1.75 L, Caliber Vodka, 1.75L Bottle of Vodka, 80 Proof at Walmart and save.",
+          "backend": "searxng"
+        },
+        {
+          "title": "19 Best Vodka Brands in 2025 (Top Shelf & Cheap) - Parade",
+          "link": "https://parade.com/1248844/kelli-acciardo/best-vodka-brands/",
+          "snippet": "Oct 8, 2025 \u00b7 When it comes to the smoothest, top-shelf vodka brands in the world, we've rounded up the 19 best vodkas at every price. Learn why vodka tastes so good.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Which Vodka Is Best? A Taste Test of Svedka, Stoli, Grey Goose, and ...",
+          "link": "https://www.bonappetit.com/story/best-vodka-taste-test",
+          "snippet": "May 9, 2024 \u00b7 Who makes the best vodka? We hosted a taste test in the test kitchen and tried 11 popular brands, from Tito's and Smirnoff to Svedka and Grey Goose.",
+          "backend": "searxng"
+        },
+        {
+          "title": "List of vodka brands - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/List_of_vodka_brands",
+          "snippet": "List of vodka brands This is a list of vodka brands. Vodka is a distilled beverage composed primarily of water and ethanol, sometimes with traces of impurities and flavorings. Vodka is made by the \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Ten award-winning vodkas you should know... - The Spirits Business",
+          "link": "https://www.thespiritsbusiness.com/2025/09/ten-award-winning-vodkas-you-should-know-about/",
+          "snippet": "Vodka remains one of the world\u2019s biggest-selling spirits categories \u2013 and for good reason. The spirit has demonstrated its longevity and ability to adapt and reinvent itself when needed through the de",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Where to buy? - Fervino",
+          "link": "https://fervino.com/en/wbuy.html",
+          "snippet": "FORTUNA.VODKA retail chain. Krasnodar, ul. Rostovskoe shosse, 29.This website contains information that is not recommended for persons under the age of majority. To enter the website, confirm your age",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P4": {
+      "query": "vodka marketing agencies official site",
+      "level": "market_map",
+      "result_count": 11,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Vodka - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Vodka",
+          "snippet": "Vodka (Polish: w\u00f3dka [\u02c8vutka]; Russian: \u0432\u043e\u0434\u043a\u0430 [\u02c8votk\u0259]) is a clear distilled alcoholic beverage. Its varieties originated in Poland and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "19 Popular American Vodkas, Ranked Worst To Best",
+          "link": "https://www.tastingtable.com/2013352/popular-american-vodka-ranked-best-worst/",
+          "snippet": "Nov 10, 2025 \u00b7 We taste-tested and ranked 19 popular American vodka brands, from Tito's to Trader Joe's, highlighting the best \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The Top 50 Vodka Brands Ranked - MyBartender",
+          "link": "https://mybartender.com/brands/best-vodkas/",
+          "snippet": "May 17, 2026 \u00b7 Discover the top vodkas to elevate your cocktail game. From smooth and crisp to bold and flavorful, find the perfect \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The 5 Best Vodkas of 2026 | Reviews by Wirecutter",
+          "link": "https://www.nytimes.com/wirecutter/reviews/best-vodka/",
+          "snippet": "Dec 4, 2025 \u00b7 After tasting 15 different vodkas, our testers developed a newfound respect for the spirit, and found five favorites.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Buy Vodka Online | Total Wine & More",
+          "link": "https://www.totalwine.com/spirits/vodka/c/000897?msockid=08f1253466636f42092f32ab67586edc",
+          "snippet": "Shop the best vodka at the lowest prices at Total Wine & More. Our wide selection includes Tito's, Tower, Gallant, and Grey Goose \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "10 Best Vodka Brands in 2026 - Men's Journal",
+          "link": "https://www.mensjournal.com/drink/best-vodka-brands",
+          "snippet": "Dec 2, 2025 \u00b7 Vodka is far more than a booze booster for your next cocktail. These 10 top bottles confirm why vodka is the king of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Vodka in Spirits - Walmart.com",
+          "link": "https://www.walmart.com/browse/food/vodka/976759_2975985_8439204_4596432",
+          "snippet": "Shop for Vodka in Spirits. Buy products such as Kamchatka Original Vodka, 1.75 L, Caliber Vodka, 1.75L Bottle of Vodka, 80 Proof at \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "19 Best Vodka Brands in 2025 (Top Shelf & Cheap) - Parade",
+          "link": "https://parade.com/1248844/kelli-acciardo/best-vodka-brands/",
+          "snippet": "Oct 8, 2025 \u00b7 When it comes to the smoothest, top-shelf vodka brands in the world, we've rounded up the 19 best vodkas at every \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Which Vodka Is Best? A Taste Test of Svedka, Stoli, Grey Goose, and ...",
+          "link": "https://www.bonappetit.com/story/best-vodka-taste-test",
+          "snippet": "May 9, 2024 \u00b7 Who makes the best vodka? We hosted a taste test in the test kitchen and tried 11 popular brands, from Tito's and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "List of vodka brands - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/List_of_vodka_brands",
+          "snippet": "List of vodka brands This is a list of vodka brands. Vodka is a distilled beverage composed primarily of water and ethanol, sometimes \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Most innovative new vodka marketing... - The Spirits Business",
+          "link": "https://www.thespiritsbusiness.com/2015/04/most-innovative-new-vodka-marketing-campaigns/6/",
+          "snippet": "These are the top innovative new vodka marketing campaigns. There is no shying away from the powers of social media, whether it\u2019s Facebook, Twitter or Instagram and vodka brands are certainly ahead of",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Vodka - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Vodka",
+          "snippet": "Vodka (Polish: w\u00f3dka [\u02c8vutka]; Russian: \u0432\u043e\u0434\u043a\u0430 [\u02c8votk\u0259]) is a clear distilled alcoholic beverage. Its varieties originated in Poland and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "19 Popular American Vodkas, Ranked Worst To Best",
+          "link": "https://www.tastingtable.com/2013352/popular-american-vodka-ranked-best-worst/",
+          "snippet": "Nov 10, 2025 \u00b7 We taste-tested and ranked 19 popular American vodka brands, from Tito's to Trader Joe's, highlighting the best \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The Top 50 Vodka Brands Ranked - MyBartender",
+          "link": "https://mybartender.com/brands/best-vodkas/",
+          "snippet": "May 17, 2026 \u00b7 Discover the top vodkas to elevate your cocktail game. From smooth and crisp to bold and flavorful, find the perfect \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The 5 Best Vodkas of 2026 | Reviews by Wirecutter",
+          "link": "https://www.nytimes.com/wirecutter/reviews/best-vodka/",
+          "snippet": "Dec 4, 2025 \u00b7 After tasting 15 different vodkas, our testers developed a newfound respect for the spirit, and found five favorites.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Buy Vodka Online | Total Wine & More",
+          "link": "https://www.totalwine.com/spirits/vodka/c/000897?msockid=08f1253466636f42092f32ab67586edc",
+          "snippet": "Shop the best vodka at the lowest prices at Total Wine & More. Our wide selection includes Tito's, Tower, Gallant, and Grey Goose \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "10 Best Vodka Brands in 2026 - Men's Journal",
+          "link": "https://www.mensjournal.com/drink/best-vodka-brands",
+          "snippet": "Dec 2, 2025 \u00b7 Vodka is far more than a booze booster for your next cocktail. These 10 top bottles confirm why vodka is the king of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Vodka in Spirits - Walmart.com",
+          "link": "https://www.walmart.com/browse/food/vodka/976759_2975985_8439204_4596432",
+          "snippet": "Shop for Vodka in Spirits. Buy products such as Kamchatka Original Vodka, 1.75 L, Caliber Vodka, 1.75L Bottle of Vodka, 80 Proof at \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "19 Best Vodka Brands in 2025 (Top Shelf & Cheap) - Parade",
+          "link": "https://parade.com/1248844/kelli-acciardo/best-vodka-brands/",
+          "snippet": "Oct 8, 2025 \u00b7 When it comes to the smoothest, top-shelf vodka brands in the world, we've rounded up the 19 best vodkas at every \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Which Vodka Is Best? A Taste Test of Svedka, Stoli, Grey Goose, and ...",
+          "link": "https://www.bonappetit.com/story/best-vodka-taste-test",
+          "snippet": "May 9, 2024 \u00b7 Who makes the best vodka? We hosted a taste test in the test kitchen and tried 11 popular brands, from Tito's and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "List of vodka brands - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/List_of_vodka_brands",
+          "snippet": "List of vodka brands This is a list of vodka brands. Vodka is a distilled beverage composed primarily of water and ethanol, sometimes \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Most innovative new vodka marketing... - The Spirits Business",
+          "link": "https://www.thespiritsbusiness.com/2015/04/most-innovative-new-vodka-marketing-campaigns/6/",
+          "snippet": "These are the top innovative new vodka marketing campaigns. There is no shying away from the powers of social media, whether it\u2019s Facebook, Twitter or Instagram and vodka brands are certainly ahead of",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P5": {
+      "query": "wholesale vodka suppliers",
+      "level": "market_map",
+      "result_count": 14,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Vodka Wholesale Suppliers, Manufacturer, Distributor, Factories...",
+          "link": "https://www.alibaba.com/vodka-wholesale-suppliers.html",
+          "snippet": "vodka wholesale suppliers. 2,184 Supplier(s). Trade Assurance.Gold Supplier Contact Details. Best Wholesale Ciroc AKBAR Vodka 40% 700ML on sale.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Vodka, Wholesale Vodka Manufacturers & Suppliers",
+          "link": "https://www.made-in-china.com/products-search/hot-china-products/Wholesale_Vodka.html",
+          "snippet": "Wholesale Vodka - Select 2025 high quality Wholesale Vodka products in best price from certified Chinese Glass Container manufacturers, Custom Bottle suppliers, wholesalers and...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Professional China Wholesale Vodka Products at... | Global Sources",
+          "link": "https://www.globalsources.com/manufacturers/vodka.html",
+          "snippet": "5658 wholesale \"Vodka\" products from 134 suppliers. Shop online for wholesale vodka?FAQs of Wholesale Vodka. What specific services do suppliers offer under their vodka?",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Vodka - Vodka Manufacturers, Suppliers - EC21",
+          "link": "https://www.ec21.com/ec-market/vodka.html",
+          "snippet": "Wholesale Vodka Find 96 vodka products from 40 manufacturers & suppliers at EC21. Choose quality vodka manufacturers, suppliers & exporters now - EC21.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "neutral spirits suppliers, exporters on 21food.com",
+          "link": "https://www.21food.com/show/neutral-spirits.html",
+          "snippet": "Wholesale spirits, supplier of vodka. Private Label Vodka\u2018 ori-width=\u2018534\u2018 ori-height=\u2018800\u2018 / These are top quali...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "15 Best Vodka Manufacturers and Suppliers (2026)",
+          "link": "https://usetorg.com/category/vodka",
+          "snippet": "Our Vodka suppliers ensure compliance with global quality standards, offering options certified by ISO, HACCP, and GMP, guaranteeing superior distillation and purity.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "wholesale vodka - wholesale vodka suppliers, manufacturers and...",
+          "link": "https://www.ecer.com/china-wholesale-vodka",
+          "snippet": "282 products found for. China wholesale vodka. suppliers.Wholesale Vodka Liquor Small Brandy Whiskey For Liquor 1000ML Vodka Glass Bottle 1Lbottles.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "vodka Wholesaler | B2B companies and suppliers | europages",
+          "link": "https://www.europages.co.uk/companies/wholesaler/vodka.html",
+          "snippet": "89 suppliers for vodka Wholesaler Find wholesalers and contact them directly B2B martketplace Find companies now! Importer, wholesaler, and supplier for the gastronomy sector.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale vodka - vendors, suppliers, bulk sale | B2B Merkandi.com",
+          "link": "https://merkandi.com/wholesale/vodka",
+          "snippet": "Convenient Access to Vodka Wholesalers.With Merkandi, retailers can confidently source wholesale vodka, knowing they have access to reliable suppliers and exclusive deals.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Find Trusted Skyy Vodka Manufacturers & Suppliers | Alibaba",
+          "link": "https://www.accio.com/supplier/skyy-vodka-manufacturer",
+          "snippet": "Looking for Skyy vodka manufacturers? Source premium suppliers offering custom bottles and premixed drinks. Get competitive quotes and connect directly with verified global suppliers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Beverage Distributor & Bulk Drinks Supplier - Voov Energy",
+          "link": "https://voovenergydrinks.com/",
+          "snippet": "From bulk energy drinks and wholesale soft drinks to premium vodka, whiskey, and champagne \u2014 explore our complete wholesale beverage catalogue.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Vodka Suppliers & Distributors | Bulk Buy | Inn Express",
+          "link": "https://www.inn-express.com/product-ranges/spirits-liqueurs/vodka",
+          "snippet": "We are a wholesale Vodka supplier and distributor with fantastic service. Browse hundreds of vodkas that we stock. We offer a varied range of styles including super premium and...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "vodka Suppliers, Wholesale vodka Manufacturers | HKTDC Sourcing",
+          "link": "https://sourcing.hktdc.com/en/Product-Search/vodka/1",
+          "snippet": "Source from wholesale vodka suppliers, vendors and manufacturers for the popular vodka. Get free quote and latest price from quality supplier, trader and distributor on HKTDC Sourcing.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vodka wholesale | distributor | GCG Trading",
+          "link": "https://global-consumer-goods.com/vodka.html",
+          "snippet": "Vodka wholesale | GCG Trading Your partner for vodka Branded products Rarities Bulk prices Simply click and request an offer!",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Vodka Wholesale Suppliers, Manufacturer, Distributor, Factories...",
+          "link": "https://www.alibaba.com/vodka-wholesale-suppliers.html",
+          "snippet": "vodka wholesale suppliers. 2,184 Supplier(s). Trade Assurance.Gold Supplier Contact Details. Best Wholesale Ciroc AKBAR Vodka 40% 700ML on sale.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Vodka, Wholesale Vodka Manufacturers & Suppliers",
+          "link": "https://www.made-in-china.com/products-search/hot-china-products/Wholesale_Vodka.html",
+          "snippet": "Wholesale Vodka - Select 2025 high quality Wholesale Vodka products in best price from certified Chinese Glass Container manufacturers, Custom Bottle suppliers, wholesalers and...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Professional China Wholesale Vodka Products at... | Global Sources",
+          "link": "https://www.globalsources.com/manufacturers/vodka.html",
+          "snippet": "5658 wholesale \"Vodka\" products from 134 suppliers. Shop online for wholesale vodka?FAQs of Wholesale Vodka. What specific services do suppliers offer under their vodka?",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Vodka - Vodka Manufacturers, Suppliers - EC21",
+          "link": "https://www.ec21.com/ec-market/vodka.html",
+          "snippet": "Wholesale Vodka Find 96 vodka products from 40 manufacturers & suppliers at EC21. Choose quality vodka manufacturers, suppliers & exporters now - EC21.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "neutral spirits suppliers, exporters on 21food.com",
+          "link": "https://www.21food.com/show/neutral-spirits.html",
+          "snippet": "Wholesale spirits, supplier of vodka. Private Label Vodka\u2018 ori-width=\u2018534\u2018 ori-height=\u2018800\u2018 / These are top quali...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "15 Best Vodka Manufacturers and Suppliers (2026)",
+          "link": "https://usetorg.com/category/vodka",
+          "snippet": "Our Vodka suppliers ensure compliance with global quality standards, offering options certified by ISO, HACCP, and GMP, guaranteeing superior distillation and purity.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "wholesale vodka - wholesale vodka suppliers, manufacturers and...",
+          "link": "https://www.ecer.com/china-wholesale-vodka",
+          "snippet": "282 products found for. China wholesale vodka. suppliers.Wholesale Vodka Liquor Small Brandy Whiskey For Liquor 1000ML Vodka Glass Bottle 1Lbottles.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "vodka Wholesaler | B2B companies and suppliers | europages",
+          "link": "https://www.europages.co.uk/companies/wholesaler/vodka.html",
+          "snippet": "89 suppliers for vodka Wholesaler Find wholesalers and contact them directly B2B martketplace Find companies now! Importer, wholesaler, and supplier for the gastronomy sector.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale vodka - vendors, suppliers, bulk sale | B2B Merkandi.com",
+          "link": "https://merkandi.com/wholesale/vodka",
+          "snippet": "Convenient Access to Vodka Wholesalers.With Merkandi, retailers can confidently source wholesale vodka, knowing they have access to reliable suppliers and exclusive deals.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Find Trusted Skyy Vodka Manufacturers & Suppliers | Alibaba",
+          "link": "https://www.accio.com/supplier/skyy-vodka-manufacturer",
+          "snippet": "Looking for Skyy vodka manufacturers? Source premium suppliers offering custom bottles and premixed drinks. Get competitive quotes and connect directly with verified global suppliers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Beverage Distributor & Bulk Drinks Supplier - Voov Energy",
+          "link": "https://voovenergydrinks.com/",
+          "snippet": "From bulk energy drinks and wholesale soft drinks to premium vodka, whiskey, and champagne \u2014 explore our complete wholesale beverage catalogue.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Vodka Suppliers & Distributors | Bulk Buy | Inn Express",
+          "link": "https://www.inn-express.com/product-ranges/spirits-liqueurs/vodka",
+          "snippet": "We are a wholesale Vodka supplier and distributor with fantastic service. Browse hundreds of vodkas that we stock. We offer a varied range of styles including super premium and...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "vodka Suppliers, Wholesale vodka Manufacturers | HKTDC Sourcing",
+          "link": "https://sourcing.hktdc.com/en/Product-Search/vodka/1",
+          "snippet": "Source from wholesale vodka suppliers, vendors and manufacturers for the popular vodka. Get free quote and latest price from quality supplier, trader and distributor on HKTDC Sourcing.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vodka wholesale | distributor | GCG Trading",
+          "link": "https://global-consumer-goods.com/vodka.html",
+          "snippet": "Vodka wholesale | GCG Trading Your partner for vodka Branded products Rarities Bulk prices Simply click and request an offer!",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "vodka channel partners official site",
+      "level": "market_map",
+      "result_count": 12,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Vodka - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Vodka",
+          "snippet": "Vodka (Polish: w\u00f3dka [\u02c8vutka]; Russian: \u0432\u043e\u0434\u043a\u0430 [\u02c8votk\u0259]) is a clear distilled alcoholic beverage. Its varieties originated in Poland and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "19 Popular American Vodkas, Ranked Worst To Best",
+          "link": "https://www.tastingtable.com/2013352/popular-american-vodka-ranked-best-worst/",
+          "snippet": "Nov 10, 2025 \u00b7 We taste-tested and ranked 19 popular American vodka brands, from Tito's to Trader Joe's, highlighting the best \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The Top 50 Vodka Brands Ranked - MyBartender",
+          "link": "https://mybartender.com/brands/best-vodkas/",
+          "snippet": "May 17, 2026 \u00b7 Discover the top vodkas to elevate your cocktail game. From smooth and crisp to bold and flavorful, find the perfect \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The 5 Best Vodkas of 2026 | Reviews by Wirecutter",
+          "link": "https://www.nytimes.com/wirecutter/reviews/best-vodka/",
+          "snippet": "Dec 4, 2025 \u00b7 After tasting 15 different vodkas, our testers developed a newfound respect for the spirit, and found five favorites.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Buy Vodka Online | Total Wine & More",
+          "link": "https://www.totalwine.com/spirits/vodka/c/000897?msockid=35d39a8e63b46bf71cf28d1162956a3b",
+          "snippet": "Shop the best vodka at the lowest prices at Total Wine & More. Our wide selection includes Tito's, Tower, Gallant, and Grey Goose \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "10 Best Vodka Brands in 2026 - Men's Journal",
+          "link": "https://www.mensjournal.com/drink/best-vodka-brands",
+          "snippet": "Dec 2, 2025 \u00b7 Vodka is far more than a booze booster for your next cocktail. These 10 top bottles confirm why vodka is the king of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Vodka in Spirits - Walmart.com",
+          "link": "https://www.walmart.com/browse/food/vodka/976759_2975985_8439204_4596432",
+          "snippet": "Shop for Vodka in Spirits. Buy products such as Kamchatka Original Vodka, 1.75 L, Caliber Vodka, 1.75L Bottle of Vodka, 80 Proof at \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "19 Best Vodka Brands in 2025 (Top Shelf & Cheap) - Parade",
+          "link": "https://parade.com/1248844/kelli-acciardo/best-vodka-brands/",
+          "snippet": "Oct 8, 2025 \u00b7 When it comes to the smoothest, top-shelf vodka brands in the world, we've rounded up the 19 best vodkas at every \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Which Vodka Is Best? A Taste Test of Svedka, Stoli, Grey Goose, and ...",
+          "link": "https://www.bonappetit.com/story/best-vodka-taste-test",
+          "snippet": "May 9, 2024 \u00b7 Who makes the best vodka? We hosted a taste test in the test kitchen and tried 11 popular brands, from Tito's and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "List of vodka brands - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/List_of_vodka_brands",
+          "snippet": "List of vodka brands This is a list of vodka brands. Vodka is a distilled beverage composed primarily of water and ethanol, sometimes \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Au Vodka - YouTube",
+          "link": "https://www.youtube.com/channel/UCZhMDL1aSF2xsi2Prh6jurQ",
+          "snippet": "Inspired by gold, Au Vodka incorporates the periodic table where gold is a chemical element with the symbol Au and atomic number 79. We combine our British heritage and luxury ingredients together to ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Right Way to Vodka | NEFT Vodka",
+          "link": "https://neftvodka.com/",
+          "snippet": "NEFT Vodka is ultra-premium vodka crafted in Austria with the purest ingredients. Discover the barrel that changed the spirit world and sip something legendary.Official Partner of Racing Bulls.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Vodka - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Vodka",
+          "snippet": "Vodka (Polish: w\u00f3dka [\u02c8vutka]; Russian: \u0432\u043e\u0434\u043a\u0430 [\u02c8votk\u0259]) is a clear distilled alcoholic beverage. Its varieties originated in Poland and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "19 Popular American Vodkas, Ranked Worst To Best",
+          "link": "https://www.tastingtable.com/2013352/popular-american-vodka-ranked-best-worst/",
+          "snippet": "Nov 10, 2025 \u00b7 We taste-tested and ranked 19 popular American vodka brands, from Tito's to Trader Joe's, highlighting the best \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The Top 50 Vodka Brands Ranked - MyBartender",
+          "link": "https://mybartender.com/brands/best-vodkas/",
+          "snippet": "May 17, 2026 \u00b7 Discover the top vodkas to elevate your cocktail game. From smooth and crisp to bold and flavorful, find the perfect \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The 5 Best Vodkas of 2026 | Reviews by Wirecutter",
+          "link": "https://www.nytimes.com/wirecutter/reviews/best-vodka/",
+          "snippet": "Dec 4, 2025 \u00b7 After tasting 15 different vodkas, our testers developed a newfound respect for the spirit, and found five favorites.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Buy Vodka Online | Total Wine & More",
+          "link": "https://www.totalwine.com/spirits/vodka/c/000897?msockid=35d39a8e63b46bf71cf28d1162956a3b",
+          "snippet": "Shop the best vodka at the lowest prices at Total Wine & More. Our wide selection includes Tito's, Tower, Gallant, and Grey Goose \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "10 Best Vodka Brands in 2026 - Men's Journal",
+          "link": "https://www.mensjournal.com/drink/best-vodka-brands",
+          "snippet": "Dec 2, 2025 \u00b7 Vodka is far more than a booze booster for your next cocktail. These 10 top bottles confirm why vodka is the king of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Vodka in Spirits - Walmart.com",
+          "link": "https://www.walmart.com/browse/food/vodka/976759_2975985_8439204_4596432",
+          "snippet": "Shop for Vodka in Spirits. Buy products such as Kamchatka Original Vodka, 1.75 L, Caliber Vodka, 1.75L Bottle of Vodka, 80 Proof at \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "19 Best Vodka Brands in 2025 (Top Shelf & Cheap) - Parade",
+          "link": "https://parade.com/1248844/kelli-acciardo/best-vodka-brands/",
+          "snippet": "Oct 8, 2025 \u00b7 When it comes to the smoothest, top-shelf vodka brands in the world, we've rounded up the 19 best vodkas at every \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Which Vodka Is Best? A Taste Test of Svedka, Stoli, Grey Goose, and ...",
+          "link": "https://www.bonappetit.com/story/best-vodka-taste-test",
+          "snippet": "May 9, 2024 \u00b7 Who makes the best vodka? We hosted a taste test in the test kitchen and tried 11 popular brands, from Tito's and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "List of vodka brands - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/List_of_vodka_brands",
+          "snippet": "List of vodka brands This is a list of vodka brands. Vodka is a distilled beverage composed primarily of water and ethanol, sometimes \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Au Vodka - YouTube",
+          "link": "https://www.youtube.com/channel/UCZhMDL1aSF2xsi2Prh6jurQ",
+          "snippet": "Inspired by gold, Au Vodka incorporates the periodic table where gold is a chemical element with the symbol Au and atomic number 79. We combine our British heritage and luxury ingredients together to ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Right Way to Vodka | NEFT Vodka",
+          "link": "https://neftvodka.com/",
+          "snippet": "NEFT Vodka is ultra-premium vodka crafted in Austria with the purest ingredients. Discover the barrel that changed the spirit world and sip something legendary.Official Partner of Racing Bulls.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P7": {
+      "query": "vodka system integrators official site",
+      "level": "market_map",
+      "result_count": 10,
+      "results_target": 28,
+      "backends": [
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Vodka - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Vodka",
+          "snippet": "Vodka (Polish: w\u00f3dka [\u02c8vutka]; Russian: \u0432\u043e\u0434\u043a\u0430 [\u02c8votk\u0259]) is a clear distilled alcoholic beverage. Its varieties originated in Poland and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "19 Popular American Vodkas, Ranked Worst To Best",
+          "link": "https://www.tastingtable.com/2013352/popular-american-vodka-ranked-best-worst/",
+          "snippet": "Nov 10, 2025 \u00b7 We taste-tested and ranked 19 popular American vodka brands, from Tito's to Trader Joe's, highlighting the best \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The Top 50 Vodka Brands Ranked - MyBartender",
+          "link": "https://mybartender.com/brands/best-vodkas/",
+          "snippet": "May 17, 2026 \u00b7 Discover the top vodkas to elevate your cocktail game. From smooth and crisp to bold and flavorful, find the perfect \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The 5 Best Vodkas of 2026 | Reviews by Wirecutter",
+          "link": "https://www.nytimes.com/wirecutter/reviews/best-vodka/",
+          "snippet": "Dec 4, 2025 \u00b7 After tasting 15 different vodkas, our testers developed a newfound respect for the spirit, and found five favorites.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Buy Vodka Online | Total Wine & More",
+          "link": "https://www.totalwine.com/spirits/vodka/c/000897?msockid=08959680354363441562811f34da6273",
+          "snippet": "Shop the best vodka at the lowest prices at Total Wine & More. Our wide selection includes Tito's, Tower, Gallant, and Grey Goose \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "10 Best Vodka Brands in 2026 - Men's Journal",
+          "link": "https://www.mensjournal.com/drink/best-vodka-brands",
+          "snippet": "Dec 2, 2025 \u00b7 Vodka is far more than a booze booster for your next cocktail. These 10 top bottles confirm why vodka is the king of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Vodka in Spirits - Walmart.com",
+          "link": "https://www.walmart.com/browse/food/vodka/976759_2975985_8439204_4596432",
+          "snippet": "Shop for Vodka in Spirits. Buy products such as Kamchatka Original Vodka, 1.75 L, Caliber Vodka, 1.75L Bottle of Vodka, 80 Proof at \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "19 Best Vodka Brands in 2025 (Top Shelf & Cheap) - Parade",
+          "link": "https://parade.com/1248844/kelli-acciardo/best-vodka-brands/",
+          "snippet": "Oct 8, 2025 \u00b7 When it comes to the smoothest, top-shelf vodka brands in the world, we've rounded up the 19 best vodkas at every \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Which Vodka Is Best? A Taste Test of Svedka, Stoli, Grey Goose, and ...",
+          "link": "https://www.bonappetit.com/story/best-vodka-taste-test",
+          "snippet": "May 9, 2024 \u00b7 Who makes the best vodka? We hosted a taste test in the test kitchen and tried 11 popular brands, from Tito's and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "List of vodka brands - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/List_of_vodka_brands",
+          "snippet": "List of vodka brands This is a list of vodka brands. Vodka is a distilled beverage composed primarily of water and ethanol, sometimes \u2026",
+          "backend": "searxng"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Vodka - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Vodka",
+          "snippet": "Vodka (Polish: w\u00f3dka [\u02c8vutka]; Russian: \u0432\u043e\u0434\u043a\u0430 [\u02c8votk\u0259]) is a clear distilled alcoholic beverage. Its varieties originated in Poland and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "19 Popular American Vodkas, Ranked Worst To Best",
+          "link": "https://www.tastingtable.com/2013352/popular-american-vodka-ranked-best-worst/",
+          "snippet": "Nov 10, 2025 \u00b7 We taste-tested and ranked 19 popular American vodka brands, from Tito's to Trader Joe's, highlighting the best \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The Top 50 Vodka Brands Ranked - MyBartender",
+          "link": "https://mybartender.com/brands/best-vodkas/",
+          "snippet": "May 17, 2026 \u00b7 Discover the top vodkas to elevate your cocktail game. From smooth and crisp to bold and flavorful, find the perfect \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The 5 Best Vodkas of 2026 | Reviews by Wirecutter",
+          "link": "https://www.nytimes.com/wirecutter/reviews/best-vodka/",
+          "snippet": "Dec 4, 2025 \u00b7 After tasting 15 different vodkas, our testers developed a newfound respect for the spirit, and found five favorites.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Buy Vodka Online | Total Wine & More",
+          "link": "https://www.totalwine.com/spirits/vodka/c/000897?msockid=08959680354363441562811f34da6273",
+          "snippet": "Shop the best vodka at the lowest prices at Total Wine & More. Our wide selection includes Tito's, Tower, Gallant, and Grey Goose \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "10 Best Vodka Brands in 2026 - Men's Journal",
+          "link": "https://www.mensjournal.com/drink/best-vodka-brands",
+          "snippet": "Dec 2, 2025 \u00b7 Vodka is far more than a booze booster for your next cocktail. These 10 top bottles confirm why vodka is the king of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Vodka in Spirits - Walmart.com",
+          "link": "https://www.walmart.com/browse/food/vodka/976759_2975985_8439204_4596432",
+          "snippet": "Shop for Vodka in Spirits. Buy products such as Kamchatka Original Vodka, 1.75 L, Caliber Vodka, 1.75L Bottle of Vodka, 80 Proof at \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "19 Best Vodka Brands in 2025 (Top Shelf & Cheap) - Parade",
+          "link": "https://parade.com/1248844/kelli-acciardo/best-vodka-brands/",
+          "snippet": "Oct 8, 2025 \u00b7 When it comes to the smoothest, top-shelf vodka brands in the world, we've rounded up the 19 best vodkas at every \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Which Vodka Is Best? A Taste Test of Svedka, Stoli, Grey Goose, and ...",
+          "link": "https://www.bonappetit.com/story/best-vodka-taste-test",
+          "snippet": "May 9, 2024 \u00b7 Who makes the best vodka? We hosted a taste test in the test kitchen and tried 11 popular brands, from Tito's and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "List of vodka brands - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/List_of_vodka_brands",
+          "snippet": "List of vodka brands This is a list of vodka brands. Vodka is a distilled beverage composed primarily of water and ethanol, sometimes \u2026",
+          "backend": "searxng"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

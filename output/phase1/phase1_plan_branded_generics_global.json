@@ -1,0 +1,1025 @@
+{
+  "phase": 1,
+  "query": "Branded Generics Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T21:45:33.534380+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "branded generics",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "pharmaceuticals",
+    "industry_terms": [
+      "branded generics",
+      "generic pharmaceuticals",
+      "pharmaceutical distribution",
+      "drug wholesalers",
+      "healthcare supply chain"
+    ],
+    "ecosystem_functions": [
+      "logistics management",
+      "supply chain coordination",
+      "market access facilitation",
+      "inventory management",
+      "sales support",
+      "regulatory compliance",
+      "customer relationship management",
+      "product marketing"
+    ],
+    "interpretation_summary": "The branded generics market involves the production and distribution of generic drugs that are marketed under a brand name. Participants include pharmaceutical companies, distributors, wholesalers, and various channel pa",
+    "relevance_keywords": [
+      "generic drug distribution",
+      "branded generics supply chain",
+      "pharmaceutical wholesalers",
+      "healthcare service providers",
+      "drug reselling"
+    ],
+    "negative_keywords": [
+      "clinical trials",
+      "research and development",
+      "active pharmaceutical ingredients",
+      "regulatory affairs",
+      "biologics"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "McKesson",
+        "primary_domain": "mckesson.com",
+        "company_function": "pharmaceutical distribution"
+      },
+      {
+        "canonical_name": "AmerisourceBergen",
+        "primary_domain": "amerisourcebergen.com",
+        "company_function": "wholesale drug distribution"
+      },
+      {
+        "canonical_name": "Cardinal Health",
+        "primary_domain": "cardinalhealth.com",
+        "company_function": "healthcare services and distribution"
+      },
+      {
+        "canonical_name": "Cencosud",
+        "primary_domain": "cencosud.cl",
+        "company_function": "retail and wholesale distribution"
+      },
+      {
+        "canonical_name": "Purdue Pharma",
+        "primary_domain": "purduepharma.com",
+        "company_function": "branded generics manufacturing and distribution"
+      },
+      {
+        "canonical_name": "Walgreens Boots Alliance",
+        "primary_domain": "walgreens.com",
+        "company_function": "retail pharmacy and distribution"
+      },
+      {
+        "canonical_name": "Henry Schein",
+        "primary_domain": "henryschein.com",
+        "company_function": "healthcare distribution"
+      },
+      {
+        "canonical_name": "Express Scripts",
+        "primary_domain": "express-scripts.com",
+        "company_function": "pharmacy benefit management"
+      },
+      {
+        "canonical_name": "Rite Aid",
+        "primary_domain": "riteaid.com",
+        "company_function": "retail pharmacy and wholesaler",
+        "segment": "Resellers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Scripps Health",
+        "primary_domain": "scripps.org",
+        "company_function": "healthcare services and distribution",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Boehringer Ingelheim",
+        "primary_domain": "boehringer-ingelheim.com",
+        "company_function": "branded generics manufacturing",
+        "segment": "Distributors",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Teva Pharmaceuticals",
+        "primary_domain": "teva.com",
+        "company_function": "generic pharmaceuticals",
+        "segment": "Distributors",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Aurobindo Pharma",
+        "primary_domain": "aurobindo.com",
+        "company_function": "generic drug manufacturing",
+        "segment": "Distributors",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Sun Pharmaceutical Industries",
+        "primary_domain": "sunpharma.com",
+        "company_function": "pharmaceutical manufacturing and distribution",
+        "segment": "Distributors",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "branded generics",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "branded generics",
+    "include_keywords": [
+      "branded generic drugs",
+      "pharmaceutical distributors",
+      "wholesale drug suppliers",
+      "healthcare logistics",
+      "pharmacy resellers"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The branded generics market involves the production and distribution of generic drugs that are marketed under a brand name. Participants include pharmaceutical companies, distributors, wholesalers, and various channel partners operating globally.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Distribution",
+        "description": "This layer involves the logistics and supply chain management of branded generics from manufacturers to end-users.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "national distributors",
+              "regional distributors"
+            ],
+            "participant_types": [
+              "pharmaceutical distributors",
+              "medical supply distributors"
+            ],
+            "search_intents": [
+              "branded generics distributors",
+              "pharmaceutical distribution companies"
+            ]
+          },
+          {
+            "segment_name": "Wholesalers",
+            "sub_segments": [
+              "pharmaceutical wholesalers",
+              "healthcare wholesalers"
+            ],
+            "participant_types": [
+              "wholesale drug distributors"
+            ],
+            "search_intents": [
+              "branded generics wholesalers",
+              "wholesale pharmaceutical suppliers"
+            ]
+          },
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "online resellers",
+              "retail resellers"
+            ],
+            "participant_types": [
+              "pharmacy chains",
+              "online pharmacies"
+            ],
+            "search_intents": [
+              "branded generics resellers",
+              "retail pharmacy suppliers"
+            ]
+          },
+          {
+            "segment_name": "Service Providers",
+            "sub_segments": [
+              "logistics service providers",
+              "consulting service providers"
+            ],
+            "participant_types": [
+              "third-party logistics (3PL)",
+              "consulting firms"
+            ],
+            "search_intents": [
+              "branded generics service providers",
+              "logistics for pharmaceutical distribution"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Active Pharmaceutical Ingredients (API)",
+        "Research and Development (R&D)",
+        "Clinical Trials",
+        "Regulatory Affairs"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "search for branded generics distributors",
+        "sub_sector": "pharmaceutical_distribution",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "find pharmaceutical wholesalers for branded generics",
+        "sub_sector": "pharmaceutical_wholesaling",
+        "layer_id": "L1",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "search for branded generics resellers",
+        "sub_sector": "retail_reselling",
+        "layer_id": "L1",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "find service providers for branded generics distribution",
+        "sub_sector": "logistics_services",
+        "layer_id": "L1",
+        "segment": "Service Providers"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "pharmaceuticals",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "branded generics companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "branded generics distributors corporate sites"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "branded generics service providers official site"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "discovery",
+      "text": "branded generics distributor official site"
+    },
+    {
+      "id": "P2",
+      "level": "discovery",
+      "text": "branded generics wholesaler corporate headquarters"
+    },
+    {
+      "id": "P3",
+      "level": "discovery",
+      "text": "branded generics reseller corporate site"
+    },
+    {
+      "id": "P4",
+      "level": "discovery",
+      "text": "branded generics service provider official website"
+    },
+    {
+      "id": "P5",
+      "level": "discovery",
+      "text": "branded generics logistics provider corporate profile"
+    },
+    {
+      "id": "P6",
+      "level": "discovery",
+      "text": "branded generics channel partner official site"
+    },
+    {
+      "id": "P7",
+      "level": "discovery",
+      "text": "branded generics supply chain management corporate site"
+    },
+    {
+      "id": "P8",
+      "level": "discovery",
+      "text": "branded generics inventory management official website"
+    },
+    {
+      "id": "P9",
+      "level": "discovery",
+      "text": "branded generics logistics management official website"
+    },
+    {
+      "id": "P10",
+      "level": "discovery",
+      "text": "branded generics supply chain coordination official website"
+    },
+    {
+      "id": "P11",
+      "level": "discovery",
+      "text": "branded generics market access facilitation official website"
+    },
+    {
+      "id": "P12",
+      "level": "discovery",
+      "text": "branded generics sales support official website"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "branded generics companies official websites",
+      "level": "L0",
+      "result_count": 5,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Branded Generics Manufacturers and Recent Developments",
+          "link": "https://www.towardshealthcare.com/companies/branded-generics-companies",
+          "snippet": "Branded Generics Companies and Corporate Growth. Date : 05 November 2025. Leading Innovators in the Branded Generics Market. Sun Pharmaceutical Industries Ltd. Sandoz (Novartis).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Branded Generics Market Report [2033]- Size, Trends & Forecast",
+          "link": "https://www.markettrendsanalysis.com/product/branded-generics-market/",
+          "snippet": "Global Branded Generics Market Trends Analysis By Therapeutic Area (Cardiovascular Drugs, Oncology and Hematology), By Distribution Channel (Hospital Pharmacies, Retail Pharmacies), By Regions and For",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Branded Generics Market Size, Trends, Analysis, and Outlook By...",
+          "link": "https://www.marketresearch.com/VPA-Research-v4245/Branded-Generics-Size-Trends-Outlook-36390821/",
+          "snippet": "Branded Generics Market Size Outlook- Historic and Forecast Revenue in Three Cases. The Branded Generics industry report provides a detailed analysis and outlook of revenue generated by companies from",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 20 Generic Pharma Companies of 2024 - PharmaShots",
+          "link": "https://pharmashots.com/19399/top-20-generic-pharma-companies-of-2024/",
+          "snippet": "26 Sept 2024 ... Torrent Pharma focuses on developing branded generics and generics solutions for chronic and sub-chronic diseases \u00b7 Pantor 20/40, Dilzem, and ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Multibagger Healthcare Stocks 2026 | Best Picks India",
+          "link": "https://univest.in/blogs/multibagger-healthcare-stocks",
+          "snippet": "Branded generics in India: India\u2019s unique branded generics market allows pharma companies to build pricing power through brand investment in a market of generic competition. Key Risks in Healthcare St",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Branded Generics Manufacturers and Recent Developments",
+          "link": "https://www.towardshealthcare.com/companies/branded-generics-companies",
+          "snippet": "Branded Generics Companies and Corporate Growth. Date : 05 November 2025. Leading Innovators in the Branded Generics Market. Sun Pharmaceutical Industries Ltd. Sandoz (Novartis).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Branded Generics Market Report [2033]- Size, Trends & Forecast",
+          "link": "https://www.markettrendsanalysis.com/product/branded-generics-market/",
+          "snippet": "Global Branded Generics Market Trends Analysis By Therapeutic Area (Cardiovascular Drugs, Oncology and Hematology), By Distribution Channel (Hospital Pharmacies, Retail Pharmacies), By Regions and For",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Branded Generics Market Size, Trends, Analysis, and Outlook By...",
+          "link": "https://www.marketresearch.com/VPA-Research-v4245/Branded-Generics-Size-Trends-Outlook-36390821/",
+          "snippet": "Branded Generics Market Size Outlook- Historic and Forecast Revenue in Three Cases. The Branded Generics industry report provides a detailed analysis and outlook of revenue generated by companies from",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 20 Generic Pharma Companies of 2024 - PharmaShots",
+          "link": "https://pharmashots.com/19399/top-20-generic-pharma-companies-of-2024/",
+          "snippet": "26 Sept 2024 ... Torrent Pharma focuses on developing branded generics and generics solutions for chronic and sub-chronic diseases \u00b7 Pantor 20/40, Dilzem, and ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Multibagger Healthcare Stocks 2026 | Best Picks India",
+          "link": "https://univest.in/blogs/multibagger-healthcare-stocks",
+          "snippet": "Branded generics in India: India\u2019s unique branded generics market allows pharma companies to build pricing power through brand investment in a market of generic competition. Key Risks in Healthcare St",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "branded generics distributors corporate sites",
+      "level": "L1",
+      "result_count": 9,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Explore the Global Branded Generics Market\u2014 analysis of key trends...",
+          "link": "https://www.futuremarketinsights.com/reports/branded-generics-market",
+          "snippet": "Branded Generics Market Size, Market Forecast and Outlook By FMI. The branded generics market is valued at USD 382.4 billion in 2025. FMI projects the market to reach USD 414.5 billion in 2026 and USD",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Branded generics - Community Pharmacy England",
+          "link": "https://cpe.org.uk/funding-and-reimbursement/pharmacy-funding/funding-distribution/branded-generics/",
+          "snippet": "... wholesalers and manufacturers and in turn the Drug Tariff reimbursement prices and costs for the NHS. Prescribing branded generics or off-patent branded ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Branded Generics and Why They're Profitable - DrugPatentWatch",
+          "link": "https://www.drugpatentwatch.com/blog/branded-generics-what-they-are-and-why-theyre-profitable/",
+          "snippet": "Branded generics are generic drugs that have been given proprietary brand names. They have a small, but profitable place in the U.S. pharmaceutical market.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Branded Generics - Zentiva",
+          "link": "https://www.zentiva.co.uk/products/branded-generics",
+          "snippet": "Get in touch. Reporting of concerns \u00b7 GDPR \u00b7 Contacts \u00b7 Zentiva Corporate (EN) ... This site is intended for an audience in the United Kingdom. For specific ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Branded Generics Market Report: Size, Growth, Trends & Forecast...",
+          "link": "https://www.verifiedmarketresearch.com/product/branded-generics-market/",
+          "snippet": "Branded Generics Market size was valued at USD 254.81 Bn in 2024 and is projected to reach USD 403.07 Bn by 2032, growing at a CAGR of 5.90% The report provides key trends, growth drivers, segment ana",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Branded Generics Market... | Market Research Reports\u00ae Inc.",
+          "link": "https://www.marketresearchreports.com/lpi/global-branded-generics-market-growth-2024-2030",
+          "snippet": "Branded Generics Distributors List Table 65.Site License (PDF): This license allows for use of a publication by all users within one corporate location, e.g. a regional office. These users may print o",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Branded Generics Market Size & Outlook, 2030",
+          "link": "https://www.grandviewresearch.com/horizon/outlook/branded-generics-market-size/global",
+          "snippet": "Global branded generics market, 2018-2030 (US$M). Filter by country. Download.Global Branded Generics Distribution Channel Outlook (Revenue, USD Million, 2018-2030). Hospital Pharmacy.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Branded Generics Market Size, Share | Growth Report [2034]",
+          "link": "https://www.fortunebusinessinsights.com/branded-generics-market-116042",
+          "snippet": "29 Jun 2026 ... For instance, in July 2024, Fierce Pharma reported that a pharmaceutical company published an article highlighting that sinking prices for ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "US Generic Drug Market Size, Share & Forecast to 2034",
+          "link": "https://www.imarcgroup.com/us-generics-market",
+          "snippet": "Product Portfolio: Generics, branded generics, and branded specialty including EpiPen and Lyrica; biosimilars through Biocon Biologics partnership. Recent Developments: In August 2025, Viatris receive",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Explore the Global Branded Generics Market\u2014 analysis of key trends...",
+          "link": "https://www.futuremarketinsights.com/reports/branded-generics-market",
+          "snippet": "Branded Generics Market Size, Market Forecast and Outlook By FMI. The branded generics market is valued at USD 382.4 billion in 2025. FMI projects the market to reach USD 414.5 billion in 2026 and USD",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Branded generics - Community Pharmacy England",
+          "link": "https://cpe.org.uk/funding-and-reimbursement/pharmacy-funding/funding-distribution/branded-generics/",
+          "snippet": "... wholesalers and manufacturers and in turn the Drug Tariff reimbursement prices and costs for the NHS. Prescribing branded generics or off-patent branded ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Branded Generics and Why They're Profitable - DrugPatentWatch",
+          "link": "https://www.drugpatentwatch.com/blog/branded-generics-what-they-are-and-why-theyre-profitable/",
+          "snippet": "Branded generics are generic drugs that have been given proprietary brand names. They have a small, but profitable place in the U.S. pharmaceutical market.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Branded Generics - Zentiva",
+          "link": "https://www.zentiva.co.uk/products/branded-generics",
+          "snippet": "Get in touch. Reporting of concerns \u00b7 GDPR \u00b7 Contacts \u00b7 Zentiva Corporate (EN) ... This site is intended for an audience in the United Kingdom. For specific ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Branded Generics Market Report: Size, Growth, Trends & Forecast...",
+          "link": "https://www.verifiedmarketresearch.com/product/branded-generics-market/",
+          "snippet": "Branded Generics Market size was valued at USD 254.81 Bn in 2024 and is projected to reach USD 403.07 Bn by 2032, growing at a CAGR of 5.90% The report provides key trends, growth drivers, segment ana",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Branded Generics Market... | Market Research Reports\u00ae Inc.",
+          "link": "https://www.marketresearchreports.com/lpi/global-branded-generics-market-growth-2024-2030",
+          "snippet": "Branded Generics Distributors List Table 65.Site License (PDF): This license allows for use of a publication by all users within one corporate location, e.g. a regional office. These users may print o",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Branded Generics Market Size & Outlook, 2030",
+          "link": "https://www.grandviewresearch.com/horizon/outlook/branded-generics-market-size/global",
+          "snippet": "Global branded generics market, 2018-2030 (US$M). Filter by country. Download.Global Branded Generics Distribution Channel Outlook (Revenue, USD Million, 2018-2030). Hospital Pharmacy.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Branded Generics Market Size, Share | Growth Report [2034]",
+          "link": "https://www.fortunebusinessinsights.com/branded-generics-market-116042",
+          "snippet": "29 Jun 2026 ... For instance, in July 2024, Fierce Pharma reported that a pharmaceutical company published an article highlighting that sinking prices for ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "US Generic Drug Market Size, Share & Forecast to 2034",
+          "link": "https://www.imarcgroup.com/us-generics-market",
+          "snippet": "Product Portfolio: Generics, branded generics, and branded specialty including EpiPen and Lyrica; biosimilars through Biocon Biologics partnership. Recent Developments: In August 2025, Viatris receive",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "branded generics service providers official site",
+      "level": "L2",
+      "result_count": 5,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Sweden Branded Generics Market Size & Outlook, 2033",
+          "link": "https://www.grandviewresearch.com/horizon/outlook/branded-generics-market/sweden",
+          "snippet": "Sweden branded generics market outlook. The databook is designed to serve as a comprehensive guide to navigating this sector. The databook focuses on market statistics denoted in the form of revenue a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Branded Generics Market Report: Size, Growth, Trends & Forecast...",
+          "link": "https://www.verifiedmarketresearch.com/product/branded-generics-market/",
+          "snippet": "Branded Generics Market size was valued at USD 254.81 Bn in 2024 and is projected to reach USD 403.07 Bn by 2032, growing at a CAGR of 5.90% The report provides key trends, growth drivers, segment ana",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "PPT - Branded Generics Market to Expand at a CAGR of 7.3% by...",
+          "link": "https://www.slideserve.com/amir77/branded-generics-market-to-expand-at-a-cagr-of-7-3-by-2026",
+          "snippet": "Branded Generics Market Analysis Differential and innovative product strategies that are adopted by various multinational pharma companies have been fuelling the growth of branded generics market at a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Doctor\u2019s Journey Map: Your GPS to Winning in India\u2019s Branded...",
+          "link": "https://medium.com/customer-centricity-in-life-sciences/the-doctors-journey-map-your-gps-to-winning-in-india-s-branded-generic-market-e8e499dc639d",
+          "snippet": "In branded generics, where clinical differentiation is minimal, this advocacy stage is everything. But can you name even three physicians who are genuine advocates for your top brand? Not because you ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Healthcare Stock Surges 11% on Strong ANDA Pipeline and 385...",
+          "link": "https://in.investing.com/news/stock-market-news/healthcare-stock-surges-11-on-strong-anda-pipeline-and-385-branded-generics-growth-in-q4-5409729",
+          "snippet": "Dogecoin. OFFICIAL TRUMP. Currency Converter.Branded generics delivered exceptional momentum, surging about 385 percent year-on-year, driven by increasing acceptance across multi-specialty and special",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Sweden Branded Generics Market Size & Outlook, 2033",
+          "link": "https://www.grandviewresearch.com/horizon/outlook/branded-generics-market/sweden",
+          "snippet": "Sweden branded generics market outlook. The databook is designed to serve as a comprehensive guide to navigating this sector. The databook focuses on market statistics denoted in the form of revenue a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Branded Generics Market Report: Size, Growth, Trends & Forecast...",
+          "link": "https://www.verifiedmarketresearch.com/product/branded-generics-market/",
+          "snippet": "Branded Generics Market size was valued at USD 254.81 Bn in 2024 and is projected to reach USD 403.07 Bn by 2032, growing at a CAGR of 5.90% The report provides key trends, growth drivers, segment ana",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "PPT - Branded Generics Market to Expand at a CAGR of 7.3% by...",
+          "link": "https://www.slideserve.com/amir77/branded-generics-market-to-expand-at-a-cagr-of-7-3-by-2026",
+          "snippet": "Branded Generics Market Analysis Differential and innovative product strategies that are adopted by various multinational pharma companies have been fuelling the growth of branded generics market at a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Doctor\u2019s Journey Map: Your GPS to Winning in India\u2019s Branded...",
+          "link": "https://medium.com/customer-centricity-in-life-sciences/the-doctors-journey-map-your-gps-to-winning-in-india-s-branded-generic-market-e8e499dc639d",
+          "snippet": "In branded generics, where clinical differentiation is minimal, this advocacy stage is everything. But can you name even three physicians who are genuine advocates for your top brand? Not because you ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Healthcare Stock Surges 11% on Strong ANDA Pipeline and 385...",
+          "link": "https://in.investing.com/news/stock-market-news/healthcare-stock-surges-11-on-strong-anda-pipeline-and-385-branded-generics-growth-in-q4-5409729",
+          "snippet": "Dogecoin. OFFICIAL TRUMP. Currency Converter.Branded generics delivered exceptional momentum, surging about 385 percent year-on-year, driven by increasing acceptance across multi-specialty and special",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "branded generics distributor official site",
+      "level": "discovery",
+      "result_count": 5,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Branded Generics | Nectar Biopharma",
+          "link": "https://www.necbio.com/branded-generics",
+          "snippet": "Branded Generics. Nectar Biopharma's branded generics division is one of the fastest growing in the India's Generic Pharmaceutical space. For over 10 years, we have continued to strive for excellence ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Explore the Global Branded Generics Market\u2014 analysis of key trends...",
+          "link": "https://www.futuremarketinsights.com/reports/branded-generics-market",
+          "snippet": "Branded Generics Market Size, Market Forecast and Outlook By FMI. The branded generics market is valued at USD 382.4 billion in 2025. FMI projects the market to reach USD 414.5 billion in 2026 and USD",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Branded Generics Market Report: Size, Growth, Trends & Forecast...",
+          "link": "https://www.verifiedmarketresearch.com/product/branded-generics-market/",
+          "snippet": "Branded Generics Market size was valued at USD 254.81 Bn in 2024 and is projected to reach USD 403.07 Bn by 2032, growing at a CAGR of 5.90% The report provides key trends, growth drivers, segment ana",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Branded Generics Market Size, Share, Growth Analysis - Industry...",
+          "link": "https://www.skyquestt.com/report/branded-generics-market",
+          "snippet": "Segmentation Analysis: The Branded Generics Market is segmented by Branded Generics Drug Class, Branded Generics Application, Branded Generics Route of Administration, Branded Generics Distribution Ch",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sun Pharmaceuticals Logo & Brand Assets (SVG, PNG...) - Brandfetch",
+          "link": "https://brandfetch.com/sun-pharmaceuticals.de",
+          "snippet": "We also distribute generics under our own brand name, known as \"Branded Generics.Our vision is to prioritize patient well-being and offer expertise through collaboration with healthcare professionals ",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Branded Generics | Nectar Biopharma",
+          "link": "https://www.necbio.com/branded-generics",
+          "snippet": "Branded Generics. Nectar Biopharma's branded generics division is one of the fastest growing in the India's Generic Pharmaceutical space. For over 10 years, we have continued to strive for excellence ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Explore the Global Branded Generics Market\u2014 analysis of key trends...",
+          "link": "https://www.futuremarketinsights.com/reports/branded-generics-market",
+          "snippet": "Branded Generics Market Size, Market Forecast and Outlook By FMI. The branded generics market is valued at USD 382.4 billion in 2025. FMI projects the market to reach USD 414.5 billion in 2026 and USD",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Branded Generics Market Report: Size, Growth, Trends & Forecast...",
+          "link": "https://www.verifiedmarketresearch.com/product/branded-generics-market/",
+          "snippet": "Branded Generics Market size was valued at USD 254.81 Bn in 2024 and is projected to reach USD 403.07 Bn by 2032, growing at a CAGR of 5.90% The report provides key trends, growth drivers, segment ana",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Branded Generics Market Size, Share, Growth Analysis - Industry...",
+          "link": "https://www.skyquestt.com/report/branded-generics-market",
+          "snippet": "Segmentation Analysis: The Branded Generics Market is segmented by Branded Generics Drug Class, Branded Generics Application, Branded Generics Route of Administration, Branded Generics Distribution Ch",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sun Pharmaceuticals Logo & Brand Assets (SVG, PNG...) - Brandfetch",
+          "link": "https://brandfetch.com/sun-pharmaceuticals.de",
+          "snippet": "We also distribute generics under our own brand name, known as \"Branded Generics.Our vision is to prioritize patient well-being and offer expertise through collaboration with healthcare professionals ",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P2": {
+      "query": "branded generics wholesaler corporate headquarters",
+      "level": "discovery",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Supplier Directory",
+          "link": "https://websitefilehosting.blob.core.windows.net/public/website-media/Supplier+Directory+(14).pdf",
+          "snippet": "Suppliers Full line wholesalers Shortline wholesalers Generics Brand Deals Surgical Specials Partners OTC Sundries Services Other Insurance.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Supplier Directory",
+          "link": "https://websitefilehosting.blob.core.windows.net/public/website-media/Supplier+Directory+(14).pdf",
+          "snippet": "Suppliers Full line wholesalers Shortline wholesalers Generics Brand Deals Surgical Specials Partners OTC Sundries Services Other Insurance.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P3": {
+      "query": "branded generics reseller corporate site",
+      "level": "discovery",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Branded Generics Market Report: Size, Growth, Trends & Forecast...",
+          "link": "https://www.verifiedmarketresearch.com/product/branded-generics-market/",
+          "snippet": "Branded Generics Market size was valued at USD 254.81 Bn in 2024 and is projected to reach USD 403.07 Bn by 2032, growing at a CAGR of 5.90% The report provides key trends, growth drivers, segment ana",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Branded Generics Market Report: Size, Growth, Trends & Forecast...",
+          "link": "https://www.verifiedmarketresearch.com/product/branded-generics-market/",
+          "snippet": "Branded Generics Market size was valued at USD 254.81 Bn in 2024 and is projected to reach USD 403.07 Bn by 2032, growing at a CAGR of 5.90% The report provides key trends, growth drivers, segment ana",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P4": {
+      "query": "branded generics service provider official website",
+      "level": "discovery",
+      "result_count": 2,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Branded Generics Market Report: Size, Growth, Trends & Forecast...",
+          "link": "https://www.verifiedmarketresearch.com/product/branded-generics-market/",
+          "snippet": "Branded Generics Market size was valued at USD 254.81 Bn in 2024 and is projected to reach USD 403.07 Bn by 2032, growing at a CAGR of 5.90% The report provides key trends, growth drivers, segment ana",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Doctor\u2019s Journey Map: Your GPS to Winning in India\u2019s Branded...",
+          "link": "https://medium.com/customer-centricity-in-life-sciences/the-doctors-journey-map-your-gps-to-winning-in-india-s-branded-generic-market-e8e499dc639d",
+          "snippet": "The physician\u2019s journey in branded generics isn\u2019t just about your touch-points.In branded generics, where clinical differentiation is minimal, this advocacy stage is everything. But can you name even ",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Branded Generics Market Report: Size, Growth, Trends & Forecast...",
+          "link": "https://www.verifiedmarketresearch.com/product/branded-generics-market/",
+          "snippet": "Branded Generics Market size was valued at USD 254.81 Bn in 2024 and is projected to reach USD 403.07 Bn by 2032, growing at a CAGR of 5.90% The report provides key trends, growth drivers, segment ana",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Doctor\u2019s Journey Map: Your GPS to Winning in India\u2019s Branded...",
+          "link": "https://medium.com/customer-centricity-in-life-sciences/the-doctors-journey-map-your-gps-to-winning-in-india-s-branded-generic-market-e8e499dc639d",
+          "snippet": "The physician\u2019s journey in branded generics isn\u2019t just about your touch-points.In branded generics, where clinical differentiation is minimal, this advocacy stage is everything. But can you name even ",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P5": {
+      "query": "branded generics logistics provider corporate profile",
+      "level": "discovery",
+      "result_count": 6,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "CEVA Logistics | Global logistics services, freight company...",
+          "link": "https://www.cevalogistics.com/",
+          "snippet": "CEVA Logistics gives you the assurance of the World's Leading Supply Chain Management organization. As a Freight Company, we design & implement industry- leading freight management services.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "DHL Home - Global Logistics and International Shipping United Arab...",
+          "link": "https://www.dhl.com/ae-en/home.html",
+          "snippet": "Enterprise Logistics Services. Our Supply Chain division creates custom solutions for enterprise-sized organizations. Discover what makes DHL Supply Chain the perfect fit as your outsourced logistics ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "ADNOC Logistics and Services - L&S",
+          "link": "https://adnocls.ae/",
+          "snippet": "We are the dedicated logistics provider for ADNOC Group, offering essential and specialized services throughout the energy supply chain. We provide secure, dependable, and efficient maritime and logis",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "DFDS Group | Northern Europe's leading transport provider",
+          "link": "https://www.dfds.com/en/about",
+          "snippet": "DFDS is northern Europe\u2019s largest integrated shipping and logistics company, operating 30 routes, providing logistics services.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Universal Parcel Tracking - Global Package Tracking",
+          "link": "https://parcelsapp.com/",
+          "snippet": "A well-known worldwide auction site, recently launched the eBay Global Shipping Program in which the Pitney Bowes through the third party logistics providers, shipping carriers, customs brokers, freig",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home",
+          "link": "https://www.dachser.com/",
+          "snippet": "Welcome to our corporate website.It provides a proven, reliable basis for intelligent distribution and procurement logistics as well as trustworthy, long-term partnerships as par.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "CEVA Logistics | Global logistics services, freight company...",
+          "link": "https://www.cevalogistics.com/",
+          "snippet": "CEVA Logistics gives you the assurance of the World's Leading Supply Chain Management organization. As a Freight Company, we design & implement industry- leading freight management services.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "DHL Home - Global Logistics and International Shipping United Arab...",
+          "link": "https://www.dhl.com/ae-en/home.html",
+          "snippet": "Enterprise Logistics Services. Our Supply Chain division creates custom solutions for enterprise-sized organizations. Discover what makes DHL Supply Chain the perfect fit as your outsourced logistics ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "ADNOC Logistics and Services - L&S",
+          "link": "https://adnocls.ae/",
+          "snippet": "We are the dedicated logistics provider for ADNOC Group, offering essential and specialized services throughout the energy supply chain. We provide secure, dependable, and efficient maritime and logis",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "DFDS Group | Northern Europe's leading transport provider",
+          "link": "https://www.dfds.com/en/about",
+          "snippet": "DFDS is northern Europe\u2019s largest integrated shipping and logistics company, operating 30 routes, providing logistics services.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Universal Parcel Tracking - Global Package Tracking",
+          "link": "https://parcelsapp.com/",
+          "snippet": "A well-known worldwide auction site, recently launched the eBay Global Shipping Program in which the Pitney Bowes through the third party logistics providers, shipping carriers, customs brokers, freig",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home",
+          "link": "https://www.dachser.com/",
+          "snippet": "Welcome to our corporate website.It provides a proven, reliable basis for intelligent distribution and procurement logistics as well as trustworthy, long-term partnerships as par.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "branded generics channel partner official site",
+      "level": "discovery",
+      "result_count": 2,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Branded Generics Market Report: Size, Growth, Trends & Forecast...",
+          "link": "https://www.verifiedmarketresearch.com/product/branded-generics-market/",
+          "snippet": "Branded Generics Market size was valued at USD 254.81 Bn in 2024 and is projected to reach USD 403.07 Bn by 2032, growing at a CAGR of 5.90% The report provides key trends, growth drivers, segment ana",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Doctor\u2019s Journey Map: Your GPS to Winning in India\u2019s Branded...",
+          "link": "https://medium.com/customer-centricity-in-life-sciences/the-doctors-journey-map-your-gps-to-winning-in-india-s-branded-generic-market-e8e499dc639d",
+          "snippet": "In branded generics, where clinical differentiation is minimal, this advocacy stage is everything. But can you name even three physicians who are genuine advocates for your top brand? Not because you ",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Branded Generics Market Report: Size, Growth, Trends & Forecast...",
+          "link": "https://www.verifiedmarketresearch.com/product/branded-generics-market/",
+          "snippet": "Branded Generics Market size was valued at USD 254.81 Bn in 2024 and is projected to reach USD 403.07 Bn by 2032, growing at a CAGR of 5.90% The report provides key trends, growth drivers, segment ana",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Doctor\u2019s Journey Map: Your GPS to Winning in India\u2019s Branded...",
+          "link": "https://medium.com/customer-centricity-in-life-sciences/the-doctors-journey-map-your-gps-to-winning-in-india-s-branded-generic-market-e8e499dc639d",
+          "snippet": "In branded generics, where clinical differentiation is minimal, this advocacy stage is everything. But can you name even three physicians who are genuine advocates for your top brand? Not because you ",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P7": {
+      "query": "branded generics supply chain management corporate site",
+      "level": "discovery",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "UPS Global Shipping & Logistics Solutions | UPS - United States",
+          "link": "https://www.ups.com/global",
+          "snippet": "Need to ship packages across the world? Let UPS be your logistics partner. Explore our services and simplify your shipping process.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "UPS Global Shipping & Logistics Solutions | UPS - United States",
+          "link": "https://www.ups.com/global",
+          "snippet": "Need to ship packages across the world? Let UPS be your logistics partner. Explore our services and simplify your shipping process.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

@@ -1,0 +1,1469 @@
+{
+  "phase": 1,
+  "query": "Used Bike Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T21:11:03.724928+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "used bike",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "bicycles",
+    "industry_terms": [
+      "used bicycles",
+      "pre-owned bikes",
+      "second-hand bikes",
+      "refurbished bicycles",
+      "bike resale"
+    ],
+    "ecosystem_functions": [
+      "distributing used bikes",
+      "wholesaling pre-owned bicycles",
+      "reselling used bikes",
+      "providing bike maintenance services",
+      "integrating bike systems",
+      "partnering for bike sales",
+      "repairing used bicycles",
+      "customizing bike builds"
+    ],
+    "interpretation_summary": "The used bike market encompasses the buying and selling of pre-owned bicycles, including various types such as mountain bikes, road bikes, and electric bikes. Participants include distributors, wholesalers, resellers, sy",
+    "relevance_keywords": [
+      "used bike sales",
+      "pre-owned bicycle distributors",
+      "wholesale bike suppliers",
+      "bike service providers",
+      "resale bike networks"
+    ],
+    "negative_keywords": [
+      "new",
+      "accessories",
+      "rental",
+      "repair",
+      "consultant",
+      "job board"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "eBay",
+        "primary_domain": "ebay.com",
+        "company_function": "online marketplace for used bikes"
+      },
+      {
+        "canonical_name": "Craigslist",
+        "primary_domain": "craigslist.org",
+        "company_function": "classifieds platform for used bikes"
+      },
+      {
+        "canonical_name": "Bicycle Blue Book",
+        "primary_domain": "bicyclebluebook.com",
+        "company_function": "valuation and resale of used bikes"
+      },
+      {
+        "canonical_name": "The Pro's Closet",
+        "primary_domain": "theproscloset.com",
+        "company_function": "specialized reseller of used bikes"
+      },
+      {
+        "canonical_name": "BikeExchange",
+        "primary_domain": "bikeexchange.com",
+        "company_function": "marketplace for buying and selling used bikes"
+      },
+      {
+        "canonical_name": "Jenson USA",
+        "primary_domain": "jensonusa.com",
+        "company_function": "online retailer of used bikes"
+      },
+      {
+        "canonical_name": "Trek Bicycle",
+        "primary_domain": "trekbikes.com",
+        "company_function": "distributor and retailer of used bikes"
+      },
+      {
+        "canonical_name": "Specialized Bicycle Components",
+        "primary_domain": "specialized.com",
+        "company_function": "distributor and retailer of used bikes"
+      },
+      {
+        "canonical_name": "Performance Bicycle",
+        "primary_domain": "performancebike.com",
+        "company_function": "wholesaler and retailer of used bikes",
+        "segment": "Wholesalers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Walmart",
+        "primary_domain": "walmart.com",
+        "company_function": "retailer of used bikes",
+        "segment": "Resellers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "BikeCo",
+        "primary_domain": "bikeco.com",
+        "company_function": "wholesaler of used bikes",
+        "segment": "Wholesalers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Bicycle Warehouse",
+        "primary_domain": "bicyclewarehouse.com",
+        "company_function": "distributor and retailer of used bikes",
+        "segment": "Distributors",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Bikexchange",
+        "primary_domain": "bikexchange.com",
+        "company_function": "online platform for used bike sales",
+        "segment": "Channel Partners",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Bike Repair Shop",
+        "primary_domain": "bikerepairshop.com",
+        "company_function": "service provider for used bikes",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "used bike",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "used bike",
+    "include_keywords": [
+      "certified pre-owned bikes",
+      "used bike warranty",
+      "bike resale platforms",
+      "refurbished bike dealers",
+      "online used bike marketplace"
+    ],
+    "exclude_keywords": [
+      "new bikes",
+      "bike accessories",
+      "bike rentals",
+      "bike repair shops",
+      "market reports",
+      "news articles"
+    ],
+    "scope_version": 2,
+    "market_definition": "The used bike market encompasses the buying and selling of pre-owned bicycles, including various types such as mountain bikes, road bikes, and electric bikes. Participants include distributors, wholesalers, resellers, system integrators, service providers, and channel partners operating globally.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Distribution",
+        "description": "This layer involves the distribution of used bikes from sellers to various retail and service channels.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Regional distributors",
+              "Online distributors"
+            ],
+            "participant_types": [
+              "distributor"
+            ],
+            "search_intents": [
+              "used bike distributors near me",
+              "global used bike distributors"
+            ]
+          },
+          {
+            "segment_name": "Wholesalers",
+            "sub_segments": [
+              "Local wholesalers",
+              "Online wholesalers"
+            ],
+            "participant_types": [
+              "wholesaler"
+            ],
+            "search_intents": [
+              "wholesale used bikes suppliers",
+              "used bike wholesale market"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L2",
+        "layer_name": "Retail",
+        "description": "This layer includes various retail channels where used bikes are sold to consumers.",
+        "segments": [
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Online resellers",
+              "Local bike shops"
+            ],
+            "participant_types": [
+              "reseller"
+            ],
+            "search_intents": [
+              "buy used bikes online",
+              "local used bike resellers"
+            ]
+          },
+          {
+            "segment_name": "Channel Partners",
+            "sub_segments": [
+              "Affiliate marketers",
+              "Partnership networks"
+            ],
+            "participant_types": [
+              "channel partner"
+            ],
+            "search_intents": [
+              "used bike channel partners",
+              "partnerships for used bike sales"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L3",
+        "layer_name": "Services",
+        "description": "This layer covers services related to the maintenance and integration of used bikes.",
+        "segments": [
+          {
+            "segment_name": "Service Providers",
+            "sub_segments": [
+              "Repair services",
+              "Maintenance services"
+            ],
+            "participant_types": [
+              "service provider"
+            ],
+            "search_intents": [
+              "used bike repair services",
+              "maintenance for used bikes"
+            ]
+          },
+          {
+            "segment_name": "System Integrators",
+            "sub_segments": [
+              "Bike fitting services",
+              "Custom build services"
+            ],
+            "participant_types": [
+              "system integrator"
+            ],
+            "search_intents": [
+              "bike fitting system integrators",
+              "custom bike build services"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "New bike manufacturers",
+        "Bike accessories retailers",
+        "Bike rental services",
+        "Bicycle repair shops"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "find used bike distributors globally",
+        "sub_sector": "distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "search for wholesale used bike suppliers",
+        "sub_sector": "wholesaler",
+        "layer_id": "L1",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "locate online used bike resellers",
+        "sub_sector": "reseller",
+        "layer_id": "L2",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "find partnerships for used bike sales",
+        "sub_sector": "channel_partner",
+        "layer_id": "L2",
+        "segment": "Channel Partners"
+      },
+      {
+        "id": "M5",
+        "level": "market_map",
+        "text": "search for used bike repair services",
+        "sub_sector": "service_provider",
+        "layer_id": "L3",
+        "segment": "Service Providers"
+      },
+      {
+        "id": "M6",
+        "level": "market_map",
+        "text": "find bike fitting system integrators",
+        "sub_sector": "system_integrator",
+        "layer_id": "L3",
+        "segment": "System Integrators"
+      },
+      {
+        "id": "M7",
+        "level": "market_map",
+        "text": "used bike distributors in my region",
+        "sub_sector": "distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M8",
+        "level": "market_map",
+        "text": "local used bike resellers near me",
+        "sub_sector": "reseller",
+        "layer_id": "L2",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M9",
+        "level": "market_map",
+        "text": "used bike channel partners worldwide",
+        "sub_sector": "channel_partner",
+        "layer_id": "L2",
+        "segment": "Channel Partners"
+      },
+      {
+        "id": "M10",
+        "level": "market_map",
+        "text": "maintenance services for used bikes",
+        "sub_sector": "service_provider",
+        "layer_id": "L3",
+        "segment": "Service Providers"
+      },
+      {
+        "id": "M11",
+        "level": "market_map",
+        "text": "custom bike build services available",
+        "sub_sector": "system_integrator",
+        "layer_id": "L3",
+        "segment": "System Integrators"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "bicycles",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "used bike companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "used bike distributors corporate site"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "used bike resellers official website"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "market_map",
+      "text": "find used bike distributors globally"
+    },
+    {
+      "id": "P2",
+      "level": "market_map",
+      "text": "search for wholesale used bike suppliers"
+    },
+    {
+      "id": "P3",
+      "level": "market_map",
+      "text": "locate online used bike resellers"
+    },
+    {
+      "id": "P4",
+      "level": "market_map",
+      "text": "find partnerships for used bike sales"
+    },
+    {
+      "id": "P5",
+      "level": "market_map",
+      "text": "search for used bike repair services"
+    },
+    {
+      "id": "P6",
+      "level": "market_map",
+      "text": "find bike fitting system integrators"
+    },
+    {
+      "id": "P7",
+      "level": "market_map",
+      "text": "used bike distributors in my region"
+    },
+    {
+      "id": "P8",
+      "level": "market_map",
+      "text": "local used bike resellers near me"
+    },
+    {
+      "id": "P9",
+      "level": "market_map",
+      "text": "used bike channel partners worldwide"
+    },
+    {
+      "id": "P10",
+      "level": "market_map",
+      "text": "maintenance services for used bikes"
+    },
+    {
+      "id": "P11",
+      "level": "market_map",
+      "text": "custom bike build services available"
+    },
+    {
+      "id": "P12",
+      "level": "discovery",
+      "text": "used bike distributor corporate website"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "used bike companies official websites",
+      "level": "L0",
+      "result_count": 11,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "New Bikes, New Scooters & New EVs, Buy & Sell Used... - BikeDekho",
+          "link": "https://www.bikedekho.com/",
+          "snippet": "Find the perfect bike or scooter at BikeDekho. Explore two wheeler on-road prices, colours, reviews, comparisons, news, used bikes, and upcoming new launches in 2026.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy & Sell Used Bikes and Sports Gear Online | buycycle",
+          "link": "https://buycycle.com/",
+          "snippet": "100,000+ Bikes, Parts & Running GearTrusted by 1M+ AthletesBuy and sell used bikes on buycycle.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "New Bikes, New Scooters, Electric Bikes - BikeWale",
+          "link": "https://www.bikewale.com/",
+          "snippet": "BikeWale is one of the India's leading source of bike and scooter related information. BikeWale exists to simplify bike buying in India and helps you buy the right bike at the right price.Used Bikes.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Used Motorcycle For Sale - Buy and Sell Motorcycles Australia",
+          "link": "https://www.bikesales.com.au/",
+          "snippet": "Search thousands of new and used bikes for sale or sell on bikesales today! Find special offers, reviews, news & advice on Australia\u2019s #1 motorcycle site.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Second Hand bikes in India | Buy & Sell used bikes - BikeWale",
+          "link": "https://bikewale.com/m/used/",
+          "snippet": "Buy or sell a second hand bike online for Free! Thousands of used bikes for sale from all major Indian cities and towns",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "2WheelR - Buy & Sell Used Bikes Online | Pune's Leading Two-Wheeler ...",
+          "link": "https://www.2wheelr.com/",
+          "snippet": "Pune's leading marketplace for buying and selling used bikes. Find your perfect two-wheeler with verified sellers, easy financing options, and hassle-free transactions. Buy or sell bikes online safely",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Used Bikes for Sale | Road, Mountain, Gravel Bikes & Ebikes | TPC",
+          "link": "https://www.theproscloset.com/",
+          "snippet": "Explore TPC's collection of new & used bikes, frames, and wheels, all certified and vetted through a multi-point inspection. Shop from road, mountain mtb, gravel bikes, ebikes and components all from ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Online Bike Marketplace in India - Buy and Sell Used Bikes, Book New ...",
+          "link": "https://www.bikes4sale.in/",
+          "snippet": "Bikes4Sale, started in 2007, helps people buy and sell secondhand bikes. More than 8,00,000 bikes have been sold. Buy new bikes and scooters online. Compare prices and specifications of new two-wheele",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "High End Used Bikes For Sale | Bikes For Sale | Cycle Limited",
+          "link": "https://cyclelimited.com/",
+          "snippet": "The world's largest destination for new and Certified Pre-Owned bikes, frames, wheels, and gear. Trusted by over 360,000 riders for quality, service, and unbeatable value.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Second Hand Bikes in India, Used Bikes for Sale | BikeDekho",
+          "link": "https://www.bikedekho.com/usedBikes",
+          "snippet": "Find second hand bikes for sale in your city with images and price. BikeDekho.com is the best place to find the largest collection of genuine used bikes.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "1009 Used Bikes in Pune, Second Hand Bikes for Sale in Pune",
+          "link": "https://bikewale.com/m/used/bikes-in-pune/",
+          "snippet": "1009 Used Bikes in Pune with EMI options. Find good condition second hand bikes in Pune. Great prices on old bikes for sale in Pune at BikeWale.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "New Bikes, New Scooters & New EVs, Buy & Sell Used... - BikeDekho",
+          "link": "https://www.bikedekho.com/",
+          "snippet": "Find the perfect bike or scooter at BikeDekho. Explore two wheeler on-road prices, colours, reviews, comparisons, news, used bikes, and upcoming new launches in 2026.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy & Sell Used Bikes and Sports Gear Online | buycycle",
+          "link": "https://buycycle.com/",
+          "snippet": "100,000+ Bikes, Parts & Running GearTrusted by 1M+ AthletesBuy and sell used bikes on buycycle.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "New Bikes, New Scooters, Electric Bikes - BikeWale",
+          "link": "https://www.bikewale.com/",
+          "snippet": "BikeWale is one of the India's leading source of bike and scooter related information. BikeWale exists to simplify bike buying in India and helps you buy the right bike at the right price.Used Bikes.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Used Motorcycle For Sale - Buy and Sell Motorcycles Australia",
+          "link": "https://www.bikesales.com.au/",
+          "snippet": "Search thousands of new and used bikes for sale or sell on bikesales today! Find special offers, reviews, news & advice on Australia\u2019s #1 motorcycle site.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Second Hand bikes in India | Buy & Sell used bikes - BikeWale",
+          "link": "https://bikewale.com/m/used/",
+          "snippet": "Buy or sell a second hand bike online for Free! Thousands of used bikes for sale from all major Indian cities and towns",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "2WheelR - Buy & Sell Used Bikes Online | Pune's Leading Two-Wheeler ...",
+          "link": "https://www.2wheelr.com/",
+          "snippet": "Pune's leading marketplace for buying and selling used bikes. Find your perfect two-wheeler with verified sellers, easy financing options, and hassle-free transactions. Buy or sell bikes online safely",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Used Bikes for Sale | Road, Mountain, Gravel Bikes & Ebikes | TPC",
+          "link": "https://www.theproscloset.com/",
+          "snippet": "Explore TPC's collection of new & used bikes, frames, and wheels, all certified and vetted through a multi-point inspection. Shop from road, mountain mtb, gravel bikes, ebikes and components all from ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Online Bike Marketplace in India - Buy and Sell Used Bikes, Book New ...",
+          "link": "https://www.bikes4sale.in/",
+          "snippet": "Bikes4Sale, started in 2007, helps people buy and sell secondhand bikes. More than 8,00,000 bikes have been sold. Buy new bikes and scooters online. Compare prices and specifications of new two-wheele",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "High End Used Bikes For Sale | Bikes For Sale | Cycle Limited",
+          "link": "https://cyclelimited.com/",
+          "snippet": "The world's largest destination for new and Certified Pre-Owned bikes, frames, wheels, and gear. Trusted by over 360,000 riders for quality, service, and unbeatable value.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Second Hand Bikes in India, Used Bikes for Sale | BikeDekho",
+          "link": "https://www.bikedekho.com/usedBikes",
+          "snippet": "Find second hand bikes for sale in your city with images and price. BikeDekho.com is the best place to find the largest collection of genuine used bikes.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "1009 Used Bikes in Pune, Second Hand Bikes for Sale in Pune",
+          "link": "https://bikewale.com/m/used/bikes-in-pune/",
+          "snippet": "1009 Used Bikes in Pune with EMI options. Find good condition second hand bikes in Pune. Great prices on old bikes for sale in Pune at BikeWale.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "used bike distributors corporate site",
+      "level": "L1",
+      "result_count": 12,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Used Motorcycle For Sale - Buy and Sell Motorcycles Australia",
+          "link": "https://www.bikesales.com.au/",
+          "snippet": "Search thousands of new and used bikes for sale or sell on bikesales today! Find special offers, reviews, news & advice on Australia\u2019s #1 motorcycle site.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "New Bikes, New Scooters, Electric Bikes - BikeWale",
+          "link": "https://www.bikewale.com/",
+          "snippet": "BikeWale is one of the India's leading source of bike and scooter related information. BikeWale exists to simplify bike buying in India and helps you buy the right bike at the right price.Used Bikes.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "New Bikes, New Scooters & New EVs, Buy & Sell Used... - BikeDekho",
+          "link": "https://www.bikedekho.com/",
+          "snippet": "Find the perfect bike or scooter at BikeDekho. Explore two wheeler on-road prices, colours, reviews, comparisons, news, used bikes, and upcoming new launches in 2026.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy & Sell Used Bikes and Sports Gear Online | buycycle",
+          "link": "https://buycycle.com/",
+          "snippet": "100,000+ Bikes, Parts & Running GearTrusted by 1M+ AthletesHigh Demand. The best deals on our most popular bikes - they won't last long!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "6,524 Used bikes and scooters in Pune. Buy from Owners and Dealers",
+          "link": "https://www.bikes4sale.in/used/buy/bikes-in-pune/",
+          "snippet": "Buy secondhand two wheelers from Bikes4Sale, a dedicated two-wheeler portal running since 2007. Choose the bike you liked and contact the owner directly. Inspect the bike and buy it after verifying al",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "20,045 Used bikes and scooters in Maharashtra. Buy from Owners and Dealers",
+          "link": "https://www.bikes4sale.in/used/buy/bikes-in-maharashtra/",
+          "snippet": "Buy secondhand two wheelers from Bikes4Sale, a dedicated two-wheeler portal running since 2007. Choose the bike you liked and contact the owner directly. Inspect the bike and buy it after verifying al",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "1977 Used Bikes in Pune - Buy Used Two Wheelers - OLX",
+          "link": "https://www.olx.in/pune_g4059014/bikes_c2198",
+          "snippet": "Looking for a reliable second-hand bike in Pune? You are in the right place because we currently have a wide range of 4737 used bikes listed, perfect for every budget and need. Whether you are looking",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "2WheelR - Buy & Sell Used Bikes Online | Pune's Leading Two-Wheeler ...",
+          "link": "https://www.2wheelr.com/",
+          "snippet": "Pune's leading marketplace for buying and selling used bikes. Find your perfect two-wheeler with verified sellers, easy financing options, and hassle-free transactions. Buy or sell bikes online safely",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "101 Used Bikes in Pune | Second Hand Bikes for sale | QuikrBikes",
+          "link": "https://www.quikr.com/bikes-scooters/used+bikes-scooters+pune+w1284",
+          "snippet": "13 July 2026: Check Latest Used Bikes in Pune (101 results). Find great deals on good condition second hand Bikes for sale in Pune with price, features, images and specifications at QuikrBikes",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "1009 Used Bikes in Pune, Second Hand Bikes for Sale in Pune",
+          "link": "https://bikewale.com/m/used/bikes-in-pune/",
+          "snippet": "1009 Used Bikes in Pune with EMI options. Find good condition second hand bikes in Pune. Great prices on old bikes for sale in Pune at BikeWale.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Used Bikes in Pune - 819 Second Hand Bikes in Pune - Droom",
+          "link": "https://droom.in/bikes/used/pune",
+          "snippet": "Used Bikes in Pune - Buy from the largest collection of verified second hand bikes in Pune in excellent condition at best price with great offers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Second Hand Bikes in Pune | Used Bikes for Sale - BikeDekho",
+          "link": "https://www.bikedekho.com/used-bikes+in+pune",
+          "snippet": "181 second hand bikes in Pune. Explore the stock of certified and good condition used bikes in Pune at BikeDekho.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Used Motorcycle For Sale - Buy and Sell Motorcycles Australia",
+          "link": "https://www.bikesales.com.au/",
+          "snippet": "Search thousands of new and used bikes for sale or sell on bikesales today! Find special offers, reviews, news & advice on Australia\u2019s #1 motorcycle site.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "New Bikes, New Scooters, Electric Bikes - BikeWale",
+          "link": "https://www.bikewale.com/",
+          "snippet": "BikeWale is one of the India's leading source of bike and scooter related information. BikeWale exists to simplify bike buying in India and helps you buy the right bike at the right price.Used Bikes.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "New Bikes, New Scooters & New EVs, Buy & Sell Used... - BikeDekho",
+          "link": "https://www.bikedekho.com/",
+          "snippet": "Find the perfect bike or scooter at BikeDekho. Explore two wheeler on-road prices, colours, reviews, comparisons, news, used bikes, and upcoming new launches in 2026.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy & Sell Used Bikes and Sports Gear Online | buycycle",
+          "link": "https://buycycle.com/",
+          "snippet": "100,000+ Bikes, Parts & Running GearTrusted by 1M+ AthletesHigh Demand. The best deals on our most popular bikes - they won't last long!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "6,524 Used bikes and scooters in Pune. Buy from Owners and Dealers",
+          "link": "https://www.bikes4sale.in/used/buy/bikes-in-pune/",
+          "snippet": "Buy secondhand two wheelers from Bikes4Sale, a dedicated two-wheeler portal running since 2007. Choose the bike you liked and contact the owner directly. Inspect the bike and buy it after verifying al",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "20,045 Used bikes and scooters in Maharashtra. Buy from Owners and Dealers",
+          "link": "https://www.bikes4sale.in/used/buy/bikes-in-maharashtra/",
+          "snippet": "Buy secondhand two wheelers from Bikes4Sale, a dedicated two-wheeler portal running since 2007. Choose the bike you liked and contact the owner directly. Inspect the bike and buy it after verifying al",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "1977 Used Bikes in Pune - Buy Used Two Wheelers - OLX",
+          "link": "https://www.olx.in/pune_g4059014/bikes_c2198",
+          "snippet": "Looking for a reliable second-hand bike in Pune? You are in the right place because we currently have a wide range of 4737 used bikes listed, perfect for every budget and need. Whether you are looking",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "2WheelR - Buy & Sell Used Bikes Online | Pune's Leading Two-Wheeler ...",
+          "link": "https://www.2wheelr.com/",
+          "snippet": "Pune's leading marketplace for buying and selling used bikes. Find your perfect two-wheeler with verified sellers, easy financing options, and hassle-free transactions. Buy or sell bikes online safely",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "101 Used Bikes in Pune | Second Hand Bikes for sale | QuikrBikes",
+          "link": "https://www.quikr.com/bikes-scooters/used+bikes-scooters+pune+w1284",
+          "snippet": "13 July 2026: Check Latest Used Bikes in Pune (101 results). Find great deals on good condition second hand Bikes for sale in Pune with price, features, images and specifications at QuikrBikes",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "1009 Used Bikes in Pune, Second Hand Bikes for Sale in Pune",
+          "link": "https://bikewale.com/m/used/bikes-in-pune/",
+          "snippet": "1009 Used Bikes in Pune with EMI options. Find good condition second hand bikes in Pune. Great prices on old bikes for sale in Pune at BikeWale.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Used Bikes in Pune - 819 Second Hand Bikes in Pune - Droom",
+          "link": "https://droom.in/bikes/used/pune",
+          "snippet": "Used Bikes in Pune - Buy from the largest collection of verified second hand bikes in Pune in excellent condition at best price with great offers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Second Hand Bikes in Pune | Used Bikes for Sale - BikeDekho",
+          "link": "https://www.bikedekho.com/used-bikes+in+pune",
+          "snippet": "181 second hand bikes in Pune. Explore the stock of certified and good condition used bikes in Pune at BikeDekho.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "used bike resellers official website",
+      "level": "L2",
+      "result_count": 15,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Buy & Sell used bikes in Europe | Bikeflip",
+          "link": "https://www.bikeflip.com/",
+          "snippet": "Bikeflip is Europe\u2019s dedicated marketplace for used and refurbished bikes. Secure payments, insured shipping, and full buyer and seller protection. Find your next bike today.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy & Sell Used Bikes and Sports Gear Online | buycycle",
+          "link": "https://buycycle.com/",
+          "snippet": "100,000+ Bikes, Parts & Running GearTrusted by 1M+ AthletesBuy and sell used bikes on buycycle.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "New Bikes, New Scooters & New EVs, Buy & Sell Used... - BikeDekho",
+          "link": "https://www.bikedekho.com/",
+          "snippet": "Find the perfect bike or scooter at BikeDekho. Explore two wheeler on-road prices, colours, reviews, comparisons, news, used bikes, and upcoming new launches in 2026.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Used Motorcycle For Sale - Buy and Sell Motorcycles Australia",
+          "link": "https://www.bikesales.com.au/",
+          "snippet": "Search thousands of new and used bikes for sale or sell on bikesales today! Find special offers, reviews, news & advice on Australia\u2019s #1 motorcycle site.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buying and Reselling Bikes | TikTok",
+          "link": "https://www.tiktok.com/discover/buying-and-reselling-bikes",
+          "snippet": "Discover videos related to Buying and Reselling Bikes on TikTok. Last updated 2026-03-23.Giant ATX flip, mountain bike restoration, bike flipping, resell skills, Australia Tok, bike accessories, used ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Used Bike Valuation India, Used Bike Price Calculator Online Free",
+          "link": "https://orangebookvalue.com/used-bikes",
+          "snippet": "How to Check Used Bike Price using OBV? With technologically advanced websites such as Orange Book Value, you can simply check your bike valuation online in a hassle-free manner.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Used Bikes for Sale | Road, Mountain, Gravel Bikes & Ebikes | TPC",
+          "link": "https://www.theproscloset.com/",
+          "snippet": "Explore TPC's collection of new & used bikes, frames, and wheels, all certified and vetted through a multi-point inspection. Shop from road, mountain mtb, gravel bikes, ebikes and components all from ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Online Bike Marketplace in India - Buy and Sell Used Bikes, Book New ...",
+          "link": "https://www.bikes4sale.in/",
+          "snippet": "Bikes4Sale, started in 2007, helps people buy and sell secondhand bikes. More than 8,00,000 bikes have been sold. Buy new bikes and scooters online. Compare prices and specifications of new two-wheele",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Second Hand bikes in India | Buy & Sell used bikes - BikeWale",
+          "link": "https://bikewale.com/m/used/",
+          "snippet": "Buy or sell a second hand bike online for Free! Thousands of used bikes for sale from all major Indian cities and towns",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "2WheelR - Buy & Sell Used Bikes Online | Pune's Leading Two-Wheeler ...",
+          "link": "https://www.2wheelr.com/",
+          "snippet": "Pune's leading marketplace for buying and selling used bikes. Find your perfect two-wheeler with verified sellers, easy financing options, and hassle-free transactions. Buy or sell bikes online safely",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Used Bikes in India. Buy or Sell secondhand two-wheelers online",
+          "link": "https://www.bikes4sale.in/used/",
+          "snippet": "Bikes4Sale is India's first bike portal for buying and selling secondhand bikes and scooters online. We are trusted by lakhs of customers who have sold their two-wheelers at a good price OR buy a good",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy & Sell Used Bikes and Sports Gear Online | buycycle",
+          "link": "https://buycycle.com/en-us",
+          "snippet": "Buy and sell used road, gravel, and mountain bikes with secure payment and shipping on the largest secondhand bike marketplace.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Used bikes for sale - buycycle.com",
+          "link": "https://buycycle.com/en-us/shop/main-types/bikes",
+          "snippet": "Used bikes for sale. The biggest marketplace for used bikes, bikes parts and sports gear Secure payment Buyer protection",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy & Sell Second Hand Bikes Online | Best & Certified",
+          "link": "https://www.drivex.in/",
+          "snippet": "Your bike's resale value is calculated using several factors such as brand, model, age, mileage, condition, and service history. DriveX uses a data-backed approach that combines market trends, demand ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "High End Used Bikes For Sale | Bikes For Sale | Cycle Limited",
+          "link": "https://cyclelimited.com/",
+          "snippet": "Cycle Limited is a Boca Raton, Florida-based online retailer specializing in pre-owned, high-end bicycles. We buy, sell, and take trade-ins of desirable, modern bicycles nationwide.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Buy & Sell used bikes in Europe | Bikeflip",
+          "link": "https://www.bikeflip.com/",
+          "snippet": "Bikeflip is Europe\u2019s dedicated marketplace for used and refurbished bikes. Secure payments, insured shipping, and full buyer and seller protection. Find your next bike today.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy & Sell Used Bikes and Sports Gear Online | buycycle",
+          "link": "https://buycycle.com/",
+          "snippet": "100,000+ Bikes, Parts & Running GearTrusted by 1M+ AthletesBuy and sell used bikes on buycycle.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "New Bikes, New Scooters & New EVs, Buy & Sell Used... - BikeDekho",
+          "link": "https://www.bikedekho.com/",
+          "snippet": "Find the perfect bike or scooter at BikeDekho. Explore two wheeler on-road prices, colours, reviews, comparisons, news, used bikes, and upcoming new launches in 2026.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Used Motorcycle For Sale - Buy and Sell Motorcycles Australia",
+          "link": "https://www.bikesales.com.au/",
+          "snippet": "Search thousands of new and used bikes for sale or sell on bikesales today! Find special offers, reviews, news & advice on Australia\u2019s #1 motorcycle site.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buying and Reselling Bikes | TikTok",
+          "link": "https://www.tiktok.com/discover/buying-and-reselling-bikes",
+          "snippet": "Discover videos related to Buying and Reselling Bikes on TikTok. Last updated 2026-03-23.Giant ATX flip, mountain bike restoration, bike flipping, resell skills, Australia Tok, bike accessories, used ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Used Bike Valuation India, Used Bike Price Calculator Online Free",
+          "link": "https://orangebookvalue.com/used-bikes",
+          "snippet": "How to Check Used Bike Price using OBV? With technologically advanced websites such as Orange Book Value, you can simply check your bike valuation online in a hassle-free manner.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Used Bikes for Sale | Road, Mountain, Gravel Bikes & Ebikes | TPC",
+          "link": "https://www.theproscloset.com/",
+          "snippet": "Explore TPC's collection of new & used bikes, frames, and wheels, all certified and vetted through a multi-point inspection. Shop from road, mountain mtb, gravel bikes, ebikes and components all from ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Online Bike Marketplace in India - Buy and Sell Used Bikes, Book New ...",
+          "link": "https://www.bikes4sale.in/",
+          "snippet": "Bikes4Sale, started in 2007, helps people buy and sell secondhand bikes. More than 8,00,000 bikes have been sold. Buy new bikes and scooters online. Compare prices and specifications of new two-wheele",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Second Hand bikes in India | Buy & Sell used bikes - BikeWale",
+          "link": "https://bikewale.com/m/used/",
+          "snippet": "Buy or sell a second hand bike online for Free! Thousands of used bikes for sale from all major Indian cities and towns",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "2WheelR - Buy & Sell Used Bikes Online | Pune's Leading Two-Wheeler ...",
+          "link": "https://www.2wheelr.com/",
+          "snippet": "Pune's leading marketplace for buying and selling used bikes. Find your perfect two-wheeler with verified sellers, easy financing options, and hassle-free transactions. Buy or sell bikes online safely",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Used Bikes in India. Buy or Sell secondhand two-wheelers online",
+          "link": "https://www.bikes4sale.in/used/",
+          "snippet": "Bikes4Sale is India's first bike portal for buying and selling secondhand bikes and scooters online. We are trusted by lakhs of customers who have sold their two-wheelers at a good price OR buy a good",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy & Sell Used Bikes and Sports Gear Online | buycycle",
+          "link": "https://buycycle.com/en-us",
+          "snippet": "Buy and sell used road, gravel, and mountain bikes with secure payment and shipping on the largest secondhand bike marketplace.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Used bikes for sale - buycycle.com",
+          "link": "https://buycycle.com/en-us/shop/main-types/bikes",
+          "snippet": "Used bikes for sale. The biggest marketplace for used bikes, bikes parts and sports gear Secure payment Buyer protection",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy & Sell Second Hand Bikes Online | Best & Certified",
+          "link": "https://www.drivex.in/",
+          "snippet": "Your bike's resale value is calculated using several factors such as brand, model, age, mileage, condition, and service history. DriveX uses a data-backed approach that combines market trends, demand ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "High End Used Bikes For Sale | Bikes For Sale | Cycle Limited",
+          "link": "https://cyclelimited.com/",
+          "snippet": "Cycle Limited is a Boca Raton, Florida-based online retailer specializing in pre-owned, high-end bicycles. We buy, sell, and take trade-ins of desirable, modern bicycles nationwide.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "find used bike distributors globally",
+      "level": "market_map",
+      "result_count": 5,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Second hand used bikes distributor - Quality & Variety",
+          "link": "https://www.accio.com/supplier/second-hand-used-bikes-distributor",
+          "snippet": "Oct 10, 2025 \u00b7 Where to Find Second Hand Used Bikes Distributor Suppliers? Identifying reliable suppliers for second-hand used bikes hinges on understanding global manufacturing hubs and industrial cl",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "14 Best Places To Buy Used Bikes Online In 2026 - Lebel Bicycles",
+          "link": "https://lebelbicycles.com/blogs/bikes/best-places-to-buy-used-bikes",
+          "snippet": "May 26, 2026 \u00b7 Here are the marketplaces and bike-specific retailers that provide safe transactions and best meet the rider\u2019s riding style. Some of them have more reviews and reputations than others. ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Used bikes for sale",
+          "link": "https://buycycle.com/en-us/shop/main-types/bikes",
+          "snippet": "Used bikes for sale. The biggest marketplace for used bikes, bikes parts and sports gear Secure payment Buyer protection.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Local Bicycle Trader - Used Bicycles for Sale",
+          "link": "https://www.localbiketrader.com/",
+          "snippet": "Bicycle classifieds to help you find new and used bikes for sale in your area. List your bike for sale for free.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "CheekyCycle \u2014 Buy & Sell Used Bikes Online | Safe Second-Hand ...",
+          "link": "https://cheekycycle.com/",
+          "snippet": "Buy and sell bikes with confidence. The trusted global marketplace to sell used bikes online or buy verified second-hand road bikes, mountain bikes, e-bikes, and cycling sports gear \u2014 with every listi",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Second hand used bikes distributor - Quality & Variety",
+          "link": "https://www.accio.com/supplier/second-hand-used-bikes-distributor",
+          "snippet": "Oct 10, 2025 \u00b7 Where to Find Second Hand Used Bikes Distributor Suppliers? Identifying reliable suppliers for second-hand used bikes hinges on understanding global manufacturing hubs and industrial cl",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "14 Best Places To Buy Used Bikes Online In 2026 - Lebel Bicycles",
+          "link": "https://lebelbicycles.com/blogs/bikes/best-places-to-buy-used-bikes",
+          "snippet": "May 26, 2026 \u00b7 Here are the marketplaces and bike-specific retailers that provide safe transactions and best meet the rider\u2019s riding style. Some of them have more reviews and reputations than others. ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Used bikes for sale",
+          "link": "https://buycycle.com/en-us/shop/main-types/bikes",
+          "snippet": "Used bikes for sale. The biggest marketplace for used bikes, bikes parts and sports gear Secure payment Buyer protection.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Local Bicycle Trader - Used Bicycles for Sale",
+          "link": "https://www.localbiketrader.com/",
+          "snippet": "Bicycle classifieds to help you find new and used bikes for sale in your area. List your bike for sale for free.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "CheekyCycle \u2014 Buy & Sell Used Bikes Online | Safe Second-Hand ...",
+          "link": "https://cheekycycle.com/",
+          "snippet": "Buy and sell bikes with confidence. The trusted global marketplace to sell used bikes online or buy verified second-hand road bikes, mountain bikes, e-bikes, and cycling sports gear \u2014 with every listi",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P2": {
+      "query": "search for wholesale used bike suppliers",
+      "level": "market_map",
+      "result_count": 6,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Wholesale Used Bike - Used Bike Manufacturers, Suppliers - EC21",
+          "link": "https://www.ec21.com/ec-market/used-bike.html",
+          "snippet": "Wholesale Used Bike Find 609 used bike products from 260 manufacturers & suppliers at EC21. Choose quality used bike manufacturers, suppliers & exporters now - EC21.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy & Sell Used Bikes and Sports Gear Online | buycycle",
+          "link": "https://buycycle.com/",
+          "snippet": "100,000+ Bikes, Parts & Running GearTrusted by 1M+ AthletesHigh Demand. The best deals on our most popular bikes - they won't last long!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Used Motorcycle For Sale - Buy and Sell Motorcycles Australia",
+          "link": "https://www.bikesales.com.au/",
+          "snippet": "Search thousands of new and used bikes for sale or sell on bikesales today! Find special offers, reviews, news & advice on Australia\u2019s #1 motorcycle site.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "New Bikes, New Scooters & New EVs, Buy & Sell Used... - BikeDekho",
+          "link": "https://www.bikedekho.com/",
+          "snippet": "Find the perfect bike or scooter at BikeDekho. Explore two wheeler on-road prices, colours, reviews, comparisons, news, used bikes, and upcoming new launches in 2026.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Used Bikes - High Quality & Low Price Solutions",
+          "link": "https://www.alibaba.com/showroom/wholesale-used-bikes.html",
+          "snippet": "Find top-quality wholesale used bikes from reliable suppliers. Our collection includes mountain bikes, sport bikes, and more. Perfect for both retail and wholesale.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Used bikes for sale - buycycle.com",
+          "link": "https://buycycle.com/en-us/shop/main-types/bikes",
+          "snippet": "Used bikes for sale. The biggest marketplace for used bikes, bikes parts and sports gear Secure payment Buyer protection",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Wholesale Used Bike - Used Bike Manufacturers, Suppliers - EC21",
+          "link": "https://www.ec21.com/ec-market/used-bike.html",
+          "snippet": "Wholesale Used Bike Find 609 used bike products from 260 manufacturers & suppliers at EC21. Choose quality used bike manufacturers, suppliers & exporters now - EC21.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy & Sell Used Bikes and Sports Gear Online | buycycle",
+          "link": "https://buycycle.com/",
+          "snippet": "100,000+ Bikes, Parts & Running GearTrusted by 1M+ AthletesHigh Demand. The best deals on our most popular bikes - they won't last long!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Used Motorcycle For Sale - Buy and Sell Motorcycles Australia",
+          "link": "https://www.bikesales.com.au/",
+          "snippet": "Search thousands of new and used bikes for sale or sell on bikesales today! Find special offers, reviews, news & advice on Australia\u2019s #1 motorcycle site.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "New Bikes, New Scooters & New EVs, Buy & Sell Used... - BikeDekho",
+          "link": "https://www.bikedekho.com/",
+          "snippet": "Find the perfect bike or scooter at BikeDekho. Explore two wheeler on-road prices, colours, reviews, comparisons, news, used bikes, and upcoming new launches in 2026.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Used Bikes - High Quality & Low Price Solutions",
+          "link": "https://www.alibaba.com/showroom/wholesale-used-bikes.html",
+          "snippet": "Find top-quality wholesale used bikes from reliable suppliers. Our collection includes mountain bikes, sport bikes, and more. Perfect for both retail and wholesale.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Used bikes for sale - buycycle.com",
+          "link": "https://buycycle.com/en-us/shop/main-types/bikes",
+          "snippet": "Used bikes for sale. The biggest marketplace for used bikes, bikes parts and sports gear Secure payment Buyer protection",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P3": {
+      "query": "locate online used bike resellers",
+      "level": "market_map",
+      "result_count": 5,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Buy & Sell Used Bikes and Sports Gear Online | buycycle",
+          "link": "https://buycycle.com/",
+          "snippet": "100,000+ Bikes, Parts & Running GearTrusted by 1M+ AthletesBuy and sell used bikes on buycycle.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy & Sell used bikes in Europe | Bikeflip",
+          "link": "https://www.bikeflip.com/",
+          "snippet": "Buy & sell used and certified bikes online. Used bikes the secure way. Learn how Bikeflip works.What is Bikeflip Buyer Protection? Bikeflip keeps you safe while buying used bikes online. We take care ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "New Bikes, New Scooters & New EVs, Buy & Sell Used... - BikeDekho",
+          "link": "https://www.bikedekho.com/",
+          "snippet": "Find the perfect bike or scooter at BikeDekho. Explore two wheeler on-road prices, colours, reviews, comparisons, news, used bikes, and upcoming new launches in 2026.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buying & Selling a Used Bike at The Pro's Closet - BikeMag",
+          "link": "https://www.bikemag.com/mountain-bike-gear/buying-selling-used-bike-the-pros-closet",
+          "snippet": "We bought and sold a bike with The Pro's Closet, a quickly growing online marketplace of used bikes.That happens to be about when I learned of The Pro\u2019s Closet. If you haven\u2019t heard of them, The Pro\u2019s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Where to Get 2 Hand E Bike | TikTok",
+          "link": "https://www.tiktok.com/discover/where-to-get-2-hand-e-bike",
+          "snippet": "Buy used bikes, sell used bikes and discover verified used bikes with inspected bikes for sale on a secure bicycle marketplace. One of the best places to buy used bikes online.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Buy & Sell Used Bikes and Sports Gear Online | buycycle",
+          "link": "https://buycycle.com/",
+          "snippet": "100,000+ Bikes, Parts & Running GearTrusted by 1M+ AthletesBuy and sell used bikes on buycycle.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy & Sell used bikes in Europe | Bikeflip",
+          "link": "https://www.bikeflip.com/",
+          "snippet": "Buy & sell used and certified bikes online. Used bikes the secure way. Learn how Bikeflip works.What is Bikeflip Buyer Protection? Bikeflip keeps you safe while buying used bikes online. We take care ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "New Bikes, New Scooters & New EVs, Buy & Sell Used... - BikeDekho",
+          "link": "https://www.bikedekho.com/",
+          "snippet": "Find the perfect bike or scooter at BikeDekho. Explore two wheeler on-road prices, colours, reviews, comparisons, news, used bikes, and upcoming new launches in 2026.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buying & Selling a Used Bike at The Pro's Closet - BikeMag",
+          "link": "https://www.bikemag.com/mountain-bike-gear/buying-selling-used-bike-the-pros-closet",
+          "snippet": "We bought and sold a bike with The Pro's Closet, a quickly growing online marketplace of used bikes.That happens to be about when I learned of The Pro\u2019s Closet. If you haven\u2019t heard of them, The Pro\u2019s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Where to Get 2 Hand E Bike | TikTok",
+          "link": "https://www.tiktok.com/discover/where-to-get-2-hand-e-bike",
+          "snippet": "Buy used bikes, sell used bikes and discover verified used bikes with inspected bikes for sale on a secure bicycle marketplace. One of the best places to buy used bikes online.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P4": {
+      "query": "find partnerships for used bike sales",
+      "level": "market_map",
+      "result_count": 2,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Buy & Sell Used Bikes and Sports Gear Online | buycycle",
+          "link": "https://buycycle.com/",
+          "snippet": "100,000+ Bikes, Parts & Running GearTrusted by 1M+ AthletesBuy and sell used bikes on buycycle.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "New Bikes, New Scooters & New EVs, Buy & Sell Used... - BikeDekho",
+          "link": "https://www.bikedekho.com/",
+          "snippet": "Find the perfect bike or scooter at BikeDekho. Explore two wheeler on-road prices, colours, reviews, comparisons, news, used bikes, and upcoming new launches in 2026.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Buy & Sell Used Bikes and Sports Gear Online | buycycle",
+          "link": "https://buycycle.com/",
+          "snippet": "100,000+ Bikes, Parts & Running GearTrusted by 1M+ AthletesBuy and sell used bikes on buycycle.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "New Bikes, New Scooters & New EVs, Buy & Sell Used... - BikeDekho",
+          "link": "https://www.bikedekho.com/",
+          "snippet": "Find the perfect bike or scooter at BikeDekho. Explore two wheeler on-road prices, colours, reviews, comparisons, news, used bikes, and upcoming new launches in 2026.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P5": {
+      "query": "search for used bike repair services",
+      "level": "market_map",
+      "result_count": 2,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Buy & Sell Used Bikes and Sports Gear Online | buycycle",
+          "link": "https://buycycle.com/",
+          "snippet": "100,000+ Bikes, Parts & Running GearTrusted by 1M+ AthletesHigh Demand. The best deals on our most popular bikes - they won't last long!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy & Sell Second Hand Bikes Online | Best & Certified",
+          "link": "https://www.drivex.in/",
+          "snippet": "Buy second hand bikes or used bikes that you can trust, not second-guess later.Yes, in our Assured program, each two-wheeler is a fully refurbished bike. They test, repair, and restore it to like-new ",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Buy & Sell Used Bikes and Sports Gear Online | buycycle",
+          "link": "https://buycycle.com/",
+          "snippet": "100,000+ Bikes, Parts & Running GearTrusted by 1M+ AthletesHigh Demand. The best deals on our most popular bikes - they won't last long!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy & Sell Second Hand Bikes Online | Best & Certified",
+          "link": "https://www.drivex.in/",
+          "snippet": "Buy second hand bikes or used bikes that you can trust, not second-guess later.Yes, in our Assured program, each two-wheeler is a fully refurbished bike. They test, repair, and restore it to like-new ",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "find bike fitting system integrators",
+      "level": "market_map",
+      "result_count": 5,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Bike Fast Fit - Video Bike Fitting iOS Apps",
+          "link": "https://bikefastfit.com/",
+          "snippet": "Bike Fast Fit Pro now makes bike fitting for pro bike fitters and bike shops easy and affordable.Easily capture and organize client details and sessions. Search, filtering, and sorting tools to handle",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bike Fit \u2013 \u0438\u043d\u0434\u0438\u0432\u0438\u0434\u0443\u0430\u043b\u044c\u043d\u0430\u044f \u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0430 \u0432\u0435\u043b\u043e\u0441\u0438\u043f\u0435\u0434\u0430 | Etalon Team",
+          "link": "https://etalon.team/bike-fit",
+          "snippet": "\u0423\u0441\u043b\u0443\u0433\u0430 Bike Fit \u043e\u0442 Etalon Team \u0434\u043b\u044f \u0442\u043e\u0447\u043d\u043e\u0439 \u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0438 \u0432\u0435\u043b\u043e\u0441\u0438\u043f\u0435\u0434\u0430 \u043f\u043e\u0434 \u0432\u0430\u0448\u0438 \u043f\u0430\u0440\u0430\u043c\u0435\u0442\u0440\u044b. \u041a\u043e\u043c\u0444\u043e\u0440\u0442, \u044d\u0444\u0444\u0435\u043a\u0442\u0438\u0432\u043d\u043e\u0441\u0442\u044c \u0438 \u0441\u043d\u0438\u0436\u0435\u043d\u0438\u0435 \u0440\u0438\u0441\u043a\u0430 \u0442\u0440\u0430\u0432\u043c. \u041f\u043e\u0434\u0445\u043e\u0434\u0438\u0442 \u0434\u043b\u044f \u0432\u0441\u0435\u0445 \u0443\u0440\u043e\u0432\u043d\u0435\u0439.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Freedare: Best Electric Bikes for Adults on Sale",
+          "link": "https://www.freedarebike.com/",
+          "snippet": "Freedare Bikes offers a premium selection of electric bikes and cycling accessories, including the Saiga Step-over Fat Tires, and Eden Step-thru Ebikes.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Stance. Bike Fit \u2014 \u041f\u0435\u0440\u0441\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439 \u0431\u0430\u0439\u043a\u0444\u0438\u0442 \u0432 \u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433\u0435",
+          "link": "https://stance.bike/",
+          "snippet": "\u041f\u0440\u043e\u0444\u0435\u0441\u0441\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u0430\u044f \u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0430 \u043f\u043e\u0441\u0430\u0434\u043a\u0438 \u043d\u0430 \u0432\u0435\u043b\u043e\u0441\u0438\u043f\u0435\u0434\u0435. \u0420\u0430\u0431\u043e\u0442\u0430\u0435\u043c \u0441 \u0432\u0430\u0448\u0435\u0439 \u0430\u043d\u0430\u0442\u043e\u043c\u0438\u0435\u0439 \u0438 \u0431\u0438\u043e\u043c\u0435\u0445\u0430\u043d\u0438\u043a\u043e\u0439.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "BikeFitAdviser \u0432 Instagram : Link to instagram.com",
+          "link": "https://www.instagram.com/p/BcFnaYPARtT/",
+          "snippet": "The site owner hides the web page description.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Bike Fast Fit - Video Bike Fitting iOS Apps",
+          "link": "https://bikefastfit.com/",
+          "snippet": "Bike Fast Fit Pro now makes bike fitting for pro bike fitters and bike shops easy and affordable.Easily capture and organize client details and sessions. Search, filtering, and sorting tools to handle",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bike Fit \u2013 \u0438\u043d\u0434\u0438\u0432\u0438\u0434\u0443\u0430\u043b\u044c\u043d\u0430\u044f \u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0430 \u0432\u0435\u043b\u043e\u0441\u0438\u043f\u0435\u0434\u0430 | Etalon Team",
+          "link": "https://etalon.team/bike-fit",
+          "snippet": "\u0423\u0441\u043b\u0443\u0433\u0430 Bike Fit \u043e\u0442 Etalon Team \u0434\u043b\u044f \u0442\u043e\u0447\u043d\u043e\u0439 \u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0438 \u0432\u0435\u043b\u043e\u0441\u0438\u043f\u0435\u0434\u0430 \u043f\u043e\u0434 \u0432\u0430\u0448\u0438 \u043f\u0430\u0440\u0430\u043c\u0435\u0442\u0440\u044b. \u041a\u043e\u043c\u0444\u043e\u0440\u0442, \u044d\u0444\u0444\u0435\u043a\u0442\u0438\u0432\u043d\u043e\u0441\u0442\u044c \u0438 \u0441\u043d\u0438\u0436\u0435\u043d\u0438\u0435 \u0440\u0438\u0441\u043a\u0430 \u0442\u0440\u0430\u0432\u043c. \u041f\u043e\u0434\u0445\u043e\u0434\u0438\u0442 \u0434\u043b\u044f \u0432\u0441\u0435\u0445 \u0443\u0440\u043e\u0432\u043d\u0435\u0439.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Freedare: Best Electric Bikes for Adults on Sale",
+          "link": "https://www.freedarebike.com/",
+          "snippet": "Freedare Bikes offers a premium selection of electric bikes and cycling accessories, including the Saiga Step-over Fat Tires, and Eden Step-thru Ebikes.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Stance. Bike Fit \u2014 \u041f\u0435\u0440\u0441\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439 \u0431\u0430\u0439\u043a\u0444\u0438\u0442 \u0432 \u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433\u0435",
+          "link": "https://stance.bike/",
+          "snippet": "\u041f\u0440\u043e\u0444\u0435\u0441\u0441\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u0430\u044f \u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0430 \u043f\u043e\u0441\u0430\u0434\u043a\u0438 \u043d\u0430 \u0432\u0435\u043b\u043e\u0441\u0438\u043f\u0435\u0434\u0435. \u0420\u0430\u0431\u043e\u0442\u0430\u0435\u043c \u0441 \u0432\u0430\u0448\u0435\u0439 \u0430\u043d\u0430\u0442\u043e\u043c\u0438\u0435\u0439 \u0438 \u0431\u0438\u043e\u043c\u0435\u0445\u0430\u043d\u0438\u043a\u043e\u0439.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "BikeFitAdviser \u0432 Instagram : Link to instagram.com",
+          "link": "https://www.instagram.com/p/BcFnaYPARtT/",
+          "snippet": "The site owner hides the web page description.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P7": {
+      "query": "used bike distributors in my region",
+      "level": "market_map",
+      "result_count": 3,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Buy & Sell Used Bikes and Sports Gear Online | buycycle",
+          "link": "https://buycycle.com/",
+          "snippet": "100,000+ Bikes, Parts & Running GearTrusted by 1M+ AthletesBuy and sell used bikes on buycycle.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy & Sell Second Hand Bikes Online | Best & Certified",
+          "link": "https://www.drivex.in/",
+          "snippet": "Selling your used bike with DriveX is effortless. Just upload your bike details and photos. We\u2019ll schedule a free home inspection, give you a fair market price, and process instant payment once you ac",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "New Bikes, New Scooters & New EVs, Buy & Sell Used... - BikeDekho",
+          "link": "https://www.bikedekho.com/",
+          "snippet": "Find the perfect bike or scooter at BikeDekho. Explore two wheeler on-road prices, colours, reviews, comparisons, news, used bikes, and upcoming new launches in 2026.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Buy & Sell Used Bikes and Sports Gear Online | buycycle",
+          "link": "https://buycycle.com/",
+          "snippet": "100,000+ Bikes, Parts & Running GearTrusted by 1M+ AthletesBuy and sell used bikes on buycycle.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy & Sell Second Hand Bikes Online | Best & Certified",
+          "link": "https://www.drivex.in/",
+          "snippet": "Selling your used bike with DriveX is effortless. Just upload your bike details and photos. We\u2019ll schedule a free home inspection, give you a fair market price, and process instant payment once you ac",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "New Bikes, New Scooters & New EVs, Buy & Sell Used... - BikeDekho",
+          "link": "https://www.bikedekho.com/",
+          "snippet": "Find the perfect bike or scooter at BikeDekho. Explore two wheeler on-road prices, colours, reviews, comparisons, news, used bikes, and upcoming new launches in 2026.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

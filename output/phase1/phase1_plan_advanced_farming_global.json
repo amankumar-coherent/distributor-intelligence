@@ -1,0 +1,1391 @@
+{
+  "phase": 1,
+  "query": "Advanced Farming Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T20:41:08.709700+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "Advanced Farming",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "Agricultural Technology",
+    "industry_terms": [
+      "precision agriculture",
+      "smart farming",
+      "agricultural technology",
+      "IoT in agriculture",
+      "automated farming"
+    ],
+    "ecosystem_functions": [
+      "distributing advanced farming technologies",
+      "reselling agricultural solutions",
+      "integrating farming systems",
+      "providing technical support",
+      "consulting on farming practices",
+      "wholesaling agricultural products",
+      "partnering for technology deployment",
+      "facilitating technology adoption"
+    ],
+    "interpretation_summary": "The Advanced Farming Market encompasses innovative agricultural technologies and practices aimed at enhancing productivity and sustainability in farming. Participants include technology developers, distributors, and serv",
+    "relevance_keywords": [
+      "agricultural distributors",
+      "farming technology resellers",
+      "system integration for agriculture",
+      "advanced farming services",
+      "precision agriculture providers"
+    ],
+    "negative_keywords": [
+      "traditional farming",
+      "organic farming",
+      "food processing",
+      "agricultural chemicals",
+      "livestock management"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "Trimble",
+        "primary_domain": "trimble.com",
+        "company_function": "provider of precision agriculture solutions"
+      },
+      {
+        "canonical_name": "AG Leader Technology",
+        "primary_domain": "agleader.com",
+        "company_function": "supplier of agricultural technology"
+      },
+      {
+        "canonical_name": "Raven Industries",
+        "primary_domain": "ravenind.com",
+        "company_function": "provider of precision agriculture products"
+      },
+      {
+        "canonical_name": "John Deere",
+        "primary_domain": "deere.com",
+        "company_function": "manufacturer and distributor of agricultural equipment"
+      },
+      {
+        "canonical_name": "Topcon Agriculture",
+        "primary_domain": "topcon.com",
+        "company_function": "supplier of precision agriculture technology"
+      },
+      {
+        "canonical_name": "BASF",
+        "primary_domain": "basf.com",
+        "company_function": "provider of agricultural solutions"
+      },
+      {
+        "canonical_name": "Syngenta",
+        "primary_domain": "syngenta.com",
+        "company_function": "supplier of agricultural products"
+      },
+      {
+        "canonical_name": "Corteva Agriscience",
+        "primary_domain": "corteva.com",
+        "company_function": "provider of agricultural solutions"
+      },
+      {
+        "canonical_name": "Valley Irrigation",
+        "primary_domain": "valleyirrigation.com",
+        "company_function": "provider of irrigation solutions",
+        "segment": "Distributors",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "AgJunction",
+        "primary_domain": "agjunction.com",
+        "company_function": "provider of precision agriculture solutions",
+        "segment": "Resellers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "FarmLogs",
+        "primary_domain": "farmlogs.com",
+        "company_function": "provider of farm management solutions",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Precision Planting",
+        "primary_domain": "precisionplanting.com",
+        "company_function": "provider of planting technology",
+        "segment": "Resellers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "AgFunder",
+        "primary_domain": "agfunder.com",
+        "company_function": "investment platform for agtech",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Taranis",
+        "primary_domain": "taranis.ag",
+        "company_function": "provider of crop monitoring solutions",
+        "segment": "System Integrators",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "Advanced Farming",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "Advanced Farming",
+    "include_keywords": [
+      "precision farming solutions",
+      "smart irrigation systems",
+      "agricultural drones",
+      "farm management software",
+      "crop monitoring technologies"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The Advanced Farming Market encompasses innovative agricultural technologies and practices aimed at enhancing productivity and sustainability in farming. Participants include technology developers, distributors, and service providers who facilitate the adoption of advanced farming solutions globally.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Distribution",
+        "description": "This layer involves the distribution of advanced farming technologies and solutions to end-users.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Agricultural Technology Distributors",
+              "Precision Farming Distributors"
+            ],
+            "participant_types": [
+              "distributor",
+              "wholesaler"
+            ],
+            "search_intents": [
+              "advanced farming technology distributors",
+              "precision agriculture wholesalers"
+            ]
+          },
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Retail Resellers",
+              "Online Resellers"
+            ],
+            "participant_types": [
+              "reseller"
+            ],
+            "search_intents": [
+              "advanced farming equipment resellers",
+              "precision farming online resellers"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L2",
+        "layer_name": "Integration Services",
+        "description": "This layer focuses on the integration of advanced farming technologies into existing farming operations.",
+        "segments": [
+          {
+            "segment_name": "System Integrators",
+            "sub_segments": [
+              "IoT System Integrators",
+              "Automation System Integrators"
+            ],
+            "participant_types": [
+              "system integrator"
+            ],
+            "search_intents": [
+              "agriculture IoT system integrators",
+              "farming automation system integrators"
+            ]
+          },
+          {
+            "segment_name": "Service Providers",
+            "sub_segments": [
+              "Consulting Services",
+              "Technical Support Services"
+            ],
+            "participant_types": [
+              "service provider"
+            ],
+            "search_intents": [
+              "advanced farming consulting services",
+              "agricultural technology support services"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Traditional Farming Equipment",
+        "Organic Farming",
+        "Agricultural Chemicals",
+        "Food Processing"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "search for advanced farming technology distributors",
+        "sub_sector": "distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "find precision farming equipment resellers",
+        "sub_sector": "reseller",
+        "layer_id": "L1",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "search for agriculture IoT system integrators",
+        "sub_sector": "system_integrator",
+        "layer_id": "L2",
+        "segment": "System Integrators"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "find advanced farming consulting services",
+        "sub_sector": "service_provider",
+        "layer_id": "L2",
+        "segment": "Service Providers"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "Agricultural Technology",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "Advanced Farming companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "Advanced Farming distributors corporate sites"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "Advanced Farming service providers official site"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "discovery",
+      "text": "advanced farming technology distributors official site"
+    },
+    {
+      "id": "P2",
+      "level": "discovery",
+      "text": "precision agriculture wholesalers corporate headquarters"
+    },
+    {
+      "id": "P3",
+      "level": "discovery",
+      "text": "advanced farming equipment resellers corporate site"
+    },
+    {
+      "id": "P4",
+      "level": "discovery",
+      "text": "precision farming online resellers official website"
+    },
+    {
+      "id": "P5",
+      "level": "discovery",
+      "text": "agriculture IoT system integrators corporate profile"
+    },
+    {
+      "id": "P6",
+      "level": "discovery",
+      "text": "farming automation system integrators official site"
+    },
+    {
+      "id": "P7",
+      "level": "discovery",
+      "text": "advanced farming consulting services corporate site"
+    },
+    {
+      "id": "P8",
+      "level": "discovery",
+      "text": "agricultural technology support services official website"
+    },
+    {
+      "id": "P9",
+      "level": "volume",
+      "text": "authorized Advanced Farming distributor firm official"
+    },
+    {
+      "id": "P10",
+      "level": "volume",
+      "text": "Advanced Farming reseller channel partner official"
+    },
+    {
+      "id": "P11",
+      "level": "volume",
+      "text": "Advanced Farming system integrator official website"
+    },
+    {
+      "id": "P12",
+      "level": "volume",
+      "text": "Advanced Farming providing technical support official website"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "Advanced Farming companies official websites",
+      "level": "L0",
+      "result_count": 3,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "All King Legacy Scripts - 2026 No Key Auto Farming Hubs",
+          "link": "https://robxscript.com/multi-script/all-king-legacy-scripts/",
+          "snippet": "Featuring advanced combat automation, chest farming, teleportation, and dungeon utilities, this Roblox exploit script GUI helps players progress quickly from early game to endgame with minimal manual ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "GOV.UK - The best place to find government services and information.",
+          "link": "https://www.gov.uk/",
+          "snippet": "Reports, analysis and official statistics. Policy papers and consultations.Includes pay, contracts, hiring and redundancies. Environment and countryside. Includes flooding, recycling, farming and wild",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "6 God-Tier Iron Soul Dungeon Scripts \u2013 Auto Farm, Auto Dodge, Auto...",
+          "link": "https://bloxtrends.com/6-god-tier-iron-soul-dungeon-scripts-auto-farm-auto-dodge-auto-forge-more/",
+          "snippet": "Scripts can help automate repetitive tasks such as farming, dungeon runs, item collection, and combat. The scripts below offer a variety of features ranging from Auto Farm and Auto Dodge to ESP, Auto ",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "All King Legacy Scripts - 2026 No Key Auto Farming Hubs",
+          "link": "https://robxscript.com/multi-script/all-king-legacy-scripts/",
+          "snippet": "Featuring advanced combat automation, chest farming, teleportation, and dungeon utilities, this Roblox exploit script GUI helps players progress quickly from early game to endgame with minimal manual ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "GOV.UK - The best place to find government services and information.",
+          "link": "https://www.gov.uk/",
+          "snippet": "Reports, analysis and official statistics. Policy papers and consultations.Includes pay, contracts, hiring and redundancies. Environment and countryside. Includes flooding, recycling, farming and wild",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "6 God-Tier Iron Soul Dungeon Scripts \u2013 Auto Farm, Auto Dodge, Auto...",
+          "link": "https://bloxtrends.com/6-god-tier-iron-soul-dungeon-scripts-auto-farm-auto-dodge-auto-forge-more/",
+          "snippet": "Scripts can help automate repetitive tasks such as farming, dungeon runs, item collection, and combat. The scripts below offer a variety of features ranging from Auto Farm and Auto Dodge to ESP, Auto ",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "Advanced Farming distributors corporate sites",
+      "level": "L1",
+      "result_count": 7,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Calling all Agriculture and Farming distributors! - Medium",
+          "link": "https://medium.com/@go4distributor1996/calling-all-agriculture-and-farming-distributors-8fb45bfa13e4",
+          "snippet": "Go4distributors provides solutions to entrepreneurs to appoint distributors, get distributorship, franchise, Low Cost Business Opportunities etc.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "All King Legacy Scripts - 2026 No Key Auto Farming Hubs",
+          "link": "https://robxscript.com/multi-script/all-king-legacy-scripts/",
+          "snippet": "Auto Boss Farm \u2013 farms bosses automatically for rare drops and rewards.Auto Stats \u2013 distributes stat points automatically for optimized builds.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "10 Best Agriculture Companies in the UAE",
+          "link": "https://www.nyongesasande.com/10-best-agriculture-companies-in-the-uae/",
+          "snippet": "The company focuses on food security, agricultural innovation, food distribution, farming support and agritech investments. It operates the Silal Innovation Oasis and supports UAE farmers through rese",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Germany Agricultural Robots Market Size, Share, Trends, Growth...",
+          "link": "https://www.marketsandmarkets.com/Market-Reports/geography/agricultural-robot-market/Germany",
+          "snippet": "Germany Agricultural Robots Market Trends and Insights. Germany is establishing itself as a key hub for agricultural automation in Europe, driven by advanced farming practices and strong investment in",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "AgroStar | AgriTech Solutions India, Farm Advisory & Market Access",
+          "link": "https://corporate.agrostar.in/",
+          "snippet": "AgroStar is one of India's leading agri-tech companies, building a connected ecosystem that empowers farmers through technology, data, and expert guidance. From advisory and inputs to global market li",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "IB Group",
+          "link": "https://www.ibgroup.co.in/",
+          "snippet": "We thrive, we inspire, and we work towards a common aim of creating a sustainable environment for producing world-class protein with a swift adaptation of high-end technology in poultry farming.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home | APEDA",
+          "link": "https://apeda.gov.in/",
+          "snippet": "This is a method of farming that works at grass root level preserving the reproductive and regenerative capacity of the soil, good plant nutrition, and sound soil management, produces nutritious food ",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Calling all Agriculture and Farming distributors! - Medium",
+          "link": "https://medium.com/@go4distributor1996/calling-all-agriculture-and-farming-distributors-8fb45bfa13e4",
+          "snippet": "Go4distributors provides solutions to entrepreneurs to appoint distributors, get distributorship, franchise, Low Cost Business Opportunities etc.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "All King Legacy Scripts - 2026 No Key Auto Farming Hubs",
+          "link": "https://robxscript.com/multi-script/all-king-legacy-scripts/",
+          "snippet": "Auto Boss Farm \u2013 farms bosses automatically for rare drops and rewards.Auto Stats \u2013 distributes stat points automatically for optimized builds.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "10 Best Agriculture Companies in the UAE",
+          "link": "https://www.nyongesasande.com/10-best-agriculture-companies-in-the-uae/",
+          "snippet": "The company focuses on food security, agricultural innovation, food distribution, farming support and agritech investments. It operates the Silal Innovation Oasis and supports UAE farmers through rese",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Germany Agricultural Robots Market Size, Share, Trends, Growth...",
+          "link": "https://www.marketsandmarkets.com/Market-Reports/geography/agricultural-robot-market/Germany",
+          "snippet": "Germany Agricultural Robots Market Trends and Insights. Germany is establishing itself as a key hub for agricultural automation in Europe, driven by advanced farming practices and strong investment in",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "AgroStar | AgriTech Solutions India, Farm Advisory & Market Access",
+          "link": "https://corporate.agrostar.in/",
+          "snippet": "AgroStar is one of India's leading agri-tech companies, building a connected ecosystem that empowers farmers through technology, data, and expert guidance. From advisory and inputs to global market li",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "IB Group",
+          "link": "https://www.ibgroup.co.in/",
+          "snippet": "We thrive, we inspire, and we work towards a common aim of creating a sustainable environment for producing world-class protein with a swift adaptation of high-end technology in poultry farming.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home | APEDA",
+          "link": "https://apeda.gov.in/",
+          "snippet": "This is a method of farming that works at grass root level preserving the reproductive and regenerative capacity of the soil, good plant nutrition, and sound soil management, produces nutritious food ",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "Advanced Farming service providers official site",
+      "level": "L2",
+      "result_count": 10,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Farming as a Service Market Research Report: Forecast (2026-2032)",
+          "link": "https://www.marknteladvisors.com/research-library/global-farming-as-a-service-market.html",
+          "snippet": "The same official survey shows that 19% of companies ... This reduces the real-world impact of advanced farm management platforms despite growing adoption.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Innovations for Modern Farming | Crop Science US",
+          "link": "https://www.cropscience.bayer.us/",
+          "snippet": "Our commitment includes the development of advanced seeds, effective crop protection products, and digital farming technologies. We build strong ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "All Blox Fruits Scripts 2026 \u2013 NO KEY (Auto Farming Hubs)",
+          "link": "https://robxscript.com/multi-script/all-blox-fruits-scripts/",
+          "snippet": "Discover the best Blox Fruits scripts including No Key and Key System hubs for 2026. Copy scripts instantly to Auto Farm, Teleports & more.It includes advanced farming features, useful teleports, and ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Advanced Farming Systems",
+          "link": "https://afs-ag.com/",
+          "snippet": "Advanced Farming Systems is an equal opportunity provider. AFS has a unique and very different approach to fertilizer that increases ROI through innovation.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Agriculture Service of Product Farm - Advanced Farming Solutions",
+          "link": "https://www.apservicefarm.com/",
+          "snippet": "Innovative solutions for sustainable farming. Empowering farmers with cutting-edge technology and expert guidance from Agriculture Service of Product Farm (ASPF).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "About | Advanced Farming Systems",
+          "link": "https://afs-ag.com/about/",
+          "snippet": "To date, Advanced Farming Systems\u2122 has focused its research and field-development work on corn, soybeans, and grain sorghum.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Climate FieldView: Maximize Results with Our Digital Farming Solution",
+          "link": "https://climate.com/en-us.html",
+          "snippet": "better together Empowering the farmers that fuel our world \u00b7 01. Secure Data. expand_less \u00b7 02. Maximize Time. expand_more \u00b7 03. Stay Ahead. expand_more \u00b7 04. Boost ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Farmer Services and Farming Solutions | ADM",
+          "link": "https://www.adm.com/en-us/products-services/services/farmer-services/",
+          "snippet": "We offer financial and technical support to producers who newly adopt or continue current regenerative ag practices. Our programs are not one size fits all, but they are easy to utilize without onerou",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Farm Loans for Farmers and Ranchers",
+          "link": "https://www.farmers.gov/loans",
+          "snippet": "Aug 15, 2025 ... USDA can help you get started or grow your farming operation through a variety of programs and services. From farm loans to crop insurance, and ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "6 Ultimate Blox Fruits Scripts \u2013 Powerful Auto Farm, Raids & Sea...",
+          "link": "https://bloxtrends.com/6-ultimate-blox-fruits-scripts-powerful-auto-farm-raids-sea-events-system/",
+          "snippet": "01. VerifiedBloxFruits \u2013 Sea Events & Dungeon Auto Farm (Lua). This script focuses heavily on sea events, dungeons, raids, and advanced farming systems. It includes many built-in sections like mastery",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Farming as a Service Market Research Report: Forecast (2026-2032)",
+          "link": "https://www.marknteladvisors.com/research-library/global-farming-as-a-service-market.html",
+          "snippet": "The same official survey shows that 19% of companies ... This reduces the real-world impact of advanced farm management platforms despite growing adoption.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Innovations for Modern Farming | Crop Science US",
+          "link": "https://www.cropscience.bayer.us/",
+          "snippet": "Our commitment includes the development of advanced seeds, effective crop protection products, and digital farming technologies. We build strong ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "All Blox Fruits Scripts 2026 \u2013 NO KEY (Auto Farming Hubs)",
+          "link": "https://robxscript.com/multi-script/all-blox-fruits-scripts/",
+          "snippet": "Discover the best Blox Fruits scripts including No Key and Key System hubs for 2026. Copy scripts instantly to Auto Farm, Teleports & more.It includes advanced farming features, useful teleports, and ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Advanced Farming Systems",
+          "link": "https://afs-ag.com/",
+          "snippet": "Advanced Farming Systems is an equal opportunity provider. AFS has a unique and very different approach to fertilizer that increases ROI through innovation.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Agriculture Service of Product Farm - Advanced Farming Solutions",
+          "link": "https://www.apservicefarm.com/",
+          "snippet": "Innovative solutions for sustainable farming. Empowering farmers with cutting-edge technology and expert guidance from Agriculture Service of Product Farm (ASPF).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "About | Advanced Farming Systems",
+          "link": "https://afs-ag.com/about/",
+          "snippet": "To date, Advanced Farming Systems\u2122 has focused its research and field-development work on corn, soybeans, and grain sorghum.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Climate FieldView: Maximize Results with Our Digital Farming Solution",
+          "link": "https://climate.com/en-us.html",
+          "snippet": "better together Empowering the farmers that fuel our world \u00b7 01. Secure Data. expand_less \u00b7 02. Maximize Time. expand_more \u00b7 03. Stay Ahead. expand_more \u00b7 04. Boost ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Farmer Services and Farming Solutions | ADM",
+          "link": "https://www.adm.com/en-us/products-services/services/farmer-services/",
+          "snippet": "We offer financial and technical support to producers who newly adopt or continue current regenerative ag practices. Our programs are not one size fits all, but they are easy to utilize without onerou",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Farm Loans for Farmers and Ranchers",
+          "link": "https://www.farmers.gov/loans",
+          "snippet": "Aug 15, 2025 ... USDA can help you get started or grow your farming operation through a variety of programs and services. From farm loans to crop insurance, and ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "6 Ultimate Blox Fruits Scripts \u2013 Powerful Auto Farm, Raids & Sea...",
+          "link": "https://bloxtrends.com/6-ultimate-blox-fruits-scripts-powerful-auto-farm-raids-sea-events-system/",
+          "snippet": "01. VerifiedBloxFruits \u2013 Sea Events & Dungeon Auto Farm (Lua). This script focuses heavily on sea events, dungeons, raids, and advanced farming systems. It includes many built-in sections like mastery",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "advanced farming technology distributors official site",
+      "level": "discovery",
+      "result_count": 6,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Massey Ferguson International Website",
+          "link": "https://www.masseyferguson.com/en.html",
+          "snippet": "The new touch of high horsepower & precision farming. Transmission Dyna-VT. Maximum Lift Capacity (kg) 12,000.MF 8S Xtra. Designed by Farmers for Farmers. Transmission Multiple. Maximum Lift Capacity ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Adorable Advanced Farming Machines in Action | TikTok",
+          "link": "https://www.tiktok.com/@farmingtecno/video/7590651880477347093",
+          "snippet": "52 Likes, TikTok video from Farming Technology (@farmingtecno): \u201cDiscover the most adorable advanced farming machines with our charming old man farmer! #myfarm #agriculture #automobile #farming\u201d.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Phytech | Connecting growers to their plants",
+          "link": "https://www.phytech.com/",
+          "snippet": "Phytech bridges the gap between growers and their plants, delivering real-time insights and actionable recommendations to optimize irrigation, enhance crop health, and simplify farming",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Helping Farmers Serve the World | Raven Industries",
+          "link": "https://www.ravenind.com/",
+          "snippet": "Helping Farmers Serve the World Raven, a Brand of CNH, provides automated and autonomous farm technologies that help farmers serve the world. Our precision ag solutions are designed to improve product",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "SDF GROUP",
+          "link": "https://www.sdfgroup.com/",
+          "snippet": "Choose the language. SDF - Farming Technology. Since 1927.The SDF Group has developed a comprehensive range of products and services for precision agriculture and farming. Our solutions are designed f",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Online shopping from a great selection at Electronics Store.",
+          "link": "https://www.amazon.com/electronics-store/b?ie=UTF8&node=172282",
+          "snippet": "Farming Practices.Most-loved tech under $100. Tech to create & innovate.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Massey Ferguson International Website",
+          "link": "https://www.masseyferguson.com/en.html",
+          "snippet": "The new touch of high horsepower & precision farming. Transmission Dyna-VT. Maximum Lift Capacity (kg) 12,000.MF 8S Xtra. Designed by Farmers for Farmers. Transmission Multiple. Maximum Lift Capacity ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Adorable Advanced Farming Machines in Action | TikTok",
+          "link": "https://www.tiktok.com/@farmingtecno/video/7590651880477347093",
+          "snippet": "52 Likes, TikTok video from Farming Technology (@farmingtecno): \u201cDiscover the most adorable advanced farming machines with our charming old man farmer! #myfarm #agriculture #automobile #farming\u201d.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Phytech | Connecting growers to their plants",
+          "link": "https://www.phytech.com/",
+          "snippet": "Phytech bridges the gap between growers and their plants, delivering real-time insights and actionable recommendations to optimize irrigation, enhance crop health, and simplify farming",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Helping Farmers Serve the World | Raven Industries",
+          "link": "https://www.ravenind.com/",
+          "snippet": "Helping Farmers Serve the World Raven, a Brand of CNH, provides automated and autonomous farm technologies that help farmers serve the world. Our precision ag solutions are designed to improve product",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "SDF GROUP",
+          "link": "https://www.sdfgroup.com/",
+          "snippet": "Choose the language. SDF - Farming Technology. Since 1927.The SDF Group has developed a comprehensive range of products and services for precision agriculture and farming. Our solutions are designed f",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Online shopping from a great selection at Electronics Store.",
+          "link": "https://www.amazon.com/electronics-store/b?ie=UTF8&node=172282",
+          "snippet": "Farming Practices.Most-loved tech under $100. Tech to create & innovate.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P2": {
+      "query": "precision agriculture wholesalers corporate headquarters",
+      "level": "discovery",
+      "result_count": 3,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Precision Ag",
+          "link": "https://precisionag.earth/",
+          "snippet": "Precision ag is Australia's Leading provider of variable rate farming solutions. Today, Australian farmers are faced with familiar challenges: Escalating production expenses due to rising labour rates",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Precision.Ag, LLC Information | SignalHire Company Profile",
+          "link": "https://www.signalhire.com/companies/precision-ag-llc",
+          "snippet": "Summary Precision.Ag, LLC has been in the industry for 16 years. The company currently specializes in the Farming area. Its headquarters is located at US. The estimated number of employees - 13. To co",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Syngenta",
+          "link": "https://www.syngenta.com/",
+          "snippet": "What is precision agriculture ? It is a farming approach that uses technology to monitor and manage field variability in crops. Learn how it helps make agriculture more efficient, productive and susta",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Precision Ag",
+          "link": "https://precisionag.earth/",
+          "snippet": "Precision ag is Australia's Leading provider of variable rate farming solutions. Today, Australian farmers are faced with familiar challenges: Escalating production expenses due to rising labour rates",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Precision.Ag, LLC Information | SignalHire Company Profile",
+          "link": "https://www.signalhire.com/companies/precision-ag-llc",
+          "snippet": "Summary Precision.Ag, LLC has been in the industry for 16 years. The company currently specializes in the Farming area. Its headquarters is located at US. The estimated number of employees - 13. To co",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Syngenta",
+          "link": "https://www.syngenta.com/",
+          "snippet": "What is precision agriculture ? It is a farming approach that uses technology to monitor and manage field variability in crops. Learn how it helps make agriculture more efficient, productive and susta",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P3": {
+      "query": "advanced farming equipment resellers corporate site",
+      "level": "discovery",
+      "result_count": 2,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "About Us | Advanced Farm Equipment | United States - AFE",
+          "link": "https://www.lenco-harvesters.com/about-us",
+          "snippet": "Mission Statement Be the best custom provider to the World Wide Potato Industry, with quality built equipment, parts, and services; while, maintaining the best possible dealer and farming entity relat",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Welcome to Rural King",
+          "link": "https://www.ruralking.com/",
+          "snippet": "Discover Rural King for all your farming, home, and outdoor needs. Shop quality products at great prices. Visit now for exceptional service and deals!",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "About Us | Advanced Farm Equipment | United States - AFE",
+          "link": "https://www.lenco-harvesters.com/about-us",
+          "snippet": "Mission Statement Be the best custom provider to the World Wide Potato Industry, with quality built equipment, parts, and services; while, maintaining the best possible dealer and farming entity relat",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Welcome to Rural King",
+          "link": "https://www.ruralking.com/",
+          "snippet": "Discover Rural King for all your farming, home, and outdoor needs. Shop quality products at great prices. Visit now for exceptional service and deals!",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P4": {
+      "query": "precision farming online resellers official website",
+      "level": "discovery",
+      "result_count": 9,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "AllyNav | Precision Agriculture For Efficiency And Sustainable Farming",
+          "link": "https://www.allynav.com/",
+          "snippet": "Unlock seamless, efficient farming with AllyNav\u2019s precision agriculture solutions. From land preparation and seeding to spraying, fertilizing, and harvesting, our solutions offer comprehensive support",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "FieldBee \u2013 GPS tractor systems | Precision farming tools",
+          "link": "https://www.fieldbee.com/",
+          "snippet": "FieldBee. Empowering Modern Farmers with Smart Precision Farming Tools: PowerSteer, PowerSteer Ready and Manual Guidance. about-us.Discover the remarkable advantages of this technology on our website,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Massey Ferguson International Website",
+          "link": "https://www.masseyferguson.com/en.html",
+          "snippet": "The new touch of high horsepower & precision farming. Transmission Dyna-VT. Maximum Lift Capacity (kg) 12,000.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Pinpoint Accurate Farming | Farming Sensors - Farm21",
+          "link": "https://www.farm21.com/",
+          "snippet": "Pinpoint accurate farming. Get access to more crop and field insights than ever before. By combining data from scouting, weather, satellites and our affordable sensors, you get a complete view of your",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "What is precision agriculture technology? Its Role and Advantages",
+          "link": "https://geopard.tech/blog/what-is-precision-farming/",
+          "snippet": "Precision agriculture (PA) is an approach to farming that uses technology and data analytics to optimize crop yields and reduce waste..",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "FARMING SIMULATOR 25. \u0412\u044b\u0448\u043b\u043e \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435 \u0434\u043b\u044f Precision...",
+          "link": "https://vk.com/wall-215242544_54534",
+          "snippet": "\u0412\u044b\u0448\u043b\u043e \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435 \u0434\u043b\u044f Precision Farming (\u0422\u043e\u0447\u043d\u043e\u0435 \u0437\u0435\u043c\u043b\u0435\u0434\u0435\u043b\u0438\u0435) GIANTS Software \u043e\u0431\u043d\u043e\u0432\u0438\u043b\u0438 \u0441\u0432\u043e\u0435 \u0431\u0435\u0441\u043f\u043b\u0430\u0442\u043d\u043e\u0435 \u0434\u043e\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u0435 Precision Farming (\u0422\u043e\u0447\u043d\u043e\u0435 \u0437\u0435\u043c\u043b\u0435\u0434\u0435\u043b\u0438\u0435).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "ifarms.md",
+          "link": "https://www.ifarms.md/",
+          "snippet": "Digital, Smart & Precise Farming Solutions.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "7 Powerful Blox Loot Scripts - bloxtrends.com",
+          "link": "https://bloxtrends.com/7-powerful-blox-loot-scripts/",
+          "snippet": "These seven powerful Blox Loot scripts automate farming, enhance combat, and make looting faster than ever. Whether you want to auto collect, farm bosses, or boost your movement, these Lua scripts hav",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Link to reddit.com",
+          "link": "https://www.reddit.com/r/farmingsimulator/comments/1kpd50h/precision_farming_help/",
+          "snippet": "The site owner hides the web page description.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "AllyNav | Precision Agriculture For Efficiency And Sustainable Farming",
+          "link": "https://www.allynav.com/",
+          "snippet": "Unlock seamless, efficient farming with AllyNav\u2019s precision agriculture solutions. From land preparation and seeding to spraying, fertilizing, and harvesting, our solutions offer comprehensive support",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "FieldBee \u2013 GPS tractor systems | Precision farming tools",
+          "link": "https://www.fieldbee.com/",
+          "snippet": "FieldBee. Empowering Modern Farmers with Smart Precision Farming Tools: PowerSteer, PowerSteer Ready and Manual Guidance. about-us.Discover the remarkable advantages of this technology on our website,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Massey Ferguson International Website",
+          "link": "https://www.masseyferguson.com/en.html",
+          "snippet": "The new touch of high horsepower & precision farming. Transmission Dyna-VT. Maximum Lift Capacity (kg) 12,000.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Pinpoint Accurate Farming | Farming Sensors - Farm21",
+          "link": "https://www.farm21.com/",
+          "snippet": "Pinpoint accurate farming. Get access to more crop and field insights than ever before. By combining data from scouting, weather, satellites and our affordable sensors, you get a complete view of your",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "What is precision agriculture technology? Its Role and Advantages",
+          "link": "https://geopard.tech/blog/what-is-precision-farming/",
+          "snippet": "Precision agriculture (PA) is an approach to farming that uses technology and data analytics to optimize crop yields and reduce waste..",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "FARMING SIMULATOR 25. \u0412\u044b\u0448\u043b\u043e \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435 \u0434\u043b\u044f Precision...",
+          "link": "https://vk.com/wall-215242544_54534",
+          "snippet": "\u0412\u044b\u0448\u043b\u043e \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435 \u0434\u043b\u044f Precision Farming (\u0422\u043e\u0447\u043d\u043e\u0435 \u0437\u0435\u043c\u043b\u0435\u0434\u0435\u043b\u0438\u0435) GIANTS Software \u043e\u0431\u043d\u043e\u0432\u0438\u043b\u0438 \u0441\u0432\u043e\u0435 \u0431\u0435\u0441\u043f\u043b\u0430\u0442\u043d\u043e\u0435 \u0434\u043e\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u0435 Precision Farming (\u0422\u043e\u0447\u043d\u043e\u0435 \u0437\u0435\u043c\u043b\u0435\u0434\u0435\u043b\u0438\u0435).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "ifarms.md",
+          "link": "https://www.ifarms.md/",
+          "snippet": "Digital, Smart & Precise Farming Solutions.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "7 Powerful Blox Loot Scripts - bloxtrends.com",
+          "link": "https://bloxtrends.com/7-powerful-blox-loot-scripts/",
+          "snippet": "These seven powerful Blox Loot scripts automate farming, enhance combat, and make looting faster than ever. Whether you want to auto collect, farm bosses, or boost your movement, these Lua scripts hav",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Link to reddit.com",
+          "link": "https://www.reddit.com/r/farmingsimulator/comments/1kpd50h/precision_farming_help/",
+          "snippet": "The site owner hides the web page description.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P5": {
+      "query": "agriculture IoT system integrators corporate profile",
+      "level": "discovery",
+      "result_count": 10,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "What Is Agriculture? Definition, Types, and Why It Matters",
+          "link": "https://agristuff.com/farming/agriculture-everything-you-need-to-know/",
+          "snippet": "Mar 26, 2026 \u00b7 What is agriculture? Learn the definition, main types, importance, and how agriculture differs from farming in this \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Successful Farming: Practical, Trusted Farming and Ranching Information",
+          "link": "https://www.agriculture.com/",
+          "snippet": "Successful Farming is the trusted source for the diverse business, production, and family information needs of farmers and ranchers.",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Is Agriculture? Definition, Types, and Importance",
+          "link": "https://agritopic.com/farming/agriculture-everything-you-need-to-know/",
+          "snippet": "Dec 15, 2025 \u00b7 What is agriculture? Learn the definition of agriculture, its main types, key components, and why it matters in modern \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "AIGC Empowerment: Top 5 Agricultural IoT Companies in 2026",
+          "link": "https://blog.iotcloudplatform.com/aigc-empowerment-top-5-agricultural-iot-companies-in-2026/",
+          "snippet": "The agricultural industry is on the cusp of a revolution, driven by the convergence of Artificial Intelligence (AI), Internet of Things (IoT), and precision agriculture. The integration of AI-powered ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Smart Agriculture: Top 5 Core IoT Companies in 2026",
+          "link": "https://blog.iotcloudplatform.com/top-smart-agriculture-top-5-core-iot-companies-in-2026/",
+          "snippet": "The top-tier companies leading this revolution in agriculture are those that have successfully integrated advanced technologies to provide actionable insights and real-time monitoring capabilities. Th",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 Smart Agriculture Companies Leading Precision Farming",
+          "link": "https://www.kingsresearch.com/blog/top-10-smart-agriculture-companies-changing-the-game-2024",
+          "snippet": "Explore the top companies in the smart agriculture market advancing precision agriculture and sustainable global food production.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 9 Smart Agriculture Companies of 2024 | SRMC - Stratistics MRC",
+          "link": "https://www.strategymrc.com/blog/smart-agriculture-companies/",
+          "snippet": "With such a robust approach to smart agriculture, Auroras stands out as an advocate for the integration of IoT technologies into the farming industry. Their solutions not only speak to the current nee",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 7 IoT in Agriculture Companies | Market Share & Analyst Report",
+          "link": "https://www.verifiedmarketresearch.com/blog/top-7-iot-in-agriculture-companies-leading-farming-tech-boom/",
+          "snippet": "Explore the Market Intelligence report on IoT in agriculture. Compare John Deere, Trimble, and AGCO based on VMR proprietary data, market share, and technical scalability.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Internet of Things in Agriculture Market Size to Surge to USD 41.29...",
+          "link": "https://www.marketstatsinsight.com/internet-of-things-in-agriculture-market/",
+          "snippet": "The global Internet of Things (IoT) in Agriculture market is witnessing remarkable growth as farmers worldwide increasingly adopt connected technologies, artificial intelligence, automation systems, a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Agricultural Internet of Things Market Size & Industry Growth 2030",
+          "link": "https://www.futuredatastats.com/agricultural-internet-of-things-iot-market",
+          "snippet": "The Agricultural Internet of Things (AIoT) integrates advanced technology into farming practices to enhance productivity and efficiency. By connecting various devices and sensors through the internet,",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "What Is Agriculture? Definition, Types, and Why It Matters",
+          "link": "https://agristuff.com/farming/agriculture-everything-you-need-to-know/",
+          "snippet": "Mar 26, 2026 \u00b7 What is agriculture? Learn the definition, main types, importance, and how agriculture differs from farming in this \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Successful Farming: Practical, Trusted Farming and Ranching Information",
+          "link": "https://www.agriculture.com/",
+          "snippet": "Successful Farming is the trusted source for the diverse business, production, and family information needs of farmers and ranchers.",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Is Agriculture? Definition, Types, and Importance",
+          "link": "https://agritopic.com/farming/agriculture-everything-you-need-to-know/",
+          "snippet": "Dec 15, 2025 \u00b7 What is agriculture? Learn the definition of agriculture, its main types, key components, and why it matters in modern \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "AIGC Empowerment: Top 5 Agricultural IoT Companies in 2026",
+          "link": "https://blog.iotcloudplatform.com/aigc-empowerment-top-5-agricultural-iot-companies-in-2026/",
+          "snippet": "The agricultural industry is on the cusp of a revolution, driven by the convergence of Artificial Intelligence (AI), Internet of Things (IoT), and precision agriculture. The integration of AI-powered ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Smart Agriculture: Top 5 Core IoT Companies in 2026",
+          "link": "https://blog.iotcloudplatform.com/top-smart-agriculture-top-5-core-iot-companies-in-2026/",
+          "snippet": "The top-tier companies leading this revolution in agriculture are those that have successfully integrated advanced technologies to provide actionable insights and real-time monitoring capabilities. Th",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 Smart Agriculture Companies Leading Precision Farming",
+          "link": "https://www.kingsresearch.com/blog/top-10-smart-agriculture-companies-changing-the-game-2024",
+          "snippet": "Explore the top companies in the smart agriculture market advancing precision agriculture and sustainable global food production.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 9 Smart Agriculture Companies of 2024 | SRMC - Stratistics MRC",
+          "link": "https://www.strategymrc.com/blog/smart-agriculture-companies/",
+          "snippet": "With such a robust approach to smart agriculture, Auroras stands out as an advocate for the integration of IoT technologies into the farming industry. Their solutions not only speak to the current nee",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 7 IoT in Agriculture Companies | Market Share & Analyst Report",
+          "link": "https://www.verifiedmarketresearch.com/blog/top-7-iot-in-agriculture-companies-leading-farming-tech-boom/",
+          "snippet": "Explore the Market Intelligence report on IoT in agriculture. Compare John Deere, Trimble, and AGCO based on VMR proprietary data, market share, and technical scalability.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Internet of Things in Agriculture Market Size to Surge to USD 41.29...",
+          "link": "https://www.marketstatsinsight.com/internet-of-things-in-agriculture-market/",
+          "snippet": "The global Internet of Things (IoT) in Agriculture market is witnessing remarkable growth as farmers worldwide increasingly adopt connected technologies, artificial intelligence, automation systems, a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Agricultural Internet of Things Market Size & Industry Growth 2030",
+          "link": "https://www.futuredatastats.com/agricultural-internet-of-things-iot-market",
+          "snippet": "The Agricultural Internet of Things (AIoT) integrates advanced technology into farming practices to enhance productivity and efficiency. By connecting various devices and sensors through the internet,",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "farming automation system integrators official site",
+      "level": "discovery",
+      "result_count": 8,
+      "results_target": 28,
+      "backends": [
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Official Website | Farming Simulator",
+          "link": "https://www.farming-simulator.com/",
+          "snippet": "Welcome to Farming Simulator! News, mods, tutorials, support & more: Get all important information about the popular simulation \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Farming",
+          "link": "https://www.sfa.gov.sg/farming",
+          "snippet": "Farming Farm Land / Space Types of Farms in Singapore Requirements to Start a Farm in Singapore Land Tenders for Food \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is agriculture, What is Farming, Agriculture vs Farming",
+          "link": "https://www.nicheagriculture.com/agriculture-vs-farming/",
+          "snippet": "Farming is a subset of agriculture, highlighting the practical aspects of Agriculture vs Farming production. In essence, agriculture is \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Requirements to Start a Farm in Singapore",
+          "link": "https://www.sfa.gov.sg/farming/farm-land-sea-space/requirements-to-start-a-farm-in-singapore",
+          "snippet": "A farm refers to any land or premises used for the keeping, rearing, breeding, or boarding of food animals or birds for commercial \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Successful Farming: Practical, Trusted Farming and Ranching \u2026",
+          "link": "https://www.agriculture.com/",
+          "snippet": "Successful Farming is the trusted source for the diverse business, production, and family information needs of farmers and ranchers.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Urban Farming In Singapore, How To Start | Agri Farming",
+          "link": "https://www.agrifarming.in/urban-farming-in-singapore-how-to-start",
+          "snippet": "Nov 21, 2024 \u00b7 A guide to starting urban farming in Singapore, types of urban farms in Singapore, tips and techniques of urban \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Agriculture in Singapore - Wikipedia",
+          "link": "https://en.m.wikipedia.org/wiki/Agriculture_in_Singapore",
+          "snippet": "Parts of the area have historically been used for agricultural and farming activities due to its rural land use and low urban density. [9] \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Farming Process Step by Step: Modern Agriculture Guide [2025]",
+          "link": "https://farmonaut.com/blogs/farming-process-step-by-step-modern-agriculture-guide",
+          "snippet": "Explore the step by step farming process: from land preparation and seed selection to irrigation and advanced crop monitoring. Read \u2026",
+          "backend": "searxng"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Official Website | Farming Simulator",
+          "link": "https://www.farming-simulator.com/",
+          "snippet": "Welcome to Farming Simulator! News, mods, tutorials, support & more: Get all important information about the popular simulation \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Farming",
+          "link": "https://www.sfa.gov.sg/farming",
+          "snippet": "Farming Farm Land / Space Types of Farms in Singapore Requirements to Start a Farm in Singapore Land Tenders for Food \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is agriculture, What is Farming, Agriculture vs Farming",
+          "link": "https://www.nicheagriculture.com/agriculture-vs-farming/",
+          "snippet": "Farming is a subset of agriculture, highlighting the practical aspects of Agriculture vs Farming production. In essence, agriculture is \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Requirements to Start a Farm in Singapore",
+          "link": "https://www.sfa.gov.sg/farming/farm-land-sea-space/requirements-to-start-a-farm-in-singapore",
+          "snippet": "A farm refers to any land or premises used for the keeping, rearing, breeding, or boarding of food animals or birds for commercial \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Successful Farming: Practical, Trusted Farming and Ranching \u2026",
+          "link": "https://www.agriculture.com/",
+          "snippet": "Successful Farming is the trusted source for the diverse business, production, and family information needs of farmers and ranchers.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Urban Farming In Singapore, How To Start | Agri Farming",
+          "link": "https://www.agrifarming.in/urban-farming-in-singapore-how-to-start",
+          "snippet": "Nov 21, 2024 \u00b7 A guide to starting urban farming in Singapore, types of urban farms in Singapore, tips and techniques of urban \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Agriculture in Singapore - Wikipedia",
+          "link": "https://en.m.wikipedia.org/wiki/Agriculture_in_Singapore",
+          "snippet": "Parts of the area have historically been used for agricultural and farming activities due to its rural land use and low urban density. [9] \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Farming Process Step by Step: Modern Agriculture Guide [2025]",
+          "link": "https://farmonaut.com/blogs/farming-process-step-by-step-modern-agriculture-guide",
+          "snippet": "Explore the step by step farming process: from land preparation and seed selection to irrigation and advanced crop monitoring. Read \u2026",
+          "backend": "searxng"
+        }
+      ]
+    },
+    "P7": {
+      "query": "advanced farming consulting services corporate site",
+      "level": "discovery",
+      "result_count": 9,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Top Farming Consulting India | Best Agro Consultants",
+          "link": "https://kisaanmitrr.in/",
+          "snippet": "KisaanMitrr India's top farming consulting company. Get in touch for the best agriculture consultancy services in India at affordable rates.Mushroom Farm Consulting. Low capital needs, high yields and",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Pioneer Agro Industries india's leading Farming Consultancy",
+          "link": "https://www.pioneeragroindustry.com/farming-consultant.html",
+          "snippet": "We specialises in all kinds of Agricultural farm consulting process through unique blend of natural, technical and management expertise. We provide consultancy to bring their dream of agricultural ven",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Urban Farming Consulting | Cultiva EcoSolutions",
+          "link": "https://cultivaeco.com/en/horticulture-consulting/urban-farming-consulting/",
+          "snippet": "Urban Farming Consulting for Profitable City Agriculture. Our experts apply science-based techniques to transform underused urban spaces into productive, resilient food systems.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Agriculture & Farming Consulting & Valuations in GCC | ValuStrat",
+          "link": "https://valustrat.com/pages/agriculture-livestock-farming-consulting",
+          "snippet": "Agriculture and farming consulting, strategy & valuations for livestock & agribusinesses in GCC, covering feasibility, research, M&A. Top-rated by Consultancy ME.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Farming Consultancy \u2013 Verified B2B Companies | Europages",
+          "link": "https://www.europages.co.uk/companies/farming+consultancy.html",
+          "snippet": "Companies - Suppliers - Services. farming consultancy.Service provider. Founded in 2007, the company SCIBASICS specializes in consulting and information regarding regulations in the agricultural secto",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "5 Ways Agribusiness Consulting Can Increase Profitability",
+          "link": "https://nmsconsulting.com/13445/agribusiness-consulting-can-increase-profitability/",
+          "snippet": "Learn how agribusiness consulting firms improve operations, cut costs, and open new markets utilizing experienced farming consultants.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vertical Farming Consulting Business Plan Report 2026",
+          "link": "https://www.imarcgroup.com/vertical-farming-consulting-business-plan-feasibility-report",
+          "snippet": "A vertical farming consulting is a specialized service within the agricultural sector that offers expert guidance and strategic support to individuals, businesses, and institutions seeking to establis",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tower Farm Consultation | Vertical Farming Consultation",
+          "link": "https://agrotonomy.com/tower-farm-consultation/",
+          "snippet": "Tower Farm consultation for projects of any size.Off-site consultation is required when: The project demands significant preparation ahead of the installation. Strategic planning or infrastructure dev",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "UNNATI 9 GROUP",
+          "link": "https://www.unnati9group.com/",
+          "snippet": "Whether you need farm consulting services, farming consultancy services, or guidance from agricultural research services, Unnati 9 Group offers comprehensive support.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Top Farming Consulting India | Best Agro Consultants",
+          "link": "https://kisaanmitrr.in/",
+          "snippet": "KisaanMitrr India's top farming consulting company. Get in touch for the best agriculture consultancy services in India at affordable rates.Mushroom Farm Consulting. Low capital needs, high yields and",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Pioneer Agro Industries india's leading Farming Consultancy",
+          "link": "https://www.pioneeragroindustry.com/farming-consultant.html",
+          "snippet": "We specialises in all kinds of Agricultural farm consulting process through unique blend of natural, technical and management expertise. We provide consultancy to bring their dream of agricultural ven",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Urban Farming Consulting | Cultiva EcoSolutions",
+          "link": "https://cultivaeco.com/en/horticulture-consulting/urban-farming-consulting/",
+          "snippet": "Urban Farming Consulting for Profitable City Agriculture. Our experts apply science-based techniques to transform underused urban spaces into productive, resilient food systems.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Agriculture & Farming Consulting & Valuations in GCC | ValuStrat",
+          "link": "https://valustrat.com/pages/agriculture-livestock-farming-consulting",
+          "snippet": "Agriculture and farming consulting, strategy & valuations for livestock & agribusinesses in GCC, covering feasibility, research, M&A. Top-rated by Consultancy ME.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Farming Consultancy \u2013 Verified B2B Companies | Europages",
+          "link": "https://www.europages.co.uk/companies/farming+consultancy.html",
+          "snippet": "Companies - Suppliers - Services. farming consultancy.Service provider. Founded in 2007, the company SCIBASICS specializes in consulting and information regarding regulations in the agricultural secto",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "5 Ways Agribusiness Consulting Can Increase Profitability",
+          "link": "https://nmsconsulting.com/13445/agribusiness-consulting-can-increase-profitability/",
+          "snippet": "Learn how agribusiness consulting firms improve operations, cut costs, and open new markets utilizing experienced farming consultants.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vertical Farming Consulting Business Plan Report 2026",
+          "link": "https://www.imarcgroup.com/vertical-farming-consulting-business-plan-feasibility-report",
+          "snippet": "A vertical farming consulting is a specialized service within the agricultural sector that offers expert guidance and strategic support to individuals, businesses, and institutions seeking to establis",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tower Farm Consultation | Vertical Farming Consultation",
+          "link": "https://agrotonomy.com/tower-farm-consultation/",
+          "snippet": "Tower Farm consultation for projects of any size.Off-site consultation is required when: The project demands significant preparation ahead of the installation. Strategic planning or infrastructure dev",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "UNNATI 9 GROUP",
+          "link": "https://www.unnati9group.com/",
+          "snippet": "Whether you need farm consulting services, farming consultancy services, or guidance from agricultural research services, Unnati 9 Group offers comprehensive support.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

@@ -1,0 +1,1863 @@
+{
+  "phase": 1,
+  "query": "Software Development Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T21:43:21.369915+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "Software Development",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "Software",
+    "industry_terms": [
+      "software distribution",
+      "cloud services",
+      "enterprise software",
+      "application development",
+      "system integration"
+    ],
+    "ecosystem_functions": [
+      "software distribution",
+      "wholesale software sales",
+      "reselling software products",
+      "integrating software solutions",
+      "providing managed services",
+      "consulting on software implementation",
+      "partnering with software vendors",
+      "supporting end-users"
+    ],
+    "interpretation_summary": "The Software Development Market encompasses the creation, maintenance, and distribution of software products and services. Key participants include software developers, distributors, resellers, and service providers oper",
+    "relevance_keywords": [
+      "software distribution channels",
+      "enterprise software solutions",
+      "cloud integration services",
+      "reseller partnerships",
+      "software service providers"
+    ],
+    "negative_keywords": [
+      "free software",
+      "open source",
+      "tutorials",
+      "unrelated industries",
+      "job listings"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "Ingram Micro",
+        "primary_domain": "ingrammicro.com",
+        "company_function": "distributor of software and technology products"
+      },
+      {
+        "canonical_name": "Tech Data",
+        "primary_domain": "techdata.com",
+        "company_function": "wholesaler and distributor of software solutions"
+      },
+      {
+        "canonical_name": "CDW",
+        "primary_domain": "cdw.com",
+        "company_function": "reseller of software and it solutions"
+      },
+      {
+        "canonical_name": "SHI International",
+        "primary_domain": "shi.com",
+        "company_function": "reseller of software and technology products"
+      },
+      {
+        "canonical_name": "Accenture",
+        "primary_domain": "accenture.com",
+        "company_function": "system integrator and consulting services"
+      },
+      {
+        "canonical_name": "Deloitte",
+        "primary_domain": "deloitte.com",
+        "company_function": "consulting and system integration services"
+      },
+      {
+        "canonical_name": "IBM",
+        "primary_domain": "ibm.com",
+        "company_function": "service provider and software solutions"
+      },
+      {
+        "canonical_name": "Capgemini",
+        "primary_domain": "capgemini.com",
+        "company_function": "service provider and consulting services"
+      },
+      {
+        "canonical_name": "Softchoice",
+        "primary_domain": "softchoice.com",
+        "company_function": "distributor and reseller of software solutions",
+        "segment": "Distributors",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Synnex",
+        "primary_domain": "synnex.com",
+        "company_function": "distributor of software and IT products",
+        "segment": "Distributors",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Insight Enterprises",
+        "primary_domain": "insight.com",
+        "company_function": "reseller and service provider of software solutions",
+        "segment": "Resellers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Wipro",
+        "primary_domain": "wipro.com",
+        "company_function": "system integrator and IT services",
+        "segment": "System Integrators",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Cognizant",
+        "primary_domain": "cognizant.com",
+        "company_function": "service provider and consulting services",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Arrow Electronics",
+        "primary_domain": "arrow.com",
+        "company_function": "distributor of software and technology products",
+        "segment": "Distributors",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "Software Development",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "Software Development",
+    "include_keywords": [
+      "value-added distributor",
+      "software reseller",
+      "cloud service provider",
+      "managed services",
+      "software integration"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The Software Development Market encompasses the creation, maintenance, and distribution of software products and services. Key participants include software developers, distributors, resellers, and service providers operating globally across various sectors such as enterprise solutions, mobile applications, and cloud services.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Distribution",
+        "description": "This layer involves the distribution of software products through various channels.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Value-added Distributors",
+              "Wholesale Distributors"
+            ],
+            "participant_types": [
+              "distributor",
+              "wholesaler"
+            ],
+            "search_intents": [
+              "software distributors for enterprise solutions",
+              "wholesale software providers"
+            ]
+          },
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Retail Resellers",
+              "Online Resellers"
+            ],
+            "participant_types": [
+              "reseller"
+            ],
+            "search_intents": [
+              "software resellers for small businesses",
+              "online software resellers"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L2",
+        "layer_name": "Integration Services",
+        "description": "This layer focuses on integrating software solutions into existing systems.",
+        "segments": [
+          {
+            "segment_name": "System Integrators",
+            "sub_segments": [
+              "Enterprise System Integrators",
+              "Cloud Integrators"
+            ],
+            "participant_types": [
+              "system integrator"
+            ],
+            "search_intents": [
+              "system integrators for cloud solutions",
+              "enterprise software integration services"
+            ]
+          },
+          {
+            "segment_name": "Service Providers",
+            "sub_segments": [
+              "Managed Service Providers",
+              "Consulting Service Providers"
+            ],
+            "participant_types": [
+              "service provider"
+            ],
+            "search_intents": [
+              "managed service providers for software development",
+              "consulting services for software integration"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Software Development Tools",
+        "End-user Software Applications",
+        "Software Licensing",
+        "IT Consulting Services"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "search for software distributors for enterprise solutions",
+        "sub_sector": "distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "find online software resellers for small businesses",
+        "sub_sector": "reseller",
+        "layer_id": "L1",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "search for system integrators for cloud solutions",
+        "sub_sector": "system_integrator",
+        "layer_id": "L2",
+        "segment": "System Integrators"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "find managed service providers for software development",
+        "sub_sector": "service_provider",
+        "layer_id": "L2",
+        "segment": "Service Providers"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "Software",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "Software Development companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "Software distributors and resellers corporate sites"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "System integrators for software solutions official site"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "discovery",
+      "text": "software distributors for enterprise solutions"
+    },
+    {
+      "id": "P2",
+      "level": "discovery",
+      "text": "wholesale software providers corporate headquarters"
+    },
+    {
+      "id": "P3",
+      "level": "discovery",
+      "text": "software resellers for small businesses"
+    },
+    {
+      "id": "P4",
+      "level": "discovery",
+      "text": "online software resellers official site"
+    },
+    {
+      "id": "P5",
+      "level": "discovery",
+      "text": "system integrators for cloud solutions"
+    },
+    {
+      "id": "P6",
+      "level": "discovery",
+      "text": "enterprise software integration services corporate site"
+    },
+    {
+      "id": "P7",
+      "level": "discovery",
+      "text": "managed service providers for software development"
+    },
+    {
+      "id": "P8",
+      "level": "discovery",
+      "text": "consulting services for software integration official site"
+    },
+    {
+      "id": "P9",
+      "level": "volume",
+      "text": "authorized Software Development distributor firm official"
+    },
+    {
+      "id": "P10",
+      "level": "volume",
+      "text": "Software Development reseller channel partner official"
+    },
+    {
+      "id": "P11",
+      "level": "volume",
+      "text": "Software Development system integrator official website"
+    },
+    {
+      "id": "P12",
+      "level": "volume",
+      "text": "Software Development MSP managed service provider official"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "Software Development companies official websites",
+      "level": "L0",
+      "result_count": 18,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "IT Outsourcing & Software Development Company - NeoSOFT",
+          "link": "https://www.neosofttech.com/",
+          "snippet": "Jul 13, 2026 \u00b7 NeoSOFT is a leading software development and IT outsourcing company with 25+ years of software engineering excellence and successfully driving digital growth and innovation for 1500+ g",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Software Development Company In Pune India | Mplussoft",
+          "link": "https://www.mplussoft.com/",
+          "snippet": "Mplussoft is a responsive software development company based in Pune, India that offers strategic consulting, enterprise resource planning (ERP), custom development, website & portals, digital marketi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mobile App Development, Website, E-commerce, Software",
+          "link": "https://associative.in/",
+          "snippet": "Jan 2, 2021 \u00b7 Associative is a software development company located in Pune, India. We specialize in mobile apps (Android and iOS), software, and websites",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "49 Top Software Development Companies in Pune \u00b7 July 2026",
+          "link": "https://www.f6s.com/companies/software-development/india/maharashtra/pune/co",
+          "snippet": "Detailed info and reviews on 49 top Software Development companies and startups in Pune in 2026. Get the latest updates on their products, jobs, funding, investors, founders and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Software Development Company In India | Techstalwarts",
+          "link": "https://techstalwarts.com/",
+          "snippet": "From simple business websites to e-commerce platforms and complex web applications, we have the skills to turn your vision into reality. Our collaborative and customer-focused web development process ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Software Development Company Since 1987 | SPEC India",
+          "link": "https://www.spec-india.com/",
+          "snippet": "As a trusted software development company since 1987, SPEC India helps enterprises build custom software, AI-powered applications, and scalable digital solutions that streamline operations, improve de",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "BuzzyBrains - Software Development & Digital Transformation Agency",
+          "link": "https://www.buzzybrains.com/",
+          "snippet": "As one of the most trusted AI development company in India, BuzzyBrains helps global organizations build intelligent custom software solutions. From advanced AI app development to modernizing existing",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Siddhatech - Custom Software Development Company In India",
+          "link": "https://www.siddhatech.com/",
+          "snippet": "Yes, as a dedicated custom software development company in India, we provide comprehensive maintenance services for the custom solutions we develop. Our dedicated team ensures that your software remai",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Software Development Companies in India - Goodfirms",
+          "link": "https://www.goodfirms.co/directory/country/top-software-development-companies/in",
+          "snippet": "Find a list of top software development companies in India. Select the best software development company in India based on verified client reviews, service offers & budgets.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Software Development Company \u2014 Innowise",
+          "link": "https://innowise.com/",
+          "snippet": "Full-cycle software development services: from ideation and UX design to development, QA, and DevOps. 3,500+ IT specialists.Result-driven software development company. Speed up development. Building s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Website Design & Software Development Company in Patna",
+          "link": "https://anuitsolution.com/",
+          "snippet": "Leading website design and software development company in Patna offering professional SEO, digital marketing, and PHP training. Get responsive websites and expert IT solutions for your business growt",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "JetBrains: Essential tools for software developers and teams",
+          "link": "https://www.jetbrains.com/",
+          "snippet": "dotUltimateComplete developer toolkit for .NET and game development. AI for teams and organizationsOne system for agentic software development.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best software development company in Pune, India | Scrobits",
+          "link": "https://www.scrobits.com/",
+          "snippet": "ScroBits is specializing in MERN technologies and Cloud Platforms. ScroBits have been working on Digital Transformations, Product Development, Web Portals for companies like ARDE, Oil & Gas, BMC, Reli",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Satmat Group - Software Development Company",
+          "link": "https://satmatgroup.com/",
+          "snippet": "Software Development Company Satmat Group, based in Pune, India, is a top software development company specializing in custom software, website, and mobile app development.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home | AI Software Company in Pune, Mumbai | Baap Company",
+          "link": "https://baapcompany.com/",
+          "snippet": "Home of Baap Company, a leading AI software development company offering ERP, CRM, HRMS, mobile app, web development, cloud software and digital transformation services across Pune, Mumbai, Sangamner,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Software Development Company - Associative",
+          "link": "https://associative.in/service/software-development-company/",
+          "snippet": "We craft cutting-edge software solutions to propel your business to new heights. Our Expertise Spans: Mobile App Development: Native Android, Native iOS, Cross-platform Web Development: Stunning websi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cloud Computing Services | Microsoft Azure",
+          "link": "https://azure.microsoft.com/",
+          "snippet": "Software Development Companies. Microsoft Marketplace. Find a partner.GitHub Copilot. Increase software development velocity and inspire continuous innovation.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Codewars - Achieve mastery through coding practice and developer...",
+          "link": "https://www.codewars.com/",
+          "snippet": "Achieve mastery through challenge. Improve your development skills by training with your peers on code kata that continuously challenge and push your coding practice.An engaged software development co",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "IT Outsourcing & Software Development Company - NeoSOFT",
+          "link": "https://www.neosofttech.com/",
+          "snippet": "Jul 13, 2026 \u00b7 NeoSOFT is a leading software development and IT outsourcing company with 25+ years of software engineering excellence and successfully driving digital growth and innovation for 1500+ g",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Software Development Company In Pune India | Mplussoft",
+          "link": "https://www.mplussoft.com/",
+          "snippet": "Mplussoft is a responsive software development company based in Pune, India that offers strategic consulting, enterprise resource planning (ERP), custom development, website & portals, digital marketi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mobile App Development, Website, E-commerce, Software",
+          "link": "https://associative.in/",
+          "snippet": "Jan 2, 2021 \u00b7 Associative is a software development company located in Pune, India. We specialize in mobile apps (Android and iOS), software, and websites",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "49 Top Software Development Companies in Pune \u00b7 July 2026",
+          "link": "https://www.f6s.com/companies/software-development/india/maharashtra/pune/co",
+          "snippet": "Detailed info and reviews on 49 top Software Development companies and startups in Pune in 2026. Get the latest updates on their products, jobs, funding, investors, founders and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Software Development Company In India | Techstalwarts",
+          "link": "https://techstalwarts.com/",
+          "snippet": "From simple business websites to e-commerce platforms and complex web applications, we have the skills to turn your vision into reality. Our collaborative and customer-focused web development process ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Software Development Company Since 1987 | SPEC India",
+          "link": "https://www.spec-india.com/",
+          "snippet": "As a trusted software development company since 1987, SPEC India helps enterprises build custom software, AI-powered applications, and scalable digital solutions that streamline operations, improve de",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "BuzzyBrains - Software Development & Digital Transformation Agency",
+          "link": "https://www.buzzybrains.com/",
+          "snippet": "As one of the most trusted AI development company in India, BuzzyBrains helps global organizations build intelligent custom software solutions. From advanced AI app development to modernizing existing",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Siddhatech - Custom Software Development Company In India",
+          "link": "https://www.siddhatech.com/",
+          "snippet": "Yes, as a dedicated custom software development company in India, we provide comprehensive maintenance services for the custom solutions we develop. Our dedicated team ensures that your software remai",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Software Development Companies in India - Goodfirms",
+          "link": "https://www.goodfirms.co/directory/country/top-software-development-companies/in",
+          "snippet": "Find a list of top software development companies in India. Select the best software development company in India based on verified client reviews, service offers & budgets.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Software Development Company \u2014 Innowise",
+          "link": "https://innowise.com/",
+          "snippet": "Full-cycle software development services: from ideation and UX design to development, QA, and DevOps. 3,500+ IT specialists.Result-driven software development company. Speed up development. Building s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Website Design & Software Development Company in Patna",
+          "link": "https://anuitsolution.com/",
+          "snippet": "Leading website design and software development company in Patna offering professional SEO, digital marketing, and PHP training. Get responsive websites and expert IT solutions for your business growt",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "JetBrains: Essential tools for software developers and teams",
+          "link": "https://www.jetbrains.com/",
+          "snippet": "dotUltimateComplete developer toolkit for .NET and game development. AI for teams and organizationsOne system for agentic software development.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best software development company in Pune, India | Scrobits",
+          "link": "https://www.scrobits.com/",
+          "snippet": "ScroBits is specializing in MERN technologies and Cloud Platforms. ScroBits have been working on Digital Transformations, Product Development, Web Portals for companies like ARDE, Oil & Gas, BMC, Reli",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Satmat Group - Software Development Company",
+          "link": "https://satmatgroup.com/",
+          "snippet": "Software Development Company Satmat Group, based in Pune, India, is a top software development company specializing in custom software, website, and mobile app development.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home | AI Software Company in Pune, Mumbai | Baap Company",
+          "link": "https://baapcompany.com/",
+          "snippet": "Home of Baap Company, a leading AI software development company offering ERP, CRM, HRMS, mobile app, web development, cloud software and digital transformation services across Pune, Mumbai, Sangamner,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Software Development Company - Associative",
+          "link": "https://associative.in/service/software-development-company/",
+          "snippet": "We craft cutting-edge software solutions to propel your business to new heights. Our Expertise Spans: Mobile App Development: Native Android, Native iOS, Cross-platform Web Development: Stunning websi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cloud Computing Services | Microsoft Azure",
+          "link": "https://azure.microsoft.com/",
+          "snippet": "Software Development Companies. Microsoft Marketplace. Find a partner.GitHub Copilot. Increase software development velocity and inspire continuous innovation.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Codewars - Achieve mastery through coding practice and developer...",
+          "link": "https://www.codewars.com/",
+          "snippet": "Achieve mastery through challenge. Improve your development skills by training with your peers on code kata that continuously challenge and push your coding practice.An engaged software development co",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "Software distributors and resellers corporate sites",
+      "level": "L1",
+      "result_count": 17,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Software - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Software",
+          "snippet": "Software in a programming language is run through a compiler or interpreter to execute on the architecture's hardware. Over time, software has become complex, owing to developments in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Software Download - microsoft.com",
+          "link": "https://www.microsoft.com/en-us/software-download/?msockid=03cc6db5f5c36c7132687a2af4ff6d3e",
+          "snippet": "Skip to main content Software Download Windows 11 Windows 11 for Arm Windows 10 Windows 8.1 Windows 7 Media Feature Pack Windows 10/11 Insider Preview Windows Server Insider Preview \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Download software for Windows - Softonic",
+          "link": "https://en.softonic.com/windows",
+          "snippet": "Download software for Windows. Download VidMate, VLC media player, CapCut and more.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Download Windows 10 - microsoft.com",
+          "link": "https://www.microsoft.com/en-us/software-download/windows10?msockid=03cc6db5f5c36c7132687a2af4ff6d3e",
+          "snippet": "Stay Secure with Essential Windows Updates: After October 14, 2025, Windows 10 will no longer receive free software updates, technical support, or security fixes. This means your PC will be more \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Download Computer Software - Best Software & Apps - Softonic",
+          "link": "https://en.softonic.com/downloads/computer-software",
+          "snippet": "May 13, 2026 \u00b7 Selecting the right software depends on your specific needs, such as ease of use, compatibility with your operating system, and whether you require advanced features like scripting or \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Software and its Types - GeeksforGeeks",
+          "link": "https://www.geeksforgeeks.org/computer-science-fundamentals/software-and-its-types/",
+          "snippet": "Jul 23, 2025 \u00b7 System software is software that directly operates the computer hardware and provides the basic functionality to the users as well as to the other software to operate smoothly. It has t",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Is Software? | Definition from TechTarget",
+          "link": "https://www.techtarget.com/searchapparchitecture/definition/software",
+          "snippet": "Jun 6, 2024 \u00b7 Software is a set of instructions, data or programs used to operate computers and execute specific tasks. It is the opposite of hardware, which describes the physical aspects of a comput",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is Software? Definition, Examples, & Types Explained",
+          "link": "https://www.simplilearn.com/tutorials/programming-tutorial/what-is-software",
+          "snippet": "Nov 16, 2025 \u00b7 Discover what software is, its definition, types, and real-world examples. Learn how software powers devices, applications, and digital solutions.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Computer - Software Types - Online Tutorials Library",
+          "link": "https://www.tutorialspoint.com/computer_fundamentals/computer_software_types.htm",
+          "snippet": "Software is a collection of programs, data, and instructions that enable a computer system and its hardwares to do the tasks. A program is a set of instructions or programming statements.",
+          "backend": "searxng"
+        },
+        {
+          "title": "4 Best Software Resellers and Distributors Software for... | Appvizer",
+          "link": "https://www.appvizer.com/commercial/resellers-distributors",
+          "snippet": "Some of the best software resellers and distributors software options include ChannelAdvisor, Zoho Inventory, and TradeGecko. These platforms offer comprehensive features that can help you manage your",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "B2B Wholesale Platform for Digital Game Keys, Software & Gift Cards",
+          "link": "https://codeswholesale.com/",
+          "snippet": "CodesWholesale connects 500+ resellers with 200+ vetted suppliers across 40,000+ game keys, gift cards, and software. Buy at wholesale, automate delivery with the API, and trade with zero inventory ri",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - AndroidWinTool | Best Phone Repair & Servicing Software",
+          "link": "https://androidwintool.com/",
+          "snippet": "Get our software with great deals. AWT - AndroidWin Tool Best Servicing Software. Repair IMEI MEID SN Serial, Flash Firmware Stock and Custom Rom Binaries, Unlock Google Account FRP Samsung Account Mi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "CheckerTR PRO | Professional Android Service Software",
+          "link": "https://checkertr.com/",
+          "snippet": "Distributor and Reseller. Turkey, Worldwide. CheckerTR Main Sales. Visit Website. info@vipprosupport.com.tr. +90 530 228 52 00.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "MCS Distribution: BROAD-LINE IT WHOLESALE in Europe and CIS...",
+          "link": "https://mcs.com.cy/",
+          "snippet": "We also work with all major companies on the value-added business market (system integrators, corporate resellers).The product portfolio of MCS IT Distribution Ltd. includes more than 120 world-famous",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "X-Ways Software Technology AG - Resellers",
+          "link": "https://x-ways.net/corporate/resellers.html",
+          "snippet": "Resellers in the USA. Our specially appointed US-based sales partner is Cleverbridge, Inc. As a US customer you can order new licenses from them starting here. Any other company may resell our softwar",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Purchase Options, FastTrack Schedule | AEC Software",
+          "link": "https://www.aecsoftware.com/purchase/resellers-distributors/",
+          "snippet": "Resellers - Distributors. At AEC Software, we believe in the value of teamwork.Authorized Resellers. Practical Software Solutions (704) 721-6800 www.practicalsoftwaresolutions.com.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Worldwide Offices - Progress",
+          "link": "https://www.progress.com/company/offices",
+          "snippet": "Reseller. Calle Velasco 232 esq. Suarez de Figueroa, Ed. Don Luis Piso 1 Of. 4 Santa Cruz de la Sierra, Bolivia.View on the map. Global Headquarters, Worldwide. Progress Software Corporation. Office.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Software - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Software",
+          "snippet": "Software in a programming language is run through a compiler or interpreter to execute on the architecture's hardware. Over time, software has become complex, owing to developments in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Software Download - microsoft.com",
+          "link": "https://www.microsoft.com/en-us/software-download/?msockid=03cc6db5f5c36c7132687a2af4ff6d3e",
+          "snippet": "Skip to main content Software Download Windows 11 Windows 11 for Arm Windows 10 Windows 8.1 Windows 7 Media Feature Pack Windows 10/11 Insider Preview Windows Server Insider Preview \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Download software for Windows - Softonic",
+          "link": "https://en.softonic.com/windows",
+          "snippet": "Download software for Windows. Download VidMate, VLC media player, CapCut and more.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Download Windows 10 - microsoft.com",
+          "link": "https://www.microsoft.com/en-us/software-download/windows10?msockid=03cc6db5f5c36c7132687a2af4ff6d3e",
+          "snippet": "Stay Secure with Essential Windows Updates: After October 14, 2025, Windows 10 will no longer receive free software updates, technical support, or security fixes. This means your PC will be more \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Download Computer Software - Best Software & Apps - Softonic",
+          "link": "https://en.softonic.com/downloads/computer-software",
+          "snippet": "May 13, 2026 \u00b7 Selecting the right software depends on your specific needs, such as ease of use, compatibility with your operating system, and whether you require advanced features like scripting or \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Software and its Types - GeeksforGeeks",
+          "link": "https://www.geeksforgeeks.org/computer-science-fundamentals/software-and-its-types/",
+          "snippet": "Jul 23, 2025 \u00b7 System software is software that directly operates the computer hardware and provides the basic functionality to the users as well as to the other software to operate smoothly. It has t",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Is Software? | Definition from TechTarget",
+          "link": "https://www.techtarget.com/searchapparchitecture/definition/software",
+          "snippet": "Jun 6, 2024 \u00b7 Software is a set of instructions, data or programs used to operate computers and execute specific tasks. It is the opposite of hardware, which describes the physical aspects of a comput",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is Software? Definition, Examples, & Types Explained",
+          "link": "https://www.simplilearn.com/tutorials/programming-tutorial/what-is-software",
+          "snippet": "Nov 16, 2025 \u00b7 Discover what software is, its definition, types, and real-world examples. Learn how software powers devices, applications, and digital solutions.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Computer - Software Types - Online Tutorials Library",
+          "link": "https://www.tutorialspoint.com/computer_fundamentals/computer_software_types.htm",
+          "snippet": "Software is a collection of programs, data, and instructions that enable a computer system and its hardwares to do the tasks. A program is a set of instructions or programming statements.",
+          "backend": "searxng"
+        },
+        {
+          "title": "4 Best Software Resellers and Distributors Software for... | Appvizer",
+          "link": "https://www.appvizer.com/commercial/resellers-distributors",
+          "snippet": "Some of the best software resellers and distributors software options include ChannelAdvisor, Zoho Inventory, and TradeGecko. These platforms offer comprehensive features that can help you manage your",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "B2B Wholesale Platform for Digital Game Keys, Software & Gift Cards",
+          "link": "https://codeswholesale.com/",
+          "snippet": "CodesWholesale connects 500+ resellers with 200+ vetted suppliers across 40,000+ game keys, gift cards, and software. Buy at wholesale, automate delivery with the API, and trade with zero inventory ri",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - AndroidWinTool | Best Phone Repair & Servicing Software",
+          "link": "https://androidwintool.com/",
+          "snippet": "Get our software with great deals. AWT - AndroidWin Tool Best Servicing Software. Repair IMEI MEID SN Serial, Flash Firmware Stock and Custom Rom Binaries, Unlock Google Account FRP Samsung Account Mi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "CheckerTR PRO | Professional Android Service Software",
+          "link": "https://checkertr.com/",
+          "snippet": "Distributor and Reseller. Turkey, Worldwide. CheckerTR Main Sales. Visit Website. info@vipprosupport.com.tr. +90 530 228 52 00.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "MCS Distribution: BROAD-LINE IT WHOLESALE in Europe and CIS...",
+          "link": "https://mcs.com.cy/",
+          "snippet": "We also work with all major companies on the value-added business market (system integrators, corporate resellers).The product portfolio of MCS IT Distribution Ltd. includes more than 120 world-famous",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "X-Ways Software Technology AG - Resellers",
+          "link": "https://x-ways.net/corporate/resellers.html",
+          "snippet": "Resellers in the USA. Our specially appointed US-based sales partner is Cleverbridge, Inc. As a US customer you can order new licenses from them starting here. Any other company may resell our softwar",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Purchase Options, FastTrack Schedule | AEC Software",
+          "link": "https://www.aecsoftware.com/purchase/resellers-distributors/",
+          "snippet": "Resellers - Distributors. At AEC Software, we believe in the value of teamwork.Authorized Resellers. Practical Software Solutions (704) 721-6800 www.practicalsoftwaresolutions.com.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Worldwide Offices - Progress",
+          "link": "https://www.progress.com/company/offices",
+          "snippet": "Reseller. Calle Velasco 232 esq. Suarez de Figueroa, Ed. Don Luis Piso 1 Of. 4 Santa Cruz de la Sierra, Bolivia.View on the map. Global Headquarters, Worldwide. Progress Software Corporation. Office.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "System integrators for software solutions official site",
+      "level": "L2",
+      "result_count": 8,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "System - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/System",
+          "snippet": "In computer science and information science, an information system is a hardware system, software system, or combination, which has components as its structure and observable inter-process \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Enterprise System Integration & Integrator Strategy | Field Engineer",
+          "link": "https://www.fieldengineer.com/blogs/system-integrators-for-enterprise",
+          "snippet": "System Integrators for Enterprise.Systems integrators are businesses or lone professionals who combine software, hardware, networking, and storage solutions from a range of sources in order to complet",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Software integrators - Site.pro",
+          "link": "https://site.pro/Software-integrators/",
+          "snippet": "Software Integrators (52)Software Integrators (52)Pick your integrations partner.IT solutions for modern business: website development, online shops, programming, SEO, advertising, and maintenance. Wo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Integrator Soft - Integrated Business Software Solutions",
+          "link": "https://www.integrator.ro/en/home-2/",
+          "snippet": "B2B software developer and business-specific information systems.SME SOLUTIONS. For small and medium-sized companies, INTEGRATOR SOFT offers specialized modules for salary calculation and record of fi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "NX software including CAD and CAM | Siemens",
+          "link": "https://www.siemens.com/en-us/products/cad-cam-software/",
+          "snippet": "The award-winning NX software helps designers and manufacturers deliver better products faster using powerful, integrated CAD and CAM solutions that realize the full value of the digital twin.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Workforce Management Software | Time Attendance Software",
+          "link": "https://www.m2sys.com/biometric-fingerprint-software-integrators-timeclock/",
+          "snippet": "Software integrators \u2013 workforce management.Empower Software Solutions provides innovative HR and workforce solutions for thousands of organizations, from small & medium businesses to some of the worl",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Solutions for marketing, sales and customer service for developers",
+          "link": "https://profitbase.global/",
+          "snippet": "Sales management software for residential property developers: from generating a new lead to the property handover.Need help of a software integrator? Fill in the application form.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Victron Professional",
+          "link": "https://professional.victronenergy.com/app/software-integrators-program",
+          "snippet": "The Software Integrator Program. The link between Victron systems and endless possibilities.Many of our customers require bespoke solutions to unlock the full potential of their systems and meet their",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "System - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/System",
+          "snippet": "In computer science and information science, an information system is a hardware system, software system, or combination, which has components as its structure and observable inter-process \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Enterprise System Integration & Integrator Strategy | Field Engineer",
+          "link": "https://www.fieldengineer.com/blogs/system-integrators-for-enterprise",
+          "snippet": "System Integrators for Enterprise.Systems integrators are businesses or lone professionals who combine software, hardware, networking, and storage solutions from a range of sources in order to complet",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Software integrators - Site.pro",
+          "link": "https://site.pro/Software-integrators/",
+          "snippet": "Software Integrators (52)Software Integrators (52)Pick your integrations partner.IT solutions for modern business: website development, online shops, programming, SEO, advertising, and maintenance. Wo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Integrator Soft - Integrated Business Software Solutions",
+          "link": "https://www.integrator.ro/en/home-2/",
+          "snippet": "B2B software developer and business-specific information systems.SME SOLUTIONS. For small and medium-sized companies, INTEGRATOR SOFT offers specialized modules for salary calculation and record of fi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "NX software including CAD and CAM | Siemens",
+          "link": "https://www.siemens.com/en-us/products/cad-cam-software/",
+          "snippet": "The award-winning NX software helps designers and manufacturers deliver better products faster using powerful, integrated CAD and CAM solutions that realize the full value of the digital twin.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Workforce Management Software | Time Attendance Software",
+          "link": "https://www.m2sys.com/biometric-fingerprint-software-integrators-timeclock/",
+          "snippet": "Software integrators \u2013 workforce management.Empower Software Solutions provides innovative HR and workforce solutions for thousands of organizations, from small & medium businesses to some of the worl",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Solutions for marketing, sales and customer service for developers",
+          "link": "https://profitbase.global/",
+          "snippet": "Sales management software for residential property developers: from generating a new lead to the property handover.Need help of a software integrator? Fill in the application form.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Victron Professional",
+          "link": "https://professional.victronenergy.com/app/software-integrators-program",
+          "snippet": "The Software Integrator Program. The link between Victron systems and endless possibilities.Many of our customers require bespoke solutions to unlock the full potential of their systems and meet their",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "software distributors for enterprise solutions",
+      "level": "discovery",
+      "result_count": 21,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Software - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Software",
+          "snippet": "Software in a programming language is run through a compiler or interpreter to execute on the architecture's hardware. Over time, software has become complex, owing to developments in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Software Download - microsoft.com",
+          "link": "https://www.microsoft.com/en-us/software-download/?msockid=077dd818a29f615223eccf87a32a60d8",
+          "snippet": "Skip to main content Software Download Windows 11 Windows 11 for Arm Windows 10 Windows 8.1 Windows 7 Media Feature Pack Windows 10/11 Insider Preview Windows Server Insider Preview \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Download software for Windows - Softonic",
+          "link": "https://en.softonic.com/windows",
+          "snippet": "Download software for Windows. Download VidMate, VLC media player, CapCut and more.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Download Windows 10 - microsoft.com",
+          "link": "https://www.microsoft.com/en-us/software-download/windows10?msockid=077dd818a29f615223eccf87a32a60d8",
+          "snippet": "Stay Secure with Essential Windows Updates: After October 14, 2025, Windows 10 will no longer receive free software updates, technical support, or security fixes. This means your PC will be more \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Download Computer Software - Best Software & Apps - Softonic",
+          "link": "https://en.softonic.com/downloads/computer-software",
+          "snippet": "May 13, 2026 \u00b7 Selecting the right software depends on your specific needs, such as ease of use, compatibility with your operating system, and whether you require advanced features like scripting or \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Software and its Types - GeeksforGeeks",
+          "link": "https://www.geeksforgeeks.org/computer-science-fundamentals/software-and-its-types/",
+          "snippet": "Jul 23, 2025 \u00b7 System software is software that directly operates the computer hardware and provides the basic functionality to the users as well as to the other software to operate smoothly. It has t",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Is Software? | Definition from TechTarget",
+          "link": "https://www.techtarget.com/searchapparchitecture/definition/software",
+          "snippet": "Jun 6, 2024 \u00b7 Software is a set of instructions, data or programs used to operate computers and execute specific tasks. It is the opposite of hardware, which describes the physical aspects of a comput",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is Software? Definition, Examples, & Types Explained",
+          "link": "https://www.simplilearn.com/tutorials/programming-tutorial/what-is-software",
+          "snippet": "Nov 16, 2025 \u00b7 Discover what software is, its definition, types, and real-world examples. Learn how software powers devices, applications, and digital solutions.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Computer - Software Types - Online Tutorials Library",
+          "link": "https://www.tutorialspoint.com/computer_fundamentals/computer_software_types.htm",
+          "snippet": "Software is a collection of programs, data, and instructions that enable a computer system and its hardwares to do the tasks. A program is a set of instructions or programming statements.",
+          "backend": "searxng"
+        },
+        {
+          "title": "7 Types of Software Distributors with Examples and Best Platforms",
+          "link": "https://cloudmore.com/content-hub/software-distributors",
+          "snippet": "Unlike typical distributors, software wholesalers often purchase software in bulk, capitalizing on software wholesales to provide cost-effective solutions to retailers or smaller distributors. This mo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "ERP Software - Distribution ERP Solutions | Modular Software Ltd.",
+          "link": "https://www.mod-soft.com/",
+          "snippet": "Modular Software Ltd. provides easy, reliable, and affordable ERP software solution for your distribution needs.ERP Software Solution. Specializing in the development of supply chain software for dist",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 6 Pharmaceutical Distribution Software of 2025",
+          "link": "https://softwareconnect.com/roundups/best-pharmaceutical-distribution-software/",
+          "snippet": "Pharmaceutical distribution software supports the management, tracking, and delivery of pharma products across the supply chain to ensure compliance.Infor CloudSuite Distribution. Enterprise Distribut",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Distribution ERP Software for Distributors | ERP Research",
+          "link": "https://www.erpresearch.com/en-us/best-erp-software-wholesale-distribution",
+          "snippet": "Compare the best distribution ERP software for wholesale distributors, with warehouse management, EDI, demand forecasting, and pricing for SMB and enterprise.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Veeam Software Distributors & Aggregators List",
+          "link": "https://www.veeam.com/partners/distributors-aggregators.html",
+          "snippet": "Veeam\u2019s\u00ae industry-leading distributors connect the channel with end-to-end portfolios of products, services and solutions. Distributors enable resellers with go-to-market strategies through their reac",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sage Business Management Software and Solutions",
+          "link": "https://www.sage.com/en-us/",
+          "snippet": "Get enterprise-class ERP software for manufacturing and distribution that's highly customizable. Brightpearl by Sage. Streamline and automate your retail operations with a flexible, cloud solution.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Sales And Distribution Management Software (2026)",
+          "link": "https://worldmetrics.org/best/sales-and-distribution-management-software/",
+          "snippet": "This comparison table evaluates Sales and Distribution Management software across SAP S/4HANA Sales, Microsoft Dynamics 365 Sales, Oracle NetSuite, Odoo Sales and Inventory, Infor CloudSuite Distribut",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Raspberry Pi software \u2013 Raspberry Pi",
+          "link": "https://www.raspberrypi.com/software/",
+          "snippet": "Raspberry Pi software. From our operating system to our GitHub repos, explore the software that powers our technology.It is a secure remote access solution for Raspberry Pi OS, allowing you to connect",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "GWiZ Software Solutions | Automated Enterprise Ecosystems",
+          "link": "https://www.gwizweb.com/",
+          "snippet": "Google Cloud Partner Solutions Provider. Automated Enterprise Ecosystems. We bridge legacy localized workflows with secure, zero-maintenance cloud intelligence. Built for high-volume vendors, public s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "HubSpot | Software & Tools for your Business - Homepage",
+          "link": "https://www.hubspot.com/",
+          "snippet": "HubSpot's customer platform includes all the marketing, sales, customer service, and CRM software you need to grow your business.Connect your favorite apps to HubSpot. See all integrations. Solutions.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "AppNeta | Network Performance Monitoring Solution",
+          "link": "https://www.broadcom.com/products/software/network-management/appneta",
+          "snippet": "The AppNeta award-winning suite of network monitoring tools allow unparalleled SaaS-based application end-user performance monitoring for 100% delivery confidence.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Germany Software distributors | Security companies",
+          "link": "https://www.sourcesecurity.com/companies/software-distributors-germany/directory.html",
+          "snippet": "Find a list of software distributors in Germany from our comprehensive directory of security companies.Ectacom is value added distributor for IT and data security solutions for protection against sabo",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Software - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Software",
+          "snippet": "Software in a programming language is run through a compiler or interpreter to execute on the architecture's hardware. Over time, software has become complex, owing to developments in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Software Download - microsoft.com",
+          "link": "https://www.microsoft.com/en-us/software-download/?msockid=077dd818a29f615223eccf87a32a60d8",
+          "snippet": "Skip to main content Software Download Windows 11 Windows 11 for Arm Windows 10 Windows 8.1 Windows 7 Media Feature Pack Windows 10/11 Insider Preview Windows Server Insider Preview \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Download software for Windows - Softonic",
+          "link": "https://en.softonic.com/windows",
+          "snippet": "Download software for Windows. Download VidMate, VLC media player, CapCut and more.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Download Windows 10 - microsoft.com",
+          "link": "https://www.microsoft.com/en-us/software-download/windows10?msockid=077dd818a29f615223eccf87a32a60d8",
+          "snippet": "Stay Secure with Essential Windows Updates: After October 14, 2025, Windows 10 will no longer receive free software updates, technical support, or security fixes. This means your PC will be more \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Download Computer Software - Best Software & Apps - Softonic",
+          "link": "https://en.softonic.com/downloads/computer-software",
+          "snippet": "May 13, 2026 \u00b7 Selecting the right software depends on your specific needs, such as ease of use, compatibility with your operating system, and whether you require advanced features like scripting or \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Software and its Types - GeeksforGeeks",
+          "link": "https://www.geeksforgeeks.org/computer-science-fundamentals/software-and-its-types/",
+          "snippet": "Jul 23, 2025 \u00b7 System software is software that directly operates the computer hardware and provides the basic functionality to the users as well as to the other software to operate smoothly. It has t",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Is Software? | Definition from TechTarget",
+          "link": "https://www.techtarget.com/searchapparchitecture/definition/software",
+          "snippet": "Jun 6, 2024 \u00b7 Software is a set of instructions, data or programs used to operate computers and execute specific tasks. It is the opposite of hardware, which describes the physical aspects of a comput",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is Software? Definition, Examples, & Types Explained",
+          "link": "https://www.simplilearn.com/tutorials/programming-tutorial/what-is-software",
+          "snippet": "Nov 16, 2025 \u00b7 Discover what software is, its definition, types, and real-world examples. Learn how software powers devices, applications, and digital solutions.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Computer - Software Types - Online Tutorials Library",
+          "link": "https://www.tutorialspoint.com/computer_fundamentals/computer_software_types.htm",
+          "snippet": "Software is a collection of programs, data, and instructions that enable a computer system and its hardwares to do the tasks. A program is a set of instructions or programming statements.",
+          "backend": "searxng"
+        },
+        {
+          "title": "7 Types of Software Distributors with Examples and Best Platforms",
+          "link": "https://cloudmore.com/content-hub/software-distributors",
+          "snippet": "Unlike typical distributors, software wholesalers often purchase software in bulk, capitalizing on software wholesales to provide cost-effective solutions to retailers or smaller distributors. This mo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "ERP Software - Distribution ERP Solutions | Modular Software Ltd.",
+          "link": "https://www.mod-soft.com/",
+          "snippet": "Modular Software Ltd. provides easy, reliable, and affordable ERP software solution for your distribution needs.ERP Software Solution. Specializing in the development of supply chain software for dist",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 6 Pharmaceutical Distribution Software of 2025",
+          "link": "https://softwareconnect.com/roundups/best-pharmaceutical-distribution-software/",
+          "snippet": "Pharmaceutical distribution software supports the management, tracking, and delivery of pharma products across the supply chain to ensure compliance.Infor CloudSuite Distribution. Enterprise Distribut",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Distribution ERP Software for Distributors | ERP Research",
+          "link": "https://www.erpresearch.com/en-us/best-erp-software-wholesale-distribution",
+          "snippet": "Compare the best distribution ERP software for wholesale distributors, with warehouse management, EDI, demand forecasting, and pricing for SMB and enterprise.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Veeam Software Distributors & Aggregators List",
+          "link": "https://www.veeam.com/partners/distributors-aggregators.html",
+          "snippet": "Veeam\u2019s\u00ae industry-leading distributors connect the channel with end-to-end portfolios of products, services and solutions. Distributors enable resellers with go-to-market strategies through their reac",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sage Business Management Software and Solutions",
+          "link": "https://www.sage.com/en-us/",
+          "snippet": "Get enterprise-class ERP software for manufacturing and distribution that's highly customizable. Brightpearl by Sage. Streamline and automate your retail operations with a flexible, cloud solution.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Sales And Distribution Management Software (2026)",
+          "link": "https://worldmetrics.org/best/sales-and-distribution-management-software/",
+          "snippet": "This comparison table evaluates Sales and Distribution Management software across SAP S/4HANA Sales, Microsoft Dynamics 365 Sales, Oracle NetSuite, Odoo Sales and Inventory, Infor CloudSuite Distribut",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Raspberry Pi software \u2013 Raspberry Pi",
+          "link": "https://www.raspberrypi.com/software/",
+          "snippet": "Raspberry Pi software. From our operating system to our GitHub repos, explore the software that powers our technology.It is a secure remote access solution for Raspberry Pi OS, allowing you to connect",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "GWiZ Software Solutions | Automated Enterprise Ecosystems",
+          "link": "https://www.gwizweb.com/",
+          "snippet": "Google Cloud Partner Solutions Provider. Automated Enterprise Ecosystems. We bridge legacy localized workflows with secure, zero-maintenance cloud intelligence. Built for high-volume vendors, public s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "HubSpot | Software & Tools for your Business - Homepage",
+          "link": "https://www.hubspot.com/",
+          "snippet": "HubSpot's customer platform includes all the marketing, sales, customer service, and CRM software you need to grow your business.Connect your favorite apps to HubSpot. See all integrations. Solutions.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "AppNeta | Network Performance Monitoring Solution",
+          "link": "https://www.broadcom.com/products/software/network-management/appneta",
+          "snippet": "The AppNeta award-winning suite of network monitoring tools allow unparalleled SaaS-based application end-user performance monitoring for 100% delivery confidence.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Germany Software distributors | Security companies",
+          "link": "https://www.sourcesecurity.com/companies/software-distributors-germany/directory.html",
+          "snippet": "Find a list of software distributors in Germany from our comprehensive directory of security companies.Ectacom is value added distributor for IT and data security solutions for protection against sabo",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P2": {
+      "query": "wholesale software providers corporate headquarters",
+      "level": "discovery",
+      "result_count": 3,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Valve Corporate Headquarters, Office Locations and... | Craft.co",
+          "link": "https://craft.co/valve-software/locations",
+          "snippet": "Valve Headquarters and Office Locations.Valve is headquartered in Bellevue, P.O. Box 1688, United States, and has 2 office locations.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "IBM",
+          "link": "https://www.ibm.com/us-en",
+          "snippet": "Recognized among Top Enterprise Software Providers in 2026 G2 Best Software Awards, IBM advances smarter business transformation through industry-leading AI, hybrid cloud, automation and data solution",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Locations",
+          "link": "https://www.systeloa.com/locations",
+          "snippet": "Capture Software. Electronic Faxing.Corporately Headquartered in Fayetteville, North Carolina we operate several regional offices, and employ a team of highly skilled service technicians who provide f",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Valve Corporate Headquarters, Office Locations and... | Craft.co",
+          "link": "https://craft.co/valve-software/locations",
+          "snippet": "Valve Headquarters and Office Locations.Valve is headquartered in Bellevue, P.O. Box 1688, United States, and has 2 office locations.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "IBM",
+          "link": "https://www.ibm.com/us-en",
+          "snippet": "Recognized among Top Enterprise Software Providers in 2026 G2 Best Software Awards, IBM advances smarter business transformation through industry-leading AI, hybrid cloud, automation and data solution",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Locations",
+          "link": "https://www.systeloa.com/locations",
+          "snippet": "Capture Software. Electronic Faxing.Corporately Headquartered in Fayetteville, North Carolina we operate several regional offices, and employ a team of highly skilled service technicians who provide f",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P3": {
+      "query": "software resellers for small businesses",
+      "level": "discovery",
+      "result_count": 22,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Software - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Software",
+          "snippet": "Software in a programming language is run through a compiler or interpreter to execute on the architecture's hardware. Over time, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Software Download - microsoft.com",
+          "link": "https://www.microsoft.com/en-us/software-download/?msockid=38294fb9d32c6a3d3e365826d2d96bdc",
+          "snippet": "Skip to main content Software Download Windows 11 Windows 11 for Arm Windows 10 Windows 8.1 Windows 7 Media Feature Pack \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Download software for Windows - Softonic",
+          "link": "https://en.softonic.com/windows",
+          "snippet": "Download software for Windows. Download VidMate, VLC media player, CapCut and more.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Download Windows 10 - microsoft.com",
+          "link": "https://www.microsoft.com/en-us/software-download/windows10?msockid=38294fb9d32c6a3d3e365826d2d96bdc",
+          "snippet": "Stay Secure with Essential Windows Updates: After October 14, 2025, Windows 10 will no longer receive free software updates, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Download Computer Software - Best Software & Apps - Softonic",
+          "link": "https://en.softonic.com/downloads/computer-software",
+          "snippet": "May 13, 2026 \u00b7 Selecting the right software depends on your specific needs, such as ease of use, compatibility with your operating \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Software and its Types - GeeksforGeeks",
+          "link": "https://www.geeksforgeeks.org/computer-science-fundamentals/software-and-its-types/",
+          "snippet": "Jul 23, 2025 \u00b7 System software is software that directly operates the computer hardware and provides the basic functionality to the \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Is Software? | Definition from TechTarget",
+          "link": "https://www.techtarget.com/searchapparchitecture/definition/software",
+          "snippet": "Jun 6, 2024 \u00b7 Software is a set of instructions, data or programs used to operate computers and execute specific tasks. It is the \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is Software? Definition, Examples, & Types Explained",
+          "link": "https://www.simplilearn.com/tutorials/programming-tutorial/what-is-software",
+          "snippet": "Nov 16, 2025 \u00b7 Discover what software is, its definition, types, and real-world examples. Learn how software powers devices, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Computer - Software Types - Online Tutorials Library",
+          "link": "https://www.tutorialspoint.com/computer_fundamentals/computer_software_types.htm",
+          "snippet": "Software is a collection of programs, data, and instructions that enable a computer system and its hardwares to do the tasks. A \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Reseller - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Reseller",
+          "snippet": "[citation needed] Software resellers work with small and medium enterprises (SMEs), local businesses and niche operators. This benefits the software house as they may not hold the resources for the le",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Software Resellers Reviews 2026 | Gartner Peer Insights",
+          "link": "https://www.gartner.com/reviews/market/software-resellers",
+          "snippet": "Find the top Software Resellers with Gartner. Compare and filter by verified offering reviews and choose the service that's right for your organization.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 5 White Label Software To Resell In 2026 | CustomGPT.ai",
+          "link": "https://customgpt.ai/white-label-software-to-resell/",
+          "snippet": "Reselling white label software is one of the smartest moves for entrepreneurs looking to build a scalable business without heavy upfront costs. It lets you focus on branding, sales, and customer relat",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "5 Best Reseller Programs for SaaS to Increase Revenue Fast",
+          "link": "https://www.vendasta.com/blog/best-reseller-programs/",
+          "snippet": "As a software reseller, you expand your product offering to boost ARR (without increasing costs). Start here with our list of the best reseller programs.Business Standard: The most popular edition. Be",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How to Become a Software Reseller: A Guide [for 2026] | V2 Cloud",
+          "link": "https://v2cloud.com/blog/software-reseller",
+          "snippet": "What Does a Software Reseller Do? How the MSP Business Model Works. A software reseller, often categorized as a Managed Service Provider, is an individual or business that purchases software products ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Software Reseller | Industry | Odoo",
+          "link": "https://www.odoo.com/industries/software-reseller",
+          "snippet": "All-in-one platform for Software Resellers. Odoo allows you to manage the entire license lifecycle from purchase to renewal, handle sales and invoicing, and provide additional services such as consult",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Software Reseller Model: Guide, Pros & Challenges | CloudEagle.ai",
+          "link": "https://www.cloudeagle.ai/blogs/software-reseller-model",
+          "snippet": "The reseller software model allows businesses to sell software through intermediaries, known as resellers. Here\u2019s a simple, step-by-step explanation of how it works: 1. Software creation : A company, ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best White Label Software For Resellers (Updated In 2020)",
+          "link": "https://profitbooks.net/white-label-software-for-resellers/",
+          "snippet": "If you\u2019re a software reseller, you\u2019ve likely already discovered the massive revenue potential and business expansion benefits of white label software.ProfitBooks Accounting Software For Small Business",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "What is a Software Reseller? | Torii",
+          "link": "https://www.toriihq.com/glossary/software-reseller",
+          "snippet": "A software reseller is your go-to technology reseller for comprehensive software services. They do not only sell.A cloud services reseller focuses on small and medium-sized businesses looking to trans",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Software Resellers market \u2013 Size, Share, Trends, Analysis...",
+          "link": "https://markwideresearch.com/global-software-resellers-market/",
+          "snippet": "Enterprise Software Resellers: These resellers focus on selling software solutions tailored for large enterprises, offering features such as scalability, advanced analytics, and integration capabiliti",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How to Become a Software Reseller in 2021 - AppInstitute",
+          "link": "https://appinstitute.com/software-reseller/",
+          "snippet": "How Does Software Reselling Work? Licensing is a significant consideration for software resellers. Typically, software providers require resellers to adhere to specific licensing agreements that outli",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Growing SaaS Sales via the Value Added Software Reseller (VAR)",
+          "link": "https://www.purevpn.com/vpn-reseller/value-added-software-resellers/",
+          "snippet": "For instance, when a business becomes a software reseller in the VPN space, it doesn\u2019t just resell the VPN software. It also offers its expertise in tailoring the solution to meet the specific needs o",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Software Resellers Market Research Report 2034",
+          "link": "https://dataintelo.com/report/software-resellers-market",
+          "snippet": "Small and medium-sized enterprises represent the fastest-growing customer cohort for software resellers. Small enterprises are projected to grow at approximately 9.1% CAGR through 2034, while medium-s",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Software - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Software",
+          "snippet": "Software in a programming language is run through a compiler or interpreter to execute on the architecture's hardware. Over time, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Software Download - microsoft.com",
+          "link": "https://www.microsoft.com/en-us/software-download/?msockid=38294fb9d32c6a3d3e365826d2d96bdc",
+          "snippet": "Skip to main content Software Download Windows 11 Windows 11 for Arm Windows 10 Windows 8.1 Windows 7 Media Feature Pack \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Download software for Windows - Softonic",
+          "link": "https://en.softonic.com/windows",
+          "snippet": "Download software for Windows. Download VidMate, VLC media player, CapCut and more.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Download Windows 10 - microsoft.com",
+          "link": "https://www.microsoft.com/en-us/software-download/windows10?msockid=38294fb9d32c6a3d3e365826d2d96bdc",
+          "snippet": "Stay Secure with Essential Windows Updates: After October 14, 2025, Windows 10 will no longer receive free software updates, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Download Computer Software - Best Software & Apps - Softonic",
+          "link": "https://en.softonic.com/downloads/computer-software",
+          "snippet": "May 13, 2026 \u00b7 Selecting the right software depends on your specific needs, such as ease of use, compatibility with your operating \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Software and its Types - GeeksforGeeks",
+          "link": "https://www.geeksforgeeks.org/computer-science-fundamentals/software-and-its-types/",
+          "snippet": "Jul 23, 2025 \u00b7 System software is software that directly operates the computer hardware and provides the basic functionality to the \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What Is Software? | Definition from TechTarget",
+          "link": "https://www.techtarget.com/searchapparchitecture/definition/software",
+          "snippet": "Jun 6, 2024 \u00b7 Software is a set of instructions, data or programs used to operate computers and execute specific tasks. It is the \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is Software? Definition, Examples, & Types Explained",
+          "link": "https://www.simplilearn.com/tutorials/programming-tutorial/what-is-software",
+          "snippet": "Nov 16, 2025 \u00b7 Discover what software is, its definition, types, and real-world examples. Learn how software powers devices, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Computer - Software Types - Online Tutorials Library",
+          "link": "https://www.tutorialspoint.com/computer_fundamentals/computer_software_types.htm",
+          "snippet": "Software is a collection of programs, data, and instructions that enable a computer system and its hardwares to do the tasks. A \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Reseller - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Reseller",
+          "snippet": "[citation needed] Software resellers work with small and medium enterprises (SMEs), local businesses and niche operators. This benefits the software house as they may not hold the resources for the le",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Software Resellers Reviews 2026 | Gartner Peer Insights",
+          "link": "https://www.gartner.com/reviews/market/software-resellers",
+          "snippet": "Find the top Software Resellers with Gartner. Compare and filter by verified offering reviews and choose the service that's right for your organization.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 5 White Label Software To Resell In 2026 | CustomGPT.ai",
+          "link": "https://customgpt.ai/white-label-software-to-resell/",
+          "snippet": "Reselling white label software is one of the smartest moves for entrepreneurs looking to build a scalable business without heavy upfront costs. It lets you focus on branding, sales, and customer relat",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "5 Best Reseller Programs for SaaS to Increase Revenue Fast",
+          "link": "https://www.vendasta.com/blog/best-reseller-programs/",
+          "snippet": "As a software reseller, you expand your product offering to boost ARR (without increasing costs). Start here with our list of the best reseller programs.Business Standard: The most popular edition. Be",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How to Become a Software Reseller: A Guide [for 2026] | V2 Cloud",
+          "link": "https://v2cloud.com/blog/software-reseller",
+          "snippet": "What Does a Software Reseller Do? How the MSP Business Model Works. A software reseller, often categorized as a Managed Service Provider, is an individual or business that purchases software products ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Software Reseller | Industry | Odoo",
+          "link": "https://www.odoo.com/industries/software-reseller",
+          "snippet": "All-in-one platform for Software Resellers. Odoo allows you to manage the entire license lifecycle from purchase to renewal, handle sales and invoicing, and provide additional services such as consult",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Software Reseller Model: Guide, Pros & Challenges | CloudEagle.ai",
+          "link": "https://www.cloudeagle.ai/blogs/software-reseller-model",
+          "snippet": "The reseller software model allows businesses to sell software through intermediaries, known as resellers. Here\u2019s a simple, step-by-step explanation of how it works: 1. Software creation : A company, ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best White Label Software For Resellers (Updated In 2020)",
+          "link": "https://profitbooks.net/white-label-software-for-resellers/",
+          "snippet": "If you\u2019re a software reseller, you\u2019ve likely already discovered the massive revenue potential and business expansion benefits of white label software.ProfitBooks Accounting Software For Small Business",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "What is a Software Reseller? | Torii",
+          "link": "https://www.toriihq.com/glossary/software-reseller",
+          "snippet": "A software reseller is your go-to technology reseller for comprehensive software services. They do not only sell.A cloud services reseller focuses on small and medium-sized businesses looking to trans",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Software Resellers market \u2013 Size, Share, Trends, Analysis...",
+          "link": "https://markwideresearch.com/global-software-resellers-market/",
+          "snippet": "Enterprise Software Resellers: These resellers focus on selling software solutions tailored for large enterprises, offering features such as scalability, advanced analytics, and integration capabiliti",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How to Become a Software Reseller in 2021 - AppInstitute",
+          "link": "https://appinstitute.com/software-reseller/",
+          "snippet": "How Does Software Reselling Work? Licensing is a significant consideration for software resellers. Typically, software providers require resellers to adhere to specific licensing agreements that outli",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Growing SaaS Sales via the Value Added Software Reseller (VAR)",
+          "link": "https://www.purevpn.com/vpn-reseller/value-added-software-resellers/",
+          "snippet": "For instance, when a business becomes a software reseller in the VPN space, it doesn\u2019t just resell the VPN software. It also offers its expertise in tailoring the solution to meet the specific needs o",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Software Resellers Market Research Report 2034",
+          "link": "https://dataintelo.com/report/software-resellers-market",
+          "snippet": "Small and medium-sized enterprises represent the fastest-growing customer cohort for software resellers. Small enterprises are projected to grow at approximately 9.1% CAGR through 2034, while medium-s",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P4": {
+      "query": "online software resellers official site",
+      "level": "discovery",
+      "result_count": 7,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Best Software Resellers Reviews 2026 | Gartner Peer Insights",
+          "link": "https://www.gartner.com/reviews/market/software-resellers",
+          "snippet": "Find the top Software Resellers with Gartner.Software resellers engage in responsible supply, operating as intermediaries between end-user organizations and an extensive array of over 1,000 software a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - AndroidWinTool | Best Phone Repair & Servicing Software",
+          "link": "https://androidwintool.com/",
+          "snippet": "Get our software with great deals. AWT - AndroidWin Tool Best Servicing Software. Repair IMEI MEID SN Serial, Flash Firmware Stock and Custom Rom Binaries, Unlock Google Account FRP Samsung Account Mi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "CheckerTR PRO | Professional Android Service Software",
+          "link": "https://checkertr.com/",
+          "snippet": "Official distributors and resellers for licensing, credits, and direct sales support.Distributor and Reseller. Turkey, Worldwide. CheckerTR Main Sales. Visit Website. info@vipprosupport.com.tr. +90 53",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Find CS-Cart Authorized Resellers & Developers Worldwide",
+          "link": "https://www.cs-cart.com/authorized-resellers",
+          "snippet": "Locate trusted CS-Cart resellers and developers worldwide to get the right eCommerce solutions for your business. Choose the best partner for your project.CS-Cart Shopping Cart and Multi-Vendor softwa",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Capture One Professional Photo Editing Software | Elevate Your...",
+          "link": "https://www.captureone.com/",
+          "snippet": "Discover Capture One: the ultimate photo editing software designed for photographers who demand precision and control. With advanced editing tools, seamless RAW handling, and powerful tethering capabi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Inventory and Order Management Software for Multichannel Sellers",
+          "link": "https://sellercloud.com/",
+          "snippet": "An illustration of Descartes Sellercloud inventory management software for ecommerce, depicted as the Descartes logo surrounded by partner logos for Amazon, Walmart, TikTok, eBay, Shopify, Wayfair, DH",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sign up or Login to Amazon Seller Software | SellerApp",
+          "link": "https://dashboard.sellerapp.com/",
+          "snippet": "Log in to SellerApp, the leading Amazon Seller Software. Gain valuable insights, optimize your product listings, track your competitors, and unlock new growth opportunities with 7 days Free Trial.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Best Software Resellers Reviews 2026 | Gartner Peer Insights",
+          "link": "https://www.gartner.com/reviews/market/software-resellers",
+          "snippet": "Find the top Software Resellers with Gartner.Software resellers engage in responsible supply, operating as intermediaries between end-user organizations and an extensive array of over 1,000 software a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - AndroidWinTool | Best Phone Repair & Servicing Software",
+          "link": "https://androidwintool.com/",
+          "snippet": "Get our software with great deals. AWT - AndroidWin Tool Best Servicing Software. Repair IMEI MEID SN Serial, Flash Firmware Stock and Custom Rom Binaries, Unlock Google Account FRP Samsung Account Mi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "CheckerTR PRO | Professional Android Service Software",
+          "link": "https://checkertr.com/",
+          "snippet": "Official distributors and resellers for licensing, credits, and direct sales support.Distributor and Reseller. Turkey, Worldwide. CheckerTR Main Sales. Visit Website. info@vipprosupport.com.tr. +90 53",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Find CS-Cart Authorized Resellers & Developers Worldwide",
+          "link": "https://www.cs-cart.com/authorized-resellers",
+          "snippet": "Locate trusted CS-Cart resellers and developers worldwide to get the right eCommerce solutions for your business. Choose the best partner for your project.CS-Cart Shopping Cart and Multi-Vendor softwa",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Capture One Professional Photo Editing Software | Elevate Your...",
+          "link": "https://www.captureone.com/",
+          "snippet": "Discover Capture One: the ultimate photo editing software designed for photographers who demand precision and control. With advanced editing tools, seamless RAW handling, and powerful tethering capabi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Inventory and Order Management Software for Multichannel Sellers",
+          "link": "https://sellercloud.com/",
+          "snippet": "An illustration of Descartes Sellercloud inventory management software for ecommerce, depicted as the Descartes logo surrounded by partner logos for Amazon, Walmart, TikTok, eBay, Shopify, Wayfair, DH",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sign up or Login to Amazon Seller Software | SellerApp",
+          "link": "https://dashboard.sellerapp.com/",
+          "snippet": "Log in to SellerApp, the leading Amazon Seller Software. Gain valuable insights, optimize your product listings, track your competitors, and unlock new growth opportunities with 7 days Free Trial.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P5": {
+      "query": "system integrators for cloud solutions",
+      "level": "discovery",
+      "result_count": 4,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "System - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/System",
+          "snippet": "In computer science and information science, an information system is a hardware system, software system, or combination, which \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The Role of Cloud Integrators in Transitioning Services",
+          "link": "https://www.computeredglobal.com/the-role-of-cloud-integrators-in-transitioning-services/",
+          "snippet": "From On-Premises to Cloud Solutions. Before, system integrators managed big investments in hardware and software. They worked on networks and security. With cloud technology, they started working with",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wireless SoCs, Software, Cloud and AIoT... | Espressif Systems",
+          "link": "https://www.espressif.com/",
+          "snippet": "IoT Cloud Integration. We offer industry-agnostic Cloud integration for device data management, remote control, data analytics, and remote diagnostics through our ESP RainMaker platform.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Zoho | Cloud Software Suite for Businesses",
+          "link": "https://www.zoho.com/",
+          "snippet": "Office Integrator. Writer. Word processor for focused writing and discussions.Enterprise solutions from ManageEngine and a security-first browser, Ulaa. ServiceDesk Plus. Cloud-based IT ticketing syst",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "System - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/System",
+          "snippet": "In computer science and information science, an information system is a hardware system, software system, or combination, which \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The Role of Cloud Integrators in Transitioning Services",
+          "link": "https://www.computeredglobal.com/the-role-of-cloud-integrators-in-transitioning-services/",
+          "snippet": "From On-Premises to Cloud Solutions. Before, system integrators managed big investments in hardware and software. They worked on networks and security. With cloud technology, they started working with",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wireless SoCs, Software, Cloud and AIoT... | Espressif Systems",
+          "link": "https://www.espressif.com/",
+          "snippet": "IoT Cloud Integration. We offer industry-agnostic Cloud integration for device data management, remote control, data analytics, and remote diagnostics through our ESP RainMaker platform.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Zoho | Cloud Software Suite for Businesses",
+          "link": "https://www.zoho.com/",
+          "snippet": "Office Integrator. Writer. Word processor for focused writing and discussions.Enterprise solutions from ManageEngine and a security-first browser, Ulaa. ServiceDesk Plus. Cloud-based IT ticketing syst",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "enterprise software integration services corporate site",
+      "level": "discovery",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Itransition | Software Engineering & Digital Transformation Company",
+          "link": "https://www.itransition.com/",
+          "snippet": "Application services. Our software development company delivers corporate and consumer applications based on our profound understanding of technologies and the markets they operate in.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Itransition | Software Engineering & Digital Transformation Company",
+          "link": "https://www.itransition.com/",
+          "snippet": "Application services. Our software development company delivers corporate and consumer applications based on our profound understanding of technologies and the markets they operate in.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P7": {
+      "query": "managed service providers for software development",
+      "level": "discovery",
+      "result_count": 5,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Software Development Company \u2014 Innowise",
+          "link": "https://innowise.com/",
+          "snippet": "Full-cycle software development services: from ideation and UX design to development, QA, and DevOps.Drug discovery software. Pharmacy management apps. Software development for the pharma industry. Ex",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "DHx Software Reviews (2), Pricing, Services & Verified Ratings",
+          "link": "https://clutch.co/profile/dhx-software",
+          "snippet": "DHx is a results oriented, software services and integration firm producing meaningful business results while delivering excellent customer service.Select a service to see pricing information. All. Cu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "AI-Driven Test Management Software by TestRail",
+          "link": "https://www.testrail.com/",
+          "snippet": "For Software Development. For Financial Services.AI-Driven Test Management Built To Amplify Testing. Plan and execute testing 90% faster with the world's most trusted and flexible test management plat",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Partnering With Tech Companies in Charlotte, NC This 2025",
+          "link": "https://www.sterling-technology.com/blog/tech-companies-in-charlotte-nc",
+          "snippet": "Can a managed service provider help my company with software development projects? Absolutely! Many tech companies in Charlotte offer software development support as part of their products and solutio",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mindrops Reviews and Clients | DesignRush",
+          "link": "https://www.designrush.com/agency/profile/mindrops",
+          "snippet": "Custom Software Development. Project Type: Website Development. Review Date: 30 August, 2024. Verified via email/call. Mindrops provided outstanding custom software development services.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Software Development Company \u2014 Innowise",
+          "link": "https://innowise.com/",
+          "snippet": "Full-cycle software development services: from ideation and UX design to development, QA, and DevOps.Drug discovery software. Pharmacy management apps. Software development for the pharma industry. Ex",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "DHx Software Reviews (2), Pricing, Services & Verified Ratings",
+          "link": "https://clutch.co/profile/dhx-software",
+          "snippet": "DHx is a results oriented, software services and integration firm producing meaningful business results while delivering excellent customer service.Select a service to see pricing information. All. Cu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "AI-Driven Test Management Software by TestRail",
+          "link": "https://www.testrail.com/",
+          "snippet": "For Software Development. For Financial Services.AI-Driven Test Management Built To Amplify Testing. Plan and execute testing 90% faster with the world's most trusted and flexible test management plat",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Partnering With Tech Companies in Charlotte, NC This 2025",
+          "link": "https://www.sterling-technology.com/blog/tech-companies-in-charlotte-nc",
+          "snippet": "Can a managed service provider help my company with software development projects? Absolutely! Many tech companies in Charlotte offer software development support as part of their products and solutio",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mindrops Reviews and Clients | DesignRush",
+          "link": "https://www.designrush.com/agency/profile/mindrops",
+          "snippet": "Custom Software Development. Project Type: Website Development. Review Date: 30 August, 2024. Verified via email/call. Mindrops provided outstanding custom software development services.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

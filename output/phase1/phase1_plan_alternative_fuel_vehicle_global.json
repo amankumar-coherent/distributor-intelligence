@@ -1,0 +1,2141 @@
+{
+  "phase": 1,
+  "query": "Alternative Fuel Vehicle Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T21:06:04.224183+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "Alternative Fuel Vehicle",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "automotive",
+    "industry_terms": [
+      "electric vehicles",
+      "hydrogen vehicles",
+      "biofuel vehicles",
+      "charging stations",
+      "alternative fuels"
+    ],
+    "ecosystem_functions": [
+      "vehicle distribution",
+      "wholesale supply",
+      "retail sales",
+      "system integration",
+      "maintenance services",
+      "charging infrastructure",
+      "technical support",
+      "customer service"
+    ],
+    "interpretation_summary": "The Alternative Fuel Vehicle (AFV) market encompasses vehicles powered by non-conventional fuels such as electricity, hydrogen, and biofuels. Key participants include manufacturers, distributors, and service providers op",
+    "relevance_keywords": [
+      "alternative fuel technology",
+      "sustainable transportation",
+      "EV charging solutions",
+      "hydrogen fuel systems",
+      "biofuel infrastructure"
+    ],
+    "negative_keywords": [
+      "conventional vehicles",
+      "gasoline",
+      "diesel",
+      "internal combustion",
+      "automotive manufacturing"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "ChargePoint",
+        "primary_domain": "chargepoint.com",
+        "company_function": "service providers"
+      },
+      {
+        "canonical_name": "Nissan",
+        "primary_domain": "nissan-global.com",
+        "company_function": "distributors"
+      },
+      {
+        "canonical_name": "Tesla",
+        "primary_domain": "tesla.com",
+        "company_function": "distributors"
+      },
+      {
+        "canonical_name": "Ballard Power Systems",
+        "primary_domain": "ballard.com",
+        "company_function": "system integrators"
+      },
+      {
+        "canonical_name": "BYD",
+        "primary_domain": "byd.com",
+        "company_function": "distributors"
+      },
+      {
+        "canonical_name": "Greenlots",
+        "primary_domain": "greenlots.com",
+        "company_function": "service providers"
+      },
+      {
+        "canonical_name": "Proterra",
+        "primary_domain": "proterra.com",
+        "company_function": "distributors"
+      },
+      {
+        "canonical_name": "Hydrogenics",
+        "primary_domain": "hydrogenics.com",
+        "company_function": "system integrators"
+      },
+      {
+        "canonical_name": "Blink Charging",
+        "primary_domain": "blinkcharging.com",
+        "company_function": "EV charging equipment provider",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Coulomb Technologies",
+        "primary_domain": "coulombtech.com",
+        "company_function": "EV charging solutions provider",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Rivian",
+        "primary_domain": "rivian.com",
+        "company_function": "Manufacturer of electric vehicles",
+        "segment": "Distributors",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Volta Charging",
+        "primary_domain": "voltacharging.com",
+        "company_function": "EV charging network provider",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "ABB",
+        "primary_domain": "new.abb.com",
+        "company_function": "Power and automation technology provider",
+        "segment": "System Integrators",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Enphase Energy",
+        "primary_domain": "enphase.com",
+        "company_function": "Energy management technology provider",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "Alternative Fuel Vehicle",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "Alternative Fuel Vehicle",
+    "include_keywords": [
+      "alternative fuel vehicle distributor",
+      "AFV wholesaler",
+      "electric vehicle reseller",
+      "hydrogen vehicle integrator",
+      "charging infrastructure service provider"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The Alternative Fuel Vehicle (AFV) market encompasses vehicles powered by non-conventional fuels such as electricity, hydrogen, and biofuels. Key participants include manufacturers, distributors, and service providers operating globally to support the transition to sustainable transportation.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Distribution",
+        "description": "This layer involves the distribution of alternative fuel vehicles and related components to various markets.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Regional Distributors",
+              "National Distributors"
+            ],
+            "participant_types": [
+              "distributor",
+              "wholesaler"
+            ],
+            "search_intents": [
+              "alternative fuel vehicle distributors",
+              "AFV wholesale suppliers"
+            ]
+          },
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Online Resellers",
+              "Local Resellers"
+            ],
+            "participant_types": [
+              "reseller"
+            ],
+            "search_intents": [
+              "alternative fuel vehicle resellers",
+              "AFV retail partners"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L2",
+        "layer_name": "Integration",
+        "description": "This layer focuses on the integration of alternative fuel systems into existing vehicle platforms.",
+        "segments": [
+          {
+            "segment_name": "System Integrators",
+            "sub_segments": [
+              "Electric Vehicle Integrators",
+              "Hydrogen Fuel Cell Integrators"
+            ],
+            "participant_types": [
+              "system integrator"
+            ],
+            "search_intents": [
+              "alternative fuel vehicle system integrators",
+              "AFV integration services"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L3",
+        "layer_name": "Services",
+        "description": "This layer includes services related to the maintenance and support of alternative fuel vehicles.",
+        "segments": [
+          {
+            "segment_name": "Service Providers",
+            "sub_segments": [
+              "Maintenance Services",
+              "Charging Infrastructure Providers"
+            ],
+            "participant_types": [
+              "service provider"
+            ],
+            "search_intents": [
+              "alternative fuel vehicle service providers",
+              "AFV maintenance services"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Conventional Fuel Vehicles",
+        "Automotive Manufacturing",
+        "Fuel Production",
+        "Battery Manufacturing"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "search for alternative fuel vehicle distributors",
+        "sub_sector": "distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "find alternative fuel vehicle resellers",
+        "sub_sector": "reseller",
+        "layer_id": "L1",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "search for alternative fuel vehicle system integrators",
+        "sub_sector": "system_integrator",
+        "layer_id": "L2",
+        "segment": "System Integrators"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "find alternative fuel vehicle service providers",
+        "sub_sector": "service_provider",
+        "layer_id": "L3",
+        "segment": "Service Providers"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "automotive",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "Alternative Fuel Vehicle companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "Alternative Fuel Vehicle distributors corporate sites"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "Alternative Fuel Vehicle service providers official site"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "discovery",
+      "text": "alternative fuel vehicle distributors official site"
+    },
+    {
+      "id": "P2",
+      "level": "discovery",
+      "text": "alternative fuel vehicle wholesalers corporate headquarters"
+    },
+    {
+      "id": "P3",
+      "level": "discovery",
+      "text": "alternative fuel vehicle resellers official website"
+    },
+    {
+      "id": "P4",
+      "level": "discovery",
+      "text": "alternative fuel vehicle system integrators corporate site"
+    },
+    {
+      "id": "P5",
+      "level": "discovery",
+      "text": "alternative fuel vehicle channel partners corporate profile"
+    },
+    {
+      "id": "P6",
+      "level": "discovery",
+      "text": "alternative fuel vehicle distribution companies official site"
+    },
+    {
+      "id": "P7",
+      "level": "discovery",
+      "text": "alternative fuel vehicle integration services corporate site"
+    },
+    {
+      "id": "P8",
+      "level": "discovery",
+      "text": "authorized Alternative Fuel Vehicle distributor firm official"
+    },
+    {
+      "id": "P9",
+      "level": "discovery",
+      "text": "Alternative Fuel Vehicle retail pharmacy chain corporate"
+    },
+    {
+      "id": "P10",
+      "level": "discovery",
+      "text": "Alternative Fuel Vehicle system integrator official website"
+    },
+    {
+      "id": "P11",
+      "level": "discovery",
+      "text": "Alternative Fuel Vehicle service provider official website"
+    },
+    {
+      "id": "P12",
+      "level": "discovery",
+      "text": "electric vehicles charging infrastructure official website"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "Alternative Fuel Vehicle companies official websites",
+      "level": "L0",
+      "result_count": 15,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Alternative fuel vehicle - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Alternative_fuel_vehicle",
+          "snippet": "An alternative fuel vehicle is a motor vehicle that runs on alternative fuel rather than traditional petroleum-based fossil fuels such as gasoline, petrodiesel or liquefied petroleum gas (autogas).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuels Data Center: Alternative Fuels and Advanced...",
+          "link": "https://afdc.energy.gov/fuels",
+          "snippet": "Alternative Fuel and Advanced Vehicle Search: Find an electric or alternative fuel vehicle. Vehicle Conversions. Conventional vehicles and engines can be modified to operate using a different fuel or ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "10 Leading Alternative Fuel Vehicle Companies Shaping ...",
+          "link": "https://www.researchandmarkets.com/articles/key-companies-in-alternative-fuel-vehicle?srsltid=AfmBOor8a09kZ0AHegM8j_QSLdAvlKENctcZsVkEBokA7mkN8YbSkoK1",
+          "snippet": "Company Spotlights: Industry Top Players in the Alternative Fuel Vehicle Market \u00b7 1. Tesla, Inc. \u00b7 2. BYD Company Limited \u00b7 3. Toyota Motor Corporation \u00b7 4.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Automotive Alternative Fuel Vehicle Companies - Top Players' List",
+          "link": "https://www.mordorintelligence.com/industry-reports/automotive-alternative-fuel-vehicle-market/companies",
+          "snippet": "Automotive Alternative Fuel Vehicle Company List \u00b7 Tesla Inc. \u00b7 BYD Co. Ltd. \u00b7 Toyota Motor Corporation \u00b7 Volkswagen AG \u00b7 Hyundai Motor Company \u00b7 BMW AG \u00b7 Mercedes- ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternate Fuel Vehicles | Ashok Leyland Sustainable Mobility",
+          "link": "https://www.ashokleyland.com/in/alternatefuel",
+          "snippet": "Explore Ashok Leyland's alternate fuel range\u2014EVs, LNG, and advanced mobility solutions built for performance and sustainability.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 5 Alternative Fuel Vehicle Manufacturers in the world",
+          "link": "https://www.fortunebusinessinsights.com/blog/top-alternative-fuel-vehicle-manufacturers-10657",
+          "snippet": "4 Apr 2022 ... Tesla is among the top alternative fuel vehicle manufacturers of pure electric vehicles and is headquartered in California, U.S..",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternatively fueled vehicles | Science | Research Starters - EBSCO",
+          "link": "https://www.ebsco.com/research-starters/science/alternatively-fueled-vehicles",
+          "snippet": "In 2023, there were 237 hybrid and electric car manufacturers in the U.S., reflecting a growing market for cleaner transportation options. Alternative fuels ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 Alternative Fuel Vehicles Companies Setting the Standard in ...",
+          "link": "https://extrapolate.com/blog/top-10-alternative-fuel-vehicle-companies-hype-2024",
+          "snippet": "5 Aug 2024 ... Discover the top 10 alternative fuel vehicle companies setting industry standards in 2024. Explore innovations and advancements driving the ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative fuels - Rolls-Royce",
+          "link": "https://www.rolls-royce.com/innovation/alternative-fuels.aspx",
+          "snippet": "No single country or company can solve the alternative fuels problem. The aviation industry, fuel companies and others need to work together to develop the ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vehicle Search - Alternative Fuels Data Center - Department of Energy",
+          "link": "https://afdc.energy.gov/vehicles/search",
+          "snippet": "Medium- and Heavy-Duty Vehicle Search. Find and compare alternative fuel vehicles, engines, and power sources for medium- and heavy-duty vehicles.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Homepage | European Alternative Fuels Observatory",
+          "link": "https://alternative-fuels-observatory.ec.europa.eu/",
+          "snippet": "Find foundational information on alternative fuels, vehicle types, and recharging systems. Access FAQs, glossaries, news, and useful links to quickly understand the electromobility ecosystem.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Eight Alternative Fuels - CleanTechnica",
+          "link": "https://cleantechnica.com/2012/03/08/top-eight-alternative-fuels/",
+          "snippet": "Alternative fuels generally have lower vehicle emissions that contribute to smog, air pollution and global warming. Most alternative fuels don\u2019t come from finite fossil-fuel resources and are sustaina",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Westport Fuel Systems | Innovative Energy",
+          "link": "https://wfsinc.com/",
+          "snippet": "Westport Fuel Systems. The global leader in alternative fuel solutions. Innovative, high-quality solutions that meet strict emission standards.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Single Article - The Association of European Vehicle Logistics",
+          "link": "https://www.ecgassociation.eu/article/?id=3226ecb4-a58d-4006-978f-424d14b21e31",
+          "snippet": "Labels for Alternative Fuel Vehicles. EV fire incident reporting. Used cars manual.In Europe, the company\u2019s second-quarter vehicle sales were up 5 percent from a year ago, and 15 percent in the U.S. I",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuel Vehicles Market Size Report, 2024 -2030",
+          "link": "https://www.industryarc.com/report/15334/alternative-fuel-vehicles-market",
+          "snippet": "147.Company 5 Alternative Fuel Vehicles Market Net Sales Share, By Geography, 2023 (%).This site uses cookies. We use necessary cookies for security and forms. Analytics and marketing cookies are opti",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Alternative fuel vehicle - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Alternative_fuel_vehicle",
+          "snippet": "An alternative fuel vehicle is a motor vehicle that runs on alternative fuel rather than traditional petroleum-based fossil fuels such as gasoline, petrodiesel or liquefied petroleum gas (autogas).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuels Data Center: Alternative Fuels and Advanced...",
+          "link": "https://afdc.energy.gov/fuels",
+          "snippet": "Alternative Fuel and Advanced Vehicle Search: Find an electric or alternative fuel vehicle. Vehicle Conversions. Conventional vehicles and engines can be modified to operate using a different fuel or ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "10 Leading Alternative Fuel Vehicle Companies Shaping ...",
+          "link": "https://www.researchandmarkets.com/articles/key-companies-in-alternative-fuel-vehicle?srsltid=AfmBOor8a09kZ0AHegM8j_QSLdAvlKENctcZsVkEBokA7mkN8YbSkoK1",
+          "snippet": "Company Spotlights: Industry Top Players in the Alternative Fuel Vehicle Market \u00b7 1. Tesla, Inc. \u00b7 2. BYD Company Limited \u00b7 3. Toyota Motor Corporation \u00b7 4.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Automotive Alternative Fuel Vehicle Companies - Top Players' List",
+          "link": "https://www.mordorintelligence.com/industry-reports/automotive-alternative-fuel-vehicle-market/companies",
+          "snippet": "Automotive Alternative Fuel Vehicle Company List \u00b7 Tesla Inc. \u00b7 BYD Co. Ltd. \u00b7 Toyota Motor Corporation \u00b7 Volkswagen AG \u00b7 Hyundai Motor Company \u00b7 BMW AG \u00b7 Mercedes- ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternate Fuel Vehicles | Ashok Leyland Sustainable Mobility",
+          "link": "https://www.ashokleyland.com/in/alternatefuel",
+          "snippet": "Explore Ashok Leyland's alternate fuel range\u2014EVs, LNG, and advanced mobility solutions built for performance and sustainability.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 5 Alternative Fuel Vehicle Manufacturers in the world",
+          "link": "https://www.fortunebusinessinsights.com/blog/top-alternative-fuel-vehicle-manufacturers-10657",
+          "snippet": "4 Apr 2022 ... Tesla is among the top alternative fuel vehicle manufacturers of pure electric vehicles and is headquartered in California, U.S..",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternatively fueled vehicles | Science | Research Starters - EBSCO",
+          "link": "https://www.ebsco.com/research-starters/science/alternatively-fueled-vehicles",
+          "snippet": "In 2023, there were 237 hybrid and electric car manufacturers in the U.S., reflecting a growing market for cleaner transportation options. Alternative fuels ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 Alternative Fuel Vehicles Companies Setting the Standard in ...",
+          "link": "https://extrapolate.com/blog/top-10-alternative-fuel-vehicle-companies-hype-2024",
+          "snippet": "5 Aug 2024 ... Discover the top 10 alternative fuel vehicle companies setting industry standards in 2024. Explore innovations and advancements driving the ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative fuels - Rolls-Royce",
+          "link": "https://www.rolls-royce.com/innovation/alternative-fuels.aspx",
+          "snippet": "No single country or company can solve the alternative fuels problem. The aviation industry, fuel companies and others need to work together to develop the ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vehicle Search - Alternative Fuels Data Center - Department of Energy",
+          "link": "https://afdc.energy.gov/vehicles/search",
+          "snippet": "Medium- and Heavy-Duty Vehicle Search. Find and compare alternative fuel vehicles, engines, and power sources for medium- and heavy-duty vehicles.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Homepage | European Alternative Fuels Observatory",
+          "link": "https://alternative-fuels-observatory.ec.europa.eu/",
+          "snippet": "Find foundational information on alternative fuels, vehicle types, and recharging systems. Access FAQs, glossaries, news, and useful links to quickly understand the electromobility ecosystem.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Eight Alternative Fuels - CleanTechnica",
+          "link": "https://cleantechnica.com/2012/03/08/top-eight-alternative-fuels/",
+          "snippet": "Alternative fuels generally have lower vehicle emissions that contribute to smog, air pollution and global warming. Most alternative fuels don\u2019t come from finite fossil-fuel resources and are sustaina",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Westport Fuel Systems | Innovative Energy",
+          "link": "https://wfsinc.com/",
+          "snippet": "Westport Fuel Systems. The global leader in alternative fuel solutions. Innovative, high-quality solutions that meet strict emission standards.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Single Article - The Association of European Vehicle Logistics",
+          "link": "https://www.ecgassociation.eu/article/?id=3226ecb4-a58d-4006-978f-424d14b21e31",
+          "snippet": "Labels for Alternative Fuel Vehicles. EV fire incident reporting. Used cars manual.In Europe, the company\u2019s second-quarter vehicle sales were up 5 percent from a year ago, and 15 percent in the U.S. I",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuel Vehicles Market Size Report, 2024 -2030",
+          "link": "https://www.industryarc.com/report/15334/alternative-fuel-vehicles-market",
+          "snippet": "147.Company 5 Alternative Fuel Vehicles Market Net Sales Share, By Geography, 2023 (%).This site uses cookies. We use necessary cookies for security and forms. Analytics and marketing cookies are opti",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "Alternative Fuel Vehicle distributors corporate sites",
+      "level": "L1",
+      "result_count": 15,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Alternative fuel vehicle - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Alternative_fuel_vehicle",
+          "snippet": "An alternative fuel vehicle is a motor vehicle that runs on alternative fuel rather than traditional petroleum-based fossil fuels such as gasoline, petrodiesel or liquefied petroleum gas (autogas).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "61 Top Alternative Fuels Companies \u00b7 July 2026 | F6S",
+          "link": "https://www.f6s.com/companies/alternative-fuels/mo",
+          "snippet": "Detailed info and reviews on 61 top Alternative Fuels companies and startups in 2026. Get the latest updates on their products, jobs, funding, investors, founders and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Explore Clean Energy with Alternative Fuels Today",
+          "link": "https://altfuel.com/",
+          "snippet": "Alternative Fuel Systems, Inc. (AFS), a \"Solutions Company\" of 50 years, is the world's leading provider of OEM and aftermarket Off-road, Industrial natural gas or LPG (propane) fuel systems, componen",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "21 Top Alternative Fuels Companies in United States \u00b7 July 2026",
+          "link": "https://www.f6s.com/companies/alternative-fuels/united-states/co",
+          "snippet": "Detailed info and reviews on 21 top Alternative Fuels companies and startups in United States in 2026. Get the latest updates on their products, jobs, funding, investors, founders and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuels Data Center: The go-to resource for advanced ...",
+          "link": "https://afdc.energy.gov/",
+          "snippet": "Alternative Fuels and Advanced Vehicles The Alternative Fuels Data Center (AFDC) provides information, data, and tools to help fleets, fuel providers, policymakers, cities, states, Clean Cities and Co",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "A-1 Alternative Fuel Systems | Natural Gas Trucks and Buses",
+          "link": "https://www.a1altfuels.com/",
+          "snippet": "Liquid petroleum gas is the second most commonly used alternative fuel for vehicles. Like natural gas, fleet operators enjoy price stability while also seeing the benefits of easily accessible and low",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuels Data Center: Alternative Fuels and Advanced...",
+          "link": "https://afdc.energy.gov/fuels",
+          "snippet": "Using alternative fuels including electricity and advanced vehicles instead of conventional fuels and vehicles helps the United States improve efficiency and cut costs.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Eight Alternative Fuels - CleanTechnica",
+          "link": "https://cleantechnica.com/2012/03/08/top-eight-alternative-fuels/",
+          "snippet": "Alternative fuels generally have lower vehicle emissions that contribute to smog, air pollution and global warming. Most alternative fuels don\u2019t come from finite fossil-fuel resources and are sustaina",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Homepage | European Alternative Fuels Observatory",
+          "link": "https://alternative-fuels-observatory.ec.europa.eu/",
+          "snippet": "Find foundational information on alternative fuels, vehicle types, and recharging systems.The European Alternative Fuels Observatory (EAFO) is the European Commission's key reference portal for altern",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuels Insight (AFI) for the shipping industry",
+          "link": "https://www.dnv.com/services/alternative-fuels-insights-afi/",
+          "snippet": "DNV's Alternative Fuels Insight platform provides the maritime industry with an open platform for evaluating the uptake of alternative fuels and technologies.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Single Article - The Association of European Vehicle Logistics",
+          "link": "https://www.ecgassociation.eu/article/?id=04c6e4cd-5209-49ef-a2d3-9a504a9e9766",
+          "snippet": "Labels for Alternative Fuel Vehicles. EV fire incident reporting. Used cars manual.Standardisation of FVL digital messages. VIN labels in the vehicle distribution process. KPIs for Finished Vehicle Lo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuel Vehicle Manufacturers in Arizona",
+          "link": "http://energy.sourceguides.com/businesses/byGeo/US/byS/AZ/byB/manufacturers/byP/altfuel/altfuel.shtml",
+          "snippet": "Product types: Alternative fuel vehicles. Full size, full power. We offer families, single drivers and over the road haulers including the new Greener-Leaner vehicles to suit their needs.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Westport Fuel Systems | Innovative Energy",
+          "link": "https://wfsinc.com/",
+          "snippet": "Westport Fuel Systems. The global leader in alternative fuel solutions. Innovative, high-quality solutions that meet strict emission standards.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Advantek Systems",
+          "link": "https://advanteksystems.net/",
+          "snippet": "From humble beginnings in 2005 Advantek has grown to become a 65+ Million US Dollar company with over 500 employees to become the preferred innovative solution provider for alternative fuels.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cummins | A Global Power Technology Leader",
+          "link": "https://www.cummins.com/",
+          "snippet": "Engines Choose from a variety of diesel, natural gas, or alternative fuel engines that deliver dependable power and high economic value.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Alternative fuel vehicle - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Alternative_fuel_vehicle",
+          "snippet": "An alternative fuel vehicle is a motor vehicle that runs on alternative fuel rather than traditional petroleum-based fossil fuels such as gasoline, petrodiesel or liquefied petroleum gas (autogas).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "61 Top Alternative Fuels Companies \u00b7 July 2026 | F6S",
+          "link": "https://www.f6s.com/companies/alternative-fuels/mo",
+          "snippet": "Detailed info and reviews on 61 top Alternative Fuels companies and startups in 2026. Get the latest updates on their products, jobs, funding, investors, founders and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Explore Clean Energy with Alternative Fuels Today",
+          "link": "https://altfuel.com/",
+          "snippet": "Alternative Fuel Systems, Inc. (AFS), a \"Solutions Company\" of 50 years, is the world's leading provider of OEM and aftermarket Off-road, Industrial natural gas or LPG (propane) fuel systems, componen",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "21 Top Alternative Fuels Companies in United States \u00b7 July 2026",
+          "link": "https://www.f6s.com/companies/alternative-fuels/united-states/co",
+          "snippet": "Detailed info and reviews on 21 top Alternative Fuels companies and startups in United States in 2026. Get the latest updates on their products, jobs, funding, investors, founders and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuels Data Center: The go-to resource for advanced ...",
+          "link": "https://afdc.energy.gov/",
+          "snippet": "Alternative Fuels and Advanced Vehicles The Alternative Fuels Data Center (AFDC) provides information, data, and tools to help fleets, fuel providers, policymakers, cities, states, Clean Cities and Co",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "A-1 Alternative Fuel Systems | Natural Gas Trucks and Buses",
+          "link": "https://www.a1altfuels.com/",
+          "snippet": "Liquid petroleum gas is the second most commonly used alternative fuel for vehicles. Like natural gas, fleet operators enjoy price stability while also seeing the benefits of easily accessible and low",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuels Data Center: Alternative Fuels and Advanced...",
+          "link": "https://afdc.energy.gov/fuels",
+          "snippet": "Using alternative fuels including electricity and advanced vehicles instead of conventional fuels and vehicles helps the United States improve efficiency and cut costs.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Eight Alternative Fuels - CleanTechnica",
+          "link": "https://cleantechnica.com/2012/03/08/top-eight-alternative-fuels/",
+          "snippet": "Alternative fuels generally have lower vehicle emissions that contribute to smog, air pollution and global warming. Most alternative fuels don\u2019t come from finite fossil-fuel resources and are sustaina",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Homepage | European Alternative Fuels Observatory",
+          "link": "https://alternative-fuels-observatory.ec.europa.eu/",
+          "snippet": "Find foundational information on alternative fuels, vehicle types, and recharging systems.The European Alternative Fuels Observatory (EAFO) is the European Commission's key reference portal for altern",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuels Insight (AFI) for the shipping industry",
+          "link": "https://www.dnv.com/services/alternative-fuels-insights-afi/",
+          "snippet": "DNV's Alternative Fuels Insight platform provides the maritime industry with an open platform for evaluating the uptake of alternative fuels and technologies.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Single Article - The Association of European Vehicle Logistics",
+          "link": "https://www.ecgassociation.eu/article/?id=04c6e4cd-5209-49ef-a2d3-9a504a9e9766",
+          "snippet": "Labels for Alternative Fuel Vehicles. EV fire incident reporting. Used cars manual.Standardisation of FVL digital messages. VIN labels in the vehicle distribution process. KPIs for Finished Vehicle Lo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuel Vehicle Manufacturers in Arizona",
+          "link": "http://energy.sourceguides.com/businesses/byGeo/US/byS/AZ/byB/manufacturers/byP/altfuel/altfuel.shtml",
+          "snippet": "Product types: Alternative fuel vehicles. Full size, full power. We offer families, single drivers and over the road haulers including the new Greener-Leaner vehicles to suit their needs.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Westport Fuel Systems | Innovative Energy",
+          "link": "https://wfsinc.com/",
+          "snippet": "Westport Fuel Systems. The global leader in alternative fuel solutions. Innovative, high-quality solutions that meet strict emission standards.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Advantek Systems",
+          "link": "https://advanteksystems.net/",
+          "snippet": "From humble beginnings in 2005 Advantek has grown to become a 65+ Million US Dollar company with over 500 employees to become the preferred innovative solution provider for alternative fuels.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cummins | A Global Power Technology Leader",
+          "link": "https://www.cummins.com/",
+          "snippet": "Engines Choose from a variety of diesel, natural gas, or alternative fuel engines that deliver dependable power and high economic value.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "Alternative Fuel Vehicle service providers official site",
+      "level": "L2",
+      "result_count": 22,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Alternative fuel vehicle - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Alternative_fuel_vehicle",
+          "snippet": "An alternative fuel vehicle is a motor vehicle that runs on alternative fuel rather than traditional petroleum-based fossil fuels such as gasoline, petrodiesel or liquefied petroleum gas (autogas).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuels Data Center: The go-to resource for advanced ...",
+          "link": "https://afdc.energy.gov/",
+          "snippet": "Alternative Fuels and Advanced Vehicles The Alternative Fuels Data Center (AFDC) provides information, data, and tools to help fleets, fuel providers, policymakers, cities, states, Clean Cities and Co",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuels Data Center: Alternative Fuels and Advanced...",
+          "link": "https://afdc.energy.gov/fuels",
+          "snippet": "Alternative Fuel and Advanced Vehicle Search: Find an electric or alternative fuel vehicle. Vehicle Conversions. Conventional vehicles and engines can be modified to operate using a different fuel or ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuel Vehicle Institute",
+          "link": "https://afvi.com/",
+          "snippet": "The Alternative Fuel Vehicle Training Leader Professional instructors, personal support, and flexible learning options to fit your needs. AFVi is the only independent ASE-accredited training provider ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Fuelling net-zero: What's next for alternative fuels and their ... - IRU",
+          "link": "https://www.iru.org/news-resources/newsroom/fuelling-net-zero-whats-next-alternative-fuels-and-their-infrastructure",
+          "snippet": "21 Jan 2025 ... Electric vehicles (EVs) are making significant inroads in light transport, while hydrogen is increasingly favoured for heavy-duty trucking. RNG ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuels Systems - Cavagna Group \u00aeOfficial Website",
+          "link": "https://www.cavagnagroup.com/alternative-fuels-systems/",
+          "snippet": "The Alternative Fuels Systems division specializes in designing and manufacturing CNG and LPG systems, valves and components for automotive.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuel Vehicles - Energyland",
+          "link": "https://www.emsd.gov.hk/energyland/en/transport/alternative.html",
+          "snippet": "Until November of 2010, there are 21 EV charging station in Hong Kong built by this power provider. Hybrid vehicles. Hybrid vehicle: Electric motor, power ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuel (Environment Service) - IndiaMART",
+          "link": "https://www.indiamart.com/proddetail/alternative-fuel-environment-service-2403749730.html?srsltid=AfmBOoonlc4MP_6xVMd5GeMq7n9ROvC64EGe5M3PeFVhTN5tewgvAf4L",
+          "snippet": "SGS India Private Limited - Offering Alternative Fuel (Environment Service) in Gurgaon, Haryana. Read about company. Get contact details and address | ID: ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 Alternative Fuel Vehicles Companies Setting the Standard in ...",
+          "link": "https://extrapolate.com/blog/top-10-alternative-fuel-vehicle-companies-hype-2024",
+          "snippet": "5 Aug 2024 ... Alternative-fueled vehicles come in a variety of forms, such as electricity, hydrogen, propane, natural gas, ethanol, and biodiesel. These fuels ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuels Data Center: Search for Alternative Fueling and ...",
+          "link": "https://afdc.energy.gov/stations",
+          "snippet": "Search for Alternative Fueling and Charging Stations Find alternative fueling and charging stations in the United States and Canada. By default, this tool shows available, publicly accessible stations",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "A-1 Alternative Fuel Systems | Natural Gas Trucks and Buses",
+          "link": "https://www.a1altfuels.com/",
+          "snippet": "A-1 specializes in the design and manufacture of clean energy fuel solutions that allow light, medium and heavy-duty vehicles to operate on natural gas, propane, and hydrogen. A-1 also has a full serv",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Love's Alternative Energy",
+          "link": "https://www.lovesalternativeenergy.com/",
+          "snippet": "Love's Alternative Energy, a member of the Love's Family of Companies, is a leading developer of alternative fueling system design and provides installation and operations for innovative energy soluti",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Explore Clean Energy with Alternative Fuels Today",
+          "link": "https://altfuel.com/",
+          "snippet": "Alternative Fuel Systems, Inc. (AFS), a \"Solutions Company\" of 50 years, is the world's leading provider of OEM and aftermarket Off-road, Industrial natural gas or LPG (propane) fuel systems, componen",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuels | US EPA",
+          "link": "https://www.epa.gov/renewable-fuel-standard/alternative-fuels",
+          "snippet": "Official websites use .gov A .gov website belongs to an official government organization in the United States.Some vehicles and engines are designed for alternative fuels by the manufacturer.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Homepage | European Alternative Fuels Observatory",
+          "link": "https://alternative-fuels-observatory.ec.europa.eu/",
+          "snippet": "Find foundational information on alternative fuels, vehicle types, and recharging systems. Access FAQs, glossaries, news, and useful links to quickly understand the electromobility ecosystem.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Eight Alternative Fuels - CleanTechnica",
+          "link": "https://cleantechnica.com/2012/03/08/top-eight-alternative-fuels/",
+          "snippet": "Alternative fuels generally have lower vehicle emissions that contribute to smog, air pollution and global warming.Regardless, the fuels on this list have the potential to serve as full or partial alt",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuels Insight (AFI) for the shipping industry",
+          "link": "https://www.dnv.com/services/alternative-fuels-insights-afi/",
+          "snippet": "DNV's Alternative Fuels Insight platform provides the maritime industry with an open platform for evaluating the uptake of alternative fuels and technologies.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuel Vehicle Refueling Property Credit | Internal Revenue...",
+          "link": "https://www.irs.gov/credits-deductions/alternative-fuel-vehicle-refueling-property-credit",
+          "snippet": "An official website of the United States government. Here's how you know.If you install property to store or dispense clean-burning fuel or recharge electric vehicles in your home or business, you may",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuel Stations in 99159 (Odessa, WA)",
+          "link": "https://www.alternativefuellocal.com/states/washington/odessa/",
+          "snippet": "Alternative Fuel Vehicle (AFV) Emissions Inspection Exemption. AFVs powered exclusively by electric, natural gas, liquefied petroleum gas, and propane vehicles are exempt from state emissions control ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuel Solutions",
+          "link": "https://driveonpropane.com/",
+          "snippet": "At Alternative Fuel Solutions, our mission is to provide innovative consulting services that promote sustainable energy practices. We strive to empower businesses to transition to alternative fuels, e",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuel Vehicles Market Companies",
+          "link": "https://www.prophecymarketinsights.com/market_insight/alternative-fuel-vehicles-market-5893/market-companies",
+          "snippet": "Through continuous research and development, they strive to lead the transition toward a cleaner, greener transportation future. Honda Motor Co., Ltd, Hill's ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "U.S. Energy Information Administration - EIA - Independent Statistics ...",
+          "link": "https://www.eia.gov/renewable/afv/",
+          "snippet": "The U.S. Energy Information Administration (EIA) publishes historical annual data for 2002 through 2017 on the number of alternative fuel vehicles (AFV) in inventory for four types of vehicle fleets: ",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Alternative fuel vehicle - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Alternative_fuel_vehicle",
+          "snippet": "An alternative fuel vehicle is a motor vehicle that runs on alternative fuel rather than traditional petroleum-based fossil fuels such as gasoline, petrodiesel or liquefied petroleum gas (autogas).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuels Data Center: The go-to resource for advanced ...",
+          "link": "https://afdc.energy.gov/",
+          "snippet": "Alternative Fuels and Advanced Vehicles The Alternative Fuels Data Center (AFDC) provides information, data, and tools to help fleets, fuel providers, policymakers, cities, states, Clean Cities and Co",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuels Data Center: Alternative Fuels and Advanced...",
+          "link": "https://afdc.energy.gov/fuels",
+          "snippet": "Alternative Fuel and Advanced Vehicle Search: Find an electric or alternative fuel vehicle. Vehicle Conversions. Conventional vehicles and engines can be modified to operate using a different fuel or ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuel Vehicle Institute",
+          "link": "https://afvi.com/",
+          "snippet": "The Alternative Fuel Vehicle Training Leader Professional instructors, personal support, and flexible learning options to fit your needs. AFVi is the only independent ASE-accredited training provider ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Fuelling net-zero: What's next for alternative fuels and their ... - IRU",
+          "link": "https://www.iru.org/news-resources/newsroom/fuelling-net-zero-whats-next-alternative-fuels-and-their-infrastructure",
+          "snippet": "21 Jan 2025 ... Electric vehicles (EVs) are making significant inroads in light transport, while hydrogen is increasingly favoured for heavy-duty trucking. RNG ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuels Systems - Cavagna Group \u00aeOfficial Website",
+          "link": "https://www.cavagnagroup.com/alternative-fuels-systems/",
+          "snippet": "The Alternative Fuels Systems division specializes in designing and manufacturing CNG and LPG systems, valves and components for automotive.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuel Vehicles - Energyland",
+          "link": "https://www.emsd.gov.hk/energyland/en/transport/alternative.html",
+          "snippet": "Until November of 2010, there are 21 EV charging station in Hong Kong built by this power provider. Hybrid vehicles. Hybrid vehicle: Electric motor, power ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuel (Environment Service) - IndiaMART",
+          "link": "https://www.indiamart.com/proddetail/alternative-fuel-environment-service-2403749730.html?srsltid=AfmBOoonlc4MP_6xVMd5GeMq7n9ROvC64EGe5M3PeFVhTN5tewgvAf4L",
+          "snippet": "SGS India Private Limited - Offering Alternative Fuel (Environment Service) in Gurgaon, Haryana. Read about company. Get contact details and address | ID: ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 Alternative Fuel Vehicles Companies Setting the Standard in ...",
+          "link": "https://extrapolate.com/blog/top-10-alternative-fuel-vehicle-companies-hype-2024",
+          "snippet": "5 Aug 2024 ... Alternative-fueled vehicles come in a variety of forms, such as electricity, hydrogen, propane, natural gas, ethanol, and biodiesel. These fuels ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuels Data Center: Search for Alternative Fueling and ...",
+          "link": "https://afdc.energy.gov/stations",
+          "snippet": "Search for Alternative Fueling and Charging Stations Find alternative fueling and charging stations in the United States and Canada. By default, this tool shows available, publicly accessible stations",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "A-1 Alternative Fuel Systems | Natural Gas Trucks and Buses",
+          "link": "https://www.a1altfuels.com/",
+          "snippet": "A-1 specializes in the design and manufacture of clean energy fuel solutions that allow light, medium and heavy-duty vehicles to operate on natural gas, propane, and hydrogen. A-1 also has a full serv",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Love's Alternative Energy",
+          "link": "https://www.lovesalternativeenergy.com/",
+          "snippet": "Love's Alternative Energy, a member of the Love's Family of Companies, is a leading developer of alternative fueling system design and provides installation and operations for innovative energy soluti",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Explore Clean Energy with Alternative Fuels Today",
+          "link": "https://altfuel.com/",
+          "snippet": "Alternative Fuel Systems, Inc. (AFS), a \"Solutions Company\" of 50 years, is the world's leading provider of OEM and aftermarket Off-road, Industrial natural gas or LPG (propane) fuel systems, componen",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuels | US EPA",
+          "link": "https://www.epa.gov/renewable-fuel-standard/alternative-fuels",
+          "snippet": "Official websites use .gov A .gov website belongs to an official government organization in the United States.Some vehicles and engines are designed for alternative fuels by the manufacturer.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Homepage | European Alternative Fuels Observatory",
+          "link": "https://alternative-fuels-observatory.ec.europa.eu/",
+          "snippet": "Find foundational information on alternative fuels, vehicle types, and recharging systems. Access FAQs, glossaries, news, and useful links to quickly understand the electromobility ecosystem.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Eight Alternative Fuels - CleanTechnica",
+          "link": "https://cleantechnica.com/2012/03/08/top-eight-alternative-fuels/",
+          "snippet": "Alternative fuels generally have lower vehicle emissions that contribute to smog, air pollution and global warming.Regardless, the fuels on this list have the potential to serve as full or partial alt",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuels Insight (AFI) for the shipping industry",
+          "link": "https://www.dnv.com/services/alternative-fuels-insights-afi/",
+          "snippet": "DNV's Alternative Fuels Insight platform provides the maritime industry with an open platform for evaluating the uptake of alternative fuels and technologies.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuel Vehicle Refueling Property Credit | Internal Revenue...",
+          "link": "https://www.irs.gov/credits-deductions/alternative-fuel-vehicle-refueling-property-credit",
+          "snippet": "An official website of the United States government. Here's how you know.If you install property to store or dispense clean-burning fuel or recharge electric vehicles in your home or business, you may",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuel Stations in 99159 (Odessa, WA)",
+          "link": "https://www.alternativefuellocal.com/states/washington/odessa/",
+          "snippet": "Alternative Fuel Vehicle (AFV) Emissions Inspection Exemption. AFVs powered exclusively by electric, natural gas, liquefied petroleum gas, and propane vehicles are exempt from state emissions control ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuel Solutions",
+          "link": "https://driveonpropane.com/",
+          "snippet": "At Alternative Fuel Solutions, our mission is to provide innovative consulting services that promote sustainable energy practices. We strive to empower businesses to transition to alternative fuels, e",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuel Vehicles Market Companies",
+          "link": "https://www.prophecymarketinsights.com/market_insight/alternative-fuel-vehicles-market-5893/market-companies",
+          "snippet": "Through continuous research and development, they strive to lead the transition toward a cleaner, greener transportation future. Honda Motor Co., Ltd, Hill's ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "U.S. Energy Information Administration - EIA - Independent Statistics ...",
+          "link": "https://www.eia.gov/renewable/afv/",
+          "snippet": "The U.S. Energy Information Administration (EIA) publishes historical annual data for 2002 through 2017 on the number of alternative fuel vehicles (AFV) in inventory for four types of vehicle fleets: ",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "alternative fuel vehicle distributors official site",
+      "level": "discovery",
+      "result_count": 18,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Alternative fuel vehicle - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Alternative_fuel_vehicle",
+          "snippet": "An alternative fuel vehicle is a motor vehicle that runs on alternative fuel rather than traditional petroleum-based fossil fuels such as gasoline, petrodiesel or liquefied petroleum gas (autogas).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuels Data Center: Alternative Fuels and Advanced...",
+          "link": "https://afdc.energy.gov/fuels",
+          "snippet": "Alternative Fuel and Advanced Vehicle Search: Find an electric or alternative fuel vehicle. Vehicle Conversions. Conventional vehicles and engines can be modified to operate using a different fuel or ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuels | US EPA",
+          "link": "https://www.epa.gov/renewable-fuel-standard/alternative-fuels",
+          "snippet": "An official website of the United States government.Some vehicles and engines are designed for alternative fuels by the manufacturer. Others are converted to run on an alternative fuel by modifying th",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Eight Alternative Fuels - CleanTechnica",
+          "link": "https://cleantechnica.com/2012/03/08/top-eight-alternative-fuels/",
+          "snippet": "Alternative fuels generally have lower vehicle emissions that contribute to smog, air pollution and global warming. Most alternative fuels don\u2019t come from finite fossil-fuel resources and are sustaina",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Homepage | European Alternative Fuels Observatory",
+          "link": "https://alternative-fuels-observatory.ec.europa.eu/",
+          "snippet": "Find foundational information on alternative fuels, vehicle types, and recharging systems. Access FAQs, glossaries, news, and useful links to quickly understand the electromobility ecosystem.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Westport Fuel Systems | Innovative Energy",
+          "link": "https://wfsinc.com/",
+          "snippet": "Westport Fuel Systems. The global leader in alternative fuel solutions. Innovative, high-quality solutions that meet strict emission standards.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Gasoline and Diesel Fuel Update - U.S. Energy Information...",
+          "link": "https://www.eia.gov/petroleum/gasdiesel/",
+          "snippet": "Alternative Fuel Vehicle Browser.What we pay for in a gallon of: Regular Gasoline March 2026 Retail price: $3.64/gallon Diesel March 2026 Retail price: $4.92/gallon. Taxes Distribution & Marketing Ref",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuels Insight (AFI) for the shipping industry",
+          "link": "https://www.dnv.com/services/alternative-fuels-insights-afi/",
+          "snippet": "DNV's Alternative Fuels Insight platform provides the maritime industry with an open platform for evaluating the uptake of alternative fuels and technologies. Sign up for a free account today.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuel Vehicle Wholesale Suppliers in Arizona",
+          "link": "http://energy.sourceguides.com/businesses/byGeo/US/byS/AZ/byB/wholesale/byP/altfuel/altfuel.shtml",
+          "snippet": "Product types: Alternative fuel vehicles. Full size, full power. We offer families, single drivers and over the road haulers including the new Greener-Leaner vehicles to suit their needs.Alternative V",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuels Data Center - Department of Energy",
+          "link": "https://afdc.energy.gov/",
+          "snippet": "The go-to resource for advanced transportation fuels and technologies \u00b7 Station Locator \u00b7 Information by State \u00b7 Tool Finder \u00b7 Fuels and Vehicles \u00b7 Latest Features ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "A-1 Alternative Fuel Systems | Natural Gas Trucks and Buses",
+          "link": "https://www.a1altfuels.com/",
+          "snippet": "Since 1995, A-1 Alternative Fuel Systems has helped fleets meet their green initiatives and transition their vehicles to cleaner fuels. A-1 specializes in ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Explore Clean Energy with Alternative Fuels Today",
+          "link": "https://altfuel.com/",
+          "snippet": "Alternative Fuel Systems, Inc. (AFS), a \"Solutions Company\" of 50 years, is the world's leading provider of OEM and aftermarket Off-road, Industrial natural gas ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Electrification & Alternative Fuels - Old World Industries",
+          "link": "https://www.owi.com/commercial/alternative-fuels",
+          "snippet": "... including a full line of Antifreeze + Coolant for electric vehicle and alternative fuel powered vehicles, Washer Fluid, Lighting and Wiper Blades.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuels Data Center: Vehicle Search - Department of Energy",
+          "link": "https://afdc.energy.gov/vehicles/search",
+          "snippet": "Find and compare alternative fuel vehicles, engines, and power sources for medium- and heavy-duty vehicles. Learn more about the data collection methods. Light- ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuel Solutions",
+          "link": "https://driveonpropane.com/",
+          "snippet": "Expert Consulting and Conversions for fleets ... Transforming your energy strategy with expert insights into Natural Gas (CNG) & Propane (LPG) vehicle conversion ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Search for Alternative Fueling and Charging Stations",
+          "link": "https://afdc.energy.gov/stations",
+          "snippet": "The AFDC is a resource of the U.S. Department of Energy's Transportation Technologies Office. U.S. Department of Energy. Quick Links. Leadership & Offices ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Engines | Cummins Inc.",
+          "link": "https://www.cummins.com/engines",
+          "snippet": "Cummins diesel engines, natural gas engines, and alternative fuel engines deliver reliable power with the torque and efficiency you need.Today, we offer an expansive lineup of engine technologies, inc",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nature AutoLink | 7,983 followers on LinkedIn.",
+          "link": "https://www.linkedin.com/company/nature-autolink",
+          "snippet": "Alternative Fuel Vehicle Manufacturing. Company size.This latest passenger vehicle lineup is prepared for distributors and dealership groups that already understand the rhythm of international automot",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Alternative fuel vehicle - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Alternative_fuel_vehicle",
+          "snippet": "An alternative fuel vehicle is a motor vehicle that runs on alternative fuel rather than traditional petroleum-based fossil fuels such as gasoline, petrodiesel or liquefied petroleum gas (autogas).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuels Data Center: Alternative Fuels and Advanced...",
+          "link": "https://afdc.energy.gov/fuels",
+          "snippet": "Alternative Fuel and Advanced Vehicle Search: Find an electric or alternative fuel vehicle. Vehicle Conversions. Conventional vehicles and engines can be modified to operate using a different fuel or ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuels | US EPA",
+          "link": "https://www.epa.gov/renewable-fuel-standard/alternative-fuels",
+          "snippet": "An official website of the United States government.Some vehicles and engines are designed for alternative fuels by the manufacturer. Others are converted to run on an alternative fuel by modifying th",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Eight Alternative Fuels - CleanTechnica",
+          "link": "https://cleantechnica.com/2012/03/08/top-eight-alternative-fuels/",
+          "snippet": "Alternative fuels generally have lower vehicle emissions that contribute to smog, air pollution and global warming. Most alternative fuels don\u2019t come from finite fossil-fuel resources and are sustaina",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Homepage | European Alternative Fuels Observatory",
+          "link": "https://alternative-fuels-observatory.ec.europa.eu/",
+          "snippet": "Find foundational information on alternative fuels, vehicle types, and recharging systems. Access FAQs, glossaries, news, and useful links to quickly understand the electromobility ecosystem.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Westport Fuel Systems | Innovative Energy",
+          "link": "https://wfsinc.com/",
+          "snippet": "Westport Fuel Systems. The global leader in alternative fuel solutions. Innovative, high-quality solutions that meet strict emission standards.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Gasoline and Diesel Fuel Update - U.S. Energy Information...",
+          "link": "https://www.eia.gov/petroleum/gasdiesel/",
+          "snippet": "Alternative Fuel Vehicle Browser.What we pay for in a gallon of: Regular Gasoline March 2026 Retail price: $3.64/gallon Diesel March 2026 Retail price: $4.92/gallon. Taxes Distribution & Marketing Ref",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuels Insight (AFI) for the shipping industry",
+          "link": "https://www.dnv.com/services/alternative-fuels-insights-afi/",
+          "snippet": "DNV's Alternative Fuels Insight platform provides the maritime industry with an open platform for evaluating the uptake of alternative fuels and technologies. Sign up for a free account today.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuel Vehicle Wholesale Suppliers in Arizona",
+          "link": "http://energy.sourceguides.com/businesses/byGeo/US/byS/AZ/byB/wholesale/byP/altfuel/altfuel.shtml",
+          "snippet": "Product types: Alternative fuel vehicles. Full size, full power. We offer families, single drivers and over the road haulers including the new Greener-Leaner vehicles to suit their needs.Alternative V",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuels Data Center - Department of Energy",
+          "link": "https://afdc.energy.gov/",
+          "snippet": "The go-to resource for advanced transportation fuels and technologies \u00b7 Station Locator \u00b7 Information by State \u00b7 Tool Finder \u00b7 Fuels and Vehicles \u00b7 Latest Features ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "A-1 Alternative Fuel Systems | Natural Gas Trucks and Buses",
+          "link": "https://www.a1altfuels.com/",
+          "snippet": "Since 1995, A-1 Alternative Fuel Systems has helped fleets meet their green initiatives and transition their vehicles to cleaner fuels. A-1 specializes in ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Explore Clean Energy with Alternative Fuels Today",
+          "link": "https://altfuel.com/",
+          "snippet": "Alternative Fuel Systems, Inc. (AFS), a \"Solutions Company\" of 50 years, is the world's leading provider of OEM and aftermarket Off-road, Industrial natural gas ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Electrification & Alternative Fuels - Old World Industries",
+          "link": "https://www.owi.com/commercial/alternative-fuels",
+          "snippet": "... including a full line of Antifreeze + Coolant for electric vehicle and alternative fuel powered vehicles, Washer Fluid, Lighting and Wiper Blades.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuels Data Center: Vehicle Search - Department of Energy",
+          "link": "https://afdc.energy.gov/vehicles/search",
+          "snippet": "Find and compare alternative fuel vehicles, engines, and power sources for medium- and heavy-duty vehicles. Learn more about the data collection methods. Light- ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuel Solutions",
+          "link": "https://driveonpropane.com/",
+          "snippet": "Expert Consulting and Conversions for fleets ... Transforming your energy strategy with expert insights into Natural Gas (CNG) & Propane (LPG) vehicle conversion ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Search for Alternative Fueling and Charging Stations",
+          "link": "https://afdc.energy.gov/stations",
+          "snippet": "The AFDC is a resource of the U.S. Department of Energy's Transportation Technologies Office. U.S. Department of Energy. Quick Links. Leadership & Offices ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Engines | Cummins Inc.",
+          "link": "https://www.cummins.com/engines",
+          "snippet": "Cummins diesel engines, natural gas engines, and alternative fuel engines deliver reliable power with the torque and efficiency you need.Today, we offer an expansive lineup of engine technologies, inc",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nature AutoLink | 7,983 followers on LinkedIn.",
+          "link": "https://www.linkedin.com/company/nature-autolink",
+          "snippet": "Alternative Fuel Vehicle Manufacturing. Company size.This latest passenger vehicle lineup is prepared for distributors and dealership groups that already understand the rhythm of international automot",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P2": {
+      "query": "alternative fuel vehicle wholesalers corporate headquarters",
+      "level": "discovery",
+      "result_count": 9,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Hydrogen vehicle - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Hydrogen_vehicle",
+          "snippet": "Main article: Alternative fuel vehicle. Hydrogen vehicles compete with various proposed alternatives to the modern fossil fuel internal combustion engine (ICE) vehicle infrastructure.[120].",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuels Data Center: Flexible Fuel Vehicles",
+          "link": "https://afdc.energy.gov/vehicles/flexible-fuel",
+          "snippet": "flex fuel vehicle diagram. Flexible fuel vehicles (FFVs) have an internal combustion engine and are capable of operating on gasoline and any blend of gasoline and ethanol up to 83%.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Homepage | European Alternative Fuels Observatory",
+          "link": "https://alternative-fuels-observatory.ec.europa.eu/",
+          "snippet": "View interactive infographics and data visalisations on alternative fuel uptake across all different transport modes.Policy Focus: Read the full text and guidance on the Alternative Fuels Infrastructu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Eight Alternative Fuels - CleanTechnica",
+          "link": "https://cleantechnica.com/2012/03/08/top-eight-alternative-fuels/",
+          "snippet": "Alternative fuels generally have lower vehicle emissions that contribute to smog, air pollution and global warming. Most alternative fuels don\u2019t come from finite fossil-fuel resources and are sustaina",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuels | US EPA",
+          "link": "https://www.epa.gov/renewable-fuel-standard/alternative-fuels",
+          "snippet": "Alternative fuels include gaseous fuels such as hydrogen, natural gas, and propane; alcohols such as ethanol, methanol, and butanol; vegetable and waste-derived oils; and electricity. Overview of alte",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuels Insight (AFI) for the shipping industry",
+          "link": "https://www.dnv.com/services/alternative-fuels-insights-afi/",
+          "snippet": "DNV's Alternative Fuels Insight platform provides the maritime industry with an open platform for evaluating the uptake of alternative fuels and technologies.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Westport Fuel Systems | Innovative Energy",
+          "link": "https://wfsinc.com/",
+          "snippet": "Westport Fuel Systems. The global leader in alternative fuel solutions. Innovative, high-quality solutions that meet strict emission standards.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuel Vehicle Wholesale Suppliers in Texas",
+          "link": "http://energy.sourceguides.com/businesses/byGeo/US/byS/TX/byB/wholesale/byP/altfuel/altfuel.shtml",
+          "snippet": "Alternative Fuel Vehicle Businesses in the World.Business type: Wholesale. Product types: Biodiesel, Renewable Diesel, Renewable Jet Blends, Ethanol, Biobutanol (Isobutanol) (wholesale only) quantitie",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vehicle tax rates: Cars registered on or after 1 April 2017 - GOV.UK",
+          "link": "https://www.gov.uk/vehicle-tax-rate-tables",
+          "snippet": "Alternative fuel vehicles include hybrids, bioethanol and liquid petroleum gas. Vehicles with a list price of more than \u00a340,000 (petrol/diesel) or \u00a350,000 (electric).",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Hydrogen vehicle - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Hydrogen_vehicle",
+          "snippet": "Main article: Alternative fuel vehicle. Hydrogen vehicles compete with various proposed alternatives to the modern fossil fuel internal combustion engine (ICE) vehicle infrastructure.[120].",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuels Data Center: Flexible Fuel Vehicles",
+          "link": "https://afdc.energy.gov/vehicles/flexible-fuel",
+          "snippet": "flex fuel vehicle diagram. Flexible fuel vehicles (FFVs) have an internal combustion engine and are capable of operating on gasoline and any blend of gasoline and ethanol up to 83%.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Homepage | European Alternative Fuels Observatory",
+          "link": "https://alternative-fuels-observatory.ec.europa.eu/",
+          "snippet": "View interactive infographics and data visalisations on alternative fuel uptake across all different transport modes.Policy Focus: Read the full text and guidance on the Alternative Fuels Infrastructu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Eight Alternative Fuels - CleanTechnica",
+          "link": "https://cleantechnica.com/2012/03/08/top-eight-alternative-fuels/",
+          "snippet": "Alternative fuels generally have lower vehicle emissions that contribute to smog, air pollution and global warming. Most alternative fuels don\u2019t come from finite fossil-fuel resources and are sustaina",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuels | US EPA",
+          "link": "https://www.epa.gov/renewable-fuel-standard/alternative-fuels",
+          "snippet": "Alternative fuels include gaseous fuels such as hydrogen, natural gas, and propane; alcohols such as ethanol, methanol, and butanol; vegetable and waste-derived oils; and electricity. Overview of alte",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuels Insight (AFI) for the shipping industry",
+          "link": "https://www.dnv.com/services/alternative-fuels-insights-afi/",
+          "snippet": "DNV's Alternative Fuels Insight platform provides the maritime industry with an open platform for evaluating the uptake of alternative fuels and technologies.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Westport Fuel Systems | Innovative Energy",
+          "link": "https://wfsinc.com/",
+          "snippet": "Westport Fuel Systems. The global leader in alternative fuel solutions. Innovative, high-quality solutions that meet strict emission standards.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuel Vehicle Wholesale Suppliers in Texas",
+          "link": "http://energy.sourceguides.com/businesses/byGeo/US/byS/TX/byB/wholesale/byP/altfuel/altfuel.shtml",
+          "snippet": "Alternative Fuel Vehicle Businesses in the World.Business type: Wholesale. Product types: Biodiesel, Renewable Diesel, Renewable Jet Blends, Ethanol, Biobutanol (Isobutanol) (wholesale only) quantitie",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vehicle tax rates: Cars registered on or after 1 April 2017 - GOV.UK",
+          "link": "https://www.gov.uk/vehicle-tax-rate-tables",
+          "snippet": "Alternative fuel vehicles include hybrids, bioethanol and liquid petroleum gas. Vehicles with a list price of more than \u00a340,000 (petrol/diesel) or \u00a350,000 (electric).",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P3": {
+      "query": "alternative fuel vehicle resellers official website",
+      "level": "discovery",
+      "result_count": 8,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Alternative fuel vehicle - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Alternative_fuel_vehicle",
+          "snippet": "An alternative fuel vehicle is a motor vehicle that runs on alternative fuel rather than traditional petroleum-based fossil fuels such as gasoline, petrodiesel or liquefied petroleum gas (autogas).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuels Data Center: Search for Alternative Fueling and...",
+          "link": "https://afdc.energy.gov/stations",
+          "snippet": "Fuels & Vehicles.Find alternative fueling and charging stations in the United States and Canada. By default, this tool shows available, publicly accessible stations.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Homepage | European Alternative Fuels Observatory",
+          "link": "https://alternative-fuels-observatory.ec.europa.eu/",
+          "snippet": "Find foundational information on alternative fuels, vehicle types, and recharging systems. Access FAQs, glossaries, news, and useful links to quickly understand the electromobility ecosystem.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Eight Alternative Fuels - CleanTechnica",
+          "link": "https://cleantechnica.com/2012/03/08/top-eight-alternative-fuels/",
+          "snippet": "Alternative fuels generally have lower vehicle emissions that contribute to smog, air pollution and global warming. Most alternative fuels don\u2019t come from finite fossil-fuel resources and are sustaina",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Westport Fuel Systems | Innovative Energy",
+          "link": "https://wfsinc.com/",
+          "snippet": "Westport Fuel Systems. The global leader in alternative fuel solutions. Innovative, high-quality solutions that meet strict emission standards.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuels Insight (AFI) for the shipping industry",
+          "link": "https://www.dnv.com/services/alternative-fuels-insights-afi/",
+          "snippet": "The Alternative Fuels Insight platform provides the maritime industry with an open platform for evaluating the uptake of alternative fuels and technologies.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vehicle tax rates: Cars registered on or after 1 April 2017 - GOV.UK",
+          "link": "https://www.gov.uk/vehicle-tax-rate-tables",
+          "snippet": "Reports, analysis and official statistics.Alternative fuel vehicles include hybrids, bioethanol and liquid petroleum gas. Vehicles with a list price of more than \u00a340,000 (petrol/diesel) or \u00a350,000 (el",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "chinacarforums.com",
+          "link": "https://www.chinacarforums.com/",
+          "snippet": "Alternative fuel vehicles.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Alternative fuel vehicle - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Alternative_fuel_vehicle",
+          "snippet": "An alternative fuel vehicle is a motor vehicle that runs on alternative fuel rather than traditional petroleum-based fossil fuels such as gasoline, petrodiesel or liquefied petroleum gas (autogas).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuels Data Center: Search for Alternative Fueling and...",
+          "link": "https://afdc.energy.gov/stations",
+          "snippet": "Fuels & Vehicles.Find alternative fueling and charging stations in the United States and Canada. By default, this tool shows available, publicly accessible stations.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Homepage | European Alternative Fuels Observatory",
+          "link": "https://alternative-fuels-observatory.ec.europa.eu/",
+          "snippet": "Find foundational information on alternative fuels, vehicle types, and recharging systems. Access FAQs, glossaries, news, and useful links to quickly understand the electromobility ecosystem.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Eight Alternative Fuels - CleanTechnica",
+          "link": "https://cleantechnica.com/2012/03/08/top-eight-alternative-fuels/",
+          "snippet": "Alternative fuels generally have lower vehicle emissions that contribute to smog, air pollution and global warming. Most alternative fuels don\u2019t come from finite fossil-fuel resources and are sustaina",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Westport Fuel Systems | Innovative Energy",
+          "link": "https://wfsinc.com/",
+          "snippet": "Westport Fuel Systems. The global leader in alternative fuel solutions. Innovative, high-quality solutions that meet strict emission standards.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuels Insight (AFI) for the shipping industry",
+          "link": "https://www.dnv.com/services/alternative-fuels-insights-afi/",
+          "snippet": "The Alternative Fuels Insight platform provides the maritime industry with an open platform for evaluating the uptake of alternative fuels and technologies.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vehicle tax rates: Cars registered on or after 1 April 2017 - GOV.UK",
+          "link": "https://www.gov.uk/vehicle-tax-rate-tables",
+          "snippet": "Reports, analysis and official statistics.Alternative fuel vehicles include hybrids, bioethanol and liquid petroleum gas. Vehicles with a list price of more than \u00a340,000 (petrol/diesel) or \u00a350,000 (el",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "chinacarforums.com",
+          "link": "https://www.chinacarforums.com/",
+          "snippet": "Alternative fuel vehicles.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P4": {
+      "query": "alternative fuel vehicle system integrators corporate site",
+      "level": "discovery",
+      "result_count": 13,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Hydrogen vehicle - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Hydrogen_vehicle",
+          "snippet": "Main article: Alternative fuel vehicle. Hydrogen vehicles compete with various proposed alternatives to the modern fossil fuel internal combustion engine (ICE) vehicle infrastructure.[120].",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Westport - Alternative Fuel Systems Inc.",
+          "link": "https://afs.westport.com/",
+          "snippet": "Alternative Fuel Systems Inc. AFS designs, develops and produces engine management controllers including the associated software for us in the alternative fuel marketplace. Engine management solutions",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Explore Clean Energy with Alternative Fuels Today",
+          "link": "https://altfuel.com/",
+          "snippet": "Alternative Fuel Systems, Inc. (AFS), a \"Solutions Company\" of 50 years, is the world's leading provider of OEM and aftermarket Off-road, Industrial natural gas or LPG (propane) fuel systems, componen",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Westport Fuel Systems | Innovative Energy",
+          "link": "https://wfsinc.com/",
+          "snippet": "Our global team develops and supplies advanced LPG, CNG, LNG, and H2 systems and components for OEM, DOEM, and AM sectors worldwide. Our main customers operate in the automotive sector, but also in tr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "A-1 Alternative Fuel Systems | Natural Gas Trucks and Buses",
+          "link": "https://www.a1altfuels.com/",
+          "snippet": "Since 1995, A-1 Alternative Fuel Systems has helped fleets meet their green initiatives and transition their vehicles to cleaner fuels. A-1 specializes in the design and manufacture of clean energy fu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "A-1 Alternative Fuel Systems - LinkedIn",
+          "link": "https://www.linkedin.com/company/a-1-alternative-fuel-systems",
+          "snippet": "A-1 Alternative Fuel Systems is a third-generation, family-owned company specializing in the engineering, manufacturing, and integration of high-pressure fuel storage and delivery systems for ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home | Westport Fuel Systems",
+          "link": "https://www.westport.com/",
+          "snippet": "Now. Westport is a clean-tech innovation company, providing simplified solutions to decarbonize. We engineer, manufacture, and develop systems, components, and electronic controls that support cleaner",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Precise Alternative Fleet Solutions",
+          "link": "https://precisealternativefleetsolutions.com/",
+          "snippet": "Fleet Assessments: Tailored evaluations of your vehicles and fueling needs. Alternative Fuel Integration: Retrofit systems designed to reduce emissions and maximize efficiency. Dual-Fuel Flexibility: ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuel Vehicle Institute",
+          "link": "https://afvi.com/",
+          "snippet": "The Alternative Fuel Vehicle Training Leader. Professional instructors, personal support, and flexible learning options to fit your needs.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Quantum Fuel Systems: Clean Energy Storage Solutions",
+          "link": "https://qtww.com/",
+          "snippet": "Moving Vehicles. Moving Energy. Sustainably. Quantum Fuel Systems is engineering the future of alternative fuel solutions - designing, developing, and delivering innovative transport trailers and indu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Toward zero-emission ferries: integrating systematic review and...",
+          "link": "https://link.springer.com/article/10.1186/s41072-025-00217-z",
+          "snippet": "Study type: Empirical studies, systematic reviews, chapters, proceedings, websites.Abstract review: Main themes relating to alternative fuels and decarbonization policies.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "MAHLE Powertrain - Engineering the Future of Mobility",
+          "link": "https://www.mahle-powertrain.com/",
+          "snippet": "The company combines 20 years of powertrain innovation with deep expertise in alternative fuels, including industry-leading hydrogen combustion development. From concept to validation, MAHLE Powertrai",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "East Asia Shipbuilding in 2026: Why the World Still Builds Its Future...",
+          "link": "https://maritimeducation.com/north-asia-shipbuilding-in-2026-why-the-world-still-builds-its-future-ships-in-china-korea-and-japan/",
+          "snippet": "Alternative fuels, digital systems, battery installations, cyber resilience, energy-saving devices and new materials all require careful technical review. For non-standard vessels, early involvement i",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Hydrogen vehicle - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Hydrogen_vehicle",
+          "snippet": "Main article: Alternative fuel vehicle. Hydrogen vehicles compete with various proposed alternatives to the modern fossil fuel internal combustion engine (ICE) vehicle infrastructure.[120].",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Westport - Alternative Fuel Systems Inc.",
+          "link": "https://afs.westport.com/",
+          "snippet": "Alternative Fuel Systems Inc. AFS designs, develops and produces engine management controllers including the associated software for us in the alternative fuel marketplace. Engine management solutions",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Explore Clean Energy with Alternative Fuels Today",
+          "link": "https://altfuel.com/",
+          "snippet": "Alternative Fuel Systems, Inc. (AFS), a \"Solutions Company\" of 50 years, is the world's leading provider of OEM and aftermarket Off-road, Industrial natural gas or LPG (propane) fuel systems, componen",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Westport Fuel Systems | Innovative Energy",
+          "link": "https://wfsinc.com/",
+          "snippet": "Our global team develops and supplies advanced LPG, CNG, LNG, and H2 systems and components for OEM, DOEM, and AM sectors worldwide. Our main customers operate in the automotive sector, but also in tr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "A-1 Alternative Fuel Systems | Natural Gas Trucks and Buses",
+          "link": "https://www.a1altfuels.com/",
+          "snippet": "Since 1995, A-1 Alternative Fuel Systems has helped fleets meet their green initiatives and transition their vehicles to cleaner fuels. A-1 specializes in the design and manufacture of clean energy fu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "A-1 Alternative Fuel Systems - LinkedIn",
+          "link": "https://www.linkedin.com/company/a-1-alternative-fuel-systems",
+          "snippet": "A-1 Alternative Fuel Systems is a third-generation, family-owned company specializing in the engineering, manufacturing, and integration of high-pressure fuel storage and delivery systems for ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home | Westport Fuel Systems",
+          "link": "https://www.westport.com/",
+          "snippet": "Now. Westport is a clean-tech innovation company, providing simplified solutions to decarbonize. We engineer, manufacture, and develop systems, components, and electronic controls that support cleaner",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Precise Alternative Fleet Solutions",
+          "link": "https://precisealternativefleetsolutions.com/",
+          "snippet": "Fleet Assessments: Tailored evaluations of your vehicles and fueling needs. Alternative Fuel Integration: Retrofit systems designed to reduce emissions and maximize efficiency. Dual-Fuel Flexibility: ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuel Vehicle Institute",
+          "link": "https://afvi.com/",
+          "snippet": "The Alternative Fuel Vehicle Training Leader. Professional instructors, personal support, and flexible learning options to fit your needs.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Quantum Fuel Systems: Clean Energy Storage Solutions",
+          "link": "https://qtww.com/",
+          "snippet": "Moving Vehicles. Moving Energy. Sustainably. Quantum Fuel Systems is engineering the future of alternative fuel solutions - designing, developing, and delivering innovative transport trailers and indu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Toward zero-emission ferries: integrating systematic review and...",
+          "link": "https://link.springer.com/article/10.1186/s41072-025-00217-z",
+          "snippet": "Study type: Empirical studies, systematic reviews, chapters, proceedings, websites.Abstract review: Main themes relating to alternative fuels and decarbonization policies.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "MAHLE Powertrain - Engineering the Future of Mobility",
+          "link": "https://www.mahle-powertrain.com/",
+          "snippet": "The company combines 20 years of powertrain innovation with deep expertise in alternative fuels, including industry-leading hydrogen combustion development. From concept to validation, MAHLE Powertrai",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "East Asia Shipbuilding in 2026: Why the World Still Builds Its Future...",
+          "link": "https://maritimeducation.com/north-asia-shipbuilding-in-2026-why-the-world-still-builds-its-future-ships-in-china-korea-and-japan/",
+          "snippet": "Alternative fuels, digital systems, battery installations, cyber resilience, energy-saving devices and new materials all require careful technical review. For non-standard vessels, early involvement i",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P5": {
+      "query": "alternative fuel vehicle channel partners corporate profile",
+      "level": "discovery",
+      "result_count": 9,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Alternative fuel vehicle - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Alternative_fuel_vehicle",
+          "snippet": "An alternative fuel vehicle is a motor vehicle that runs on alternative fuel rather than traditional petroleum-based fossil fuels such as gasoline, petrodiesel or liquefied petroleum gas (autogas).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuels Data Center: Alternative Fuels and Advanced...",
+          "link": "https://afdc.energy.gov/fuels",
+          "snippet": "Using alternative fuels including electricity and advanced vehicles instead of conventional fuels and vehicles helps the United States improve efficiency and cut costs.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Homepage | European Alternative Fuels Observatory",
+          "link": "https://alternative-fuels-observatory.ec.europa.eu/",
+          "snippet": "Find foundational information on alternative fuels, vehicle types, and recharging systems. Access FAQs, glossaries, news, and useful links to quickly understand the electromobility ecosystem.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Eight Alternative Fuels - CleanTechnica",
+          "link": "https://cleantechnica.com/2012/03/08/top-eight-alternative-fuels/",
+          "snippet": "Alternative fuels generally have lower vehicle emissions that contribute to smog, air pollution and global warming. Most alternative fuels don\u2019t come from finite fossil-fuel resources and are sustaina",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuels Insight (AFI) for the shipping industry",
+          "link": "https://www.dnv.com/services/alternative-fuels-insights-afi/",
+          "snippet": "DNV's Alternative Fuels Insight platform provides the maritime industry with an open platform for evaluating the uptake of alternative fuels and technologies. Sign up for a free account today.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Westport Fuel Systems | Innovative Energy",
+          "link": "https://wfsinc.com/",
+          "snippet": "Westport Fuel Systems. The global leader in alternative fuel solutions.Our main customers operate in the automotive sector, but also in transportation, off-road vehicles, electronics, alternative fuel",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Increase In Alternative Fuel Vehicles Doesn't Mean... - Fast Company",
+          "link": "https://www.fastcompany.com/1772933/increase-alternative-fuel-vehicles-doesnt-mean-drivers-are-using-less-gasoline",
+          "snippet": "Alternative fuel vehicles are defined broadly\u2013they include vehicles that can be powered by electricity, natural gas, ethanol and other alcohols, propane, biodiesel, and more. So what happened? The U.S",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vehicle tax rates: Cars registered on or after 1 April 2017 - GOV.UK",
+          "link": "https://www.gov.uk/vehicle-tax-rate-tables",
+          "snippet": "Alternative fuel vehicles include hybrids, bioethanol and liquid petroleum gas. Vehicles with a list price of more than \u00a340,000 (petrol/diesel) or \u00a350,000 (electric).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Engines | Cummins Inc.",
+          "link": "https://www.cummins.com/engines",
+          "snippet": "Cummins diesel engines, natural gas engines, and alternative fuel engines deliver reliable power with the torque and efficiency you need.Today, we offer an expansive lineup of engine technologies, inc",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Alternative fuel vehicle - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Alternative_fuel_vehicle",
+          "snippet": "An alternative fuel vehicle is a motor vehicle that runs on alternative fuel rather than traditional petroleum-based fossil fuels such as gasoline, petrodiesel or liquefied petroleum gas (autogas).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuels Data Center: Alternative Fuels and Advanced...",
+          "link": "https://afdc.energy.gov/fuels",
+          "snippet": "Using alternative fuels including electricity and advanced vehicles instead of conventional fuels and vehicles helps the United States improve efficiency and cut costs.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Homepage | European Alternative Fuels Observatory",
+          "link": "https://alternative-fuels-observatory.ec.europa.eu/",
+          "snippet": "Find foundational information on alternative fuels, vehicle types, and recharging systems. Access FAQs, glossaries, news, and useful links to quickly understand the electromobility ecosystem.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Eight Alternative Fuels - CleanTechnica",
+          "link": "https://cleantechnica.com/2012/03/08/top-eight-alternative-fuels/",
+          "snippet": "Alternative fuels generally have lower vehicle emissions that contribute to smog, air pollution and global warming. Most alternative fuels don\u2019t come from finite fossil-fuel resources and are sustaina",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuels Insight (AFI) for the shipping industry",
+          "link": "https://www.dnv.com/services/alternative-fuels-insights-afi/",
+          "snippet": "DNV's Alternative Fuels Insight platform provides the maritime industry with an open platform for evaluating the uptake of alternative fuels and technologies. Sign up for a free account today.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Westport Fuel Systems | Innovative Energy",
+          "link": "https://wfsinc.com/",
+          "snippet": "Westport Fuel Systems. The global leader in alternative fuel solutions.Our main customers operate in the automotive sector, but also in transportation, off-road vehicles, electronics, alternative fuel",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Increase In Alternative Fuel Vehicles Doesn't Mean... - Fast Company",
+          "link": "https://www.fastcompany.com/1772933/increase-alternative-fuel-vehicles-doesnt-mean-drivers-are-using-less-gasoline",
+          "snippet": "Alternative fuel vehicles are defined broadly\u2013they include vehicles that can be powered by electricity, natural gas, ethanol and other alcohols, propane, biodiesel, and more. So what happened? The U.S",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vehicle tax rates: Cars registered on or after 1 April 2017 - GOV.UK",
+          "link": "https://www.gov.uk/vehicle-tax-rate-tables",
+          "snippet": "Alternative fuel vehicles include hybrids, bioethanol and liquid petroleum gas. Vehicles with a list price of more than \u00a340,000 (petrol/diesel) or \u00a350,000 (electric).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Engines | Cummins Inc.",
+          "link": "https://www.cummins.com/engines",
+          "snippet": "Cummins diesel engines, natural gas engines, and alternative fuel engines deliver reliable power with the torque and efficiency you need.Today, we offer an expansive lineup of engine technologies, inc",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "alternative fuel vehicle distribution companies official site",
+      "level": "discovery",
+      "result_count": 10,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Alternative fuel vehicle - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Alternative_fuel_vehicle",
+          "snippet": "An alternative fuel vehicle is a motor vehicle that runs on alternative fuel rather than traditional petroleum-based fossil fuels such as gasoline, petrodiesel or liquefied petroleum gas (autogas).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuels Data Center: Search for Alternative Fueling and...",
+          "link": "https://afdc.energy.gov/stations",
+          "snippet": "Fuels & Vehicles.Find alternative fueling and charging stations in the United States and Canada. By default, this tool shows available, publicly accessible stations. Use the filters to expand your sea",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Eight Alternative Fuels - CleanTechnica",
+          "link": "https://cleantechnica.com/2012/03/08/top-eight-alternative-fuels/",
+          "snippet": "Alternative fuels generally have lower vehicle emissions that contribute to smog, air pollution and global warming. Most alternative fuels don\u2019t come from finite fossil-fuel resources and are sustaina",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Homepage | European Alternative Fuels Observatory",
+          "link": "https://alternative-fuels-observatory.ec.europa.eu/",
+          "snippet": "Find foundational information on alternative fuels, vehicle types, and recharging systems.The European Alternative Fuels Observatory (EAFO) is the European Commission's key reference portal for altern",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Westport Fuel Systems | Innovative Energy",
+          "link": "https://wfsinc.com/",
+          "snippet": "Westport Fuel Systems. The global leader in alternative fuel solutions. Innovative, high-quality solutions that meet strict emission standards.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuels | US EPA",
+          "link": "https://www.epa.gov/renewable-fuel-standard/alternative-fuels",
+          "snippet": "Official websites use .gov A .gov website belongs to an official government organization in the United States.Some vehicles and engines are designed for alternative fuels by the manufacturer.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuels Insight (AFI) for the shipping industry",
+          "link": "https://www.dnv.com/services/alternative-fuels-insights-afi/",
+          "snippet": "DNV's Alternative Fuels Insight platform provides the maritime industry with an open platform for evaluating the uptake of alternative fuels and technologies. Sign up for a free account today.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Zooming in on the green with alternative fuel vehicles \u2013 Compass...",
+          "link": "https://www.allcargo.group/compass/zooming-in-on-the-green-with-alternative-fuel-vehicles/",
+          "snippet": "Within the broader category of alternative fuel vehicles, Electric Vehicles (EV), Fuel Cell Vehicles (FCVs) powered by hydrogen, Compressed Natural Gas (CNG), and any other alternate model which may b",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cummins | A Global Power Technology Leader",
+          "link": "https://www.cummins.com/",
+          "snippet": "Cummins specializes in diesel and alternative fuel engines and generators, and related components and technology. Learn more at cummins.com.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nature AutoLink | 7,983 followers on LinkedIn.",
+          "link": "https://www.linkedin.com/company/nature-autolink",
+          "snippet": "Alternative Fuel Vehicle Manufacturing. Company size. 11-50 employees. Type.This latest passenger vehicle lineup is prepared for distributors and dealership groups that already understand the rhythm o",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Alternative fuel vehicle - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Alternative_fuel_vehicle",
+          "snippet": "An alternative fuel vehicle is a motor vehicle that runs on alternative fuel rather than traditional petroleum-based fossil fuels such as gasoline, petrodiesel or liquefied petroleum gas (autogas).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuels Data Center: Search for Alternative Fueling and...",
+          "link": "https://afdc.energy.gov/stations",
+          "snippet": "Fuels & Vehicles.Find alternative fueling and charging stations in the United States and Canada. By default, this tool shows available, publicly accessible stations. Use the filters to expand your sea",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Eight Alternative Fuels - CleanTechnica",
+          "link": "https://cleantechnica.com/2012/03/08/top-eight-alternative-fuels/",
+          "snippet": "Alternative fuels generally have lower vehicle emissions that contribute to smog, air pollution and global warming. Most alternative fuels don\u2019t come from finite fossil-fuel resources and are sustaina",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Homepage | European Alternative Fuels Observatory",
+          "link": "https://alternative-fuels-observatory.ec.europa.eu/",
+          "snippet": "Find foundational information on alternative fuels, vehicle types, and recharging systems.The European Alternative Fuels Observatory (EAFO) is the European Commission's key reference portal for altern",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Westport Fuel Systems | Innovative Energy",
+          "link": "https://wfsinc.com/",
+          "snippet": "Westport Fuel Systems. The global leader in alternative fuel solutions. Innovative, high-quality solutions that meet strict emission standards.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuels | US EPA",
+          "link": "https://www.epa.gov/renewable-fuel-standard/alternative-fuels",
+          "snippet": "Official websites use .gov A .gov website belongs to an official government organization in the United States.Some vehicles and engines are designed for alternative fuels by the manufacturer.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuels Insight (AFI) for the shipping industry",
+          "link": "https://www.dnv.com/services/alternative-fuels-insights-afi/",
+          "snippet": "DNV's Alternative Fuels Insight platform provides the maritime industry with an open platform for evaluating the uptake of alternative fuels and technologies. Sign up for a free account today.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Zooming in on the green with alternative fuel vehicles \u2013 Compass...",
+          "link": "https://www.allcargo.group/compass/zooming-in-on-the-green-with-alternative-fuel-vehicles/",
+          "snippet": "Within the broader category of alternative fuel vehicles, Electric Vehicles (EV), Fuel Cell Vehicles (FCVs) powered by hydrogen, Compressed Natural Gas (CNG), and any other alternate model which may b",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cummins | A Global Power Technology Leader",
+          "link": "https://www.cummins.com/",
+          "snippet": "Cummins specializes in diesel and alternative fuel engines and generators, and related components and technology. Learn more at cummins.com.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nature AutoLink | 7,983 followers on LinkedIn.",
+          "link": "https://www.linkedin.com/company/nature-autolink",
+          "snippet": "Alternative Fuel Vehicle Manufacturing. Company size. 11-50 employees. Type.This latest passenger vehicle lineup is prepared for distributors and dealership groups that already understand the rhythm o",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P7": {
+      "query": "alternative fuel vehicle integration services corporate site",
+      "level": "discovery",
+      "result_count": 10,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Alternative Fuels Data Center: Flexible Fuel Vehicles",
+          "link": "https://afdc.energy.gov/vehicles/flexible-fuel",
+          "snippet": "flex fuel vehicle diagram. Flexible fuel vehicles (FFVs) have an internal combustion engine and are capable of operating on gasoline and any blend of gasoline and ethanol up to 83%.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Homepage | European Alternative Fuels Observatory",
+          "link": "https://alternative-fuels-observatory.ec.europa.eu/",
+          "snippet": "Available electric vehicle models.Find foundational information on alternative fuels, vehicle types, and recharging systems. Access FAQs, glossaries, news, and useful links to quickly understand the e",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Eight Alternative Fuels - CleanTechnica",
+          "link": "https://cleantechnica.com/2012/03/08/top-eight-alternative-fuels/",
+          "snippet": "Alternative fuels generally have lower vehicle emissions that contribute to smog, air pollution and global warming. Most alternative fuels don\u2019t come from finite fossil-fuel resources and are sustaina",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuels Insight (AFI) for the shipping industry",
+          "link": "https://www.dnv.com/services/alternative-fuels-insights-afi/",
+          "snippet": "Services from DNV. Alternative Fuels Insight (AFI).All alternative fuel options are accompanied by benefits and challenges. Prerequisites for introducing a new fuel include the availability of suffici",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Future of Fuel: How the Global Telematics Market is Responding...",
+          "link": "https://heavyvehicleinspection.com/article/how-the-global-telematics-market-is-responding-to-fleet-needs",
+          "snippet": "Electric and Alternative Fuel Vehicle Integration.Sustainable routing supports corporate commitments while maintaining operational efficiency. Regulatory Compliance Automation. Automated reporting for",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Coordinated Operation of Alternative Fuel Vehicle-Integrated...",
+          "link": "https://www.ourenergypolicy.org/resources/coordinated-operation-of-alternative-fuel-vehicle-integrated-microgrid-in-a-coupled-power-transportation-network/",
+          "snippet": "With the rapid development of alternative fuel vehicles (AFVs) and renewable energy sources, the increasing coordination between electric vehicles (EVs) and hydrogen vehicles (HVs) in urban coupled po",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vehicle tax rates: Cars registered on or after 1 April 2017 - GOV.UK",
+          "link": "https://www.gov.uk/vehicle-tax-rate-tables",
+          "snippet": "Alternative fuel vehicles include hybrids, bioethanol and liquid petroleum gas. Vehicles with a list price of more than \u00a340,000 (petrol/diesel) or \u00a350,000 (electric). You have to pay an extra \u00a3440 a y",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Gasoline and Diesel Fuel Update - U.S. Energy Information...",
+          "link": "https://www.eia.gov/petroleum/gasdiesel/",
+          "snippet": "Renewable & Alternative Fuels. Includes hydropower, solar, wind, geothermal, biomass and ethanol.Uranium fuel, nuclear reactors, generation, spent fuel. Daily Status of Nuclear Outages.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuel Vehicle Businesses in New York",
+          "link": "http://energy.sourceguides.com/businesses/byGeo/US/byS/NY/byP/altfuel/altfuel.shtml",
+          "snippet": "Product types: alternative fuel vehicles, battery charge controllers, hybrid electric vehicles, battery chargers, Vehicle Integration Services. Service types: engineering, project development services",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Engines | Cummins Inc.",
+          "link": "https://www.cummins.com/engines",
+          "snippet": "Cummins diesel engines, natural gas engines, and alternative fuel engines deliver reliable power with the torque and efficiency you need.Acoustical Technology Center. Power Integration Center. Technic",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Alternative Fuels Data Center: Flexible Fuel Vehicles",
+          "link": "https://afdc.energy.gov/vehicles/flexible-fuel",
+          "snippet": "flex fuel vehicle diagram. Flexible fuel vehicles (FFVs) have an internal combustion engine and are capable of operating on gasoline and any blend of gasoline and ethanol up to 83%.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Homepage | European Alternative Fuels Observatory",
+          "link": "https://alternative-fuels-observatory.ec.europa.eu/",
+          "snippet": "Available electric vehicle models.Find foundational information on alternative fuels, vehicle types, and recharging systems. Access FAQs, glossaries, news, and useful links to quickly understand the e",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Eight Alternative Fuels - CleanTechnica",
+          "link": "https://cleantechnica.com/2012/03/08/top-eight-alternative-fuels/",
+          "snippet": "Alternative fuels generally have lower vehicle emissions that contribute to smog, air pollution and global warming. Most alternative fuels don\u2019t come from finite fossil-fuel resources and are sustaina",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuels Insight (AFI) for the shipping industry",
+          "link": "https://www.dnv.com/services/alternative-fuels-insights-afi/",
+          "snippet": "Services from DNV. Alternative Fuels Insight (AFI).All alternative fuel options are accompanied by benefits and challenges. Prerequisites for introducing a new fuel include the availability of suffici",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Future of Fuel: How the Global Telematics Market is Responding...",
+          "link": "https://heavyvehicleinspection.com/article/how-the-global-telematics-market-is-responding-to-fleet-needs",
+          "snippet": "Electric and Alternative Fuel Vehicle Integration.Sustainable routing supports corporate commitments while maintaining operational efficiency. Regulatory Compliance Automation. Automated reporting for",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Coordinated Operation of Alternative Fuel Vehicle-Integrated...",
+          "link": "https://www.ourenergypolicy.org/resources/coordinated-operation-of-alternative-fuel-vehicle-integrated-microgrid-in-a-coupled-power-transportation-network/",
+          "snippet": "With the rapid development of alternative fuel vehicles (AFVs) and renewable energy sources, the increasing coordination between electric vehicles (EVs) and hydrogen vehicles (HVs) in urban coupled po",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vehicle tax rates: Cars registered on or after 1 April 2017 - GOV.UK",
+          "link": "https://www.gov.uk/vehicle-tax-rate-tables",
+          "snippet": "Alternative fuel vehicles include hybrids, bioethanol and liquid petroleum gas. Vehicles with a list price of more than \u00a340,000 (petrol/diesel) or \u00a350,000 (electric). You have to pay an extra \u00a3440 a y",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Gasoline and Diesel Fuel Update - U.S. Energy Information...",
+          "link": "https://www.eia.gov/petroleum/gasdiesel/",
+          "snippet": "Renewable & Alternative Fuels. Includes hydropower, solar, wind, geothermal, biomass and ethanol.Uranium fuel, nuclear reactors, generation, spent fuel. Daily Status of Nuclear Outages.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alternative Fuel Vehicle Businesses in New York",
+          "link": "http://energy.sourceguides.com/businesses/byGeo/US/byS/NY/byP/altfuel/altfuel.shtml",
+          "snippet": "Product types: alternative fuel vehicles, battery charge controllers, hybrid electric vehicles, battery chargers, Vehicle Integration Services. Service types: engineering, project development services",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Engines | Cummins Inc.",
+          "link": "https://www.cummins.com/engines",
+          "snippet": "Cummins diesel engines, natural gas engines, and alternative fuel engines deliver reliable power with the torque and efficiency you need.Acoustical Technology Center. Power Integration Center. Technic",
+          "backend": "ddgs_bing"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

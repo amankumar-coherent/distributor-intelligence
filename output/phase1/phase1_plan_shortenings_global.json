@@ -1,0 +1,1326 @@
+{
+  "phase": 1,
+  "query": "Shortenings Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T23:22:24.271794+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "shortenings",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "food ingredients",
+    "industry_terms": [
+      "shortenings",
+      "vegetable oils",
+      "fats",
+      "baking ingredients",
+      "food service"
+    ],
+    "ecosystem_functions": [
+      "distributing shortenings",
+      "wholesaling food ingredients",
+      "reselling food products",
+      "providing application services",
+      "consulting on food formulations",
+      "integrating food service solutions"
+    ],
+    "interpretation_summary": "The shortenings market encompasses a variety of fat-based products used in food preparation and baking, primarily involving vegetable oils and animal fats. Participants include manufacturers, distributors, and various ch",
+    "relevance_keywords": [
+      "shortening distribution",
+      "food ingredient suppliers",
+      "baking fats",
+      "vegetable shortening",
+      "food service solutions"
+    ],
+    "negative_keywords": [
+      "retail",
+      "consumer products",
+      "unrelated industries",
+      "news articles",
+      "job listings"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "Cargill",
+        "primary_domain": "cargill.com",
+        "company_function": "food ingredient supplier"
+      },
+      {
+        "canonical_name": "Archer Daniels Midland Company",
+        "primary_domain": "adm.com",
+        "company_function": "agricultural processor and distributor"
+      },
+      {
+        "canonical_name": "Bunge North America",
+        "primary_domain": "bunge.com",
+        "company_function": "food ingredient supplier"
+      },
+      {
+        "canonical_name": "Wilmar International",
+        "primary_domain": "wilmar-international.com",
+        "company_function": "agricultural and food products distributor"
+      },
+      {
+        "canonical_name": "Kerry Group",
+        "primary_domain": "kerrygroup.com",
+        "company_function": "food ingredient supplier"
+      },
+      {
+        "canonical_name": "MGP Ingredients",
+        "primary_domain": "mgpingredients.com",
+        "company_function": "food ingredient supplier"
+      },
+      {
+        "canonical_name": "Baker's Choice",
+        "primary_domain": "bakerschoice.com",
+        "company_function": "baking ingredient supplier"
+      },
+      {
+        "canonical_name": "Dawn Foods",
+        "primary_domain": "dawnfoods.com",
+        "company_function": "food service provider"
+      },
+      {
+        "canonical_name": "Rich Products Corporation",
+        "primary_domain": "richs.com",
+        "company_function": "food service provider",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Pinnacle Foods",
+        "primary_domain": "pinnaclefoods.com",
+        "company_function": "food ingredient supplier",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "shortenings",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "shortenings",
+    "include_keywords": [
+      "bulk shortening suppliers",
+      "food service shortening distributors",
+      "shortening wholesalers",
+      "shortening resellers",
+      "channel partners for shortenings"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The shortenings market encompasses a variety of fat-based products used in food preparation and baking, primarily involving vegetable oils and animal fats. Participants include manufacturers, distributors, and various channel partners that facilitate the supply of these products globally.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Distribution",
+        "description": "This layer involves the distribution of shortenings from manufacturers to various market segments.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "national distributors",
+              "regional distributors"
+            ],
+            "participant_types": [
+              "distributor",
+              "wholesaler"
+            ],
+            "search_intents": [
+              "shortening distributors near me",
+              "wholesale shortening suppliers"
+            ]
+          },
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "food service resellers",
+              "retail resellers"
+            ],
+            "participant_types": [
+              "reseller",
+              "channel partner"
+            ],
+            "search_intents": [
+              "buy shortening from resellers",
+              "shortening resellers online"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L2",
+        "layer_name": "Service Providers",
+        "description": "This layer includes companies that provide services related to the use and application of shortenings in food production.",
+        "segments": [
+          {
+            "segment_name": "Service Providers",
+            "sub_segments": [
+              "consulting services",
+              "application services"
+            ],
+            "participant_types": [
+              "service provider"
+            ],
+            "search_intents": [
+              "shortening application service providers",
+              "consultants for shortening usage"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Retailers",
+        "Food Manufacturers",
+        "Ingredient Suppliers",
+        "Exporters"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "find shortening distributors for food service",
+        "sub_sector": "distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "bulk shortening wholesalers for baking",
+        "sub_sector": "wholesaler",
+        "layer_id": "L1",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "shortening resellers for food products",
+        "sub_sector": "reseller",
+        "layer_id": "L1",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "consultants for shortening application",
+        "sub_sector": "service_provider",
+        "layer_id": "L2",
+        "segment": "Service Providers"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "food ingredients",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "shortenings companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "shortening distributors corporate sites"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "shortening service providers official site"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "discovery",
+      "text": "shortening distributor official site"
+    },
+    {
+      "id": "P2",
+      "level": "discovery",
+      "text": "shortening wholesaler corporate site"
+    },
+    {
+      "id": "P3",
+      "level": "discovery",
+      "text": "shortening reseller official website"
+    },
+    {
+      "id": "P4",
+      "level": "discovery",
+      "text": "shortening system integrator corporate site"
+    },
+    {
+      "id": "P5",
+      "level": "discovery",
+      "text": "shortening service provider official site"
+    },
+    {
+      "id": "P6",
+      "level": "discovery",
+      "text": "shortening channel partner corporate profile"
+    },
+    {
+      "id": "P7",
+      "level": "discovery",
+      "text": "shortening application service provider official site"
+    },
+    {
+      "id": "P8",
+      "level": "discovery",
+      "text": "shortening consulting services corporate site"
+    },
+    {
+      "id": "P9",
+      "level": "volume",
+      "text": "authorized shortenings distributor firm official"
+    },
+    {
+      "id": "P10",
+      "level": "volume",
+      "text": "shortenings reseller channel partner official"
+    },
+    {
+      "id": "P11",
+      "level": "volume",
+      "text": "shortenings service provider official website"
+    },
+    {
+      "id": "P12",
+      "level": "volume",
+      "text": "shortenings consulting partner implementation official"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "shortenings companies official websites",
+      "level": "L0",
+      "result_count": 7,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Regal Bakery Shortenings - Cargill North America",
+          "link": "https://www.cargill.com/food-beverage/na/regal",
+          "snippet": "With our line of top-quality, high-performing Regal\u2122 bakery shortenings, we bring a comprehensive portfolio of shortenings. And the Cargill advantage goes beyond our market-leading shortenings\u2014we also",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "List of Shortenings Companies",
+          "link": "https://www.listofcompaniesin.com/product-s/shortenings.html",
+          "snippet": "List of shortenings companies Over 13, in China, India, United States, Turkey, Pakistan, United Kingdom, Canada, Australia, and across the world. .",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lard and Shortenings | Coast Packing Company",
+          "link": "https://coastpacking.com/shortenings/",
+          "snippet": "Curious about beef tallow? Access educational resources and expert advice to support your transition. Visit our hub to rediscover the rich flavor, quality, and tradition of beef tallow\u2014nature's origin",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "12 Best Shortening Manufacturers and Brands - Keychain.com",
+          "link": "https://www.keychain.com/manufacturer/shortening",
+          "snippet": "The company is involved in private and national brands of vegetable oils margarines, shortenings and spreads, for the retail sector, the restaurants, hotels and institutional (HRI) sector, as well as ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Welcome to Saporito Foods Inc. - www.saporitofoods.com",
+          "link": "https://saporitofoods.com/",
+          "snippet": "Specially designed to meet your deep frying need! Introducing a selection of better and healthier alternatives, made from non-hydrogenated soya and vegetable oils. Offering a full line of high-perform",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bulk Shortening | Ventura Foods",
+          "link": "https://www.venturafoods.com/bulk-shortening/",
+          "snippet": "Ready-To-Go Shortening For Professional Kitchens From all-purpose shortenings ideal for cookies and tortillas to cake and icing shortenings or donut fry shortenings, our portfolio will bring your crea",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Richardson Food & Ingredients | Bringing Quality Foods to the Table",
+          "link": "https://richardsonfoodandingredients.com/",
+          "snippet": "Richardson creates the ingredients that power many of today's leading food brands. From canola oils, margarines, and shortenings to oat- and durum-based ingredients and custom formulations, our produc",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Regal Bakery Shortenings - Cargill North America",
+          "link": "https://www.cargill.com/food-beverage/na/regal",
+          "snippet": "With our line of top-quality, high-performing Regal\u2122 bakery shortenings, we bring a comprehensive portfolio of shortenings. And the Cargill advantage goes beyond our market-leading shortenings\u2014we also",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "List of Shortenings Companies",
+          "link": "https://www.listofcompaniesin.com/product-s/shortenings.html",
+          "snippet": "List of shortenings companies Over 13, in China, India, United States, Turkey, Pakistan, United Kingdom, Canada, Australia, and across the world. .",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lard and Shortenings | Coast Packing Company",
+          "link": "https://coastpacking.com/shortenings/",
+          "snippet": "Curious about beef tallow? Access educational resources and expert advice to support your transition. Visit our hub to rediscover the rich flavor, quality, and tradition of beef tallow\u2014nature's origin",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "12 Best Shortening Manufacturers and Brands - Keychain.com",
+          "link": "https://www.keychain.com/manufacturer/shortening",
+          "snippet": "The company is involved in private and national brands of vegetable oils margarines, shortenings and spreads, for the retail sector, the restaurants, hotels and institutional (HRI) sector, as well as ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Welcome to Saporito Foods Inc. - www.saporitofoods.com",
+          "link": "https://saporitofoods.com/",
+          "snippet": "Specially designed to meet your deep frying need! Introducing a selection of better and healthier alternatives, made from non-hydrogenated soya and vegetable oils. Offering a full line of high-perform",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bulk Shortening | Ventura Foods",
+          "link": "https://www.venturafoods.com/bulk-shortening/",
+          "snippet": "Ready-To-Go Shortening For Professional Kitchens From all-purpose shortenings ideal for cookies and tortillas to cake and icing shortenings or donut fry shortenings, our portfolio will bring your crea",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Richardson Food & Ingredients | Bringing Quality Foods to the Table",
+          "link": "https://richardsonfoodandingredients.com/",
+          "snippet": "Richardson creates the ingredients that power many of today's leading food brands. From canola oils, margarines, and shortenings to oat- and durum-based ingredients and custom formulations, our produc",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "shortening distributors corporate sites",
+      "level": "L1",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Welcome to Saporito Foods Inc. - www.saporitofoods.com",
+          "link": "https://saporitofoods.com/",
+          "snippet": "Specially designed to meet your deep frying need! Introducing a selection of better and healthier alternatives, made from non-hydrogenated soya and vegetable oils. Offering a full line of high-perform",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Welcome to Saporito Foods Inc. - www.saporitofoods.com",
+          "link": "https://saporitofoods.com/",
+          "snippet": "Specially designed to meet your deep frying need! Introducing a selection of better and healthier alternatives, made from non-hydrogenated soya and vegetable oils. Offering a full line of high-perform",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "shortening service providers official site",
+      "level": "L2",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Mapa tur\u00edstico de Madrid (PDF) - Turismo Madrid",
+          "link": "https://www.esmadrid.com/mapa-turistico-de-madrid",
+          "snippet": "\u00a1Desc\u00e1rgate nuestro mapa tur\u00edstico de Madrid! En \u00e9l encontrar\u00e1s toda la informaci\u00f3n necesaria para moverte por el centro de la ciudad.",
+          "backend": "searxng"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Mapa tur\u00edstico de Madrid (PDF) - Turismo Madrid",
+          "link": "https://www.esmadrid.com/mapa-turistico-de-madrid",
+          "snippet": "\u00a1Desc\u00e1rgate nuestro mapa tur\u00edstico de Madrid! En \u00e9l encontrar\u00e1s toda la informaci\u00f3n necesaria para moverte por el centro de la ciudad.",
+          "backend": "searxng"
+        }
+      ]
+    },
+    "P1": {
+      "query": "shortening distributor official site",
+      "level": "discovery",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "ajouter compte mail aol et gmail ne fonctionne pas",
+          "link": "https://la-communaute.sfr.fr/t5/sfr-mail/ajouter-compte-mail-aol-et-gmail-ne-fonctionne-pas/td-p/2232494",
+          "snippet": "Oct 10, 2020 \u00b7 Pas de pot, AOL n'a pas la possibilit\u00e9 de cr\u00e9er un transfert automatique. Le contournement trouv\u00e9 a \u00e9t\u00e9 d'importer les \u2026",
+          "backend": "searxng"
+        }
+      ],
+      "sample": [
+        {
+          "title": "ajouter compte mail aol et gmail ne fonctionne pas",
+          "link": "https://la-communaute.sfr.fr/t5/sfr-mail/ajouter-compte-mail-aol-et-gmail-ne-fonctionne-pas/td-p/2232494",
+          "snippet": "Oct 10, 2020 \u00b7 Pas de pot, AOL n'a pas la possibilit\u00e9 de cr\u00e9er un transfert automatique. Le contournement trouv\u00e9 a \u00e9t\u00e9 d'importer les \u2026",
+          "backend": "searxng"
+        }
+      ]
+    },
+    "P2": {
+      "query": "shortening wholesaler corporate site",
+      "level": "discovery",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "\u3042 - Wikipedia",
+          "link": "https://ja.wikipedia.org/wiki/%E3%81%82",
+          "snippet": "\u3053\u306e\u8868\u306b\u306f\u3001 \u4e00\u90e8\u306e\u30b3\u30f3\u30d4\u30e5\u30fc\u30bf\u3084\u95b2\u89a7\u30bd\u30d5\u30c8\u3067\u8868\u793a\u3067\u304d\u306a\u3044\u6587\u5b57 \u3084\u3001 \u753b\u50cf\u5316\u3057\u305f\u6587\u5b57 \u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002 \u3042 \u3001 \u30a2 \u306f\u3001 \u65e5\u672c\u8a9e \u306e \u97f3\u7bc0 \u306e1\u3064\u3067\u3042\u308a\u3001 \u4eee\u540d \u306e1\u3064\u3067\u3042\u308b\u3002",
+          "backend": "searxng"
+        }
+      ],
+      "sample": [
+        {
+          "title": "\u3042 - Wikipedia",
+          "link": "https://ja.wikipedia.org/wiki/%E3%81%82",
+          "snippet": "\u3053\u306e\u8868\u306b\u306f\u3001 \u4e00\u90e8\u306e\u30b3\u30f3\u30d4\u30e5\u30fc\u30bf\u3084\u95b2\u89a7\u30bd\u30d5\u30c8\u3067\u8868\u793a\u3067\u304d\u306a\u3044\u6587\u5b57 \u3084\u3001 \u753b\u50cf\u5316\u3057\u305f\u6587\u5b57 \u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002 \u3042 \u3001 \u30a2 \u306f\u3001 \u65e5\u672c\u8a9e \u306e \u97f3\u7bc0 \u306e1\u3064\u3067\u3042\u308a\u3001 \u4eee\u540d \u306e1\u3064\u3067\u3042\u308b\u3002",
+          "backend": "searxng"
+        }
+      ]
+    },
+    "P3": {
+      "query": "shortening reseller official website",
+      "level": "discovery",
+      "result_count": 2,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Reseller Short URL",
+          "link": "https://msg91.com/help/resellers/reseller-short-url",
+          "snippet": "Msg91 Help Doc. Resellers. Reseller Short URL. Ask AI.You can now save credits by cutting short the SMS length with our smart URL Shortener. Using this feature will automatically convert the long URL ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "MXPlay is a video streaming service and India's Maha entertainment...",
+          "link": "https://www.mxplayer.in/",
+          "snippet": "MXPlay is a video streaming service and India's Maha entertainment destination.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Reseller Short URL",
+          "link": "https://msg91.com/help/resellers/reseller-short-url",
+          "snippet": "Msg91 Help Doc. Resellers. Reseller Short URL. Ask AI.You can now save credits by cutting short the SMS length with our smart URL Shortener. Using this feature will automatically convert the long URL ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "MXPlay is a video streaming service and India's Maha entertainment...",
+          "link": "https://www.mxplayer.in/",
+          "snippet": "MXPlay is a video streaming service and India's Maha entertainment destination.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P4": {
+      "query": "shortening system integrator corporate site",
+      "level": "discovery",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Top 100 Computer Vision Projects Idea for 2024 - GitHub",
+          "link": "https://github.com/farukalamai/top-100-computer-vision-projects-idea-for-2024",
+          "snippet": "Welcome to the \"Top 100 Computer Vision Projects Idea for 2024\" repository! This repository contains a curated list of computer vision project ideas that you can explore, implement, and experiment wit",
+          "backend": "searxng"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Top 100 Computer Vision Projects Idea for 2024 - GitHub",
+          "link": "https://github.com/farukalamai/top-100-computer-vision-projects-idea-for-2024",
+          "snippet": "Welcome to the \"Top 100 Computer Vision Projects Idea for 2024\" repository! This repository contains a curated list of computer vision project ideas that you can explore, implement, and experiment wit",
+          "backend": "searxng"
+        }
+      ]
+    },
+    "P5": {
+      "query": "shortening service provider official site",
+      "level": "discovery",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Using the find In VBA - Microsoft Q&A",
+          "link": "https://answers.microsoft.com/en-us/msoffice/forum/all/using-the-find-in-vba/fa63a4b7-66a9-4e65-a345-f17e2b5013c0",
+          "snippet": "Feb 9, 2023 \u00b7 I have created an invoice file to pull pricing off of my sku list and I am not trying to set it up do deduct the items from my \u2026",
+          "backend": "searxng"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Using the find In VBA - Microsoft Q&A",
+          "link": "https://answers.microsoft.com/en-us/msoffice/forum/all/using-the-find-in-vba/fa63a4b7-66a9-4e65-a345-f17e2b5013c0",
+          "snippet": "Feb 9, 2023 \u00b7 I have created an invoice file to pull pricing off of my sku list and I am not trying to set it up do deduct the items from my \u2026",
+          "backend": "searxng"
+        }
+      ]
+    },
+    "P6": {
+      "query": "shortening channel partner corporate profile",
+      "level": "discovery",
+      "result_count": 5,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Sign In - First Tech Federal Credit Union",
+          "link": "https://rewards.firsttechfed.com/login.php",
+          "snippet": "\u00a9 2026 ampliFI Loyalty Solutions, LLC. All rights reserved. Privacy Policy",
+          "backend": "searxng"
+        },
+        {
+          "title": "YouTube Monetization Checker - TubePilot",
+          "link": "https://tubepilot.ai/tools/youtube-monetization-checker/",
+          "snippet": "100% FREE You can now easily verify if a YouTube video or channel is monetized using our YouTube Monetization Checker tool.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "YouTube Money Calculator 2026 \u2013 Estimate Your YouTube Earnings",
+          "link": "https://www.livereacting.com/tools/youtube-money-calculator",
+          "snippet": "Calculate your 2026 YouTube earnings with our free YouTube Money Calculator. Estimate any channel's revenue from views, CPM, and RPM in seconds.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "OpeninApp - Best Link Shortener & App Opener",
+          "link": "https://openinapp.com/",
+          "snippet": "The ultimate link shortener. Now supporting Youtube, Instagram, Telegram, Linkedin and 100+ more platforms. Loved by over 3 Million creators.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Download YouTube Shorts in HD | Free Tool by Publer",
+          "link": "https://publer.com/tools/youtube-short-downloader",
+          "snippet": "Download YouTube Shorts in high-quality format to your device. No ads, watermarks, or registration.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Sign In - First Tech Federal Credit Union",
+          "link": "https://rewards.firsttechfed.com/login.php",
+          "snippet": "\u00a9 2026 ampliFI Loyalty Solutions, LLC. All rights reserved. Privacy Policy",
+          "backend": "searxng"
+        },
+        {
+          "title": "YouTube Monetization Checker - TubePilot",
+          "link": "https://tubepilot.ai/tools/youtube-monetization-checker/",
+          "snippet": "100% FREE You can now easily verify if a YouTube video or channel is monetized using our YouTube Monetization Checker tool.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "YouTube Money Calculator 2026 \u2013 Estimate Your YouTube Earnings",
+          "link": "https://www.livereacting.com/tools/youtube-money-calculator",
+          "snippet": "Calculate your 2026 YouTube earnings with our free YouTube Money Calculator. Estimate any channel's revenue from views, CPM, and RPM in seconds.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "OpeninApp - Best Link Shortener & App Opener",
+          "link": "https://openinapp.com/",
+          "snippet": "The ultimate link shortener. Now supporting Youtube, Instagram, Telegram, Linkedin and 100+ more platforms. Loved by over 3 Million creators.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Download YouTube Shorts in HD | Free Tool by Publer",
+          "link": "https://publer.com/tools/youtube-short-downloader",
+          "snippet": "Download YouTube Shorts in high-quality format to your device. No ads, watermarks, or registration.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P7": {
+      "query": "shortening application service provider official site",
+      "level": "discovery",
+      "result_count": 4,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "\u1409 Short URL Service | sURL",
+          "link": "https://hyperhost.ua/tools/en/surli",
+          "snippet": "But there is always Surl.li as the best option.Our service gives you the ability: - to create a really small URL - to get statistics - to contact tech. support if it's needed - to use the shortened li",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Application Service Providers Selection Guide: Types, Features, Applications | GlobalSpec",
+          "link": "https://www.globalspec.com/learnmore/engineering_services/information_systems_services/application_service_providers",
+          "snippet": "Both approaches eliminate software-maintenance issues on the customer\u2019s end and ensure that business-critical systems are managed by information technology (IT) professionals. In some cases, applicati",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Enterprise link management platform | Short.io",
+          "link": "http://short.io/enterprise/",
+          "snippet": "Enterprise link shortening with 99.9% uptime SLA, SOC 2 Type II & ISO 27001 certified, SAML SSO, unlimited custom domains, and dedicated support. Trusted by Fortune 500 companies.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bitly Connections Platform | Short URLs, QR Codes, and More",
+          "link": "https://bitly.com/",
+          "snippet": "September 25, 2024 - Bitly\u2019s Connections Platform is more than a free URL shortener, with robust link management software, advanced QR Code features, and a landing page solution.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "\u1409 Short URL Service | sURL",
+          "link": "https://hyperhost.ua/tools/en/surli",
+          "snippet": "But there is always Surl.li as the best option.Our service gives you the ability: - to create a really small URL - to get statistics - to contact tech. support if it's needed - to use the shortened li",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Application Service Providers Selection Guide: Types, Features, Applications | GlobalSpec",
+          "link": "https://www.globalspec.com/learnmore/engineering_services/information_systems_services/application_service_providers",
+          "snippet": "Both approaches eliminate software-maintenance issues on the customer\u2019s end and ensure that business-critical systems are managed by information technology (IT) professionals. In some cases, applicati",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Enterprise link management platform | Short.io",
+          "link": "http://short.io/enterprise/",
+          "snippet": "Enterprise link shortening with 99.9% uptime SLA, SOC 2 Type II & ISO 27001 certified, SAML SSO, unlimited custom domains, and dedicated support. Trusted by Fortune 500 companies.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bitly Connections Platform | Short URLs, QR Codes, and More",
+          "link": "https://bitly.com/",
+          "snippet": "September 25, 2024 - Bitly\u2019s Connections Platform is more than a free URL shortener, with robust link management software, advanced QR Code features, and a landing page solution.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "D1": {
+      "query": "shortenings manufacturer official website",
+      "level": "volume_supplement",
+      "result_count": 10,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "15 Best Shortening Manufacturers and Suppliers (2026)",
+          "link": "https://usetorg.com/category/shortening",
+          "snippet": "15 Best Shortening Manufacturers & Suppliers Looking for reliable Shortening manufacturers to meet your business needs? Whether you require all-purpose, liquid, or specialty shortenings, our trusted s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Premium Shortenings for Perfectly Tender Baked Goods",
+          "link": "https://www.disjobelusa.com/products/shortenings",
+          "snippet": "Elevate your baked goods with our premium shortenings and solid fats from Disjobel USA. Shortening is a crucial ingredient in many baked goods, including cookies, pie crusts, and cakes, as it creates ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Shortenings Products - Richardson Food & Ingredients",
+          "link": "https://richardsonfoodandingredients.com/industrial-baking/shortenings/",
+          "snippet": "Richardson specializes in a wide range of shortenings products, including icing and specialty shortenings.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lard and Shortenings | Coast Packing Company",
+          "link": "https://coastpacking.com/shortenings/",
+          "snippet": "Coast offers the very finest shortening products to its customers. Coast quality means zero trans fats, superior creaming properties low absorption & durability.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Shortenings Archives - Richardson Food & Ingredients",
+          "link": "https://richardsonfoodandingredients.com/product-category/industrial/shortenings/",
+          "snippet": "Terms Copyright 2026 \u00a9 Richardson Food & Ingredients",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "SHORTENING | Ariyan International Inc.",
+          "link": "https://www.ariyancorp.com/shortening/",
+          "snippet": "Manufacturers can select shortenings with different solid fat contents, melting points, and processing characteristics to optimize performance in chocolates, compound coatings, fillings, wafers, biscu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Welcome to Saporito Foods Inc. - www.saporitofoods.com",
+          "link": "https://saporitofoods.com/",
+          "snippet": "We take pride in being a leading supplier of canola oil, corn oil, sunflower oil, vegetable oil, blended oils, shortenings, margarines, and ZERO trans fat oils for the Retail and Food Service markets.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Shortening - Bunge",
+          "link": "https://www.bunge.com/Markets-We-Serve/Foodservice-NA/Baking/Shortening",
+          "snippet": "From flaky pie crusts to silky frostings and crispy onion rings, there's no shortage of applications for shortening. We're proud to offer a diverse portfolio of high performing, high value, shortening",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "TitleFlakeMor: Heart Healthy Shortening for Flaky ...",
+          "link": "https://allfreshfoodproducts.com/",
+          "snippet": "Discover premium soybean shortenings like FlakeMor for light, flaky, and flavorful pastries. Trusted by bakers nationwide for over 70 years.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "PAMIN",
+          "link": "https://www.pacificmedan.com/shortening.html",
+          "snippet": "PAMIN Bakery shortenings are used for four major purposes: Biscuit Dough, Cake, Icing/Spraying oil after baking & Filling (biscuit cream). PAMIN Biscuit Shortening. Lubrication / Coating of ingredient",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "15 Best Shortening Manufacturers and Suppliers (2026)",
+          "link": "https://usetorg.com/category/shortening",
+          "snippet": "15 Best Shortening Manufacturers & Suppliers Looking for reliable Shortening manufacturers to meet your business needs? Whether you require all-purpose, liquid, or specialty shortenings, our trusted s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Premium Shortenings for Perfectly Tender Baked Goods",
+          "link": "https://www.disjobelusa.com/products/shortenings",
+          "snippet": "Elevate your baked goods with our premium shortenings and solid fats from Disjobel USA. Shortening is a crucial ingredient in many baked goods, including cookies, pie crusts, and cakes, as it creates ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Shortenings Products - Richardson Food & Ingredients",
+          "link": "https://richardsonfoodandingredients.com/industrial-baking/shortenings/",
+          "snippet": "Richardson specializes in a wide range of shortenings products, including icing and specialty shortenings.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lard and Shortenings | Coast Packing Company",
+          "link": "https://coastpacking.com/shortenings/",
+          "snippet": "Coast offers the very finest shortening products to its customers. Coast quality means zero trans fats, superior creaming properties low absorption & durability.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Shortenings Archives - Richardson Food & Ingredients",
+          "link": "https://richardsonfoodandingredients.com/product-category/industrial/shortenings/",
+          "snippet": "Terms Copyright 2026 \u00a9 Richardson Food & Ingredients",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "SHORTENING | Ariyan International Inc.",
+          "link": "https://www.ariyancorp.com/shortening/",
+          "snippet": "Manufacturers can select shortenings with different solid fat contents, melting points, and processing characteristics to optimize performance in chocolates, compound coatings, fillings, wafers, biscu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Welcome to Saporito Foods Inc. - www.saporitofoods.com",
+          "link": "https://saporitofoods.com/",
+          "snippet": "We take pride in being a leading supplier of canola oil, corn oil, sunflower oil, vegetable oil, blended oils, shortenings, margarines, and ZERO trans fat oils for the Retail and Food Service markets.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Shortening - Bunge",
+          "link": "https://www.bunge.com/Markets-We-Serve/Foodservice-NA/Baking/Shortening",
+          "snippet": "From flaky pie crusts to silky frostings and crispy onion rings, there's no shortage of applications for shortening. We're proud to offer a diverse portfolio of high performing, high value, shortening",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "TitleFlakeMor: Heart Healthy Shortening for Flaky ...",
+          "link": "https://allfreshfoodproducts.com/",
+          "snippet": "Discover premium soybean shortenings like FlakeMor for light, flaky, and flavorful pastries. Trusted by bakers nationwide for over 70 years.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "PAMIN",
+          "link": "https://www.pacificmedan.com/shortening.html",
+          "snippet": "PAMIN Bakery shortenings are used for four major purposes: Biscuit Dough, Cake, Icing/Spraying oil after baking & Filling (biscuit cream). PAMIN Biscuit Shortening. Lubrication / Coating of ingredient",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "note": "Auto supplement \u2014 low Phase 1 hit count"
+    },
+    "D2": {
+      "query": "shortenings manufacturing company corporate site",
+      "level": "volume_supplement",
+      "result_count": 6,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Shortenings Global Market Opportunities And Strategies To 2033",
+          "link": "https://www.giiresearch.com/report/tbrc1477073-shortenings-global-market-opportunities-strategies.html",
+          "snippet": "PDF (Site License).Companies in the shortenings market are focusing on strategic acquisitions to strengthen their offerings and expand their geographic presence. For instance, in March 2023, KTC Edibl",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "For Sale: Food Shortening Manufacturing Company - Midwest",
+          "link": "https://dealstream.com/d/biz-sale/food-mfg/5unipg",
+          "snippet": "The Company manufactures shortenings using proprietary recipes and a proprietary process. This Company\u2019s products are considered premium and their distributors sell their products to bakers all over t",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Absolute Reports\u00ae - Global Shortenings Market",
+          "link": "https://www.absolutereports.com/global-shortenings-market-23759225",
+          "snippet": "Global Key Manufacturers of Shortenings, Manufacturing Sites & Headquarters Table 11.Global Shortenings by Company Type (Tier 1, Tier 2, and Tier 3) & (based on the Revenue in Shortenings as of 2022) ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Shortenings Market Size, Share and Forecast, 2026-2033",
+          "link": "https://www.coherentmarketinsights.com/market-insight/shortenings-market-1565",
+          "snippet": "Description: Plant-Based Food Manufacturing Boom. Impact: Explosive growth in vegan products drives demand for plant-based shortenings, particularly coconut and palm-based formulations for meat and da",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Shortenings Market | Size, Share, Growth | 2024 - 2030",
+          "link": "https://virtuemarketresearch.com/report/shortenings-market",
+          "snippet": "Additionally, the increasing preference for trans-fat-free and non-hydrogenated shortenings is shaping the global market, with manufacturers developing innovative products that cater to the evolving c",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Market Research Reports and Consulting \u2013 Global Insight Services...",
+          "link": "https://www.globalinsightservices.com/reports/shortenings-market/",
+          "snippet": "Question 1: What is the Shortenings market and why is it significant? The Shortenings market focuses on fats used in baking and cooking, crucial for texture and flavor enhancement in food products. Qu",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Shortenings Global Market Opportunities And Strategies To 2033",
+          "link": "https://www.giiresearch.com/report/tbrc1477073-shortenings-global-market-opportunities-strategies.html",
+          "snippet": "PDF (Site License).Companies in the shortenings market are focusing on strategic acquisitions to strengthen their offerings and expand their geographic presence. For instance, in March 2023, KTC Edibl",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "For Sale: Food Shortening Manufacturing Company - Midwest",
+          "link": "https://dealstream.com/d/biz-sale/food-mfg/5unipg",
+          "snippet": "The Company manufactures shortenings using proprietary recipes and a proprietary process. This Company\u2019s products are considered premium and their distributors sell their products to bakers all over t",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Absolute Reports\u00ae - Global Shortenings Market",
+          "link": "https://www.absolutereports.com/global-shortenings-market-23759225",
+          "snippet": "Global Key Manufacturers of Shortenings, Manufacturing Sites & Headquarters Table 11.Global Shortenings by Company Type (Tier 1, Tier 2, and Tier 3) & (based on the Revenue in Shortenings as of 2022) ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Shortenings Market Size, Share and Forecast, 2026-2033",
+          "link": "https://www.coherentmarketinsights.com/market-insight/shortenings-market-1565",
+          "snippet": "Description: Plant-Based Food Manufacturing Boom. Impact: Explosive growth in vegan products drives demand for plant-based shortenings, particularly coconut and palm-based formulations for meat and da",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Shortenings Market | Size, Share, Growth | 2024 - 2030",
+          "link": "https://virtuemarketresearch.com/report/shortenings-market",
+          "snippet": "Additionally, the increasing preference for trans-fat-free and non-hydrogenated shortenings is shaping the global market, with manufacturers developing innovative products that cater to the evolving c",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Market Research Reports and Consulting \u2013 Global Insight Services...",
+          "link": "https://www.globalinsightservices.com/reports/shortenings-market/",
+          "snippet": "Question 1: What is the Shortenings market and why is it significant? The Shortenings market focuses on fats used in baking and cooking, crucial for texture and flavor enhancement in food products. Qu",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "note": "Auto supplement \u2014 low Phase 1 hit count"
+    },
+    "D3": {
+      "query": "shortenings supplier official corporate site",
+      "level": "volume_supplement",
+      "result_count": 4,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Shortenings, Shortenings Suppliers & Shortenings Wholesalers At...",
+          "link": "https://www.tradekey.com/products/shortenings.html",
+          "snippet": "Find Shortenings Manufacturers, Shortenings Suppliers & Wholesalers of Shortenings from China, Hong Kong, USA & Shortenings Products from India at TradeKey.com.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Premium Oils & Shortenings Supplier | Gillco",
+          "link": "https://gillco.com/products/oils-and-shortenings/",
+          "snippet": "Gillco supplies high-quality oils & shortenings, including canola, sunflower, and coconut oil. Partner with a trusted cooking oil distributor for premium solutions.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bulk Edible Oils And Fats (Shortenings) Supplier in US | Cargill",
+          "link": "https://www.cargill.com/food-beverage/na/edible-oils",
+          "snippet": "In North America, Cargill produces a full line of edible oils and shortenings to help you meet your nutritional or reformulation goals.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Shortenings Market Research and Industry Outlook 2026",
+          "link": "https://www.thebusinessresearchcompany.com/report/shortenings-global-market-report",
+          "snippet": "Global Shortenings market size is expected to reach $5.63 billion by 2030 at 4.4%, surging demand for bakery product to drive market growth.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Shortenings, Shortenings Suppliers & Shortenings Wholesalers At...",
+          "link": "https://www.tradekey.com/products/shortenings.html",
+          "snippet": "Find Shortenings Manufacturers, Shortenings Suppliers & Wholesalers of Shortenings from China, Hong Kong, USA & Shortenings Products from India at TradeKey.com.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Premium Oils & Shortenings Supplier | Gillco",
+          "link": "https://gillco.com/products/oils-and-shortenings/",
+          "snippet": "Gillco supplies high-quality oils & shortenings, including canola, sunflower, and coconut oil. Partner with a trusted cooking oil distributor for premium solutions.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bulk Edible Oils And Fats (Shortenings) Supplier in US | Cargill",
+          "link": "https://www.cargill.com/food-beverage/na/edible-oils",
+          "snippet": "In North America, Cargill produces a full line of edible oils and shortenings to help you meet your nutritional or reformulation goals.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Shortenings Market Research and Industry Outlook 2026",
+          "link": "https://www.thebusinessresearchcompany.com/report/shortenings-global-market-report",
+          "snippet": "Global Shortenings market size is expected to reach $5.63 billion by 2030 at 4.4%, surging demand for bakery product to drive market growth.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "note": "Auto supplement \u2014 low Phase 1 hit count"
+    },
+    "D4": {
+      "query": "shortenings exporter official company",
+      "level": "volume_supplement",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Bakery Margarine & Shortening Exporter | Peerless Foods",
+          "link": "https://www.peerlessfoods.com.au/international/bakery-fats/",
+          "snippet": "Peerless Foods exports premium bakery margarines and shortenings to 30+ countries. Download our bakery export catalogue or contact us today.As a specialist margarine exporter and shortening exporter, ",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Bakery Margarine & Shortening Exporter | Peerless Foods",
+          "link": "https://www.peerlessfoods.com.au/international/bakery-fats/",
+          "snippet": "Peerless Foods exports premium bakery margarines and shortenings to 30+ countries. Download our bakery export catalogue or contact us today.As a specialist margarine exporter and shortening exporter, ",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "note": "Auto supplement \u2014 low Phase 1 hit count"
+    },
+    "D5": {
+      "query": "shortenings company headquarters official site",
+      "level": "volume_supplement",
+      "result_count": 10,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Premium Shortenings for Perfectly Tender Baked Goods",
+          "link": "https://www.disjobelusa.com/products/shortenings",
+          "snippet": "Elevate your baked goods with our premium shortenings and solid fats from Disjobel USA. Shortening is a crucial ingredient in many baked goods, including cookies, pie crusts, and cakes, as it creates ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "SHORTENING | Ariyan International Inc.Bulk Edible Oils, Shortenings & Sauces | Columbus Vegetable OilsLard and Shortenin",
+          "link": "https://www.ariyancorp.com/shortening/",
+          "snippet": "At the same time, developments in fat technology have enabled the production of shortenings. It aligns with evolving nutritional and regulatory requirements in the global food industry. Family-owned s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bulk Edible Oils, Shortenings & Sauces | Columbus Vegetable Oils",
+          "link": "https://cvoils.com/",
+          "snippet": "Family-owned since 1936, Columbus Vegetable Oils supplies 200+ vegetable oils, shortenings, dressings & sauces for foodservice, manufacturers, retail & private label.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mid-Atlantic Vegetable Shortening Company Company... | PitchBook",
+          "link": "https://pitchbook.com/profiles/company/122255-20",
+          "snippet": "Mid-Atlantic Vegetable Shortening Company General Information. Description. Provider of food packaging services. The company packages liquid oils, shortenings, margarine and butter blends made from a ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lard and Shortenings | Coast Packing Company",
+          "link": "https://coastpacking.com/shortenings/",
+          "snippet": "Coast offers the very finest shortening products to its customers. Coast quality means zero trans fats, superior creaming properties low absorption & durability.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Shortenings Market Research and Industry Outlook 2026",
+          "link": "https://www.thebusinessresearchcompany.com/report/shortenings-global-market-report",
+          "snippet": "Major companies operating in the shortening market are focused on developing new technological solutions, such as Breeze AI, to enhance operational efficiency, improve product formulations, and provid",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "shortenings.com",
+          "link": "http://www.shortenings.com/",
+          "snippet": "",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Welcome to Saporito Foods Inc. - www.saporitofoods.com",
+          "link": "https://saporitofoods.com/",
+          "snippet": "Founded over two decades ago, Saporito Foods has become a market leader by focusing on the endless vision to supply heart healthy, great tasting, high quality and competitively priced oils, shortening",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Contact Us - www.saporitofoods.com",
+          "link": "https://saporitofoods.com/contact-us/",
+          "snippet": "About Saporito Foods E Who We Are A leading supplier of canola oil, corn oil, sunflower oil, vegetable oil, imported olive oils, blended oils, shortenings, E Mission Statement To deliver high quality ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Richardson Food & Ingredients | Bringing Quality Foods to the ...",
+          "link": "https://richardsonfoodandingredients.com/",
+          "snippet": "Richardson creates the ingredients that power many of today\u2019s leading food brands. From canola oils, margarines, and shortenings to oat- and durum-based ingredients and custom formulations, our produc",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Premium Shortenings for Perfectly Tender Baked Goods",
+          "link": "https://www.disjobelusa.com/products/shortenings",
+          "snippet": "Elevate your baked goods with our premium shortenings and solid fats from Disjobel USA. Shortening is a crucial ingredient in many baked goods, including cookies, pie crusts, and cakes, as it creates ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "SHORTENING | Ariyan International Inc.Bulk Edible Oils, Shortenings & Sauces | Columbus Vegetable OilsLard and Shortenin",
+          "link": "https://www.ariyancorp.com/shortening/",
+          "snippet": "At the same time, developments in fat technology have enabled the production of shortenings. It aligns with evolving nutritional and regulatory requirements in the global food industry. Family-owned s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bulk Edible Oils, Shortenings & Sauces | Columbus Vegetable Oils",
+          "link": "https://cvoils.com/",
+          "snippet": "Family-owned since 1936, Columbus Vegetable Oils supplies 200+ vegetable oils, shortenings, dressings & sauces for foodservice, manufacturers, retail & private label.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mid-Atlantic Vegetable Shortening Company Company... | PitchBook",
+          "link": "https://pitchbook.com/profiles/company/122255-20",
+          "snippet": "Mid-Atlantic Vegetable Shortening Company General Information. Description. Provider of food packaging services. The company packages liquid oils, shortenings, margarine and butter blends made from a ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lard and Shortenings | Coast Packing Company",
+          "link": "https://coastpacking.com/shortenings/",
+          "snippet": "Coast offers the very finest shortening products to its customers. Coast quality means zero trans fats, superior creaming properties low absorption & durability.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Shortenings Market Research and Industry Outlook 2026",
+          "link": "https://www.thebusinessresearchcompany.com/report/shortenings-global-market-report",
+          "snippet": "Major companies operating in the shortening market are focused on developing new technological solutions, such as Breeze AI, to enhance operational efficiency, improve product formulations, and provid",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "shortenings.com",
+          "link": "http://www.shortenings.com/",
+          "snippet": "",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Welcome to Saporito Foods Inc. - www.saporitofoods.com",
+          "link": "https://saporitofoods.com/",
+          "snippet": "Founded over two decades ago, Saporito Foods has become a market leader by focusing on the endless vision to supply heart healthy, great tasting, high quality and competitively priced oils, shortening",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Contact Us - www.saporitofoods.com",
+          "link": "https://saporitofoods.com/contact-us/",
+          "snippet": "About Saporito Foods E Who We Are A leading supplier of canola oil, corn oil, sunflower oil, vegetable oil, imported olive oils, blended oils, shortenings, E Mission Statement To deliver high quality ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Richardson Food & Ingredients | Bringing Quality Foods to the ...",
+          "link": "https://richardsonfoodandingredients.com/",
+          "snippet": "Richardson creates the ingredients that power many of today\u2019s leading food brands. From canola oils, margarines, and shortenings to oat- and durum-based ingredients and custom formulations, our produc",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "note": "Auto supplement \u2014 low Phase 1 hit count"
+    },
+    "D6": {
+      "query": "shortenings subsidiary corporate profile",
+      "level": "volume_supplement",
+      "result_count": 3,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Shortenings Market Research and Industry Outlook 2026",
+          "link": "https://www.thebusinessresearchcompany.com/report/shortenings-global-market-report",
+          "snippet": "Solid shortenings refer to shortenings or hydrogenated solidified oils that are solids at room temperature. Solid shortenings include lard, margarine, and butter. These are sourced from vegetables and",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Shortenings Market Size, Share and Forecast, 2026-2033",
+          "link": "https://www.coherentmarketinsights.com/market-insight/shortenings-market-1565",
+          "snippet": "Shortenings Market Analysis & Forecast: 2026-2033. Shortenings Market, By Category (Plant-based and Animal-based), By Form (Solid and Liquid), By Application (Bakery & Confectionery, Snacks & Savory, ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Shortenings Market Size Report, 2022-2027",
+          "link": "https://www.industryarc.com/Research/Shortenings-Market-Research-504639",
+          "snippet": "The Shortenings Market size is estimated to reach $4.33Bn by 2027 and is poised to grow at a CAGR of 4.17% over the forecast period of 2022-2027. Shortenings are the ingredient that helps in adding te",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Shortenings Market Research and Industry Outlook 2026",
+          "link": "https://www.thebusinessresearchcompany.com/report/shortenings-global-market-report",
+          "snippet": "Solid shortenings refer to shortenings or hydrogenated solidified oils that are solids at room temperature. Solid shortenings include lard, margarine, and butter. These are sourced from vegetables and",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Shortenings Market Size, Share and Forecast, 2026-2033",
+          "link": "https://www.coherentmarketinsights.com/market-insight/shortenings-market-1565",
+          "snippet": "Shortenings Market Analysis & Forecast: 2026-2033. Shortenings Market, By Category (Plant-based and Animal-based), By Form (Solid and Liquid), By Application (Bakery & Confectionery, Snacks & Savory, ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Shortenings Market Size Report, 2022-2027",
+          "link": "https://www.industryarc.com/Research/Shortenings-Market-Research-504639",
+          "snippet": "The Shortenings Market size is estimated to reach $4.33Bn by 2027 and is poised to grow at a CAGR of 4.17% over the forecast period of 2022-2027. Shortenings are the ingredient that helps in adding te",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "note": "Auto supplement \u2014 low Phase 1 hit count"
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)",
+    "Low search volume in Phase 1 smoke test (24 total hits). Phase 2 will run more prompts; set SKIP_BING_HTML=false or start SearXNG if search is thin."
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+  "volume_supplement_searches": 6
+}

@@ -1,0 +1,231 @@
+{
+  "backup": "global_wearable_medical_devices_market_global_FINAL_BEFORE_HQ_LAST13_20260814_182651.xlsx",
+  "updated": [
+    "Farmacias Carol: Puerto Rico -> Santo Domingo, Dominican Republic (linkedin/datanyze + deepseek)",
+    "Farmacias La Paz: Honduras -> Tegucigalpa, Honduras (deepseek:medium)",
+    "Farmacias Siman: El Salvador -> San Pedro Sula, Honduras (cbinsights + snippets)",
+    "BioD Medica: Malaysia / Singapore -> Subang Jaya, Malaysia (emis + linkedin Subang Jaya HQ)",
+    "MyBanzu Healthcare: Malaysia -> Puchong, Malaysia (mybanzu.com West Malaysia Address Jalan Metro Puchong)",
+    "Primary Care Supplies: United Kingdom -> Aylesford, United Kingdom (primarycaresupplies.co.uk/contact-us)",
+    "Provita Medical: United States -> Wermelskirchen, Germany (deepseek:high:Imprint explicitly states provita medical gmbh & co. kg, Auf der Huhfuhr 8, 42929 Wermelskirchen, Germany.)"
+  ],
+  "results": [
+    {
+      "company": "Al-Watania Medical",
+      "website": "https://www.alwatania.com",
+      "old_hq": "Saudi Arabia",
+      "deepseek": {
+        "hq": "",
+        "confidence": "none",
+        "reason": "No explicit HQ city in text"
+      },
+      "snippets_len": 136,
+      "chosen": "",
+      "source": "",
+      "status": "left_unchanged"
+    },
+    {
+      "company": "Farmacias Carol",
+      "website": "https://www.farmaciascarol.com",
+      "old_hq": "Puerto Rico",
+      "deepseek": {
+        "hq": "Santo Domingo, Dominican Republic",
+        "confidence": "high",
+        "reason": "Text explicitly states headquarters Santo Domingo, Dominican Republic."
+      },
+      "snippets_len": 221,
+      "chosen": "Santo Domingo, Dominican Republic",
+      "source": "linkedin/datanyze + deepseek",
+      "status": "updated"
+    },
+    {
+      "company": "Farmacias La Paz",
+      "website": "https://www.farmaciaslapaz.com",
+      "old_hq": "Honduras",
+      "deepseek": {
+        "hq": "Tegucigalpa, Honduras",
+        "confidence": "medium",
+        "reason": "LinkedIn context mentions HQ Tegucigalpa, but not explicitly on website."
+      },
+      "snippets_len": 136,
+      "chosen": "Tegucigalpa, Honduras",
+      "source": "deepseek:medium",
+      "status": "updated"
+    },
+    {
+      "company": "Farmacias Siman",
+      "website": "https://www.farmaciassiman.com",
+      "old_hq": "El Salvador",
+      "deepseek": {
+        "hq": "San Pedro Sula, Honduras",
+        "confidence": "high",
+        "reason": "Text explicitly states headquarters in San Pedro Sula, Honduras."
+      },
+      "snippets_len": 174,
+      "chosen": "San Pedro Sula, Honduras",
+      "source": "cbinsights + snippets",
+      "status": "updated"
+    },
+    {
+      "company": "ProCare Pharmacy",
+      "website": "https://www.procarepharmacy.com",
+      "old_hq": "USA",
+      "deepseek": {
+        "hq": "",
+        "confidence": "none",
+        "reason": "No text provided to extract location."
+      },
+      "snippets_len": 0,
+      "chosen": "",
+      "source": "",
+      "status": "left_unchanged"
+    },
+    {
+      "company": "Tecnomed Brasil",
+      "website": "https://www.tecnomed.com.br",
+      "old_hq": "Brazil",
+      "deepseek": {
+        "hq": "",
+        "confidence": "none",
+        "reason": "No text provided to extract location."
+      },
+      "snippets_len": 0,
+      "chosen": "",
+      "source": "",
+      "status": "left_unchanged"
+    },
+    {
+      "company": "BioD Medica",
+      "website": "https://biodmedica.com",
+      "old_hq": "Malaysia / Singapore",
+      "deepseek": {
+        "hq": "Subang Jaya, Selangor, Malaysia",
+        "confidence": "high",
+        "reason": "Explicitly stated in text: 'Biod Medica Sdn. Bhd. headquarters B-06-38A Block B, Sunway Geo Jalan Lagoon Selatan, Bandar Sunway Subang Jaya Selangor 47500 Malaysia' and LinkedIn: 'Subang Jaya, Malaysia'."
+      },
+      "snippets_len": 7253,
+      "chosen": "Subang Jaya, Malaysia",
+      "source": "emis + linkedin Subang Jaya HQ",
+      "status": "updated"
+    },
+    {
+      "company": "MyBanzu Healthcare",
+      "website": "https://mybanzu.com",
+      "old_hq": "Malaysia",
+      "deepseek": {
+        "hq": "Puchong, Selangor, Malaysia",
+        "confidence": "high",
+        "reason": "West Malaysia address explicitly states Puchong, Selangor, Malaysia."
+      },
+      "snippets_len": 6724,
+      "chosen": "Puchong, Malaysia",
+      "source": "mybanzu.com West Malaysia Address Jalan Metro Puchong",
+      "status": "updated"
+    },
+    {
+      "company": "Primary Care Supplies",
+      "website": "https://www.primarycaresupplies.co.uk",
+      "old_hq": "United Kingdom",
+      "deepseek": {
+        "hq": "Aylesford, Kent, United Kingdom",
+        "confidence": "high",
+        "reason": "Explicit address in text"
+      },
+      "snippets_len": 143,
+      "chosen": "Aylesford, United Kingdom",
+      "source": "primarycaresupplies.co.uk/contact-us",
+      "status": "updated"
+    },
+    {
+      "company": "Provita Medical",
+      "website": "https://www.provita.com",
+      "old_hq": "United States",
+      "deepseek": {
+        "hq": "Wermelskirchen, Germany",
+        "confidence": "high",
+        "reason": "Imprint explicitly states provita medical gmbh & co. kg, Auf der Huhfuhr 8, 42929 Wermelskirchen, Germany."
+      },
+      "snippets_len": 7273,
+      "chosen": "Wermelskirchen, Germany",
+      "source": "deepseek:high:Imprint explicitly states provita medical gmbh & co. kg, Auf der Huhfuhr 8, 42929 Wermelskirchen, Germany.",
+      "status": "updated"
+    },
+    {
+      "company": "Veloce Solutions",
+      "website": "https://www.veloce-solutions.com",
+      "old_hq": "Malaysia",
+      "deepseek": {
+        "hq": "",
+        "confidence": "none",
+        "reason": "No city or country explicitly stated in text."
+      },
+      "snippets_len": 11000,
+      "chosen": "",
+      "source": "",
+      "status": "left_unchanged"
+    },
+    {
+      "company": "AED USA",
+      "website": "https://www.aedusa.com",
+      "old_hq": "United States",
+      "deepseek": {
+        "hq": "",
+        "confidence": "none",
+        "reason": "No text provided to extract location."
+      },
+      "snippets_len": 0,
+      "chosen": "",
+      "source": "",
+      "status": "left_unchanged"
+    },
+    {
+      "company": "EMS Supply Co.",
+      "website": "https://www.emssupply.com",
+      "old_hq": "United States",
+      "deepseek": {
+        "hq": "",
+        "confidence": "none",
+        "reason": "No headquarters city or country stated in text."
+      },
+      "snippets_len": 2423,
+      "chosen": "",
+      "source": "",
+      "status": "left_unchanged"
+    }
+  ],
+  "city_country_total": 340,
+  "country_only_remaining": 6,
+  "still_all": [
+    {
+      "company": "Al-Watania Medical",
+      "hq": "Saudi Arabia",
+      "website": "https://www.alwatania.com"
+    },
+    {
+      "company": "ProCare Pharmacy",
+      "hq": "USA",
+      "website": "https://www.procarepharmacy.com"
+    },
+    {
+      "company": "Tecnomed Brasil",
+      "hq": "Brazil",
+      "website": "https://www.tecnomed.com.br"
+    },
+    {
+      "company": "Veloce Solutions",
+      "hq": "Malaysia",
+      "website": "https://www.veloce-solutions.com"
+    },
+    {
+      "company": "AED USA",
+      "hq": "United States",
+      "website": "https://www.aedusa.com"
+    },
+    {
+      "company": "EMS Supply Co.",
+      "hq": "United States",
+      "website": "https://www.emssupply.com"
+    }
+  ],
+  "rows": 346
+}

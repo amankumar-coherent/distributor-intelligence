@@ -1,0 +1,971 @@
+{
+  "phase": 1,
+  "query": "Personal Cloud Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T21:16:49.128584+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "personal cloud",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "channel partner",
+    "industry_vertical": "cloud services",
+    "industry_terms": [
+      "personal cloud storage",
+      "cloud backup solutions",
+      "cloud file sharing",
+      "cloud synchronization",
+      "cloud computing services"
+    ],
+    "ecosystem_functions": [
+      "distributing personal cloud solutions",
+      "reselling personal cloud services",
+      "integrating personal cloud systems",
+      "providing managed personal cloud services",
+      "supporting personal cloud infrastructure",
+      "offering technical support for personal cloud",
+      "consulting on personal cloud solutions",
+      "training on personal cloud services"
+    ],
+    "interpretation_summary": "The personal cloud market encompasses services and solutions that allow individuals to store, manage, and share their data online. Key participants include technology providers, channel partners, and service providers op",
+    "relevance_keywords": [
+      "cloud storage",
+      "data security",
+      "file sharing",
+      "cloud services",
+      "personal data management"
+    ],
+    "negative_keywords": [
+      "enterprise",
+      "public cloud",
+      "private cloud",
+      "IaaS",
+      "PaaS"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "Amazon Web Services",
+        "primary_domain": "aws.com",
+        "company_function": "cloud service provider"
+      },
+      {
+        "canonical_name": "Microsoft",
+        "primary_domain": "microsoft.com",
+        "company_function": "cloud service provider"
+      },
+      {
+        "canonical_name": "Google Cloud",
+        "primary_domain": "cloud.google.com",
+        "company_function": "cloud service provider"
+      },
+      {
+        "canonical_name": "Ingram Micro",
+        "primary_domain": "ingrammicro.com",
+        "company_function": "distributor"
+      },
+      {
+        "canonical_name": "Tech Data",
+        "primary_domain": "techdata.com",
+        "company_function": "distributor"
+      },
+      {
+        "canonical_name": "Synnex",
+        "primary_domain": "synnex.com",
+        "company_function": "distributor"
+      },
+      {
+        "canonical_name": "CDW",
+        "primary_domain": "cdw.com",
+        "company_function": "reseller"
+      },
+      {
+        "canonical_name": "Softchoice",
+        "primary_domain": "softchoice.com",
+        "company_function": "reseller"
+      },
+      {
+        "canonical_name": "Insight Enterprises",
+        "primary_domain": "insight.com",
+        "company_function": "reseller",
+        "segment": "Resellers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Accenture",
+        "primary_domain": "accenture.com",
+        "company_function": "system integrator",
+        "segment": "System Integrators",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Deloitte",
+        "primary_domain": "deloitte.com",
+        "company_function": "system integrator",
+        "segment": "System Integrators",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Capgemini",
+        "primary_domain": "capgemini.com",
+        "company_function": "system integrator",
+        "segment": "System Integrators",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Rackspace",
+        "primary_domain": "rackspace.com",
+        "company_function": "service provider",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "DigitalOcean",
+        "primary_domain": "digitalocean.com",
+        "company_function": "service provider",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "personal cloud",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "personal cloud",
+    "include_keywords": [
+      "personal cloud solutions",
+      "cloud storage providers",
+      "data management services",
+      "cloud integration services",
+      "personal cloud applications"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The personal cloud market encompasses services and solutions that allow individuals to store, manage, and share their data online. Key participants include technology providers, channel partners, and service providers operating globally to deliver personal cloud solutions.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Channel Partners",
+        "description": "This layer includes various partners that facilitate the distribution and integration of personal cloud solutions.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Regional Distributors",
+              "Global Distributors"
+            ],
+            "participant_types": [
+              "distributor"
+            ],
+            "search_intents": [
+              "personal cloud solution distributors",
+              "distributors of personal cloud services"
+            ]
+          },
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Value-Added Resellers",
+              "Retail Resellers"
+            ],
+            "participant_types": [
+              "reseller"
+            ],
+            "search_intents": [
+              "personal cloud service resellers",
+              "resellers of personal cloud solutions"
+            ]
+          },
+          {
+            "segment_name": "System Integrators",
+            "sub_segments": [
+              "IT System Integrators",
+              "Cloud Solution Integrators"
+            ],
+            "participant_types": [
+              "system integrator"
+            ],
+            "search_intents": [
+              "personal cloud system integrators",
+              "integrators for personal cloud services"
+            ]
+          },
+          {
+            "segment_name": "Service Providers",
+            "sub_segments": [
+              "Managed Service Providers",
+              "Cloud Service Providers"
+            ],
+            "participant_types": [
+              "service provider"
+            ],
+            "search_intents": [
+              "personal cloud service providers",
+              "managed service providers for personal cloud"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Enterprise Cloud Solutions",
+        "Public Cloud Services",
+        "Private Cloud Solutions",
+        "Cloud Storage Providers"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "find distributors of personal cloud solutions",
+        "sub_sector": "distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "search for resellers of personal cloud services",
+        "sub_sector": "reseller",
+        "layer_id": "L1",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "locate system integrators for personal cloud systems",
+        "sub_sector": "system_integrator",
+        "layer_id": "L1",
+        "segment": "System Integrators"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "find service providers for personal cloud services",
+        "sub_sector": "service_provider",
+        "layer_id": "L1",
+        "segment": "Service Providers"
+      },
+      {
+        "id": "M5",
+        "level": "market_map",
+        "text": "search for channel partners in personal cloud market",
+        "sub_sector": "channel_partner",
+        "layer_id": "L1",
+        "segment": "Channel Partners"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "cloud services",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "personal cloud companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "personal cloud service providers corporate site"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "personal cloud distributors official site"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "discovery",
+      "text": "personal cloud distributor corporate headquarters"
+    },
+    {
+      "id": "P2",
+      "level": "discovery",
+      "text": "personal cloud reseller official site"
+    },
+    {
+      "id": "P3",
+      "level": "discovery",
+      "text": "personal cloud system integrator corporate website"
+    },
+    {
+      "id": "P4",
+      "level": "discovery",
+      "text": "personal cloud service provider official site"
+    },
+    {
+      "id": "P5",
+      "level": "discovery",
+      "text": "personal cloud channel partner corporate profile"
+    },
+    {
+      "id": "P6",
+      "level": "discovery",
+      "text": "personal cloud solutions distributor official site"
+    },
+    {
+      "id": "P7",
+      "level": "discovery",
+      "text": "personal cloud services reseller corporate site"
+    },
+    {
+      "id": "P8",
+      "level": "discovery",
+      "text": "personal cloud systems integrator official website"
+    },
+    {
+      "id": "P9",
+      "level": "volume",
+      "text": "authorized personal cloud distributor firm official"
+    },
+    {
+      "id": "P10",
+      "level": "volume",
+      "text": "personal cloud reseller channel partner official"
+    },
+    {
+      "id": "P11",
+      "level": "volume",
+      "text": "personal cloud system integrator official website"
+    },
+    {
+      "id": "P12",
+      "level": "volume",
+      "text": "personal cloud service provider official website"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "personal cloud companies official websites",
+      "level": "L0",
+      "result_count": 3,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Personal Cloud Storage & File Sharing Platform - Google",
+          "link": "https://www.google.com/intx/en/drive/",
+          "snippet": "Learn about Google Drive\u2019s file sharing platform that provides a personal, secure cloud storage option to share content with other users.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Run your business and life on Zo with a cloud computer that works 24/7",
+          "link": "https://www.zo.computer/",
+          "snippet": "Cloud Computer. Web Hosting. Connect. 1000+ more.Because Zo is a personal cloud, you can host anything from your Zo, on personal cloud infrastructure you control. Our mission is to enable everyone on ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "seagate.com",
+          "link": "https://www.seagate.com/",
+          "snippet": "\u0420\u0443\u043a\u043e\u0432\u043e\u0434\u0441\u0442\u0432\u043e \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f Personal Cloud 2 Bay.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Personal Cloud Storage & File Sharing Platform - Google",
+          "link": "https://www.google.com/intx/en/drive/",
+          "snippet": "Learn about Google Drive\u2019s file sharing platform that provides a personal, secure cloud storage option to share content with other users.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Run your business and life on Zo with a cloud computer that works 24/7",
+          "link": "https://www.zo.computer/",
+          "snippet": "Cloud Computer. Web Hosting. Connect. 1000+ more.Because Zo is a personal cloud, you can host anything from your Zo, on personal cloud infrastructure you control. Our mission is to enable everyone on ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "seagate.com",
+          "link": "https://www.seagate.com/",
+          "snippet": "\u0420\u0443\u043a\u043e\u0432\u043e\u0434\u0441\u0442\u0432\u043e \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f Personal Cloud 2 Bay.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "personal cloud service providers corporate site",
+      "level": "L1",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Personal Cloud Storage & File Sharing Platform - Google",
+          "link": "https://www.google.com/intx/en/drive/",
+          "snippet": "Learn about Google Drive\u2019s file sharing platform that provides a personal, secure cloud storage option to share content with other users.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Personal Cloud Storage & File Sharing Platform - Google",
+          "link": "https://www.google.com/intx/en/drive/",
+          "snippet": "Learn about Google Drive\u2019s file sharing platform that provides a personal, secure cloud storage option to share content with other users.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "personal cloud distributors official site",
+      "level": "L2",
+      "result_count": 3,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "ASUSTOR NAS Storage | Personal Clouds AKA NAS(Network...)",
+          "link": "https://www.asustor.com/",
+          "snippet": "Stop paying for subscriptions for storage you don\u2019t own. ASUSTOR NAS devices create a private and secure cloud that automatically back up every photo and video from your phone with zero additional cos",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Zima: Elevating Your Computing Experience with ZimaBoard Servers...",
+          "link": "https://www.zimaspace.com/",
+          "snippet": "Experience the future of computing with Zima. Discover innovative products including ZimaBoard single board servers, ZimaBlade Personal NAS, ZimaCube Personal Cloud, and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "seagate.com",
+          "link": "https://www.seagate.com/",
+          "snippet": "Seagate Personal Cloud 2-bay User Manual.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "ASUSTOR NAS Storage | Personal Clouds AKA NAS(Network...)",
+          "link": "https://www.asustor.com/",
+          "snippet": "Stop paying for subscriptions for storage you don\u2019t own. ASUSTOR NAS devices create a private and secure cloud that automatically back up every photo and video from your phone with zero additional cos",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Zima: Elevating Your Computing Experience with ZimaBoard Servers...",
+          "link": "https://www.zimaspace.com/",
+          "snippet": "Experience the future of computing with Zima. Discover innovative products including ZimaBoard single board servers, ZimaBlade Personal NAS, ZimaCube Personal Cloud, and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "seagate.com",
+          "link": "https://www.seagate.com/",
+          "snippet": "Seagate Personal Cloud 2-bay User Manual.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "personal cloud distributor corporate headquarters",
+      "level": "discovery",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "seagate.com",
+          "link": "https://www.seagate.com/",
+          "snippet": "\u0420\u0443\u043a\u043e\u0432\u043e\u0434\u0441\u0442\u0432\u043e \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f Personal Cloud 2 Bay.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "seagate.com",
+          "link": "https://www.seagate.com/",
+          "snippet": "\u0420\u0443\u043a\u043e\u0432\u043e\u0434\u0441\u0442\u0432\u043e \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f Personal Cloud 2 Bay.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P2": {
+      "query": "personal cloud reseller official site",
+      "level": "discovery",
+      "result_count": 5,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "ASUSTOR NAS Storage | Personal Clouds AKA NAS(Network...)",
+          "link": "https://www.asustor.com/",
+          "snippet": "Reseller Partner Program - U.S/Canada. Quick Links. Compare NAS & Product List.If you're looking for an affordable 4-bay NAS for storage, backups, photos, media, and personal cloud functionality, the ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Personal File Sharing & Cloud Storage | Microsoft OneDrive",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage",
+          "snippet": "Discover OneDrive for secure and convenient file and document sharing. Get personal cloud storage for seamless file sharing with your family and friends.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Zima: Elevating Your Computing Experience with ZimaBoard Servers...",
+          "link": "https://www.zimaspace.com/",
+          "snippet": "Experience the future of computing with Zima. Discover innovative products including ZimaBoard single board servers, ZimaBlade Personal NAS, ZimaCube Personal Cloud, and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "seagate.com",
+          "link": "https://www.seagate.com/",
+          "snippet": "Seagate Personal Cloud 2-bay User Manual.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "UGREEN NAS Storage: 2-Bay to 8-Bay Models with Free Trials",
+          "link": "https://nas.ugreen.com/",
+          "snippet": "Your Personal Cloud Storage.UGREEN Official Store Benefits. Media Voices. \"For first-generation hardware, the DXP4800 Plus is remarkably impressive.\"",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "ASUSTOR NAS Storage | Personal Clouds AKA NAS(Network...)",
+          "link": "https://www.asustor.com/",
+          "snippet": "Reseller Partner Program - U.S/Canada. Quick Links. Compare NAS & Product List.If you're looking for an affordable 4-bay NAS for storage, backups, photos, media, and personal cloud functionality, the ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Personal File Sharing & Cloud Storage | Microsoft OneDrive",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage",
+          "snippet": "Discover OneDrive for secure and convenient file and document sharing. Get personal cloud storage for seamless file sharing with your family and friends.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Zima: Elevating Your Computing Experience with ZimaBoard Servers...",
+          "link": "https://www.zimaspace.com/",
+          "snippet": "Experience the future of computing with Zima. Discover innovative products including ZimaBoard single board servers, ZimaBlade Personal NAS, ZimaCube Personal Cloud, and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "seagate.com",
+          "link": "https://www.seagate.com/",
+          "snippet": "Seagate Personal Cloud 2-bay User Manual.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "UGREEN NAS Storage: 2-Bay to 8-Bay Models with Free Trials",
+          "link": "https://nas.ugreen.com/",
+          "snippet": "Your Personal Cloud Storage.UGREEN Official Store Benefits. Media Voices. \"For first-generation hardware, the DXP4800 Plus is remarkably impressive.\"",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P3": {
+      "query": "personal cloud system integrator corporate website",
+      "level": "discovery",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Personal Cloud Storage & File Sharing Platform - Google",
+          "link": "https://ipv4.google.com/drive/",
+          "snippet": "Learn about Google Drive\u2019s file sharing platform that provides a personal, secure cloud storage option to share content with other users.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Personal Cloud Storage & File Sharing Platform - Google",
+          "link": "https://ipv4.google.com/drive/",
+          "snippet": "Learn about Google Drive\u2019s file sharing platform that provides a personal, secure cloud storage option to share content with other users.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P4": {
+      "query": "personal cloud service provider official site",
+      "level": "discovery",
+      "result_count": 2,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Personal File Sharing & Cloud Storage | Microsoft OneDrive",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage",
+          "snippet": "Discover OneDrive for secure and convenient file and document sharing. Get personal cloud storage for seamless file sharing with your family and friends.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "ASUSTOR NAS Storage | Personal Clouds AKA NAS(Network...)",
+          "link": "https://www.asustor.com/",
+          "snippet": "ASUSTOR was established as a subsidiary of ASUS and is a leading innovator and provider of network attached storage (NAS).ASUSTOR NAS devices create a private and secure cloud that automatically back ",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Personal File Sharing & Cloud Storage | Microsoft OneDrive",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage",
+          "snippet": "Discover OneDrive for secure and convenient file and document sharing. Get personal cloud storage for seamless file sharing with your family and friends.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "ASUSTOR NAS Storage | Personal Clouds AKA NAS(Network...)",
+          "link": "https://www.asustor.com/",
+          "snippet": "ASUSTOR was established as a subsidiary of ASUS and is a leading innovator and provider of network attached storage (NAS).ASUSTOR NAS devices create a private and secure cloud that automatically back ",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P5": {
+      "query": "personal cloud channel partner corporate profile",
+      "level": "discovery",
+      "result_count": 10,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Personal | Telefon\u00eda M\u00f3vil & Internet en tu Hogar",
+          "link": "https://www.personal.com.ar/",
+          "snippet": "Encontr\u00e1 ofertas de internet para tu hogar y telefon\u00eda m\u00f3vil con Personal. Contrat\u00e1 hoy y disfrut\u00e1 de beneficios exclusivos por tener m\u00e1s de un servicio de Personal y Flow.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Personal - definition of personal by The Free Dictionary",
+          "link": "https://www.thefreedictionary.com/personal",
+          "snippet": "Define personal. personal synonyms, personal pronunciation, personal translation, English dictionary definition of personal. relating to a particular person; private: a personal matter Not to be confu",
+          "backend": "searxng"
+        },
+        {
+          "title": "Personal Banking Services | NRI, Business, & Online Banking | Federal \u2026",
+          "link": "https://www.federal.bank.in/",
+          "snippet": "20 hours ago \u00b7 Apply for Personal Loan Enjoy instant access to money with minimal paperwork and flexible repayment options. Perfect for urgent needs or planned expenses. Know More",
+          "backend": "searxng"
+        },
+        {
+          "title": "Mi Personal: gestion\u00e1 tu cuenta desde la App | Personal",
+          "link": "https://www.personal.com.ar/mipersonal",
+          "snippet": "Descarg\u00e1 la App Mi Personal y pag\u00e1 tus facturas, recarg\u00e1 cr\u00e9dito y compr\u00e1 Gigas a trav\u00e9s de la secci\u00f3n Mi Cuenta Personal. Consult\u00e1 tus consumos y gestion\u00e1 tu cuenta en un solo lugar.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Personal: Definition, Meaning, and Examples - usdictionary.com",
+          "link": "https://usdictionary.com/definitions/personal/",
+          "snippet": "Sep 18, 2025 \u00b7 Personal (noun): A short written note or advertisement in a newspaper or magazine directed at an individual. The word \"personal\" describes something relating to or affecting a particula",
+          "backend": "searxng"
+        },
+        {
+          "title": "PERSONAL definition and meaning | Collins English Dictionary",
+          "link": "https://www.collinsdictionary.com/dictionary/english/personal",
+          "snippet": "A personal opinion, quality, or thing belongs or relates to one particular person rather than to other people. He learned this lesson the hard way\u2013from his own personal experience. That's my personal ",
+          "backend": "searxng"
+        },
+        {
+          "title": "PERSONAL Definition & Meaning | Dictionary.com",
+          "link": "https://www.dictionary.com/browse/personal",
+          "snippet": "PERSONAL definition: of, relating to, or coming as from a particular person; individual; private. See examples of personal used in a sentence.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Channel Partners will Drive New Cloud Computing Growth",
+          "link": "https://blog.geoactivegroup.com/2019/02/channel-partners-will-drive-new-cloud.html",
+          "snippet": "The role of channel partners in cloud services is growing in importance as a direct result of these trends. In particular, understanding customer requirements, recommending services, deployment and in",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Create your Microsoft account",
+          "link": "https://signup.live.com/?lic=1",
+          "snippet": "Microsoft account \u2013 free personal email and calendar from \u2026",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Free Trial Download - Kaspersky Premium Antivirus | Kaspersky",
+          "link": "https://www.kaspersky.com/downloads/premium-free-trial",
+          "snippet": "Kaspersky TIP. Support. Cloud Console. Product Training & Certification.Transparency. Corporate News. Press center. Kaspersky Academy.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Personal | Telefon\u00eda M\u00f3vil & Internet en tu Hogar",
+          "link": "https://www.personal.com.ar/",
+          "snippet": "Encontr\u00e1 ofertas de internet para tu hogar y telefon\u00eda m\u00f3vil con Personal. Contrat\u00e1 hoy y disfrut\u00e1 de beneficios exclusivos por tener m\u00e1s de un servicio de Personal y Flow.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Personal - definition of personal by The Free Dictionary",
+          "link": "https://www.thefreedictionary.com/personal",
+          "snippet": "Define personal. personal synonyms, personal pronunciation, personal translation, English dictionary definition of personal. relating to a particular person; private: a personal matter Not to be confu",
+          "backend": "searxng"
+        },
+        {
+          "title": "Personal Banking Services | NRI, Business, & Online Banking | Federal \u2026",
+          "link": "https://www.federal.bank.in/",
+          "snippet": "20 hours ago \u00b7 Apply for Personal Loan Enjoy instant access to money with minimal paperwork and flexible repayment options. Perfect for urgent needs or planned expenses. Know More",
+          "backend": "searxng"
+        },
+        {
+          "title": "Mi Personal: gestion\u00e1 tu cuenta desde la App | Personal",
+          "link": "https://www.personal.com.ar/mipersonal",
+          "snippet": "Descarg\u00e1 la App Mi Personal y pag\u00e1 tus facturas, recarg\u00e1 cr\u00e9dito y compr\u00e1 Gigas a trav\u00e9s de la secci\u00f3n Mi Cuenta Personal. Consult\u00e1 tus consumos y gestion\u00e1 tu cuenta en un solo lugar.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Personal: Definition, Meaning, and Examples - usdictionary.com",
+          "link": "https://usdictionary.com/definitions/personal/",
+          "snippet": "Sep 18, 2025 \u00b7 Personal (noun): A short written note or advertisement in a newspaper or magazine directed at an individual. The word \"personal\" describes something relating to or affecting a particula",
+          "backend": "searxng"
+        },
+        {
+          "title": "PERSONAL definition and meaning | Collins English Dictionary",
+          "link": "https://www.collinsdictionary.com/dictionary/english/personal",
+          "snippet": "A personal opinion, quality, or thing belongs or relates to one particular person rather than to other people. He learned this lesson the hard way\u2013from his own personal experience. That's my personal ",
+          "backend": "searxng"
+        },
+        {
+          "title": "PERSONAL Definition & Meaning | Dictionary.com",
+          "link": "https://www.dictionary.com/browse/personal",
+          "snippet": "PERSONAL definition: of, relating to, or coming as from a particular person; individual; private. See examples of personal used in a sentence.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Channel Partners will Drive New Cloud Computing Growth",
+          "link": "https://blog.geoactivegroup.com/2019/02/channel-partners-will-drive-new-cloud.html",
+          "snippet": "The role of channel partners in cloud services is growing in importance as a direct result of these trends. In particular, understanding customer requirements, recommending services, deployment and in",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Create your Microsoft account",
+          "link": "https://signup.live.com/?lic=1",
+          "snippet": "Microsoft account \u2013 free personal email and calendar from \u2026",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Free Trial Download - Kaspersky Premium Antivirus | Kaspersky",
+          "link": "https://www.kaspersky.com/downloads/premium-free-trial",
+          "snippet": "Kaspersky TIP. Support. Cloud Console. Product Training & Certification.Transparency. Corporate News. Press center. Kaspersky Academy.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "personal cloud solutions distributor official site",
+      "level": "discovery",
+      "result_count": 5,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "ASUSTOR NAS Storage | Personal Clouds AKA NAS(Network...)",
+          "link": "https://www.asustor.com/",
+          "snippet": "Stop paying for subscriptions for storage you don\u2019t own. ASUSTOR NAS devices create a private and secure cloud that automatically back up every photo and video from your phone with zero additional cos",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Personal File Sharing & Cloud Storage | Microsoft OneDrive",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage",
+          "snippet": "Discover OneDrive for secure and convenient file and document sharing. Get personal cloud storage for seamless file sharing with your family and friends.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Personal Cloud Storage & File Sharing Platform - Google",
+          "link": "https://www.google.com/intx/en/drive/",
+          "snippet": "Learn about Google Drive\u2019s file sharing platform that provides a personal, secure cloud storage option to share content with other users.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Zima: Elevating Your Computing Experience with ZimaBoard Servers...",
+          "link": "https://www.zimaspace.com/",
+          "snippet": "Experience the future of computing with Zima. Discover innovative products including ZimaBoard single board servers, ZimaBlade Personal NAS, ZimaCube Personal Cloud, and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "seagate.com",
+          "link": "https://www.seagate.com/",
+          "snippet": "Seagate Personal Cloud 2-bay User Manual.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "ASUSTOR NAS Storage | Personal Clouds AKA NAS(Network...)",
+          "link": "https://www.asustor.com/",
+          "snippet": "Stop paying for subscriptions for storage you don\u2019t own. ASUSTOR NAS devices create a private and secure cloud that automatically back up every photo and video from your phone with zero additional cos",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Personal File Sharing & Cloud Storage | Microsoft OneDrive",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage",
+          "snippet": "Discover OneDrive for secure and convenient file and document sharing. Get personal cloud storage for seamless file sharing with your family and friends.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Personal Cloud Storage & File Sharing Platform - Google",
+          "link": "https://www.google.com/intx/en/drive/",
+          "snippet": "Learn about Google Drive\u2019s file sharing platform that provides a personal, secure cloud storage option to share content with other users.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Zima: Elevating Your Computing Experience with ZimaBoard Servers...",
+          "link": "https://www.zimaspace.com/",
+          "snippet": "Experience the future of computing with Zima. Discover innovative products including ZimaBoard single board servers, ZimaBlade Personal NAS, ZimaCube Personal Cloud, and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "seagate.com",
+          "link": "https://www.seagate.com/",
+          "snippet": "Seagate Personal Cloud 2-bay User Manual.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P7": {
+      "query": "personal cloud services reseller corporate site",
+      "level": "discovery",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Personal Cloud Storage & File Sharing Platform - Google",
+          "link": "https://www.google.com/intx/en/drive/",
+          "snippet": "Learn about Google Drive\u2019s file sharing platform that provides a personal, secure cloud storage option to share content with other users.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Personal Cloud Storage & File Sharing Platform - Google",
+          "link": "https://www.google.com/intx/en/drive/",
+          "snippet": "Learn about Google Drive\u2019s file sharing platform that provides a personal, secure cloud storage option to share content with other users.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

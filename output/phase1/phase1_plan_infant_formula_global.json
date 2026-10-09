@@ -1,0 +1,1888 @@
+{
+  "phase": 1,
+  "query": "Infant Formula Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T21:43:06.971830+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "infant formula",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "food and nutrition",
+    "industry_terms": [
+      "infant formula",
+      "baby formula",
+      "nutritional products",
+      "powdered formula",
+      "liquid formula"
+    ],
+    "ecosystem_functions": [
+      "manufacturing infant formula",
+      "distributing products",
+      "reselling to consumers",
+      "integrating supply chains",
+      "providing services to retailers",
+      "partnering with manufacturers",
+      "wholesaling products",
+      "retailing infant formula"
+    ],
+    "interpretation_summary": "The infant formula market encompasses products designed for infant nutrition, primarily targeting infants who are not breastfed. Participants include manufacturers, distributors, wholesalers, and retailers operating glob",
+    "relevance_keywords": [
+      "infant nutrition",
+      "formula feeding",
+      "baby food products",
+      "nutritional supplements",
+      "infant formula brands"
+    ],
+    "negative_keywords": [
+      "adult nutrition",
+      "pet food",
+      "unrelated products",
+      "healthcare services",
+      "non-infant products"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "Nestl\u00e9",
+        "primary_domain": "nestle.com",
+        "company_function": "infant formula manufacturer"
+      },
+      {
+        "canonical_name": "Danone",
+        "primary_domain": "danone.com",
+        "company_function": "infant formula manufacturer"
+      },
+      {
+        "canonical_name": "Abbott Laboratories",
+        "primary_domain": "abbott.com",
+        "company_function": "infant formula manufacturer"
+      },
+      {
+        "canonical_name": "Mead Johnson Nutrition",
+        "primary_domain": "meadjohnson.com",
+        "company_function": "infant formula manufacturer"
+      },
+      {
+        "canonical_name": "Reckitt Benckiser",
+        "primary_domain": "reckitt.com",
+        "company_function": "infant formula manufacturer"
+      },
+      {
+        "canonical_name": "Boram Pharmaceutical",
+        "primary_domain": "borampharma.com",
+        "company_function": "infant formula distributor"
+      },
+      {
+        "canonical_name": "Pioneer Foods",
+        "primary_domain": "pioneerfoods.co.za",
+        "company_function": "infant formula distributor"
+      },
+      {
+        "canonical_name": "Kraft Heinz",
+        "primary_domain": "kraftheinz.com",
+        "company_function": "infant formula wholesaler"
+      },
+      {
+        "canonical_name": "Aptamil",
+        "primary_domain": "aptamil.com",
+        "company_function": "infant formula reseller",
+        "segment": "Resellers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Amazon",
+        "primary_domain": "amazon.com",
+        "company_function": "online reseller of infant formula",
+        "segment": "Resellers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Walmart",
+        "primary_domain": "walmart.com",
+        "company_function": "retailer of infant formula",
+        "segment": "Retailers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Target",
+        "primary_domain": "target.com",
+        "company_function": "retailer of infant formula",
+        "segment": "Retailers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "CVS Health",
+        "primary_domain": "cvs.com",
+        "company_function": "retailer of infant formula",
+        "segment": "Retailers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Alibaba",
+        "primary_domain": "alibaba.com",
+        "company_function": "online reseller of infant formula",
+        "segment": "Resellers",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "infant formula",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "infant formula",
+    "include_keywords": [
+      "infant milk powder",
+      "baby formula distributor",
+      "organic infant formula",
+      "nutritional infant products",
+      "infant formula wholesaler"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The infant formula market encompasses products designed for infant nutrition, primarily targeting infants who are not breastfed. Participants include manufacturers, distributors, wholesalers, and retailers operating globally to meet the nutritional needs of infants.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Manufacturing",
+        "description": "Production of infant formula products, including various formulations and packaging.",
+        "segments": [
+          {
+            "segment_name": "Infant Formula Manufacturers",
+            "sub_segments": [
+              "Powdered formula",
+              "Liquid formula",
+              "Organic formula"
+            ],
+            "participant_types": [
+              "manufacturer"
+            ],
+            "search_intents": [
+              "infant formula manufacturers",
+              "baby formula production companies"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L2",
+        "layer_name": "Distribution",
+        "description": "Channels through which infant formula products are distributed to retailers and end-users.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Regional distributors",
+              "National distributors"
+            ],
+            "participant_types": [
+              "distributor",
+              "wholesaler"
+            ],
+            "search_intents": [
+              "infant formula distributors",
+              "wholesale infant formula suppliers"
+            ]
+          },
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Online resellers",
+              "Retail resellers"
+            ],
+            "participant_types": [
+              "reseller"
+            ],
+            "search_intents": [
+              "infant formula resellers",
+              "buy infant formula online"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L3",
+        "layer_name": "Retail",
+        "description": "Final sales channels where consumers purchase infant formula.",
+        "segments": [
+          {
+            "segment_name": "Retailers",
+            "sub_segments": [
+              "Supermarkets",
+              "Pharmacies",
+              "Online retailers"
+            ],
+            "participant_types": [
+              "retailer"
+            ],
+            "search_intents": [
+              "infant formula retailers",
+              "buy infant formula in stores"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Breastfeeding products",
+        "Baby food",
+        "Nutritional supplements",
+        "Healthcare services",
+        "Retail baby products"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "search for infant formula manufacturers",
+        "sub_sector": "infant_formula_manufacturer",
+        "layer_id": "L1",
+        "segment": "Infant Formula Manufacturers"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "find distributors of infant formula",
+        "sub_sector": "infant_formula_distributor",
+        "layer_id": "L2",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "search for infant formula resellers",
+        "sub_sector": "infant_formula_reseller",
+        "layer_id": "L2",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "find retailers selling infant formula",
+        "sub_sector": "infant_formula_retailer",
+        "layer_id": "L3",
+        "segment": "Retailers"
+      },
+      {
+        "id": "M5",
+        "level": "market_map",
+        "text": "search for wholesalers of infant formula",
+        "sub_sector": "infant_formula_wholesaler",
+        "layer_id": "L2",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M6",
+        "level": "market_map",
+        "text": "find channel partners for infant formula",
+        "sub_sector": "infant_formula_channel_partner",
+        "layer_id": "L2",
+        "segment": "Channel Partners"
+      },
+      {
+        "id": "M7",
+        "level": "market_map",
+        "text": "search for service providers in infant formula distribution",
+        "sub_sector": "infant_formula_service_provider",
+        "layer_id": "L2",
+        "segment": "Service Providers"
+      },
+      {
+        "id": "M8",
+        "level": "market_map",
+        "text": "find system integrators for infant formula supply chain",
+        "sub_sector": "infant_formula_system_integrator",
+        "layer_id": "L2",
+        "segment": "System Integrators"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "food and nutrition",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "infant formula companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "infant formula distributors corporate sites"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "infant formula wholesalers official website"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "market_map",
+      "text": "search for infant formula manufacturers"
+    },
+    {
+      "id": "P2",
+      "level": "market_map",
+      "text": "find distributors of infant formula"
+    },
+    {
+      "id": "P3",
+      "level": "market_map",
+      "text": "search for infant formula resellers"
+    },
+    {
+      "id": "P4",
+      "level": "market_map",
+      "text": "find retailers selling infant formula"
+    },
+    {
+      "id": "P5",
+      "level": "market_map",
+      "text": "search for wholesalers of infant formula"
+    },
+    {
+      "id": "P6",
+      "level": "market_map",
+      "text": "find channel partners for infant formula"
+    },
+    {
+      "id": "P7",
+      "level": "market_map",
+      "text": "search for service providers in infant formula distribution"
+    },
+    {
+      "id": "P8",
+      "level": "market_map",
+      "text": "find system integrators for infant formula supply chain"
+    },
+    {
+      "id": "P9",
+      "level": "discovery",
+      "text": "infant formula distributor corporate headquarters"
+    },
+    {
+      "id": "P10",
+      "level": "discovery",
+      "text": "infant formula wholesaler official site"
+    },
+    {
+      "id": "P11",
+      "level": "discovery",
+      "text": "infant formula reseller corporate site"
+    },
+    {
+      "id": "P12",
+      "level": "discovery",
+      "text": "infant formula service provider official website"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "infant formula companies official websites",
+      "level": "L0",
+      "result_count": 16,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Infant formula - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Infant_formula",
+          "snippet": "Therefore, several companies that produce infant formula have added nucleotides to their infant formulas.[86].When birth rates in industrial nations tapered off during the 1960s, infant formula compan",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Products, Infant Formula & Toddler Drinks | Similac\u00ae",
+          "link": "https://www.similac.com/home.html",
+          "snippet": "Our quality products are designed to support your little one's nutrition needs\u2014from newborns to toddlers. Learn more about the #1 infant formula brand fed in hospitals.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Similac Formula and Nutrition Products - Abbott",
+          "link": "https://www.abbottnutrition.com/our-brands/similac",
+          "snippet": "Products Find infant formula options for supplementation, tolerance issues, and food allergies. Similac is the #1 brand fed in hospitals.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Infant Nutrition | corporate - Perrigo",
+          "link": "https://www.perrigo.com/infant-nutrition-0",
+          "snippet": "Perrigo is the third largest manufacturer of infant formula for the U.S. and Canadian markets. We have been in the infant formula business since 1998. We are proud to provide parents and caregivers sa",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Our Best Baby Formula | Bobbie",
+          "link": "https://www.hibobbie.com/",
+          "snippet": "European style organic baby formula that meets the U.S. FDA's nutritional requirements. Bobbie is the only female-founded and mom-led baby formula company in the U.S.At 20mg per serving, Bobbie meets ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Kabrita USA | Goat Milk Infant Formula \u2013 Kabrita USA - United States",
+          "link": "https://kabrita.com/",
+          "snippet": "Sensitive Infant Formula. Closest Formula to Breastmilk. Goat Milk Formula Comparison.Kabrita Goat Milk-Based Infant Formula is clinically proven to support healthy growth for infants from birth to 12",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Questions & Answers for Consumers Concerning Infant Formula | FDA",
+          "link": "https://www.fda.gov/food/people-risk-foodborne-illness/questions-answers-consumers-concerning-infant-formula",
+          "snippet": "U.S. flag An official website of the United States government Here\u2019s how you know.Regular Infant Formula. Specialty Formulas for Infants with Special Medical Needs.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "World\u2019s Top 10 Infant Formula... | Market Research Reports\u00ae Inc.",
+          "link": "https://www.marketresearchreports.com/blog/worlds-top-10-infant-formula-manufacturers",
+          "snippet": "The baby/infant formula market is largely dominated by three players Nestle, Danone and Reckitt Benckiser (Mead Johnson). These three companies together control more than 45% of global market share. T",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Infant Formula: How and Why to Make Your Own - Dr. Cate",
+          "link": "https://drcate.com/infant-formula-how-and-why-to-make-your-own/",
+          "snippet": "Infant Formula is Made By Companies That Sell Processed Food. Formula Lacks Nearly Half the Necessary Brain Building Fatty Acids. Why Formula is Deficient in Omega-3.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Baby formula startups have made gains but still face obstacles",
+          "link": "https://www.modernretail.co/operations/two-years-after-a-formula-shortage-startups-have-made-gains-but-innovation-remains-difficult/",
+          "snippet": "Infant formula shelves in supermarkets and pharmacies around the country got more crowded this year.The Infant Formula Made in America Act would create a 30% tax credit for companies that manufacture ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Infant Formula Market Size, Share, Trends & Growth [2034]",
+          "link": "https://www.fortunebusinessinsights.com/industry-reports/infant-formula-market-101498",
+          "snippet": "Infant formula companies are also investing in research and development of new ingredients, which can add value to infant formula products.List of top infant formula companies: Nestle S.A. (Switzerlan",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Parents deserve clarity in the formula aisle. That\u2019s why our founders...",
+          "link": "https://www.linkedin.com/posts/byheartnutrition_parents-deserve-clarity-in-the-formula-aisle-activity-7379960947169345536-8DSV",
+          "snippet": "That\u2019s why our founders, Ron and Mia, created ByHeart: an infant formula made with certified-clean ingredients, proven in one of the largest clinical trials by an infant formula company in 25+ years.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mumamoo Is Here To Shake The Stigma Around Formula... - The Inarra",
+          "link": "https://theinarra.com/features/mumamoo/",
+          "snippet": "Since 1992, the government legislation has ruled that infant formula companies cannot advertise or promote infant formula. According to the official website, these measures are put in place to \u2018ensure",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Can this startup engineer a better baby formula? - Fast Company",
+          "link": "https://www.fastcompany.com/90639417/can-this-startup-engineer-a-better-baby-formula",
+          "snippet": "Just three companies control 90% of the baby formula market. ByHeart wants to manufacture its own\u2014and make it as chemically close to breast milk as possible.When it is on the market, expected later in",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "FAQs - Infant Nutrition Council of America",
+          "link": "https://infantnutrition.org/faqs/",
+          "snippet": "Infant formula companies have a reimbursement program for outdated products, as well as policies that encourage stores not to sell products past their use by date. Some states have also passed laws pr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Enfamil - Our Brands - Reckitt",
+          "link": "https://www.reckitt.com/us/our-brands/enfamil/",
+          "snippet": "We provide trusted nutrition to fuel wonder every step of the way Our commitment to providing the very best in infant and toddler nutrition products has made Enfamil\u00ae the #1 infant formula brand recom",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Infant formula - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Infant_formula",
+          "snippet": "Therefore, several companies that produce infant formula have added nucleotides to their infant formulas.[86].When birth rates in industrial nations tapered off during the 1960s, infant formula compan",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Products, Infant Formula & Toddler Drinks | Similac\u00ae",
+          "link": "https://www.similac.com/home.html",
+          "snippet": "Our quality products are designed to support your little one's nutrition needs\u2014from newborns to toddlers. Learn more about the #1 infant formula brand fed in hospitals.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Similac Formula and Nutrition Products - Abbott",
+          "link": "https://www.abbottnutrition.com/our-brands/similac",
+          "snippet": "Products Find infant formula options for supplementation, tolerance issues, and food allergies. Similac is the #1 brand fed in hospitals.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Infant Nutrition | corporate - Perrigo",
+          "link": "https://www.perrigo.com/infant-nutrition-0",
+          "snippet": "Perrigo is the third largest manufacturer of infant formula for the U.S. and Canadian markets. We have been in the infant formula business since 1998. We are proud to provide parents and caregivers sa",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Our Best Baby Formula | Bobbie",
+          "link": "https://www.hibobbie.com/",
+          "snippet": "European style organic baby formula that meets the U.S. FDA's nutritional requirements. Bobbie is the only female-founded and mom-led baby formula company in the U.S.At 20mg per serving, Bobbie meets ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Kabrita USA | Goat Milk Infant Formula \u2013 Kabrita USA - United States",
+          "link": "https://kabrita.com/",
+          "snippet": "Sensitive Infant Formula. Closest Formula to Breastmilk. Goat Milk Formula Comparison.Kabrita Goat Milk-Based Infant Formula is clinically proven to support healthy growth for infants from birth to 12",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Questions & Answers for Consumers Concerning Infant Formula | FDA",
+          "link": "https://www.fda.gov/food/people-risk-foodborne-illness/questions-answers-consumers-concerning-infant-formula",
+          "snippet": "U.S. flag An official website of the United States government Here\u2019s how you know.Regular Infant Formula. Specialty Formulas for Infants with Special Medical Needs.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "World\u2019s Top 10 Infant Formula... | Market Research Reports\u00ae Inc.",
+          "link": "https://www.marketresearchreports.com/blog/worlds-top-10-infant-formula-manufacturers",
+          "snippet": "The baby/infant formula market is largely dominated by three players Nestle, Danone and Reckitt Benckiser (Mead Johnson). These three companies together control more than 45% of global market share. T",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Infant Formula: How and Why to Make Your Own - Dr. Cate",
+          "link": "https://drcate.com/infant-formula-how-and-why-to-make-your-own/",
+          "snippet": "Infant Formula is Made By Companies That Sell Processed Food. Formula Lacks Nearly Half the Necessary Brain Building Fatty Acids. Why Formula is Deficient in Omega-3.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Baby formula startups have made gains but still face obstacles",
+          "link": "https://www.modernretail.co/operations/two-years-after-a-formula-shortage-startups-have-made-gains-but-innovation-remains-difficult/",
+          "snippet": "Infant formula shelves in supermarkets and pharmacies around the country got more crowded this year.The Infant Formula Made in America Act would create a 30% tax credit for companies that manufacture ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Infant Formula Market Size, Share, Trends & Growth [2034]",
+          "link": "https://www.fortunebusinessinsights.com/industry-reports/infant-formula-market-101498",
+          "snippet": "Infant formula companies are also investing in research and development of new ingredients, which can add value to infant formula products.List of top infant formula companies: Nestle S.A. (Switzerlan",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Parents deserve clarity in the formula aisle. That\u2019s why our founders...",
+          "link": "https://www.linkedin.com/posts/byheartnutrition_parents-deserve-clarity-in-the-formula-aisle-activity-7379960947169345536-8DSV",
+          "snippet": "That\u2019s why our founders, Ron and Mia, created ByHeart: an infant formula made with certified-clean ingredients, proven in one of the largest clinical trials by an infant formula company in 25+ years.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mumamoo Is Here To Shake The Stigma Around Formula... - The Inarra",
+          "link": "https://theinarra.com/features/mumamoo/",
+          "snippet": "Since 1992, the government legislation has ruled that infant formula companies cannot advertise or promote infant formula. According to the official website, these measures are put in place to \u2018ensure",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Can this startup engineer a better baby formula? - Fast Company",
+          "link": "https://www.fastcompany.com/90639417/can-this-startup-engineer-a-better-baby-formula",
+          "snippet": "Just three companies control 90% of the baby formula market. ByHeart wants to manufacture its own\u2014and make it as chemically close to breast milk as possible.When it is on the market, expected later in",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "FAQs - Infant Nutrition Council of America",
+          "link": "https://infantnutrition.org/faqs/",
+          "snippet": "Infant formula companies have a reimbursement program for outdated products, as well as policies that encourage stores not to sell products past their use by date. Some states have also passed laws pr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Enfamil - Our Brands - Reckitt",
+          "link": "https://www.reckitt.com/us/our-brands/enfamil/",
+          "snippet": "We provide trusted nutrition to fuel wonder every step of the way Our commitment to providing the very best in infant and toddler nutrition products has made Enfamil\u00ae the #1 infant formula brand recom",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "infant formula distributors corporate sites",
+      "level": "L1",
+      "result_count": 15,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Infant formula - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Infant_formula",
+          "snippet": "Infant formula, also called baby formula, simply formula (American English), formula milk, baby milk, or infant milk (British English), is a manufactured food designed and marketed for feeding infants",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "15 Best Infant Formula Manufacturers and Suppliers (2026)",
+          "link": "https://usetorg.com/category/infant-formula",
+          "snippet": "Looking for trusted Infant Formula manufacturers to meet your business's sourcing needs? This category is tailored for B2B buyers, category managers, and procurement professionals seeking reliable sol",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 100 Infant Formula Manufacturers in 2026 | ensun",
+          "link": "https://ensun.io/search/infant-formula",
+          "snippet": "Identify and compare relevant B2B manufacturers, suppliers and retailers. Max. ABC Infant Formula emphasizes its commitment to providing high-quality, custom infant formulas designed with the health a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Infant Nutrition | corporate - Perrigo",
+          "link": "https://www.perrigo.com/infant-nutrition-0",
+          "snippet": "Just like their name-brand counterparts, store brand infant formulas are clinically studied and meet the same FDA standards. In addition to the \u201cvalue-priced\u201d formulas we make for our store brand cust",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Headquarters of Infant Formula Manufacturers Registered with ...",
+          "link": "https://www.vdh.virginia.gov/content/uploads/sites/44/2023/10/Infant-Formula-Manufacturers-2023.pdf",
+          "snippet": "A list is available of infant formula companies that currently have enforcement discretion from the FDA3 to import, sell, and/or distribute certain infant formula products on the U.S. market.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Nestle Infant Formula Controversy: Restricting the Marketing...",
+          "link": "https://web.archive.org/web/20180419111814id_/https://scholarlycommons.pacific.edu/cgi/viewcontent.cgi?article=1212&context=globe",
+          "snippet": "96. This infant formula controversy involves marketing practices regarding the distribution of free samples as well as free supplies.D. Distributor:Any manufacturer, supplier or individual engaged in ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Parents warned to avoid infant formula distributed by Texas...",
+          "link": "https://www.nbcdfw.com/news/local/recall-alert-local/fda-voluntary-recall-texas-infant-formula/3556551/",
+          "snippet": "FDA warns parents to avoid infant formula distributed by Prosper company. A sample of Crecelac Infant Powdered Goat Milk Infant Formula tested positive for cronobacter, FDA says.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Absolute Reports\u00ae - Global Organic Infant Formula Market",
+          "link": "https://www.absolutereports.com/global-organic-infant-formula-market-19639001",
+          "snippet": "Manufacturers Organic Infant Formula Manufacturing Sites and Area Served Table 11.Production Base and Market Concentration Rate of Raw Material Table 184. Key Suppliers of Raw Materials Table 185. Org",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Infant Formula Market size, share and insights... | Valuates Reports",
+          "link": "https://reports.valuates.com/market-reports/QYRE-Auto-38I7038/global-infant-formula",
+          "snippet": "Infant Formula market to reach $67.97B by 2030, growing at a 5.6% CAGR. Explore trends, top regions, and key product types. In-depth insights inside.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global and United States Hypoallergenic Infant Formula Market...",
+          "link": "https://www.qyresearch.com/reports/3206866/hypoallergenic-infant-formula",
+          "snippet": "Hypoallergenic Infant Formula Distributors 11.5 Hypoallergenic Infant Formula Customers. 12 Research Findings and Conclusion.Global Key Manufacturers of Hypoallergenic Infant Formula, Manufacturing Ba",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Anti-reflux Infant Formula Market Insights, Forecast to 2030",
+          "link": "https://www.giiresearch.com/report/qyr1501959-global-anti-reflux-infant-formula-market-insights.html",
+          "snippet": "This research report focuses on the Anti-reflux Infant Formula Market. It analyzes market size, trends and demand forecasts, as well as growth factors and challenges.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Able Groupe Recalling Products Labeled as Infant Formula... | FDA",
+          "link": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/able-groupe-recalling-products-labeled-infant-formula-formulas-have-insufficient-iron-levels",
+          "snippet": "These 8 infant formula product labels do not include the required statement. Furthermore, all of the infant formulas distributed by Able Group are not labeled as required by 21 CFR 107.10 and 107.20 a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Amino Acid Infant Formula... | Market Research Reports\u00ae Inc.",
+          "link": "https://www.marketresearchreports.com/mrrpb5/global-amino-acid-infant-formula-market-research-report-2024",
+          "snippet": "Market Research on Global Amino Acid Infant Formula Market Research Report 2024 having 86.00 pages and available at USD 2,900.00 from MarketResearchReports.com.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Infant Formula Ingredients Market... | Data Bridge Market Research",
+          "link": "https://www.databridgemarketresearch.com/reports/global-infant-formula-ingredients-market",
+          "snippet": "Global Infant Formula Ingredients Market Size, Share, and Trends Analysis Report \u2013 Industry Overview and Forecast to 2032.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "'We make a mistake with shoes [that's no problem] but\u2026 not with baby.....",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/34766454/",
+          "snippet": "Because of the risks associated with formula feeding, the OG-IFE provides limited circumstances when infant formula should be provided in aid. However, distributions against this guidance are common, ",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Infant formula - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Infant_formula",
+          "snippet": "Infant formula, also called baby formula, simply formula (American English), formula milk, baby milk, or infant milk (British English), is a manufactured food designed and marketed for feeding infants",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "15 Best Infant Formula Manufacturers and Suppliers (2026)",
+          "link": "https://usetorg.com/category/infant-formula",
+          "snippet": "Looking for trusted Infant Formula manufacturers to meet your business's sourcing needs? This category is tailored for B2B buyers, category managers, and procurement professionals seeking reliable sol",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 100 Infant Formula Manufacturers in 2026 | ensun",
+          "link": "https://ensun.io/search/infant-formula",
+          "snippet": "Identify and compare relevant B2B manufacturers, suppliers and retailers. Max. ABC Infant Formula emphasizes its commitment to providing high-quality, custom infant formulas designed with the health a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Infant Nutrition | corporate - Perrigo",
+          "link": "https://www.perrigo.com/infant-nutrition-0",
+          "snippet": "Just like their name-brand counterparts, store brand infant formulas are clinically studied and meet the same FDA standards. In addition to the \u201cvalue-priced\u201d formulas we make for our store brand cust",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Headquarters of Infant Formula Manufacturers Registered with ...",
+          "link": "https://www.vdh.virginia.gov/content/uploads/sites/44/2023/10/Infant-Formula-Manufacturers-2023.pdf",
+          "snippet": "A list is available of infant formula companies that currently have enforcement discretion from the FDA3 to import, sell, and/or distribute certain infant formula products on the U.S. market.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Nestle Infant Formula Controversy: Restricting the Marketing...",
+          "link": "https://web.archive.org/web/20180419111814id_/https://scholarlycommons.pacific.edu/cgi/viewcontent.cgi?article=1212&context=globe",
+          "snippet": "96. This infant formula controversy involves marketing practices regarding the distribution of free samples as well as free supplies.D. Distributor:Any manufacturer, supplier or individual engaged in ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Parents warned to avoid infant formula distributed by Texas...",
+          "link": "https://www.nbcdfw.com/news/local/recall-alert-local/fda-voluntary-recall-texas-infant-formula/3556551/",
+          "snippet": "FDA warns parents to avoid infant formula distributed by Prosper company. A sample of Crecelac Infant Powdered Goat Milk Infant Formula tested positive for cronobacter, FDA says.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Absolute Reports\u00ae - Global Organic Infant Formula Market",
+          "link": "https://www.absolutereports.com/global-organic-infant-formula-market-19639001",
+          "snippet": "Manufacturers Organic Infant Formula Manufacturing Sites and Area Served Table 11.Production Base and Market Concentration Rate of Raw Material Table 184. Key Suppliers of Raw Materials Table 185. Org",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Infant Formula Market size, share and insights... | Valuates Reports",
+          "link": "https://reports.valuates.com/market-reports/QYRE-Auto-38I7038/global-infant-formula",
+          "snippet": "Infant Formula market to reach $67.97B by 2030, growing at a 5.6% CAGR. Explore trends, top regions, and key product types. In-depth insights inside.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global and United States Hypoallergenic Infant Formula Market...",
+          "link": "https://www.qyresearch.com/reports/3206866/hypoallergenic-infant-formula",
+          "snippet": "Hypoallergenic Infant Formula Distributors 11.5 Hypoallergenic Infant Formula Customers. 12 Research Findings and Conclusion.Global Key Manufacturers of Hypoallergenic Infant Formula, Manufacturing Ba",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Anti-reflux Infant Formula Market Insights, Forecast to 2030",
+          "link": "https://www.giiresearch.com/report/qyr1501959-global-anti-reflux-infant-formula-market-insights.html",
+          "snippet": "This research report focuses on the Anti-reflux Infant Formula Market. It analyzes market size, trends and demand forecasts, as well as growth factors and challenges.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Able Groupe Recalling Products Labeled as Infant Formula... | FDA",
+          "link": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/able-groupe-recalling-products-labeled-infant-formula-formulas-have-insufficient-iron-levels",
+          "snippet": "These 8 infant formula product labels do not include the required statement. Furthermore, all of the infant formulas distributed by Able Group are not labeled as required by 21 CFR 107.10 and 107.20 a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Amino Acid Infant Formula... | Market Research Reports\u00ae Inc.",
+          "link": "https://www.marketresearchreports.com/mrrpb5/global-amino-acid-infant-formula-market-research-report-2024",
+          "snippet": "Market Research on Global Amino Acid Infant Formula Market Research Report 2024 having 86.00 pages and available at USD 2,900.00 from MarketResearchReports.com.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Infant Formula Ingredients Market... | Data Bridge Market Research",
+          "link": "https://www.databridgemarketresearch.com/reports/global-infant-formula-ingredients-market",
+          "snippet": "Global Infant Formula Ingredients Market Size, Share, and Trends Analysis Report \u2013 Industry Overview and Forecast to 2032.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "'We make a mistake with shoes [that's no problem] but\u2026 not with baby.....",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/34766454/",
+          "snippet": "Because of the risks associated with formula feeding, the OG-IFE provides limited circumstances when infant formula should be provided in aid. However, distributions against this guidance are common, ",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "infant formula wholesalers official website",
+      "level": "L2",
+      "result_count": 8,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "WIC Eligibility Requirements to Bid on State Agency Infant Formula...",
+          "link": "https://www.fns.usda.gov/wic/requirements-infant-formula-contracts",
+          "snippet": "Official websites use .gov A .gov website belongs to an official government organization in the United States.Infant formula rebate contracts significantly lower WIC food costs and allow the program t",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Kabrita USA | Goat Milk Infant Formula \u2013 Kabrita USA - United States",
+          "link": "https://kabrita.com/",
+          "snippet": "Kabrita Goat Milk-Based Infant Formula is clinically proven to support healthy growth for infants from birth to 12 months. It's the first European and only goat milk-based infant formula to meet all F",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Infant Formula Export Companies List",
+          "link": "https://www.turkishexporter.com.tr/en/companies/infant-formula.htm",
+          "snippet": "Infant Formula manufacturers, Infant Formula export companies list - B2b wholesalers, exporters, suppliers worldwide.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Infant Formula, Infant Formula Suppliers & Infant Formula...",
+          "link": "https://www.tradekey.com/products/infant-formula.html",
+          "snippet": "Find Infant formula Manufacturers, Infant formula Suppliers & Wholesalers of Infant formula from China, Hong Kong, USA & Infant formula Products from India at TradeKey.com.Milk Powder And Infant Formu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "infant formula - offers from infant formula manufacturers, suppliers...",
+          "link": "https://www.ec21.com/ks-infant-formula/",
+          "snippet": "infant formula Manufacturers Directory 3 million global importers and exporters infant formula suppliers, manufacturers, wholesalers, infant formula sellers, traders, exporters and distributors from C",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Goat's Milk Formula Wholesalers | The LittleOak Company USA",
+          "link": "https://thelittleoakcompany.com/wholesale/",
+          "snippet": "Natural Goat Milk Infant Formula.Interested in stocking LittleOak products? Please fill out the below form to sign up to be a wholesaler for LittleOak baby formula. We will then be in touch shortly wi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Requirements and Best Practices for Oversight of the Infant Formula...",
+          "link": "https://fns-prod.azureedge.us/wic/infant-formula-suppliers-tip-sheet",
+          "snippet": "An official website of the United States government.This includes ensuring WIC authorized vendors purchase infant formula only from the SA\u2019s list of licensed wholesalers, distributors, retailers, and ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "P.L. 89-642",
+          "link": "https://www.ssa.gov/OP_Home/comp2/F089-642.html",
+          "snippet": "Official websites use .gov A .gov website belongs to an official government organization in the United States.(I) infant formula wholesalers, distributors, and retailers licensed in the State in accor",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "WIC Eligibility Requirements to Bid on State Agency Infant Formula...",
+          "link": "https://www.fns.usda.gov/wic/requirements-infant-formula-contracts",
+          "snippet": "Official websites use .gov A .gov website belongs to an official government organization in the United States.Infant formula rebate contracts significantly lower WIC food costs and allow the program t",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Kabrita USA | Goat Milk Infant Formula \u2013 Kabrita USA - United States",
+          "link": "https://kabrita.com/",
+          "snippet": "Kabrita Goat Milk-Based Infant Formula is clinically proven to support healthy growth for infants from birth to 12 months. It's the first European and only goat milk-based infant formula to meet all F",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Infant Formula Export Companies List",
+          "link": "https://www.turkishexporter.com.tr/en/companies/infant-formula.htm",
+          "snippet": "Infant Formula manufacturers, Infant Formula export companies list - B2b wholesalers, exporters, suppliers worldwide.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Infant Formula, Infant Formula Suppliers & Infant Formula...",
+          "link": "https://www.tradekey.com/products/infant-formula.html",
+          "snippet": "Find Infant formula Manufacturers, Infant formula Suppliers & Wholesalers of Infant formula from China, Hong Kong, USA & Infant formula Products from India at TradeKey.com.Milk Powder And Infant Formu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "infant formula - offers from infant formula manufacturers, suppliers...",
+          "link": "https://www.ec21.com/ks-infant-formula/",
+          "snippet": "infant formula Manufacturers Directory 3 million global importers and exporters infant formula suppliers, manufacturers, wholesalers, infant formula sellers, traders, exporters and distributors from C",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Goat's Milk Formula Wholesalers | The LittleOak Company USA",
+          "link": "https://thelittleoakcompany.com/wholesale/",
+          "snippet": "Natural Goat Milk Infant Formula.Interested in stocking LittleOak products? Please fill out the below form to sign up to be a wholesaler for LittleOak baby formula. We will then be in touch shortly wi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Requirements and Best Practices for Oversight of the Infant Formula...",
+          "link": "https://fns-prod.azureedge.us/wic/infant-formula-suppliers-tip-sheet",
+          "snippet": "An official website of the United States government.This includes ensuring WIC authorized vendors purchase infant formula only from the SA\u2019s list of licensed wholesalers, distributors, retailers, and ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "P.L. 89-642",
+          "link": "https://www.ssa.gov/OP_Home/comp2/F089-642.html",
+          "snippet": "Official websites use .gov A .gov website belongs to an official government organization in the United States.(I) infant formula wholesalers, distributors, and retailers licensed in the State in accor",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "search for infant formula manufacturers",
+      "level": "market_map",
+      "result_count": 12,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "9 Best Infant Formula Manufacturers | Private Label, Bulk, Custom",
+          "link": "https://usetorg.com/category/infant-formula",
+          "snippet": "The 9 Best Infant Formula Manufacturers in the World. Looking for trusted Infant Formula manufacturers to meet your business's sourcing needs? This category is tailored for B2B buyers, category manage",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Infant Formula Manufacturers Decide Whether to Inform... | Truthout",
+          "link": "https://truthout.org/articles/infant-formula-manufacturers-decide-whether-to-inform-fda-about-possible-harm/",
+          "snippet": "The FDA\u2019s search results were consistent with court testimony. John Wallingford, a paid expert witness for Abbott, testified in a Missouri court in October 2024 that Abbott had never reported a single",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "WHO slams baby milk industry for rampant... - SWI swissinfo.ch",
+          "link": "https://www.swissinfo.ch/eng/business/who-slams-baby-milk-industry-for-rampant-manipulative-marketing/47369706",
+          "snippet": "Aggressive marketing of infant milk formula is more widespread and insidious despite a decades-long campaign to eradicate it, says a new study.Read more: The difficult search for real Swiss cows. In S",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "EWG Letter to Infant Formula Manufacturers | Environmental...",
+          "link": "https://www.ewg.org/news-insights/official-correspondence/ewg-letter-infant-formula-manufacturers",
+          "snippet": "infant formula, to the infant formula manufacturers listed below, to learn what manufacturers know about the level of this problematic chemical in their products. Wyeth Pharmaceuticals; Global Packagi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Infant Formula Manufacturers Refuse To Remove GMO And New...",
+          "link": "https://www.wakingtimes.com/infant-formula-manufacturers-refuse-to-remove-gmo-and-new-research-now-links-formula-to-chronic-disease/",
+          "snippet": "Nestle and Mead Johnson Nutrition recently dismissed calls to remove genetically-modified organisms (GMO) from their infant formula products in the US and now evidence is coming forth on long-term ris",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The infant formula industry is scaring new parents | Fortune",
+          "link": "https://fortune.com/well/2023/02/07/big-formulas-exploitative-marketing-tactics-prey-parents-fears/",
+          "snippet": "Infant formula manufacturers have used predatory marketing tactics to prey on the fears of new parents for decades\u2014to the tune of billions of dollars annually, according to a new series in The Lancet,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Addressing the Infant Formula Shortage | The White House",
+          "link": "https://bidenwhitehouse.archives.gov/formula/",
+          "snippet": "The infant formula shortage exists because Abbott closed a facility in Sturgis, Michigan due to safety concerns from the FDA. Progress so far: FDA and Abbott agreed on next steps to reopen the Sturgis",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "For Many Low-Income Families, Getting Formula... - KFF Health News",
+          "link": "https://kffhealthnews.org/health-care-costs/low-income-families-baby-formula-strain-wic/",
+          "snippet": "Search for: Trump 2.0.She worked a low-wage job and had mounting student debt, so the then-19-year-old turned to the Special Supplemental Nutrition Program for Women, Infants, and Children, known as W",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "FTC Launches Investigation Into Infant Formula Makers Over...",
+          "link": "https://www.nbcdfw.com/news/business/money-report/federal-trade-commission-launches-investigation-into-infant-formula-manufacturers-over-nationwide-shortage/2976599/",
+          "snippet": "Four infants who consumed formula made at the plant were hospitalized with bacterial infections, and two of them died. Abbott has said there's \"no conclusive evidence\" that its formula led to the hosp",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Formula for trouble: How the U.S. got into an infant formula... : NPR",
+          "link": "https://www.npr.org/2022/05/19/1099748064/baby-infant-formula-shortages",
+          "snippet": "Formula has been hard to find in some parts of the country since suspected contamination led to a recall and the shuttering of a big manufacturing plant in Michigan. That plant reportedly supplied as ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "FDA Releases Final Guidance on Protein Quality Testing for Infant...",
+          "link": "https://www.globalfoodconsumers.org/news/fda-releases-final-guidance-on-protein-quality-testing-for-infant-formula-manufacturers/",
+          "snippet": "Regulatory expectations for new infant formula submissions. Manufacturers and laboratories are encouraged to review the final guidance carefully before initiating PER studies.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Compliance of infant formula promotion",
+          "link": "https://www.scielo.br/j/rsp/a/8PhmdR8VXXDzyv5qFhvb4qj/?format=pdf&lang=en",
+          "snippet": "Infant formula manufacturers.Regarding the manufacturers, although there were warning statements in pop-ups when we searched for infant formulas in them, attention was drawn to the products.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "9 Best Infant Formula Manufacturers | Private Label, Bulk, Custom",
+          "link": "https://usetorg.com/category/infant-formula",
+          "snippet": "The 9 Best Infant Formula Manufacturers in the World. Looking for trusted Infant Formula manufacturers to meet your business's sourcing needs? This category is tailored for B2B buyers, category manage",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Infant Formula Manufacturers Decide Whether to Inform... | Truthout",
+          "link": "https://truthout.org/articles/infant-formula-manufacturers-decide-whether-to-inform-fda-about-possible-harm/",
+          "snippet": "The FDA\u2019s search results were consistent with court testimony. John Wallingford, a paid expert witness for Abbott, testified in a Missouri court in October 2024 that Abbott had never reported a single",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "WHO slams baby milk industry for rampant... - SWI swissinfo.ch",
+          "link": "https://www.swissinfo.ch/eng/business/who-slams-baby-milk-industry-for-rampant-manipulative-marketing/47369706",
+          "snippet": "Aggressive marketing of infant milk formula is more widespread and insidious despite a decades-long campaign to eradicate it, says a new study.Read more: The difficult search for real Swiss cows. In S",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "EWG Letter to Infant Formula Manufacturers | Environmental...",
+          "link": "https://www.ewg.org/news-insights/official-correspondence/ewg-letter-infant-formula-manufacturers",
+          "snippet": "infant formula, to the infant formula manufacturers listed below, to learn what manufacturers know about the level of this problematic chemical in their products. Wyeth Pharmaceuticals; Global Packagi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Infant Formula Manufacturers Refuse To Remove GMO And New...",
+          "link": "https://www.wakingtimes.com/infant-formula-manufacturers-refuse-to-remove-gmo-and-new-research-now-links-formula-to-chronic-disease/",
+          "snippet": "Nestle and Mead Johnson Nutrition recently dismissed calls to remove genetically-modified organisms (GMO) from their infant formula products in the US and now evidence is coming forth on long-term ris",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The infant formula industry is scaring new parents | Fortune",
+          "link": "https://fortune.com/well/2023/02/07/big-formulas-exploitative-marketing-tactics-prey-parents-fears/",
+          "snippet": "Infant formula manufacturers have used predatory marketing tactics to prey on the fears of new parents for decades\u2014to the tune of billions of dollars annually, according to a new series in The Lancet,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Addressing the Infant Formula Shortage | The White House",
+          "link": "https://bidenwhitehouse.archives.gov/formula/",
+          "snippet": "The infant formula shortage exists because Abbott closed a facility in Sturgis, Michigan due to safety concerns from the FDA. Progress so far: FDA and Abbott agreed on next steps to reopen the Sturgis",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "For Many Low-Income Families, Getting Formula... - KFF Health News",
+          "link": "https://kffhealthnews.org/health-care-costs/low-income-families-baby-formula-strain-wic/",
+          "snippet": "Search for: Trump 2.0.She worked a low-wage job and had mounting student debt, so the then-19-year-old turned to the Special Supplemental Nutrition Program for Women, Infants, and Children, known as W",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "FTC Launches Investigation Into Infant Formula Makers Over...",
+          "link": "https://www.nbcdfw.com/news/business/money-report/federal-trade-commission-launches-investigation-into-infant-formula-manufacturers-over-nationwide-shortage/2976599/",
+          "snippet": "Four infants who consumed formula made at the plant were hospitalized with bacterial infections, and two of them died. Abbott has said there's \"no conclusive evidence\" that its formula led to the hosp",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Formula for trouble: How the U.S. got into an infant formula... : NPR",
+          "link": "https://www.npr.org/2022/05/19/1099748064/baby-infant-formula-shortages",
+          "snippet": "Formula has been hard to find in some parts of the country since suspected contamination led to a recall and the shuttering of a big manufacturing plant in Michigan. That plant reportedly supplied as ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "FDA Releases Final Guidance on Protein Quality Testing for Infant...",
+          "link": "https://www.globalfoodconsumers.org/news/fda-releases-final-guidance-on-protein-quality-testing-for-infant-formula-manufacturers/",
+          "snippet": "Regulatory expectations for new infant formula submissions. Manufacturers and laboratories are encouraged to review the final guidance carefully before initiating PER studies.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Compliance of infant formula promotion",
+          "link": "https://www.scielo.br/j/rsp/a/8PhmdR8VXXDzyv5qFhvb4qj/?format=pdf&lang=en",
+          "snippet": "Infant formula manufacturers.Regarding the manufacturers, although there were warning statements in pop-ups when we searched for infant formulas in them, attention was drawn to the products.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P2": {
+      "query": "find distributors of infant formula",
+      "level": "market_map",
+      "result_count": 11,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Information on the Manufacture and Distribution of Infant Formula",
+          "link": "https://www.fda.gov/food/infant-formula-guidance-documents-regulatory-information/regulations-and-information-manufacture-and-distribution-infant-formula",
+          "snippet": "Regulations concerning infant formula recall can be found in 21 CFR Part 107 Subpart E- INFANT FORMULA RECALLS. Contact Us. Should you have any questions about this information, please call (240) 402-",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "eCFR :: 21 CFR Part 107 -- Infant Formula",
+          "link": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-107",
+          "snippet": "An exempt infant formula is an infant formula intended for commercial or charitable distribution that is represented and labeled for use by infants who have inborn errors of metabolism or low birth we",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Infant Nutrition Market - Share, Size and Industry Analysis",
+          "link": "https://www.coherentmarketinsights.com/market-insight/infant-nutrition-market-400",
+          "snippet": "Specialized Infant Formula targets infants with specific dietary requirements, such as lactose intolerance or sensitivity, providing niche but high-margin opportunities. Follow-On Formula, designed fo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Infant Formula Ingredients Market Size to Hit USD 61.07 Bn by 2035",
+          "link": "https://www.precedenceresearch.com/infant-formula-ingredients-market",
+          "snippet": "Infant Formula Ingredients Market Key Takeaways. Asia Pacific led the global market with the highest market share of 40% in 2025. By type, the infant milk formula segment captured the biggest revenue ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "What is infant formula, and how can scientists make it more like...",
+          "link": "https://cen.acs.org/food/food-ingredients/infant-formula-scientists-make-like/99/i1",
+          "snippet": "Infant formulas are sold as powders in a seemingly endless variety of formulations and are reconstituted with water before use. While many brands advertise specific ingredients, the majority contain t",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "What is Non-GMO Infant Formula?",
+          "link": "https://honest.com/blogs/baby/what-is-non-gmo-infant-formula",
+          "snippet": "Infant formulas labeled as \u201corganic\u201d do not include genetically engineered ingredients and also comply with the following USDA Organic regulations. The United States Department of Agriculture (USDA) o",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Baby Food and Infant Formula Manufacturing Plant Report 2026",
+          "link": "https://www.imarcgroup.com/baby-food-infant-formula-manufacturing-plant-project-report",
+          "snippet": "IMARC Group's report on baby food and infant formula manufacturing plant project provides detailed insights into business plan.This urgency increases demand for fortified, safe, and scientifically for",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The National Baby Formula Shortage... - Center for American Progress",
+          "link": "https://www.americanprogress.org/article/the-national-baby-formula-shortage-and-the-inequitable-u-s-food-system/",
+          "snippet": "About half of all infant formula is purchased by state agencies and distributed through the Special Supplemental Nutrition Program for Women, Infants, and Children (WIC). Federal law requires state WI",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "infant formula packaging Market Trends and Strategic Roadmap",
+          "link": "https://www.datainsightsmarket.com/reports/infant-formula-packaging-362624",
+          "snippet": "The global infant formula packaging market is projected to reach $3.3 billion by 2025, exhibiting a Compound Annual Growth Rate (CAGR) of 4.6% between 2025 and 2033.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "IBFAN 2004 - NESTL\u00c9 RESPONCE.doc",
+          "link": "https://www.nestle.com/sites/default/files/asset-library/documents/r_and_d/compliance/responses_to_ibfan_report_2004.pdf",
+          "snippet": "and Leaflets promoting NESTOGEN infant formula featuring a pack shot of the product and a huge bottle and teat are found in health facilities, shops and pharmacies.Labelling of infant formula V. Sampl",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The International Code of Marketing of Breastmilk Substitutes",
+          "link": "https://training.itcilo.org/actrav_cdrom1/english/global/guide/breast.htm",
+          "snippet": "\"Infant formula\" means a breastmilk substitute formulated industrially in accordance with applicable Codex Alimentarius standards, to satisfy the normal nutritional requirements of infants up to betwe",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Information on the Manufacture and Distribution of Infant Formula",
+          "link": "https://www.fda.gov/food/infant-formula-guidance-documents-regulatory-information/regulations-and-information-manufacture-and-distribution-infant-formula",
+          "snippet": "Regulations concerning infant formula recall can be found in 21 CFR Part 107 Subpart E- INFANT FORMULA RECALLS. Contact Us. Should you have any questions about this information, please call (240) 402-",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "eCFR :: 21 CFR Part 107 -- Infant Formula",
+          "link": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-107",
+          "snippet": "An exempt infant formula is an infant formula intended for commercial or charitable distribution that is represented and labeled for use by infants who have inborn errors of metabolism or low birth we",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Infant Nutrition Market - Share, Size and Industry Analysis",
+          "link": "https://www.coherentmarketinsights.com/market-insight/infant-nutrition-market-400",
+          "snippet": "Specialized Infant Formula targets infants with specific dietary requirements, such as lactose intolerance or sensitivity, providing niche but high-margin opportunities. Follow-On Formula, designed fo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Infant Formula Ingredients Market Size to Hit USD 61.07 Bn by 2035",
+          "link": "https://www.precedenceresearch.com/infant-formula-ingredients-market",
+          "snippet": "Infant Formula Ingredients Market Key Takeaways. Asia Pacific led the global market with the highest market share of 40% in 2025. By type, the infant milk formula segment captured the biggest revenue ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "What is infant formula, and how can scientists make it more like...",
+          "link": "https://cen.acs.org/food/food-ingredients/infant-formula-scientists-make-like/99/i1",
+          "snippet": "Infant formulas are sold as powders in a seemingly endless variety of formulations and are reconstituted with water before use. While many brands advertise specific ingredients, the majority contain t",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "What is Non-GMO Infant Formula?",
+          "link": "https://honest.com/blogs/baby/what-is-non-gmo-infant-formula",
+          "snippet": "Infant formulas labeled as \u201corganic\u201d do not include genetically engineered ingredients and also comply with the following USDA Organic regulations. The United States Department of Agriculture (USDA) o",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Baby Food and Infant Formula Manufacturing Plant Report 2026",
+          "link": "https://www.imarcgroup.com/baby-food-infant-formula-manufacturing-plant-project-report",
+          "snippet": "IMARC Group's report on baby food and infant formula manufacturing plant project provides detailed insights into business plan.This urgency increases demand for fortified, safe, and scientifically for",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The National Baby Formula Shortage... - Center for American Progress",
+          "link": "https://www.americanprogress.org/article/the-national-baby-formula-shortage-and-the-inequitable-u-s-food-system/",
+          "snippet": "About half of all infant formula is purchased by state agencies and distributed through the Special Supplemental Nutrition Program for Women, Infants, and Children (WIC). Federal law requires state WI",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "infant formula packaging Market Trends and Strategic Roadmap",
+          "link": "https://www.datainsightsmarket.com/reports/infant-formula-packaging-362624",
+          "snippet": "The global infant formula packaging market is projected to reach $3.3 billion by 2025, exhibiting a Compound Annual Growth Rate (CAGR) of 4.6% between 2025 and 2033.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "IBFAN 2004 - NESTL\u00c9 RESPONCE.doc",
+          "link": "https://www.nestle.com/sites/default/files/asset-library/documents/r_and_d/compliance/responses_to_ibfan_report_2004.pdf",
+          "snippet": "and Leaflets promoting NESTOGEN infant formula featuring a pack shot of the product and a huge bottle and teat are found in health facilities, shops and pharmacies.Labelling of infant formula V. Sampl",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The International Code of Marketing of Breastmilk Substitutes",
+          "link": "https://training.itcilo.org/actrav_cdrom1/english/global/guide/breast.htm",
+          "snippet": "\"Infant formula\" means a breastmilk substitute formulated industrially in accordance with applicable Codex Alimentarius standards, to satisfy the normal nutritional requirements of infants up to betwe",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P3": {
+      "query": "search for infant formula resellers",
+      "level": "market_map",
+      "result_count": 8,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Infant Formula Wholesale Suppliers, Manufacturers & Distributors",
+          "link": "https://www.go4worldbusiness.com/find?searchText=infant-formula&BuyersOrSuppliers=Suppliers",
+          "snippet": "Buy premium Infant Formula in bulk from verified wholesale suppliers and manufacturers. Best prices, bulk discounts, trusted deals at go4WorldBusiness.com.Enfamil Gentlease Infant Formula is a special",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Kabrita USA | Goat Milk Infant Formula \u2013 Kabrita USA - United States",
+          "link": "https://kabrita.com/",
+          "snippet": "Kabrita Goat Milk-Based Infant Formula is clinically proven to support healthy growth for infants from birth to 12 months. It's the first European and only goat milk-based infant formula to meet all F",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Addressing the Nation\u2019s Infant Formula Crisis",
+          "link": "https://www.americanprogress.org/article/addressing-the-nations-infant-formula-crisis/",
+          "snippet": "The infant and specialty formula shortages that have resulted in empty grocery store shelves have collided with skyrocketing food prices to create a serious crisis.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Formula Shortage Leaves Parents Paying eBay Scalper Prices",
+          "link": "https://www.valueaddedresource.net/infant-formula-shortage-ebay-scalpers/",
+          "snippet": "Desperate parents turning to eBay during infant formula shortage find rampant price gouging on the marketplace. Looking at sold history, this one seller has sold over $4,000 worth of baby formula on e",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Neocate Syneo Infant | Amino Acid-Based Baby Formula",
+          "link": "https://www.neocate.com/shop/hypoallergenic-formula-and-products/syneo-infant",
+          "snippet": "Neocate Syneo Infant is a specially formulated infant formula and should only be used under medical supervision. Can Neocate Syneo Infant be given through a feeding tube?",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Baby formula is getting harder to find - Boston News... | WHDH 7News",
+          "link": "https://whdh.com/news/baby-formula-is-getting-harder-to-find/",
+          "snippet": "\u201cInfant formula has become a top item for thieves because it is easy to quickly resell. Increasingly, we are seeing infant formula resold online,\u201d said Jason Brewer, spokesman for the trade group Reta",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Infant formula Sellers, Infant formula Manufacturers, Infant formula...",
+          "link": "https://market.tradeholding.com/default.cgi/action/viewcompanies/regular_sellers/infant+formula/",
+          "snippet": "Enzymotec: Seller of: krill oil, omega pc, infant formula, phosphatidylserine. Enzymotec Enzymotec develops and manufactures nutritional ingredients and medical foods, driven by a deep core of cutting",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Enfamil Enspire in Feeding - Walmart.com",
+          "link": "https://www.walmart.com/browse/baby/enfamil-enspire/5427_133283_5969071",
+          "snippet": "Shop Enfamil Optimum Enspire infant formula at Walmart. Compare powder, liquid, stage, ingredients, and prep details like formula scoops per ounce.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Infant Formula Wholesale Suppliers, Manufacturers & Distributors",
+          "link": "https://www.go4worldbusiness.com/find?searchText=infant-formula&BuyersOrSuppliers=Suppliers",
+          "snippet": "Buy premium Infant Formula in bulk from verified wholesale suppliers and manufacturers. Best prices, bulk discounts, trusted deals at go4WorldBusiness.com.Enfamil Gentlease Infant Formula is a special",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Kabrita USA | Goat Milk Infant Formula \u2013 Kabrita USA - United States",
+          "link": "https://kabrita.com/",
+          "snippet": "Kabrita Goat Milk-Based Infant Formula is clinically proven to support healthy growth for infants from birth to 12 months. It's the first European and only goat milk-based infant formula to meet all F",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Addressing the Nation\u2019s Infant Formula Crisis",
+          "link": "https://www.americanprogress.org/article/addressing-the-nations-infant-formula-crisis/",
+          "snippet": "The infant and specialty formula shortages that have resulted in empty grocery store shelves have collided with skyrocketing food prices to create a serious crisis.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Formula Shortage Leaves Parents Paying eBay Scalper Prices",
+          "link": "https://www.valueaddedresource.net/infant-formula-shortage-ebay-scalpers/",
+          "snippet": "Desperate parents turning to eBay during infant formula shortage find rampant price gouging on the marketplace. Looking at sold history, this one seller has sold over $4,000 worth of baby formula on e",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Neocate Syneo Infant | Amino Acid-Based Baby Formula",
+          "link": "https://www.neocate.com/shop/hypoallergenic-formula-and-products/syneo-infant",
+          "snippet": "Neocate Syneo Infant is a specially formulated infant formula and should only be used under medical supervision. Can Neocate Syneo Infant be given through a feeding tube?",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Baby formula is getting harder to find - Boston News... | WHDH 7News",
+          "link": "https://whdh.com/news/baby-formula-is-getting-harder-to-find/",
+          "snippet": "\u201cInfant formula has become a top item for thieves because it is easy to quickly resell. Increasingly, we are seeing infant formula resold online,\u201d said Jason Brewer, spokesman for the trade group Reta",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Infant formula Sellers, Infant formula Manufacturers, Infant formula...",
+          "link": "https://market.tradeholding.com/default.cgi/action/viewcompanies/regular_sellers/infant+formula/",
+          "snippet": "Enzymotec: Seller of: krill oil, omega pc, infant formula, phosphatidylserine. Enzymotec Enzymotec develops and manufactures nutritional ingredients and medical foods, driven by a deep core of cutting",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Enfamil Enspire in Feeding - Walmart.com",
+          "link": "https://www.walmart.com/browse/baby/enfamil-enspire/5427_133283_5969071",
+          "snippet": "Shop Enfamil Optimum Enspire infant formula at Walmart. Compare powder, liquid, stage, ingredients, and prep details like formula scoops per ounce.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P4": {
+      "query": "find retailers selling infant formula",
+      "level": "market_map",
+      "result_count": 8,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Infant Formula Market Size & Share, Growth Analysis 2025-2034",
+          "link": "https://www.gminsights.com/industry-analysis/infant-formula-market",
+          "snippet": "The infant formula market size was valued at USD 47.2 billion in 2024 and is projected to grow at a CAGR of 10.4% between 2025 and 2034, driven by the rising infant population and womens employment.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Kabrita USA | Goat Milk Infant Formula \u2013 Kabrita USA - United States",
+          "link": "https://kabrita.com/",
+          "snippet": "Kabrita Goat Milk Infant Formula is naturally easy to digest. non-GMO and made with quality ingredients, DHA & ARA included. Shop now or find in store.Kabrita Goat Milk-Based Infant Formula is clinica",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Selling Infant Formula Trends 2025",
+          "link": "https://www.accio.com/business/best-selling-infant-formula",
+          "snippet": "Discover the top best selling infant formula trends in 2025. Explore HMO-rich, sensitive, and organic options. Click to find trusted brands and expert-recommended choices for your baby's health.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Marketing infant formula in Australia | Australian Government...",
+          "link": "https://www.health.gov.au/topics/pregnancy-birth-and-baby/breastfeeding-infant-nutrition/marketing-infant-formula?language=hy",
+          "snippet": "Breastfeeding and infant nutrition. Marketing infant formula in Australia.hand out free formula to parents. give financial incentives to sales staff or health workers for selling or promoting formula.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Infant Formula Price Gouging Protections Update",
+          "link": "https://natlawreview.com/article/infant-formula-shortage-update",
+          "snippet": "On June 7, 2022, the D.C. Council passed the \u201cInfant Formula Consumer Protection Emergency Act.\u201d The Act, which will remain in effect for 90 days, targets companies selling baby formula at extremely h",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "WIC and the Retail Price of Infant Formula",
+          "link": "https://www.ers.usda.gov/webdocs/publications/46787/15958_fanrr39-1fm_1_.pdf?v=6893.4",
+          "snippet": "While most infant formula is sold in super-markets\u201469 percent in 2000\u2014the proportion of infant formula sold by mass merchan-disers (at prices typically below those in supermarkets) has increased sligh",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wal-Mart's Infant Formula Scam | HuffPost Impact",
+          "link": "https://www.huffpost.com/entry/wal-marts-infant-formula_b_769030",
+          "snippet": "Wal-Mart's Infant Formula Scam. The world's largest retailer was sued by the state of New Jersey two years ago for selling infant formula and over-the-counter drugs after the product expiration date. ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Interim report",
+          "link": "https://assets.publishing.service.gov.uk/media/672cce6ceee595f5288bdc10/_Interim_report_.pdf",
+          "snippet": "Figure 4.3: Monthly average retail selling price of 800g infant formula products, March 2019 to July 2024. Source: CMA analysis based on retailers\u2019 monthly average selling price data.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Infant Formula Market Size & Share, Growth Analysis 2025-2034",
+          "link": "https://www.gminsights.com/industry-analysis/infant-formula-market",
+          "snippet": "The infant formula market size was valued at USD 47.2 billion in 2024 and is projected to grow at a CAGR of 10.4% between 2025 and 2034, driven by the rising infant population and womens employment.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Kabrita USA | Goat Milk Infant Formula \u2013 Kabrita USA - United States",
+          "link": "https://kabrita.com/",
+          "snippet": "Kabrita Goat Milk Infant Formula is naturally easy to digest. non-GMO and made with quality ingredients, DHA & ARA included. Shop now or find in store.Kabrita Goat Milk-Based Infant Formula is clinica",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Selling Infant Formula Trends 2025",
+          "link": "https://www.accio.com/business/best-selling-infant-formula",
+          "snippet": "Discover the top best selling infant formula trends in 2025. Explore HMO-rich, sensitive, and organic options. Click to find trusted brands and expert-recommended choices for your baby's health.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Marketing infant formula in Australia | Australian Government...",
+          "link": "https://www.health.gov.au/topics/pregnancy-birth-and-baby/breastfeeding-infant-nutrition/marketing-infant-formula?language=hy",
+          "snippet": "Breastfeeding and infant nutrition. Marketing infant formula in Australia.hand out free formula to parents. give financial incentives to sales staff or health workers for selling or promoting formula.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Infant Formula Price Gouging Protections Update",
+          "link": "https://natlawreview.com/article/infant-formula-shortage-update",
+          "snippet": "On June 7, 2022, the D.C. Council passed the \u201cInfant Formula Consumer Protection Emergency Act.\u201d The Act, which will remain in effect for 90 days, targets companies selling baby formula at extremely h",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "WIC and the Retail Price of Infant Formula",
+          "link": "https://www.ers.usda.gov/webdocs/publications/46787/15958_fanrr39-1fm_1_.pdf?v=6893.4",
+          "snippet": "While most infant formula is sold in super-markets\u201469 percent in 2000\u2014the proportion of infant formula sold by mass merchan-disers (at prices typically below those in supermarkets) has increased sligh",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wal-Mart's Infant Formula Scam | HuffPost Impact",
+          "link": "https://www.huffpost.com/entry/wal-marts-infant-formula_b_769030",
+          "snippet": "Wal-Mart's Infant Formula Scam. The world's largest retailer was sued by the state of New Jersey two years ago for selling infant formula and over-the-counter drugs after the product expiration date. ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Interim report",
+          "link": "https://assets.publishing.service.gov.uk/media/672cce6ceee595f5288bdc10/_Interim_report_.pdf",
+          "snippet": "Figure 4.3: Monthly average retail selling price of 800g infant formula products, March 2019 to July 2024. Source: CMA analysis based on retailers\u2019 monthly average selling price data.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P5": {
+      "query": "search for wholesalers of infant formula",
+      "level": "market_map",
+      "result_count": 8,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "wholesale infant formula supplier |Aptamil Wholesalers",
+          "link": "https://aptamileurope.com/wholesale-infant-formula-supplier/",
+          "snippet": "A professional wholesale infant formula supplier offers verified sourcing and consistent product availability. Moreover, they comply with international food safety standards. As a result, your busines",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Essential China Wholesale Infant Milk Bottle... | Global Sources",
+          "link": "https://www.globalsources.com/manufacturers/infant-milk-bottle.html",
+          "snippet": "These wholesale infant milk bottle can be sourced directly from China, India, Korea, etc. or purchased in bulk from verified supplier networks. Global Sources facilitates wholesale products sourcing.N",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Infant Formula Milk Powder \u2013 Premium Infant... | europages",
+          "link": "https://www.europages.co.uk/en/company/athena-trading-22339784/products/wholesale-infant-formula-milk-powder-premium-infant-nutrition-for-export-retail-36418349",
+          "snippet": "Food and beverage. ATHENA TRADING. Wholesale Infant Formula Milk Powder \u2013 Premium Infant Nutrition for Export & Retail.About this product. Provide the highest standard of infant nutrition with our Inf",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "infant formula container - Wholesale infant formula container",
+          "link": "https://www.fnxradio.com/infant-formula-container-sell",
+          "snippet": "All infant formula container wholesalers & infant formula container manufacturers come from members.Wholesale Plastic 1000g Infant Formula Milk Powder Cans Container With Screw Lid from china supplier",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Kabrita USA | Goat Milk Infant Formula \u2013 Kabrita USA - United States",
+          "link": "https://kabrita.com/",
+          "snippet": "Kabrita Goat Milk-Based Infant Formula is clinically proven to support healthy growth for infants from birth to 12 months. It's the first European and only goat milk-based infant formula to meet all F",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "What is infant formula, and how can scientists make it more like...",
+          "link": "https://cen.acs.org/food/food-ingredients/infant-formula-scientists-make-like/99/i1",
+          "snippet": "Infant formulas are sold as powders in a seemingly endless variety of formulations and are reconstituted with water before use. While many brands advertise specific ingredients, the majority contain t",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Infant Formula Ingredients Market... | Data Bridge Market Research",
+          "link": "https://www.databridgemarketresearch.com/reports/global-infant-formula-ingredients-market",
+          "snippet": "The follow-on formula segment is expected to dominate the Infant Formula Ingredients market with the largest share of 54.1% in 2025 due to its critical role in meeting the evolving nutritional needs o",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "ByHeart Infant Formula Botulism Outbreak Post-Investigation 2026...",
+          "link": "https://www.medicaldaily.com/byheart-infant-formula-botulism-outbreak-2026-root-cause-fda-investigation-475614",
+          "snippet": "The FDA and CDC declared the ByHeart infant formula botulism outbreak over on February 26, 2026 after 48 infants were sickened across 17 states. A June 10, 2026 Food Safety Magazine investigation.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "wholesale infant formula supplier |Aptamil Wholesalers",
+          "link": "https://aptamileurope.com/wholesale-infant-formula-supplier/",
+          "snippet": "A professional wholesale infant formula supplier offers verified sourcing and consistent product availability. Moreover, they comply with international food safety standards. As a result, your busines",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Essential China Wholesale Infant Milk Bottle... | Global Sources",
+          "link": "https://www.globalsources.com/manufacturers/infant-milk-bottle.html",
+          "snippet": "These wholesale infant milk bottle can be sourced directly from China, India, Korea, etc. or purchased in bulk from verified supplier networks. Global Sources facilitates wholesale products sourcing.N",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Infant Formula Milk Powder \u2013 Premium Infant... | europages",
+          "link": "https://www.europages.co.uk/en/company/athena-trading-22339784/products/wholesale-infant-formula-milk-powder-premium-infant-nutrition-for-export-retail-36418349",
+          "snippet": "Food and beverage. ATHENA TRADING. Wholesale Infant Formula Milk Powder \u2013 Premium Infant Nutrition for Export & Retail.About this product. Provide the highest standard of infant nutrition with our Inf",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "infant formula container - Wholesale infant formula container",
+          "link": "https://www.fnxradio.com/infant-formula-container-sell",
+          "snippet": "All infant formula container wholesalers & infant formula container manufacturers come from members.Wholesale Plastic 1000g Infant Formula Milk Powder Cans Container With Screw Lid from china supplier",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Kabrita USA | Goat Milk Infant Formula \u2013 Kabrita USA - United States",
+          "link": "https://kabrita.com/",
+          "snippet": "Kabrita Goat Milk-Based Infant Formula is clinically proven to support healthy growth for infants from birth to 12 months. It's the first European and only goat milk-based infant formula to meet all F",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "What is infant formula, and how can scientists make it more like...",
+          "link": "https://cen.acs.org/food/food-ingredients/infant-formula-scientists-make-like/99/i1",
+          "snippet": "Infant formulas are sold as powders in a seemingly endless variety of formulations and are reconstituted with water before use. While many brands advertise specific ingredients, the majority contain t",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Infant Formula Ingredients Market... | Data Bridge Market Research",
+          "link": "https://www.databridgemarketresearch.com/reports/global-infant-formula-ingredients-market",
+          "snippet": "The follow-on formula segment is expected to dominate the Infant Formula Ingredients market with the largest share of 54.1% in 2025 due to its critical role in meeting the evolving nutritional needs o",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "ByHeart Infant Formula Botulism Outbreak Post-Investigation 2026...",
+          "link": "https://www.medicaldaily.com/byheart-infant-formula-botulism-outbreak-2026-root-cause-fda-investigation-475614",
+          "snippet": "The FDA and CDC declared the ByHeart infant formula botulism outbreak over on February 26, 2026 after 48 infants were sickened across 17 states. A June 10, 2026 Food Safety Magazine investigation.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "find channel partners for infant formula",
+      "level": "market_map",
+      "result_count": 8,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Baby Food and Infant Formula Market Size, Share | CAGR of 8.0%",
+          "link": "https://market.us/report/baby-food-and-infant-formula-market/",
+          "snippet": "Infant formulas are developed to closely mimic mother\u2019s milk, making them a vital dietary component for infants\u2019 development.Distribution channels are critical in the baby food and infant formula mark",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "What is infant formula, and how can scientists make it more like...",
+          "link": "https://cen.acs.org/food/food-ingredients/infant-formula-scientists-make-like/99/i1",
+          "snippet": "Infant formulas are sold as powders in a seemingly endless variety of formulations and are reconstituted with water before use. While many brands advertise specific ingredients, the majority contain t",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Infant Formula Ingredients Market Size, Share | Industry Report, 2025",
+          "link": "https://www.grandviewresearch.com/industry-analysis/infant-formula-ingredients-market",
+          "snippet": "Industry Insights. The global infant formula ingredients market size was estimated at USD 20.4 billion in 2018, and is projected to exhibit a CAGR of 9.6% during the forecast period from 2019 to 2025.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Baby Food and Infant Formula Manufacturing Plant Report 2026",
+          "link": "https://www.imarcgroup.com/baby-food-infant-formula-manufacturing-plant-project-report",
+          "snippet": "End-use Industries: Healthcare nutrition, FMCG, retail chains, pediatric nutrition, pharmacy channels. Applications: Infant formula, fortified cereals, purees, ready-to-feed liquid formula, allergy-fr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Party over for infant formula firms as China\u2019s remarkable demand slows",
+          "link": "https://www.foodnavigator.com/Article/2015/05/19/Party-over-for-infant-formula-firms-as-China-s-remarkable-demand-slows/",
+          "snippet": "\u201cChina\u2019s infant formula market grew at 16% by volume between 2000 and 2013, with international players capturing the largest share of this growth. Explore related questions.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Infant formula feeding practices in a prospective population based study",
+          "link": "https://link.springer.com/article/10.1186/s12887-016-0754-z",
+          "snippet": "No parental or infant characteristic was found to consistently influence the use of whey-based infant formula. The most common reason reported by parent(s) for changing their infant\u2019s formula to a non",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "China\u2019s infant nutrition market: trends and key drivers",
+          "link": "https://www.lactalisingredients.com/news/blog/infant-nutrition-market-in-china-a-rapidly-changing-market/",
+          "snippet": "The rapid development and expansion of infant nutrition in China is relatively recent. It is only in the late 20th century and even in the early 21st century that the demand for infant formula has gro",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Kabrita USA | Goat Milk Infant Formula \u2013 Kabrita USA - United States",
+          "link": "https://kabrita.com/",
+          "snippet": "Kabrita Goat Milk Infant Formula is naturally easy to digest. non-GMO and made with quality ingredients, DHA & ARA included. Shop now or find in store.Kabrita Goat Milk-Based Infant Formula is clinica",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Baby Food and Infant Formula Market Size, Share | CAGR of 8.0%",
+          "link": "https://market.us/report/baby-food-and-infant-formula-market/",
+          "snippet": "Infant formulas are developed to closely mimic mother\u2019s milk, making them a vital dietary component for infants\u2019 development.Distribution channels are critical in the baby food and infant formula mark",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "What is infant formula, and how can scientists make it more like...",
+          "link": "https://cen.acs.org/food/food-ingredients/infant-formula-scientists-make-like/99/i1",
+          "snippet": "Infant formulas are sold as powders in a seemingly endless variety of formulations and are reconstituted with water before use. While many brands advertise specific ingredients, the majority contain t",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Infant Formula Ingredients Market Size, Share | Industry Report, 2025",
+          "link": "https://www.grandviewresearch.com/industry-analysis/infant-formula-ingredients-market",
+          "snippet": "Industry Insights. The global infant formula ingredients market size was estimated at USD 20.4 billion in 2018, and is projected to exhibit a CAGR of 9.6% during the forecast period from 2019 to 2025.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Baby Food and Infant Formula Manufacturing Plant Report 2026",
+          "link": "https://www.imarcgroup.com/baby-food-infant-formula-manufacturing-plant-project-report",
+          "snippet": "End-use Industries: Healthcare nutrition, FMCG, retail chains, pediatric nutrition, pharmacy channels. Applications: Infant formula, fortified cereals, purees, ready-to-feed liquid formula, allergy-fr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Party over for infant formula firms as China\u2019s remarkable demand slows",
+          "link": "https://www.foodnavigator.com/Article/2015/05/19/Party-over-for-infant-formula-firms-as-China-s-remarkable-demand-slows/",
+          "snippet": "\u201cChina\u2019s infant formula market grew at 16% by volume between 2000 and 2013, with international players capturing the largest share of this growth. Explore related questions.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Infant formula feeding practices in a prospective population based study",
+          "link": "https://link.springer.com/article/10.1186/s12887-016-0754-z",
+          "snippet": "No parental or infant characteristic was found to consistently influence the use of whey-based infant formula. The most common reason reported by parent(s) for changing their infant\u2019s formula to a non",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "China\u2019s infant nutrition market: trends and key drivers",
+          "link": "https://www.lactalisingredients.com/news/blog/infant-nutrition-market-in-china-a-rapidly-changing-market/",
+          "snippet": "The rapid development and expansion of infant nutrition in China is relatively recent. It is only in the late 20th century and even in the early 21st century that the demand for infant formula has gro",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Kabrita USA | Goat Milk Infant Formula \u2013 Kabrita USA - United States",
+          "link": "https://kabrita.com/",
+          "snippet": "Kabrita Goat Milk Infant Formula is naturally easy to digest. non-GMO and made with quality ingredients, DHA & ARA included. Shop now or find in store.Kabrita Goat Milk-Based Infant Formula is clinica",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P7": {
+      "query": "search for service providers in infant formula distribution",
+      "level": "market_map",
+      "result_count": 11,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Infant formula - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Infant_formula",
+          "snippet": "Proper refrigeration is essential for any infant formula that is prepared in advance. In developing countries, formula is frequently prepared improperly, resulting in high infant mortality due to maln",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "FDA warns parents to avoid infant formula distributed by Texas...",
+          "link": "https://www.wbko.com/2024/05/31/fda-warns-parents-avoid-infant-formula-distributed-by-texas-company-due-deadly-bacteria/",
+          "snippet": "The same bacteria sparked recalls and shortages of infant formula in 2022 after it was detected at a major U.S. formula factory. The Crecelac formula was imported and distributed by Dairy Manufacturer",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The National Baby Formula Shortage... - Center for American Progress",
+          "link": "https://www.americanprogress.org/article/the-national-baby-formula-shortage-and-the-inequitable-u-s-food-system/",
+          "snippet": "About half of all infant formula is purchased by state agencies and distributed through the Special Supplemental Nutrition Program for Women, Infants, and Children (WIC). Federal law requires state WI",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Formula for trouble: How the U.S. got into an infant formula... : NPR",
+          "link": "https://www.npr.org/2022/05/19/1099748064/baby-infant-formula-shortages",
+          "snippet": "The episode highlights how highly concentrated the formula industry is \u2014 thanks in part to government policies \u2014 and the risks that can result. Here's what to know about how the U.S. got into its infa",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "What is infant formula, and how can scientists make it more like...",
+          "link": "https://cen.acs.org/food/food-ingredients/infant-formula-scientists-make-like/99/i1",
+          "snippet": "Infant formulas are sold as powders in a seemingly endless variety of formulations and are reconstituted with water before use. While many brands advertise specific ingredients, the majority contain t",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Comparison of Imported European and US Infant",
+          "link": "https://naspghan.org/wp-content/uploads/2019/10/October-2019-Article-B.pdf",
+          "snippet": "The soy formula was included in the study as it was marketed for use in infants from birth onward, as well as in infants older than 6 months. We used the search term \u2018\u2018European infant formula\u2019\u2019 in the",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Insight into the distribution of baby formulas in...",
+          "link": "https://gma-asia.com/insight-into-the-distribution-of-baby-formulas-in-vietnam/",
+          "snippet": "FAQ: infant formula distribution in Vietnam. Which channel sells the most formula? Traditional trade still carries the largest share of volume, historically up to around 85 percent, especially outside",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Baby Food and Infant Formula Manufacturing Plant Report 2026",
+          "link": "https://www.imarcgroup.com/baby-food-infant-formula-manufacturing-plant-project-report",
+          "snippet": "As infant nutrition requires strict hygiene, the plant must comply with GMP, HACCP, ISO 22000, and infant food regulations. Moreover, key equipment includes homogenizers, spray dryers, retorts, blende",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Federal Register :: Current Good Manufacturing Practices, Quality...",
+          "link": "https://www.federalregister.gov/documents/2014/02/10/2014-02148/current-good-manufacturing-practices-quality-control-procedures-quality-factors-notification",
+          "snippet": "Because powdered infant formulas are not sterile products, the interim final rule requires testing of representative samples of powdered infant formula at the final product stage, before distribution,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Hospitals min report.docx.docx",
+          "link": "https://www.citizen.org/wp-content/uploads/best-hospitals-end-infant-formula-marketing-to-support-breastfeeding-report.pdf",
+          "snippet": "Top Hospitals\u2019 Formula for Success. Introduction. Given the health consequences of not breastfeeding, clinicians should not implicitly promote infant formula by providing venues for its advertisement.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Response to the letter by Gedela - PMC",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6860318/",
+          "snippet": "UNICEF discontinued infant formula provision in eight sub\u2010Saharan African countries (including Zambia) in 2002\u20132003 because free formula did not mitigate issues related to feasibility, safety and acce",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Infant formula - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Infant_formula",
+          "snippet": "Proper refrigeration is essential for any infant formula that is prepared in advance. In developing countries, formula is frequently prepared improperly, resulting in high infant mortality due to maln",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "FDA warns parents to avoid infant formula distributed by Texas...",
+          "link": "https://www.wbko.com/2024/05/31/fda-warns-parents-avoid-infant-formula-distributed-by-texas-company-due-deadly-bacteria/",
+          "snippet": "The same bacteria sparked recalls and shortages of infant formula in 2022 after it was detected at a major U.S. formula factory. The Crecelac formula was imported and distributed by Dairy Manufacturer",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The National Baby Formula Shortage... - Center for American Progress",
+          "link": "https://www.americanprogress.org/article/the-national-baby-formula-shortage-and-the-inequitable-u-s-food-system/",
+          "snippet": "About half of all infant formula is purchased by state agencies and distributed through the Special Supplemental Nutrition Program for Women, Infants, and Children (WIC). Federal law requires state WI",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Formula for trouble: How the U.S. got into an infant formula... : NPR",
+          "link": "https://www.npr.org/2022/05/19/1099748064/baby-infant-formula-shortages",
+          "snippet": "The episode highlights how highly concentrated the formula industry is \u2014 thanks in part to government policies \u2014 and the risks that can result. Here's what to know about how the U.S. got into its infa",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "What is infant formula, and how can scientists make it more like...",
+          "link": "https://cen.acs.org/food/food-ingredients/infant-formula-scientists-make-like/99/i1",
+          "snippet": "Infant formulas are sold as powders in a seemingly endless variety of formulations and are reconstituted with water before use. While many brands advertise specific ingredients, the majority contain t",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Comparison of Imported European and US Infant",
+          "link": "https://naspghan.org/wp-content/uploads/2019/10/October-2019-Article-B.pdf",
+          "snippet": "The soy formula was included in the study as it was marketed for use in infants from birth onward, as well as in infants older than 6 months. We used the search term \u2018\u2018European infant formula\u2019\u2019 in the",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Insight into the distribution of baby formulas in...",
+          "link": "https://gma-asia.com/insight-into-the-distribution-of-baby-formulas-in-vietnam/",
+          "snippet": "FAQ: infant formula distribution in Vietnam. Which channel sells the most formula? Traditional trade still carries the largest share of volume, historically up to around 85 percent, especially outside",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Baby Food and Infant Formula Manufacturing Plant Report 2026",
+          "link": "https://www.imarcgroup.com/baby-food-infant-formula-manufacturing-plant-project-report",
+          "snippet": "As infant nutrition requires strict hygiene, the plant must comply with GMP, HACCP, ISO 22000, and infant food regulations. Moreover, key equipment includes homogenizers, spray dryers, retorts, blende",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Federal Register :: Current Good Manufacturing Practices, Quality...",
+          "link": "https://www.federalregister.gov/documents/2014/02/10/2014-02148/current-good-manufacturing-practices-quality-control-procedures-quality-factors-notification",
+          "snippet": "Because powdered infant formulas are not sterile products, the interim final rule requires testing of representative samples of powdered infant formula at the final product stage, before distribution,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Hospitals min report.docx.docx",
+          "link": "https://www.citizen.org/wp-content/uploads/best-hospitals-end-infant-formula-marketing-to-support-breastfeeding-report.pdf",
+          "snippet": "Top Hospitals\u2019 Formula for Success. Introduction. Given the health consequences of not breastfeeding, clinicians should not implicitly promote infant formula by providing venues for its advertisement.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Response to the letter by Gedela - PMC",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6860318/",
+          "snippet": "UNICEF discontinued infant formula provision in eight sub\u2010Saharan African countries (including Zambia) in 2002\u20132003 because free formula did not mitigate issues related to feasibility, safety and acce",
+          "backend": "ddgs_bing"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

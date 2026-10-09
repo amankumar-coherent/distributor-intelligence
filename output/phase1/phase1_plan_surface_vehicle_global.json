@@ -1,0 +1,1516 @@
+{
+  "phase": 1,
+  "query": "Surface Vehicle Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T21:37:12.647909+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "Surface Vehicle",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "automotive distribution",
+    "industry_terms": [
+      "surface vehicles",
+      "automotive distribution",
+      "vehicle integration",
+      "automotive services",
+      "land transportation"
+    ],
+    "ecosystem_functions": [
+      "vehicle distribution",
+      "bulk vehicle sales",
+      "vehicle reselling",
+      "system integration",
+      "vehicle modification",
+      "maintenance services",
+      "repair services",
+      "channel partnerships"
+    ],
+    "interpretation_summary": "The Surface Vehicle Market encompasses the production, distribution, and integration of vehicles designed for land transportation, including cars, trucks, and specialty vehicles. Key participants include manufacturers, d",
+    "relevance_keywords": [
+      "automotive distribution",
+      "vehicle sales",
+      "system integration",
+      "vehicle maintenance",
+      "automotive repair"
+    ],
+    "negative_keywords": [
+      "aerospace",
+      "marine",
+      "electric",
+      "parts",
+      "accessories"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "AutoNation",
+        "primary_domain": "autonation.com",
+        "company_function": "vehicle retailer and distributor"
+      },
+      {
+        "canonical_name": "CarMax",
+        "primary_domain": "carmax.com",
+        "company_function": "used car retailer and reseller"
+      },
+      {
+        "canonical_name": "Penske Automotive Group",
+        "primary_domain": "pensketruckleasing.com",
+        "company_function": "automotive retail and distribution"
+      },
+      {
+        "canonical_name": "O'Reilly Auto Parts",
+        "primary_domain": "oreillyauto.com",
+        "company_function": "automotive parts wholesaler"
+      },
+      {
+        "canonical_name": "Advance Auto Parts",
+        "primary_domain": "advanceautoparts.com",
+        "company_function": "automotive parts retailer and distributor"
+      },
+      {
+        "canonical_name": "NAPA Auto Parts",
+        "primary_domain": "napaonline.com",
+        "company_function": "automotive parts wholesaler"
+      },
+      {
+        "canonical_name": "Sonic Automotive",
+        "primary_domain": "sonicautomotive.com",
+        "company_function": "automotive retailer and distributor"
+      },
+      {
+        "canonical_name": "FleetPride",
+        "primary_domain": "fleetpride.com",
+        "company_function": "heavy-duty parts distributor"
+      },
+      {
+        "canonical_name": "LKQ Corporation",
+        "primary_domain": "lkqcorp.com",
+        "company_function": "automotive parts distributor",
+        "segment": "Wholesalers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Cox Automotive",
+        "primary_domain": "coxautoinc.com",
+        "company_function": "automotive services and technology provider",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Tire Rack",
+        "primary_domain": "tirerack.com",
+        "company_function": "tire distributor and reseller",
+        "segment": "Resellers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Carvana",
+        "primary_domain": "carvana.com",
+        "company_function": "online used car retailer",
+        "segment": "Resellers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Daimler AG",
+        "primary_domain": "daimler.com",
+        "company_function": "vehicle manufacturer and system integrator",
+        "segment": "System Integrators",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Toyota Industries Corporation",
+        "primary_domain": "toyota-industries.com",
+        "company_function": "vehicle manufacturer and system integrator",
+        "segment": "System Integrators",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "Surface Vehicle",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "Surface Vehicle",
+    "include_keywords": [
+      "vehicle distributor",
+      "automotive wholesaler",
+      "vehicle reseller",
+      "system integrator",
+      "service provider"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The Surface Vehicle Market encompasses the production, distribution, and integration of vehicles designed for land transportation, including cars, trucks, and specialty vehicles. Key participants include manufacturers, distributors, and service providers operating globally.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Distribution",
+        "description": "This layer involves the distribution of surface vehicles through various channels.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "regional distributors",
+              "national distributors"
+            ],
+            "participant_types": [
+              "vehicle distributors",
+              "parts distributors"
+            ],
+            "search_intents": [
+              "official vehicle distributor websites",
+              "vehicle distribution companies"
+            ]
+          },
+          {
+            "segment_name": "Wholesalers",
+            "sub_segments": [
+              "bulk vehicle wholesalers",
+              "parts wholesalers"
+            ],
+            "participant_types": [
+              "vehicle wholesalers",
+              "automotive parts wholesalers"
+            ],
+            "search_intents": [
+              "automotive wholesaler official site",
+              "bulk vehicle wholesaler companies"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L2",
+        "layer_name": "Reselling",
+        "description": "This layer includes companies that resell vehicles and related products.",
+        "segments": [
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "independent resellers",
+              "franchise resellers"
+            ],
+            "participant_types": [
+              "vehicle resellers",
+              "used car dealers"
+            ],
+            "search_intents": [
+              "vehicle reseller official site",
+              "used car reseller companies"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L3",
+        "layer_name": "Integration",
+        "description": "This layer covers system integrators that provide customized vehicle solutions.",
+        "segments": [
+          {
+            "segment_name": "System Integrators",
+            "sub_segments": [
+              "automotive system integrators",
+              "specialty vehicle integrators"
+            ],
+            "participant_types": [
+              "system integration firms",
+              "vehicle modification specialists"
+            ],
+            "search_intents": [
+              "automotive system integrator websites",
+              "specialty vehicle integration companies"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L4",
+        "layer_name": "Services",
+        "description": "This layer includes service providers that offer maintenance and support for vehicles.",
+        "segments": [
+          {
+            "segment_name": "Service Providers",
+            "sub_segments": [
+              "maintenance service providers",
+              "repair service providers"
+            ],
+            "participant_types": [
+              "vehicle service centers",
+              "repair shops"
+            ],
+            "search_intents": [
+              "vehicle service provider official site",
+              "automotive repair service companies"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Aerospace Vehicle Market",
+        "Marine Vehicle Market",
+        "Electric Vehicle Market",
+        "Automotive Parts Market"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "search for official vehicle distributor websites",
+        "sub_sector": "vehicle_distribution",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "find automotive wholesaler official sites",
+        "sub_sector": "vehicle_wholesaling",
+        "layer_id": "L1",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "search for vehicle reseller official sites",
+        "sub_sector": "vehicle_reselling",
+        "layer_id": "L2",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "find automotive system integrator websites",
+        "sub_sector": "system_integration",
+        "layer_id": "L3",
+        "segment": "System Integrators"
+      },
+      {
+        "id": "M5",
+        "level": "market_map",
+        "text": "search for vehicle service provider official sites",
+        "sub_sector": "vehicle_services",
+        "layer_id": "L4",
+        "segment": "Service Providers"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "automotive distribution",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "Surface Vehicle Market companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "Surface Vehicle distributors corporate sites"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "Surface Vehicle service providers official websites"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "discovery",
+      "text": "vehicle distributor official website"
+    },
+    {
+      "id": "P2",
+      "level": "discovery",
+      "text": "bulk vehicle wholesaler corporate site"
+    },
+    {
+      "id": "P3",
+      "level": "discovery",
+      "text": "vehicle reseller official site"
+    },
+    {
+      "id": "P4",
+      "level": "discovery",
+      "text": "automotive system integrator websites"
+    },
+    {
+      "id": "P5",
+      "level": "discovery",
+      "text": "vehicle modification specialist corporate site"
+    },
+    {
+      "id": "P6",
+      "level": "discovery",
+      "text": "maintenance service provider official site"
+    },
+    {
+      "id": "P7",
+      "level": "discovery",
+      "text": "repair service provider corporate site"
+    },
+    {
+      "id": "P8",
+      "level": "discovery",
+      "text": "channel partner automotive services official site"
+    },
+    {
+      "id": "P9",
+      "level": "volume",
+      "text": "authorized Surface Vehicle distributor firm official"
+    },
+    {
+      "id": "P10",
+      "level": "volume",
+      "text": "Surface Vehicle bulk vehicle sales official website"
+    },
+    {
+      "id": "P11",
+      "level": "volume",
+      "text": "Surface Vehicle reseller channel partner official"
+    },
+    {
+      "id": "P12",
+      "level": "volume",
+      "text": "Surface Vehicle system integrator official website"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "Surface Vehicle Market companies official websites",
+      "level": "L0",
+      "result_count": 10,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Unmanned Surface Vehicle Market Size, Share | Growth Report [2033]",
+          "link": "https://www.skyquestt.com/report/unmanned-surface-vehicle-market",
+          "snippet": "Global Unmanned Surface Vehicles Market By Mode of Operation 2026-2033.The various secondary sources used included various company websites, annual reports, trade databases, and paid databases such as",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Unmanned Surface Vehicle (USV) Market Size, Share & Trends",
+          "link": "https://www.emergenresearch.com/industry-report/unmanned-surface-vehicle-market",
+          "snippet": "The global unmanned surface vehicle market size was USD 1.27 Billion in 2025 and is expected to register a revenue CAGR of 13.7% during the forecast period.The following are the major companies operat",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Intelligent Surveying Unmanned Surface Vehicle Market Share",
+          "link": "https://www.marketresearchintellect.com/product/intelligent-surveying-unmanned-surface-vehicle-market/",
+          "snippet": "According to Market Research Intellect, the Intelligent Surveying Unmanned Surface Vehicle Market stood at USD 168 Million in 2025 and is forecast to reach USD 522 Million by 2035, progressing at a CA",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Unmanned Surface Vehicle Market Report: Trends, Forecast and...",
+          "link": "https://www.lucintel.com/unmanned-surface-vehicle-market.aspx",
+          "snippet": "Trends, opportunity and forecast in unmanned surface vehicle market to 2030 by mode of operation (autonomous surface vehicle and remotely operated surface vehicle), application (defense and commercial",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Unmanned Surface Vehicle Market Forecast | 2025-2030",
+          "link": "https://www.nextmsc.com/report/unmanned-surface-vehicles-market-ad2963",
+          "snippet": "In 2024, the Unmanned Surface Vehicle Market reached value of USD 1.70 billion, and is projected to surge at USD 2.92 billion by 2030, with a CAGR of 9.6%.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Unmanned Surface Vehicles Industry worth $1.59 billion by 2030",
+          "link": "https://www.marketsandmarkets.com/PressReleases/unmanned-surface-vehicle.asp",
+          "snippet": "The unmanned surface vehicles market value is projected to be USD 1.59 billion by 2030, growing from USD 0.82 billion in 2025, at a Compound Annual Growth Rate (CAGR) of 14.1% during the forecast peri",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Unmanned Surface Vehicle (USV) Market Forecast Report 2026",
+          "link": "https://www.thebusinessresearchcompany.com/report/unmanned-surface-vehicle-usv-global-market-report",
+          "snippet": "Unmanned surface vehicles (USVs) are self-contained surface vehicles capable of navigating and operating on the water's surface without the assistance of human operators.What Is The Unmanned Surface V",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Unmanned Surface Vehicle Market | Global Market Analysis Report...",
+          "link": "https://www.futuremarketinsights.com/reports/unmanned-surface-vehicle-market",
+          "snippet": "The unmanned surface vehicle market is projected to grow from USD 578.8 million in 2025 to USD 942.8 million by 2035, at a CAGR of 5.0%. Surface will dominate with a 62.1% market share, while defense ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Unmanned Surface Vehicle Market Size, Trends and Forecast...",
+          "link": "https://www.databridgemarketresearch.com/nucleus/global-unmanned-surface-vehicle-market",
+          "snippet": "Home Nucleus Autonomous Vehicles Global Unmanned Surface Vehicle Market to 2032.Scope. Companies. Overview. The Global Unmanned Surface Vehicle Market is expected to reach a 3.73 USD Billion by 2032 a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Surface Vehicle Market Size and YoY Growth Rate, 2026-2033",
+          "link": "https://www.coherentmarketinsights.com/industry-reports/surface-vehicle-market",
+          "snippet": "Germany Surface Vehicle Market Analysis and Trends. Despite global shifts, Germany holds a central role in Europe's surface transport sector due to its established auto manufacturing base. Major compa",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Unmanned Surface Vehicle Market Size, Share | Growth Report [2033]",
+          "link": "https://www.skyquestt.com/report/unmanned-surface-vehicle-market",
+          "snippet": "Global Unmanned Surface Vehicles Market By Mode of Operation 2026-2033.The various secondary sources used included various company websites, annual reports, trade databases, and paid databases such as",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Unmanned Surface Vehicle (USV) Market Size, Share & Trends",
+          "link": "https://www.emergenresearch.com/industry-report/unmanned-surface-vehicle-market",
+          "snippet": "The global unmanned surface vehicle market size was USD 1.27 Billion in 2025 and is expected to register a revenue CAGR of 13.7% during the forecast period.The following are the major companies operat",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Intelligent Surveying Unmanned Surface Vehicle Market Share",
+          "link": "https://www.marketresearchintellect.com/product/intelligent-surveying-unmanned-surface-vehicle-market/",
+          "snippet": "According to Market Research Intellect, the Intelligent Surveying Unmanned Surface Vehicle Market stood at USD 168 Million in 2025 and is forecast to reach USD 522 Million by 2035, progressing at a CA",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Unmanned Surface Vehicle Market Report: Trends, Forecast and...",
+          "link": "https://www.lucintel.com/unmanned-surface-vehicle-market.aspx",
+          "snippet": "Trends, opportunity and forecast in unmanned surface vehicle market to 2030 by mode of operation (autonomous surface vehicle and remotely operated surface vehicle), application (defense and commercial",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Unmanned Surface Vehicle Market Forecast | 2025-2030",
+          "link": "https://www.nextmsc.com/report/unmanned-surface-vehicles-market-ad2963",
+          "snippet": "In 2024, the Unmanned Surface Vehicle Market reached value of USD 1.70 billion, and is projected to surge at USD 2.92 billion by 2030, with a CAGR of 9.6%.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Unmanned Surface Vehicles Industry worth $1.59 billion by 2030",
+          "link": "https://www.marketsandmarkets.com/PressReleases/unmanned-surface-vehicle.asp",
+          "snippet": "The unmanned surface vehicles market value is projected to be USD 1.59 billion by 2030, growing from USD 0.82 billion in 2025, at a Compound Annual Growth Rate (CAGR) of 14.1% during the forecast peri",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Unmanned Surface Vehicle (USV) Market Forecast Report 2026",
+          "link": "https://www.thebusinessresearchcompany.com/report/unmanned-surface-vehicle-usv-global-market-report",
+          "snippet": "Unmanned surface vehicles (USVs) are self-contained surface vehicles capable of navigating and operating on the water's surface without the assistance of human operators.What Is The Unmanned Surface V",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Unmanned Surface Vehicle Market | Global Market Analysis Report...",
+          "link": "https://www.futuremarketinsights.com/reports/unmanned-surface-vehicle-market",
+          "snippet": "The unmanned surface vehicle market is projected to grow from USD 578.8 million in 2025 to USD 942.8 million by 2035, at a CAGR of 5.0%. Surface will dominate with a 62.1% market share, while defense ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Unmanned Surface Vehicle Market Size, Trends and Forecast...",
+          "link": "https://www.databridgemarketresearch.com/nucleus/global-unmanned-surface-vehicle-market",
+          "snippet": "Home Nucleus Autonomous Vehicles Global Unmanned Surface Vehicle Market to 2032.Scope. Companies. Overview. The Global Unmanned Surface Vehicle Market is expected to reach a 3.73 USD Billion by 2032 a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Surface Vehicle Market Size and YoY Growth Rate, 2026-2033",
+          "link": "https://www.coherentmarketinsights.com/industry-reports/surface-vehicle-market",
+          "snippet": "Germany Surface Vehicle Market Analysis and Trends. Despite global shifts, Germany holds a central role in Europe's surface transport sector due to its established auto manufacturing base. Major compa",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "Surface Vehicle distributors corporate sites",
+      "level": "L1",
+      "result_count": 19,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Microsoft Surface: Laptops, Tablets & Computers | Microsoft Surface",
+          "link": "https://www.microsoft.com/en-us/surface?msockid=028ab0b31e2f666f1fd7a72e1f6267e1",
+          "snippet": "Explore Microsoft Surface\u2014premium Windows laptops, computers, and 2-in-1 tablet PCs designed for performance, flexibility, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Microsoft Surface | Microsoft Store",
+          "link": "https://www.microsoft.com/en-us/store/collections/surfacelist?msockid=028ab0b31e2f666f1fd7a72e1f6267e1",
+          "snippet": "Microsoft Store has the Surface models currently available, including the latest Surface Laptop and Surface Pro models. With built-in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Surface Vi\u1ec7t \u2013 H\u1ec7 Th\u1ed1ng Surface, MacBook Ch\u00ednh H\u00e3ng Gi\u00e1 T\u1ed1t",
+          "link": "https://surfaceviet.vn/",
+          "snippet": "\u0110\u1ea7y \u0111\u1ee7 Surface, ph\u1ee5 ki\u1ec7n Microsoft ch\u00ednh h\u00e3ng. Gi\u00e1 c\u1ea1nh tranh, b\u1ea3o h\u00e0nh r\u00f5 r\u00e0ng, h\u1ed7 tr\u1ee3 nhanh ch\u00f3ng.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Surface - Free download and install on Windows | Microsoft Store",
+          "link": "https://apps.microsoft.com/detail/9wzdncrfjb8p",
+          "snippet": "Get the most out of your Surface. The Surface app provides you with customization options and opportunity to learn more about your \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Microsoft Surface - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Microsoft_Surface",
+          "snippet": "Microsoft Surface is a family of touchscreen -based personal computer, tablet, and interactive whiteboard hardware products \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Surface help & learning | Microsoft Support",
+          "link": "https://support.microsoft.com/en-us/surface/",
+          "snippet": "Official Microsoft Surface help and learning. Find trusted support information, setup guidance, troubleshooting, updates, and service \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Download the drivers and firmware for Surface | Microsoft Support",
+          "link": "https://support.microsoft.com/en-us/surface/drivers-firmware/download-drivers-and-firmware-for-surface",
+          "snippet": "Get latest official drivers/firmware updates from Microsoft to ensure your Surface device runs at its peak performance.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Introducing the next Surface Pro and Surface Laptop, built for ...",
+          "link": "https://blogs.windows.com/devices/2026/06/16/introducing-the-next-surface-pro-and-surface-laptop-built-for-performance-and-flexibility/",
+          "snippet": "Jun 16, 2026 \u00b7 Today, we\u2019re introducing the next Surface Pro and Surface Laptop, powered by Snapdragon X2 processors. The next \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Surface Pro|Surface Laptop|Surface Go|\u5fae\u8f6fSurface\u5b98\u7f51|\u5fae\u8f6f\u5b98\u65b9\u5546\u57ce",
+          "link": "https://www.microsoftstore.com.cn/hardware/surface",
+          "snippet": "\u8d2d\u4e70\u5fae\u8f6fSurface\u8bf7\u81f3\u5fae\u8f6f\u5b98\u65b9\u5546\u57ce,\u5b98\u65b9\u6e20\u9053,\u6b63\u54c1\u4fdd\u8bc1,\u53ef\u4eab\u6781\u901f\u4e0a\u624b\u670d\u52a1.\u767b\u5f55\u4e86\u89e3Surface Pro,Surface Laptop,Surface Studio\u4ea7\u54c1\u7279 \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Surface Pro - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Surface_Pro",
+          "snippet": "The Surface Pro is a line of 2-in-1 detachable devices marketed by Microsoft, as a sub-brand of their Surface devices.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Vohra Auto Distributors Pvt Ltd",
+          "link": "https://www.vohraauto.com/",
+          "snippet": "Vohra Auto Distributors Pvt Ltd Driving Innovation for Over 50 Years A legacy of quality and progress in the automotive industry Providing trusted Tata and Bajaj commercial vehicles to power your busi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "DISTRIBUTORSHIP - Somani Group",
+          "link": "https://somanigroup.co.in/distributorship.html",
+          "snippet": "Gradually got appointed as an authorized distributor of TATA Genuine spare parts for commercial vehicles for entire Maharashtra (Excluding Mumbai). We also act as a supplier to TASS i.e. TATA authoriz",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Homepage | Grindwell Norton Ltd.",
+          "link": "https://www.grindwellnorton.co.in/",
+          "snippet": "From abrasives for surface preparation to adhesives for construction and sealants for weatherproofing, our solutions enhance building performance, aesthetics, and durability. GNO offers solutions for ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Force Motors Limited",
+          "link": "https://www.forcemotors.com/",
+          "snippet": "Today, Force Motors is a fully integrated automobile company specializing in the design, development and manufacturing of vehicles, aggregates and components catering to the diverse customer needs glo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Locations | GKN Automotive",
+          "link": "https://www.gknautomotive.com/en/who-we-are/locations/",
+          "snippet": "Dauch Corporation is a premier Driveline and Metal Forming supplier serving the global automotive industry with a powertrain-agnostic product portfolio that supports electric, hybrid, and internal com",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "SPAL Worldwide - SPAL",
+          "link": "https://www.spal.com/en/spal-worldwide",
+          "snippet": "In 2021, we established SPAL Automotive Technology India Private Limited, a new company created specifically for the production and marketing of SPAL Automotive products for the Indian market. In 2022",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Chemetall - Global Home",
+          "link": "https://www.chemetall.com/global/en",
+          "snippet": "The surface treatment global business unit of Surventis, operating under the Chemetall brand, is a leading supplier of applied surface treatment solutions for metal and non-metal surfaces.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Automotive Parts & Accessories - Amazon.com",
+          "link": "https://www.amazon.com/automotive-auto-truck-replacements-parts/b?ie=UTF8&node=15684181",
+          "snippet": "Automotive Amazon Autos Your Garage Deals & Rebates Best Sellers Parts Accessories Tools & Equipment Car Care Motorcycle & Powersports Truck RV Tires & Wheels Vehicle Showroom Amazon Business.Video Di",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "GYEON\u00ae Ceramic Coatings, PPF & Car Care Products",
+          "link": "https://gyeon.co/",
+          "snippet": "Our worldwide distribution and certified detailer network consists of the leading wholesalers and resellers in the car care sector, as well as highly respected detailing specialists proficient in stat",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Microsoft Surface: Laptops, Tablets & Computers | Microsoft Surface",
+          "link": "https://www.microsoft.com/en-us/surface?msockid=028ab0b31e2f666f1fd7a72e1f6267e1",
+          "snippet": "Explore Microsoft Surface\u2014premium Windows laptops, computers, and 2-in-1 tablet PCs designed for performance, flexibility, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Microsoft Surface | Microsoft Store",
+          "link": "https://www.microsoft.com/en-us/store/collections/surfacelist?msockid=028ab0b31e2f666f1fd7a72e1f6267e1",
+          "snippet": "Microsoft Store has the Surface models currently available, including the latest Surface Laptop and Surface Pro models. With built-in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Surface Vi\u1ec7t \u2013 H\u1ec7 Th\u1ed1ng Surface, MacBook Ch\u00ednh H\u00e3ng Gi\u00e1 T\u1ed1t",
+          "link": "https://surfaceviet.vn/",
+          "snippet": "\u0110\u1ea7y \u0111\u1ee7 Surface, ph\u1ee5 ki\u1ec7n Microsoft ch\u00ednh h\u00e3ng. Gi\u00e1 c\u1ea1nh tranh, b\u1ea3o h\u00e0nh r\u00f5 r\u00e0ng, h\u1ed7 tr\u1ee3 nhanh ch\u00f3ng.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Surface - Free download and install on Windows | Microsoft Store",
+          "link": "https://apps.microsoft.com/detail/9wzdncrfjb8p",
+          "snippet": "Get the most out of your Surface. The Surface app provides you with customization options and opportunity to learn more about your \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Microsoft Surface - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Microsoft_Surface",
+          "snippet": "Microsoft Surface is a family of touchscreen -based personal computer, tablet, and interactive whiteboard hardware products \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Surface help & learning | Microsoft Support",
+          "link": "https://support.microsoft.com/en-us/surface/",
+          "snippet": "Official Microsoft Surface help and learning. Find trusted support information, setup guidance, troubleshooting, updates, and service \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Download the drivers and firmware for Surface | Microsoft Support",
+          "link": "https://support.microsoft.com/en-us/surface/drivers-firmware/download-drivers-and-firmware-for-surface",
+          "snippet": "Get latest official drivers/firmware updates from Microsoft to ensure your Surface device runs at its peak performance.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Introducing the next Surface Pro and Surface Laptop, built for ...",
+          "link": "https://blogs.windows.com/devices/2026/06/16/introducing-the-next-surface-pro-and-surface-laptop-built-for-performance-and-flexibility/",
+          "snippet": "Jun 16, 2026 \u00b7 Today, we\u2019re introducing the next Surface Pro and Surface Laptop, powered by Snapdragon X2 processors. The next \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Surface Pro|Surface Laptop|Surface Go|\u5fae\u8f6fSurface\u5b98\u7f51|\u5fae\u8f6f\u5b98\u65b9\u5546\u57ce",
+          "link": "https://www.microsoftstore.com.cn/hardware/surface",
+          "snippet": "\u8d2d\u4e70\u5fae\u8f6fSurface\u8bf7\u81f3\u5fae\u8f6f\u5b98\u65b9\u5546\u57ce,\u5b98\u65b9\u6e20\u9053,\u6b63\u54c1\u4fdd\u8bc1,\u53ef\u4eab\u6781\u901f\u4e0a\u624b\u670d\u52a1.\u767b\u5f55\u4e86\u89e3Surface Pro,Surface Laptop,Surface Studio\u4ea7\u54c1\u7279 \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Surface Pro - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Surface_Pro",
+          "snippet": "The Surface Pro is a line of 2-in-1 detachable devices marketed by Microsoft, as a sub-brand of their Surface devices.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Vohra Auto Distributors Pvt Ltd",
+          "link": "https://www.vohraauto.com/",
+          "snippet": "Vohra Auto Distributors Pvt Ltd Driving Innovation for Over 50 Years A legacy of quality and progress in the automotive industry Providing trusted Tata and Bajaj commercial vehicles to power your busi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "DISTRIBUTORSHIP - Somani Group",
+          "link": "https://somanigroup.co.in/distributorship.html",
+          "snippet": "Gradually got appointed as an authorized distributor of TATA Genuine spare parts for commercial vehicles for entire Maharashtra (Excluding Mumbai). We also act as a supplier to TASS i.e. TATA authoriz",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Homepage | Grindwell Norton Ltd.",
+          "link": "https://www.grindwellnorton.co.in/",
+          "snippet": "From abrasives for surface preparation to adhesives for construction and sealants for weatherproofing, our solutions enhance building performance, aesthetics, and durability. GNO offers solutions for ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Force Motors Limited",
+          "link": "https://www.forcemotors.com/",
+          "snippet": "Today, Force Motors is a fully integrated automobile company specializing in the design, development and manufacturing of vehicles, aggregates and components catering to the diverse customer needs glo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Locations | GKN Automotive",
+          "link": "https://www.gknautomotive.com/en/who-we-are/locations/",
+          "snippet": "Dauch Corporation is a premier Driveline and Metal Forming supplier serving the global automotive industry with a powertrain-agnostic product portfolio that supports electric, hybrid, and internal com",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "SPAL Worldwide - SPAL",
+          "link": "https://www.spal.com/en/spal-worldwide",
+          "snippet": "In 2021, we established SPAL Automotive Technology India Private Limited, a new company created specifically for the production and marketing of SPAL Automotive products for the Indian market. In 2022",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Chemetall - Global Home",
+          "link": "https://www.chemetall.com/global/en",
+          "snippet": "The surface treatment global business unit of Surventis, operating under the Chemetall brand, is a leading supplier of applied surface treatment solutions for metal and non-metal surfaces.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Automotive Parts & Accessories - Amazon.com",
+          "link": "https://www.amazon.com/automotive-auto-truck-replacements-parts/b?ie=UTF8&node=15684181",
+          "snippet": "Automotive Amazon Autos Your Garage Deals & Rebates Best Sellers Parts Accessories Tools & Equipment Car Care Motorcycle & Powersports Truck RV Tires & Wheels Vehicle Showroom Amazon Business.Video Di",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "GYEON\u00ae Ceramic Coatings, PPF & Car Care Products",
+          "link": "https://gyeon.co/",
+          "snippet": "Our worldwide distribution and certified detailer network consists of the leading wholesalers and resellers in the car care sector, as well as highly respected detailing specialists proficient in stat",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "Surface Vehicle service providers official websites",
+      "level": "L2",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Long-endurance USV for security, survey, and offshore inspection",
+          "link": "https://www.bairdmaritime.com/security/naval/unmanned-naval-systems/vessel-review-long-endurance-usv-for-security-survey-and-offshore-inspection",
+          "snippet": "UK-based unmanned systems manufacturer Zero USV has delivered the first example of a new series of unmanned surface vehicle (USV). Zero USV said the 17-metre (56-foot) long USV has now been delivered ",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Long-endurance USV for security, survey, and offshore inspection",
+          "link": "https://www.bairdmaritime.com/security/naval/unmanned-naval-systems/vessel-review-long-endurance-usv-for-security-survey-and-offshore-inspection",
+          "snippet": "UK-based unmanned systems manufacturer Zero USV has delivered the first example of a new series of unmanned surface vehicle (USV). Zero USV said the 17-metre (56-foot) long USV has now been delivered ",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "vehicle distributor official website",
+      "level": "discovery",
+      "result_count": 12,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "XPENG - Smart Electric Vehicles, SUVs & MPVs",
+          "link": "https://www.xpeng.com/",
+          "snippet": "XPENG's electric vehicles designed for performance, safety, and sustainability. Explore our range of smart EVs, advanced technology, and commitment to a greener future.XPENG ANZ Official Distributor.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ashok Leyland | Commercial Vehicles, Buses, Trucks & Mobility...",
+          "link": "https://www.ashokleyland.com/",
+          "snippet": "Trucks. Buses. Light Vehicles. Defence.Re-AL. Used vehicle selling, buying and exchanging platform. Learn More. iAlert. Telematics.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Commercial Vehicle Distributor Program in China: How To Build...",
+          "link": "https://www.kamaauto.com/Commercial-Vehicle-Distributor-Program-in-China-How-To-Build-A-Local-Dealer-Network-id03519345.html",
+          "snippet": "A commercial vehicle distributor program is not only about buying trucks from China. It is about creating a complete local sales and service system for mini trucks, light trucks, vans, electric commer",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "New Cars, SUVs, Trucks & Electric Vehicles | Nissan USA",
+          "link": "https://www.nissanusa.com/",
+          "snippet": "Shop online for the newest Nissan cars, trucks, crossovers, SUVs and electric vehicles. Explore offers, compare models, calculate payments and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Submit a vehicle price list (for official vehicl ... - Gov.gr",
+          "link": "https://www.gov.gr/en/arxes/anexartete-arkhe-demosion-esodon-aade/anexartete-arkhe-demosion-esodon-aade/upobole-timokatalogou-autokineton",
+          "snippet": "If you an official vehicle distributor, you need to mandatorily register with the service in order to submit the price lists of your vehicles. You will need your personal Taxisnet credentials.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Rivian: Electric Vehicles Designed For Adventure",
+          "link": "https://rivian.com/",
+          "snippet": "Discover Rivian's long-range electric vehicles, innovative EV trucks, SUVs and vans built for adventure. Join the movement towards a sustainable future.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sprayed On Bedliner Distributor | Vehicle Service Pros",
+          "link": "https://www.vehicleservicepros.com/directory/product/10127672/diamond-liners-inc-sprayed-on-bedliner-distributor",
+          "snippet": "Diamond Liners, distributor of sprayed on protective coating equipment, chemicals and supplies, offers a new sprayed-on bedliner coating. Made of polyurethane/polyurea, this sprayed-on bedliner coatin",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vehicle distributor unveils new headquarters... | TheBusinessDesk.com",
+          "link": "https://www.thebusinessdesk.com/westmidlands/news/2087659-vehicle-distributor-unveils-new-headquarters-in-walsall",
+          "snippet": "Commercial vehicle distributor, The Hartshorne Group has opened a new headquarters in Walsall on the site where the company has operated for nearly 60 years. The firm supplies and services Volvo truck",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - Wulingcars",
+          "link": "https://wulingcars.com/",
+          "snippet": "Professional Export Solutions. End-to-End Export Procurement. From vehicle selection and secure B2B payment to seamless customs clearance, we simplify the complex international car buying process for ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Contact Us - Dongfeng Liuzhou Motor Co., Ltd.",
+          "link": "https://www.forthingmotor.com/contact-us/",
+          "snippet": "Dongfeng Liuzhou Motor Co., Ltd. as one of the national large scale enterprises, is an auto limited company built by Liuzhou Industrial Holdings Corporation and Dongfeng Motor Corporation. Developed c",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Electric Cars, Solar & Clean Energy | Tesla",
+          "link": "https://www.tesla.com/",
+          "snippet": "For the best experience, we recommend upgrading or changing your web browser.Tesla vehicle. Inventory. Find nearby vehicles available for immediate delivery.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Build Your Own Car: Luxury Car Customizer by BMW USA",
+          "link": "https://www.bmwusa.com/build-your-own.html",
+          "snippet": "Future Vehicles. LEARN. All BMWs. EXPLORE. Limited Edition Vehicles. CONCEPT. BMW M Neue Klasse.DISCOVER. All-Electric Vehicles. EXPLORE. Plug-in Hybrid Vehicles. BMW M.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "XPENG - Smart Electric Vehicles, SUVs & MPVs",
+          "link": "https://www.xpeng.com/",
+          "snippet": "XPENG's electric vehicles designed for performance, safety, and sustainability. Explore our range of smart EVs, advanced technology, and commitment to a greener future.XPENG ANZ Official Distributor.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ashok Leyland | Commercial Vehicles, Buses, Trucks & Mobility...",
+          "link": "https://www.ashokleyland.com/",
+          "snippet": "Trucks. Buses. Light Vehicles. Defence.Re-AL. Used vehicle selling, buying and exchanging platform. Learn More. iAlert. Telematics.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Commercial Vehicle Distributor Program in China: How To Build...",
+          "link": "https://www.kamaauto.com/Commercial-Vehicle-Distributor-Program-in-China-How-To-Build-A-Local-Dealer-Network-id03519345.html",
+          "snippet": "A commercial vehicle distributor program is not only about buying trucks from China. It is about creating a complete local sales and service system for mini trucks, light trucks, vans, electric commer",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "New Cars, SUVs, Trucks & Electric Vehicles | Nissan USA",
+          "link": "https://www.nissanusa.com/",
+          "snippet": "Shop online for the newest Nissan cars, trucks, crossovers, SUVs and electric vehicles. Explore offers, compare models, calculate payments and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Submit a vehicle price list (for official vehicl ... - Gov.gr",
+          "link": "https://www.gov.gr/en/arxes/anexartete-arkhe-demosion-esodon-aade/anexartete-arkhe-demosion-esodon-aade/upobole-timokatalogou-autokineton",
+          "snippet": "If you an official vehicle distributor, you need to mandatorily register with the service in order to submit the price lists of your vehicles. You will need your personal Taxisnet credentials.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Rivian: Electric Vehicles Designed For Adventure",
+          "link": "https://rivian.com/",
+          "snippet": "Discover Rivian's long-range electric vehicles, innovative EV trucks, SUVs and vans built for adventure. Join the movement towards a sustainable future.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sprayed On Bedliner Distributor | Vehicle Service Pros",
+          "link": "https://www.vehicleservicepros.com/directory/product/10127672/diamond-liners-inc-sprayed-on-bedliner-distributor",
+          "snippet": "Diamond Liners, distributor of sprayed on protective coating equipment, chemicals and supplies, offers a new sprayed-on bedliner coating. Made of polyurethane/polyurea, this sprayed-on bedliner coatin",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vehicle distributor unveils new headquarters... | TheBusinessDesk.com",
+          "link": "https://www.thebusinessdesk.com/westmidlands/news/2087659-vehicle-distributor-unveils-new-headquarters-in-walsall",
+          "snippet": "Commercial vehicle distributor, The Hartshorne Group has opened a new headquarters in Walsall on the site where the company has operated for nearly 60 years. The firm supplies and services Volvo truck",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - Wulingcars",
+          "link": "https://wulingcars.com/",
+          "snippet": "Professional Export Solutions. End-to-End Export Procurement. From vehicle selection and secure B2B payment to seamless customs clearance, we simplify the complex international car buying process for ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Contact Us - Dongfeng Liuzhou Motor Co., Ltd.",
+          "link": "https://www.forthingmotor.com/contact-us/",
+          "snippet": "Dongfeng Liuzhou Motor Co., Ltd. as one of the national large scale enterprises, is an auto limited company built by Liuzhou Industrial Holdings Corporation and Dongfeng Motor Corporation. Developed c",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Electric Cars, Solar & Clean Energy | Tesla",
+          "link": "https://www.tesla.com/",
+          "snippet": "For the best experience, we recommend upgrading or changing your web browser.Tesla vehicle. Inventory. Find nearby vehicles available for immediate delivery.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Build Your Own Car: Luxury Car Customizer by BMW USA",
+          "link": "https://www.bmwusa.com/build-your-own.html",
+          "snippet": "Future Vehicles. LEARN. All BMWs. EXPLORE. Limited Edition Vehicles. CONCEPT. BMW M Neue Klasse.DISCOVER. All-Electric Vehicles. EXPLORE. Plug-in Hybrid Vehicles. BMW M.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P2": {
+      "query": "bulk vehicle wholesaler corporate site",
+      "level": "discovery",
+      "result_count": 6,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Online Car Auctions \u2013 Used, Salvage & Wholesale Vehicles",
+          "link": "https://www.copart.com/vehicle-search-model/landrover/defender",
+          "snippet": "Wholesale Icon vehicles only. Newly added vehicles. Last 24 Hours Last 7 Days. Exclude upcoming auction vehicles.85 Used, wholesale and salvage Landrover DEFENDER vehicles for sale.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vehicle wholesaler | Phoenix | Gumtree South Africa",
+          "link": "https://www.gumtree.co.za/a-cars-bakkies/phoenix/vehicle-wholesaler/10013620673061010796483209",
+          "snippet": "Description. Looking for vehicle? Let me know. Im a vehicle wholesaler with a lot on hand. WhatsApp me only on 072 386 1372.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bulk Vehicle Procurement in Nigeria \u2013 Fleet Sourcing Made Easy",
+          "link": "https://wigmoretrading.com/bulk-vehicle-procurement-nigeria/",
+          "snippet": "Common Challenges in Bulk Vehicle Procurement in Nigeria. Supply Chain Delays: Importing vehicles can be delayed by port congestion, foreign exchange restrictions, or global supply shortages.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sell Wholesale Vehicles Fast | Dealer Marketplace... | OPENLANE",
+          "link": "https://www.openlane.com/sellers/",
+          "snippet": "Sell fast. Our average vehicle sells in less than 1 day. Use Buy it Now and Absolute Sale to get more visibility and engagement on your cars. A white Chevrolet SUV parked in a lot. Above the vehicle a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Manheim Homepage",
+          "link": "https://site.manheim.com/",
+          "snippet": "Manheim has been setting the industry standard for buying and selling used vehicles for over 75 years.Manheim has the most inventory, biggest audience, hardest-working tools, and best support in the i",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Manheim by Cox Automotive | LinkedIn",
+          "link": "https://www.linkedin.com/company/manheim",
+          "snippet": "Manheim by Cox Automotive | 64,979 followers on LinkedIn. For great career opportunities, visit www.manheim.jobs. Manheim was established in 1945 as a wholesale vehicle auction operation.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Online Car Auctions \u2013 Used, Salvage & Wholesale Vehicles",
+          "link": "https://www.copart.com/vehicle-search-model/landrover/defender",
+          "snippet": "Wholesale Icon vehicles only. Newly added vehicles. Last 24 Hours Last 7 Days. Exclude upcoming auction vehicles.85 Used, wholesale and salvage Landrover DEFENDER vehicles for sale.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vehicle wholesaler | Phoenix | Gumtree South Africa",
+          "link": "https://www.gumtree.co.za/a-cars-bakkies/phoenix/vehicle-wholesaler/10013620673061010796483209",
+          "snippet": "Description. Looking for vehicle? Let me know. Im a vehicle wholesaler with a lot on hand. WhatsApp me only on 072 386 1372.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bulk Vehicle Procurement in Nigeria \u2013 Fleet Sourcing Made Easy",
+          "link": "https://wigmoretrading.com/bulk-vehicle-procurement-nigeria/",
+          "snippet": "Common Challenges in Bulk Vehicle Procurement in Nigeria. Supply Chain Delays: Importing vehicles can be delayed by port congestion, foreign exchange restrictions, or global supply shortages.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sell Wholesale Vehicles Fast | Dealer Marketplace... | OPENLANE",
+          "link": "https://www.openlane.com/sellers/",
+          "snippet": "Sell fast. Our average vehicle sells in less than 1 day. Use Buy it Now and Absolute Sale to get more visibility and engagement on your cars. A white Chevrolet SUV parked in a lot. Above the vehicle a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Manheim Homepage",
+          "link": "https://site.manheim.com/",
+          "snippet": "Manheim has been setting the industry standard for buying and selling used vehicles for over 75 years.Manheim has the most inventory, biggest audience, hardest-working tools, and best support in the i",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Manheim by Cox Automotive | LinkedIn",
+          "link": "https://www.linkedin.com/company/manheim",
+          "snippet": "Manheim by Cox Automotive | 64,979 followers on LinkedIn. For great career opportunities, visit www.manheim.jobs. Manheim was established in 1945 as a wholesale vehicle auction operation.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P3": {
+      "query": "vehicle reseller official site",
+      "level": "discovery",
+      "result_count": 10,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "ToyoDIY.com Vehicle Selection",
+          "link": "https://toyodiy.com/parts/q.html",
+          "snippet": "Vehicle identification. NEW! Parts cross-reference. You can identify your vehicle by entering your VIN (preferred) or use the step-by-step selector below.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Websites for Vehicle Resellers and Car Stores | Moovyi",
+          "link": "https://moovyi.com/en/site-loja-veiculos",
+          "snippet": "Vehicle reseller website with domain, SSL and hosting included in the plan. Inventory synced automatically and leads straight into the CRM.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "New Cars, SUVs, Trucks & Electric Vehicles | Nissan USA",
+          "link": "https://www.nissanusa.com/",
+          "snippet": "Shop online for the newest Nissan cars, trucks, crossovers, SUVs and electric vehicles. Explore offers, compare models, calculate payments and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "eBay Vehicle Selling Center",
+          "link": "https://pages.ebay.com/sellerinformation/vehiclesellerhelp/",
+          "snippet": "The eBay Vehicle Selling Center is the place to learn about selling vehicles on eBay Motors with access to training, listing tools and resources.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vehicle Reselling and Auctions | RoadMech India",
+          "link": "https://roadmech.in/vehicle-services/vehicle-reselling/",
+          "snippet": "Chance to sell your vehicle in international market. A free health checkup of your vehicle. Prices that are inline with your expectations. The family touch that you won't get anywhere else.Please Bewa",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Rivian: Electric Vehicles Designed For Adventure",
+          "link": "https://rivian.com/",
+          "snippet": "Discover Rivian's long-range electric vehicles, innovative EV trucks, SUVs and vans built for adventure.As software-defined vehicles, Rivians are designed to evolve. We can add new features with softw",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Run a Free VIN Check | Vehicle History You Can Trust | VinAudit",
+          "link": "https://www.vinaudit.com/",
+          "snippet": "A VIN check uses a 17-character Vehicle Identification Number or VIN to obtain key vehicle information and access detailed vehicle history. This tool helps buyers and sellers avoid costly surprises an",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Electric Cars, Solar & Clean Energy | Tesla",
+          "link": "https://www.tesla.com/",
+          "snippet": "Explore limited-time offers on Tesla vehicles. Learn More. Tesla vehicle. Inventory. Find nearby vehicles available for immediate delivery.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "SB Motors - Get Access | Whop",
+          "link": "https://whop.com/marketplace/sb-motors/",
+          "snippet": "I'm a seasoned vehicle reseller with a track record of success spanning over four years. My journey in the world of vehicle reselling has been an exhilarating adventure, and I've honed my skills to be",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Build Your Own Car: Luxury Car Customizer by BMW USA",
+          "link": "https://www.bmwusa.com/build-your-own.html",
+          "snippet": "Future Vehicles. LEARN. All BMWs. EXPLORE. Limited Edition Vehicles. CONCEPT. BMW M Neue Klasse.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "ToyoDIY.com Vehicle Selection",
+          "link": "https://toyodiy.com/parts/q.html",
+          "snippet": "Vehicle identification. NEW! Parts cross-reference. You can identify your vehicle by entering your VIN (preferred) or use the step-by-step selector below.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Websites for Vehicle Resellers and Car Stores | Moovyi",
+          "link": "https://moovyi.com/en/site-loja-veiculos",
+          "snippet": "Vehicle reseller website with domain, SSL and hosting included in the plan. Inventory synced automatically and leads straight into the CRM.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "New Cars, SUVs, Trucks & Electric Vehicles | Nissan USA",
+          "link": "https://www.nissanusa.com/",
+          "snippet": "Shop online for the newest Nissan cars, trucks, crossovers, SUVs and electric vehicles. Explore offers, compare models, calculate payments and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "eBay Vehicle Selling Center",
+          "link": "https://pages.ebay.com/sellerinformation/vehiclesellerhelp/",
+          "snippet": "The eBay Vehicle Selling Center is the place to learn about selling vehicles on eBay Motors with access to training, listing tools and resources.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vehicle Reselling and Auctions | RoadMech India",
+          "link": "https://roadmech.in/vehicle-services/vehicle-reselling/",
+          "snippet": "Chance to sell your vehicle in international market. A free health checkup of your vehicle. Prices that are inline with your expectations. The family touch that you won't get anywhere else.Please Bewa",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Rivian: Electric Vehicles Designed For Adventure",
+          "link": "https://rivian.com/",
+          "snippet": "Discover Rivian's long-range electric vehicles, innovative EV trucks, SUVs and vans built for adventure.As software-defined vehicles, Rivians are designed to evolve. We can add new features with softw",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Run a Free VIN Check | Vehicle History You Can Trust | VinAudit",
+          "link": "https://www.vinaudit.com/",
+          "snippet": "A VIN check uses a 17-character Vehicle Identification Number or VIN to obtain key vehicle information and access detailed vehicle history. This tool helps buyers and sellers avoid costly surprises an",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Electric Cars, Solar & Clean Energy | Tesla",
+          "link": "https://www.tesla.com/",
+          "snippet": "Explore limited-time offers on Tesla vehicles. Learn More. Tesla vehicle. Inventory. Find nearby vehicles available for immediate delivery.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "SB Motors - Get Access | Whop",
+          "link": "https://whop.com/marketplace/sb-motors/",
+          "snippet": "I'm a seasoned vehicle reseller with a track record of success spanning over four years. My journey in the world of vehicle reselling has been an exhilarating adventure, and I've honed my skills to be",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Build Your Own Car: Luxury Car Customizer by BMW USA",
+          "link": "https://www.bmwusa.com/build-your-own.html",
+          "snippet": "Future Vehicles. LEARN. All BMWs. EXPLORE. Limited Edition Vehicles. CONCEPT. BMW M Neue Klasse.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P4": {
+      "query": "automotive system integrator websites",
+      "level": "discovery",
+      "result_count": 5,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Automotive News | Car, EV & Dealership News - Automotive News",
+          "link": "https://www.autonews.com/",
+          "snippet": "Electric and gasoline vehicles will coexist at Cadillac dealerships into the 2030s as the brand lengthens the life cycle of some nameplates.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Automotive Material Handling Automation | Bastian Automation",
+          "link": "https://www.bastianautomation.com/automotive-automation",
+          "snippet": "As an independent, brand-agnostic automotive system integrator, we deliver solutions that improve productivity, reliability, and scalability across your entire operation \u2013 from component manufacturing",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Automotive - Base Automation Technologies",
+          "link": "https://baseautomation.co.in/index.php/automotive/",
+          "snippet": "Industry 4.0 System Integrator > Automotive.Paint Shop Automation with Process Control and Skid Management. Plating Process Solutions. Heat Treatment / Oven Applications. Utility Equipment Controls. P",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Automotive System Integrator (SDV | System...) | HirePlanner",
+          "link": "https://www.hireplanner.com/jobs/automotive-system-integrator-sdv-system-integration-embedded-systems-adas",
+          "snippet": "About this role Join our Automotive team as a System Integration Engineer, driving the future of mobility through embedded software development for Software-Defined Vehicles (SDVs). You will work at t",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "New Website Launched for Hereford Based Automotive Systems...",
+          "link": "https://www.sharpmonkeys.co.uk/general/new-website-launched-for-hereford-based-automotive-systems-integrator",
+          "snippet": "SMT are a Hereford based, family run business who specialise in automotive repair, systems integration, and engineering and mobility solutions. They can work with most military vehicles and equipment,",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Automotive News | Car, EV & Dealership News - Automotive News",
+          "link": "https://www.autonews.com/",
+          "snippet": "Electric and gasoline vehicles will coexist at Cadillac dealerships into the 2030s as the brand lengthens the life cycle of some nameplates.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Automotive Material Handling Automation | Bastian Automation",
+          "link": "https://www.bastianautomation.com/automotive-automation",
+          "snippet": "As an independent, brand-agnostic automotive system integrator, we deliver solutions that improve productivity, reliability, and scalability across your entire operation \u2013 from component manufacturing",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Automotive - Base Automation Technologies",
+          "link": "https://baseautomation.co.in/index.php/automotive/",
+          "snippet": "Industry 4.0 System Integrator > Automotive.Paint Shop Automation with Process Control and Skid Management. Plating Process Solutions. Heat Treatment / Oven Applications. Utility Equipment Controls. P",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Automotive System Integrator (SDV | System...) | HirePlanner",
+          "link": "https://www.hireplanner.com/jobs/automotive-system-integrator-sdv-system-integration-embedded-systems-adas",
+          "snippet": "About this role Join our Automotive team as a System Integration Engineer, driving the future of mobility through embedded software development for Software-Defined Vehicles (SDVs). You will work at t",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "New Website Launched for Hereford Based Automotive Systems...",
+          "link": "https://www.sharpmonkeys.co.uk/general/new-website-launched-for-hereford-based-automotive-systems-integrator",
+          "snippet": "SMT are a Hereford based, family run business who specialise in automotive repair, systems integration, and engineering and mobility solutions. They can work with most military vehicles and equipment,",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P5": {
+      "query": "vehicle modification specialist corporate site",
+      "level": "discovery",
+      "result_count": 9,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Brentacre Insurance | Modified & Specialist Car Insurance Brokers",
+          "link": "https://www.brentacre.co.uk/",
+          "snippet": "Brentacre are a specialist car insurance broker with over 30 years of experience that specialize in everything modified or custom.Specialist Car Insurance Broker. Let's Get You Covered. Speak to a fel",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Maxwell Graphics Corporation | Signs. Graphics. Vehicle Wraps.",
+          "link": "https://maxwellgraphicscorporation.com/",
+          "snippet": "Maxwell Graphics Corporation \u2014 25 years of custom signage, wall murals, monument signs, banners, vehicle wraps, and large-format graphics. Denver, CO + nationwide service.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Specialist Car Insurance Brokers | Keith Michaels Insurance",
+          "link": "https://www.keithmichaels.co.uk/",
+          "snippet": "Modified Car Insurance. Competitive cover for every modification.Independent specialist brokers with tailored policies that aren\u2019t available on comparison sites. Over 35+ years\u2019 experience with perfor",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vehicular Modifications for Disabled People | HIE Help Center",
+          "link": "https://hiehelpcenter.org/transition-adulthood/transportation/vehicular-modifications/",
+          "snippet": "Who provides help with funding for vehicular modifications? Vehicles with specialized modifications can often be expensive, however. There are several vehicle dealerships, mobility organizations and o",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Driver and Vehicle Licensing Agency - GOV.UK",
+          "link": "https://www.gov.uk/government/organisations/driver-and-vehicle-licensing-agency",
+          "snippet": "This explains the Driver and Vehicle Licensing Agency\u2019s performance, achievements and financial statements for the financial year 1 April 2025 to 31 March 2026.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ray Gilani - Disability Equipment And Modification Specialist",
+          "link": "https://www.gilanimobility.ae/author/ramin/page/6/",
+          "snippet": "Handicap Vehicle Modifications. Hyundai Staria Wheelchair Conversion. Wheelchair Accessible Kia Carnival.Doorway accessibility is one of the most important considerations when designing or modifying a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Build Your Own Car: Luxury Car Customizer by BMW USA",
+          "link": "https://www.bmwusa.com/build-your-own.html",
+          "snippet": "Future Vehicles. LEARN. All BMWs. EXPLORE. Limited Edition Vehicles. CONCEPT. BMW M Neue Klasse.All-Electric Vehicles. EXPLORE. Plug-in Hybrid Vehicles. BMW M.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Begin Your Mobility Journey",
+          "link": "https://wheelchairvanmods.com/",
+          "snippet": "There are a lot of things to consider when choosing a vehicle that will accommodate the needs of a wheelchair user as well as traditional passengers. Making a mistake when purchasing the chassis or mo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "ICBC \u2014 Insurance Corporation of British Columbia",
+          "link": "https://icbc.com/",
+          "snippet": "Vehicle repair and theft claims. When you've been injured in a crash. Enhanced Care.Collector and modified vehicles.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Brentacre Insurance | Modified & Specialist Car Insurance Brokers",
+          "link": "https://www.brentacre.co.uk/",
+          "snippet": "Brentacre are a specialist car insurance broker with over 30 years of experience that specialize in everything modified or custom.Specialist Car Insurance Broker. Let's Get You Covered. Speak to a fel",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Maxwell Graphics Corporation | Signs. Graphics. Vehicle Wraps.",
+          "link": "https://maxwellgraphicscorporation.com/",
+          "snippet": "Maxwell Graphics Corporation \u2014 25 years of custom signage, wall murals, monument signs, banners, vehicle wraps, and large-format graphics. Denver, CO + nationwide service.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Specialist Car Insurance Brokers | Keith Michaels Insurance",
+          "link": "https://www.keithmichaels.co.uk/",
+          "snippet": "Modified Car Insurance. Competitive cover for every modification.Independent specialist brokers with tailored policies that aren\u2019t available on comparison sites. Over 35+ years\u2019 experience with perfor",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Vehicular Modifications for Disabled People | HIE Help Center",
+          "link": "https://hiehelpcenter.org/transition-adulthood/transportation/vehicular-modifications/",
+          "snippet": "Who provides help with funding for vehicular modifications? Vehicles with specialized modifications can often be expensive, however. There are several vehicle dealerships, mobility organizations and o",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Driver and Vehicle Licensing Agency - GOV.UK",
+          "link": "https://www.gov.uk/government/organisations/driver-and-vehicle-licensing-agency",
+          "snippet": "This explains the Driver and Vehicle Licensing Agency\u2019s performance, achievements and financial statements for the financial year 1 April 2025 to 31 March 2026.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ray Gilani - Disability Equipment And Modification Specialist",
+          "link": "https://www.gilanimobility.ae/author/ramin/page/6/",
+          "snippet": "Handicap Vehicle Modifications. Hyundai Staria Wheelchair Conversion. Wheelchair Accessible Kia Carnival.Doorway accessibility is one of the most important considerations when designing or modifying a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Build Your Own Car: Luxury Car Customizer by BMW USA",
+          "link": "https://www.bmwusa.com/build-your-own.html",
+          "snippet": "Future Vehicles. LEARN. All BMWs. EXPLORE. Limited Edition Vehicles. CONCEPT. BMW M Neue Klasse.All-Electric Vehicles. EXPLORE. Plug-in Hybrid Vehicles. BMW M.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Begin Your Mobility Journey",
+          "link": "https://wheelchairvanmods.com/",
+          "snippet": "There are a lot of things to consider when choosing a vehicle that will accommodate the needs of a wheelchair user as well as traditional passengers. Making a mistake when purchasing the chassis or mo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "ICBC \u2014 Insurance Corporation of British Columbia",
+          "link": "https://icbc.com/",
+          "snippet": "Vehicle repair and theft claims. When you've been injured in a crash. Enhanced Care.Collector and modified vehicles.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "maintenance service provider official site",
+      "level": "discovery",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Chiptuning, Detailing, Technical Car Maintenance Services.",
+          "link": "https://www.morendi.com/",
+          "snippet": "Trusted. MORENDI is an official representative of BMW and Mercedes-Benz brands. All our works are provided with a warranty and are always included in the official databases. Experienced. Over 10 years",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Chiptuning, Detailing, Technical Car Maintenance Services.",
+          "link": "https://www.morendi.com/",
+          "snippet": "Trusted. MORENDI is an official representative of BMW and Mercedes-Benz brands. All our works are provided with a warranty and are always included in the official databases. Experienced. Over 10 years",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P7": {
+      "query": "repair service provider corporate site",
+      "level": "discovery",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "An Insurance Company You Can Rely On | Progressive",
+          "link": "https://www.progressive.com/",
+          "snippet": "Progressive has the coverages you need to protect your vehicles on the road and at the job site. We provide insurance for a wide range of commercial vehicles, including trucks, trailers, cars, SUVs, a",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "An Insurance Company You Can Rely On | Progressive",
+          "link": "https://www.progressive.com/",
+          "snippet": "Progressive has the coverages you need to protect your vehicles on the road and at the job site. We provide insurance for a wide range of commercial vehicles, including trucks, trailers, cars, SUVs, a",
+          "backend": "ddgs_bing"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

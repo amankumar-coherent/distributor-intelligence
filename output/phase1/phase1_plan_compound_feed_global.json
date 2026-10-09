@@ -1,0 +1,1143 @@
+{
+  "phase": 1,
+  "query": "Compound Feed Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T21:37:14.425632+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "compound feed",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "animal nutrition",
+    "industry_terms": [
+      "compound feed",
+      "animal nutrition",
+      "livestock feed",
+      "feed formulation",
+      "feed additives"
+    ],
+    "ecosystem_functions": [
+      "distributing compound feed",
+      "wholesaling animal feed",
+      "reselling feed products",
+      "integrating feed solutions",
+      "providing logistics services",
+      "consulting on feed nutrition",
+      "ensuring regulatory compliance",
+      "facilitating channel partnerships"
+    ],
+    "interpretation_summary": "The compound feed market involves the production and distribution of animal feed that is formulated to meet the nutritional needs of livestock. Key participants include manufacturers, distributors, and various channel pa",
+    "relevance_keywords": [
+      "compound feed suppliers",
+      "animal feed distributors",
+      "livestock nutrition services",
+      "feed logistics",
+      "feed consulting"
+    ],
+    "negative_keywords": [
+      "pet food",
+      "organic feed",
+      "farming equipment",
+      "agricultural chemicals",
+      "non-animal feed"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "Cargill",
+        "primary_domain": "cargill.com",
+        "company_function": "animal nutrition and feed production"
+      },
+      {
+        "canonical_name": "Archer Daniels Midland Company",
+        "primary_domain": "adm.com",
+        "company_function": "global food processing and feed production"
+      },
+      {
+        "canonical_name": "Nutreco",
+        "primary_domain": "nutreco.com",
+        "company_function": "animal nutrition and aquafeed"
+      },
+      {
+        "canonical_name": "Alltech",
+        "primary_domain": "alltech.com",
+        "company_function": "animal health and nutrition"
+      },
+      {
+        "canonical_name": "BASF",
+        "primary_domain": "basf.com",
+        "company_function": "chemical production including feed additives"
+      },
+      {
+        "canonical_name": "Land O'Lakes",
+        "primary_domain": "landolakes.com",
+        "company_function": "dairy and livestock feed production"
+      },
+      {
+        "canonical_name": "De Heus",
+        "primary_domain": "deheus.com",
+        "company_function": "animal feed and nutrition"
+      },
+      {
+        "canonical_name": "ForFarmers",
+        "primary_domain": "forfarmers.com",
+        "company_function": "animal feed and nutrition solutions"
+      },
+      {
+        "canonical_name": "Trouw Nutrition",
+        "primary_domain": "trouwnutrition.com",
+        "company_function": "animal nutrition solutions",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Pancosma",
+        "primary_domain": "pancosma.com",
+        "company_function": "feed additives and nutrition",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Beneo",
+        "primary_domain": "beneo.com",
+        "company_function": "functional ingredients for animal feed",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Merial",
+        "primary_domain": "merial.com",
+        "company_function": "animal health and nutrition",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Provimi",
+        "primary_domain": "provimi.com",
+        "company_function": "animal nutrition and feed solutions",
+        "segment": "Distributors",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "ADM Animal Nutrition",
+        "primary_domain": "admanimalnutrition.com",
+        "company_function": "animal nutrition and feed production",
+        "segment": "Distributors",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "compound feed",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "compound feed",
+    "include_keywords": [
+      "animal feed distribution",
+      "livestock feed wholesaler",
+      "compound feed reseller",
+      "feed service provider",
+      "channel partner for animal feed"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The compound feed market involves the production and distribution of animal feed that is formulated to meet the nutritional needs of livestock. Key participants include manufacturers, distributors, and various channel partners who facilitate the delivery of these products globally.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Distribution",
+        "description": "This layer involves the distribution of compound feed products to various end-users, including farms and livestock operations.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Regional distributors",
+              "National distributors"
+            ],
+            "participant_types": [
+              "distributor",
+              "wholesaler"
+            ],
+            "search_intents": [
+              "compound feed distributors near me",
+              "animal feed wholesalers in my area"
+            ]
+          },
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Retail resellers",
+              "Online resellers"
+            ],
+            "participant_types": [
+              "reseller",
+              "channel partner"
+            ],
+            "search_intents": [
+              "buy compound feed from resellers",
+              "animal feed resellers online"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L2",
+        "layer_name": "Service Providers",
+        "description": "Service providers offer support services related to the compound feed market, including logistics and consulting.",
+        "segments": [
+          {
+            "segment_name": "Logistics Providers",
+            "sub_segments": [
+              "Transport services",
+              "Warehousing services"
+            ],
+            "participant_types": [
+              "service provider"
+            ],
+            "search_intents": [
+              "logistics services for animal feed",
+              "warehousing for compound feed distribution"
+            ]
+          },
+          {
+            "segment_name": "Consulting Services",
+            "sub_segments": [
+              "Nutritional consulting",
+              "Regulatory compliance"
+            ],
+            "participant_types": [
+              "service provider"
+            ],
+            "search_intents": [
+              "consulting services for animal nutrition",
+              "regulatory compliance for feed products"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Raw material suppliers",
+        "Feed additives manufacturers",
+        "Animal health products",
+        "Agricultural equipment suppliers"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "find compound feed distributors in your region",
+        "sub_sector": "distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "search for animal feed wholesalers globally",
+        "sub_sector": "wholesaler",
+        "layer_id": "L1",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "locate compound feed resellers online",
+        "sub_sector": "reseller",
+        "layer_id": "L1",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "consulting services for animal feed nutrition",
+        "sub_sector": "service_provider",
+        "layer_id": "L2",
+        "segment": "Service Providers"
+      },
+      {
+        "id": "M5",
+        "level": "market_map",
+        "text": "logistics services for compound feed distribution",
+        "sub_sector": "service_provider",
+        "layer_id": "L2",
+        "segment": "Logistics Providers"
+      },
+      {
+        "id": "M6",
+        "level": "market_map",
+        "text": "find consulting services for feed regulation",
+        "sub_sector": "service_provider",
+        "layer_id": "L2",
+        "segment": "Consulting Services"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "animal nutrition",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "compound feed companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "distributors of compound feed corporate sites"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "animal feed resellers official website"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "market_map",
+      "text": "find compound feed distributors in your region"
+    },
+    {
+      "id": "P2",
+      "level": "market_map",
+      "text": "search for animal feed wholesalers globally"
+    },
+    {
+      "id": "P3",
+      "level": "market_map",
+      "text": "locate compound feed resellers online"
+    },
+    {
+      "id": "P4",
+      "level": "market_map",
+      "text": "consulting services for animal feed nutrition"
+    },
+    {
+      "id": "P5",
+      "level": "market_map",
+      "text": "logistics services for compound feed distribution"
+    },
+    {
+      "id": "P6",
+      "level": "market_map",
+      "text": "find consulting services for feed regulation"
+    },
+    {
+      "id": "P7",
+      "level": "discovery",
+      "text": "compound feed distributor official site"
+    },
+    {
+      "id": "P8",
+      "level": "discovery",
+      "text": "animal feed wholesaler corporate site"
+    },
+    {
+      "id": "P9",
+      "level": "discovery",
+      "text": "compound feed reseller official website"
+    },
+    {
+      "id": "P10",
+      "level": "discovery",
+      "text": "feed solutions integrator corporate site"
+    },
+    {
+      "id": "P11",
+      "level": "discovery",
+      "text": "logistics services for animal feed"
+    },
+    {
+      "id": "P12",
+      "level": "discovery",
+      "text": "consulting services for animal nutrition"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "compound feed companies official websites",
+      "level": "L0",
+      "result_count": 13,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Top 10 Compound Feed Companies of 2024 Operating in Market",
+          "link": "https://www.fortunebusinessinsights.com/blog/top-compound-feed-companies-11055",
+          "snippet": "/ Top Compound Feed Companies. \"We Envision Growth Strategies Most Suited to Your Business\".With over 80 manufacturing sites in 20+ countries, its products are distributed in 75+ countries including B",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Compound Feed Suppliers, Compound Feed Manufacturers... - EC21",
+          "link": "https://www.ec21.com/companies/compound-feed.html",
+          "snippet": "Compound Feed Companies. Supplier Country.feed and Web printing machines. We Specialize in Goss and Heidelberg all Printing machine rollers our Plant has Production capacity of 36000 Rollers a year.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Compound Feed Market Companies",
+          "link": "https://www.skyquestt.com/report/compound-feed-market/companies",
+          "snippet": "One key driver of the global compound feed market is the increasing global population and its rising demand for animal protein. As the population grows, there is a greater need for meat, milk, and egg",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Compound Feed (Chinese companies list)",
+          "link": "https://www.cnverify.com/companies/Compound-Feed",
+          "snippet": "Business scope: Ruminant Feed, Concentrate Supplement, Compound Feed, Feed Ingredients, Concentrated Feed, Production Processing And Sales, Sale, Examples of data in the Chinese company database.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "1-160T/H Compound Feed Mill Plant For Animal Aqua Pet - RICHI",
+          "link": "https://www.richipelletmachine.com/compound-feed-mill/",
+          "snippet": "Compound feed mills are the most widely used feed processing systems. A compound feed plant can be used to produce one or more compound feeds types. raw material for compound feed mill.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Compound Feed Market Size to Climb USD 614.57 Billion in 2025",
+          "link": "https://www.towardsfnb.com/insights/compound-feed-market",
+          "snippet": "Compound Feed Market Leading Companies Segments Covered in the Report.The aim behind this launch was to help animal feed producers and raw material producers to produce safe animal feed. (Source: PR N",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Feed Companies | Feed Strategy",
+          "link": "https://www.feedstrategy.com/top-feed-companies",
+          "snippet": "The world\u2019s leading feed producers WATT Global Media \u2019s research team has collected the production data of more than 200 compound feed manufacturers worldwide. The Top Feed Companies online database a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cattle Feed Manufacturer India: Bharat Feeds & Extractions ...",
+          "link": "https://bfel.in/",
+          "snippet": "Company Overview Bharat Feeds & Extractions Limited: Leading cattle feed manufacturer in Indore, Madhya Pradesh since 1990. We specialize in high-quality compound feed for cows, buffaloes, sheep, and ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Compound Feed Companies - Top Players' List - Mordor Intelligence",
+          "link": "https://www.mordorintelligence.com/industry-reports/global-compound-feed-market-industry/companies",
+          "snippet": "Compound Feed Company List \u00b7 Charoen Pokphand Foods PCL (Charoen Pokphand Group) \u00b7 Cargill Incorporated \u00b7 Land O Lakes Inc. \u00b7 Alltech \u00b7 ADM \u00b7 Nutreco (SHV Holdings).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Financial losses for Dutch stakeholders during the 2013 aflatoxin...",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8163670/",
+          "snippet": "An official website of the United States government. Here's how you know.During compound feed formulation, the aflatoxin concentration usually will decrease since maize is just one of the ingredients ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Microsoft Word - Scriptie 5-6-2008",
+          "link": "https://edepot.wur.nl/3769",
+          "snippet": "This research focuses on compound feed companies, but these companies can sell wet feed too. Table 4.3 gives an overview of different characteristics of both types of feed, the history of crisis (chan",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "De Heus India",
+          "link": "https://www.deheus.co.in/",
+          "snippet": "De Heus is a fully fledged supplier of nutritional products, producing compound feed, premixes, concentrates and feed specialities for livestock and aquaculture customers worldwide.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "CLFMA Of India",
+          "link": "https://www.clfma.org/",
+          "snippet": "CLFMA was formed in June 1967 as The Compound Feed Manufacturers Association, CLFMA now has around 250+ members, including all sectors of the livestock industry ...",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Top 10 Compound Feed Companies of 2024 Operating in Market",
+          "link": "https://www.fortunebusinessinsights.com/blog/top-compound-feed-companies-11055",
+          "snippet": "/ Top Compound Feed Companies. \"We Envision Growth Strategies Most Suited to Your Business\".With over 80 manufacturing sites in 20+ countries, its products are distributed in 75+ countries including B",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Compound Feed Suppliers, Compound Feed Manufacturers... - EC21",
+          "link": "https://www.ec21.com/companies/compound-feed.html",
+          "snippet": "Compound Feed Companies. Supplier Country.feed and Web printing machines. We Specialize in Goss and Heidelberg all Printing machine rollers our Plant has Production capacity of 36000 Rollers a year.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Compound Feed Market Companies",
+          "link": "https://www.skyquestt.com/report/compound-feed-market/companies",
+          "snippet": "One key driver of the global compound feed market is the increasing global population and its rising demand for animal protein. As the population grows, there is a greater need for meat, milk, and egg",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Compound Feed (Chinese companies list)",
+          "link": "https://www.cnverify.com/companies/Compound-Feed",
+          "snippet": "Business scope: Ruminant Feed, Concentrate Supplement, Compound Feed, Feed Ingredients, Concentrated Feed, Production Processing And Sales, Sale, Examples of data in the Chinese company database.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "1-160T/H Compound Feed Mill Plant For Animal Aqua Pet - RICHI",
+          "link": "https://www.richipelletmachine.com/compound-feed-mill/",
+          "snippet": "Compound feed mills are the most widely used feed processing systems. A compound feed plant can be used to produce one or more compound feeds types. raw material for compound feed mill.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Compound Feed Market Size to Climb USD 614.57 Billion in 2025",
+          "link": "https://www.towardsfnb.com/insights/compound-feed-market",
+          "snippet": "Compound Feed Market Leading Companies Segments Covered in the Report.The aim behind this launch was to help animal feed producers and raw material producers to produce safe animal feed. (Source: PR N",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Feed Companies | Feed Strategy",
+          "link": "https://www.feedstrategy.com/top-feed-companies",
+          "snippet": "The world\u2019s leading feed producers WATT Global Media \u2019s research team has collected the production data of more than 200 compound feed manufacturers worldwide. The Top Feed Companies online database a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cattle Feed Manufacturer India: Bharat Feeds & Extractions ...",
+          "link": "https://bfel.in/",
+          "snippet": "Company Overview Bharat Feeds & Extractions Limited: Leading cattle feed manufacturer in Indore, Madhya Pradesh since 1990. We specialize in high-quality compound feed for cows, buffaloes, sheep, and ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Compound Feed Companies - Top Players' List - Mordor Intelligence",
+          "link": "https://www.mordorintelligence.com/industry-reports/global-compound-feed-market-industry/companies",
+          "snippet": "Compound Feed Company List \u00b7 Charoen Pokphand Foods PCL (Charoen Pokphand Group) \u00b7 Cargill Incorporated \u00b7 Land O Lakes Inc. \u00b7 Alltech \u00b7 ADM \u00b7 Nutreco (SHV Holdings).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Financial losses for Dutch stakeholders during the 2013 aflatoxin...",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8163670/",
+          "snippet": "An official website of the United States government. Here's how you know.During compound feed formulation, the aflatoxin concentration usually will decrease since maize is just one of the ingredients ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Microsoft Word - Scriptie 5-6-2008",
+          "link": "https://edepot.wur.nl/3769",
+          "snippet": "This research focuses on compound feed companies, but these companies can sell wet feed too. Table 4.3 gives an overview of different characteristics of both types of feed, the history of crisis (chan",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "De Heus India",
+          "link": "https://www.deheus.co.in/",
+          "snippet": "De Heus is a fully fledged supplier of nutritional products, producing compound feed, premixes, concentrates and feed specialities for livestock and aquaculture customers worldwide.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "CLFMA Of India",
+          "link": "https://www.clfma.org/",
+          "snippet": "CLFMA was formed in June 1967 as The Compound Feed Manufacturers Association, CLFMA now has around 250+ members, including all sectors of the livestock industry ...",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "distributors of compound feed corporate sites",
+      "level": "L1",
+      "result_count": 2,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Boiler Compound Feeders Manufacturers and Suppliers in the USA...",
+          "link": "https://www.thomasnet.com/suppliers/usa/boiler-compound-feeders-27871607",
+          "snippet": "Manufacturer of boiler automatic compound feeders. Available in various configurations. Features vary depending upon model and include 1/4 in. pump tube assembly, check valves, four tube nuts, feed me",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Boiler Compound Feeder Market Research Report 2032",
+          "link": "https://dataintelo.com/report/boiler-compound-feeder-market",
+          "snippet": "The global boiler compound feeder market size was valued at approximately USD 1.2 billion in 2023 and is projected to reach about USD 2.1 billion by 2032, growing at a robust CAGR of 6.3% during the f",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Boiler Compound Feeders Manufacturers and Suppliers in the USA...",
+          "link": "https://www.thomasnet.com/suppliers/usa/boiler-compound-feeders-27871607",
+          "snippet": "Manufacturer of boiler automatic compound feeders. Available in various configurations. Features vary depending upon model and include 1/4 in. pump tube assembly, check valves, four tube nuts, feed me",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Boiler Compound Feeder Market Research Report 2032",
+          "link": "https://dataintelo.com/report/boiler-compound-feeder-market",
+          "snippet": "The global boiler compound feeder market size was valued at approximately USD 1.2 billion in 2023 and is projected to reach about USD 2.1 billion by 2032, growing at a robust CAGR of 6.3% during the f",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "animal feed resellers official website",
+      "level": "L2",
+      "result_count": 8,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Home - Epol Animal Nutrition",
+          "link": "https://epol.co.za/",
+          "snippet": "epol products. We offer animal feeds across most species either in bulk or in bags directly to farmers as well as in bags through a wide network of partner resellers. Feeds are supplied from 6 mills l",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "itemlevel.net/sun-haven-how-to-feed-animals",
+          "link": "https://itemlevel.net/sun-haven-how-to-feed-animals/",
+          "snippet": "Sun Haven: How To Feed Animals.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "ADM Animal Nutrition",
+          "link": "https://www.admanimalnutrition.com/",
+          "snippet": "Our Innovative Portfolio Around the world, producers and feed manufacturers rely on us for nutrition solutions that elevate animal health and productivity. Our broad portfolio\u2014including amino acids, f",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - Alzufeeds",
+          "link": "https://alzufeeds.co.za/",
+          "snippet": "BROWSE OUR WEBSITE: PRODUCTS SPECIALS RESOURCES BRANCHES CAREERS CONTACT POPULAR SEARCHES: PETS BIRDS LARGE ANIMALS CATTLE DOGS SHEEP PIGS ALL",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Akralos\u2122 \u2013 Corporate Home of Trusted Animal Nutrition Brands",
+          "link": "https://www.akralos.com/",
+          "snippet": "Supported by a network of more than 40 feed mills across the United States and Canada, our brands offer a comprehensive portfolio of proven animal nutrition solutions, along with practical guidance an",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Total Feeds, Inc. - Animal Feed, Supplements",
+          "link": "https://totalfeeds.com/",
+          "snippet": "Our animal feeds and vitamin supplements are made with a unique combination of products that you won't find anywhere else. We manufacture the best feeds and get it to you, the customer, as economicall",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Kent Feeds - Animal Feeds & Supplements for Quality Nutrition",
+          "link": "https://kentfeeds.com/",
+          "snippet": "KENT Nutrition provides high-quality nutrition with animal feeds for a variety of species, from hobby farmers to competitive owners.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "REFIT - Animal Feed Supplement Manufacturer & Supplier in India",
+          "link": "https://refitanimalcare.com/",
+          "snippet": "We are India\u2019s leading Animal Feed Supplement, Manufacturer, Supplier, and Wholesaler of high-quality and well-researched veterinary products for cattle, poultry, fish, horses, pigeons, and livestock.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Home - Epol Animal Nutrition",
+          "link": "https://epol.co.za/",
+          "snippet": "epol products. We offer animal feeds across most species either in bulk or in bags directly to farmers as well as in bags through a wide network of partner resellers. Feeds are supplied from 6 mills l",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "itemlevel.net/sun-haven-how-to-feed-animals",
+          "link": "https://itemlevel.net/sun-haven-how-to-feed-animals/",
+          "snippet": "Sun Haven: How To Feed Animals.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "ADM Animal Nutrition",
+          "link": "https://www.admanimalnutrition.com/",
+          "snippet": "Our Innovative Portfolio Around the world, producers and feed manufacturers rely on us for nutrition solutions that elevate animal health and productivity. Our broad portfolio\u2014including amino acids, f",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - Alzufeeds",
+          "link": "https://alzufeeds.co.za/",
+          "snippet": "BROWSE OUR WEBSITE: PRODUCTS SPECIALS RESOURCES BRANCHES CAREERS CONTACT POPULAR SEARCHES: PETS BIRDS LARGE ANIMALS CATTLE DOGS SHEEP PIGS ALL",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Akralos\u2122 \u2013 Corporate Home of Trusted Animal Nutrition Brands",
+          "link": "https://www.akralos.com/",
+          "snippet": "Supported by a network of more than 40 feed mills across the United States and Canada, our brands offer a comprehensive portfolio of proven animal nutrition solutions, along with practical guidance an",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Total Feeds, Inc. - Animal Feed, Supplements",
+          "link": "https://totalfeeds.com/",
+          "snippet": "Our animal feeds and vitamin supplements are made with a unique combination of products that you won't find anywhere else. We manufacture the best feeds and get it to you, the customer, as economicall",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Kent Feeds - Animal Feeds & Supplements for Quality Nutrition",
+          "link": "https://kentfeeds.com/",
+          "snippet": "KENT Nutrition provides high-quality nutrition with animal feeds for a variety of species, from hobby farmers to competitive owners.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "REFIT - Animal Feed Supplement Manufacturer & Supplier in India",
+          "link": "https://refitanimalcare.com/",
+          "snippet": "We are India\u2019s leading Animal Feed Supplement, Manufacturer, Supplier, and Wholesaler of high-quality and well-researched veterinary products for cattle, poultry, fish, horses, pigeons, and livestock.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "find compound feed distributors in your region",
+      "level": "market_map",
+      "result_count": 2,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Cattle Feed Distributors Market Research Report 2034",
+          "link": "https://dataintelo.com/report/global-cattle-feed-distributors-market",
+          "snippet": "Distributors favor compound feed products for their superior margin potential, typically 8-15% higher than bulk commodity grains, and for the value-added advisory services they enable through ration c",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Absolute Reports\u00ae - Regional Compound Feed Industry",
+          "link": "https://www.absolutereports.com/regional-compound-feed-industry-27309136",
+          "snippet": "Regional Compound Feed Industry Trend & Dynamic Research Report 2024.The global Compound Feed market size in 2023 is xx million US dollars, and it is expected to be xx million US dollars by 2030, with",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Cattle Feed Distributors Market Research Report 2034",
+          "link": "https://dataintelo.com/report/global-cattle-feed-distributors-market",
+          "snippet": "Distributors favor compound feed products for their superior margin potential, typically 8-15% higher than bulk commodity grains, and for the value-added advisory services they enable through ration c",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Absolute Reports\u00ae - Regional Compound Feed Industry",
+          "link": "https://www.absolutereports.com/regional-compound-feed-industry-27309136",
+          "snippet": "Regional Compound Feed Industry Trend & Dynamic Research Report 2024.The global Compound Feed market size in 2023 is xx million US dollars, and it is expected to be xx million US dollars by 2030, with",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P2": {
+      "query": "search for animal feed wholesalers globally",
+      "level": "market_map",
+      "result_count": 8,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Grain; Seed & Animal Feed Wholesalers - Industry Report",
+          "link": "https://www.researchandmarkets.com/reports/6022667/grain-seed-and-animal-feed-wholesalers-industry",
+          "snippet": "The analysis conducted in the Grain; Seed & Animal Feed Wholesalers (Global) report is ideal for anyone wanting to: Identify the market leaders. Spot companies heading for failure.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Netherlands Wholesaler feeding - Europages",
+          "link": "https://www.europages.co.uk/companies/netherlands/wholesaler/feeding.html",
+          "snippet": "Netherlands: Browse through 15 Wholesaler in the feeding industry on Europages, a worldwide B2B sourcing platform.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Barley Animal Feed, Barley Animal Feed Suppliers & Barley Animal...",
+          "link": "https://www.tradekey.com/products/barley-animal-feed.html",
+          "snippet": "Product Description Specifications animal feed barley. 1)animal feed ALL VARITIES 2)ON T...Healthy Harvest Conglomerate. [Distributors/Wholesalers]. South Africa. TrustPoints: 0.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Animal Feed Wholesalers in Birmingham Ask for free quotes",
+          "link": "https://birmingham.cylex-uk.co.uk/animal+feed+wholesalers.html",
+          "snippet": "... Animal Feed Wholesalers, animal feed manufacturer. More info.Submit a quote request on our free platform & get customized offers from local professionals in Birmingham. NEXT. 52.5023341,-1.9012199",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Animal Feed Wholesalers - Dog Feeders - AliExpress",
+          "link": "https://www.aliexpress.com/w/wholesale-animal-feed-wholesalers.html",
+          "snippet": "When you saw something of animal feed wholesalers, you can shop for it on AliExpress! You can also filter out items that offer free shipping to narrow down your search for animal feed wholesalers! The",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Grain; Seed & Animal Feed Wholesalers (EUROPEAN) - Industry...",
+          "link": "https://www.marketresearch.com/Plimsoll-Publishing-Ltd-v3468/Grain-Seed-Animal-Feed-Wholesalers-37774538/",
+          "snippet": "Subsequently, you will receive a thorough 100-page market analysis highlighting the latest changes in the Grain; Seed & Animal Feed Wholesalers (EUROPEAN) market. This section includes: \u2022 Best Trading",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Animal Feed Wholesaler from SIX SEASON... | Tradewheel.com",
+          "link": "https://www.tradewheel.com/p/animal-feed-wholesaler-517356/",
+          "snippet": "Buy low price Animal Feed Wholesaler by SIX SEASON AGRO TRADERS, a leading supplier from Bangladesh. 30 similar products are also available from global exporters.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "itemlevel.net/sun-haven-how-to-feed-animals",
+          "link": "https://itemlevel.net/sun-haven-how-to-feed-animals/",
+          "snippet": "Sun Haven: How To Feed Animals.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Grain; Seed & Animal Feed Wholesalers - Industry Report",
+          "link": "https://www.researchandmarkets.com/reports/6022667/grain-seed-and-animal-feed-wholesalers-industry",
+          "snippet": "The analysis conducted in the Grain; Seed & Animal Feed Wholesalers (Global) report is ideal for anyone wanting to: Identify the market leaders. Spot companies heading for failure.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Netherlands Wholesaler feeding - Europages",
+          "link": "https://www.europages.co.uk/companies/netherlands/wholesaler/feeding.html",
+          "snippet": "Netherlands: Browse through 15 Wholesaler in the feeding industry on Europages, a worldwide B2B sourcing platform.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Barley Animal Feed, Barley Animal Feed Suppliers & Barley Animal...",
+          "link": "https://www.tradekey.com/products/barley-animal-feed.html",
+          "snippet": "Product Description Specifications animal feed barley. 1)animal feed ALL VARITIES 2)ON T...Healthy Harvest Conglomerate. [Distributors/Wholesalers]. South Africa. TrustPoints: 0.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Animal Feed Wholesalers in Birmingham Ask for free quotes",
+          "link": "https://birmingham.cylex-uk.co.uk/animal+feed+wholesalers.html",
+          "snippet": "... Animal Feed Wholesalers, animal feed manufacturer. More info.Submit a quote request on our free platform & get customized offers from local professionals in Birmingham. NEXT. 52.5023341,-1.9012199",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Animal Feed Wholesalers - Dog Feeders - AliExpress",
+          "link": "https://www.aliexpress.com/w/wholesale-animal-feed-wholesalers.html",
+          "snippet": "When you saw something of animal feed wholesalers, you can shop for it on AliExpress! You can also filter out items that offer free shipping to narrow down your search for animal feed wholesalers! The",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Grain; Seed & Animal Feed Wholesalers (EUROPEAN) - Industry...",
+          "link": "https://www.marketresearch.com/Plimsoll-Publishing-Ltd-v3468/Grain-Seed-Animal-Feed-Wholesalers-37774538/",
+          "snippet": "Subsequently, you will receive a thorough 100-page market analysis highlighting the latest changes in the Grain; Seed & Animal Feed Wholesalers (EUROPEAN) market. This section includes: \u2022 Best Trading",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Animal Feed Wholesaler from SIX SEASON... | Tradewheel.com",
+          "link": "https://www.tradewheel.com/p/animal-feed-wholesaler-517356/",
+          "snippet": "Buy low price Animal Feed Wholesaler by SIX SEASON AGRO TRADERS, a leading supplier from Bangladesh. 30 similar products are also available from global exporters.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "itemlevel.net/sun-haven-how-to-feed-animals",
+          "link": "https://itemlevel.net/sun-haven-how-to-feed-animals/",
+          "snippet": "Sun Haven: How To Feed Animals.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P3": {
+      "query": "locate compound feed resellers online",
+      "level": "market_map",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "\u041a\u043e\u043c\u0431\u0438\u043a\u043e\u0440\u043c \u0434\u043b\u044f \u0411\u0420\u041e\u0419\u041b\u0415\u0420\u041e\u0412 \u041f\u041a-2. \u0420\u0435\u0446\u0435\u043f\u0442 \u043f\u0440\u0438\u0433\u043e\u0442\u043e\u0432\u043b\u0435\u043d\u0438\u044f...",
+          "link": "https://rutube.ru/video/4b9c209cf557de38f30000e06d046d14/",
+          "snippet": "...\u043a\u0430\u043a\u043e\u0439 \u043a\u043e\u043c\u0431\u0438\u043a\u043e\u0440\u043c \u0434\u043b\u044f \u0431\u0440\u043e\u0439\u043b\u0435\u0440\u043e\u0432 \u043b\u0443\u0447\u0448\u0435,\u0440\u0435\u0446\u0435\u043f\u0442 \u043a\u043e\u043c\u0431\u0438\u043a\u043e\u0440\u043c\u0430,\u043c\u043e\u0439 \u0440\u0435\u0446\u0435\u043f\u0442 \u043a\u043e\u043c\u0431\u0438\u043a\u043e\u0440\u043c\u0430,\u043b\u0443\u0447\u0448\u0438\u0439 \u0440\u0435\u0446\u0435\u043f\u0442 \u043a\u043e\u043c\u0431\u0438\u043a\u043e\u0440\u043c\u0430,\u0440\u0435\u0446\u0435\u043f\u0442\u044b \u043a\u043e\u043c\u0431\u0438\u043a\u043e\u0440\u043c\u043e\u0432,\u0440\u0435\u0446\u0435\u043f\u0442 \u043b\u0443\u0447\u0448\u0435\u0433\u043e \u043a\u043e\u043c\u0431\u0438\u043a\u043e\u0440\u043c\u0430,\u043a\u0443\u043f\u0438\u0442\u044c \u043a\u043e\u043c\u0431\u0438\u043a\u043e\u0440\u043c,\u0440\u0435\u0446\u0435\u043f\u0442 \u043a\u043e\u043c\u0431\u0438\u043a\u043e\u0440\u043c\u043e\u0432 \u0434\u043b\u044f \u043a\u0443\u0440 \u0438 \u0431\u0440\u043e\u0439",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "\u041a\u043e\u043c\u0431\u0438\u043a\u043e\u0440\u043c \u0434\u043b\u044f \u0411\u0420\u041e\u0419\u041b\u0415\u0420\u041e\u0412 \u041f\u041a-2. \u0420\u0435\u0446\u0435\u043f\u0442 \u043f\u0440\u0438\u0433\u043e\u0442\u043e\u0432\u043b\u0435\u043d\u0438\u044f...",
+          "link": "https://rutube.ru/video/4b9c209cf557de38f30000e06d046d14/",
+          "snippet": "...\u043a\u0430\u043a\u043e\u0439 \u043a\u043e\u043c\u0431\u0438\u043a\u043e\u0440\u043c \u0434\u043b\u044f \u0431\u0440\u043e\u0439\u043b\u0435\u0440\u043e\u0432 \u043b\u0443\u0447\u0448\u0435,\u0440\u0435\u0446\u0435\u043f\u0442 \u043a\u043e\u043c\u0431\u0438\u043a\u043e\u0440\u043c\u0430,\u043c\u043e\u0439 \u0440\u0435\u0446\u0435\u043f\u0442 \u043a\u043e\u043c\u0431\u0438\u043a\u043e\u0440\u043c\u0430,\u043b\u0443\u0447\u0448\u0438\u0439 \u0440\u0435\u0446\u0435\u043f\u0442 \u043a\u043e\u043c\u0431\u0438\u043a\u043e\u0440\u043c\u0430,\u0440\u0435\u0446\u0435\u043f\u0442\u044b \u043a\u043e\u043c\u0431\u0438\u043a\u043e\u0440\u043c\u043e\u0432,\u0440\u0435\u0446\u0435\u043f\u0442 \u043b\u0443\u0447\u0448\u0435\u0433\u043e \u043a\u043e\u043c\u0431\u0438\u043a\u043e\u0440\u043c\u0430,\u043a\u0443\u043f\u0438\u0442\u044c \u043a\u043e\u043c\u0431\u0438\u043a\u043e\u0440\u043c,\u0440\u0435\u0446\u0435\u043f\u0442 \u043a\u043e\u043c\u0431\u0438\u043a\u043e\u0440\u043c\u043e\u0432 \u0434\u043b\u044f \u043a\u0443\u0440 \u0438 \u0431\u0440\u043e\u0439",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P4": {
+      "query": "consulting services for animal feed nutrition",
+      "level": "market_map",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Animal Feed Market Size, Share & Trends Report, 2026-2033",
+          "link": "https://www.grandviewresearch.com/industry-analysis/animal-feed-market-report",
+          "snippet": "The animal feed market comprises various feed types, including compound feeds, concentrates, and premixes, formulated to address the specific nutritional needs of different animal species and growth s",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Animal Feed Market Size, Share & Trends Report, 2026-2033",
+          "link": "https://www.grandviewresearch.com/industry-analysis/animal-feed-market-report",
+          "snippet": "The animal feed market comprises various feed types, including compound feeds, concentrates, and premixes, formulated to address the specific nutritional needs of different animal species and growth s",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P5": {
+      "query": "logistics services for compound feed distribution",
+      "level": "market_map",
+      "result_count": 2,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Cattle, Goat and Sheep Feed Market in Japan | Report - IndexBox...",
+          "link": "https://www.indexbox.io/store/japan-cattle-goat-and-sheep-feed-market-analysis-forecast-size-trends-and-insights/",
+          "snippet": "Feed prices in Japan are among the highest in Asia, with bulk compound feed for dairy cattle ranging from JPY 65\u201385 per kilogram, reflecting high raw material import costs, stringent safety standards,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "S\u00fcta\u015f",
+          "link": "https://www.sutas.com/",
+          "snippet": "Compound Feed Production.Logistics and Distribution. Fertilizer and Energy Production. SUSTAINABILITY.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Cattle, Goat and Sheep Feed Market in Japan | Report - IndexBox...",
+          "link": "https://www.indexbox.io/store/japan-cattle-goat-and-sheep-feed-market-analysis-forecast-size-trends-and-insights/",
+          "snippet": "Feed prices in Japan are among the highest in Asia, with bulk compound feed for dairy cattle ranging from JPY 65\u201385 per kilogram, reflecting high raw material import costs, stringent safety standards,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "S\u00fcta\u015f",
+          "link": "https://www.sutas.com/",
+          "snippet": "Compound Feed Production.Logistics and Distribution. Fertilizer and Energy Production. SUSTAINABILITY.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "find consulting services for feed regulation",
+      "level": "market_map",
+      "result_count": 4,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Top 10 Best Data Feed Services | 2026 Edition",
+          "link": "https://worldmetrics.org/service/data-feed/",
+          "snippet": "Deloitte, Accenture, IBM Consulting, and Tata Consultancy Services also emphasize governance controls like lineage, access controls, and audit-ready handling for regulated feed delivery. Operational r",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Regulatory Feed | Adam Tracy Consulting",
+          "link": "https://adamtracy.io/regulatory-feed",
+          "snippet": "Regulatory Feed on Adam Tracy Consulting. Professional consultancy platform showcasing financial services, legal expertise.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Feed Regulatory Renewal Update for AAFCO",
+          "link": "https://www.readkong.com/page/feed-regulatory-renewal-update-for-aafco-1240671",
+          "snippet": "Upcoming Consultations. Feed Regulatory Modernization \u2013. Outstanding Proposals for Consultation. Proposed Release Date. Proposal Name Communications Strategy.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Trendsurf \u2014 trend feed for one-tap AI videos",
+          "link": "https://trendsurf.ai/",
+          "snippet": "Pick a trend on the crest, upload your photo \u2014 and AI assembles a vertical 9:16 video with your face, voiceover and subtitles. One tap, no editing.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Top 10 Best Data Feed Services | 2026 Edition",
+          "link": "https://worldmetrics.org/service/data-feed/",
+          "snippet": "Deloitte, Accenture, IBM Consulting, and Tata Consultancy Services also emphasize governance controls like lineage, access controls, and audit-ready handling for regulated feed delivery. Operational r",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Regulatory Feed | Adam Tracy Consulting",
+          "link": "https://adamtracy.io/regulatory-feed",
+          "snippet": "Regulatory Feed on Adam Tracy Consulting. Professional consultancy platform showcasing financial services, legal expertise.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Feed Regulatory Renewal Update for AAFCO",
+          "link": "https://www.readkong.com/page/feed-regulatory-renewal-update-for-aafco-1240671",
+          "snippet": "Upcoming Consultations. Feed Regulatory Modernization \u2013. Outstanding Proposals for Consultation. Proposed Release Date. Proposal Name Communications Strategy.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Trendsurf \u2014 trend feed for one-tap AI videos",
+          "link": "https://trendsurf.ai/",
+          "snippet": "Pick a trend on the crest, upload your photo \u2014 and AI assembles a vertical 9:16 video with your face, voiceover and subtitles. One tap, no editing.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P7": {
+      "query": "compound feed distributor official site",
+      "level": "discovery",
+      "result_count": 4,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Boiler Compound Feeders Manufacturers and Suppliers in the USA...",
+          "link": "https://www.thomasnet.com/suppliers/usa/boiler-compound-feeders-27871607",
+          "snippet": "Manufacturer of boiler automatic compound feeders. Available in various configurations. Features vary depending upon model and include 1/4 in. pump tube assembly, check valves, four tube nuts, feed me",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "\u041a\u043e\u043c\u0431\u0438\u043a\u043e\u0440\u043c \u0434\u043b\u044f \u0411\u0420\u041e\u0419\u041b\u0415\u0420\u041e\u0412 \u041f\u041a-2. \u0420\u0435\u0446\u0435\u043f\u0442 \u043f\u0440\u0438\u0433\u043e\u0442\u043e\u0432\u043b\u0435\u043d\u0438\u044f...",
+          "link": "https://rutube.ru/video/4b9c209cf557de38f30000e06d046d14/",
+          "snippet": "feed recipe,compound feed recipes,the recipe for the best compound feed,buy compound feed,a recipe for compound feed for chickens and broilers,#compound feed.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Big Manufacturer/producer Tunisia | B2B companies and... | europages",
+          "link": "https://www.europages.co.uk/companies/tunisia/manufacturer+producer/big.html",
+          "snippet": "...Extruded Compound Feed Producer for Sea Bream - Fish Feed Distributor Nutri Grow: available in 25 Kg bags, big bags of 500 and 1000 Kg Nutri Extra: a... Matching products.Floating Food Feeder for C",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ability of different matrices to transmit African swine fever virus - PMC",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8077412/",
+          "snippet": "An official website of the United States government.Compound feed. Step 1: Likelihood of an outbreak caused by one farm delivery. P Product contains ASFV at origin : Proportion of consignments contain",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Boiler Compound Feeders Manufacturers and Suppliers in the USA...",
+          "link": "https://www.thomasnet.com/suppliers/usa/boiler-compound-feeders-27871607",
+          "snippet": "Manufacturer of boiler automatic compound feeders. Available in various configurations. Features vary depending upon model and include 1/4 in. pump tube assembly, check valves, four tube nuts, feed me",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "\u041a\u043e\u043c\u0431\u0438\u043a\u043e\u0440\u043c \u0434\u043b\u044f \u0411\u0420\u041e\u0419\u041b\u0415\u0420\u041e\u0412 \u041f\u041a-2. \u0420\u0435\u0446\u0435\u043f\u0442 \u043f\u0440\u0438\u0433\u043e\u0442\u043e\u0432\u043b\u0435\u043d\u0438\u044f...",
+          "link": "https://rutube.ru/video/4b9c209cf557de38f30000e06d046d14/",
+          "snippet": "feed recipe,compound feed recipes,the recipe for the best compound feed,buy compound feed,a recipe for compound feed for chickens and broilers,#compound feed.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Big Manufacturer/producer Tunisia | B2B companies and... | europages",
+          "link": "https://www.europages.co.uk/companies/tunisia/manufacturer+producer/big.html",
+          "snippet": "...Extruded Compound Feed Producer for Sea Bream - Fish Feed Distributor Nutri Grow: available in 25 Kg bags, big bags of 500 and 1000 Kg Nutri Extra: a... Matching products.Floating Food Feeder for C",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ability of different matrices to transmit African swine fever virus - PMC",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8077412/",
+          "snippet": "An official website of the United States government.Compound feed. Step 1: Likelihood of an outbreak caused by one farm delivery. P Product contains ASFV at origin : Proportion of consignments contain",
+          "backend": "ddgs_bing"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

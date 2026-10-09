@@ -1,0 +1,901 @@
+{
+  "phase": 2,
+  "phase2_mode": "fast",
+  "query": "Radiation Protection Market",
+  "mock_mode": false,
+  "completed_at": "2026-07-24T08:15:23.429607+00:00",
+  "scope": {
+    "market": "Radiation Protection",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "Safety Equipment",
+    "industry_terms": [
+      "radiation shielding",
+      "personal protective equipment",
+      "radiation detection",
+      "dosimetry",
+      "radiation monitoring"
+    ],
+    "ecosystem_functions": [
+      "distributing radiation protection products",
+      "reselling radiation safety equipment",
+      "integrating radiation protection systems",
+      "providing consulting services",
+      "offering maintenance for radiation safety solutions",
+      "acting as channel partners for manufacturers"
+    ],
+    "interpretation_summary": "The Radiation Protection Market encompasses products and services designed to safeguard individuals and environments from harmful radiation exposure. Key participants include manufacturers, distributors, and service prov",
+    "relevance_keywords": [
+      "radiation safety",
+      "radiation protection",
+      "dosimeters",
+      "lead aprons",
+      "radiation shielding materials"
+    ],
+    "negative_keywords": [
+      "nuclear waste",
+      "radiation therapy",
+      "medical imaging",
+      "unrelated industries",
+      "non-radiation safety products"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "Radiation Protection Services,",
+        "primary_domain": "radiationprotectionservices.com",
+        "company_function": "distributor of radiation safety products"
+      },
+      {
+        "canonical_name": "Radiation Safety Solutions",
+        "primary_domain": "radiationsafetysolutions.com",
+        "company_function": "reseller of radiation protection equipment"
+      },
+      {
+        "canonical_name": "Radiation Shielding Technologies",
+        "primary_domain": "radiationshieldingtech.com",
+        "company_function": "system integrator for radiation protection systems"
+      },
+      {
+        "canonical_name": "Radiation Safety Consulting Group",
+        "primary_domain": "radiationsafetyconsulting.com",
+        "company_function": "service provider for radiation safety consulting"
+      },
+      {
+        "canonical_name": "Global Radiation Protection",
+        "primary_domain": "globalradiationprotection.com",
+        "company_function": "distributor and wholesaler of radiation protection products"
+      },
+      {
+        "canonical_name": "Safety Radiation Resellers",
+        "primary_domain": "safetyradiationresellers.com",
+        "company_function": "reseller of radiation safety gear"
+      },
+      {
+        "canonical_name": "Integrated Radiation Solutions",
+        "primary_domain": "integratedradiationsolutions.com",
+        "company_function": "system integrator specializing in radiation protection"
+      },
+      {
+        "canonical_name": "Radiation Protection Services Group",
+        "primary_domain": "radiationprotectionservicesgroup.com",
+        "company_function": "service provider for radiation safety services"
+      }
+    ],
+    "search_topic": "Radiation Protection",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "Radiation Protection",
+    "include_keywords": [
+      "radiation protection equipment",
+      "radiation safety products",
+      "radiation shielding solutions",
+      "personal protective radiation gear",
+      "radiation monitoring devices"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The Radiation Protection Market encompasses products and services designed to safeguard individuals and environments from harmful radiation exposure. Key participants include manufacturers, distributors, and service providers operating globally across various sectors such as healthcare, nuclear energy, and industrial applications.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Distribution",
+        "description": "This layer involves the distribution of radiation protection products and services to end users.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "national distributors",
+              "regional distributors"
+            ],
+            "participant_types": [
+              "distributor",
+              "wholesaler"
+            ],
+            "search_intents": [
+              "radiation protection product distributors",
+              "wholesale radiation safety equipment"
+            ]
+          },
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "online resellers",
+              "retail resellers"
+            ],
+            "participant_types": [
+              "reseller"
+            ],
+            "search_intents": [
+              "radiation protection equipment resellers",
+              "buy radiation safety products online"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L2",
+        "layer_name": "Integration Services",
+        "description": "This layer includes companies that integrate radiation protection solutions into existing systems.",
+        "segments": [
+          {
+            "segment_name": "System Integrators",
+            "sub_segments": [
+              "healthcare system integrators",
+              "industrial system integrators"
+            ],
+            "participant_types": [
+              "system integrator"
+            ],
+            "search_intents": [
+              "radiation protection system integrators",
+              "integrated radiation safety solutions"
+            ]
+          },
+          {
+            "segment_name": "Service Providers",
+            "sub_segments": [
+              "consulting services",
+              "maintenance services"
+            ],
+            "participant_types": [
+              "service provider"
+            ],
+            "search_intents": [
+              "radiation safety consulting services",
+              "radiation protection maintenance providers"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Manufacturers",
+        "Regulatory Bodies",
+        "Research Institutions",
+        "End Users"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "radiation protection product distributors",
+        "sub_sector": "distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "buy radiation safety products online",
+        "sub_sector": "reseller",
+        "layer_id": "L1",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "radiation protection system integrators",
+        "sub_sector": "system_integrator",
+        "layer_id": "L2",
+        "segment": "System Integrators"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "radiation safety consulting services",
+        "sub_sector": "service_provider",
+        "layer_id": "L2",
+        "segment": "Service Providers"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "phase1_plan_path": "D:\\vendor-intel\\output\\phase1\\phase1_plan_radiation_protection_global.json",
+  "companies": [
+    {
+      "name": "Iaea",
+      "domain": "iaea.org",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Kiranxray",
+      "domain": "kiranxray.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Stemrad",
+      "domain": "stemrad.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Radiationproducts",
+      "domain": "radiationproducts.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Mavig",
+      "domain": "mavig.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Barriertechnologies",
+      "domain": "barriertechnologies.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Radprosys",
+      "domain": "radprosys.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Radshield",
+      "domain": "radshield.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Rampart",
+      "domain": "rampart.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Ultraray",
+      "domain": "ultraray.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Conf",
+      "domain": "conf.neurosurgery.or.kr",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Imgsol",
+      "domain": "imgsol.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Mirion",
+      "domain": "mirion.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Xenashield",
+      "domain": "xenashield.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Ergodi Radiationss",
+      "domain": "ergodi-radiationss.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Integratedradiationsolutions",
+      "domain": "integratedradiationsolutions.com",
+      "discovery_source": "search",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Kennedyradiology",
+      "domain": "kennedyradiology.us",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Medtx",
+      "domain": "medtx.ru",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Radiacode",
+      "domain": "radiacode.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Radiationsafetyconsulting",
+      "domain": "radiationsafetyconsulting.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Radiationsafetysolutions",
+      "domain": "radiationsafetysolutions.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Radiationshieldingtech",
+      "domain": "radiationshieldingtech.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Radsafety",
+      "domain": "radsafety.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "importer"
+    },
+    {
+      "name": "Safetyradiationresellers",
+      "domain": "safetyradiationresellers.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Trivitron",
+      "domain": "trivitron.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Aadcomed",
+      "domain": "aadcomed.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Alberta",
+      "domain": "alberta.ca",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Amerope",
+      "domain": "amerope.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Amraygroup",
+      "domain": "amraygroup.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Burmed",
+      "domain": "burmed.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Conductive Fabric",
+      "domain": "conductive-fabric.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Fnirsi",
+      "domain": "fnirsi.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Greentest",
+      "domain": "greentest.pro",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Inrad",
+      "domain": "inrad.co",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Landauer",
+      "domain": "landauer.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "consulting"
+    },
+    {
+      "name": "Lemerpax",
+      "domain": "lemerpax.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Menafn",
+      "domain": "menafn.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Mirasafety",
+      "domain": "mirasafety.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Rf Shielded",
+      "domain": "rf-shielded.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Saveecobot",
+      "domain": "saveecobot.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Alimed",
+      "domain": "alimed.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Alshielding",
+      "domain": "alshielding.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Amentum",
+      "domain": "amentum.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Arosmedical",
+      "domain": "arosmedical.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "importer"
+    },
+    {
+      "name": "Azomining",
+      "domain": "azomining.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Biospace",
+      "domain": "biospace.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "importer"
+    },
+    {
+      "name": "Bloxr",
+      "domain": "bloxr.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Boseantech",
+      "domain": "boseantech.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Bossgoo",
+      "domain": "bossgoo.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "oem_manufacturer"
+    },
+    {
+      "name": "Btctape",
+      "domain": "btctape.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Bulkco",
+      "domain": "bulkco.co.uk",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Buzzfile",
+      "domain": "buzzfile.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Career",
+      "domain": "career.iresearchnet.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Ce Marking",
+      "domain": "ce-marking.help",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Chinalane",
+      "domain": "chinalane.org",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Cognitivemetrics",
+      "domain": "cognitivemetrics.net",
+      "discovery_source": "ddgs_bing",
+      "company_function": "consulting"
+    },
+    {
+      "name": "Diagnosticradphys",
+      "domain": "diagnosticradphys.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "consulting"
+    },
+    {
+      "name": "Eggmedical",
+      "domain": "eggmedical.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Emf Harmony",
+      "domain": "emf-harmony.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Emfshieldprotect",
+      "domain": "emfshieldprotect.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Endlessafe",
+      "domain": "endlessafe.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Ergodi Radiation",
+      "domain": "ergodi-radiation.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Htsl",
+      "domain": "htsl.co.uk",
+      "discovery_source": "ddgs_bing",
+      "company_function": "consulting"
+    },
+    {
+      "name": "Infabcorp",
+      "domain": "infabcorp.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Infotradekenya",
+      "domain": "infotradekenya.go.ke",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Jayteealloys",
+      "domain": "jayteealloys.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Jysafetyproduct",
+      "domain": "jysafetyproduct.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Knra",
+      "domain": "knra.co.ke",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Lkmradiology",
+      "domain": "lkmradiology.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Medicalxraymachine",
+      "domain": "medicalxraymachine.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Mergr",
+      "domain": "mergr.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Mfrbee",
+      "domain": "mfrbee.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Mrt Vmsk",
+      "domain": "mrt-vmsk.ru",
+      "discovery_source": "ddgs_bing",
+      "company_function": "consulting"
+    },
+    {
+      "name": "Mymedicplus",
+      "domain": "mymedicplus.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Nanaka",
+      "domain": "nanaka.co",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Nuctech",
+      "domain": "www.nuctech.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "importer",
+      "domain_corrected_from": "nuctech.com"
+    },
+    {
+      "name": "Ovmdevice",
+      "domain": "ovmdevice.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Physicsworld",
+      "domain": "physicsworld.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Probesti",
+      "domain": "probesti.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Protechmed",
+      "domain": "protechmed.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Radetco",
+      "domain": "radetco.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Radiactionmedical",
+      "domain": "radiactionmedical.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Radpad",
+      "domain": "radpad.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Radsafemedical",
+      "domain": "radsafemedical.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Radtronics",
+      "domain": "radtronics.com.au",
+      "discovery_source": "ddgs_bing",
+      "company_function": "importer"
+    },
+    {
+      "name": "Raybloc",
+      "domain": "raybloc.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Rosalina",
+      "domain": "rosalina.in",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Rpcksa",
+      "domain": "rpcksa.net",
+      "discovery_source": "ddgs_bing",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Rpsltd1",
+      "domain": "rpsltd1.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Safetyecom",
+      "domain": "safetyecom.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Sga Group",
+      "domain": "sga-group.co.uk",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Stalcraftmeta",
+      "domain": "stalcraftmeta.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Tctmd",
+      "domain": "tctmd.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Trivitronhealthcare",
+      "domain": "trivitronhealthcare.co.in",
+      "discovery_source": "ddgs_bing",
+      "company_function": "oem_manufacturer"
+    },
+    {
+      "name": "Veritasteq",
+      "domain": "veritasteq.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "oem_manufacturer"
+    },
+    {
+      "name": "Yphotonics",
+      "domain": "yphotonics.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    }
+  ],
+  "company_count": 96,
+  "discovery_stats": {
+    "raw_hits": 325,
+    "unique_names": 116,
+    "by_prompt_id": {
+      "D10": 1,
+      "D2": 5,
+      "D3": 4,
+      "D4": 3,
+      "D5": 1,
+      "D6": 2,
+      "D7": 1,
+      "D8": 5,
+      "D9": 6,
+      "HX0_dist": 8,
+      "HX0_expo": 2,
+      "HX0_inte": 8,
+      "HX0_manu": 5,
+      "HX0_rese": 13,
+      "HX1_dist": 12,
+      "HX1_expo": 9,
+      "HX1_inte": 17,
+      "HX1_manu": 5,
+      "HX1_rese": 7,
+      "L0": 9,
+      "L1": 4,
+      "L2": 1,
+      "M1": 6,
+      "M1_biot": 1,
+      "M1_cdmo": 1,
+      "M2": 1,
+      "M3": 1,
+      "M4": 1,
+      "MUHX0_ma": 2,
+      "MUHX1_ma": 3,
+      "P1": 8,
+      "P10": 3,
+      "P11": 1,
+      "P12": 3,
+      "P2": 1,
+      "P3": 2,
+      "P5": 1,
+      "P6": 5,
+      "P7": 3,
+      "P8": 2,
+      "P9": 3,
+      "SEED": 8,
+      "SEED2": 8,
+      "SEED3": 8,
+      "ST1a": 3,
+      "ST1b": 2,
+      "ST2a": 6,
+      "ST3a": 3,
+      "ST4a": 2,
+      "ST_L1_1": 18,
+      "ST_L1_2": 10,
+      "ST_L2_3": 5,
+      "ST_L2_4": 9,
+      "T1a": 2,
+      "T1b": 3,
+      "T2a": 2,
+      "T2b": 1,
+      "T3a": 10,
+      "T3b": 11,
+      "T4b": 2,
+      "V5": 2,
+      "V6": 1,
+      "V7": 4,
+      "V8": 6,
+      "V9": 3,
+      "VX1": 5,
+      "VX2": 5,
+      "W1": 4,
+      "W2": 6
+    },
+    "by_funnel_level": {
+      "L0": 33,
+      "L1": 4,
+      "L2": 1,
+      "discovery": 287
+    },
+    "widen_loops": 3
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ]
+}

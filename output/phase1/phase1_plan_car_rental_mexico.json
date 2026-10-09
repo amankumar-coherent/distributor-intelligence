@@ -1,0 +1,1178 @@
+{
+  "phase": 1,
+  "query": "Mexico Car Rental Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T20:53:47.602366+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "Car Rental",
+    "geographies": [
+      "Mexico"
+    ],
+    "geography": "Mexico",
+    "company_type": "service provider",
+    "industry_vertical": "Transportation",
+    "industry_terms": [
+      "car rental",
+      "vehicle leasing",
+      "fleet management",
+      "rental services",
+      "travel agencies"
+    ],
+    "ecosystem_functions": [
+      "vehicle distribution",
+      "wholesale rental services",
+      "reselling rental services",
+      "providing insurance",
+      "vehicle maintenance",
+      "integrating rental systems",
+      "managing rental fleets",
+      "enhancing customer experience"
+    ],
+    "interpretation_summary": "The Mexico Car Rental Market encompasses businesses that provide vehicles for rent to consumers and businesses, including both short-term and long-term rentals. Key participants include car rental companies, distributors",
+    "relevance_keywords": [
+      "car rental",
+      "vehicle leasing",
+      "rental services",
+      "fleet management",
+      "travel agency"
+    ],
+    "negative_keywords": [
+      "used cars",
+      "public transport",
+      "ride-sharing",
+      "taxi services",
+      "car sales"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "Hertz",
+        "primary_domain": "hertz.com",
+        "company_function": "car rental services"
+      },
+      {
+        "canonical_name": "Avis",
+        "primary_domain": "avis.com",
+        "company_function": "car rental services"
+      },
+      {
+        "canonical_name": "Enterprise Rent-A-Car",
+        "primary_domain": "enterprise.com",
+        "company_function": "car rental services"
+      },
+      {
+        "canonical_name": "Sixt",
+        "primary_domain": "sixt.com",
+        "company_function": "car rental services"
+      },
+      {
+        "canonical_name": "Alamo Rent A Car",
+        "primary_domain": "alamo.com",
+        "company_function": "car rental services"
+      },
+      {
+        "canonical_name": "Budget Rent A Car",
+        "primary_domain": "budget.com",
+        "company_function": "car rental services"
+      },
+      {
+        "canonical_name": "National Car Rental",
+        "primary_domain": "nationalcar.com",
+        "company_function": "car rental services"
+      },
+      {
+        "canonical_name": "CarTrawler",
+        "primary_domain": "cartrawler.com",
+        "company_function": "car rental aggregator"
+      },
+      {
+        "canonical_name": "Rentalcars.com",
+        "primary_domain": "rentalcars.com",
+        "company_function": "car rental aggregator",
+        "segment": "Resellers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Kayak",
+        "primary_domain": "kayak.com",
+        "company_function": "travel search engine",
+        "segment": "Resellers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Expedia",
+        "primary_domain": "expedia.com",
+        "company_function": "travel booking platform",
+        "segment": "Resellers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Trafalgar",
+        "primary_domain": "trafalgar.com",
+        "company_function": "travel service provider",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Travel Leaders Group",
+        "primary_domain": "travelleaders.com",
+        "company_function": "travel service provider",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "CarRentals.com",
+        "primary_domain": "carrentals.com",
+        "company_function": "car rental aggregator",
+        "segment": "Resellers",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "Car Rental",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "Car Rental",
+    "include_keywords": [
+      "car rental services Mexico",
+      "vehicle rental distributors",
+      "wholesale car rentals",
+      "travel agency car rentals",
+      "rental service providers"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The Mexico Car Rental Market encompasses businesses that provide vehicles for rent to consumers and businesses, including both short-term and long-term rentals. Key participants include car rental companies, distributors, and service providers operating within Mexico's geographical boundaries.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Distribution",
+        "description": "This layer involves the distribution of rental vehicles through various partners.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Regional distributors",
+              "National distributors"
+            ],
+            "participant_types": [
+              "vehicle distributors",
+              "rental fleet managers"
+            ],
+            "search_intents": [
+              "car rental vehicle distributors in Mexico",
+              "national car rental distributors"
+            ]
+          },
+          {
+            "segment_name": "Wholesalers",
+            "sub_segments": [
+              "Fleet wholesalers",
+              "Rental service wholesalers"
+            ],
+            "participant_types": [
+              "wholesale rental services",
+              "fleet management companies"
+            ],
+            "search_intents": [
+              "car rental wholesalers in Mexico",
+              "wholesale car rental services"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L2",
+        "layer_name": "Reselling",
+        "description": "This layer includes companies that resell rental services to end customers.",
+        "segments": [
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Online travel agencies",
+              "Local travel agents"
+            ],
+            "participant_types": [
+              "OTA platforms",
+              "travel service providers"
+            ],
+            "search_intents": [
+              "car rental resellers in Mexico",
+              "online travel agencies for car rentals"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L3",
+        "layer_name": "Service Provision",
+        "description": "This layer consists of service providers that enhance the car rental experience.",
+        "segments": [
+          {
+            "segment_name": "Service Providers",
+            "sub_segments": [
+              "Insurance providers",
+              "Maintenance services"
+            ],
+            "participant_types": [
+              "insurance companies",
+              "vehicle maintenance providers"
+            ],
+            "search_intents": [
+              "car rental service providers in Mexico",
+              "vehicle maintenance for rental cars"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L4",
+        "layer_name": "Integration",
+        "description": "This layer involves system integrators that provide technology solutions for car rental operations.",
+        "segments": [
+          {
+            "segment_name": "System Integrators",
+            "sub_segments": [
+              "Software solutions",
+              "Fleet management systems"
+            ],
+            "participant_types": [
+              "IT service providers",
+              "software developers"
+            ],
+            "search_intents": [
+              "car rental system integrators in Mexico",
+              "fleet management software providers"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Car manufacturers",
+        "Used car dealerships",
+        "Public transportation services",
+        "Ride-sharing services"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "car rental vehicle distributors in Mexico",
+        "sub_sector": "distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "car rental wholesalers in Mexico",
+        "sub_sector": "wholesaler",
+        "layer_id": "L1",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "car rental resellers in Mexico",
+        "sub_sector": "reseller",
+        "layer_id": "L2",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "car rental service providers in Mexico",
+        "sub_sector": "service_provider",
+        "layer_id": "L3",
+        "segment": "Service Providers"
+      },
+      {
+        "id": "M5",
+        "level": "market_map",
+        "text": "car rental system integrators in Mexico",
+        "sub_sector": "system_integrator",
+        "layer_id": "L4",
+        "segment": "System Integrators"
+      },
+      {
+        "id": "M6",
+        "level": "market_map",
+        "text": "national car rental distributors",
+        "sub_sector": "distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M7",
+        "level": "market_map",
+        "text": "wholesale car rental services",
+        "sub_sector": "wholesaler",
+        "layer_id": "L1",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M8",
+        "level": "market_map",
+        "text": "online travel agencies for car rentals",
+        "sub_sector": "reseller",
+        "layer_id": "L2",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M9",
+        "level": "market_map",
+        "text": "vehicle maintenance for rental cars",
+        "sub_sector": "service_provider",
+        "layer_id": "L3",
+        "segment": "Service Providers"
+      },
+      {
+        "id": "M10",
+        "level": "market_map",
+        "text": "fleet management software providers",
+        "sub_sector": "system_integrator",
+        "layer_id": "L4",
+        "segment": "System Integrators"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "Transportation",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "Car Rental companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "Car Rental service providers in Mexico"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "Car Rental distributors corporate sites"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "market_map",
+      "text": "car rental vehicle distributors in Mexico"
+    },
+    {
+      "id": "P2",
+      "level": "market_map",
+      "text": "car rental wholesalers in Mexico"
+    },
+    {
+      "id": "P3",
+      "level": "market_map",
+      "text": "car rental resellers in Mexico"
+    },
+    {
+      "id": "P4",
+      "level": "market_map",
+      "text": "car rental system integrators in Mexico"
+    },
+    {
+      "id": "P5",
+      "level": "market_map",
+      "text": "national car rental distributors Mexico"
+    },
+    {
+      "id": "P6",
+      "level": "market_map",
+      "text": "wholesale car rental services Mexico"
+    },
+    {
+      "id": "P7",
+      "level": "market_map",
+      "text": "online travel agencies for car rentals Mexico"
+    },
+    {
+      "id": "P8",
+      "level": "market_map",
+      "text": "vehicle maintenance for rental cars Mexico"
+    },
+    {
+      "id": "P9",
+      "level": "market_map",
+      "text": "fleet management software providers Mexico"
+    },
+    {
+      "id": "P10",
+      "level": "discovery",
+      "text": "National car rental distributors corporate headquarters"
+    },
+    {
+      "id": "P11",
+      "level": "discovery",
+      "text": "Wholesale car rental services corporate site"
+    },
+    {
+      "id": "P12",
+      "level": "discovery",
+      "text": "Online travel agencies for car rentals"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 4,
+  "search_smoke_test": {
+    "L0": {
+      "query": "Car Rental companies official websites",
+      "level": "L0",
+      "result_count": 17,
+      "results_target": 28,
+      "backends": [
+        "ddgs_yandex",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Cars for Sale - Used Cars, New Cars, SUVs, and Trucks ...",
+          "link": "https://www.autotrader.com/?msockid=3754d089f0c0642e0b02c716f155652b",
+          "snippet": "Explore new and used cars, trucks and SUVs with confidence. Autotrader is the one-stop shop for everything you need in your car buying experience including expert advice, instant cash offers, an \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Buy & Sell Cars | Millions Listed, Prices & Deal Ratings ...",
+          "link": "https://www.cargurus.com/?msockid=3754d089f0c0642e0b02c716f155652b",
+          "snippet": "Compare cars and estimate all-in prices at the dealership. Adjust the sliders to see what you can afford, or get pre-qualified to see real rates with no credit impact. Why choose CarGurus? Deal rating",
+          "backend": "searxng"
+        },
+        {
+          "title": "Used Cars for Sale in Sierra Vista, AZ (with Photos) - CARFAX",
+          "link": "https://www.carfax.com/Used-Cars-in-Sierra-Vista-AZ_c15876?msockid=3754d089f0c0642e0b02c716f155652b",
+          "snippet": "Find the best used cars in Sierra Vista, AZ. Every used car for sale comes with a free CARFAX Report. We have 28 used cars in Sierra Vista for sale that are reported accident free, 18 1-Owner cars, an",
+          "backend": "searxng"
+        },
+        {
+          "title": "New Cars, Used Cars, Car Dealers, Prices & Reviews | Cars.com",
+          "link": "https://www.cars.com/?msockid=3754d089f0c0642e0b02c716f155652b",
+          "snippet": "Find the perfect car for your needs at Cars.com. Shop new and used cars, sell your car, compare prices, and explore financing options to find your dream car today!",
+          "backend": "searxng"
+        },
+        {
+          "title": "Used Cars for Sale Near Me in Sierra Vista, AZ - Autotrader",
+          "link": "https://www.autotrader.com/cars-for-sale/sierra-vista-az?msockid=3754d089f0c0642e0b02c716f155652b",
+          "snippet": "Test drive Used Cars at home in Sierra Vista, AZ. Search from 540 Used cars for sale, including a 2015 Ford F150 XLT, a 2017 Chevrolet Silverado 1500 W/T, and a 2019 GMC Sierra 1500 SLT ranging in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Cars For Sale In Sierra Vista, AZ - Carsforsale.com\u00ae",
+          "link": "https://www.carsforsale.com/cars-for-sale-in-sierra-vista-az-L124647",
+          "snippet": "Shop 1,885 used cars in Sierra Vista, AZ as low as $6,995. Get free history reports, credit checks, expert reviews & online financing.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Car and Driver: New Car Reviews, Buying Advice and News",
+          "link": "https://www.caranddriver.com/",
+          "snippet": "2 days ago \u00b7 Covering the automotive industry since 1955 with in-depth reviews and analysis, features, auto show reporting, and advice for car owners and buyers.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Cheap Car Hire, Compare Rental Prices - Rentalcars.com",
+          "link": "https://www.rentalcars.com/en/",
+          "snippet": "Compare car hire deals and find the cheapest prices in more than 60,000 locations worldwide. Book online today with the world's biggest online car rental service. Save on luxury, economy and family ca",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Premium Car Rental at affordable prices | SIXT rent a car",
+          "link": "https://www.sixt.com/",
+          "snippet": "Car rental deals on premium cars & other like-new rentals 2,000+ rental car locations no hidden costs pay later option Rent a car easily online.",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Car Rental with Great Rates & Service | Enterprise Rent-A-Car",
+          "link": "https://www.enterprise.com/",
+          "snippet": "Replacement Rentals. Rent a Car After an Accident. Dealership & Service Vehicles. Payment Options.Our customized rental programs are designed specifically to meet your company's needs, saving you time",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Europcar: Rental Cars - Car Rental & Van Rental",
+          "link": "https://www.europcar.com/",
+          "snippet": "Car rental and van rental worldwide. Discover very exciting offers and book online to save money with our convenient and hassle free booking. Find out more!",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Fast & Convenient Car Rental at 1,500+ Locations | National Car Rental",
+          "link": "https://www.nationalcar.com/",
+          "snippet": "Join Emerald Club and enjoy exclusive benefits including counter bypass, choose your own car and earn rewards towards free rental days (select locations).",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Find cheap rental car deals | Priceline",
+          "link": "https://www.priceline.com/rental-cars",
+          "snippet": "Search car rentals. Find the best car rental deals. Drop-off location is the same.Why use Priceline? Trusted by 8 million travelers. Great deals from our rental car suppliers. Free cancellation on mos",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Best Car Rental Deals with Free Cancellation... | Discover Cars",
+          "link": "https://www.discovercars.com/",
+          "snippet": "We compare car rental prices, you save! Find the perfect rental car for your trip. DiscoverCars.com is a leader in online car rental bookings; we compare car rental deals from many companies so that y",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Compare Cheap Car Rental from $40 per day | Skyscanner",
+          "link": "https://www.skyscanner.com/car-rental",
+          "snippet": "Find the best car rental deals from trusted providers in over 18,000 locations worldwide with Skyscanner. Compare prices and book your car rental today.",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Car Rentals: Find Cheap Car Rentals & Rental Car Deals - KAYAK",
+          "link": "https://www.kayak.com/cars",
+          "snippet": "KAYAK searches for rental car deals on hundreds of car rental sites to help you find the cheapest car rental.KAYAK compares rental car prices from all major car rental companies such as Thrifty, Dolla",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "hertz.com",
+          "link": "https://www.hertz.com/",
+          "snippet": "Visiter le site Web de Hertz Car Rental.",
+          "backend": "ddgs_yandex"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Cars for Sale - Used Cars, New Cars, SUVs, and Trucks ...",
+          "link": "https://www.autotrader.com/?msockid=3754d089f0c0642e0b02c716f155652b",
+          "snippet": "Explore new and used cars, trucks and SUVs with confidence. Autotrader is the one-stop shop for everything you need in your car buying experience including expert advice, instant cash offers, an \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Buy & Sell Cars | Millions Listed, Prices & Deal Ratings ...",
+          "link": "https://www.cargurus.com/?msockid=3754d089f0c0642e0b02c716f155652b",
+          "snippet": "Compare cars and estimate all-in prices at the dealership. Adjust the sliders to see what you can afford, or get pre-qualified to see real rates with no credit impact. Why choose CarGurus? Deal rating",
+          "backend": "searxng"
+        },
+        {
+          "title": "Used Cars for Sale in Sierra Vista, AZ (with Photos) - CARFAX",
+          "link": "https://www.carfax.com/Used-Cars-in-Sierra-Vista-AZ_c15876?msockid=3754d089f0c0642e0b02c716f155652b",
+          "snippet": "Find the best used cars in Sierra Vista, AZ. Every used car for sale comes with a free CARFAX Report. We have 28 used cars in Sierra Vista for sale that are reported accident free, 18 1-Owner cars, an",
+          "backend": "searxng"
+        },
+        {
+          "title": "New Cars, Used Cars, Car Dealers, Prices & Reviews | Cars.com",
+          "link": "https://www.cars.com/?msockid=3754d089f0c0642e0b02c716f155652b",
+          "snippet": "Find the perfect car for your needs at Cars.com. Shop new and used cars, sell your car, compare prices, and explore financing options to find your dream car today!",
+          "backend": "searxng"
+        },
+        {
+          "title": "Used Cars for Sale Near Me in Sierra Vista, AZ - Autotrader",
+          "link": "https://www.autotrader.com/cars-for-sale/sierra-vista-az?msockid=3754d089f0c0642e0b02c716f155652b",
+          "snippet": "Test drive Used Cars at home in Sierra Vista, AZ. Search from 540 Used cars for sale, including a 2015 Ford F150 XLT, a 2017 Chevrolet Silverado 1500 W/T, and a 2019 GMC Sierra 1500 SLT ranging in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Cars For Sale In Sierra Vista, AZ - Carsforsale.com\u00ae",
+          "link": "https://www.carsforsale.com/cars-for-sale-in-sierra-vista-az-L124647",
+          "snippet": "Shop 1,885 used cars in Sierra Vista, AZ as low as $6,995. Get free history reports, credit checks, expert reviews & online financing.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Car and Driver: New Car Reviews, Buying Advice and News",
+          "link": "https://www.caranddriver.com/",
+          "snippet": "2 days ago \u00b7 Covering the automotive industry since 1955 with in-depth reviews and analysis, features, auto show reporting, and advice for car owners and buyers.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Cheap Car Hire, Compare Rental Prices - Rentalcars.com",
+          "link": "https://www.rentalcars.com/en/",
+          "snippet": "Compare car hire deals and find the cheapest prices in more than 60,000 locations worldwide. Book online today with the world's biggest online car rental service. Save on luxury, economy and family ca",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Premium Car Rental at affordable prices | SIXT rent a car",
+          "link": "https://www.sixt.com/",
+          "snippet": "Car rental deals on premium cars & other like-new rentals 2,000+ rental car locations no hidden costs pay later option Rent a car easily online.",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Car Rental with Great Rates & Service | Enterprise Rent-A-Car",
+          "link": "https://www.enterprise.com/",
+          "snippet": "Replacement Rentals. Rent a Car After an Accident. Dealership & Service Vehicles. Payment Options.Our customized rental programs are designed specifically to meet your company's needs, saving you time",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Europcar: Rental Cars - Car Rental & Van Rental",
+          "link": "https://www.europcar.com/",
+          "snippet": "Car rental and van rental worldwide. Discover very exciting offers and book online to save money with our convenient and hassle free booking. Find out more!",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Fast & Convenient Car Rental at 1,500+ Locations | National Car Rental",
+          "link": "https://www.nationalcar.com/",
+          "snippet": "Join Emerald Club and enjoy exclusive benefits including counter bypass, choose your own car and earn rewards towards free rental days (select locations).",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Find cheap rental car deals | Priceline",
+          "link": "https://www.priceline.com/rental-cars",
+          "snippet": "Search car rentals. Find the best car rental deals. Drop-off location is the same.Why use Priceline? Trusted by 8 million travelers. Great deals from our rental car suppliers. Free cancellation on mos",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Best Car Rental Deals with Free Cancellation... | Discover Cars",
+          "link": "https://www.discovercars.com/",
+          "snippet": "We compare car rental prices, you save! Find the perfect rental car for your trip. DiscoverCars.com is a leader in online car rental bookings; we compare car rental deals from many companies so that y",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Compare Cheap Car Rental from $40 per day | Skyscanner",
+          "link": "https://www.skyscanner.com/car-rental",
+          "snippet": "Find the best car rental deals from trusted providers in over 18,000 locations worldwide with Skyscanner. Compare prices and book your car rental today.",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Car Rentals: Find Cheap Car Rentals & Rental Car Deals - KAYAK",
+          "link": "https://www.kayak.com/cars",
+          "snippet": "KAYAK searches for rental car deals on hundreds of car rental sites to help you find the cheapest car rental.KAYAK compares rental car prices from all major car rental companies such as Thrifty, Dolla",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "hertz.com",
+          "link": "https://www.hertz.com/",
+          "snippet": "Visiter le site Web de Hertz Car Rental.",
+          "backend": "ddgs_yandex"
+        }
+      ]
+    },
+    "L1": {
+      "query": "Car Rental service providers in Mexico",
+      "level": "L1",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Cheap Car Rental at Oaxaca Airport | MEX Rent-A-Car",
+          "link": "https://mexrentacar.com/en/locations/160-rent-a-car-oaxaca-airport",
+          "snippet": "Discover the beauty of Oaxaca, Mexico, with MEX Rent-A-Car. Rental cars at the best price. Don't wait any longer, book now to start your adventure!",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Cheap Car Rental at Oaxaca Airport | MEX Rent-A-Car",
+          "link": "https://mexrentacar.com/en/locations/160-rent-a-car-oaxaca-airport",
+          "snippet": "Discover the beauty of Oaxaca, Mexico, with MEX Rent-A-Car. Rental cars at the best price. Don't wait any longer, book now to start your adventure!",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "Car Rental distributors corporate sites",
+      "level": "L2",
+      "result_count": 21,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Cars for Sale - Used Cars, New Cars, SUVs, and Trucks ...",
+          "link": "https://www.autotrader.com/?msockid=1719e189c9746c2d0d51f616c8376de0",
+          "snippet": "Explore new and used cars, trucks and SUVs with confidence. Autotrader is the one-stop shop for everything you need in your car buying experience including expert advice, instant cash offers, an \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Buy & Sell Cars | Millions Listed, Prices & Deal Ratings ...",
+          "link": "https://www.cargurus.com/?msockid=1719e189c9746c2d0d51f616c8376de0",
+          "snippet": "Compare cars and estimate all-in prices at the dealership. Adjust the sliders to see what you can afford, or get pre-qualified to see real rates with no credit impact. Why choose CarGurus? Deal rating",
+          "backend": "searxng"
+        },
+        {
+          "title": "Used Cars for Sale in Sierra Vista, AZ (with Photos) - CARFAX",
+          "link": "https://www.carfax.com/Used-Cars-in-Sierra-Vista-AZ_c15876?msockid=1719e189c9746c2d0d51f616c8376de0",
+          "snippet": "Find the best used cars in Sierra Vista, AZ. Every used car for sale comes with a free CARFAX Report. We have 28 used cars in Sierra Vista for sale that are reported accident free, 18 1-Owner cars, an",
+          "backend": "searxng"
+        },
+        {
+          "title": "New Cars, Used Cars, Car Dealers, Prices & Reviews | Cars.com",
+          "link": "https://www.cars.com/?msockid=1719e189c9746c2d0d51f616c8376de0",
+          "snippet": "Find the perfect car for your needs at Cars.com. Shop new and used cars, sell your car, compare prices, and explore financing options to find your dream car today!",
+          "backend": "searxng"
+        },
+        {
+          "title": "Used Cars for Sale Near Me in Sierra Vista, AZ - Autotrader",
+          "link": "https://www.autotrader.com/cars-for-sale/sierra-vista-az?msockid=1719e189c9746c2d0d51f616c8376de0",
+          "snippet": "Test drive Used Cars at home in Sierra Vista, AZ. Search from 540 Used cars for sale, including a 2015 Ford F150 XLT, a 2017 Chevrolet Silverado 1500 W/T, and a 2019 GMC Sierra 1500 SLT ranging in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Cars For Sale In Sierra Vista, AZ - Carsforsale.com\u00ae",
+          "link": "https://www.carsforsale.com/cars-for-sale-in-sierra-vista-az-L124647",
+          "snippet": "Shop 1,885 used cars in Sierra Vista, AZ as low as $6,995. Get free history reports, credit checks, expert reviews & online financing.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Car and Driver: New Car Reviews, Buying Advice and News",
+          "link": "https://www.caranddriver.com/",
+          "snippet": "2 days ago \u00b7 Covering the automotive industry since 1955 with in-depth reviews and analysis, features, auto show reporting, and advice for car owners and buyers.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Fast & Convenient Car Rental at 1,500+ Locations | National Car Rental",
+          "link": "https://www.nationalcar.com/",
+          "snippet": "Join Emerald Club and enjoy exclusive benefits including counter bypass, choose your own car and earn rewards towards free rental days (select locations).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Find cheap rental car deals | Priceline",
+          "link": "https://www.priceline.com/rental-cars",
+          "snippet": "Search car rentals. Find the best car rental deals. Drop-off location is the same.Trusted by 8 million travelers. Great deals from our rental car suppliers. Free cancellation on most bookings.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Turo car rental marketplace | Car rentals, reimagined",
+          "link": "https://turo.com/",
+          "snippet": "Skip the car rental counter and rent anything from daily drivers to pickup trucks, from trusted, local hosts on the Turo car rental marketplace.Newer car rental at Denver (DEN) airport. Average daily ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cars and More | Leading Car Rental Experts Serving Worldwide",
+          "link": "https://carsandmore.expert/",
+          "snippet": "Looking for the best car rental expert for winning car rental management solutions? We are dedicated to transforming your business with our technological expertise and experience. Learn more here.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car rental in Europe, Asia and Africa \u2014 Localrent.com",
+          "link": "https://www.localrent.com/en/",
+          "snippet": "A wide selection of cars from local distributors, full pricing transparency, low deposits and round-the-clock support on the road.Car rental terms and conditions are clear and easy to understand. Very",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cars Scanner - Compare car rental deals worldwide",
+          "link": "https://cars-scanner.com/",
+          "snippet": "Compare car rental deals from trusted suppliers and save up to 70%. Free cancellation, newer models, and flexible pickup options worldwide.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Affordable Car Hire Worldwide | AutoUnion Rent a Car",
+          "link": "https://autounionrentacar.com/",
+          "snippet": "AutoUnion Rent A Car. Flexible car hire solutions designed for the modern traveler. Experience premium service worldwide with seamless airport pick-ups, transparent pricing, and a diverse fleet for bu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Find the Right Rental Car | AutoRentals.com",
+          "link": "https://www.autorentals.com/",
+          "snippet": "Find the Perfect Car at the Best Price; Guaranteed! Book Auto Rentals on the Cheap!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "UK Car Hire | Save Up to 20% | Drivalia Car Rental",
+          "link": "https://drivalia.co.uk/",
+          "snippet": "Drivalia offers unbeatable car rental deals with top service. Rent a car today and enjoy hassle-free travel at the best prices!Business Car Rental. Explore our business page for premium fleet solution",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Strong rent a car",
+          "link": "https://www.strongrentacar.com/",
+          "snippet": "Strong Rent a Car Logo. Discover Our Vehicle Types. Benefits From Strong.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rental with the Best Prices | Rentcars",
+          "link": "https://www.rentcars.com/",
+          "snippet": "Rent a car and save up to 30%! Compare rates from over 350 car rental companies in 160 countries and find the best deals with Rentcars.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rentals Worldwide & Travel Discount | QEEQ.COM",
+          "link": "https://www.qeeq.com/",
+          "snippet": "QEEQ compares car rental deals worldwide from leading brands such as Alamo, Easirent, ACE, Hertz, Routes, Dollar, Green Motion, Sixt, Aucar, Yesaway, Apex, Advantage, and more\u2014with car rental insuranc",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Premium Car Rental at affordable prices | SIXT rent a car",
+          "link": "https://www.sixt.com/",
+          "snippet": "Car rental deals on premium cars & other like-new rentals 2,000+ rental car locations no hidden costs pay later option Rent a car easily online.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "\u0410\u0440\u0435\u043d\u0434\u0430 \u0430\u0432\u0442\u043e \u0432 \u0430\u044d\u0440\u043e\u043f\u043e\u0440\u0442\u0443 \u0410\u043d\u0442\u0430\u043b\u044c\u0438 (AYT) \u2014 \u041f\u0440\u043e\u043a\u0430\u0442 \u0431\u0435\u0437 \u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044f...",
+          "link": "https://turkey-rentcar.ru/airport/antalya/",
+          "snippet": "\u041f\u0440\u0438 \u0430\u0440\u0435\u043d\u0434\u0435 \u0447\u0435\u0440\u0435\u0437 Turkey Rent Car \u0432\u0430\u043c \u043e\u0431\u044b\u0447\u043d\u043e \u043d\u0435 \u043d\u0443\u0436\u043d\u043e \u043e\u0442\u0434\u0435\u043b\u044c\u043d\u043e \u043f\u043b\u0430\u0442\u0438\u0442\u044c \u0437\u0430 \u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0443 \u043f\u0440\u0438 \u0432\u044b\u0434\u0430\u0447\u0435 \u0438 \u0432\u043e\u0437\u0432\u0440\u0430\u0442\u0435: \u043c\u0430\u0448\u0438\u043d\u0430 \u043f\u043e\u0434\u0430\u0451\u0442\u0441\u044f \u043a \u043a\u0440\u0430\u0442\u043a\u043e\u0441\u0440\u043e\u0447\u043d\u043e\u0439 \u0441\u0442\u043e\u044f\u043d\u043a\u0435 \u0438\u043b\u0438 \u0441\u043f\u0435\u0446\u0438\u0430\u043b\u044c\u043d\u043e \u0441\u043e\u0433\u043b\u0430\u0441\u043e\u0432\u0430\u043d\u043d\u043e\u0439 \u0437\u043e\u043d\u0435, \u0430 \u0440\u0430\u0441\u0445\u043e\u0434\u044b \u043d\u0430 \u044d\u0442\u0438 \u043d\u0435\u0441",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Cars for Sale - Used Cars, New Cars, SUVs, and Trucks ...",
+          "link": "https://www.autotrader.com/?msockid=1719e189c9746c2d0d51f616c8376de0",
+          "snippet": "Explore new and used cars, trucks and SUVs with confidence. Autotrader is the one-stop shop for everything you need in your car buying experience including expert advice, instant cash offers, an \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Buy & Sell Cars | Millions Listed, Prices & Deal Ratings ...",
+          "link": "https://www.cargurus.com/?msockid=1719e189c9746c2d0d51f616c8376de0",
+          "snippet": "Compare cars and estimate all-in prices at the dealership. Adjust the sliders to see what you can afford, or get pre-qualified to see real rates with no credit impact. Why choose CarGurus? Deal rating",
+          "backend": "searxng"
+        },
+        {
+          "title": "Used Cars for Sale in Sierra Vista, AZ (with Photos) - CARFAX",
+          "link": "https://www.carfax.com/Used-Cars-in-Sierra-Vista-AZ_c15876?msockid=1719e189c9746c2d0d51f616c8376de0",
+          "snippet": "Find the best used cars in Sierra Vista, AZ. Every used car for sale comes with a free CARFAX Report. We have 28 used cars in Sierra Vista for sale that are reported accident free, 18 1-Owner cars, an",
+          "backend": "searxng"
+        },
+        {
+          "title": "New Cars, Used Cars, Car Dealers, Prices & Reviews | Cars.com",
+          "link": "https://www.cars.com/?msockid=1719e189c9746c2d0d51f616c8376de0",
+          "snippet": "Find the perfect car for your needs at Cars.com. Shop new and used cars, sell your car, compare prices, and explore financing options to find your dream car today!",
+          "backend": "searxng"
+        },
+        {
+          "title": "Used Cars for Sale Near Me in Sierra Vista, AZ - Autotrader",
+          "link": "https://www.autotrader.com/cars-for-sale/sierra-vista-az?msockid=1719e189c9746c2d0d51f616c8376de0",
+          "snippet": "Test drive Used Cars at home in Sierra Vista, AZ. Search from 540 Used cars for sale, including a 2015 Ford F150 XLT, a 2017 Chevrolet Silverado 1500 W/T, and a 2019 GMC Sierra 1500 SLT ranging in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Cars For Sale In Sierra Vista, AZ - Carsforsale.com\u00ae",
+          "link": "https://www.carsforsale.com/cars-for-sale-in-sierra-vista-az-L124647",
+          "snippet": "Shop 1,885 used cars in Sierra Vista, AZ as low as $6,995. Get free history reports, credit checks, expert reviews & online financing.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Car and Driver: New Car Reviews, Buying Advice and News",
+          "link": "https://www.caranddriver.com/",
+          "snippet": "2 days ago \u00b7 Covering the automotive industry since 1955 with in-depth reviews and analysis, features, auto show reporting, and advice for car owners and buyers.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Fast & Convenient Car Rental at 1,500+ Locations | National Car Rental",
+          "link": "https://www.nationalcar.com/",
+          "snippet": "Join Emerald Club and enjoy exclusive benefits including counter bypass, choose your own car and earn rewards towards free rental days (select locations).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Find cheap rental car deals | Priceline",
+          "link": "https://www.priceline.com/rental-cars",
+          "snippet": "Search car rentals. Find the best car rental deals. Drop-off location is the same.Trusted by 8 million travelers. Great deals from our rental car suppliers. Free cancellation on most bookings.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Turo car rental marketplace | Car rentals, reimagined",
+          "link": "https://turo.com/",
+          "snippet": "Skip the car rental counter and rent anything from daily drivers to pickup trucks, from trusted, local hosts on the Turo car rental marketplace.Newer car rental at Denver (DEN) airport. Average daily ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cars and More | Leading Car Rental Experts Serving Worldwide",
+          "link": "https://carsandmore.expert/",
+          "snippet": "Looking for the best car rental expert for winning car rental management solutions? We are dedicated to transforming your business with our technological expertise and experience. Learn more here.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car rental in Europe, Asia and Africa \u2014 Localrent.com",
+          "link": "https://www.localrent.com/en/",
+          "snippet": "A wide selection of cars from local distributors, full pricing transparency, low deposits and round-the-clock support on the road.Car rental terms and conditions are clear and easy to understand. Very",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cars Scanner - Compare car rental deals worldwide",
+          "link": "https://cars-scanner.com/",
+          "snippet": "Compare car rental deals from trusted suppliers and save up to 70%. Free cancellation, newer models, and flexible pickup options worldwide.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Affordable Car Hire Worldwide | AutoUnion Rent a Car",
+          "link": "https://autounionrentacar.com/",
+          "snippet": "AutoUnion Rent A Car. Flexible car hire solutions designed for the modern traveler. Experience premium service worldwide with seamless airport pick-ups, transparent pricing, and a diverse fleet for bu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Find the Right Rental Car | AutoRentals.com",
+          "link": "https://www.autorentals.com/",
+          "snippet": "Find the Perfect Car at the Best Price; Guaranteed! Book Auto Rentals on the Cheap!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "UK Car Hire | Save Up to 20% | Drivalia Car Rental",
+          "link": "https://drivalia.co.uk/",
+          "snippet": "Drivalia offers unbeatable car rental deals with top service. Rent a car today and enjoy hassle-free travel at the best prices!Business Car Rental. Explore our business page for premium fleet solution",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Strong rent a car",
+          "link": "https://www.strongrentacar.com/",
+          "snippet": "Strong Rent a Car Logo. Discover Our Vehicle Types. Benefits From Strong.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rental with the Best Prices | Rentcars",
+          "link": "https://www.rentcars.com/",
+          "snippet": "Rent a car and save up to 30%! Compare rates from over 350 car rental companies in 160 countries and find the best deals with Rentcars.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rentals Worldwide & Travel Discount | QEEQ.COM",
+          "link": "https://www.qeeq.com/",
+          "snippet": "QEEQ compares car rental deals worldwide from leading brands such as Alamo, Easirent, ACE, Hertz, Routes, Dollar, Green Motion, Sixt, Aucar, Yesaway, Apex, Advantage, and more\u2014with car rental insuranc",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Premium Car Rental at affordable prices | SIXT rent a car",
+          "link": "https://www.sixt.com/",
+          "snippet": "Car rental deals on premium cars & other like-new rentals 2,000+ rental car locations no hidden costs pay later option Rent a car easily online.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "\u0410\u0440\u0435\u043d\u0434\u0430 \u0430\u0432\u0442\u043e \u0432 \u0430\u044d\u0440\u043e\u043f\u043e\u0440\u0442\u0443 \u0410\u043d\u0442\u0430\u043b\u044c\u0438 (AYT) \u2014 \u041f\u0440\u043e\u043a\u0430\u0442 \u0431\u0435\u0437 \u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044f...",
+          "link": "https://turkey-rentcar.ru/airport/antalya/",
+          "snippet": "\u041f\u0440\u0438 \u0430\u0440\u0435\u043d\u0434\u0435 \u0447\u0435\u0440\u0435\u0437 Turkey Rent Car \u0432\u0430\u043c \u043e\u0431\u044b\u0447\u043d\u043e \u043d\u0435 \u043d\u0443\u0436\u043d\u043e \u043e\u0442\u0434\u0435\u043b\u044c\u043d\u043e \u043f\u043b\u0430\u0442\u0438\u0442\u044c \u0437\u0430 \u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0443 \u043f\u0440\u0438 \u0432\u044b\u0434\u0430\u0447\u0435 \u0438 \u0432\u043e\u0437\u0432\u0440\u0430\u0442\u0435: \u043c\u0430\u0448\u0438\u043d\u0430 \u043f\u043e\u0434\u0430\u0451\u0442\u0441\u044f \u043a \u043a\u0440\u0430\u0442\u043a\u043e\u0441\u0440\u043e\u0447\u043d\u043e\u0439 \u0441\u0442\u043e\u044f\u043d\u043a\u0435 \u0438\u043b\u0438 \u0441\u043f\u0435\u0446\u0438\u0430\u043b\u044c\u043d\u043e \u0441\u043e\u0433\u043b\u0430\u0441\u043e\u0432\u0430\u043d\u043d\u043e\u0439 \u0437\u043e\u043d\u0435, \u0430 \u0440\u0430\u0441\u0445\u043e\u0434\u044b \u043d\u0430 \u044d\u0442\u0438 \u043d\u0435\u0441",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "car rental vehicle distributors in Mexico",
+      "level": "market_map",
+      "result_count": 10,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Find cheap rental car deals | Priceline",
+          "link": "https://www.priceline.com/rental-cars",
+          "snippet": "Search car rentals. Find the best car rental deals. Drop-off location is the same.Why use Priceline? Trusted by 8 million travelers. Great deals from our rental car suppliers. Free cancellation on mos",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rental Near Me | SIXT rent a car Locations",
+          "link": "https://www.sixt.com/car-rental/",
+          "snippet": "Find a car rental location near me. Book a SIXT car rental today. 2,200 locations in 100+ countries Largest premium car fleet in the World. With SIXT rent a car's large national coverage and attractiv",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rental with Great Rates & Service | Enterprise Rent-A-Car",
+          "link": "https://www.enterprise.com/",
+          "snippet": "Vehicles For Rent. Cars, SUVs, Trucks & Vans.Check out EnterpriseTrucks.com for a broader selection. Replacement Rentals. Is your vehicle in the shop? After an accident the average time for repair is ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rentals: Find Cheap Car Rentals & Rental Car Deals - KAYAK",
+          "link": "https://www.kayak.com/cars",
+          "snippet": "Search rental cars by destination. Find Car Rentals.The minimum legal age to rent a car depends on the country where you\u2019re renting. In the USA and Canada, drivers must typically be at least 21. Howev",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Compare Cheap Car Rental from $40 per day | Skyscanner",
+          "link": "https://www.skyscanner.com/car-rental",
+          "snippet": "Find the best car rental deals from trusted providers in over 18,000 locations worldwide with Skyscanner. Compare prices and book your car rental today.The cheapest cars to rent are usually Medium car",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cheap Car Hire, Compare Rental Prices - Rentalcars.com",
+          "link": "https://www.rentalcars.com/en/",
+          "snippet": "Compare car hire deals and find the cheapest prices in more than 60,000 locations worldwide. Book online today with the world's biggest online car rental service. Save on luxury, economy and family ca",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Europcar: Rental Cars - Car Rental & Van Rental",
+          "link": "https://www.europcar.com/",
+          "snippet": "Car rental and van rental worldwide. Discover very exciting offers and book online to save money with our convenient and hassle free booking. Find out more!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Fast & Convenient Car Rental at 1,500+ Locations | National Car Rental",
+          "link": "https://www.nationalcar.com/",
+          "snippet": "All Vehicles. Cars.Enjoy Speed, Choice & Total Control. The Emerald Club is designed to make your car rental experience faster and more convenient. You can enjoy special privileges reserved for freque",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Turo car rental marketplace | Car rentals, reimagined",
+          "link": "https://turo.com/",
+          "snippet": "Skip the car rental counter and rent anything from daily drivers to pickup trucks, from trusted, local hosts on the Turo car rental marketplace.Affordable car rental at Honolulu (HNL) airport. Average",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "hertz.com",
+          "link": "https://www.hertz.com/",
+          "snippet": "Hertz Car Hire: Car rental in UK, Ireland, Europe, Worldwide.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Find cheap rental car deals | Priceline",
+          "link": "https://www.priceline.com/rental-cars",
+          "snippet": "Search car rentals. Find the best car rental deals. Drop-off location is the same.Why use Priceline? Trusted by 8 million travelers. Great deals from our rental car suppliers. Free cancellation on mos",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rental Near Me | SIXT rent a car Locations",
+          "link": "https://www.sixt.com/car-rental/",
+          "snippet": "Find a car rental location near me. Book a SIXT car rental today. 2,200 locations in 100+ countries Largest premium car fleet in the World. With SIXT rent a car's large national coverage and attractiv",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rental with Great Rates & Service | Enterprise Rent-A-Car",
+          "link": "https://www.enterprise.com/",
+          "snippet": "Vehicles For Rent. Cars, SUVs, Trucks & Vans.Check out EnterpriseTrucks.com for a broader selection. Replacement Rentals. Is your vehicle in the shop? After an accident the average time for repair is ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Car Rentals: Find Cheap Car Rentals & Rental Car Deals - KAYAK",
+          "link": "https://www.kayak.com/cars",
+          "snippet": "Search rental cars by destination. Find Car Rentals.The minimum legal age to rent a car depends on the country where you\u2019re renting. In the USA and Canada, drivers must typically be at least 21. Howev",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Compare Cheap Car Rental from $40 per day | Skyscanner",
+          "link": "https://www.skyscanner.com/car-rental",
+          "snippet": "Find the best car rental deals from trusted providers in over 18,000 locations worldwide with Skyscanner. Compare prices and book your car rental today.The cheapest cars to rent are usually Medium car",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cheap Car Hire, Compare Rental Prices - Rentalcars.com",
+          "link": "https://www.rentalcars.com/en/",
+          "snippet": "Compare car hire deals and find the cheapest prices in more than 60,000 locations worldwide. Book online today with the world's biggest online car rental service. Save on luxury, economy and family ca",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Europcar: Rental Cars - Car Rental & Van Rental",
+          "link": "https://www.europcar.com/",
+          "snippet": "Car rental and van rental worldwide. Discover very exciting offers and book online to save money with our convenient and hassle free booking. Find out more!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Fast & Convenient Car Rental at 1,500+ Locations | National Car Rental",
+          "link": "https://www.nationalcar.com/",
+          "snippet": "All Vehicles. Cars.Enjoy Speed, Choice & Total Control. The Emerald Club is designed to make your car rental experience faster and more convenient. You can enjoy special privileges reserved for freque",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Turo car rental marketplace | Car rentals, reimagined",
+          "link": "https://turo.com/",
+          "snippet": "Skip the car rental counter and rent anything from daily drivers to pickup trucks, from trusted, local hosts on the Turo car rental marketplace.Affordable car rental at Honolulu (HNL) airport. Average",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "hertz.com",
+          "link": "https://www.hertz.com/",
+          "snippet": "Hertz Car Hire: Car rental in UK, Ireland, Europe, Worldwide.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

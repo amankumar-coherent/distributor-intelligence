@@ -1,0 +1,981 @@
+{
+  "phase": 1,
+  "query": "Leishmaniasis Treatment Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T21:28:26.040780+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "Leishmaniasis Treatment",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "pharmaceuticals",
+    "industry_terms": [
+      "leishmaniasis",
+      "antileishmanial drugs",
+      "treatment protocols",
+      "pharmaceutical distribution",
+      "healthcare services"
+    ],
+    "ecosystem_functions": [
+      "product distribution",
+      "wholesale supply",
+      "reselling treatments",
+      "integrating healthcare solutions",
+      "providing treatment services",
+      "partnering with healthcare providers"
+    ],
+    "interpretation_summary": "The Leishmaniasis Treatment Market encompasses the development and distribution of therapies aimed at treating leishmaniasis, a parasitic disease transmitted by sandflies. Key participants include pharmaceutical companie",
+    "relevance_keywords": [
+      "leishmaniasis treatment",
+      "antileishmanial therapy",
+      "pharmaceutical distribution",
+      "healthcare providers",
+      "treatment services"
+    ],
+    "negative_keywords": [
+      "clinical trials",
+      "research studies",
+      "manufacturing",
+      "regulatory compliance",
+      "job openings"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "MediPharm",
+        "primary_domain": "medipharm.com",
+        "company_function": "pharmaceutical distributor"
+      },
+      {
+        "canonical_name": "HealthFirst",
+        "primary_domain": "healthfirst.com",
+        "company_function": "healthcare wholesaler"
+      },
+      {
+        "canonical_name": "PharmaLink",
+        "primary_domain": "pharmalink.com",
+        "company_function": "reseller of pharmaceutical products"
+      },
+      {
+        "canonical_name": "CareConnect",
+        "primary_domain": "careconnect.com",
+        "company_function": "healthcare service provider"
+      },
+      {
+        "canonical_name": "GlobalMed",
+        "primary_domain": "globalmed.com",
+        "company_function": "channel partner for healthcare solutions"
+      },
+      {
+        "canonical_name": "PharmaDistributors",
+        "primary_domain": "pharmadistributors.com",
+        "company_function": "pharmaceutical distributor"
+      },
+      {
+        "canonical_name": "WholesalePharma",
+        "primary_domain": "wholesalepharma.com",
+        "company_function": "wholesaler of pharmaceuticals"
+      },
+      {
+        "canonical_name": "MedSupply",
+        "primary_domain": "medsupply.com",
+        "company_function": "reseller of medical supplies"
+      },
+      {
+        "canonical_name": "HealthServices",
+        "primary_domain": "healthservices.com",
+        "company_function": "provider of healthcare services",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "PartnerHealth",
+        "primary_domain": "partnerhealth.com",
+        "company_function": "healthcare channel partner",
+        "segment": "Channel Partners",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "Leishmaniasis Treatment",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "Leishmaniasis Treatment",
+    "include_keywords": [
+      "leishmaniasis treatment distributors",
+      "antileishmanial drug wholesalers",
+      "healthcare service providers for leishmaniasis",
+      "leishmaniasis therapy resellers",
+      "channel partners for leishmaniasis treatment"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The Leishmaniasis Treatment Market encompasses the development and distribution of therapies aimed at treating leishmaniasis, a parasitic disease transmitted by sandflies. Key participants include pharmaceutical companies, distributors, and healthcare providers operating globally.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Distribution",
+        "description": "This layer involves the distribution of leishmaniasis treatment products from manufacturers to healthcare providers.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Pharmaceutical Distributors",
+              "Healthcare Distributors"
+            ],
+            "participant_types": [
+              "distributor",
+              "wholesaler"
+            ],
+            "search_intents": [
+              "leishmaniasis treatment product distributors",
+              "pharmaceutical distributors for leishmaniasis"
+            ]
+          },
+          {
+            "segment_name": "Wholesalers",
+            "sub_segments": [
+              "Regional Wholesalers",
+              "National Wholesalers"
+            ],
+            "participant_types": [
+              "wholesaler",
+              "reseller"
+            ],
+            "search_intents": [
+              "wholesalers of leishmaniasis treatments",
+              "leishmaniasis treatment wholesalers"
+            ]
+          },
+          {
+            "segment_name": "Service Providers",
+            "sub_segments": [
+              "Healthcare Service Providers",
+              "Pharmacy Service Providers"
+            ],
+            "participant_types": [
+              "service provider",
+              "channel partner"
+            ],
+            "search_intents": [
+              "service providers for leishmaniasis treatment",
+              "healthcare service providers leishmaniasis"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Research Institutions",
+        "Manufacturers",
+        "Regulatory Bodies",
+        "Clinical Trial Organizations"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "search for leishmaniasis treatment distributors",
+        "sub_sector": "distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "find wholesalers of leishmaniasis treatments",
+        "sub_sector": "wholesaler",
+        "layer_id": "L1",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "search for service providers for leishmaniasis treatment",
+        "sub_sector": "service_provider",
+        "layer_id": "L1",
+        "segment": "Service Providers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "leishmaniasis treatment channel partners",
+        "sub_sector": "channel_partner",
+        "layer_id": "L1",
+        "segment": "Channel Partners"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "pharmaceuticals",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "Leishmaniasis Treatment companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "Leishmaniasis treatment distributors corporate sites"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "Leishmaniasis treatment wholesalers official website"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "discovery",
+      "text": "leishmaniasis treatment product distributors official site"
+    },
+    {
+      "id": "P2",
+      "level": "discovery",
+      "text": "pharmaceutical distributors for leishmaniasis corporate site"
+    },
+    {
+      "id": "P3",
+      "level": "discovery",
+      "text": "wholesalers of leishmaniasis treatments official website"
+    },
+    {
+      "id": "P4",
+      "level": "discovery",
+      "text": "leishmaniasis treatment wholesalers corporate site"
+    },
+    {
+      "id": "P5",
+      "level": "discovery",
+      "text": "service providers for leishmaniasis treatment official site"
+    },
+    {
+      "id": "P6",
+      "level": "discovery",
+      "text": "healthcare service providers leishmaniasis corporate site"
+    },
+    {
+      "id": "P7",
+      "level": "discovery",
+      "text": "leishmaniasis treatment channel partner corporate site"
+    },
+    {
+      "id": "P8",
+      "level": "discovery",
+      "text": "healthcare channel partner for leishmaniasis official site"
+    },
+    {
+      "id": "P9",
+      "level": "discovery",
+      "text": "authorized Leishmaniasis Treatment distributor firm official"
+    },
+    {
+      "id": "P10",
+      "level": "discovery",
+      "text": "Leishmaniasis Treatment reseller channel partner official"
+    },
+    {
+      "id": "P11",
+      "level": "discovery",
+      "text": "Leishmaniasis Treatment system integrator official website"
+    },
+    {
+      "id": "P12",
+      "level": "discovery",
+      "text": "Leishmaniasis Treatment service provider official website"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "Leishmaniasis Treatment companies official websites",
+      "level": "L0",
+      "result_count": 2,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "leishmaniasis treatment options begumpet",
+          "link": "https://www.medicoverhospitals.in/articles/leishmaniasis-treatment-options-begumpet",
+          "snippet": "Leishmaniasis Treatment Options at Medicover Hospitals, Begumpet. Leishmaniasis is a parasitic disease caused by protozoan parasites from the Leishmania species, transmitted through the bites of infec",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Review of Leishmaniasis Treatment: Can We See the Forest through...",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10892631/",
+          "snippet": "Official websites use .gov A .gov website belongs to an official government organization in the United States.at infected sites of sand fly bites. Cutaneous leishmaniasis has a variable clinical manif",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "leishmaniasis treatment options begumpet",
+          "link": "https://www.medicoverhospitals.in/articles/leishmaniasis-treatment-options-begumpet",
+          "snippet": "Leishmaniasis Treatment Options at Medicover Hospitals, Begumpet. Leishmaniasis is a parasitic disease caused by protozoan parasites from the Leishmania species, transmitted through the bites of infec",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Review of Leishmaniasis Treatment: Can We See the Forest through...",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10892631/",
+          "snippet": "Official websites use .gov A .gov website belongs to an official government organization in the United States.at infected sites of sand fly bites. Cutaneous leishmaniasis has a variable clinical manif",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "Leishmaniasis treatment distributors corporate sites",
+      "level": "L1",
+      "result_count": 10,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Leishmaniasis Market | Key Companies and Drug Assessment",
+          "link": "https://www.delveinsight.com/report-store/leishmaniasis-market",
+          "snippet": "What are the Leishmaniasis marketed drugs and their respective MOA, regulatory milestones, product development activities, advantages, disadvantages, safety and efficacy, etc.? How many companies are ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Leishmaniasis Treatment Market Research Report 2033",
+          "link": "https://dataintelo.com/report/leishmaniasis-treatment-market",
+          "snippet": "Leishmaniasis Treatment Market. Segments - by Treatment Type (Antiparasitic Drugs, Immunotherapy, Combination Therapy, and Others), Route of Administration (Oral, Parenteral, Topical), Distribution Ch",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Leishmaniasis Treatment Market 2025 by Company, Regions, Type ...",
+          "link": "https://www.globalinforesearch.com/reports/2818890/leishmaniasis-treatment",
+          "snippet": "Chapter 2, to profile the top players of Leishmaniasis Treatment, with revenue, gross margin, and global market share of Leishmaniasis Treatment from 2020 to 2025. Chapter 3, the Leishmaniasis Treatme",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Leishmaniasis Treatment Supply, Demand and Key Producers, 2024-2030",
+          "link": "https://www.globalinforesearch.com/reports/2141507/leishmaniasis-treatment",
+          "snippet": "The global Leishmaniasis Treatment market size is expected to reach $ 135.8 million by 2030, rising at a market growth of 4.8% CAGR during the forecast period (2024-2030).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Leishmaniasis Treatment Market Report: Size, Growth, Trends & Forecast ...",
+          "link": "https://www.verifiedmarketresearch.com/product/leishmaniasis-treatment-market/",
+          "snippet": "The Leishmaniasis Treatment Market size was valued at $1.5 Bn in 2024 and is projected to reach $2.67 Bn by 2032, growing at a CAGR of 7.4% from 2026-2032. The report provides key trends, growth drive",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Leishmaniasis Treatment Market To Reach USD 237.7 Million by 2028",
+          "link": "https://www.einnews.com/pr_news/558523714/leishmaniasis-treatment-market-to-reach-usd-237-7-million-by-2028-reports-and-data",
+          "snippet": "Leishmaniasis treatment market has huge untapped potential in different regions and extensive unexplored application in the field of healthcare and therapeutics. Early case detection and treatment are",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Combating a Neglected Disease: A Market View of Leishmaniasis...",
+          "link": "https://ideaexpress.us/combating-a-neglected-disease-a-market-view-of-leishmaniasis-treatment/",
+          "snippet": "The leishmaniasis treatment market focuses on the development and distribution of drugs and therapies to combat the various forms of the disease (cutaneous, visceral, and mucocutaneous). This market i",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "leishmaniasis treatment options begumpet",
+          "link": "https://www.medicoverhospitals.in/articles/leishmaniasis-treatment-options-begumpet",
+          "snippet": "Leishmaniasis Treatment Options at Medicover Hospitals, Begumpet. Leishmaniasis is a parasitic disease caused by protozoan parasites from the Leishmania species, transmitted through the bites of infec",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Leishmaniasis: Symptoms, Causes, and More",
+          "link": "https://www.webmd.com/skin-problems-and-treatments/what-is-leishmaniasis",
+          "snippet": "Visceral leishmaniasis treatment.Liposomal amphotericin B is the go-to treatment for visceral leishmaniasis, approved by the FDA. The FDA has also approved miltefosine to treat visceral leishmaniasis ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Leishmaniasis: Symptoms, Treatment & Disease | StudySmarter",
+          "link": "https://www.studysmarter.co.uk/explanations/biology/communicable-diseases/leishmaniasis/",
+          "snippet": "Leishmaniasis Treatment: A Journey Towards Cure. Treating Leishmaniasis is crucial to reduce morbidity and mitigate severe health outcomes, primarily for Visceral Leishmaniasis, which can be lethal if",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Leishmaniasis Market | Key Companies and Drug Assessment",
+          "link": "https://www.delveinsight.com/report-store/leishmaniasis-market",
+          "snippet": "What are the Leishmaniasis marketed drugs and their respective MOA, regulatory milestones, product development activities, advantages, disadvantages, safety and efficacy, etc.? How many companies are ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Leishmaniasis Treatment Market Research Report 2033",
+          "link": "https://dataintelo.com/report/leishmaniasis-treatment-market",
+          "snippet": "Leishmaniasis Treatment Market. Segments - by Treatment Type (Antiparasitic Drugs, Immunotherapy, Combination Therapy, and Others), Route of Administration (Oral, Parenteral, Topical), Distribution Ch",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Leishmaniasis Treatment Market 2025 by Company, Regions, Type ...",
+          "link": "https://www.globalinforesearch.com/reports/2818890/leishmaniasis-treatment",
+          "snippet": "Chapter 2, to profile the top players of Leishmaniasis Treatment, with revenue, gross margin, and global market share of Leishmaniasis Treatment from 2020 to 2025. Chapter 3, the Leishmaniasis Treatme",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Leishmaniasis Treatment Supply, Demand and Key Producers, 2024-2030",
+          "link": "https://www.globalinforesearch.com/reports/2141507/leishmaniasis-treatment",
+          "snippet": "The global Leishmaniasis Treatment market size is expected to reach $ 135.8 million by 2030, rising at a market growth of 4.8% CAGR during the forecast period (2024-2030).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Leishmaniasis Treatment Market Report: Size, Growth, Trends & Forecast ...",
+          "link": "https://www.verifiedmarketresearch.com/product/leishmaniasis-treatment-market/",
+          "snippet": "The Leishmaniasis Treatment Market size was valued at $1.5 Bn in 2024 and is projected to reach $2.67 Bn by 2032, growing at a CAGR of 7.4% from 2026-2032. The report provides key trends, growth drive",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Leishmaniasis Treatment Market To Reach USD 237.7 Million by 2028",
+          "link": "https://www.einnews.com/pr_news/558523714/leishmaniasis-treatment-market-to-reach-usd-237-7-million-by-2028-reports-and-data",
+          "snippet": "Leishmaniasis treatment market has huge untapped potential in different regions and extensive unexplored application in the field of healthcare and therapeutics. Early case detection and treatment are",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Combating a Neglected Disease: A Market View of Leishmaniasis...",
+          "link": "https://ideaexpress.us/combating-a-neglected-disease-a-market-view-of-leishmaniasis-treatment/",
+          "snippet": "The leishmaniasis treatment market focuses on the development and distribution of drugs and therapies to combat the various forms of the disease (cutaneous, visceral, and mucocutaneous). This market i",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "leishmaniasis treatment options begumpet",
+          "link": "https://www.medicoverhospitals.in/articles/leishmaniasis-treatment-options-begumpet",
+          "snippet": "Leishmaniasis Treatment Options at Medicover Hospitals, Begumpet. Leishmaniasis is a parasitic disease caused by protozoan parasites from the Leishmania species, transmitted through the bites of infec",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Leishmaniasis: Symptoms, Causes, and More",
+          "link": "https://www.webmd.com/skin-problems-and-treatments/what-is-leishmaniasis",
+          "snippet": "Visceral leishmaniasis treatment.Liposomal amphotericin B is the go-to treatment for visceral leishmaniasis, approved by the FDA. The FDA has also approved miltefosine to treat visceral leishmaniasis ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Leishmaniasis: Symptoms, Treatment & Disease | StudySmarter",
+          "link": "https://www.studysmarter.co.uk/explanations/biology/communicable-diseases/leishmaniasis/",
+          "snippet": "Leishmaniasis Treatment: A Journey Towards Cure. Treating Leishmaniasis is crucial to reduce morbidity and mitigate severe health outcomes, primarily for Visceral Leishmaniasis, which can be lethal if",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "Leishmaniasis treatment wholesalers official website",
+      "level": "L2",
+      "result_count": 2,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Leishmaniasis Treatment and Care | Hospital for Tropical Diseases - UCLH",
+          "link": "https://www.uclh.nhs.uk/our-services/find-service/tropical-and-infectious-diseases/htd-outpatient-services/specialist-services-hospital-tropical-diseases/leishmaniasis",
+          "snippet": "Get expert care for leishmaniasis at the Hospital for Tropical Diseases, UCLH. Our specialist team provides comprehensive diagnosis, treatment, and patient support for tropical infectious diseases.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Leishmaniasis Treatment, Symptoms, Pictures, Types & Diagnosis",
+          "link": "https://www.medicinenet.com/leishmaniasis/article.htm",
+          "snippet": "Leishmaniasis is a disease transmitted by the bite of an infected sand fly. See pictures and learn about treatment, symptoms, diagnosis, types, prevention, risk factors, and prognosis.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Leishmaniasis Treatment and Care | Hospital for Tropical Diseases - UCLH",
+          "link": "https://www.uclh.nhs.uk/our-services/find-service/tropical-and-infectious-diseases/htd-outpatient-services/specialist-services-hospital-tropical-diseases/leishmaniasis",
+          "snippet": "Get expert care for leishmaniasis at the Hospital for Tropical Diseases, UCLH. Our specialist team provides comprehensive diagnosis, treatment, and patient support for tropical infectious diseases.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Leishmaniasis Treatment, Symptoms, Pictures, Types & Diagnosis",
+          "link": "https://www.medicinenet.com/leishmaniasis/article.htm",
+          "snippet": "Leishmaniasis is a disease transmitted by the bite of an infected sand fly. See pictures and learn about treatment, symptoms, diagnosis, types, prevention, risk factors, and prognosis.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "leishmaniasis treatment product distributors official site",
+      "level": "discovery",
+      "result_count": 6,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Clinical Care of Leishmaniasis | Leishmaniasis | CDC",
+          "link": "https://www.cdc.gov/leishmaniasis/hcp/clinical-care/index.html",
+          "snippet": "An official website of the United States government. Here's how you know. Official websites use .gov.Leishmaniasis treatment depends on a variety of factors, and healthcare providers should consider s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Leishmaniasis Treatment Market To Reach USD 237.7 Million by 2028",
+          "link": "https://www.einnews.com/pr_news/558523714/leishmaniasis-treatment-market-to-reach-usd-237-7-million-by-2028-reports-and-data",
+          "snippet": "New distribution! Reach relevant USA TODAY Network news sites.Leishmaniasis treatment market has huge untapped potential in different regions and extensive unexplored application in the field of healt",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Leishmaniasis Treatment Market Size, Share, Industry... - BioSpace",
+          "link": "https://www.biospace.com/leishmaniasis-treatment-market-size-share-industry-growth-trend-business-opportunities-challenges-drivers-and-restraint-research-report-by-2028",
+          "snippet": "Leishmaniasis treatment market has huge untapped potential in different regions and extensive unexplored application in the field of healthcare and therapeutics. Early case detection and treatment are",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Leishmaniasis Treatment Market Size, Share, Trend, 2035",
+          "link": "https://www.businessresearchinsights.com/market-reports/leishmaniasis-treatment-market-108275",
+          "snippet": "The Leishmaniasis Treatment Market size reached USD 0.17 billion in 2026 and is expected to grow to USD 0.43 billion by 2035, registering a CAGR of 10.58%.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Leishmaniasis: Symptoms, Causes, and More",
+          "link": "https://www.webmd.com/skin-problems-and-treatments/what-is-leishmaniasis",
+          "snippet": "Visceral leishmaniasis treatment.Liposomal amphotericin B is the go-to treatment for visceral leishmaniasis, approved by the FDA. The FDA has also approved miltefosine to treat visceral leishmaniasis ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Herbal Drugs with Promising Anti-Leishmanial Activity: New Hope for...",
+          "link": "https://brieflands.com/articles/jssc-66527",
+          "snippet": "The Official Journal of Skin and Stem Cell Research Center.More clinical studies should be done to investigate the efficacy and safety of herbal drugs for the production of effective and safe drugs fo",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Clinical Care of Leishmaniasis | Leishmaniasis | CDC",
+          "link": "https://www.cdc.gov/leishmaniasis/hcp/clinical-care/index.html",
+          "snippet": "An official website of the United States government. Here's how you know. Official websites use .gov.Leishmaniasis treatment depends on a variety of factors, and healthcare providers should consider s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Leishmaniasis Treatment Market To Reach USD 237.7 Million by 2028",
+          "link": "https://www.einnews.com/pr_news/558523714/leishmaniasis-treatment-market-to-reach-usd-237-7-million-by-2028-reports-and-data",
+          "snippet": "New distribution! Reach relevant USA TODAY Network news sites.Leishmaniasis treatment market has huge untapped potential in different regions and extensive unexplored application in the field of healt",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Leishmaniasis Treatment Market Size, Share, Industry... - BioSpace",
+          "link": "https://www.biospace.com/leishmaniasis-treatment-market-size-share-industry-growth-trend-business-opportunities-challenges-drivers-and-restraint-research-report-by-2028",
+          "snippet": "Leishmaniasis treatment market has huge untapped potential in different regions and extensive unexplored application in the field of healthcare and therapeutics. Early case detection and treatment are",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Leishmaniasis Treatment Market Size, Share, Trend, 2035",
+          "link": "https://www.businessresearchinsights.com/market-reports/leishmaniasis-treatment-market-108275",
+          "snippet": "The Leishmaniasis Treatment Market size reached USD 0.17 billion in 2026 and is expected to grow to USD 0.43 billion by 2035, registering a CAGR of 10.58%.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Leishmaniasis: Symptoms, Causes, and More",
+          "link": "https://www.webmd.com/skin-problems-and-treatments/what-is-leishmaniasis",
+          "snippet": "Visceral leishmaniasis treatment.Liposomal amphotericin B is the go-to treatment for visceral leishmaniasis, approved by the FDA. The FDA has also approved miltefosine to treat visceral leishmaniasis ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Herbal Drugs with Promising Anti-Leishmanial Activity: New Hope for...",
+          "link": "https://brieflands.com/articles/jssc-66527",
+          "snippet": "The Official Journal of Skin and Stem Cell Research Center.More clinical studies should be done to investigate the efficacy and safety of herbal drugs for the production of effective and safe drugs fo",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P2": {
+      "query": "pharmaceutical distributors for leishmaniasis corporate site",
+      "level": "discovery",
+      "result_count": 6,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Leishmaniasis Medication: Antifungals, Systemic, Xanthine Oxidase...",
+          "link": "https://emedicine.medscape.com/article/220298-medication",
+          "snippet": "Medication: Leishmaniasis is a disease caused by an intracellular protozoa parasite transmitted by the bite of a female sandfly (Phlebotomus species) (see the following images). The clinical spectrum ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "CDC - DPDx - Leishmaniasis",
+          "link": "https://www.cdc.gov/dpdx/leishmaniasis/index.html",
+          "snippet": "Geographic Distribution. Leishmaniasis is found in parts of about 88 countries. Approximately 350 million people live in these areas. Most of the affected countries are in the tropics and subtropics.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Leishmaniasis: Symptoms & Treatment - Acibadem Health Point...",
+          "link": "https://www.acibademhealthpoint.com/leishmaniasis-symptoms-treatment/",
+          "snippet": "Causes of Leishmaniasis. How Leishmaniasis is Transmitted. Risk Factors for Leishmaniasis.Pharmaceutical Treatments. Doctors use antiparasitic drugs to fight leishmaniasis. These drugs, like Amphoteri",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "openi.nlm.nih.gov",
+          "link": "https://openi.nlm.nih.gov/",
+          "snippet": "Cutaneous Leishmaniasis Presenting As An Erythematous Nodule (a) With.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How will climate change pathways and mitigation options... | PLOS One",
+          "link": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0183583",
+          "snippet": "Materials and methods. Leishmaniasis distribution data. For South and Meso America (including Belize, Bolivia, Brazil, Colombia, Costa Rica, Ecuador, El Salvador, French Guiana, Guatemala, Guyana, Hon",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "\u041b\u0435\u0439\u0448\u043c\u0430\u043d\u0438\u043e\u0437 - \u0418\u043d\u0444\u0435\u043a\u0446\u0438\u043e\u043d\u043d\u044b\u0435 \u0431\u043e\u043b\u0435\u0437\u043d\u0438 - \u0421\u043f\u0440\u0430\u0432\u043e\u0447\u043d\u0438\u043a MSD...",
+          "link": "https://www.msdmanuals.com/ru/professional/\u0438\u043d\u0444\u0435\u043a\u0446\u0438\u043e\u043d\u043d\u044b\u0435-\u0431\u043e\u043b\u0435\u0437\u043d\u0438/\u0432\u043d\u0435\u043a\u0438\u0448\u0435\u0447\u043d\u044b\u0435-\u043f\u0440\u043e\u0441\u0442\u0435\u0439\u0448\u0438\u0435/\u043b\u0435\u0439\u0448\u043c\u0430\u043d\u0438\u043e\u0437",
+          "snippet": "This site is not intended for use in the Russian Federation.Post Kala-Azar Dermal Leishmaniasis: Clinical Features and Differential Diagnosis. Indian J Dermatol. 2021;66(1):24-33. doi:10.4103/ijd.IJD_",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Leishmaniasis Medication: Antifungals, Systemic, Xanthine Oxidase...",
+          "link": "https://emedicine.medscape.com/article/220298-medication",
+          "snippet": "Medication: Leishmaniasis is a disease caused by an intracellular protozoa parasite transmitted by the bite of a female sandfly (Phlebotomus species) (see the following images). The clinical spectrum ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "CDC - DPDx - Leishmaniasis",
+          "link": "https://www.cdc.gov/dpdx/leishmaniasis/index.html",
+          "snippet": "Geographic Distribution. Leishmaniasis is found in parts of about 88 countries. Approximately 350 million people live in these areas. Most of the affected countries are in the tropics and subtropics.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Leishmaniasis: Symptoms & Treatment - Acibadem Health Point...",
+          "link": "https://www.acibademhealthpoint.com/leishmaniasis-symptoms-treatment/",
+          "snippet": "Causes of Leishmaniasis. How Leishmaniasis is Transmitted. Risk Factors for Leishmaniasis.Pharmaceutical Treatments. Doctors use antiparasitic drugs to fight leishmaniasis. These drugs, like Amphoteri",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "openi.nlm.nih.gov",
+          "link": "https://openi.nlm.nih.gov/",
+          "snippet": "Cutaneous Leishmaniasis Presenting As An Erythematous Nodule (a) With.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How will climate change pathways and mitigation options... | PLOS One",
+          "link": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0183583",
+          "snippet": "Materials and methods. Leishmaniasis distribution data. For South and Meso America (including Belize, Bolivia, Brazil, Colombia, Costa Rica, Ecuador, El Salvador, French Guiana, Guatemala, Guyana, Hon",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "\u041b\u0435\u0439\u0448\u043c\u0430\u043d\u0438\u043e\u0437 - \u0418\u043d\u0444\u0435\u043a\u0446\u0438\u043e\u043d\u043d\u044b\u0435 \u0431\u043e\u043b\u0435\u0437\u043d\u0438 - \u0421\u043f\u0440\u0430\u0432\u043e\u0447\u043d\u0438\u043a MSD...",
+          "link": "https://www.msdmanuals.com/ru/professional/\u0438\u043d\u0444\u0435\u043a\u0446\u0438\u043e\u043d\u043d\u044b\u0435-\u0431\u043e\u043b\u0435\u0437\u043d\u0438/\u0432\u043d\u0435\u043a\u0438\u0448\u0435\u0447\u043d\u044b\u0435-\u043f\u0440\u043e\u0441\u0442\u0435\u0439\u0448\u0438\u0435/\u043b\u0435\u0439\u0448\u043c\u0430\u043d\u0438\u043e\u0437",
+          "snippet": "This site is not intended for use in the Russian Federation.Post Kala-Azar Dermal Leishmaniasis: Clinical Features and Differential Diagnosis. Indian J Dermatol. 2021;66(1):24-33. doi:10.4103/ijd.IJD_",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P3": {
+      "query": "wholesalers of leishmaniasis treatments official website",
+      "level": "discovery",
+      "result_count": 3,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Leishmaniasis Market | Key Companies and Drug Assessment",
+          "link": "https://www.delveinsight.com/report-store/leishmaniasis-market",
+          "snippet": "Leishmaniasis Treatment Approaches. Treating Leishmaniasis predominantly relies on chemotherapy using antiparasitic drugs like miltefosine, amphotericin B, or pentavalent antimonials.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ocular Leishmaniasis Treated by Intralesional Amphotericin B - PMC",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4759897/",
+          "snippet": "An official website of the United States government. Here's how you know.Treatment of ocular leishmaniasis is more challenging. Systemic antimoniate (e.g. Glucantime) is the first-line modality in lei",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "leishmaniasis treatment options begumpet",
+          "link": "https://www.medicoverhospitals.in/articles/leishmaniasis-treatment-options-begumpet",
+          "snippet": "Leishmaniasis Treatment Options at Medicover Hospitals, Begumpet. Leishmaniasis is a parasitic disease caused by protozoan parasites from the Leishmania species, transmitted through the bites of infec",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Leishmaniasis Market | Key Companies and Drug Assessment",
+          "link": "https://www.delveinsight.com/report-store/leishmaniasis-market",
+          "snippet": "Leishmaniasis Treatment Approaches. Treating Leishmaniasis predominantly relies on chemotherapy using antiparasitic drugs like miltefosine, amphotericin B, or pentavalent antimonials.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ocular Leishmaniasis Treated by Intralesional Amphotericin B - PMC",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4759897/",
+          "snippet": "An official website of the United States government. Here's how you know.Treatment of ocular leishmaniasis is more challenging. Systemic antimoniate (e.g. Glucantime) is the first-line modality in lei",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "leishmaniasis treatment options begumpet",
+          "link": "https://www.medicoverhospitals.in/articles/leishmaniasis-treatment-options-begumpet",
+          "snippet": "Leishmaniasis Treatment Options at Medicover Hospitals, Begumpet. Leishmaniasis is a parasitic disease caused by protozoan parasites from the Leishmania species, transmitted through the bites of infec",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P4": {
+      "query": "leishmaniasis treatment wholesalers corporate site",
+      "level": "discovery",
+      "result_count": 2,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Leishmaniasis Treatment Market Size And Forecast",
+          "link": "https://www.verifiedmarketresearch.com/product/leishmaniasis-treatment-market/",
+          "snippet": "The Leishmaniasis Treatment Market size was valued at USD 1.5 Billion in 2024 and is projected to reach USD 2.67 Billion by 2032, growing at a CAGR of 7.4% from 2026 to 2032.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "leishmaniasis treatment options begumpet",
+          "link": "https://www.medicoverhospitals.in/articles/leishmaniasis-treatment-options-begumpet",
+          "snippet": "Leishmaniasis Treatment Options at Medicover Hospitals, Begumpet. Leishmaniasis is a parasitic disease caused by protozoan parasites from the Leishmania species, transmitted through the bites of infec",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Leishmaniasis Treatment Market Size And Forecast",
+          "link": "https://www.verifiedmarketresearch.com/product/leishmaniasis-treatment-market/",
+          "snippet": "The Leishmaniasis Treatment Market size was valued at USD 1.5 Billion in 2024 and is projected to reach USD 2.67 Billion by 2032, growing at a CAGR of 7.4% from 2026 to 2032.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "leishmaniasis treatment options begumpet",
+          "link": "https://www.medicoverhospitals.in/articles/leishmaniasis-treatment-options-begumpet",
+          "snippet": "Leishmaniasis Treatment Options at Medicover Hospitals, Begumpet. Leishmaniasis is a parasitic disease caused by protozoan parasites from the Leishmania species, transmitted through the bites of infec",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P5": {
+      "query": "service providers for leishmaniasis treatment official site",
+      "level": "discovery",
+      "result_count": 2,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Clinical Care of Leishmaniasis | Leishmaniasis | CDC",
+          "link": "https://www.cdc.gov/leishmaniasis/hcp/clinical-care/index.html",
+          "snippet": "An official website of the United States government. Here's how you know. Official websites use .gov.Leishmaniasis treatment depends on a variety of factors, and healthcare providers should consider s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Leishmaniasis Treatment, Symptoms, Pictures, Types & Diagnosis",
+          "link": "https://www.medicinenet.com/leishmaniasis/article.htm",
+          "snippet": "Leishmaniasis is a disease transmitted by the bite of an infected sand fly. See pictures and learn about treatment, symptoms, diagnosis, types, prevention, risk factors, and prognosis.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Clinical Care of Leishmaniasis | Leishmaniasis | CDC",
+          "link": "https://www.cdc.gov/leishmaniasis/hcp/clinical-care/index.html",
+          "snippet": "An official website of the United States government. Here's how you know. Official websites use .gov.Leishmaniasis treatment depends on a variety of factors, and healthcare providers should consider s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Leishmaniasis Treatment, Symptoms, Pictures, Types & Diagnosis",
+          "link": "https://www.medicinenet.com/leishmaniasis/article.htm",
+          "snippet": "Leishmaniasis is a disease transmitted by the bite of an infected sand fly. See pictures and learn about treatment, symptoms, diagnosis, types, prevention, risk factors, and prognosis.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "healthcare service providers leishmaniasis corporate site",
+      "level": "discovery",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Flow cytometry: a critical technique in combating leishmaniasis...",
+          "link": "https://clinlabint.com/flow-cytometry-a-critical-technique-in-combating-leishmaniasis/",
+          "snippet": "Leishmaniasis treatment can be quite difficult since at-risk populations may lack access to healthcare, and the limited battery of drugs has been increasingly compromised by resistance. Additionally, ",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Flow cytometry: a critical technique in combating leishmaniasis...",
+          "link": "https://clinlabint.com/flow-cytometry-a-critical-technique-in-combating-leishmaniasis/",
+          "snippet": "Leishmaniasis treatment can be quite difficult since at-risk populations may lack access to healthcare, and the limited battery of drugs has been increasingly compromised by resistance. Additionally, ",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P7": {
+      "query": "leishmaniasis treatment channel partner corporate site",
+      "level": "discovery",
+      "result_count": 3,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Symptoms, transmission, and current treatments for cutaneous... | DNDi",
+          "link": "https://dndi.org/diseases/cutaneous-leishmaniasis/facts/",
+          "snippet": "What cutaneous leishmaniasis treatments are we working on? We aim to make treatments safer, shorter and more affordable and effective. In the short term, better treatment regimens are being developed ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "leishmaniasis treatment options begumpet",
+          "link": "https://www.medicoverhospitals.in/articles/leishmaniasis-treatment-options-begumpet",
+          "snippet": "Leishmaniasis Treatment Options at Medicover Hospitals, Begumpet. Leishmaniasis is a parasitic disease caused by protozoan parasites from the Leishmania species, transmitted through the bites of infec",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Leishmaniasis Treatment Market Research Report 2033",
+          "link": "https://dataintelo.com/report/leishmaniasis-treatment-market",
+          "snippet": "The Leishmaniasis Treatment market was valued at $2.8 billion in 2025 and is projected to reach $5.2 billion by 2034, growing at 6.9% CAGR.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Symptoms, transmission, and current treatments for cutaneous... | DNDi",
+          "link": "https://dndi.org/diseases/cutaneous-leishmaniasis/facts/",
+          "snippet": "What cutaneous leishmaniasis treatments are we working on? We aim to make treatments safer, shorter and more affordable and effective. In the short term, better treatment regimens are being developed ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "leishmaniasis treatment options begumpet",
+          "link": "https://www.medicoverhospitals.in/articles/leishmaniasis-treatment-options-begumpet",
+          "snippet": "Leishmaniasis Treatment Options at Medicover Hospitals, Begumpet. Leishmaniasis is a parasitic disease caused by protozoan parasites from the Leishmania species, transmitted through the bites of infec",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Leishmaniasis Treatment Market Research Report 2033",
+          "link": "https://dataintelo.com/report/leishmaniasis-treatment-market",
+          "snippet": "The Leishmaniasis Treatment market was valued at $2.8 billion in 2025 and is projected to reach $5.2 billion by 2034, growing at 6.9% CAGR.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

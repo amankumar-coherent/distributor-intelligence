@@ -1,0 +1,1088 @@
+{
+  "phase": 2,
+  "phase2_mode": "fast",
+  "query": "Specialty Pesticides Market",
+  "mock_mode": false,
+  "completed_at": "2026-07-24T08:25:06.049736+00:00",
+  "scope": {
+    "market": "specialty pesticides",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "agriculture",
+    "industry_terms": [
+      "specialty pesticides",
+      "agricultural chemicals",
+      "pest control products",
+      "herbicides",
+      "insecticides"
+    ],
+    "ecosystem_functions": [
+      "distributing specialty pesticides",
+      "wholesaling agricultural products",
+      "reselling pest control solutions",
+      "integrating pest management systems",
+      "providing pest control services",
+      "acting as channel partners for pesticide manufacturers"
+    ],
+    "interpretation_summary": "The specialty pesticides market includes products designed for specific pest control applications, often with a focus on niche agricultural needs. Participants include manufacturers, distributors, and various channel par",
+    "relevance_keywords": [
+      "pesticide distribution",
+      "agricultural service provider",
+      "pest control solutions",
+      "specialty pesticide application",
+      "channel partner for agriculture"
+    ],
+    "negative_keywords": [
+      "fertilizers",
+      "general agriculture",
+      "non-pesticide products",
+      "unrelated industries"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "BASF",
+        "primary_domain": "basf.com",
+        "company_function": "chemical manufacturer and distributor"
+      },
+      {
+        "canonical_name": "Syngenta",
+        "primary_domain": "syngenta.com",
+        "company_function": "agricultural science company"
+      },
+      {
+        "canonical_name": "FMC",
+        "primary_domain": "fmc.com",
+        "company_function": "specialty chemicals manufacturer"
+      },
+      {
+        "canonical_name": "Nufarm",
+        "primary_domain": "nufarm.com",
+        "company_function": "agricultural products distributor"
+      },
+      {
+        "canonical_name": "Nutrien",
+        "primary_domain": "nutrien.com",
+        "company_function": "agricultural retailer and distributor"
+      },
+      {
+        "canonical_name": "Corteva Agriscience",
+        "primary_domain": "corteva.com",
+        "company_function": "agricultural chemical manufacturer"
+      },
+      {
+        "canonical_name": "ADAMA Agricultural Solutions",
+        "primary_domain": "adama.com",
+        "company_function": "pesticide manufacturer and distributor"
+      },
+      {
+        "canonical_name": "Univar Solutions",
+        "primary_domain": "univarsolutions.com",
+        "company_function": "chemical distributor"
+      },
+      {
+        "canonical_name": "Pest Control Services",
+        "primary_domain": "pestcontrolservices.com",
+        "company_function": "pest control service provider"
+      },
+      {
+        "canonical_name": "Rentokil Initial",
+        "primary_domain": "rentokil-initial.com",
+        "company_function": "pest control and hygiene services"
+      },
+      {
+        "canonical_name": "Terminix",
+        "primary_domain": "terminix.com",
+        "company_function": "pest control service provider"
+      },
+      {
+        "canonical_name": "Orkin",
+        "primary_domain": "orkin.com",
+        "company_function": "pest control service provider"
+      },
+      {
+        "canonical_name": "AgroFresh Solutions",
+        "primary_domain": "agrofresh.com",
+        "company_function": "agricultural technology provider"
+      },
+      {
+        "canonical_name": "Helena Agri-Enterprises",
+        "primary_domain": "helenaagri.com",
+        "company_function": "agricultural products distributor"
+      }
+    ],
+    "search_topic": "pesticides",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "specialty pesticides",
+    "include_keywords": [
+      "specialty pesticide distributor",
+      "agricultural pesticide wholesaler",
+      "pest control reseller",
+      "integrated pest management services",
+      "channel partner for pesticides"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The specialty pesticides market includes products designed for specific pest control applications, often with a focus on niche agricultural needs. Participants include manufacturers, distributors, and various channel partners that facilitate the sale and distribution of these products globally.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Distribution",
+        "description": "This layer involves the distribution of specialty pesticides through various channel partners.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Regional distributors",
+              "National distributors"
+            ],
+            "participant_types": [
+              "distributor",
+              "wholesaler"
+            ],
+            "search_intents": [
+              "specialty pesticide distributors",
+              "wholesale specialty pesticides"
+            ]
+          },
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Online resellers",
+              "Retail resellers"
+            ],
+            "participant_types": [
+              "reseller",
+              "channel partner"
+            ],
+            "search_intents": [
+              "buy specialty pesticides online",
+              "specialty pesticide resellers"
+            ]
+          },
+          {
+            "segment_name": "Service Providers",
+            "sub_segments": [
+              "Pest control services",
+              "Agricultural service providers"
+            ],
+            "participant_types": [
+              "service provider"
+            ],
+            "search_intents": [
+              "specialty pesticide application services",
+              "pest control service providers"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Raw material suppliers",
+        "Manufacturers",
+        "Retailers",
+        "Agricultural consultants"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "find specialty pesticide distributors",
+        "sub_sector": "distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "search for agricultural pesticide wholesalers",
+        "sub_sector": "wholesaler",
+        "layer_id": "L1",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "locate specialty pesticide resellers",
+        "sub_sector": "reseller",
+        "layer_id": "L1",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "find pest control service providers",
+        "sub_sector": "service_provider",
+        "layer_id": "L1",
+        "segment": "Service Providers"
+      },
+      {
+        "id": "M5",
+        "level": "market_map",
+        "text": "search for channel partners in specialty pesticides",
+        "sub_sector": "channel_partner",
+        "layer_id": "L1",
+        "segment": "Channel Partners"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "phase1_plan_path": "D:\\vendor-intel\\output\\phase1\\phase1_plan_specialty_pesticides_global.json",
+  "companies": [
+    {
+      "name": "Agristuff",
+      "domain": "agristuff.com",
+      "discovery_source": "searxng",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Anchorproducts",
+      "domain": "anchorproducts.com.au",
+      "discovery_source": "searxng",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Agroinfomart",
+      "domain": "agroinfomart.com",
+      "discovery_source": "ddgs_bing+ddgs_yandex",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Sitem",
+      "domain": "sitem.herts.ac.uk",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Pestfacts",
+      "domain": "pestfacts.org",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Orkin",
+      "domain": "orkin.com",
+      "discovery_source": "ddgs_bing+registry",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Telegram: View @pesticidesunion",
+      "domain": "t.me",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Dharmajcrop",
+      "domain": "dharmajcrop.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Pmfaiindia",
+      "domain": "pmfaiindia.org",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Adama",
+      "domain": "adama.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Agrofresh",
+      "domain": "agrofresh.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "BASF",
+      "domain": "basf.com",
+      "discovery_source": "registry",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Corteva",
+      "domain": "corteva.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Dhanuka",
+      "domain": "dhanuka.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Go4worldbusiness",
+      "domain": "go4worldbusiness.com",
+      "discovery_source": "ddgs_bing+ddgs_yandex",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Helenaagri",
+      "domain": "helenaagri.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Juagrisciences",
+      "domain": "juagrisciences.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Kingquenson",
+      "domain": "kingquenson.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Multiplexgroup",
+      "domain": "multiplexgroup.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Nufarm",
+      "domain": "nufarm.com",
+      "discovery_source": "registry",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Nutrien",
+      "domain": "nutrien.com",
+      "discovery_source": "registry",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Pestcontrolservices",
+      "domain": "pestcontrolservices.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Rentokil Initial",
+      "domain": "rentokil-initial.com",
+      "discovery_source": "registry",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Swal",
+      "domain": "swal.in",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Syngenta",
+      "domain": "syngenta.com",
+      "discovery_source": "registry",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Terminix",
+      "domain": "terminix.com",
+      "discovery_source": "registry",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Univarsolutions",
+      "domain": "univarsolutions.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Awiner",
+      "domain": "awiner.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "D23h0z1ueo5mz5",
+      "domain": "d23h0z1ueo5mz5.cloudfront.net",
+      "discovery_source": "ddgs_bing",
+      "company_function": "contract_manufacturer"
+    },
+    {
+      "name": "Dcachem",
+      "domain": "dcachem.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Dfchempest",
+      "domain": "dfchempest.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Gujaratpesticides",
+      "domain": "gujaratpesticides.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Indiapesticideslimited",
+      "domain": "indiapesticideslimited.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Pestcontrolproductsdepot",
+      "domain": "pestcontrolproductsdepot.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Primeplacement",
+      "domain": "primeplacement.org",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Rocketreach",
+      "domain": "rocketreach.co",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Rustaviazot",
+      "domain": "rustaviazot.ge",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Sunrisechemical",
+      "domain": "sunrisechemical.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Worldstopexports",
+      "domain": "worldstopexports.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Agnithee",
+      "domain": "agnithee.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Agribusiness",
+      "domain": "agribusiness.com.pk",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Agriculture Chemicals",
+      "domain": "m.rasayan.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Agritech",
+      "domain": "agritech.tnau.ac.in",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Agrivochemicals",
+      "domain": "agrivochemicals.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Alphaagroindustries",
+      "domain": "alphaagroindustries.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Altapestcontrol",
+      "domain": "altapestcontrol.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Ambitionbox",
+      "domain": "ambitionbox.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Antman Pest Control",
+      "domain": "antman-pest-control.pestworth.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Bessen",
+      "domain": "bessen.cn",
+      "discovery_source": "ddgs_bing",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Braveneweurope",
+      "domain": "braveneweurope.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Brenntag",
+      "domain": "brenntag.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Buyfromturkey",
+      "domain": "buyfromturkey.co",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Cbinsights",
+      "domain": "cbinsights.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Cefic",
+      "domain": "cefic.org",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Chemicalwarehouse",
+      "domain": "chemicalwarehouse.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Chromatographyonline",
+      "domain": "chromatographyonline.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Chsinc",
+      "domain": "chsinc.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Citypests",
+      "domain": "citypests.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Datainsightsmarket",
+      "domain": "datainsightsmarket.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Deere",
+      "domain": "deere.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Dokumen",
+      "domain": "dokumen.pub",
+      "discovery_source": "ddgs_bing",
+      "company_function": "importer"
+    },
+    {
+      "name": "Esources",
+      "domain": "esources.co.uk",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Essencechem",
+      "domain": "essencechem.ng",
+      "discovery_source": "ddgs_bing",
+      "company_function": "oem_manufacturer"
+    },
+    {
+      "name": "Etender",
+      "domain": "etender.up.nic.in",
+      "discovery_source": "ddgs_bing",
+      "company_function": "importer"
+    },
+    {
+      "name": "Eurow",
+      "domain": "eurow.co.in",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Eworldtrade",
+      "domain": "eworldtrade.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Exxonmobilchemical",
+      "domain": "exxonmobilchemical.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Farmonaut",
+      "domain": "farmonaut.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Findmumbai",
+      "domain": "findmumbai.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Generic",
+      "domain": "generic.enic.pk",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Getpestcontrol",
+      "domain": "getpestcontrol.in",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Goatconsulting",
+      "domain": "goatconsulting.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Hicare",
+      "domain": "hicare.in",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Home | FMC",
+      "domain": "fmc.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Homeadvisor",
+      "domain": "homeadvisor.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Hpc Standards",
+      "domain": "hpc-standards.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Intellectview",
+      "domain": "intellectview.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Inven",
+      "domain": "inven.ai",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Kassargroup",
+      "domain": "kassargroup.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Katsisefodia",
+      "domain": "katsisefodia.gr",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Klinegroup",
+      "domain": "klinegroup.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Lawbc",
+      "domain": "lawbc.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Lidorr",
+      "domain": "lidorr.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Lifecarepestcontrols",
+      "domain": "lifecarepestcontrols.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Liphatech",
+      "domain": "liphatech.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Mosquitosquad",
+      "domain": "mosquitosquad.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Moxieservices",
+      "domain": "moxieservices.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Mrdiy",
+      "domain": "mrdiy.com.my",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Nationalaglawcenter",
+      "domain": "nationalaglawcenter.org",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Nationalpesticides",
+      "domain": "nationalpesticides.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Ndtvprofit",
+      "domain": "ndtvprofit.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Newageagri",
+      "domain": "newageagri.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Nirman",
+      "domain": "nirman.group",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Npirs",
+      "domain": "npirs.org",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Ontario",
+      "domain": "ontario.ca",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Otterbein In",
+      "domain": "otterbein-in.lakecountypestcontrol.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Ourworldindata",
+      "domain": "ourworldindata.org",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Owler",
+      "domain": "owler.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Perfectcropscience",
+      "domain": "perfectcropscience.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Pest Control Morningside Ma",
+      "domain": "pest-control-morningside-ma.firstcallpestsolutions.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Pesticidestewardship",
+      "domain": "pesticidestewardship.org",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Phys",
+      "domain": "phys.org",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Quachemsolutions",
+      "domain": "quachemsolutions.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Quo (formerly OpenPhone)",
+      "domain": "quo.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "importer"
+    },
+    {
+      "name": "Rentokil Pestcontrolindia",
+      "domain": "rentokil-pestcontrolindia.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Roanokerapidspestcontrol",
+      "domain": "roanokerapidspestcontrol.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Scchem",
+      "domain": "scchem.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Shreeagrogroup",
+      "domain": "shreeagrogroup.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Siddhiagrochemicals",
+      "domain": "siddhiagrochemicals.co.in",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Similarweb",
+      "domain": "similarweb.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Skaconsulting",
+      "domain": "skaconsulting.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Slideshare",
+      "domain": "slideshare.net",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Sphereinc",
+      "domain": "sphereinc.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "importer"
+    },
+    {
+      "name": "Strykerpestcontrol",
+      "domain": "strykerpestcontrol.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Swaroopagro",
+      "domain": "swaroopagro.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Tradekey",
+      "domain": "tradekey.com",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Uperleaf",
+      "domain": "uperleaf.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Uralchem",
+      "domain": "uralchem.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Usrtk",
+      "domain": "usrtk.org",
+      "discovery_source": "ddgs_bing",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Uttampesticidesindia",
+      "domain": "uttampesticidesindia.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Value",
+      "domain": "value.today",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Vfchemical",
+      "domain": "vfchemical.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Viewgates",
+      "domain": "viewgates.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Willowood",
+      "domain": "willowood.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Zhihu",
+      "domain": "zhihu.com",
+      "discovery_source": "searxng",
+      "company_function": "vendor"
+    }
+  ],
+  "company_count": 125,
+  "discovery_stats": {
+    "raw_hits": 332,
+    "unique_names": 165,
+    "by_prompt_id": {
+      "D10": 3,
+      "D2": 8,
+      "D3": 6,
+      "D4": 6,
+      "D5": 2,
+      "D6": 4,
+      "D7": 5,
+      "D8": 3,
+      "D9": 3,
+      "HX0_dist": 3,
+      "HX0_inte": 1,
+      "HX0_manu": 12,
+      "HX0_rese": 11,
+      "HX1_dist": 9,
+      "HX1_inte": 7,
+      "HX1_manu": 5,
+      "HX1_rese": 4,
+      "L0": 11,
+      "L1": 2,
+      "L2": 2,
+      "M1_api_": 2,
+      "M1_cont": 5,
+      "M2": 5,
+      "M3": 2,
+      "M4": 10,
+      "M5": 1,
+      "MUM1": 1,
+      "MUM5": 1,
+      "P1": 4,
+      "P10": 3,
+      "P11": 3,
+      "P12": 6,
+      "P2": 2,
+      "P3": 2,
+      "P4": 6,
+      "P5": 4,
+      "P6": 4,
+      "P7": 5,
+      "P8": 2,
+      "P9": 1,
+      "SEED": 14,
+      "SEED2": 14,
+      "SEED3": 14,
+      "ST1a": 4,
+      "ST1b": 4,
+      "ST2a": 3,
+      "ST3a": 8,
+      "ST4a": 3,
+      "ST_L1_1": 8,
+      "ST_L1_2": 8,
+      "ST_L1_3": 6,
+      "T1a": 4,
+      "T1b": 4,
+      "T2a": 12,
+      "T2b": 13,
+      "T3a": 4,
+      "T3b": 1,
+      "T4a": 1,
+      "T4b": 1,
+      "V5": 2,
+      "V6": 2,
+      "V7": 2,
+      "V8": 3,
+      "VX1": 5,
+      "W1": 3,
+      "W2": 13
+    },
+    "by_funnel_level": {
+      "L0": 53,
+      "L1": 2,
+      "L2": 2,
+      "discovery": 275
+    },
+    "widen_loops": 3
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ]
+}

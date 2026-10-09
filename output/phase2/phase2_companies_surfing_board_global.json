@@ -1,0 +1,1470 @@
+{
+  "phase": 2,
+  "phase2_mode": "fast",
+  "query": "Surfing Board Market",
+  "mock_mode": false,
+  "completed_at": "2026-07-24T09:24:45.797751+00:00",
+  "scope": {
+    "market": "surfing board",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "sports equipment",
+    "industry_terms": [
+      "surfboards",
+      "shortboards",
+      "longboards",
+      "paddleboards",
+      "surf accessories"
+    ],
+    "ecosystem_functions": [
+      "distributing surfing boards",
+      "wholesaling surf products",
+      "reselling surfboards",
+      "providing surfboard services",
+      "integrating surfboard systems",
+      "partnering in surfboard sales",
+      "repairing surfboards",
+      "customizing surfboards"
+    ],
+    "interpretation_summary": "The surfing board market encompasses the production, distribution, and retail of various types of surfing boards, including shortboards, longboards, and paddleboards. Key participants include manufacturers, distributors,",
+    "relevance_keywords": [
+      "surfboard sales",
+      "surfboard distribution network",
+      "surfboard repair",
+      "surfboard customization",
+      "surfboard retail"
+    ],
+    "negative_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "Surftech",
+        "primary_domain": "surftech.com",
+        "company_function": "surfboard distributor"
+      },
+      {
+        "canonical_name": "C4 Waterman",
+        "primary_domain": "c4waterman.com",
+        "company_function": "surfboard wholesaler"
+      },
+      {
+        "canonical_name": "The House",
+        "primary_domain": "thehouse.com",
+        "company_function": "surfboard reseller"
+      },
+      {
+        "canonical_name": "Boardworks",
+        "primary_domain": "boardworkssurf.com",
+        "company_function": "surfboard service provider"
+      },
+      {
+        "canonical_name": "Wave Tribe",
+        "primary_domain": "wavetribe.com",
+        "company_function": "surfboard channel partner"
+      },
+      {
+        "canonical_name": "Sunset Surfboards",
+        "primary_domain": "sunsetsurfboards.com",
+        "company_function": "surfboard distributor"
+      },
+      {
+        "canonical_name": "Liquid Shredder",
+        "primary_domain": "liquidshredder.com",
+        "company_function": "surfboard wholesaler"
+      },
+      {
+        "canonical_name": "Surfboards by Rocco",
+        "primary_domain": "surfboardsbyrocco.com",
+        "company_function": "surfboard reseller"
+      },
+      {
+        "canonical_name": "Surfboard Repair Shop",
+        "primary_domain": "surfboardrepairshop.com",
+        "company_function": "surfboard service provider"
+      },
+      {
+        "canonical_name": "Channel Islands Surfboards",
+        "primary_domain": "cisurfboards.com",
+        "company_function": "surfboard channel partner"
+      }
+    ],
+    "search_topic": "surfing board",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "surfing board",
+    "include_keywords": [
+      "surfboard distribution",
+      "surfboard wholesaler",
+      "surfboard reseller",
+      "surfboard service provider",
+      "surfboard channel partner"
+    ],
+    "exclude_keywords": [
+      "surfboard manufacturing",
+      "surfing schools",
+      "surfing events",
+      "surfing apparel",
+      "surfing competitions"
+    ],
+    "scope_version": 2,
+    "market_definition": "The surfing board market encompasses the production, distribution, and retail of various types of surfing boards, including shortboards, longboards, and paddleboards. Key participants include manufacturers, distributors, and retailers operating globally to cater to the surfing community.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Distribution",
+        "description": "This layer involves the distribution of surfing boards from manufacturers to retailers and end-users.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Regional distributors",
+              "Online distributors"
+            ],
+            "participant_types": [
+              "distributor"
+            ],
+            "search_intents": [
+              "surfboard distributors near me",
+              "official surfboard distribution companies"
+            ]
+          },
+          {
+            "segment_name": "Wholesalers",
+            "sub_segments": [
+              "Bulk wholesalers",
+              "Specialty wholesalers"
+            ],
+            "participant_types": [
+              "wholesaler"
+            ],
+            "search_intents": [
+              "surfboard wholesalers in my area",
+              "wholesale surfboard suppliers"
+            ]
+          },
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Online resellers",
+              "Retail resellers"
+            ],
+            "participant_types": [
+              "reseller"
+            ],
+            "search_intents": [
+              "surfboard resellers online",
+              "authorized surfboard resellers"
+            ]
+          },
+          {
+            "segment_name": "Service Providers",
+            "sub_segments": [
+              "Repair services",
+              "Customization services"
+            ],
+            "participant_types": [
+              "service provider"
+            ],
+            "search_intents": [
+              "surfboard repair services",
+              "custom surfboard services"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Surfboard manufacturers",
+        "Surfing accessories",
+        "Surf schools",
+        "Surfing apparel",
+        "Surfing events"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "find surfboard distributors in your region",
+        "sub_sector": "distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "search for surfboard wholesalers online",
+        "sub_sector": "wholesaler",
+        "layer_id": "L1",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "look for authorized surfboard resellers",
+        "sub_sector": "reseller",
+        "layer_id": "L1",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "find surfboard repair services near you",
+        "sub_sector": "service_provider",
+        "layer_id": "L1",
+        "segment": "Service Providers"
+      },
+      {
+        "id": "M5",
+        "level": "market_map",
+        "text": "search for surfboard channel partners globally",
+        "sub_sector": "channel_partner",
+        "layer_id": "L1",
+        "segment": "Channel Partners"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "phase1_plan_path": "D:\\vendor-intel\\output\\phase1\\phase1_plan_surfing_board_global.json",
+  "companies": [
+    {
+      "name": "Fliteboard",
+      "domain": "fliteboard.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Phase5boards",
+      "domain": "phase5boards.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Exwayboard",
+      "domain": "exwayboard.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Jetsurf",
+      "domain": "jetsurf.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Boardcave",
+      "domain": "boardcave.com",
+      "discovery_source": "ddgs_bing+searxng",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Surfertoday",
+      "domain": "surfertoday.com",
+      "discovery_source": "ddgs_bing+searxng",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Worldsurfleague",
+      "domain": "worldsurfleague.com",
+      "discovery_source": "searxng",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Getsurfboard",
+      "domain": "getsurfboard.com",
+      "discovery_source": "searxng",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Manual",
+      "domain": "manual.getsurfboard.com",
+      "discovery_source": "searxng",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Surfstationstore",
+      "domain": "surfstationstore.com",
+      "discovery_source": "searxng",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Redbull",
+      "domain": "redbull.com",
+      "discovery_source": "searxng",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Pukassurf",
+      "domain": "pukassurf.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Surfindustries",
+      "domain": "surfindustries.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Surfline",
+      "domain": "surfline.com",
+      "discovery_source": "ddgs_bing+searxng",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Cisurfboards",
+      "domain": "cisurfboards.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Surf Industries USA",
+      "domain": "us.surfindustries.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Surfer",
+      "domain": "surfer.com",
+      "discovery_source": "ddgs_bing+searxng",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Surftech",
+      "domain": "surftech.com",
+      "discovery_source": "ddgs_bing+registry",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Nspsurfboards",
+      "domain": "nspsurfboards.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Psisurfboards",
+      "domain": "psisurfboards.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Boardworkssurf",
+      "domain": "boardworkssurf.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Matchory",
+      "domain": "matchory.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Onboardstore",
+      "domain": "onboardstore.id",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Rush Wave",
+      "domain": "rush-wave.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "retailer"
+    },
+    {
+      "name": "Skatenet",
+      "domain": "skatenet.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Surfboardagency",
+      "domain": "surfboardagency.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Bbsurfboard",
+      "domain": "bbsurfboard.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "C4waterman",
+      "domain": "c4waterman.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Hang10distribution",
+      "domain": "hang10distribution.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Landyachtz",
+      "domain": "landyachtz.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Liquidshredder",
+      "domain": "liquidshredder.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Ridingboards",
+      "domain": "ridingboards.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Stewartsurfboards",
+      "domain": "stewartsurfboards.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Surfboardrepairshop",
+      "domain": "surfboardrepairshop.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Surfboardsbyrocco",
+      "domain": "surfboardsbyrocco.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Thehouse",
+      "domain": "thehouse.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Torq Surfboards",
+      "domain": "torq-surfboards.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Unitysurf",
+      "domain": "unitysurf.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Wavetribe",
+      "domain": "wavetribe.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Bingsurf",
+      "domain": "bingsurf.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Blueroom",
+      "domain": "blueroom.pt",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Clearwaterglassing",
+      "domain": "clearwaterglassing.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Crazysales",
+      "domain": "crazysales.com.au",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Danangsurfshop",
+      "domain": "danangsurfshop.vn",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Freesunboat",
+      "domain": "freesunboat.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Hobbyking",
+      "domain": "hobbyking.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Infinitysurf",
+      "domain": "infinitysurf.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Longboardproducts",
+      "domain": "longboardproducts.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Lostsurfboards",
+      "domain": "lostsurfboards.net",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Maxamsurf",
+      "domain": "maxamsurf.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Qdeastoutdoor",
+      "domain": "qdeastoutdoor.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Redzsurfboard",
+      "domain": "redzsurfboard.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Sabarimalaonline",
+      "domain": "sabarimalaonline.org",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Schroedel",
+      "domain": "schroedel.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Sindustrysurf",
+      "domain": "sindustrysurf.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Surfbrands",
+      "domain": "surfbrands.org",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Surfingnz",
+      "domain": "surfingnz.co.nz",
+      "discovery_source": "searxng",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Surfstyledistributors",
+      "domain": "surfstyledistributors.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Surfway Hainan",
+      "domain": "surfway-hainan.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Thesurfboardcollective",
+      "domain": "thesurfboardcollective.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "contract_manufacturer"
+    },
+    {
+      "name": "Tikisoulsurfboardwallart",
+      "domain": "tikisoulsurfboardwallart.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Timbersurfco",
+      "domain": "timbersurfco.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Vernorsurfboards",
+      "domain": "vernorsurfboards.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Abcsurfboard",
+      "domain": "abcsurfboard.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Absoluteboardco",
+      "domain": "absoluteboardco.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Aftership",
+      "domain": "aftership.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Aquaspiritisup",
+      "domain": "aquaspiritisup.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Archyde",
+      "domain": "archyde.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Bamboorss",
+      "domain": "bamboorss.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Basquecountrysurf",
+      "domain": "basquecountrysurf.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Bathsheba",
+      "domain": "bathsheba.eu",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Bearsurfboards",
+      "domain": "bearsurfboards.eu",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Big Ding",
+      "domain": "big-ding.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Bliptext",
+      "domain": "bliptext.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Blueprintsurf",
+      "domain": "blueprintsurf.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Blueseawatersports",
+      "domain": "blueseawatersports.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Boarddistribution",
+      "domain": "boarddistribution.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Boardlams",
+      "domain": "boardlams.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Boardriders",
+      "domain": "boardriders.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Boardriding",
+      "domain": "boardriding.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Boats",
+      "domain": "boats.goldsupplier.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Bonessurfco",
+      "domain": "bonessurfco.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Borasurfar",
+      "domain": "borasurfar.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Bossgoo",
+      "domain": "bossgoo.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "oem_manufacturer"
+    },
+    {
+      "name": "Brewersurfboards",
+      "domain": "brewersurfboards.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Businessresearchinsights",
+      "domain": "businessresearchinsights.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Buster Surfboards",
+      "domain": "buster-surfboards.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Byrnesurf",
+      "domain": "byrnesurf.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Catalystshop",
+      "domain": "catalystshop.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Cbinsights",
+      "domain": "cbinsights.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Chillisurfboards",
+      "domain": "chillisurfboards.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Cobrainter",
+      "domain": "cobrainter.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Coconutpeets",
+      "domain": "coconutpeets.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Collectivesurfboards",
+      "domain": "collectivesurfboards.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Controleng",
+      "domain": "controleng.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Crazygames",
+      "domain": "crazygames.com",
+      "discovery_source": "searxng",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Crlongboards",
+      "domain": "crlongboards.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Customskateboards",
+      "domain": "customskateboards.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Dakine",
+      "domain": "dakine.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "contract_manufacturer"
+    },
+    {
+      "name": "Ddisigns",
+      "domain": "ddisigns.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Divensurf",
+      "domain": "divensurf.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Divinemetrology",
+      "domain": "divinemetrology.in",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Dolsey",
+      "domain": "dolsey.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "E Surfer",
+      "domain": "e-surfer.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Eachspy",
+      "domain": "eachspy.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Esources",
+      "domain": "esources.co.uk",
+      "discovery_source": "ddgs_bing",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Faire",
+      "domain": "faire.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Fanatic",
+      "domain": "fanatic.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Flytap",
+      "domain": "flytap.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "retailer"
+    },
+    {
+      "name": "Funwaterboard",
+      "domain": "funwaterboard.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Fysboard",
+      "domain": "fysboard.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Gbomblongboards",
+      "domain": "gbomblongboards.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Getdropshippers",
+      "domain": "getdropshippers.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Gladiatorsup",
+      "domain": "gladiatorsup.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Hakansabol",
+      "domain": "hakansabol.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Haydenshapes",
+      "domain": "haydenshapes.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Hiya Sports",
+      "domain": "hiya-sports.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Huale Inflatable",
+      "domain": "huale-inflatable.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Inflatablesupaddleboards",
+      "domain": "inflatablesupaddleboards.co.uk",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Insiemesurf",
+      "domain": "insiemesurf.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Irockersup",
+      "domain": "irockersup.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "JS Industries USA",
+      "domain": "us.jsindustries.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Jackssurfboards",
+      "domain": "jackssurfboards.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Jminflatableboat",
+      "domain": "jminflatableboat.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "oem_manufacturer"
+    },
+    {
+      "name": "Jobsitesurf",
+      "domain": "jobsitesurf.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Joeropersurfboardrepair",
+      "domain": "joeropersurfboardrepair.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Jusmmile",
+      "domain": "jusmmile.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Lakeshoresup",
+      "domain": "lakeshoresup.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Loadedboards",
+      "domain": "loadedboards.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Logodix",
+      "domain": "logodix.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Longboardplanet",
+      "domain": "longboardplanet.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Longboardsusa",
+      "domain": "longboardsusa.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Lukestudersurfboard",
+      "domain": "lukestudersurfboard.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "M21sports",
+      "domain": "m21sports.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Manta",
+      "domain": "manta.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Marcellosports",
+      "domain": "marcellosports.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Marinesuperstore",
+      "domain": "marinesuperstore.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Moloysports",
+      "domain": "moloysports.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Motosurfing",
+      "domain": "motosurfing.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Mundo Surf",
+      "domain": "mundo-surf.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Nauticexpo",
+      "domain": "nauticexpo.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Omenlongboards",
+      "domain": "omenlongboards.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Onesunsports",
+      "domain": "onesunsports.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Onlineboard",
+      "domain": "onlineboard.eu",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Openai",
+      "domain": "openai.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Owler",
+      "domain": "owler.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Paddlesurf",
+      "domain": "paddlesurf.ca",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Parthfibrotech",
+      "domain": "parthfibrotech.in",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Powerwavesports",
+      "domain": "powerwavesports.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Randjshaper",
+      "domain": "randjshaper.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Resellcalendar",
+      "domain": "resellcalendar.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "contract_manufacturer"
+    },
+    {
+      "name": "Reswell",
+      "domain": "reswell.app",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Robertssurf",
+      "domain": "robertssurf.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Rocoutdoors",
+      "domain": "rocoutdoors.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Sabic",
+      "domain": "sabic.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Sbpdcl",
+      "domain": "sbpdcl.co.in",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Shopozz",
+      "domain": "shopozz.ru",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Shortboard Lab",
+      "domain": "shortboardlab.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Simplycodes",
+      "domain": "simplycodes.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Skipfryesurf",
+      "domain": "skipfryesurf.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Sourcesurfboards",
+      "domain": "sourcesurfboards.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Southpadresurfcompany",
+      "domain": "southpadresurfcompany.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Srsurf",
+      "domain": "srsurf.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Sticks",
+      "domain": "sticks.surf",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Stretchboards",
+      "domain": "stretchboards.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Strivesurfboards",
+      "domain": "strivesurfboards.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Surf Designs",
+      "domain": "surf-designs.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Surfcohawaii",
+      "domain": "surfcohawaii.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Surfd",
+      "domain": "surfd.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Surfhungry",
+      "domain": "surfhungry.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Surfing Waves",
+      "domain": "surfing-waves.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Surfmeshi",
+      "domain": "surfmeshi.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Surfride",
+      "domain": "surfride.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Surfscience",
+      "domain": "surfscience.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Swellcyclesurfboards",
+      "domain": "swellcyclesurfboards.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Sydneysurfboardrepair",
+      "domain": "sydneysurfboardrepair.com.au",
+      "discovery_source": "ddgs_bing",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Tacsurf",
+      "domain": "tacsurf.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Tak Star",
+      "domain": "tak-star.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Thomassurfboards",
+      "domain": "thomassurfboards.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Thundermonkey",
+      "domain": "thundermonkey.in",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Trade",
+      "domain": "trade.jandrsports.co.uk",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Tradekey",
+      "domain": "tradekey.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Trimcraftsurfboards",
+      "domain": "trimcraftsurfboards.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Usedsurfboardsforsale",
+      "domain": "usedsurfboardsforsale.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Waldensurfboards",
+      "domain": "waldensurfboards.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Waterpark",
+      "domain": "waterpark.lotteworld.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Wsgs",
+      "domain": "wsgs.ru",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Yhtamebillow",
+      "domain": "yhtamebillow.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "wholesaler"
+    }
+  ],
+  "company_count": 188,
+  "discovery_stats": {
+    "raw_hits": 604,
+    "unique_names": 214,
+    "by_prompt_id": {
+      "D10": 3,
+      "D2": 4,
+      "D3": 4,
+      "D4": 1,
+      "D5": 5,
+      "D6": 4,
+      "D7": 4,
+      "D8": 7,
+      "D9": 2,
+      "HX0_dist": 13,
+      "HX0_expo": 1,
+      "HX0_inte": 2,
+      "HX0_manu": 1,
+      "HX0_whol": 14,
+      "HX1_dist": 15,
+      "HX1_expo": 5,
+      "HX1_inte": 3,
+      "HX1_manu": 4,
+      "HX1_whol": 4,
+      "L0": 15,
+      "L1": 19,
+      "L2": 18,
+      "M1": 9,
+      "M1_api_": 3,
+      "M1_cont": 3,
+      "M2": 1,
+      "M3": 8,
+      "M4": 5,
+      "M5": 4,
+      "MUD2": 18,
+      "MUD5": 1,
+      "P1": 17,
+      "P10": 2,
+      "P11": 1,
+      "P12": 1,
+      "P2": 17,
+      "P3": 13,
+      "P4": 16,
+      "P5": 15,
+      "P6": 11,
+      "P7": 15,
+      "P8": 18,
+      "P9": 4,
+      "SEED": 10,
+      "SEED2": 10,
+      "SEED3": 10,
+      "ST1a": 1,
+      "ST1b": 9,
+      "ST2a": 5,
+      "ST3a": 12,
+      "ST4a": 4,
+      "ST_L1_1": 16,
+      "ST_L1_2": 2,
+      "ST_L1_3": 15,
+      "ST_L1_4": 8,
+      "T1a": 15,
+      "T1b": 15,
+      "T2a": 6,
+      "T2b": 14,
+      "T3a": 9,
+      "T3b": 12,
+      "T4a": 7,
+      "T4b": 13,
+      "V10": 5,
+      "V11": 3,
+      "V5": 13,
+      "V6": 12,
+      "V7": 17,
+      "V8": 10,
+      "V9": 1,
+      "VX1": 11,
+      "VX2": 1,
+      "W1": 6,
+      "W2": 2
+    },
+    "by_funnel_level": {
+      "L0": 45,
+      "L1": 19,
+      "L2": 18,
+      "discovery": 522
+    },
+    "widen_loops": 3
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ]
+}

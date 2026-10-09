@@ -1,0 +1,1251 @@
+{
+  "phase": 1,
+  "query": "Online Pharmacy Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T21:30:27.077254+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "online pharmacy",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "pharmaceuticals",
+    "industry_terms": [
+      "e-pharmacy",
+      "online drugstore",
+      "digital pharmacy",
+      "telepharmacy",
+      "pharmaceutical distribution"
+    ],
+    "ecosystem_functions": [
+      "product distribution",
+      "wholesale supply",
+      "reselling services",
+      "system integration",
+      "logistics support",
+      "IT services",
+      "channel partnerships",
+      "e-commerce solutions"
+    ],
+    "interpretation_summary": "The online pharmacy market encompasses businesses that provide pharmaceutical products and services through digital platforms. Participants include distributors, wholesalers, resellers, system integrators, service provid",
+    "relevance_keywords": [
+      "e-pharmacy services",
+      "online pharmaceutical distribution",
+      "digital pharmacy solutions",
+      "wholesale drug supply",
+      "integrated pharmacy systems"
+    ],
+    "negative_keywords": [
+      "retail",
+      "hospital",
+      "clinical",
+      "non-pharmaceutical",
+      "unrelated services"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "CVS Health",
+        "primary_domain": "cvs.com",
+        "company_function": "online pharmacy and healthcare services"
+      },
+      {
+        "canonical_name": "Walgreens Boots Alliance",
+        "primary_domain": "walgreens.com",
+        "company_function": "retail and online pharmacy services"
+      },
+      {
+        "canonical_name": "Express Scripts",
+        "primary_domain": "express-scripts.com",
+        "company_function": "pharmacy benefit management and online pharmacy services"
+      },
+      {
+        "canonical_name": "OptumRx",
+        "primary_domain": "optum.com",
+        "company_function": "pharmacy care services and online pharmacy"
+      },
+      {
+        "canonical_name": "PillPack",
+        "primary_domain": "pillpack.com",
+        "company_function": "online pharmacy and medication delivery"
+      },
+      {
+        "canonical_name": "HealthWarehouse.com",
+        "primary_domain": "healthwarehouse.com",
+        "company_function": "online pharmacy and drug distribution"
+      },
+      {
+        "canonical_name": "McKesson",
+        "primary_domain": "mckesson.com",
+        "company_function": "pharmaceutical distribution and services"
+      },
+      {
+        "canonical_name": "Cardinal Health",
+        "primary_domain": "cardinalhealth.com",
+        "company_function": "healthcare services and pharmaceutical distribution"
+      },
+      {
+        "canonical_name": "Rite Aid",
+        "primary_domain": "riteaid.com",
+        "company_function": "Retail and online pharmacy services",
+        "segment": "Distributor",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Zywave",
+        "primary_domain": "zywave.com",
+        "company_function": "Healthcare technology and pharmacy integration services",
+        "segment": "System Integrator",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Surescripts",
+        "primary_domain": "surescripts.com",
+        "company_function": "E-prescribing and pharmacy integration services",
+        "segment": "System Integrator",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Omnicare",
+        "primary_domain": "omnicare.com",
+        "company_function": "Pharmacy services for long-term care",
+        "segment": "Service Provider",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "PharmacyChecker",
+        "primary_domain": "pharmacychecker.com",
+        "company_function": "Online pharmacy verification services",
+        "segment": "Service Provider",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "GoodRx",
+        "primary_domain": "goodrx.com",
+        "company_function": "Prescription discount service and online pharmacy",
+        "segment": "Reseller",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "online pharmacy",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "online pharmacy",
+    "include_keywords": [
+      "online pharmacy distributor",
+      "wholesale pharmacy supplier",
+      "reseller pharmacy services",
+      "e-commerce pharmacy integration",
+      "pharmaceutical logistics service"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The online pharmacy market encompasses businesses that provide pharmaceutical products and services through digital platforms. Participants include distributors, wholesalers, resellers, system integrators, service providers, and channel partners operating globally.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Distribution",
+        "description": "This layer involves the distribution of pharmaceutical products through various online channels.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Online Distributors",
+              "Pharmaceutical Distributors"
+            ],
+            "participant_types": [
+              "distributor"
+            ],
+            "search_intents": [
+              "official online pharmacy distributors",
+              "pharmaceutical product distributors online"
+            ]
+          },
+          {
+            "segment_name": "Wholesalers",
+            "sub_segments": [
+              "Online Wholesalers",
+              "Pharmaceutical Wholesalers"
+            ],
+            "participant_types": [
+              "wholesaler"
+            ],
+            "search_intents": [
+              "wholesale online pharmacy suppliers",
+              "pharmaceutical wholesalers online"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L2",
+        "layer_name": "Reselling",
+        "description": "This layer includes entities that resell pharmaceutical products through online platforms.",
+        "segments": [
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Online Resellers",
+              "Pharmaceutical Resellers"
+            ],
+            "participant_types": [
+              "reseller"
+            ],
+            "search_intents": [
+              "online pharmacy resellers",
+              "pharmaceutical product resellers"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L3",
+        "layer_name": "Integration Services",
+        "description": "This layer covers service providers that integrate online pharmacy systems.",
+        "segments": [
+          {
+            "segment_name": "System Integrators",
+            "sub_segments": [
+              "E-commerce Integrators",
+              "Pharmacy Management System Integrators"
+            ],
+            "participant_types": [
+              "system integrator"
+            ],
+            "search_intents": [
+              "system integrators for online pharmacies",
+              "e-commerce pharmacy system integration"
+            ]
+          },
+          {
+            "segment_name": "Service Providers",
+            "sub_segments": [
+              "Logistics Service Providers",
+              "IT Service Providers"
+            ],
+            "participant_types": [
+              "service provider"
+            ],
+            "search_intents": [
+              "service providers for online pharmacies",
+              "logistics for online pharmacy services"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Retail Pharmacies",
+        "Manufacturers",
+        "Healthcare Providers",
+        "Telehealth Services"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "search for online pharmacy distributors",
+        "sub_sector": "distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "find wholesale online pharmacy suppliers",
+        "sub_sector": "wholesaler",
+        "layer_id": "L1",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "search for online pharmacy resellers",
+        "sub_sector": "reseller",
+        "layer_id": "L2",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "find system integrators for online pharmacies",
+        "sub_sector": "system_integrator",
+        "layer_id": "L3",
+        "segment": "System Integrators"
+      },
+      {
+        "id": "M5",
+        "level": "market_map",
+        "text": "search for service providers for online pharmacies",
+        "sub_sector": "service_provider",
+        "layer_id": "L3",
+        "segment": "Service Providers"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "pharmaceuticals",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "Online pharmacy companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "Online pharmacy distributors corporate sites"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "Online pharmacy service providers official site"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "discovery",
+      "text": "online pharmacy distributor official site"
+    },
+    {
+      "id": "P2",
+      "level": "discovery",
+      "text": "online pharmacy wholesaler corporate headquarters"
+    },
+    {
+      "id": "P3",
+      "level": "discovery",
+      "text": "online pharmacy reseller official website"
+    },
+    {
+      "id": "P4",
+      "level": "discovery",
+      "text": "online pharmacy system integrator corporate site"
+    },
+    {
+      "id": "P5",
+      "level": "discovery",
+      "text": "online pharmacy service provider official site"
+    },
+    {
+      "id": "P6",
+      "level": "discovery",
+      "text": "online pharmacy channel partner corporate profile"
+    },
+    {
+      "id": "P7",
+      "level": "discovery",
+      "text": "pharmaceutical distribution service provider official site"
+    },
+    {
+      "id": "P8",
+      "level": "discovery",
+      "text": "e-commerce solutions for online pharmacies"
+    },
+    {
+      "id": "P9",
+      "level": "volume",
+      "text": "authorized online pharmacy distributor firm official"
+    },
+    {
+      "id": "P10",
+      "level": "volume",
+      "text": "online pharmacy reseller channel partner official"
+    },
+    {
+      "id": "P11",
+      "level": "volume",
+      "text": "online pharmacy system integrator official website"
+    },
+    {
+      "id": "P12",
+      "level": "volume",
+      "text": "online pharmacy logistics support official website"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "Online pharmacy companies official websites",
+      "level": "L0",
+      "result_count": 4,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "PharmEasy - Online Pharmacy & Medical Store with Healthcare Services in ...",
+          "link": "https://pharmeasy.in/",
+          "snippet": "We are amongst one of India's top online pharmacy and medical care platforms. It enables you to order pharmaceutical and healthcare products online by connecting you to registered retail pharmacies an",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Online Pharmacy India | Buy Medicines from India's Trusted Medicine ...",
+          "link": "https://www.1mg.com/",
+          "snippet": "India's best online pharmacy with a wide range of Prescription and OTC medicines. Order medicines online at 1mg's medicine store in 100+ cities like - Delhi, Mumbai, Bangalore, Kolkata, Hyderabad, Gur",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Apollo Pharmacy - Online Medical Store, Online Medicine Order, Fastest ...",
+          "link": "https://www.apollopharmacy.in/",
+          "snippet": "Apollo Pharmacy Online Medical Store - Online Medicine Order - Buy medicines online from Apollo Online Pharmacy Store (India's largest pharmacy chain) and experience the fastest home delivery. All kin",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Online Pharmacy India | Buy Medicines Online at Best Prices - DavaIndia",
+          "link": "https://davaindia.com/",
+          "snippet": "DavaIndia is a trusted online pharmacy in India offering affordable generic medicines and OTC products. Buy medicines online from DavaIndia, a trusted online medical store with fast delivery, quality ",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "PharmEasy - Online Pharmacy & Medical Store with Healthcare Services in ...",
+          "link": "https://pharmeasy.in/",
+          "snippet": "We are amongst one of India's top online pharmacy and medical care platforms. It enables you to order pharmaceutical and healthcare products online by connecting you to registered retail pharmacies an",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Online Pharmacy India | Buy Medicines from India's Trusted Medicine ...",
+          "link": "https://www.1mg.com/",
+          "snippet": "India's best online pharmacy with a wide range of Prescription and OTC medicines. Order medicines online at 1mg's medicine store in 100+ cities like - Delhi, Mumbai, Bangalore, Kolkata, Hyderabad, Gur",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Apollo Pharmacy - Online Medical Store, Online Medicine Order, Fastest ...",
+          "link": "https://www.apollopharmacy.in/",
+          "snippet": "Apollo Pharmacy Online Medical Store - Online Medicine Order - Buy medicines online from Apollo Online Pharmacy Store (India's largest pharmacy chain) and experience the fastest home delivery. All kin",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Online Pharmacy India | Buy Medicines Online at Best Prices - DavaIndia",
+          "link": "https://davaindia.com/",
+          "snippet": "DavaIndia is a trusted online pharmacy in India offering affordable generic medicines and OTC products. Buy medicines online from DavaIndia, a trusted online medical store with fast delivery, quality ",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "Online pharmacy distributors corporate sites",
+      "level": "L1",
+      "result_count": 4,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Top 25 Online Pharmacy Companies",
+          "link": "https://www.inven.ai/company-lists/top-25-online-pharmacy-companies",
+          "snippet": "Top 25 Online Pharmacy Companies 1. Pharmasave Canada Website: pharmasave.com Ownership type: Corporate Headquarters: Langley, British Columbia, Canada Employee distribution: Canada 99%, Other 1% Late",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Life Pharmacy UAE - Online Pharmacy Delivery in 30 minutes",
+          "link": "https://www.lifepharmacy.com/",
+          "snippet": "Life Pharmacy is a trusted UAE online pharmacy. Order prescription/OTC medicines online.First drive-through pharmacy in the Middle EastOn-site medical equipment rentals across UAE",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Super Specialty Cancer Medicines Online with MrMed Pharmacy",
+          "link": "https://www.mrmed.in/",
+          "snippet": "MrMed is India's leading online pharmacy specializing in super-specialty medicines for critical conditions like cancer, kidney diseases, heart disorders, HIV/AIDS, and more. We offer authentic medicat",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home | Natalipharm Online Pharmacy",
+          "link": "https://natalionline.am/en/",
+          "snippet": "Natalipharm is the leader in the Armenian pharmaceutical market, has been importing and trading medicines for about 20 years | Natalipharm Pharmacy in Yerevan.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Top 25 Online Pharmacy Companies",
+          "link": "https://www.inven.ai/company-lists/top-25-online-pharmacy-companies",
+          "snippet": "Top 25 Online Pharmacy Companies 1. Pharmasave Canada Website: pharmasave.com Ownership type: Corporate Headquarters: Langley, British Columbia, Canada Employee distribution: Canada 99%, Other 1% Late",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Life Pharmacy UAE - Online Pharmacy Delivery in 30 minutes",
+          "link": "https://www.lifepharmacy.com/",
+          "snippet": "Life Pharmacy is a trusted UAE online pharmacy. Order prescription/OTC medicines online.First drive-through pharmacy in the Middle EastOn-site medical equipment rentals across UAE",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Super Specialty Cancer Medicines Online with MrMed Pharmacy",
+          "link": "https://www.mrmed.in/",
+          "snippet": "MrMed is India's leading online pharmacy specializing in super-specialty medicines for critical conditions like cancer, kidney diseases, heart disorders, HIV/AIDS, and more. We offer authentic medicat",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home | Natalipharm Online Pharmacy",
+          "link": "https://natalionline.am/en/",
+          "snippet": "Natalipharm is the leader in the Armenian pharmaceutical market, has been importing and trading medicines for about 20 years | Natalipharm Pharmacy in Yerevan.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "Online pharmacy service providers official site",
+      "level": "L2",
+      "result_count": 9,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Online Pharmacy India | Buy Medicines from India's Trusted Medicine ...",
+          "link": "https://www.1mg.com/",
+          "snippet": "India's best online pharmacy with a wide range of Prescription and OTC medicines. Order medicines online at 1mg's medicine store in 100+ cities like - Delhi, Mumbai, Bangalore, Kolkata, Hyderabad, Gur",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Online Pharmacy Service Options for Select Lilly Medicines | LillyDirect\u00ae",
+          "link": "https://www.lilly.com/lillydirect",
+          "snippet": "If prescribed, get select authentic Lilly medicines with convenient home delivery and transparent pricing through LillyDirect\u00ae third-party pharmacy providers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Apollo Pharmacy - Online Medical Store, Online Medicine Order, Fastest ...",
+          "link": "https://www.apollopharmacy.in/",
+          "snippet": "Apollo Pharmacy Online Medical Store - Online Medicine Order - Buy medicines online from Apollo Online Pharmacy Store (India's largest pharmacy chain) and experience the fastest home delivery. All kin",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Online Pharmacy Store in India. Best value on medicines - MedPlusMart",
+          "link": "https://www.medplusmart.com/",
+          "snippet": "Buy medicines online from India's favorite e-pharmacy. Buy prescription medicines, OTC products & household needs. Cash on delivery. Home delivery.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Order Medicine Online | Netmeds",
+          "link": "https://www.netmeds.com/sections/order-medicine-online",
+          "snippet": "Netmeds is an online pharmacy focused on quality, speed, and your health. Benefits of Ordering Medicine Online Convenience: Order anytime, anywhere, and get doorstep delivery. Access to information: U",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Life Pharmacy UAE - Online Pharmacy Delivery in 30 minutes",
+          "link": "https://www.lifepharmacy.com/",
+          "snippet": "Life Pharmacy is a trusted UAE online pharmacy. Order prescription/OTC medicines online. Explore a wide range of vitamins, medicines, beauty brands, baby care products, and sports supplements. Deliver",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nahdi Pharmacy | Home Page",
+          "link": "https://www.nahdionline.com/en-sa",
+          "snippet": "Nahdi Online Pharmacy is your one-stop shop for pharmaceutical needs. Shop daily vitamins, painkillers, skin care, baby walkers, diapers, car seats, and more.Nahdi Online Guest's Services.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Super Specialty Cancer Medicines Online with MrMed Pharmacy",
+          "link": "https://www.mrmed.in/",
+          "snippet": "MrMed is India's leading online pharmacy specializing in super-specialty medicines for critical conditions like cancer, kidney diseases, heart disorders, HIV/AIDS, and more. We offer authentic medicat",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Optum - All Your Health Needs, All in One Place",
+          "link": "https://www.optum.com/",
+          "snippet": "Online pharmacy.Optum Home Delivery Pharmacy brings your medications directly to your door and gives you 24/7 access to our licensed pharmacists \u2014 ready to answer any question.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Online Pharmacy India | Buy Medicines from India's Trusted Medicine ...",
+          "link": "https://www.1mg.com/",
+          "snippet": "India's best online pharmacy with a wide range of Prescription and OTC medicines. Order medicines online at 1mg's medicine store in 100+ cities like - Delhi, Mumbai, Bangalore, Kolkata, Hyderabad, Gur",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Online Pharmacy Service Options for Select Lilly Medicines | LillyDirect\u00ae",
+          "link": "https://www.lilly.com/lillydirect",
+          "snippet": "If prescribed, get select authentic Lilly medicines with convenient home delivery and transparent pricing through LillyDirect\u00ae third-party pharmacy providers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Apollo Pharmacy - Online Medical Store, Online Medicine Order, Fastest ...",
+          "link": "https://www.apollopharmacy.in/",
+          "snippet": "Apollo Pharmacy Online Medical Store - Online Medicine Order - Buy medicines online from Apollo Online Pharmacy Store (India's largest pharmacy chain) and experience the fastest home delivery. All kin",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Online Pharmacy Store in India. Best value on medicines - MedPlusMart",
+          "link": "https://www.medplusmart.com/",
+          "snippet": "Buy medicines online from India's favorite e-pharmacy. Buy prescription medicines, OTC products & household needs. Cash on delivery. Home delivery.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Order Medicine Online | Netmeds",
+          "link": "https://www.netmeds.com/sections/order-medicine-online",
+          "snippet": "Netmeds is an online pharmacy focused on quality, speed, and your health. Benefits of Ordering Medicine Online Convenience: Order anytime, anywhere, and get doorstep delivery. Access to information: U",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Life Pharmacy UAE - Online Pharmacy Delivery in 30 minutes",
+          "link": "https://www.lifepharmacy.com/",
+          "snippet": "Life Pharmacy is a trusted UAE online pharmacy. Order prescription/OTC medicines online. Explore a wide range of vitamins, medicines, beauty brands, baby care products, and sports supplements. Deliver",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nahdi Pharmacy | Home Page",
+          "link": "https://www.nahdionline.com/en-sa",
+          "snippet": "Nahdi Online Pharmacy is your one-stop shop for pharmaceutical needs. Shop daily vitamins, painkillers, skin care, baby walkers, diapers, car seats, and more.Nahdi Online Guest's Services.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Super Specialty Cancer Medicines Online with MrMed Pharmacy",
+          "link": "https://www.mrmed.in/",
+          "snippet": "MrMed is India's leading online pharmacy specializing in super-specialty medicines for critical conditions like cancer, kidney diseases, heart disorders, HIV/AIDS, and more. We offer authentic medicat",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Optum - All Your Health Needs, All in One Place",
+          "link": "https://www.optum.com/",
+          "snippet": "Online pharmacy.Optum Home Delivery Pharmacy brings your medications directly to your door and gives you 24/7 access to our licensed pharmacists \u2014 ready to answer any question.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "online pharmacy distributor official site",
+      "level": "discovery",
+      "result_count": 7,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "PharmEasy \u2013 Online Pharmacy & Medical Store with Healthcare ...",
+          "link": "https://pharmeasy.in/",
+          "snippet": "We cater to all your pharmaceutical needs and also make ordering medicines online a hassle-free experience for you. We connect you only with registered retail pharmacies & certified diagnostic labs.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - Firstwings pharma pvt ltd - Exports | Imports | Distributor",
+          "link": "https://firstwings.in/",
+          "snippet": "Wholesale Pharma Distributor. Online Pharmacy.The products discussed herein may have different product labeling in other countries. The information within this site is intended to provide balanced, sc",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Super Specialty Cancer Medicines Online with MrMed Pharmacy",
+          "link": "https://www.mrmed.in/",
+          "snippet": "MrMed is India's leading online pharmacy specializing in super-specialty medicines for critical conditions like cancer, kidney diseases, heart disorders, HIV/AIDS, and more. We offer authentic medicat",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Online Pharmacy In India | Buy Medicines at Discount | Healthmug",
+          "link": "https://www.healthmug.com/",
+          "snippet": "Online pharmacy for Ayurveda, Homeopathy, Unani medicines, & health supplements. Healthmug offers the best discounts & same-day medicine delivery at selected pin codes.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Life Pharmacy UAE - Online Pharmacy Delivery in 30 minutes",
+          "link": "https://www.lifepharmacy.com/",
+          "snippet": "Life Pharmacy is a trusted UAE online pharmacy. Order prescription/OTC medicines online.First drive-through pharmacy in the Middle EastOn-site medical equipment rentals across UAE",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home | Natalipharm Online Pharmacy",
+          "link": "https://natalionline.am/en/",
+          "snippet": "Natalipharm is the leader in the Armenian pharmaceutical market, has been importing and trading medicines for about 20 years | Natalipharm Pharmacy in Yerevan.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Apollo 247 - Online Doctor Consultation & Book Lab Tests at Home",
+          "link": "https://www.apollo247.com/",
+          "snippet": "The mobile app has features like e-consultation in 15 minutes, online pharmacy to doorstep delivery of medicines, home diagnostic test and digital vault where you can upload all your medical history.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "PharmEasy \u2013 Online Pharmacy & Medical Store with Healthcare ...",
+          "link": "https://pharmeasy.in/",
+          "snippet": "We cater to all your pharmaceutical needs and also make ordering medicines online a hassle-free experience for you. We connect you only with registered retail pharmacies & certified diagnostic labs.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - Firstwings pharma pvt ltd - Exports | Imports | Distributor",
+          "link": "https://firstwings.in/",
+          "snippet": "Wholesale Pharma Distributor. Online Pharmacy.The products discussed herein may have different product labeling in other countries. The information within this site is intended to provide balanced, sc",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Super Specialty Cancer Medicines Online with MrMed Pharmacy",
+          "link": "https://www.mrmed.in/",
+          "snippet": "MrMed is India's leading online pharmacy specializing in super-specialty medicines for critical conditions like cancer, kidney diseases, heart disorders, HIV/AIDS, and more. We offer authentic medicat",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Online Pharmacy In India | Buy Medicines at Discount | Healthmug",
+          "link": "https://www.healthmug.com/",
+          "snippet": "Online pharmacy for Ayurveda, Homeopathy, Unani medicines, & health supplements. Healthmug offers the best discounts & same-day medicine delivery at selected pin codes.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Life Pharmacy UAE - Online Pharmacy Delivery in 30 minutes",
+          "link": "https://www.lifepharmacy.com/",
+          "snippet": "Life Pharmacy is a trusted UAE online pharmacy. Order prescription/OTC medicines online.First drive-through pharmacy in the Middle EastOn-site medical equipment rentals across UAE",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home | Natalipharm Online Pharmacy",
+          "link": "https://natalionline.am/en/",
+          "snippet": "Natalipharm is the leader in the Armenian pharmaceutical market, has been importing and trading medicines for about 20 years | Natalipharm Pharmacy in Yerevan.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Apollo 247 - Online Doctor Consultation & Book Lab Tests at Home",
+          "link": "https://www.apollo247.com/",
+          "snippet": "The mobile app has features like e-consultation in 15 minutes, online pharmacy to doorstep delivery of medicines, home diagnostic test and digital vault where you can upload all your medical history.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P2": {
+      "query": "online pharmacy wholesaler corporate headquarters",
+      "level": "discovery",
+      "result_count": 2,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Buy Super Specialty Cancer Medicines Online with MrMed Pharmacy",
+          "link": "https://www.mrmed.in/",
+          "snippet": "MrMed is India's leading online pharmacy specializing in super-specialty medicines for critical conditions like cancer, kidney diseases, heart disorders, HIV/AIDS, and more. We offer authentic medicat",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home | Natalipharm Online Pharmacy",
+          "link": "https://natalionline.am/en/",
+          "snippet": "Natalipharm is the leader in the Armenian pharmaceutical market, has been importing and trading medicines for about 20 years | Natalipharm Pharmacy in Yerevan.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Buy Super Specialty Cancer Medicines Online with MrMed Pharmacy",
+          "link": "https://www.mrmed.in/",
+          "snippet": "MrMed is India's leading online pharmacy specializing in super-specialty medicines for critical conditions like cancer, kidney diseases, heart disorders, HIV/AIDS, and more. We offer authentic medicat",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home | Natalipharm Online Pharmacy",
+          "link": "https://natalionline.am/en/",
+          "snippet": "Natalipharm is the leader in the Armenian pharmaceutical market, has been importing and trading medicines for about 20 years | Natalipharm Pharmacy in Yerevan.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P3": {
+      "query": "online pharmacy reseller official website",
+      "level": "discovery",
+      "result_count": 9,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Buy Super Specialty Cancer Medicines Online with MrMed Pharmacy",
+          "link": "https://www.mrmed.in/",
+          "snippet": "MrMed is India's leading online pharmacy specializing in super-specialty medicines for critical conditions like cancer, kidney diseases, heart disorders, HIV/AIDS, and more. We offer authentic medicat",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nahdi Pharmacy | Home Page",
+          "link": "https://www.nahdionline.com/en-sa",
+          "snippet": "Nahdi Online Pharmacy is your one-stop shop for pharmaceutical needs. Shop daily vitamins, painkillers, skin care, baby walkers, diapers, car seats, and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Life Pharmacy UAE - Online Pharmacy Delivery in 30 minutes",
+          "link": "https://www.lifepharmacy.com/",
+          "snippet": "Life Pharmacy is a trusted UAE online pharmacy. Order prescription/OTC medicines online.First drive-through pharmacy in the Middle EastOn-site medical equipment rentals across UAE",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home | Natalipharm Online Pharmacy",
+          "link": "https://natalionline.am/en/",
+          "snippet": "Natalipharm is the leader in the Armenian pharmaceutical market, has been importing and trading medicines for about 20 years | Natalipharm Pharmacy in Yerevan.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Online Pharmacy In India | Buy Medicines at Discount | Healthmug",
+          "link": "https://www.healthmug.com/",
+          "snippet": "Online pharmacy for Ayurveda, Homeopathy, Unani medicines, & health supplements. Healthmug offers the best discounts & same-day medicine delivery at selected pin codes.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "onlinepharmacy | eBay UK Stores",
+          "link": "https://www.ebay.co.uk/str/onlinepharmacy",
+          "snippet": "Welcome to Online Pharmacy, where health and wellness meet personalised care! At Online Pharmacy, we take pride in being your trusted pharmacy, dedicated to providing exceptional service and a wide ra",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Apollo 247 - Online Doctor Consultation & Book Lab Tests at Home",
+          "link": "https://www.apollo247.com/",
+          "snippet": "The mobile app has features like e-consultation in 15 minutes, online pharmacy to doorstep delivery of medicines, home diagnostic test and digital vault where you can upload all your medical history.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Health and Beauty Online Shop | Watsons Philippines",
+          "link": "https://www.watsons.com.ph/",
+          "snippet": "Watsons philippines, Online pharmacy. Watsons Online Pharmacy. click and collect express.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "1mg.com",
+          "link": "https://www.1mg.com/",
+          "snippet": "Tata 1mg: India's Leading Online Pharmacy & Healthcare Platform.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Buy Super Specialty Cancer Medicines Online with MrMed Pharmacy",
+          "link": "https://www.mrmed.in/",
+          "snippet": "MrMed is India's leading online pharmacy specializing in super-specialty medicines for critical conditions like cancer, kidney diseases, heart disorders, HIV/AIDS, and more. We offer authentic medicat",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nahdi Pharmacy | Home Page",
+          "link": "https://www.nahdionline.com/en-sa",
+          "snippet": "Nahdi Online Pharmacy is your one-stop shop for pharmaceutical needs. Shop daily vitamins, painkillers, skin care, baby walkers, diapers, car seats, and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Life Pharmacy UAE - Online Pharmacy Delivery in 30 minutes",
+          "link": "https://www.lifepharmacy.com/",
+          "snippet": "Life Pharmacy is a trusted UAE online pharmacy. Order prescription/OTC medicines online.First drive-through pharmacy in the Middle EastOn-site medical equipment rentals across UAE",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home | Natalipharm Online Pharmacy",
+          "link": "https://natalionline.am/en/",
+          "snippet": "Natalipharm is the leader in the Armenian pharmaceutical market, has been importing and trading medicines for about 20 years | Natalipharm Pharmacy in Yerevan.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Online Pharmacy In India | Buy Medicines at Discount | Healthmug",
+          "link": "https://www.healthmug.com/",
+          "snippet": "Online pharmacy for Ayurveda, Homeopathy, Unani medicines, & health supplements. Healthmug offers the best discounts & same-day medicine delivery at selected pin codes.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "onlinepharmacy | eBay UK Stores",
+          "link": "https://www.ebay.co.uk/str/onlinepharmacy",
+          "snippet": "Welcome to Online Pharmacy, where health and wellness meet personalised care! At Online Pharmacy, we take pride in being your trusted pharmacy, dedicated to providing exceptional service and a wide ra",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Apollo 247 - Online Doctor Consultation & Book Lab Tests at Home",
+          "link": "https://www.apollo247.com/",
+          "snippet": "The mobile app has features like e-consultation in 15 minutes, online pharmacy to doorstep delivery of medicines, home diagnostic test and digital vault where you can upload all your medical history.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Health and Beauty Online Shop | Watsons Philippines",
+          "link": "https://www.watsons.com.ph/",
+          "snippet": "Watsons philippines, Online pharmacy. Watsons Online Pharmacy. click and collect express.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "1mg.com",
+          "link": "https://www.1mg.com/",
+          "snippet": "Tata 1mg: India's Leading Online Pharmacy & Healthcare Platform.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P4": {
+      "query": "online pharmacy system integrator corporate site",
+      "level": "discovery",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Home | Natalipharm Online Pharmacy",
+          "link": "https://natalionline.am/en/",
+          "snippet": "Natalipharm is the leader in the Armenian pharmaceutical market, has been importing and trading medicines for about 20 years | Natalipharm Pharmacy in Yerevan.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Home | Natalipharm Online Pharmacy",
+          "link": "https://natalionline.am/en/",
+          "snippet": "Natalipharm is the leader in the Armenian pharmaceutical market, has been importing and trading medicines for about 20 years | Natalipharm Pharmacy in Yerevan.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P5": {
+      "query": "online pharmacy service provider official site",
+      "level": "discovery",
+      "result_count": 6,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Life Pharmacy UAE - Online Pharmacy Delivery in 30 minutes",
+          "link": "https://www.lifepharmacy.com/",
+          "snippet": "Life Pharmacy is a trusted UAE online pharmacy. Order prescription/OTC medicines online. Explore a wide range of vitamins, medicines, beauty brands, baby care products, and sports supplements. Deliver",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nahdi Pharmacy | Home Page",
+          "link": "https://www.nahdionline.com/en-sa",
+          "snippet": "Nahdi Online Pharmacy is your one-stop shop for pharmaceutical needs. Shop daily vitamins, painkillers, skin care, baby walkers, diapers, car seats, and more.Nahdi Online Guest's Services.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Super Specialty Cancer Medicines Online with MrMed Pharmacy",
+          "link": "https://www.mrmed.in/",
+          "snippet": "MrMed is India's leading online pharmacy specializing in super-specialty medicines for critical conditions like cancer, kidney diseases, heart disorders, HIV/AIDS, and more. We offer authentic medicat",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aster Pharmacy UAE | Online Pharmacy & Wellness Store",
+          "link": "https://www.asterpharmacy.ae/",
+          "snippet": "Your trusted online pharmacy in the UAE offering medicines, wellness products, home delivery, and expert healthcare support across all Aster Pharmacy stores.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "1mg.com",
+          "link": "https://www.1mg.com/",
+          "snippet": "Tata 1mg: India's Leading Online Pharmacy & Healthcare Platform.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Optum - All Your Health Needs, All in One Place",
+          "link": "https://www.optum.com/",
+          "snippet": "Online pharmacy.Optum Home Delivery Pharmacy brings your medications directly to your door and gives you 24/7 access to our licensed pharmacists \u2014 ready to answer any question.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Life Pharmacy UAE - Online Pharmacy Delivery in 30 minutes",
+          "link": "https://www.lifepharmacy.com/",
+          "snippet": "Life Pharmacy is a trusted UAE online pharmacy. Order prescription/OTC medicines online. Explore a wide range of vitamins, medicines, beauty brands, baby care products, and sports supplements. Deliver",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nahdi Pharmacy | Home Page",
+          "link": "https://www.nahdionline.com/en-sa",
+          "snippet": "Nahdi Online Pharmacy is your one-stop shop for pharmaceutical needs. Shop daily vitamins, painkillers, skin care, baby walkers, diapers, car seats, and more.Nahdi Online Guest's Services.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Super Specialty Cancer Medicines Online with MrMed Pharmacy",
+          "link": "https://www.mrmed.in/",
+          "snippet": "MrMed is India's leading online pharmacy specializing in super-specialty medicines for critical conditions like cancer, kidney diseases, heart disorders, HIV/AIDS, and more. We offer authentic medicat",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aster Pharmacy UAE | Online Pharmacy & Wellness Store",
+          "link": "https://www.asterpharmacy.ae/",
+          "snippet": "Your trusted online pharmacy in the UAE offering medicines, wellness products, home delivery, and expert healthcare support across all Aster Pharmacy stores.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "1mg.com",
+          "link": "https://www.1mg.com/",
+          "snippet": "Tata 1mg: India's Leading Online Pharmacy & Healthcare Platform.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Optum - All Your Health Needs, All in One Place",
+          "link": "https://www.optum.com/",
+          "snippet": "Online pharmacy.Optum Home Delivery Pharmacy brings your medications directly to your door and gives you 24/7 access to our licensed pharmacists \u2014 ready to answer any question.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "online pharmacy channel partner corporate profile",
+      "level": "discovery",
+      "result_count": 6,
+      "results_target": 28,
+      "backends": [
+        "ddgs_yandex"
+      ],
+      "results": [
+        {
+          "title": "Life Pharmacy UAE - Online Pharmacy Delivery in 30 minutes",
+          "link": "https://www.lifepharmacy.com/",
+          "snippet": "Life Pharmacy is a trusted UAE online pharmacy. Order prescription/OTC medicines online. Explore a wide range of vitamins, medicines, beauty brands, baby care products, and sports supplements. Deliver",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Buy Super Specialty Cancer Medicines Online with MrMed Pharmacy",
+          "link": "https://www.mrmed.in/",
+          "snippet": "MrMed is India's leading online pharmacy specializing in super-specialty medicines for critical conditions like cancer, kidney diseases, heart disorders, HIV/AIDS, and more. We offer authentic medicat",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Apollo 247 - Online Doctor Consultation & Book Lab Tests at Home",
+          "link": "https://www.apollo247.com/",
+          "snippet": "The mobile app has features like e-consultation in 15 minutes, online pharmacy to doorstep delivery of medicines, home diagnostic test and digital vault where you can upload all your medical history.",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Home | Natalipharm Online Pharmacy",
+          "link": "https://natalionline.am/en/",
+          "snippet": "Natalipharm is the leader in the Armenian pharmaceutical market, has been importing and trading medicines for about 20 years | Natalipharm Pharmacy in Yerevan.",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "pharmacydirect.com.au",
+          "link": "https://www.pharmacydirect.com.au/",
+          "snippet": "Online Pharmacy \u2013 Buy Direct And Save | \u2026",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Online Pharmacy In India | Buy Medicines at Discount | Healthmug",
+          "link": "https://www.healthmug.com/",
+          "snippet": "Online pharmacy for Ayurveda, Homeopathy, Unani medicines, & health supplements. Healthmug offers the best discounts & same-day medicine delivery at selected pin codes.",
+          "backend": "ddgs_yandex"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Life Pharmacy UAE - Online Pharmacy Delivery in 30 minutes",
+          "link": "https://www.lifepharmacy.com/",
+          "snippet": "Life Pharmacy is a trusted UAE online pharmacy. Order prescription/OTC medicines online. Explore a wide range of vitamins, medicines, beauty brands, baby care products, and sports supplements. Deliver",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Buy Super Specialty Cancer Medicines Online with MrMed Pharmacy",
+          "link": "https://www.mrmed.in/",
+          "snippet": "MrMed is India's leading online pharmacy specializing in super-specialty medicines for critical conditions like cancer, kidney diseases, heart disorders, HIV/AIDS, and more. We offer authentic medicat",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Apollo 247 - Online Doctor Consultation & Book Lab Tests at Home",
+          "link": "https://www.apollo247.com/",
+          "snippet": "The mobile app has features like e-consultation in 15 minutes, online pharmacy to doorstep delivery of medicines, home diagnostic test and digital vault where you can upload all your medical history.",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Home | Natalipharm Online Pharmacy",
+          "link": "https://natalionline.am/en/",
+          "snippet": "Natalipharm is the leader in the Armenian pharmaceutical market, has been importing and trading medicines for about 20 years | Natalipharm Pharmacy in Yerevan.",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "pharmacydirect.com.au",
+          "link": "https://www.pharmacydirect.com.au/",
+          "snippet": "Online Pharmacy \u2013 Buy Direct And Save | \u2026",
+          "backend": "ddgs_yandex"
+        },
+        {
+          "title": "Online Pharmacy In India | Buy Medicines at Discount | Healthmug",
+          "link": "https://www.healthmug.com/",
+          "snippet": "Online pharmacy for Ayurveda, Homeopathy, Unani medicines, & health supplements. Healthmug offers the best discounts & same-day medicine delivery at selected pin codes.",
+          "backend": "ddgs_yandex"
+        }
+      ]
+    },
+    "P7": {
+      "query": "pharmaceutical distribution service provider official site",
+      "level": "discovery",
+      "result_count": 5,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "(2330)\u53f0\u7a4d\u96fb\u50f9\u91cf\u8d70\u52e2\u5716 - PChome Online \u80a1\u5e02",
+          "link": "https://pchome.megatime.com.tw/stock/sid2330.html",
+          "snippet": "20 hours ago \u00b7 \u53f0\u7a4d\u96fb (2330)\u500b\u80a1\u5373\u6642\u8cc7\u8a0a - \u6210\u4ea4\u50f9: 2405.00, \u6f32\u8dcc: +5.00, PChome Online\u80a1\u5e02\u63d0\u4f9b\u5373\u6642\u5831\u50f9\u3001\u500b\u80a1\u8d70\u52e2\u3001\u6210\u4ea4\u8cc7\u8a0a \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "(2330)\u53f0\u7a4d\u96fb\u516c\u53f8\u8cc7\u6599 - PChome Online \u80a1\u5e02",
+          "link": "https://pchome.megatime.com.tw/stock/sto3/sid2330.html",
+          "snippet": "\u53f0\u7a4d\u96fb (2330)\u500b\u80a1\u5373\u6642\u8cc7\u8a0a - \u6210\u4ea4\u50f9: 2405.00, \u6f32\u8dcc: +5.00, PChome Online\u80a1\u5e02\u63d0\u4f9b\u5373\u6642\u5831\u50f9\u3001\u500b\u80a1\u8d70\u52e2\u3001\u6210\u4ea4\u8cc7\u8a0a\u3001\u7576\u65e5\u884c\u60c5\uff0c\u50f9 \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Journey of a Pharmaceutical Product in MENA | Pharma Solutions",
+          "link": "https://www.pharmasolutions-int.com/the-journey-of-a-pharmaceutical-product-from-manufacturer-to-pharmacy-in-mena/",
+          "snippet": "Learn how pharmaceutical products move from manufacturers to pharmacies across MENA with Pharma Solutions' reliable supply chain expertise.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Pharma Distribution App Development | Pharmacy B2B App...",
+          "link": "https://www.emedstore.in/services/pharma-distributor-app-development",
+          "snippet": "Pharma distributor app development. Pharma Distribution Software Solution for pharmaceuticals, surgical, pharmacy and medical distributors, suppliers, distributors, stockists, and super stockists.Phar",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Office of Public Affairs | District Court Enjoins Vermont Pharmacy from...",
+          "link": "https://www.justice.gov/archives/opa/pr/district-court-enjoins-vermont-pharmacy-distributing-drugs-not-made-compliance-fdca",
+          "snippet": "Official websites use .gov A .gov website belongs to an official government organization in the United States.The U.S. Attorney\u2019s Office for the District of Vermont provided valuable assistance.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "(2330)\u53f0\u7a4d\u96fb\u50f9\u91cf\u8d70\u52e2\u5716 - PChome Online \u80a1\u5e02",
+          "link": "https://pchome.megatime.com.tw/stock/sid2330.html",
+          "snippet": "20 hours ago \u00b7 \u53f0\u7a4d\u96fb (2330)\u500b\u80a1\u5373\u6642\u8cc7\u8a0a - \u6210\u4ea4\u50f9: 2405.00, \u6f32\u8dcc: +5.00, PChome Online\u80a1\u5e02\u63d0\u4f9b\u5373\u6642\u5831\u50f9\u3001\u500b\u80a1\u8d70\u52e2\u3001\u6210\u4ea4\u8cc7\u8a0a \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "(2330)\u53f0\u7a4d\u96fb\u516c\u53f8\u8cc7\u6599 - PChome Online \u80a1\u5e02",
+          "link": "https://pchome.megatime.com.tw/stock/sto3/sid2330.html",
+          "snippet": "\u53f0\u7a4d\u96fb (2330)\u500b\u80a1\u5373\u6642\u8cc7\u8a0a - \u6210\u4ea4\u50f9: 2405.00, \u6f32\u8dcc: +5.00, PChome Online\u80a1\u5e02\u63d0\u4f9b\u5373\u6642\u5831\u50f9\u3001\u500b\u80a1\u8d70\u52e2\u3001\u6210\u4ea4\u8cc7\u8a0a\u3001\u7576\u65e5\u884c\u60c5\uff0c\u50f9 \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Journey of a Pharmaceutical Product in MENA | Pharma Solutions",
+          "link": "https://www.pharmasolutions-int.com/the-journey-of-a-pharmaceutical-product-from-manufacturer-to-pharmacy-in-mena/",
+          "snippet": "Learn how pharmaceutical products move from manufacturers to pharmacies across MENA with Pharma Solutions' reliable supply chain expertise.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Pharma Distribution App Development | Pharmacy B2B App...",
+          "link": "https://www.emedstore.in/services/pharma-distributor-app-development",
+          "snippet": "Pharma distributor app development. Pharma Distribution Software Solution for pharmaceuticals, surgical, pharmacy and medical distributors, suppliers, distributors, stockists, and super stockists.Phar",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Office of Public Affairs | District Court Enjoins Vermont Pharmacy from...",
+          "link": "https://www.justice.gov/archives/opa/pr/district-court-enjoins-vermont-pharmacy-distributing-drugs-not-made-compliance-fdca",
+          "snippet": "Official websites use .gov A .gov website belongs to an official government organization in the United States.The U.S. Attorney\u2019s Office for the District of Vermont provided valuable assistance.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

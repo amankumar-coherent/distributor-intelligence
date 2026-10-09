@@ -1,0 +1,151 @@
+{
+  "generated_at": "2026-08-04T14:08:25.190248+00:00",
+  "total": 354,
+  "rows_changed": 354,
+  "sources": {
+    "known": 40,
+    "heuristic": 314
+  },
+  "price_segment": {
+    "Research / Laboratory": 90,
+    "Mixed specialty & retail": 134,
+    "Specialty / Premium oncology": 5,
+    "Specialty / Hospital": 123,
+    "Hospital / Institutional": 2
+  },
+  "core_categories_top": [
+    [
+      "Pharmaceutical wholesale; Oncology biologics; Specialty injectables",
+      139
+    ],
+    [
+      "Antibody-drug conjugates; Oncology biologics; Specialty pharmacy",
+      87
+    ],
+    [
+      "Life science reagents; Antibodies; Oncology research tools",
+      79
+    ],
+    [
+      "Antibody-drug conjugates; Oncology biologics; Specialty pharmaceuticals",
+      38
+    ],
+    [
+      "Diagnostics; Life science reagents; Antibody-related products",
+      11
+    ]
+  ],
+  "specialty_focus_len_le_80": 354,
+  "sf_equals_kb_remaining": 0,
+  "key_brands_fail_brand_check": 0,
+  "samples": [
+    {
+      "company": "2BScientific GmbH",
+      "core": "Life science reagents; Antibodies; Oncology research tools",
+      "specialty": "European life science reagents distributor",
+      "price": "Research / Laboratory",
+      "brands": "Multi-brand research antibodies & reagents (supplier portfolio)",
+      "source": "known"
+    },
+    {
+      "company": "2BScientific Ltd",
+      "core": "Life science reagents; Antibodies; Oncology research tools",
+      "specialty": "UK life science reagents distributor",
+      "price": "Research / Laboratory",
+      "brands": "Multi-brand research antibodies & reagents (supplier portfolio)",
+      "source": "known"
+    },
+    {
+      "company": "3S Corporation",
+      "core": "Pharmaceutical wholesale; Oncology biologics; Specialty injectables",
+      "specialty": "Pharmaceutical wholesale (hospital & retail specialty)",
+      "price": "Mixed specialty & retail",
+      "brands": "Multi-brand pharmaceuticals incl. oncology / ADC portfolio",
+      "source": "heuristic:wholesale"
+    },
+    {
+      "company": "4Bio Medicamentos Especializados",
+      "core": "Antibody-drug conjugates; Oncology biologics; Specialty pharmacy",
+      "specialty": "Brazil specialty medicines / oncology channel",
+      "price": "Specialty / Premium oncology",
+      "brands": "Enhertu; Kadcyla; Adcetris; Padcev; Trodelvy; Polivy; Specialty oncology medicines",
+      "source": "known"
+    },
+    {
+      "company": "A.K. Pharma",
+      "core": "Pharmaceutical wholesale; Oncology biologics; Specialty injectables",
+      "specialty": "Pharmaceutical wholesale (hospital & retail specialty)",
+      "price": "Mixed specialty & retail",
+      "brands": "Multi-brand pharmaceuticals incl. oncology / ADC portfolio",
+      "source": "heuristic:wholesale"
+    },
+    {
+      "company": "AAH Pharmaceuticals",
+      "core": "Pharmaceutical wholesale; Oncology biologics; Specialty injectables",
+      "specialty": "UK full-line pharmaceutical wholesale",
+      "price": "Mixed specialty & retail",
+      "brands": "Multi-brand pharmaceuticals incl. specialty / oncology",
+      "source": "known"
+    },
+    {
+      "company": "Abacus dx",
+      "core": "Diagnostics; Life science reagents; Antibody-related products",
+      "specialty": "Diagnostic / life science distributor ANZ",
+      "price": "Research / Laboratory",
+      "brands": "Multi-brand research antibodies & reagents (supplier portfolio)",
+      "source": "heuristic:research"
+    },
+    {
+      "company": "AcariaHealth",
+      "core": "Antibody-drug conjugates; Oncology biologics; Specialty pharmacy",
+      "specialty": "Specialty pharmacy distributor",
+      "price": "Specialty / Hospital",
+      "brands": "Enhertu; Kadcyla; Adcetris; Padcev; Trodelvy; Polivy; Besponsa; Mylotarg; Elahere; Tivdak; Zynlonta;",
+      "source": "heuristic:specialty_rx"
+    },
+    {
+      "company": "Accesspharm",
+      "core": "Antibody-drug conjugates; Oncology biologics; Specialty pharmaceuticals",
+      "specialty": "Specialty pharmaceutical / oncology biologics distribution",
+      "price": "Specialty / Hospital",
+      "brands": "Enhertu; Kadcyla; Adcetris; Padcev; Trodelvy; Polivy; Multi-brand specialty oncology",
+      "source": "heuristic:specialty_dist"
+    },
+    {
+      "company": "Accredo Health Group",
+      "core": "Antibody-drug conjugates; Oncology biologics; Specialty pharmacy",
+      "specialty": "Specialty pharmacy for complex therapies (Evernorth)",
+      "price": "Specialty / Hospital",
+      "brands": "Enhertu; Kadcyla; Adcetris; Padcev; Trodelvy; Polivy; Besponsa; Mylotarg; Elahere; Tivdak; Zynlonta;",
+      "source": "known"
+    },
+    {
+      "company": "Adium Pharma S.A.",
+      "core": "Antibody-drug conjugates; Oncology biologics; Specialty pharmaceuticals",
+      "specialty": "Specialty pharmaceutical / oncology biologics distribution",
+      "price": "Specialty / Hospital",
+      "brands": "Enhertu; Kadcyla; Adcetris; Padcev; Trodelvy; Polivy; Multi-brand specialty oncology",
+      "source": "heuristic:specialty_dist"
+    },
+    {
+      "company": "Adwaa Lana Medical Co. Ltd.",
+      "core": "Pharmaceutical wholesale; Oncology biologics; Specialty injectables",
+      "specialty": "Pharmaceutical wholesale (hospital & retail specialty)",
+      "price": "Mixed specialty & retail",
+      "brands": "Multi-brand pharmaceuticals incl. oncology / ADC portfolio",
+      "source": "heuristic:wholesale"
+    }
+  ],
+  "rules": {
+    "core": "ADC-relevant semicolon categories by channel type",
+    "specialty_focus": "Short channel specialty phrase",
+    "price_segment": [
+      "Hospital / Institutional",
+      "Mixed specialty & retail",
+      "Research / Laboratory",
+      "Specialty / Hospital",
+      "Specialty / Premium oncology"
+    ],
+    "key_brands": "ADC/clinical brands, research supplier brands, or multi-brand/NPD — never role blurbs"
+  }
+}

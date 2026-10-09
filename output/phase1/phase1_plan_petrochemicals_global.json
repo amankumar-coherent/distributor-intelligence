@@ -1,0 +1,1618 @@
+{
+  "phase": 1,
+  "query": "Petrochemicals Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T20:34:20.044388+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "petrochemicals",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "petrochemical distribution",
+    "industry_terms": [
+      "ethylene",
+      "propylene",
+      "benzene",
+      "polyethylene",
+      "polypropylene",
+      "aromatics",
+      "olefins",
+      "petrochemical derivatives"
+    ],
+    "ecosystem_functions": [
+      "distributing petrochemical products",
+      "wholesaling petrochemical materials",
+      "reselling petrochemical products",
+      "providing logistics services",
+      "offering technical consulting",
+      "integrating systems for petrochemical processes",
+      "partnering for market access",
+      "facilitating supply chain solutions"
+    ],
+    "interpretation_summary": "The petrochemicals market encompasses the production and distribution of chemicals derived from petroleum and natural gas. Key participants include manufacturers, distributors, and service providers operating globally to",
+    "relevance_keywords": [
+      "petrochemical distributors",
+      "wholesale petrochemicals",
+      "reseller services",
+      "system integration",
+      "logistics for petrochemicals",
+      "channel partner solutions"
+    ],
+    "negative_keywords": [
+      "oil exploration",
+      "refining",
+      "natural gas",
+      "biochemicals",
+      "renewable energy",
+      "non-petrochemical"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "Brenntag AG",
+        "primary_domain": "brenntag.com",
+        "company_function": "chemical distribution"
+      },
+      {
+        "canonical_name": "Univar Solutions",
+        "primary_domain": "univarsolutions.com",
+        "company_function": "chemical distribution"
+      },
+      {
+        "canonical_name": "Ashland Global Holdings",
+        "primary_domain": "ashland.com",
+        "company_function": "chemical distribution"
+      },
+      {
+        "canonical_name": "Huntsman",
+        "primary_domain": "huntsman.com",
+        "company_function": "chemical distribution"
+      },
+      {
+        "canonical_name": "SABIC",
+        "primary_domain": "sabic.com",
+        "company_function": "petrochemical manufacturing and distribution"
+      },
+      {
+        "canonical_name": "LyondellBasell Industries",
+        "primary_domain": "lyondellbasell.com",
+        "company_function": "petrochemical manufacturing and distribution"
+      },
+      {
+        "canonical_name": "Mitsui Chemicals",
+        "primary_domain": "mitsui.com",
+        "company_function": "petrochemical distribution"
+      },
+      {
+        "canonical_name": "Cargill",
+        "primary_domain": "cargill.com",
+        "company_function": "chemical distribution"
+      },
+      {
+        "canonical_name": "Kraton Corporation",
+        "primary_domain": "kraton.com",
+        "company_function": "chemical distribution",
+        "segment": "Resellers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Marubeni Corporation",
+        "primary_domain": "marubeni.com",
+        "company_function": "general trading company",
+        "segment": "Resellers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Nexeo Solutions",
+        "primary_domain": "nexeosolutions.com",
+        "company_function": "chemical distribution",
+        "segment": "Resellers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "BASF",
+        "primary_domain": "basf.com",
+        "company_function": "chemical manufacturing and distribution",
+        "segment": "Resellers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Kuehne + Nagel",
+        "primary_domain": "kuehne-nagel.com",
+        "company_function": "logistics services",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "DHL Supply Chain",
+        "primary_domain": "dhl.com",
+        "company_function": "logistics services",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "petrochemicals",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "petrochemicals",
+    "include_keywords": [
+      "petrochemical distribution services",
+      "wholesale petrochemical suppliers",
+      "reseller of petrochemical products",
+      "system integration for petrochemicals",
+      "petrochemical service providers",
+      "channel partnerships in petrochemicals"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The petrochemicals market encompasses the production and distribution of chemicals derived from petroleum and natural gas. Key participants include manufacturers, distributors, and service providers operating globally to supply various industries such as plastics, textiles, and automotive.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Distribution",
+        "description": "This layer involves the distribution of petrochemical products to various sectors.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Regional Distributors",
+              "Global Distributors"
+            ],
+            "participant_types": [
+              "distributor",
+              "wholesaler"
+            ],
+            "search_intents": [
+              "petrochemical distributors official site",
+              "global petrochemical wholesalers"
+            ]
+          },
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Retail Resellers",
+              "Online Resellers"
+            ],
+            "participant_types": [
+              "reseller"
+            ],
+            "search_intents": [
+              "petrochemical resellers corporate profile",
+              "authorized petrochemical resellers"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L2",
+        "layer_name": "Service Providers",
+        "description": "Service providers offer support and solutions related to petrochemical distribution.",
+        "segments": [
+          {
+            "segment_name": "Logistics Providers",
+            "sub_segments": [
+              "Transport Services",
+              "Storage Services"
+            ],
+            "participant_types": [
+              "service provider"
+            ],
+            "search_intents": [
+              "petrochemical logistics services",
+              "petrochemical storage service providers"
+            ]
+          },
+          {
+            "segment_name": "Consultants",
+            "sub_segments": [
+              "Market Consultants",
+              "Technical Consultants"
+            ],
+            "participant_types": [
+              "service provider"
+            ],
+            "search_intents": [
+              "petrochemical market consultants",
+              "technical consultants for petrochemicals"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L3",
+        "layer_name": "Channel Partners",
+        "description": "Channel partners facilitate the sale and distribution of petrochemical products.",
+        "segments": [
+          {
+            "segment_name": "System Integrators",
+            "sub_segments": [
+              "Automation Integrators",
+              "Process Control Integrators"
+            ],
+            "participant_types": [
+              "system integrator"
+            ],
+            "search_intents": [
+              "petrochemical system integrators official site",
+              "automation solutions for petrochemicals"
+            ]
+          },
+          {
+            "segment_name": "General Channel Partners",
+            "sub_segments": [
+              "Value-Added Resellers",
+              "Strategic Partners"
+            ],
+            "participant_types": [
+              "channel partner"
+            ],
+            "search_intents": [
+              "petrochemical channel partners",
+              "value-added resellers in petrochemicals"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Raw Material Suppliers",
+        "Refineries",
+        "End Product Manufacturers",
+        "Research Institutions"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "search for petrochemical distributors in your region",
+        "sub_sector": "distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "find authorized petrochemical resellers",
+        "sub_sector": "reseller",
+        "layer_id": "L1",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "search for petrochemical logistics service providers",
+        "sub_sector": "service_provider",
+        "layer_id": "L2",
+        "segment": "Logistics Providers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "find petrochemical market consultants",
+        "sub_sector": "service_provider",
+        "layer_id": "L2",
+        "segment": "Consultants"
+      },
+      {
+        "id": "M5",
+        "level": "market_map",
+        "text": "search for petrochemical system integrators",
+        "sub_sector": "system_integrator",
+        "layer_id": "L3",
+        "segment": "System Integrators"
+      },
+      {
+        "id": "M6",
+        "level": "market_map",
+        "text": "find channel partners for petrochemical distribution",
+        "sub_sector": "channel_partner",
+        "layer_id": "L3",
+        "segment": "General Channel Partners"
+      },
+      {
+        "id": "M7",
+        "level": "market_map",
+        "text": "petrochemical distributors near me",
+        "sub_sector": "distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M8",
+        "level": "market_map",
+        "text": "petrochemical resellers in my area",
+        "sub_sector": "reseller",
+        "layer_id": "L1",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M9",
+        "level": "market_map",
+        "text": "logistics services for petrochemical products",
+        "sub_sector": "service_provider",
+        "layer_id": "L2",
+        "segment": "Logistics Providers"
+      },
+      {
+        "id": "M10",
+        "level": "market_map",
+        "text": "technical consultants for petrochemical industry",
+        "sub_sector": "service_provider",
+        "layer_id": "L2",
+        "segment": "Consultants"
+      },
+      {
+        "id": "M11",
+        "level": "market_map",
+        "text": "automation solutions for petrochemical processes",
+        "sub_sector": "system_integrator",
+        "layer_id": "L3",
+        "segment": "System Integrators"
+      },
+      {
+        "id": "M12",
+        "level": "market_map",
+        "text": "value-added resellers in petrochemicals",
+        "sub_sector": "channel_partner",
+        "layer_id": "L3",
+        "segment": "General Channel Partners"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "petrochemical distribution",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "petrochemicals companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "petrochemical distributors corporate sites"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "petrochemical service providers official site"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "market_map",
+      "text": "search for petrochemical distributors in your region"
+    },
+    {
+      "id": "P2",
+      "level": "market_map",
+      "text": "find authorized petrochemical resellers"
+    },
+    {
+      "id": "P3",
+      "level": "market_map",
+      "text": "search for petrochemical logistics service providers"
+    },
+    {
+      "id": "P4",
+      "level": "market_map",
+      "text": "find petrochemical market consultants"
+    },
+    {
+      "id": "P5",
+      "level": "market_map",
+      "text": "search for petrochemical system integrators"
+    },
+    {
+      "id": "P6",
+      "level": "market_map",
+      "text": "find channel partners for petrochemical distribution"
+    },
+    {
+      "id": "P7",
+      "level": "market_map",
+      "text": "petrochemical distributors near me"
+    },
+    {
+      "id": "P8",
+      "level": "market_map",
+      "text": "petrochemical resellers in my area"
+    },
+    {
+      "id": "P9",
+      "level": "market_map",
+      "text": "logistics services for petrochemical products"
+    },
+    {
+      "id": "P10",
+      "level": "market_map",
+      "text": "technical consultants for petrochemical industry"
+    },
+    {
+      "id": "P11",
+      "level": "market_map",
+      "text": "automation solutions for petrochemical processes"
+    },
+    {
+      "id": "P12",
+      "level": "market_map",
+      "text": "value-added resellers in petrochemicals"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "petrochemicals companies official websites",
+      "level": "L0",
+      "result_count": 8,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Welcome to US Petrochemicals | US Petrochemicals",
+          "link": "https://www.uspetrochemicals.com/",
+          "snippet": "US Petrochemicals started in 1987 as a supplier of raw material to specialty chemical plants today is a world leader in supplying commodity feedstock to manufacturing plants globally and has buyer-sel",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Haldia Petrochemicals Ltd",
+          "link": "https://www.haldiapetrochemicals.com/",
+          "snippet": "Haldia Petrochemicals Ltd is a modern naphtha based Petrochemical Complex located 125 km from Kolkata, at Haldia, West Bengal, India. We are a customer focused organization, recognized as a leading su",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Adani Petrochemicals",
+          "link": "https://adanipetrochem.adani.com/",
+          "snippet": "Adani Petrochemical Vision & Mission Gautam Adani Chairman, Adani Group Jeet Adani Whole Time Director, Adani Group Jayant Parimal CEO, Adani Petrochemical Limited",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Shell Chemicals | Shell Global",
+          "link": "https://www.shell.com/business-customers/chemicals.html",
+          "snippet": "Shell chemicals companies are major suppliers of bulk petrochemicals to large industrial customers. In this section, you will find essential information on how to do business with us.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "India's Leading Producers of Fertilizers & Industrial Chemicals",
+          "link": "https://www.dfpcl.com/",
+          "snippet": "ABOUT US Deepak Fertilisers and Petrochemicals Corporation Ltd. (DFPCL) is among India's leading producers of fertilizers and industrial chemicals. Set up in 1979 as an Ammonia manufacturer, DFPCL tod",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "SABIC - SABIC homepage",
+          "link": "https://www.sabic.com/",
+          "snippet": "This site uses cookies.For over 45 years, our ambition to define the future of petrochemicals has yielded solutions for the challenges of today and helped our customers achieve their ambitions for a b",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Inven 2026",
+          "link": "https://www.inven.ai/company-lists/top-22-petrochemicals-companies",
+          "snippet": "Top 22 Petrochemical Giants Exploring New Frontiers. Top 22 Petrochemicals Companies Main. The petrochemical industry is a sector dedicated to the production and distribution of chemicals and plastics",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Petrochemical and NGL Market Outlook, Pricing and News | OPIS",
+          "link": "https://www.opis.com/who-we-help/ngl-and-petrochemical-companies/",
+          "snippet": "Solutions for NGL & Petrochemical Companies. Trading in a Volatile Market Demands a Reliable Price Reference. Who We Help \u00bb NGL & Petrochemical Companies. Global LPG and petrochemicals price transpare",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Welcome to US Petrochemicals | US Petrochemicals",
+          "link": "https://www.uspetrochemicals.com/",
+          "snippet": "US Petrochemicals started in 1987 as a supplier of raw material to specialty chemical plants today is a world leader in supplying commodity feedstock to manufacturing plants globally and has buyer-sel",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Haldia Petrochemicals Ltd",
+          "link": "https://www.haldiapetrochemicals.com/",
+          "snippet": "Haldia Petrochemicals Ltd is a modern naphtha based Petrochemical Complex located 125 km from Kolkata, at Haldia, West Bengal, India. We are a customer focused organization, recognized as a leading su",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Adani Petrochemicals",
+          "link": "https://adanipetrochem.adani.com/",
+          "snippet": "Adani Petrochemical Vision & Mission Gautam Adani Chairman, Adani Group Jeet Adani Whole Time Director, Adani Group Jayant Parimal CEO, Adani Petrochemical Limited",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Shell Chemicals | Shell Global",
+          "link": "https://www.shell.com/business-customers/chemicals.html",
+          "snippet": "Shell chemicals companies are major suppliers of bulk petrochemicals to large industrial customers. In this section, you will find essential information on how to do business with us.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "India's Leading Producers of Fertilizers & Industrial Chemicals",
+          "link": "https://www.dfpcl.com/",
+          "snippet": "ABOUT US Deepak Fertilisers and Petrochemicals Corporation Ltd. (DFPCL) is among India's leading producers of fertilizers and industrial chemicals. Set up in 1979 as an Ammonia manufacturer, DFPCL tod",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "SABIC - SABIC homepage",
+          "link": "https://www.sabic.com/",
+          "snippet": "This site uses cookies.For over 45 years, our ambition to define the future of petrochemicals has yielded solutions for the challenges of today and helped our customers achieve their ambitions for a b",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Inven 2026",
+          "link": "https://www.inven.ai/company-lists/top-22-petrochemicals-companies",
+          "snippet": "Top 22 Petrochemical Giants Exploring New Frontiers. Top 22 Petrochemicals Companies Main. The petrochemical industry is a sector dedicated to the production and distribution of chemicals and plastics",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Petrochemical and NGL Market Outlook, Pricing and News | OPIS",
+          "link": "https://www.opis.com/who-we-help/ngl-and-petrochemical-companies/",
+          "snippet": "Solutions for NGL & Petrochemical Companies. Trading in a Volatile Market Demands a Reliable Price Reference. Who We Help \u00bb NGL & Petrochemical Companies. Global LPG and petrochemicals price transpare",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "petrochemical distributors corporate sites",
+      "level": "L1",
+      "result_count": 15,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Petrochemical - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Petrochemical",
+          "snippet": "Petrochemical plant in Saudi Arabia Petrochemicals (sometimes abbreviated as petchems[1]) are the chemical products obtained \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What are Petrochemicals? Definition, Uses, and Examples",
+          "link": "https://www.hseblog.com/petrochemicals/",
+          "snippet": "Feb 24, 2025 \u00b7 What are Petrochemicals? Petrochemicals are chemical substances obtained from petroleum (crude oil) and natural \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Best Practice Petrochemical Guide for Industrial Excellence",
+          "link": "https://www.petrosync.com/blog/what-is-petrochemical/",
+          "snippet": "May 31, 2026 \u00b7 Discover what petrochemicals are, their key products, and how they power essential industries like plastics, energy, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Petrochemicals - BASF",
+          "link": "https://chemicals.basf.com/global/en/Petrochemicals",
+          "snippet": "Products such as ethylene, propylene, butadiene and benzene are produced in steam crackers from naphtha or natural gas. Using \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What are Petrochemicals? The Ultimate Guide | NES Fircroft",
+          "link": "https://www.nesfircroft.com/resources/blog/what-are-petrochemicals--the-ultimate-guide/",
+          "snippet": "Dec 17, 2024 \u00b7 Discover the ultimate guide to petrochemicals, including what they are, how they\u2019re produced, what they\u2019re used for \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Welcome to US Petrochemicals | US Petrochemicals",
+          "link": "https://www.uspetrochemicals.com/",
+          "snippet": "US Petrochemicals is a Texas Corporation started in 1987 and now operates in more than 30 countries and has offices in several. Our global experience of operating in niche markets to demanding custome",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Petrochemicals distributors from around the world chemeurope.com",
+          "link": "https://www.chemeurope.com/en/companies/petrochemicals/distributor/order_tf/",
+          "snippet": "The business directory for petrochemicals distributors All distributors incl. products, news & contact information Find suppliers now!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "List of American Petrochemicals Companies - Ezilon USA",
+          "link": "https://search.ezilon.com/united_states/business/petrochemicals/index.shtml",
+          "snippet": "U.S. Petrochemicals. Submit Your Site. Sites included under this petrochemical in the Unites States category are companies specializing in the production and distribution of petroleum products and nat",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Explore Nayara Energy's Petrochemicals Solutions",
+          "link": "https://www.nayaraenergy.com/petrochemicals",
+          "snippet": "Explore Nayara Energy\u2019s petrochemical products and solutions. Discover our range of high-quality, innovative petrochemical offerings for diverse industries.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alkim Petrochemicals Motor Oil | Lebanon 2026",
+          "link": "https://www.alkimpetrokimya.com/en/alkim-motor-oil-lebanon-2026/",
+          "snippet": "Alkim Petrochemicals hosts Lebanese distribution partners at its Istanbul headquarters, 2026. Strategy and Global Vision for 2026. Our annual meeting opened with a comprehensive corporate presentation",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Petrochemicals Distribution Network",
+          "link": "https://business.mapsofindia.com/india-petroleum-industry/distribution-network.html",
+          "snippet": "The wide distribution network and the various advancements of the major petrochemical companies like RIL, IPCL, and BPCL have been a key feature of growth this year. Indian Petrochemicals Corporations",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "India's Leading Producers of Fertilizers & Industrial Chemicals",
+          "link": "https://www.dfpcl.com/",
+          "snippet": "DFPC is leading manufacturers & suppliers of Fertilizers, Industrial Chemicals, Petrochemicals & Technical Ammonium Nitrate in India that meet global standards.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "List of top chemical companies, manufacturers, suppliers, importers...",
+          "link": "https://www.chemarc.com/market?segment=Petrochemicals",
+          "snippet": "Looking for top chemical companies in Mumbai and across India? Chemarc provides complete list of chemical suppliers, manufacturers, traders, distributors, importers & exporters across India.Amber petr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "KLJ BROCHURE_27 jan",
+          "link": "https://kljindia.com/DownloadPDF/Corporate+Brochure+(KLJ+Group).pdf",
+          "snippet": "Petrochemical distribution. Building a stronger economy.A highly professional and experienced team across sales, logistics. and commercial operations. Ranked among the top 50 petrochemicals distributo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "COUNT ENERGY DISTRIBUTION LTD in London, Chemicals...",
+          "link": "https://www.europages.co.uk/COUNT-ENERGY-DISTRIBUTION-LTD/00000005469495-842960001.html",
+          "snippet": "COUNT ENERGY DISTRIBUTION LTD, established in 2001 and based in London, is a global distributor of Chemicals - import-export, specializing in petrochemical products for the CHEMICAL PRODUCTS FOR THE C",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Petrochemical - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Petrochemical",
+          "snippet": "Petrochemical plant in Saudi Arabia Petrochemicals (sometimes abbreviated as petchems[1]) are the chemical products obtained \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What are Petrochemicals? Definition, Uses, and Examples",
+          "link": "https://www.hseblog.com/petrochemicals/",
+          "snippet": "Feb 24, 2025 \u00b7 What are Petrochemicals? Petrochemicals are chemical substances obtained from petroleum (crude oil) and natural \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Best Practice Petrochemical Guide for Industrial Excellence",
+          "link": "https://www.petrosync.com/blog/what-is-petrochemical/",
+          "snippet": "May 31, 2026 \u00b7 Discover what petrochemicals are, their key products, and how they power essential industries like plastics, energy, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Petrochemicals - BASF",
+          "link": "https://chemicals.basf.com/global/en/Petrochemicals",
+          "snippet": "Products such as ethylene, propylene, butadiene and benzene are produced in steam crackers from naphtha or natural gas. Using \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What are Petrochemicals? The Ultimate Guide | NES Fircroft",
+          "link": "https://www.nesfircroft.com/resources/blog/what-are-petrochemicals--the-ultimate-guide/",
+          "snippet": "Dec 17, 2024 \u00b7 Discover the ultimate guide to petrochemicals, including what they are, how they\u2019re produced, what they\u2019re used for \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Welcome to US Petrochemicals | US Petrochemicals",
+          "link": "https://www.uspetrochemicals.com/",
+          "snippet": "US Petrochemicals is a Texas Corporation started in 1987 and now operates in more than 30 countries and has offices in several. Our global experience of operating in niche markets to demanding custome",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Petrochemicals distributors from around the world chemeurope.com",
+          "link": "https://www.chemeurope.com/en/companies/petrochemicals/distributor/order_tf/",
+          "snippet": "The business directory for petrochemicals distributors All distributors incl. products, news & contact information Find suppliers now!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "List of American Petrochemicals Companies - Ezilon USA",
+          "link": "https://search.ezilon.com/united_states/business/petrochemicals/index.shtml",
+          "snippet": "U.S. Petrochemicals. Submit Your Site. Sites included under this petrochemical in the Unites States category are companies specializing in the production and distribution of petroleum products and nat",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Explore Nayara Energy's Petrochemicals Solutions",
+          "link": "https://www.nayaraenergy.com/petrochemicals",
+          "snippet": "Explore Nayara Energy\u2019s petrochemical products and solutions. Discover our range of high-quality, innovative petrochemical offerings for diverse industries.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alkim Petrochemicals Motor Oil | Lebanon 2026",
+          "link": "https://www.alkimpetrokimya.com/en/alkim-motor-oil-lebanon-2026/",
+          "snippet": "Alkim Petrochemicals hosts Lebanese distribution partners at its Istanbul headquarters, 2026. Strategy and Global Vision for 2026. Our annual meeting opened with a comprehensive corporate presentation",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Petrochemicals Distribution Network",
+          "link": "https://business.mapsofindia.com/india-petroleum-industry/distribution-network.html",
+          "snippet": "The wide distribution network and the various advancements of the major petrochemical companies like RIL, IPCL, and BPCL have been a key feature of growth this year. Indian Petrochemicals Corporations",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "India's Leading Producers of Fertilizers & Industrial Chemicals",
+          "link": "https://www.dfpcl.com/",
+          "snippet": "DFPC is leading manufacturers & suppliers of Fertilizers, Industrial Chemicals, Petrochemicals & Technical Ammonium Nitrate in India that meet global standards.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "List of top chemical companies, manufacturers, suppliers, importers...",
+          "link": "https://www.chemarc.com/market?segment=Petrochemicals",
+          "snippet": "Looking for top chemical companies in Mumbai and across India? Chemarc provides complete list of chemical suppliers, manufacturers, traders, distributors, importers & exporters across India.Amber petr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "KLJ BROCHURE_27 jan",
+          "link": "https://kljindia.com/DownloadPDF/Corporate+Brochure+(KLJ+Group).pdf",
+          "snippet": "Petrochemical distribution. Building a stronger economy.A highly professional and experienced team across sales, logistics. and commercial operations. Ranked among the top 50 petrochemicals distributo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "COUNT ENERGY DISTRIBUTION LTD in London, Chemicals...",
+          "link": "https://www.europages.co.uk/COUNT-ENERGY-DISTRIBUTION-LTD/00000005469495-842960001.html",
+          "snippet": "COUNT ENERGY DISTRIBUTION LTD, established in 2001 and based in London, is a global distributor of Chemicals - import-export, specializing in petrochemical products for the CHEMICAL PRODUCTS FOR THE C",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "petrochemical service providers official site",
+      "level": "L2",
+      "result_count": 12,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Petrochemical - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Petrochemical",
+          "snippet": "Petrochemical plant in Saudi Arabia Petrochemicals (sometimes abbreviated as petchems[1]) are the chemical products obtained \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What are Petrochemicals? Definition, Uses, and Examples",
+          "link": "https://www.hseblog.com/petrochemicals/",
+          "snippet": "Feb 24, 2025 \u00b7 What are Petrochemicals? Petrochemicals are chemical substances obtained from petroleum (crude oil) and natural \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Best Practice Petrochemical Guide for Industrial Excellence",
+          "link": "https://www.petrosync.com/blog/what-is-petrochemical/",
+          "snippet": "May 31, 2026 \u00b7 Discover what petrochemicals are, their key products, and how they power essential industries like plastics, energy, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Petrochemicals - BASF",
+          "link": "https://chemicals.basf.com/global/en/Petrochemicals",
+          "snippet": "Products such as ethylene, propylene, butadiene and benzene are produced in steam crackers from naphtha or natural gas. Using \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What are Petrochemicals? The Ultimate Guide | NES Fircroft",
+          "link": "https://www.nesfircroft.com/resources/blog/what-are-petrochemicals--the-ultimate-guide/",
+          "snippet": "Dec 17, 2024 \u00b7 Discover the ultimate guide to petrochemicals, including what they are, how they\u2019re produced, what they\u2019re used for \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Petrochemicals + Refining | Industries | Audubon",
+          "link": "https://auduboncompanies.com/markets/energy-chemicals/petrochemicals-refining/",
+          "snippet": "Audubon solves the petrochemicals and refining markets' most challenging infrastructure projects for increased throughput and reduced risk.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Petrochemicals | Koch Modular Process Systems",
+          "link": "https://kochmodular.com/markets-we-serve/petrochemicals/",
+          "snippet": "Petrochemicals is one of the many markets that Koch Modular Process Systems serves. Read on to find out more about our expertise today.Koch Modular has proudly and successfully offered these services ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Petrochemicals Erection Commissioning Services",
+          "link": "https://swaminainternational.com/services/petrochemical/",
+          "snippet": "Pre-Commissioning Petrochemical Services: Ensuring Operational Excellence.Overhauling and Maintenance of Petrochemical Equipment: Rotary and Static. Swamina International offers specialized services i",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "India`s Natural Gas & Oil Production - Sun Petrochemicals",
+          "link": "https://www.sunpetro.com/",
+          "snippet": "SunPetro has a highly experienced team of Scientists, Engineers, Project Management and Finance experts having rich experience in the full gamut of Oil & Gas business.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wison Engineering",
+          "link": "https://www.wison-engineering.com/",
+          "snippet": "Wison Engineering provides full-process consulting services for projects in fields such as oil and gas processing, petrochemicals, carbon-based chemicals, and new energy.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "India's Leading Producers of Fertilizers & Industrial Chemicals",
+          "link": "https://www.dfpcl.com/",
+          "snippet": "DFPC is leading manufacturers & suppliers of Fertilizers, Industrial Chemicals, Petrochemicals & Technical Ammonium Nitrate in India that meet global standards.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Indian Oil Corporation Ltd. : IndianOil - The Energy of India",
+          "link": "https://iocl.com/",
+          "snippet": "Welcome to the world of IndianOil, an integrated oil company in India and across the globe has its presence in almost all the streams of oil, gas, petrochemicals and alternative energy sources.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Petrochemical - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Petrochemical",
+          "snippet": "Petrochemical plant in Saudi Arabia Petrochemicals (sometimes abbreviated as petchems[1]) are the chemical products obtained \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What are Petrochemicals? Definition, Uses, and Examples",
+          "link": "https://www.hseblog.com/petrochemicals/",
+          "snippet": "Feb 24, 2025 \u00b7 What are Petrochemicals? Petrochemicals are chemical substances obtained from petroleum (crude oil) and natural \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Best Practice Petrochemical Guide for Industrial Excellence",
+          "link": "https://www.petrosync.com/blog/what-is-petrochemical/",
+          "snippet": "May 31, 2026 \u00b7 Discover what petrochemicals are, their key products, and how they power essential industries like plastics, energy, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Petrochemicals - BASF",
+          "link": "https://chemicals.basf.com/global/en/Petrochemicals",
+          "snippet": "Products such as ethylene, propylene, butadiene and benzene are produced in steam crackers from naphtha or natural gas. Using \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What are Petrochemicals? The Ultimate Guide | NES Fircroft",
+          "link": "https://www.nesfircroft.com/resources/blog/what-are-petrochemicals--the-ultimate-guide/",
+          "snippet": "Dec 17, 2024 \u00b7 Discover the ultimate guide to petrochemicals, including what they are, how they\u2019re produced, what they\u2019re used for \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Petrochemicals + Refining | Industries | Audubon",
+          "link": "https://auduboncompanies.com/markets/energy-chemicals/petrochemicals-refining/",
+          "snippet": "Audubon solves the petrochemicals and refining markets' most challenging infrastructure projects for increased throughput and reduced risk.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Petrochemicals | Koch Modular Process Systems",
+          "link": "https://kochmodular.com/markets-we-serve/petrochemicals/",
+          "snippet": "Petrochemicals is one of the many markets that Koch Modular Process Systems serves. Read on to find out more about our expertise today.Koch Modular has proudly and successfully offered these services ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Petrochemicals Erection Commissioning Services",
+          "link": "https://swaminainternational.com/services/petrochemical/",
+          "snippet": "Pre-Commissioning Petrochemical Services: Ensuring Operational Excellence.Overhauling and Maintenance of Petrochemical Equipment: Rotary and Static. Swamina International offers specialized services i",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "India`s Natural Gas & Oil Production - Sun Petrochemicals",
+          "link": "https://www.sunpetro.com/",
+          "snippet": "SunPetro has a highly experienced team of Scientists, Engineers, Project Management and Finance experts having rich experience in the full gamut of Oil & Gas business.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wison Engineering",
+          "link": "https://www.wison-engineering.com/",
+          "snippet": "Wison Engineering provides full-process consulting services for projects in fields such as oil and gas processing, petrochemicals, carbon-based chemicals, and new energy.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "India's Leading Producers of Fertilizers & Industrial Chemicals",
+          "link": "https://www.dfpcl.com/",
+          "snippet": "DFPC is leading manufacturers & suppliers of Fertilizers, Industrial Chemicals, Petrochemicals & Technical Ammonium Nitrate in India that meet global standards.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Indian Oil Corporation Ltd. : IndianOil - The Energy of India",
+          "link": "https://iocl.com/",
+          "snippet": "Welcome to the world of IndianOil, an integrated oil company in India and across the globe has its presence in almost all the streams of oil, gas, petrochemicals and alternative energy sources.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "search for petrochemical distributors in your region",
+      "level": "market_map",
+      "result_count": 4,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Kunjal Group - Petrochemical Solutions Since 1983",
+          "link": "https://www.kunjal.com/",
+          "snippet": "Founded in 1983, Kunjal Synergies Private Limited is a leading importer and distributor of Petrochemicals, Solvents, and Pharma Raw Materials. With a presence across India and an associate office in S",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Petrochemicals distributors from around the world chemeurope.com",
+          "link": "https://www.chemeurope.com/en/companies/petrochemicals/distributor/order_tf/",
+          "snippet": "The Who's Who of the chemical industry: Discover companies from all over the world. Here you can easily find the provider matching your search, including contact options.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Leading importers and distributor of Petro Chemical in India | Kundan Group",
+          "link": "https://kundangroup.com/petro-chemical/",
+          "snippet": "We are one of the India's leading petrochemical and polymers trading companies, with our headquarters in New Delhi, 22 offices in all major cities of India. We handle a wide range of petrochemicals an",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "GHRBAL International \u2013 Trading & Marketing Co",
+          "link": "https://ghrbal.com/",
+          "snippet": "With a presence across the region and revenues exceeding 130 million USD annually, we are a leader in sourcing, storing, and distributing petrochemicals with unmatched technical support, logistics, an",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Kunjal Group - Petrochemical Solutions Since 1983",
+          "link": "https://www.kunjal.com/",
+          "snippet": "Founded in 1983, Kunjal Synergies Private Limited is a leading importer and distributor of Petrochemicals, Solvents, and Pharma Raw Materials. With a presence across India and an associate office in S",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Petrochemicals distributors from around the world chemeurope.com",
+          "link": "https://www.chemeurope.com/en/companies/petrochemicals/distributor/order_tf/",
+          "snippet": "The Who's Who of the chemical industry: Discover companies from all over the world. Here you can easily find the provider matching your search, including contact options.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Leading importers and distributor of Petro Chemical in India | Kundan Group",
+          "link": "https://kundangroup.com/petro-chemical/",
+          "snippet": "We are one of the India's leading petrochemical and polymers trading companies, with our headquarters in New Delhi, 22 offices in all major cities of India. We handle a wide range of petrochemicals an",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "GHRBAL International \u2013 Trading & Marketing Co",
+          "link": "https://ghrbal.com/",
+          "snippet": "With a presence across the region and revenues exceeding 130 million USD annually, we are a leader in sourcing, storing, and distributing petrochemicals with unmatched technical support, logistics, an",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P2": {
+      "query": "find authorized petrochemical resellers",
+      "level": "market_map",
+      "result_count": 5,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Petrochemicals (Suppliers) - FOB/CIF - www.NCNDA.org",
+          "link": "https://ncnda.org/petrochemicals-sellers",
+          "snippet": "Register to publish a listing to buy/sell variety of petrochemicals.Petrochemicals (Sellers).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "USA Petrochemicals Suppliers, Manufacturers, Wholesalers and...",
+          "link": "https://www.go4worldbusiness.com/suppliers/united-states/petrochemicals.html",
+          "snippet": "Find Petrochemicals Suppliers. Get latest factory price for Petrochemicals. Request quotations and connect with USA manufacturers and B2B suppliers of Petrochemicals.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Petrochemicals Sellers, Petrochemicals Manufacturers...",
+          "link": "https://www.tradeboss.com/default.cgi/action/viewcompanies/manufacturers_exporters_wholesalers_sellers/petrochemicals/",
+          "snippet": "Petrochemicals Regular Sellers, Petrochemicals Manufacturers, Petrochemicals Exporters, Petrochemicals Wholesalers, Petrochemicals Distributors - Global B2B marketplace, portal. International Business",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sell Petrochemicals, find Petrochemicals sellers, free sell leads",
+          "link": "https://www.imexbb.com/sell-leads/petrochemicals",
+          "snippet": "Find Petrochemicals sellers and companies selling Petrochemicals. Do you sell Petrochemicals?Search leads by keyword: in Petrochemicals all Categories.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "EIL \u2013 Global Engineering Consultancy Offering Total Energy Solutions",
+          "link": "https://engineersindia.com/",
+          "snippet": "Overview. Dangote Refinery and Petrochemical Project.Engineering Consultancy for Petrochemicals Projects.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Petrochemicals (Suppliers) - FOB/CIF - www.NCNDA.org",
+          "link": "https://ncnda.org/petrochemicals-sellers",
+          "snippet": "Register to publish a listing to buy/sell variety of petrochemicals.Petrochemicals (Sellers).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "USA Petrochemicals Suppliers, Manufacturers, Wholesalers and...",
+          "link": "https://www.go4worldbusiness.com/suppliers/united-states/petrochemicals.html",
+          "snippet": "Find Petrochemicals Suppliers. Get latest factory price for Petrochemicals. Request quotations and connect with USA manufacturers and B2B suppliers of Petrochemicals.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Petrochemicals Sellers, Petrochemicals Manufacturers...",
+          "link": "https://www.tradeboss.com/default.cgi/action/viewcompanies/manufacturers_exporters_wholesalers_sellers/petrochemicals/",
+          "snippet": "Petrochemicals Regular Sellers, Petrochemicals Manufacturers, Petrochemicals Exporters, Petrochemicals Wholesalers, Petrochemicals Distributors - Global B2B marketplace, portal. International Business",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sell Petrochemicals, find Petrochemicals sellers, free sell leads",
+          "link": "https://www.imexbb.com/sell-leads/petrochemicals",
+          "snippet": "Find Petrochemicals sellers and companies selling Petrochemicals. Do you sell Petrochemicals?Search leads by keyword: in Petrochemicals all Categories.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "EIL \u2013 Global Engineering Consultancy Offering Total Energy Solutions",
+          "link": "https://engineersindia.com/",
+          "snippet": "Overview. Dangote Refinery and Petrochemical Project.Engineering Consultancy for Petrochemicals Projects.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P3": {
+      "query": "search for petrochemical logistics service providers",
+      "level": "market_map",
+      "result_count": 6,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Petrochemicals | Van Moer Logistics",
+          "link": "https://vanmoer.com/industries/petrochemicals",
+          "snippet": "Petrochemicals Van Moer Logistics is a specialized service provider in the petrochemical industry, offering expert logistics solutions for the handling, storage, and transportation of petrochemical pr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Hazardous Chemical & Petrochemical Shipping Services | MSC",
+          "link": "https://www.msc.com/en/industries/chemicals-and-petrochemicals",
+          "snippet": "MSC provides customers with unrivalled care for all chemical & petrochemical shipments. Get a quote for our petrochemical shipping services today!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Petrochemical logistics and project transport | WR Logistics",
+          "link": "https://wr.group/industries/petrochemicals",
+          "snippet": "Logistics for petrochemical projects and operations WR Logistics provides logistics services for petrochemical projects, including construction, ongoing operations, and the handling of sensitive equip",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Chemical Logistics | Chemical Warehousing Solutions | DP World",
+          "link": "https://www.dpworld.com/en/industries/chemical-logistics",
+          "snippet": "Explore DP World's advanced chemical logistics solutions for petrochemicals and agri-chemicals, ensuring safe, reliable supply chains.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Transport solutions for chemicals and petrochemicals",
+          "link": "https://www.fslogistix.com/en/supply-chains/chemical-supply-chain.html",
+          "snippet": "Advanced logistics services for the transport of chemicals and petrochemicals, ensuring safety, regulatory compliance, and risk management.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Best Logistics & Transportation Company in EMEA | TRUKKER",
+          "link": "https://www.trukker.com/",
+          "snippet": "Petrochemicals logistics services.Smart Logistics Solutions, Built for Your Business. TruKKer logistics platform helping shippers book trucks and manage freight shipments. Ship with TruKKer.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Petrochemicals | Van Moer Logistics",
+          "link": "https://vanmoer.com/industries/petrochemicals",
+          "snippet": "Petrochemicals Van Moer Logistics is a specialized service provider in the petrochemical industry, offering expert logistics solutions for the handling, storage, and transportation of petrochemical pr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Hazardous Chemical & Petrochemical Shipping Services | MSC",
+          "link": "https://www.msc.com/en/industries/chemicals-and-petrochemicals",
+          "snippet": "MSC provides customers with unrivalled care for all chemical & petrochemical shipments. Get a quote for our petrochemical shipping services today!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Petrochemical logistics and project transport | WR Logistics",
+          "link": "https://wr.group/industries/petrochemicals",
+          "snippet": "Logistics for petrochemical projects and operations WR Logistics provides logistics services for petrochemical projects, including construction, ongoing operations, and the handling of sensitive equip",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Chemical Logistics | Chemical Warehousing Solutions | DP World",
+          "link": "https://www.dpworld.com/en/industries/chemical-logistics",
+          "snippet": "Explore DP World's advanced chemical logistics solutions for petrochemicals and agri-chemicals, ensuring safe, reliable supply chains.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Transport solutions for chemicals and petrochemicals",
+          "link": "https://www.fslogistix.com/en/supply-chains/chemical-supply-chain.html",
+          "snippet": "Advanced logistics services for the transport of chemicals and petrochemicals, ensuring safety, regulatory compliance, and risk management.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Best Logistics & Transportation Company in EMEA | TRUKKER",
+          "link": "https://www.trukker.com/",
+          "snippet": "Petrochemicals logistics services.Smart Logistics Solutions, Built for Your Business. TruKKer logistics platform helping shippers book trucks and manage freight shipments. Ship with TruKKer.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P4": {
+      "query": "find petrochemical market consultants",
+      "level": "market_map",
+      "result_count": 6,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "What are Petrochemicals? The Ultimate Guide | NES Fircroft",
+          "link": "https://www.nesfircroft.com/resources/blog/what-are-petrochemicals--the-ultimate-guide/",
+          "snippet": "Discover the ultimate guide to petrochemicals, including what they are, how they\u2019re produced, what they\u2019re used for and their economic value.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Petrochemicals Market Expected to Grow at 7.1% by 2032",
+          "link": "https://www.acutemarketreports.com/report/petrochemicals-market",
+          "snippet": "The petrochemicals market is expected to grow at a CAGR of 7.1% during the forecast period of 2026 to 2034, driven by the growing demand for petrochemical products, their significant role in the packa",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Petrochemicals Market Size, Share, Growth, Analysis, Report, 2034",
+          "link": "https://straitsresearch.com/report/petrochemicals-market",
+          "snippet": "Petrochemicals Market Size, Share & Trends Analysis Report By Product (Ethylene, Propylene, Butadiene, Benzene, Xylene, Toluene, Methanol) and By Region (North America, Europe, APAC, Middle East and A",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "EIL \u2013 Global Engineering Consultancy Offering Total Energy Solutions",
+          "link": "https://engineersindia.com/",
+          "snippet": "Engineering Consultancy for Petrochemicals Projects.Engineering Consultancy for Refinery Projects. Expanding GlobalPresence. Significant footprints in MENA Region.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Homepage | Technip Energies is a leading Engineering & Technology...",
+          "link": "https://www.ten.com/",
+          "snippet": "Aerial picture of Long Son Petrochemicals olefins plant in Vietnam, by night.Our comprehensive portfolio of products and services is designed to support clients at every stage of the project lifecycle",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The SATORP Platform: An Exceptional... | TotalEnergies.com",
+          "link": "https://totalenergies.com/company/projects/oil/satorp-refining-petrochemical-platform-saudi-arabia",
+          "snippet": "Find out all about SATORP, one of the most efficient integrated refining and petrochemical platforms in the world, operated by TotalEnergies and Saudi Aramco in Saudi.Refining and petrochemicals. Poly",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "What are Petrochemicals? The Ultimate Guide | NES Fircroft",
+          "link": "https://www.nesfircroft.com/resources/blog/what-are-petrochemicals--the-ultimate-guide/",
+          "snippet": "Discover the ultimate guide to petrochemicals, including what they are, how they\u2019re produced, what they\u2019re used for and their economic value.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Petrochemicals Market Expected to Grow at 7.1% by 2032",
+          "link": "https://www.acutemarketreports.com/report/petrochemicals-market",
+          "snippet": "The petrochemicals market is expected to grow at a CAGR of 7.1% during the forecast period of 2026 to 2034, driven by the growing demand for petrochemical products, their significant role in the packa",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Petrochemicals Market Size, Share, Growth, Analysis, Report, 2034",
+          "link": "https://straitsresearch.com/report/petrochemicals-market",
+          "snippet": "Petrochemicals Market Size, Share & Trends Analysis Report By Product (Ethylene, Propylene, Butadiene, Benzene, Xylene, Toluene, Methanol) and By Region (North America, Europe, APAC, Middle East and A",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "EIL \u2013 Global Engineering Consultancy Offering Total Energy Solutions",
+          "link": "https://engineersindia.com/",
+          "snippet": "Engineering Consultancy for Petrochemicals Projects.Engineering Consultancy for Refinery Projects. Expanding GlobalPresence. Significant footprints in MENA Region.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Homepage | Technip Energies is a leading Engineering & Technology...",
+          "link": "https://www.ten.com/",
+          "snippet": "Aerial picture of Long Son Petrochemicals olefins plant in Vietnam, by night.Our comprehensive portfolio of products and services is designed to support clients at every stage of the project lifecycle",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The SATORP Platform: An Exceptional... | TotalEnergies.com",
+          "link": "https://totalenergies.com/company/projects/oil/satorp-refining-petrochemical-platform-saudi-arabia",
+          "snippet": "Find out all about SATORP, one of the most efficient integrated refining and petrochemical platforms in the world, operated by TotalEnergies and Saudi Aramco in Saudi.Refining and petrochemicals. Poly",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P5": {
+      "query": "search for petrochemical system integrators",
+      "level": "market_map",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "System 800xA for PTT, Thailand's largest natural gas group",
+          "link": "https://new.abb.com/control-systems/industry-specific-solutions/oil-gas-and-petrochemicals/system-800xa-for-thailand's-largest-gas-group",
+          "snippet": "ABB\u2019s System 800xA-based PMS is designed specifically for the most energy-intensive sectors, including natural gas processing. It provides a common automation architecture for integrated system soluti",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "System 800xA for PTT, Thailand's largest natural gas group",
+          "link": "https://new.abb.com/control-systems/industry-specific-solutions/oil-gas-and-petrochemicals/system-800xa-for-thailand's-largest-gas-group",
+          "snippet": "ABB\u2019s System 800xA-based PMS is designed specifically for the most energy-intensive sectors, including natural gas processing. It provides a common automation architecture for integrated system soluti",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "find channel partners for petrochemical distribution",
+      "level": "market_map",
+      "result_count": 3,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Contact Us for Any Petrochemical Related Queries | Nayara Energy",
+          "link": "https://www.nayaraenergy.com/petrochemicals/contact-us",
+          "snippet": "Get in touch with Nayara Energy\u2019s Petrochemicals team - reach our Mumbai or Gujarat office, or email us for sales and technical support.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - Ducor Petrochemicals",
+          "link": "https://ducorchem.com/",
+          "snippet": "Ducor Petrochemicals specializes in the production of polypropylene, polyethylene and polyolefin products, for use in a wide range of applications, such as automotive parts, healthcare, electrical app",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alkim Petrochemicals Motor Oil | Lebanon 2026",
+          "link": "https://www.alkimpetrokimya.com/en/alkim-motor-oil-lebanon-2026/",
+          "snippet": "Interested distribution partners can reach our export team through our official contact channels to explore available territories and partnership structures. What support does Alkim Petrochemicals pro",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Contact Us for Any Petrochemical Related Queries | Nayara Energy",
+          "link": "https://www.nayaraenergy.com/petrochemicals/contact-us",
+          "snippet": "Get in touch with Nayara Energy\u2019s Petrochemicals team - reach our Mumbai or Gujarat office, or email us for sales and technical support.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - Ducor Petrochemicals",
+          "link": "https://ducorchem.com/",
+          "snippet": "Ducor Petrochemicals specializes in the production of polypropylene, polyethylene and polyolefin products, for use in a wide range of applications, such as automotive parts, healthcare, electrical app",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Alkim Petrochemicals Motor Oil | Lebanon 2026",
+          "link": "https://www.alkimpetrokimya.com/en/alkim-motor-oil-lebanon-2026/",
+          "snippet": "Interested distribution partners can reach our export team through our official contact channels to explore available territories and partnership structures. What support does Alkim Petrochemicals pro",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P7": {
+      "query": "petrochemical distributors near me",
+      "level": "market_map",
+      "result_count": 17,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Petrochemical - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Petrochemical",
+          "snippet": "Petrochemical plant in Saudi Arabia Petrochemicals (sometimes abbreviated as petchems[1]) are the chemical products obtained \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What are Petrochemicals? Definition, Uses, and Examples",
+          "link": "https://www.hseblog.com/petrochemicals/",
+          "snippet": "Feb 24, 2025 \u00b7 What are Petrochemicals? Petrochemicals are chemical substances obtained from petroleum (crude oil) and natural \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Best Practice Petrochemical Guide for Industrial Excellence",
+          "link": "https://www.petrosync.com/blog/what-is-petrochemical/",
+          "snippet": "May 31, 2026 \u00b7 Discover what petrochemicals are, their key products, and how they power essential industries like plastics, energy, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Petrochemicals - BASF",
+          "link": "https://chemicals.basf.com/global/en/Petrochemicals",
+          "snippet": "Products such as ethylene, propylene, butadiene and benzene are produced in steam crackers from naphtha or natural gas. Using \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What are Petrochemicals? The Ultimate Guide | NES Fircroft",
+          "link": "https://www.nesfircroft.com/resources/blog/what-are-petrochemicals--the-ultimate-guide/",
+          "snippet": "Dec 17, 2024 \u00b7 Discover the ultimate guide to petrochemicals, including what they are, how they\u2019re produced, what they\u2019re used for \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Explore Nayara Energy's Petrochemicals Solutions",
+          "link": "https://www.nayaraenergy.com/petrochemicals",
+          "snippet": "Explore Nayara Energy\u2019s petrochemical products and solutions. Discover our range of high-quality, innovative petrochemical offerings for diverse industries.Petrol Pump Near Me.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Petrochemicals distributors from around the world chemeurope.com",
+          "link": "https://www.chemeurope.com/en/companies/petrochemicals/distributor/order_tf/",
+          "snippet": "The business directory for petrochemicals distributors All distributors incl. products, news & contact information Find suppliers now! AP Chemicals NV is a corporation specialised in chemical trading,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Petrochemicals - Parchem",
+          "link": "https://parchem.com/product-specialty-chemicals-catalog/petrochemical-products-supplier/petrochemicals-and-petrochemical-feedstock-distributor",
+          "snippet": "Supplier of petrochemical chemicals for industrial manufacturing, polymers, coatings, and energy applications. Full portfolio of solvents, monomers, and specialty hydrocarbons.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Chemit Petrochemicals",
+          "link": "https://chemit-petrochemicals.com/",
+          "snippet": "Chemit Petrochemical is a leader in the distribution of specialty chemicals and petrochemicals. We are one of the professional chemical and petrochemicals distribution company focused on serving the s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Petrochemicals Suppliers - Thomasnet",
+          "link": "https://www.thomasnet.com/suppliers/usa/petrochemicals-57725004",
+          "snippet": "Distributor and manufacturer of retail gasoline, lubricants & oils, and petrochemicals. Types of lubricants & oils available include biodegradable, chain, fire resistant, high pressure, high and low t",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Petrochemicals | Hindustan Petroleum Corporation Limited",
+          "link": "https://www.hindustanpetroleum.com/hp-petrochemicals",
+          "snippet": "The customer touch points constitute 23,747 Retail Outlets, 1,638 SKO/LDO dealers, 551 Lube distributors ... Connectivity to Major Cities: Located near ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Petrochemicals Chemical Manufacturers in Pune, Maharashtra",
+          "link": "https://www.nutanchemical.com/petrochemicals-chemical.php",
+          "snippet": "We are among the noted organization engaged in manufacturing and supplying a wide range of Petrochemicals. This chemical is processed using premium quality ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lanka IOC | World-Class Petroleum Products in Sri Lanka",
+          "link": "https://www.lankaioc.com/",
+          "snippet": "Petrochemicals. High-quality chemical building blocks that power industrial innovation and diverse manufacturing sectors.Find Your Nearest Lanka IOC Station. Locate fuel stations, check services, and ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "RXCHEMICALS: Chemicals Solvent Powder supplier Import-Export in...",
+          "link": "https://rxchemicals.com/tags/petrochemicals-distributor",
+          "snippet": "Petrochemicals (otherwise called oil distillates) are substance items got from oil. Some substance mixes produced using oil are additionally acquired from other non-renewable energy sources, for examp",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Machem - Chemicals supplier & distributor in Mumbai, India - High ...",
+          "link": "https://machemindia.com/",
+          "snippet": "Machem - Petrochemical Supplier in Mumbai Machem is a petrochemical trading company based in Mumbai, India. It is run by a team of professionals that have extensive experience and are specialized in t",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "India's Leading Producers of Fertilizers & Industrial Chemicals",
+          "link": "https://www.dfpcl.com/",
+          "snippet": "ABOUT US Deepak Fertilisers and Petrochemicals Corporation Ltd. (DFPCL) is among India's leading producers of fertilizers and industrial chemicals. Set up in 1979 as an Ammonia manufacturer, DFPCL tod",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Industrial Chemical Supplier Chennai | Supreme Petro Chemicals",
+          "link": "https://www.supremepetrochemicals.com/",
+          "snippet": "The chemistrybehind your rubber. Leading importers and distributors of 250+ industrial chemicals, solvents, and specialty compounds across South India.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Petrochemical - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Petrochemical",
+          "snippet": "Petrochemical plant in Saudi Arabia Petrochemicals (sometimes abbreviated as petchems[1]) are the chemical products obtained \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What are Petrochemicals? Definition, Uses, and Examples",
+          "link": "https://www.hseblog.com/petrochemicals/",
+          "snippet": "Feb 24, 2025 \u00b7 What are Petrochemicals? Petrochemicals are chemical substances obtained from petroleum (crude oil) and natural \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Best Practice Petrochemical Guide for Industrial Excellence",
+          "link": "https://www.petrosync.com/blog/what-is-petrochemical/",
+          "snippet": "May 31, 2026 \u00b7 Discover what petrochemicals are, their key products, and how they power essential industries like plastics, energy, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Petrochemicals - BASF",
+          "link": "https://chemicals.basf.com/global/en/Petrochemicals",
+          "snippet": "Products such as ethylene, propylene, butadiene and benzene are produced in steam crackers from naphtha or natural gas. Using \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What are Petrochemicals? The Ultimate Guide | NES Fircroft",
+          "link": "https://www.nesfircroft.com/resources/blog/what-are-petrochemicals--the-ultimate-guide/",
+          "snippet": "Dec 17, 2024 \u00b7 Discover the ultimate guide to petrochemicals, including what they are, how they\u2019re produced, what they\u2019re used for \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Explore Nayara Energy's Petrochemicals Solutions",
+          "link": "https://www.nayaraenergy.com/petrochemicals",
+          "snippet": "Explore Nayara Energy\u2019s petrochemical products and solutions. Discover our range of high-quality, innovative petrochemical offerings for diverse industries.Petrol Pump Near Me.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Petrochemicals distributors from around the world chemeurope.com",
+          "link": "https://www.chemeurope.com/en/companies/petrochemicals/distributor/order_tf/",
+          "snippet": "The business directory for petrochemicals distributors All distributors incl. products, news & contact information Find suppliers now! AP Chemicals NV is a corporation specialised in chemical trading,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Petrochemicals - Parchem",
+          "link": "https://parchem.com/product-specialty-chemicals-catalog/petrochemical-products-supplier/petrochemicals-and-petrochemical-feedstock-distributor",
+          "snippet": "Supplier of petrochemical chemicals for industrial manufacturing, polymers, coatings, and energy applications. Full portfolio of solvents, monomers, and specialty hydrocarbons.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Chemit Petrochemicals",
+          "link": "https://chemit-petrochemicals.com/",
+          "snippet": "Chemit Petrochemical is a leader in the distribution of specialty chemicals and petrochemicals. We are one of the professional chemical and petrochemicals distribution company focused on serving the s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Petrochemicals Suppliers - Thomasnet",
+          "link": "https://www.thomasnet.com/suppliers/usa/petrochemicals-57725004",
+          "snippet": "Distributor and manufacturer of retail gasoline, lubricants & oils, and petrochemicals. Types of lubricants & oils available include biodegradable, chain, fire resistant, high pressure, high and low t",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Petrochemicals | Hindustan Petroleum Corporation Limited",
+          "link": "https://www.hindustanpetroleum.com/hp-petrochemicals",
+          "snippet": "The customer touch points constitute 23,747 Retail Outlets, 1,638 SKO/LDO dealers, 551 Lube distributors ... Connectivity to Major Cities: Located near ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Petrochemicals Chemical Manufacturers in Pune, Maharashtra",
+          "link": "https://www.nutanchemical.com/petrochemicals-chemical.php",
+          "snippet": "We are among the noted organization engaged in manufacturing and supplying a wide range of Petrochemicals. This chemical is processed using premium quality ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Lanka IOC | World-Class Petroleum Products in Sri Lanka",
+          "link": "https://www.lankaioc.com/",
+          "snippet": "Petrochemicals. High-quality chemical building blocks that power industrial innovation and diverse manufacturing sectors.Find Your Nearest Lanka IOC Station. Locate fuel stations, check services, and ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "RXCHEMICALS: Chemicals Solvent Powder supplier Import-Export in...",
+          "link": "https://rxchemicals.com/tags/petrochemicals-distributor",
+          "snippet": "Petrochemicals (otherwise called oil distillates) are substance items got from oil. Some substance mixes produced using oil are additionally acquired from other non-renewable energy sources, for examp",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Machem - Chemicals supplier & distributor in Mumbai, India - High ...",
+          "link": "https://machemindia.com/",
+          "snippet": "Machem - Petrochemical Supplier in Mumbai Machem is a petrochemical trading company based in Mumbai, India. It is run by a team of professionals that have extensive experience and are specialized in t",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "India's Leading Producers of Fertilizers & Industrial Chemicals",
+          "link": "https://www.dfpcl.com/",
+          "snippet": "ABOUT US Deepak Fertilisers and Petrochemicals Corporation Ltd. (DFPCL) is among India's leading producers of fertilizers and industrial chemicals. Set up in 1979 as an Ammonia manufacturer, DFPCL tod",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Industrial Chemical Supplier Chennai | Supreme Petro Chemicals",
+          "link": "https://www.supremepetrochemicals.com/",
+          "snippet": "The chemistrybehind your rubber. Leading importers and distributors of 250+ industrial chemicals, solvents, and specialty compounds across South India.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

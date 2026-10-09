@@ -1,0 +1,1211 @@
+{
+  "phase": 2,
+  "phase2_mode": "fast",
+  "query": "Memantine Market",
+  "mock_mode": false,
+  "completed_at": "2026-07-24T05:47:00.335743+00:00",
+  "scope": {
+    "market": "Memantine",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "pharmaceutical distribution",
+    "industry_terms": [
+      "Memantine",
+      "Alzheimer's treatment",
+      "pharmaceutical distribution",
+      "drug wholesalers",
+      "healthcare services"
+    ],
+    "ecosystem_functions": [
+      "distributing Memantine",
+      "wholesaling Memantine",
+      "reselling Memantine",
+      "integrating Memantine solutions",
+      "providing services for Memantine",
+      "partnering in Memantine distribution"
+    ],
+    "interpretation_summary": "The Memantine market involves the distribution and sale of Memantine, a medication primarily used to treat Alzheimer's disease. Participants include pharmaceutical manufacturers, distributors, wholesalers, and various ch",
+    "relevance_keywords": [
+      "Memantine distribution",
+      "pharmaceutical supply chain",
+      "Alzheimer's medication",
+      "drug wholesalers",
+      "healthcare distribution"
+    ],
+    "negative_keywords": [
+      "over-the-counter",
+      "retail pharmacy",
+      "clinical trials",
+      "generic drugs",
+      "non-prescription"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "McKesson",
+        "primary_domain": "mckesson.com",
+        "company_function": "pharmaceutical distributor"
+      },
+      {
+        "canonical_name": "Cardinal Health",
+        "primary_domain": "cardinalhealth.com",
+        "company_function": "healthcare services and distribution"
+      },
+      {
+        "canonical_name": "AmerisourceBergen",
+        "primary_domain": "amerisourcebergen.com",
+        "company_function": "pharmaceutical wholesaler"
+      },
+      {
+        "canonical_name": "CuraScript SD",
+        "primary_domain": "curascriptsd.com",
+        "company_function": "specialty pharmaceutical distributor"
+      },
+      {
+        "canonical_name": "Walgreens Boots Alliance",
+        "primary_domain": "walgreensbootsalliance.com",
+        "company_function": "pharmacy and healthcare services"
+      },
+      {
+        "canonical_name": "Express Scripts",
+        "primary_domain": "express-scripts.com",
+        "company_function": "pharmacy benefit manager and distributor"
+      },
+      {
+        "canonical_name": "OptumRx",
+        "primary_domain": "optumrx.com",
+        "company_function": "pharmacy care services and distribution"
+      },
+      {
+        "canonical_name": "AllianceRx Walgreens Prime",
+        "primary_domain": "alliancerx.com",
+        "company_function": "pharmacy and specialty distribution"
+      }
+    ],
+    "search_topic": "Memantine",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "Memantine",
+    "include_keywords": [
+      "Memantine distributors",
+      "Memantine wholesalers",
+      "Memantine resellers",
+      "Memantine service providers",
+      "pharmaceutical channel partners"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The Memantine market involves the distribution and sale of Memantine, a medication primarily used to treat Alzheimer's disease. Participants include pharmaceutical manufacturers, distributors, wholesalers, and various channel partners operating globally.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Distribution",
+        "description": "This layer involves the distribution of Memantine through various channel partners.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Pharmaceutical Distributors",
+              "Specialty Distributors"
+            ],
+            "participant_types": [
+              "distributor"
+            ],
+            "search_intents": [
+              "Memantine distributors",
+              "pharmaceutical distributors for Memantine"
+            ]
+          },
+          {
+            "segment_name": "Wholesalers",
+            "sub_segments": [
+              "National Wholesalers",
+              "Regional Wholesalers"
+            ],
+            "participant_types": [
+              "wholesaler"
+            ],
+            "search_intents": [
+              "Memantine wholesalers",
+              "wholesale suppliers of Memantine"
+            ]
+          },
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Online Resellers",
+              "Pharmacy Resellers"
+            ],
+            "participant_types": [
+              "reseller"
+            ],
+            "search_intents": [
+              "Memantine resellers",
+              "buy Memantine from resellers"
+            ]
+          },
+          {
+            "segment_name": "Service Providers",
+            "sub_segments": [
+              "Healthcare Service Providers",
+              "Pharmaceutical Service Providers"
+            ],
+            "participant_types": [
+              "service provider"
+            ],
+            "search_intents": [
+              "Memantine service providers",
+              "services for Memantine distribution"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "API Manufacturers",
+        "Retail Pharmacies",
+        "Clinical Research Organizations",
+        "Pharmaceutical Manufacturers"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "search for Memantine distributors",
+        "sub_sector": "distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "find Memantine wholesalers",
+        "sub_sector": "wholesaler",
+        "layer_id": "L1",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "look for Memantine resellers",
+        "sub_sector": "reseller",
+        "layer_id": "L1",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "search for Memantine service providers",
+        "sub_sector": "service_provider",
+        "layer_id": "L1",
+        "segment": "Service Providers"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "phase1_plan_path": "D:\\vendor-intel\\output\\phase1\\phase1_plan_memantine_global.json",
+  "companies": [
+    {
+      "name": "Drugs",
+      "domain": "drugs.com",
+      "discovery_source": "ddgs_bing+ddgs_yandex+searxng",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Webmd",
+      "domain": "webmd.com",
+      "discovery_source": "ddgs_bing+searxng",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Rxlist",
+      "domain": "rxlist.com",
+      "discovery_source": "ddgs_bing+searxng",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Pharmacompass",
+      "domain": "pharmacompass.com",
+      "discovery_source": "ddgs_bing+ddgs_brave",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Apicule",
+      "domain": "apicule.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Nhathuoclongchau",
+      "domain": "nhathuoclongchau.com.vn",
+      "discovery_source": "searxng",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Pharmacity",
+      "domain": "pharmacity.vn",
+      "discovery_source": "searxng",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Reference",
+      "domain": "reference.medscape.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Chemicalbook",
+      "domain": "chemicalbook.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Synzeal",
+      "domain": "synzeal.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Selfhacked",
+      "domain": "selfhacked.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "contract_manufacturer"
+    },
+    {
+      "name": "Manusaktteva",
+      "domain": "manusaktteva.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Medicinenet",
+      "domain": "medicinenet.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "contract_manufacturer"
+    },
+    {
+      "name": "Tajapi",
+      "domain": "tajapi.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Upsher Smith",
+      "domain": "upsher-smith.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Walgreensbootsalliance",
+      "domain": "walgreensbootsalliance.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Pharmaffiliates",
+      "domain": "pharmaffiliates.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Pipeline Pharma",
+      "domain": "pipelinepharma.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Vionausa",
+      "domain": "vionausa.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Goodrx",
+      "domain": "goodrx.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Taj Pharma",
+      "domain": "tajpharma.in",
+      "discovery_source": "ddgs_bing",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Tocris",
+      "domain": "tocris.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "contract_manufacturer"
+    },
+    {
+      "name": "Alliancerx",
+      "domain": "alliancerx.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "AmerisourceBergen",
+      "domain": "amerisourcebergen.com",
+      "discovery_source": "registry",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Camber Pharma",
+      "domain": "camberpharma.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Cardinalhealth",
+      "domain": "cardinalhealth.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Curascriptsd",
+      "domain": "curascriptsd.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Gnhindia",
+      "domain": "gnhindia.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Harborcompliance",
+      "domain": "harborcompliance.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Lgm Pharma",
+      "domain": "lgmpharma.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "contract_manufacturer"
+    },
+    {
+      "name": "McKesson",
+      "domain": "mckesson.com",
+      "discovery_source": "registry",
+      "company_function": "vendor"
+    },
+    {
+      "name": "OptumRx",
+      "domain": "optumrx.com",
+      "discovery_source": "registry",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Parchem",
+      "domain": "parchem.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Supermindhacker",
+      "domain": "supermindhacker.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Actiza Pharma",
+      "domain": "actizapharma.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Biospace",
+      "domain": "biospace.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Boxed",
+      "domain": "boxed.com",
+      "discovery_source": "searxng",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Calculator",
+      "domain": "calculator.io",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Crescent Pharma",
+      "domain": "crescentpharma.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Doctronic",
+      "domain": "doctronic.ai",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Drugpatentwatch",
+      "domain": "drugpatentwatch.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Enomark Pharma",
+      "domain": "enomarkpharma.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Guidechem",
+      "domain": "guidechem.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Hauser",
+      "domain": "hauserpharmaceutical.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Ipca",
+      "domain": "ipca.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Lookchem",
+      "domain": "lookchem.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Neurolaunch",
+      "domain": "neurolaunch.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Salvavidas Pharma",
+      "domain": "salvavidaspharma.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Tecoland",
+      "domain": "tecoland.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Ukchemicalsuppliers",
+      "domain": "ukchemicalsuppliers.co.uk",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Unix Pharma",
+      "domain": "unix-pharma.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "contract_manufacturer"
+    },
+    {
+      "name": "Zyduslife",
+      "domain": "zyduslife.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Aartidrugs",
+      "domain": "aartidrugs.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Abpl",
+      "domain": "abpl.co.in",
+      "discovery_source": "ddgs_brave",
+      "company_function": "contract_manufacturer"
+    },
+    {
+      "name": "Adragos Pharma",
+      "domain": "adragos-pharma.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Adroitix",
+      "domain": "adroitix.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Akriti Pharma",
+      "domain": "akritipharma.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Akums",
+      "domain": "akums.in",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Alembic",
+      "domain": "alembicpharmaceuticals.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Altasciences",
+      "domain": "altasciences.com",
+      "discovery_source": "ddgs_brave",
+      "company_function": "contract_manufacturer"
+    },
+    {
+      "name": "Alzheimer's Association",
+      "domain": "alz.org",
+      "discovery_source": "searxng",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Amryt Pharma",
+      "domain": "amrytpharma.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Angiplast",
+      "domain": "angiplast.in",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Api Data",
+      "domain": "api-data.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Apmida Pharma",
+      "domain": "apmidapharma.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Applepackprocess",
+      "domain": "applepackprocess.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Asterclinic",
+      "domain": "asterclinic.ae",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Aurobindo",
+      "domain": "aurobindo.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Bentleydrugs",
+      "domain": "bentleydrugs.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Blackjaguarglobal",
+      "domain": "blackjaguarglobal.in",
+      "discovery_source": "ddgs_bing",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Body Pharmltd",
+      "domain": "body-pharmltd.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Boracdmo",
+      "domain": "boracdmo.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "contract_manufacturer"
+    },
+    {
+      "name": "Business",
+      "domain": "business.optum.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Buywholefoodsonline",
+      "domain": "buywholefoodsonline.co.uk",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Canamericaplus",
+      "domain": "canamericaplus.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Carbogen Amcis",
+      "domain": "carbogen-amcis.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "contract_manufacturer"
+    },
+    {
+      "name": "Centaur Pharma",
+      "domain": "centaurpharma.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Cerata Pharma",
+      "domain": "ceratapharma.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Ceyonelifesciences",
+      "domain": "ceyonelifesciences.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Checkertr",
+      "domain": "checkertr.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Chemcopia",
+      "domain": "chemcopia.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Chr Olesen",
+      "domain": "chr-olesen.dk",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Cnbctv18",
+      "domain": "cnbctv18.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Comecer",
+      "domain": "comecer.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Complisolutions",
+      "domain": "complisolutions.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Daffohils",
+      "domain": "daffohils.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Datainsightsmarket",
+      "domain": "datainsightsmarket.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Drugzone",
+      "domain": "drugzone.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "E Biochem",
+      "domain": "ebiochem.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Echemi",
+      "domain": "echemi.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Entrepreneurindia",
+      "domain": "entrepreneurindia.co",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Farmson",
+      "domain": "farmson.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Florenciahealthcare",
+      "domain": "florenciahealthcare.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Fosl",
+      "domain": "fosl.in",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Fox5atlanta",
+      "domain": "fox5atlanta.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Freseniusmedicalcare",
+      "domain": "freseniusmedicalcare.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Glenmark Pharma",
+      "domain": "glenmarkpharma.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Gmpplus",
+      "domain": "gmpplus.org",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Growthkul",
+      "domain": "growthkul.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Healthy Pharma",
+      "domain": "healthypharma.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Hellofapartner",
+      "domain": "hellofapartner.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Hetero",
+      "domain": "hetero.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Hitechmach",
+      "domain": "hitechmach.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Jdec",
+      "domain": "jdec.in",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Kamrit",
+      "domain": "kamrit.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Keronlifesciences",
+      "domain": "keronlifesciences.co.in",
+      "discovery_source": "ddgs_bing",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Labialfarma",
+      "domain": "labialfarma.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "contract_manufacturer"
+    },
+    {
+      "name": "Lannett",
+      "domain": "lannett.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Latitude Pharma",
+      "domain": "latitudepharma.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Lavoisier",
+      "domain": "lavoisier.com",
+      "discovery_source": "ddgs_brave",
+      "company_function": "contract_manufacturer"
+    },
+    {
+      "name": "Legaldalal",
+      "domain": "legaldalal.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Lifecareneuro",
+      "domain": "lifecareneuro.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Mankind Pharma",
+      "domain": "mankindpharma.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "contract_manufacturer"
+    },
+    {
+      "name": "Margbooks",
+      "domain": "margbooks.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Medica Pharma",
+      "domain": "www.medicapharma.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer",
+      "domain_corrected_from": "medicapharma.com"
+    },
+    {
+      "name": "Medicef Pharma",
+      "domain": "medicefpharma.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Merck",
+      "domain": "merck.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Merithealthcare",
+      "domain": "merithealthcare.co.in",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Migraineagain",
+      "domain": "migraineagain.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Minutkoclinic",
+      "domain": "minutkoclinic.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Missioncdmo",
+      "domain": "missioncdmo.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "contract_manufacturer"
+    },
+    {
+      "name": "Nb Pharm",
+      "domain": "nbpharm.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Openai",
+      "domain": "openai.com",
+      "discovery_source": "searxng",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Optimus Pharma",
+      "domain": "optimuspharma.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Patient",
+      "domain": "patient.info",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Pfizer",
+      "domain": "pfizer.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Pfizercentreone",
+      "domain": "pfizercentreone.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "contract_manufacturer"
+    },
+    {
+      "name": "Pharmaceutics",
+      "domain": "pharmaceutics.annualcongress.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Pharmafocusasia",
+      "domain": "pharmafocusasia.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Pharmateca",
+      "domain": "pharmateca.ru",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Prudence Pharma",
+      "domain": "prudencepharma.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Pyxus",
+      "domain": "pyxuspharmaceuticals.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Rlsnet",
+      "domain": "rlsnet.ru",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Rommelag",
+      "domain": "rommelag.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "contract_manufacturer"
+    },
+    {
+      "name": "Rxabbvie",
+      "domain": "rxabbvie.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Specialitymedz",
+      "domain": "specialitymedz.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Sun Pharma",
+      "domain": "sunpharma.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Synapse",
+      "domain": "synapse.patsnap.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Tajdrug",
+      "domain": "tajdrug.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Tapanray",
+      "domain": "tapanray.in",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Towardshealthcare",
+      "domain": "towardshealthcare.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Vasudhalifescience",
+      "domain": "vasudhalifescience.com",
+      "discovery_source": "ddgs_brave",
+      "company_function": "contract_manufacturer"
+    },
+    {
+      "name": "Vidal",
+      "domain": "vidal.ru",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Wanleygroup",
+      "domain": "wanleygroup.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Webof Pharma",
+      "domain": "webofpharma.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Wikidata",
+      "domain": "wikidata.org",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Windlas",
+      "domain": "windlas.com",
+      "discovery_source": "ddgs_brave",
+      "company_function": "contract_manufacturer"
+    },
+    {
+      "name": "Zentiva",
+      "domain": "zentiva.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Zeropainphilosophy",
+      "domain": "zeropainphilosophy.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "wholesaler"
+    }
+  ],
+  "company_count": 149,
+  "discovery_stats": {
+    "raw_hits": 495,
+    "unique_names": 167,
+    "by_prompt_id": {
+      "D1": 7,
+      "D1b": 7,
+      "D2": 6,
+      "D2b": 17,
+      "D3": 8,
+      "D3b": 6,
+      "D4": 7,
+      "D4b": 4,
+      "D6": 5,
+      "D7": 2,
+      "D8": 2,
+      "D8b": 2,
+      "HX0_dist": 11,
+      "HX0_expo": 9,
+      "HX0_manu": 12,
+      "HX0_whol": 16,
+      "HX1_cdmo": 3,
+      "HX1_dist": 19,
+      "HX1_expo": 6,
+      "HX1_manu": 12,
+      "HX1_whol": 9,
+      "HX2_cdmo": 1,
+      "L0": 11,
+      "L1": 10,
+      "L2": 10,
+      "M1": 4,
+      "M1_biot": 7,
+      "M1_cont": 8,
+      "M2": 4,
+      "M3": 6,
+      "M4": 9,
+      "MUP2": 4,
+      "MUP3": 5,
+      "P1": 14,
+      "P10": 7,
+      "P11": 7,
+      "P12": 1,
+      "P2": 8,
+      "P3": 13,
+      "P4": 11,
+      "P5": 6,
+      "P6": 8,
+      "P7": 10,
+      "P8": 6,
+      "P9": 9,
+      "SEED": 8,
+      "SEED2": 8,
+      "SEED3": 8,
+      "ST1": 3,
+      "ST2": 8,
+      "ST3": 1,
+      "ST4": 2,
+      "ST5": 4,
+      "ST6": 1,
+      "ST_L1_1": 14,
+      "ST_L1_2": 10,
+      "ST_L1_3": 16,
+      "ST_L1_4": 9,
+      "T3a": 1,
+      "T3b": 1,
+      "T4a": 1,
+      "T4b": 1,
+      "V6": 6,
+      "V7": 4,
+      "V8": 7,
+      "VX1": 7,
+      "VX2": 6,
+      "W1": 6,
+      "W2": 14
+    },
+    "by_funnel_level": {
+      "L0": 35,
+      "L1": 10,
+      "L2": 10,
+      "discovery": 440
+    },
+    "widen_loops": 3
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ]
+}

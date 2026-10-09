@@ -1,0 +1,1314 @@
+{
+  "phase": 1,
+  "query": "Composite Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T21:26:21.427611+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "composite materials",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "composites",
+    "industry_terms": [
+      "composite materials",
+      "fiber-reinforced composites",
+      "thermosetting resins",
+      "thermoplastics",
+      "sandwich panels"
+    ],
+    "ecosystem_functions": [
+      "distributing composite materials",
+      "wholesaling composite products",
+      "reselling composite solutions",
+      "integrating composites into systems",
+      "providing technical services",
+      "consulting on composite applications"
+    ],
+    "interpretation_summary": "The composite market encompasses materials made from two or more constituent materials with significantly different physical or chemical properties. Participants include manufacturers, distributors, and service providers",
+    "relevance_keywords": [
+      "composite supply chain",
+      "composite distribution network",
+      "composite integration services",
+      "composite product suppliers",
+      "composite material solutions"
+    ],
+    "negative_keywords": [
+      "news",
+      "jobs",
+      "reports",
+      "consulting",
+      "unrelated industries"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "Hexcel",
+        "primary_domain": "hexcel.com",
+        "company_function": "manufacturer and distributor of composite materials"
+      },
+      {
+        "canonical_name": "Toray Industries",
+        "primary_domain": "toray.com",
+        "company_function": "supplier of advanced composite materials"
+      },
+      {
+        "canonical_name": "SABIC",
+        "primary_domain": "sabic.com",
+        "company_function": "provider of composite solutions"
+      },
+      {
+        "canonical_name": "3M",
+        "primary_domain": "3m.com",
+        "company_function": "integrator and supplier of composite materials"
+      },
+      {
+        "canonical_name": "Solvay",
+        "primary_domain": "solvay.com",
+        "company_function": "provider of composite materials and services"
+      },
+      {
+        "canonical_name": "BASF",
+        "primary_domain": "basf.com",
+        "company_function": "distributor of composite materials"
+      },
+      {
+        "canonical_name": "Mitsubishi Chemical",
+        "primary_domain": "mitsubishichemical.com",
+        "company_function": "supplier of composite materials"
+      },
+      {
+        "canonical_name": "Owens Corning",
+        "primary_domain": "owenscorning.com",
+        "company_function": "provider of composite solutions"
+      },
+      {
+        "canonical_name": "Hexion",
+        "primary_domain": "hexion.com",
+        "company_function": "integrator of composite materials",
+        "segment": "System Integrators",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Avery Dennison",
+        "primary_domain": "averydennison.com",
+        "company_function": "service provider for composite materials",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Teijin Limited",
+        "primary_domain": "teijin.com",
+        "company_function": "distributor of composite materials",
+        "segment": "Distributors",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Sika AG",
+        "primary_domain": "sika.com",
+        "company_function": "wholesaler of composite materials",
+        "segment": "Wholesalers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "DuPont",
+        "primary_domain": "dupont.com",
+        "company_function": "reseller of composite solutions",
+        "segment": "Resellers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Parker Hannifin",
+        "primary_domain": "parker.com",
+        "company_function": "system integrator for composites",
+        "segment": "System Integrators",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "composite materials",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "composite materials",
+    "include_keywords": [
+      "composite distributors",
+      "composite wholesalers",
+      "composite resellers",
+      "system integration for composites",
+      "composite service providers"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The composite market encompasses materials made from two or more constituent materials with significantly different physical or chemical properties. Participants include manufacturers, distributors, and service providers who operate globally to supply various industries such as aerospace, automotive, and construction.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Distribution",
+        "description": "This layer involves the distribution of composite materials and products to various sectors.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Regional Distributors",
+              "Global Distributors"
+            ],
+            "participant_types": [
+              "distributor",
+              "wholesaler"
+            ],
+            "search_intents": [
+              "composite material distributors",
+              "global composite distributors"
+            ]
+          },
+          {
+            "segment_name": "Wholesalers",
+            "sub_segments": [
+              "Industrial Wholesalers",
+              "Specialty Wholesalers"
+            ],
+            "participant_types": [
+              "wholesaler",
+              "reseller"
+            ],
+            "search_intents": [
+              "composite material wholesalers",
+              "wholesale composite suppliers"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L2",
+        "layer_name": "Integration Services",
+        "description": "This layer includes companies that integrate composite materials into final products or systems.",
+        "segments": [
+          {
+            "segment_name": "System Integrators",
+            "sub_segments": [
+              "Aerospace Integrators",
+              "Automotive Integrators"
+            ],
+            "participant_types": [
+              "system integrator",
+              "service provider"
+            ],
+            "search_intents": [
+              "composite system integrators",
+              "integrators for composite materials"
+            ]
+          },
+          {
+            "segment_name": "Service Providers",
+            "sub_segments": [
+              "Consulting Services",
+              "Technical Support"
+            ],
+            "participant_types": [
+              "service provider",
+              "channel partner"
+            ],
+            "search_intents": [
+              "composite material service providers",
+              "technical support for composites"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Raw Material Suppliers",
+        "Manufacturers",
+        "End Users",
+        "Research Institutions"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "search for composite material distributors",
+        "sub_sector": "distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "find wholesale suppliers of composite materials",
+        "sub_sector": "wholesaler",
+        "layer_id": "L1",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "search for system integrators for composite materials",
+        "sub_sector": "system_integrator",
+        "layer_id": "L2",
+        "segment": "System Integrators"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "find service providers for composite materials",
+        "sub_sector": "service_provider",
+        "layer_id": "L2",
+        "segment": "Service Providers"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "composites",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "composite materials companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "composite distributors corporate sites"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "composite system integrators official site"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "discovery",
+      "text": "composite material distributors official website"
+    },
+    {
+      "id": "P2",
+      "level": "discovery",
+      "text": "composite wholesalers corporate headquarters"
+    },
+    {
+      "id": "P3",
+      "level": "discovery",
+      "text": "composite resellers corporate site"
+    },
+    {
+      "id": "P4",
+      "level": "discovery",
+      "text": "composite service providers corporate profile"
+    },
+    {
+      "id": "P5",
+      "level": "discovery",
+      "text": "composite channel partners official site"
+    },
+    {
+      "id": "P6",
+      "level": "discovery",
+      "text": "composite distribution network corporate website"
+    },
+    {
+      "id": "P7",
+      "level": "discovery",
+      "text": "composite integration services official site"
+    },
+    {
+      "id": "P8",
+      "level": "discovery",
+      "text": "authorized composite materials distributor firm official"
+    },
+    {
+      "id": "P9",
+      "level": "discovery",
+      "text": "composite materials reseller channel partner official"
+    },
+    {
+      "id": "P10",
+      "level": "discovery",
+      "text": "composite materials system integrator official website"
+    },
+    {
+      "id": "P11",
+      "level": "discovery",
+      "text": "composite materials service provider official website"
+    },
+    {
+      "id": "P12",
+      "level": "discovery",
+      "text": "composite materials consulting partner implementation official"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "composite materials companies official websites",
+      "level": "L0",
+      "result_count": 14,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "10 New Composite Materials Companies | StartUs Insights",
+          "link": "https://www.startus-insights.com/innovators-guide/new-composite-materials-companies/",
+          "snippet": "This article explores 10 composite materials companies advancing industries with innovative technologies and applications.Profiles of 10 Emerging Composite Materials Companies. How to Scout New Compos",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 21 composite materials companies in the United States | Cerco.ai",
+          "link": "https://insights.cerco.ai/companies/top-21-composite-materials-companies",
+          "snippet": "The United States hosts a robust collection of leading composite materials companies, key players in industries from aerospace to automotive. In Oregon, Composite Creations, Inc. excels in carbon fibe",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Composite Materials companies from around the world...",
+          "link": "https://www.chemeurope.com/en/companies/composite-materials/order_t/",
+          "snippet": "The business directory for composite materials companies All companies incl. products, news & contact information Find suppliers now! Tip: Select a quick entry below to view selected composite materia",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "List of composite materials companies | 10 results | Golden",
+          "link": "https://golden.com/query/list-of-composite-materials-companies-YJM94",
+          "snippet": "Official Website. Location. Exel Composites.Finnish technology company that designs, manufactures and markets composite profiles and tubes for industrial applications.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Toray Composite Materials America, Inc. - U.S.A. | Airframer",
+          "link": "https://www.airframer.com/direct_detail.html?company=120938",
+          "snippet": "Related companies. Composite Materials Italy (CIT) - Toray Group - Italy. Epoxy Resins, Carbon Tape, Prepreg, Aramid-reinforced Composites. Toray Advanced Composites - U.K.Other companies with similar",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Composite Materials companies from around the world bionity.com",
+          "link": "https://www.bionity.com/en/companies/composite-materials/order_t/",
+          "snippet": "The business directory for composite materials companies All companies incl. products, news & contact information Find suppliers now! Tip: Select a quick entry below to view selected composite materia",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Advanced Composite Materials & Solutions | Hexcel",
+          "link": "https://www.hexcel.com/",
+          "snippet": "Hexcel delivers advanced composite materials that help aerospace, defense, and industrial innovators build lighter, stronger, and smarter solutions.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - 3A Composites",
+          "link": "https://www.3acomposites.com/",
+          "snippet": "3A Composites develops, manufactures, and markets high quality plastic sheets, aluminium composite materials, paper- and foamboards as well as core materials based on balsa wood and PET foam.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "AS9100-Certified Custom Composite Manufacturer | ACP Composites",
+          "link": "https://acpcomposites.com/",
+          "snippet": "ACP Composites is an ISO 9001 and AS9100-certified composite manufacturing company specializing in the world's most advanced composite materials and crafting customized solutions for demanding applica",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sky Composites - High-performance composite materials manufacturer",
+          "link": "https://sky-composites.com/",
+          "snippet": "High-performance composite materials manufacturing for automotive, marine, wind and other industries. Lighter and stronger.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Composite Material Suppliers | JPS Composite Materials",
+          "link": "https://jpscm.com/",
+          "snippet": "JPS Composite Materials is a world-leading manufacturer of composite reinforcement and para-aramid fabrics. Our high-strength composite reinforcement fabrics can be found in aerospace interior and ext",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Innovative Solutions in Resin and Gelcoat Products | E-Link",
+          "link": "https://elink.co.in/",
+          "snippet": "We link manufacturers around the world with the best-in-class composite materials and broad-gauged consulting. Since 2008, Link Composites hasn't just supplied composite materials - we've nurtured pos",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Carbon Fiber Fabric Manufacturer in India | Bhor Chemicals",
+          "link": "https://bhor.com/",
+          "snippet": "Advanced Composite Materials for High-Performance Applications: We manufacture high-performance Carbon Fiber Fabrics, Prepregs, Resin Systems, Structural Adhesive Films, Pultruded Laminates, and compo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Inven 2026",
+          "link": "https://www.inven.ai/company-lists/top-21-composite-materials-companies",
+          "snippet": "Top 21 Composite Materials Companies. 1. Scott Bader. Website: scottbader.com.The company specializes in technical materials, particularly advanced textiles and composite materials, catering to variou",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "10 New Composite Materials Companies | StartUs Insights",
+          "link": "https://www.startus-insights.com/innovators-guide/new-composite-materials-companies/",
+          "snippet": "This article explores 10 composite materials companies advancing industries with innovative technologies and applications.Profiles of 10 Emerging Composite Materials Companies. How to Scout New Compos",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 21 composite materials companies in the United States | Cerco.ai",
+          "link": "https://insights.cerco.ai/companies/top-21-composite-materials-companies",
+          "snippet": "The United States hosts a robust collection of leading composite materials companies, key players in industries from aerospace to automotive. In Oregon, Composite Creations, Inc. excels in carbon fibe",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Composite Materials companies from around the world...",
+          "link": "https://www.chemeurope.com/en/companies/composite-materials/order_t/",
+          "snippet": "The business directory for composite materials companies All companies incl. products, news & contact information Find suppliers now! Tip: Select a quick entry below to view selected composite materia",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "List of composite materials companies | 10 results | Golden",
+          "link": "https://golden.com/query/list-of-composite-materials-companies-YJM94",
+          "snippet": "Official Website. Location. Exel Composites.Finnish technology company that designs, manufactures and markets composite profiles and tubes for industrial applications.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Toray Composite Materials America, Inc. - U.S.A. | Airframer",
+          "link": "https://www.airframer.com/direct_detail.html?company=120938",
+          "snippet": "Related companies. Composite Materials Italy (CIT) - Toray Group - Italy. Epoxy Resins, Carbon Tape, Prepreg, Aramid-reinforced Composites. Toray Advanced Composites - U.K.Other companies with similar",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Composite Materials companies from around the world bionity.com",
+          "link": "https://www.bionity.com/en/companies/composite-materials/order_t/",
+          "snippet": "The business directory for composite materials companies All companies incl. products, news & contact information Find suppliers now! Tip: Select a quick entry below to view selected composite materia",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Advanced Composite Materials & Solutions | Hexcel",
+          "link": "https://www.hexcel.com/",
+          "snippet": "Hexcel delivers advanced composite materials that help aerospace, defense, and industrial innovators build lighter, stronger, and smarter solutions.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - 3A Composites",
+          "link": "https://www.3acomposites.com/",
+          "snippet": "3A Composites develops, manufactures, and markets high quality plastic sheets, aluminium composite materials, paper- and foamboards as well as core materials based on balsa wood and PET foam.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "AS9100-Certified Custom Composite Manufacturer | ACP Composites",
+          "link": "https://acpcomposites.com/",
+          "snippet": "ACP Composites is an ISO 9001 and AS9100-certified composite manufacturing company specializing in the world's most advanced composite materials and crafting customized solutions for demanding applica",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sky Composites - High-performance composite materials manufacturer",
+          "link": "https://sky-composites.com/",
+          "snippet": "High-performance composite materials manufacturing for automotive, marine, wind and other industries. Lighter and stronger.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Composite Material Suppliers | JPS Composite Materials",
+          "link": "https://jpscm.com/",
+          "snippet": "JPS Composite Materials is a world-leading manufacturer of composite reinforcement and para-aramid fabrics. Our high-strength composite reinforcement fabrics can be found in aerospace interior and ext",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Innovative Solutions in Resin and Gelcoat Products | E-Link",
+          "link": "https://elink.co.in/",
+          "snippet": "We link manufacturers around the world with the best-in-class composite materials and broad-gauged consulting. Since 2008, Link Composites hasn't just supplied composite materials - we've nurtured pos",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Carbon Fiber Fabric Manufacturer in India | Bhor Chemicals",
+          "link": "https://bhor.com/",
+          "snippet": "Advanced Composite Materials for High-Performance Applications: We manufacture high-performance Carbon Fiber Fabrics, Prepregs, Resin Systems, Structural Adhesive Films, Pultruded Laminates, and compo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Inven 2026",
+          "link": "https://www.inven.ai/company-lists/top-21-composite-materials-companies",
+          "snippet": "Top 21 Composite Materials Companies. 1. Scott Bader. Website: scottbader.com.The company specializes in technical materials, particularly advanced textiles and composite materials, catering to variou",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "composite distributors corporate sites",
+      "level": "L1",
+      "result_count": 6,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Composite Materials: A Complete Guide for Engineers and Students",
+          "link": "https://mechanicalengineerings.com/composite-materials-complete-guide/",
+          "snippet": "Sep 28, 2025 \u00b7 Learn what are Composite Materials, their types, classification, properties, and real-life examples with applications in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Composite materials: A simple introduction - Explain that Stuff",
+          "link": "https://www.explainthatstuff.com/composites.html",
+          "snippet": "Jun 22, 2026 \u00b7 Wood is a composite made from cellulose fibers (the reinforcement) growing inside lignin (a matrix made of organic, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "A Beginner's Guide to Composite Materials",
+          "link": "https://www.samaterials.com/blog/a-beginners-guide-to-composite-materials.html",
+          "snippet": "Explore an accessible introduction to composite materials. Learn what they are, how they\u2019re created, and why they matter in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Composite Materials: Types, Classification and Examples | 2026 Guide",
+          "link": "https://www.weerg.com/guides/composite-materials",
+          "snippet": "Jun 10, 2026 \u00b7 Discover what composite materials are, the main types and industrial applications. 2026 guide to carbon fibre, glass \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Advanced Composite Materials Delivery - Pacific Coast Composites",
+          "link": "https://www.pccomposites.com/",
+          "snippet": "Pacific Coast Composites stocks & distributes advanced composite materials certified for quality & shipped same day. Call us at 1-888-535-1810.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Composites Distributor Market Size, Industry Trends 2034",
+          "link": "https://www.imarcgroup.com/composites-distributor-market",
+          "snippet": "A composites distributor is a company that specializes in the distribution and supply of composite materials to various industries.Purchase Options Discount Offer. Single User License 2999 4500 USD Fi",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Composite Materials: A Complete Guide for Engineers and Students",
+          "link": "https://mechanicalengineerings.com/composite-materials-complete-guide/",
+          "snippet": "Sep 28, 2025 \u00b7 Learn what are Composite Materials, their types, classification, properties, and real-life examples with applications in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Composite materials: A simple introduction - Explain that Stuff",
+          "link": "https://www.explainthatstuff.com/composites.html",
+          "snippet": "Jun 22, 2026 \u00b7 Wood is a composite made from cellulose fibers (the reinforcement) growing inside lignin (a matrix made of organic, \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "A Beginner's Guide to Composite Materials",
+          "link": "https://www.samaterials.com/blog/a-beginners-guide-to-composite-materials.html",
+          "snippet": "Explore an accessible introduction to composite materials. Learn what they are, how they\u2019re created, and why they matter in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Composite Materials: Types, Classification and Examples | 2026 Guide",
+          "link": "https://www.weerg.com/guides/composite-materials",
+          "snippet": "Jun 10, 2026 \u00b7 Discover what composite materials are, the main types and industrial applications. 2026 guide to carbon fibre, glass \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Advanced Composite Materials Delivery - Pacific Coast Composites",
+          "link": "https://www.pccomposites.com/",
+          "snippet": "Pacific Coast Composites stocks & distributes advanced composite materials certified for quality & shipped same day. Call us at 1-888-535-1810.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Composites Distributor Market Size, Industry Trends 2034",
+          "link": "https://www.imarcgroup.com/composites-distributor-market",
+          "snippet": "A composites distributor is a company that specializes in the distribution and supply of composite materials to various industries.Purchase Options Discount Offer. Single User License 2999 4500 USD Fi",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "composite system integrators official site",
+      "level": "L2",
+      "result_count": 5,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Composite Materials: A Complete Guide for Engineers and Students",
+          "link": "https://mechanicalengineerings.com/composite-materials-complete-guide/",
+          "snippet": "Sep 28, 2025 \u00b7 Learn what are Composite Materials, their types, classification, properties, and real-life examples with applications in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Composite Materials: Types, Classification and Examples | 2026 Guide",
+          "link": "https://www.weerg.com/guides/composite-materials",
+          "snippet": "Jun 10, 2026 \u00b7 Discover what composite materials are, the main types and industrial applications. 2026 guide to carbon fibre, glass \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "A Beginner's Guide to Composite Materials",
+          "link": "https://www.samaterials.com/blog/a-beginners-guide-to-composite-materials.html",
+          "snippet": "Explore an accessible introduction to composite materials. Learn what they are, how they\u2019re created, and why they matter in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Center for the Integration of Composites into Infrastructure (CICI)",
+          "link": "https://ccee.ncsu.edu/cici/",
+          "snippet": "Established in 2009, CICI's goal is to accelerate the adoption of innovative composite materials and systems into critical infrastructure. ... sites and in ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home | CSP",
+          "link": "https://www.thecsp.com/",
+          "snippet": "We are a full-service, design responsible supplier to the automotive and transportation industries, creating lightweight, advanced composite materials to produce Class A body closures, modular roof sy",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Composite Materials: A Complete Guide for Engineers and Students",
+          "link": "https://mechanicalengineerings.com/composite-materials-complete-guide/",
+          "snippet": "Sep 28, 2025 \u00b7 Learn what are Composite Materials, their types, classification, properties, and real-life examples with applications in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Composite Materials: Types, Classification and Examples | 2026 Guide",
+          "link": "https://www.weerg.com/guides/composite-materials",
+          "snippet": "Jun 10, 2026 \u00b7 Discover what composite materials are, the main types and industrial applications. 2026 guide to carbon fibre, glass \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "A Beginner's Guide to Composite Materials",
+          "link": "https://www.samaterials.com/blog/a-beginners-guide-to-composite-materials.html",
+          "snippet": "Explore an accessible introduction to composite materials. Learn what they are, how they\u2019re created, and why they matter in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Center for the Integration of Composites into Infrastructure (CICI)",
+          "link": "https://ccee.ncsu.edu/cici/",
+          "snippet": "Established in 2009, CICI's goal is to accelerate the adoption of innovative composite materials and systems into critical infrastructure. ... sites and in ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home | CSP",
+          "link": "https://www.thecsp.com/",
+          "snippet": "We are a full-service, design responsible supplier to the automotive and transportation industries, creating lightweight, advanced composite materials to produce Class A body closures, modular roof sy",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "composite material distributors official website",
+      "level": "discovery",
+      "result_count": 12,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Composite Materials: A Complete Guide for Engineers and Students",
+          "link": "https://mechanicalengineerings.com/composite-materials-complete-guide/",
+          "snippet": "Sep 28, 2025 \u00b7 Learn what are Composite Materials, their types, classification, properties, and real-life examples with applications in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Composite Materials: Types, Classification and Examples | 2026 Guide",
+          "link": "https://www.weerg.com/guides/composite-materials",
+          "snippet": "Jun 10, 2026 \u00b7 Discover what composite materials are, the main types and industrial applications. 2026 guide to carbon fibre, glass \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "A Beginner's Guide to Composite Materials",
+          "link": "https://www.samaterials.com/blog/a-beginners-guide-to-composite-materials.html",
+          "snippet": "Explore an accessible introduction to composite materials. Learn what they are, how they\u2019re created, and why they matter in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Fiberglass , Epoxy , Composites, Carbon Fiber - U.S ...",
+          "link": "https://www.uscomposites.com/",
+          "snippet": "Jul 10, 2026 \u00b7 America's leading distributor of composite materials. We combine superior products and the industries' lowest prices with fast and accurate service.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Official Distributors | Syensqo",
+          "link": "https://www.syensqo.com/en/chemical-categories/our-composite-materials-solutions/official-distributors",
+          "snippet": "Where to buy Syensqo Composite Materials? See our authorized distributors on this page.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Composite Material Suppliers | JPS Composite Materials",
+          "link": "https://jpscm.com/",
+          "snippet": "Leading composite material suppliers for aerospace, automotive, and more. Explore JPS Composite Materials' high-performance fabrics. Contact us today!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Advanced Composite Materials & Solutions | Hexcel",
+          "link": "https://www.hexcel.com/",
+          "snippet": "Hexcel empowers engineers and manufacturers with high-performance, certification-backed composite materials. Our solutions are crafted to meet rigorous standards in both performance and delivery.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Shop High-Quality Composite Materials | ACP Composites",
+          "link": "https://acpcomposites.com/store",
+          "snippet": "We are your source for a wide range of composite products, including ready-to-use panels, tubes and composite sheets. Our comprehensive, online catalog includes composite reinforcement fabrics, epoxy ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Advancing Lightweight Materials Worldwide | Hexcel",
+          "link": "https://www.hexcel.com/about-us/",
+          "snippet": "Site certifications. Official distributors.Hexcel breaks ground at its newly acquired site in Windsor, Colorado. The plant will produce prepregs and other composite materials predominantly for the Ame",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Composite Material Distributors in Singapore - Perfect Form",
+          "link": "https://perfectform.com.sg/about-us/",
+          "snippet": "Composite material distributors. Perfect Form Composite Technology is a leading manufacturer and distributor of fiberglass products and composite materials in Singapore.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Specialty Polymers - Official Distributors | Syensqo",
+          "link": "https://www.syensqo.com/en/chemical-categories/specialty-polymers/official-distributors",
+          "snippet": "Official Distributors. Where to buy Syensqo Specialty Polymers?Our composite materials solutions. Polymer Additives, UV Light Stabilizers, Antioxidants and Antistatic Agents.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Leader in Materials, Networking, and Lasers | Coherent",
+          "link": "https://www.coherent.com/",
+          "snippet": "PRECISION MANUFACTURING. Weld metals and heat thermoplastic composites with efficiency, high throughput, and reduced costs.Semi cap equipment. Build equipment that maximizes throughput and yield using",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Composite Materials: A Complete Guide for Engineers and Students",
+          "link": "https://mechanicalengineerings.com/composite-materials-complete-guide/",
+          "snippet": "Sep 28, 2025 \u00b7 Learn what are Composite Materials, their types, classification, properties, and real-life examples with applications in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Composite Materials: Types, Classification and Examples | 2026 Guide",
+          "link": "https://www.weerg.com/guides/composite-materials",
+          "snippet": "Jun 10, 2026 \u00b7 Discover what composite materials are, the main types and industrial applications. 2026 guide to carbon fibre, glass \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "A Beginner's Guide to Composite Materials",
+          "link": "https://www.samaterials.com/blog/a-beginners-guide-to-composite-materials.html",
+          "snippet": "Explore an accessible introduction to composite materials. Learn what they are, how they\u2019re created, and why they matter in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Fiberglass , Epoxy , Composites, Carbon Fiber - U.S ...",
+          "link": "https://www.uscomposites.com/",
+          "snippet": "Jul 10, 2026 \u00b7 America's leading distributor of composite materials. We combine superior products and the industries' lowest prices with fast and accurate service.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Official Distributors | Syensqo",
+          "link": "https://www.syensqo.com/en/chemical-categories/our-composite-materials-solutions/official-distributors",
+          "snippet": "Where to buy Syensqo Composite Materials? See our authorized distributors on this page.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Composite Material Suppliers | JPS Composite Materials",
+          "link": "https://jpscm.com/",
+          "snippet": "Leading composite material suppliers for aerospace, automotive, and more. Explore JPS Composite Materials' high-performance fabrics. Contact us today!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Advanced Composite Materials & Solutions | Hexcel",
+          "link": "https://www.hexcel.com/",
+          "snippet": "Hexcel empowers engineers and manufacturers with high-performance, certification-backed composite materials. Our solutions are crafted to meet rigorous standards in both performance and delivery.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Shop High-Quality Composite Materials | ACP Composites",
+          "link": "https://acpcomposites.com/store",
+          "snippet": "We are your source for a wide range of composite products, including ready-to-use panels, tubes and composite sheets. Our comprehensive, online catalog includes composite reinforcement fabrics, epoxy ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Advancing Lightweight Materials Worldwide | Hexcel",
+          "link": "https://www.hexcel.com/about-us/",
+          "snippet": "Site certifications. Official distributors.Hexcel breaks ground at its newly acquired site in Windsor, Colorado. The plant will produce prepregs and other composite materials predominantly for the Ame",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Composite Material Distributors in Singapore - Perfect Form",
+          "link": "https://perfectform.com.sg/about-us/",
+          "snippet": "Composite material distributors. Perfect Form Composite Technology is a leading manufacturer and distributor of fiberglass products and composite materials in Singapore.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Specialty Polymers - Official Distributors | Syensqo",
+          "link": "https://www.syensqo.com/en/chemical-categories/specialty-polymers/official-distributors",
+          "snippet": "Official Distributors. Where to buy Syensqo Specialty Polymers?Our composite materials solutions. Polymer Additives, UV Light Stabilizers, Antioxidants and Antistatic Agents.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Leader in Materials, Networking, and Lasers | Coherent",
+          "link": "https://www.coherent.com/",
+          "snippet": "PRECISION MANUFACTURING. Weld metals and heat thermoplastic composites with efficiency, high throughput, and reduced costs.Semi cap equipment. Build equipment that maximizes throughput and yield using",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P2": {
+      "query": "composite wholesalers corporate headquarters",
+      "level": "discovery",
+      "result_count": 4,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Composite Materials: A Complete Guide for Engineers and Students",
+          "link": "https://mechanicalengineerings.com/composite-materials-complete-guide/",
+          "snippet": "Sep 28, 2025 \u00b7 Learn what are Composite Materials, their types, classification, properties, and real-life examples with applications in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Composite Materials: Types, Classification and Examples | 2026 Guide",
+          "link": "https://www.weerg.com/guides/composite-materials",
+          "snippet": "Jun 10, 2026 \u00b7 Discover what composite materials are, the main types and industrial applications. 2026 guide to carbon fibre, glass \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "A Beginner's Guide to Composite Materials",
+          "link": "https://www.samaterials.com/blog/a-beginners-guide-to-composite-materials.html",
+          "snippet": "Explore an accessible introduction to composite materials. Learn what they are, how they\u2019re created, and why they matter in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "composite materials Wholesaler | B2B companies and... | europages",
+          "link": "https://www.europages.co.uk/companies/wholesaler/composite+materials.html",
+          "snippet": "Delivery: Worldwide. Wholesaler. Wholesale for lightweight and hard material sheets, aluminum composite panels, acrylic and Plexiglas, paper honeycomb and ribbed panels, all Kapa boards, profiles, con",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Composite Materials: A Complete Guide for Engineers and Students",
+          "link": "https://mechanicalengineerings.com/composite-materials-complete-guide/",
+          "snippet": "Sep 28, 2025 \u00b7 Learn what are Composite Materials, their types, classification, properties, and real-life examples with applications in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Composite Materials: Types, Classification and Examples | 2026 Guide",
+          "link": "https://www.weerg.com/guides/composite-materials",
+          "snippet": "Jun 10, 2026 \u00b7 Discover what composite materials are, the main types and industrial applications. 2026 guide to carbon fibre, glass \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "A Beginner's Guide to Composite Materials",
+          "link": "https://www.samaterials.com/blog/a-beginners-guide-to-composite-materials.html",
+          "snippet": "Explore an accessible introduction to composite materials. Learn what they are, how they\u2019re created, and why they matter in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "composite materials Wholesaler | B2B companies and... | europages",
+          "link": "https://www.europages.co.uk/companies/wholesaler/composite+materials.html",
+          "snippet": "Delivery: Worldwide. Wholesaler. Wholesale for lightweight and hard material sheets, aluminum composite panels, acrylic and Plexiglas, paper honeycomb and ribbed panels, all Kapa boards, profiles, con",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P3": {
+      "query": "composite resellers corporate site",
+      "level": "discovery",
+      "result_count": 3,
+      "results_target": 28,
+      "backends": [
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Composite Materials: A Complete Guide for Engineers and Students",
+          "link": "https://mechanicalengineerings.com/composite-materials-complete-guide/",
+          "snippet": "Sep 28, 2025 \u00b7 Learn what are Composite Materials, their types, classification, properties, and real-life examples with applications in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Composite Materials: Types, Classification and Examples | 2026 Guide",
+          "link": "https://www.weerg.com/guides/composite-materials",
+          "snippet": "Jun 10, 2026 \u00b7 Discover what composite materials are, the main types and industrial applications. 2026 guide to carbon fibre, glass \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "A Beginner's Guide to Composite Materials",
+          "link": "https://www.samaterials.com/blog/a-beginners-guide-to-composite-materials.html",
+          "snippet": "Explore an accessible introduction to composite materials. Learn what they are, how they\u2019re created, and why they matter in \u2026",
+          "backend": "searxng"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Composite Materials: A Complete Guide for Engineers and Students",
+          "link": "https://mechanicalengineerings.com/composite-materials-complete-guide/",
+          "snippet": "Sep 28, 2025 \u00b7 Learn what are Composite Materials, their types, classification, properties, and real-life examples with applications in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Composite Materials: Types, Classification and Examples | 2026 Guide",
+          "link": "https://www.weerg.com/guides/composite-materials",
+          "snippet": "Jun 10, 2026 \u00b7 Discover what composite materials are, the main types and industrial applications. 2026 guide to carbon fibre, glass \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "A Beginner's Guide to Composite Materials",
+          "link": "https://www.samaterials.com/blog/a-beginners-guide-to-composite-materials.html",
+          "snippet": "Explore an accessible introduction to composite materials. Learn what they are, how they\u2019re created, and why they matter in \u2026",
+          "backend": "searxng"
+        }
+      ]
+    },
+    "P4": {
+      "query": "composite service providers corporate profile",
+      "level": "discovery",
+      "result_count": 3,
+      "results_target": 28,
+      "backends": [
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Composite Materials: A Complete Guide for Engineers and Students",
+          "link": "https://mechanicalengineerings.com/composite-materials-complete-guide/",
+          "snippet": "Sep 28, 2025 \u00b7 Learn what are Composite Materials, their types, classification, properties, and real-life examples with applications in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Composite Materials: Types, Classification and Examples | 2026 Guide",
+          "link": "https://www.weerg.com/guides/composite-materials",
+          "snippet": "Jun 10, 2026 \u00b7 Discover what composite materials are, the main types and industrial applications. 2026 guide to carbon fibre, glass \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "A Beginner's Guide to Composite Materials",
+          "link": "https://www.samaterials.com/blog/a-beginners-guide-to-composite-materials.html",
+          "snippet": "Explore an accessible introduction to composite materials. Learn what they are, how they\u2019re created, and why they matter in \u2026",
+          "backend": "searxng"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Composite Materials: A Complete Guide for Engineers and Students",
+          "link": "https://mechanicalengineerings.com/composite-materials-complete-guide/",
+          "snippet": "Sep 28, 2025 \u00b7 Learn what are Composite Materials, their types, classification, properties, and real-life examples with applications in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Composite Materials: Types, Classification and Examples | 2026 Guide",
+          "link": "https://www.weerg.com/guides/composite-materials",
+          "snippet": "Jun 10, 2026 \u00b7 Discover what composite materials are, the main types and industrial applications. 2026 guide to carbon fibre, glass \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "A Beginner's Guide to Composite Materials",
+          "link": "https://www.samaterials.com/blog/a-beginners-guide-to-composite-materials.html",
+          "snippet": "Explore an accessible introduction to composite materials. Learn what they are, how they\u2019re created, and why they matter in \u2026",
+          "backend": "searxng"
+        }
+      ]
+    },
+    "P5": {
+      "query": "composite channel partners official site",
+      "level": "discovery",
+      "result_count": 4,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Composite Materials: A Complete Guide for Engineers and Students",
+          "link": "https://mechanicalengineerings.com/composite-materials-complete-guide/",
+          "snippet": "Sep 28, 2025 \u00b7 Learn what are Composite Materials, their types, classification, properties, and real-life examples with applications in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Composite Materials: Types, Classification and Examples | 2026 Guide",
+          "link": "https://www.weerg.com/guides/composite-materials",
+          "snippet": "Jun 10, 2026 \u00b7 Discover what composite materials are, the main types and industrial applications. 2026 guide to carbon fibre, glass \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "A Beginner's Guide to Composite Materials",
+          "link": "https://www.samaterials.com/blog/a-beginners-guide-to-composite-materials.html",
+          "snippet": "Explore an accessible introduction to composite materials. Learn what they are, how they\u2019re created, and why they matter in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Easy Composites Ltd - YouTube",
+          "link": "https://www.youtube.com/channel/UC7F-suscQATns3qRYHpyijw",
+          "snippet": "We are one of the world's premier suppliers of advanced composite materials and equipment. We believe in providing the best possible technical information and advice to help customers all over the wor",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Composite Materials: A Complete Guide for Engineers and Students",
+          "link": "https://mechanicalengineerings.com/composite-materials-complete-guide/",
+          "snippet": "Sep 28, 2025 \u00b7 Learn what are Composite Materials, their types, classification, properties, and real-life examples with applications in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Composite Materials: Types, Classification and Examples | 2026 Guide",
+          "link": "https://www.weerg.com/guides/composite-materials",
+          "snippet": "Jun 10, 2026 \u00b7 Discover what composite materials are, the main types and industrial applications. 2026 guide to carbon fibre, glass \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "A Beginner's Guide to Composite Materials",
+          "link": "https://www.samaterials.com/blog/a-beginners-guide-to-composite-materials.html",
+          "snippet": "Explore an accessible introduction to composite materials. Learn what they are, how they\u2019re created, and why they matter in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Easy Composites Ltd - YouTube",
+          "link": "https://www.youtube.com/channel/UC7F-suscQATns3qRYHpyijw",
+          "snippet": "We are one of the world's premier suppliers of advanced composite materials and equipment. We believe in providing the best possible technical information and advice to help customers all over the wor",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "composite distribution network corporate website",
+      "level": "discovery",
+      "result_count": 5,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Composite Materials: A Complete Guide for Engineers and Students",
+          "link": "https://mechanicalengineerings.com/composite-materials-complete-guide/",
+          "snippet": "Sep 28, 2025 \u00b7 Learn what are Composite Materials, their types, classification, properties, and real-life examples with applications in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Composite Materials: Types, Classification and Examples | 2026 Guide",
+          "link": "https://www.weerg.com/guides/composite-materials",
+          "snippet": "Jun 10, 2026 \u00b7 Discover what composite materials are, the main types and industrial applications. 2026 guide to carbon fibre, glass \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "A Beginner's Guide to Composite Materials",
+          "link": "https://www.samaterials.com/blog/a-beginners-guide-to-composite-materials.html",
+          "snippet": "Explore an accessible introduction to composite materials. Learn what they are, how they\u2019re created, and why they matter in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Advanced Composite Materials Delivery - Pacific Coast Composites",
+          "link": "https://www.pccomposites.com/",
+          "snippet": "Pacific Coast Composites stocks & distributes advanced composite materials certified for quality & shipped same day. Call us at 1-888-535-1810.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Composites business unit - Gazechim",
+          "link": "https://www.gazechim.com/en/our-activities/composites-business-unit/",
+          "snippet": "Local European network: 40 agencies, 15 countries. Present on all markets: aeronautics, yachting, sports and leisure, automotive, construction, wind energy, rail. Distribution of composite materials.D",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Composite Materials: A Complete Guide for Engineers and Students",
+          "link": "https://mechanicalengineerings.com/composite-materials-complete-guide/",
+          "snippet": "Sep 28, 2025 \u00b7 Learn what are Composite Materials, their types, classification, properties, and real-life examples with applications in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Composite Materials: Types, Classification and Examples | 2026 Guide",
+          "link": "https://www.weerg.com/guides/composite-materials",
+          "snippet": "Jun 10, 2026 \u00b7 Discover what composite materials are, the main types and industrial applications. 2026 guide to carbon fibre, glass \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "A Beginner's Guide to Composite Materials",
+          "link": "https://www.samaterials.com/blog/a-beginners-guide-to-composite-materials.html",
+          "snippet": "Explore an accessible introduction to composite materials. Learn what they are, how they\u2019re created, and why they matter in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Advanced Composite Materials Delivery - Pacific Coast Composites",
+          "link": "https://www.pccomposites.com/",
+          "snippet": "Pacific Coast Composites stocks & distributes advanced composite materials certified for quality & shipped same day. Call us at 1-888-535-1810.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Composites business unit - Gazechim",
+          "link": "https://www.gazechim.com/en/our-activities/composites-business-unit/",
+          "snippet": "Local European network: 40 agencies, 15 countries. Present on all markets: aeronautics, yachting, sports and leisure, automotive, construction, wind energy, rail. Distribution of composite materials.D",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P7": {
+      "query": "composite integration services official site",
+      "level": "discovery",
+      "result_count": 4,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Composite Materials: A Complete Guide for Engineers and Students",
+          "link": "https://mechanicalengineerings.com/composite-materials-complete-guide/",
+          "snippet": "Sep 28, 2025 \u00b7 Learn what are Composite Materials, their types, classification, properties, and real-life examples with applications in aerospace, automotive & civil engineering.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Composite Materials: Types, Classification and Examples | 2026 Guide",
+          "link": "https://www.weerg.com/guides/composite-materials",
+          "snippet": "Jun 10, 2026 \u00b7 Discover what composite materials are, the main types and industrial applications. 2026 guide to carbon fibre, glass fibre and advanced composites.",
+          "backend": "searxng"
+        },
+        {
+          "title": "A Beginner's Guide to Composite Materials",
+          "link": "https://www.samaterials.com/blog/a-beginners-guide-to-composite-materials.html",
+          "snippet": "Explore an accessible introduction to composite materials. Learn what they are, how they\u2019re created, and why they matter in everyday products and advanced engineering alike.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Composite Integration is the Future of Materials Development...",
+          "link": "https://info.ccia.xin/guanfangxinwen/21.html",
+          "snippet": "Official News.In recent years, the application scope of composite materials has gradually expanded from its initial use in aerospace and defense industries to various civilian sectors, gaining widespr",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Composite Materials: A Complete Guide for Engineers and Students",
+          "link": "https://mechanicalengineerings.com/composite-materials-complete-guide/",
+          "snippet": "Sep 28, 2025 \u00b7 Learn what are Composite Materials, their types, classification, properties, and real-life examples with applications in aerospace, automotive & civil engineering.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Composite Materials: Types, Classification and Examples | 2026 Guide",
+          "link": "https://www.weerg.com/guides/composite-materials",
+          "snippet": "Jun 10, 2026 \u00b7 Discover what composite materials are, the main types and industrial applications. 2026 guide to carbon fibre, glass fibre and advanced composites.",
+          "backend": "searxng"
+        },
+        {
+          "title": "A Beginner's Guide to Composite Materials",
+          "link": "https://www.samaterials.com/blog/a-beginners-guide-to-composite-materials.html",
+          "snippet": "Explore an accessible introduction to composite materials. Learn what they are, how they\u2019re created, and why they matter in everyday products and advanced engineering alike.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Composite Integration is the Future of Materials Development...",
+          "link": "https://info.ccia.xin/guanfangxinwen/21.html",
+          "snippet": "Official News.In recent years, the application scope of composite materials has gradually expanded from its initial use in aerospace and defense industries to various civilian sectors, gaining widespr",
+          "backend": "ddgs_bing"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

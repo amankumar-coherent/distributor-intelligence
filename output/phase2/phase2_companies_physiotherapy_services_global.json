@@ -1,0 +1,666 @@
+{
+  "phase": 2,
+  "phase2_mode": "fast",
+  "query": "Global Physiotherapy Services Market",
+  "mock_mode": false,
+  "completed_at": "2026-07-06T20:15:30.176281+00:00",
+  "scope": {
+    "market": "physiotherapy services",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "service provider",
+    "industry_vertical": "healthcare",
+    "industry_terms": [
+      "physiotherapy",
+      "rehabilitation",
+      "manual therapy",
+      "therapeutic exercise",
+      "telehealth physiotherapy"
+    ],
+    "ecosystem_functions": [
+      "patient assessment",
+      "treatment planning",
+      "therapeutic exercise",
+      "manual therapy",
+      "patient education",
+      "rehabilitation support",
+      "telehealth consultations",
+      "sports injury management"
+    ],
+    "interpretation_summary": "The global physiotherapy services market encompasses a range of therapeutic services aimed at improving physical function and mobility for patients recovering from injuries, surgeries, or managing chronic conditions. Par",
+    "relevance_keywords": [
+      "physiotherapist",
+      "rehabilitation",
+      "physical therapy",
+      "manual therapy",
+      "telehealth"
+    ],
+    "negative_keywords": [
+      "chiropractic",
+      "massage",
+      "fitness",
+      "alternative medicine",
+      "wellness"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "PhysioNet",
+        "primary_domain": "physionet.com",
+        "company_function": "physiotherapy services provider"
+      },
+      {
+        "canonical_name": "Select Medical",
+        "primary_domain": "selectmedical.com",
+        "company_function": "rehabilitation services provider"
+      },
+      {
+        "canonical_name": "Athletico",
+        "primary_domain": "athletico.com",
+        "company_function": "sports physiotherapy services"
+      },
+      {
+        "canonical_name": "Kinetix",
+        "primary_domain": "kinetixhealth.com",
+        "company_function": "telehealth physiotherapy services"
+      },
+      {
+        "canonical_name": "NovaCare Rehabilitation",
+        "primary_domain": "novacare.com",
+        "company_function": "rehabilitation services provider"
+      },
+      {
+        "canonical_name": "PT Solutions",
+        "primary_domain": "ptsolutions.com",
+        "company_function": "physiotherapy services provider"
+      },
+      {
+        "canonical_name": "RehabCare",
+        "primary_domain": "rehabcare.com",
+        "company_function": "rehabilitation services provider"
+      },
+      {
+        "canonical_name": "Therapy Brands",
+        "primary_domain": "therapybrands.com",
+        "company_function": "telehealth physiotherapy services"
+      },
+      {
+        "canonical_name": "Southeast Physical Therapy",
+        "primary_domain": "southeastpt.com",
+        "company_function": "physiotherapy services provider"
+      },
+      {
+        "canonical_name": "Athletic Edge",
+        "primary_domain": "athleticedgept.com",
+        "company_function": "sports physiotherapy services"
+      }
+    ],
+    "search_topic": "physiotherapy services",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "physiotherapy services",
+    "include_keywords": [
+      "physical therapy services",
+      "rehabilitation therapy",
+      "sports physiotherapy",
+      "telehealth physiotherapy",
+      "pediatric physiotherapy"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The global physiotherapy services market encompasses a range of therapeutic services aimed at improving physical function and mobility for patients recovering from injuries, surgeries, or managing chronic conditions. Participants include physiotherapy clinics, hospitals, rehabilitation centers, and home health care providers across various regions worldwide.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Service Providers",
+        "description": "This layer includes various types of facilities and professionals providing physiotherapy services.",
+        "segments": [
+          {
+            "segment_name": "Physiotherapy Clinics",
+            "sub_segments": [
+              "private clinics",
+              "group practices"
+            ],
+            "participant_types": [
+              "clinic owner",
+              "licensed physiotherapist"
+            ],
+            "search_intents": [
+              "physiotherapy clinic near me",
+              "licensed physiotherapist services"
+            ]
+          },
+          {
+            "segment_name": "Rehabilitation Centers",
+            "sub_segments": [
+              "inpatient rehab",
+              "outpatient rehab"
+            ],
+            "participant_types": [
+              "rehabilitation specialist",
+              "therapist"
+            ],
+            "search_intents": [
+              "rehabilitation center services",
+              "outpatient rehabilitation therapy"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L2",
+        "layer_name": "Support Services",
+        "description": "This layer includes ancillary services that support physiotherapy.",
+        "segments": [
+          {
+            "segment_name": "Telehealth Services",
+            "sub_segments": [
+              "virtual consultations",
+              "remote monitoring"
+            ],
+            "participant_types": [
+              "telehealth provider",
+              "physiotherapist"
+            ],
+            "search_intents": [
+              "online physiotherapy services",
+              "virtual physiotherapy consultations"
+            ]
+          },
+          {
+            "segment_name": "Sports Physiotherapy",
+            "sub_segments": [
+              "athletic training",
+              "injury prevention"
+            ],
+            "participant_types": [
+              "sports physiotherapist",
+              "athletic trainer"
+            ],
+            "search_intents": [
+              "sports physiotherapy services",
+              "athletic injury rehabilitation"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "physiotherapy clinics",
+        "hospitals",
+        "rehabilitation centers",
+        "home health care providers",
+        "telehealth physiotherapy services",
+        "sports physiotherapy services",
+        "pediatric physiotherapy services",
+        "geriatric physiotherapy services"
+      ],
+      "out_of_scope": [
+        "chiropractic services",
+        "occupational therapy",
+        "massage therapy",
+        "alternative medicine",
+        "fitness training"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "find physiotherapy clinics offering rehabilitation services",
+        "sub_sector": "physiotherapy_clinic",
+        "layer_id": "L1",
+        "segment": "Physiotherapy Clinics"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "search for rehabilitation centers with physiotherapy services",
+        "sub_sector": "rehabilitation_center",
+        "layer_id": "L1",
+        "segment": "Rehabilitation Centers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "online physiotherapy services available for remote patients",
+        "sub_sector": "telehealth_provider",
+        "layer_id": "L2",
+        "segment": "Telehealth Services"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "sports physiotherapy services for athletes",
+        "sub_sector": "sports_physio",
+        "layer_id": "L2",
+        "segment": "Sports Physiotherapy"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "phase1_plan_path": "C:\\Users\\aman.kumar\\Desktop\\coherent\\output\\phase1\\phase1_plan_physiotherapy_services_global.json",
+  "companies": [
+    {
+      "name": "Abtp",
+      "domain": "abtp.co.in",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Athleticedgept",
+      "domain": "athleticedgept.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Athletico",
+      "domain": "athletico.com",
+      "discovery_source": "registry",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Kinetixhealth",
+      "domain": "kinetixhealth.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Novacare",
+      "domain": "novacare.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "PhysioNet",
+      "domain": "physionet.com",
+      "discovery_source": "registry",
+      "company_function": "vendor"
+    },
+    {
+      "name": "RehabCare",
+      "domain": "rehabcare.com",
+      "discovery_source": "registry",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Selectmedical",
+      "domain": "selectmedical.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Southeastpt",
+      "domain": "southeastpt.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Therapybrands",
+      "domain": "therapybrands.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Backinmotionhealth",
+      "domain": "backinmotionhealth.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Ccphysiotherapy",
+      "domain": "ccphysiotherapy.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Healyos",
+      "domain": "healyos.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Priestleychiropractic",
+      "domain": "priestleychiropractic.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "9Scape Fitness",
+      "domain": "9scapefitness.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Athertonphysiotherapy",
+      "domain": "athertonphysiotherapy.co.uk",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Bookmarks2u",
+      "domain": "bookmarks2u.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Bookmarkwiki",
+      "domain": "bookmarkwiki.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Cbinsights",
+      "domain": "cbinsights.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Corpsubmit",
+      "domain": "corpsubmit.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Damladanismanlik",
+      "domain": "damladanismanlik.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Delhiphysiotherapist",
+      "domain": "delhiphysiotherapist.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Dribbble",
+      "domain": "dribbble.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "oem_manufacturer"
+    },
+    {
+      "name": "Dzen",
+      "domain": "dzen.ru",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Flexifyme",
+      "domain": "flexifyme.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "brand"
+    },
+    {
+      "name": "Futuredatastats",
+      "domain": "futuredatastats.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Gobeyondrehab",
+      "domain": "gobeyondrehab.sg",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Gracelinephysio",
+      "domain": "gracelinephysio.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "contract_manufacturer"
+    },
+    {
+      "name": "Guysandstthomas",
+      "domain": "guysandstthomas.nhs.uk",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Harrismanualtherapy",
+      "domain": "harrismanualtherapy.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Healthx",
+      "domain": "healthx.ca",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Healxphysio",
+      "domain": "healxphysio.ca",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Homephysio",
+      "domain": "homephysio.com.my",
+      "discovery_source": "ddgs_bing",
+      "company_function": "retailer"
+    },
+    {
+      "name": "In Hometherapeutics",
+      "domain": "in-hometherapeutics.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Inova",
+      "domain": "inova.org",
+      "discovery_source": "ddgs_bing",
+      "company_function": "market_leader"
+    },
+    {
+      "name": "Internhq",
+      "domain": "internhq.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Iphysioglobal",
+      "domain": "iphysioglobal.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Khyphysio",
+      "domain": "khyphysio.com.au",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Lancecamper",
+      "domain": "lancecamper.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Lavender Labs",
+      "domain": "lavenderlabs.co.in",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Lsfisio",
+      "domain": "lsfisio.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Made In China",
+      "domain": "made-in-china.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Morningsidenrc",
+      "domain": "morningsidenrc.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "oem_manufacturer"
+    },
+    {
+      "name": "Nqphysio",
+      "domain": "nqphysio.com.au",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Onlinephysio",
+      "domain": "onlinephysio.in",
+      "discovery_source": "ddgs_bing",
+      "company_function": "contract_manufacturer"
+    },
+    {
+      "name": "Opalphysio",
+      "domain": "opalphysio.ca",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Orlandohealth",
+      "domain": "orlandohealth.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "market_leader"
+    },
+    {
+      "name": "Pathwaycaresolutions",
+      "domain": "pathwaycaresolutions.com.au",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Physiod",
+      "domain": "physiod.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Physioparramatta",
+      "domain": "physioparramatta.com.au",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Physiotherapistdelhi",
+      "domain": "physiotherapistdelhi.in",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Physiotherapyexercises",
+      "domain": "physiotherapyexercises.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Pivotphysicaltherapy",
+      "domain": "pivotphysicaltherapy.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Plumint",
+      "domain": "plumint.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Reliva",
+      "domain": "reliva.in",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Rerouteandreboot",
+      "domain": "rerouteandreboot.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Smartphysio",
+      "domain": "smartphysio.co.uk",
+      "discovery_source": "ddgs_bing",
+      "company_function": "contract_manufacturer"
+    },
+    {
+      "name": "Somertonphysio",
+      "domain": "somertonphysio.ie",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Thealignmentstudio",
+      "domain": "thealignmentstudio.com.au",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Therapeutic Exercise",
+      "domain": "bertolozziphysicaltherapy.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Therapia",
+      "domain": "therapia.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "retailer"
+    }
+  ],
+  "company_count": 61,
+  "discovery_stats": {
+    "raw_hits": 93,
+    "unique_names": 62,
+    "by_prompt_id": {
+      "HX0_phys": 1,
+      "HX1_phys": 6,
+      "L0": 2,
+      "L2": 2,
+      "M1_api_": 2,
+      "P1": 1,
+      "P2": 2,
+      "P3": 3,
+      "P4": 3,
+      "P5": 2,
+      "SEED": 10,
+      "SEED2": 10,
+      "SEED3": 10,
+      "SE_kinetix_2": 4,
+      "SE_kinetix_3": 3,
+      "SE_ptsolution_2": 3,
+      "SE_ptsolution_3": 1,
+      "ST1a": 1,
+      "ST1b": 2,
+      "ST_L1_1": 7,
+      "ST_L1_2": 2,
+      "ST_L2_3": 4,
+      "ST_L2_4": 2,
+      "T3b": 5,
+      "T4a": 2,
+      "T4b": 2,
+      "VX1": 1
+    },
+    "by_funnel_level": {
+      "L0": 32,
+      "L2": 2,
+      "discovery": 59
+    },
+    "widen_loops": 5
+  },
+  "warnings": [
+    "SearXNG not running at http://127.0.0.1:8080 \u2014 run: docker compose up -d",
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ]
+}

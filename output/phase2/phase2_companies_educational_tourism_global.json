@@ -1,0 +1,837 @@
+{
+  "phase": 2,
+  "phase2_mode": "fast",
+  "query": "Educational Tourism Market",
+  "mock_mode": false,
+  "completed_at": "2026-07-24T10:16:53.736893+00:00",
+  "scope": {
+    "market": "Educational Tourism",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "service provider",
+    "industry_vertical": "tourism",
+    "industry_terms": [
+      "educational travel",
+      "study abroad",
+      "language immersion",
+      "cultural exchange",
+      "educational programs"
+    ],
+    "ecosystem_functions": [
+      "distributing educational programs",
+      "wholesaling travel packages",
+      "reselling educational experiences",
+      "providing accommodation services",
+      "offering transport solutions",
+      "integrating educational services",
+      "marketing educational tourism",
+      "facilitating cultural exchanges"
+    ],
+    "interpretation_summary": "The Educational Tourism Market encompasses travel and services related to educational experiences, including study abroad programs, language courses, and cultural exchanges. Participants include educational institutions,",
+    "relevance_keywords": [
+      "educational travel agency",
+      "study abroad programs",
+      "language courses",
+      "cultural immersion",
+      "educational tourism services"
+    ],
+    "negative_keywords": [
+      "leisure travel",
+      "corporate training",
+      "event tourism",
+      "vacation packages",
+      "unrelated industries"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "EF Education First",
+        "primary_domain": "ef.com",
+        "company_function": "educational travel and language courses"
+      },
+      {
+        "canonical_name": "GoAbroad",
+        "primary_domain": "goabroad.com",
+        "company_function": "study abroad program listings"
+      },
+      {
+        "canonical_name": "Language International",
+        "primary_domain": "languageinternational.com",
+        "company_function": "language course reselling"
+      },
+      {
+        "canonical_name": "StudentUniverse",
+        "primary_domain": "studentuniverse.com",
+        "company_function": "student travel services"
+      },
+      {
+        "canonical_name": "Cultural Vistas",
+        "primary_domain": "culturalvistas.org",
+        "company_function": "cultural exchange programs"
+      },
+      {
+        "canonical_name": "AIFS Study Abroad",
+        "primary_domain": "aifsabroad.com",
+        "company_function": "study abroad programs"
+      },
+      {
+        "canonical_name": "STA Travel",
+        "primary_domain": "statravel.com",
+        "company_function": "travel agency for students"
+      },
+      {
+        "canonical_name": "ISIC Association",
+        "primary_domain": "isic.org",
+        "company_function": "student discount services"
+      },
+      {
+        "canonical_name": "Hostelling International",
+        "primary_domain": "hihostels.com",
+        "company_function": "youth hostels and accommodation"
+      },
+      {
+        "canonical_name": "CIEE",
+        "primary_domain": "ciee.org",
+        "company_function": "study abroad and cultural exchange"
+      }
+    ],
+    "search_topic": "Educational Tourism",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "Educational Tourism",
+    "include_keywords": [
+      "educational tourism distributor",
+      "study abroad wholesaler",
+      "language course reseller",
+      "educational service provider",
+      "cultural exchange channel partner"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The Educational Tourism Market encompasses travel and services related to educational experiences, including study abroad programs, language courses, and cultural exchanges. Participants include educational institutions, travel agencies, and service providers that facilitate these experiences globally.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Channel Partners",
+        "description": "Entities that facilitate the distribution and promotion of educational tourism services.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Online distributors",
+              "Local distributors"
+            ],
+            "participant_types": [
+              "travel agencies",
+              "educational consultants"
+            ],
+            "search_intents": [
+              "educational tourism distributors",
+              "study abroad program distributors"
+            ]
+          },
+          {
+            "segment_name": "Wholesalers",
+            "sub_segments": [
+              "International wholesalers",
+              "Regional wholesalers"
+            ],
+            "participant_types": [
+              "tour operators",
+              "travel wholesalers"
+            ],
+            "search_intents": [
+              "educational tourism wholesalers",
+              "language course wholesalers"
+            ]
+          },
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Online resellers",
+              "Local resellers"
+            ],
+            "participant_types": [
+              "travel agents",
+              "online platforms"
+            ],
+            "search_intents": [
+              "educational tourism resellers",
+              "study abroad resellers"
+            ]
+          },
+          {
+            "segment_name": "Service Providers",
+            "sub_segments": [
+              "Accommodation providers",
+              "Transport services"
+            ],
+            "participant_types": [
+              "hotels",
+              "transport companies"
+            ],
+            "search_intents": [
+              "educational tourism service providers",
+              "language course service providers"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Traditional tourism",
+        "Corporate training travel",
+        "Event tourism",
+        "Leisure travel"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "search educational tourism distributors for study abroad programs",
+        "sub_sector": "educational_tourism_distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "find educational tourism wholesalers for language courses",
+        "sub_sector": "educational_tourism_wholesaler",
+        "layer_id": "L1",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "search for educational tourism resellers in your area",
+        "sub_sector": "educational_tourism_reseller",
+        "layer_id": "L1",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "find service providers for educational tourism experiences",
+        "sub_sector": "educational_tourism_service_provider",
+        "layer_id": "L1",
+        "segment": "Service Providers"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "phase1_plan_path": "D:\\vendor-intel\\output\\phase1\\phase1_plan_educational_tourism_global.json",
+  "companies": [
+    {
+      "name": "Poki",
+      "domain": "poki.com",
+      "discovery_source": "searxng",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Culturalvistas",
+      "domain": "culturalvistas.org",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Goabroad",
+      "domain": "goabroad.com",
+      "discovery_source": "ddgs_bing+registry",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Aifsabroad",
+      "domain": "aifsabroad.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Atdw",
+      "domain": "atdw.com.au",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Ciee",
+      "domain": "ciee.org",
+      "discovery_source": "registry",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Hihostels",
+      "domain": "hihostels.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Isic",
+      "domain": "isic.org",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Languageinternational",
+      "domain": "languageinternational.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Seychelles",
+      "domain": "seychelles.com",
+      "discovery_source": "ddgs_bing+ddgs_yandex",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Statravel",
+      "domain": "www.statravel.com",
+      "discovery_source": "search",
+      "company_function": "vendor",
+      "domain_corrected_from": "statravel.com"
+    },
+    {
+      "name": "Studentuniverse",
+      "domain": "www.studentuniverse.com",
+      "discovery_source": "registry",
+      "company_function": "vendor",
+      "domain_corrected_from": "studentuniverse.com"
+    },
+    {
+      "name": "Turismoroma",
+      "domain": "turismoroma.it",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Untourism",
+      "domain": "untourism.int",
+      "discovery_source": "ddgs_bing",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Callboom",
+      "domain": "callboom.in",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Confirmtkt",
+      "domain": "confirmtkt.com",
+      "discovery_source": "ddgs_bing+ddgs_yandex",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Edinformatics",
+      "domain": "edinformatics.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Eftours",
+      "domain": "eftours.com",
+      "discovery_source": "ddgs_bing+searxng",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Fierce Network",
+      "domain": "fierce-network.com",
+      "discovery_source": "ddgs_bing+ddgs_yandex",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Idsnext",
+      "domain": "idsnext.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Intraxinc",
+      "domain": "intraxinc.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Namangan Tourism",
+      "domain": "namangan-tourism.uz",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Rocketreach",
+      "domain": "rocketreach.co",
+      "discovery_source": "ddgs_bing+ddgs_yandex",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Scirp",
+      "domain": "scirp.org",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Telegram: View @via_tourism_channel",
+      "domain": "t.me",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Tourismnotes",
+      "domain": "tourismnotes.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Vfsglobal",
+      "domain": "vfsglobal.com",
+      "discovery_source": "ddgs_bing+ddgs_yandex",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Worldstrides",
+      "domain": "worldstrides.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Aifs",
+      "domain": "aifs.de",
+      "discovery_source": "searxng",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Airtame",
+      "domain": "airtame.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Alternativeto",
+      "domain": "alternativeto.net",
+      "discovery_source": "searxng",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Belarustourism",
+      "domain": "belarustourism.by",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Complaintsboard",
+      "domain": "complaintsboard.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Connectioncafe",
+      "domain": "connectioncafe.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Corporate",
+      "domain": "corporate.mimaruhotels.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Datingadvice",
+      "domain": "datingadvice.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Duolingo",
+      "domain": "duolingo.com",
+      "discovery_source": "searxng",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Englopak",
+      "domain": "englopak.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Etoai",
+      "domain": "etoai.in",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Fastercapital",
+      "domain": "fastercapital.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Fort Net",
+      "domain": "fort-net.org",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Glassdoor",
+      "domain": "glassdoor.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Gooverseas",
+      "domain": "gooverseas.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Growjo",
+      "domain": "growjo.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Hospitalitynet",
+      "domain": "hospitalitynet.org",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Idproducer",
+      "domain": "idproducer.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Ielts",
+      "domain": "ielts.net",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Iisac",
+      "domain": "iisac.org",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Intourist",
+      "domain": "intourist.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Ipaddress",
+      "domain": "ipaddress.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Irctc",
+      "domain": "irctc.co.in",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Janglo",
+      "domain": "janglo.net",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Kanko Shima",
+      "domain": "kanko-shima.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Kudos",
+      "domain": "kudos.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Kusadasihavalimaniservis",
+      "domain": "kusadasihavalimaniservis.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Lsppariwisata",
+      "domain": "lsppariwisata.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Managementnote",
+      "domain": "managementnote.com",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Maristostourist",
+      "domain": "maristostourist.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Newzealand",
+      "domain": "newzealand.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Numbeo",
+      "domain": "numbeo.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Odysseytraveller",
+      "domain": "odysseytraveller.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Openai",
+      "domain": "openai.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Ottawatourism",
+      "domain": "ottawatourism.ca",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Owler",
+      "domain": "owler.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Rdworldonline",
+      "domain": "rdworldonline.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Sabahtourism",
+      "domain": "sabahtourism.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Similarweb",
+      "domain": "similarweb.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Srilankabusiness",
+      "domain": "srilankabusiness.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Studyabroad101",
+      "domain": "studyabroad101.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Studyx",
+      "domain": "studyx.ai",
+      "discovery_source": "searxng",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Teachwithepi",
+      "domain": "teachwithepi.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Thea",
+      "domain": "thea.study",
+      "discovery_source": "searxng",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Themodernclassroom",
+      "domain": "themodernclassroom.in",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Tourismafrikanianig",
+      "domain": "tourismafrikanianig.com",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Tourisme Rennes",
+      "domain": "tourisme-rennes.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Tourismexportcouncil",
+      "domain": "tourismexportcouncil.org.nz",
+      "discovery_source": "ddgs_bing",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Tourismnt",
+      "domain": "tourismnt.com.au",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Tourismteacher",
+      "domain": "tourismteacher.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Trustpilot",
+      "domain": "trustpilot.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Tuigroup",
+      "domain": "tuigroup.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Visitsingapore",
+      "domain": "visitsingapore.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Xzodus",
+      "domain": "xzodus.sg",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Zerogpt",
+      "domain": "zerogpt.com",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Zhihu",
+      "domain": "zhihu.com",
+      "discovery_source": "searxng",
+      "company_function": "vendor"
+    }
+  ],
+  "company_count": 84,
+  "discovery_stats": {
+    "raw_hits": 204,
+    "unique_names": 108,
+    "by_prompt_id": {
+      "D10": 1,
+      "D3": 4,
+      "D7": 4,
+      "D8": 2,
+      "D9": 2,
+      "HX0_dist": 3,
+      "HX0_manu": 1,
+      "HX0_rese": 4,
+      "HX1_rese": 3,
+      "L0": 1,
+      "L1": 2,
+      "L2": 1,
+      "M1_biot": 1,
+      "M1_comp": 1,
+      "M2": 2,
+      "M3": 2,
+      "M4": 1,
+      "MUP11": 2,
+      "MUP2": 6,
+      "P10": 4,
+      "P11": 2,
+      "P12": 3,
+      "P4": 6,
+      "P5": 1,
+      "P6": 1,
+      "P7": 1,
+      "P8": 1,
+      "P9": 2,
+      "SEED": 10,
+      "SEED2": 10,
+      "SEED3": 10,
+      "SE_aifsstudya_1": 1,
+      "SE_aifsstudya_2": 1,
+      "SE_culturalvi_1": 10,
+      "SE_culturalvi_2": 1,
+      "SE_efeducatio_1": 2,
+      "SE_efeducatio_2": 3,
+      "SE_goabroad_1": 1,
+      "SE_goabroad_2": 1,
+      "SE_languagein_1": 1,
+      "SE_languagein_2": 1,
+      "SE_studentuni_1": 1,
+      "SE_studentuni_2": 1,
+      "SE_studentuni_3": 3,
+      "ST1a": 2,
+      "ST1b": 1,
+      "ST2a": 6,
+      "ST4a": 5,
+      "ST_L1_1": 2,
+      "ST_L1_3": 1,
+      "ST_L1_4": 6,
+      "T1a": 9,
+      "T1b": 4,
+      "T2a": 1,
+      "T2b": 2,
+      "T3a": 1,
+      "T4a": 2,
+      "T4b": 2,
+      "V11": 3,
+      "V4": 5,
+      "V6": 5,
+      "V7": 8,
+      "V8": 4,
+      "V9": 1,
+      "VX1": 1,
+      "VX2": 5,
+      "W1": 6,
+      "W2": 1
+    },
+    "by_funnel_level": {
+      "L0": 31,
+      "L1": 2,
+      "L2": 1,
+      "discovery": 170
+    },
+    "widen_loops": 3
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ]
+}

@@ -1,0 +1,1982 @@
+{
+  "phase": 1,
+  "query": "Ghost Kitchen Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T21:59:01.892971+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "ghost kitchen",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "food service",
+    "industry_terms": [
+      "ghost kitchen",
+      "cloud kitchen",
+      "virtual kitchen",
+      "food delivery service",
+      "dark kitchen"
+    ],
+    "ecosystem_functions": [
+      "food product distribution",
+      "kitchen equipment supply",
+      "order management integration",
+      "delivery logistics management",
+      "service provision for ghost kitchens",
+      "channel partnerships for food service",
+      "wholesale food supply",
+      "technology solutions for delivery kitchens"
+    ],
+    "interpretation_summary": "The ghost kitchen market involves food service operations that prepare meals for delivery without a traditional dine-in space. Participants include food service providers, technology platforms, and logistics companies, o",
+    "relevance_keywords": [
+      "food service distribution",
+      "kitchen technology integration",
+      "delivery logistics",
+      "wholesale food supply",
+      "restaurant technology"
+    ],
+    "negative_keywords": [
+      "traditional restaurant",
+      "food truck",
+      "catering service",
+      "retail food outlet"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "Sysco",
+        "primary_domain": "sysco.com",
+        "company_function": "food product distributor"
+      },
+      {
+        "canonical_name": "US Foods",
+        "primary_domain": "usfoods.com",
+        "company_function": "food product distributor"
+      },
+      {
+        "canonical_name": "Gordon Food Service",
+        "primary_domain": "gfs.com",
+        "company_function": "food product distributor"
+      },
+      {
+        "canonical_name": "WebstaurantStore",
+        "primary_domain": "webstaurantstore.com",
+        "company_function": "kitchen equipment reseller"
+      },
+      {
+        "canonical_name": "KaTom Restaurant Supply",
+        "primary_domain": "katom.com",
+        "company_function": "kitchen equipment reseller"
+      },
+      {
+        "canonical_name": "Toast",
+        "primary_domain": "toasttab.com",
+        "company_function": "order management system provider"
+      },
+      {
+        "canonical_name": "Square",
+        "primary_domain": "squareup.com",
+        "company_function": "order management system provider"
+      },
+      {
+        "canonical_name": "Grubhub",
+        "primary_domain": "grubhub.com",
+        "company_function": "delivery logistics service"
+      },
+      {
+        "canonical_name": "DoorDash",
+        "primary_domain": "doordash.com",
+        "company_function": "delivery logistics service",
+        "segment": "Delivery Logistics",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Uber Eats",
+        "primary_domain": "ubereats.com",
+        "company_function": "delivery logistics service",
+        "segment": "Delivery Logistics",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Caviar",
+        "primary_domain": "caviar.com",
+        "company_function": "delivery logistics service",
+        "segment": "Delivery Logistics",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Chowly",
+        "primary_domain": "chowly.com",
+        "company_function": "service provider for ghost kitchens",
+        "segment": "Delivery Logistics",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Zomato",
+        "primary_domain": "zomato.com",
+        "company_function": "delivery logistics service",
+        "segment": "Delivery Logistics",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Fooda",
+        "primary_domain": "fooda.com",
+        "company_function": "service provider for ghost kitchens",
+        "segment": "Delivery Logistics",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "ghost kitchen",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "ghost kitchen",
+    "include_keywords": [
+      "ghost kitchen distributor",
+      "wholesale food supplier",
+      "kitchen equipment reseller",
+      "order management system provider",
+      "delivery logistics service"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The ghost kitchen market involves food service operations that prepare meals for delivery without a traditional dine-in space. Participants include food service providers, technology platforms, and logistics companies, operating globally to cater to the growing demand for food delivery services.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Distribution",
+        "description": "This layer involves the distribution of food products and supplies to ghost kitchens.",
+        "segments": [
+          {
+            "segment_name": "Food Product Distributors",
+            "sub_segments": [
+              "Fresh Produce",
+              "Frozen Foods",
+              "Dry Goods"
+            ],
+            "participant_types": [
+              "Distributor",
+              "Wholesaler"
+            ],
+            "search_intents": [
+              "food product distributors for ghost kitchens",
+              "wholesale food suppliers for delivery kitchens"
+            ]
+          },
+          {
+            "segment_name": "Equipment Distributors",
+            "sub_segments": [
+              "Kitchen Equipment",
+              "Cooking Appliances"
+            ],
+            "participant_types": [
+              "Reseller",
+              "Channel Partner"
+            ],
+            "search_intents": [
+              "kitchen equipment suppliers for ghost kitchens",
+              "resellers of cooking appliances for delivery kitchens"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L2",
+        "layer_name": "Technology Integration",
+        "description": "This layer focuses on integrating technology solutions for order management and delivery logistics.",
+        "segments": [
+          {
+            "segment_name": "Order Management Systems",
+            "sub_segments": [
+              "POS Systems",
+              "Online Ordering Platforms"
+            ],
+            "participant_types": [
+              "System Integrator",
+              "Service Provider"
+            ],
+            "search_intents": [
+              "order management systems for ghost kitchens",
+              "service providers for online ordering solutions"
+            ]
+          },
+          {
+            "segment_name": "Delivery Logistics",
+            "sub_segments": [
+              "Last-Mile Delivery",
+              "Fleet Management"
+            ],
+            "participant_types": [
+              "Service Provider",
+              "Channel Partner"
+            ],
+            "search_intents": [
+              "delivery logistics services for ghost kitchens",
+              "last-mile delivery partners for food service"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Traditional Restaurants",
+        "Food Trucks",
+        "Catering Services",
+        "Retail Food Outlets"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "search for food product distributors for ghost kitchens",
+        "sub_sector": "food_product_distribution",
+        "layer_id": "L1",
+        "segment": "Food Product Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "find kitchen equipment suppliers for ghost kitchens",
+        "sub_sector": "kitchen_equipment_distribution",
+        "layer_id": "L1",
+        "segment": "Equipment Distributors"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "search for order management systems for ghost kitchens",
+        "sub_sector": "order_management_integration",
+        "layer_id": "L2",
+        "segment": "Order Management Systems"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "find delivery logistics services for ghost kitchens",
+        "sub_sector": "delivery_logistics_management",
+        "layer_id": "L2",
+        "segment": "Delivery Logistics"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "food service",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "ghost kitchen companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "ghost kitchen distributors corporate site"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "ghost kitchen service providers official site"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "discovery",
+      "text": "food product distributors for ghost kitchens"
+    },
+    {
+      "id": "P2",
+      "level": "discovery",
+      "text": "wholesale food suppliers for delivery kitchens"
+    },
+    {
+      "id": "P3",
+      "level": "discovery",
+      "text": "kitchen equipment suppliers for ghost kitchens"
+    },
+    {
+      "id": "P4",
+      "level": "discovery",
+      "text": "resellers of cooking appliances for delivery kitchens"
+    },
+    {
+      "id": "P5",
+      "level": "discovery",
+      "text": "order management systems for ghost kitchens"
+    },
+    {
+      "id": "P6",
+      "level": "discovery",
+      "text": "service providers for online ordering solutions"
+    },
+    {
+      "id": "P7",
+      "level": "discovery",
+      "text": "delivery logistics services for ghost kitchens"
+    },
+    {
+      "id": "P8",
+      "level": "discovery",
+      "text": "last-mile delivery partners for food service"
+    },
+    {
+      "id": "P9",
+      "level": "volume",
+      "text": "authorized ghost kitchen distributor firm official"
+    },
+    {
+      "id": "P10",
+      "level": "volume",
+      "text": "ghost kitchen kitchen equipment supply official website"
+    },
+    {
+      "id": "P11",
+      "level": "volume",
+      "text": "ghost kitchen system integrator official website"
+    },
+    {
+      "id": "P12",
+      "level": "volume",
+      "text": "ghost kitchen delivery logistics management official website"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "ghost kitchen companies official websites",
+      "level": "L0",
+      "result_count": 21,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "20 Disruptive Ghost Kitchen Companies & Startups (2024)",
+          "link": "https://explodingtopics.com/blog/ghost-kitchen-startups",
+          "snippet": "Fix Your Site\u2019s SEO Issues in 30 Seconds.The company currently operates 20 bySWHK brands, all of which run under the same facility. Unlike most traditional ghost kitchen companies, Sweetheart Kitchen ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Ghost Kitchen Brands & How They Build Visual... | FoodShot AI",
+          "link": "https://foodshot.ai/blog/ghost-kitchen-brands",
+          "snippet": "Profiles of the top ghost kitchen brands \u2014 CloudKitchens, REEF, Kitchen United, MrBeast Burger, Nextbite \u2014 plus how to build your own visual identity.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "What is a Ghost Kitchen?",
+          "link": "https://pos.toasttab.com/blog/on-the-line/what-is-a-ghost-kitchen",
+          "snippet": "Ghost kitchens, also known as cloud kitchens, forgo table or counter service for 100% delivery. The customer might never know who\u2019s preparing their takeout burger, which is why the mysterious \u201cghost k",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost kitchens are making a post-pandemic pivot to survive",
+          "link": "https://www.modernretail.co/operations/ghost-kitchens-are-making-a-post-pandemic-pivot-to-survive/",
+          "snippet": "Ghost kitchens are essentially industrial kitchens built to make white-labeled food for pick-up or delivery. In 2021, commercial real estate company CBRE believed that ghost kitchens would account for",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchen Software Development | RaftLabs",
+          "link": "https://www.raftlabs.com/industries/ghost-kitchen",
+          "snippet": "Ghost Kitchen Software Development Company. Multi-brand ghost kitchen and cloud kitchen operators hit a ceiling with generic POS systems and delivery aggregator tablets.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Startups building the next generation of ghost kitchen concepts",
+          "link": "https://agfundernews.com/the-next-generation-of-ghost-kitchens-10-new-startup-concepts-around-the-world",
+          "snippet": "Ongoing challenges. Pandemic-level hype around ghost kitchens has largely died. And though major chains still embrace the idea, the sector isn\u2019t without its issues. Reef, once one of the biggest ghost",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "15 Ghost Kitchen Companies Looking to Profit Off... - Business Insider",
+          "link": "https://www.businessinsider.com/14-ghost-kitchen-companies-delivery-boom-restaurants-2020-7",
+          "snippet": "The company launched its ghost kitchen brand, Swiggy Access in 2017, and at the end of 2019, the company had 8,000 people working for Swiggy Access, with its eyes on 7,000 more employees by the end of",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 7 Virtual Restaurant And Ghost Kitchen Companies",
+          "link": "https://www.verifiedmarketresearch.com/blog/top-virtual-restaurant-and-ghost-kitchen-companies/",
+          "snippet": "Taker-one of the top virtual restaurant and ghost kitchen companies. Established in 2019 and based in Saudi Arabia, Taker is a tech-focused firm that offers online ordering solutions specifically desi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Rise of Ghost Kitchens\u2014A History",
+          "link": "https://www.cuboh.com/blog/this-history-of-the-rise-of-ghost-kitchens",
+          "snippet": "A ghost kitchen isn't the same as a ghost restaurant, but one business can offer both. A kitchen doesn't have to carry any restaurant brand name as it is merely a meal preparation facility. Multiple r",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Portland Chefs Adapt to Delivery-Only Without National Ghost Kitchens",
+          "link": "https://pdx.eater.com/2021/1/14/22229296/portland-restaurants-ghost-kitchens-reef-cloud-kitchens-delivery-covid-19",
+          "snippet": "As National Ghost Kitchen Companies Gain Prominence in Portland, Local Chefs Fight Back. With dining rooms shut down in Portland for the foreseeable future, many chefs feel forced to adapt to compete ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchens Might Be the Future of Restaurants | Bon App\u00e9tit",
+          "link": "https://www.bonappetit.com/story/ghost-kitchens",
+          "snippet": "But others are betting on ghost kitchens for the longer run. Companies like Reef, which started in 2013 as a parking business, are leasing kitchen spaces, finding or developing restaurant concepts, an",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Your #1 Source for Ghost Kitchens | Ghost Kitchen Network",
+          "link": "https://ghostkitchennetwork.com/",
+          "snippet": "Ghost Kitchen Network makes it easy as 1-2-3 to find a ghost kitchen that fits your needs. We curate the top ghost kitchens around the U.S. and Canada so you don't have to.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchens United States | Ghost Kitchen Network",
+          "link": "https://ghostkitchennetwork.com/locations/united-states/",
+          "snippet": "Looking for a ghost kitchen in United States? Browse our network of ghost kitchens across 46 states and provinces.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchens",
+          "link": "https://ghostkitchens.com/",
+          "snippet": "Untitled about Checkout connect DogDudes Eighty Twenty Ghost Kitchens HNDL MEDIA Order Confirmation Orders Pocket Snax punkdchicken team Transaction Failed Virtual Restaurants Wasted Love Wasted Love ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchens India",
+          "link": "https://ghostkitchensindia.com/",
+          "snippet": "Ghost Brands is the most advanced restaurant brand curator, leading the industry with top-of-the-line Cloud Kitchen brands built to drive revenue.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - Kitchen Labs",
+          "link": "https://kitchen-labs.com/",
+          "snippet": "What is a ghost kitchen? A ghost kitchen gives you access to a private commercial kitchen in which you can prepare food and send it out for delivery or pick-up under your own food brands.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchens | US Foods",
+          "link": "https://www.usfoods.com/how-we-help-you/business-solutions/check/opening-and-expanding/ghost-kitchens",
+          "snippet": "What is a ghost kitchen, and why will it benefit you? Also called dark or virtual kitchens, Ghost Kitchens are foodservice facilities set up for delivery-only or carryout meals. It's not a traditional",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchens for Delivery + Pickup | Cloud Kitchen Brands",
+          "link": "https://www.cloudkitchenbrands.com/home",
+          "snippet": "A ghost kitchen operates exclusively for delivery rather than dine-in. When customers place orders online, your restaurant prepares the food in the ghost kitchen, which is then handed off to a fulfill",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "10 Ghost Kitchen Brands You Might Not Know Are Owned By Restaurant ...",
+          "link": "https://www.tastingtable.com/1356140/ghost-virtual-kitchen-brands-owned-restaurant-chains/",
+          "snippet": "Ghost kitchens are a COVID-fueled convenience that isn't going anywhere, essentially \"virtual restaurants\" sharing a kitchen with another establishment, strictly for digital transactions.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "About | One Kitchen",
+          "link": "https://onekitchen.biz/about",
+          "snippet": "A distinctive and innovative business model, Ghost Kitchen International/ One Kitchen (In the USA) involve national and local restaurant brands that don't exist in their own premises but make use of a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "DoorDash isn\u2019t just delivering meals\u2014it\u2019s making them, too",
+          "link": "https://qz.com/2039684/doordash-is-launching-ghost-kitchens-to-make-food-for-restaurants",
+          "snippet": "But ghost kitchens haven\u2019t had much uptake with US-based food delivery companies yet, since it\u2019s a new business model. Outside the US, the model is more established with food delivery companies like D",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "20 Disruptive Ghost Kitchen Companies & Startups (2024)",
+          "link": "https://explodingtopics.com/blog/ghost-kitchen-startups",
+          "snippet": "Fix Your Site\u2019s SEO Issues in 30 Seconds.The company currently operates 20 bySWHK brands, all of which run under the same facility. Unlike most traditional ghost kitchen companies, Sweetheart Kitchen ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Ghost Kitchen Brands & How They Build Visual... | FoodShot AI",
+          "link": "https://foodshot.ai/blog/ghost-kitchen-brands",
+          "snippet": "Profiles of the top ghost kitchen brands \u2014 CloudKitchens, REEF, Kitchen United, MrBeast Burger, Nextbite \u2014 plus how to build your own visual identity.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "What is a Ghost Kitchen?",
+          "link": "https://pos.toasttab.com/blog/on-the-line/what-is-a-ghost-kitchen",
+          "snippet": "Ghost kitchens, also known as cloud kitchens, forgo table or counter service for 100% delivery. The customer might never know who\u2019s preparing their takeout burger, which is why the mysterious \u201cghost k",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost kitchens are making a post-pandemic pivot to survive",
+          "link": "https://www.modernretail.co/operations/ghost-kitchens-are-making-a-post-pandemic-pivot-to-survive/",
+          "snippet": "Ghost kitchens are essentially industrial kitchens built to make white-labeled food for pick-up or delivery. In 2021, commercial real estate company CBRE believed that ghost kitchens would account for",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchen Software Development | RaftLabs",
+          "link": "https://www.raftlabs.com/industries/ghost-kitchen",
+          "snippet": "Ghost Kitchen Software Development Company. Multi-brand ghost kitchen and cloud kitchen operators hit a ceiling with generic POS systems and delivery aggregator tablets.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Startups building the next generation of ghost kitchen concepts",
+          "link": "https://agfundernews.com/the-next-generation-of-ghost-kitchens-10-new-startup-concepts-around-the-world",
+          "snippet": "Ongoing challenges. Pandemic-level hype around ghost kitchens has largely died. And though major chains still embrace the idea, the sector isn\u2019t without its issues. Reef, once one of the biggest ghost",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "15 Ghost Kitchen Companies Looking to Profit Off... - Business Insider",
+          "link": "https://www.businessinsider.com/14-ghost-kitchen-companies-delivery-boom-restaurants-2020-7",
+          "snippet": "The company launched its ghost kitchen brand, Swiggy Access in 2017, and at the end of 2019, the company had 8,000 people working for Swiggy Access, with its eyes on 7,000 more employees by the end of",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 7 Virtual Restaurant And Ghost Kitchen Companies",
+          "link": "https://www.verifiedmarketresearch.com/blog/top-virtual-restaurant-and-ghost-kitchen-companies/",
+          "snippet": "Taker-one of the top virtual restaurant and ghost kitchen companies. Established in 2019 and based in Saudi Arabia, Taker is a tech-focused firm that offers online ordering solutions specifically desi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Rise of Ghost Kitchens\u2014A History",
+          "link": "https://www.cuboh.com/blog/this-history-of-the-rise-of-ghost-kitchens",
+          "snippet": "A ghost kitchen isn't the same as a ghost restaurant, but one business can offer both. A kitchen doesn't have to carry any restaurant brand name as it is merely a meal preparation facility. Multiple r",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Portland Chefs Adapt to Delivery-Only Without National Ghost Kitchens",
+          "link": "https://pdx.eater.com/2021/1/14/22229296/portland-restaurants-ghost-kitchens-reef-cloud-kitchens-delivery-covid-19",
+          "snippet": "As National Ghost Kitchen Companies Gain Prominence in Portland, Local Chefs Fight Back. With dining rooms shut down in Portland for the foreseeable future, many chefs feel forced to adapt to compete ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchens Might Be the Future of Restaurants | Bon App\u00e9tit",
+          "link": "https://www.bonappetit.com/story/ghost-kitchens",
+          "snippet": "But others are betting on ghost kitchens for the longer run. Companies like Reef, which started in 2013 as a parking business, are leasing kitchen spaces, finding or developing restaurant concepts, an",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Your #1 Source for Ghost Kitchens | Ghost Kitchen Network",
+          "link": "https://ghostkitchennetwork.com/",
+          "snippet": "Ghost Kitchen Network makes it easy as 1-2-3 to find a ghost kitchen that fits your needs. We curate the top ghost kitchens around the U.S. and Canada so you don't have to.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchens United States | Ghost Kitchen Network",
+          "link": "https://ghostkitchennetwork.com/locations/united-states/",
+          "snippet": "Looking for a ghost kitchen in United States? Browse our network of ghost kitchens across 46 states and provinces.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchens",
+          "link": "https://ghostkitchens.com/",
+          "snippet": "Untitled about Checkout connect DogDudes Eighty Twenty Ghost Kitchens HNDL MEDIA Order Confirmation Orders Pocket Snax punkdchicken team Transaction Failed Virtual Restaurants Wasted Love Wasted Love ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchens India",
+          "link": "https://ghostkitchensindia.com/",
+          "snippet": "Ghost Brands is the most advanced restaurant brand curator, leading the industry with top-of-the-line Cloud Kitchen brands built to drive revenue.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - Kitchen Labs",
+          "link": "https://kitchen-labs.com/",
+          "snippet": "What is a ghost kitchen? A ghost kitchen gives you access to a private commercial kitchen in which you can prepare food and send it out for delivery or pick-up under your own food brands.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchens | US Foods",
+          "link": "https://www.usfoods.com/how-we-help-you/business-solutions/check/opening-and-expanding/ghost-kitchens",
+          "snippet": "What is a ghost kitchen, and why will it benefit you? Also called dark or virtual kitchens, Ghost Kitchens are foodservice facilities set up for delivery-only or carryout meals. It's not a traditional",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchens for Delivery + Pickup | Cloud Kitchen Brands",
+          "link": "https://www.cloudkitchenbrands.com/home",
+          "snippet": "A ghost kitchen operates exclusively for delivery rather than dine-in. When customers place orders online, your restaurant prepares the food in the ghost kitchen, which is then handed off to a fulfill",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "10 Ghost Kitchen Brands You Might Not Know Are Owned By Restaurant ...",
+          "link": "https://www.tastingtable.com/1356140/ghost-virtual-kitchen-brands-owned-restaurant-chains/",
+          "snippet": "Ghost kitchens are a COVID-fueled convenience that isn't going anywhere, essentially \"virtual restaurants\" sharing a kitchen with another establishment, strictly for digital transactions.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "About | One Kitchen",
+          "link": "https://onekitchen.biz/about",
+          "snippet": "A distinctive and innovative business model, Ghost Kitchen International/ One Kitchen (In the USA) involve national and local restaurant brands that don't exist in their own premises but make use of a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "DoorDash isn\u2019t just delivering meals\u2014it\u2019s making them, too",
+          "link": "https://qz.com/2039684/doordash-is-launching-ghost-kitchens-to-make-food-for-restaurants",
+          "snippet": "But ghost kitchens haven\u2019t had much uptake with US-based food delivery companies yet, since it\u2019s a new business model. Outside the US, the model is more established with food delivery companies like D",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "ghost kitchen distributors corporate site",
+      "level": "L1",
+      "result_count": 15,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "CloudKitchens - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/CloudKitchens",
+          "snippet": "CloudKitchens is a Los Angeles-based company that operates ghost kitchens and develops related technology. The company was founded in 2016 and was later acquired by Uber's cofounder Travis Kalanick.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Find a - Ghost Kitchen Network",
+          "link": "https://ghostkitchennetwork.com/find-a-ghost-kitchen/",
+          "snippet": "Tell us what you need and we'll match you with ghost kitchens in your area.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Your #1 Source for Ghost Kitchens | Ghost Kitchen Network",
+          "link": "https://ghostkitchennetwork.com/",
+          "snippet": "Why Ghost kitchen network? Ghost Kitchen Network makes it easy as 1-2-3 to find a ghost kitchen that fits your needs. We curate the top ghost kitchens around the U.S. and Canada so you don't have to. ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchen Brands - LinkedIn",
+          "link": "https://www.linkedin.com/company/ghost-kitchen-brands/",
+          "snippet": "Ghost Kitchen Brands has partnered with famous restaurant brands, iconic consumer packaged goods and the most innovative technology companies to create the most advanced and scalable Ghost...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchen Foods",
+          "link": "https://www.ghostkitchenfoods.co.uk/",
+          "snippet": "We can also deliver directly to your distribution hub under the Ghost Kitchen Foods brand. We work closely with highly regarded UK and European manufacturers operating world-class BRC A-Grade faciliti",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchen 101: How to Start a Delivery-Only Business",
+          "link": "https://merchants.doordash.com/en-us/blog/ghost-kitchen",
+          "snippet": "May 18, 2026 \u00b7 Discover how ghost kitchens work and learn about profit margins, business models, and how to launch a successful delivery-only brand with DoorDash.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchen Brands announces global expansion and ...",
+          "link": "https://www.nrn.com/marketing-branding/ghost-kitchen-brands-announces-global-expansion-and-rebranding-as-ghost-kitchens-international",
+          "snippet": "Jun 21, 2024 \u00b7 Last year, Ghost Kitchens International launched franchising, and new locations are now opening in Georgia, Illinois, Nevada, Texas, and New York, as well as additional locations in Can",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "JustKitchen Opens Ghost Kitchens in Luxury and... - Hotelier Magazine",
+          "link": "https://www.hoteliermagazine.com/justkitchen-opens-ghost-kitchens-in-luxury-and-business-hotels/",
+          "snippet": "The ghost kitchens will operate on a month-to-month basis, and JustKitchen will pay the hotels and restaurant a fee based on a percentage of sales.This site uses Akismet to reduce spam. Learn how your",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Food halls, ghost kitchens and the future of in-store... | Grocery Dive",
+          "link": "https://www.grocerydive.com/news/food-halls-ghost-kitchens-and-the-future-of-in-store-restaurants/600468/",
+          "snippet": "Choy said Ghost Kitchen Brands is hoping to expand its deal with Walmart. Spinks declined to outline the expansion plans for ghost kitchens inside stores. Other retailers are also making their restaur",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Powering ghost kitchen integration - Foodservice and Hospitality...",
+          "link": "https://www.foodserviceandhospitality.com/powering-ghost-kitchen-integration/",
+          "snippet": "Ten years ago, the first ghost kitchen concepts appeared on the Canadian restaurant scene. Since then, they have become a popular pop-up model that helps operators meet the ever-growing demand for del",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cloud Kitchens Explained: Everything You Should Know",
+          "link": "https://www.thefoodcorridor.com/blog/everything-you-need-to-know-about-cloud-kitchens-ghost-kitchens/",
+          "snippet": "What is a ghost kitchen, or cloud kitchen? Ghost kitchens are delivery-only restaurants without dining areas for customers and have no physical storefront. Therefore, they operate behind the scenes an",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Gastro-Konzept: Ghost Kitchen er\u00f6ffnen | Duni \u00d6sterreich",
+          "link": "https://at.duni.com/de/magazin/ghost-kitchen-preiswerte-bewirtung-ohne-gastraum",
+          "snippet": "Gastro-Konzept: Ghost Kitchen er\u00f6ffnen. Ob kleines Bistro an der Ecke oder gro\u00dfes Restaurant in angesagter Lage: Die Konkurrenz im Gastronomie-Sektor nimmt immer mehr zu \u2013 und verlagert sich zunehmend",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The rise of the \u201cghost kitchen\u201d could change the restaurant delivery...",
+          "link": "https://thecounter.org/ghost-kitchen-delivery-ubereats-seamless-grubhub/",
+          "snippet": "Rising rents and labor costs are a big part of the ghost kitchen\u2019s appeal. Pittsburgh-based Primanti Bros., a sandwich chain with 42 locations in 6 states, works with a variety of different apps in di",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "This Delivery-Only Ghost Kitchen from SBE Could Change Restaurants",
+          "link": "https://robbreport.com/food-drink/dining/restaurant-delivery-ghost-kitchens-sbe-2925161/",
+          "snippet": "Other concepts will operate out of the ghost kitchens, like the vegan Plant Nation. Photo: courtesy SBE. That\u2019s what makes it different from other ghost kitchen concepts you\u2019ll read about. When Uber f",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "'Ghost kitchens' and 'virtual food halls' might be the next ...",
+          "link": "https://www.startribune.com/ghost-kitchens-and-virtual-food-halls-might-be-the-next-frontier-in-twin-cities-dining/572662732",
+          "snippet": "Call them ghost kitchens, cloud kitchens or dark kitchens \u2014 basically any kitchen that's already in motion can be leveraged to power more than one food business. Especially an underused kitchen, as th",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "CloudKitchens - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/CloudKitchens",
+          "snippet": "CloudKitchens is a Los Angeles-based company that operates ghost kitchens and develops related technology. The company was founded in 2016 and was later acquired by Uber's cofounder Travis Kalanick.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Find a - Ghost Kitchen Network",
+          "link": "https://ghostkitchennetwork.com/find-a-ghost-kitchen/",
+          "snippet": "Tell us what you need and we'll match you with ghost kitchens in your area.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Your #1 Source for Ghost Kitchens | Ghost Kitchen Network",
+          "link": "https://ghostkitchennetwork.com/",
+          "snippet": "Why Ghost kitchen network? Ghost Kitchen Network makes it easy as 1-2-3 to find a ghost kitchen that fits your needs. We curate the top ghost kitchens around the U.S. and Canada so you don't have to. ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchen Brands - LinkedIn",
+          "link": "https://www.linkedin.com/company/ghost-kitchen-brands/",
+          "snippet": "Ghost Kitchen Brands has partnered with famous restaurant brands, iconic consumer packaged goods and the most innovative technology companies to create the most advanced and scalable Ghost...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchen Foods",
+          "link": "https://www.ghostkitchenfoods.co.uk/",
+          "snippet": "We can also deliver directly to your distribution hub under the Ghost Kitchen Foods brand. We work closely with highly regarded UK and European manufacturers operating world-class BRC A-Grade faciliti",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchen 101: How to Start a Delivery-Only Business",
+          "link": "https://merchants.doordash.com/en-us/blog/ghost-kitchen",
+          "snippet": "May 18, 2026 \u00b7 Discover how ghost kitchens work and learn about profit margins, business models, and how to launch a successful delivery-only brand with DoorDash.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchen Brands announces global expansion and ...",
+          "link": "https://www.nrn.com/marketing-branding/ghost-kitchen-brands-announces-global-expansion-and-rebranding-as-ghost-kitchens-international",
+          "snippet": "Jun 21, 2024 \u00b7 Last year, Ghost Kitchens International launched franchising, and new locations are now opening in Georgia, Illinois, Nevada, Texas, and New York, as well as additional locations in Can",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "JustKitchen Opens Ghost Kitchens in Luxury and... - Hotelier Magazine",
+          "link": "https://www.hoteliermagazine.com/justkitchen-opens-ghost-kitchens-in-luxury-and-business-hotels/",
+          "snippet": "The ghost kitchens will operate on a month-to-month basis, and JustKitchen will pay the hotels and restaurant a fee based on a percentage of sales.This site uses Akismet to reduce spam. Learn how your",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Food halls, ghost kitchens and the future of in-store... | Grocery Dive",
+          "link": "https://www.grocerydive.com/news/food-halls-ghost-kitchens-and-the-future-of-in-store-restaurants/600468/",
+          "snippet": "Choy said Ghost Kitchen Brands is hoping to expand its deal with Walmart. Spinks declined to outline the expansion plans for ghost kitchens inside stores. Other retailers are also making their restaur",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Powering ghost kitchen integration - Foodservice and Hospitality...",
+          "link": "https://www.foodserviceandhospitality.com/powering-ghost-kitchen-integration/",
+          "snippet": "Ten years ago, the first ghost kitchen concepts appeared on the Canadian restaurant scene. Since then, they have become a popular pop-up model that helps operators meet the ever-growing demand for del",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cloud Kitchens Explained: Everything You Should Know",
+          "link": "https://www.thefoodcorridor.com/blog/everything-you-need-to-know-about-cloud-kitchens-ghost-kitchens/",
+          "snippet": "What is a ghost kitchen, or cloud kitchen? Ghost kitchens are delivery-only restaurants without dining areas for customers and have no physical storefront. Therefore, they operate behind the scenes an",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Gastro-Konzept: Ghost Kitchen er\u00f6ffnen | Duni \u00d6sterreich",
+          "link": "https://at.duni.com/de/magazin/ghost-kitchen-preiswerte-bewirtung-ohne-gastraum",
+          "snippet": "Gastro-Konzept: Ghost Kitchen er\u00f6ffnen. Ob kleines Bistro an der Ecke oder gro\u00dfes Restaurant in angesagter Lage: Die Konkurrenz im Gastronomie-Sektor nimmt immer mehr zu \u2013 und verlagert sich zunehmend",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The rise of the \u201cghost kitchen\u201d could change the restaurant delivery...",
+          "link": "https://thecounter.org/ghost-kitchen-delivery-ubereats-seamless-grubhub/",
+          "snippet": "Rising rents and labor costs are a big part of the ghost kitchen\u2019s appeal. Pittsburgh-based Primanti Bros., a sandwich chain with 42 locations in 6 states, works with a variety of different apps in di",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "This Delivery-Only Ghost Kitchen from SBE Could Change Restaurants",
+          "link": "https://robbreport.com/food-drink/dining/restaurant-delivery-ghost-kitchens-sbe-2925161/",
+          "snippet": "Other concepts will operate out of the ghost kitchens, like the vegan Plant Nation. Photo: courtesy SBE. That\u2019s what makes it different from other ghost kitchen concepts you\u2019ll read about. When Uber f",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "'Ghost kitchens' and 'virtual food halls' might be the next ...",
+          "link": "https://www.startribune.com/ghost-kitchens-and-virtual-food-halls-might-be-the-next-frontier-in-twin-cities-dining/572662732",
+          "snippet": "Call them ghost kitchens, cloud kitchens or dark kitchens \u2014 basically any kitchen that's already in motion can be leveraged to power more than one food business. Especially an underused kitchen, as th",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "ghost kitchen service providers official site",
+      "level": "L2",
+      "result_count": 11,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Restaurateurs embrace ghost kitchens in... - GREENVILLE JOURNAL",
+          "link": "https://greenvillejournal.com/eat-drink/restaurateurs-embrace-ghost-kitchens-in-a-spooky-covid-world/",
+          "snippet": "A ghost kitchen, or \u201cvirtual brand offering,\u201d is a professional food prep and cooking facility (restaurant kitchen) designed for delivery-only meals, mostly via third-party services like DoorDash or U",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost kitchens get real - HOTELSMag.com",
+          "link": "https://hotelsmag.com/news/ghost-kitchens-get-real/",
+          "snippet": "\u201cGhost kitchens are definitely re-inventing the future of food and beverage, as well as delivery and delivery logistics,\u201d said Tim Gjonbalic, founder and CEO of New York-based Butler Hospitality, a gh",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "You Might Be Eating at a Ghost Kitchen Without Knowing It - TheStreet",
+          "link": "https://www.thestreet.com/retail/you-might-be-eating-at-a-ghost-kitchen-without-knowing-it",
+          "snippet": "Ghost kitchens physically do exist on the food-making and delivery side of the restaurant business. \u201cThere\u2019s no signage, no seating, no cute walk-up window,\u201d said Jean Chick, a senior consultant speci",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "JustKitchen Opens Ghost Kitchens in Luxury and... - Hotelier Magazine",
+          "link": "https://www.hoteliermagazine.com/justkitchen-opens-ghost-kitchens-in-luxury-and-business-hotels/",
+          "snippet": "Operations began June 15, and JustKitchen is using a mobile app in addition to the delivery companies\u2019 apps to generate orders. The ghost kitchens will operate on a month-to-month basis, and JustKitch",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchen Brands - Ghost Kitchen Journal",
+          "link": "https://ghostkitchenjournal.com/resources-ghost-kitchen-brands/",
+          "snippet": "Enter the Sphere of Top Digital ghost Kitchen Service Providers. Recent years have seen restaurant difficulties. Closures, deteriorating supply chains, a lack of staff, and other difficulties let rest",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "DoorDash\u2019s new full-service ghost kitchen outsources staffing...",
+          "link": "https://www.nrn.com/delivery-takeout-solutions/doordash-s-new-full-service-ghost-kitchen-outsources-staffing-operations-and-supply-chain",
+          "snippet": "DoorDash Kitchens Full Service could become a major competitor to virtual restaurant industry stalwarts Reef Kitchen and Kitchen United as it similarly offers a full menu of services and not just a pl",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Get To Know Ghost Kitchen, Should It Be Halal Certified?",
+          "link": "https://halalmui.org/en/recognize-ghost-kitchen-should-be-certified-halal/",
+          "snippet": "Meanwhile, ghost kitchen service providers offer kitchen facilities as a means of production. The two principles are similar; the product owner cooperates with the facility owner to make the customer\u2019",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Amid pandemic, ghost kitchens get even hotter | Restaurant Business",
+          "link": "https://www.restaurantbusinessonline.com/operations/amid-pandemic-ghost-kitchens-get-even-hotter",
+          "snippet": "Continue to Site >>>. Menu. Amid pandemic, ghost kitchens get even hotter.Executives at full-service barbecue chain Famous Dave\u2019s had been talking about launching an off-premise-only ghost kitchen for",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchen, 9191 Old Seward Hwy, Ste 18, Anchorage... - MapQuest",
+          "link": "https://www.mapquest.com/us/alaska/ghost-kitchen-371146297",
+          "snippet": "Get more information for Ghost Kitchen in Anchorage, AK. See reviews, map, get the address, and find directions.With a rotating menu and efficient service, Ghost Kitchen aims to provide a seamless and",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Here's What It Looks Like Inside a Delivery-Only Ghost Kitchen",
+          "link": "https://www.businessinsider.com/inside-a-ghost-kitchen-where-60-restaurants-make-delivery-only-meals-2021-8",
+          "snippet": "Ghost kitchens \u2013 rentable, delivery-only kitchens \u2013 became a phenomenon during the pandemic as restaurants were forced to close their dining areas.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchen Software Development | RaftLabs",
+          "link": "https://www.raftlabs.com/industries/ghost-kitchen",
+          "snippet": "Custom ghost kitchen software: multi-brand order routing, KDS, inventory, and delivery integration with Uber Eats, DoorDash, and Deliveroo. Fixed cost.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Restaurateurs embrace ghost kitchens in... - GREENVILLE JOURNAL",
+          "link": "https://greenvillejournal.com/eat-drink/restaurateurs-embrace-ghost-kitchens-in-a-spooky-covid-world/",
+          "snippet": "A ghost kitchen, or \u201cvirtual brand offering,\u201d is a professional food prep and cooking facility (restaurant kitchen) designed for delivery-only meals, mostly via third-party services like DoorDash or U",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost kitchens get real - HOTELSMag.com",
+          "link": "https://hotelsmag.com/news/ghost-kitchens-get-real/",
+          "snippet": "\u201cGhost kitchens are definitely re-inventing the future of food and beverage, as well as delivery and delivery logistics,\u201d said Tim Gjonbalic, founder and CEO of New York-based Butler Hospitality, a gh",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "You Might Be Eating at a Ghost Kitchen Without Knowing It - TheStreet",
+          "link": "https://www.thestreet.com/retail/you-might-be-eating-at-a-ghost-kitchen-without-knowing-it",
+          "snippet": "Ghost kitchens physically do exist on the food-making and delivery side of the restaurant business. \u201cThere\u2019s no signage, no seating, no cute walk-up window,\u201d said Jean Chick, a senior consultant speci",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "JustKitchen Opens Ghost Kitchens in Luxury and... - Hotelier Magazine",
+          "link": "https://www.hoteliermagazine.com/justkitchen-opens-ghost-kitchens-in-luxury-and-business-hotels/",
+          "snippet": "Operations began June 15, and JustKitchen is using a mobile app in addition to the delivery companies\u2019 apps to generate orders. The ghost kitchens will operate on a month-to-month basis, and JustKitch",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchen Brands - Ghost Kitchen Journal",
+          "link": "https://ghostkitchenjournal.com/resources-ghost-kitchen-brands/",
+          "snippet": "Enter the Sphere of Top Digital ghost Kitchen Service Providers. Recent years have seen restaurant difficulties. Closures, deteriorating supply chains, a lack of staff, and other difficulties let rest",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "DoorDash\u2019s new full-service ghost kitchen outsources staffing...",
+          "link": "https://www.nrn.com/delivery-takeout-solutions/doordash-s-new-full-service-ghost-kitchen-outsources-staffing-operations-and-supply-chain",
+          "snippet": "DoorDash Kitchens Full Service could become a major competitor to virtual restaurant industry stalwarts Reef Kitchen and Kitchen United as it similarly offers a full menu of services and not just a pl",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Get To Know Ghost Kitchen, Should It Be Halal Certified?",
+          "link": "https://halalmui.org/en/recognize-ghost-kitchen-should-be-certified-halal/",
+          "snippet": "Meanwhile, ghost kitchen service providers offer kitchen facilities as a means of production. The two principles are similar; the product owner cooperates with the facility owner to make the customer\u2019",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Amid pandemic, ghost kitchens get even hotter | Restaurant Business",
+          "link": "https://www.restaurantbusinessonline.com/operations/amid-pandemic-ghost-kitchens-get-even-hotter",
+          "snippet": "Continue to Site >>>. Menu. Amid pandemic, ghost kitchens get even hotter.Executives at full-service barbecue chain Famous Dave\u2019s had been talking about launching an off-premise-only ghost kitchen for",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchen, 9191 Old Seward Hwy, Ste 18, Anchorage... - MapQuest",
+          "link": "https://www.mapquest.com/us/alaska/ghost-kitchen-371146297",
+          "snippet": "Get more information for Ghost Kitchen in Anchorage, AK. See reviews, map, get the address, and find directions.With a rotating menu and efficient service, Ghost Kitchen aims to provide a seamless and",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Here's What It Looks Like Inside a Delivery-Only Ghost Kitchen",
+          "link": "https://www.businessinsider.com/inside-a-ghost-kitchen-where-60-restaurants-make-delivery-only-meals-2021-8",
+          "snippet": "Ghost kitchens \u2013 rentable, delivery-only kitchens \u2013 became a phenomenon during the pandemic as restaurants were forced to close their dining areas.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchen Software Development | RaftLabs",
+          "link": "https://www.raftlabs.com/industries/ghost-kitchen",
+          "snippet": "Custom ghost kitchen software: multi-brand order routing, KDS, inventory, and delivery integration with Uber Eats, DoorDash, and Deliveroo. Fixed cost.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "food product distributors for ghost kitchens",
+      "level": "discovery",
+      "result_count": 12,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Procurement for Ghost Kitchens and Commissary Facilities...",
+          "link": "https://www.linenow.co/blog/industry/procurement-for-ghost-kitchens",
+          "snippet": "Quick answer: ghost kitchens need living POs. The shared-vs-dedicated cost split. Multi-brand BOM: cost flows through production. Ordering at facility scale from one supplier account. Receiving at the",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The complete Guide for food service Decision-Makers",
+          "link": "https://cloudkitchens.com/blog/ultimate-guide-to-ghost-kitchens",
+          "snippet": "A dark kitchen, also called a ghost kitchen, cloud kitchen, or virtual kitchen, is a commercial food production facility built exclusively for delivery orders. There is no dining room, no storefront, ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "What Is a Ghost Kitchen? The 2026 Guide for Food... | FoodShot AI",
+          "link": "https://foodshot.ai/blog/what-is-a-ghost-kitchen",
+          "snippet": "A ghost kitchen is a commercial kitchen that prepares food exclusively for delivery and pickup. It has no dining room, no storefront, and no walk-in customers. Orders arrive through third-party delive",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Modular Cooking Systems for Dark Kitchens: B2B Distribution to...",
+          "link": "https://fulfillmentspain.com/2026/07/22/dark-kitchen-modular-cooking-system-b2b-operator-spain-3/",
+          "snippet": "Spain\u2019s dark kitchen (also called ghost kitchen) sector has grown by 47% since 2021, according to a 2024 report by the Spanish Association of Food Service Operators (AEPD). Yet only 12% of modular coo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How the Tesla of chicken hit a ludicrous growth mode thanks to ghost...",
+          "link": "https://www.fastcompany.com/90618249/nuggs-tesla-chicken-ludicrous-growth-ghost-kitchens-simulate",
+          "snippet": "They\u2019ve been using the ghost kitchens to beta test new products quickly, such as \u201cDiscs,\u201d the brand\u2019s chicken burger-like offering. Terris says that a deal with a major food operator is imminent, mean",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Navigating the Global Landscape of Ghost Kitchen Innovations",
+          "link": "https://www.munchprod.com/p/the-next-biggest-restaurant-isnt",
+          "snippet": "Rebel Foods, the decade-old Indian ghost kitchen operator, has developed the largest network of digital restaurants in the world. Rebel\u2019s CEO Jaydeep Barman, however, has a larger goal in mind. He wan",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchens: Explained with Examples 2026",
+          "link": "https://posapt.au/blogs/Ghost-kitchens-explained",
+          "snippet": "A ghost kitchen is a professional food preparation and cooking facility set up for the preparation of delivery-only meals. It doesn't have a physical restaurant space where diners can eat; instead, it",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Pros and Cons of Operating a Ghost Kitchen Restaurant | Eater",
+          "link": "https://www.eater.com/22632677/ghost-kitchens-restaurant-industry-food-delivery-takeout",
+          "snippet": "In some cases, the kitchen functions as a hub for a handful of other so-called virtual restaurants; in others, the food from the virtual restaurant is prepared inside the kitchen of an established bri",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchen Business Model: From Dish Prep to Delivery",
+          "link": "https://www.shipday.com/post/ghost-kitchen-business-model",
+          "snippet": "Successfully distributing ghost kitchen products. Ghost kitchen facilities use multiple third-party apps and integrations to build their business virtually. They can utilize all-in-one services that o",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchens Could Soon Displace 50% of Restaurant Volume.",
+          "link": "https://reformingretail.com/index.php/2019/12/17/ghost-kitchens-could-soon-displace-50-of-restaurant-volume-heres-why/",
+          "snippet": "Some ghost kitchen startups, like Cloud Kitchens, believe the entire off-premises volume could or will shift to delivery.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Medium",
+          "link": "https://uxdesign.cc/the-new-normal-virtual-restaurants-ghost-kitchens-and-beast-burgers-2bf7c1cf8d46",
+          "snippet": "Ghost kitchens: The new business model eating everyone\u2019s lunch I\u2019ll never forget the first time I saw a ghost. It was a crisp March day in San Francisco. We pulled up to the nondescript building \u2026",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "DoorDash isn\u2019t just delivering meals\u2014it\u2019s making them, too",
+          "link": "https://qz.com/2039684/doordash-is-launching-ghost-kitchens-to-make-food-for-restaurants",
+          "snippet": "Ghost kitchens are an emerging model. When DoorDash launched its first ghost kitchen in 2019 in Redwood City, California, restaurants weren\u2019t yet familiar with the concept, says Isenstadt.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Procurement for Ghost Kitchens and Commissary Facilities...",
+          "link": "https://www.linenow.co/blog/industry/procurement-for-ghost-kitchens",
+          "snippet": "Quick answer: ghost kitchens need living POs. The shared-vs-dedicated cost split. Multi-brand BOM: cost flows through production. Ordering at facility scale from one supplier account. Receiving at the",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The complete Guide for food service Decision-Makers",
+          "link": "https://cloudkitchens.com/blog/ultimate-guide-to-ghost-kitchens",
+          "snippet": "A dark kitchen, also called a ghost kitchen, cloud kitchen, or virtual kitchen, is a commercial food production facility built exclusively for delivery orders. There is no dining room, no storefront, ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "What Is a Ghost Kitchen? The 2026 Guide for Food... | FoodShot AI",
+          "link": "https://foodshot.ai/blog/what-is-a-ghost-kitchen",
+          "snippet": "A ghost kitchen is a commercial kitchen that prepares food exclusively for delivery and pickup. It has no dining room, no storefront, and no walk-in customers. Orders arrive through third-party delive",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Modular Cooking Systems for Dark Kitchens: B2B Distribution to...",
+          "link": "https://fulfillmentspain.com/2026/07/22/dark-kitchen-modular-cooking-system-b2b-operator-spain-3/",
+          "snippet": "Spain\u2019s dark kitchen (also called ghost kitchen) sector has grown by 47% since 2021, according to a 2024 report by the Spanish Association of Food Service Operators (AEPD). Yet only 12% of modular coo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How the Tesla of chicken hit a ludicrous growth mode thanks to ghost...",
+          "link": "https://www.fastcompany.com/90618249/nuggs-tesla-chicken-ludicrous-growth-ghost-kitchens-simulate",
+          "snippet": "They\u2019ve been using the ghost kitchens to beta test new products quickly, such as \u201cDiscs,\u201d the brand\u2019s chicken burger-like offering. Terris says that a deal with a major food operator is imminent, mean",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Navigating the Global Landscape of Ghost Kitchen Innovations",
+          "link": "https://www.munchprod.com/p/the-next-biggest-restaurant-isnt",
+          "snippet": "Rebel Foods, the decade-old Indian ghost kitchen operator, has developed the largest network of digital restaurants in the world. Rebel\u2019s CEO Jaydeep Barman, however, has a larger goal in mind. He wan",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchens: Explained with Examples 2026",
+          "link": "https://posapt.au/blogs/Ghost-kitchens-explained",
+          "snippet": "A ghost kitchen is a professional food preparation and cooking facility set up for the preparation of delivery-only meals. It doesn't have a physical restaurant space where diners can eat; instead, it",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Pros and Cons of Operating a Ghost Kitchen Restaurant | Eater",
+          "link": "https://www.eater.com/22632677/ghost-kitchens-restaurant-industry-food-delivery-takeout",
+          "snippet": "In some cases, the kitchen functions as a hub for a handful of other so-called virtual restaurants; in others, the food from the virtual restaurant is prepared inside the kitchen of an established bri",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchen Business Model: From Dish Prep to Delivery",
+          "link": "https://www.shipday.com/post/ghost-kitchen-business-model",
+          "snippet": "Successfully distributing ghost kitchen products. Ghost kitchen facilities use multiple third-party apps and integrations to build their business virtually. They can utilize all-in-one services that o",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchens Could Soon Displace 50% of Restaurant Volume.",
+          "link": "https://reformingretail.com/index.php/2019/12/17/ghost-kitchens-could-soon-displace-50-of-restaurant-volume-heres-why/",
+          "snippet": "Some ghost kitchen startups, like Cloud Kitchens, believe the entire off-premises volume could or will shift to delivery.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Medium",
+          "link": "https://uxdesign.cc/the-new-normal-virtual-restaurants-ghost-kitchens-and-beast-burgers-2bf7c1cf8d46",
+          "snippet": "Ghost kitchens: The new business model eating everyone\u2019s lunch I\u2019ll never forget the first time I saw a ghost. It was a crisp March day in San Francisco. We pulled up to the nondescript building \u2026",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "DoorDash isn\u2019t just delivering meals\u2014it\u2019s making them, too",
+          "link": "https://qz.com/2039684/doordash-is-launching-ghost-kitchens-to-make-food-for-restaurants",
+          "snippet": "Ghost kitchens are an emerging model. When DoorDash launched its first ghost kitchen in 2019 in Redwood City, California, restaurants weren\u2019t yet familiar with the concept, says Isenstadt.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P2": {
+      "query": "wholesale food suppliers for delivery kitchens",
+      "level": "discovery",
+      "result_count": 4,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "99Wholesale: Products starts from @Just Rs.29",
+          "link": "https://99wholesale.com/",
+          "snippet": "Get Household & Kitchen Products for just Rs.99 with Free shipping across India. 100% guarantee on-time delivery and the best quality!",
+          "backend": "searxng"
+        },
+        {
+          "title": "Trevors Foodservice | Wholesale Supplier & Distributor",
+          "link": "https://trevors.org/",
+          "snippet": "Wholesale Food Suppliers for Your Business.Trevors Foodservice provides a regular, dedicated delivery service to professional caterers, chefs and kitchens across the Northwest.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Local Foods: 10 Powerful Reasons to Choose NYC Suppliers",
+          "link": "https://www.vvproduce.com/10-reasons-restaurants-should-use-local-wholesale-food-suppliers/",
+          "snippet": "Due to their proximity, local wholesale food suppliers provide faster delivery times \u2013 often the very next day. The rapid delivery reduces the time ingredients spend in transit, ensuring they arrive a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Food Services \u2013 Chicken for Non-Profit in... | GoodSource Solutions",
+          "link": "https://goodsource.com/georgia/atlanta/food-services-chicken-for-non-profit-in-atlanta-georgia/",
+          "snippet": "GoodSource delivers bulk and wholesale food solutions nationwide. We provide premium wholesale chicken products for shelters, community kitchens, charitable organizations, outreach programs, and nonpr",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "99Wholesale: Products starts from @Just Rs.29",
+          "link": "https://99wholesale.com/",
+          "snippet": "Get Household & Kitchen Products for just Rs.99 with Free shipping across India. 100% guarantee on-time delivery and the best quality!",
+          "backend": "searxng"
+        },
+        {
+          "title": "Trevors Foodservice | Wholesale Supplier & Distributor",
+          "link": "https://trevors.org/",
+          "snippet": "Wholesale Food Suppliers for Your Business.Trevors Foodservice provides a regular, dedicated delivery service to professional caterers, chefs and kitchens across the Northwest.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Local Foods: 10 Powerful Reasons to Choose NYC Suppliers",
+          "link": "https://www.vvproduce.com/10-reasons-restaurants-should-use-local-wholesale-food-suppliers/",
+          "snippet": "Due to their proximity, local wholesale food suppliers provide faster delivery times \u2013 often the very next day. The rapid delivery reduces the time ingredients spend in transit, ensuring they arrive a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Food Services \u2013 Chicken for Non-Profit in... | GoodSource Solutions",
+          "link": "https://goodsource.com/georgia/atlanta/food-services-chicken-for-non-profit-in-atlanta-georgia/",
+          "snippet": "GoodSource delivers bulk and wholesale food solutions nationwide. We provide premium wholesale chicken products for shelters, community kitchens, charitable organizations, outreach programs, and nonpr",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P3": {
+      "query": "kitchen equipment suppliers for ghost kitchens",
+      "level": "discovery",
+      "result_count": 9,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "How Shuttering One Restaurant Concept Made Room for Three...",
+          "link": "https://fesmag.com/topics/trends/19542-ghost-kitchens-tales-from-the-street",
+          "snippet": "Already, two additional corporate ghost kitchen operations offering both brands are set to launch, one in West Palm Beach and the other in Plantation, Fla. Franchising is in the cards as well.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "What Is a Ghost Kitchen? The 2026 Guide for Food... | FoodShot AI",
+          "link": "https://foodshot.ai/blog/what-is-a-ghost-kitchen",
+          "snippet": "A ghost kitchen is a commercial kitchen that prepares food exclusively for delivery and pickup. It has no dining room, no storefront, and no walk-in customers. Orders arrive through third-party delive",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How to Start a Ghost Kitchen in 13 Steps | The Restaurant HQ",
+          "link": "https://www.therestauranthq.com/startups/how-to-start-ghost-kitchen/",
+          "snippet": "10. Source Suppliers. Ghost kitchens operate with tight margins and a high volume of sales. You\u2019ll need to open accounts with wholesale distributors to keep your kitchen supplied with food, beverages,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "7 Ghost Kitchens You May Not Know About - Foodservice...",
+          "link": "https://www.fermag.com/articles/9618-7-ghost-kitchens-you-may-not-know-about/",
+          "snippet": "3. Fulton Kitchens, West Hollywood, Calif.; Hollister Kitchens, San Diego, Calif.; and Fishburn Kitchens, Los Angeles The company behind these three Southern California-based \u201cplug and play\u201d kitchens ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "JustKitchen Opens Ghost Kitchens in Luxury and... - Hotelier Magazine",
+          "link": "https://www.hoteliermagazine.com/justkitchen-opens-ghost-kitchens-in-luxury-and-business-hotels/",
+          "snippet": "Operations began June 15, and JustKitchen is using a mobile app in addition to the delivery companies\u2019 apps to generate orders. The ghost kitchens will operate on a month-to-month basis, and JustKitch",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The complete Guide for food service Decision-Makers",
+          "link": "https://cloudkitchens.com/blog/ultimate-guide-to-ghost-kitchens",
+          "snippet": "A dark kitchen, also called a ghost kitchen, cloud kitchen, or virtual kitchen, is a commercial food production facility built exclusively for delivery orders. There is no dining room, no storefront, ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "cnbc.com/2021/03/31/ghost-kitchens-and-meal-kits-kroger-tests-new...",
+          "link": "https://www.cnbc.com/2021/03/31/ghost-kitchens-and-meal-kits-kroger-tests-new-ways-to-sell-prepared-food.html",
+          "snippet": "Ghost kitchens and meal kits: Kroger tests new ways to sell prepared food.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Powering ghost kitchen integration - Foodservice and Hospitality...",
+          "link": "https://www.foodserviceandhospitality.com/powering-ghost-kitchen-integration/",
+          "snippet": "Powering ghost kitchen integration. By Kostuch Media Ltd. March 4, 2026.Photo Credit: Unbound Productions (CNW Group/Kitchen Hub). Ten years ago, the first ghost kitchen concepts appeared on the Canad",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "It's Not Dine-in, Carryout or Curbside, It's Delivery-Only Ghost Kitch...",
+          "link": "https://www.nar.realtor/blogs/economists-outlook/its-not-dine-in-carryout-or-curbside-its-delivery-only-ghost-kitchen",
+          "snippet": "Ghost kitchens, otherwise called dark kitchens or cloud kitchens, are facilities that contain the necessary kitchen equipment to facilitate off-site food preparation and cooking solely for on-demand f",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "How Shuttering One Restaurant Concept Made Room for Three...",
+          "link": "https://fesmag.com/topics/trends/19542-ghost-kitchens-tales-from-the-street",
+          "snippet": "Already, two additional corporate ghost kitchen operations offering both brands are set to launch, one in West Palm Beach and the other in Plantation, Fla. Franchising is in the cards as well.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "What Is a Ghost Kitchen? The 2026 Guide for Food... | FoodShot AI",
+          "link": "https://foodshot.ai/blog/what-is-a-ghost-kitchen",
+          "snippet": "A ghost kitchen is a commercial kitchen that prepares food exclusively for delivery and pickup. It has no dining room, no storefront, and no walk-in customers. Orders arrive through third-party delive",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How to Start a Ghost Kitchen in 13 Steps | The Restaurant HQ",
+          "link": "https://www.therestauranthq.com/startups/how-to-start-ghost-kitchen/",
+          "snippet": "10. Source Suppliers. Ghost kitchens operate with tight margins and a high volume of sales. You\u2019ll need to open accounts with wholesale distributors to keep your kitchen supplied with food, beverages,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "7 Ghost Kitchens You May Not Know About - Foodservice...",
+          "link": "https://www.fermag.com/articles/9618-7-ghost-kitchens-you-may-not-know-about/",
+          "snippet": "3. Fulton Kitchens, West Hollywood, Calif.; Hollister Kitchens, San Diego, Calif.; and Fishburn Kitchens, Los Angeles The company behind these three Southern California-based \u201cplug and play\u201d kitchens ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "JustKitchen Opens Ghost Kitchens in Luxury and... - Hotelier Magazine",
+          "link": "https://www.hoteliermagazine.com/justkitchen-opens-ghost-kitchens-in-luxury-and-business-hotels/",
+          "snippet": "Operations began June 15, and JustKitchen is using a mobile app in addition to the delivery companies\u2019 apps to generate orders. The ghost kitchens will operate on a month-to-month basis, and JustKitch",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The complete Guide for food service Decision-Makers",
+          "link": "https://cloudkitchens.com/blog/ultimate-guide-to-ghost-kitchens",
+          "snippet": "A dark kitchen, also called a ghost kitchen, cloud kitchen, or virtual kitchen, is a commercial food production facility built exclusively for delivery orders. There is no dining room, no storefront, ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "cnbc.com/2021/03/31/ghost-kitchens-and-meal-kits-kroger-tests-new...",
+          "link": "https://www.cnbc.com/2021/03/31/ghost-kitchens-and-meal-kits-kroger-tests-new-ways-to-sell-prepared-food.html",
+          "snippet": "Ghost kitchens and meal kits: Kroger tests new ways to sell prepared food.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Powering ghost kitchen integration - Foodservice and Hospitality...",
+          "link": "https://www.foodserviceandhospitality.com/powering-ghost-kitchen-integration/",
+          "snippet": "Powering ghost kitchen integration. By Kostuch Media Ltd. March 4, 2026.Photo Credit: Unbound Productions (CNW Group/Kitchen Hub). Ten years ago, the first ghost kitchen concepts appeared on the Canad",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "It's Not Dine-in, Carryout or Curbside, It's Delivery-Only Ghost Kitch...",
+          "link": "https://www.nar.realtor/blogs/economists-outlook/its-not-dine-in-carryout-or-curbside-its-delivery-only-ghost-kitchen",
+          "snippet": "Ghost kitchens, otherwise called dark kitchens or cloud kitchens, are facilities that contain the necessary kitchen equipment to facilitate off-site food preparation and cooking solely for on-demand f",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P4": {
+      "query": "resellers of cooking appliances for delivery kitchens",
+      "level": "discovery",
+      "result_count": 11,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Kitchen appliances and home appliances - Tefal",
+          "link": "https://www.tefal.com/?noredirect",
+          "snippet": "Find out on tefal.com why tefal is worldwide the leading brand for kitchen and home appliances.shipping.logistician.saplog. delivery.information.popup.text2. recommended Price.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "LG Cooking Appliances | Smart Kitchen Ranges & Ovens | LG USA",
+          "link": "https://www.lg.com/us/cooking-appliances",
+          "snippet": "LG cooking appliances offer innovative gas and electric ranges, convection ovens, and smart cooktops to upgrade any modern kitchen.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Professional induction cooking suites for... - Menu System AG (EN)",
+          "link": "https://www.menu-system.com/en/home.html",
+          "snippet": "Stand-alone cooking suite-quality appliances. You can rely on table-top and in-built appliances by MENU SYSTEM.The Data Lounge is the cloud service for Menu System customers and brings the advantages ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Breville | Australia | A World Leader in Kitchen Appliances",
+          "link": "https://www.breville.com/en-au",
+          "snippet": "Breville is the kitchen appli...Protect your Espresso appliance with genuine cleaning supplies designed for peak performance. Our descaling solutions, tablets, and filters prevent buildup and ensure e",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cuisinart - Kitchen appliances for the heart of your home",
+          "link": "https://www.cuisinart.com/",
+          "snippet": "Experience the joy of cooking great food at home with Cuisinart! Quality kitchen and outdoor appliances, cookware and tools designed to last. Free shipping $35+.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Best Smart Kitchen Appliances We've Tested for 2026 | PCMag",
+          "link": "https://www.pcmag.com/picks/the-best-smart-kitchen-appliances",
+          "snippet": "Cook like a top chef with connected gadgets that add high-tech convenience to your culinary repertoire. The best smart kitchen appliances we've tested can help you do everything from air fry to make c",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "SharkNinja UK | Home Appliances, Cleaning Solutions, Beauty & More",
+          "link": "https://www.sharkninja.co.uk/",
+          "snippet": "Shop SharkNinja for vacuums, floor cleaners, kitchen appliances, Beauty and more\u2014innovative products designed to make everyday life easier.Welcome to the new home of Shark & Ninja. Enjoy Free Next Day",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "gaggenau.com/gb/appliances/cooktops",
+          "link": "https://www.gaggenau.com/gb/appliances/cooktops",
+          "snippet": "Gaggenau_Vario400 Domino hob Now Kitchens.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Kitchen appliances for small spaces | Haier Appliances",
+          "link": "https://www.haierappliances.com/",
+          "snippet": "Kitchen appliances created for small spaces. Need a portable air conditioner or compact refrigerator? Haier has all your small space living appliances.Enter your ZIP Code for the most up-to-date appli",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Luxury Kitchen Appliances | Sub-Zero, Wolf, and Cove",
+          "link": "https://www.subzero-wolf.com/",
+          "snippet": "Discover a higher standard in luxury kitchen appliances. Explore Sub-Zero refrigeration, Wolf precision cooking, and Cove dishwashing perfection.A Higher Standard\u00ae. Discover the pinnacle of luxury kit",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Gas Stove That Sits Ontop of Electric Stove | TikTok",
+          "link": "https://www.tiktok.com/discover/gas-stove-that-sits-ontop-of-electric-stove",
+          "snippet": "This appliance offers a reliable cooking method that proves essential during power outages. Not only is it efficient, but it also helps you save money in the long run. For just R194 per month for 18 m",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Kitchen appliances and home appliances - Tefal",
+          "link": "https://www.tefal.com/?noredirect",
+          "snippet": "Find out on tefal.com why tefal is worldwide the leading brand for kitchen and home appliances.shipping.logistician.saplog. delivery.information.popup.text2. recommended Price.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "LG Cooking Appliances | Smart Kitchen Ranges & Ovens | LG USA",
+          "link": "https://www.lg.com/us/cooking-appliances",
+          "snippet": "LG cooking appliances offer innovative gas and electric ranges, convection ovens, and smart cooktops to upgrade any modern kitchen.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Professional induction cooking suites for... - Menu System AG (EN)",
+          "link": "https://www.menu-system.com/en/home.html",
+          "snippet": "Stand-alone cooking suite-quality appliances. You can rely on table-top and in-built appliances by MENU SYSTEM.The Data Lounge is the cloud service for Menu System customers and brings the advantages ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Breville | Australia | A World Leader in Kitchen Appliances",
+          "link": "https://www.breville.com/en-au",
+          "snippet": "Breville is the kitchen appli...Protect your Espresso appliance with genuine cleaning supplies designed for peak performance. Our descaling solutions, tablets, and filters prevent buildup and ensure e",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cuisinart - Kitchen appliances for the heart of your home",
+          "link": "https://www.cuisinart.com/",
+          "snippet": "Experience the joy of cooking great food at home with Cuisinart! Quality kitchen and outdoor appliances, cookware and tools designed to last. Free shipping $35+.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Best Smart Kitchen Appliances We've Tested for 2026 | PCMag",
+          "link": "https://www.pcmag.com/picks/the-best-smart-kitchen-appliances",
+          "snippet": "Cook like a top chef with connected gadgets that add high-tech convenience to your culinary repertoire. The best smart kitchen appliances we've tested can help you do everything from air fry to make c",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "SharkNinja UK | Home Appliances, Cleaning Solutions, Beauty & More",
+          "link": "https://www.sharkninja.co.uk/",
+          "snippet": "Shop SharkNinja for vacuums, floor cleaners, kitchen appliances, Beauty and more\u2014innovative products designed to make everyday life easier.Welcome to the new home of Shark & Ninja. Enjoy Free Next Day",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "gaggenau.com/gb/appliances/cooktops",
+          "link": "https://www.gaggenau.com/gb/appliances/cooktops",
+          "snippet": "Gaggenau_Vario400 Domino hob Now Kitchens.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Kitchen appliances for small spaces | Haier Appliances",
+          "link": "https://www.haierappliances.com/",
+          "snippet": "Kitchen appliances created for small spaces. Need a portable air conditioner or compact refrigerator? Haier has all your small space living appliances.Enter your ZIP Code for the most up-to-date appli",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Luxury Kitchen Appliances | Sub-Zero, Wolf, and Cove",
+          "link": "https://www.subzero-wolf.com/",
+          "snippet": "Discover a higher standard in luxury kitchen appliances. Explore Sub-Zero refrigeration, Wolf precision cooking, and Cove dishwashing perfection.A Higher Standard\u00ae. Discover the pinnacle of luxury kit",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Gas Stove That Sits Ontop of Electric Stove | TikTok",
+          "link": "https://www.tiktok.com/discover/gas-stove-that-sits-ontop-of-electric-stove",
+          "snippet": "This appliance offers a reliable cooking method that proves essential during power outages. Not only is it efficient, but it also helps you save money in the long run. For just R194 per month for 18 m",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P5": {
+      "query": "order management systems for ghost kitchens",
+      "level": "discovery",
+      "result_count": 14,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Best Ordering System for Ghost Kitchens - Sauce",
+          "link": "https://www.getsauce.com/post/best-ordering-system-for-ghost-kitchens",
+          "snippet": "What makes an ordering system ideal for ghost kitchens specifically? Ghost kitchens have no walk-in traffic, so the ordering system is the entire business. The best platforms offer integrated kitchen ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Online Ordering System for Ghost Kitchens | Restolabs",
+          "link": "https://www.restolabs.com/online-ordering/ghost-kitchens",
+          "snippet": "Manage ghost kitchen orders with Restolabs\u2019 online ordering system. Optimize delivery and boost your digital restaurant brand.Best Online Ordering Systems For Ghost Kitchens. Direct Ordering \u2014 No Midd",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchens: Systems for Restaurant Delivery | Oracle Qatar",
+          "link": "https://www.oracle.com/qa/food-beverage/ghost-kitchens/",
+          "snippet": "Ghost kitchens help restaurants extend their online ordering and delivery reach. Learn about the essential systems needed to run a successful ghost kitchen.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchen Online Ordering System | Order Tiger",
+          "link": "https://www.ordertiger.com/online-ordering-system-for-ghost-kitchens",
+          "snippet": "Scale your ghost kitchen operations with Order Tiger's comprehensive delivery-first platform designed for virtual restaurants, multi-brand kitchens, and cloud kitchen entrepreneurs.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchen POS - Tabski",
+          "link": "https://tabski.com/ghost-kitchen-pos/",
+          "snippet": "Ghost kitchen POS system overview. Virtual brand management.Tabski KDS for ghost kitchens. Ghost kitchen online ordering and mobile.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "5 Reasons Why Ghost Kitchens Need Restaurant POS Software",
+          "link": "https://dto5wu2vudah7.cloudfront.net/pos-system/restaurant-pos-software.html",
+          "snippet": "Standardized recipe instructions for each brand allow ghost kitchen POS systems to measure exact stock usage for brand-specific orders. This helps in better management of kitchen supplies for each bra",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchen Software Development | RaftLabs",
+          "link": "https://www.raftlabs.com/industries/ghost-kitchen",
+          "snippet": "Custom ghost kitchen software: multi-brand order routing, KDS, inventory, and delivery integration with Uber Eats, DoorDash, and Deliveroo. Fixed cost.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Your Ultimate Guide to Restaurant Ordering System",
+          "link": "https://one2menu.com/post/restaurant-ordering-system",
+          "snippet": "Ordering ease. With this online system, your restaurant/ghost kitchen can remove out-of-stock menu items and offer a real-time menu for customers. And with a few taps of a finger, the guests have all ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchens Software \u2014 Custom Ghost Kitchens Management...",
+          "link": "https://gufi.dev/software-for/ghost-kitchens",
+          "snippet": "Create tailored management software for ghost kitchens \u2014 track operations, manage clients, and automate workflows with AI.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "AI for Ghost Kitchens: Streamline Multi-Brand Orders | Finitless",
+          "link": "https://www.finitless.com/en/blog/ai-ghost-kitchens-food-delivery-services-secret-sauce-streamlined-orders",
+          "snippet": "AI for Ghost Kitchens and Food Delivery Services: The Secret Sauce for Streamlined Orders. Ghost kitchens juggle 5-10 brands across 5+ delivery platforms from one kitchen. Without AI, the model collap",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchens | Otter",
+          "link": "https://www.tryotter.com/customers/ghost-kitchens",
+          "snippet": "Order management. Manage orders seamlessly from start to finish.Starting a ghost kitchen and maintaining its growth is easier with one platform to manage day-to-day tasks.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Adapting Your Stock Strategy to New Dining Trends Like Ghost...",
+          "link": "https://www.barometertech.com/post/adapting-your-stock-strategy-to-new-dining-trends-like-ghost-kitchens",
+          "snippet": "Additionally, an order management system for bars can assist in tracking beverage stock for ghost kitchens that also provide drink delivery, optimizing stock and preventing wastage.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Q&A: Why the POS of the past doesn\u2019t work for today\u2019s ghost kitchens",
+          "link": "https://www.smartbrief.com/original/qa-why-pos-past-doesnt-work-todays-ghost-kitchens",
+          "snippet": "Think of OrderB4 as an operating system for ghost kitchens. We connect the online components of direct-to-consumer ordering \u2014 both per brand and via multi-brand digital ordering, omni channel menu man",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchen Guide 2026: How to Start, Run, and... - AI Chef Pro Blog",
+          "link": "https://enblog.aichef.pro/ghost-kitchen-complete-guide/",
+          "snippet": "Ghost kitchen-specific POS requirements differ from traditional restaurants. Toast for Restaurants has developed specialized features for delivery-focused operations. Their Ghost Kitchen edition inclu",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Best Ordering System for Ghost Kitchens - Sauce",
+          "link": "https://www.getsauce.com/post/best-ordering-system-for-ghost-kitchens",
+          "snippet": "What makes an ordering system ideal for ghost kitchens specifically? Ghost kitchens have no walk-in traffic, so the ordering system is the entire business. The best platforms offer integrated kitchen ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Online Ordering System for Ghost Kitchens | Restolabs",
+          "link": "https://www.restolabs.com/online-ordering/ghost-kitchens",
+          "snippet": "Manage ghost kitchen orders with Restolabs\u2019 online ordering system. Optimize delivery and boost your digital restaurant brand.Best Online Ordering Systems For Ghost Kitchens. Direct Ordering \u2014 No Midd",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchens: Systems for Restaurant Delivery | Oracle Qatar",
+          "link": "https://www.oracle.com/qa/food-beverage/ghost-kitchens/",
+          "snippet": "Ghost kitchens help restaurants extend their online ordering and delivery reach. Learn about the essential systems needed to run a successful ghost kitchen.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchen Online Ordering System | Order Tiger",
+          "link": "https://www.ordertiger.com/online-ordering-system-for-ghost-kitchens",
+          "snippet": "Scale your ghost kitchen operations with Order Tiger's comprehensive delivery-first platform designed for virtual restaurants, multi-brand kitchens, and cloud kitchen entrepreneurs.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchen POS - Tabski",
+          "link": "https://tabski.com/ghost-kitchen-pos/",
+          "snippet": "Ghost kitchen POS system overview. Virtual brand management.Tabski KDS for ghost kitchens. Ghost kitchen online ordering and mobile.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "5 Reasons Why Ghost Kitchens Need Restaurant POS Software",
+          "link": "https://dto5wu2vudah7.cloudfront.net/pos-system/restaurant-pos-software.html",
+          "snippet": "Standardized recipe instructions for each brand allow ghost kitchen POS systems to measure exact stock usage for brand-specific orders. This helps in better management of kitchen supplies for each bra",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchen Software Development | RaftLabs",
+          "link": "https://www.raftlabs.com/industries/ghost-kitchen",
+          "snippet": "Custom ghost kitchen software: multi-brand order routing, KDS, inventory, and delivery integration with Uber Eats, DoorDash, and Deliveroo. Fixed cost.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Your Ultimate Guide to Restaurant Ordering System",
+          "link": "https://one2menu.com/post/restaurant-ordering-system",
+          "snippet": "Ordering ease. With this online system, your restaurant/ghost kitchen can remove out-of-stock menu items and offer a real-time menu for customers. And with a few taps of a finger, the guests have all ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchens Software \u2014 Custom Ghost Kitchens Management...",
+          "link": "https://gufi.dev/software-for/ghost-kitchens",
+          "snippet": "Create tailored management software for ghost kitchens \u2014 track operations, manage clients, and automate workflows with AI.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "AI for Ghost Kitchens: Streamline Multi-Brand Orders | Finitless",
+          "link": "https://www.finitless.com/en/blog/ai-ghost-kitchens-food-delivery-services-secret-sauce-streamlined-orders",
+          "snippet": "AI for Ghost Kitchens and Food Delivery Services: The Secret Sauce for Streamlined Orders. Ghost kitchens juggle 5-10 brands across 5+ delivery platforms from one kitchen. Without AI, the model collap",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchens | Otter",
+          "link": "https://www.tryotter.com/customers/ghost-kitchens",
+          "snippet": "Order management. Manage orders seamlessly from start to finish.Starting a ghost kitchen and maintaining its growth is easier with one platform to manage day-to-day tasks.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Adapting Your Stock Strategy to New Dining Trends Like Ghost...",
+          "link": "https://www.barometertech.com/post/adapting-your-stock-strategy-to-new-dining-trends-like-ghost-kitchens",
+          "snippet": "Additionally, an order management system for bars can assist in tracking beverage stock for ghost kitchens that also provide drink delivery, optimizing stock and preventing wastage.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Q&A: Why the POS of the past doesn\u2019t work for today\u2019s ghost kitchens",
+          "link": "https://www.smartbrief.com/original/qa-why-pos-past-doesnt-work-todays-ghost-kitchens",
+          "snippet": "Think of OrderB4 as an operating system for ghost kitchens. We connect the online components of direct-to-consumer ordering \u2014 both per brand and via multi-brand digital ordering, omni channel menu man",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchen Guide 2026: How to Start, Run, and... - AI Chef Pro Blog",
+          "link": "https://enblog.aichef.pro/ghost-kitchen-complete-guide/",
+          "snippet": "Ghost kitchen-specific POS requirements differ from traditional restaurants. Toast for Restaurants has developed specialized features for delivery-focused operations. Their Ghost Kitchen edition inclu",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "service providers for online ordering solutions",
+      "level": "discovery",
+      "result_count": 9,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "SmartOnline Ordering - 2025 Company Profile, Team... - Tracxn",
+          "link": "https://tracxn.com/d/companies/smartonline-ordering/__A7rl1bRUa0X_OI-P0gXEs78vCmsDCNF1E70K3CWzBtY",
+          "snippet": "SmartOnline Ordering - Saas based online ordering solution provider.Company Details. SmartOnline Ordering provides Saas based applications to the restaurants and caterers. It develops applications tha",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Online Ordering Solutions \u2013 Purely IT LLC",
+          "link": "https://purely.it/online-ordering-solutions/",
+          "snippet": "Purely IT Online Ordering Solutions. Online ordering has never been more popular. With Purely IT Online Ordering Solutions your customer can utilize custom-branded solutions to suite your business to ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Turn a Fine-Dining Service Into the Best Food Delivery... - GonnaOrder",
+          "link": "https://www.gonnaorder.com/category/product/page/2/",
+          "snippet": "Relying on third-party providers for online ordering and delivery may seem convenient, but it comes at a cost.Digital room service is one of the solutions that enable hotels to promote in-room spendin",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "5 Reasons More Customers Prefer to Order Food Online",
+          "link": "https://grubdirect.co.uk/why-more-customers-prefer-to-order-food-online/",
+          "snippet": "Food ordering apps simplify ordering meals online by providing ease of convenience to their clients via services such as ordering meals online, personalizing meals, saving favourite meals, and making ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 8 Advantages of Online Food Ordering for Restaurants",
+          "link": "https://www.cococart.co/resources/online-food-ordering-system-advantages",
+          "snippet": "Online food ordering has changed the restaurant space, offering benefits like faster service, increased revenue, and improved customer loyalty. Read on to learn the top 8 advantages.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Moneris acquires online restaurant ordering solutions provider...",
+          "link": "https://www.canadianmanufacturing.com/supply-chain/moneris-acquires-online-restaurant-ordering-solutions-provider-ueat-273962/",
+          "snippet": "Canadian financial technology company Moneris Solutions Corp. has acquired UEAT, a Quebec-based provider of online ordering solutions for restaurateurs, for an undisclosed amount.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "10 Reasons Your Restaurant Needs a Branded Online Ordering System",
+          "link": "https://www.foodics.com/10-reasons-branded-online-ordering-system/",
+          "snippet": "Online. Your convenient website/app for ordering services and electronic payment solutions.With Foodics Online: Activate Delivery Services with 3rd party providers or Manage Your Own Fleet of Drivers ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top UK Restaurant Digital Marketing Agencies",
+          "link": "https://techbullion.com/top-uk-restaurant-digital-marketing-online-ordering-providers/",
+          "snippet": "A strong provider delivers: UK-focused restaurant SEO services. Online ordering solutions built for UK payment systems. Google Business Profile optimisation for restaurants. Social media and paid adve",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aldelo News & Blogs - Aldelo Cloud POS",
+          "link": "https://www.aldelo.com/news/category/masa-online-ordering/3",
+          "snippet": "1. Streamlined Order Management with Aldelo Express: Aldelo Express, a cloud-based restaurant POS system, is a tier-one modern solution serving the food service industry through its versatility, ease ",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "SmartOnline Ordering - 2025 Company Profile, Team... - Tracxn",
+          "link": "https://tracxn.com/d/companies/smartonline-ordering/__A7rl1bRUa0X_OI-P0gXEs78vCmsDCNF1E70K3CWzBtY",
+          "snippet": "SmartOnline Ordering - Saas based online ordering solution provider.Company Details. SmartOnline Ordering provides Saas based applications to the restaurants and caterers. It develops applications tha",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Online Ordering Solutions \u2013 Purely IT LLC",
+          "link": "https://purely.it/online-ordering-solutions/",
+          "snippet": "Purely IT Online Ordering Solutions. Online ordering has never been more popular. With Purely IT Online Ordering Solutions your customer can utilize custom-branded solutions to suite your business to ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Turn a Fine-Dining Service Into the Best Food Delivery... - GonnaOrder",
+          "link": "https://www.gonnaorder.com/category/product/page/2/",
+          "snippet": "Relying on third-party providers for online ordering and delivery may seem convenient, but it comes at a cost.Digital room service is one of the solutions that enable hotels to promote in-room spendin",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "5 Reasons More Customers Prefer to Order Food Online",
+          "link": "https://grubdirect.co.uk/why-more-customers-prefer-to-order-food-online/",
+          "snippet": "Food ordering apps simplify ordering meals online by providing ease of convenience to their clients via services such as ordering meals online, personalizing meals, saving favourite meals, and making ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 8 Advantages of Online Food Ordering for Restaurants",
+          "link": "https://www.cococart.co/resources/online-food-ordering-system-advantages",
+          "snippet": "Online food ordering has changed the restaurant space, offering benefits like faster service, increased revenue, and improved customer loyalty. Read on to learn the top 8 advantages.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Moneris acquires online restaurant ordering solutions provider...",
+          "link": "https://www.canadianmanufacturing.com/supply-chain/moneris-acquires-online-restaurant-ordering-solutions-provider-ueat-273962/",
+          "snippet": "Canadian financial technology company Moneris Solutions Corp. has acquired UEAT, a Quebec-based provider of online ordering solutions for restaurateurs, for an undisclosed amount.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "10 Reasons Your Restaurant Needs a Branded Online Ordering System",
+          "link": "https://www.foodics.com/10-reasons-branded-online-ordering-system/",
+          "snippet": "Online. Your convenient website/app for ordering services and electronic payment solutions.With Foodics Online: Activate Delivery Services with 3rd party providers or Manage Your Own Fleet of Drivers ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top UK Restaurant Digital Marketing Agencies",
+          "link": "https://techbullion.com/top-uk-restaurant-digital-marketing-online-ordering-providers/",
+          "snippet": "A strong provider delivers: UK-focused restaurant SEO services. Online ordering solutions built for UK payment systems. Google Business Profile optimisation for restaurants. Social media and paid adve",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Aldelo News & Blogs - Aldelo Cloud POS",
+          "link": "https://www.aldelo.com/news/category/masa-online-ordering/3",
+          "snippet": "1. Streamlined Order Management with Aldelo Express: Aldelo Express, a cloud-based restaurant POS system, is a tier-one modern solution serving the food service industry through its versatility, ease ",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P7": {
+      "query": "delivery logistics services for ghost kitchens",
+      "level": "discovery",
+      "result_count": 10,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Transform Your Ghost Kitchen with iOrders in Winnipeg",
+          "link": "https://www.iorders.ca/services/winnipeg-ghost-kitchens-for-rent-and-delivery",
+          "snippet": "Ghost kitchens, also known as cloud kitchens or virtual kitchens, focus solely on fulfilling online orders and delivering them. Key Feature.How does iOrders handle delivery logistics for ghost kitchen",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchens and Food Delivery Services - Consumer Reports",
+          "link": "https://www.consumerreports.org/money/food-delivery-services/ghost-kitchens-and-food-delivery-services-a3533667722/",
+          "snippet": "A Ghost Kitchen Might Be Cooking It Up. Meals delivered by Uber Eats and other food delivery services might not come from an actual restaurant. What you need to know before your next order. Consumer R",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchens: What Every Food Truck Owner Should Know",
+          "link": "https://www.usedvending.com/blog/ghost-kitchens-food-truck-owner-should-know/",
+          "snippet": "America's ghost kitchen network has connected 390,000 merchants to over 18 million consumers. Find out how to use this to grow your food truck business!How to Choose a Food Delivery Service. How to Ma",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "What Is Ghost Restaurant on Doordash | TikTok",
+          "link": "https://www.tiktok.com/discover/what-is-ghost-restaurant-on-doordash",
+          "snippet": "Uncover the mystery of ghost kitchens and their potential scams in the food delivery industry. Learn how some establishments operate under the disguise of different menus, serving food from unexpected",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Find the most up-to-date statistics and facts on ghost kitchens",
+          "link": "https://www.statista.com/topics/7563/ghost-kitchens/",
+          "snippet": "Ghost kitchens - statistics & facts. Overview. Editor\u2019s Picks. Key figures. Ghost kitchens are restaurants that sell food through delivery only, do not have a physical dining space for customers, and ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchen Software Development | RaftLabs",
+          "link": "https://www.raftlabs.com/industries/ghost-kitchen",
+          "snippet": "Custom ghost kitchen software: multi-brand order routing, KDS, inventory, and delivery integration with Uber Eats, DoorDash, and Deliveroo. Fixed cost.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "It's Not Dine-in, Carryout or Curbside, It's Delivery-Only Ghost Kitch...",
+          "link": "https://www.nar.realtor/blogs/economists-outlook/its-not-dine-in-carryout-or-curbside-its-delivery-only-ghost-kitchen",
+          "snippet": "The ghost kitchen model not only services higher delivery volume but in addition, they can be staffed exclusively with kitchen employees, thus lowering overall labor costs. Ghost kitchens are not limi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "[Literature Review] The Restaurant Meal Delivery Problem with Ghost...",
+          "link": "https://www.themoonlight.io/en/review/the-restaurant-meal-delivery-problem-with-ghost-kitchens",
+          "snippet": "This page provides the most accurate and concise summary worldwide for the paper titled The Restaurant Meal Delivery Problem with Ghost Kitchens.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "TripDelivers Announces Delivery Services for Ghost Kitchens USA...",
+          "link": "https://www.expressrelease.co.uk/tripdelivers-announces-delivery-services-for-ghost-kitchens-usa-ghost-kitchen-brands-of-canada/",
+          "snippet": "A ghost kitchen is a professional restaurant food prep facility that has no dining area for customers but rather operates as delivery only. This business model has experienced rapid growth due to the ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "A pandemic surge in food delivery has made ghost kitchens and...",
+          "link": "https://www.inquirer.com/business/ghost-kitchens-virtual-restaurants-food-doordash-uber-eats-grubhub-20200917.html",
+          "snippet": "Ghost kitchens are those without dining rooms, designed just for delivery, and most never becoming a bricks-and-mortar destination for diners. They could be big winners amid the pandemic. Staff from S",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Transform Your Ghost Kitchen with iOrders in Winnipeg",
+          "link": "https://www.iorders.ca/services/winnipeg-ghost-kitchens-for-rent-and-delivery",
+          "snippet": "Ghost kitchens, also known as cloud kitchens or virtual kitchens, focus solely on fulfilling online orders and delivering them. Key Feature.How does iOrders handle delivery logistics for ghost kitchen",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchens and Food Delivery Services - Consumer Reports",
+          "link": "https://www.consumerreports.org/money/food-delivery-services/ghost-kitchens-and-food-delivery-services-a3533667722/",
+          "snippet": "A Ghost Kitchen Might Be Cooking It Up. Meals delivered by Uber Eats and other food delivery services might not come from an actual restaurant. What you need to know before your next order. Consumer R",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchens: What Every Food Truck Owner Should Know",
+          "link": "https://www.usedvending.com/blog/ghost-kitchens-food-truck-owner-should-know/",
+          "snippet": "America's ghost kitchen network has connected 390,000 merchants to over 18 million consumers. Find out how to use this to grow your food truck business!How to Choose a Food Delivery Service. How to Ma",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "What Is Ghost Restaurant on Doordash | TikTok",
+          "link": "https://www.tiktok.com/discover/what-is-ghost-restaurant-on-doordash",
+          "snippet": "Uncover the mystery of ghost kitchens and their potential scams in the food delivery industry. Learn how some establishments operate under the disguise of different menus, serving food from unexpected",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Find the most up-to-date statistics and facts on ghost kitchens",
+          "link": "https://www.statista.com/topics/7563/ghost-kitchens/",
+          "snippet": "Ghost kitchens - statistics & facts. Overview. Editor\u2019s Picks. Key figures. Ghost kitchens are restaurants that sell food through delivery only, do not have a physical dining space for customers, and ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ghost Kitchen Software Development | RaftLabs",
+          "link": "https://www.raftlabs.com/industries/ghost-kitchen",
+          "snippet": "Custom ghost kitchen software: multi-brand order routing, KDS, inventory, and delivery integration with Uber Eats, DoorDash, and Deliveroo. Fixed cost.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "It's Not Dine-in, Carryout or Curbside, It's Delivery-Only Ghost Kitch...",
+          "link": "https://www.nar.realtor/blogs/economists-outlook/its-not-dine-in-carryout-or-curbside-its-delivery-only-ghost-kitchen",
+          "snippet": "The ghost kitchen model not only services higher delivery volume but in addition, they can be staffed exclusively with kitchen employees, thus lowering overall labor costs. Ghost kitchens are not limi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "[Literature Review] The Restaurant Meal Delivery Problem with Ghost...",
+          "link": "https://www.themoonlight.io/en/review/the-restaurant-meal-delivery-problem-with-ghost-kitchens",
+          "snippet": "This page provides the most accurate and concise summary worldwide for the paper titled The Restaurant Meal Delivery Problem with Ghost Kitchens.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "TripDelivers Announces Delivery Services for Ghost Kitchens USA...",
+          "link": "https://www.expressrelease.co.uk/tripdelivers-announces-delivery-services-for-ghost-kitchens-usa-ghost-kitchen-brands-of-canada/",
+          "snippet": "A ghost kitchen is a professional restaurant food prep facility that has no dining area for customers but rather operates as delivery only. This business model has experienced rapid growth due to the ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "A pandemic surge in food delivery has made ghost kitchens and...",
+          "link": "https://www.inquirer.com/business/ghost-kitchens-virtual-restaurants-food-doordash-uber-eats-grubhub-20200917.html",
+          "snippet": "Ghost kitchens are those without dining rooms, designed just for delivery, and most never becoming a bricks-and-mortar destination for diners. They could be big winners amid the pandemic. Staff from S",
+          "backend": "ddgs_bing"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

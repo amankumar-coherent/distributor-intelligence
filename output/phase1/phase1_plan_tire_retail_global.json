@@ -1,0 +1,1963 @@
+{
+  "phase": 1,
+  "query": "Tire Retail Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T21:32:39.901195+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "Tire Retail",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "tire retail",
+    "industry_terms": [
+      "tire distribution",
+      "tire retail",
+      "tire installation",
+      "tire management",
+      "tire wholesaling"
+    ],
+    "ecosystem_functions": [
+      "tire distribution",
+      "wholesale tire supply",
+      "retail tire sales",
+      "tire installation services",
+      "tire management integration",
+      "marketing partnerships",
+      "logistics and supply chain management",
+      "customer service and support"
+    ],
+    "interpretation_summary": "The Tire Retail Market encompasses the distribution and sale of tires for various vehicles, including passenger cars, trucks, and motorcycles. Key participants include distributors, wholesalers, resellers, system integra",
+    "relevance_keywords": [
+      "tire supply chain",
+      "tire sales",
+      "tire logistics",
+      "tire services",
+      "tire retail network"
+    ],
+    "negative_keywords": [
+      "automotive parts",
+      "car repair",
+      "vehicle maintenance",
+      "tire news",
+      "tire reviews"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "TireHub",
+        "primary_domain": "tirehub.com",
+        "company_function": "tire distributor"
+      },
+      {
+        "canonical_name": "American Tire Distributors",
+        "primary_domain": "atd.com",
+        "company_function": "tire wholesaler"
+      },
+      {
+        "canonical_name": "Discount Tire",
+        "primary_domain": "discounttire.com",
+        "company_function": "tire reseller"
+      },
+      {
+        "canonical_name": "Tire Rack",
+        "primary_domain": "tirerack.com",
+        "company_function": "tire reseller"
+      },
+      {
+        "canonical_name": "Goodyear",
+        "primary_domain": "goodyear.com",
+        "company_function": "tire manufacturer and service provider"
+      },
+      {
+        "canonical_name": "Bridgestone",
+        "primary_domain": "bridgestone.com",
+        "company_function": "tire manufacturer and service provider"
+      },
+      {
+        "canonical_name": "Tire Pros",
+        "primary_domain": "tirepros.com",
+        "company_function": "tire reseller and service provider"
+      },
+      {
+        "canonical_name": "Les Schwab Tire Centers",
+        "primary_domain": "lesschwab.com",
+        "company_function": "tire reseller and service provider"
+      },
+      {
+        "canonical_name": "Mavis Discount Tire",
+        "primary_domain": "mavis.com",
+        "company_function": "tire reseller and service provider",
+        "segment": "Resellers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "TireBuyer",
+        "primary_domain": "tirebuyer.com",
+        "company_function": "tire reseller",
+        "segment": "Resellers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Tire Intelligence",
+        "primary_domain": "tireintelligence.com",
+        "company_function": "tire management software provider",
+        "segment": "System Integrators",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Tire Warehouse",
+        "primary_domain": "tirewarehouse.com",
+        "company_function": "tire distributor",
+        "segment": "Distributors",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Tire Kingdom",
+        "primary_domain": "tirekingdom.com",
+        "company_function": "tire reseller and service provider",
+        "segment": "Resellers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Tire Express",
+        "primary_domain": "tireexpress.com",
+        "company_function": "tire distributor",
+        "segment": "Distributors",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "Tire Retail",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "Tire Retail",
+    "include_keywords": [
+      "tire distributor",
+      "wholesale tires",
+      "tire reseller",
+      "tire service provider",
+      "tire management software"
+    ],
+    "exclude_keywords": [
+      "tire manufacturing",
+      "tire recycling",
+      "automotive repair",
+      "tire news",
+      "tire blogs"
+    ],
+    "scope_version": 2,
+    "market_definition": "The Tire Retail Market encompasses the distribution and sale of tires for various vehicles, including passenger cars, trucks, and motorcycles. Key participants include distributors, wholesalers, resellers, system integrators, service providers, and channel partners operating on a global scale.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Distribution",
+        "description": "This layer involves the distribution of tires from manufacturers to various retail channels.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Regional distributors",
+              "National distributors"
+            ],
+            "participant_types": [
+              "tire distributor",
+              "logistics provider"
+            ],
+            "search_intents": [
+              "tire distributor official site",
+              "tire distribution companies"
+            ]
+          },
+          {
+            "segment_name": "Wholesalers",
+            "sub_segments": [
+              "Bulk wholesalers",
+              "Specialty wholesalers"
+            ],
+            "participant_types": [
+              "tire wholesaler",
+              "bulk supplier"
+            ],
+            "search_intents": [
+              "tire wholesaler official site",
+              "wholesale tire suppliers"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L2",
+        "layer_name": "Retail",
+        "description": "This layer includes the retailing of tires through various channels.",
+        "segments": [
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Online resellers",
+              "Brick-and-mortar resellers"
+            ],
+            "participant_types": [
+              "tire retailer",
+              "e-commerce platform"
+            ],
+            "search_intents": [
+              "tire reseller official site",
+              "buy tires online"
+            ]
+          },
+          {
+            "segment_name": "Service Providers",
+            "sub_segments": [
+              "Tire installation services",
+              "Maintenance services"
+            ],
+            "participant_types": [
+              "tire service provider",
+              "automotive service center"
+            ],
+            "search_intents": [
+              "tire service provider official site",
+              "tire installation services"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L3",
+        "layer_name": "Integration",
+        "description": "This layer involves system integration for tire management and sales.",
+        "segments": [
+          {
+            "segment_name": "System Integrators",
+            "sub_segments": [
+              "Software integrators",
+              "Hardware integrators"
+            ],
+            "participant_types": [
+              "tire management software provider",
+              "automotive systems integrator"
+            ],
+            "search_intents": [
+              "tire management software official site",
+              "automotive system integrators"
+            ]
+          },
+          {
+            "segment_name": "Channel Partners",
+            "sub_segments": [
+              "Affiliate partners",
+              "Marketing partners"
+            ],
+            "participant_types": [
+              "marketing agency",
+              "tire brand affiliate"
+            ],
+            "search_intents": [
+              "tire channel partner official site",
+              "tire marketing partners"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Tire manufacturers",
+        "Raw material suppliers",
+        "Tire recycling companies",
+        "Automotive service centers"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "search tire distributor official site",
+        "sub_sector": "tire_distribution",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "search tire wholesaler official site",
+        "sub_sector": "tire_wholesaling",
+        "layer_id": "L1",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "search tire reseller official site",
+        "sub_sector": "tire_reselling",
+        "layer_id": "L2",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "search tire service provider official site",
+        "sub_sector": "tire_services",
+        "layer_id": "L2",
+        "segment": "Service Providers"
+      },
+      {
+        "id": "M5",
+        "level": "market_map",
+        "text": "search tire management software official site",
+        "sub_sector": "tire_integration",
+        "layer_id": "L3",
+        "segment": "System Integrators"
+      },
+      {
+        "id": "M6",
+        "level": "market_map",
+        "text": "search tire channel partner official site",
+        "sub_sector": "tire_marketing",
+        "layer_id": "L3",
+        "segment": "Channel Partners"
+      },
+      {
+        "id": "M7",
+        "level": "market_map",
+        "text": "buscar distribuidor de neum\u00e1ticos sitio oficial",
+        "sub_sector": "tire_distribution",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M8",
+        "level": "market_map",
+        "text": "buscar mayorista de neum\u00e1ticos sitio oficial",
+        "sub_sector": "tire_wholesaling",
+        "layer_id": "L1",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M9",
+        "level": "market_map",
+        "text": "buscar revendedor de neum\u00e1ticos sitio oficial",
+        "sub_sector": "tire_reselling",
+        "layer_id": "L2",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M10",
+        "level": "market_map",
+        "text": "buscar proveedor de servicios de neum\u00e1ticos sitio oficial",
+        "sub_sector": "tire_services",
+        "layer_id": "L2",
+        "segment": "Service Providers"
+      },
+      {
+        "id": "M11",
+        "level": "market_map",
+        "text": "buscar software de gesti\u00f3n de neum\u00e1ticos sitio oficial",
+        "sub_sector": "tire_integration",
+        "layer_id": "L3",
+        "segment": "System Integrators"
+      },
+      {
+        "id": "M12",
+        "level": "market_map",
+        "text": "buscar socio de canal de neum\u00e1ticos sitio oficial",
+        "sub_sector": "tire_marketing",
+        "layer_id": "L3",
+        "segment": "Channel Partners"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "tire retail",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "Tire Retail Market companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "Tire distributors corporate sites"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "Tire resellers official websites"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "market_map",
+      "text": "search tire distributor official site"
+    },
+    {
+      "id": "P2",
+      "level": "market_map",
+      "text": "search tire wholesaler official site"
+    },
+    {
+      "id": "P3",
+      "level": "market_map",
+      "text": "search tire reseller official site"
+    },
+    {
+      "id": "P4",
+      "level": "market_map",
+      "text": "search tire service provider official site"
+    },
+    {
+      "id": "P5",
+      "level": "market_map",
+      "text": "search tire management software official site"
+    },
+    {
+      "id": "P6",
+      "level": "market_map",
+      "text": "search tire channel partner official site"
+    },
+    {
+      "id": "P7",
+      "level": "market_map",
+      "text": "buscar distribuidor de neum\u00e1ticos sitio oficial"
+    },
+    {
+      "id": "P8",
+      "level": "market_map",
+      "text": "buscar mayorista de neum\u00e1ticos sitio oficial"
+    },
+    {
+      "id": "P9",
+      "level": "market_map",
+      "text": "buscar revendedor de neum\u00e1ticos sitio oficial"
+    },
+    {
+      "id": "P10",
+      "level": "market_map",
+      "text": "buscar proveedor de servicios de neum\u00e1ticos sitio oficial"
+    },
+    {
+      "id": "P11",
+      "level": "market_map",
+      "text": "buscar software de gesti\u00f3n de neum\u00e1ticos sitio oficial"
+    },
+    {
+      "id": "P12",
+      "level": "market_map",
+      "text": "buscar socio de canal de neum\u00e1ticos sitio oficial"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "Tire Retail Market companies official websites",
+      "level": "L0",
+      "result_count": 11,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Tire Retail Market Size, Share | CAGR of 4.8%.",
+          "link": "https://market.us/report/tire-retail-market/",
+          "snippet": "Tire Retail Market Size Analysis Bar Graph. Growth in the tire retail sector is driven by several factors, including the increasing number of vehicles on the road. According to the Wall Street Journal",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Online Tire Retail Market Research Report 2033",
+          "link": "https://dataintelo.com/report/online-tire-retail-market",
+          "snippet": "The online tire retail market is segmented by product type into passenger vehicle tires, commercial vehicle tires, two-wheeler tires, and others.Direct sales refer to transactions conducted through th",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tire Retail Market Size, Share | Industry Forecast, 2033",
+          "link": "https://www.businessresearchinsights.com/market-reports/tire-retail-market-122862",
+          "snippet": "Tire Retail Market, By type (Independent Tire Dealers, Warehouse Clubs, Auto Dealerships, Tire Company-owned Stores, and Miscellaneous Outlets), By Application (Passenger Car and Commercial Vehicle), ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tire Retail Market Report: Trends, Forecast and Competitive Analysis...",
+          "link": "https://www.lucintel.com/tire-retail-market.aspx",
+          "snippet": "The global tire retail market is expected to grow with a CAGR of 4.8% from 2024 to 2030. The major drivers for this market are increasing global vehicle sales, growing demand for eco-friendly & energy",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tire Retail Market Trends | Competitive Market... | WiseGuyReports",
+          "link": "https://www.wiseguyreports.com/reports/tire-retail-market",
+          "snippet": "Key Market Trends Insights. \u2022 The Global Tire Retail Market is expected to grow at a CAGR of 2.6% from 2025 to 2035, driven by increasing vehicle ownership and a growing emphasis on vehicle safety.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tire Retail Market Size, Competitors & Forecast to 2034",
+          "link": "https://www.researchandmarkets.com/report/tire-retail-market",
+          "snippet": "Tire Retail Market Outlook 2026-2034: Market Share and Growth Analysis. PDF Icon.Some of the major companies in the Tire Retail market include Goodyear, Michelin, Bridgestone, Continental, Pirelli, Yo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tire Retail Market Size, Trends and Projections",
+          "link": "https://www.marketresearchintellect.com/product/global-tire-retail-market/",
+          "snippet": "The Tire Retail Market Report offers a detailed examination of both established and emerging players within the market. It presents extensive lists of prominent companies categorized by the types of p",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tire Retail Market Analysis 2026, Market Size, Share, Growth, CAGR...",
+          "link": "https://www.cognitivemarketresearch.com/tire-retail-market-report",
+          "snippet": "List of Tire Retail Companies and there market trend or market share?The sample report for the Tire Retail Market can be obtained on demand from the website. Also, the 24*7 chat support & direct call ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tire Retail Market Size, Trends & Forecast, 2025-2032",
+          "link": "https://www.coherentmarketinsights.com/industry-reports/tire-retail-market",
+          "snippet": "Tire Retail Market valued at USD 224.52 Bn in 2025, is anticipated to reaching USD 309.66 Bn by 2032, with a steady annual growth rate of 4.7%.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tire Retail Market Size & Forecast [2033]",
+          "link": "https://www.marketreportsworld.com/market-reports/tire-retail-market-14719248",
+          "snippet": "Tire Retail Market Size, Share, Growth, and Industry Analysis, By Type (Independent Tire Dealers,Warehouse Clubs,Auto Dealerships,Tire Company-owned Stores,Miscellaneous Outlets), By Application (Pass",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Commercial Vehicle Tire Retail Market Size, Future Growth and...",
+          "link": "https://www.strategicrevenueinsights.com/industry/commercial-vehicle-tire-retail-market",
+          "snippet": "The growth of the commercial vehicle tire retail market is significantly influenced by the booming e-commerce sector, which has led to an increased demand for efficient logistics and transportation so",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Tire Retail Market Size, Share | CAGR of 4.8%.",
+          "link": "https://market.us/report/tire-retail-market/",
+          "snippet": "Tire Retail Market Size Analysis Bar Graph. Growth in the tire retail sector is driven by several factors, including the increasing number of vehicles on the road. According to the Wall Street Journal",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Online Tire Retail Market Research Report 2033",
+          "link": "https://dataintelo.com/report/online-tire-retail-market",
+          "snippet": "The online tire retail market is segmented by product type into passenger vehicle tires, commercial vehicle tires, two-wheeler tires, and others.Direct sales refer to transactions conducted through th",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tire Retail Market Size, Share | Industry Forecast, 2033",
+          "link": "https://www.businessresearchinsights.com/market-reports/tire-retail-market-122862",
+          "snippet": "Tire Retail Market, By type (Independent Tire Dealers, Warehouse Clubs, Auto Dealerships, Tire Company-owned Stores, and Miscellaneous Outlets), By Application (Passenger Car and Commercial Vehicle), ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tire Retail Market Report: Trends, Forecast and Competitive Analysis...",
+          "link": "https://www.lucintel.com/tire-retail-market.aspx",
+          "snippet": "The global tire retail market is expected to grow with a CAGR of 4.8% from 2024 to 2030. The major drivers for this market are increasing global vehicle sales, growing demand for eco-friendly & energy",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tire Retail Market Trends | Competitive Market... | WiseGuyReports",
+          "link": "https://www.wiseguyreports.com/reports/tire-retail-market",
+          "snippet": "Key Market Trends Insights. \u2022 The Global Tire Retail Market is expected to grow at a CAGR of 2.6% from 2025 to 2035, driven by increasing vehicle ownership and a growing emphasis on vehicle safety.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tire Retail Market Size, Competitors & Forecast to 2034",
+          "link": "https://www.researchandmarkets.com/report/tire-retail-market",
+          "snippet": "Tire Retail Market Outlook 2026-2034: Market Share and Growth Analysis. PDF Icon.Some of the major companies in the Tire Retail market include Goodyear, Michelin, Bridgestone, Continental, Pirelli, Yo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tire Retail Market Size, Trends and Projections",
+          "link": "https://www.marketresearchintellect.com/product/global-tire-retail-market/",
+          "snippet": "The Tire Retail Market Report offers a detailed examination of both established and emerging players within the market. It presents extensive lists of prominent companies categorized by the types of p",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tire Retail Market Analysis 2026, Market Size, Share, Growth, CAGR...",
+          "link": "https://www.cognitivemarketresearch.com/tire-retail-market-report",
+          "snippet": "List of Tire Retail Companies and there market trend or market share?The sample report for the Tire Retail Market can be obtained on demand from the website. Also, the 24*7 chat support & direct call ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tire Retail Market Size, Trends & Forecast, 2025-2032",
+          "link": "https://www.coherentmarketinsights.com/industry-reports/tire-retail-market",
+          "snippet": "Tire Retail Market valued at USD 224.52 Bn in 2025, is anticipated to reaching USD 309.66 Bn by 2032, with a steady annual growth rate of 4.7%.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tire Retail Market Size & Forecast [2033]",
+          "link": "https://www.marketreportsworld.com/market-reports/tire-retail-market-14719248",
+          "snippet": "Tire Retail Market Size, Share, Growth, and Industry Analysis, By Type (Independent Tire Dealers,Warehouse Clubs,Auto Dealerships,Tire Company-owned Stores,Miscellaneous Outlets), By Application (Pass",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Commercial Vehicle Tire Retail Market Size, Future Growth and...",
+          "link": "https://www.strategicrevenueinsights.com/industry/commercial-vehicle-tire-retail-market",
+          "snippet": "The growth of the commercial vehicle tire retail market is significantly influenced by the booming e-commerce sector, which has led to an increased demand for efficient logistics and transportation so",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "Tire distributors corporate sites",
+      "level": "L1",
+      "result_count": 27,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Buy Tires & Wheels Online | Tire Repair & Service | Discount Tire",
+          "link": "https://www.discounttire.com/",
+          "snippet": "20 hours ago \u00b7 Discount Tire specializes exclusively in tires and wheels and is known for caring people who do the right thing.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tires, Wheels, Accessories, Reviews | Tires Online at Tire Rack",
+          "link": "https://www.tirerack.com/?msockid=0b54dac707f06a1c2e4acd5a06bf6bd9",
+          "snippet": "Our decades of tire knowledge, testing, and customer reviews combined to create the ultimate tire guide! Tell us what, where, and how you drive, and we'll give you our top tire recommendations! How Mu",
+          "backend": "searxng"
+        },
+        {
+          "title": "Shop For Tires Online | Goodyear",
+          "link": "https://www.goodyear.com/",
+          "snippet": "Shop a wide selection of tires for Cars, Trucks, SUVs, and Minivans at Goodyear. See current offers and rebates for the best discount tire prices.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Buy Automotive Tires Online for Less | SimpleTire",
+          "link": "https://simpletire.com/?msockid=0b54dac707f06a1c2e4acd5a06bf6bd9",
+          "snippet": "Find the tire right for you. We're a team of passionate tire experts who\u2019ve built an online tool that will guide you to a personalized set of three tire recommendations. A personalized curation of the",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tires & Car Tires at Walmart | Walmart Tires - Walmart.com",
+          "link": "https://www.walmart.com/cp/tires-accessories/1077064",
+          "snippet": "Compare online listings for the tire sizes that fit your vehicle and read customer reviews. Factor in installation costs, alignment, and any required maintenance services.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Buy Tires and Wheels Online | Shop Tires | Tirebuyer",
+          "link": "https://www.tirebuyer.com/",
+          "snippet": "We'll help you find the right tires or wheels for your vehicle in minutes. We stock the tire best brands at the best prices. Buy online today at Tirebuyer.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tires for Sale | Vehicle Tires | Best Place to Buy Tires | Discount Tire",
+          "link": "https://www.discounttire.com/tires",
+          "snippet": "At Discount Tire, we sell all the best tire brands online. Our impressive tire inventory consists of some of the most trusted names in the industry, including Michelin, Goodyear, Bridgestone, Fireston",
+          "backend": "searxng"
+        },
+        {
+          "title": "Home | ATD Corporate Site | ATD",
+          "link": "https://www.atd.com/",
+          "snippet": "ATD is the nation's largest independent tire distributor. Delivering your products, empowering your success, advancing your career.ATD - American Tire Distributors. About Us.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home | ATD Corporate Site",
+          "link": "https://dev.atd.com/",
+          "snippet": "Our product selection is the best in the industry. Tires for every need, wheels for every style, and the supplies you need to get the job done. Plus, with over 110 distribution centers and over 1,400 ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "ATD | American Tire Distributors | Wholesale Tire Distributor",
+          "link": "https://d203uqedzwdsmh.cloudfront.net/en/",
+          "snippet": "ATD is one of the largest independent suppliers of tires, wheels and supplies to the automotive market, enabling you to compete in the tire service industry.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tire Group International - Leader in tire distribution",
+          "link": "https://tiregroup.com/",
+          "snippet": "Tire Group International, LLC (TGI) is a global distributor and manufacturer of tires. Customers are responsible for ensuring that any tire selection is appropriate for their intended use. Always cons",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "NTW - National Tire Wholesale - TBC Corporation",
+          "link": "https://www.tbccorp.com/our-companies/ntw-national-tire-wholesale/",
+          "snippet": "NTW is the second-largest wholesale tire supplier in the U.S., providing industry-leading supply chain and logistics services to more than 92 metropolitan areas.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Goodyear Corporate | Home",
+          "link": "https://corporate.goodyear.com/us/en.html",
+          "snippet": "Learn about The Goodyear Tire & Rubber Company's history and vision, and find the latest career information, corporate reports, company news and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "American Tire Distributors | LinkedIn",
+          "link": "https://www.linkedin.com/company/american-tire-distributors",
+          "snippet": "ATD is the leading wholesale tire distributor in the U.S., proudly serving our 80K+ customers since 1935. With 110+ distribution centers, 3 mixing centers, and 2 RDCs, we provide same-day and next-day",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top American Tire Distributors Alternatives, Competitors",
+          "link": "https://www.cbinsights.com/company/american-tire-distributors/alternatives-competitors",
+          "snippet": "American Tire Distributors's top competitors include TireTutor, Kauffman Tire, and TBC.Kauffman Tire is a multi-brand wholesale tire distributor in the United States that distributes an array of tires",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "American Tire Distributors BrandVoice",
+          "link": "https://www.forbes.com/sites/american-tire-distributors/",
+          "snippet": "American Tire Distributors. BRANDVOICE. Storytelling and expertise from marketers. Paid Program.Stuart Schuette, president and CEO of American Tire Distributors (ATD), shares his vision for how the au",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Tire Distributors Providers | Compare 249 Companies",
+          "link": "https://www.tiredealerdirectory.com/category/tire-distributors",
+          "snippet": "Compare Tire Distributors providers listed in the Tire Business Dealer Directory. Browse the latest products and services for your business, read company reviews, download white papers, and research T",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "American Tire Distributors Information | SignalHire Company Profile",
+          "link": "https://www.signalhire.com/companies/american-tire-distributors",
+          "snippet": "American Tire Distributors: Detailed Company Information & Corporate Profile. Get Verified Emails For American Tire Distributors.American Tire Distributors operates in the Freight Delivery, Cars indus",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "American Tire Distributors Corporate Headquarters, Office... | Craft.co",
+          "link": "https://craft.co/american-tire-distributors/locations",
+          "snippet": "American Tire Distributors Headquarters and Office Locations. Header placeholder lorem ipsum dolor sit amet, consectetur adipiscing elit.American Tire Distributors is headquartered in Huntersville, Hu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "American Tire Distributors 2026 Company Profile... | PitchBook",
+          "link": "https://pitchbook.com/profiles/company/10658-17",
+          "snippet": "American Tire Distributors General Information. Description. Distributor of various tires intended for wheel retail dealers and service repair and automotive performance shops.Financing Status. Privat",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "National Tire Distributors | Osler, Hoskin & Harcourt LLP",
+          "link": "https://www.osler.com/en/about-us/representative-work/national-tire-distributors/",
+          "snippet": "Corporate and Commercial Disputes.Osler acted for National Tire Distributors Inc. (\u201cNTD\u201d) before the Commission des transports du Qu\u00e9bec (the \u201cBoard\u201d), who was seeking to re-evaluate NTD\u2019s road securi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "American Tire Distributors Careers and Employment | Indeed.com",
+          "link": "https://www.indeed.com/cmp/American-Tire-Distributors",
+          "snippet": "Find out what works well at American Tire Distributors from the people who know best. Get the inside scoop on jobs, salaries, top office locations, and CEO insights.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Tire Distributors - Headquarter Location, Corporate Office...",
+          "link": "https://www.twoinstitute.com/ent/wholesale-tire-distributors/",
+          "snippet": "Wholesale Tire Distributors. Business Data, Corporate Office and Headquarter Address. About.Wholesale Tire Distributors headquarter office and corporate office address is located in 885 North Main Str",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Who Owns American Tire Distributors After Bankruptcy? - LegalClarity",
+          "link": "https://legalclarity.org/who-owns-american-tire-distributors-after-bankruptcy/",
+          "snippet": "After its 2024 bankruptcy, American Tire Distributors is now owned by its former lenders, who took control through a credit bid. Here's what that means for the company and tire dealers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "About NTW",
+          "link": "https://www.ntw.com/about-us/",
+          "snippet": "National Tire Wholesale (NTW) is one of the largest U.S. tire distributors in the wholesale distribution market and is a wholly owned subsidiary of TBC Corporation, one of North America's largest mark",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "TBC Corporation | Himalayas",
+          "link": "https://himalayas.app/companies/tbc-corporation",
+          "snippet": "American Tire Distributors is the leading wholesale tire distributor in the U.S., dedicated to providing exceptional service and an extensive selection of tire and wheel products.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home | BKT Tyres",
+          "link": "https://www.bkt-tires.com/en-in/",
+          "snippet": "BKT is a global industrial group with a strong manufacturing foundation and a diversified business portfolio. Our activities span tyre solutions for complex mobility needs, from agricultural and indus",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Buy Tires & Wheels Online | Tire Repair & Service | Discount Tire",
+          "link": "https://www.discounttire.com/",
+          "snippet": "20 hours ago \u00b7 Discount Tire specializes exclusively in tires and wheels and is known for caring people who do the right thing.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tires, Wheels, Accessories, Reviews | Tires Online at Tire Rack",
+          "link": "https://www.tirerack.com/?msockid=0b54dac707f06a1c2e4acd5a06bf6bd9",
+          "snippet": "Our decades of tire knowledge, testing, and customer reviews combined to create the ultimate tire guide! Tell us what, where, and how you drive, and we'll give you our top tire recommendations! How Mu",
+          "backend": "searxng"
+        },
+        {
+          "title": "Shop For Tires Online | Goodyear",
+          "link": "https://www.goodyear.com/",
+          "snippet": "Shop a wide selection of tires for Cars, Trucks, SUVs, and Minivans at Goodyear. See current offers and rebates for the best discount tire prices.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Buy Automotive Tires Online for Less | SimpleTire",
+          "link": "https://simpletire.com/?msockid=0b54dac707f06a1c2e4acd5a06bf6bd9",
+          "snippet": "Find the tire right for you. We're a team of passionate tire experts who\u2019ve built an online tool that will guide you to a personalized set of three tire recommendations. A personalized curation of the",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tires & Car Tires at Walmart | Walmart Tires - Walmart.com",
+          "link": "https://www.walmart.com/cp/tires-accessories/1077064",
+          "snippet": "Compare online listings for the tire sizes that fit your vehicle and read customer reviews. Factor in installation costs, alignment, and any required maintenance services.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Buy Tires and Wheels Online | Shop Tires | Tirebuyer",
+          "link": "https://www.tirebuyer.com/",
+          "snippet": "We'll help you find the right tires or wheels for your vehicle in minutes. We stock the tire best brands at the best prices. Buy online today at Tirebuyer.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Tires for Sale | Vehicle Tires | Best Place to Buy Tires | Discount Tire",
+          "link": "https://www.discounttire.com/tires",
+          "snippet": "At Discount Tire, we sell all the best tire brands online. Our impressive tire inventory consists of some of the most trusted names in the industry, including Michelin, Goodyear, Bridgestone, Fireston",
+          "backend": "searxng"
+        },
+        {
+          "title": "Home | ATD Corporate Site | ATD",
+          "link": "https://www.atd.com/",
+          "snippet": "ATD is the nation's largest independent tire distributor. Delivering your products, empowering your success, advancing your career.ATD - American Tire Distributors. About Us.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home | ATD Corporate Site",
+          "link": "https://dev.atd.com/",
+          "snippet": "Our product selection is the best in the industry. Tires for every need, wheels for every style, and the supplies you need to get the job done. Plus, with over 110 distribution centers and over 1,400 ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "ATD | American Tire Distributors | Wholesale Tire Distributor",
+          "link": "https://d203uqedzwdsmh.cloudfront.net/en/",
+          "snippet": "ATD is one of the largest independent suppliers of tires, wheels and supplies to the automotive market, enabling you to compete in the tire service industry.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tire Group International - Leader in tire distribution",
+          "link": "https://tiregroup.com/",
+          "snippet": "Tire Group International, LLC (TGI) is a global distributor and manufacturer of tires. Customers are responsible for ensuring that any tire selection is appropriate for their intended use. Always cons",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "NTW - National Tire Wholesale - TBC Corporation",
+          "link": "https://www.tbccorp.com/our-companies/ntw-national-tire-wholesale/",
+          "snippet": "NTW is the second-largest wholesale tire supplier in the U.S., providing industry-leading supply chain and logistics services to more than 92 metropolitan areas.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Goodyear Corporate | Home",
+          "link": "https://corporate.goodyear.com/us/en.html",
+          "snippet": "Learn about The Goodyear Tire & Rubber Company's history and vision, and find the latest career information, corporate reports, company news and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "American Tire Distributors | LinkedIn",
+          "link": "https://www.linkedin.com/company/american-tire-distributors",
+          "snippet": "ATD is the leading wholesale tire distributor in the U.S., proudly serving our 80K+ customers since 1935. With 110+ distribution centers, 3 mixing centers, and 2 RDCs, we provide same-day and next-day",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top American Tire Distributors Alternatives, Competitors",
+          "link": "https://www.cbinsights.com/company/american-tire-distributors/alternatives-competitors",
+          "snippet": "American Tire Distributors's top competitors include TireTutor, Kauffman Tire, and TBC.Kauffman Tire is a multi-brand wholesale tire distributor in the United States that distributes an array of tires",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "American Tire Distributors BrandVoice",
+          "link": "https://www.forbes.com/sites/american-tire-distributors/",
+          "snippet": "American Tire Distributors. BRANDVOICE. Storytelling and expertise from marketers. Paid Program.Stuart Schuette, president and CEO of American Tire Distributors (ATD), shares his vision for how the au",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Tire Distributors Providers | Compare 249 Companies",
+          "link": "https://www.tiredealerdirectory.com/category/tire-distributors",
+          "snippet": "Compare Tire Distributors providers listed in the Tire Business Dealer Directory. Browse the latest products and services for your business, read company reviews, download white papers, and research T",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "American Tire Distributors Information | SignalHire Company Profile",
+          "link": "https://www.signalhire.com/companies/american-tire-distributors",
+          "snippet": "American Tire Distributors: Detailed Company Information & Corporate Profile. Get Verified Emails For American Tire Distributors.American Tire Distributors operates in the Freight Delivery, Cars indus",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "American Tire Distributors Corporate Headquarters, Office... | Craft.co",
+          "link": "https://craft.co/american-tire-distributors/locations",
+          "snippet": "American Tire Distributors Headquarters and Office Locations. Header placeholder lorem ipsum dolor sit amet, consectetur adipiscing elit.American Tire Distributors is headquartered in Huntersville, Hu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "American Tire Distributors 2026 Company Profile... | PitchBook",
+          "link": "https://pitchbook.com/profiles/company/10658-17",
+          "snippet": "American Tire Distributors General Information. Description. Distributor of various tires intended for wheel retail dealers and service repair and automotive performance shops.Financing Status. Privat",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "National Tire Distributors | Osler, Hoskin & Harcourt LLP",
+          "link": "https://www.osler.com/en/about-us/representative-work/national-tire-distributors/",
+          "snippet": "Corporate and Commercial Disputes.Osler acted for National Tire Distributors Inc. (\u201cNTD\u201d) before the Commission des transports du Qu\u00e9bec (the \u201cBoard\u201d), who was seeking to re-evaluate NTD\u2019s road securi",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "American Tire Distributors Careers and Employment | Indeed.com",
+          "link": "https://www.indeed.com/cmp/American-Tire-Distributors",
+          "snippet": "Find out what works well at American Tire Distributors from the people who know best. Get the inside scoop on jobs, salaries, top office locations, and CEO insights.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Tire Distributors - Headquarter Location, Corporate Office...",
+          "link": "https://www.twoinstitute.com/ent/wholesale-tire-distributors/",
+          "snippet": "Wholesale Tire Distributors. Business Data, Corporate Office and Headquarter Address. About.Wholesale Tire Distributors headquarter office and corporate office address is located in 885 North Main Str",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Who Owns American Tire Distributors After Bankruptcy? - LegalClarity",
+          "link": "https://legalclarity.org/who-owns-american-tire-distributors-after-bankruptcy/",
+          "snippet": "After its 2024 bankruptcy, American Tire Distributors is now owned by its former lenders, who took control through a credit bid. Here's what that means for the company and tire dealers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "About NTW",
+          "link": "https://www.ntw.com/about-us/",
+          "snippet": "National Tire Wholesale (NTW) is one of the largest U.S. tire distributors in the wholesale distribution market and is a wholly owned subsidiary of TBC Corporation, one of North America's largest mark",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "TBC Corporation | Himalayas",
+          "link": "https://himalayas.app/companies/tbc-corporation",
+          "snippet": "American Tire Distributors is the leading wholesale tire distributor in the U.S., dedicated to providing exceptional service and an extensive selection of tire and wheel products.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home | BKT Tyres",
+          "link": "https://www.bkt-tires.com/en-in/",
+          "snippet": "BKT is a global industrial group with a strong manufacturing foundation and a diversified business portfolio. Our activities span tyre solutions for complex mobility needs, from agricultural and indus",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "Tire resellers official websites",
+      "level": "L2",
+      "result_count": 13,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "10872 Twitter Halloween Infographic KEYNOTE 19.10",
+          "link": "https://blog.twitter.com/content/dam/blog-twitter/marketing/en_gb/best-practices/2017/halloween-opportunities-for-brands-on-twitter/HalloweenInfographic.pdf",
+          "snippet": "Twitter users are also interested in seeing more of certain kinds of products. This includes activity retailers and other brands can \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Buy Tires & Wheels Online | Tire Repair & Service | Discount Tire",
+          "link": "https://www.discounttire.com/",
+          "snippet": "Shop and order new tires and wheels online at the LOWEST prices with our famous customer service.Limit eight (8) tires per customer during the promotional period. Valid for retail consumer online purc",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tires, Wheels, Accessories, Reviews | Tires Online at Tire Rack",
+          "link": "https://www.tirerack.com/",
+          "snippet": "Shop tires, wheels, and accessories with unbiased expert reviews, great prices, and free shipping to your home or local installer!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tire Group International - Leader in tire distribution",
+          "link": "https://tiregroup.com/",
+          "snippet": "Passenger, commercial truck, agricultural, OTR, and specialty tires. Leader in tire distribution and selling happiness since 1992.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "ATD | American Tire Distributors | Wholesale Tire Distributor",
+          "link": "https://d203uqedzwdsmh.cloudfront.net/en/",
+          "snippet": "ATD is one of the largest independent suppliers of tires, wheels and supplies to the automotive market, enabling you to compete in the tire service industry.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tires Direct, Distributors & Suppliers - TiresDirect.com",
+          "link": "https://tiresdirect.com/",
+          "snippet": "Looking to buy OEM or aftermarket tires or wheels at great prices? See which distributors are offering tires direct with discounts, sales and rebates for the tires you need.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "TireHub",
+          "link": "https://www.tirehub.com/",
+          "snippet": "We\u2019re out to set a new standard of excellence for tire distribution in the U.S., and we\u2019ll do it by focusing on the needs of our dealers and their customers. Our mission is to distribute the highest q",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Truck Tires, SUV Tires, Commercial Tires & More | Continental Tire",
+          "link": "https://continentaltire.com/",
+          "snippet": "For that past 100+ years, Continental Tire has brought you SUV/truck tires, commercial tires, and passenger tires that go faster, grip harder, last longer.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tires for Sale",
+          "link": "https://www.tirerack.com/tires",
+          "snippet": "When you need new tires, you can trust the experts at Tire Rack to help you find exactly what you need when you need it. Helpful tools and reviews make it easy. And delivery is super fast.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Contact us online | Tires-easy.com",
+          "link": "https://www.tires-easy.com/contact-us",
+          "snippet": "Becoming a Reseller. Register as an official Tires Easy reseller. Tire Deals.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Continental Tire Promo Codes - 10% Off Coupons Jul 2026",
+          "link": "https://simplycodes.com/store/continentaltire.com",
+          "snippet": "Codes for Authorized Continental Tire Resellers. Working promotional codes from websites also selling this brand.Pro tip: Test codes on smaller carts first and prioritize Continental's site-wide rebat",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "TVS Eurogrip",
+          "link": "http://www.tvstyres.com/",
+          "snippet": "Looking for the best tire for PCX 160? Discover tyres that deliver superior grip, durability, and comfort for city rides and long-lasting performance.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home | ATD Corporate Site | ATD",
+          "link": "https://www.atd.com/",
+          "snippet": "ATD is the nation's largest independent tire distributor. Delivering your products, empowering your success, advancing your career.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "10872 Twitter Halloween Infographic KEYNOTE 19.10",
+          "link": "https://blog.twitter.com/content/dam/blog-twitter/marketing/en_gb/best-practices/2017/halloween-opportunities-for-brands-on-twitter/HalloweenInfographic.pdf",
+          "snippet": "Twitter users are also interested in seeing more of certain kinds of products. This includes activity retailers and other brands can \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Buy Tires & Wheels Online | Tire Repair & Service | Discount Tire",
+          "link": "https://www.discounttire.com/",
+          "snippet": "Shop and order new tires and wheels online at the LOWEST prices with our famous customer service.Limit eight (8) tires per customer during the promotional period. Valid for retail consumer online purc",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tires, Wheels, Accessories, Reviews | Tires Online at Tire Rack",
+          "link": "https://www.tirerack.com/",
+          "snippet": "Shop tires, wheels, and accessories with unbiased expert reviews, great prices, and free shipping to your home or local installer!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tire Group International - Leader in tire distribution",
+          "link": "https://tiregroup.com/",
+          "snippet": "Passenger, commercial truck, agricultural, OTR, and specialty tires. Leader in tire distribution and selling happiness since 1992.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "ATD | American Tire Distributors | Wholesale Tire Distributor",
+          "link": "https://d203uqedzwdsmh.cloudfront.net/en/",
+          "snippet": "ATD is one of the largest independent suppliers of tires, wheels and supplies to the automotive market, enabling you to compete in the tire service industry.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tires Direct, Distributors & Suppliers - TiresDirect.com",
+          "link": "https://tiresdirect.com/",
+          "snippet": "Looking to buy OEM or aftermarket tires or wheels at great prices? See which distributors are offering tires direct with discounts, sales and rebates for the tires you need.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "TireHub",
+          "link": "https://www.tirehub.com/",
+          "snippet": "We\u2019re out to set a new standard of excellence for tire distribution in the U.S., and we\u2019ll do it by focusing on the needs of our dealers and their customers. Our mission is to distribute the highest q",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Truck Tires, SUV Tires, Commercial Tires & More | Continental Tire",
+          "link": "https://continentaltire.com/",
+          "snippet": "For that past 100+ years, Continental Tire has brought you SUV/truck tires, commercial tires, and passenger tires that go faster, grip harder, last longer.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tires for Sale",
+          "link": "https://www.tirerack.com/tires",
+          "snippet": "When you need new tires, you can trust the experts at Tire Rack to help you find exactly what you need when you need it. Helpful tools and reviews make it easy. And delivery is super fast.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Contact us online | Tires-easy.com",
+          "link": "https://www.tires-easy.com/contact-us",
+          "snippet": "Becoming a Reseller. Register as an official Tires Easy reseller. Tire Deals.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Continental Tire Promo Codes - 10% Off Coupons Jul 2026",
+          "link": "https://simplycodes.com/store/continentaltire.com",
+          "snippet": "Codes for Authorized Continental Tire Resellers. Working promotional codes from websites also selling this brand.Pro tip: Test codes on smaller carts first and prioritize Continental's site-wide rebat",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "TVS Eurogrip",
+          "link": "http://www.tvstyres.com/",
+          "snippet": "Looking for the best tire for PCX 160? Discover tyres that deliver superior grip, durability, and comfort for city rides and long-lasting performance.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home | ATD Corporate Site | ATD",
+          "link": "https://www.atd.com/",
+          "snippet": "ATD is the nation's largest independent tire distributor. Delivering your products, empowering your success, advancing your career.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "search tire distributor official site",
+      "level": "market_map",
+      "result_count": 10,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Wholesale Tire Distributors",
+          "link": "https://wtdonline.net/",
+          "snippet": "Wholesale Tire Distributors (WTD) is a U.S.A.\u2013based company located in Los Angeles, California. WTD is involved in selling and distributing tires to all 50 states and internationally. WTD distributes ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tire Distributor Search | Unidos Tire Service Incorporated",
+          "link": "https://www.unidostires.com/blank-1",
+          "snippet": "Customized Tire Search. Utilize our comprehensive search filters to find the exact tires you need for any vehicle type.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tireco, Inc. | Great Products from a Trusted Company",
+          "link": "https://www.tireco.com/",
+          "snippet": "Tireco, Inc. is one of North America's largest private brand marketers and distributors of tires and tire related products.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home | ATD Corporate Site | ATD",
+          "link": "https://www.atd.com/",
+          "snippet": "ATD is the nation's largest independent tire distributor. Delivering your products, empowering your success, advancing your career.American Tire Distributors, Inc. PO Box 3145 Huntersville, NC 28078-3",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Gulf Tire Distributors | Wholesale Tires & Wheels | Tire Dealer...",
+          "link": "https://gulftires.com/",
+          "snippet": "Search Tires By Brand.At Gulf Tire Distributors, we are driven by our mission to offer the best tires and unmatched customer service to our valued partners. We aim to be a top tire distributor in the ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "RHINO TIRE USA LLC",
+          "link": "https://www.rhinotireusa.com/",
+          "snippet": "Rhino Tire USA is a wholesale tire distributor located in Orlando. Our company is involved in selling and distributing tires to all 50 states and internationally. We distribute an extensive selection ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bike Tires | Schwalbe Bike Tires and Wheelchair Tires",
+          "link": "https://www.schwalbe.com/en/",
+          "snippet": "Popular Search Results.Schwalbe road bike tires. Road Speed with Tudor Pro Cycling Team.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Quality Car, Truck, and Motorsports Tires | Giti Tire",
+          "link": "https://www.giti.com/",
+          "snippet": "Find out more about Giti and explore our latest range of high-quality tires for passenger cars, SUVs, 4x4s, commercial vans, trucks, buses, motorsports.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Toyo Tires Canada",
+          "link": "https://www.toyotires.ca/",
+          "snippet": "Toyo Tires Canada offers premium passenger, performance, light truck, and commercial tires backed by industry-leading warranties. Find your set today.My Vehicles. Active Vehicle. Search Tires.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Login | ATDOnline",
+          "link": "https://atdonline.com/login",
+          "snippet": "\u00a92025 American Tire Distributors.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Wholesale Tire Distributors",
+          "link": "https://wtdonline.net/",
+          "snippet": "Wholesale Tire Distributors (WTD) is a U.S.A.\u2013based company located in Los Angeles, California. WTD is involved in selling and distributing tires to all 50 states and internationally. WTD distributes ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tire Distributor Search | Unidos Tire Service Incorporated",
+          "link": "https://www.unidostires.com/blank-1",
+          "snippet": "Customized Tire Search. Utilize our comprehensive search filters to find the exact tires you need for any vehicle type.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tireco, Inc. | Great Products from a Trusted Company",
+          "link": "https://www.tireco.com/",
+          "snippet": "Tireco, Inc. is one of North America's largest private brand marketers and distributors of tires and tire related products.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home | ATD Corporate Site | ATD",
+          "link": "https://www.atd.com/",
+          "snippet": "ATD is the nation's largest independent tire distributor. Delivering your products, empowering your success, advancing your career.American Tire Distributors, Inc. PO Box 3145 Huntersville, NC 28078-3",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Gulf Tire Distributors | Wholesale Tires & Wheels | Tire Dealer...",
+          "link": "https://gulftires.com/",
+          "snippet": "Search Tires By Brand.At Gulf Tire Distributors, we are driven by our mission to offer the best tires and unmatched customer service to our valued partners. We aim to be a top tire distributor in the ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "RHINO TIRE USA LLC",
+          "link": "https://www.rhinotireusa.com/",
+          "snippet": "Rhino Tire USA is a wholesale tire distributor located in Orlando. Our company is involved in selling and distributing tires to all 50 states and internationally. We distribute an extensive selection ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bike Tires | Schwalbe Bike Tires and Wheelchair Tires",
+          "link": "https://www.schwalbe.com/en/",
+          "snippet": "Popular Search Results.Schwalbe road bike tires. Road Speed with Tudor Pro Cycling Team.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Quality Car, Truck, and Motorsports Tires | Giti Tire",
+          "link": "https://www.giti.com/",
+          "snippet": "Find out more about Giti and explore our latest range of high-quality tires for passenger cars, SUVs, 4x4s, commercial vans, trucks, buses, motorsports.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Toyo Tires Canada",
+          "link": "https://www.toyotires.ca/",
+          "snippet": "Toyo Tires Canada offers premium passenger, performance, light truck, and commercial tires backed by industry-leading warranties. Find your set today.My Vehicles. Active Vehicle. Search Tires.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Login | ATDOnline",
+          "link": "https://atdonline.com/login",
+          "snippet": "\u00a92025 American Tire Distributors.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P2": {
+      "query": "search tire wholesaler official site",
+      "level": "market_map",
+      "result_count": 2,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Buy Tires & Wheels Online | Tire Repair & Service | America's Tire",
+          "link": "https://www.americastire.com/",
+          "snippet": "Home of California's and Eastern Pennsylvania's LOWEST prices on tires, wheels, and our famous customer service. Get a shorter wait time in-store when you buy & book online!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mew.Design - Free Online AI Design Generator",
+          "link": "https://mew.design/design",
+          "snippet": "Design a catalog for retailers, wholesalers, ecommerce brands, sales teams...",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Buy Tires & Wheels Online | Tire Repair & Service | America's Tire",
+          "link": "https://www.americastire.com/",
+          "snippet": "Home of California's and Eastern Pennsylvania's LOWEST prices on tires, wheels, and our famous customer service. Get a shorter wait time in-store when you buy & book online!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mew.Design - Free Online AI Design Generator",
+          "link": "https://mew.design/design",
+          "snippet": "Design a catalog for retailers, wholesalers, ecommerce brands, sales teams...",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P3": {
+      "query": "search tire reseller official site",
+      "level": "market_map",
+      "result_count": 10,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Buy Tires & Wheels Online | Tire Repair & Service | Discount Tire",
+          "link": "https://www.discounttire.com/",
+          "snippet": "Shop and order new tires and wheels online at the LOWEST prices with our famous customer service.Limit eight (8) tires per customer during the promotional period. Valid for retail consumer online purc",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Contact Us | Giga-tires.com",
+          "link": "https://www.giga-tires.com/contact-us",
+          "snippet": "Contact Giga-Tires by phone, email, or mail. Our contact information as well as the best deals for tires online can be found at Giga-Tires.com.Register as an official Giga Tires Reseller. Tire Deals.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tires for Sale",
+          "link": "https://www.tirerack.com/tires",
+          "snippet": "When you need new tires, you can trust the experts at Tire Rack to help you find exactly what you need when you need it. Helpful tools and reviews make it easy. And delivery is super fast.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Contact us online | Tires-easy.com",
+          "link": "https://www.tires-easy.com/contact-us",
+          "snippet": "Find the best selection of tire brands at affordable prices. Contact us for online tires at info@tires-easy.com or 844-877-3279.Register as an official Tires Easy reseller. Tire Deals.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bike Tires | Schwalbe Bike Tires and Wheelchair Tires",
+          "link": "https://www.schwalbe.com/en/",
+          "snippet": "Schwalbe road bike tires. Road Speed with Tudor Pro Cycling Team.Find the right inner tube quickly and easily. Go to search.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Truck Tires, SUV Tires, Commercial Tires & More | Continental Tire",
+          "link": "https://continentaltire.com/",
+          "snippet": "Site search. Welcome to The Smart Choice In Tires. Get a $110 Rebate when you purchase a set of 4 qualifying Continental Tires.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Explore Michelin Tires, Products & More | Michelin USA",
+          "link": "https://www.michelinman.com/",
+          "snippet": "Find the perfect Michelin tires and products for your car, motorcycle, bike & more from our wide range of tires! Explore to discover more & learn tips.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Toyo Tires Official Web site",
+          "link": "https://toyotires.eu/",
+          "snippet": "TOYO TIRES at the N\u00fcrburgring 24 Hours. TOYO TIRES driver and car setup impresses in its first NLS race of 2026. TOYO TIRES and Akira Miura to compete in World Rally-Raid Championship in Portugal. AMT",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Continental Tire Promo Codes - 10% Off Coupons Jul 2026",
+          "link": "https://simplycodes.com/store/continentaltire.com",
+          "snippet": "Codes for Authorized Continental Tire Resellers. Working promotional codes from websites also selling this brand.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Homepage - MAXXIS International",
+          "link": "https://www.maxxis.com/",
+          "snippet": "Maxxis Wins Gold A\u2019 Design Award for N Vision. A Smart, Sustainable Tire for the Autonomous Future.Maxxis is now supplying original equipment (OE) tires for the BMW 1 Series in Europe.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Buy Tires & Wheels Online | Tire Repair & Service | Discount Tire",
+          "link": "https://www.discounttire.com/",
+          "snippet": "Shop and order new tires and wheels online at the LOWEST prices with our famous customer service.Limit eight (8) tires per customer during the promotional period. Valid for retail consumer online purc",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Contact Us | Giga-tires.com",
+          "link": "https://www.giga-tires.com/contact-us",
+          "snippet": "Contact Giga-Tires by phone, email, or mail. Our contact information as well as the best deals for tires online can be found at Giga-Tires.com.Register as an official Giga Tires Reseller. Tire Deals.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tires for Sale",
+          "link": "https://www.tirerack.com/tires",
+          "snippet": "When you need new tires, you can trust the experts at Tire Rack to help you find exactly what you need when you need it. Helpful tools and reviews make it easy. And delivery is super fast.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Contact us online | Tires-easy.com",
+          "link": "https://www.tires-easy.com/contact-us",
+          "snippet": "Find the best selection of tire brands at affordable prices. Contact us for online tires at info@tires-easy.com or 844-877-3279.Register as an official Tires Easy reseller. Tire Deals.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bike Tires | Schwalbe Bike Tires and Wheelchair Tires",
+          "link": "https://www.schwalbe.com/en/",
+          "snippet": "Schwalbe road bike tires. Road Speed with Tudor Pro Cycling Team.Find the right inner tube quickly and easily. Go to search.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Truck Tires, SUV Tires, Commercial Tires & More | Continental Tire",
+          "link": "https://continentaltire.com/",
+          "snippet": "Site search. Welcome to The Smart Choice In Tires. Get a $110 Rebate when you purchase a set of 4 qualifying Continental Tires.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Explore Michelin Tires, Products & More | Michelin USA",
+          "link": "https://www.michelinman.com/",
+          "snippet": "Find the perfect Michelin tires and products for your car, motorcycle, bike & more from our wide range of tires! Explore to discover more & learn tips.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Toyo Tires Official Web site",
+          "link": "https://toyotires.eu/",
+          "snippet": "TOYO TIRES at the N\u00fcrburgring 24 Hours. TOYO TIRES driver and car setup impresses in its first NLS race of 2026. TOYO TIRES and Akira Miura to compete in World Rally-Raid Championship in Portugal. AMT",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Continental Tire Promo Codes - 10% Off Coupons Jul 2026",
+          "link": "https://simplycodes.com/store/continentaltire.com",
+          "snippet": "Codes for Authorized Continental Tire Resellers. Working promotional codes from websites also selling this brand.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Homepage - MAXXIS International",
+          "link": "https://www.maxxis.com/",
+          "snippet": "Maxxis Wins Gold A\u2019 Design Award for N Vision. A Smart, Sustainable Tire for the Autonomous Future.Maxxis is now supplying original equipment (OE) tires for the BMW 1 Series in Europe.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P4": {
+      "query": "search tire service provider official site",
+      "level": "market_map",
+      "result_count": 10,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Buy Tires & Wheels Online | Tire Repair & Service | Discount Tire",
+          "link": "https://www.discounttire.com/",
+          "snippet": "Discount Tire provides professional tire installation along with free services such as air checks and tire inspections. Our clean stores and experienced tire experts deliver quick, hassle\u2011free service",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Continental Tires | Discover Tires Online",
+          "link": "https://www.continental-tires.com/",
+          "snippet": "Explore Continental tires' extensive selection. Find winter and summer tires, options for cars and trucks, motorcycle and bicycle tires, industrial vehicle tires, and beyond.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Explore Michelin Tires, Products & More | Michelin USA",
+          "link": "https://www.michelinman.com/",
+          "snippet": "Find the perfect Michelin tires and products for your car, motorcycle, bike & more from our wide range of tires! Explore to discover more & learn tips.Tires, services & solutions, mobility experiences",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "YATG Tires | Trusted Off-Road Tire Experts",
+          "link": "https://www.yokohama-atg.com/",
+          "snippet": "Explore Yokohama ATG\u2019s off-road tires for agriculture, construction, forestry, and mining.search. red-button. find_tires.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bike Tires | Schwalbe Bike Tires and Wheelchair Tires",
+          "link": "https://www.schwalbe.com/en/",
+          "snippet": "Service Tools. Bike tire advisor.Find the right inner tube quickly and easily. Go to search.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Premium tires for cars, motorcycles, bicycles and ATVs",
+          "link": "https://www.csttires.com/",
+          "snippet": "From city bikes to racing motorcycles, from passenger cars to ATVs - CST has the perfect tire for every vehicle.Tire Search. Contact. Find Dealers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Truck Tires, SUV Tires, Commercial Tires & More | Continental Tire",
+          "link": "https://continentaltire.com/",
+          "snippet": "Site search. Welcome to The Smart Choice In Tires. Get a $110 Rebate when you purchase a set of 4 qualifying Continental Tires.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "goodyeartrucktires.com",
+          "link": "https://www.goodyeartrucktires.com/",
+          "snippet": "On-Site Service Coupon - Goodyear - Raben Tire Commercial.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wheel-Size.com :: Global Wheel Fitment Database For Vehicles",
+          "link": "https://www.wheel-size.com/",
+          "snippet": "Source for tire and wheel application fitment data. Last Update: July 19, 2026, 7:30 a.m. Search by vehicle, tire, rim size or package.API \u2013 Web Services We provide API access to our data for integrat",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Homepage - MAXXIS International",
+          "link": "https://www.maxxis.com/",
+          "snippet": "Maxxis expands its already strong ties to BMW Group. Maxxis is now supplying original equipment (OE) tires for the BMW 1 Series in Europe.Select your accessibility profile. Vision Impaired Mode. Enhan",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Buy Tires & Wheels Online | Tire Repair & Service | Discount Tire",
+          "link": "https://www.discounttire.com/",
+          "snippet": "Discount Tire provides professional tire installation along with free services such as air checks and tire inspections. Our clean stores and experienced tire experts deliver quick, hassle\u2011free service",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Continental Tires | Discover Tires Online",
+          "link": "https://www.continental-tires.com/",
+          "snippet": "Explore Continental tires' extensive selection. Find winter and summer tires, options for cars and trucks, motorcycle and bicycle tires, industrial vehicle tires, and beyond.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Explore Michelin Tires, Products & More | Michelin USA",
+          "link": "https://www.michelinman.com/",
+          "snippet": "Find the perfect Michelin tires and products for your car, motorcycle, bike & more from our wide range of tires! Explore to discover more & learn tips.Tires, services & solutions, mobility experiences",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "YATG Tires | Trusted Off-Road Tire Experts",
+          "link": "https://www.yokohama-atg.com/",
+          "snippet": "Explore Yokohama ATG\u2019s off-road tires for agriculture, construction, forestry, and mining.search. red-button. find_tires.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bike Tires | Schwalbe Bike Tires and Wheelchair Tires",
+          "link": "https://www.schwalbe.com/en/",
+          "snippet": "Service Tools. Bike tire advisor.Find the right inner tube quickly and easily. Go to search.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Premium tires for cars, motorcycles, bicycles and ATVs",
+          "link": "https://www.csttires.com/",
+          "snippet": "From city bikes to racing motorcycles, from passenger cars to ATVs - CST has the perfect tire for every vehicle.Tire Search. Contact. Find Dealers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Truck Tires, SUV Tires, Commercial Tires & More | Continental Tire",
+          "link": "https://continentaltire.com/",
+          "snippet": "Site search. Welcome to The Smart Choice In Tires. Get a $110 Rebate when you purchase a set of 4 qualifying Continental Tires.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "goodyeartrucktires.com",
+          "link": "https://www.goodyeartrucktires.com/",
+          "snippet": "On-Site Service Coupon - Goodyear - Raben Tire Commercial.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wheel-Size.com :: Global Wheel Fitment Database For Vehicles",
+          "link": "https://www.wheel-size.com/",
+          "snippet": "Source for tire and wheel application fitment data. Last Update: July 19, 2026, 7:30 a.m. Search by vehicle, tire, rim size or package.API \u2013 Web Services We provide API access to our data for integrat",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Homepage - MAXXIS International",
+          "link": "https://www.maxxis.com/",
+          "snippet": "Maxxis expands its already strong ties to BMW Group. Maxxis is now supplying original equipment (OE) tires for the BMW 1 Series in Europe.Select your accessibility profile. Vision Impaired Mode. Enhan",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P5": {
+      "query": "search tire management software official site",
+      "level": "market_map",
+      "result_count": 13,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "ASA All-in-One Software: Real-Time Management for Tire & Auto...",
+          "link": "https://www.asaauto.com/",
+          "snippet": "With our tire management software, you can centralize accounting, use localized POS, manage inventory, and access in-depth reporting from your desktop, laptop, tablet, or mobile phone. This visibility",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tire Shop Management System | Auto Repair Shop Software",
+          "link": "https://www.tirebase.io/",
+          "snippet": "Online Tire Seller. Tire demo for tire base. Tire Shop Software. Whether you operate a single store or a hundred, Tire Base empowers you to monitor inventory, manage customers, and oversee purchases. ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tire Guru | Intelligent Tire Shop Management Software",
+          "link": "https://tireguru.net/",
+          "snippet": "Comprehensive software, websites, and marketing services for the tire industry.Intelligent shop management software built specifically for the tire industry. Automate workflows to streamline your oper",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 Best Fleet Tire Management Software: 2026 Comparison",
+          "link": "https://zipdo.co/best/fleet-tire-management-software/",
+          "snippet": "Compare the top Fleet Tire Management Software tools with a ranked list for smarter monitoring and lower tire costs. Explore picks now.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Halo Tire Management | Aperia Technologies",
+          "link": "https://aperiatech.com/",
+          "snippet": "Search. Products. Halo.Using fleet tire management software to track tire health data and trends can also aid proactive maintenance and timely replacements. Training drivers on the importance of tire ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tire Trax | Tire Storage Software",
+          "link": "https://tiretrax.org/",
+          "snippet": "Tire Management Software. Helping tire storage programs be more Accurate, Reliable, and Efficient. Whether you manage dozens, hundreds, or thousands of sets\u2014we can help.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tire Shop Software: Streamline Orders & Inventory | RO App",
+          "link": "https://roapp.io/tire-shop/",
+          "snippet": "Effective tire store management with RO App software. Inventory Tracking. Routine Automation. Order Scheduler. Simple Invoicing.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tire Inventory Management Program | tire inventory solutions | Tire App",
+          "link": "https://tireinventorysolutions.com/",
+          "snippet": "Search, view and edit stock information from any computer or mobile device. View stock from multiple locations at once. Answer customer inquiries up to 80% faster! Create an invoice right from your sc",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tire Management System | Fleet Tire Performance",
+          "link": "https://uffizio-telematics.com/features/tire-management-system/",
+          "snippet": "Tire replacement history. Vehicle-wise tire mapping. Tire position management. Tire movement records. Centralized tire database.Can tire inventory be managed on the tire management software without an",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tire Shop Management Software | Torque360",
+          "link": "https://www.torque360.co/tire-shop-management-software/",
+          "snippet": "Torque360's tire shop software helps you track inventory, create estimates, manage invoices & boost revenue. Get your free demo now!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tire Management System in UAE | Falcon Trackers",
+          "link": "https://falcontrackers.com/services/tire-management-system",
+          "snippet": "Using Tire Management Software by Falcon Trackers you can monitor tire pressure in real time with ease. Our advanced sensors continuously track tire pressure and temperature, sending alerts directly t",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Incorporating tire management software | Pit & Quarry",
+          "link": "https://www.pitandquarry.com/how-tire-management-software-can-reduce-costs/",
+          "snippet": "How tire management software can reduce costs. Johni Francis Published Jun 9, 2017. Today\u2019s fleet manager is empowered to make incredibly informed decisions based on real site data. Fleet management s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Tires & Wheels Online | Tire Repair & Service | Discount Tire",
+          "link": "https://www.discounttire.com/",
+          "snippet": "Shop and order new tires and wheels online at the LOWEST prices with our famous customer service.Confident tire & wheel shopping. Every online purchase is protected by our 100% Fitment Guarantee. Shop",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "ASA All-in-One Software: Real-Time Management for Tire & Auto...",
+          "link": "https://www.asaauto.com/",
+          "snippet": "With our tire management software, you can centralize accounting, use localized POS, manage inventory, and access in-depth reporting from your desktop, laptop, tablet, or mobile phone. This visibility",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tire Shop Management System | Auto Repair Shop Software",
+          "link": "https://www.tirebase.io/",
+          "snippet": "Online Tire Seller. Tire demo for tire base. Tire Shop Software. Whether you operate a single store or a hundred, Tire Base empowers you to monitor inventory, manage customers, and oversee purchases. ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tire Guru | Intelligent Tire Shop Management Software",
+          "link": "https://tireguru.net/",
+          "snippet": "Comprehensive software, websites, and marketing services for the tire industry.Intelligent shop management software built specifically for the tire industry. Automate workflows to streamline your oper",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 Best Fleet Tire Management Software: 2026 Comparison",
+          "link": "https://zipdo.co/best/fleet-tire-management-software/",
+          "snippet": "Compare the top Fleet Tire Management Software tools with a ranked list for smarter monitoring and lower tire costs. Explore picks now.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Halo Tire Management | Aperia Technologies",
+          "link": "https://aperiatech.com/",
+          "snippet": "Search. Products. Halo.Using fleet tire management software to track tire health data and trends can also aid proactive maintenance and timely replacements. Training drivers on the importance of tire ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tire Trax | Tire Storage Software",
+          "link": "https://tiretrax.org/",
+          "snippet": "Tire Management Software. Helping tire storage programs be more Accurate, Reliable, and Efficient. Whether you manage dozens, hundreds, or thousands of sets\u2014we can help.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tire Shop Software: Streamline Orders & Inventory | RO App",
+          "link": "https://roapp.io/tire-shop/",
+          "snippet": "Effective tire store management with RO App software. Inventory Tracking. Routine Automation. Order Scheduler. Simple Invoicing.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tire Inventory Management Program | tire inventory solutions | Tire App",
+          "link": "https://tireinventorysolutions.com/",
+          "snippet": "Search, view and edit stock information from any computer or mobile device. View stock from multiple locations at once. Answer customer inquiries up to 80% faster! Create an invoice right from your sc",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tire Management System | Fleet Tire Performance",
+          "link": "https://uffizio-telematics.com/features/tire-management-system/",
+          "snippet": "Tire replacement history. Vehicle-wise tire mapping. Tire position management. Tire movement records. Centralized tire database.Can tire inventory be managed on the tire management software without an",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tire Shop Management Software | Torque360",
+          "link": "https://www.torque360.co/tire-shop-management-software/",
+          "snippet": "Torque360's tire shop software helps you track inventory, create estimates, manage invoices & boost revenue. Get your free demo now!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tire Management System in UAE | Falcon Trackers",
+          "link": "https://falcontrackers.com/services/tire-management-system",
+          "snippet": "Using Tire Management Software by Falcon Trackers you can monitor tire pressure in real time with ease. Our advanced sensors continuously track tire pressure and temperature, sending alerts directly t",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Incorporating tire management software | Pit & Quarry",
+          "link": "https://www.pitandquarry.com/how-tire-management-software-can-reduce-costs/",
+          "snippet": "How tire management software can reduce costs. Johni Francis Published Jun 9, 2017. Today\u2019s fleet manager is empowered to make incredibly informed decisions based on real site data. Fleet management s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Tires & Wheels Online | Tire Repair & Service | Discount Tire",
+          "link": "https://www.discounttire.com/",
+          "snippet": "Shop and order new tires and wheels online at the LOWEST prices with our famous customer service.Confident tire & wheel shopping. Every online purchase is protected by our 100% Fitment Guarantee. Shop",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "search tire channel partner official site",
+      "level": "market_map",
+      "result_count": 9,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Buy Tires & Wheels Online | Tire Repair & Service | Discount Tire",
+          "link": "https://www.discounttire.com/",
+          "snippet": "Shop and order new tires and wheels online at the LOWEST prices with our famous customer service.Confident tire & wheel shopping. Every online purchase is protected by our 100% Fitment Guarantee. Shop",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Explore Michelin Tires, Products & More | Michelin USA",
+          "link": "https://www.michelinman.com/",
+          "snippet": "Find the perfect Michelin tires and products for your car, motorcycle, bike & more from our wide range of tires! Explore to discover more & learn tips.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bike Tires | Schwalbe Bike Tires and Wheelchair Tires",
+          "link": "https://www.schwalbe.com/en/",
+          "snippet": "Popular Search Results.Schwalbe road bike tires. Road Speed with Tudor Pro Cycling Team.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Truck Tires, SUV Tires, Commercial Tires & More | Continental Tire",
+          "link": "https://continentaltire.com/",
+          "snippet": "Site search. Welcome to The Smart Choice In Tires. Get a $110 Rebate when you purchase a set of 4 qualifying Continental Tires.Continental Tire announced a new multi-year partnership agreement with BM",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Quality Car, Truck, and Motorsports Tires | Giti Tire",
+          "link": "https://www.giti.com/",
+          "snippet": "Find out more about Giti and explore our latest range of high-quality tires for passenger cars, SUVs, 4x4s, commercial vans, trucks, buses, motorsports.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Welcome to the official website of Triangle Tyre-Triangle Tyre",
+          "link": "https://en.triangle.com.cn/",
+          "snippet": "Next. Search tires by size.Triangle Tyre Showcases at The Tire Cologne 2026: United for European Growth, Anchored in ESG.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Shop For Tires Online | Goodyear",
+          "link": "https://www.goodyear.com/",
+          "snippet": "Shop a wide selection of tires for Cars, Trucks, SUVs, and Minivans at Goodyear. See current offers and rebates for the best discount tire prices.Find an Installer. Tires. By Category.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wheel-Size.com :: Global Wheel Fitment Database For Vehicles",
+          "link": "https://www.wheel-size.com/",
+          "snippet": "Search Form for vehicle model, tire size or rims Choose a tab below to get fitment data for your vehicle or to find vehicles matching your criteria.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Homepage - MAXXIS International",
+          "link": "https://www.maxxis.com/",
+          "snippet": "Maxxis Wins Gold A\u2019 Design Award for N Vision. A Smart, Sustainable Tire for the Autonomous Future.Maxxis is now supplying original equipment (OE) tires for the BMW 1 Series in Europe.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Buy Tires & Wheels Online | Tire Repair & Service | Discount Tire",
+          "link": "https://www.discounttire.com/",
+          "snippet": "Shop and order new tires and wheels online at the LOWEST prices with our famous customer service.Confident tire & wheel shopping. Every online purchase is protected by our 100% Fitment Guarantee. Shop",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Explore Michelin Tires, Products & More | Michelin USA",
+          "link": "https://www.michelinman.com/",
+          "snippet": "Find the perfect Michelin tires and products for your car, motorcycle, bike & more from our wide range of tires! Explore to discover more & learn tips.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bike Tires | Schwalbe Bike Tires and Wheelchair Tires",
+          "link": "https://www.schwalbe.com/en/",
+          "snippet": "Popular Search Results.Schwalbe road bike tires. Road Speed with Tudor Pro Cycling Team.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Truck Tires, SUV Tires, Commercial Tires & More | Continental Tire",
+          "link": "https://continentaltire.com/",
+          "snippet": "Site search. Welcome to The Smart Choice In Tires. Get a $110 Rebate when you purchase a set of 4 qualifying Continental Tires.Continental Tire announced a new multi-year partnership agreement with BM",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Quality Car, Truck, and Motorsports Tires | Giti Tire",
+          "link": "https://www.giti.com/",
+          "snippet": "Find out more about Giti and explore our latest range of high-quality tires for passenger cars, SUVs, 4x4s, commercial vans, trucks, buses, motorsports.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Welcome to the official website of Triangle Tyre-Triangle Tyre",
+          "link": "https://en.triangle.com.cn/",
+          "snippet": "Next. Search tires by size.Triangle Tyre Showcases at The Tire Cologne 2026: United for European Growth, Anchored in ESG.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Shop For Tires Online | Goodyear",
+          "link": "https://www.goodyear.com/",
+          "snippet": "Shop a wide selection of tires for Cars, Trucks, SUVs, and Minivans at Goodyear. See current offers and rebates for the best discount tire prices.Find an Installer. Tires. By Category.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wheel-Size.com :: Global Wheel Fitment Database For Vehicles",
+          "link": "https://www.wheel-size.com/",
+          "snippet": "Search Form for vehicle model, tire size or rims Choose a tab below to get fitment data for your vehicle or to find vehicles matching your criteria.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Homepage - MAXXIS International",
+          "link": "https://www.maxxis.com/",
+          "snippet": "Maxxis Wins Gold A\u2019 Design Award for N Vision. A Smart, Sustainable Tire for the Autonomous Future.Maxxis is now supplying original equipment (OE) tires for the BMW 1 Series in Europe.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P7": {
+      "query": "buscar distribuidor de neum\u00e1ticos sitio oficial",
+      "level": "market_map",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Tiresur incorpora a su gama la marca de neum\u00e1ticos Yokohama",
+          "link": "https://motorok.com/actualidad-noticias/tiresur-nuevo-distribuidor-neumaticos-yokohama/",
+          "snippet": "Con la incorporaci\u00f3n de la marca de neum\u00e1ticos Yokohama, Tiresur se vuelve a posicionar como un fuerte referente en el sector de la distribuci\u00f3n del neum\u00e1tico a nivel nacional, trabajando d\u00eda a d\u00eda po",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Tiresur incorpora a su gama la marca de neum\u00e1ticos Yokohama",
+          "link": "https://motorok.com/actualidad-noticias/tiresur-nuevo-distribuidor-neumaticos-yokohama/",
+          "snippet": "Con la incorporaci\u00f3n de la marca de neum\u00e1ticos Yokohama, Tiresur se vuelve a posicionar como un fuerte referente en el sector de la distribuci\u00f3n del neum\u00e1tico a nivel nacional, trabajando d\u00eda a d\u00eda po",
+          "backend": "ddgs_bing"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

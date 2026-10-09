@@ -1,0 +1,1196 @@
+{
+  "phase": 1,
+  "query": "Data Governance Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T21:41:01.427676+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "Data Governance",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "channel partner",
+    "industry_vertical": "data management",
+    "industry_terms": [
+      "data governance",
+      "data quality",
+      "data compliance",
+      "data management",
+      "metadata management"
+    ],
+    "ecosystem_functions": [
+      "distributing software",
+      "implementing solutions",
+      "providing support services",
+      "consulting on best practices",
+      "ensuring compliance",
+      "integrating systems",
+      "reselling products",
+      "managing customer relationships"
+    ],
+    "interpretation_summary": "The Data Governance Market encompasses solutions and services that help organizations manage their data assets effectively, ensuring compliance, quality, and security. Participants include software vendors, service provi",
+    "relevance_keywords": [
+      "data governance",
+      "data management",
+      "compliance solutions",
+      "data quality tools",
+      "metadata management"
+    ],
+    "negative_keywords": [
+      "analytics",
+      "security",
+      "cloud",
+      "storage",
+      "big data"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "Informatica",
+        "primary_domain": "informatica.com",
+        "company_function": "data governance software provider"
+      },
+      {
+        "canonical_name": "Collibra",
+        "primary_domain": "collibra.com",
+        "company_function": "data governance solutions provider"
+      },
+      {
+        "canonical_name": "IBM",
+        "primary_domain": "ibm.com",
+        "company_function": "it system integrator and data governance provider"
+      },
+      {
+        "canonical_name": "SAP",
+        "primary_domain": "sap.com",
+        "company_function": "data governance software and consulting"
+      },
+      {
+        "canonical_name": "Microsoft",
+        "primary_domain": "microsoft.com",
+        "company_function": "data governance solutions and services"
+      },
+      {
+        "canonical_name": "Talend",
+        "primary_domain": "talend.com",
+        "company_function": "data integration and governance solutions"
+      },
+      {
+        "canonical_name": "Oracle",
+        "primary_domain": "oracle.com",
+        "company_function": "data governance and compliance solutions"
+      },
+      {
+        "canonical_name": "Alation",
+        "primary_domain": "alation.com",
+        "company_function": "data governance and catalog solutions"
+      },
+      {
+        "canonical_name": "Ataccama",
+        "primary_domain": "ataccama.com",
+        "company_function": "data quality and governance solutions",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "TIBCO Software",
+        "primary_domain": "tibco.com",
+        "company_function": "data governance and integration solutions",
+        "segment": "Channel Partners",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "Data Governance",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "Data Governance",
+    "include_keywords": [
+      "data governance solutions",
+      "data governance software",
+      "data governance frameworks",
+      "data stewardship",
+      "data lineage"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The Data Governance Market encompasses solutions and services that help organizations manage their data assets effectively, ensuring compliance, quality, and security. Participants include software vendors, service providers, and various channel partners that facilitate the distribution and implementation of data governance solutions globally.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Channel Partners",
+        "description": "Entities that distribute and implement data governance solutions.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Value-added Distributors",
+              "Technology Distributors"
+            ],
+            "participant_types": [
+              "distributor",
+              "wholesaler"
+            ],
+            "search_intents": [
+              "data governance solution distributors",
+              "data governance software wholesalers"
+            ]
+          },
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Value Resellers",
+              "Managed Service Resellers"
+            ],
+            "participant_types": [
+              "reseller",
+              "service provider"
+            ],
+            "search_intents": [
+              "data governance resellers",
+              "data governance service providers"
+            ]
+          },
+          {
+            "segment_name": "System Integrators",
+            "sub_segments": [
+              "IT System Integrators",
+              "Consulting Firms"
+            ],
+            "participant_types": [
+              "system integrator",
+              "channel partner"
+            ],
+            "search_intents": [
+              "data governance system integrators",
+              "data governance consulting firms"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Data Analytics",
+        "Data Warehousing",
+        "Business Intelligence",
+        "Data Security",
+        "Cloud Storage"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "data governance solution distributors",
+        "sub_sector": "distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "data governance resellers",
+        "sub_sector": "reseller",
+        "layer_id": "L1",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "data governance system integrators",
+        "sub_sector": "system_integrator",
+        "layer_id": "L1",
+        "segment": "System Integrators"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "data governance service providers",
+        "sub_sector": "service_provider",
+        "layer_id": "L1",
+        "segment": "Service Providers"
+      },
+      {
+        "id": "M5",
+        "level": "market_map",
+        "text": "data governance channel partners",
+        "sub_sector": "channel_partner",
+        "layer_id": "L1",
+        "segment": "Channel Partners"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "data management",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "Data Governance Market companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "Data Governance distributors corporate sites"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "Data Governance system integrators official websites"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "discovery",
+      "text": "data governance solution distributors official site"
+    },
+    {
+      "id": "P2",
+      "level": "discovery",
+      "text": "data governance software wholesalers corporate headquarters"
+    },
+    {
+      "id": "P3",
+      "level": "discovery",
+      "text": "data governance resellers official website"
+    },
+    {
+      "id": "P4",
+      "level": "discovery",
+      "text": "data governance service providers corporate site"
+    },
+    {
+      "id": "P5",
+      "level": "discovery",
+      "text": "data governance system integrators corporate profile"
+    },
+    {
+      "id": "P6",
+      "level": "discovery",
+      "text": "data governance consulting firms official site"
+    },
+    {
+      "id": "P7",
+      "level": "discovery",
+      "text": "data governance channel partner corporate website"
+    },
+    {
+      "id": "P8",
+      "level": "discovery",
+      "text": "data governance solutions distributors official site"
+    },
+    {
+      "id": "P9",
+      "level": "volume",
+      "text": "authorized Data Governance distributor firm official"
+    },
+    {
+      "id": "P10",
+      "level": "volume",
+      "text": "Data Governance implementing solutions official website"
+    },
+    {
+      "id": "P11",
+      "level": "volume",
+      "text": "Data Governance service provider official website"
+    },
+    {
+      "id": "P12",
+      "level": "volume",
+      "text": "Data Governance consulting partner implementation official"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "Data Governance Market companies official websites",
+      "level": "L0",
+      "result_count": 12,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Data Governance Market \u2013 Global... | Data Bridge Market Research",
+          "link": "https://www.databridgemarketresearch.com/reports/global-data-governance-market",
+          "snippet": "Global Data Governance Market. Market Size in USD Billion.Enterprises are increasingly investing in cloud governance, risk management, and quality assurance solutions to optimize data utilization and ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Data Governance Market Size, Industry Share & Forecast",
+          "link": "https://www.verifiedmarketreports.com/product/global-data-governance-market-size-and-forecast-to-2025/",
+          "snippet": "Data Governance Market Size And Forecast. Discover the Major Trends Driving Market Growth.Data Governance Market Companies. Microsoft, with its Azure Purview platform, occupies a premium position, lev",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Data Governance Market Size & Share | Growth Report 2035",
+          "link": "https://www.researchnester.com/reports/data-governance-market/8501",
+          "snippet": "Data Governance Market size. Discover Market Trends & Growth Opportunities: Download Free PDF.North America data governance market is projected to command a 42.4% share by 2035, reinforced by stringen",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Data Governance Market Size \u2013 Growth Report, 2034",
+          "link": "https://www.statifacts.com/outlook/data-governance-market",
+          "snippet": "Data Governance Market Size 2024 to 2034. The data governance market is a prominent segment of the IT industry. This industry deals in developing data management solutions for several industries. Ther",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Data Governance Market Size, Share | Forecast 2032",
+          "link": "https://www.acumenresearchandconsulting.com/press-releases/data-governance-market",
+          "snippet": "Data Governance Market Size is predicted to reach USD 20.2 Billion by 2032 from USD 3.1 Billion in 2022, at a CAGR of 20.7% between 2023 and 2032, as per the Acumen Research and Consulting.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Data Governance Market to Reach USD 15.73 Bn by 2030",
+          "link": "https://www.maximizemarketresearch.com/market-report/global-data-governance-market/5668/",
+          "snippet": "The Global Data Governance Market is expected to grow at 22.32% CAGR, led by the Asia Pacific region. Key drivers include data quality.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 Data Governance Platforms in the world - scikiq.com",
+          "link": "https://scikiq.com/blog/top-10-data-governance-platforms-in-the-world/",
+          "snippet": "Jul 18, 2024 \u00b7 As we explore the top 10 data governance platforms available today, remember that the right solution isn\u2019t just about features and functionalities \u2013 it\u2019s about finding a platform that a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best 10 Data Governance Software For Business (2026)",
+          "link": "https://expertinsights.com/data-security-and-privacy/top-data-governance-software",
+          "snippet": "1 day ago \u00b7 We reviewed the leading data governance platforms on the accuracy of data cataloging, lineage tracking depth, and how well each supports the access policies and audit workflows that regula",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "15 Best Data Governance Companies in 2026 - Kanerika",
+          "link": "https://kanerika.com/blogs/data-governance-companies/",
+          "snippet": "Jul 3, 2026 \u00b7 Compare the 15 leading data governance companies in 2026. Find the right partner for compliance, data quality, and Microsoft Purview implementation.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The 18 Best Data Governance Tools and Software for 2026",
+          "link": "https://solutionsreview.com/data-management/the-best-data-governance-tools-and-software/",
+          "snippet": "Dec 1, 2025 \u00b7 Our editors selected the best data governance tools and software based on each solution\u2019s Authority Score; a meta-analysis of real user sentiment through the web\u2019s most trusted business ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 18 Data Governance Consulting Companies: Sept 2025 Update",
+          "link": "https://vodworks.com/blogs/data-governance-consulting-companies/",
+          "snippet": "Sep 19, 2025 \u00b7 Discover the best data governance consultancies worldwide: who they are, what they deliver, and how they help fix data quality, privacy, and cross-team consistency.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 Best Data Governance Services: 2026 Comparison",
+          "link": "https://worldmetrics.org/service/data-governance/",
+          "snippet": "Jun 20, 2026 \u00b7 Top 10 Best Data Governance Services of 2026 Compare top Data Governance Services providers and ranking picks for 2026, including Deloitte, PwC, and KPMG. Explore the best options. Data",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Data Governance Market \u2013 Global... | Data Bridge Market Research",
+          "link": "https://www.databridgemarketresearch.com/reports/global-data-governance-market",
+          "snippet": "Global Data Governance Market. Market Size in USD Billion.Enterprises are increasingly investing in cloud governance, risk management, and quality assurance solutions to optimize data utilization and ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Data Governance Market Size, Industry Share & Forecast",
+          "link": "https://www.verifiedmarketreports.com/product/global-data-governance-market-size-and-forecast-to-2025/",
+          "snippet": "Data Governance Market Size And Forecast. Discover the Major Trends Driving Market Growth.Data Governance Market Companies. Microsoft, with its Azure Purview platform, occupies a premium position, lev",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Data Governance Market Size & Share | Growth Report 2035",
+          "link": "https://www.researchnester.com/reports/data-governance-market/8501",
+          "snippet": "Data Governance Market size. Discover Market Trends & Growth Opportunities: Download Free PDF.North America data governance market is projected to command a 42.4% share by 2035, reinforced by stringen",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Data Governance Market Size \u2013 Growth Report, 2034",
+          "link": "https://www.statifacts.com/outlook/data-governance-market",
+          "snippet": "Data Governance Market Size 2024 to 2034. The data governance market is a prominent segment of the IT industry. This industry deals in developing data management solutions for several industries. Ther",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Data Governance Market Size, Share | Forecast 2032",
+          "link": "https://www.acumenresearchandconsulting.com/press-releases/data-governance-market",
+          "snippet": "Data Governance Market Size is predicted to reach USD 20.2 Billion by 2032 from USD 3.1 Billion in 2022, at a CAGR of 20.7% between 2023 and 2032, as per the Acumen Research and Consulting.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Data Governance Market to Reach USD 15.73 Bn by 2030",
+          "link": "https://www.maximizemarketresearch.com/market-report/global-data-governance-market/5668/",
+          "snippet": "The Global Data Governance Market is expected to grow at 22.32% CAGR, led by the Asia Pacific region. Key drivers include data quality.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 Data Governance Platforms in the world - scikiq.com",
+          "link": "https://scikiq.com/blog/top-10-data-governance-platforms-in-the-world/",
+          "snippet": "Jul 18, 2024 \u00b7 As we explore the top 10 data governance platforms available today, remember that the right solution isn\u2019t just about features and functionalities \u2013 it\u2019s about finding a platform that a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best 10 Data Governance Software For Business (2026)",
+          "link": "https://expertinsights.com/data-security-and-privacy/top-data-governance-software",
+          "snippet": "1 day ago \u00b7 We reviewed the leading data governance platforms on the accuracy of data cataloging, lineage tracking depth, and how well each supports the access policies and audit workflows that regula",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "15 Best Data Governance Companies in 2026 - Kanerika",
+          "link": "https://kanerika.com/blogs/data-governance-companies/",
+          "snippet": "Jul 3, 2026 \u00b7 Compare the 15 leading data governance companies in 2026. Find the right partner for compliance, data quality, and Microsoft Purview implementation.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The 18 Best Data Governance Tools and Software for 2026",
+          "link": "https://solutionsreview.com/data-management/the-best-data-governance-tools-and-software/",
+          "snippet": "Dec 1, 2025 \u00b7 Our editors selected the best data governance tools and software based on each solution\u2019s Authority Score; a meta-analysis of real user sentiment through the web\u2019s most trusted business ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 18 Data Governance Consulting Companies: Sept 2025 Update",
+          "link": "https://vodworks.com/blogs/data-governance-consulting-companies/",
+          "snippet": "Sep 19, 2025 \u00b7 Discover the best data governance consultancies worldwide: who they are, what they deliver, and how they help fix data quality, privacy, and cross-team consistency.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 Best Data Governance Services: 2026 Comparison",
+          "link": "https://worldmetrics.org/service/data-governance/",
+          "snippet": "Jun 20, 2026 \u00b7 Top 10 Best Data Governance Services of 2026 Compare top Data Governance Services providers and ranking picks for 2026, including Deloitte, PwC, and KPMG. Explore the best options. Data",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "Data Governance distributors corporate sites",
+      "level": "L1",
+      "result_count": 5,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Data Governance Solutions & Tools",
+          "link": "https://www.ovaledge.com/solutions/data-governance",
+          "snippet": "Data Governance - With OvalEdge, manage data access through policies, controls, and workflows. Build a business glossary and define data quality rules.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Distributor Product Data Governance Best Practices",
+          "link": "https://pimberly.com/blog/product-data-governance-distributor-best-practices/",
+          "snippet": "Best practices for product data governance in distribution. Learn how to improve data quality, standardize supplier data, and scale.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "10 ways data governance aids marketing and digital channels - Pivotree",
+          "link": "https://www.pivotree.com/uncategorized/10-ways-data-governance-aids-marketing-and-digital-channels/",
+          "snippet": "Since data quality improvement projects are closely tied with data governance, distributors can enjoy access to accurate and consistent data at all times. For example, your MDM can serve as a central ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "\u0427\u0442\u043e \u043f\u043e\u0434\u0440\u0430\u0437\u0443\u043c\u0435\u0432\u0430\u044e\u0442 \u043f\u043e\u0434 Data Governance? / \u0425\u0430\u0431\u0440",
+          "link": "https://habr.com/ru/articles/892302/",
+          "snippet": "\u0421\u0435\u0439\u0447\u0430\u0441 \u0437\u0430\u0447\u0430\u0441\u0442\u0443\u044e \u043f\u043e\u0434 Data Governance \u0438\u043c\u0435\u044e\u0442 \u0432 \u0432\u0438\u0434\u0443 \u0434\u0432\u0435 \u0447\u0430\u0441\u0442\u0438, \u044d\u0442\u043e Data Quality \u2013 \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u043e\u043c \u0434\u0430\u043d\u043d\u044b\u0445, \u0438 Data Linage \u2013 \u00ab\u043f\u043e\u043d\u044f\u0442\u044c, \u043e\u0442\u043a\u0443\u0434\u0430 \u043f\u0440\u0438\u0448\u043b\u0438 \u0434\u0430\u043d\u043d\u044b\u0435, \u043a\u0430\u043a \u043e\u043d\u0438 \u0438\u0437\u043c\u0435\u043d\u044f\u043b\u0438\u0441\u044c \u0438 \u043c\u043e\u0436\u043d\u043e \u043b\u0438 \u0438\u043c \u0434\u043e\u0432\u0435\u0440\u044f\u0442\u044c\u00bb.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "IEEE SA - Contact Us",
+          "link": "https://standards.ieee.org/about/contact/",
+          "snippet": "Autonomous and Intelligent Systems (AIS). Children\u2019s Data Governance.IEEE Standards Association Office Information. Mailing Address & Corporate Headquarters. IEEE Operations Center 445 Hoes Ln Piscata",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Data Governance Solutions & Tools",
+          "link": "https://www.ovaledge.com/solutions/data-governance",
+          "snippet": "Data Governance - With OvalEdge, manage data access through policies, controls, and workflows. Build a business glossary and define data quality rules.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Distributor Product Data Governance Best Practices",
+          "link": "https://pimberly.com/blog/product-data-governance-distributor-best-practices/",
+          "snippet": "Best practices for product data governance in distribution. Learn how to improve data quality, standardize supplier data, and scale.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "10 ways data governance aids marketing and digital channels - Pivotree",
+          "link": "https://www.pivotree.com/uncategorized/10-ways-data-governance-aids-marketing-and-digital-channels/",
+          "snippet": "Since data quality improvement projects are closely tied with data governance, distributors can enjoy access to accurate and consistent data at all times. For example, your MDM can serve as a central ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "\u0427\u0442\u043e \u043f\u043e\u0434\u0440\u0430\u0437\u0443\u043c\u0435\u0432\u0430\u044e\u0442 \u043f\u043e\u0434 Data Governance? / \u0425\u0430\u0431\u0440",
+          "link": "https://habr.com/ru/articles/892302/",
+          "snippet": "\u0421\u0435\u0439\u0447\u0430\u0441 \u0437\u0430\u0447\u0430\u0441\u0442\u0443\u044e \u043f\u043e\u0434 Data Governance \u0438\u043c\u0435\u044e\u0442 \u0432 \u0432\u0438\u0434\u0443 \u0434\u0432\u0435 \u0447\u0430\u0441\u0442\u0438, \u044d\u0442\u043e Data Quality \u2013 \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u043e\u043c \u0434\u0430\u043d\u043d\u044b\u0445, \u0438 Data Linage \u2013 \u00ab\u043f\u043e\u043d\u044f\u0442\u044c, \u043e\u0442\u043a\u0443\u0434\u0430 \u043f\u0440\u0438\u0448\u043b\u0438 \u0434\u0430\u043d\u043d\u044b\u0435, \u043a\u0430\u043a \u043e\u043d\u0438 \u0438\u0437\u043c\u0435\u043d\u044f\u043b\u0438\u0441\u044c \u0438 \u043c\u043e\u0436\u043d\u043e \u043b\u0438 \u0438\u043c \u0434\u043e\u0432\u0435\u0440\u044f\u0442\u044c\u00bb.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "IEEE SA - Contact Us",
+          "link": "https://standards.ieee.org/about/contact/",
+          "snippet": "Autonomous and Intelligent Systems (AIS). Children\u2019s Data Governance.IEEE Standards Association Office Information. Mailing Address & Corporate Headquarters. IEEE Operations Center 445 Hoes Ln Piscata",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "Data Governance system integrators official websites",
+      "level": "L2",
+      "result_count": 5,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Governance For Mobility Data Councils Market Research Report 2033",
+          "link": "https://dataintelo.com/report/governance-for-mobility-data-councils-market",
+          "snippet": "According to our latest research, the global governance for mobility data councils market size reached USD 1.48 billion in 2024, reflecting strong momentum driven by the rapid digitalization of urban ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Data Governance in Digital Collaboration: Reducing... :: SSRN",
+          "link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5143005",
+          "snippet": "Keywords: Digitalization, Data Governance, System integrators, Data-driven decision-making, Interpretive uncertainty.Pesce, Danilo and Franz\u00e8, Claudia and Paolucci, Emilio, Data Governance in Digital ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "\u0427\u0442\u043e \u043f\u043e\u0434\u0440\u0430\u0437\u0443\u043c\u0435\u0432\u0430\u044e\u0442 \u043f\u043e\u0434 Data Governance? / \u0425\u0430\u0431\u0440",
+          "link": "https://habr.com/ru/articles/892302/",
+          "snippet": "\u0421\u0435\u0439\u0447\u0430\u0441 \u0437\u0430\u0447\u0430\u0441\u0442\u0443\u044e \u043f\u043e\u0434 Data Governance \u0438\u043c\u0435\u044e\u0442 \u0432 \u0432\u0438\u0434\u0443 \u0434\u0432\u0435 \u0447\u0430\u0441\u0442\u0438, \u044d\u0442\u043e Data Quality \u2013 \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u043e\u043c \u0434\u0430\u043d\u043d\u044b\u0445, \u0438 Data Linage \u2013 \u00ab\u043f\u043e\u043d\u044f\u0442\u044c, \u043e\u0442\u043a\u0443\u0434\u0430 \u043f\u0440\u0438\u0448\u043b\u0438 \u0434\u0430\u043d\u043d\u044b\u0435, \u043a\u0430\u043a \u043e\u043d\u0438 \u0438\u0437\u043c\u0435\u043d\u044f\u043b\u0438\u0441\u044c \u0438 \u043c\u043e\u0436\u043d\u043e \u043b\u0438 \u0438\u043c \u0434\u043e\u0432\u0435\u0440\u044f\u0442\u044c\u00bb.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "AI Analytics Platform for Modern Digital Analytics",
+          "link": "https://amplitude.com/",
+          "snippet": "Data Governance Integrations Security & Privacy. Solutions.Web Analytics. Find out firsthand what moves the needle and target dynamic content across the entire customer journey.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tantor Postgres DBMS, PostgreSQL DB management platform, Tantor...",
+          "link": "https://tantorlabs.com/",
+          "snippet": "Data governance. Tantor DLH platform.Crafted to meet the needs of both small startups and large corporations, PostgreSQL has deservedly earned a reputation as a reliable, scalable, and high-performanc",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Governance For Mobility Data Councils Market Research Report 2033",
+          "link": "https://dataintelo.com/report/governance-for-mobility-data-councils-market",
+          "snippet": "According to our latest research, the global governance for mobility data councils market size reached USD 1.48 billion in 2024, reflecting strong momentum driven by the rapid digitalization of urban ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Data Governance in Digital Collaboration: Reducing... :: SSRN",
+          "link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5143005",
+          "snippet": "Keywords: Digitalization, Data Governance, System integrators, Data-driven decision-making, Interpretive uncertainty.Pesce, Danilo and Franz\u00e8, Claudia and Paolucci, Emilio, Data Governance in Digital ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "\u0427\u0442\u043e \u043f\u043e\u0434\u0440\u0430\u0437\u0443\u043c\u0435\u0432\u0430\u044e\u0442 \u043f\u043e\u0434 Data Governance? / \u0425\u0430\u0431\u0440",
+          "link": "https://habr.com/ru/articles/892302/",
+          "snippet": "\u0421\u0435\u0439\u0447\u0430\u0441 \u0437\u0430\u0447\u0430\u0441\u0442\u0443\u044e \u043f\u043e\u0434 Data Governance \u0438\u043c\u0435\u044e\u0442 \u0432 \u0432\u0438\u0434\u0443 \u0434\u0432\u0435 \u0447\u0430\u0441\u0442\u0438, \u044d\u0442\u043e Data Quality \u2013 \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u043e\u043c \u0434\u0430\u043d\u043d\u044b\u0445, \u0438 Data Linage \u2013 \u00ab\u043f\u043e\u043d\u044f\u0442\u044c, \u043e\u0442\u043a\u0443\u0434\u0430 \u043f\u0440\u0438\u0448\u043b\u0438 \u0434\u0430\u043d\u043d\u044b\u0435, \u043a\u0430\u043a \u043e\u043d\u0438 \u0438\u0437\u043c\u0435\u043d\u044f\u043b\u0438\u0441\u044c \u0438 \u043c\u043e\u0436\u043d\u043e \u043b\u0438 \u0438\u043c \u0434\u043e\u0432\u0435\u0440\u044f\u0442\u044c\u00bb.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "AI Analytics Platform for Modern Digital Analytics",
+          "link": "https://amplitude.com/",
+          "snippet": "Data Governance Integrations Security & Privacy. Solutions.Web Analytics. Find out firsthand what moves the needle and target dynamic content across the entire customer journey.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tantor Postgres DBMS, PostgreSQL DB management platform, Tantor...",
+          "link": "https://tantorlabs.com/",
+          "snippet": "Data governance. Tantor DLH platform.Crafted to meet the needs of both small startups and large corporations, PostgreSQL has deservedly earned a reputation as a reliable, scalable, and high-performanc",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "data governance solution distributors official site",
+      "level": "discovery",
+      "result_count": 4,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Agentic Data Governance | Alation",
+          "link": "https://www.alation.com/solutions/data-governance/",
+          "snippet": "Solution \u00b7 agentic data governance. Governance doesn\u2019t just accelerate AI. AI is now what accelerates governance. Before AI, governance was overhead \u2014 the program that slowed every project and nobody ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Transcend | The \"Can I use this data?\" platform",
+          "link": "https://transcend.io/",
+          "snippet": "Transcend is the only real-time data governance and decision layer that answers \u201cCan I use this data?\u201d to unblock AI, agentic, and first-party data initiatives.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "OpenMetadata: #1 Open Source Context Layer",
+          "link": "https://open-metadata.org/",
+          "snippet": "Senior Data Steward (Data Governance Analyst), inDrive. \"At Senzai AI, we build SaaS solutions for customers with incredibly varied data. OpenMetadata is a key component for understanding and standard",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Glean \u2013 Work AI that Works | Agents, Assistant & Search",
+          "link": "https://www.glean.com/",
+          "snippet": "Glean is the Work AI platform connected to your enterprise's data. Find, create, and automate anything. Explore what Work AI can do for you!Best-in-class data governance Built for compliance-heavy env",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Agentic Data Governance | Alation",
+          "link": "https://www.alation.com/solutions/data-governance/",
+          "snippet": "Solution \u00b7 agentic data governance. Governance doesn\u2019t just accelerate AI. AI is now what accelerates governance. Before AI, governance was overhead \u2014 the program that slowed every project and nobody ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Transcend | The \"Can I use this data?\" platform",
+          "link": "https://transcend.io/",
+          "snippet": "Transcend is the only real-time data governance and decision layer that answers \u201cCan I use this data?\u201d to unblock AI, agentic, and first-party data initiatives.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "OpenMetadata: #1 Open Source Context Layer",
+          "link": "https://open-metadata.org/",
+          "snippet": "Senior Data Steward (Data Governance Analyst), inDrive. \"At Senzai AI, we build SaaS solutions for customers with incredibly varied data. OpenMetadata is a key component for understanding and standard",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Glean \u2013 Work AI that Works | Agents, Assistant & Search",
+          "link": "https://www.glean.com/",
+          "snippet": "Glean is the Work AI platform connected to your enterprise's data. Find, create, and automate anything. Explore what Work AI can do for you!Best-in-class data governance Built for compliance-heavy env",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P2": {
+      "query": "data governance software wholesalers corporate headquarters",
+      "level": "discovery",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "\u0427\u0442\u043e \u043f\u043e\u0434\u0440\u0430\u0437\u0443\u043c\u0435\u0432\u0430\u044e\u0442 \u043f\u043e\u0434 Data Governance? / \u0425\u0430\u0431\u0440",
+          "link": "https://habr.com/ru/articles/892302/",
+          "snippet": "\u0421\u0435\u0439\u0447\u0430\u0441 \u0437\u0430\u0447\u0430\u0441\u0442\u0443\u044e \u043f\u043e\u0434 Data Governance \u0438\u043c\u0435\u044e\u0442 \u0432 \u0432\u0438\u0434\u0443 \u0434\u0432\u0435 \u0447\u0430\u0441\u0442\u0438, \u044d\u0442\u043e Data Quality \u2013 \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u043e\u043c \u0434\u0430\u043d\u043d\u044b\u0445, \u0438 Data Linage \u2013 \u00ab\u043f\u043e\u043d\u044f\u0442\u044c, \u043e\u0442\u043a\u0443\u0434\u0430 \u043f\u0440\u0438\u0448\u043b\u0438 \u0434\u0430\u043d\u043d\u044b\u0435, \u043a\u0430\u043a \u043e\u043d\u0438 \u0438\u0437\u043c\u0435\u043d\u044f\u043b\u0438\u0441\u044c \u0438 \u043c\u043e\u0436\u043d\u043e \u043b\u0438 \u0438\u043c \u0434\u043e\u0432\u0435\u0440\u044f\u0442\u044c\u00bb.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "\u0427\u0442\u043e \u043f\u043e\u0434\u0440\u0430\u0437\u0443\u043c\u0435\u0432\u0430\u044e\u0442 \u043f\u043e\u0434 Data Governance? / \u0425\u0430\u0431\u0440",
+          "link": "https://habr.com/ru/articles/892302/",
+          "snippet": "\u0421\u0435\u0439\u0447\u0430\u0441 \u0437\u0430\u0447\u0430\u0441\u0442\u0443\u044e \u043f\u043e\u0434 Data Governance \u0438\u043c\u0435\u044e\u0442 \u0432 \u0432\u0438\u0434\u0443 \u0434\u0432\u0435 \u0447\u0430\u0441\u0442\u0438, \u044d\u0442\u043e Data Quality \u2013 \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u043e\u043c \u0434\u0430\u043d\u043d\u044b\u0445, \u0438 Data Linage \u2013 \u00ab\u043f\u043e\u043d\u044f\u0442\u044c, \u043e\u0442\u043a\u0443\u0434\u0430 \u043f\u0440\u0438\u0448\u043b\u0438 \u0434\u0430\u043d\u043d\u044b\u0435, \u043a\u0430\u043a \u043e\u043d\u0438 \u0438\u0437\u043c\u0435\u043d\u044f\u043b\u0438\u0441\u044c \u0438 \u043c\u043e\u0436\u043d\u043e \u043b\u0438 \u0438\u043c \u0434\u043e\u0432\u0435\u0440\u044f\u0442\u044c\u00bb.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P3": {
+      "query": "data governance resellers official website",
+      "level": "discovery",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Arctera Egypt Partner | Authorized Data Governance Reseller",
+          "link": "https://wasstech.com/arctera-partner-in-egypt",
+          "snippet": "Official Reseller Capabilities. WASS Technologies is a certified Arctera reseller and partner in Egypt, authorized to sell, renew, and support all Arctera data platform and observability solutions.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Arctera Egypt Partner | Authorized Data Governance Reseller",
+          "link": "https://wasstech.com/arctera-partner-in-egypt",
+          "snippet": "Official Reseller Capabilities. WASS Technologies is a certified Arctera reseller and partner in Egypt, authorized to sell, renew, and support all Arctera data platform and observability solutions.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P4": {
+      "query": "data governance service providers corporate site",
+      "level": "discovery",
+      "result_count": 11,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Top Data Governance Services & Solutions Providers | ValueCoders",
+          "link": "https://www.valuecoders.com/data-governance-services",
+          "snippet": "Data governance service providers help businesses manage and use data better.Assess your business and data requirements. Create a customized data governance plan. Provide ongoing support and improveme",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Data governance services | CAS",
+          "link": "https://www.cas.org/cas-custom-services/data-governance-services",
+          "snippet": "Data governance services. Take control of your scientific data. Build secure, structured governance frameworks that improve accessibility, protect sensitive information, and lay the foundation for AI-",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Data Governance Solutions from Precisely",
+          "link": "https://www.precisely.com/solution/data-governance-solutions",
+          "snippet": "With data fabric, data governance provides the framework to ensure that data across your organization is standardized, compliant, and properly managed, regardless of where it resides. This centralized",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Data Governance Service Providers - Viesearch",
+          "link": "https://viesearch.com/23o87/data-governance-service-providers",
+          "snippet": "Data Governance Service Providers. WNS provides AI-powered data management and governance solutions to ensure data accuracy, compliance, and security. Find out more at wns.com.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "16 Top Data Governance Tools to Know About in 2025 | TechTarget",
+          "link": "https://www.techtarget.com/searchdatamanagement/feature/15-top-data-governance-tools-to-know-about",
+          "snippet": "A data marketplace for making governed data products, data sets and AI models available to end users. The ability to assign data owners and subject matter experts to help govern data assets. A hosted ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Data governance service: Unlocking Business... - FasterCapital",
+          "link": "https://fastercapital.com/content/Data-governance-service--Unlocking-Business-Success--The-Role-of-Data-Governance-Services.html",
+          "snippet": "- Simplify data governance: data governance services can automate and streamline data governance tasks, such as data inventory, classification, assessment, and remediation.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Experts in Data Governance & Compliance | Cranium",
+          "link": "https://www.cranium.eu/",
+          "snippet": "hitting close to home? Keeping up with complex and changing data regulations, such as GDPR, AI Act, Data Act etc. Turning data governance and compliance strategies into concrete actions that benefit y",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Big Data Governance Service Market Outlook 2026-2034",
+          "link": "https://www.intelmarketresearch.com/big-data-governance-service-market-30961",
+          "snippet": "Collaborations between cloud hyperscalers, software providers, and professional service firms have strengthened the availability of advanced governance tools. This dynamic environment enables business",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Data Governance in Business: Benefits and Best Practices",
+          "link": "https://www.brickclay.com/blog/data-engineering/importance-of-data-governance-for-business/",
+          "snippet": "Adopt data governance best practices to safeguard data, boost accuracy, reduce risks, and optimize business performance.Why should companies partner with data governance service providers?",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Data Governance with Apache Atlas: Introduction to Atlas...",
+          "link": "https://www.clearpeaks.com/data-governance-with-apache-atlas-introduction-to-atlas/",
+          "snippet": "Data Governance. Support & Managed Services. Corporate Training.It provides a solution for collecting, processing, storing and maintaining metadata about data objects. It also boasts a rich REST inter",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "15 Best Data Governance Companies in 2026 - Kanerika",
+          "link": "https://kanerika.com/blogs/data-governance-companies/",
+          "snippet": "16 hours ago ... ... service implementation partner rather than a software platform alone. 8. Amazon Web Services (AWS). AWS builds governance directly into its ...",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Top Data Governance Services & Solutions Providers | ValueCoders",
+          "link": "https://www.valuecoders.com/data-governance-services",
+          "snippet": "Data governance service providers help businesses manage and use data better.Assess your business and data requirements. Create a customized data governance plan. Provide ongoing support and improveme",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Data governance services | CAS",
+          "link": "https://www.cas.org/cas-custom-services/data-governance-services",
+          "snippet": "Data governance services. Take control of your scientific data. Build secure, structured governance frameworks that improve accessibility, protect sensitive information, and lay the foundation for AI-",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Data Governance Solutions from Precisely",
+          "link": "https://www.precisely.com/solution/data-governance-solutions",
+          "snippet": "With data fabric, data governance provides the framework to ensure that data across your organization is standardized, compliant, and properly managed, regardless of where it resides. This centralized",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Data Governance Service Providers - Viesearch",
+          "link": "https://viesearch.com/23o87/data-governance-service-providers",
+          "snippet": "Data Governance Service Providers. WNS provides AI-powered data management and governance solutions to ensure data accuracy, compliance, and security. Find out more at wns.com.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "16 Top Data Governance Tools to Know About in 2025 | TechTarget",
+          "link": "https://www.techtarget.com/searchdatamanagement/feature/15-top-data-governance-tools-to-know-about",
+          "snippet": "A data marketplace for making governed data products, data sets and AI models available to end users. The ability to assign data owners and subject matter experts to help govern data assets. A hosted ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Data governance service: Unlocking Business... - FasterCapital",
+          "link": "https://fastercapital.com/content/Data-governance-service--Unlocking-Business-Success--The-Role-of-Data-Governance-Services.html",
+          "snippet": "- Simplify data governance: data governance services can automate and streamline data governance tasks, such as data inventory, classification, assessment, and remediation.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Experts in Data Governance & Compliance | Cranium",
+          "link": "https://www.cranium.eu/",
+          "snippet": "hitting close to home? Keeping up with complex and changing data regulations, such as GDPR, AI Act, Data Act etc. Turning data governance and compliance strategies into concrete actions that benefit y",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Big Data Governance Service Market Outlook 2026-2034",
+          "link": "https://www.intelmarketresearch.com/big-data-governance-service-market-30961",
+          "snippet": "Collaborations between cloud hyperscalers, software providers, and professional service firms have strengthened the availability of advanced governance tools. This dynamic environment enables business",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Data Governance in Business: Benefits and Best Practices",
+          "link": "https://www.brickclay.com/blog/data-engineering/importance-of-data-governance-for-business/",
+          "snippet": "Adopt data governance best practices to safeguard data, boost accuracy, reduce risks, and optimize business performance.Why should companies partner with data governance service providers?",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Data Governance with Apache Atlas: Introduction to Atlas...",
+          "link": "https://www.clearpeaks.com/data-governance-with-apache-atlas-introduction-to-atlas/",
+          "snippet": "Data Governance. Support & Managed Services. Corporate Training.It provides a solution for collecting, processing, storing and maintaining metadata about data objects. It also boasts a rich REST inter",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "15 Best Data Governance Companies in 2026 - Kanerika",
+          "link": "https://kanerika.com/blogs/data-governance-companies/",
+          "snippet": "16 hours ago ... ... service implementation partner rather than a software platform alone. 8. Amazon Web Services (AWS). AWS builds governance directly into its ...",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P5": {
+      "query": "data governance system integrators corporate profile",
+      "level": "discovery",
+      "result_count": 5,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Data Governance in Digital Collaboration: Reducing... :: SSRN",
+          "link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5143005",
+          "snippet": "Keywords: Digitalization, Data Governance, System integrators, Data-driven decision-making, Interpretive uncertainty.Pesce, Danilo and Franz\u00e8, Claudia and Paolucci, Emilio, Data Governance in Digital ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Governance For Mobility Data Councils Market Research Report 2033",
+          "link": "https://dataintelo.com/report/governance-for-mobility-data-councils-market",
+          "snippet": "According to our latest research, the global governance for mobility data councils market size reached USD 1.48 billion in 2024, reflecting strong momentum driven by the rapid digitalization of urban ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Respectful AI Integration: Humans First, Not Centralized Data | LinkedIn",
+          "link": "https://www.linkedin.com/posts/jarmo-venalainen-abb61810_ai-integration-and-data-governance-strategies-activity-7440889224712740864-MRTi",
+          "snippet": "AI integration and data governance strategies start with platforms, pipelines, and governance frameworks. I believe they need to start with respect for how people actually work. Humans have always cre",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "\u0427\u0442\u043e \u043f\u043e\u0434\u0440\u0430\u0437\u0443\u043c\u0435\u0432\u0430\u044e\u0442 \u043f\u043e\u0434 Data Governance? / \u0425\u0430\u0431\u0440",
+          "link": "https://habr.com/ru/articles/892302/",
+          "snippet": "\u0421\u0435\u0439\u0447\u0430\u0441 \u0437\u0430\u0447\u0430\u0441\u0442\u0443\u044e \u043f\u043e\u0434 Data Governance \u0438\u043c\u0435\u044e\u0442 \u0432 \u0432\u0438\u0434\u0443 \u0434\u0432\u0435 \u0447\u0430\u0441\u0442\u0438, \u044d\u0442\u043e Data Quality \u2013 \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u043e\u043c \u0434\u0430\u043d\u043d\u044b\u0445, \u0438 Data Linage \u2013 \u00ab\u043f\u043e\u043d\u044f\u0442\u044c, \u043e\u0442\u043a\u0443\u0434\u0430 \u043f\u0440\u0438\u0448\u043b\u0438 \u0434\u0430\u043d\u043d\u044b\u0435, \u043a\u0430\u043a \u043e\u043d\u0438 \u0438\u0437\u043c\u0435\u043d\u044f\u043b\u0438\u0441\u044c \u0438 \u043c\u043e\u0436\u043d\u043e \u043b\u0438 \u0438\u043c \u0434\u043e\u0432\u0435\u0440\u044f\u0442\u044c\u00bb.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tantor Postgres DBMS, PostgreSQL DB management platform, Tantor...",
+          "link": "https://tantorlabs.com/",
+          "snippet": "Data governance. Tantor DLH platform.Crafted to meet the needs of both small startups and large corporations, PostgreSQL has deservedly earned a reputation as a reliable, scalable, and high-performanc",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Data Governance in Digital Collaboration: Reducing... :: SSRN",
+          "link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5143005",
+          "snippet": "Keywords: Digitalization, Data Governance, System integrators, Data-driven decision-making, Interpretive uncertainty.Pesce, Danilo and Franz\u00e8, Claudia and Paolucci, Emilio, Data Governance in Digital ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Governance For Mobility Data Councils Market Research Report 2033",
+          "link": "https://dataintelo.com/report/governance-for-mobility-data-councils-market",
+          "snippet": "According to our latest research, the global governance for mobility data councils market size reached USD 1.48 billion in 2024, reflecting strong momentum driven by the rapid digitalization of urban ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Respectful AI Integration: Humans First, Not Centralized Data | LinkedIn",
+          "link": "https://www.linkedin.com/posts/jarmo-venalainen-abb61810_ai-integration-and-data-governance-strategies-activity-7440889224712740864-MRTi",
+          "snippet": "AI integration and data governance strategies start with platforms, pipelines, and governance frameworks. I believe they need to start with respect for how people actually work. Humans have always cre",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "\u0427\u0442\u043e \u043f\u043e\u0434\u0440\u0430\u0437\u0443\u043c\u0435\u0432\u0430\u044e\u0442 \u043f\u043e\u0434 Data Governance? / \u0425\u0430\u0431\u0440",
+          "link": "https://habr.com/ru/articles/892302/",
+          "snippet": "\u0421\u0435\u0439\u0447\u0430\u0441 \u0437\u0430\u0447\u0430\u0441\u0442\u0443\u044e \u043f\u043e\u0434 Data Governance \u0438\u043c\u0435\u044e\u0442 \u0432 \u0432\u0438\u0434\u0443 \u0434\u0432\u0435 \u0447\u0430\u0441\u0442\u0438, \u044d\u0442\u043e Data Quality \u2013 \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u043e\u043c \u0434\u0430\u043d\u043d\u044b\u0445, \u0438 Data Linage \u2013 \u00ab\u043f\u043e\u043d\u044f\u0442\u044c, \u043e\u0442\u043a\u0443\u0434\u0430 \u043f\u0440\u0438\u0448\u043b\u0438 \u0434\u0430\u043d\u043d\u044b\u0435, \u043a\u0430\u043a \u043e\u043d\u0438 \u0438\u0437\u043c\u0435\u043d\u044f\u043b\u0438\u0441\u044c \u0438 \u043c\u043e\u0436\u043d\u043e \u043b\u0438 \u0438\u043c \u0434\u043e\u0432\u0435\u0440\u044f\u0442\u044c\u00bb.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Tantor Postgres DBMS, PostgreSQL DB management platform, Tantor...",
+          "link": "https://tantorlabs.com/",
+          "snippet": "Data governance. Tantor DLH platform.Crafted to meet the needs of both small startups and large corporations, PostgreSQL has deservedly earned a reputation as a reliable, scalable, and high-performanc",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "data governance consulting firms official site",
+      "level": "discovery",
+      "result_count": 7,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "15 trustworthy data governance consulting companies worldwide - N-iX",
+          "link": "https://www.n-ix.com/data-governance-consulting-companies/",
+          "snippet": "Top 15 data governance consulting companies around the world.Beyondsoft Consulting: year of foundation, number of employees, key clients. 14. Netguru. This is yet another trustworthy European firm on ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Data Governance Consulting Services | 2026 Expert Picks",
+          "link": "https://worldmetrics.org/service/data-governance-consulting/",
+          "snippet": "Provides data governance consulting that establishes governance councils, data lineage and control expectations, and governance execution for large-scale industry programs.Official docs verifiedExpert",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Data Governance Services | EPC Group",
+          "link": "https://www.epcgroup.net/services/data-governance",
+          "snippet": "Data governance consulting from EPC Group: HIPAA, GDPR, SOC 2 compliance frameworks, Microsoft Purview, DLP policies, and security audits for enterprises.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Data Governance Consulting Services - Data Meaning",
+          "link": "https://datameaning.com/data-governance-consulting/",
+          "snippet": "Discover how our expert data governance consulting services can transform your business decision-making and drive efficiency. Contact us to get started.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How to Evaluate and Select the Best Data Governance Consulting...",
+          "link": "https://wpsauce.com/how-to-evaluate-and-select-the-best-data-governance-consulting-services/",
+          "snippet": "FacebookXLinkedIn In order to get the best data governance consulting services, firms must first define their goals and criteria, which must be aligned with their company strategy. Following that, res",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Difference Between Information Management & Data Management...",
+          "link": "https://www.firstsanfranciscopartners.com/blog/difference-between-information-management-data-management/",
+          "snippet": "Data Governance Consulting Services.The official definition provided by DAMA International's Data Management Book of Knowledge (DMBoK) is: \"Data management is the development, execution and supervisio",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home",
+          "link": "https://rotmansconsultancy.jigsy.com/",
+          "snippet": "Rotmans Consultancy provides top-notch senior management services in addition to our proficiency as a data governance consulting company. With us, you can enjoy superior executive management and data ",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "15 trustworthy data governance consulting companies worldwide - N-iX",
+          "link": "https://www.n-ix.com/data-governance-consulting-companies/",
+          "snippet": "Top 15 data governance consulting companies around the world.Beyondsoft Consulting: year of foundation, number of employees, key clients. 14. Netguru. This is yet another trustworthy European firm on ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Data Governance Consulting Services | 2026 Expert Picks",
+          "link": "https://worldmetrics.org/service/data-governance-consulting/",
+          "snippet": "Provides data governance consulting that establishes governance councils, data lineage and control expectations, and governance execution for large-scale industry programs.Official docs verifiedExpert",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Data Governance Services | EPC Group",
+          "link": "https://www.epcgroup.net/services/data-governance",
+          "snippet": "Data governance consulting from EPC Group: HIPAA, GDPR, SOC 2 compliance frameworks, Microsoft Purview, DLP policies, and security audits for enterprises.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Data Governance Consulting Services - Data Meaning",
+          "link": "https://datameaning.com/data-governance-consulting/",
+          "snippet": "Discover how our expert data governance consulting services can transform your business decision-making and drive efficiency. Contact us to get started.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How to Evaluate and Select the Best Data Governance Consulting...",
+          "link": "https://wpsauce.com/how-to-evaluate-and-select-the-best-data-governance-consulting-services/",
+          "snippet": "FacebookXLinkedIn In order to get the best data governance consulting services, firms must first define their goals and criteria, which must be aligned with their company strategy. Following that, res",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Difference Between Information Management & Data Management...",
+          "link": "https://www.firstsanfranciscopartners.com/blog/difference-between-information-management-data-management/",
+          "snippet": "Data Governance Consulting Services.The official definition provided by DAMA International's Data Management Book of Knowledge (DMBoK) is: \"Data management is the development, execution and supervisio",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home",
+          "link": "https://rotmansconsultancy.jigsy.com/",
+          "snippet": "Rotmans Consultancy provides top-notch senior management services in addition to our proficiency as a data governance consulting company. With us, you can enjoy superior executive management and data ",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P7": {
+      "query": "data governance channel partner corporate website",
+      "level": "discovery",
+      "result_count": 3,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Full house today at our Data Governance Partner Advisory Board...",
+          "link": "https://www.linkedin.com/posts/manoj-thatte_full-house-today-at-our-data-governance-partner-activity-7439450761996111872-MxoD",
+          "snippet": "30+ partners leaders from every GSI and channel partners. Our first one at the Salesforce Tower in New York.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "\u0427\u0442\u043e \u043f\u043e\u0434\u0440\u0430\u0437\u0443\u043c\u0435\u0432\u0430\u044e\u0442 \u043f\u043e\u0434 Data Governance? / \u0425\u0430\u0431\u0440",
+          "link": "https://habr.com/ru/articles/892302/",
+          "snippet": "\u0421\u0435\u0439\u0447\u0430\u0441 \u0437\u0430\u0447\u0430\u0441\u0442\u0443\u044e \u043f\u043e\u0434 Data Governance \u0438\u043c\u0435\u044e\u0442 \u0432 \u0432\u0438\u0434\u0443 \u0434\u0432\u0435 \u0447\u0430\u0441\u0442\u0438, \u044d\u0442\u043e Data Quality \u2013 \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u043e\u043c \u0434\u0430\u043d\u043d\u044b\u0445, \u0438 Data Linage \u2013 \u00ab\u043f\u043e\u043d\u044f\u0442\u044c, \u043e\u0442\u043a\u0443\u0434\u0430 \u043f\u0440\u0438\u0448\u043b\u0438 \u0434\u0430\u043d\u043d\u044b\u0435, \u043a\u0430\u043a \u043e\u043d\u0438 \u0438\u0437\u043c\u0435\u043d\u044f\u043b\u0438\u0441\u044c \u0438 \u043c\u043e\u0436\u043d\u043e \u043b\u0438 \u0438\u043c \u0434\u043e\u0432\u0435\u0440\u044f\u0442\u044c\u00bb.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "AI Analytics Platform for Modern Digital Analytics",
+          "link": "https://amplitude.com/",
+          "snippet": "Data Governance Integrations Security & Privacy. Solutions.Web Analytics. Find out firsthand what moves the needle and target dynamic content across the entire customer journey.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Full house today at our Data Governance Partner Advisory Board...",
+          "link": "https://www.linkedin.com/posts/manoj-thatte_full-house-today-at-our-data-governance-partner-activity-7439450761996111872-MxoD",
+          "snippet": "30+ partners leaders from every GSI and channel partners. Our first one at the Salesforce Tower in New York.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "\u0427\u0442\u043e \u043f\u043e\u0434\u0440\u0430\u0437\u0443\u043c\u0435\u0432\u0430\u044e\u0442 \u043f\u043e\u0434 Data Governance? / \u0425\u0430\u0431\u0440",
+          "link": "https://habr.com/ru/articles/892302/",
+          "snippet": "\u0421\u0435\u0439\u0447\u0430\u0441 \u0437\u0430\u0447\u0430\u0441\u0442\u0443\u044e \u043f\u043e\u0434 Data Governance \u0438\u043c\u0435\u044e\u0442 \u0432 \u0432\u0438\u0434\u0443 \u0434\u0432\u0435 \u0447\u0430\u0441\u0442\u0438, \u044d\u0442\u043e Data Quality \u2013 \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u043e\u043c \u0434\u0430\u043d\u043d\u044b\u0445, \u0438 Data Linage \u2013 \u00ab\u043f\u043e\u043d\u044f\u0442\u044c, \u043e\u0442\u043a\u0443\u0434\u0430 \u043f\u0440\u0438\u0448\u043b\u0438 \u0434\u0430\u043d\u043d\u044b\u0435, \u043a\u0430\u043a \u043e\u043d\u0438 \u0438\u0437\u043c\u0435\u043d\u044f\u043b\u0438\u0441\u044c \u0438 \u043c\u043e\u0436\u043d\u043e \u043b\u0438 \u0438\u043c \u0434\u043e\u0432\u0435\u0440\u044f\u0442\u044c\u00bb.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "AI Analytics Platform for Modern Digital Analytics",
+          "link": "https://amplitude.com/",
+          "snippet": "Data Governance Integrations Security & Privacy. Solutions.Web Analytics. Find out firsthand what moves the needle and target dynamic content across the entire customer journey.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

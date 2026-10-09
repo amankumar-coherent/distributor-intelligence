@@ -1,0 +1,679 @@
+{
+  "ts": "2026-08-14T18:08:46.115331",
+  "backup": "D:\\vendor-intel\\output\\web_expand\\global_flexible_packaging_market_global\\global_flexible_packaging_market_global_FINAL_pre_unique_web_20260814_180845.xlsx",
+  "before": 337,
+  "after": 228,
+  "removed_count": 13,
+  "merged_groups": 17,
+  "rows_collapsed_via_merge": 95,
+  "fixed_count": 28,
+  "dup_dropped_after_merge": [
+    {
+      "company": "UK Packaging Supplies",
+      "website": "https://www.ukplc.co.uk",
+      "reason": "duplicate_after_merge"
+    }
+  ],
+  "removed": [
+    {
+      "company": "Neptune Packaging",
+      "website": "https://www.neptunepackaging.co.uk",
+      "reason": "listed domain DNS dead; not verified"
+    },
+    {
+      "company": "Emballages Service France",
+      "website": "https://www.emballages-service.fr",
+      "reason": "listed domain DNS dead; not verified"
+    },
+    {
+      "company": "Ideal Packaging Canada",
+      "website": "https://www.idealpackaging.ca",
+      "reason": "hybrid manufacturer+distributor (idealpkg.com)"
+    },
+    {
+      "company": "Pride Container",
+      "website": "https://www.pridecontainer.com",
+      "reason": "no verified packaging-distributor website; DNS dead"
+    },
+    {
+      "company": "All Size Packaging Canada",
+      "website": "https://www.allsizepackaging.com",
+      "reason": "allsizepackaging.com DNS dead; not verified as All Packaging Canada"
+    },
+    {
+      "company": "IMG Packing",
+      "website": "https://www.imgpacking.co.uk",
+      "reason": "listed domain DNS dead; not verified"
+    },
+    {
+      "company": "Agenda Boxes",
+      "website": "https://www.agendaboxes.co.uk",
+      "reason": "manufacturer (agendapackaging.co.uk) \u2014 not pure channel"
+    },
+    {
+      "company": "Jaymar Packaging",
+      "website": "https://www.jaymarpackaging.co.uk",
+      "reason": "listed domain DNS dead; not verified"
+    },
+    {
+      "company": "Online Packaging Supplies UK",
+      "website": "https://www.onlinepackagingsupplies.co.uk",
+      "reason": "placeholder domain DNS dead; not verified"
+    },
+    {
+      "company": "Cheap Packaging Materials",
+      "website": "https://www.cheappackagingmaterials.co.uk",
+      "reason": "placeholder domain DNS dead; not verified"
+    },
+    {
+      "company": "Clayton Packaging Solutions",
+      "website": "https://www.claytonpackaging.com",
+      "reason": "claytonpackaging.com DNS dead; no verified match"
+    },
+    {
+      "company": "Lone Star Containers",
+      "website": "https://www.lonestarcontainers.com",
+      "reason": "wrong market / manufacturer ambiguity; DNS dead for listed URL"
+    },
+    {
+      "company": "National Packaging Company",
+      "website": "https://www.natpkg.com",
+      "reason": "natpkg.com DNS dead; entity ambiguous \u2014 not verified"
+    }
+  ],
+  "fixed": [
+    {
+      "from_company": "Cospak Pty Ltd.",
+      "to_company": "Cospak",
+      "from_website": "https://www.cospak.com.au",
+      "to_website": "https://www.cospak.com.au",
+      "reason": "verified_fix"
+    },
+    {
+      "from_company": "Fastenal Company",
+      "to_company": "Fastenal",
+      "from_website": "https://www.fastenal.com",
+      "to_website": "https://www.fastenal.com",
+      "reason": "verified_fix"
+    },
+    {
+      "from_company": "MSC Industrial Supply Co.",
+      "to_company": "MSC Industrial Supply",
+      "from_website": "https://www.mscdirect.com",
+      "to_website": "https://www.mscdirect.com",
+      "reason": "verified_fix"
+    },
+    {
+      "from_company": "U.S. Packaging & Wrapping LLC",
+      "to_company": "U.S. Packaging & Wrapping",
+      "from_website": "https://uspackagingandwrapping.com",
+      "to_website": "https://uspackagingandwrapping.com",
+      "reason": "verified_fix"
+    },
+    {
+      "from_company": "Veritiv Corporation",
+      "to_company": "Veritiv",
+      "from_website": "https://www.veritiv.com",
+      "to_website": "https://www.veritiv.com",
+      "reason": "verified_fix"
+    },
+    {
+      "from_company": "W. W. Grainger Inc.",
+      "to_company": "Grainger",
+      "from_website": "https://www.grainger.com",
+      "to_website": "https://www.grainger.com",
+      "reason": "verified_fix"
+    },
+    {
+      "from_company": "Chase Packaging Ltd",
+      "to_company": "Chase Packaging",
+      "from_website": "https://www.chase-packaging.co.uk",
+      "to_website": "https://www.chase-packaging.co.uk",
+      "reason": "verified_fix"
+    },
+    {
+      "from_company": "Multiplastics Europe Ltd",
+      "to_company": "Multiplastics Europe",
+      "from_website": "https://www.multiplastics.co.uk",
+      "to_website": "https://www.multiplastics.co.uk",
+      "reason": "verified_fix"
+    },
+    {
+      "from_company": "O.Berk Company",
+      "to_company": "O.Berk",
+      "from_website": "https://www.oberk.com",
+      "to_website": "https://www.oberk.com",
+      "reason": "verified_fix"
+    },
+    {
+      "from_company": "Super Poly Ltd",
+      "to_company": "Super Poly",
+      "from_website": "https://superpoly.ca",
+      "to_website": "https://superpoly.ca",
+      "reason": "verified_fix"
+    },
+    {
+      "from_company": "RAJA Group Corporate",
+      "to_company": "RAJA",
+      "from_website": "https://www.raja-group.com",
+      "to_website": "https://raja-group.com",
+      "reason": "verified_fix"
+    },
+    {
+      "from_company": "Schermerhorn Bros. Co.",
+      "to_company": "Schermerhorn Bros.",
+      "from_website": "https://www.schermerhornbrosco.com",
+      "to_website": "https://www.schermerhornbrosco.com",
+      "reason": "verified_fix"
+    },
+    {
+      "from_company": "Seal Packaging UK Merchant",
+      "to_company": "Seal Packaging",
+      "from_website": "https://www.sealpackaging.co.uk",
+      "to_website": "https://www.sealpackaging.co.uk",
+      "reason": "verified_fix"
+    },
+    {
+      "from_company": "Signet AU",
+      "to_company": "Signet",
+      "from_website": "https://www.signet.com.au",
+      "to_website": "https://www.signet.net.au",
+      "reason": "verified_fix"
+    },
+    {
+      "from_company": "Transpak UK Merchant",
+      "to_company": "Transpack UK",
+      "from_website": "https://www.transpack.co.uk",
+      "to_website": "https://www.transpack.co.uk",
+      "reason": "verified_fix"
+    },
+    {
+      "from_company": "US Plastic Corp",
+      "to_company": "U.S. Plastic Corp.",
+      "from_website": "https://www.usplastic.com",
+      "to_website": "https://www.usplastic.com",
+      "reason": "verified_fix"
+    },
+    {
+      "from_company": "Crown Packaging Corp",
+      "to_company": "Crown Packaging",
+      "from_website": "https://crownpack.com",
+      "to_website": "https://crownpack.com",
+      "reason": "verified_fix"
+    },
+    {
+      "from_company": "Excel Pac LLC",
+      "to_company": "Excel Pac",
+      "from_website": "https://excelpacllc.com",
+      "to_website": "https://excelpacllc.com",
+      "reason": "verified_fix"
+    },
+    {
+      "from_company": "SupplyOne Canada (Crownhill Packaging)",
+      "to_company": "SupplyOne",
+      "from_website": "https://www.crownhillpackaging.com",
+      "to_website": "https://www.supplyone.com",
+      "reason": "verified_fix"
+    },
+    {
+      "from_company": "The Packaging Centre Ireland",
+      "to_company": "The Packaging Centre",
+      "from_website": "https://www.packagingcentre.ie",
+      "to_website": "https://www.thepackagingcentre.ie",
+      "reason": "verified_fix"
+    },
+    {
+      "from_company": "Unisource Canada",
+      "to_company": "Veritiv",
+      "from_website": "https://www.unisource.ca",
+      "to_website": "https://www.veritiv.com",
+      "reason": "verified_fix"
+    },
+    {
+      "from_company": "The Bottle Crew",
+      "to_company": "The Bottle Crew",
+      "from_website": "https://www.thebottlecrew.com",
+      "to_website": "https://www.bottlecrew.com",
+      "reason": "verified_fix"
+    },
+    {
+      "from_company": "UK Packaging Supplies London",
+      "to_company": "UK Packaging Supplies",
+      "from_website": "https://www.ukpackagingsupplies.co.uk",
+      "to_website": "https://www.ukplc.co.uk",
+      "reason": "verified_fix"
+    },
+    {
+      "from_company": "Office Depot Europe",
+      "to_company": "Office Depot",
+      "from_website": "https://www.officedepot.eu",
+      "to_website": "https://www.officedepot.com",
+      "reason": "verified_fix"
+    },
+    {
+      "from_company": "Staples Europe",
+      "to_company": "Staples",
+      "from_website": "https://www.staples.eu",
+      "to_website": "https://www.staples.com",
+      "reason": "verified_fix"
+    },
+    {
+      "from_company": "Bunzl Canada",
+      "to_company": "Bunzl",
+      "from_website": "https://www.bunzl.ca",
+      "to_website": "https://www.bunzl.com",
+      "reason": "verified_fix"
+    },
+    {
+      "from_company": "Durable Packaging Corp",
+      "to_company": "Durable Packaging",
+      "from_website": "https://www.durablepackaging.com",
+      "to_website": "https://www.durablepackaging.com",
+      "reason": "verified_fix"
+    },
+    {
+      "from_company": "Service Paper Company",
+      "to_company": "Service Paper",
+      "from_website": "https://www.servicepaper.com",
+      "to_website": "https://www.servicepaper.com",
+      "reason": "verified_fix"
+    }
+  ],
+  "merged": [
+    {
+      "group": "antalis",
+      "canonical_name": "Antalis",
+      "canonical_website": "https://www.antalis.com",
+      "merged_from": [
+        "Antalis Packaging",
+        "Antalis France",
+        "Antalis UK",
+        "Antalis Germany"
+      ],
+      "old_websites": [
+        "https://www.antalis.com",
+        "https://www.antalis.fr",
+        "https://www.antalis.co.uk",
+        "https://www.antalis.de"
+      ],
+      "count": 4
+    },
+    {
+      "group": "bunzl",
+      "canonical_name": "Bunzl",
+      "canonical_website": "https://www.bunzl.com",
+      "merged_from": [
+        "Bunzl",
+        "Bunzl Distribution",
+        "Bunzl AU",
+        "Bunzl Ireland",
+        "Bunzl Catering Supplies",
+        "Bunzl"
+      ],
+      "old_websites": [
+        "https://www.bunzl.com",
+        "https://www.bunzldistribution.com",
+        "https://www.bunzl.com.au",
+        "https://www.bunzlireland.ie",
+        "https://www.bunzlcatering.co.uk",
+        "https://www.bunzl.com"
+      ],
+      "count": 6
+    },
+    {
+      "group": "fastenal",
+      "canonical_name": "Fastenal",
+      "canonical_website": "https://www.fastenal.com",
+      "merged_from": [
+        "Fastenal",
+        "Fastenal Canada"
+      ],
+      "old_websites": [
+        "https://www.fastenal.com",
+        "https://www.fastenal.ca"
+      ],
+      "count": 2
+    },
+    {
+      "group": "raja",
+      "canonical_name": "RAJA",
+      "canonical_website": "https://raja-group.com",
+      "merged_from": [
+        "Rajapack",
+        "RAJA France",
+        "RAJA Germany",
+        "RAJA Austria",
+        "RAJA Czech Republic",
+        "RAJA Italy",
+        "RAJA Netherlands",
+        "RAJA Poland",
+        "RAJA Portugal",
+        "RAJA Spain",
+        "RAJA",
+        "RAJA Denmark",
+        "RAJA Belgium",
+        "RAJA Switzerland",
+        "RAJA Hungary",
+        "RAJA Romania",
+        "RAJA Slovakia",
+        "RAJA Sweden",
+        "RAJA Norway",
+        "RAJA Ireland",
+        "RAJA Luxembourg"
+      ],
+      "old_websites": [
+        "https://www.rajapack.co.uk/",
+        "https://www.raja.fr/",
+        "https://www.rajapack.de/",
+        "https://www.rajapack.at/",
+        "https://www.rajapack.cz/",
+        "https://www.rajapack.it/",
+        "https://www.rajapack.nl/",
+        "https://www.rajapack.pl/",
+        "https://www.rajapack.pt/",
+        "https://www.rajapack.es/",
+        "https://raja-group.com",
+        "https://www.rajapack.dk",
+        "https://www.rajapack.be",
+        "https://www.rajapack.ch",
+        "https://www.rajapack.hu",
+        "https://www.rajapack.ro",
+        "https://www.rajapack.sk",
+        "https://www.rajapack.se",
+        "https://www.rajapack.no",
+        "https://www.rajapack.ie",
+        "https://www.rajapack.lu"
+      ],
+      "count": 21
+    },
+    {
+      "group": "uline",
+      "canonical_name": "Uline",
+      "canonical_website": "https://www.uline.com",
+      "merged_from": [
+        "Uline",
+        "Uline Canada",
+        "Uline Mexico",
+        "Uline Europe",
+        "Uline UK"
+      ],
+      "old_websites": [
+        "https://www.uline.com",
+        "https://www.uline.ca",
+        "https://www.uline.mx",
+        "https://www.uline.eu",
+        "https://www.uline.co.uk"
+      ],
+      "count": 5
+    },
+    {
+      "group": "veritiv",
+      "canonical_name": "Veritiv",
+      "canonical_website": "https://www.veritiv.com",
+      "merged_from": [
+        "Veritiv",
+        "Veritiv Canada",
+        "Veritiv"
+      ],
+      "old_websites": [
+        "https://www.veritiv.com",
+        "https://www.veritiv.com",
+        "https://www.veritiv.com"
+      ],
+      "count": 3
+    },
+    {
+      "group": "grainger",
+      "canonical_name": "Grainger",
+      "canonical_website": "https://www.grainger.com",
+      "merged_from": [
+        "Grainger",
+        "Grainger MX",
+        "Grainger Canada"
+      ],
+      "old_websites": [
+        "https://www.grainger.com",
+        "https://www.grainger.com.mx",
+        "https://www.grainger.ca"
+      ],
+      "count": 3
+    },
+    {
+      "group": "staples",
+      "canonical_name": "Staples",
+      "canonical_website": "https://www.staples.com",
+      "merged_from": [
+        "Staples Business Advantage",
+        "Staples",
+        "Staples Canada",
+        "Staples"
+      ],
+      "old_websites": [
+        "https://www.staplesadvantage.com",
+        "https://www.staples.com",
+        "https://www.staples.ca",
+        "https://www.staples.com"
+      ],
+      "count": 4
+    },
+    {
+      "group": "manutan",
+      "canonical_name": "Manutan",
+      "canonical_website": "https://www.manutan.com",
+      "merged_from": [
+        "Manutan France",
+        "Manutan UK",
+        "Manutan Belgium",
+        "Manutan Germany",
+        "Manutan Italy",
+        "Manutan Netherlands",
+        "Manutan Poland",
+        "Manutan Spain",
+        "Manutan Switzerland",
+        "Manutan Portugal",
+        "Manutan Hungary",
+        "Manutan Austria",
+        "Manutan Czech Republic",
+        "Manutan Sweden",
+        "Manutan Slovakia",
+        "Manutan Romania",
+        "Manutan Luxembourg",
+        "Manutan Denmark",
+        "Manutan Norway",
+        "Manutan Finland",
+        "Manutan Ireland"
+      ],
+      "old_websites": [
+        "https://www.manutan.fr",
+        "https://www.manutan.co.uk",
+        "https://www.manutan.be",
+        "https://www.manutan.de",
+        "https://www.manutan.it",
+        "https://www.manutan.nl",
+        "https://www.manutan.pl",
+        "https://www.manutan.es",
+        "https://www.manutan.ch",
+        "https://www.manutan.pt",
+        "https://www.manutan.hu",
+        "https://www.manutan.at",
+        "https://www.manutan.cz",
+        "https://www.manutan.se",
+        "https://www.manutan.sk",
+        "https://www.manutan.ro",
+        "https://www.manutan.lu",
+        "https://www.manutan.dk",
+        "https://www.manutan.no",
+        "https://www.manutan.fi",
+        "https://www.manutan.ie"
+      ],
+      "count": 21
+    },
+    {
+      "group": "office depot",
+      "canonical_name": "Office Depot",
+      "canonical_website": "https://www.officedepot.com",
+      "merged_from": [
+        "Office Depot Business Solutions",
+        "Office Depot MX",
+        "Office Depot",
+        "Office Depot"
+      ],
+      "old_websites": [
+        "https://www.odpbusiness.com",
+        "https://www.officedepot.com.mx",
+        "https://www.officedepot.com",
+        "https://www.officedepot.com"
+      ],
+      "count": 4
+    },
+    {
+      "group": "ratioform",
+      "canonical_name": "Ratioform",
+      "canonical_website": "https://www.ratioform.de",
+      "merged_from": [
+        "Ratioform",
+        "Ratioform Italy",
+        "Ratioform Spain",
+        "Ratioform Austria",
+        "Ratioform Switzerland",
+        "Ratioform Netherlands",
+        "Ratioform France",
+        "Ratioform Belgium",
+        "Ratioform UK",
+        "Ratioform Poland"
+      ],
+      "old_websites": [
+        "https://www.ratioform.de",
+        "https://www.ratioform.it",
+        "https://www.ratioform.es",
+        "https://www.ratioform.at",
+        "https://www.ratioform.ch",
+        "https://www.ratioform.nl",
+        "https://www.ratioform.fr",
+        "https://www.ratioform.be",
+        "https://www.ratioform.co.uk",
+        "https://www.ratioform.pl"
+      ],
+      "count": 10
+    },
+    {
+      "group": "transpak",
+      "canonical_name": "Transpak",
+      "canonical_website": "https://www.transpak.de",
+      "merged_from": [
+        "Transpak",
+        "Transpak Austria",
+        "Transpak Switzerland",
+        "Transpak Netherlands"
+      ],
+      "old_websites": [
+        "https://www.transpak.de",
+        "https://www.transpak.at",
+        "https://www.transpak.ch",
+        "https://www.transpak.nl"
+      ],
+      "count": 4
+    },
+    {
+      "group": "supplyone",
+      "canonical_name": "SupplyOne",
+      "canonical_website": "https://www.supplyone.com",
+      "merged_from": [
+        "SupplyOne",
+        "SupplyOne"
+      ],
+      "old_websites": [
+        "https://www.supplyone.com",
+        "https://www.supplyone.com"
+      ],
+      "count": 2
+    },
+    {
+      "group": "ahlsell",
+      "canonical_name": "Ahlsell",
+      "canonical_website": "https://www.ahlsell.com",
+      "merged_from": [
+        "Ahlsell",
+        "Ahlsell Denmark",
+        "Ahlsell Norway",
+        "Ahlsell Finland"
+      ],
+      "old_websites": [
+        "https://www.ahlsell.com",
+        "https://www.ahlsell.dk",
+        "https://www.ahlsell.no",
+        "https://www.ahlsell.fi"
+      ],
+      "count": 4
+    },
+    {
+      "group": "jpg",
+      "canonical_name": "JPG",
+      "canonical_website": "https://www.jpg.fr",
+      "merged_from": [
+        "JPG France",
+        "JPG Belgium"
+      ],
+      "old_websites": [
+        "https://www.jpg.fr",
+        "https://www.jpg.be"
+      ],
+      "count": 2
+    },
+    {
+      "group": "viking direct",
+      "canonical_name": "Viking Direct",
+      "canonical_website": "https://www.vikingdirect.co.uk",
+      "merged_from": [
+        "Viking Direct Ireland",
+        "Viking Direct UK",
+        "Viking Direct France",
+        "Viking Direct Germany",
+        "Viking Direct Netherlands",
+        "Viking Direct Belgium",
+        "Viking Direct Austria",
+        "Viking Direct Spain",
+        "Viking Direct Italy"
+      ],
+      "old_websites": [
+        "https://www.vikingdirect.ie/en",
+        "https://www.vikingdirect.co.uk",
+        "https://www.vikingdirect.fr",
+        "https://www.vikingdirect.de",
+        "https://www.vikingdirect.nl",
+        "https://www.vikingdirect.be",
+        "https://www.vikingdirect.at",
+        "https://www.vikingdirect.es",
+        "https://www.vikingdirect.it"
+      ],
+      "count": 9
+    },
+    {
+      "group": "lyreco",
+      "canonical_name": "Lyreco",
+      "canonical_website": "https://www.lyreco.com",
+      "merged_from": [
+        "Lyreco UK",
+        "Lyreco France",
+        "Lyreco Germany",
+        "Lyreco Spain",
+        "Lyreco Italy",
+        "Lyreco Belgium",
+        "Lyreco Netherlands",
+        "Lyreco"
+      ],
+      "old_websites": [
+        "https://www.lyreco.co.uk",
+        "https://www.lyreco.fr",
+        "https://www.lyreco.de",
+        "https://www.lyreco.es",
+        "https://www.lyreco.it",
+        "https://www.lyreco.be",
+        "https://www.lyreco.nl",
+        "https://www.lyreco.com"
+      ],
+      "count": 8
+    }
+  ],
+  "file": "D:\\vendor-intel\\output\\web_expand\\global_flexible_packaging_market_global\\global_flexible_packaging_market_global_FINAL.xlsx"
+}

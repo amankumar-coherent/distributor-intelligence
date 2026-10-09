@@ -1,0 +1,2020 @@
+{
+  "phase": 1,
+  "query": "Healthtech Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T20:21:17.359969+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "Healthtech",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "healthcare technology",
+    "industry_terms": [
+      "healthcare technology",
+      "medical devices",
+      "health IT solutions",
+      "telehealth services",
+      "digital health platforms"
+    ],
+    "ecosystem_functions": [
+      "distributing healthtech products",
+      "wholesaling medical supplies",
+      "reselling healthcare technologies",
+      "integrating health IT systems",
+      "providing technical support services",
+      "forming strategic alliances",
+      "enhancing market reach through partnerships",
+      "offering consulting services"
+    ],
+    "interpretation_summary": "The Healthtech market encompasses a wide range of technologies and services aimed at improving healthcare delivery and patient outcomes. Key participants include distributors, wholesalers, resellers, system integrators,",
+    "relevance_keywords": [
+      "healthtech distribution",
+      "medical supply chain",
+      "healthcare technology integration",
+      "patient care solutions",
+      "health IT services"
+    ],
+    "negative_keywords": [
+      "pharmaceutical manufacturers",
+      "clinical trials",
+      "healthcare providers",
+      "research institutions"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "McKesson",
+        "primary_domain": "mckesson.com",
+        "company_function": "distributor of pharmaceuticals and medical supplies"
+      },
+      {
+        "canonical_name": "Cardinal Health",
+        "primary_domain": "cardinalhealth.com",
+        "company_function": "healthcare services and products distributor"
+      },
+      {
+        "canonical_name": "AmerisourceBergen",
+        "primary_domain": "amerisourcebergen.com",
+        "company_function": "pharmaceutical sourcing and distribution services"
+      },
+      {
+        "canonical_name": "Henry Schein",
+        "primary_domain": "henryschein.com",
+        "company_function": "distributor of healthcare products"
+      },
+      {
+        "canonical_name": "Owens & Minor",
+        "primary_domain": "owens-minor.com",
+        "company_function": "healthcare logistics and distribution"
+      },
+      {
+        "canonical_name": "Cypress Medical Products",
+        "primary_domain": "cypressmedical.com",
+        "company_function": "medical supply wholesaler"
+      },
+      {
+        "canonical_name": "McKesson Medical-Surgical",
+        "primary_domain": "mms.mckesson.com",
+        "company_function": "wholesaler of medical-surgical supplies"
+      },
+      {
+        "canonical_name": "Medline Industries",
+        "primary_domain": "medline.com",
+        "company_function": "wholesaler of medical supplies and equipment"
+      },
+      {
+        "canonical_name": "Surgical Supply Group",
+        "primary_domain": "surgical.com",
+        "company_function": "Wholesaler of surgical supplies",
+        "segment": "Wholesaler",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Insight Enterprises",
+        "primary_domain": "insight.com",
+        "company_function": "Value-added reseller of technology solutions",
+        "segment": "Reseller",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Tech Data",
+        "primary_domain": "techdata.com",
+        "company_function": "Reseller of IT products and services",
+        "segment": "Reseller",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Ingram Micro",
+        "primary_domain": "ingrammicro.com",
+        "company_function": "Technology distributor and reseller",
+        "segment": "Reseller",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Allscripts Healthcare Solutions",
+        "primary_domain": "allscripts.com",
+        "company_function": "Healthcare IT system integrator",
+        "segment": "System Integrator",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Cerner Corporation",
+        "primary_domain": "cerner.com",
+        "company_function": "Health IT system integration services",
+        "segment": "System Integrator",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "Healthtech",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "Healthtech",
+    "include_keywords": [
+      "healthcare distributors",
+      "medical equipment wholesalers",
+      "healthtech resellers",
+      "system integration services",
+      "healthcare service providers"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The Healthtech market encompasses a wide range of technologies and services aimed at improving healthcare delivery and patient outcomes. Key participants include distributors, wholesalers, resellers, system integrators, service providers, and channel partners operating globally.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Distribution",
+        "description": "This layer involves the distribution of healthtech products and services through various channels.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Medical Equipment Distributors",
+              "Pharmaceutical Distributors"
+            ],
+            "participant_types": [
+              "distributor"
+            ],
+            "search_intents": [
+              "healthtech product distributors",
+              "medical equipment distributors"
+            ]
+          },
+          {
+            "segment_name": "Wholesalers",
+            "sub_segments": [
+              "Pharmaceutical Wholesalers",
+              "Medical Supplies Wholesalers"
+            ],
+            "participant_types": [
+              "wholesaler"
+            ],
+            "search_intents": [
+              "healthcare wholesalers",
+              "medical supplies wholesalers"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L2",
+        "layer_name": "Resellers",
+        "description": "Resellers provide healthtech products to end-users, often adding value through services.",
+        "segments": [
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Online Resellers",
+              "Value-Added Resellers"
+            ],
+            "participant_types": [
+              "reseller"
+            ],
+            "search_intents": [
+              "healthtech product resellers",
+              "medical technology resellers"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L3",
+        "layer_name": "Integration Services",
+        "description": "This layer focuses on system integration services for healthtech solutions.",
+        "segments": [
+          {
+            "segment_name": "System Integrators",
+            "sub_segments": [
+              "Healthcare IT Integrators",
+              "Medical Device Integrators"
+            ],
+            "participant_types": [
+              "system integrator"
+            ],
+            "search_intents": [
+              "healthcare system integrators",
+              "medical device integration services"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L4",
+        "layer_name": "Service Providers",
+        "description": "Service providers offer support and maintenance for healthtech products.",
+        "segments": [
+          {
+            "segment_name": "Service Providers",
+            "sub_segments": [
+              "Technical Support Services",
+              "Consulting Services"
+            ],
+            "participant_types": [
+              "service provider"
+            ],
+            "search_intents": [
+              "healthtech service providers",
+              "medical technology support services"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L5",
+        "layer_name": "Channel Partners",
+        "description": "Channel partners collaborate with manufacturers and service providers to enhance market reach.",
+        "segments": [
+          {
+            "segment_name": "Channel Partners",
+            "sub_segments": [
+              "Strategic Alliances",
+              "Value-Added Partnerships"
+            ],
+            "participant_types": [
+              "channel partner"
+            ],
+            "search_intents": [
+              "healthtech channel partners",
+              "healthcare technology partnerships"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributor",
+        "Wholesaler",
+        "Reseller",
+        "System Integrator",
+        "Service Provider",
+        "Channel Partner"
+      ],
+      "out_of_scope": [
+        "Manufacturers",
+        "Research Institutions",
+        "Regulatory Bodies",
+        "Healthcare Providers"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "search for healthtech product distributors",
+        "sub_sector": "healthtech_distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "search for healthcare wholesalers",
+        "sub_sector": "healthcare_wholesaler",
+        "layer_id": "L1",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "search for healthtech product resellers",
+        "sub_sector": "healthtech_reseller",
+        "layer_id": "L2",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "search for healthcare system integrators",
+        "sub_sector": "healthcare_system_integrator",
+        "layer_id": "L3",
+        "segment": "System Integrators"
+      },
+      {
+        "id": "M5",
+        "level": "market_map",
+        "text": "search for healthtech service providers",
+        "sub_sector": "healthtech_service_provider",
+        "layer_id": "L4",
+        "segment": "Service Providers"
+      },
+      {
+        "id": "M6",
+        "level": "market_map",
+        "text": "search for healthtech channel partners",
+        "sub_sector": "healthtech_channel_partner",
+        "layer_id": "L5",
+        "segment": "Channel Partners"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "healthcare technology",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "Healthtech companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "Healthtech distributors corporate sites"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "Healthtech service providers official site"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "market_map",
+      "text": "search for healthtech product distributors"
+    },
+    {
+      "id": "P2",
+      "level": "market_map",
+      "text": "search for healthcare wholesalers"
+    },
+    {
+      "id": "P3",
+      "level": "market_map",
+      "text": "search for healthtech product resellers"
+    },
+    {
+      "id": "P4",
+      "level": "market_map",
+      "text": "search for healthcare system integrators"
+    },
+    {
+      "id": "P5",
+      "level": "market_map",
+      "text": "search for healthtech service providers"
+    },
+    {
+      "id": "P6",
+      "level": "market_map",
+      "text": "search for healthtech channel partners"
+    },
+    {
+      "id": "P7",
+      "level": "discovery",
+      "text": "healthtech product distributors official site"
+    },
+    {
+      "id": "P8",
+      "level": "discovery",
+      "text": "medical equipment distributors corporate headquarters"
+    },
+    {
+      "id": "P9",
+      "level": "discovery",
+      "text": "healthcare wholesalers official website"
+    },
+    {
+      "id": "P10",
+      "level": "discovery",
+      "text": "medical supplies wholesalers corporate site"
+    },
+    {
+      "id": "P11",
+      "level": "discovery",
+      "text": "healthtech product resellers official website"
+    },
+    {
+      "id": "P12",
+      "level": "discovery",
+      "text": "medical technology resellers corporate site"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "Healthtech companies official websites",
+      "level": "L0",
+      "result_count": 24,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "HealthTech Solutions | Healthcare Technology Solutions",
+          "link": "https://healthtechsolutions.com/",
+          "snippet": "We help state & federal health and human services find a path forward with healthcare technology services & products designed to \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What exactly is HealthTech? What is the difference between Digital ...",
+          "link": "https://www.healthcare.digital/single-post/what-exactly-is-healthtech-what-is-the-difference-between-digital-health-and-healthtech",
+          "snippet": "Jul 22, 2023 \u00b7 HealthTech is defined by the World Health Organisation (WHO) as \u2018the application of organised knowledge and skills in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Healthtech Hub",
+          "link": "https://hub.ht1.uk/",
+          "snippet": "We use cookies to collect feedback and send information about how our site is used. You can find out more here. Let us know if this \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Healthcare Technology News & Trends | HealthTech Magazine",
+          "link": "https://healthtechmagazine.net/",
+          "snippet": "HealthTech Magazine explores technology and healthcare issues relevant to IT leaders and managers at healthcare organizations \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "HealthTech \u2013 The best independently owned rural hospital \u2026",
+          "link": "https://www.health-tech.us/",
+          "snippet": "HealthTech consultants provide a comprehensive margin improvement assessment focused on identifying internal strengths and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "World's Top HealthTech Companies of 2025 - TIME",
+          "link": "https://time.com/7318020/worlds-top-healthtech-companies-2025/",
+          "snippet": "Sep 18, 2025 \u00b7 To determine the world\u2019s top health tech companies in 2025, TIME partnered with Statista to conduct a global analysis \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Healthtech Industry: A Comprehensive Overview - Aloa",
+          "link": "https://aloa.co/blog/healthtech-industry-a-comprehensive-overview",
+          "snippet": "Jan 30, 2026 \u00b7 As this healthtech IT industry overview shows, AI and other frontier technologies are redefining how healthtech is \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Home | Healthtech Consultants",
+          "link": "https://www.healthtech.ca/",
+          "snippet": "As a Canadian-founded healthcare consulting firm with over 40 years of experience across Canada, we help plan, implement, and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Healthcare Technology: What It Is and How It\u2019s Used | Built In",
+          "link": "https://builtin.com/healthcare-technology",
+          "snippet": "Healthcare technology, or \u201chealthtech,\u201d refers to the use of technologies developed for the purpose of improving any and all aspects \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "68 Top Healthcare Startups and Healthtech Companies - Built In",
+          "link": "https://builtin.com/articles/healthcare-technology-companies",
+          "snippet": "Healthtech startups and healthcare companies like these use technologies to create healthcare products and services that benefit patients and providers alike.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "100 Top HealthTech Companies in India \u00b7 July 2026 | F6S",
+          "link": "https://www.f6s.com/companies/healthtech/india/co",
+          "snippet": "Detailed info and reviews on 100 top HealthTech companies and startups in India in 2026. Get the latest updates on their products, jobs, funding, investors, founders and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Reveal HealthTech - - Healthcare AI Consulting & Digital Health Solutions",
+          "link": "https://revealhealthtech.com/",
+          "snippet": "Reveal HealthTech helps healthcare and life sciences organizations build HIPAA-compliant AI, cloud, and digital health solutions that accelerate innovation and outcomes.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "100 Top HealthTech Companies in United States \u00b7 July 2026",
+          "link": "https://www.f6s.com/companies/healthtech/united-states/co",
+          "snippet": "Detailed info and reviews on 100 top HealthTech companies and startups in United States in 2026. Get the latest updates on their products, jobs, funding, investors, founders and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Health Tech Companies 2026 | Built In",
+          "link": "https://builtin.com/companies/type/healthtech-companies",
+          "snippet": "Top Health Tech Companies (9,701). ADD COMPANY PROFILE.Consumer Web \u2022 Healthtech \u2022 Professional Services \u2022 Social Impact \u2022 Software.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 15 healthtech companies in India",
+          "link": "https://www.nimblechapps.com/blog/top-15-healthtech-companies-in-india-2025",
+          "snippet": "Construction site with workers reviewing plans on scaffolding.It includes technologies like AI, machine learning and IOT for predictive analysis, real-time health monitoring, robotic procedures and mo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "50 healthtech companies that stood strong in 2023... - All Health Tech",
+          "link": "https://allhealthtech.com/top-50-healthtech-companies/",
+          "snippet": "You can access the list of top 50 healthtech companies on CB Insights\u2019 official website here.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 HealthTech Companies In The United States",
+          "link": "https://www.leadsquared.com/industries/healthcare/healthtech-companies-in-the-united-states/",
+          "snippet": "Here are the top 10 companies that are making notable contributions in the HealthTech space. Top 10 HealthTech Companies in the US 1. Verily 2. Tempus 3. Devoted Health 4. Ro 5. Bright Healthcare 6. L",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 UK Healthtech Companies | 2025 - Beauhurst",
+          "link": "https://www.beauhurst.com/blog/top-healthtech-companies-uk/",
+          "snippet": "Numan is a healthtech company based in Camden, London, established in 2018. The company provides digital healthcare services focusing primarily on men\u2019s health. It also offers personalised treatment p",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top San Francisco Bay Area, CA Health Tech Companies 2026",
+          "link": "https://www.builtinsf.com/companies/type/healthtech-companies",
+          "snippet": "Explore top tech companies. Office Type. Hybrid Company Employees work in the office + from home On-site Company Employees work in the office every day Fully Remote Company Company operates without a ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Los Angeles, CA Health Tech Companies 2026 | Built In",
+          "link": "https://www.builtinla.com/companies/type/healthtech-companies",
+          "snippet": "Check out this list of the top Health Tech companies in Los Angeles, CA. See company benefits, info, interviews and more at Built In.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "List of Healthtech companies",
+          "link": "https://www.easyleadz.com/lists/List-of-Healthtech-companies",
+          "snippet": "Download the complete list of Healthtech companies. Get email id of decision makers in Healthtech companies like founder, CEO, Marketing head etc.Ashva Digital Health Care specialises in website devel",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Health Tech Companies to Work for in Chicago... | Built In Chicago",
+          "link": "https://www.builtinchicago.org/companies/type/healthtech-companies/reputation/best-workplace",
+          "snippet": "These top Health Tech Companies in Chicago, IL have strong reputations as great places to work.Hybrid flexibility and on\u2011site community events add practical perks.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Healthcare SaaS & HealthTech Companies Database \u2013 2,028 Verified...",
+          "link": "https://firmographic.co/b2b-database/healthcare-medical/healthcare-saas-healthtech-companies-database",
+          "snippet": "Download 2,028 verified HealthTech and healthcare SaaS companies with CEO, CTO & CMO emails and LinkedIn.LinkedIn public profiles. Company websites & career pages. SEC & Companies House filings. B2B b",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home | Cera HQ - Europe's largest HealthTech",
+          "link": "https://www.cerahq.com/",
+          "snippet": "Discover how Cera's AI\u2011powered care helps patients live longer, healthier lives at home. Learn about our technology\u2011driven mission, our preventative model, and how our nationwide network of carers and",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "HealthTech Solutions | Healthcare Technology Solutions",
+          "link": "https://healthtechsolutions.com/",
+          "snippet": "We help state & federal health and human services find a path forward with healthcare technology services & products designed to \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What exactly is HealthTech? What is the difference between Digital ...",
+          "link": "https://www.healthcare.digital/single-post/what-exactly-is-healthtech-what-is-the-difference-between-digital-health-and-healthtech",
+          "snippet": "Jul 22, 2023 \u00b7 HealthTech is defined by the World Health Organisation (WHO) as \u2018the application of organised knowledge and skills in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Healthtech Hub",
+          "link": "https://hub.ht1.uk/",
+          "snippet": "We use cookies to collect feedback and send information about how our site is used. You can find out more here. Let us know if this \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Healthcare Technology News & Trends | HealthTech Magazine",
+          "link": "https://healthtechmagazine.net/",
+          "snippet": "HealthTech Magazine explores technology and healthcare issues relevant to IT leaders and managers at healthcare organizations \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "HealthTech \u2013 The best independently owned rural hospital \u2026",
+          "link": "https://www.health-tech.us/",
+          "snippet": "HealthTech consultants provide a comprehensive margin improvement assessment focused on identifying internal strengths and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "World's Top HealthTech Companies of 2025 - TIME",
+          "link": "https://time.com/7318020/worlds-top-healthtech-companies-2025/",
+          "snippet": "Sep 18, 2025 \u00b7 To determine the world\u2019s top health tech companies in 2025, TIME partnered with Statista to conduct a global analysis \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Healthtech Industry: A Comprehensive Overview - Aloa",
+          "link": "https://aloa.co/blog/healthtech-industry-a-comprehensive-overview",
+          "snippet": "Jan 30, 2026 \u00b7 As this healthtech IT industry overview shows, AI and other frontier technologies are redefining how healthtech is \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Home | Healthtech Consultants",
+          "link": "https://www.healthtech.ca/",
+          "snippet": "As a Canadian-founded healthcare consulting firm with over 40 years of experience across Canada, we help plan, implement, and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Healthcare Technology: What It Is and How It\u2019s Used | Built In",
+          "link": "https://builtin.com/healthcare-technology",
+          "snippet": "Healthcare technology, or \u201chealthtech,\u201d refers to the use of technologies developed for the purpose of improving any and all aspects \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "68 Top Healthcare Startups and Healthtech Companies - Built In",
+          "link": "https://builtin.com/articles/healthcare-technology-companies",
+          "snippet": "Healthtech startups and healthcare companies like these use technologies to create healthcare products and services that benefit patients and providers alike.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "100 Top HealthTech Companies in India \u00b7 July 2026 | F6S",
+          "link": "https://www.f6s.com/companies/healthtech/india/co",
+          "snippet": "Detailed info and reviews on 100 top HealthTech companies and startups in India in 2026. Get the latest updates on their products, jobs, funding, investors, founders and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Reveal HealthTech - - Healthcare AI Consulting & Digital Health Solutions",
+          "link": "https://revealhealthtech.com/",
+          "snippet": "Reveal HealthTech helps healthcare and life sciences organizations build HIPAA-compliant AI, cloud, and digital health solutions that accelerate innovation and outcomes.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "100 Top HealthTech Companies in United States \u00b7 July 2026",
+          "link": "https://www.f6s.com/companies/healthtech/united-states/co",
+          "snippet": "Detailed info and reviews on 100 top HealthTech companies and startups in United States in 2026. Get the latest updates on their products, jobs, funding, investors, founders and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Health Tech Companies 2026 | Built In",
+          "link": "https://builtin.com/companies/type/healthtech-companies",
+          "snippet": "Top Health Tech Companies (9,701). ADD COMPANY PROFILE.Consumer Web \u2022 Healthtech \u2022 Professional Services \u2022 Social Impact \u2022 Software.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 15 healthtech companies in India",
+          "link": "https://www.nimblechapps.com/blog/top-15-healthtech-companies-in-india-2025",
+          "snippet": "Construction site with workers reviewing plans on scaffolding.It includes technologies like AI, machine learning and IOT for predictive analysis, real-time health monitoring, robotic procedures and mo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "50 healthtech companies that stood strong in 2023... - All Health Tech",
+          "link": "https://allhealthtech.com/top-50-healthtech-companies/",
+          "snippet": "You can access the list of top 50 healthtech companies on CB Insights\u2019 official website here.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 HealthTech Companies In The United States",
+          "link": "https://www.leadsquared.com/industries/healthcare/healthtech-companies-in-the-united-states/",
+          "snippet": "Here are the top 10 companies that are making notable contributions in the HealthTech space. Top 10 HealthTech Companies in the US 1. Verily 2. Tempus 3. Devoted Health 4. Ro 5. Bright Healthcare 6. L",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 UK Healthtech Companies | 2025 - Beauhurst",
+          "link": "https://www.beauhurst.com/blog/top-healthtech-companies-uk/",
+          "snippet": "Numan is a healthtech company based in Camden, London, established in 2018. The company provides digital healthcare services focusing primarily on men\u2019s health. It also offers personalised treatment p",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top San Francisco Bay Area, CA Health Tech Companies 2026",
+          "link": "https://www.builtinsf.com/companies/type/healthtech-companies",
+          "snippet": "Explore top tech companies. Office Type. Hybrid Company Employees work in the office + from home On-site Company Employees work in the office every day Fully Remote Company Company operates without a ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Los Angeles, CA Health Tech Companies 2026 | Built In",
+          "link": "https://www.builtinla.com/companies/type/healthtech-companies",
+          "snippet": "Check out this list of the top Health Tech companies in Los Angeles, CA. See company benefits, info, interviews and more at Built In.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "List of Healthtech companies",
+          "link": "https://www.easyleadz.com/lists/List-of-Healthtech-companies",
+          "snippet": "Download the complete list of Healthtech companies. Get email id of decision makers in Healthtech companies like founder, CEO, Marketing head etc.Ashva Digital Health Care specialises in website devel",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Health Tech Companies to Work for in Chicago... | Built In Chicago",
+          "link": "https://www.builtinchicago.org/companies/type/healthtech-companies/reputation/best-workplace",
+          "snippet": "These top Health Tech Companies in Chicago, IL have strong reputations as great places to work.Hybrid flexibility and on\u2011site community events add practical perks.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Healthcare SaaS & HealthTech Companies Database \u2013 2,028 Verified...",
+          "link": "https://firmographic.co/b2b-database/healthcare-medical/healthcare-saas-healthtech-companies-database",
+          "snippet": "Download 2,028 verified HealthTech and healthcare SaaS companies with CEO, CTO & CMO emails and LinkedIn.LinkedIn public profiles. Company websites & career pages. SEC & Companies House filings. B2B b",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home | Cera HQ - Europe's largest HealthTech",
+          "link": "https://www.cerahq.com/",
+          "snippet": "Discover how Cera's AI\u2011powered care helps patients live longer, healthier lives at home. Learn about our technology\u2011driven mission, our preventative model, and how our nationwide network of carers and",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "Healthtech distributors corporate sites",
+      "level": "L1",
+      "result_count": 22,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "HealthTech Solutions | Healthcare Technology Solutions",
+          "link": "https://healthtechsolutions.com/",
+          "snippet": "We help state & federal health and human services find a path forward with healthcare technology services & products designed to \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What exactly is HealthTech? What is the difference between Digital ...",
+          "link": "https://www.healthcare.digital/single-post/what-exactly-is-healthtech-what-is-the-difference-between-digital-health-and-healthtech",
+          "snippet": "Jul 22, 2023 \u00b7 HealthTech is defined by the World Health Organisation (WHO) as \u2018the application of organised knowledge and skills in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Healthtech Hub",
+          "link": "https://hub.ht1.uk/",
+          "snippet": "We use cookies to collect feedback and send information about how our site is used. You can find out more here. Let us know if this \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Healthcare Technology News & Trends | HealthTech Magazine",
+          "link": "https://healthtechmagazine.net/",
+          "snippet": "HealthTech Magazine explores technology and healthcare issues relevant to IT leaders and managers at healthcare organizations \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "HealthTech \u2013 The best independently owned rural hospital \u2026",
+          "link": "https://www.health-tech.us/",
+          "snippet": "HealthTech consultants provide a comprehensive margin improvement assessment focused on identifying internal strengths and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "World's Top HealthTech Companies of 2025 - TIME",
+          "link": "https://time.com/7318020/worlds-top-healthtech-companies-2025/",
+          "snippet": "Sep 18, 2025 \u00b7 To determine the world\u2019s top health tech companies in 2025, TIME partnered with Statista to conduct a global analysis \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Healthtech Industry: A Comprehensive Overview - Aloa",
+          "link": "https://aloa.co/blog/healthtech-industry-a-comprehensive-overview",
+          "snippet": "Jan 30, 2026 \u00b7 As this healthtech IT industry overview shows, AI and other frontier technologies are redefining how healthtech is \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Home | Healthtech Consultants",
+          "link": "https://www.healthtech.ca/",
+          "snippet": "As a Canadian-founded healthcare consulting firm with over 40 years of experience across Canada, we help plan, implement, and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Healthcare Technology: What It Is and How It\u2019s Used | Built In",
+          "link": "https://builtin.com/healthcare-technology",
+          "snippet": "Healthcare technology, or \u201chealthtech,\u201d refers to the use of technologies developed for the purpose of improving any and all aspects \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Healthtech (Distributors (Healthcare)) 2026 Company Profile ... - PitchBook",
+          "link": "https://pitchbook.com/profiles/company/161268-94",
+          "snippet": "Healthtech (Distributors (Healthcare)) General Information Description Distributor of medical equipment and chiropractic supplies catering to the healthcare sector. The company is engaged in the suppl",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The HealthTech and Digital Health Landscape: Definitions,...",
+          "link": "https://www.healthcare.digital/single-post/the-healthtech-and-digital-health-landscape-definitions-ecosystem-dynamics-and-10-year-outlook-to",
+          "snippet": "Jul 15, 2025 \u00b7 For HealthTech, the WHO defines it as \"the application of organised knowledge and skills in the form of devices, medicines, vaccines, procedures, and systems developed to solve a health",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "DallasTechs.us \u2014 Corporate Texas, Engineered",
+          "link": "https://dallastechs.us/",
+          "snippet": "Corporate Texas \u00b7 Enterprise Central. Every Tech. One Dallas.HealthTech 154 co. Revenue cycle, clinical SaaS, and the payer-provider tech layer built around McKesson, Tenet, and Baylor Scott & White.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Healthtech distribution and sales channels... - FasterCapital",
+          "link": "https://fastercapital.com/content/Healthtech-distribution-and-sales-channels--Healthtech-Distribution-Trends--What-Startups-Need-to-Know.html",
+          "snippet": "As a result, healthtech startups face both challenges and opportunities in distributing and selling their products and services to various stakeholders in the healthcare ecosystem. In this section, we",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Pune, Maharashtra Healthtech Companies - Built In Pune",
+          "link": "https://builtinpune.in/companies/type/healthtech-companies",
+          "snippet": "Check out this list of the top Healthtech companies in Pune, Maharashtra. See company benefits, info, interviews and more at Built In Pune.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "HTBA | Bioactive Chemicals & Healthtech Bioactives Company",
+          "link": "https://htba.com/",
+          "snippet": "Source premium bioactive chemicals from HTBA, a bioactive nutritional company. We supply healthtech bioactives driven by biotechnology sustainability.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Health Tech International Distributors | Pharmaceutical Wholesale",
+          "link": "https://www.healthtech-intl.com/",
+          "snippet": "Discover reliable pharmaceutical wholesale services with Health Tech International Distributors. We specialize in supplying high-quality medications, ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "linkkhealthtech",
+          "link": "https://linkkhealthtech.com/",
+          "snippet": "Linkk HealthTech is India's first truly integrated emergency network. We are bridging the gap between pharmacies, ambulances, and hospitals to deliver ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "5 Top HealthTech Startups developing Vaccine Distribution Solutions",
+          "link": "https://www.startus-insights.com/innovators-guide/discover-5-top-healthtech-startups-developing-vaccine-distribution-solutions/",
+          "snippet": "Discover 5 global startups & scaleups in this data-driven report & learn how their vaccine distribution solutions impact your business!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "HealthTech Partners Global - LinkedIn",
+          "link": "https://www.linkedin.com/company/healthtech-partners-global-llc/",
+          "snippet": "Mission driven medical device distributor passionate about supporting rehabilitation outcomes and its partners. Guiding global healthcare innovators through strategic, seamless, and successful ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Amplifon Competitors and Alternatives | Craft.co",
+          "link": "https://craft.co/amplifon/competitors",
+          "snippet": "Healthcare distribution healthtech medical diagnostics.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Viegreen Trading Pte. Ltd. | LinkedIn",
+          "link": "https://www.linkedin.com/company/viegreen-trading-pte--ltd-/",
+          "snippet": "Primary activity: Import and distribution of medical devices. We source innovative products worldwide to cater to the Singapore and South_east Asia Markets. Our focus is on wearables, healthtech, well",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "BiOptic Inc.",
+          "link": "https://www.bioptic.com.tw/",
+          "snippet": "Distributors. Partners. Investors. Corporate Governance.BiOptic is honored to represent Taiwan at the Taiwan Smart Medical & HealthTech Expo, Geneva 2026, taking place alongside the 79th World Health ",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "HealthTech Solutions | Healthcare Technology Solutions",
+          "link": "https://healthtechsolutions.com/",
+          "snippet": "We help state & federal health and human services find a path forward with healthcare technology services & products designed to \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What exactly is HealthTech? What is the difference between Digital ...",
+          "link": "https://www.healthcare.digital/single-post/what-exactly-is-healthtech-what-is-the-difference-between-digital-health-and-healthtech",
+          "snippet": "Jul 22, 2023 \u00b7 HealthTech is defined by the World Health Organisation (WHO) as \u2018the application of organised knowledge and skills in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Healthtech Hub",
+          "link": "https://hub.ht1.uk/",
+          "snippet": "We use cookies to collect feedback and send information about how our site is used. You can find out more here. Let us know if this \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Healthcare Technology News & Trends | HealthTech Magazine",
+          "link": "https://healthtechmagazine.net/",
+          "snippet": "HealthTech Magazine explores technology and healthcare issues relevant to IT leaders and managers at healthcare organizations \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "HealthTech \u2013 The best independently owned rural hospital \u2026",
+          "link": "https://www.health-tech.us/",
+          "snippet": "HealthTech consultants provide a comprehensive margin improvement assessment focused on identifying internal strengths and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "World's Top HealthTech Companies of 2025 - TIME",
+          "link": "https://time.com/7318020/worlds-top-healthtech-companies-2025/",
+          "snippet": "Sep 18, 2025 \u00b7 To determine the world\u2019s top health tech companies in 2025, TIME partnered with Statista to conduct a global analysis \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Healthtech Industry: A Comprehensive Overview - Aloa",
+          "link": "https://aloa.co/blog/healthtech-industry-a-comprehensive-overview",
+          "snippet": "Jan 30, 2026 \u00b7 As this healthtech IT industry overview shows, AI and other frontier technologies are redefining how healthtech is \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Home | Healthtech Consultants",
+          "link": "https://www.healthtech.ca/",
+          "snippet": "As a Canadian-founded healthcare consulting firm with over 40 years of experience across Canada, we help plan, implement, and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Healthcare Technology: What It Is and How It\u2019s Used | Built In",
+          "link": "https://builtin.com/healthcare-technology",
+          "snippet": "Healthcare technology, or \u201chealthtech,\u201d refers to the use of technologies developed for the purpose of improving any and all aspects \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Healthtech (Distributors (Healthcare)) 2026 Company Profile ... - PitchBook",
+          "link": "https://pitchbook.com/profiles/company/161268-94",
+          "snippet": "Healthtech (Distributors (Healthcare)) General Information Description Distributor of medical equipment and chiropractic supplies catering to the healthcare sector. The company is engaged in the suppl",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The HealthTech and Digital Health Landscape: Definitions,...",
+          "link": "https://www.healthcare.digital/single-post/the-healthtech-and-digital-health-landscape-definitions-ecosystem-dynamics-and-10-year-outlook-to",
+          "snippet": "Jul 15, 2025 \u00b7 For HealthTech, the WHO defines it as \"the application of organised knowledge and skills in the form of devices, medicines, vaccines, procedures, and systems developed to solve a health",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "DallasTechs.us \u2014 Corporate Texas, Engineered",
+          "link": "https://dallastechs.us/",
+          "snippet": "Corporate Texas \u00b7 Enterprise Central. Every Tech. One Dallas.HealthTech 154 co. Revenue cycle, clinical SaaS, and the payer-provider tech layer built around McKesson, Tenet, and Baylor Scott & White.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Healthtech distribution and sales channels... - FasterCapital",
+          "link": "https://fastercapital.com/content/Healthtech-distribution-and-sales-channels--Healthtech-Distribution-Trends--What-Startups-Need-to-Know.html",
+          "snippet": "As a result, healthtech startups face both challenges and opportunities in distributing and selling their products and services to various stakeholders in the healthcare ecosystem. In this section, we",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Pune, Maharashtra Healthtech Companies - Built In Pune",
+          "link": "https://builtinpune.in/companies/type/healthtech-companies",
+          "snippet": "Check out this list of the top Healthtech companies in Pune, Maharashtra. See company benefits, info, interviews and more at Built In Pune.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "HTBA | Bioactive Chemicals & Healthtech Bioactives Company",
+          "link": "https://htba.com/",
+          "snippet": "Source premium bioactive chemicals from HTBA, a bioactive nutritional company. We supply healthtech bioactives driven by biotechnology sustainability.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Health Tech International Distributors | Pharmaceutical Wholesale",
+          "link": "https://www.healthtech-intl.com/",
+          "snippet": "Discover reliable pharmaceutical wholesale services with Health Tech International Distributors. We specialize in supplying high-quality medications, ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "linkkhealthtech",
+          "link": "https://linkkhealthtech.com/",
+          "snippet": "Linkk HealthTech is India's first truly integrated emergency network. We are bridging the gap between pharmacies, ambulances, and hospitals to deliver ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "5 Top HealthTech Startups developing Vaccine Distribution Solutions",
+          "link": "https://www.startus-insights.com/innovators-guide/discover-5-top-healthtech-startups-developing-vaccine-distribution-solutions/",
+          "snippet": "Discover 5 global startups & scaleups in this data-driven report & learn how their vaccine distribution solutions impact your business!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "HealthTech Partners Global - LinkedIn",
+          "link": "https://www.linkedin.com/company/healthtech-partners-global-llc/",
+          "snippet": "Mission driven medical device distributor passionate about supporting rehabilitation outcomes and its partners. Guiding global healthcare innovators through strategic, seamless, and successful ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Amplifon Competitors and Alternatives | Craft.co",
+          "link": "https://craft.co/amplifon/competitors",
+          "snippet": "Healthcare distribution healthtech medical diagnostics.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Viegreen Trading Pte. Ltd. | LinkedIn",
+          "link": "https://www.linkedin.com/company/viegreen-trading-pte--ltd-/",
+          "snippet": "Primary activity: Import and distribution of medical devices. We source innovative products worldwide to cater to the Singapore and South_east Asia Markets. Our focus is on wearables, healthtech, well",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "BiOptic Inc.",
+          "link": "https://www.bioptic.com.tw/",
+          "snippet": "Distributors. Partners. Investors. Corporate Governance.BiOptic is honored to represent Taiwan at the Taiwan Smart Medical & HealthTech Expo, Geneva 2026, taking place alongside the 79th World Health ",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "Healthtech service providers official site",
+      "level": "L2",
+      "result_count": 22,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "HealthTech Solutions | Healthcare Technology Solutions",
+          "link": "https://healthtechsolutions.com/",
+          "snippet": "We help state & federal health and human services find a path forward with healthcare technology services & products designed to \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What exactly is HealthTech? What is the difference between Digital ...",
+          "link": "https://www.healthcare.digital/single-post/what-exactly-is-healthtech-what-is-the-difference-between-digital-health-and-healthtech",
+          "snippet": "Jul 22, 2023 \u00b7 HealthTech is defined by the World Health Organisation (WHO) as \u2018the application of organised knowledge and skills in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Healthtech Hub",
+          "link": "https://hub.ht1.uk/",
+          "snippet": "We use cookies to collect feedback and send information about how our site is used. You can find out more here. Let us know if this \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Healthcare Technology News & Trends | HealthTech Magazine",
+          "link": "https://healthtechmagazine.net/",
+          "snippet": "HealthTech Magazine explores technology and healthcare issues relevant to IT leaders and managers at healthcare organizations \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "HealthTech \u2013 The best independently owned rural hospital \u2026",
+          "link": "https://www.health-tech.us/",
+          "snippet": "HealthTech consultants provide a comprehensive margin improvement assessment focused on identifying internal strengths and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "World's Top HealthTech Companies of 2025 - TIME",
+          "link": "https://time.com/7318020/worlds-top-healthtech-companies-2025/",
+          "snippet": "Sep 18, 2025 \u00b7 To determine the world\u2019s top health tech companies in 2025, TIME partnered with Statista to conduct a global analysis \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Healthtech Industry: A Comprehensive Overview - Aloa",
+          "link": "https://aloa.co/blog/healthtech-industry-a-comprehensive-overview",
+          "snippet": "Jan 30, 2026 \u00b7 As this healthtech IT industry overview shows, AI and other frontier technologies are redefining how healthtech is \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Home | Healthtech Consultants",
+          "link": "https://www.healthtech.ca/",
+          "snippet": "As a Canadian-founded healthcare consulting firm with over 40 years of experience across Canada, we help plan, implement, and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Healthcare Technology: What It Is and How It\u2019s Used | Built In",
+          "link": "https://builtin.com/healthcare-technology",
+          "snippet": "Healthcare technology, or \u201chealthtech,\u201d refers to the use of technologies developed for the purpose of improving any and all aspects \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Patient Scheduling, E-Prescribing & OpenEMR Hosting | HealthTech",
+          "link": "https://healthtechintl.com/",
+          "snippet": "HealthTech helps independent physicians, clinics, and urgent care centers with online patient scheduling, Surescripts-certified EPCS e-prescribing, and managed OpenEMR EHR hosting. HIPAA-ready tools s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "HealthTech IT | Premium Healthcare IT Services",
+          "link": "https://www.healthtechit.com/",
+          "snippet": "HealthTech IT provides premium managed IT services for the healthcare industry. Over 10 years of experience serving medical facilities nationwide with HIPAA-compliant solutions.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Healthcare Software Solutions | Healthtech Consultants | H3Tech",
+          "link": "https://www.h3t.co/",
+          "snippet": "H3Tech delivers customized healthcare software development and strategic consulting services designed to meet the evolving needs of the modern healthcare ecosystem. Whether you're an organization in h",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "HOME | Healthtech",
+          "link": "https://www.healthtechassociates.com/",
+          "snippet": "Jake works with healthcare providers and physicians across the Continuum of Care in Acute, Post-Acute, Long-Term and Outpatient care settings to enable technologies to improve patient outcomes.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Reveal HealthTech - - Healthcare AI Consulting & Digital Health Solutions",
+          "link": "https://revealhealthtech.com/",
+          "snippet": "Reveal HealthTech helps healthcare and life sciences organizations build HIPAA-compliant AI, cloud, and digital health solutions that accelerate innovation and outcomes.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "HealthTech Services | 200+ Clients Served | Pangea.ai",
+          "link": "https://pangea.ai/ps/healthtech-software-development",
+          "snippet": "HealthTech software development services. Build high-performing HealthTech applications with a top 7% service providers. Get started.Our network of HealthTech agencies provide end-to-end services cove",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "KAPSLY Service Partners",
+          "link": "https://www.kapsly.com/servicepartners",
+          "snippet": "We work with vetted HealthTech service providers.For international Service Providers with the capacity to execute large-scale projects and an appetite for startup ventures.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Zaynax Health: Revolutionising digital healthtech services in...",
+          "link": "https://www.thedailystar.net/supplements/smart-bangladesh-inclusive-tomorrow/news/zaynax-health-revolutionising-digital-healthtech-services-bangladesh-3158476",
+          "snippet": "Zaynax Health is a 360-degree healthtech solution provider that bridges the gap between healthcare providers and health service seekers. Zaynax Health provides all spectrums of healthcare under one pl",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Potential challenges and opportunities for Nigerian healthtech",
+          "link": "https://techcabal.com/2023/01/19/potential-challenges-and-opportunities-for-nigerian-healthtech-in-2023/",
+          "snippet": "In 2023, healthtech service providers will have to acknowledge the dwindling numbers of healthcare professionals in Nigeria and across Africa in the country and thus optimize their business operations",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Entering the European market for healthtech | CBI",
+          "link": "https://www.cbi.eu/market-information/outsourcing-itobpo/healthtech/market-entry",
+          "snippet": "Examples of healthtech service providers: HealthTechIndia \u2013 an India-based IT company that provides reliable, cost-effective, result-oriented services for very demanding and internet-savvy clients in ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Healthtech as a service: Marketing Healthtech... - FasterCapital",
+          "link": "https://fastercapital.com/content/Healthtech-as-a-service--Marketing-Healthtech-Solutions--Leveraging-the-Service-Model-for-Business-Growth.html",
+          "snippet": "A healthtech service provider might partner with a well-known non-profit organization to promote health education, thereby gaining trust through association. Through these strategic partnerships, heal",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nigeria's WellaHealth is expanding its healthtech service to Kenya",
+          "link": "https://www.techloy.com/wellahealth-expands-to-kenya/",
+          "snippet": "The platform, which is a mobile health platform that connects patients with doctors for consultations, prescriptions, and lab test results, provides access to other health services, such as health ins",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Innovations in Healthcare Technology | Health Tech Partners",
+          "link": "https://healthtechpartnersglobal.com/",
+          "snippet": "At HealthTech Partners Global, he is instrumental in building high\u2011impact partnerships, expanding provider access to robotic rehabilitation, and advancing the company's mission to improve functional o",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "HealthTech Solutions | Healthcare Technology Solutions",
+          "link": "https://healthtechsolutions.com/",
+          "snippet": "We help state & federal health and human services find a path forward with healthcare technology services & products designed to \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What exactly is HealthTech? What is the difference between Digital ...",
+          "link": "https://www.healthcare.digital/single-post/what-exactly-is-healthtech-what-is-the-difference-between-digital-health-and-healthtech",
+          "snippet": "Jul 22, 2023 \u00b7 HealthTech is defined by the World Health Organisation (WHO) as \u2018the application of organised knowledge and skills in \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Healthtech Hub",
+          "link": "https://hub.ht1.uk/",
+          "snippet": "We use cookies to collect feedback and send information about how our site is used. You can find out more here. Let us know if this \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Healthcare Technology News & Trends | HealthTech Magazine",
+          "link": "https://healthtechmagazine.net/",
+          "snippet": "HealthTech Magazine explores technology and healthcare issues relevant to IT leaders and managers at healthcare organizations \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "HealthTech \u2013 The best independently owned rural hospital \u2026",
+          "link": "https://www.health-tech.us/",
+          "snippet": "HealthTech consultants provide a comprehensive margin improvement assessment focused on identifying internal strengths and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "World's Top HealthTech Companies of 2025 - TIME",
+          "link": "https://time.com/7318020/worlds-top-healthtech-companies-2025/",
+          "snippet": "Sep 18, 2025 \u00b7 To determine the world\u2019s top health tech companies in 2025, TIME partnered with Statista to conduct a global analysis \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Healthtech Industry: A Comprehensive Overview - Aloa",
+          "link": "https://aloa.co/blog/healthtech-industry-a-comprehensive-overview",
+          "snippet": "Jan 30, 2026 \u00b7 As this healthtech IT industry overview shows, AI and other frontier technologies are redefining how healthtech is \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Home | Healthtech Consultants",
+          "link": "https://www.healthtech.ca/",
+          "snippet": "As a Canadian-founded healthcare consulting firm with over 40 years of experience across Canada, we help plan, implement, and \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Healthcare Technology: What It Is and How It\u2019s Used | Built In",
+          "link": "https://builtin.com/healthcare-technology",
+          "snippet": "Healthcare technology, or \u201chealthtech,\u201d refers to the use of technologies developed for the purpose of improving any and all aspects \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Patient Scheduling, E-Prescribing & OpenEMR Hosting | HealthTech",
+          "link": "https://healthtechintl.com/",
+          "snippet": "HealthTech helps independent physicians, clinics, and urgent care centers with online patient scheduling, Surescripts-certified EPCS e-prescribing, and managed OpenEMR EHR hosting. HIPAA-ready tools s",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "HealthTech IT | Premium Healthcare IT Services",
+          "link": "https://www.healthtechit.com/",
+          "snippet": "HealthTech IT provides premium managed IT services for the healthcare industry. Over 10 years of experience serving medical facilities nationwide with HIPAA-compliant solutions.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Healthcare Software Solutions | Healthtech Consultants | H3Tech",
+          "link": "https://www.h3t.co/",
+          "snippet": "H3Tech delivers customized healthcare software development and strategic consulting services designed to meet the evolving needs of the modern healthcare ecosystem. Whether you're an organization in h",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "HOME | Healthtech",
+          "link": "https://www.healthtechassociates.com/",
+          "snippet": "Jake works with healthcare providers and physicians across the Continuum of Care in Acute, Post-Acute, Long-Term and Outpatient care settings to enable technologies to improve patient outcomes.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Reveal HealthTech - - Healthcare AI Consulting & Digital Health Solutions",
+          "link": "https://revealhealthtech.com/",
+          "snippet": "Reveal HealthTech helps healthcare and life sciences organizations build HIPAA-compliant AI, cloud, and digital health solutions that accelerate innovation and outcomes.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "HealthTech Services | 200+ Clients Served | Pangea.ai",
+          "link": "https://pangea.ai/ps/healthtech-software-development",
+          "snippet": "HealthTech software development services. Build high-performing HealthTech applications with a top 7% service providers. Get started.Our network of HealthTech agencies provide end-to-end services cove",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "KAPSLY Service Partners",
+          "link": "https://www.kapsly.com/servicepartners",
+          "snippet": "We work with vetted HealthTech service providers.For international Service Providers with the capacity to execute large-scale projects and an appetite for startup ventures.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Zaynax Health: Revolutionising digital healthtech services in...",
+          "link": "https://www.thedailystar.net/supplements/smart-bangladesh-inclusive-tomorrow/news/zaynax-health-revolutionising-digital-healthtech-services-bangladesh-3158476",
+          "snippet": "Zaynax Health is a 360-degree healthtech solution provider that bridges the gap between healthcare providers and health service seekers. Zaynax Health provides all spectrums of healthcare under one pl",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Potential challenges and opportunities for Nigerian healthtech",
+          "link": "https://techcabal.com/2023/01/19/potential-challenges-and-opportunities-for-nigerian-healthtech-in-2023/",
+          "snippet": "In 2023, healthtech service providers will have to acknowledge the dwindling numbers of healthcare professionals in Nigeria and across Africa in the country and thus optimize their business operations",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Entering the European market for healthtech | CBI",
+          "link": "https://www.cbi.eu/market-information/outsourcing-itobpo/healthtech/market-entry",
+          "snippet": "Examples of healthtech service providers: HealthTechIndia \u2013 an India-based IT company that provides reliable, cost-effective, result-oriented services for very demanding and internet-savvy clients in ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Healthtech as a service: Marketing Healthtech... - FasterCapital",
+          "link": "https://fastercapital.com/content/Healthtech-as-a-service--Marketing-Healthtech-Solutions--Leveraging-the-Service-Model-for-Business-Growth.html",
+          "snippet": "A healthtech service provider might partner with a well-known non-profit organization to promote health education, thereby gaining trust through association. Through these strategic partnerships, heal",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nigeria's WellaHealth is expanding its healthtech service to Kenya",
+          "link": "https://www.techloy.com/wellahealth-expands-to-kenya/",
+          "snippet": "The platform, which is a mobile health platform that connects patients with doctors for consultations, prescriptions, and lab test results, provides access to other health services, such as health ins",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Innovations in Healthcare Technology | Health Tech Partners",
+          "link": "https://healthtechpartnersglobal.com/",
+          "snippet": "At HealthTech Partners Global, he is instrumental in building high\u2011impact partnerships, expanding provider access to robotic rehabilitation, and advancing the company's mission to improve functional o",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "search for healthtech product distributors",
+      "level": "market_map",
+      "result_count": 5,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Distributors - Find & Compare Distributors Professionals",
+          "link": "https://www.talkinghealthtech.com/distributors",
+          "snippet": "Search our Distributors database and connect with the best Distributors Professionals and other HealthTech Professionals.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Growing a HealthTech Product Strategically",
+          "link": "https://thejournalofmhealth.com/growing-a-healthtech-product-strategically/",
+          "snippet": "TOPICS:Digital Health Products Expert Opinion HealthTech Growth HealthTech Startups. Growing a HealthTech Product Strategically Image | Shutterstock. May 27, 2021. For all HealthTech startups the rout",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "7 Best No-Code Tools for HealthTech App... - DEV Community",
+          "link": "https://dev.to/momen_hq/7-best-no-code-tools-for-healthtech-app-development-in-2026-55n6",
+          "snippet": "Non-technical founders can scale health tech businesses \u2014 the tools available in 2026 make the product layer achievable without a development team. This article covers seven no-code tools for building",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 5 HealthTech Products You Need In 2024 - Onsurity",
+          "link": "https://www.onsurity.com/blog/healthtech-products-2/",
+          "snippet": "HealthTech Products You Need. Wearable Tech. Wearable tech has quickly emerged as a popular fitness category after they were used for online gaming.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Healthtech product innovation and iteration: Marketing... - FasterCapital",
+          "link": "https://fastercapital.com/content/Healthtech-product-innovation-and-iteration--Marketing-Healthtech-Solutions--Reaching-the-Right-Audience.html",
+          "snippet": "4. Strategies for Effective Healthtech Product Launches. 5. Iterative Design and Development in Healthtech. 6. Building Trust with Healthcare Professionals and Patients. 7. Leveraging Digital Platform",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Distributors - Find & Compare Distributors Professionals",
+          "link": "https://www.talkinghealthtech.com/distributors",
+          "snippet": "Search our Distributors database and connect with the best Distributors Professionals and other HealthTech Professionals.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Growing a HealthTech Product Strategically",
+          "link": "https://thejournalofmhealth.com/growing-a-healthtech-product-strategically/",
+          "snippet": "TOPICS:Digital Health Products Expert Opinion HealthTech Growth HealthTech Startups. Growing a HealthTech Product Strategically Image | Shutterstock. May 27, 2021. For all HealthTech startups the rout",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "7 Best No-Code Tools for HealthTech App... - DEV Community",
+          "link": "https://dev.to/momen_hq/7-best-no-code-tools-for-healthtech-app-development-in-2026-55n6",
+          "snippet": "Non-technical founders can scale health tech businesses \u2014 the tools available in 2026 make the product layer achievable without a development team. This article covers seven no-code tools for building",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 5 HealthTech Products You Need In 2024 - Onsurity",
+          "link": "https://www.onsurity.com/blog/healthtech-products-2/",
+          "snippet": "HealthTech Products You Need. Wearable Tech. Wearable tech has quickly emerged as a popular fitness category after they were used for online gaming.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Healthtech product innovation and iteration: Marketing... - FasterCapital",
+          "link": "https://fastercapital.com/content/Healthtech-product-innovation-and-iteration--Marketing-Healthtech-Solutions--Reaching-the-Right-Audience.html",
+          "snippet": "4. Strategies for Effective Healthtech Product Launches. 5. Iterative Design and Development in Healthtech. 6. Building Trust with Healthcare Professionals and Patients. 7. Leveraging Digital Platform",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P2": {
+      "query": "search for healthcare wholesalers",
+      "level": "market_map",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "\u041f\u043e\u0438\u0441\u043a - \u0412\u041a\u043e\u043d\u0442\u0430\u043a\u0442\u0435",
+          "link": "https://vk.com/search?q=%E7%BB%B3%E7%BC%9A%E6%97%A5%E6%9C%AC",
+          "snippet": "\u0412\u041a\u043e\u043d\u0442\u0430\u043a\u0442\u0435 \u2013 \u0443\u043d\u0438\u0432\u0435\u0440\u0441\u0430\u043b\u044c\u043d\u043e\u0435 \u0441\u0440\u0435\u0434\u0441\u0442\u0432\u043e \u0434\u043b\u044f \u043e\u0431\u0449\u0435\u043d\u0438\u044f \u0438 \u043f\u043e\u0438\u0441\u043a\u0430 \u0434\u0440\u0443\u0437\u0435\u0439 \u0438 \u043e\u0434\u043d\u043e\u043a\u043b\u0430\u0441\u0441\u043d\u0438\u043a\u043e\u0432, \u043a\u043e\u0442\u043e\u0440\u044b\u043c \u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u043e \u043f\u043e\u043b\u044c\u0437\u0443\u044e\u0442\u0441\u044f \u2026",
+          "backend": "searxng"
+        }
+      ],
+      "sample": [
+        {
+          "title": "\u041f\u043e\u0438\u0441\u043a - \u0412\u041a\u043e\u043d\u0442\u0430\u043a\u0442\u0435",
+          "link": "https://vk.com/search?q=%E7%BB%B3%E7%BC%9A%E6%97%A5%E6%9C%AC",
+          "snippet": "\u0412\u041a\u043e\u043d\u0442\u0430\u043a\u0442\u0435 \u2013 \u0443\u043d\u0438\u0432\u0435\u0440\u0441\u0430\u043b\u044c\u043d\u043e\u0435 \u0441\u0440\u0435\u0434\u0441\u0442\u0432\u043e \u0434\u043b\u044f \u043e\u0431\u0449\u0435\u043d\u0438\u044f \u0438 \u043f\u043e\u0438\u0441\u043a\u0430 \u0434\u0440\u0443\u0437\u0435\u0439 \u0438 \u043e\u0434\u043d\u043e\u043a\u043b\u0430\u0441\u0441\u043d\u0438\u043a\u043e\u0432, \u043a\u043e\u0442\u043e\u0440\u044b\u043c \u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u043e \u043f\u043e\u043b\u044c\u0437\u0443\u044e\u0442\u0441\u044f \u2026",
+          "backend": "searxng"
+        }
+      ]
+    },
+    "P3": {
+      "query": "search for healthtech product resellers",
+      "level": "market_map",
+      "result_count": 8,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Top Pune, Maharashtra Healthtech Companies - Built In Pune",
+          "link": "https://builtinpune.in/companies/type/healthtech-companies",
+          "snippet": "Check out this list of the top Healthtech companies in Pune, Maharashtra. See company benefits, info, interviews and more at Built In Pune.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Talking HealthTech | Directory - Find technology solutions for your ...",
+          "link": "https://www.talkinghealthtech.com/directory",
+          "snippet": "Search the largest directory of Health Technology Providers on Talking HealthTech.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Growing a HealthTech Product Strategically",
+          "link": "https://thejournalofmhealth.com/growing-a-healthtech-product-strategically/",
+          "snippet": "TOPICS:Digital Health Products Expert Opinion HealthTech Growth HealthTech Startups. Growing a HealthTech Product Strategically Image | Shutterstock. May 27, 2021. For all HealthTech startups the rout",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "7 Best No-Code Tools for HealthTech App... - DEV Community",
+          "link": "https://dev.to/momen_hq/7-best-no-code-tools-for-healthtech-app-development-in-2026-55n6",
+          "snippet": "Non-technical founders can scale health tech businesses \u2014 the tools available in 2026 make the product layer achievable without a development team. This article covers seven no-code tools for building",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "HealthTech Product Manager Health Technologies - Health...",
+          "link": "https://www.techdirectory.io/health-technology/healthtech-product-manager",
+          "snippet": "HealthTech Product Manager, Health Informatics Specialist, HealthTech Research Scientist. Hallam\u00bb Find Technology Businesses. What do you need: Search by location",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Healthtech customer acquisition: How to attract and... - FasterCapital",
+          "link": "https://fastercapital.com/content/Healthtech-customer-acquisition--How-to-attract-and-retain-customers-and-users-for-your-healthtech-product-or-service.html",
+          "snippet": "Understanding the Healthtech Landscape - Healthtech customer acquisition: How to attract and retain customers and users for your healthtech product or service.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Browse thousands of Healthtech images for design inspiration | Dribbble",
+          "link": "https://dribbble.com/search/healthtech",
+          "snippet": "Explore thousands of high-quality healthtech images on Dribbble. Your resource to get inspired, discover and connect with designers worldwide.Product Landing Page for a Health-Tech Brand design ecomme",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "healthtech \u2013 PBM Infotech",
+          "link": "https://pbminfotech.com/product-tag/healthtech/",
+          "snippet": "Shop. PBM Infotech healthtech. Search for1117 sales. Product categories. HTML Templates 61. Corporate 38.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Top Pune, Maharashtra Healthtech Companies - Built In Pune",
+          "link": "https://builtinpune.in/companies/type/healthtech-companies",
+          "snippet": "Check out this list of the top Healthtech companies in Pune, Maharashtra. See company benefits, info, interviews and more at Built In Pune.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Talking HealthTech | Directory - Find technology solutions for your ...",
+          "link": "https://www.talkinghealthtech.com/directory",
+          "snippet": "Search the largest directory of Health Technology Providers on Talking HealthTech.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Growing a HealthTech Product Strategically",
+          "link": "https://thejournalofmhealth.com/growing-a-healthtech-product-strategically/",
+          "snippet": "TOPICS:Digital Health Products Expert Opinion HealthTech Growth HealthTech Startups. Growing a HealthTech Product Strategically Image | Shutterstock. May 27, 2021. For all HealthTech startups the rout",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "7 Best No-Code Tools for HealthTech App... - DEV Community",
+          "link": "https://dev.to/momen_hq/7-best-no-code-tools-for-healthtech-app-development-in-2026-55n6",
+          "snippet": "Non-technical founders can scale health tech businesses \u2014 the tools available in 2026 make the product layer achievable without a development team. This article covers seven no-code tools for building",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "HealthTech Product Manager Health Technologies - Health...",
+          "link": "https://www.techdirectory.io/health-technology/healthtech-product-manager",
+          "snippet": "HealthTech Product Manager, Health Informatics Specialist, HealthTech Research Scientist. Hallam\u00bb Find Technology Businesses. What do you need: Search by location",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Healthtech customer acquisition: How to attract and... - FasterCapital",
+          "link": "https://fastercapital.com/content/Healthtech-customer-acquisition--How-to-attract-and-retain-customers-and-users-for-your-healthtech-product-or-service.html",
+          "snippet": "Understanding the Healthtech Landscape - Healthtech customer acquisition: How to attract and retain customers and users for your healthtech product or service.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Browse thousands of Healthtech images for design inspiration | Dribbble",
+          "link": "https://dribbble.com/search/healthtech",
+          "snippet": "Explore thousands of high-quality healthtech images on Dribbble. Your resource to get inspired, discover and connect with designers worldwide.Product Landing Page for a Health-Tech Brand design ecomme",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "healthtech \u2013 PBM Infotech",
+          "link": "https://pbminfotech.com/product-tag/healthtech/",
+          "snippet": "Shop. PBM Infotech healthtech. Search for1117 sales. Product categories. HTML Templates 61. Corporate 38.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P4": {
+      "query": "search for healthcare system integrators",
+      "level": "market_map",
+      "result_count": 4,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "iHealthcare - Advantech",
+          "link": "https://www.advantech.com/en/solutions/ihealthcare",
+          "snippet": "iHealthcare. Healthcare Information Terminals for Superior Patient Care.Integrated platforms and AI software, Advantech facilitates healthcare experience and workflow, optimizes self-service retail bu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Integrating Health Information Systems | Integrating Healthcare Associates",
+          "link": "https://www.integratinghealthcare.com/",
+          "snippet": "Focuses on strategic implementations of integrated health information systems to the business and clinical processes within a healthcare organization. Our associates' talents and abilities are aligned",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Healthcare IT Integration Services and Consulting Page",
+          "link": "https://healthcareintegrations.com/services/",
+          "snippet": "Healthcare Integration Services and Consulting help labs, providers, and health tech teams connect EHR, LIS, PACS, RCM, APIs, and other systems. These services usually include interface design, HL7 v2",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Medical All-in-One Panel PC | Rugged & Certified | Estone",
+          "link": "https://www.estonetech.com/products/medical/mc/",
+          "snippet": "Flexible platform configurations available for healthcare system integrators and medical device companies. Explore Estone\u2019s Medical Grade Panel PC Design and Manufacturing Services for customized heal",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "iHealthcare - Advantech",
+          "link": "https://www.advantech.com/en/solutions/ihealthcare",
+          "snippet": "iHealthcare. Healthcare Information Terminals for Superior Patient Care.Integrated platforms and AI software, Advantech facilitates healthcare experience and workflow, optimizes self-service retail bu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Integrating Health Information Systems | Integrating Healthcare Associates",
+          "link": "https://www.integratinghealthcare.com/",
+          "snippet": "Focuses on strategic implementations of integrated health information systems to the business and clinical processes within a healthcare organization. Our associates' talents and abilities are aligned",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Healthcare IT Integration Services and Consulting Page",
+          "link": "https://healthcareintegrations.com/services/",
+          "snippet": "Healthcare Integration Services and Consulting help labs, providers, and health tech teams connect EHR, LIS, PACS, RCM, APIs, and other systems. These services usually include interface design, HL7 v2",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Medical All-in-One Panel PC | Rugged & Certified | Estone",
+          "link": "https://www.estonetech.com/products/medical/mc/",
+          "snippet": "Flexible platform configurations available for healthcare system integrators and medical device companies. Explore Estone\u2019s Medical Grade Panel PC Design and Manufacturing Services for customized heal",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P5": {
+      "query": "search for healthtech service providers",
+      "level": "market_map",
+      "result_count": 13,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "HealthTech Services | 200+ Clients Served | Pangea.ai",
+          "link": "https://client-app-us-cb7e01ca3b21.herokuapp.com/ps/healthtech-software-development",
+          "snippet": "HealthTech software development services. Build high-performing HealthTech applications with a top 7% service providers. Get started. 4.9.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Entering the European market for healthtech | CBI",
+          "link": "https://www.cbi.eu/market-information/outsourcing-itobpo/healthtech/market-entry",
+          "snippet": "Examples of healthtech service providers: HealthTechIndia \u2013 an India-based IT company that provides reliable, cost-effective, result-oriented services for very demanding and internet-savvy clients in ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "AppSec as a Service for HealthTech SaaS... - Abricto Security",
+          "link": "https://abrictosecurity.com/appsec-as-a-service-for-healthtech-saas-companies/",
+          "snippet": "Introduction In the world of HealthTech, keeping electronic health records (EHR), telemedicine platforms, and patient management systems secure is a challenging issue. That\u2019s where AppSec as a Service",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Providing the Best Home Care Service to Aging Adults | Honor",
+          "link": "https://www.honorcare.com/",
+          "snippet": "Learn how Honor's highly trained Care Professionals provide the best, most compassionate home care services to aging adults in their own homes.Honor Technology is reshaping the future of aging care, l",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Octopus Search",
+          "link": "https://octopus-search.com/",
+          "snippet": "Specialist search for HealthTech, MedTech and TechBio companies building AI driven healthcare platforms and regulated medical software.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Patient Scheduling, E-Prescribing & OpenEMR Hosting | HealthTech",
+          "link": "https://healthtechintl.com/",
+          "snippet": "HealthTech helps independent physicians, clinics, and urgent care centers with online patient scheduling, Surescripts-certified EPCS e-prescribing, and managed OpenEMR EHR hosting.Serving Healthcare P",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Potential challenges and opportunities for Nigerian healthtech",
+          "link": "https://techcabal.com/2023/01/19/potential-challenges-and-opportunities-for-nigerian-healthtech-in-2023/",
+          "snippet": "Search.In 2023, healthtech service providers will have to acknowledge the dwindling numbers of healthcare professionals in Nigeria and across Africa in the country and thus optimize their business ope",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "AIaaS: How to develop and sell an artificial intelligence as a service...",
+          "link": "https://fastercapital.com/content/AIaaS--How-to-develop-and-sell-an-artificial-intelligence-as-a-service-for-healthtech.html",
+          "snippet": "4. Key Considerations: One of the most challenging and exciting aspects of developing an AIaaS (Artificial Intelligence as a Service) for healthtech is building the AI solution itself.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Healthcare IT Service Companies: Top Firms Ranked [2026]",
+          "link": "https://www.esparkinfo.com/healthcare/top-companies",
+          "snippet": "Why Healthcare IT Service Companies Are Now Critical for Modern Healthcare Systems Healthcare organizations are under pressure to improve patient care quality, improve operations and meet rising patie",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Health Technology Providers - Find & Compare HealthTech Professionals",
+          "link": "https://www.talkinghealthtech.com/sitesearch",
+          "snippet": "Search our HealthTech database and connect with top rated Health Technology Providers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Talking HealthTech | Directory - Find technology solutions for your ...",
+          "link": "https://www.talkinghealthtech.com/directory",
+          "snippet": "Search the largest directory of Health Technology Providers on Talking HealthTech.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Access Healthcare Named in Top 100 Healthcare... - AI-Tech Park",
+          "link": "https://ai-techpark.com/access-healthcare-named-in-top-100-healthcare-technology-companies/",
+          "snippet": "Access Healthcare, leading technology and business process service provider, has been named in the Top 100 Healthcare Technology Companies of 2022.aitechpark news health care services health tech comp",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Healthcare Technology Report. | The Healthcare Technology...",
+          "link": "https://thehealthcaretechnologyreport.com/",
+          "snippet": "Search for articles and insights about HealthTech, trends, and industry news.The company provides an integrated healthcare platform that combines navigation, virtual care, and specialty services to he",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "HealthTech Services | 200+ Clients Served | Pangea.ai",
+          "link": "https://client-app-us-cb7e01ca3b21.herokuapp.com/ps/healthtech-software-development",
+          "snippet": "HealthTech software development services. Build high-performing HealthTech applications with a top 7% service providers. Get started. 4.9.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Entering the European market for healthtech | CBI",
+          "link": "https://www.cbi.eu/market-information/outsourcing-itobpo/healthtech/market-entry",
+          "snippet": "Examples of healthtech service providers: HealthTechIndia \u2013 an India-based IT company that provides reliable, cost-effective, result-oriented services for very demanding and internet-savvy clients in ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "AppSec as a Service for HealthTech SaaS... - Abricto Security",
+          "link": "https://abrictosecurity.com/appsec-as-a-service-for-healthtech-saas-companies/",
+          "snippet": "Introduction In the world of HealthTech, keeping electronic health records (EHR), telemedicine platforms, and patient management systems secure is a challenging issue. That\u2019s where AppSec as a Service",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Providing the Best Home Care Service to Aging Adults | Honor",
+          "link": "https://www.honorcare.com/",
+          "snippet": "Learn how Honor's highly trained Care Professionals provide the best, most compassionate home care services to aging adults in their own homes.Honor Technology is reshaping the future of aging care, l",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Octopus Search",
+          "link": "https://octopus-search.com/",
+          "snippet": "Specialist search for HealthTech, MedTech and TechBio companies building AI driven healthcare platforms and regulated medical software.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Patient Scheduling, E-Prescribing & OpenEMR Hosting | HealthTech",
+          "link": "https://healthtechintl.com/",
+          "snippet": "HealthTech helps independent physicians, clinics, and urgent care centers with online patient scheduling, Surescripts-certified EPCS e-prescribing, and managed OpenEMR EHR hosting.Serving Healthcare P",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Potential challenges and opportunities for Nigerian healthtech",
+          "link": "https://techcabal.com/2023/01/19/potential-challenges-and-opportunities-for-nigerian-healthtech-in-2023/",
+          "snippet": "Search.In 2023, healthtech service providers will have to acknowledge the dwindling numbers of healthcare professionals in Nigeria and across Africa in the country and thus optimize their business ope",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "AIaaS: How to develop and sell an artificial intelligence as a service...",
+          "link": "https://fastercapital.com/content/AIaaS--How-to-develop-and-sell-an-artificial-intelligence-as-a-service-for-healthtech.html",
+          "snippet": "4. Key Considerations: One of the most challenging and exciting aspects of developing an AIaaS (Artificial Intelligence as a Service) for healthtech is building the AI solution itself.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Healthcare IT Service Companies: Top Firms Ranked [2026]",
+          "link": "https://www.esparkinfo.com/healthcare/top-companies",
+          "snippet": "Why Healthcare IT Service Companies Are Now Critical for Modern Healthcare Systems Healthcare organizations are under pressure to improve patient care quality, improve operations and meet rising patie",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Health Technology Providers - Find & Compare HealthTech Professionals",
+          "link": "https://www.talkinghealthtech.com/sitesearch",
+          "snippet": "Search our HealthTech database and connect with top rated Health Technology Providers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Talking HealthTech | Directory - Find technology solutions for your ...",
+          "link": "https://www.talkinghealthtech.com/directory",
+          "snippet": "Search the largest directory of Health Technology Providers on Talking HealthTech.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Access Healthcare Named in Top 100 Healthcare... - AI-Tech Park",
+          "link": "https://ai-techpark.com/access-healthcare-named-in-top-100-healthcare-technology-companies/",
+          "snippet": "Access Healthcare, leading technology and business process service provider, has been named in the Top 100 Healthcare Technology Companies of 2022.aitechpark news health care services health tech comp",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Healthcare Technology Report. | The Healthcare Technology...",
+          "link": "https://thehealthcaretechnologyreport.com/",
+          "snippet": "Search for articles and insights about HealthTech, trends, and industry news.The company provides an integrated healthcare platform that combines navigation, virtual care, and specialty services to he",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "search for healthtech channel partners",
+      "level": "market_map",
+      "result_count": 8,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Innovations in Healthcare Technology | Health Tech Partners",
+          "link": "https://healthtechpartnersglobal.com/",
+          "snippet": "At HealthTech Partners Global, he is instrumental in building high\u2011impact partnerships, expanding provider access to robotic rehabilitation, and advancing the company's mission to improve functional o",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Talking HealthTech | Directory - Find technology solutions for your ...",
+          "link": "https://www.talkinghealthtech.com/directory",
+          "snippet": "Search the largest directory of Health Technology Providers on Talking HealthTech.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Channel Partner Manager - Meeveem",
+          "link": "https://www.meeveem.com/career-hub/roles-library-healthtech/channel-partner-manager",
+          "snippet": "Learn what a Channel Partner Manager does in UK HealthTech, key responsibilities, required skills, and realistic salary ranges across levels and locations.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Healthtech distribution and sales channels... - FasterCapital",
+          "link": "https://fastercapital.com/content/Healthtech-distribution-and-sales-channels--Healthtech-Distribution-Trends--What-Startups-Need-to-Know.html",
+          "snippet": "Therefore, healthtech startups need to understand the dynamics and trends of healthtech distribution and sales channels, in order to succeed in this competitive and complex market.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Digital Marketing for HealthTech Companies UK 2026",
+          "link": "https://martechunion.com/digital-marketing-for-healthtech-companies-uk/",
+          "snippet": "Search Engine Optimisation for HealthTech CompaniesKeyword strategy for HealthTech SEOIt is the channel that builds long-term visibility for the buyers who are actively searching for...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "HealthTech news and analysis | TechCrunch",
+          "link": "https://techcrunch.com/tag/healthtech/",
+          "snippet": "The latest in health technology (HealthTech) news, analysis, and more. TechCrunch covers the technology, startups, and founders building the future of health technology.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Providing the Best Home Care Service to Aging Adults | Honor",
+          "link": "https://www.honorcare.com/",
+          "snippet": "Honor Technology is reshaping the future of aging care, leading the way for healthtech innovation, combined with a human touch. Our brands provide goods and services that equip aging adults to live on",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "From Onboarding to Wellness: The Advantages of Drip... - WebEngage",
+          "link": "https://webengage.com/blog/advantages-of-drip-campaigns-in-healthtech/",
+          "snippet": "For Healthtech firms, drip campaigns act as an invaluable conduit to engage users on their health and wellness journey. These campaigns can be specifically tailored to guide users through various stag",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Innovations in Healthcare Technology | Health Tech Partners",
+          "link": "https://healthtechpartnersglobal.com/",
+          "snippet": "At HealthTech Partners Global, he is instrumental in building high\u2011impact partnerships, expanding provider access to robotic rehabilitation, and advancing the company's mission to improve functional o",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Talking HealthTech | Directory - Find technology solutions for your ...",
+          "link": "https://www.talkinghealthtech.com/directory",
+          "snippet": "Search the largest directory of Health Technology Providers on Talking HealthTech.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Channel Partner Manager - Meeveem",
+          "link": "https://www.meeveem.com/career-hub/roles-library-healthtech/channel-partner-manager",
+          "snippet": "Learn what a Channel Partner Manager does in UK HealthTech, key responsibilities, required skills, and realistic salary ranges across levels and locations.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Healthtech distribution and sales channels... - FasterCapital",
+          "link": "https://fastercapital.com/content/Healthtech-distribution-and-sales-channels--Healthtech-Distribution-Trends--What-Startups-Need-to-Know.html",
+          "snippet": "Therefore, healthtech startups need to understand the dynamics and trends of healthtech distribution and sales channels, in order to succeed in this competitive and complex market.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Digital Marketing for HealthTech Companies UK 2026",
+          "link": "https://martechunion.com/digital-marketing-for-healthtech-companies-uk/",
+          "snippet": "Search Engine Optimisation for HealthTech CompaniesKeyword strategy for HealthTech SEOIt is the channel that builds long-term visibility for the buyers who are actively searching for...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "HealthTech news and analysis | TechCrunch",
+          "link": "https://techcrunch.com/tag/healthtech/",
+          "snippet": "The latest in health technology (HealthTech) news, analysis, and more. TechCrunch covers the technology, startups, and founders building the future of health technology.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Providing the Best Home Care Service to Aging Adults | Honor",
+          "link": "https://www.honorcare.com/",
+          "snippet": "Honor Technology is reshaping the future of aging care, leading the way for healthtech innovation, combined with a human touch. Our brands provide goods and services that equip aging adults to live on",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "From Onboarding to Wellness: The Advantages of Drip... - WebEngage",
+          "link": "https://webengage.com/blog/advantages-of-drip-campaigns-in-healthtech/",
+          "snippet": "For Healthtech firms, drip campaigns act as an invaluable conduit to engage users on their health and wellness journey. These campaigns can be specifically tailored to guide users through various stag",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P7": {
+      "query": "healthtech product distributors official site",
+      "level": "discovery",
+      "result_count": 7,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Healthtech",
+          "link": "https://www.dittofeed.com/healthtech",
+          "snippet": "Get updates on product features & bug fixes. Demo App.Healthtech. Offer messaging features to users without the maintenance headache. Self-host for easy HIPAA compliance.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "10 Best Healthtech Product Design Agencies That Drive Results...",
+          "link": "https://bricxlabs.com/ux-agencies/best-healthtech-product-design-agencies",
+          "snippet": "Looking for healthtech product design agencies agencies? We benchmarked 57+ agencies globally and handpicked the 10 best based on pricing, process, and proven results.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 5 HealthTech Products You Need In 2024 - Onsurity",
+          "link": "https://www.onsurity.com/blog/healthtech-products-2/",
+          "snippet": "But not all products are equally popular, some are still an emerging market while others have become well known to consumers. Here are seven HealthTech products that you need to have to stay fit and h",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "HealthTech Product Manager Health Technologies - Health...",
+          "link": "https://www.techdirectory.io/health-technology/healthtech-product-manager",
+          "snippet": "Health Technology Consultant, HealthTech Product Manager, HealthTech Solutions Architect. New YorkSpecialties: HealthTech Product Manager, Health Informatics Specialist, HealthTech Research Scientist.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "7 Best No-Code Tools for HealthTech App Development in 2026",
+          "link": "https://momen.app/blogs/7-best-no-code-tools-for-healthtech-app-development-in-2026/",
+          "snippet": "Build a HealthTech app without code in 2026. Compare the 7 best no-code tools for health technology startups \u2014 from full-stack builders with HIPAA considerations and patient data management to telehea",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Growing a HealthTech Product Strategically",
+          "link": "https://thejournalofmhealth.com/growing-a-healthtech-product-strategically/",
+          "snippet": "Home Digital Health. Growing a HealthTech Product Strategically.Best practices for HealthTech startups. Arguably the most important first step in growing a digital health product strategically is buil",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Healthtech product development and launch... - FasterCapital",
+          "link": "https://fastercapital.com/content/Healthtech-product-development-and-launch--Disrupting-Healthcare--How-Healthtech-Startups-are-Changing-the-Game.html",
+          "snippet": "Creating User Centric Healthtech Products - Healthtech product development and launch: Disrupting Healthcare: How Healthtech Startups are Changing the Game.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Healthtech",
+          "link": "https://www.dittofeed.com/healthtech",
+          "snippet": "Get updates on product features & bug fixes. Demo App.Healthtech. Offer messaging features to users without the maintenance headache. Self-host for easy HIPAA compliance.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "10 Best Healthtech Product Design Agencies That Drive Results...",
+          "link": "https://bricxlabs.com/ux-agencies/best-healthtech-product-design-agencies",
+          "snippet": "Looking for healthtech product design agencies agencies? We benchmarked 57+ agencies globally and handpicked the 10 best based on pricing, process, and proven results.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 5 HealthTech Products You Need In 2024 - Onsurity",
+          "link": "https://www.onsurity.com/blog/healthtech-products-2/",
+          "snippet": "But not all products are equally popular, some are still an emerging market while others have become well known to consumers. Here are seven HealthTech products that you need to have to stay fit and h",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "HealthTech Product Manager Health Technologies - Health...",
+          "link": "https://www.techdirectory.io/health-technology/healthtech-product-manager",
+          "snippet": "Health Technology Consultant, HealthTech Product Manager, HealthTech Solutions Architect. New YorkSpecialties: HealthTech Product Manager, Health Informatics Specialist, HealthTech Research Scientist.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "7 Best No-Code Tools for HealthTech App Development in 2026",
+          "link": "https://momen.app/blogs/7-best-no-code-tools-for-healthtech-app-development-in-2026/",
+          "snippet": "Build a HealthTech app without code in 2026. Compare the 7 best no-code tools for health technology startups \u2014 from full-stack builders with HIPAA considerations and patient data management to telehea",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Growing a HealthTech Product Strategically",
+          "link": "https://thejournalofmhealth.com/growing-a-healthtech-product-strategically/",
+          "snippet": "Home Digital Health. Growing a HealthTech Product Strategically.Best practices for HealthTech startups. Arguably the most important first step in growing a digital health product strategically is buil",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Healthtech product development and launch... - FasterCapital",
+          "link": "https://fastercapital.com/content/Healthtech-product-development-and-launch--Disrupting-Healthcare--How-Healthtech-Startups-are-Changing-the-Game.html",
+          "snippet": "Creating User Centric Healthtech Products - Healthtech product development and launch: Disrupting Healthcare: How Healthtech Startups are Changing the Game.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

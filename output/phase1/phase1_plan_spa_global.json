@@ -1,0 +1,2081 @@
+{
+  "phase": 1,
+  "query": "Spa Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T21:44:17.921789+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "spa",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "wellness services",
+    "industry_terms": [
+      "spa services",
+      "wellness products",
+      "spa equipment",
+      "treatment therapies",
+      "relaxation techniques"
+    ],
+    "ecosystem_functions": [
+      "distributing spa products",
+      "reselling wellness services",
+      "providing spa treatments",
+      "integrating spa technologies",
+      "partnering for spa solutions",
+      "wholesaling spa equipment",
+      "servicing spa facilities",
+      "channeling wellness products"
+    ],
+    "interpretation_summary": "The spa market encompasses a variety of wellness and relaxation services, including day spas, resort spas, and medical spas. Key participants include service providers, distributors, and channel partners that facilitate",
+    "relevance_keywords": [
+      "spa treatments",
+      "wellness services",
+      "spa equipment",
+      "relaxation therapies",
+      "spa management systems"
+    ],
+    "negative_keywords": [
+      "gym",
+      "fitness",
+      "hair salon",
+      "nail salon",
+      "unrelated industries"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "SpaFinder",
+        "primary_domain": "spafinder.com",
+        "company_function": "spa services directory and booking"
+      },
+      {
+        "canonical_name": "Massage Envy",
+        "primary_domain": "massageenvy.com",
+        "company_function": "spa and wellness services"
+      },
+      {
+        "canonical_name": "Soothe",
+        "primary_domain": "soothe.com",
+        "company_function": "on-demand massage services"
+      },
+      {
+        "canonical_name": "SpaEquip",
+        "primary_domain": "spaequip.com",
+        "company_function": "spa equipment distributor"
+      },
+      {
+        "canonical_name": "Beauty Systems Group",
+        "primary_domain": "beautysystemsgroup.com",
+        "company_function": "wholesale beauty and spa products"
+      },
+      {
+        "canonical_name": "Canyon Ranch",
+        "primary_domain": "canyonranch.com",
+        "company_function": "luxury wellness resort and spa"
+      },
+      {
+        "canonical_name": "Gharieni Group",
+        "primary_domain": "gharieni.com",
+        "company_function": "spa and wellness equipment manufacturer"
+      },
+      {
+        "canonical_name": "The Red Door Spa",
+        "primary_domain": "thereddoor.com",
+        "company_function": "spa and wellness services"
+      },
+      {
+        "canonical_name": "Luxe Spa",
+        "primary_domain": "luxespas.com",
+        "company_function": "spa services and products",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Spa & Wellness Association",
+        "primary_domain": "spawellness.com",
+        "company_function": "industry association for spa and wellness",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Spa Business",
+        "primary_domain": "spabusiness.com",
+        "company_function": "spa industry insights and resources",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Wellness for Cancer",
+        "primary_domain": "wellnessforcancer.com",
+        "company_function": "wellness services for cancer patients",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Sothys",
+        "primary_domain": "sothys.com",
+        "company_function": "spa product manufacturer",
+        "segment": "Distributors",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Biologique Recherche",
+        "primary_domain": "biologiquerecherche.com",
+        "company_function": "skincare and spa products",
+        "segment": "Distributors",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "spa",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "spa",
+    "include_keywords": [
+      "spa product distributor",
+      "wellness equipment supplier",
+      "day spa services",
+      "medical spa treatments",
+      "spa technology solutions"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The spa market encompasses a variety of wellness and relaxation services, including day spas, resort spas, and medical spas. Key participants include service providers, distributors, and channel partners that facilitate the delivery of spa products and services globally.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Distribution",
+        "description": "This layer involves the distribution of spa products and services through various partners.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Spa product distributors",
+              "Wellness equipment distributors"
+            ],
+            "participant_types": [
+              "distributor",
+              "wholesaler"
+            ],
+            "search_intents": [
+              "spa product distributor official site",
+              "wellness equipment distributor company"
+            ]
+          },
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Online resellers",
+              "Retail resellers"
+            ],
+            "participant_types": [
+              "reseller",
+              "channel partner"
+            ],
+            "search_intents": [
+              "spa product reseller official site",
+              "wellness product reseller company"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L2",
+        "layer_name": "Service Provision",
+        "description": "This layer includes service providers that offer spa treatments and wellness services.",
+        "segments": [
+          {
+            "segment_name": "Service Providers",
+            "sub_segments": [
+              "Day spas",
+              "Medical spas"
+            ],
+            "participant_types": [
+              "service provider"
+            ],
+            "search_intents": [
+              "day spa official site",
+              "medical spa company profile"
+            ]
+          },
+          {
+            "segment_name": "System Integrators",
+            "sub_segments": [
+              "Spa technology integrators",
+              "Wellness system providers"
+            ],
+            "participant_types": [
+              "system integrator"
+            ],
+            "search_intents": [
+              "spa technology integrator official site",
+              "wellness system provider company"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributor",
+        "Wholesaler",
+        "Reseller",
+        "System Integrator",
+        "Service Provider",
+        "Channel Partner"
+      ],
+      "out_of_scope": [
+        "Manufacturers",
+        "Retail Stores",
+        "Health Clubs",
+        "Beauty Salons"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "search for spa product distributors in your region",
+        "sub_sector": "distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "find wellness product resellers online",
+        "sub_sector": "reseller",
+        "layer_id": "L1",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "search for day spas in your area",
+        "sub_sector": "service_provider",
+        "layer_id": "L2",
+        "segment": "Service Providers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "find spa technology integrators",
+        "sub_sector": "system_integrator",
+        "layer_id": "L2",
+        "segment": "System Integrators"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "wellness services",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "spa market companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "spa product distributor corporate site"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "spa service provider official site"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "discovery",
+      "text": "spa product distributor official site"
+    },
+    {
+      "id": "P2",
+      "level": "discovery",
+      "text": "wellness equipment distributor company"
+    },
+    {
+      "id": "P3",
+      "level": "discovery",
+      "text": "spa product reseller official site"
+    },
+    {
+      "id": "P4",
+      "level": "discovery",
+      "text": "wellness product reseller company"
+    },
+    {
+      "id": "P5",
+      "level": "discovery",
+      "text": "day spa official site"
+    },
+    {
+      "id": "P6",
+      "level": "discovery",
+      "text": "medical spa company profile"
+    },
+    {
+      "id": "P7",
+      "level": "discovery",
+      "text": "spa technology integrator official site"
+    },
+    {
+      "id": "P8",
+      "level": "discovery",
+      "text": "wellness system provider company"
+    },
+    {
+      "id": "P9",
+      "level": "discovery",
+      "text": "authorized spa distributor firm official"
+    },
+    {
+      "id": "P10",
+      "level": "discovery",
+      "text": "spa reseller channel partner official"
+    },
+    {
+      "id": "P11",
+      "level": "discovery",
+      "text": "spa services providing spa treatments official website"
+    },
+    {
+      "id": "P12",
+      "level": "discovery",
+      "text": "spa system integrator official website"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "spa market companies official websites",
+      "level": "L0",
+      "result_count": 28,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Luxury Day Spa | Woodhouse Spas",
+          "link": "https://www.woodhousespas.com/",
+          "snippet": "Experience America&#39;s premier Woodhouse day spas offering luxury wellness treatments like massages, facials, nails, body \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The 10 Best Spas Near Me (with Prices & Reviews) - Thervo",
+          "link": "https://thervo.com/spa",
+          "snippet": "Here are the 10 best spas near you rated by your local neighborhood community. Want to see the top 10?",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is a Spa? Ultimate Guide to Types, Benefits & Equipment",
+          "link": "https://www.konmison.com/what-is-a-spa/",
+          "snippet": "Feb 11, 2025 \u00b7 Wondering what is a spa? Discover the true definition, debunk common myths, explore 7 key spa types, and learn the \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Find a Spa, Salon or Fitness Class Near Me | Spafinder",
+          "link": "https://www.spafinder.com/find/",
+          "snippet": "Massage, Beauty, Fitness & Health Spafinder\u2019s merchants offer every imaginable service and class to make you feel healthy, mindful \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Spa and Wellness Locations Near You | Spafinder Gift Cards",
+          "link": "https://www.spafinder.com/",
+          "snippet": "Please enable it to continue.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Spas, Spa Resorts and Retreats \u2013 Spa Index",
+          "link": "https://www.spaindex.com/",
+          "snippet": "Spa Index helps you find the best day spas, hotels, resorts, weight loss retreats, detox retreats, destination spas, recipes, Spa DIY \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is a Spa? Different Types of Spas Defined",
+          "link": "https://wanderingcarol.com/what-is-a-spa/",
+          "snippet": "Nov 26, 2021 \u00b7 What is a spa and what are the different types of spas? From day spas to destination spas, here is a helpful resource.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Find spas, salons, medspas, & fitness classes near me | Spa Week",
+          "link": "https://www.spaweek.com/",
+          "snippet": "Find spas, salons, medspas, & fitness classes near me. Largest spa & wellness directory. Book services today & Shop The Spa & \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "SoJo Spa Club",
+          "link": "https://sojospaclub.com/",
+          "snippet": "Rejuvenate your soul in our heated pools & therapeutic baths, open all year round. Detox in our unique saunas and therapy rooms \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Best Spas Near Me - July 2026: Find Nearby Spas Reviews - Yelp",
+          "link": "https://www.yelp.com/nearme/spas?msockid=0153f772e5996c573227e0efe4666d0d",
+          "snippet": "Find the best Spas near you on Yelp - see all Spas open now.Explore other popular Beauty & Spas near you from over 7 million \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Medical Spa Market Companies",
+          "link": "https://www.skyquestt.com/report/medical-spa-market/companies",
+          "snippet": "The global medical spa market outlook is highly competitive, with players focusing on technology adoption, service diversification, and wellness tourism integration. Key international companies includ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Spamarketing.com - Massage Marketing",
+          "link": "https://spamarketing.com/",
+          "snippet": "Spamarketing.com is the only niche marketing service provider that works exclusively with massage practices.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Spa Vision | Global Leading Spa Equipment Supplier",
+          "link": "https://www.spavision.com/",
+          "snippet": "Spa Vision is a leading supplier of equipment and furniture to the spa, health, beauty and wellness industries. Spa Vision's portfolio includes treatment tables, relaxation furniture, specialist therm",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Spa And Salon Equipment | 20+ Years In Spa Industry",
+          "link": "https://www.spaandequipment.com/",
+          "snippet": "Leading supplier and manufacturer of professional equipment and supplies for spas, medspas, beauty, nail, and tattoo salons. Shop online now!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Spa Supply Solutions - Industry Leading Spa & Wellness Supplier",
+          "link": "https://www.spasupply-solutions.com/",
+          "snippet": "Spa Supply Solutions is a global Spa & Wellness procurement leader. Recognised Professional for completing Luxury Hotel Resort Pre Opening Projects, Palaces & Private Homes with all FFE & OSE.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Pure Spa Direct - Wholesale Salon & Spa Supplies, Equipment",
+          "link": "https://purespadirect.com/",
+          "snippet": "Pure Spa Direct offers 85,000+ top-quality products for salon, spa, massage, wax, and nail professionals. Female-owned and managed, we provide a boutique shopping experience with exceptional service a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home | MeyerSPA",
+          "link": "https://www.meyerspa.com/",
+          "snippet": "As a trusted leader in the national spa industry, MeyerSPA offers over 9,800 products from 275+ top brands. Serving estheticians, day spas, med spas, massage therapists, national chains and franchises",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "American Spa Homepage | American Spa",
+          "link": "https://www.americanspa.com/",
+          "snippet": "An annual Folio Award winner for exceptional editorial, American Spa is the industry authority and reaches wellness leaders and decision-makers with news, business advice, research, trends, and featur",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Spa Mart - Serving the Spa and Wellness, Salon and Spa Education I",
+          "link": "https://thespamart.com/",
+          "snippet": "We are a wholesale distributor exclusive to the Spa and Wellness, Salon and Spa Education Industries.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Spa Market Size, Trends & Forecast, 2026-2033",
+          "link": "https://www.coherentmarketinsights.com/market-insight/spa-resort-market-913",
+          "snippet": "The government supports the expansion of spa resorts and wellness ... Who are the Major Companies in Spa Market. Some of the major key players in ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Spa Market Size, Share, and Trends Analysis Report",
+          "link": "https://www.databridgemarketresearch.com/reports/global-spa-market?srsltid=AfmBOop3IOy0IhcOtRu60xgOGXw-g2GRetrSb1_2OD-YRZWio4edltNr",
+          "snippet": "Companies such as Planet Beach Franchising Corporation (U.S.), Hot Springs Resort & Spa (U.S.), Four Seasons Hotel Limited (Canada), ME SPE Franchising, LLC. ( ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Spa Services Market Size, Share, Trends | Forecast, 2031",
+          "link": "https://www.alliedmarketresearch.com/spa-market",
+          "snippet": "Q5. Which are the top companies in the Spa Services Market?",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Spa Services Market Growth | Global Industry Trends [2034]",
+          "link": "https://www.fortunebusinessinsights.com/spa-services-market-103490",
+          "snippet": "... market. The global market is extremely fragmented, with the top 5 players accounting for ~6.75% of the market share. List of Key Spa Services Companies Profiled.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Spa Services Market Size And Share | Industry Report, 2033",
+          "link": "https://www.grandviewresearch.com/industry-analysis/spa-market",
+          "snippet": "... sites. The company has announced an additional ten projects as part of ... The following are the leading companies in the spa services market. These ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Spa Market Size, Share, Trends and Growth Report 2034",
+          "link": "https://www.imarcgroup.com/spa-market",
+          "snippet": "The spa business is highly female-oriented, with its activities embracing all aspects of services from massage and facials to various skincare and body ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Spa Business news, jobs and magazine | spabusiness.com",
+          "link": "https://www.spabusiness.com/",
+          "snippet": "Spa Jobs, industry news, magazine and products from spabusiness.com.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Spa Industry - Global Wellness Institute",
+          "link": "https://globalwellnessinstitute.org/what-is-wellness/spa-industry/",
+          "snippet": "... spa services. Medical spas: Operate under the full-time, on-site supervision of a licensed healthcare professional, providing comprehensive medical and/or ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Medical Spa Market By Companies - Prophecy Market Insights",
+          "link": "https://www.prophecymarketinsights.com/market_insight/Global-Medical-Spa-Market-By-724/market-companies",
+          "snippet": "Discover the Global Medical Spa Market By Companies in 2023 & 2024 with Prophecy Market Insights Industry Industry Reports. The report provides a forecast ...",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Luxury Day Spa | Woodhouse Spas",
+          "link": "https://www.woodhousespas.com/",
+          "snippet": "Experience America&#39;s premier Woodhouse day spas offering luxury wellness treatments like massages, facials, nails, body \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "The 10 Best Spas Near Me (with Prices & Reviews) - Thervo",
+          "link": "https://thervo.com/spa",
+          "snippet": "Here are the 10 best spas near you rated by your local neighborhood community. Want to see the top 10?",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is a Spa? Ultimate Guide to Types, Benefits & Equipment",
+          "link": "https://www.konmison.com/what-is-a-spa/",
+          "snippet": "Feb 11, 2025 \u00b7 Wondering what is a spa? Discover the true definition, debunk common myths, explore 7 key spa types, and learn the \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Find a Spa, Salon or Fitness Class Near Me | Spafinder",
+          "link": "https://www.spafinder.com/find/",
+          "snippet": "Massage, Beauty, Fitness & Health Spafinder\u2019s merchants offer every imaginable service and class to make you feel healthy, mindful \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Spa and Wellness Locations Near You | Spafinder Gift Cards",
+          "link": "https://www.spafinder.com/",
+          "snippet": "Please enable it to continue.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Spas, Spa Resorts and Retreats \u2013 Spa Index",
+          "link": "https://www.spaindex.com/",
+          "snippet": "Spa Index helps you find the best day spas, hotels, resorts, weight loss retreats, detox retreats, destination spas, recipes, Spa DIY \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "What is a Spa? Different Types of Spas Defined",
+          "link": "https://wanderingcarol.com/what-is-a-spa/",
+          "snippet": "Nov 26, 2021 \u00b7 What is a spa and what are the different types of spas? From day spas to destination spas, here is a helpful resource.",
+          "backend": "searxng"
+        },
+        {
+          "title": "Find spas, salons, medspas, & fitness classes near me | Spa Week",
+          "link": "https://www.spaweek.com/",
+          "snippet": "Find spas, salons, medspas, & fitness classes near me. Largest spa & wellness directory. Book services today & Shop The Spa & \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "SoJo Spa Club",
+          "link": "https://sojospaclub.com/",
+          "snippet": "Rejuvenate your soul in our heated pools & therapeutic baths, open all year round. Detox in our unique saunas and therapy rooms \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Best Spas Near Me - July 2026: Find Nearby Spas Reviews - Yelp",
+          "link": "https://www.yelp.com/nearme/spas?msockid=0153f772e5996c573227e0efe4666d0d",
+          "snippet": "Find the best Spas near you on Yelp - see all Spas open now.Explore other popular Beauty & Spas near you from over 7 million \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Medical Spa Market Companies",
+          "link": "https://www.skyquestt.com/report/medical-spa-market/companies",
+          "snippet": "The global medical spa market outlook is highly competitive, with players focusing on technology adoption, service diversification, and wellness tourism integration. Key international companies includ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Spamarketing.com - Massage Marketing",
+          "link": "https://spamarketing.com/",
+          "snippet": "Spamarketing.com is the only niche marketing service provider that works exclusively with massage practices.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Spa Vision | Global Leading Spa Equipment Supplier",
+          "link": "https://www.spavision.com/",
+          "snippet": "Spa Vision is a leading supplier of equipment and furniture to the spa, health, beauty and wellness industries. Spa Vision's portfolio includes treatment tables, relaxation furniture, specialist therm",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Spa And Salon Equipment | 20+ Years In Spa Industry",
+          "link": "https://www.spaandequipment.com/",
+          "snippet": "Leading supplier and manufacturer of professional equipment and supplies for spas, medspas, beauty, nail, and tattoo salons. Shop online now!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Spa Supply Solutions - Industry Leading Spa & Wellness Supplier",
+          "link": "https://www.spasupply-solutions.com/",
+          "snippet": "Spa Supply Solutions is a global Spa & Wellness procurement leader. Recognised Professional for completing Luxury Hotel Resort Pre Opening Projects, Palaces & Private Homes with all FFE & OSE.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Pure Spa Direct - Wholesale Salon & Spa Supplies, Equipment",
+          "link": "https://purespadirect.com/",
+          "snippet": "Pure Spa Direct offers 85,000+ top-quality products for salon, spa, massage, wax, and nail professionals. Female-owned and managed, we provide a boutique shopping experience with exceptional service a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home | MeyerSPA",
+          "link": "https://www.meyerspa.com/",
+          "snippet": "As a trusted leader in the national spa industry, MeyerSPA offers over 9,800 products from 275+ top brands. Serving estheticians, day spas, med spas, massage therapists, national chains and franchises",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "American Spa Homepage | American Spa",
+          "link": "https://www.americanspa.com/",
+          "snippet": "An annual Folio Award winner for exceptional editorial, American Spa is the industry authority and reaches wellness leaders and decision-makers with news, business advice, research, trends, and featur",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The Spa Mart - Serving the Spa and Wellness, Salon and Spa Education I",
+          "link": "https://thespamart.com/",
+          "snippet": "We are a wholesale distributor exclusive to the Spa and Wellness, Salon and Spa Education Industries.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Spa Market Size, Trends & Forecast, 2026-2033",
+          "link": "https://www.coherentmarketinsights.com/market-insight/spa-resort-market-913",
+          "snippet": "The government supports the expansion of spa resorts and wellness ... Who are the Major Companies in Spa Market. Some of the major key players in ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Spa Market Size, Share, and Trends Analysis Report",
+          "link": "https://www.databridgemarketresearch.com/reports/global-spa-market?srsltid=AfmBOop3IOy0IhcOtRu60xgOGXw-g2GRetrSb1_2OD-YRZWio4edltNr",
+          "snippet": "Companies such as Planet Beach Franchising Corporation (U.S.), Hot Springs Resort & Spa (U.S.), Four Seasons Hotel Limited (Canada), ME SPE Franchising, LLC. ( ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Spa Services Market Size, Share, Trends | Forecast, 2031",
+          "link": "https://www.alliedmarketresearch.com/spa-market",
+          "snippet": "Q5. Which are the top companies in the Spa Services Market?",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Spa Services Market Growth | Global Industry Trends [2034]",
+          "link": "https://www.fortunebusinessinsights.com/spa-services-market-103490",
+          "snippet": "... market. The global market is extremely fragmented, with the top 5 players accounting for ~6.75% of the market share. List of Key Spa Services Companies Profiled.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Spa Services Market Size And Share | Industry Report, 2033",
+          "link": "https://www.grandviewresearch.com/industry-analysis/spa-market",
+          "snippet": "... sites. The company has announced an additional ten projects as part of ... The following are the leading companies in the spa services market. These ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Spa Market Size, Share, Trends and Growth Report 2034",
+          "link": "https://www.imarcgroup.com/spa-market",
+          "snippet": "The spa business is highly female-oriented, with its activities embracing all aspects of services from massage and facials to various skincare and body ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Spa Business news, jobs and magazine | spabusiness.com",
+          "link": "https://www.spabusiness.com/",
+          "snippet": "Spa Jobs, industry news, magazine and products from spabusiness.com.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Spa Industry - Global Wellness Institute",
+          "link": "https://globalwellnessinstitute.org/what-is-wellness/spa-industry/",
+          "snippet": "... spa services. Medical spas: Operate under the full-time, on-site supervision of a licensed healthcare professional, providing comprehensive medical and/or ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Global Medical Spa Market By Companies - Prophecy Market Insights",
+          "link": "https://www.prophecymarketinsights.com/market_insight/Global-Medical-Spa-Market-By-724/market-companies",
+          "snippet": "Discover the Global Medical Spa Market By Companies in 2023 & 2024 with Prophecy Market Insights Industry Industry Reports. The report provides a forecast ...",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "spa product distributor corporate site",
+      "level": "L1",
+      "result_count": 12,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Spa in Vadodara, Body Massage, Hot Stone Massage, Full Body \u2026",
+          "link": "https://www.spainvadodara.com/",
+          "snippet": "Outstanding spa treatments in Facials, Massages, Body Treatment, Makeup, Waxing etc. The relaxing body massage in vadodara has been practiced for thousands of years. Almost all massages involve \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "THE 10 BEST Spas & Wellness Centres in Vadodara",
+          "link": "https://www.tripadvisor.in/Attractions-g297613-Activities-c40-Vadodara_Vadodara_District_Gujarat.html",
+          "snippet": "Dec 21, 2025 \u00b7 Things to do ranked using Tripadvisor data including reviews, ratings, number of page views, and user location. 1. TGS SPA & SALON. The best spa in India. Perfect in all types of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Top Luxury Spa In Vadodara | Best Spa In Vadodara, Gujrat",
+          "link": "https://allurethaispa.in/spa-in-vadodara/",
+          "snippet": "Vadodara Is Home To Some Of The Most Exquisite Spas & Wellness Centres In Vadodara, Designed To Provide Ultimate Comfort & Holistic Healing. These Centers, Including Allure Thai Spa & \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Spa in Vadodara | Elassa Spa & Massage | Spa in Vadodara",
+          "link": "https://spainvadodara.com/spa-in-vadodara.html",
+          "snippet": "Outstanding spa treatments in Facials, Massages, Body Treatment, Makeup, Waxing etc. Come in and select one of our Spa Packages with our top professional Aestheticians and Massage Therapists. \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Oceanic Spa Vadodara, Spa in Old Padra Rd Vadodara",
+          "link": "https://oceanicspa-vadodara.in/",
+          "snippet": "Oceanic Spa therapies will help keep your body running smoothly, so you can run that half marathon or that whole day of meetings. At Oceanic Spa, experience holistic wellness services based on the \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Best Spa in Vadodara | Best Couple Spa in Vadodara",
+          "link": "https://spanest.in/",
+          "snippet": "Spa Nest provides a wide range of services to cater to its diversified customers. We are thrilled to offer customized wellness experiences to our customers, as well as wonderful outstanding facilities",
+          "backend": "searxng"
+        },
+        {
+          "title": "Luxury Spa in Vadodara | Bling Spa- Vadodara",
+          "link": "https://blingspavadodara.in/",
+          "snippet": "Our spa is a haven designed for your comfort, offering a range of luxurious treatments. From restorative massages to holistic treatments, our offerings are tailored to promote deep relaxation and rene",
+          "backend": "searxng"
+        },
+        {
+          "title": "Top Body Massage Centres in Vadodara - Justdial",
+          "link": "https://www.justdial.com/Vadodara/Body-Massage-Centres/nct-10050521",
+          "snippet": "Highly recommend Rahi Spa for a delightful experience! Tony Spa is a hidden gem for beauty and personal care! The services offered are exceptional, ranging from rejuvenating facials to relaxing \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Neung Thai Spa Vadodara Gujrat, Massage in vadodara, Massage \u2026",
+          "link": "https://www.neungthaispa-vd.in/",
+          "snippet": "We are the pioneers in the global wellness space offering best-in-class therapies. We redefine luxury wellness by emphasising holistic experiences and elevating our guests to a euphoria of senses. Our",
+          "backend": "searxng"
+        },
+        {
+          "title": "Spa Nest Vadodara, Spa in Karelibagh Vadodara, Massage Spa in ...",
+          "link": "https://spanest-vadodara.co.in/",
+          "snippet": "At Spa Nest Vadodara, we question the obvious and make our own therapies to overcome disease. Grounded in Ayurveda treatment, spa therapies are custom modified to give therapeutic benefits \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Home - Davey Network",
+          "link": "https://daveywater.com/",
+          "snippet": "Discover Davey, your trusted source for water solutions and related products, including water pumps, pool and spa equipment, commercial pumping solutions, and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Pool Materials and Accessories - C-Piscine",
+          "link": "https://www.c-piscine.com/en/",
+          "snippet": "Descaler. Automatic processing apparatus. Product distributor. Spa.Request a quote easily and quickly on our site before purchasinf any pool materials.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Spa in Vadodara, Body Massage, Hot Stone Massage, Full Body \u2026",
+          "link": "https://www.spainvadodara.com/",
+          "snippet": "Outstanding spa treatments in Facials, Massages, Body Treatment, Makeup, Waxing etc. The relaxing body massage in vadodara has been practiced for thousands of years. Almost all massages involve \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "THE 10 BEST Spas & Wellness Centres in Vadodara",
+          "link": "https://www.tripadvisor.in/Attractions-g297613-Activities-c40-Vadodara_Vadodara_District_Gujarat.html",
+          "snippet": "Dec 21, 2025 \u00b7 Things to do ranked using Tripadvisor data including reviews, ratings, number of page views, and user location. 1. TGS SPA & SALON. The best spa in India. Perfect in all types of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Top Luxury Spa In Vadodara | Best Spa In Vadodara, Gujrat",
+          "link": "https://allurethaispa.in/spa-in-vadodara/",
+          "snippet": "Vadodara Is Home To Some Of The Most Exquisite Spas & Wellness Centres In Vadodara, Designed To Provide Ultimate Comfort & Holistic Healing. These Centers, Including Allure Thai Spa & \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Spa in Vadodara | Elassa Spa & Massage | Spa in Vadodara",
+          "link": "https://spainvadodara.com/spa-in-vadodara.html",
+          "snippet": "Outstanding spa treatments in Facials, Massages, Body Treatment, Makeup, Waxing etc. Come in and select one of our Spa Packages with our top professional Aestheticians and Massage Therapists. \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Oceanic Spa Vadodara, Spa in Old Padra Rd Vadodara",
+          "link": "https://oceanicspa-vadodara.in/",
+          "snippet": "Oceanic Spa therapies will help keep your body running smoothly, so you can run that half marathon or that whole day of meetings. At Oceanic Spa, experience holistic wellness services based on the \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Best Spa in Vadodara | Best Couple Spa in Vadodara",
+          "link": "https://spanest.in/",
+          "snippet": "Spa Nest provides a wide range of services to cater to its diversified customers. We are thrilled to offer customized wellness experiences to our customers, as well as wonderful outstanding facilities",
+          "backend": "searxng"
+        },
+        {
+          "title": "Luxury Spa in Vadodara | Bling Spa- Vadodara",
+          "link": "https://blingspavadodara.in/",
+          "snippet": "Our spa is a haven designed for your comfort, offering a range of luxurious treatments. From restorative massages to holistic treatments, our offerings are tailored to promote deep relaxation and rene",
+          "backend": "searxng"
+        },
+        {
+          "title": "Top Body Massage Centres in Vadodara - Justdial",
+          "link": "https://www.justdial.com/Vadodara/Body-Massage-Centres/nct-10050521",
+          "snippet": "Highly recommend Rahi Spa for a delightful experience! Tony Spa is a hidden gem for beauty and personal care! The services offered are exceptional, ranging from rejuvenating facials to relaxing \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Neung Thai Spa Vadodara Gujrat, Massage in vadodara, Massage \u2026",
+          "link": "https://www.neungthaispa-vd.in/",
+          "snippet": "We are the pioneers in the global wellness space offering best-in-class therapies. We redefine luxury wellness by emphasising holistic experiences and elevating our guests to a euphoria of senses. Our",
+          "backend": "searxng"
+        },
+        {
+          "title": "Spa Nest Vadodara, Spa in Karelibagh Vadodara, Massage Spa in ...",
+          "link": "https://spanest-vadodara.co.in/",
+          "snippet": "At Spa Nest Vadodara, we question the obvious and make our own therapies to overcome disease. Grounded in Ayurveda treatment, spa therapies are custom modified to give therapeutic benefits \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Home - Davey Network",
+          "link": "https://daveywater.com/",
+          "snippet": "Discover Davey, your trusted source for water solutions and related products, including water pumps, pool and spa equipment, commercial pumping solutions, and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Pool Materials and Accessories - C-Piscine",
+          "link": "https://www.c-piscine.com/en/",
+          "snippet": "Descaler. Automatic processing apparatus. Product distributor. Spa.Request a quote easily and quickly on our site before purchasinf any pool materials.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "spa service provider official site",
+      "level": "L2",
+      "result_count": 19,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Spa in Vadodara, Body Massage, Hot Stone Massage, Full Body \u2026",
+          "link": "https://www.spainvadodara.com/",
+          "snippet": "Outstanding spa treatments in Facials, Massages, Body Treatment, Makeup, Waxing etc. The relaxing body massage in vadodara has been practiced for thousands of years. Almost all massages involve \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "THE 10 BEST Spas & Wellness Centres in Vadodara",
+          "link": "https://www.tripadvisor.in/Attractions-g297613-Activities-c40-Vadodara_Vadodara_District_Gujarat.html",
+          "snippet": "Dec 21, 2025 \u00b7 Things to do ranked using Tripadvisor data including reviews, ratings, number of page views, and user location. 1. TGS SPA & SALON. The best spa in India. Perfect in all types of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Top Luxury Spa In Vadodara | Best Spa In Vadodara, Gujrat",
+          "link": "https://allurethaispa.in/spa-in-vadodara/",
+          "snippet": "Vadodara Is Home To Some Of The Most Exquisite Spas & Wellness Centres In Vadodara, Designed To Provide Ultimate Comfort & Holistic Healing. These Centers, Including Allure Thai Spa & \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Spa in Vadodara | Elassa Spa & Massage | Spa in Vadodara",
+          "link": "https://spainvadodara.com/spa-in-vadodara.html",
+          "snippet": "Outstanding spa treatments in Facials, Massages, Body Treatment, Makeup, Waxing etc. Come in and select one of our Spa Packages with our top professional Aestheticians and Massage Therapists. \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Oceanic Spa Vadodara, Spa in Old Padra Rd Vadodara",
+          "link": "https://oceanicspa-vadodara.in/",
+          "snippet": "Oceanic Spa therapies will help keep your body running smoothly, so you can run that half marathon or that whole day of meetings. At Oceanic Spa, experience holistic wellness services based on the \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Best Spa in Vadodara | Best Couple Spa in Vadodara",
+          "link": "https://spanest.in/",
+          "snippet": "Spa Nest provides a wide range of services to cater to its diversified customers. We are thrilled to offer customized wellness experiences to our customers, as well as wonderful outstanding facilities",
+          "backend": "searxng"
+        },
+        {
+          "title": "Luxury Spa in Vadodara | Bling Spa- Vadodara",
+          "link": "https://blingspavadodara.in/",
+          "snippet": "Our spa is a haven designed for your comfort, offering a range of luxurious treatments. From restorative massages to holistic treatments, our offerings are tailored to promote deep relaxation and rene",
+          "backend": "searxng"
+        },
+        {
+          "title": "Top Body Massage Centres in Vadodara - Justdial",
+          "link": "https://www.justdial.com/Vadodara/Body-Massage-Centres/nct-10050521",
+          "snippet": "Highly recommend Rahi Spa for a delightful experience! Tony Spa is a hidden gem for beauty and personal care! The services offered are exceptional, ranging from rejuvenating facials to relaxing \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Neung Thai Spa Vadodara Gujrat, Massage in vadodara, Massage \u2026",
+          "link": "https://www.neungthaispa-vd.in/",
+          "snippet": "We are the pioneers in the global wellness space offering best-in-class therapies. We redefine luxury wellness by emphasising holistic experiences and elevating our guests to a euphoria of senses. Our",
+          "backend": "searxng"
+        },
+        {
+          "title": "Spa Nest Vadodara, Spa in Karelibagh Vadodara, Massage Spa in ...",
+          "link": "https://spanest-vadodara.co.in/",
+          "snippet": "At Spa Nest Vadodara, we question the obvious and make our own therapies to overcome disease. Grounded in Ayurveda treatment, spa therapies are custom modified to give therapeutic benefits \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "TREATMENTS | SpaService Providers",
+          "link": "https://www.spaserviceproviders.com/treatments",
+          "snippet": "HPA Spa Service Providers. HOME. LOCATIONS.Our treatments are seasonal and by appointment only with 24 hour notice. Unfortunately Online booking is temporarily unavailable. Please call the office dire",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "YesMadam: Professional Salon Services at Home",
+          "link": "https://www.yesmadam.com/",
+          "snippet": "No need to step out for a salon visit! Get professional waxing, facials, manicures, pedicures, spa treatments, and more at home with YesMadam's trusted beauticians.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home | Thermaebathspa",
+          "link": "https://www.thermaebathspa.com/",
+          "snippet": "Britain's original natural thermal spa.Welcome to Thermae Batch Spa. Bathe in Britain\u2019s only naturally warm, mineral-rich waters...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "SPA - Definition by AcronymFinder",
+          "link": "https://www.acronymfinder.com/SPA.html",
+          "snippet": "SPA. State Purchasing Agent (various locations).Service Provider Administrator (computing).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dilitown | Dili Town Resort & Spa, Dilijan - Official site",
+          "link": "https://dilitown.am/",
+          "snippet": "Dili Town Resort & SPA offers two spacious and fully equipped conference halls, ideal for team meetings, seminars, and corporate events.Modern audio and video systemsComfortable furnitureHigh-speed in",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "5-Star Spa Da Nang | Save 50% & Free Pick-Up",
+          "link": "https://amorspadanang.com/",
+          "snippet": "Provide massage, spa services, and appointment consultation. Confirm bookings, arrange pick-up, and support you during your visit. Send information about services and promotions (with your consent).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Admission Pass | Info for World Spa, Brooklyn",
+          "link": "https://worldspa.com/admission/",
+          "snippet": "To better serve you and customize your service, each Treatment or Journey is inclusive of a 5-minute consultation period with your service provider.Spa prices are subject to taxation where applicable.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Greenwood Hotel & Spa | Official Website",
+          "link": "http://greenwood.ge/",
+          "snippet": "Greenwood Hotel & Spa is also a pet-friendly hotel, welcoming guests traveling with pets to enjoy a comfortable and relaxing stay together. A Complete Black Sea Escape.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Booksy - hair stylists, barbers, beauticians... book appointments online!",
+          "link": "https://booksy.com/",
+          "snippet": "Booksy - book appointments online. Find & book beauty services like hairdressing, manicure, spa or massage. Check prices & reviews!Pet services. Dental and orthodontics. Health and fitness.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Spa in Vadodara, Body Massage, Hot Stone Massage, Full Body \u2026",
+          "link": "https://www.spainvadodara.com/",
+          "snippet": "Outstanding spa treatments in Facials, Massages, Body Treatment, Makeup, Waxing etc. The relaxing body massage in vadodara has been practiced for thousands of years. Almost all massages involve \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "THE 10 BEST Spas & Wellness Centres in Vadodara",
+          "link": "https://www.tripadvisor.in/Attractions-g297613-Activities-c40-Vadodara_Vadodara_District_Gujarat.html",
+          "snippet": "Dec 21, 2025 \u00b7 Things to do ranked using Tripadvisor data including reviews, ratings, number of page views, and user location. 1. TGS SPA & SALON. The best spa in India. Perfect in all types of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Top Luxury Spa In Vadodara | Best Spa In Vadodara, Gujrat",
+          "link": "https://allurethaispa.in/spa-in-vadodara/",
+          "snippet": "Vadodara Is Home To Some Of The Most Exquisite Spas & Wellness Centres In Vadodara, Designed To Provide Ultimate Comfort & Holistic Healing. These Centers, Including Allure Thai Spa & \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Spa in Vadodara | Elassa Spa & Massage | Spa in Vadodara",
+          "link": "https://spainvadodara.com/spa-in-vadodara.html",
+          "snippet": "Outstanding spa treatments in Facials, Massages, Body Treatment, Makeup, Waxing etc. Come in and select one of our Spa Packages with our top professional Aestheticians and Massage Therapists. \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Oceanic Spa Vadodara, Spa in Old Padra Rd Vadodara",
+          "link": "https://oceanicspa-vadodara.in/",
+          "snippet": "Oceanic Spa therapies will help keep your body running smoothly, so you can run that half marathon or that whole day of meetings. At Oceanic Spa, experience holistic wellness services based on the \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Best Spa in Vadodara | Best Couple Spa in Vadodara",
+          "link": "https://spanest.in/",
+          "snippet": "Spa Nest provides a wide range of services to cater to its diversified customers. We are thrilled to offer customized wellness experiences to our customers, as well as wonderful outstanding facilities",
+          "backend": "searxng"
+        },
+        {
+          "title": "Luxury Spa in Vadodara | Bling Spa- Vadodara",
+          "link": "https://blingspavadodara.in/",
+          "snippet": "Our spa is a haven designed for your comfort, offering a range of luxurious treatments. From restorative massages to holistic treatments, our offerings are tailored to promote deep relaxation and rene",
+          "backend": "searxng"
+        },
+        {
+          "title": "Top Body Massage Centres in Vadodara - Justdial",
+          "link": "https://www.justdial.com/Vadodara/Body-Massage-Centres/nct-10050521",
+          "snippet": "Highly recommend Rahi Spa for a delightful experience! Tony Spa is a hidden gem for beauty and personal care! The services offered are exceptional, ranging from rejuvenating facials to relaxing \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Neung Thai Spa Vadodara Gujrat, Massage in vadodara, Massage \u2026",
+          "link": "https://www.neungthaispa-vd.in/",
+          "snippet": "We are the pioneers in the global wellness space offering best-in-class therapies. We redefine luxury wellness by emphasising holistic experiences and elevating our guests to a euphoria of senses. Our",
+          "backend": "searxng"
+        },
+        {
+          "title": "Spa Nest Vadodara, Spa in Karelibagh Vadodara, Massage Spa in ...",
+          "link": "https://spanest-vadodara.co.in/",
+          "snippet": "At Spa Nest Vadodara, we question the obvious and make our own therapies to overcome disease. Grounded in Ayurveda treatment, spa therapies are custom modified to give therapeutic benefits \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "TREATMENTS | SpaService Providers",
+          "link": "https://www.spaserviceproviders.com/treatments",
+          "snippet": "HPA Spa Service Providers. HOME. LOCATIONS.Our treatments are seasonal and by appointment only with 24 hour notice. Unfortunately Online booking is temporarily unavailable. Please call the office dire",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "YesMadam: Professional Salon Services at Home",
+          "link": "https://www.yesmadam.com/",
+          "snippet": "No need to step out for a salon visit! Get professional waxing, facials, manicures, pedicures, spa treatments, and more at home with YesMadam's trusted beauticians.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home | Thermaebathspa",
+          "link": "https://www.thermaebathspa.com/",
+          "snippet": "Britain's original natural thermal spa.Welcome to Thermae Batch Spa. Bathe in Britain\u2019s only naturally warm, mineral-rich waters...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "SPA - Definition by AcronymFinder",
+          "link": "https://www.acronymfinder.com/SPA.html",
+          "snippet": "SPA. State Purchasing Agent (various locations).Service Provider Administrator (computing).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dilitown | Dili Town Resort & Spa, Dilijan - Official site",
+          "link": "https://dilitown.am/",
+          "snippet": "Dili Town Resort & SPA offers two spacious and fully equipped conference halls, ideal for team meetings, seminars, and corporate events.Modern audio and video systemsComfortable furnitureHigh-speed in",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "5-Star Spa Da Nang | Save 50% & Free Pick-Up",
+          "link": "https://amorspadanang.com/",
+          "snippet": "Provide massage, spa services, and appointment consultation. Confirm bookings, arrange pick-up, and support you during your visit. Send information about services and promotions (with your consent).",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Admission Pass | Info for World Spa, Brooklyn",
+          "link": "https://worldspa.com/admission/",
+          "snippet": "To better serve you and customize your service, each Treatment or Journey is inclusive of a 5-minute consultation period with your service provider.Spa prices are subject to taxation where applicable.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Greenwood Hotel & Spa | Official Website",
+          "link": "http://greenwood.ge/",
+          "snippet": "Greenwood Hotel & Spa is also a pet-friendly hotel, welcoming guests traveling with pets to enjoy a comfortable and relaxing stay together. A Complete Black Sea Escape.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Booksy - hair stylists, barbers, beauticians... book appointments online!",
+          "link": "https://booksy.com/",
+          "snippet": "Booksy - book appointments online. Find & book beauty services like hairdressing, manicure, spa or massage. Check prices & reviews!Pet services. Dental and orthodontics. Health and fitness.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "spa product distributor official site",
+      "level": "discovery",
+      "result_count": 15,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Spa in Vadodara, Body Massage, Hot Stone Massage, Full Body \u2026",
+          "link": "https://www.spainvadodara.com/",
+          "snippet": "Outstanding spa treatments in Facials, Massages, Body Treatment, Makeup, Waxing etc. The relaxing body massage in vadodara has been practiced for thousands of years. Almost all massages involve \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "THE 10 BEST Spas & Wellness Centres in Vadodara",
+          "link": "https://www.tripadvisor.in/Attractions-g297613-Activities-c40-Vadodara_Vadodara_District_Gujarat.html",
+          "snippet": "Dec 21, 2025 \u00b7 Things to do ranked using Tripadvisor data including reviews, ratings, number of page views, and user location. 1. TGS SPA & SALON. The best spa in India. Perfect in all types of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Top Luxury Spa In Vadodara | Best Spa In Vadodara, Gujrat",
+          "link": "https://allurethaispa.in/spa-in-vadodara/",
+          "snippet": "Vadodara Is Home To Some Of The Most Exquisite Spas & Wellness Centres In Vadodara, Designed To Provide Ultimate Comfort & Holistic Healing. These Centers, Including Allure Thai Spa & \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Spa in Vadodara | Elassa Spa & Massage | Spa in Vadodara",
+          "link": "https://spainvadodara.com/spa-in-vadodara.html",
+          "snippet": "Outstanding spa treatments in Facials, Massages, Body Treatment, Makeup, Waxing etc. Come in and select one of our Spa Packages with our top professional Aestheticians and Massage Therapists. \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Oceanic Spa Vadodara, Spa in Old Padra Rd Vadodara",
+          "link": "https://oceanicspa-vadodara.in/",
+          "snippet": "Oceanic Spa therapies will help keep your body running smoothly, so you can run that half marathon or that whole day of meetings. At Oceanic Spa, experience holistic wellness services based on the \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Best Spa in Vadodara | Best Couple Spa in Vadodara",
+          "link": "https://spanest.in/",
+          "snippet": "Spa Nest provides a wide range of services to cater to its diversified customers. We are thrilled to offer customized wellness experiences to our customers, as well as wonderful outstanding facilities",
+          "backend": "searxng"
+        },
+        {
+          "title": "Luxury Spa in Vadodara | Bling Spa- Vadodara",
+          "link": "https://blingspavadodara.in/",
+          "snippet": "Our spa is a haven designed for your comfort, offering a range of luxurious treatments. From restorative massages to holistic treatments, our offerings are tailored to promote deep relaxation and rene",
+          "backend": "searxng"
+        },
+        {
+          "title": "Top Body Massage Centres in Vadodara - Justdial",
+          "link": "https://www.justdial.com/Vadodara/Body-Massage-Centres/nct-10050521",
+          "snippet": "Highly recommend Rahi Spa for a delightful experience! Tony Spa is a hidden gem for beauty and personal care! The services offered are exceptional, ranging from rejuvenating facials to relaxing \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Neung Thai Spa Vadodara Gujrat, Massage in vadodara, Massage \u2026",
+          "link": "https://www.neungthaispa-vd.in/",
+          "snippet": "We are the pioneers in the global wellness space offering best-in-class therapies. We redefine luxury wellness by emphasising holistic experiences and elevating our guests to a euphoria of senses. Our",
+          "backend": "searxng"
+        },
+        {
+          "title": "Spa Nest Vadodara, Spa in Karelibagh Vadodara, Massage Spa in ...",
+          "link": "https://spanest-vadodara.co.in/",
+          "snippet": "At Spa Nest Vadodara, we question the obvious and make our own therapies to overcome disease. Grounded in Ayurveda treatment, spa therapies are custom modified to give therapeutic benefits \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Accord Supplies - Spa Product Distributor | Professional Beauty Supply",
+          "link": "https://accordsupplies.sg/",
+          "snippet": "Geraldine Spa Owner. Effective products at great value when bought in bulk! Michelle Spa Outlet Manager. Detailed workmanship by Accord engineers and staff. The installation of sauna timber panels was",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Products \u2013 Pool Systems Australia",
+          "link": "https://poolsystems.com.au/index.php/products/",
+          "snippet": "our products. Pool Systems is Australia\u2019s leading distributor, supplying the biggest brands and the largest range.If that doesnt work, we can talk about providing your business with a private label to",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Szilvia Hickman - organic spa product distributor Szep Elet | LinkedIn",
+          "link": "https://www.linkedin.com/in/szilvia-hickman",
+          "snippet": "Join to view profile. organic spa product distributor Szep Elet. KVIF. Websites.We are thrilled to celebrate Gary Virden, Spa Director at The Ritz-Carlton, Amelia Island, who has been named Spa Direct",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Pool Materials and Accessories - C-Piscine",
+          "link": "https://www.c-piscine.com/en/",
+          "snippet": "Descaler. Automatic processing apparatus. Product distributor. Spa.Request a quote easily and quickly on our site before purchasinf any pool materials.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "SEVEN | Luxury Car Sales, Car Maintenance & Road Trips",
+          "link": "https://www.sevencarlounge.com/",
+          "snippet": "Seven Gathering. Car SPA. Authorized Distributor. We are the official distributor for Koenigsegg in Saudi Arabia.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Spa in Vadodara, Body Massage, Hot Stone Massage, Full Body \u2026",
+          "link": "https://www.spainvadodara.com/",
+          "snippet": "Outstanding spa treatments in Facials, Massages, Body Treatment, Makeup, Waxing etc. The relaxing body massage in vadodara has been practiced for thousands of years. Almost all massages involve \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "THE 10 BEST Spas & Wellness Centres in Vadodara",
+          "link": "https://www.tripadvisor.in/Attractions-g297613-Activities-c40-Vadodara_Vadodara_District_Gujarat.html",
+          "snippet": "Dec 21, 2025 \u00b7 Things to do ranked using Tripadvisor data including reviews, ratings, number of page views, and user location. 1. TGS SPA & SALON. The best spa in India. Perfect in all types of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Top Luxury Spa In Vadodara | Best Spa In Vadodara, Gujrat",
+          "link": "https://allurethaispa.in/spa-in-vadodara/",
+          "snippet": "Vadodara Is Home To Some Of The Most Exquisite Spas & Wellness Centres In Vadodara, Designed To Provide Ultimate Comfort & Holistic Healing. These Centers, Including Allure Thai Spa & \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Spa in Vadodara | Elassa Spa & Massage | Spa in Vadodara",
+          "link": "https://spainvadodara.com/spa-in-vadodara.html",
+          "snippet": "Outstanding spa treatments in Facials, Massages, Body Treatment, Makeup, Waxing etc. Come in and select one of our Spa Packages with our top professional Aestheticians and Massage Therapists. \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Oceanic Spa Vadodara, Spa in Old Padra Rd Vadodara",
+          "link": "https://oceanicspa-vadodara.in/",
+          "snippet": "Oceanic Spa therapies will help keep your body running smoothly, so you can run that half marathon or that whole day of meetings. At Oceanic Spa, experience holistic wellness services based on the \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Best Spa in Vadodara | Best Couple Spa in Vadodara",
+          "link": "https://spanest.in/",
+          "snippet": "Spa Nest provides a wide range of services to cater to its diversified customers. We are thrilled to offer customized wellness experiences to our customers, as well as wonderful outstanding facilities",
+          "backend": "searxng"
+        },
+        {
+          "title": "Luxury Spa in Vadodara | Bling Spa- Vadodara",
+          "link": "https://blingspavadodara.in/",
+          "snippet": "Our spa is a haven designed for your comfort, offering a range of luxurious treatments. From restorative massages to holistic treatments, our offerings are tailored to promote deep relaxation and rene",
+          "backend": "searxng"
+        },
+        {
+          "title": "Top Body Massage Centres in Vadodara - Justdial",
+          "link": "https://www.justdial.com/Vadodara/Body-Massage-Centres/nct-10050521",
+          "snippet": "Highly recommend Rahi Spa for a delightful experience! Tony Spa is a hidden gem for beauty and personal care! The services offered are exceptional, ranging from rejuvenating facials to relaxing \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Neung Thai Spa Vadodara Gujrat, Massage in vadodara, Massage \u2026",
+          "link": "https://www.neungthaispa-vd.in/",
+          "snippet": "We are the pioneers in the global wellness space offering best-in-class therapies. We redefine luxury wellness by emphasising holistic experiences and elevating our guests to a euphoria of senses. Our",
+          "backend": "searxng"
+        },
+        {
+          "title": "Spa Nest Vadodara, Spa in Karelibagh Vadodara, Massage Spa in ...",
+          "link": "https://spanest-vadodara.co.in/",
+          "snippet": "At Spa Nest Vadodara, we question the obvious and make our own therapies to overcome disease. Grounded in Ayurveda treatment, spa therapies are custom modified to give therapeutic benefits \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Accord Supplies - Spa Product Distributor | Professional Beauty Supply",
+          "link": "https://accordsupplies.sg/",
+          "snippet": "Geraldine Spa Owner. Effective products at great value when bought in bulk! Michelle Spa Outlet Manager. Detailed workmanship by Accord engineers and staff. The installation of sauna timber panels was",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Products \u2013 Pool Systems Australia",
+          "link": "https://poolsystems.com.au/index.php/products/",
+          "snippet": "our products. Pool Systems is Australia\u2019s leading distributor, supplying the biggest brands and the largest range.If that doesnt work, we can talk about providing your business with a private label to",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Szilvia Hickman - organic spa product distributor Szep Elet | LinkedIn",
+          "link": "https://www.linkedin.com/in/szilvia-hickman",
+          "snippet": "Join to view profile. organic spa product distributor Szep Elet. KVIF. Websites.We are thrilled to celebrate Gary Virden, Spa Director at The Ritz-Carlton, Amelia Island, who has been named Spa Direct",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Pool Materials and Accessories - C-Piscine",
+          "link": "https://www.c-piscine.com/en/",
+          "snippet": "Descaler. Automatic processing apparatus. Product distributor. Spa.Request a quote easily and quickly on our site before purchasinf any pool materials.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "SEVEN | Luxury Car Sales, Car Maintenance & Road Trips",
+          "link": "https://www.sevencarlounge.com/",
+          "snippet": "Seven Gathering. Car SPA. Authorized Distributor. We are the official distributor for Koenigsegg in Saudi Arabia.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P2": {
+      "query": "wellness equipment distributor company",
+      "level": "discovery",
+      "result_count": 6,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "WA Wellness | Perth Saunas, Spas & Retreats Guide",
+          "link": "https://wawellness.com.au/",
+          "snippet": "Retreat venues in Western Australia offer inspiring spaces to create unforgettable wellness, yoga, and corporate retreats. From \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Osborne Park - Merse Wellness",
+          "link": "https://www.mersewellness.com.au/osborne-park/",
+          "snippet": "Welcome to Merse Wellness Osborne Park, your destination for total mind and body renewal. Step into a space where our signature \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Integrative Medicine Perth | Holistic Wellness at Akana",
+          "link": "https://akanawellness.com.au/",
+          "snippet": "At Akana, we place your deep knowing at the centre of your complete wellness journey. It\u2019s a space where your intuitive and inspired \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Premium Saunas, Cold Plunges & Home Wellness | Luxury Recovery...",
+          "link": "https://luxuryrecoveryusa.com/",
+          "snippet": "Stay in the Loop. Get Wellness Insights & Exclusive Deals. New products, recovery protocols, and subscriber-only pricing. No spam, ever.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dharma Wellness Equipment - Distributor of high-end... | LinkedIn",
+          "link": "https://www.linkedin.com/in/dharma-wellness-equipment-220355378",
+          "snippet": "\u00b7 Experience: Distributor of high-end equipment for salons, spas, and wellness centers \u00b7 Location: United States \u00b7 3 connections on LinkedIn. View Dharma Wellness Equipment\u2019s profile on LinkedIn, a pr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wellness & Recovery Equipment for Spas & Hotels... - I-Feel MedSpa",
+          "link": "https://ifeelmedspa.az/en/wellness-recovery-equipment-azerbaijan",
+          "snippet": "Professional wellness recovery equipment for clinics, spas, and medspas in Azerbaijan. Discover advanced technologies, ROI insights, and supplier guidance.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "WA Wellness | Perth Saunas, Spas & Retreats Guide",
+          "link": "https://wawellness.com.au/",
+          "snippet": "Retreat venues in Western Australia offer inspiring spaces to create unforgettable wellness, yoga, and corporate retreats. From \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Osborne Park - Merse Wellness",
+          "link": "https://www.mersewellness.com.au/osborne-park/",
+          "snippet": "Welcome to Merse Wellness Osborne Park, your destination for total mind and body renewal. Step into a space where our signature \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Integrative Medicine Perth | Holistic Wellness at Akana",
+          "link": "https://akanawellness.com.au/",
+          "snippet": "At Akana, we place your deep knowing at the centre of your complete wellness journey. It\u2019s a space where your intuitive and inspired \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Premium Saunas, Cold Plunges & Home Wellness | Luxury Recovery...",
+          "link": "https://luxuryrecoveryusa.com/",
+          "snippet": "Stay in the Loop. Get Wellness Insights & Exclusive Deals. New products, recovery protocols, and subscriber-only pricing. No spam, ever.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dharma Wellness Equipment - Distributor of high-end... | LinkedIn",
+          "link": "https://www.linkedin.com/in/dharma-wellness-equipment-220355378",
+          "snippet": "\u00b7 Experience: Distributor of high-end equipment for salons, spas, and wellness centers \u00b7 Location: United States \u00b7 3 connections on LinkedIn. View Dharma Wellness Equipment\u2019s profile on LinkedIn, a pr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wellness & Recovery Equipment for Spas & Hotels... - I-Feel MedSpa",
+          "link": "https://ifeelmedspa.az/en/wellness-recovery-equipment-azerbaijan",
+          "snippet": "Professional wellness recovery equipment for clinics, spas, and medspas in Azerbaijan. Discover advanced technologies, ROI insights, and supplier guidance.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P3": {
+      "query": "spa product reseller official site",
+      "level": "discovery",
+      "result_count": 12,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing",
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Spa in Vadodara, Body Massage, Hot Stone Massage, Full Body \u2026",
+          "link": "https://www.spainvadodara.com/",
+          "snippet": "Outstanding spa treatments in Facials, Massages, Body Treatment, Makeup, Waxing etc. The relaxing body massage in vadodara has been practiced for thousands of years. Almost all massages involve \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "THE 10 BEST Spas & Wellness Centres in Vadodara",
+          "link": "https://www.tripadvisor.in/Attractions-g297613-Activities-c40-Vadodara_Vadodara_District_Gujarat.html",
+          "snippet": "Dec 21, 2025 \u00b7 Things to do ranked using Tripadvisor data including reviews, ratings, number of page views, and user location. 1. TGS SPA & SALON. The best spa in India. Perfect in all types of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Top Luxury Spa In Vadodara | Best Spa In Vadodara, Gujrat",
+          "link": "https://allurethaispa.in/spa-in-vadodara/",
+          "snippet": "Vadodara Is Home To Some Of The Most Exquisite Spas & Wellness Centres In Vadodara, Designed To Provide Ultimate Comfort & Holistic Healing. These Centers, Including Allure Thai Spa & \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Spa in Vadodara | Elassa Spa & Massage | Spa in Vadodara",
+          "link": "https://spainvadodara.com/spa-in-vadodara.html",
+          "snippet": "Outstanding spa treatments in Facials, Massages, Body Treatment, Makeup, Waxing etc. Come in and select one of our Spa Packages with our top professional Aestheticians and Massage Therapists. \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Oceanic Spa Vadodara, Spa in Old Padra Rd Vadodara",
+          "link": "https://oceanicspa-vadodara.in/",
+          "snippet": "Oceanic Spa therapies will help keep your body running smoothly, so you can run that half marathon or that whole day of meetings. At Oceanic Spa, experience holistic wellness services based on the \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Best Spa in Vadodara | Best Couple Spa in Vadodara",
+          "link": "https://spanest.in/",
+          "snippet": "Spa Nest provides a wide range of services to cater to its diversified customers. We are thrilled to offer customized wellness experiences to our customers, as well as wonderful outstanding facilities",
+          "backend": "searxng"
+        },
+        {
+          "title": "Luxury Spa in Vadodara | Bling Spa- Vadodara",
+          "link": "https://blingspavadodara.in/",
+          "snippet": "Our spa is a haven designed for your comfort, offering a range of luxurious treatments. From restorative massages to holistic treatments, our offerings are tailored to promote deep relaxation and rene",
+          "backend": "searxng"
+        },
+        {
+          "title": "Top Body Massage Centres in Vadodara - Justdial",
+          "link": "https://www.justdial.com/Vadodara/Body-Massage-Centres/nct-10050521",
+          "snippet": "Highly recommend Rahi Spa for a delightful experience! Tony Spa is a hidden gem for beauty and personal care! The services offered are exceptional, ranging from rejuvenating facials to relaxing \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Neung Thai Spa Vadodara Gujrat, Massage in vadodara, Massage \u2026",
+          "link": "https://www.neungthaispa-vd.in/",
+          "snippet": "We are the pioneers in the global wellness space offering best-in-class therapies. We redefine luxury wellness by emphasising holistic experiences and elevating our guests to a euphoria of senses. Our",
+          "backend": "searxng"
+        },
+        {
+          "title": "Spa Nest Vadodara, Spa in Karelibagh Vadodara, Massage Spa in ...",
+          "link": "https://spanest-vadodara.co.in/",
+          "snippet": "At Spa Nest Vadodara, we question the obvious and make our own therapies to overcome disease. Grounded in Ayurveda treatment, spa therapies are custom modified to give therapeutic benefits \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Apple Authorized Reseller in Bangladesh - Gadget & Gear",
+          "link": "https://gadgetandgear.com/",
+          "snippet": "Choosing Gadget & Gear means more than just buying tech gadgets; it\u2019s about getting quality, trust and a great shopping experience every time. For our authenticity, transparency, and great customer se",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Journey to Holistic Beauty | Sulwhasoo International",
+          "link": "https://int.sulwhasoo.com/",
+          "snippet": "Sulwhasoo International Official Website. Skincare, Make-up & Men's products. Sulwhasoo Spa and Flagship stores locations and open hours.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Spa in Vadodara, Body Massage, Hot Stone Massage, Full Body \u2026",
+          "link": "https://www.spainvadodara.com/",
+          "snippet": "Outstanding spa treatments in Facials, Massages, Body Treatment, Makeup, Waxing etc. The relaxing body massage in vadodara has been practiced for thousands of years. Almost all massages involve \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "THE 10 BEST Spas & Wellness Centres in Vadodara",
+          "link": "https://www.tripadvisor.in/Attractions-g297613-Activities-c40-Vadodara_Vadodara_District_Gujarat.html",
+          "snippet": "Dec 21, 2025 \u00b7 Things to do ranked using Tripadvisor data including reviews, ratings, number of page views, and user location. 1. TGS SPA & SALON. The best spa in India. Perfect in all types of \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Top Luxury Spa In Vadodara | Best Spa In Vadodara, Gujrat",
+          "link": "https://allurethaispa.in/spa-in-vadodara/",
+          "snippet": "Vadodara Is Home To Some Of The Most Exquisite Spas & Wellness Centres In Vadodara, Designed To Provide Ultimate Comfort & Holistic Healing. These Centers, Including Allure Thai Spa & \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Spa in Vadodara | Elassa Spa & Massage | Spa in Vadodara",
+          "link": "https://spainvadodara.com/spa-in-vadodara.html",
+          "snippet": "Outstanding spa treatments in Facials, Massages, Body Treatment, Makeup, Waxing etc. Come in and select one of our Spa Packages with our top professional Aestheticians and Massage Therapists. \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Oceanic Spa Vadodara, Spa in Old Padra Rd Vadodara",
+          "link": "https://oceanicspa-vadodara.in/",
+          "snippet": "Oceanic Spa therapies will help keep your body running smoothly, so you can run that half marathon or that whole day of meetings. At Oceanic Spa, experience holistic wellness services based on the \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Best Spa in Vadodara | Best Couple Spa in Vadodara",
+          "link": "https://spanest.in/",
+          "snippet": "Spa Nest provides a wide range of services to cater to its diversified customers. We are thrilled to offer customized wellness experiences to our customers, as well as wonderful outstanding facilities",
+          "backend": "searxng"
+        },
+        {
+          "title": "Luxury Spa in Vadodara | Bling Spa- Vadodara",
+          "link": "https://blingspavadodara.in/",
+          "snippet": "Our spa is a haven designed for your comfort, offering a range of luxurious treatments. From restorative massages to holistic treatments, our offerings are tailored to promote deep relaxation and rene",
+          "backend": "searxng"
+        },
+        {
+          "title": "Top Body Massage Centres in Vadodara - Justdial",
+          "link": "https://www.justdial.com/Vadodara/Body-Massage-Centres/nct-10050521",
+          "snippet": "Highly recommend Rahi Spa for a delightful experience! Tony Spa is a hidden gem for beauty and personal care! The services offered are exceptional, ranging from rejuvenating facials to relaxing \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Neung Thai Spa Vadodara Gujrat, Massage in vadodara, Massage \u2026",
+          "link": "https://www.neungthaispa-vd.in/",
+          "snippet": "We are the pioneers in the global wellness space offering best-in-class therapies. We redefine luxury wellness by emphasising holistic experiences and elevating our guests to a euphoria of senses. Our",
+          "backend": "searxng"
+        },
+        {
+          "title": "Spa Nest Vadodara, Spa in Karelibagh Vadodara, Massage Spa in ...",
+          "link": "https://spanest-vadodara.co.in/",
+          "snippet": "At Spa Nest Vadodara, we question the obvious and make our own therapies to overcome disease. Grounded in Ayurveda treatment, spa therapies are custom modified to give therapeutic benefits \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Apple Authorized Reseller in Bangladesh - Gadget & Gear",
+          "link": "https://gadgetandgear.com/",
+          "snippet": "Choosing Gadget & Gear means more than just buying tech gadgets; it\u2019s about getting quality, trust and a great shopping experience every time. For our authenticity, transparency, and great customer se",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Journey to Holistic Beauty | Sulwhasoo International",
+          "link": "https://int.sulwhasoo.com/",
+          "snippet": "Sulwhasoo International Official Website. Skincare, Make-up & Men's products. Sulwhasoo Spa and Flagship stores locations and open hours.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P4": {
+      "query": "wellness product reseller company",
+      "level": "discovery",
+      "result_count": 3,
+      "results_target": 28,
+      "backends": [
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "WA Wellness | Perth Saunas, Spas & Retreats Guide",
+          "link": "https://wawellness.com.au/",
+          "snippet": "Retreat venues in Western Australia offer inspiring spaces to create unforgettable wellness, yoga, and corporate retreats. From coastal sanctuaries to forest hideaways, WA has venues perfect for \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Osborne Park - Merse Wellness",
+          "link": "https://www.mersewellness.com.au/osborne-park/",
+          "snippet": "Welcome to Merse Wellness Osborne Park, your destination for total mind and body renewal. Step into a space where our signature blend of recovery, relaxation, and wellness experiences are thoughtfully",
+          "backend": "searxng"
+        },
+        {
+          "title": "Integrative Medicine Perth | Holistic Wellness at Akana",
+          "link": "https://akanawellness.com.au/",
+          "snippet": "At Akana, we place your deep knowing at the centre of your complete wellness journey. It\u2019s a space where your intuitive and inspired wisdom is honoured \u2013 and your health arises from a personalised \u2026",
+          "backend": "searxng"
+        }
+      ],
+      "sample": [
+        {
+          "title": "WA Wellness | Perth Saunas, Spas & Retreats Guide",
+          "link": "https://wawellness.com.au/",
+          "snippet": "Retreat venues in Western Australia offer inspiring spaces to create unforgettable wellness, yoga, and corporate retreats. From coastal sanctuaries to forest hideaways, WA has venues perfect for \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Osborne Park - Merse Wellness",
+          "link": "https://www.mersewellness.com.au/osborne-park/",
+          "snippet": "Welcome to Merse Wellness Osborne Park, your destination for total mind and body renewal. Step into a space where our signature blend of recovery, relaxation, and wellness experiences are thoughtfully",
+          "backend": "searxng"
+        },
+        {
+          "title": "Integrative Medicine Perth | Holistic Wellness at Akana",
+          "link": "https://akanawellness.com.au/",
+          "snippet": "At Akana, we place your deep knowing at the centre of your complete wellness journey. It\u2019s a space where your intuitive and inspired wisdom is honoured \u2013 and your health arises from a personalised \u2026",
+          "backend": "searxng"
+        }
+      ]
+    },
+    "P5": {
+      "query": "day spa official site",
+      "level": "discovery",
+      "result_count": 10,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Salterra Resort and Spa | Official Site",
+          "link": "https://www.salterra.com/",
+          "snippet": "An exclusive haven beyond the most populous islands of the archipelago, Salterra Resort and Spa is a destination with a soul all its own.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Spa, Massages & Nordic Baths Gatineau & Ottawa- K\u014dena Spa...",
+          "link": "https://koenaspa.com/en/",
+          "snippet": "Your Spa in Gatineau & Ottawa. A Nordic thermal experience that will immerse you in pure relaxation. Nordic baths, massages & body treatments at K\u014dena Spa (Official Site).July is officially out-of-off",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cal-a-Vie Health Spa | Official Site | Official Website",
+          "link": "https://www.cal-a-vie.com/",
+          "snippet": "Endless Amenities & Activities. Cal-a-Vie Health Spa is a destination like none other. Explore meditation techniques, culinary demonstrations, spa treatments, fitness classes, beauty services, and muc",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cali Resort & Spa | OFFICIAL SITE | 5 Star Adults Hotel in Paphos...",
+          "link": "https://www.caliresortandspa.com/",
+          "snippet": "Within the resort\u2019s expansive grounds, diverse amenities set the stage for ultimate relaxation, including a serene indoor pool and a 47-metre freshwater outdoor pool. In the soothing spa, wellness is ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "JW Marriott Scottsdale Camelback Inn Resort & Spa (Official Site)...",
+          "link": "https://www.marriott.com/en-us/hotels/phxcb-jw-marriott-scottsdale-camelback-inn-resort-and-spa/overview/",
+          "snippet": "On-site parking is available at JW Marriott Scottsdale Camelback Inn Resort & Spa.Additional services include Convenience Store, Gift Shop, Same Day Dry Cleaning, On-Site Laundry, Wake-Up Calls, Compl",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Jaw Resort & Spa | Official Site - Best Rate Guaranteed",
+          "link": "https://jawresort.com/",
+          "snippet": "Discover a serene oasis at Jaw Resort & Spa, a distinguished 4-star destination designed for relaxation and rejuvenation. Nestled in a tranquil setting, our resort offers an ideal escape from the hust",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Niramaya Villas & Spa Official Site",
+          "link": "https://www.niramaya.com.au/",
+          "snippet": "Niramaya Villas and Spa is the perfect place to escape from your busy life. Located in Port Douglas, Australia, our resort accommodation offers you an unforgettable experience with its luxurious villa",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cibola Vista Resort & Spa \u2013 Official Site \u2013 Welcome to Cibola Vista...",
+          "link": "https://cibolavista.com/",
+          "snippet": "Located in the northwest corner of the Valley of the Sun, Cibola Vista Resort and Spa is an inviting oasis offering two distinct vacation experiences \u2014 the relaxation of a spa getaway and the exciteme",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mahayana spa \u2013 Official Site \u2013 Best Spa in Bali",
+          "link": "https://natyaspa.com/",
+          "snippet": "Skip to content. Mahayana spa \u2013 Official Site.Pause to relax on your schedule, whether it\u2019s a luxury spa day or an intensive hour treatment. Wherever you travel, an incredible range of specialist spa ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Kurhaus Cademario Hotel & Spa | OFFICIAL SITE | Views of Lake...",
+          "link": "https://kurhauscademario.com/",
+          "snippet": "Welcome to Kurhaus Cademario Hotel & Spa, located in the Ticino mountains and offering a stunning view of Lake Lugano. Best rate guarantee!",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Salterra Resort and Spa | Official Site",
+          "link": "https://www.salterra.com/",
+          "snippet": "An exclusive haven beyond the most populous islands of the archipelago, Salterra Resort and Spa is a destination with a soul all its own.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Spa, Massages & Nordic Baths Gatineau & Ottawa- K\u014dena Spa...",
+          "link": "https://koenaspa.com/en/",
+          "snippet": "Your Spa in Gatineau & Ottawa. A Nordic thermal experience that will immerse you in pure relaxation. Nordic baths, massages & body treatments at K\u014dena Spa (Official Site).July is officially out-of-off",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cal-a-Vie Health Spa | Official Site | Official Website",
+          "link": "https://www.cal-a-vie.com/",
+          "snippet": "Endless Amenities & Activities. Cal-a-Vie Health Spa is a destination like none other. Explore meditation techniques, culinary demonstrations, spa treatments, fitness classes, beauty services, and muc",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cali Resort & Spa | OFFICIAL SITE | 5 Star Adults Hotel in Paphos...",
+          "link": "https://www.caliresortandspa.com/",
+          "snippet": "Within the resort\u2019s expansive grounds, diverse amenities set the stage for ultimate relaxation, including a serene indoor pool and a 47-metre freshwater outdoor pool. In the soothing spa, wellness is ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "JW Marriott Scottsdale Camelback Inn Resort & Spa (Official Site)...",
+          "link": "https://www.marriott.com/en-us/hotels/phxcb-jw-marriott-scottsdale-camelback-inn-resort-and-spa/overview/",
+          "snippet": "On-site parking is available at JW Marriott Scottsdale Camelback Inn Resort & Spa.Additional services include Convenience Store, Gift Shop, Same Day Dry Cleaning, On-Site Laundry, Wake-Up Calls, Compl",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Jaw Resort & Spa | Official Site - Best Rate Guaranteed",
+          "link": "https://jawresort.com/",
+          "snippet": "Discover a serene oasis at Jaw Resort & Spa, a distinguished 4-star destination designed for relaxation and rejuvenation. Nestled in a tranquil setting, our resort offers an ideal escape from the hust",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Niramaya Villas & Spa Official Site",
+          "link": "https://www.niramaya.com.au/",
+          "snippet": "Niramaya Villas and Spa is the perfect place to escape from your busy life. Located in Port Douglas, Australia, our resort accommodation offers you an unforgettable experience with its luxurious villa",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cibola Vista Resort & Spa \u2013 Official Site \u2013 Welcome to Cibola Vista...",
+          "link": "https://cibolavista.com/",
+          "snippet": "Located in the northwest corner of the Valley of the Sun, Cibola Vista Resort and Spa is an inviting oasis offering two distinct vacation experiences \u2014 the relaxation of a spa getaway and the exciteme",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mahayana spa \u2013 Official Site \u2013 Best Spa in Bali",
+          "link": "https://natyaspa.com/",
+          "snippet": "Skip to content. Mahayana spa \u2013 Official Site.Pause to relax on your schedule, whether it\u2019s a luxury spa day or an intensive hour treatment. Wherever you travel, an incredible range of specialist spa ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Kurhaus Cademario Hotel & Spa | OFFICIAL SITE | Views of Lake...",
+          "link": "https://kurhauscademario.com/",
+          "snippet": "Welcome to Kurhaus Cademario Hotel & Spa, located in the Ticino mountains and offering a stunning view of Lake Lugano. Best rate guarantee!",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "medical spa company profile",
+      "level": "discovery",
+      "result_count": 9,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Top 11 Medical Spa Companies in the World",
+          "link": "https://www.imarcgroup.com/blog/top-medical-spa-companies",
+          "snippet": "List of Top Companies Operating in the Medical Spa Industry: The global medical spa market has several major players including Bijoux Medical, Biovital MedSpa LLC, Canyon Ranch (CR Operating, LLC), Ch",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Medical Spa Market Size And Share | Industry Report, 2033",
+          "link": "https://www.grandviewresearch.com/industry-analysis/medical-spa-market",
+          "snippet": "Key companies profiled. Chic La Vie; Kurotel-Longevity Medical Center and Spa; Clinique La Prairie; Lanserhof Lans; Longevity Wellness Worldwide; The Orchard Wellness Resort; Biovital Medspa; Allure M",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Young Medical Spa - Company Profile and News - Bloomberg Markets",
+          "link": "https://www.bloomberg.com/profile/company/1933463D:US",
+          "snippet": "Company profile page for Young Medical Spa including stock price, company news, executives, board members, and contact information.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Working at Versailles Medical Spa | Glassdoor",
+          "link": "https://www.glassdoor.com/Overview/Working-at-Versailles-Medical-Spa-EI_IE3504895.11,33.htm",
+          "snippet": "Get tailored insights about working at Versailles Medical Spa in one quick step.Glassdoor gives you an inside look at what it's like to work at Versailles Medical Spa, including salaries, reviews, off",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Young Medical Spa\u00ae Company Profile - PR.com",
+          "link": "https://www.pr.com/company-profile/overview/53318",
+          "snippet": "At Young Medical Spa, Dr. Young works diligently to ensure that each patient is able to achieve their desired results within a state-of-the-art location and in the company of a friendly and welcoming ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mariposa Medical Aesthetics and Wellness Spa | SEM Firms",
+          "link": "https://www.semfirms.com/profile/mariposa-medical-aesthetics-and-wellness-spa",
+          "snippet": "COMPANY PROFILE.At Mariposa, our mission is to provide our clients with the highest quality medical spa services and expert knowledge, helping them to achieve their aesthetic goals and feel confident ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Greenwich Medical Spa Company Profile: Financials... | PrivCo",
+          "link": "https://www.privco.com/company/greenwich-medical",
+          "snippet": "Greenwich Medical Spa is a privately-held Operates a med spa using non-invasive, anti-aging aesthetic treatments. Greenwich Medical Spa was founded in 2004.Yes. Target Company Valuation. $1.20 MM. Is ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Medical Spa Business Plan Template & Example + Free PDF",
+          "link": "https://planbuildr.com/medical-spa-business-plan/",
+          "snippet": "Direct and Indirect Competitors. Healthier You Medical Spa will face competition from other companies with similar business profiles. A description of each competitor company is below. Mia Med Spa.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Medical Spa Business Plan Template & Example + (Free PDF)",
+          "link": "https://www.growthink.com/businessplan/help-center/medical-spa-business-plan",
+          "snippet": "Create Your Medical Spa Business Plan in Just Minutes, here <\u2014. How do You Create a Business Plan for a Med Spa?In your company analysis, you will detail the type of medical spa you are operating. For",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Top 11 Medical Spa Companies in the World",
+          "link": "https://www.imarcgroup.com/blog/top-medical-spa-companies",
+          "snippet": "List of Top Companies Operating in the Medical Spa Industry: The global medical spa market has several major players including Bijoux Medical, Biovital MedSpa LLC, Canyon Ranch (CR Operating, LLC), Ch",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Medical Spa Market Size And Share | Industry Report, 2033",
+          "link": "https://www.grandviewresearch.com/industry-analysis/medical-spa-market",
+          "snippet": "Key companies profiled. Chic La Vie; Kurotel-Longevity Medical Center and Spa; Clinique La Prairie; Lanserhof Lans; Longevity Wellness Worldwide; The Orchard Wellness Resort; Biovital Medspa; Allure M",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Young Medical Spa - Company Profile and News - Bloomberg Markets",
+          "link": "https://www.bloomberg.com/profile/company/1933463D:US",
+          "snippet": "Company profile page for Young Medical Spa including stock price, company news, executives, board members, and contact information.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Working at Versailles Medical Spa | Glassdoor",
+          "link": "https://www.glassdoor.com/Overview/Working-at-Versailles-Medical-Spa-EI_IE3504895.11,33.htm",
+          "snippet": "Get tailored insights about working at Versailles Medical Spa in one quick step.Glassdoor gives you an inside look at what it's like to work at Versailles Medical Spa, including salaries, reviews, off",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Young Medical Spa\u00ae Company Profile - PR.com",
+          "link": "https://www.pr.com/company-profile/overview/53318",
+          "snippet": "At Young Medical Spa, Dr. Young works diligently to ensure that each patient is able to achieve their desired results within a state-of-the-art location and in the company of a friendly and welcoming ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mariposa Medical Aesthetics and Wellness Spa | SEM Firms",
+          "link": "https://www.semfirms.com/profile/mariposa-medical-aesthetics-and-wellness-spa",
+          "snippet": "COMPANY PROFILE.At Mariposa, our mission is to provide our clients with the highest quality medical spa services and expert knowledge, helping them to achieve their aesthetic goals and feel confident ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Greenwich Medical Spa Company Profile: Financials... | PrivCo",
+          "link": "https://www.privco.com/company/greenwich-medical",
+          "snippet": "Greenwich Medical Spa is a privately-held Operates a med spa using non-invasive, anti-aging aesthetic treatments. Greenwich Medical Spa was founded in 2004.Yes. Target Company Valuation. $1.20 MM. Is ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Medical Spa Business Plan Template & Example + Free PDF",
+          "link": "https://planbuildr.com/medical-spa-business-plan/",
+          "snippet": "Direct and Indirect Competitors. Healthier You Medical Spa will face competition from other companies with similar business profiles. A description of each competitor company is below. Mia Med Spa.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Medical Spa Business Plan Template & Example + (Free PDF)",
+          "link": "https://www.growthink.com/businessplan/help-center/medical-spa-business-plan",
+          "snippet": "Create Your Medical Spa Business Plan in Just Minutes, here <\u2014. How do You Create a Business Plan for a Med Spa?In your company analysis, you will detail the type of medical spa you are operating. For",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P7": {
+      "query": "spa technology integrator official site",
+      "level": "discovery",
+      "result_count": 10,
+      "results_target": 28,
+      "backends": [
+        "searxng"
+      ],
+      "results": [
+        {
+          "title": "Spa in Vadodara, Body Massage, Hot Stone Massage, Full Body \u2026",
+          "link": "https://www.spainvadodara.com/",
+          "snippet": "Outstanding spa treatments in Facials, Massages, Body Treatment, Makeup, Waxing etc. The relaxing body massage in vadodara \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "THE 10 BEST Spas & Wellness Centres in Vadodara",
+          "link": "https://www.tripadvisor.in/Attractions-g297613-Activities-c40-Vadodara_Vadodara_District_Gujarat.html",
+          "snippet": "Dec 21, 2025 \u00b7 Things to do ranked using Tripadvisor data including reviews, ratings, number of page views, and user location. 1. \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Top Luxury Spa In Vadodara | Best Spa In Vadodara, Gujrat",
+          "link": "https://allurethaispa.in/spa-in-vadodara/",
+          "snippet": "Vadodara Is Home To Some Of The Most Exquisite Spas & Wellness Centres In Vadodara, Designed To Provide Ultimate Comfort & \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Spa in Vadodara | Elassa Spa & Massage | Spa in Vadodara",
+          "link": "https://spainvadodara.com/spa-in-vadodara.html",
+          "snippet": "Outstanding spa treatments in Facials, Massages, Body Treatment, Makeup, Waxing etc. Come in and select one of our Spa \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Oceanic Spa Vadodara, Spa in Old Padra Rd Vadodara",
+          "link": "https://oceanicspa-vadodara.in/",
+          "snippet": "Oceanic Spa therapies will help keep your body running smoothly, so you can run that half marathon or that whole day of meetings. \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Best Spa in Vadodara | Best Couple Spa in Vadodara",
+          "link": "https://spanest.in/",
+          "snippet": "Spa Nest provides a wide range of services to cater to its diversified customers. We are thrilled to offer customized wellness \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Luxury Spa in Vadodara | Bling Spa- Vadodara",
+          "link": "https://blingspavadodara.in/",
+          "snippet": "Our spa is a haven designed for your comfort, offering a range of luxurious treatments. From restorative massages to holistic \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Top Body Massage Centres in Vadodara - Justdial",
+          "link": "https://www.justdial.com/Vadodara/Body-Massage-Centres/nct-10050521",
+          "snippet": "Highly recommend Rahi Spa for a delightful experience! Tony Spa is a hidden gem for beauty and personal care! The services \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Neung Thai Spa Vadodara Gujrat, Massage in vadodara, Massage \u2026",
+          "link": "https://www.neungthaispa-vd.in/",
+          "snippet": "We are the pioneers in the global wellness space offering best-in-class therapies. We redefine luxury wellness by emphasising \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Spa Nest Vadodara, Spa in Karelibagh Vadodara, Massage Spa in ...",
+          "link": "https://spanest-vadodara.co.in/",
+          "snippet": "At Spa Nest Vadodara, we question the obvious and make our own therapies to overcome disease. Grounded in Ayurveda treatment, \u2026",
+          "backend": "searxng"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Spa in Vadodara, Body Massage, Hot Stone Massage, Full Body \u2026",
+          "link": "https://www.spainvadodara.com/",
+          "snippet": "Outstanding spa treatments in Facials, Massages, Body Treatment, Makeup, Waxing etc. The relaxing body massage in vadodara \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "THE 10 BEST Spas & Wellness Centres in Vadodara",
+          "link": "https://www.tripadvisor.in/Attractions-g297613-Activities-c40-Vadodara_Vadodara_District_Gujarat.html",
+          "snippet": "Dec 21, 2025 \u00b7 Things to do ranked using Tripadvisor data including reviews, ratings, number of page views, and user location. 1. \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Top Luxury Spa In Vadodara | Best Spa In Vadodara, Gujrat",
+          "link": "https://allurethaispa.in/spa-in-vadodara/",
+          "snippet": "Vadodara Is Home To Some Of The Most Exquisite Spas & Wellness Centres In Vadodara, Designed To Provide Ultimate Comfort & \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Spa in Vadodara | Elassa Spa & Massage | Spa in Vadodara",
+          "link": "https://spainvadodara.com/spa-in-vadodara.html",
+          "snippet": "Outstanding spa treatments in Facials, Massages, Body Treatment, Makeup, Waxing etc. Come in and select one of our Spa \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Oceanic Spa Vadodara, Spa in Old Padra Rd Vadodara",
+          "link": "https://oceanicspa-vadodara.in/",
+          "snippet": "Oceanic Spa therapies will help keep your body running smoothly, so you can run that half marathon or that whole day of meetings. \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Best Spa in Vadodara | Best Couple Spa in Vadodara",
+          "link": "https://spanest.in/",
+          "snippet": "Spa Nest provides a wide range of services to cater to its diversified customers. We are thrilled to offer customized wellness \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Luxury Spa in Vadodara | Bling Spa- Vadodara",
+          "link": "https://blingspavadodara.in/",
+          "snippet": "Our spa is a haven designed for your comfort, offering a range of luxurious treatments. From restorative massages to holistic \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Top Body Massage Centres in Vadodara - Justdial",
+          "link": "https://www.justdial.com/Vadodara/Body-Massage-Centres/nct-10050521",
+          "snippet": "Highly recommend Rahi Spa for a delightful experience! Tony Spa is a hidden gem for beauty and personal care! The services \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Neung Thai Spa Vadodara Gujrat, Massage in vadodara, Massage \u2026",
+          "link": "https://www.neungthaispa-vd.in/",
+          "snippet": "We are the pioneers in the global wellness space offering best-in-class therapies. We redefine luxury wellness by emphasising \u2026",
+          "backend": "searxng"
+        },
+        {
+          "title": "Spa Nest Vadodara, Spa in Karelibagh Vadodara, Massage Spa in ...",
+          "link": "https://spanest-vadodara.co.in/",
+          "snippet": "At Spa Nest Vadodara, we question the obvious and make our own therapies to overcome disease. Grounded in Ayurveda treatment, \u2026",
+          "backend": "searxng"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

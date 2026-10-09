@@ -1,0 +1,2242 @@
+{
+  "phase": 1,
+  "query": "Industrial Diamond Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T21:01:48.125381+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "industrial diamond",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "industrial materials",
+    "industry_terms": [
+      "industrial diamonds",
+      "synthetic diamonds",
+      "natural diamonds",
+      "diamond tools",
+      "diamond abrasives"
+    ],
+    "ecosystem_functions": [
+      "manufacturing of synthetic diamonds",
+      "manufacturing of natural diamonds",
+      "distribution of industrial diamonds",
+      "wholesale supply of diamonds",
+      "reselling of industrial diamonds",
+      "system integration for diamond tools",
+      "service provision for diamond applications",
+      "channel partnership for diamond sales"
+    ],
+    "interpretation_summary": "The industrial diamond market encompasses the production and distribution of synthetic and natural diamonds used in various industrial applications, including cutting, grinding, and drilling. Key participants include man",
+    "relevance_keywords": [
+      "diamond cutting tools",
+      "diamond grinding wheels",
+      "industrial diamond applications",
+      "diamond abrasives",
+      "diamond machining"
+    ],
+    "negative_keywords": [
+      "jewelry",
+      "retail",
+      "consumer",
+      "fashion",
+      "luxury"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "Element Six",
+        "primary_domain": "elementsix.com",
+        "company_function": "synthetic diamond manufacturer"
+      },
+      {
+        "canonical_name": "De Beers Group",
+        "primary_domain": "debeersgroup.com",
+        "company_function": "natural diamond supplier"
+      },
+      {
+        "canonical_name": "Diamond Innovations",
+        "primary_domain": "diamondinnovations.com",
+        "company_function": "diamond tool manufacturer"
+      },
+      {
+        "canonical_name": "W. L. Gore & Associates",
+        "primary_domain": "gore.com",
+        "company_function": "industrial diamond distributor"
+      },
+      {
+        "canonical_name": "Saint-Gobain",
+        "primary_domain": "saint-gobain.com",
+        "company_function": "diamond tool wholesaler"
+      },
+      {
+        "canonical_name": "3M",
+        "primary_domain": "3m.com",
+        "company_function": "diamond tool reseller"
+      },
+      {
+        "canonical_name": "Kennametal",
+        "primary_domain": "kennametal.com",
+        "company_function": "diamond tool system integrator"
+      },
+      {
+        "canonical_name": "Lapmaster Wolters",
+        "primary_domain": "lapmaster-wolters.com",
+        "company_function": "diamond service provider"
+      },
+      {
+        "canonical_name": "Buehler",
+        "primary_domain": "buehler.com",
+        "company_function": "diamond tool manufacturer",
+        "segment": "Synthetic Diamond Manufacturers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "SABIC",
+        "primary_domain": "sabic.com",
+        "company_function": "industrial diamond distributor",
+        "segment": "Distributors",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Norton Abrasives",
+        "primary_domain": "nortonabrasives.com",
+        "company_function": "diamond tool wholesaler",
+        "segment": "Wholesalers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Bosch",
+        "primary_domain": "bosch.com",
+        "company_function": "diamond tool reseller",
+        "segment": "Resellers",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Makita",
+        "primary_domain": "makita.com",
+        "company_function": "diamond tool system integrator",
+        "segment": "System Integrators",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Precision Diamond Tools",
+        "primary_domain": "precisiondiamondtools.com",
+        "company_function": "diamond service provider",
+        "segment": "Service Providers",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "diamond",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "industrial diamond",
+    "include_keywords": [
+      "CVD diamonds",
+      "HPHT diamonds",
+      "diamond distributors",
+      "diamond wholesalers",
+      "diamond resellers"
+    ],
+    "exclude_keywords": [
+      "jewelry",
+      "gemstones",
+      "market reports",
+      "news articles",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The industrial diamond market encompasses the production and distribution of synthetic and natural diamonds used in various industrial applications, including cutting, grinding, and drilling. Key participants include manufacturers, distributors, and service providers operating globally.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Manufacturing",
+        "description": "This layer involves the production of industrial diamonds, both synthetic and natural.",
+        "segments": [
+          {
+            "segment_name": "Synthetic Diamond Manufacturers",
+            "sub_segments": [
+              "CVD Diamonds",
+              "HPHT Diamonds"
+            ],
+            "participant_types": [
+              "manufacturer"
+            ],
+            "search_intents": [
+              "synthetic diamond manufacturers",
+              "CVD diamond suppliers"
+            ]
+          },
+          {
+            "segment_name": "Natural Diamond Suppliers",
+            "sub_segments": [
+              "mined diamonds",
+              "recovered diamonds"
+            ],
+            "participant_types": [
+              "manufacturer"
+            ],
+            "search_intents": [
+              "natural diamond suppliers",
+              "industrial diamond producers"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L2",
+        "layer_name": "Distribution",
+        "description": "This layer includes companies that distribute industrial diamonds to various sectors.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "regional distributors",
+              "global distributors"
+            ],
+            "participant_types": [
+              "distributor"
+            ],
+            "search_intents": [
+              "industrial diamond distributors",
+              "diamond distribution companies"
+            ]
+          },
+          {
+            "segment_name": "Wholesalers",
+            "sub_segments": [
+              "bulk wholesalers",
+              "specialty wholesalers"
+            ],
+            "participant_types": [
+              "wholesaler"
+            ],
+            "search_intents": [
+              "industrial diamond wholesalers",
+              "wholesale diamond suppliers"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L3",
+        "layer_name": "Channel Partners",
+        "description": "This layer consists of various channel partners that facilitate the sale and integration of industrial diamonds.",
+        "segments": [
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "value-added resellers",
+              "retail resellers"
+            ],
+            "participant_types": [
+              "reseller"
+            ],
+            "search_intents": [
+              "industrial diamond resellers",
+              "diamond reselling companies"
+            ]
+          },
+          {
+            "segment_name": "System Integrators",
+            "sub_segments": [
+              "machinery integrators",
+              "tooling integrators"
+            ],
+            "participant_types": [
+              "system integrator"
+            ],
+            "search_intents": [
+              "industrial diamond system integrators",
+              "diamond tooling integrators"
+            ]
+          },
+          {
+            "segment_name": "Service Providers",
+            "sub_segments": [
+              "diamond cutting services",
+              "diamond grinding services"
+            ],
+            "participant_types": [
+              "service provider"
+            ],
+            "search_intents": [
+              "industrial diamond service providers",
+              "diamond cutting service companies"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Retail Jewelry Market",
+        "Gemstone Market",
+        "Diamond Mining",
+        "Consumer Electronics Market"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "search for synthetic diamond manufacturers",
+        "sub_sector": "synthetic_diamond_manufacturer",
+        "layer_id": "L1",
+        "segment": "Synthetic Diamond Manufacturers"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "search for natural diamond suppliers",
+        "sub_sector": "natural_diamond_supplier",
+        "layer_id": "L1",
+        "segment": "Natural Diamond Suppliers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "search for industrial diamond distributors",
+        "sub_sector": "diamond_distributor",
+        "layer_id": "L2",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "search for industrial diamond wholesalers",
+        "sub_sector": "diamond_wholesaler",
+        "layer_id": "L2",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M5",
+        "level": "market_map",
+        "text": "search for industrial diamond resellers",
+        "sub_sector": "diamond_reseller",
+        "layer_id": "L3",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M6",
+        "level": "market_map",
+        "text": "search for industrial diamond system integrators",
+        "sub_sector": "diamond_system_integrator",
+        "layer_id": "L3",
+        "segment": "System Integrators"
+      },
+      {
+        "id": "M7",
+        "level": "market_map",
+        "text": "search for industrial diamond service providers",
+        "sub_sector": "diamond_service_provider",
+        "layer_id": "L3",
+        "segment": "Service Providers"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "industrial materials",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "industrial diamond companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "industrial diamond distributors corporate sites"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "industrial diamond service providers official site"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "market_map",
+      "text": "search for synthetic diamond manufacturers"
+    },
+    {
+      "id": "P2",
+      "level": "market_map",
+      "text": "search for natural diamond suppliers"
+    },
+    {
+      "id": "P3",
+      "level": "market_map",
+      "text": "search for industrial diamond distributors"
+    },
+    {
+      "id": "P4",
+      "level": "market_map",
+      "text": "search for industrial diamond wholesalers"
+    },
+    {
+      "id": "P5",
+      "level": "market_map",
+      "text": "search for industrial diamond resellers"
+    },
+    {
+      "id": "P6",
+      "level": "market_map",
+      "text": "search for industrial diamond system integrators"
+    },
+    {
+      "id": "P7",
+      "level": "market_map",
+      "text": "search for industrial diamond service providers"
+    },
+    {
+      "id": "P8",
+      "level": "discovery",
+      "text": "industrial diamond manufacturer official site"
+    },
+    {
+      "id": "P9",
+      "level": "discovery",
+      "text": "industrial diamond distributor corporate headquarters"
+    },
+    {
+      "id": "P10",
+      "level": "discovery",
+      "text": "industrial diamond wholesaler corporate site"
+    },
+    {
+      "id": "P11",
+      "level": "discovery",
+      "text": "industrial diamond reseller official website"
+    },
+    {
+      "id": "P12",
+      "level": "discovery",
+      "text": "industrial diamond system integrator corporate site"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "industrial diamond companies official websites",
+      "level": "L0",
+      "result_count": 20,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Kiran Gems | World's Largest Manufacturer of Natural Polished Diamonds",
+          "link": "https://www.kirangems.com/",
+          "snippet": "Kiran Gems Private Limited is a Sightholder of De Beers Group and a Certified Member of the Responsible Jewelry Council (RJC). KIRAN GEMS is the World's largest manufacturer of ethically sourced natur",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Soham Industrial Diamonds",
+          "link": "http://www.sohamindustrialdiamonds.com/",
+          "snippet": "Welcome to Soham Industrial Diamonds Since our inception in the year 1992, Soham Industrial Diamonds an ISO 9001: 2008 certified company is engaged in manufacturing, supplying and exporting a superior",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "RP Industrial Diamonds - The world's leading supplier of Natural ...",
+          "link": "https://rpindustrialdiamond.com/industrial_diamonds.html",
+          "snippet": "With over 25 years of experience in superabrasives, industrial diamonds and the diamond tooling industry, we understand the importance of supplying you with exactly the right diamond for each applicat",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Natural Industrial Diamond Supplier - Rough Diamonds Available",
+          "link": "https://lieberandsolow.com/",
+          "snippet": "Lieber & Solow has been operating in the diamond industry since 1927. Our headquarters is based in New York City. Today, L&S is the world's leading supplier of natural industrial diamonds. We also sup",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sheetal Group - One of the world's Leading Diamond Manufacturer ...",
+          "link": "https://www.sheetal.co/",
+          "snippet": "Sheetal Group - Established in 1985, association with major diamond mines companies enable us to ethically source our natural rough diamonds paired with our state-of-the-art manufacturing facilities.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "EID Industrial Diamonds",
+          "link": "https://www.eid-ltd.com/",
+          "snippet": "E.I.D manufactures the widest array of top quality industrial diamond stones, natural & synthetic diamond powders, cbn, cvd, mcd, pcd, pcbn, and polycrystalline diamond powder.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dev Group | Global Supplier of Diamond & Super Abrasives",
+          "link": "https://www.dev-group.com/",
+          "snippet": "Dev Group is a leading global supplier of natural & synthetic diamond powders, industrial diamonds, super abrasives delivering quality, customization & service.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bhabha Industrial Diamonds",
+          "link": "https://bhabhaindustrialdiamonds.com/",
+          "snippet": "Bhabha Industrial Diamonds Welcome to the Bhabha Industrial Diamonds. BID are one of the world's leading manufacturers and exporters of Natural Diamond Powder and Synthetic Diamond Powder for the abra",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Industrial Diamond Supplier - Ambica Industrial Diamond",
+          "link": "https://ambicaindustrialdiamond.com/",
+          "snippet": "Industrial rough diamonds however are mostly different in appearance and you can find them in different colors like yellow, brown, grey and even blackish. Ambica Industrial Diamond, the ever growing d",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The World's Leading Diamond Company | De Beers Group",
+          "link": "https://www.debeersgroup.com/",
+          "snippet": "Sustainability and ethics in the diamond industry are crucial to protecting the environment, supporting livelihoods and ensuring long-term industry viability.Take your place at the heart of the fascin",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Industrial Diamond Statistics and Information | U.S. Geological Survey",
+          "link": "https://www.usgs.gov/centers/national-minerals-information-center/industrial-diamond-statistics-and-information",
+          "snippet": "Official websites use .gov A .gov website belongs to an official government organization in the United States.The superiority of diamond in so many diverse industrial applications is attributable to a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Industrial Diamond Market Size, Share | Industry Report 2030",
+          "link": "https://www.grandviewresearch.com/industry-analysis/industrial-diamond-market",
+          "snippet": "Industrial Diamond Market (2025 - 2030) Size, Share & Trends Analysis Report By Type (Synthetic, Natural), By Application (Construction, Transportation, Electronics, Others), By Region (North America,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Industrial Diamond Market Report: Trends, Forecast and Competitive...",
+          "link": "https://www.lucintel.com/industrial-diamond-market.aspx",
+          "snippet": "The global industrial diamond market is expected to grow with a CAGR of 7.4% from 2025 to 2031.Companies are investing in carbon-neutral production processes to reduce environmental impact. Sustainabl",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Diamond Aircraft Industries - Diamond Aircraft Industries",
+          "link": "https://www.diamondaircraft.com/",
+          "snippet": "Diamond Aircraft Industries is amongst the leading aircraft manufacturer in General Aviation. The company builds the safest, most efficient single & twin piston aircraft flying today.Tag us on social ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sustainability In The Diamond Industry: 2026 Verified Stats",
+          "link": "https://worldmetrics.org/sustainability-in-the-diamond-industry-statistics/",
+          "snippet": "Our in-depth market data report on Sustainability In The Diamond Industry. Explore verified statistics and the latest research.Primary source collection. Our team aggregates data from peer-reviewed st",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Closure of Canada's Ekati Diamond Mine Signals End of an Era...",
+          "link": "https://minelistings.com/news/industry-news/closure-of-canadas-ekati-diamond-mine-signals-end-of-an-era/",
+          "snippet": "Ekati, the first diamond mine in Canada, began operations in 1998 and has been a cornerstone of the country\u2019s diamond industry. Over the past 28 years, it has contributed significantly to Canada\u2019s pos",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "False data on Antwerp diamond industry - Heera Zhaveraat",
+          "link": "https://heerazhaveraat.com/false-data-on-antwerp-diamond-industry/",
+          "snippet": "Antwerp Diamond Industry 1 A recent press release from the National Bank of Belgium (NBB) presents a highly misleading view of Antwerp\u2019s diamond industry, reporting figures that are more than three ti",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "SRK- Crafting Pure Brilliance Since 1964",
+          "link": "https://srk.one/",
+          "snippet": "SRK brings to you ethically sourced, finest quality and exclusive natural diamonds, crafted by expert artisans and world's most advanced technologies. A leading compliant company, all the diamonds in ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "AWDC",
+          "link": "https://www.awdc.be/",
+          "snippet": "Homepage of the Antwerp World Diamond Centre (AWDC) website. Place to be for diamantaires and diamond companies in Antwerp.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "DMCC Partners with Botswana Stock Exchange Group - INTLBM",
+          "link": "https://intlbm.com/2026/07/16/dmcc-partners-with-botswana-stock-exchange-group/",
+          "snippet": "Image Courtesy-Official Websites.The agreement was signed in Singapore following the 41st World Diamond Congress, where DMCC participated alongside the global diamond industry and hosted the Singapore",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Kiran Gems | World's Largest Manufacturer of Natural Polished Diamonds",
+          "link": "https://www.kirangems.com/",
+          "snippet": "Kiran Gems Private Limited is a Sightholder of De Beers Group and a Certified Member of the Responsible Jewelry Council (RJC). KIRAN GEMS is the World's largest manufacturer of ethically sourced natur",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Soham Industrial Diamonds",
+          "link": "http://www.sohamindustrialdiamonds.com/",
+          "snippet": "Welcome to Soham Industrial Diamonds Since our inception in the year 1992, Soham Industrial Diamonds an ISO 9001: 2008 certified company is engaged in manufacturing, supplying and exporting a superior",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "RP Industrial Diamonds - The world's leading supplier of Natural ...",
+          "link": "https://rpindustrialdiamond.com/industrial_diamonds.html",
+          "snippet": "With over 25 years of experience in superabrasives, industrial diamonds and the diamond tooling industry, we understand the importance of supplying you with exactly the right diamond for each applicat",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Natural Industrial Diamond Supplier - Rough Diamonds Available",
+          "link": "https://lieberandsolow.com/",
+          "snippet": "Lieber & Solow has been operating in the diamond industry since 1927. Our headquarters is based in New York City. Today, L&S is the world's leading supplier of natural industrial diamonds. We also sup",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sheetal Group - One of the world's Leading Diamond Manufacturer ...",
+          "link": "https://www.sheetal.co/",
+          "snippet": "Sheetal Group - Established in 1985, association with major diamond mines companies enable us to ethically source our natural rough diamonds paired with our state-of-the-art manufacturing facilities.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "EID Industrial Diamonds",
+          "link": "https://www.eid-ltd.com/",
+          "snippet": "E.I.D manufactures the widest array of top quality industrial diamond stones, natural & synthetic diamond powders, cbn, cvd, mcd, pcd, pcbn, and polycrystalline diamond powder.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dev Group | Global Supplier of Diamond & Super Abrasives",
+          "link": "https://www.dev-group.com/",
+          "snippet": "Dev Group is a leading global supplier of natural & synthetic diamond powders, industrial diamonds, super abrasives delivering quality, customization & service.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bhabha Industrial Diamonds",
+          "link": "https://bhabhaindustrialdiamonds.com/",
+          "snippet": "Bhabha Industrial Diamonds Welcome to the Bhabha Industrial Diamonds. BID are one of the world's leading manufacturers and exporters of Natural Diamond Powder and Synthetic Diamond Powder for the abra",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Industrial Diamond Supplier - Ambica Industrial Diamond",
+          "link": "https://ambicaindustrialdiamond.com/",
+          "snippet": "Industrial rough diamonds however are mostly different in appearance and you can find them in different colors like yellow, brown, grey and even blackish. Ambica Industrial Diamond, the ever growing d",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The World's Leading Diamond Company | De Beers Group",
+          "link": "https://www.debeersgroup.com/",
+          "snippet": "Sustainability and ethics in the diamond industry are crucial to protecting the environment, supporting livelihoods and ensuring long-term industry viability.Take your place at the heart of the fascin",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Industrial Diamond Statistics and Information | U.S. Geological Survey",
+          "link": "https://www.usgs.gov/centers/national-minerals-information-center/industrial-diamond-statistics-and-information",
+          "snippet": "Official websites use .gov A .gov website belongs to an official government organization in the United States.The superiority of diamond in so many diverse industrial applications is attributable to a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Industrial Diamond Market Size, Share | Industry Report 2030",
+          "link": "https://www.grandviewresearch.com/industry-analysis/industrial-diamond-market",
+          "snippet": "Industrial Diamond Market (2025 - 2030) Size, Share & Trends Analysis Report By Type (Synthetic, Natural), By Application (Construction, Transportation, Electronics, Others), By Region (North America,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Industrial Diamond Market Report: Trends, Forecast and Competitive...",
+          "link": "https://www.lucintel.com/industrial-diamond-market.aspx",
+          "snippet": "The global industrial diamond market is expected to grow with a CAGR of 7.4% from 2025 to 2031.Companies are investing in carbon-neutral production processes to reduce environmental impact. Sustainabl",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Diamond Aircraft Industries - Diamond Aircraft Industries",
+          "link": "https://www.diamondaircraft.com/",
+          "snippet": "Diamond Aircraft Industries is amongst the leading aircraft manufacturer in General Aviation. The company builds the safest, most efficient single & twin piston aircraft flying today.Tag us on social ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sustainability In The Diamond Industry: 2026 Verified Stats",
+          "link": "https://worldmetrics.org/sustainability-in-the-diamond-industry-statistics/",
+          "snippet": "Our in-depth market data report on Sustainability In The Diamond Industry. Explore verified statistics and the latest research.Primary source collection. Our team aggregates data from peer-reviewed st",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Closure of Canada's Ekati Diamond Mine Signals End of an Era...",
+          "link": "https://minelistings.com/news/industry-news/closure-of-canadas-ekati-diamond-mine-signals-end-of-an-era/",
+          "snippet": "Ekati, the first diamond mine in Canada, began operations in 1998 and has been a cornerstone of the country\u2019s diamond industry. Over the past 28 years, it has contributed significantly to Canada\u2019s pos",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "False data on Antwerp diamond industry - Heera Zhaveraat",
+          "link": "https://heerazhaveraat.com/false-data-on-antwerp-diamond-industry/",
+          "snippet": "Antwerp Diamond Industry 1 A recent press release from the National Bank of Belgium (NBB) presents a highly misleading view of Antwerp\u2019s diamond industry, reporting figures that are more than three ti",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "SRK- Crafting Pure Brilliance Since 1964",
+          "link": "https://srk.one/",
+          "snippet": "SRK brings to you ethically sourced, finest quality and exclusive natural diamonds, crafted by expert artisans and world's most advanced technologies. A leading compliant company, all the diamonds in ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "AWDC",
+          "link": "https://www.awdc.be/",
+          "snippet": "Homepage of the Antwerp World Diamond Centre (AWDC) website. Place to be for diamantaires and diamond companies in Antwerp.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "DMCC Partners with Botswana Stock Exchange Group - INTLBM",
+          "link": "https://intlbm.com/2026/07/16/dmcc-partners-with-botswana-stock-exchange-group/",
+          "snippet": "Image Courtesy-Official Websites.The agreement was signed in Singapore following the 41st World Diamond Congress, where DMCC participated alongside the global diamond industry and hosted the Singapore",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "industrial diamond distributors corporate sites",
+      "level": "L1",
+      "result_count": 22,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "List of synthetic diamond manufacturers - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/List_of_synthetic_diamond_manufacturers",
+          "snippet": "Synthetic diamonds are produced via high pressure, high temperature (HPHT) or chemical vapor deposition (CVD) technology. These diamonds have numerous ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "De Beers - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/De_Beers",
+          "snippet": "De Beers Group is a British multinational diamond company that specialises in the mining, trading and marketing of diamonds. The company is active in open-pit, underground, large-scale alluvial and co",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Industrial Diamonds Suppliers - Thomasnet",
+          "link": "https://www.thomasnet.com/suppliers/usa/industrial-diamonds-22361406",
+          "snippet": "Industrial Diamonds Suppliers Distributor of natural and synthetic industrialdiamonds with high thermal conductivity and chemical stability. Suitable for cutting tools, transistors, heat spreaders, se",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Kiran Gems | World's Largest Manufacturer of Natural Polished Diamonds",
+          "link": "https://www.kirangems.com/",
+          "snippet": "Kiran Gems Private Limited is a Sightholder of De Beers Group and a Certified Member of the Responsible Jewelry Council (RJC). KIRAN GEMS is the World's largest manufacturer of ethically sourced natur",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - TIDC Industrial Chains Division",
+          "link": "https://diamond-india.com/",
+          "snippet": "TIDC Industrial Chains Division is a manufacturer of industrial chains and power transmission products with a capacity to manufacture over 4 million meters of chains annually. TIDC India, a part of Tu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Strauss & Co Homepage Dental & Industrial Tools",
+          "link": "https://strauss-co.com/",
+          "snippet": "Distributors From industrial manufacturing to dental excellence, Strauss delivers cutting-edge diamond and CBN solutions. Built for precision, engineered for performance, and trusted by professionals ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "HK - Hari Krishna Exports | Worldwide Natural Diamond Manufacturer ...",
+          "link": "https://www.hk.co/",
+          "snippet": "Our Entities Hari Krishna Exports is a multifaceted leader in the natural diamond and jewellery industry, managing the entire supply chain from mine to market, including ethical sourcing, precision ma",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Authorized Distributors of Diamond Chains and Lapp, India",
+          "link": "https://www.industrialchains-sfe.com/",
+          "snippet": "Our Products List We are Authorized Distributor, Dealer, Supplier of Diamond Industrial Chain Sprockets, Perfect Chain Sprockets and our setup is situated in Mumbai, Maharashtra, India.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Industrial Diamond Specialists | Shannon Abrasives",
+          "link": "https://shannonabrasives.com/",
+          "snippet": "Optimizing The Industrial Diamond Global Supply Chain At Shannon Abrasives, we provide tailored diamond solutions to customers across a wide range of industry sectors. Offering a combination of commer",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Industrial Diamond In Pune, Maharashtra At Best Price - TradeIndia",
+          "link": "https://www.tradeindia.com/pune/industrial-diamond-city-213577.html",
+          "snippet": "Get industrial diamond in Pune, Maharashtra at best price. Find list of industrial diamond manufacturers, suppliers located in Poona & near by cities.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Popular Industrial Chain Distributors Diamond in Pune",
+          "link": "https://www.justdial.com/Pune/Industrial-Chain-Distributors-Diamond/nct-12985216",
+          "snippet": "Top Industrial Chain Distributors Diamond in Pune. Find V Belt Dealers, Bearing Dealers, Roller Chain Dealers-Diamond, Material Handling Equipment Dealers, Conveyor Chain Distributors-Diamond in Pune.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Industrial Diamonds Manufacturers, Suppliers, Dealers & Prices",
+          "link": "https://www.tradeindia.com/manufacturers/industrial-diamonds.html",
+          "snippet": "Find Industrial Diamonds manufacturers, suppliers, dealers & latest prices from top companies in India. Buy from a wide range of Industrial Diamonds online.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "With over 25 years of experience - RP Industrial Diamond",
+          "link": "https://www.rpindustrialdiamond.com/about_us.html",
+          "snippet": "Today, based in Surat City, RP Industrial Diamond is the world's leading supplier of natural industrial diamonds. ... Long term business & Trusted Supplier.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Industrial Diamond Manufacturers in India - IndiaMART",
+          "link": "https://dir.indiamart.com/impcat/industrial-diamond.html?biz=10",
+          "snippet": "Find here Industrial Diamond manufacturers & OEM manufacturers in India. Get Contact details & address of companies manufacturing and supplying Industrial ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Industrial Diamond Manufacturers in Bangalore - Justdial",
+          "link": "https://www.justdial.com/Bangalore/Industrial-Diamond-Manufacturers/nct-10264407",
+          "snippet": "Popular Industrial Diamond Manufacturers in Bangalore \u00b7 N Star Impex \u00b7 Krebs & Riedel Abrasives India Pvt Ltd \u00b7 Dhatch Diamond Tools \u00b7 Metatech Industries \u00b7 Spectra ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The 7 Biggest Global Diamond Suppliers and Traders",
+          "link": "https://www.paladiamonds.com/7-biggest-global-diamond-suppliers/",
+          "snippet": "17 Feb 2023 ... ... company which mines low-grade diamonds for industrial tooling. ... Now with many mines in multiple locations, the company has increased its ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 100 Industrial Diamond Suppliers in 2026 - ensun",
+          "link": "https://ensun.io/search/industrial-diamond",
+          "snippet": "Dharmanandan Diamonds Pvt. Ltd. Mumbai, India. D. 5001-10000 ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Element Six | Synthetic Diamond and Tungsten Carbide Experts...",
+          "link": "https://www.e6.com/",
+          "snippet": "Welcome to Element Six, a world leader in synthetic diamond and tungsten carbide supermaterials. Find out more about our excellent range today.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home Page - Diamond Comics",
+          "link": "https://diamondcomics.com/",
+          "snippet": "As the largest distributors of English-language comics, toys, games, and preservation supplies worldwide, our mission is to support and serve the Direct Market.September 05, 2024. Laguna Studios Inks ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Diamond Distributors Inc. | LinkedIn",
+          "link": "https://www.linkedin.com/company/diamond-distributors-inc.",
+          "snippet": "Diamond Distributors Inc. | 77 followers on LinkedIn. We are a minority owned distributor of food service disposables, paper, janitorial supplies and packaging products.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Diamond Industrial Inc",
+          "link": "https://diamondindustrial-inc.com/",
+          "snippet": "We are industrial marketing specialists. We provide goods & services to business & industry. Quality, Service, & Customer Satisfaction are our paramount principles. We manufacture, distribute, package",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Natural Industrial Diamond Manufacturers, Suppliers & Price",
+          "link": "https://www.exportersindia.com/indian-suppliers/natural-industrial-diamond.htm",
+          "snippet": "Premil Gems Pvt Ltd. Surat 14 Yrs. Gopal Exports Corporation.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "List of synthetic diamond manufacturers - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/List_of_synthetic_diamond_manufacturers",
+          "snippet": "Synthetic diamonds are produced via high pressure, high temperature (HPHT) or chemical vapor deposition (CVD) technology. These diamonds have numerous ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "De Beers - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/De_Beers",
+          "snippet": "De Beers Group is a British multinational diamond company that specialises in the mining, trading and marketing of diamonds. The company is active in open-pit, underground, large-scale alluvial and co",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Industrial Diamonds Suppliers - Thomasnet",
+          "link": "https://www.thomasnet.com/suppliers/usa/industrial-diamonds-22361406",
+          "snippet": "Industrial Diamonds Suppliers Distributor of natural and synthetic industrialdiamonds with high thermal conductivity and chemical stability. Suitable for cutting tools, transistors, heat spreaders, se",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Kiran Gems | World's Largest Manufacturer of Natural Polished Diamonds",
+          "link": "https://www.kirangems.com/",
+          "snippet": "Kiran Gems Private Limited is a Sightholder of De Beers Group and a Certified Member of the Responsible Jewelry Council (RJC). KIRAN GEMS is the World's largest manufacturer of ethically sourced natur",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - TIDC Industrial Chains Division",
+          "link": "https://diamond-india.com/",
+          "snippet": "TIDC Industrial Chains Division is a manufacturer of industrial chains and power transmission products with a capacity to manufacture over 4 million meters of chains annually. TIDC India, a part of Tu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Strauss & Co Homepage Dental & Industrial Tools",
+          "link": "https://strauss-co.com/",
+          "snippet": "Distributors From industrial manufacturing to dental excellence, Strauss delivers cutting-edge diamond and CBN solutions. Built for precision, engineered for performance, and trusted by professionals ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "HK - Hari Krishna Exports | Worldwide Natural Diamond Manufacturer ...",
+          "link": "https://www.hk.co/",
+          "snippet": "Our Entities Hari Krishna Exports is a multifaceted leader in the natural diamond and jewellery industry, managing the entire supply chain from mine to market, including ethical sourcing, precision ma",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Authorized Distributors of Diamond Chains and Lapp, India",
+          "link": "https://www.industrialchains-sfe.com/",
+          "snippet": "Our Products List We are Authorized Distributor, Dealer, Supplier of Diamond Industrial Chain Sprockets, Perfect Chain Sprockets and our setup is situated in Mumbai, Maharashtra, India.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Industrial Diamond Specialists | Shannon Abrasives",
+          "link": "https://shannonabrasives.com/",
+          "snippet": "Optimizing The Industrial Diamond Global Supply Chain At Shannon Abrasives, we provide tailored diamond solutions to customers across a wide range of industry sectors. Offering a combination of commer",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Industrial Diamond In Pune, Maharashtra At Best Price - TradeIndia",
+          "link": "https://www.tradeindia.com/pune/industrial-diamond-city-213577.html",
+          "snippet": "Get industrial diamond in Pune, Maharashtra at best price. Find list of industrial diamond manufacturers, suppliers located in Poona & near by cities.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Popular Industrial Chain Distributors Diamond in Pune",
+          "link": "https://www.justdial.com/Pune/Industrial-Chain-Distributors-Diamond/nct-12985216",
+          "snippet": "Top Industrial Chain Distributors Diamond in Pune. Find V Belt Dealers, Bearing Dealers, Roller Chain Dealers-Diamond, Material Handling Equipment Dealers, Conveyor Chain Distributors-Diamond in Pune.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Industrial Diamonds Manufacturers, Suppliers, Dealers & Prices",
+          "link": "https://www.tradeindia.com/manufacturers/industrial-diamonds.html",
+          "snippet": "Find Industrial Diamonds manufacturers, suppliers, dealers & latest prices from top companies in India. Buy from a wide range of Industrial Diamonds online.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "With over 25 years of experience - RP Industrial Diamond",
+          "link": "https://www.rpindustrialdiamond.com/about_us.html",
+          "snippet": "Today, based in Surat City, RP Industrial Diamond is the world's leading supplier of natural industrial diamonds. ... Long term business & Trusted Supplier.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Industrial Diamond Manufacturers in India - IndiaMART",
+          "link": "https://dir.indiamart.com/impcat/industrial-diamond.html?biz=10",
+          "snippet": "Find here Industrial Diamond manufacturers & OEM manufacturers in India. Get Contact details & address of companies manufacturing and supplying Industrial ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Industrial Diamond Manufacturers in Bangalore - Justdial",
+          "link": "https://www.justdial.com/Bangalore/Industrial-Diamond-Manufacturers/nct-10264407",
+          "snippet": "Popular Industrial Diamond Manufacturers in Bangalore \u00b7 N Star Impex \u00b7 Krebs & Riedel Abrasives India Pvt Ltd \u00b7 Dhatch Diamond Tools \u00b7 Metatech Industries \u00b7 Spectra ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The 7 Biggest Global Diamond Suppliers and Traders",
+          "link": "https://www.paladiamonds.com/7-biggest-global-diamond-suppliers/",
+          "snippet": "17 Feb 2023 ... ... company which mines low-grade diamonds for industrial tooling. ... Now with many mines in multiple locations, the company has increased its ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 100 Industrial Diamond Suppliers in 2026 - ensun",
+          "link": "https://ensun.io/search/industrial-diamond",
+          "snippet": "Dharmanandan Diamonds Pvt. Ltd. Mumbai, India. D. 5001-10000 ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Element Six | Synthetic Diamond and Tungsten Carbide Experts...",
+          "link": "https://www.e6.com/",
+          "snippet": "Welcome to Element Six, a world leader in synthetic diamond and tungsten carbide supermaterials. Find out more about our excellent range today.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home Page - Diamond Comics",
+          "link": "https://diamondcomics.com/",
+          "snippet": "As the largest distributors of English-language comics, toys, games, and preservation supplies worldwide, our mission is to support and serve the Direct Market.September 05, 2024. Laguna Studios Inks ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Diamond Distributors Inc. | LinkedIn",
+          "link": "https://www.linkedin.com/company/diamond-distributors-inc.",
+          "snippet": "Diamond Distributors Inc. | 77 followers on LinkedIn. We are a minority owned distributor of food service disposables, paper, janitorial supplies and packaging products.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Diamond Industrial Inc",
+          "link": "https://diamondindustrial-inc.com/",
+          "snippet": "We are industrial marketing specialists. We provide goods & services to business & industry. Quality, Service, & Customer Satisfaction are our paramount principles. We manufacture, distribute, package",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Natural Industrial Diamond Manufacturers, Suppliers & Price",
+          "link": "https://www.exportersindia.com/indian-suppliers/natural-industrial-diamond.htm",
+          "snippet": "Premil Gems Pvt Ltd. Surat 14 Yrs. Gopal Exports Corporation.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "industrial diamond service providers official site",
+      "level": "L2",
+      "result_count": 12,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Industrial Diamond Statistics and Information | U.S. Geological Survey",
+          "link": "https://www.usgs.gov/centers/national-minerals-information-center/industrial-diamond-statistics-and-information",
+          "snippet": "Official websites use .gov A .gov website belongs to an official government organization in the United States.The superiority of diamond in so many diverse industrial applications is attributable to a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The World's Leading Diamond Company | De Beers Group",
+          "link": "https://www.debeersgroup.com/",
+          "snippet": "Working across the diamond value chain, we bring unrivalled diamond expertise across every part of our business. Learn more about our approach to responsible mining and discovery, how we sell diamonds",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "RP Industrial Diamonds - The world's leading supplier of Natural ...",
+          "link": "https://rpindustrialdiamond.com/industrial_diamonds.html",
+          "snippet": "With over 25 years of experience in superabrasives, industrial diamonds and the diamond tooling industry, we understand the importance of supplying you with exactly the right diamond for each applicat",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Industrial Diamond Supplier - Ambica Industrial Diamond",
+          "link": "https://ambicaindustrialdiamond.com/",
+          "snippet": "We are a Global supplier with a full-fledged service of Natural Diamond, Industrial Diamond, Superabrasives, and Industrial Rough Diamond. We have been operating in the diamond industry since 1997.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dev Group | Global Supplier of Diamond & Super Abrasives",
+          "link": "https://www.dev-group.com/",
+          "snippet": "Dev Group is a leading global supplier of natural & synthetic diamond powders, industrial diamonds, super abrasives delivering quality, customization & service.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "EID Industrial Diamonds",
+          "link": "https://www.eid-ltd.com/",
+          "snippet": "High quality natural & synthetic diamond products for cutting, grinding, drilling and polishing applications. Over 50 years of experience manufacturing consistent and reliable Industrial Diamonds worl",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Industrial Diamond Specialists | Shannon Abrasives",
+          "link": "https://shannonabrasives.com/",
+          "snippet": "Optimizing The Industrial Diamond Global Supply Chain At Shannon Abrasives, we provide tailored diamond solutions to customers across a wide range of industry sectors. Offering a combination of commer",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bhabha Industrial Diamonds",
+          "link": "https://bhabhaindustrialdiamonds.com/",
+          "snippet": "Welcome to Bhabha Industrial Diamonds Welcome to the Bhabha Industrial Diamonds. BID are one of the world's leading manufacturers and exporters of Natural Diamond Powder and Synthetic Diamond Powder f",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Paras Diamond Co. - Industrial Diamond Tools Divsion",
+          "link": "http://parasdiamond.com/",
+          "snippet": "1. Discover Paras Diamond Co., a leader in industrial diamond tools since 1990. Explore our high-quality diamond and CBN products tailored for your needs. 2. Paras Diamond Co. specializes in premium d",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Contact Us \u2014 IDS",
+          "link": "https://www.idsdiamond.com/contact-us",
+          "snippet": "Contact Us We provide industrial diamond products and services that deliver superior performance and value. We are setting industry standards for innovative technology. With a full suite of proven pro",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "IDS",
+          "link": "https://www.idsdiamond.com/",
+          "snippet": "IDS is a reputable provider of industrial diamond products and services.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home | HRP DIAM",
+          "link": "https://www.hrpdiam.com/",
+          "snippet": "As a trusted supplier of natural rough diamonds, diamond powder, and industrial diamonds for the abrasives and manufacturing industries, H.R.P. DIAM has built a strong reputation for quality, consiste",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Industrial Diamond Statistics and Information | U.S. Geological Survey",
+          "link": "https://www.usgs.gov/centers/national-minerals-information-center/industrial-diamond-statistics-and-information",
+          "snippet": "Official websites use .gov A .gov website belongs to an official government organization in the United States.The superiority of diamond in so many diverse industrial applications is attributable to a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The World's Leading Diamond Company | De Beers Group",
+          "link": "https://www.debeersgroup.com/",
+          "snippet": "Working across the diamond value chain, we bring unrivalled diamond expertise across every part of our business. Learn more about our approach to responsible mining and discovery, how we sell diamonds",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "RP Industrial Diamonds - The world's leading supplier of Natural ...",
+          "link": "https://rpindustrialdiamond.com/industrial_diamonds.html",
+          "snippet": "With over 25 years of experience in superabrasives, industrial diamonds and the diamond tooling industry, we understand the importance of supplying you with exactly the right diamond for each applicat",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Industrial Diamond Supplier - Ambica Industrial Diamond",
+          "link": "https://ambicaindustrialdiamond.com/",
+          "snippet": "We are a Global supplier with a full-fledged service of Natural Diamond, Industrial Diamond, Superabrasives, and Industrial Rough Diamond. We have been operating in the diamond industry since 1997.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Dev Group | Global Supplier of Diamond & Super Abrasives",
+          "link": "https://www.dev-group.com/",
+          "snippet": "Dev Group is a leading global supplier of natural & synthetic diamond powders, industrial diamonds, super abrasives delivering quality, customization & service.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "EID Industrial Diamonds",
+          "link": "https://www.eid-ltd.com/",
+          "snippet": "High quality natural & synthetic diamond products for cutting, grinding, drilling and polishing applications. Over 50 years of experience manufacturing consistent and reliable Industrial Diamonds worl",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Industrial Diamond Specialists | Shannon Abrasives",
+          "link": "https://shannonabrasives.com/",
+          "snippet": "Optimizing The Industrial Diamond Global Supply Chain At Shannon Abrasives, we provide tailored diamond solutions to customers across a wide range of industry sectors. Offering a combination of commer",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bhabha Industrial Diamonds",
+          "link": "https://bhabhaindustrialdiamonds.com/",
+          "snippet": "Welcome to Bhabha Industrial Diamonds Welcome to the Bhabha Industrial Diamonds. BID are one of the world's leading manufacturers and exporters of Natural Diamond Powder and Synthetic Diamond Powder f",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Paras Diamond Co. - Industrial Diamond Tools Divsion",
+          "link": "http://parasdiamond.com/",
+          "snippet": "1. Discover Paras Diamond Co., a leader in industrial diamond tools since 1990. Explore our high-quality diamond and CBN products tailored for your needs. 2. Paras Diamond Co. specializes in premium d",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Contact Us \u2014 IDS",
+          "link": "https://www.idsdiamond.com/contact-us",
+          "snippet": "Contact Us We provide industrial diamond products and services that deliver superior performance and value. We are setting industry standards for innovative technology. With a full suite of proven pro",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "IDS",
+          "link": "https://www.idsdiamond.com/",
+          "snippet": "IDS is a reputable provider of industrial diamond products and services.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home | HRP DIAM",
+          "link": "https://www.hrpdiam.com/",
+          "snippet": "As a trusted supplier of natural rough diamonds, diamond powder, and industrial diamonds for the abrasives and manufacturing industries, H.R.P. DIAM has built a strong reputation for quality, consiste",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "search for synthetic diamond manufacturers",
+      "level": "market_map",
+      "result_count": 19,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "List of synthetic diamond manufacturers - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/List_of_synthetic_diamond_manufacturers",
+          "snippet": "Synthetic diamonds are produced via high pressure, high temperature or chemical vapor deposition technology. These diamonds have numerous industrial and commercial uses including cutting tools, therma",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Synthetic diamond - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Synthetic_diamond",
+          "snippet": "The properties of synthetic diamonds depend on the manufacturing process. ... Consumer demand for synthetic diamonds has been increasing as customers look ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 Lab-Grown Diamond Manufacturers in India 2026 - Emori",
+          "link": "https://emori.in/blogs/news/top-10-lab-grown-diamond-manufacturers-in-india?srsltid=AfmBOop9fDXE1grC6ag0Z728Y7tuTM9SK7NzVKM-dc3v87O3v-vHhYPr",
+          "snippet": "13 Nov 2024 ... As you look for the top diamond supplier of lab grown diamonds in India, reputation should be among the considerations. For more than 50 years, ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Synthetic Diamond Companies - Key Players & More",
+          "link": "https://www.mordorintelligence.com/industry-reports/synthetic-diamond-market/companies",
+          "snippet": "Top 5 Synthetic Diamond Companies \u00b7 De Beers Group (Element Six) \u00b7 Henan Huanghe Whirlwind CO.,Ltd. \u00b7 Sumitomo Electric Industries, Ltd. \u00b7 Zhengzhou Sino-Crystal ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Synthetic Diamond - IndiaMART",
+          "link": "https://dir.indiamart.com/impcat/synthetic-diamond.html",
+          "snippet": "Find here Synthetic Diamond, Artificial Diamond manufacturers, suppliers & exporters in India. Get contact details & address of companies manufacturing and ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "World's Largest Grower Of CVD Lab Grown Diamonds",
+          "link": "https://kiradiam.com/",
+          "snippet": "Discover top-quality lab-grown diamonds at Kira, a leading manufacturer and supplier in United States & India. Trusted for excellence in CVD diamond ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 5 Lab Grown Diamond Manufacturers in India - Varniya",
+          "link": "https://varniya.com/blogs/labgrown-diamond-news/top-5-lab-grown-diamond-manufacturers-in-india-leading-brands-insights?srsltid=AfmBOor9xRhEl2_qfqx9jZwTAC7-XxeGABynEcTZ5nlNiN7ttYILur24",
+          "snippet": "29 May 2024 ... Who Are the Leading Lab Grown Diamond Manufacturers in India? \u00b7 1. KIRA \u00b7 2. Bhanderi Lab Grown Diamonds \u00b7 3. Riddhi Corporation LLP \u00b7 4. Finegrown ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Synthetic Diamond Companies | Market Research Future",
+          "link": "https://www.marketresearchfuture.com/reports/synthetic-diamond-market/companies",
+          "snippet": "Synthetic diamond companies are at the forefront of revolutionizing the gemstone industry. By employing advanced technological processes, these companies ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Synthetic Diamond Manufacturers in Thiruvananthapuram",
+          "link": "https://www.justdial.com/Thiruvananthapuram/Synthetic-Diamond-Manufacturers/nct-10467911",
+          "snippet": "Synthetic Diamond Manufacturers in Thiruvananthapuram \u2013 Unlock premium quality synthetic diamonds for jewelry, industrial applications, and more. Find the ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mittal Diamonds, New Delhi - Trader - Wholesaler / Distributor of Lab ...",
+          "link": "https://www.mittaldiamonds.com/",
+          "snippet": "We \u201cMittal Diamonds\u201d are involved as the manufacturer, wholesaler and retailer of Lab Grown Diamonds, Lab Created Diamonds and many more. Offered products are ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 100 Industrial Synthetic Diamond Manufacturers in 2026 | ensun",
+          "link": "https://ensun.io/search/industrial-synthetic-diamond",
+          "snippet": "Discover all relevant Industrial Synthetic Diamond Manufacturers worldwide, including Element Six and Diamond Foundry.Related searches for Industrial Synthetic Diamond. Technologies which have been se",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Synthetic diamond Manufacturers & Suppliers, China synthetic...",
+          "link": "https://www.made-in-china.com/manufacturers/synthetic-diamond.html",
+          "snippet": "synthetic diamond manufacturers/supplier, China synthetic diamond manufacturer & factory list, find best price in Chinese synthetic diamond manufacturers, suppliers, factories, exporters & wholesalers",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Synthetic Diamond Suppliers, Synthetic Diamond Manufacturers...",
+          "link": "https://www.ec21.com/companies/synthetic-diamond.html",
+          "snippet": "Manufacturer of diamond powder, synthetic diamond powder, micron powder. Established in 2013. Employees Total: 6 - 10.Do you have synthetic diamond or other products of your own? Post your Products fo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Synthetic Diamond Manufacturers: Market Share & Analyst Report",
+          "link": "https://www.verifiedmarketresearch.com/blog/top-synthetic-diamond-manufacturers/",
+          "snippet": "Top 7 synthetic diamond manufacturers offering consumers more sustainable choice.These synthetic diamond manufacturers are not only focusing on aesthetics but also on durability and versatility, cater",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Exquisite Craftsmanship and Value in synthetic diamond...",
+          "link": "https://www.alibaba.com/showroom/synthetic-diamond-manufacturers-in-india.html",
+          "snippet": "When selecting synthetic diamond manufacturers in india for jewelry making, several aspects must be taken into account to ensure the right choice for your designs. One of the key considerations is the",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Synthetic Diamond Manufacturers - Synthetic Diamond... | ExportHub",
+          "link": "https://www.exporthub.com/synthetic-diamond-manufacturers/",
+          "snippet": "Find synthetic diamond manufacturers on ExportHub.com. Buy products from suppliers around the world and increase your sales.Inquiry Basket Contact Supplier. synthetic diamond synthetic diamond powder ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Synthetic Diamond Powder Suppliers for Industrial Precision...",
+          "link": "https://www.accio.com/supplier/synthetic-diamond-powder-supplier",
+          "snippet": "Where to Find Synthetic Diamond Powder Suppliers. Searching for a reliable synthetic diamond powder supplier? This guide provides an in-depth look at the global landscape, key selection criteria, and ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Synthetic Diamonds Manufacturers | Artificial Diamond Suppliers...",
+          "link": "https://www.exportersindia.com/indian-suppliers/synthetic-diamonds.htm",
+          "snippet": "Find trusted Synthetic Diamonds suppliers in India offering melee diamond, american diamond, cz diamond and cvd diamond. Compare manufacturers, prices & bulk deals.To search by voice, go to your brows",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 9 Synthetic Diamond Manufacturers (2026 Audit Report)",
+          "link": "https://www.sourcifychina.com/synthetic-diamond-manufacturers/",
+          "snippet": "Pro List. Search forAdditionally, growing demand for synthetic diamonds in cutting-edge industrial applications\u2014including semiconductors, optics, and quantum computing\u2014further underscores the strategi",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "List of synthetic diamond manufacturers - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/List_of_synthetic_diamond_manufacturers",
+          "snippet": "Synthetic diamonds are produced via high pressure, high temperature or chemical vapor deposition technology. These diamonds have numerous industrial and commercial uses including cutting tools, therma",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Synthetic diamond - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Synthetic_diamond",
+          "snippet": "The properties of synthetic diamonds depend on the manufacturing process. ... Consumer demand for synthetic diamonds has been increasing as customers look ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 10 Lab-Grown Diamond Manufacturers in India 2026 - Emori",
+          "link": "https://emori.in/blogs/news/top-10-lab-grown-diamond-manufacturers-in-india?srsltid=AfmBOop9fDXE1grC6ag0Z728Y7tuTM9SK7NzVKM-dc3v87O3v-vHhYPr",
+          "snippet": "13 Nov 2024 ... As you look for the top diamond supplier of lab grown diamonds in India, reputation should be among the considerations. For more than 50 years, ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Synthetic Diamond Companies - Key Players & More",
+          "link": "https://www.mordorintelligence.com/industry-reports/synthetic-diamond-market/companies",
+          "snippet": "Top 5 Synthetic Diamond Companies \u00b7 De Beers Group (Element Six) \u00b7 Henan Huanghe Whirlwind CO.,Ltd. \u00b7 Sumitomo Electric Industries, Ltd. \u00b7 Zhengzhou Sino-Crystal ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Synthetic Diamond - IndiaMART",
+          "link": "https://dir.indiamart.com/impcat/synthetic-diamond.html",
+          "snippet": "Find here Synthetic Diamond, Artificial Diamond manufacturers, suppliers & exporters in India. Get contact details & address of companies manufacturing and ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "World's Largest Grower Of CVD Lab Grown Diamonds",
+          "link": "https://kiradiam.com/",
+          "snippet": "Discover top-quality lab-grown diamonds at Kira, a leading manufacturer and supplier in United States & India. Trusted for excellence in CVD diamond ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 5 Lab Grown Diamond Manufacturers in India - Varniya",
+          "link": "https://varniya.com/blogs/labgrown-diamond-news/top-5-lab-grown-diamond-manufacturers-in-india-leading-brands-insights?srsltid=AfmBOor9xRhEl2_qfqx9jZwTAC7-XxeGABynEcTZ5nlNiN7ttYILur24",
+          "snippet": "29 May 2024 ... Who Are the Leading Lab Grown Diamond Manufacturers in India? \u00b7 1. KIRA \u00b7 2. Bhanderi Lab Grown Diamonds \u00b7 3. Riddhi Corporation LLP \u00b7 4. Finegrown ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Synthetic Diamond Companies | Market Research Future",
+          "link": "https://www.marketresearchfuture.com/reports/synthetic-diamond-market/companies",
+          "snippet": "Synthetic diamond companies are at the forefront of revolutionizing the gemstone industry. By employing advanced technological processes, these companies ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Synthetic Diamond Manufacturers in Thiruvananthapuram",
+          "link": "https://www.justdial.com/Thiruvananthapuram/Synthetic-Diamond-Manufacturers/nct-10467911",
+          "snippet": "Synthetic Diamond Manufacturers in Thiruvananthapuram \u2013 Unlock premium quality synthetic diamonds for jewelry, industrial applications, and more. Find the ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Mittal Diamonds, New Delhi - Trader - Wholesaler / Distributor of Lab ...",
+          "link": "https://www.mittaldiamonds.com/",
+          "snippet": "We \u201cMittal Diamonds\u201d are involved as the manufacturer, wholesaler and retailer of Lab Grown Diamonds, Lab Created Diamonds and many more. Offered products are ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 100 Industrial Synthetic Diamond Manufacturers in 2026 | ensun",
+          "link": "https://ensun.io/search/industrial-synthetic-diamond",
+          "snippet": "Discover all relevant Industrial Synthetic Diamond Manufacturers worldwide, including Element Six and Diamond Foundry.Related searches for Industrial Synthetic Diamond. Technologies which have been se",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Synthetic diamond Manufacturers & Suppliers, China synthetic...",
+          "link": "https://www.made-in-china.com/manufacturers/synthetic-diamond.html",
+          "snippet": "synthetic diamond manufacturers/supplier, China synthetic diamond manufacturer & factory list, find best price in Chinese synthetic diamond manufacturers, suppliers, factories, exporters & wholesalers",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Synthetic Diamond Suppliers, Synthetic Diamond Manufacturers...",
+          "link": "https://www.ec21.com/companies/synthetic-diamond.html",
+          "snippet": "Manufacturer of diamond powder, synthetic diamond powder, micron powder. Established in 2013. Employees Total: 6 - 10.Do you have synthetic diamond or other products of your own? Post your Products fo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Synthetic Diamond Manufacturers: Market Share & Analyst Report",
+          "link": "https://www.verifiedmarketresearch.com/blog/top-synthetic-diamond-manufacturers/",
+          "snippet": "Top 7 synthetic diamond manufacturers offering consumers more sustainable choice.These synthetic diamond manufacturers are not only focusing on aesthetics but also on durability and versatility, cater",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Exquisite Craftsmanship and Value in synthetic diamond...",
+          "link": "https://www.alibaba.com/showroom/synthetic-diamond-manufacturers-in-india.html",
+          "snippet": "When selecting synthetic diamond manufacturers in india for jewelry making, several aspects must be taken into account to ensure the right choice for your designs. One of the key considerations is the",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Synthetic Diamond Manufacturers - Synthetic Diamond... | ExportHub",
+          "link": "https://www.exporthub.com/synthetic-diamond-manufacturers/",
+          "snippet": "Find synthetic diamond manufacturers on ExportHub.com. Buy products from suppliers around the world and increase your sales.Inquiry Basket Contact Supplier. synthetic diamond synthetic diamond powder ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Synthetic Diamond Powder Suppliers for Industrial Precision...",
+          "link": "https://www.accio.com/supplier/synthetic-diamond-powder-supplier",
+          "snippet": "Where to Find Synthetic Diamond Powder Suppliers. Searching for a reliable synthetic diamond powder supplier? This guide provides an in-depth look at the global landscape, key selection criteria, and ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Synthetic Diamonds Manufacturers | Artificial Diamond Suppliers...",
+          "link": "https://www.exportersindia.com/indian-suppliers/synthetic-diamonds.htm",
+          "snippet": "Find trusted Synthetic Diamonds suppliers in India offering melee diamond, american diamond, cz diamond and cvd diamond. Compare manufacturers, prices & bulk deals.To search by voice, go to your brows",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 9 Synthetic Diamond Manufacturers (2026 Audit Report)",
+          "link": "https://www.sourcifychina.com/synthetic-diamond-manufacturers/",
+          "snippet": "Pro List. Search forAdditionally, growing demand for synthetic diamonds in cutting-edge industrial applications\u2014including semiconductors, optics, and quantum computing\u2014further underscores the strategi",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P2": {
+      "query": "search for natural diamond suppliers",
+      "level": "market_map",
+      "result_count": 10,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Natural Diamond Suppliers Suppliers, all Quality Natural Diamond...",
+          "link": "https://www.alibaba.com/natural-diamond-suppliers-suppliers.html",
+          "snippet": "natural diamond suppliers suppliers. 400 Supplier(s). Trade Assurance.Gold Supplier Contact Details. Polished Round Natural Loose Diamonds Supplier.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Gia Natural Diamond Suppliers, all Quality Gia Natural Diamond...",
+          "link": "https://www.alibaba.com/gia-natural-diamond-suppliers.html",
+          "snippet": "Gia Natural Diamond, Gia Natural Diamond Suppliers Directory - Find variety Gia Natural Diamond Suppliers, Manufacturers, Companies from around the World at gia diamond ,real nature diamond stone ,rou",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Darry Ring | Natural Diamond Engagement Rings, Wedding Rings...",
+          "link": "https://us.darryring.com/?/",
+          "snippet": "Darry Ring offers exquisite engagement rings and wedding bands crafted from natural diamonds. Our ID verification ensures a commitment to true love. Discover our unique designs and celebrate your one ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Diamond Search: Find Diamonds by Shape, Size, Quality... | Blue Nile",
+          "link": "https://www.bluenile.com/diamonds",
+          "snippet": "Use our diamond search feature to find IGI and GIA-graded conflict-free loose diamonds for engagement rings, jewelry and more. Browse thousands of options and use the filters to narrow down the select",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "GEMONE DIAMONDS: Trusted Supplier Analysis & Alternatives",
+          "link": "https://www.accio.com/business/gemone-diamonds",
+          "snippet": "Discover verified GEMONE DIAMONDS supplier insights and top alternatives for natural and black diamonds. Explore detailed company profiles, certifications, and performance metrics.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Natural Industrial Diamond Supplier - Rough Diamonds Available",
+          "link": "https://lieberandsolow.com/",
+          "snippet": "As a natural industrial diamond supplier, we maintain a complete inventory for on-time delivery. So please, do not hesitate to reach out to us today for more information on all our natural diamonds. W",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Certified Diamond Manufacturers In Surat, Best Natural Diamond...",
+          "link": "https://www.rmpdiamond.com/",
+          "snippet": "Best Natural Diamond Suppliers in India. Offering a wide and unexceptional range of natural and Loose Diamond along with unmatched prices is a perfect blend of quality and quantity. We are India\u2019s pre",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Diamond Suppliers in USA \u2013 Natural & Lab Grown | Mann Gems",
+          "link": "https://www.manngems.com/country/diamond-suppliers-in-uae/",
+          "snippet": "Mann Gems is a trusted wholesale diamond suppliers in USA. GIA & IGI certified natural and lab grown loose diamonds shipped direct from Mumbai to all US states. Factory pricing.Indicative wholesale pr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The World's Leading Diamond Company | De Beers Group",
+          "link": "https://www.debeersgroup.com/",
+          "snippet": "Discover our work across natural diamond exploration, mining, trading, and brands, and our Building Forever sustainability framework.When typing, search suggestions will appear below. Use the Tab key ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Natural Diamond for sale in USA| Bulk Natural Diamond...",
+          "link": "https://www.dullocalminers.com/usa/natural-diamond/",
+          "snippet": "Searching for Natural Diamond for sale, a reliable Natural Diamond supplier, or a trusted exporter? Dullocal Miners is ready to meet your global Natural Diamond requirements with guaranteed quality an",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Natural Diamond Suppliers Suppliers, all Quality Natural Diamond...",
+          "link": "https://www.alibaba.com/natural-diamond-suppliers-suppliers.html",
+          "snippet": "natural diamond suppliers suppliers. 400 Supplier(s). Trade Assurance.Gold Supplier Contact Details. Polished Round Natural Loose Diamonds Supplier.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Gia Natural Diamond Suppliers, all Quality Gia Natural Diamond...",
+          "link": "https://www.alibaba.com/gia-natural-diamond-suppliers.html",
+          "snippet": "Gia Natural Diamond, Gia Natural Diamond Suppliers Directory - Find variety Gia Natural Diamond Suppliers, Manufacturers, Companies from around the World at gia diamond ,real nature diamond stone ,rou",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Darry Ring | Natural Diamond Engagement Rings, Wedding Rings...",
+          "link": "https://us.darryring.com/?/",
+          "snippet": "Darry Ring offers exquisite engagement rings and wedding bands crafted from natural diamonds. Our ID verification ensures a commitment to true love. Discover our unique designs and celebrate your one ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Diamond Search: Find Diamonds by Shape, Size, Quality... | Blue Nile",
+          "link": "https://www.bluenile.com/diamonds",
+          "snippet": "Use our diamond search feature to find IGI and GIA-graded conflict-free loose diamonds for engagement rings, jewelry and more. Browse thousands of options and use the filters to narrow down the select",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "GEMONE DIAMONDS: Trusted Supplier Analysis & Alternatives",
+          "link": "https://www.accio.com/business/gemone-diamonds",
+          "snippet": "Discover verified GEMONE DIAMONDS supplier insights and top alternatives for natural and black diamonds. Explore detailed company profiles, certifications, and performance metrics.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Natural Industrial Diamond Supplier - Rough Diamonds Available",
+          "link": "https://lieberandsolow.com/",
+          "snippet": "As a natural industrial diamond supplier, we maintain a complete inventory for on-time delivery. So please, do not hesitate to reach out to us today for more information on all our natural diamonds. W",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Certified Diamond Manufacturers In Surat, Best Natural Diamond...",
+          "link": "https://www.rmpdiamond.com/",
+          "snippet": "Best Natural Diamond Suppliers in India. Offering a wide and unexceptional range of natural and Loose Diamond along with unmatched prices is a perfect blend of quality and quantity. We are India\u2019s pre",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Diamond Suppliers in USA \u2013 Natural & Lab Grown | Mann Gems",
+          "link": "https://www.manngems.com/country/diamond-suppliers-in-uae/",
+          "snippet": "Mann Gems is a trusted wholesale diamond suppliers in USA. GIA & IGI certified natural and lab grown loose diamonds shipped direct from Mumbai to all US states. Factory pricing.Indicative wholesale pr",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The World's Leading Diamond Company | De Beers Group",
+          "link": "https://www.debeersgroup.com/",
+          "snippet": "Discover our work across natural diamond exploration, mining, trading, and brands, and our Building Forever sustainability framework.When typing, search suggestions will appear below. Use the Tab key ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Natural Diamond for sale in USA| Bulk Natural Diamond...",
+          "link": "https://www.dullocalminers.com/usa/natural-diamond/",
+          "snippet": "Searching for Natural Diamond for sale, a reliable Natural Diamond supplier, or a trusted exporter? Dullocal Miners is ready to meet your global Natural Diamond requirements with guaranteed quality an",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P3": {
+      "query": "search for industrial diamond distributors",
+      "level": "market_map",
+      "result_count": 8,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Contact us | Servsix | Synthetic Diamond Distributors | Industrial...",
+          "link": "https://www.servsix.us/contact/",
+          "snippet": "null. Diamond Electronic Industry. diamond_material analysis. Diamond Automotive Industry. Element Six_Global Innovation Centre_HPHT synthesis presses2. synthetic-diamonds.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "DIAMOND & CBN TOOLS - SMART CUT Technology - Ukam",
+          "link": "https://ukam.com/smart-cut-technology/",
+          "snippet": "Diamond distribution can be random or regular, and its adherence strong or weak. Conventional diamond and CBN tools contain randomly distributed diamond crystals, and their adherence is intrinsically ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "{:en} DIAMONDS \u2013 KGK Group",
+          "link": "https://www.kgkgroup.com/diamond-operations/",
+          "snippet": "KGK began distributing diamonds in 1969 and has manufactured finished diamonds since 1986.Efficient distribution network. The KGK Group operates a sophisticated secure global distribution infrastructu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The 7 Biggest Global Diamond Suppliers and Traders",
+          "link": "https://www.paladiamonds.com/7-biggest-global-diamond-suppliers/",
+          "snippet": "Diamonds are a hugely valued resource all around the world, with the global diamond market size valued at USD 89.18 billion in recent years.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Diamond Distributors Atlanta GA, 30336 \u2013 Manta.com",
+          "link": "https://www.manta.com/c/mm4cgj8/diamond-distributors-inc",
+          "snippet": "Get information, directions, products, services, phone numbers, and reviews on Diamond Distributors in Atlanta, GA. Discover more Service Establishment Equipment and Supplies companies in Atlanta on M",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Diamond Saw Blade Factory China | Wholesale & OEM Supplier...",
+          "link": "https://toolsriseon.com/diamond-saw-blade-factory-china-wholesale-oem-supplier/",
+          "snippet": "Industrial diamond saw blade production line at Tenyu Tool factory. I've worked with importers who faced costly claims because of segment loss. That's why we invest in laser welding technology.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Industrial Diamond Market, Report Size, Worth, Revenue, Growth...",
+          "link": "https://reports.valuates.com/market-reports/QYRE-Auto-26N1138/global-industrial-diamond",
+          "snippet": "Industrial Diamond Market. Industrial diamonds, also known as synthetic diamonds or man-made diamonds, are artificial diamonds produced through high-pressure, high-temperature (HPHT) or chemical vapor",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Chaos at Diamond Distributors Signals the End of an... | Den of Geek",
+          "link": "https://www.denofgeek.com/comics/chaos-at-diamond-distributors-signals-the-end-of-an-era-for-the-comic-book-industry/",
+          "snippet": "Meanwhile, Diamond was left with a toy and game distribution business, a number of small press publishers, and as a secondary distributor for major comics publishers, but the damage was done.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Contact us | Servsix | Synthetic Diamond Distributors | Industrial...",
+          "link": "https://www.servsix.us/contact/",
+          "snippet": "null. Diamond Electronic Industry. diamond_material analysis. Diamond Automotive Industry. Element Six_Global Innovation Centre_HPHT synthesis presses2. synthetic-diamonds.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "DIAMOND & CBN TOOLS - SMART CUT Technology - Ukam",
+          "link": "https://ukam.com/smart-cut-technology/",
+          "snippet": "Diamond distribution can be random or regular, and its adherence strong or weak. Conventional diamond and CBN tools contain randomly distributed diamond crystals, and their adherence is intrinsically ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "{:en} DIAMONDS \u2013 KGK Group",
+          "link": "https://www.kgkgroup.com/diamond-operations/",
+          "snippet": "KGK began distributing diamonds in 1969 and has manufactured finished diamonds since 1986.Efficient distribution network. The KGK Group operates a sophisticated secure global distribution infrastructu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "The 7 Biggest Global Diamond Suppliers and Traders",
+          "link": "https://www.paladiamonds.com/7-biggest-global-diamond-suppliers/",
+          "snippet": "Diamonds are a hugely valued resource all around the world, with the global diamond market size valued at USD 89.18 billion in recent years.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Diamond Distributors Atlanta GA, 30336 \u2013 Manta.com",
+          "link": "https://www.manta.com/c/mm4cgj8/diamond-distributors-inc",
+          "snippet": "Get information, directions, products, services, phone numbers, and reviews on Diamond Distributors in Atlanta, GA. Discover more Service Establishment Equipment and Supplies companies in Atlanta on M",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Diamond Saw Blade Factory China | Wholesale & OEM Supplier...",
+          "link": "https://toolsriseon.com/diamond-saw-blade-factory-china-wholesale-oem-supplier/",
+          "snippet": "Industrial diamond saw blade production line at Tenyu Tool factory. I've worked with importers who faced costly claims because of segment loss. That's why we invest in laser welding technology.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Industrial Diamond Market, Report Size, Worth, Revenue, Growth...",
+          "link": "https://reports.valuates.com/market-reports/QYRE-Auto-26N1138/global-industrial-diamond",
+          "snippet": "Industrial Diamond Market. Industrial diamonds, also known as synthetic diamonds or man-made diamonds, are artificial diamonds produced through high-pressure, high-temperature (HPHT) or chemical vapor",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Chaos at Diamond Distributors Signals the End of an... | Den of Geek",
+          "link": "https://www.denofgeek.com/comics/chaos-at-diamond-distributors-signals-the-end-of-an-era-for-the-comic-book-industry/",
+          "snippet": "Meanwhile, Diamond was left with a toy and game distribution business, a number of small press publishers, and as a secondary distributor for major comics publishers, but the damage was done.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P4": {
+      "query": "search for industrial diamond wholesalers",
+      "level": "market_map",
+      "result_count": 12,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Upgrade Projects with China Wholesale Diamond Industrial Products...",
+          "link": "https://www.globalsources.com/manufacturers/diamond-industrial.html",
+          "snippet": "7817 wholesale \"Diamond Industrial\" products from 213 suppliers.Global Sources has a full-scale list of wholesale diamond industrial products at factory prices featured by verified wholesalers & manuf",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Diamond Search: Find Diamonds by Shape, Size, Quality... | Blue Nile",
+          "link": "https://www.bluenile.com/diamonds",
+          "snippet": "Use our diamond search feature to find IGI and GIA-graded conflict-free loose diamonds for engagement rings, jewelry and more. Browse thousands of options and use the filters to narrow down the select",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "industrial diamond list - industrial diamond for sale",
+          "link": "https://www.brakesband.com/sale-industrial-diamond",
+          "snippet": "14 inch Industrial Diamond Cutting Blades for marble , cured concrete Details of products: ROSCHEN has a complete line of diamond blades and accessories, including asphalt blades, combo blades, concre",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Lab Grown Diamond in China | TikTok",
+          "link": "https://www.tiktok.com/discover/wholesale-lab-grown-diamond-in-china",
+          "snippet": "If you're searching for lab grown diamonds in Guangzhou, start by focusing on the right districts: Panyu and Liwan. These areas concentrate reputable dealers and markets that list lab grown diamonds a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Ways to Find Trusted Diamond Wholesalers Online",
+          "link": "https://www.diamondsdubai.ae/best-ways-to-find-trusted-diamond-wholesalers-online/",
+          "snippet": "Evaluate Pricing Carefully. Wholesale diamonds generally cost less than retail diamonds, however when a price seems too appealing to be true then it most likely is. The price can be extremely low and ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Getting the Best Prices at Online Diamond Wholesalers",
+          "link": "https://www.brilliance.com/article/best-prices-online-diamond-wholesalers",
+          "snippet": "Learn why online Diamond Wholesalers have the best prices and the advantages of purchasing a diamond wholesale verses retail.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Finding Trusted Diamond Wholesalers UK for Certified... - Vortex Live",
+          "link": "https://www.vortexlive.ca/2026/02/16/finding-trusted-diamond-wholesalers-uk-for-certified-loose-diamonds/",
+          "snippet": "Search for: Diamond Wholesalers UK. Homepage. jewellery.How to Compare Wholesale Prices. Online Diamond Wholesalers in the UK. Choosing a Reliable Diamond Wholesaler. Final Thoughts.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Trading Platform vs Diamond Wholesalers - Price, Selection, Benefits...",
+          "link": "https://pldiam.com/trading-platform-vs-diamond-wholesalers/",
+          "snippet": "Wholesalers acted as the main bridge between cutters and retailers. They purchased in bulk, held inventory locally, and supplied to jewelers who relied heavily on regional relationships. The Rise of D",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Diamond Wholesalers Online for Retail Businesses | Expressy",
+          "link": "https://expressy.co.in/best-diamond-wholesalers-online-for-retail-businesses/",
+          "snippet": "Explore diamond wholesalers online, diamond wholesalers Australia, diamond wholesale USA with Adornet Jewels for reliable sourcing and retail success.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Cheap Blue Diamond Wholesalers - Buy in Bulk on...",
+          "link": "https://uk.dhgate.com/blue-diamond-wholesalers-uk.html",
+          "snippet": "Bulk buy blue diamond wholesalers online from Chinese suppliers on DHgate uk. Get deals with coupon and discount code!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Uncovering Vancouver's Hidden Gems: A Guide to Finding the Top...",
+          "link": "https://ibusinessday.com/uncovering-vancouvers-hidden-gems-a-guide-to-finding-the-top-diamond-wholesalers/",
+          "snippet": "These diamond wholesalers purchase diamonds in bulk, offering them more competitive prices compared to retail jewelry stores.When choosing a diamond wholesaler, it\u2019s important to compare prices. Ensur",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Link to justdial.com",
+          "link": "https://www.justdial.com/Jaipur/Diamond-Wholesalers/nct-10160117",
+          "snippet": "The site owner hides the web page description.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Upgrade Projects with China Wholesale Diamond Industrial Products...",
+          "link": "https://www.globalsources.com/manufacturers/diamond-industrial.html",
+          "snippet": "7817 wholesale \"Diamond Industrial\" products from 213 suppliers.Global Sources has a full-scale list of wholesale diamond industrial products at factory prices featured by verified wholesalers & manuf",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Diamond Search: Find Diamonds by Shape, Size, Quality... | Blue Nile",
+          "link": "https://www.bluenile.com/diamonds",
+          "snippet": "Use our diamond search feature to find IGI and GIA-graded conflict-free loose diamonds for engagement rings, jewelry and more. Browse thousands of options and use the filters to narrow down the select",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "industrial diamond list - industrial diamond for sale",
+          "link": "https://www.brakesband.com/sale-industrial-diamond",
+          "snippet": "14 inch Industrial Diamond Cutting Blades for marble , cured concrete Details of products: ROSCHEN has a complete line of diamond blades and accessories, including asphalt blades, combo blades, concre",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Lab Grown Diamond in China | TikTok",
+          "link": "https://www.tiktok.com/discover/wholesale-lab-grown-diamond-in-china",
+          "snippet": "If you're searching for lab grown diamonds in Guangzhou, start by focusing on the right districts: Panyu and Liwan. These areas concentrate reputable dealers and markets that list lab grown diamonds a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Ways to Find Trusted Diamond Wholesalers Online",
+          "link": "https://www.diamondsdubai.ae/best-ways-to-find-trusted-diamond-wholesalers-online/",
+          "snippet": "Evaluate Pricing Carefully. Wholesale diamonds generally cost less than retail diamonds, however when a price seems too appealing to be true then it most likely is. The price can be extremely low and ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Getting the Best Prices at Online Diamond Wholesalers",
+          "link": "https://www.brilliance.com/article/best-prices-online-diamond-wholesalers",
+          "snippet": "Learn why online Diamond Wholesalers have the best prices and the advantages of purchasing a diamond wholesale verses retail.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Finding Trusted Diamond Wholesalers UK for Certified... - Vortex Live",
+          "link": "https://www.vortexlive.ca/2026/02/16/finding-trusted-diamond-wholesalers-uk-for-certified-loose-diamonds/",
+          "snippet": "Search for: Diamond Wholesalers UK. Homepage. jewellery.How to Compare Wholesale Prices. Online Diamond Wholesalers in the UK. Choosing a Reliable Diamond Wholesaler. Final Thoughts.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Trading Platform vs Diamond Wholesalers - Price, Selection, Benefits...",
+          "link": "https://pldiam.com/trading-platform-vs-diamond-wholesalers/",
+          "snippet": "Wholesalers acted as the main bridge between cutters and retailers. They purchased in bulk, held inventory locally, and supplied to jewelers who relied heavily on regional relationships. The Rise of D",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Diamond Wholesalers Online for Retail Businesses | Expressy",
+          "link": "https://expressy.co.in/best-diamond-wholesalers-online-for-retail-businesses/",
+          "snippet": "Explore diamond wholesalers online, diamond wholesalers Australia, diamond wholesale USA with Adornet Jewels for reliable sourcing and retail success.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Cheap Blue Diamond Wholesalers - Buy in Bulk on...",
+          "link": "https://uk.dhgate.com/blue-diamond-wholesalers-uk.html",
+          "snippet": "Bulk buy blue diamond wholesalers online from Chinese suppliers on DHgate uk. Get deals with coupon and discount code!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Uncovering Vancouver's Hidden Gems: A Guide to Finding the Top...",
+          "link": "https://ibusinessday.com/uncovering-vancouvers-hidden-gems-a-guide-to-finding-the-top-diamond-wholesalers/",
+          "snippet": "These diamond wholesalers purchase diamonds in bulk, offering them more competitive prices compared to retail jewelry stores.When choosing a diamond wholesaler, it\u2019s important to compare prices. Ensur",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Link to justdial.com",
+          "link": "https://www.justdial.com/Jaipur/Diamond-Wholesalers/nct-10160117",
+          "snippet": "The site owner hides the web page description.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P5": {
+      "query": "search for industrial diamond resellers",
+      "level": "market_map",
+      "result_count": 18,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Industrial Diamond Retailers & Dealers in India",
+          "link": "https://dir.indiamart.com/impcat/industrial-diamond.html?biz=40",
+          "snippet": "Find here Industrial Diamond Retailers & Retail Merchants in India. Get contact details & address of companies retailing, manufacturing and supplying Industrial Diamond across India.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Industrial Diamond In Pune, Maharashtra At Best Price - TradeIndia",
+          "link": "https://www.tradeindia.com/pune/industrial-diamond-city-213577.html",
+          "snippet": "Get industrial diamond in Pune, Maharashtra at best price. Find list of industrial diamond manufacturers, suppliers located in Poona & near by cities.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Industrial Diamonds Manufacturers, Suppliers, Dealers & Prices",
+          "link": "https://www.tradeindia.com/manufacturers/industrial-diamonds.html",
+          "snippet": "Find Industrial Diamonds manufacturers, suppliers, dealers & latest prices from top companies in India. Buy from a wide range of Industrial Diamonds online.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 100 Industrial Diamond Suppliers in 2026 | ensun",
+          "link": "https://ensun.io/search/industrial-diamond",
+          "snippet": "Industrial diamonds are a form of diamond that are primarily used for cutting, grinding, drilling, and polishing hard materials. Unlike gemstones, which are valued for their aesthetic appeal, industri",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Soham Industrial Diamonds",
+          "link": "http://www.sohamindustrialdiamonds.com/",
+          "snippet": "The diamonds and powder offered by us are processed in mines as per the set industry standards and norms. Owing to their perfect finishing, long lasting shine, excellent thermal conductivity and purit",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "RP Industrial Diamonds - The world's leading supplier of Natural ...",
+          "link": "https://rpindustrialdiamond.com/industrial_diamonds.html",
+          "snippet": "With over 25 years of experience in superabrasives, industrial diamonds and the diamond tooling industry, we understand the importance of supplying you with exactly the right diamond for each applicat",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Diamonds - Buy, Sell & Trade Diamonds Online | Polygon",
+          "link": "https://www.polygon.net/jwl/public/diamonds/buy-diamonds-en.jsp",
+          "snippet": "Buy diamonds online with Polygon Online Wholesale Platform. Search diamond inventory from 1000's of dealers and quickly locate loose, polished diamonds including GIA, AGS, EGL and other certified and ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Industrial Rough Diamonds | #1 Rough Diamond Suppliers",
+          "link": "https://lieberandsolow.com/industrial-rough-diamonds/",
+          "snippet": "As one of the leading rough diamond suppliers in the US, you can purchase affordable industrial rough diamonds at your price point.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Natural Industrial Diamond Supplier - Rough Diamonds Available",
+          "link": "https://lieberandsolow.com/",
+          "snippet": "Natural Industrial Diamonds Committed to Long-Term Supply and Leading the Industry Forward From Transportation to Electronics, Medical to Machinery, natural industrial diamonds are the material of cho",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Industrial Diamond Supplier - Ambica Industrial Diamond",
+          "link": "https://ambicaindustrialdiamond.com/",
+          "snippet": "Industrial rough diamonds however are mostly different in appearance and you can find them in different colors like yellow, brown, grey and even blackish. Ambica Industrial Diamond, the ever growing d",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Diamonds to sell? Best places to sell diamonds for cash",
+          "link": "https://www.wealthysinglemommy.com/how-to-sell-diamonds",
+          "snippet": "FAQs about diamond resale. How do I sell my diamonds for the best price? Single diamond earrings. Almost all diamonds bought by a buyer are removed from their setting and resold to jewelers. How much ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Rare Carat: The Smart Way To Buy Diamonds",
+          "link": "https://www.rarecarat.com/",
+          "snippet": "USA's best-rated jeweler on Trustpilot. Lab & natural diamond rings, earrings, bracelets, wedding bands and eternity rings. Best customer service throughout, and proud of our product quality & prices.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "37.9M posts. Discover videos related to Diamond Reseller on TikTok.",
+          "link": "https://www.tiktok.com/discover/diamond-reseller",
+          "snippet": "Diamond Test Passing #reseller #reselling #vendor #diamond #moisanite Diamond Test Passing: Confirming Authenticity. Learn how to verify diamond authenticity with effective tests! Discover tips for re",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "A consumer\u2019s guide to reselling diamonds. | PriceScope",
+          "link": "https://www.pricescope.com/blog/consumers-guide-reselling-diamonds",
+          "snippet": "Join our online community. Ask our PriceScope members and industry experts for a second opinion or get lost in the thousands of user-shared diamond and jewelry images for inspiration.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bigo Live Diamond Reseller Profit Margins: 2026 Guide",
+          "link": "https://buffget.com/news/bigo-live-diamond-reseller-profit-margins-2026-guide",
+          "snippet": "Diamond reseller profit margins represent the percentage difference between wholesale acquisition costs and retail selling prices. On Bigo Live, margins vary by agency tier, purchase volume, and opera",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "officialdiamondreseller.com",
+          "link": "https://officialdiamondreseller.com/",
+          "snippet": "Comments for Bigo Diamond Reseller.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Plans and Pricing for Resellers - Inova.Diamonds Resellers.",
+          "link": "https://inova.diamonds/reseller-plans/",
+          "snippet": "Detailed plans for resellers both for Diamond Search and Ring Designer.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Web Solutions For Diamond Resellers In The Digital Age",
+          "link": "https://www.vasundhara.io/blogs/web-solutions-for-diamond-resellers-digital-age",
+          "snippet": "Diamond Reselling: An Overview. Key Challenges Faced by Diamond Resellers. Web Solutions for Diamond Resellers.Diamond resellers need to optimize their diamond retail websites with relevant keywords t",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Industrial Diamond Retailers & Dealers in India",
+          "link": "https://dir.indiamart.com/impcat/industrial-diamond.html?biz=40",
+          "snippet": "Find here Industrial Diamond Retailers & Retail Merchants in India. Get contact details & address of companies retailing, manufacturing and supplying Industrial Diamond across India.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Industrial Diamond In Pune, Maharashtra At Best Price - TradeIndia",
+          "link": "https://www.tradeindia.com/pune/industrial-diamond-city-213577.html",
+          "snippet": "Get industrial diamond in Pune, Maharashtra at best price. Find list of industrial diamond manufacturers, suppliers located in Poona & near by cities.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Industrial Diamonds Manufacturers, Suppliers, Dealers & Prices",
+          "link": "https://www.tradeindia.com/manufacturers/industrial-diamonds.html",
+          "snippet": "Find Industrial Diamonds manufacturers, suppliers, dealers & latest prices from top companies in India. Buy from a wide range of Industrial Diamonds online.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top 100 Industrial Diamond Suppliers in 2026 | ensun",
+          "link": "https://ensun.io/search/industrial-diamond",
+          "snippet": "Industrial diamonds are a form of diamond that are primarily used for cutting, grinding, drilling, and polishing hard materials. Unlike gemstones, which are valued for their aesthetic appeal, industri",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Soham Industrial Diamonds",
+          "link": "http://www.sohamindustrialdiamonds.com/",
+          "snippet": "The diamonds and powder offered by us are processed in mines as per the set industry standards and norms. Owing to their perfect finishing, long lasting shine, excellent thermal conductivity and purit",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "RP Industrial Diamonds - The world's leading supplier of Natural ...",
+          "link": "https://rpindustrialdiamond.com/industrial_diamonds.html",
+          "snippet": "With over 25 years of experience in superabrasives, industrial diamonds and the diamond tooling industry, we understand the importance of supplying you with exactly the right diamond for each applicat",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Diamonds - Buy, Sell & Trade Diamonds Online | Polygon",
+          "link": "https://www.polygon.net/jwl/public/diamonds/buy-diamonds-en.jsp",
+          "snippet": "Buy diamonds online with Polygon Online Wholesale Platform. Search diamond inventory from 1000's of dealers and quickly locate loose, polished diamonds including GIA, AGS, EGL and other certified and ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Industrial Rough Diamonds | #1 Rough Diamond Suppliers",
+          "link": "https://lieberandsolow.com/industrial-rough-diamonds/",
+          "snippet": "As one of the leading rough diamond suppliers in the US, you can purchase affordable industrial rough diamonds at your price point.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Natural Industrial Diamond Supplier - Rough Diamonds Available",
+          "link": "https://lieberandsolow.com/",
+          "snippet": "Natural Industrial Diamonds Committed to Long-Term Supply and Leading the Industry Forward From Transportation to Electronics, Medical to Machinery, natural industrial diamonds are the material of cho",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Industrial Diamond Supplier - Ambica Industrial Diamond",
+          "link": "https://ambicaindustrialdiamond.com/",
+          "snippet": "Industrial rough diamonds however are mostly different in appearance and you can find them in different colors like yellow, brown, grey and even blackish. Ambica Industrial Diamond, the ever growing d",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Diamonds to sell? Best places to sell diamonds for cash",
+          "link": "https://www.wealthysinglemommy.com/how-to-sell-diamonds",
+          "snippet": "FAQs about diamond resale. How do I sell my diamonds for the best price? Single diamond earrings. Almost all diamonds bought by a buyer are removed from their setting and resold to jewelers. How much ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Rare Carat: The Smart Way To Buy Diamonds",
+          "link": "https://www.rarecarat.com/",
+          "snippet": "USA's best-rated jeweler on Trustpilot. Lab & natural diamond rings, earrings, bracelets, wedding bands and eternity rings. Best customer service throughout, and proud of our product quality & prices.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "37.9M posts. Discover videos related to Diamond Reseller on TikTok.",
+          "link": "https://www.tiktok.com/discover/diamond-reseller",
+          "snippet": "Diamond Test Passing #reseller #reselling #vendor #diamond #moisanite Diamond Test Passing: Confirming Authenticity. Learn how to verify diamond authenticity with effective tests! Discover tips for re",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "A consumer\u2019s guide to reselling diamonds. | PriceScope",
+          "link": "https://www.pricescope.com/blog/consumers-guide-reselling-diamonds",
+          "snippet": "Join our online community. Ask our PriceScope members and industry experts for a second opinion or get lost in the thousands of user-shared diamond and jewelry images for inspiration.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bigo Live Diamond Reseller Profit Margins: 2026 Guide",
+          "link": "https://buffget.com/news/bigo-live-diamond-reseller-profit-margins-2026-guide",
+          "snippet": "Diamond reseller profit margins represent the percentage difference between wholesale acquisition costs and retail selling prices. On Bigo Live, margins vary by agency tier, purchase volume, and opera",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "officialdiamondreseller.com",
+          "link": "https://officialdiamondreseller.com/",
+          "snippet": "Comments for Bigo Diamond Reseller.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Plans and Pricing for Resellers - Inova.Diamonds Resellers.",
+          "link": "https://inova.diamonds/reseller-plans/",
+          "snippet": "Detailed plans for resellers both for Diamond Search and Ring Designer.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Web Solutions For Diamond Resellers In The Digital Age",
+          "link": "https://www.vasundhara.io/blogs/web-solutions-for-diamond-resellers-digital-age",
+          "snippet": "Diamond Reselling: An Overview. Key Challenges Faced by Diamond Resellers. Web Solutions for Diamond Resellers.Diamond resellers need to optimize their diamond retail websites with relevant keywords t",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "search for industrial diamond system integrators",
+      "level": "market_map",
+      "result_count": 2,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "System Integration - Diamond Systems",
+          "link": "https://www.diamondsystems.com/services/integration.php",
+          "snippet": "Diamond Systems provides a broad range of integration services that builds on our design experience and our expertise in providing solutions for the embedded market for over twenty years. We provide c",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Diamond Partners | Mitsubishi Electric US Industrial Automation",
+          "link": "https://us.mitsubishielectric.com/fa/en/about-us/diamond-solutions/",
+          "snippet": "Our Diamond Partner Solutions Program consists of authorized Mitsubishi Electric US Industrial Automation solutions partners near you using the search function to filter by type, location, product cat",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "System Integration - Diamond Systems",
+          "link": "https://www.diamondsystems.com/services/integration.php",
+          "snippet": "Diamond Systems provides a broad range of integration services that builds on our design experience and our expertise in providing solutions for the embedded market for over twenty years. We provide c",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Diamond Partners | Mitsubishi Electric US Industrial Automation",
+          "link": "https://us.mitsubishielectric.com/fa/en/about-us/diamond-solutions/",
+          "snippet": "Our Diamond Partner Solutions Program consists of authorized Mitsubishi Electric US Industrial Automation solutions partners near you using the search function to filter by type, location, product cat",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P7": {
+      "query": "search for industrial diamond service providers",
+      "level": "market_map",
+      "result_count": 9,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Certified Diamonds, Gemstones & Jewelery Grading | IGI",
+          "link": "https://www.igi.org/",
+          "snippet": "Explore IGI diamonds and gemstone certification trusted worldwide for quality & authenticity. Learn about IGI\u2019s grading standards & global certification process.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Industrial Diamond Statistics and Information | U.S. Geological Survey",
+          "link": "https://www.usgs.gov/centers/national-minerals-information-center/industrial-diamond-statistics-and-information",
+          "snippet": "Industrial Diamond Insights and Data. Pictured: gem diamond.Synthetic industrial is superior to its natural diamond counterpart because it can be produced in unlimited quantities, and, in many cases, ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Industrial Diamond Ring - [2026] Froggy Ads",
+          "link": "https://froggyads.com/blog/industrial-diamond-ring/",
+          "snippet": "Today, industrial diamond rings are widely used in various industries for their exceptional hardness and durability. One of the most notable applications is in the mining industry, where these rings a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "INDUSTRIAL DIAMOND SERVICES LIMITED overview - Find and...",
+          "link": "https://find-and-update.company-information.service.gov.uk/company/04188366",
+          "snippet": "INDUSTRIAL DIAMOND SERVICES LIMITED - Free company information from Companies House including registered office address, filing history, accounts, annual return, officers, charges, business activity.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Botswana leads calls on G7 countries to review diamond tracking...",
+          "link": "https://www.voanews.com/a/botswana-leads-calls-on-g7-countries-to-review-diamond-tracking-initiative-/7558038.html",
+          "snippet": "Skip to Search.Belgian-based diamond industry researcher Hans Merket told VOA traceability measures are necessary but that there is also a need to respond to African producers\u2019 concerns. \"A serious ad",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Industrial Diamond Market Regional... | Articles Submission Service",
+          "link": "https://articlessubmissionservice.com/industrial-diamond-market-regional-outlook-and-revenue-insight-2031/",
+          "snippet": "The research report provides a detailed analysis of drivers and restraints Industrial Diamond Market along with their impact on demand during the forecast period. The study also provides key market in",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Three Candidates, Three Countries, One Unanswered Question: What...",
+          "link": "https://rough-polished.expert/en/analytics/145693.html",
+          "snippet": "The natural diamond industry is navigating a period of significant transition, but there are increasing signs that the foundations for a stronger and more positive future are being built, according to",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Garena Free Fire Mobile Generator",
+          "link": "https://www.arabgarena.com/diamonds/",
+          "snippet": "Garena Free Fire is an online-only action-adventure battle royale game played in a third person perspective. The game consists of up to 50 players falling from a parachute on an island in search of we",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Russia's war against Ukraine: EU sanctions - Consilium",
+          "link": "https://www.consilium.europa.eu/en/policies/sanctions-against-russia/",
+          "snippet": "new investments in Russia's LNG projects. exports to Russia of goods and technologies for the energy industry.seafood, spirits, cigarettes and cosmetics. diamonds and gold, including jewellery. other ",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Certified Diamonds, Gemstones & Jewelery Grading | IGI",
+          "link": "https://www.igi.org/",
+          "snippet": "Explore IGI diamonds and gemstone certification trusted worldwide for quality & authenticity. Learn about IGI\u2019s grading standards & global certification process.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Industrial Diamond Statistics and Information | U.S. Geological Survey",
+          "link": "https://www.usgs.gov/centers/national-minerals-information-center/industrial-diamond-statistics-and-information",
+          "snippet": "Industrial Diamond Insights and Data. Pictured: gem diamond.Synthetic industrial is superior to its natural diamond counterpart because it can be produced in unlimited quantities, and, in many cases, ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Industrial Diamond Ring - [2026] Froggy Ads",
+          "link": "https://froggyads.com/blog/industrial-diamond-ring/",
+          "snippet": "Today, industrial diamond rings are widely used in various industries for their exceptional hardness and durability. One of the most notable applications is in the mining industry, where these rings a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "INDUSTRIAL DIAMOND SERVICES LIMITED overview - Find and...",
+          "link": "https://find-and-update.company-information.service.gov.uk/company/04188366",
+          "snippet": "INDUSTRIAL DIAMOND SERVICES LIMITED - Free company information from Companies House including registered office address, filing history, accounts, annual return, officers, charges, business activity.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Botswana leads calls on G7 countries to review diamond tracking...",
+          "link": "https://www.voanews.com/a/botswana-leads-calls-on-g7-countries-to-review-diamond-tracking-initiative-/7558038.html",
+          "snippet": "Skip to Search.Belgian-based diamond industry researcher Hans Merket told VOA traceability measures are necessary but that there is also a need to respond to African producers\u2019 concerns. \"A serious ad",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Industrial Diamond Market Regional... | Articles Submission Service",
+          "link": "https://articlessubmissionservice.com/industrial-diamond-market-regional-outlook-and-revenue-insight-2031/",
+          "snippet": "The research report provides a detailed analysis of drivers and restraints Industrial Diamond Market along with their impact on demand during the forecast period. The study also provides key market in",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Three Candidates, Three Countries, One Unanswered Question: What...",
+          "link": "https://rough-polished.expert/en/analytics/145693.html",
+          "snippet": "The natural diamond industry is navigating a period of significant transition, but there are increasing signs that the foundations for a stronger and more positive future are being built, according to",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Garena Free Fire Mobile Generator",
+          "link": "https://www.arabgarena.com/diamonds/",
+          "snippet": "Garena Free Fire is an online-only action-adventure battle royale game played in a third person perspective. The game consists of up to 50 players falling from a parachute on an island in search of we",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Russia's war against Ukraine: EU sanctions - Consilium",
+          "link": "https://www.consilium.europa.eu/en/policies/sanctions-against-russia/",
+          "snippet": "new investments in Russia's LNG projects. exports to Russia of goods and technologies for the energy industry.seafood, spirits, cigarettes and cosmetics. diamonds and gold, including jewellery. other ",
+          "backend": "ddgs_bing"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

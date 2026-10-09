@@ -1,0 +1,209 @@
+\documentclass[letterpaper,9pt]{article}
+
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{tabularx}
+
+% Uniform margins on all sides
+\geometry{
+    left=0.5in,
+    right=0.6in,
+    top=0.3in,
+    bottom=0.3in
+}
+
+% Custom colors
+\definecolor{linkcolor}{RGB}{0, 0, 155}
+\definecolor{sectioncolor}{RGB}{0, 0, 0}
+
+% Formatting commands
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% ============================================================
+% MANUAL SPACING SYSTEM -- everything below is a plain \vspace.
+% Nothing in this document relies on titlesec's automatic
+% before/after section spacing or itemize's topsep/itemsep --
+% those are all zeroed out. Every gap in the resume is placed
+% by hand using the four named spacers below, so you can tune
+% one number and every matching gap in the whole doc moves
+% together.
+%
+% \secgap -> space before every \section heading
+% \headgap -> space after a heading / subheading, before body text
+% \bulletgap -> space between two bullet points
+% \entrygap -> space between two project/experience entries
+% ============================================================
+\titlespacing{\section}{0pt}{0pt}{0pt}
+\titleformat{\section}{\small\scshape\raggedright\bfseries}{}{0em}{}[\titlerule]
+
+\setlist[itemize]{leftmargin=0.16in, label={\small\textbullet}, topsep=0pt, itemsep=0pt, parsep=0pt, partopsep=0pt}
+
+\newcommand{\secgap}{\vspace{4pt}}
+\newcommand{\headgap}{\vspace{2pt}}
+\newcommand{\bulletgap}{\vspace{1pt}}
+\newcommand{\entrygap}{\vspace{4pt}}
+
+% Custom commands
+\newcommand{\resumeSubheading}[4]{
+    \parbox[t]{0.68\textwidth}{\textbf{\small #1}}\hfill\parbox[t]{0.3\textwidth}{\raggedleft\small #2}\\
+    \parbox[t]{0.68\textwidth}{\textit{\footnotesize #3}}\hfill\parbox[t]{0.3\textwidth}{\raggedleft\textit{\footnotesize #4}}
+}
+
+% resumeProject: #1=Project Name, #2=Date, #3=GitHub Link, #4=Tech Stack
+\newcommand{\resumeProject}[4]{
+    \parbox[t]{0.68\textwidth}{\textbf{\small #1}}\hfill\parbox[t]{0.3\textwidth}{\raggedleft\small #2}\\
+    \parbox[t]{0.68\textwidth}{\footnotesize #3}\hfill\parbox[t]{0.3\textwidth}{\raggedleft\textit{\footnotesize #4}}
+}
+
+% Begin document
+\begin{document}
+
+\begin{center}
+    {\Huge \textbf{Aman Kumar}}\\
+    \vspace{2pt}
+    \footnotesize
+    +91-7488594091 $|$
+    \href{mailto:amankumar74885940@gmail.com}{\textcolor{linkcolor}{amankumar74885940@gmail.com}} $|$
+    \href{https://github.com/aman2225}{\textcolor{linkcolor}{github.com/aman2225}} $|$
+    \href{https://www.linkedin.com/in/aman-kumar-004832265/}{\textcolor{linkcolor}{linkedin.com/in/aman-kumar-004832265}}
+\end{center}
+
+% ===== EDUCATION =====
+\secgap
+\section{EDUCATION}
+\headgap
+\resumeSubheading
+{Indian Institute of Information Technology, Pune}{Nov 2022 -- Jun 2026}
+{Bachelors of Technology in Computer Science and Engineering} {Pune, Maharashtra}
+\entrygap
+\resumeSubheading
+{DR.G.L.Dutaa Dav Public School}{June 2022}
+{Class - XII} {Patna, Bihar}
+% ===== TECHNICAL SKILLS =====
+\secgap
+\section{TECHNICAL SKILLS}
+\headgap
+\begin{itemize}
+    \item \textbf{\small Programming Languages}: \footnotesize Python, C/C++, Java, JavaScript, Unix/Linux
+    \bulletgap
+    \item \textbf{\small Web Technologies}: \footnotesize React.js, Next.js, Express.js, Node.js, HTML, CSS, RESTful APIs
+    \bulletgap
+    \item \textbf{\small AI/ML}: \footnotesize RAG, Langchain, Langgraph, Scikit-learn, NumPy, Pandas, TensorFlow, PyTorch, Keras
+    \bulletgap
+    \item \textbf{\small Database Systems}: \footnotesize MongoDB, MySQL, PostgreSQL
+\end{itemize}
+
+% ===== EXPERIENCE =====
+\secgap
+\section{EXPERIENCE}
+\headgap
+\resumeSubheading
+{AI Engineering Intern, Coherent Market Insights} {June 2026 -- Ongoing} {RAG, LLMs, LangChain, VectorVault, Prompt Engineering}{Pune}
+\headgap
+\begin{itemize}
+    \item \footnotesize Built end-to-end \textbf{RAG pipeline} for AI-powered multi-channel outreach sequence creation from uploaded pitch documents.
+    \bulletgap
+    \item \footnotesize Designed grounded \textbf{LLM generation} with retrieval constraints and prompt rules so campaign content is factually tied to source documents, not free-form hallucination.
+    \bulletgap
+    \item \footnotesize Implemented \textbf{7-class reply sentiment classification} via LLM with structured JSON outputs, feeding analytics dashboards and automated campaign stop rules.
+    \bulletgap
+    \item \footnotesize Developed context-aware \textbf{follow-up drafting} using \textbf{VectorVault} semantic search over per-lead conversation history and similar past successful replies.
+\end{itemize}
+
+% ===== PROJECTS =====
+\secgap
+\section{PROJECTS}
+\headgap
+\resumeProject{LegalEase AI}{May 2026 -- Jun 2026}
+{\href{https://github.com/aman2225/legalease_ai}{\color{linkcolor}GitHub Repository}}{\textit{Next.js, TypeScript, Google Cloud Platform, RAG, Docker}}
+\headgap
+\begin{itemize}
+    \item \footnotesize Built an \textbf{AI-driven} legal intelligence platform that transforms \textbf{dense legal contracts} into plain-language summaries, \textbf{flags high-risk clauses}, and enables context-aware question answering with source-backed explanations.
+    \bulletgap
+    \item \footnotesize Designed an end-to-end document analysis pipeline covering \textbf{OCR ingestion}, \textbf{clause segmentation}, \textbf{multilingual} understanding, \textbf{privacy-safe} data handling, and \textbf{measurable readability improvement} to help users identify hidden legal risks before signing.
+    \bulletgap
+    \item \footnotesize Deployed a \textbf{FastAPI + Next.js} architecture on \textbf{Google Cloud}, using \textbf{Gemini} for clause-level summarization and \textbf{Firestore} for document and chat-session state management.
+\end{itemize}
+
+\entrygap
+\resumeProject{Queuemail: Automated Email Generator and Scheduler}{Feb 2026 -- Mar 2026}
+{\href{https://github.com/aman2225/automated_mail_scheduler}{\textcolor{linkcolor}{GitHub Repository}}}{\textit{LangChain, BullMQ, Redis, Google Auth, Express.js, MySQL}}
+\headgap
+\begin{itemize}
+    \item \footnotesize Designed an \textbf{asynchronous email scheduling backend} using \textbf{Express.js}, \textbf{BullMQ}, and \textbf{Redis}; built fault-tolerant queues with exponential backoff and graceful worker shutdowns to guarantee reliability under load.
+    \bulletgap
+    \item \footnotesize Built a secure \textbf{RESTful API} pipeline utilizing \textbf{OAuth 2.0 (Google Sign-In)} and Redis rate limiters to enforce \textbf{global/per-sender} throughput constraints; containerized the service with \textbf{Docker} for cloud orchestration.
+    \bulletgap
+    \item \footnotesize Developed an \textbf{LLM}-powered assistant using \textbf{LangChain}, leveraging \textbf{prompt engineering} and context-aware templates to dynamically generate personalized emails and auto-suggest replies from conversation history.
+\end{itemize}
+
+\entrygap
+\resumeProject{Real-Time Violence Detection System}{Nov 2025 -- Dec 2025}
+{\href{https://github.com/aman2225/Real-Time-Violence-Detection}{\textcolor{linkcolor}{GitHub Repository}}}{\textit{Python, Tensorflow, Keras, MobileNetv2}}
+\headgap
+\begin{itemize}
+    \item \footnotesize Developed a real-time crime detection system to identify violent activities in live video.
+    \bulletgap
+    \item \footnotesize Trained a \textbf{MobileNetV2 \& BiLSTM deep-learning model} on 2000+ labeled crime videos.
+    \bulletgap
+    \item \footnotesize Built \textbf{frame-wise} and \textbf{whole-video prediction} pipelines with real-time webcam inference, optimized for lightweight deployment on \textbf{IoT/edge devices}.
+\end{itemize}
+
+% ===== ACHIEVEMENTS =====
+\secgap
+\section{ACHIEVEMENTS}
+\headgap
+\begin{itemize}
+    \item \footnotesize \textbf{Codeforces} Max Rating \textbf{1263}, \textbf{Pupil}
+    \bulletgap
+    \item \footnotesize \textbf{CodeChef} Max Rating \textbf{1695}, \textbf{3 Star}
+    \bulletgap
+    \item \footnotesize Secured \textbf{Global Rank 234} in CodeChef Starters 154 (Div. 3) among \textbf{35k+} participants.
+    \bulletgap
+    \item \footnotesize Problem-Solving Skills: Solved \textbf{250+} problems across platforms like \textbf{Codeforces, LeetCode, and CodeChef}.
+\end{itemize}
+
+% ===== EXTRACURRICULARS =====
+\secgap
+\section{EXTRACURRICULARS}
+\headgap
+\begin{itemize}
+    \item \footnotesize Infrastructure Lead Member -- \textbf{I-Conclave '23}, IIIT Pune.
+    \bulletgap
+    \item \footnotesize Core member at Rofies, the robotics society of IIIT Pune.
+    \bulletgap
+    \item \footnotesize Ranked 1st in the Campus Ambassador Programme of \textbf{E-Summit '23}.
+\end{itemize}
+
+% ===== RELEVANT COURSEWORK =====
+\secgap
+\section{RELEVANT COURSEWORK}
+\headgap
+\begin{itemize}
+    \item \textbf{\small Computer Science}: \footnotesize Data Structures and Algorithms, Object Oriented Programming, Database Management Systems, Operating Systems, Computer Networks, Machine Learning, Artificial Intelligence
+    \bulletgap
+    \item \textbf{\small Mathematics}: \footnotesize Probability and Statistics, Linear Algebra, Differential Equations and Calculus, Discrete Structures, Linear and Non-Linear Optimizations
+\end{itemize}
+
+% ===== CERTIFICATION =====
+\secgap
+\section{CERTIFICATION}
+\headgap
+\begin{itemize}
+    \item \footnotesize Advance Diploma In Computer Application -- \href{https://drive.google.com/file/d/1oBOJF2IvcmbFogXRdlGLUJNIZz21jZJw/view?usp=sharing}{\textcolor{linkcolor}{Parmar Group Of Education \& Foundation}}
+\end{itemize}
+
+\end{document}
+

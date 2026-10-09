@@ -1,0 +1,1180 @@
+{
+  "phase": 2,
+  "phase2_mode": "fast",
+  "query": "Caffeine Market",
+  "mock_mode": false,
+  "completed_at": "2026-07-24T08:31:58.203716+00:00",
+  "scope": {
+    "market": "caffeine",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "food and beverage",
+    "industry_terms": [
+      "caffeine distribution",
+      "caffeine wholesaling",
+      "caffeine reselling",
+      "caffeine service providers",
+      "caffeine logistics"
+    ],
+    "ecosystem_functions": [
+      "distributing caffeine products",
+      "wholesaling caffeine ingredients",
+      "reselling caffeine to end-users",
+      "integrating caffeine solutions",
+      "providing logistics for caffeine distribution",
+      "consulting on caffeine market trends",
+      "ensuring regulatory compliance for caffeine products",
+      "supporting caffeine supply chain management"
+    ],
+    "interpretation_summary": "The caffeine market encompasses the production, distribution, and sale of caffeine as a standalone product and as an ingredient in various beverages and food products. Participants include manufacturers, distributors, wh",
+    "relevance_keywords": [
+      "caffeine suppliers",
+      "caffeine distributors",
+      "caffeine wholesalers",
+      "caffeine resellers",
+      "caffeine service providers"
+    ],
+    "negative_keywords": [
+      "coffee",
+      "tea",
+      "energy drinks",
+      "soft drinks",
+      "beverages"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "Caffeine Solutions",
+        "primary_domain": "caffeinesolutions.com",
+        "company_function": "distributor of caffeine products"
+      },
+      {
+        "canonical_name": "Caffeine Wholesale",
+        "primary_domain": "caffeinewholesale.com",
+        "company_function": "wholesaler of caffeine ingredients"
+      },
+      {
+        "canonical_name": "Caffeine Resellers",
+        "primary_domain": "caffeineresellers.com",
+        "company_function": "reseller of caffeine products"
+      },
+      {
+        "canonical_name": "Logistics Caffeine",
+        "primary_domain": "logisticscaffeine.com",
+        "company_function": "logistics provider for caffeine distribution"
+      },
+      {
+        "canonical_name": "Caffeine Consulting Group",
+        "primary_domain": "caffeineconsulting.com",
+        "company_function": "consultant for caffeine market"
+      },
+      {
+        "canonical_name": "Caffeine Distribution Co.",
+        "primary_domain": "caffeinedistribution.com",
+        "company_function": "distributor of caffeine ingredients"
+      },
+      {
+        "canonical_name": "Caffeine Supply Chain",
+        "primary_domain": "caffeinesupplychain.com",
+        "company_function": "service provider for caffeine logistics"
+      },
+      {
+        "canonical_name": "Caffeine Market Advisors",
+        "primary_domain": "caffeinemarketadvisors.com",
+        "company_function": "consultant for caffeine industry"
+      }
+    ],
+    "search_topic": "caffeine",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "caffeine",
+    "include_keywords": [
+      "bulk caffeine suppliers",
+      "caffeine distribution services",
+      "wholesale caffeine products",
+      "caffeine reselling platforms",
+      "caffeine channel partners"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The caffeine market encompasses the production, distribution, and sale of caffeine as a standalone product and as an ingredient in various beverages and food products. Participants include manufacturers, distributors, wholesalers, and retailers operating globally.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Distribution",
+        "description": "This layer involves the distribution of caffeine products to various market segments.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Food and beverage distributors",
+              "Pharmaceutical distributors"
+            ],
+            "participant_types": [
+              "distributor",
+              "wholesaler"
+            ],
+            "search_intents": [
+              "caffeine distributors near me",
+              "wholesale caffeine suppliers"
+            ]
+          },
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Online resellers",
+              "Retail resellers"
+            ],
+            "participant_types": [
+              "reseller",
+              "channel partner"
+            ],
+            "search_intents": [
+              "buy caffeine from resellers",
+              "caffeine resellers online"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L2",
+        "layer_name": "Service Providers",
+        "description": "Service providers offer support and solutions related to caffeine distribution and sales.",
+        "segments": [
+          {
+            "segment_name": "Logistics Providers",
+            "sub_segments": [
+              "Freight forwarders",
+              "Warehousing services"
+            ],
+            "participant_types": [
+              "service provider"
+            ],
+            "search_intents": [
+              "caffeine logistics services",
+              "caffeine distribution service providers"
+            ]
+          },
+          {
+            "segment_name": "Consultants",
+            "sub_segments": [
+              "Market consultants",
+              "Regulatory consultants"
+            ],
+            "participant_types": [
+              "service provider"
+            ],
+            "search_intents": [
+              "caffeine market consulting services",
+              "caffeine regulatory compliance consultants"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Raw material suppliers",
+        "Manufacturers of caffeine products",
+        "Retailers of finished goods",
+        "Research and development firms"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "find caffeine distributors for bulk orders",
+        "sub_sector": "distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "search for caffeine resellers online",
+        "sub_sector": "reseller",
+        "layer_id": "L1",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "caffeine logistics service providers",
+        "sub_sector": "service_provider",
+        "layer_id": "L2",
+        "segment": "Logistics Providers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "caffeine market consulting services",
+        "sub_sector": "service_provider",
+        "layer_id": "L2",
+        "segment": "Consultants"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "phase1_plan_path": "D:\\vendor-intel\\output\\phase1\\phase1_plan_caffeine_global.json",
+  "companies": [
+    {
+      "name": "Caffeinesolutions",
+      "domain": "caffeinesolutions.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Health",
+      "domain": "health.clevelandclinic.org",
+      "discovery_source": "searxng",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Zhornsoftware",
+      "domain": "zhornsoftware.co.uk",
+      "discovery_source": "searxng",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Pharmacompass",
+      "domain": "pharmacompass.com",
+      "discovery_source": "ddgs_bing+ddgs_yandex",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Tmdistributing",
+      "domain": "tmdistributing.com",
+      "discovery_source": "ddgs_bing+ddgs_duckduckgo",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Healthline",
+      "domain": "healthline.com",
+      "discovery_source": "searxng",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Aarti Pharmalabs",
+      "domain": "aartipharmalabs.com",
+      "discovery_source": "ddgs_bing+ddgs_yandex",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Caffeinelimited",
+      "domain": "caffeinelimited.com",
+      "discovery_source": "ddgs_bing+ddgs_duckduckgo",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Drugs",
+      "domain": "drugs.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Naturalcaffeine",
+      "domain": "naturalcaffeine.co.in",
+      "discovery_source": "ddgs_bing+ddgs_yandex",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Tradekey",
+      "domain": "tradekey.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Appliedfoods",
+      "domain": "appliedfoods.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Synzeal",
+      "domain": "synzeal.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Aiherba",
+      "domain": "aiherba.com",
+      "discovery_source": "ddgs_bing+ddgs_yandex",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Caffeineconsulting",
+      "domain": "caffeineconsulting.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Caffeinedistribution",
+      "domain": "caffeinedistribution.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Caffeinemarketadvisors",
+      "domain": "caffeinemarketadvisors.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Caffeinemarketing",
+      "domain": "caffeinemarketing.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "consulting"
+    },
+    {
+      "name": "Caffeinepro",
+      "domain": "caffeinepro.com.sg",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Caffeineresellers",
+      "domain": "caffeineresellers.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Caffeinesupplychain",
+      "domain": "caffeinesupplychain.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Caffeinewholesale",
+      "domain": "caffeinewholesale.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Coffein Compagnie",
+      "domain": "coffein-compagnie.de",
+      "discovery_source": "ddgs_bing+ddgs_duckduckgo",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Dlymfg",
+      "domain": "dlymfg.com",
+      "discovery_source": "ddgs_bing+ddgs_yandex",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Elchemy",
+      "domain": "elchemy.com",
+      "discovery_source": "ddgs_bing+ddgs_yandex",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Go4worldbusiness",
+      "domain": "go4worldbusiness.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Logisticscaffeine",
+      "domain": "logisticscaffeine.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Nutrimeo",
+      "domain": "nutrimeo.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Pipeline Pharma",
+      "domain": "pipelinepharma.com",
+      "discovery_source": "ddgs_bing+ddgs_yandex",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Saleshandy",
+      "domain": "saleshandy.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "consulting"
+    },
+    {
+      "name": "Scimplify",
+      "domain": "scimplify.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Stingenergy",
+      "domain": "stingenergy.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Techbehemoths",
+      "domain": "techbehemoths.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "consulting"
+    },
+    {
+      "name": "Acibademhealthpoint",
+      "domain": "acibademhealthpoint.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "consulting"
+    },
+    {
+      "name": "Actiza Pharma",
+      "domain": "actizapharma.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Apimanufacturers",
+      "domain": "apimanufacturers.com",
+      "discovery_source": "ddgs_bing+ddgs_yandex",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Cphi Online",
+      "domain": "cphi-online.com",
+      "discovery_source": "ddgs_bing+ddgs_yandex",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Datamintelligence",
+      "domain": "datamintelligence.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Faire",
+      "domain": "faire.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Foodchem",
+      "domain": "foodchem.cn",
+      "discovery_source": "ddgs_bing+ddgs_yandex",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Fortunebusinessinsights",
+      "domain": "fortunebusinessinsights.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "consulting"
+    },
+    {
+      "name": "Globalsnus",
+      "domain": "globalsnus.com",
+      "discovery_source": "ddgs_duckduckgo",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Independentchemical",
+      "domain": "independentchemical.com",
+      "discovery_source": "ddgs_bing+ddgs_duckduckgo",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Industryarc",
+      "domain": "industryarc.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "consulting"
+    },
+    {
+      "name": "Inga Pharma",
+      "domain": "ingapharma.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Mcaffeine",
+      "domain": "mcaffeine.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Owler",
+      "domain": "owler.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Parchem",
+      "domain": "parchem.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Privco",
+      "domain": "privco.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Redox",
+      "domain": "redox.com",
+      "discovery_source": "ddgs_bing+ddgs_yandex",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Sgpbusiness",
+      "domain": "sgpbusiness.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "consulting"
+    },
+    {
+      "name": "Specialtycoffee",
+      "domain": "specialtycoffee.id",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Stateravibe",
+      "domain": "stateravibe.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Superiorsupplementmfg",
+      "domain": "superiorsupplementmfg.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Tajapi",
+      "domain": "tajapi.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Tandobeverage",
+      "domain": "tandobeverage.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Toxinless",
+      "domain": "toxinless.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "contract_manufacturer"
+    },
+    {
+      "name": "Transdatanexus",
+      "domain": "transdatanexus.com",
+      "discovery_source": "ddgs_bing+ddgs_yandex",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Vivion",
+      "domain": "vivion.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Wellaray",
+      "domain": "wellaray.org",
+      "discovery_source": "ddgs_bing",
+      "company_function": "consulting"
+    },
+    {
+      "name": "Beatable",
+      "domain": "beatable.co",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Bodyhackguide",
+      "domain": "bodyhackguide.co",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Botanichealthcare",
+      "domain": "botanichealthcare.net",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Btiscience",
+      "domain": "btiscience.org",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Buyersguidechem",
+      "domain": "buyersguidechem.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Buypouchesonline",
+      "domain": "buypouchesonline.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Cablefax",
+      "domain": "cablefax.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Caffeinatedsolution",
+      "domain": "caffeinatedsolution.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Caffeine: Business Model Canvas",
+      "domain": "businessmodelcanvastemplate.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "importer"
+    },
+    {
+      "name": "Caffeinecam",
+      "domain": "caffeinecam.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Caffeineinteractive",
+      "domain": "caffeineinteractive.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Caffeinemelts",
+      "domain": "caffeinemelts.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Caffeineos",
+      "domain": "caffeineos.neocities.org",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Caffeineusa",
+      "domain": "caffeineusa.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Cbinsights",
+      "domain": "cbinsights.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Celsius",
+      "domain": "celsius.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Corporatecaffeine",
+      "domain": "corporatecaffeine.podbean.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Corporateoffice",
+      "domain": "corporateoffice.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Cost6",
+      "domain": "cost6.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "oem_manufacturer"
+    },
+    {
+      "name": "Deckiez",
+      "domain": "deckiez.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Deftchemicals",
+      "domain": "deftchemicals.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Digitalmainstreet",
+      "domain": "digitalmainstreet.ca",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Discovery",
+      "domain": "discovery.patsnap.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Drinkthesunshine",
+      "domain": "drinkthesunshine.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Drinkupdate",
+      "domain": "drinkupdate.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Ebay",
+      "domain": "ebay.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Exportgenius",
+      "domain": "exportgenius.in",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Farmson",
+      "domain": "farmson.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Fnfresearch",
+      "domain": "fnfresearch.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "consulting"
+    },
+    {
+      "name": "Foodsweeteners",
+      "domain": "foodsweeteners.com",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Forgechemicals",
+      "domain": "forgechemicals.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Foxdenlane",
+      "domain": "foxdenlane.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "consulting"
+    },
+    {
+      "name": "Grabmojo",
+      "domain": "grabmojo.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Growjo",
+      "domain": "growjo.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Gwproductsusa",
+      "domain": "gwproductsusa.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Henonicotine",
+      "domain": "henonicotine.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "oem_manufacturer"
+    },
+    {
+      "name": "Huanwei Bio",
+      "domain": "huanweibio.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Hypeplus",
+      "domain": "hypeplus.co",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Hysentech",
+      "domain": "hysentech.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Indeed",
+      "domain": "indeed.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Innerbody",
+      "domain": "innerbody.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Javathinking",
+      "domain": "javathinking.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Justgood Health",
+      "domain": "justgood-health.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "oem_manufacturer"
+    },
+    {
+      "name": "Launchpad",
+      "domain": "launchpad.net",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Lifesight",
+      "domain": "lifesight.io",
+      "discovery_source": "ddgs_bing",
+      "company_function": "consulting"
+    },
+    {
+      "name": "Livezesty",
+      "domain": "livezesty.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Logisticsmiddleeast",
+      "domain": "logisticsmiddleeast.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Lookchem",
+      "domain": "lookchem.com",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Manusaktteva",
+      "domain": "manusaktteva.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Mariobadescu",
+      "domain": "mariobadescu.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Marketingmonk",
+      "domain": "marketingmonk.so",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Medicaltoxic",
+      "domain": "medicaltoxic.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Nelsonstea",
+      "domain": "nelsonstea.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Nucaffeine",
+      "domain": "nucaffeine.store",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Oemnicotine",
+      "domain": "oemnicotine.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "oem_manufacturer"
+    },
+    {
+      "name": "Ozon",
+      "domain": "ozon.ru",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Performance Lab",
+      "domain": "performancelab.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Plantlipids",
+      "domain": "plantlipids.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Procurementresource",
+      "domain": "procurementresource.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Purebulk",
+      "domain": "purebulk.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Quantumsquares",
+      "domain": "quantumsquares.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Raptiscoffee",
+      "domain": "raptiscoffee.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Regulararticles",
+      "domain": "regulararticles.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Risunextract",
+      "domain": "risunextract.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "oem_manufacturer"
+    },
+    {
+      "name": "Rocketreach",
+      "domain": "rocketreach.co",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Ryzesuperfoods",
+      "domain": "ryzesuperfoods.com",
+      "discovery_source": "ddgs_duckduckgo",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Saashub",
+      "domain": "saashub.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Silverfernchemical",
+      "domain": "silverfernchemical.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "wholesaler"
+    },
+    {
+      "name": "Singapore",
+      "domain": "singapore-corp.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "consulting"
+    },
+    {
+      "name": "Strategicrevenueinsights",
+      "domain": "strategicrevenueinsights.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Supplyleader",
+      "domain": "supplyleader.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Telfa",
+      "domain": "telfa.law",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Thisiscaffeine",
+      "domain": "thisiscaffeine.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "consulting"
+    },
+    {
+      "name": "Tocris",
+      "domain": "tocris.com",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Towardsfnb",
+      "domain": "towardsfnb.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Tridge",
+      "domain": "tridge.com",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Vapersong",
+      "domain": "vapersong.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "oem_manufacturer"
+    },
+    {
+      "name": "Verywellhealth",
+      "domain": "verywellhealth.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Vivarin",
+      "domain": "vivarin.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Webmd",
+      "domain": "webmd.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Whop",
+      "domain": "whop.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Wkinformation",
+      "domain": "wkinformation.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    }
+  ],
+  "company_count": 142,
+  "discovery_stats": {
+    "raw_hits": 600,
+    "unique_names": 170,
+    "by_prompt_id": {
+      "D10": 8,
+      "D2": 10,
+      "D3": 13,
+      "D4": 12,
+      "D5": 11,
+      "D6": 6,
+      "D7": 12,
+      "D8": 7,
+      "D9": 14,
+      "HX0_cons": 18,
+      "HX0_dist": 3,
+      "HX0_inte": 1,
+      "HX0_manu": 20,
+      "HX1_cons": 13,
+      "HX1_dist": 14,
+      "HX1_inte": 6,
+      "HX1_manu": 10,
+      "L0": 13,
+      "L1": 7,
+      "L2": 14,
+      "M1": 6,
+      "M1_api_": 2,
+      "M1_comp": 9,
+      "M2": 5,
+      "M3": 7,
+      "M4": 9,
+      "MUHX0_di": 5,
+      "MUST_L2_": 5,
+      "P1": 9,
+      "P10": 5,
+      "P11": 4,
+      "P12": 9,
+      "P2": 4,
+      "P3": 4,
+      "P4": 3,
+      "P5": 4,
+      "P6": 6,
+      "P7": 6,
+      "P8": 8,
+      "P9": 7,
+      "SEED": 8,
+      "SEED2": 8,
+      "SEED3": 8,
+      "ST1a": 11,
+      "ST1b": 8,
+      "ST2a": 11,
+      "ST3a": 15,
+      "ST4a": 19,
+      "ST_L1_1": 10,
+      "ST_L1_2": 10,
+      "ST_L2_3": 3,
+      "ST_L2_4": 8,
+      "T1a": 10,
+      "T1b": 13,
+      "T2a": 6,
+      "T2b": 13,
+      "T3a": 6,
+      "T3b": 6,
+      "T4a": 6,
+      "T4b": 7,
+      "V10": 6,
+      "V5": 11,
+      "V6": 10,
+      "V7": 6,
+      "V8": 8,
+      "V9": 5,
+      "VX1": 12,
+      "VX2": 5,
+      "W1": 11,
+      "W2": 11
+    },
+    "by_funnel_level": {
+      "L0": 37,
+      "L1": 7,
+      "L2": 14,
+      "discovery": 542
+    },
+    "widen_loops": 3
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ]
+}

@@ -1,0 +1,1734 @@
+{
+  "phase": 1,
+  "query": "Office Furniture Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T20:50:06.112798+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "office furniture",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "office furniture",
+    "industry_terms": [
+      "office furniture",
+      "ergonomic chairs",
+      "workstations",
+      "storage solutions",
+      "collaborative spaces"
+    ],
+    "ecosystem_functions": [
+      "manufacturing office furniture",
+      "distributing office furniture",
+      "wholesaling office furniture",
+      "reselling office furniture",
+      "integrating office solutions",
+      "providing installation services",
+      "offering maintenance services",
+      "partnering in office furniture sales"
+    ],
+    "interpretation_summary": "The office furniture market encompasses a wide range of products designed for workplace environments, including desks, chairs, storage solutions, and collaborative spaces. Key participants include manufacturers, distribu",
+    "relevance_keywords": [
+      "office furniture suppliers",
+      "furniture distributors",
+      "workspace design",
+      "commercial furniture",
+      "office layout solutions"
+    ],
+    "negative_keywords": [
+      "home furniture",
+      "furniture repair",
+      "furniture auctions",
+      "used furniture",
+      "furniture blogs"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "Steelcase",
+        "primary_domain": "steelcase.com",
+        "company_function": "office furniture manufacturer"
+      },
+      {
+        "canonical_name": "Herman Miller",
+        "primary_domain": "hermanmiller.com",
+        "company_function": "office furniture manufacturer"
+      },
+      {
+        "canonical_name": "Haworth",
+        "primary_domain": "haworth.com",
+        "company_function": "office furniture manufacturer"
+      },
+      {
+        "canonical_name": "Global Furniture Group",
+        "primary_domain": "globalfurnituregroup.com",
+        "company_function": "office furniture manufacturer"
+      },
+      {
+        "canonical_name": "Office Depot",
+        "primary_domain": "officedepot.com",
+        "company_function": "office furniture distributor"
+      },
+      {
+        "canonical_name": "Staples",
+        "primary_domain": "staples.com",
+        "company_function": "office furniture distributor"
+      },
+      {
+        "canonical_name": "National Office Furniture",
+        "primary_domain": "nationalofficefurniture.com",
+        "company_function": "office furniture distributor"
+      },
+      {
+        "canonical_name": "Office Furniture Warehouse",
+        "primary_domain": "officefurniturewarehouse.com",
+        "company_function": "office furniture wholesaler"
+      },
+      {
+        "canonical_name": "Wayfair",
+        "primary_domain": "wayfair.com",
+        "company_function": "office furniture reseller",
+        "segment": "Retail and Resale",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Amazon",
+        "primary_domain": "amazon.com",
+        "company_function": "office furniture reseller",
+        "segment": "Retail and Resale",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "IKEA",
+        "primary_domain": "ikea.com",
+        "company_function": "office furniture reseller",
+        "segment": "Retail and Resale",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Knoll",
+        "primary_domain": "knoll.com",
+        "company_function": "office furniture system integrator",
+        "segment": "Retail and Resale",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Office Furniture Solutions",
+        "primary_domain": "officefurnituresolutions.com",
+        "company_function": "office furniture service provider",
+        "segment": "Service Provision",
+        "source": "market_map_llm"
+      },
+      {
+        "canonical_name": "Spacesaver",
+        "primary_domain": "spacesaver.com",
+        "company_function": "office furniture service provider",
+        "segment": "Service Provision",
+        "source": "market_map_llm"
+      }
+    ],
+    "search_topic": "office furniture",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "office furniture",
+    "include_keywords": [
+      "office desks",
+      "ergonomic office chairs",
+      "workspace solutions",
+      "furniture installation",
+      "bulk office furniture"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The office furniture market encompasses a wide range of products designed for workplace environments, including desks, chairs, storage solutions, and collaborative spaces. Key participants include manufacturers, distributors, wholesalers, and service providers operating globally to meet the diverse needs of businesses.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Manufacturing",
+        "description": "This layer involves the production of office furniture items, including design and material selection.",
+        "segments": [
+          {
+            "segment_name": "Office Furniture Manufacturers",
+            "sub_segments": [
+              "Ergonomic Chairs",
+              "Desks and Workstations",
+              "Storage Solutions"
+            ],
+            "participant_types": [
+              "manufacturer"
+            ],
+            "search_intents": [
+              "office furniture manufacturers",
+              "ergonomic chair suppliers"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L2",
+        "layer_name": "Distribution",
+        "description": "This layer includes the logistics and distribution channels that deliver office furniture to end-users.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Regional Distributors",
+              "National Distributors"
+            ],
+            "participant_types": [
+              "distributor"
+            ],
+            "search_intents": [
+              "office furniture distributors",
+              "furniture wholesale suppliers"
+            ]
+          },
+          {
+            "segment_name": "Wholesalers",
+            "sub_segments": [
+              "Bulk Furniture Wholesalers",
+              "Specialty Wholesalers"
+            ],
+            "participant_types": [
+              "wholesaler"
+            ],
+            "search_intents": [
+              "office furniture wholesalers",
+              "bulk office furniture suppliers"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L3",
+        "layer_name": "Retail and Resale",
+        "description": "This layer focuses on the retailing and resale of office furniture to end-users.",
+        "segments": [
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Online Resellers",
+              "Brick-and-Mortar Resellers"
+            ],
+            "participant_types": [
+              "reseller"
+            ],
+            "search_intents": [
+              "office furniture resellers",
+              "buy office furniture online"
+            ]
+          },
+          {
+            "segment_name": "System Integrators",
+            "sub_segments": [
+              "Workspace Solutions Providers",
+              "Furniture Installation Services"
+            ],
+            "participant_types": [
+              "system integrator"
+            ],
+            "search_intents": [
+              "office furniture system integrators",
+              "workspace solutions providers"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L4",
+        "layer_name": "Service Provision",
+        "description": "This layer includes services related to office furniture, such as installation and maintenance.",
+        "segments": [
+          {
+            "segment_name": "Service Providers",
+            "sub_segments": [
+              "Installation Services",
+              "Maintenance Services"
+            ],
+            "participant_types": [
+              "service provider"
+            ],
+            "search_intents": [
+              "office furniture installation services",
+              "furniture maintenance providers"
+            ]
+          },
+          {
+            "segment_name": "Channel Partners",
+            "sub_segments": [
+              "Affiliate Partners",
+              "Value-Added Resellers"
+            ],
+            "participant_types": [
+              "channel partner"
+            ],
+            "search_intents": [
+              "office furniture channel partners",
+              "value-added furniture resellers"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Home Furniture Market",
+        "Office Supplies Market",
+        "Interior Design Services",
+        "Commercial Real Estate"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "search for office furniture manufacturers",
+        "sub_sector": "manufacturing",
+        "layer_id": "L1",
+        "segment": "Office Furniture Manufacturers"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "find office furniture distributors",
+        "sub_sector": "distribution",
+        "layer_id": "L2",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "search for office furniture wholesalers",
+        "sub_sector": "distribution",
+        "layer_id": "L2",
+        "segment": "Wholesalers"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "look for office furniture resellers",
+        "sub_sector": "retail",
+        "layer_id": "L3",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M5",
+        "level": "market_map",
+        "text": "search for office furniture system integrators",
+        "sub_sector": "integration",
+        "layer_id": "L3",
+        "segment": "System Integrators"
+      },
+      {
+        "id": "M6",
+        "level": "market_map",
+        "text": "find office furniture installation services",
+        "sub_sector": "service",
+        "layer_id": "L4",
+        "segment": "Service Providers"
+      },
+      {
+        "id": "M7",
+        "level": "market_map",
+        "text": "search for office furniture channel partners",
+        "sub_sector": "partnership",
+        "layer_id": "L4",
+        "segment": "Channel Partners"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "office furniture",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "office furniture companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "distributors of office furniture corporate sites"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "office furniture resellers official websites"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "market_map",
+      "text": "search for office furniture manufacturers"
+    },
+    {
+      "id": "P2",
+      "level": "market_map",
+      "text": "find office furniture distributors"
+    },
+    {
+      "id": "P3",
+      "level": "market_map",
+      "text": "search for office furniture wholesalers"
+    },
+    {
+      "id": "P4",
+      "level": "market_map",
+      "text": "look for office furniture resellers"
+    },
+    {
+      "id": "P5",
+      "level": "market_map",
+      "text": "search for office furniture system integrators"
+    },
+    {
+      "id": "P6",
+      "level": "market_map",
+      "text": "find office furniture installation services"
+    },
+    {
+      "id": "P7",
+      "level": "market_map",
+      "text": "search for office furniture channel partners"
+    },
+    {
+      "id": "P8",
+      "level": "discovery",
+      "text": "office furniture distributor corporate site"
+    },
+    {
+      "id": "P9",
+      "level": "discovery",
+      "text": "office furniture wholesaler official website"
+    },
+    {
+      "id": "P10",
+      "level": "discovery",
+      "text": "office furniture reseller corporate site"
+    },
+    {
+      "id": "P11",
+      "level": "discovery",
+      "text": "office furniture system integrator official site"
+    },
+    {
+      "id": "P12",
+      "level": "discovery",
+      "text": "office furniture service provider corporate profile"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "office furniture companies official websites",
+      "level": "L0",
+      "result_count": 14,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Bene AG - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Bene_AG",
+          "snippet": "Bene AG is a publicly listed Austrian office furniture manufacturer and service provider. In the 2022 business year, the company reported a turnover of \u20ac176 million.The company develops and manufactur",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Office Furniture in Pune - Login Wood",
+          "link": "https://loginwood.com/",
+          "snippet": "Find Quality Office Furniture Manufacturer in Pune at Login Wood. Explore our premium selection of office desks, chairs and storage Solutions.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Modular Office Furniture Manufacturer in India | kokuyo india",
+          "link": "https://kokuyo-india.com/",
+          "snippet": "Kokuyo India provides Modular Office Furniture, ergonomic office chairs, and innovative workplace solutions with Japanese quality and design.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Office Chairs and Furniture Manufacturers in Pune",
+          "link": "https://www.scomfort.in/",
+          "snippet": "Office Furniture Manufacturers in Pune, Mumbai & Nashik Scomfort is a leading furniture manufacturer in Pune for last 27 years with highly skilled, professional architects and interior designers to of",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Modular Office Furniture Manufacturer in Pune",
+          "link": "https://officemantra.in/",
+          "snippet": "About us Office Mantra, a famous modular office furniture manufacturer in Pune, has been delivering high-quality, custom furniture solutions tailored to diverse workspace needs.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - Featherlite Furniture",
+          "link": "https://featherlitefurniture.com/",
+          "snippet": "\"Featherlite provided strong on-ground support during the supply and installation of office furniture for our project site. The team was responsive, reliable, and ensured smooth execution throughout.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Modular Office Furniture Manufacturers Suppliers India | SOS",
+          "link": "https://www.sosoffice.in/",
+          "snippet": "SOS is the leading Office Furniture Manufacturers & Suppliers in India, offers complete office furniture solution including workstations, tables, chairs, cabin & storage solutions.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Office Furniture Manufacturers in Pune 2026",
+          "link": "https://www.compassfurniture.in/office-furniture-manufacturers-in-pune.php",
+          "snippet": "Compass Furniture is one of the well-known office furniture manufacturers in Pune, along with trusted suppliers, Dealers, Exporters in Pune. It is product-diversified across different working industri",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Modular Office Furniture Manufacturers Pune | Ek Design",
+          "link": "https://ekdesign.in/",
+          "snippet": "Discover modular office furniture by Ek Design, India's trusted manufacturing leader offering innovative, retail-ready designs that drive buying confidence.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Modular Office Furniture Manufacturer, suppliers in Pune",
+          "link": "https://www.grcsystems.co.in/",
+          "snippet": "GRC SYSTEMS is a Pune based Office furniture manufacturing company, interest lying mainly in the domain of design and manufacture of Modular furniture and allied products for the interiors.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Adsons Furniture | Modular Furniture in Pune | Office Furniture | Home ...",
+          "link": "https://www.adsonscorp.com/",
+          "snippet": "Across India, companies are upgrading their workplaces with custom modular workstation designs that save space, improve workflow, and enhance employee comfort. As one of India's trusted office furnitu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Office Supplies, Furniture, Technology at Office Depot",
+          "link": "https://odpbusiness.com/",
+          "snippet": "Shop office supplies, office furniture and business technology at Office Depot. Paper, file folders, ink, toner and more. Huge selections, brands you trust, everyday low prices!OfficeDepot.com - Takin",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Knoll - Modern Furniture Design for the Office & Home",
+          "link": "https://www.knoll.com/",
+          "snippet": "Knoll uses modern design to connect people with their work, lives and world - browse & shop our entire furniture & textile collection for your home or office.Shop online for living, dining, outdoor, a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Furniture Online India: Best online furniture site India | Damro",
+          "link": "https://www.damroindia.com/",
+          "snippet": "Study and Office Furniture. Tables.Buy Furniture Online @ DAMRO India's Largest Online Furniture Store for Home and Office. Buy sofas,Bed,Dining Sets,Wardrobes,Cabinets,Shoe racks and Office Furniture",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Bene AG - Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Bene_AG",
+          "snippet": "Bene AG is a publicly listed Austrian office furniture manufacturer and service provider. In the 2022 business year, the company reported a turnover of \u20ac176 million.The company develops and manufactur",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Office Furniture in Pune - Login Wood",
+          "link": "https://loginwood.com/",
+          "snippet": "Find Quality Office Furniture Manufacturer in Pune at Login Wood. Explore our premium selection of office desks, chairs and storage Solutions.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Modular Office Furniture Manufacturer in India | kokuyo india",
+          "link": "https://kokuyo-india.com/",
+          "snippet": "Kokuyo India provides Modular Office Furniture, ergonomic office chairs, and innovative workplace solutions with Japanese quality and design.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Office Chairs and Furniture Manufacturers in Pune",
+          "link": "https://www.scomfort.in/",
+          "snippet": "Office Furniture Manufacturers in Pune, Mumbai & Nashik Scomfort is a leading furniture manufacturer in Pune for last 27 years with highly skilled, professional architects and interior designers to of",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Modular Office Furniture Manufacturer in Pune",
+          "link": "https://officemantra.in/",
+          "snippet": "About us Office Mantra, a famous modular office furniture manufacturer in Pune, has been delivering high-quality, custom furniture solutions tailored to diverse workspace needs.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - Featherlite Furniture",
+          "link": "https://featherlitefurniture.com/",
+          "snippet": "\"Featherlite provided strong on-ground support during the supply and installation of office furniture for our project site. The team was responsive, reliable, and ensured smooth execution throughout.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Modular Office Furniture Manufacturers Suppliers India | SOS",
+          "link": "https://www.sosoffice.in/",
+          "snippet": "SOS is the leading Office Furniture Manufacturers & Suppliers in India, offers complete office furniture solution including workstations, tables, chairs, cabin & storage solutions.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Office Furniture Manufacturers in Pune 2026",
+          "link": "https://www.compassfurniture.in/office-furniture-manufacturers-in-pune.php",
+          "snippet": "Compass Furniture is one of the well-known office furniture manufacturers in Pune, along with trusted suppliers, Dealers, Exporters in Pune. It is product-diversified across different working industri",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Modular Office Furniture Manufacturers Pune | Ek Design",
+          "link": "https://ekdesign.in/",
+          "snippet": "Discover modular office furniture by Ek Design, India's trusted manufacturing leader offering innovative, retail-ready designs that drive buying confidence.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Modular Office Furniture Manufacturer, suppliers in Pune",
+          "link": "https://www.grcsystems.co.in/",
+          "snippet": "GRC SYSTEMS is a Pune based Office furniture manufacturing company, interest lying mainly in the domain of design and manufacture of Modular furniture and allied products for the interiors.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Adsons Furniture | Modular Furniture in Pune | Office Furniture | Home ...",
+          "link": "https://www.adsonscorp.com/",
+          "snippet": "Across India, companies are upgrading their workplaces with custom modular workstation designs that save space, improve workflow, and enhance employee comfort. As one of India's trusted office furnitu",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Office Supplies, Furniture, Technology at Office Depot",
+          "link": "https://odpbusiness.com/",
+          "snippet": "Shop office supplies, office furniture and business technology at Office Depot. Paper, file folders, ink, toner and more. Huge selections, brands you trust, everyday low prices!OfficeDepot.com - Takin",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Knoll - Modern Furniture Design for the Office & Home",
+          "link": "https://www.knoll.com/",
+          "snippet": "Knoll uses modern design to connect people with their work, lives and world - browse & shop our entire furniture & textile collection for your home or office.Shop online for living, dining, outdoor, a",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Furniture Online India: Best online furniture site India | Damro",
+          "link": "https://www.damroindia.com/",
+          "snippet": "Study and Office Furniture. Tables.Buy Furniture Online @ DAMRO India's Largest Online Furniture Store for Home and Office. Buy sofas,Bed,Dining Sets,Wardrobes,Cabinets,Shoe racks and Office Furniture",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "distributors of office furniture corporate sites",
+      "level": "L1",
+      "result_count": 10,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "N9NE Furniture Group",
+          "link": "https://www.n9nefg.com/",
+          "snippet": "N9NE Furniture Group offers a comprehensive range of office furniture essentials and provides nationwide wholesale distribution.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "COE Distributing | Largest Office Furniture Distributor USA",
+          "link": "https://www.coedistributing.com/",
+          "snippet": "COE Distributing, nationwide Office Furniture Distributor, specializes in forward thinking products for today\u2019s work environments from the high-end executive office to the perfect work from home furni",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - Office Furniture Distributors",
+          "link": "https://ofdist.com/",
+          "snippet": "At Office Furniture Distributors, we understand the importance of product availability and quality to ensure your success. Whether you need space planning guidance, superior customer service, or a gre",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "NDI Office Furniture | Workplace Furniture for Dealers",
+          "link": "https://www.ndiof.com/",
+          "snippet": "NDI Office Furniture supplies value-driven desks, seating, and storage to contract dealers nationwide, with fast lead times and dependable service.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Trusted Office Furniture Manufacturer in India | Geeken Furniture",
+          "link": "https://geeken.in/",
+          "snippet": "Whether you are setting up a new corporate office, renovating an existing workspace, or building a co-working environment, Geeken offers end-to-end furniture solutions as a trusted office furniture su",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Office Supplies, Furniture, Technology at Office Depot",
+          "link": "https://odpbusiness.com/",
+          "snippet": "Shop office supplies, office furniture and business technology at Office Depot. Paper, file folders, ink, toner and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Okamura\uff5cOffice furniture designed to the last detail.",
+          "link": "https://www.okamura.com/",
+          "snippet": "Corporate Book.Okamura office furniture radiates a sense of comfort and beauty because it is made with a devotion to the nuances of customer needs.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Furniture Online India: Best online furniture site India | Damro",
+          "link": "https://www.damroindia.com/",
+          "snippet": "Buy Furniture Online @ DAMRO India's Largest Online Furniture Store for Home and Office. Buy sofas,Bed,Dining Sets,Wardrobes,Cabinets,Shoe racks and Office Furniture.All Wooden furniture.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Codutti - Executive and Operational Office Furniture",
+          "link": "https://www.codutti.it/en/",
+          "snippet": "Codutti\u2019s collections offer solutions for all corporate furnishing needs: executive, operative, workstations, meeting areas and common areas.In the realm of office furniture, Codutti stands out for it",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Officeworks | Stationery, Laptops, Furniture, Paper at Low Prices",
+          "link": "https://www.officeworks.com.au/",
+          "snippet": "Officeworks is Australia's largest supplier of office and stationery products at low prices everyday. Buy online or visit our stores now.Officeworks is Australia\u2019s leading online store for Office Supp",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "N9NE Furniture Group",
+          "link": "https://www.n9nefg.com/",
+          "snippet": "N9NE Furniture Group offers a comprehensive range of office furniture essentials and provides nationwide wholesale distribution.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "COE Distributing | Largest Office Furniture Distributor USA",
+          "link": "https://www.coedistributing.com/",
+          "snippet": "COE Distributing, nationwide Office Furniture Distributor, specializes in forward thinking products for today\u2019s work environments from the high-end executive office to the perfect work from home furni",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - Office Furniture Distributors",
+          "link": "https://ofdist.com/",
+          "snippet": "At Office Furniture Distributors, we understand the importance of product availability and quality to ensure your success. Whether you need space planning guidance, superior customer service, or a gre",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "NDI Office Furniture | Workplace Furniture for Dealers",
+          "link": "https://www.ndiof.com/",
+          "snippet": "NDI Office Furniture supplies value-driven desks, seating, and storage to contract dealers nationwide, with fast lead times and dependable service.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Trusted Office Furniture Manufacturer in India | Geeken Furniture",
+          "link": "https://geeken.in/",
+          "snippet": "Whether you are setting up a new corporate office, renovating an existing workspace, or building a co-working environment, Geeken offers end-to-end furniture solutions as a trusted office furniture su",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Office Supplies, Furniture, Technology at Office Depot",
+          "link": "https://odpbusiness.com/",
+          "snippet": "Shop office supplies, office furniture and business technology at Office Depot. Paper, file folders, ink, toner and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Okamura\uff5cOffice furniture designed to the last detail.",
+          "link": "https://www.okamura.com/",
+          "snippet": "Corporate Book.Okamura office furniture radiates a sense of comfort and beauty because it is made with a devotion to the nuances of customer needs.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Furniture Online India: Best online furniture site India | Damro",
+          "link": "https://www.damroindia.com/",
+          "snippet": "Buy Furniture Online @ DAMRO India's Largest Online Furniture Store for Home and Office. Buy sofas,Bed,Dining Sets,Wardrobes,Cabinets,Shoe racks and Office Furniture.All Wooden furniture.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Codutti - Executive and Operational Office Furniture",
+          "link": "https://www.codutti.it/en/",
+          "snippet": "Codutti\u2019s collections offer solutions for all corporate furnishing needs: executive, operative, workstations, meeting areas and common areas.In the realm of office furniture, Codutti stands out for it",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Officeworks | Stationery, Laptops, Furniture, Paper at Low Prices",
+          "link": "https://www.officeworks.com.au/",
+          "snippet": "Officeworks is Australia's largest supplier of office and stationery products at low prices everyday. Buy online or visit our stores now.Officeworks is Australia\u2019s leading online store for Office Supp",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "office furniture resellers official websites",
+      "level": "L2",
+      "result_count": 6,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Buy Furniture Online India: Best online furniture site India | Damro",
+          "link": "https://www.damroindia.com/",
+          "snippet": "Buy Furniture Online @ DAMRO India's Largest Online Furniture Store for Home and Office. Buy sofas,Bed,Dining Sets,Wardrobes,Cabinets,Shoe racks and Office Furniture.All Wooden furniture.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How to Buy an Office Chair Secondhand: A Comprehensive Guide",
+          "link": "https://sihoooffice.com/blogs/insights/how-to-buy-an-office-chair-secondhand-a-comprehensive-guide",
+          "snippet": "Official US Sihoo Store.Office Furniture Resellers: Some businesses specialize in reselling refurbished office furniture, offering a range of options. Step 3: Evaluate Chair Condition.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Used & Second Hand Office Furniture, Desks... | WantDontWant",
+          "link": "https://www.wantdontwant.com/",
+          "snippet": "However, our web site only shows a fraction of the many office furniture products we offer. Please contact us with your requirement and we guarantee a swift response. With over 75 years combined indus",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Product Resellers - Typing Injury FAQ",
+          "link": "https://www.tifaq.org/resellers.html",
+          "snippet": "Office Furniture. Industrial. Kids. Catalogs. Related Links. Welcome to the Reseller Listing! Some products listed in the TIFAQ are readily available from your local computer super store while others ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Officeworks | Stationery, Laptops, Furniture, Paper at Low Prices",
+          "link": "https://www.officeworks.com.au/",
+          "snippet": "Officeworks is Australia's largest supplier of office and stationery products at low prices everyday. Buy online or visit our stores now.Officeworks is Australia\u2019s leading online store for Office Supp",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "who buys used office furniture",
+          "link": "https://www.cubicleresources.com/buy-used-chair/",
+          "snippet": "Some companies specialize in buying used office furniture, refurbishing it if necessary, and reselling it to other businesses or individuals. These resellers may have showrooms or online platforms whe",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Buy Furniture Online India: Best online furniture site India | Damro",
+          "link": "https://www.damroindia.com/",
+          "snippet": "Buy Furniture Online @ DAMRO India's Largest Online Furniture Store for Home and Office. Buy sofas,Bed,Dining Sets,Wardrobes,Cabinets,Shoe racks and Office Furniture.All Wooden furniture.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How to Buy an Office Chair Secondhand: A Comprehensive Guide",
+          "link": "https://sihoooffice.com/blogs/insights/how-to-buy-an-office-chair-secondhand-a-comprehensive-guide",
+          "snippet": "Official US Sihoo Store.Office Furniture Resellers: Some businesses specialize in reselling refurbished office furniture, offering a range of options. Step 3: Evaluate Chair Condition.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Used & Second Hand Office Furniture, Desks... | WantDontWant",
+          "link": "https://www.wantdontwant.com/",
+          "snippet": "However, our web site only shows a fraction of the many office furniture products we offer. Please contact us with your requirement and we guarantee a swift response. With over 75 years combined indus",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Product Resellers - Typing Injury FAQ",
+          "link": "https://www.tifaq.org/resellers.html",
+          "snippet": "Office Furniture. Industrial. Kids. Catalogs. Related Links. Welcome to the Reseller Listing! Some products listed in the TIFAQ are readily available from your local computer super store while others ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Officeworks | Stationery, Laptops, Furniture, Paper at Low Prices",
+          "link": "https://www.officeworks.com.au/",
+          "snippet": "Officeworks is Australia's largest supplier of office and stationery products at low prices everyday. Buy online or visit our stores now.Officeworks is Australia\u2019s leading online store for Office Supp",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "who buys used office furniture",
+          "link": "https://www.cubicleresources.com/buy-used-chair/",
+          "snippet": "Some companies specialize in buying used office furniture, refurbishing it if necessary, and reselling it to other businesses or individuals. These resellers may have showrooms or online platforms whe",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "search for office furniture manufacturers",
+      "level": "market_map",
+      "result_count": 9,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "General Manager Office Furniture Suppliers, all Quality General...",
+          "link": "https://www.alibaba.com/general-manager-office-furniture-suppliers.html",
+          "snippet": "officefurniture set/officefurniture manufactures/officefurniture. Folding training table for training room.office furniture manufacturers list Boss chairman general manager office furniture.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Metal office furniture Manufacturers & Suppliers, China metal office...",
+          "link": "https://www.made-in-china.com/manufacturers/metal-office-furniture.html",
+          "snippet": "metal office furniture manufacturers/supplier, China metal office furniture manufacturer & factory list, find best price in Chinese metal office furniture manufacturers, suppliers, factories, exporter",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bene office furniture \u00bb High quality office furniture from Austria",
+          "link": "https://bene.com/en/",
+          "snippet": "About bene: office furniture manufacturer from austria. Bene is an international office expert and specialist in modern office design and furnishings.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Office Furniture Manufacturer in India | UBALPINE",
+          "link": "https://www.ubalpine.com/",
+          "snippet": "Ubalpine, a reputed modular office furniture manufacturer in India, offering modular workstations, office pods, partitions and workspace solutions for corporates. Get a free quote!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Office Furniture Manufacturer in Delhi -Furniture for office in...",
+          "link": "https://lotussystems.in/",
+          "snippet": "Lotus Systems, a trusted office furniture manufacturers in Delhi NCR, Factory-direct Modular Office Furniture in Delhi NCR, office tables, workstations, chairs.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Boke Furniture \u2013 Office & Commercial Projects | LinkedIn",
+          "link": "https://www.linkedin.com/showcase/boke-commercial-furniture/",
+          "snippet": "Office Furniture Manufacturing, Commercial Furniture Projects, Project-Based Furniture Supply, Office Workstations, Bulk Furniture Production, Custom Commercial Furniture, Furniture OEM ODM, China Off",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Furniture Online India: Best online furniture site India | Damro",
+          "link": "https://www.damroindia.com/",
+          "snippet": "search_icon. Offers.Buy Furniture Online @ DAMRO India's Largest Online Furniture Store for Home and Office. Buy sofas,Bed,Dining Sets,Wardrobes,Cabinets,Shoe racks and Office Furniture.All Wooden fur",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Stellar Office Furniture Blog - Office Furniture Articles",
+          "link": "https://www.stellarglobal.com/blogs/",
+          "snippet": "Discover expert insights and trends in our office furniture blog. Stay informed on the latest designs and tips to enhance your workspace.How Global Furniture Manufacturers Scale Production Without Com",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "#officefurniture - Twitter Search / Twitter",
+          "link": "https://twitter.com/hashtag/officefurniture?src=hashtag_click",
+          "snippet": "Search timeline. Deyate Office Furniture. @DeyateLin. \u00b7 17h.When choosing a desk chair, make sure it has adjustable height and lumbar support to prevent discomfort or injury. Check out our selection o",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "General Manager Office Furniture Suppliers, all Quality General...",
+          "link": "https://www.alibaba.com/general-manager-office-furniture-suppliers.html",
+          "snippet": "officefurniture set/officefurniture manufactures/officefurniture. Folding training table for training room.office furniture manufacturers list Boss chairman general manager office furniture.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Metal office furniture Manufacturers & Suppliers, China metal office...",
+          "link": "https://www.made-in-china.com/manufacturers/metal-office-furniture.html",
+          "snippet": "metal office furniture manufacturers/supplier, China metal office furniture manufacturer & factory list, find best price in Chinese metal office furniture manufacturers, suppliers, factories, exporter",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Bene office furniture \u00bb High quality office furniture from Austria",
+          "link": "https://bene.com/en/",
+          "snippet": "About bene: office furniture manufacturer from austria. Bene is an international office expert and specialist in modern office design and furnishings.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Office Furniture Manufacturer in India | UBALPINE",
+          "link": "https://www.ubalpine.com/",
+          "snippet": "Ubalpine, a reputed modular office furniture manufacturer in India, offering modular workstations, office pods, partitions and workspace solutions for corporates. Get a free quote!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Office Furniture Manufacturer in Delhi -Furniture for office in...",
+          "link": "https://lotussystems.in/",
+          "snippet": "Lotus Systems, a trusted office furniture manufacturers in Delhi NCR, Factory-direct Modular Office Furniture in Delhi NCR, office tables, workstations, chairs.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Boke Furniture \u2013 Office & Commercial Projects | LinkedIn",
+          "link": "https://www.linkedin.com/showcase/boke-commercial-furniture/",
+          "snippet": "Office Furniture Manufacturing, Commercial Furniture Projects, Project-Based Furniture Supply, Office Workstations, Bulk Furniture Production, Custom Commercial Furniture, Furniture OEM ODM, China Off",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Furniture Online India: Best online furniture site India | Damro",
+          "link": "https://www.damroindia.com/",
+          "snippet": "search_icon. Offers.Buy Furniture Online @ DAMRO India's Largest Online Furniture Store for Home and Office. Buy sofas,Bed,Dining Sets,Wardrobes,Cabinets,Shoe racks and Office Furniture.All Wooden fur",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Stellar Office Furniture Blog - Office Furniture Articles",
+          "link": "https://www.stellarglobal.com/blogs/",
+          "snippet": "Discover expert insights and trends in our office furniture blog. Stay informed on the latest designs and tips to enhance your workspace.How Global Furniture Manufacturers Scale Production Without Com",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "#officefurniture - Twitter Search / Twitter",
+          "link": "https://twitter.com/hashtag/officefurniture?src=hashtag_click",
+          "snippet": "Search timeline. Deyate Office Furniture. @DeyateLin. \u00b7 17h.When choosing a desk chair, make sure it has adjustable height and lumbar support to prevent discomfort or injury. Check out our selection o",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P2": {
+      "query": "find office furniture distributors",
+      "level": "market_map",
+      "result_count": 8,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Office Furniture Wholesalers & Distributors in Pune",
+          "link": "https://dir.indiamart.com/pune/officeworkfurniture.html?biz=30",
+          "snippet": "Find here Office Furniture, Executive Office Furniture wholesalers & distributors in Pune. Get contact details & address of companies engaged in wholesale trade & distribution of Office Furniture, Exe",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Popular Office Furniture Distributors in Ghorpade Peth Swargate, Pune",
+          "link": "https://www.justdial.com/Pune/Office-Furniture-Distributors-in-Ghorpade-Peth-Swargate/nct-10341261",
+          "snippet": "Office Furniture Distributors in Ghorpade Peth Swargate, Pune - Elevate your workspace with top-quality office furnishings! Find the best deals on desks, chairs, and storage solutions. Transform your ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Office Furniture in Pune - Login Wood",
+          "link": "https://loginwood.com/",
+          "snippet": "Find Quality Office Furniture Manufacturer in Pune at Login Wood. Explore our premium selection of office desks, chairs and storage Solutions.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Modular Office Furniture Manufacturers Suppliers India | SOS",
+          "link": "https://www.sosoffice.in/",
+          "snippet": "SOS is the leading Office Furniture Manufacturers & Suppliers in India, offers complete office furniture solution including workstations, tables, chairs, cabin & storage solutions.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Smart Office Setup: Top Office Furniture Dealers in Pune",
+          "link": "https://www.justdial.com/Pune/Office-Furniture-Dealers/nct-10341241",
+          "snippet": "4100 Office Furniture Dealers in Pune. Discover top suppliers in Pune offering quality office chairs, desks, workstations, and storage solutions. Get phone numbers, addresses, reviews, photos, and map",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - Featherlite Furniture",
+          "link": "https://featherlitefurniture.com/",
+          "snippet": "\"Featherlite provided strong on-ground support during the supply and installation of office furniture for our project site. The team was responsive, reliable, and ensured smooth execution throughout.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Modular Office Furniture Manufacturer in Pune",
+          "link": "https://officemantra.in/",
+          "snippet": "About us Office Mantra, a famous modular office furniture manufacturer in Pune, has been delivering high-quality, custom furniture solutions tailored to diverse workspace needs.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Office Furniture Dealers in Pune, for Sale | Sulekha Pune",
+          "link": "https://www.sulekha.com/office-furniture-dealers/pune",
+          "snippet": "Office Furniture Dealers in Pune - List of best office furniture distributors, suppliers in Pune for IT, corporate companies (chairs, cabinets, desk, tables) and get luxury office furniture traders, v",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Office Furniture Wholesalers & Distributors in Pune",
+          "link": "https://dir.indiamart.com/pune/officeworkfurniture.html?biz=30",
+          "snippet": "Find here Office Furniture, Executive Office Furniture wholesalers & distributors in Pune. Get contact details & address of companies engaged in wholesale trade & distribution of Office Furniture, Exe",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Popular Office Furniture Distributors in Ghorpade Peth Swargate, Pune",
+          "link": "https://www.justdial.com/Pune/Office-Furniture-Distributors-in-Ghorpade-Peth-Swargate/nct-10341261",
+          "snippet": "Office Furniture Distributors in Ghorpade Peth Swargate, Pune - Elevate your workspace with top-quality office furnishings! Find the best deals on desks, chairs, and storage solutions. Transform your ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Office Furniture in Pune - Login Wood",
+          "link": "https://loginwood.com/",
+          "snippet": "Find Quality Office Furniture Manufacturer in Pune at Login Wood. Explore our premium selection of office desks, chairs and storage Solutions.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Modular Office Furniture Manufacturers Suppliers India | SOS",
+          "link": "https://www.sosoffice.in/",
+          "snippet": "SOS is the leading Office Furniture Manufacturers & Suppliers in India, offers complete office furniture solution including workstations, tables, chairs, cabin & storage solutions.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Smart Office Setup: Top Office Furniture Dealers in Pune",
+          "link": "https://www.justdial.com/Pune/Office-Furniture-Dealers/nct-10341241",
+          "snippet": "4100 Office Furniture Dealers in Pune. Discover top suppliers in Pune offering quality office chairs, desks, workstations, and storage solutions. Get phone numbers, addresses, reviews, photos, and map",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - Featherlite Furniture",
+          "link": "https://featherlitefurniture.com/",
+          "snippet": "\"Featherlite provided strong on-ground support during the supply and installation of office furniture for our project site. The team was responsive, reliable, and ensured smooth execution throughout.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Best Modular Office Furniture Manufacturer in Pune",
+          "link": "https://officemantra.in/",
+          "snippet": "About us Office Mantra, a famous modular office furniture manufacturer in Pune, has been delivering high-quality, custom furniture solutions tailored to diverse workspace needs.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Office Furniture Dealers in Pune, for Sale | Sulekha Pune",
+          "link": "https://www.sulekha.com/office-furniture-dealers/pune",
+          "snippet": "Office Furniture Dealers in Pune - List of best office furniture distributors, suppliers in Pune for IT, corporate companies (chairs, cabinets, desk, tables) and get luxury office furniture traders, v",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P3": {
+      "query": "search for office furniture wholesalers",
+      "level": "market_map",
+      "result_count": 7,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Top Quality office furniture wholesalers for Your Office Needs...",
+          "link": "https://www.alibaba.com/showroom/office-furniture-wholesalers.html",
+          "snippet": "Build one's productivity with a practical and stylish office furniture wholesalers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Office Furniture / Wholesalers, Furniture / Verified Who - Forie.com",
+          "link": "https://www.forie.com/en/companies/furniture/office-furniture/wholesalers/",
+          "snippet": "You are viewing the companies as Wholesaler at Office Furniture subcategory of Furniture category.Cagin Office Furniture was established in 1970 to manufacture office furnitures and projects.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "N9NE Furniture Group- Pacific Coast - Home",
+          "link": "https://www.pcfdistributors.com/",
+          "snippet": "N9NE Furniture Group Pacific Coast Region. We are a wholesale-only distributor of contract office furniture serving the Pacific Northwest, California, and the Southwest through a number of excellent o",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Office Furniture Export Companies List",
+          "link": "https://www.turkishexporter.com.tr/en/companies/office-furniture.htm",
+          "snippet": "Office Furniture manufacturers, Office Furniture export companies list - B2b wholesalers, exporters, suppliers worldwide. Select All Companies. Selected 0 company.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Office Furniture Wholesalers (OFW) | LinkedIn",
+          "link": "https://za.linkedin.com/company/office-furniture-wholesalers-ofw",
+          "snippet": "Office Furniture Wholesalers (OFW). Furniture and Home Furnishings Manufacturing. Cape Town, Western Cape 94 followers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Office Furniture Wholesalers",
+          "link": "https://officefurniturewholesalers.com.au/",
+          "snippet": "Office Furniture Wholesalers. Best wholesale prices for your office furniture.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Office Furniture Manufacturers for Ergonomic Solutions | TikTok",
+          "link": "https://www.tiktok.com/@lopo.office.furniture/video/7641441628376370462",
+          "snippet": "For those searching for top office furniture manufacturers, it's essential to consider factors such as product quality, warranty, customer service, and vendor reliability.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Top Quality office furniture wholesalers for Your Office Needs...",
+          "link": "https://www.alibaba.com/showroom/office-furniture-wholesalers.html",
+          "snippet": "Build one's productivity with a practical and stylish office furniture wholesalers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Office Furniture / Wholesalers, Furniture / Verified Who - Forie.com",
+          "link": "https://www.forie.com/en/companies/furniture/office-furniture/wholesalers/",
+          "snippet": "You are viewing the companies as Wholesaler at Office Furniture subcategory of Furniture category.Cagin Office Furniture was established in 1970 to manufacture office furnitures and projects.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "N9NE Furniture Group- Pacific Coast - Home",
+          "link": "https://www.pcfdistributors.com/",
+          "snippet": "N9NE Furniture Group Pacific Coast Region. We are a wholesale-only distributor of contract office furniture serving the Pacific Northwest, California, and the Southwest through a number of excellent o",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Office Furniture Export Companies List",
+          "link": "https://www.turkishexporter.com.tr/en/companies/office-furniture.htm",
+          "snippet": "Office Furniture manufacturers, Office Furniture export companies list - B2b wholesalers, exporters, suppliers worldwide. Select All Companies. Selected 0 company.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Office Furniture Wholesalers (OFW) | LinkedIn",
+          "link": "https://za.linkedin.com/company/office-furniture-wholesalers-ofw",
+          "snippet": "Office Furniture Wholesalers (OFW). Furniture and Home Furnishings Manufacturing. Cape Town, Western Cape 94 followers.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Office Furniture Wholesalers",
+          "link": "https://officefurniturewholesalers.com.au/",
+          "snippet": "Office Furniture Wholesalers. Best wholesale prices for your office furniture.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Office Furniture Manufacturers for Ergonomic Solutions | TikTok",
+          "link": "https://www.tiktok.com/@lopo.office.furniture/video/7641441628376370462",
+          "snippet": "For those searching for top office furniture manufacturers, it's essential to consider factors such as product quality, warranty, customer service, and vendor reliability.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P4": {
+      "query": "look for office furniture resellers",
+      "level": "market_map",
+      "result_count": 7,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Product Resellers - Typing Injury FAQ",
+          "link": "https://www.tifaq.org/resellers.html",
+          "snippet": "Office Furniture. Industrial. Kids. Catalogs. Related Links. Welcome to the Reseller Listing! Some products listed in the TIFAQ are readily available from your local computer super store while others ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Preowned Office Furniture | Debunking Common Myths",
+          "link": "https://www.tedesk.com/debunking-preowned-office-furniture-myths/",
+          "snippet": "Be aware of the difference between office furniture wholesalers and office furniture resellers. Wholesalers are looking to move large amounts of items quickly and may not filter through the items with",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Find a Humascale Office Furniture Reseller",
+          "link": "https://uk.humanscale.com/about/where-to-buy/find-a-reseller.cfm",
+          "snippet": "office furniture reseller. If you're looking for a Humanscale office furniture reseller, discover our network of authorized dealers worldwide and find the ergonomic solutions you need for your workspa",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Explore a diverse selection of designer and classic style furniture at...",
+          "link": "https://fenstrade.com/",
+          "snippet": "Office Furniture.At Global Furniture Production Fenstrade, we connect over 3,000 furniture suppliers and manufacturers with resellers worldwide. Whether you're looking for trendy pieces or timeless fa",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Liberty Liquidators Office Furniture Warehouse",
+          "link": "https://usedcubiclesdesks.com/",
+          "snippet": "Liberty Liquidators is a top furniture reseller for used office chairs, office desks, cubicles, executive furniture, and more.If you are looking for new office furniture, we have that too. We purchase",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Where to Find Used Office Furniture: Top Budget-Friendly Sources...",
+          "link": "https://thecraftedfurniture.com/where-to-find-used-office-furniture/",
+          "snippet": "Facebook Marketplace shows used office furniture from local sellers. It uses your Facebook account to connect you with nearby options. You can see seller profiles for added trust. The platform support",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy used or pre owned refurbished steelcase call center herman miller...",
+          "link": "https://www.cubicleresources.com/refurbished-cubicles/",
+          "snippet": "Office Furniture Resellers. Look for office furniture resellers that offer refurbished cubicles. These companies acquire used cubicles, refurbish them as needed, and sell them at discounted prices. So",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Product Resellers - Typing Injury FAQ",
+          "link": "https://www.tifaq.org/resellers.html",
+          "snippet": "Office Furniture. Industrial. Kids. Catalogs. Related Links. Welcome to the Reseller Listing! Some products listed in the TIFAQ are readily available from your local computer super store while others ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Preowned Office Furniture | Debunking Common Myths",
+          "link": "https://www.tedesk.com/debunking-preowned-office-furniture-myths/",
+          "snippet": "Be aware of the difference between office furniture wholesalers and office furniture resellers. Wholesalers are looking to move large amounts of items quickly and may not filter through the items with",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Find a Humascale Office Furniture Reseller",
+          "link": "https://uk.humanscale.com/about/where-to-buy/find-a-reseller.cfm",
+          "snippet": "office furniture reseller. If you're looking for a Humanscale office furniture reseller, discover our network of authorized dealers worldwide and find the ergonomic solutions you need for your workspa",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Explore a diverse selection of designer and classic style furniture at...",
+          "link": "https://fenstrade.com/",
+          "snippet": "Office Furniture.At Global Furniture Production Fenstrade, we connect over 3,000 furniture suppliers and manufacturers with resellers worldwide. Whether you're looking for trendy pieces or timeless fa",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Liberty Liquidators Office Furniture Warehouse",
+          "link": "https://usedcubiclesdesks.com/",
+          "snippet": "Liberty Liquidators is a top furniture reseller for used office chairs, office desks, cubicles, executive furniture, and more.If you are looking for new office furniture, we have that too. We purchase",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Where to Find Used Office Furniture: Top Budget-Friendly Sources...",
+          "link": "https://thecraftedfurniture.com/where-to-find-used-office-furniture/",
+          "snippet": "Facebook Marketplace shows used office furniture from local sellers. It uses your Facebook account to connect you with nearby options. You can see seller profiles for added trust. The platform support",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy used or pre owned refurbished steelcase call center herman miller...",
+          "link": "https://www.cubicleresources.com/refurbished-cubicles/",
+          "snippet": "Office Furniture Resellers. Look for office furniture resellers that offer refurbished cubicles. These companies acquire used cubicles, refurbish them as needed, and sell them at discounted prices. So",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P5": {
+      "query": "search for office furniture system integrators",
+      "level": "market_map",
+      "result_count": 8,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Modern Office Furniture Manufacturer - North America - Tayco",
+          "link": "https://www.tayco.com/",
+          "snippet": "Your search for a modern office furniture manufacturer is over. Based in North America, Tayco offers forward-thinking modern office solutions.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Office Furniture Services | Furniture Sales, Installation, & Storage",
+          "link": "https://corovan.com/office-furniture/",
+          "snippet": "Corovan offers a full range of office furniture services, including consulting, planning, sales and integration, and installation for your workplace.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Corporate Office Furniture | (Recommended for Your Industry) | BOS",
+          "link": "https://www.bos.com/markets/corporate/",
+          "snippet": "BOS has furnished thousands of companies with corporate office furniture over the last 65 years. BOS solutions can be customized to meet any client's needs.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Office Furniture | Workspace Solutions | Rightsize Facility",
+          "link": "https://rightsizefacility.com/",
+          "snippet": "Office furniture and facility services, guided by experienced workplace solutions managers and facility services specialists. Rightsize Facility provides workplace planning, office furniture, and faci",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sunon \u2014 Offers one-stop space solutions for a healthy office...",
+          "link": "https://www.sunonglobal.com/",
+          "snippet": "Panel + Space Division. Panel System Pods.Workspaces. We are experts in the modern office furniture industry and strive to. provide innovative and intelligent workspace solutions.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Furniture Online India: Best online furniture site India | Damro",
+          "link": "https://www.damroindia.com/",
+          "snippet": "search_icon. Offers.Buy Furniture Online @ DAMRO India's Largest Online Furniture Store for Home and Office. Buy sofas,Bed,Dining Sets,Wardrobes,Cabinets,Shoe racks and Office Furniture.All Wooden fur",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Okamura\uff5cOffice furniture designed to the last detail.",
+          "link": "https://www.okamura.com/",
+          "snippet": "search. close.Okamura office furniture radiates a sense of comfort and beauty because it is made with a devotion to the nuances of customer needs.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I used to like my desk. It had drawers. - Office Interiors",
+          "link": "https://learningcentre.officeinteriors.ca/blog/i-used-to-like-my-desk-it-had-drawers",
+          "snippet": "Close Search. Office Furniture.It\u2019s so much more than furniture! Their designers transformed our disconnected, two-story layout into a polished and practical office, with four flexible workstations an",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Modern Office Furniture Manufacturer - North America - Tayco",
+          "link": "https://www.tayco.com/",
+          "snippet": "Your search for a modern office furniture manufacturer is over. Based in North America, Tayco offers forward-thinking modern office solutions.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Office Furniture Services | Furniture Sales, Installation, & Storage",
+          "link": "https://corovan.com/office-furniture/",
+          "snippet": "Corovan offers a full range of office furniture services, including consulting, planning, sales and integration, and installation for your workplace.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Corporate Office Furniture | (Recommended for Your Industry) | BOS",
+          "link": "https://www.bos.com/markets/corporate/",
+          "snippet": "BOS has furnished thousands of companies with corporate office furniture over the last 65 years. BOS solutions can be customized to meet any client's needs.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Office Furniture | Workspace Solutions | Rightsize Facility",
+          "link": "https://rightsizefacility.com/",
+          "snippet": "Office furniture and facility services, guided by experienced workplace solutions managers and facility services specialists. Rightsize Facility provides workplace planning, office furniture, and faci",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Sunon \u2014 Offers one-stop space solutions for a healthy office...",
+          "link": "https://www.sunonglobal.com/",
+          "snippet": "Panel + Space Division. Panel System Pods.Workspaces. We are experts in the modern office furniture industry and strive to. provide innovative and intelligent workspace solutions.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Furniture Online India: Best online furniture site India | Damro",
+          "link": "https://www.damroindia.com/",
+          "snippet": "search_icon. Offers.Buy Furniture Online @ DAMRO India's Largest Online Furniture Store for Home and Office. Buy sofas,Bed,Dining Sets,Wardrobes,Cabinets,Shoe racks and Office Furniture.All Wooden fur",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Okamura\uff5cOffice furniture designed to the last detail.",
+          "link": "https://www.okamura.com/",
+          "snippet": "search. close.Okamura office furniture radiates a sense of comfort and beauty because it is made with a devotion to the nuances of customer needs.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "I used to like my desk. It had drawers. - Office Interiors",
+          "link": "https://learningcentre.officeinteriors.ca/blog/i-used-to-like-my-desk-it-had-drawers",
+          "snippet": "Close Search. Office Furniture.It\u2019s so much more than furniture! Their designers transformed our disconnected, two-story layout into a polished and practical office, with four flexible workstations an",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "find office furniture installation services",
+      "level": "market_map",
+      "result_count": 17,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Top Office Furniture Installation Services in Pune near me - Justdial",
+          "link": "https://www.justdial.com/Pune/Office-Furniture-Installation-Services/nct-12862213",
+          "snippet": "Office Furniture Installation Services in Pune - Transform your workspace with top-notch office furniture assembly and setup.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Furniture Installation Service in Pune (\u092b\u0930\u094d\u0928\u0940\u091a\u0930 \u0907\u0902\u0938\u094d\u091f\u0949\u0932\u0947\u0936\u0928 \u0938\u0930\u094d\u0935\u093f\u0938, \u092a\u0941\u0923\u0947)",
+          "link": "https://dir.indiamart.com/pune/furniture-installation-service.html",
+          "snippet": "If you are Looking for Office furniture installations then you are at right place. Our Experts & Professionals Much capabel to installs Computers, Electronics, ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Furniture Installation Services in Pimpri Chinchwad New Town ...",
+          "link": "https://www.justdial.com/Pune/Furniture-Installation-Services-in-Pimpri-Chinchwad-New-Town/nct-11505507",
+          "snippet": "For those who seek a balance between cost and quality, value for money services are available. Users can opt for office furniture installation that includes ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Office Furniture on Rent in Pune - Stylish & Practical | Cityfurnish",
+          "link": "https://cityfurnish.com/pune/office-furniture-rental?srsltid=AfmBOooP6MbYiwIivDr9JlgrP0uBh1apL4IGtoBmonDZvNhqcKoRMV_y",
+          "snippet": "With Cityfurnish's rent office furniture services, you can create a fully functional office without ownership hassles. ... - Get the delivery and assembly done on ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Modular Office Furniture Pune - Spacewood Office Solutions",
+          "link": "https://www.sosoffice.in/locations/modular-office-furniture-pune/",
+          "snippet": "Explore the finest modular office furniture at SOS in Bangalore. Visit our showroom for elegant workstations, ergonomic chairs, and comprehensive office ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Office Furniture Contractors in Pune near me - Justdial",
+          "link": "https://www.justdial.com/Pune/Office-Furniture-Contractors/nct-10931077",
+          "snippet": "After the design phase, office furniture specialists provide installation and assembly services. ... You can find local contractors on Justdial for more ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Office Furniture Assembly | Handy",
+          "link": "https://orders.handy.com/services/office-furniture-assembly",
+          "snippet": "Buy the furniture you like, and then book through Handy to find assemblers in your area who can put it together for you at a much lower cost. Handy has been connecting customers with office furniture ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How to find office furniture installation services?",
+          "link": "https://www.furnitureinfashion.net/how-to-find-office-furniture-installation-services-a-295.html",
+          "snippet": "Office furniture installation is a very delicate procedure, and it requires the professionals to deal with it.Internet is the fastest way of searching such installation providers who install the offic",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Houston Installation Services | LinkedIn",
+          "link": "https://www.linkedin.com/company/houston-installation-services",
+          "snippet": "Specialties. Office Furniture Installation, Office Furniture Rearrangement, Warehousing, Project Management, Floor Care, and Customer Service.Find people you know at Houston Installation Services. Bro",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "office furniture \u2013 Business Moving Group",
+          "link": "https://businessmoving.com/category/office-furniture/",
+          "snippet": "Office Furniture Installation Services. Project Management.During an office relocation or renovation, businesses often find themselves with surplus office furniture and equipment.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Office Furniture Installation Towson | AOI",
+          "link": "https://aoi-inc.us/towson/",
+          "snippet": "Superb Office Furniture Installation Services for Towson, MD, Businesses.Our services even extend further than furniture installations to include moving, boxing, reconfiguring, and storing your items,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Office Furniture Installer | TikTok",
+          "link": "https://www.tiktok.com/discover/office-furniture-installer",
+          "snippet": "Expert office furniture installation services nationwide. Get free site visits and quotes for all your office furniture needs!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Work2Day - Office2Day",
+          "link": "https://office2day.ca/work2day/",
+          "snippet": "In this article we explore find office furniture vendors for all of your office furniture needs from installation to moving to reconfiguration and disposal. A team is discussing the next office furnit",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Office Furniture Installation | Texas - Manta.com",
+          "link": "https://www.manta.com/mb_45_E031F0GV_44/office_furniture_installation/texas",
+          "snippet": "Office Furniture Installation. Warehouse Equipment. Texas furniture installers.CLAIMED. Categorized under Office Furniture Installation. Our company brings quality services with reasonable prices and ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Office Furniture | Handy Furniture Fix and Movings",
+          "link": "https://www.handyfurniturefix.com/services/officefurniture-installation",
+          "snippet": "Our office furniture installation services include: \u2022 Professional assembly of office furniture at the designated locations \u2022 Installation of desks, workstations, cabinets, cubicles and conference fur",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "OC Office Furniture",
+          "link": "https://interfishmarket.com/en/company.aspx?id=137522",
+          "snippet": "Find top-quality office furniture installation services from OC Office Installation & Furniture in Orange County.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Office Furniture Installation near Cincinnati, OH | Better Business...",
+          "link": "https://www.bbb.org/us/oh/cincinnati/category/office-furniture-installation",
+          "snippet": "BBB Directory of Office Furniture Installation near Cincinnati, OH. Your guide to trusted BBB Ratings, customer reviews and BBB Accredited businesses.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Top Office Furniture Installation Services in Pune near me - Justdial",
+          "link": "https://www.justdial.com/Pune/Office-Furniture-Installation-Services/nct-12862213",
+          "snippet": "Office Furniture Installation Services in Pune - Transform your workspace with top-notch office furniture assembly and setup.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Furniture Installation Service in Pune (\u092b\u0930\u094d\u0928\u0940\u091a\u0930 \u0907\u0902\u0938\u094d\u091f\u0949\u0932\u0947\u0936\u0928 \u0938\u0930\u094d\u0935\u093f\u0938, \u092a\u0941\u0923\u0947)",
+          "link": "https://dir.indiamart.com/pune/furniture-installation-service.html",
+          "snippet": "If you are Looking for Office furniture installations then you are at right place. Our Experts & Professionals Much capabel to installs Computers, Electronics, ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Furniture Installation Services in Pimpri Chinchwad New Town ...",
+          "link": "https://www.justdial.com/Pune/Furniture-Installation-Services-in-Pimpri-Chinchwad-New-Town/nct-11505507",
+          "snippet": "For those who seek a balance between cost and quality, value for money services are available. Users can opt for office furniture installation that includes ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Office Furniture on Rent in Pune - Stylish & Practical | Cityfurnish",
+          "link": "https://cityfurnish.com/pune/office-furniture-rental?srsltid=AfmBOooP6MbYiwIivDr9JlgrP0uBh1apL4IGtoBmonDZvNhqcKoRMV_y",
+          "snippet": "With Cityfurnish's rent office furniture services, you can create a fully functional office without ownership hassles. ... - Get the delivery and assembly done on ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Modular Office Furniture Pune - Spacewood Office Solutions",
+          "link": "https://www.sosoffice.in/locations/modular-office-furniture-pune/",
+          "snippet": "Explore the finest modular office furniture at SOS in Bangalore. Visit our showroom for elegant workstations, ergonomic chairs, and comprehensive office ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Office Furniture Contractors in Pune near me - Justdial",
+          "link": "https://www.justdial.com/Pune/Office-Furniture-Contractors/nct-10931077",
+          "snippet": "After the design phase, office furniture specialists provide installation and assembly services. ... You can find local contractors on Justdial for more ...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Office Furniture Assembly | Handy",
+          "link": "https://orders.handy.com/services/office-furniture-assembly",
+          "snippet": "Buy the furniture you like, and then book through Handy to find assemblers in your area who can put it together for you at a much lower cost. Handy has been connecting customers with office furniture ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "How to find office furniture installation services?",
+          "link": "https://www.furnitureinfashion.net/how-to-find-office-furniture-installation-services-a-295.html",
+          "snippet": "Office furniture installation is a very delicate procedure, and it requires the professionals to deal with it.Internet is the fastest way of searching such installation providers who install the offic",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Houston Installation Services | LinkedIn",
+          "link": "https://www.linkedin.com/company/houston-installation-services",
+          "snippet": "Specialties. Office Furniture Installation, Office Furniture Rearrangement, Warehousing, Project Management, Floor Care, and Customer Service.Find people you know at Houston Installation Services. Bro",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "office furniture \u2013 Business Moving Group",
+          "link": "https://businessmoving.com/category/office-furniture/",
+          "snippet": "Office Furniture Installation Services. Project Management.During an office relocation or renovation, businesses often find themselves with surplus office furniture and equipment.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Office Furniture Installation Towson | AOI",
+          "link": "https://aoi-inc.us/towson/",
+          "snippet": "Superb Office Furniture Installation Services for Towson, MD, Businesses.Our services even extend further than furniture installations to include moving, boxing, reconfiguring, and storing your items,",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Office Furniture Installer | TikTok",
+          "link": "https://www.tiktok.com/discover/office-furniture-installer",
+          "snippet": "Expert office furniture installation services nationwide. Get free site visits and quotes for all your office furniture needs!",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Work2Day - Office2Day",
+          "link": "https://office2day.ca/work2day/",
+          "snippet": "In this article we explore find office furniture vendors for all of your office furniture needs from installation to moving to reconfiguration and disposal. A team is discussing the next office furnit",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Office Furniture Installation | Texas - Manta.com",
+          "link": "https://www.manta.com/mb_45_E031F0GV_44/office_furniture_installation/texas",
+          "snippet": "Office Furniture Installation. Warehouse Equipment. Texas furniture installers.CLAIMED. Categorized under Office Furniture Installation. Our company brings quality services with reasonable prices and ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Office Furniture | Handy Furniture Fix and Movings",
+          "link": "https://www.handyfurniturefix.com/services/officefurniture-installation",
+          "snippet": "Our office furniture installation services include: \u2022 Professional assembly of office furniture at the designated locations \u2022 Installation of desks, workstations, cabinets, cubicles and conference fur",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "OC Office Furniture",
+          "link": "https://interfishmarket.com/en/company.aspx?id=137522",
+          "snippet": "Find top-quality office furniture installation services from OC Office Installation & Furniture in Orange County.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Office Furniture Installation near Cincinnati, OH | Better Business...",
+          "link": "https://www.bbb.org/us/oh/cincinnati/category/office-furniture-installation",
+          "snippet": "BBB Directory of Office Furniture Installation near Cincinnati, OH. Your guide to trusted BBB Ratings, customer reviews and BBB Accredited businesses.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P7": {
+      "query": "search for office furniture channel partners",
+      "level": "market_map",
+      "result_count": 3,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Office Supplies, Furniture, Technology at Office Depot",
+          "link": "https://odpbusiness.com/",
+          "snippet": "Shop office supplies, office furniture and business technology at Office Depot. Paper, file folders, ink, toner and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Furniture Online India: Best online furniture site India | Damro",
+          "link": "https://www.damroindia.com/",
+          "snippet": "Buy Furniture Online @ DAMRO India's Largest Online Furniture Store for Home & Office. Buy sofas, Beds, Dining Sets, Wardrobes, Cabinets,Office Furniture.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Okamura\uff5cOffice furniture designed to the last detail.",
+          "link": "https://www.okamura.com/",
+          "snippet": "search.Okamura office furniture radiates a sense of comfort and beauty because it is made with a devotion to the nuances of customer needs.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Office Supplies, Furniture, Technology at Office Depot",
+          "link": "https://odpbusiness.com/",
+          "snippet": "Shop office supplies, office furniture and business technology at Office Depot. Paper, file folders, ink, toner and more.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy Furniture Online India: Best online furniture site India | Damro",
+          "link": "https://www.damroindia.com/",
+          "snippet": "Buy Furniture Online @ DAMRO India's Largest Online Furniture Store for Home & Office. Buy sofas, Beds, Dining Sets, Wardrobes, Cabinets,Office Furniture.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Okamura\uff5cOffice furniture designed to the last detail.",
+          "link": "https://www.okamura.com/",
+          "snippet": "search.Okamura office furniture radiates a sense of comfort and beauty because it is made with a devotion to the nuances of customer needs.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "<string>", line 11, in <module>
+    run_query.main()
+    ~~~~~~~~~~~~~~^^
+  File "D:\vendor-intel\run_query.py", line 687, in main
+    result = run_one_query(
+        query, country, settings,
+    ...<6 lines>...
+        resume_checkpoint=bool(args.resume_checkpoint),
+    )
+  File "D:\vendor-intel\run_query.py", line 212, in run_one_query
+    return execute_and_export(
+        query,
+    ...<9 lines>...
+        resume_checkpoint=resume_checkpoint,
+    )
+TypeError: execute_and_export() got an unexpected keyword argument 'resume_checkpoint'
+
+TYPE=TypeError
+REPR=TypeError("execute_and_export() got an unexpected keyword argument 'resume_checkpoint'")

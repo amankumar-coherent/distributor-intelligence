@@ -1,0 +1,1106 @@
+{
+  "phase": 1,
+  "query": "Radiation Protection Market -- only include these channel-partner types: Distributor; Wholesaler; Reseller; System Integrator; Service Provider; Channel Partner",
+  "mock_mode": false,
+  "completed_at": "2026-07-23T21:23:34.830556+00:00",
+  "llm_provider": "openai",
+  "search_primary": "duckduckgo",
+  "search_backup": "searxng",
+  "funnel_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "scope": {
+    "market": "Radiation Protection",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "Safety Equipment",
+    "industry_terms": [
+      "radiation shielding",
+      "personal protective equipment",
+      "radiation detection",
+      "dosimetry",
+      "radiation monitoring"
+    ],
+    "ecosystem_functions": [
+      "distributing radiation protection products",
+      "reselling radiation safety equipment",
+      "integrating radiation protection systems",
+      "providing consulting services",
+      "offering maintenance for radiation safety solutions",
+      "acting as channel partners for manufacturers"
+    ],
+    "interpretation_summary": "The Radiation Protection Market encompasses products and services designed to safeguard individuals and environments from harmful radiation exposure. Key participants include manufacturers, distributors, and service prov",
+    "relevance_keywords": [
+      "radiation safety",
+      "radiation protection",
+      "dosimeters",
+      "lead aprons",
+      "radiation shielding materials"
+    ],
+    "negative_keywords": [
+      "nuclear waste",
+      "radiation therapy",
+      "medical imaging",
+      "unrelated industries",
+      "non-radiation safety products"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "Radiation Protection Services,",
+        "primary_domain": "radiationprotectionservices.com",
+        "company_function": "distributor of radiation safety products"
+      },
+      {
+        "canonical_name": "Radiation Safety Solutions",
+        "primary_domain": "radiationsafetysolutions.com",
+        "company_function": "reseller of radiation protection equipment"
+      },
+      {
+        "canonical_name": "Radiation Shielding Technologies",
+        "primary_domain": "radiationshieldingtech.com",
+        "company_function": "system integrator for radiation protection systems"
+      },
+      {
+        "canonical_name": "Radiation Safety Consulting Group",
+        "primary_domain": "radiationsafetyconsulting.com",
+        "company_function": "service provider for radiation safety consulting"
+      },
+      {
+        "canonical_name": "Global Radiation Protection",
+        "primary_domain": "globalradiationprotection.com",
+        "company_function": "distributor and wholesaler of radiation protection products"
+      },
+      {
+        "canonical_name": "Safety Radiation Resellers",
+        "primary_domain": "safetyradiationresellers.com",
+        "company_function": "reseller of radiation safety gear"
+      },
+      {
+        "canonical_name": "Integrated Radiation Solutions",
+        "primary_domain": "integratedradiationsolutions.com",
+        "company_function": "system integrator specializing in radiation protection"
+      },
+      {
+        "canonical_name": "Radiation Protection Services Group",
+        "primary_domain": "radiationprotectionservicesgroup.com",
+        "company_function": "service provider for radiation safety services"
+      }
+    ],
+    "search_topic": "Radiation Protection",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "Radiation Protection",
+    "include_keywords": [
+      "radiation protection equipment",
+      "radiation safety products",
+      "radiation shielding solutions",
+      "personal protective radiation gear",
+      "radiation monitoring devices"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The Radiation Protection Market encompasses products and services designed to safeguard individuals and environments from harmful radiation exposure. Key participants include manufacturers, distributors, and service providers operating globally across various sectors such as healthcare, nuclear energy, and industrial applications.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Distribution",
+        "description": "This layer involves the distribution of radiation protection products and services to end users.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "national distributors",
+              "regional distributors"
+            ],
+            "participant_types": [
+              "distributor",
+              "wholesaler"
+            ],
+            "search_intents": [
+              "radiation protection product distributors",
+              "wholesale radiation safety equipment"
+            ]
+          },
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "online resellers",
+              "retail resellers"
+            ],
+            "participant_types": [
+              "reseller"
+            ],
+            "search_intents": [
+              "radiation protection equipment resellers",
+              "buy radiation safety products online"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L2",
+        "layer_name": "Integration Services",
+        "description": "This layer includes companies that integrate radiation protection solutions into existing systems.",
+        "segments": [
+          {
+            "segment_name": "System Integrators",
+            "sub_segments": [
+              "healthcare system integrators",
+              "industrial system integrators"
+            ],
+            "participant_types": [
+              "system integrator"
+            ],
+            "search_intents": [
+              "radiation protection system integrators",
+              "integrated radiation safety solutions"
+            ]
+          },
+          {
+            "segment_name": "Service Providers",
+            "sub_segments": [
+              "consulting services",
+              "maintenance services"
+            ],
+            "participant_types": [
+              "service provider"
+            ],
+            "search_intents": [
+              "radiation safety consulting services",
+              "radiation protection maintenance providers"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Manufacturers",
+        "Regulatory Bodies",
+        "Research Institutions",
+        "End Users"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "radiation protection product distributors",
+        "sub_sector": "distributor",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "buy radiation safety products online",
+        "sub_sector": "reseller",
+        "layer_id": "L1",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "radiation protection system integrators",
+        "sub_sector": "system_integrator",
+        "layer_id": "L2",
+        "segment": "System Integrators"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "radiation safety consulting services",
+        "sub_sector": "service_provider",
+        "layer_id": "L2",
+        "segment": "Service Providers"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "scope_source": "llm",
+  "industry_vertical": "Safety Equipment",
+  "results_per_query": 28,
+  "api_status": {
+    "internet_dns": {
+      "status": "active",
+      "detail": ""
+    },
+    "duckduckgo": {
+      "status": "active",
+      "package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)",
+      "installed": true,
+      "backends": [
+        "bing",
+        "duckduckgo",
+        "brave",
+        "yandex",
+        "google"
+      ],
+      "detail": "1 sample result(s)"
+    },
+    "searxng": {
+      "status": "active",
+      "url": "http://127.0.0.1:8080",
+      "detail": "reachable"
+    },
+    "llm": {
+      "status": "active",
+      "provider": "openai",
+      "detail": "compiler returned valid JSON (or partial scope) this run"
+    },
+    "wikidata": {
+      "status": "inactive",
+      "enabled": true,
+      "api_key_required": false,
+      "detail": "sample parent lookup: none"
+    },
+    "web_fetch": {
+      "status": "active",
+      "enabled": true,
+      "detail": "ddgs.extract OK \u2192 https://example.com"
+    },
+    "google_alerts": {
+      "status": "skipped",
+      "enabled": false,
+      "detail": "GOOGLE_ALERTS_ENABLED=false"
+    }
+  },
+  "funnel_prompts": [
+    {
+      "id": "L0",
+      "level": "L0",
+      "text": "Radiation Protection Market companies official websites"
+    },
+    {
+      "id": "L1",
+      "level": "L1",
+      "text": "Radiation protection distributors corporate sites"
+    },
+    {
+      "id": "L2",
+      "level": "L2",
+      "text": "Radiation safety equipment resellers official site"
+    }
+  ],
+  "discovery_prompts": [
+    {
+      "id": "P1",
+      "level": "discovery",
+      "text": "radiation protection product distributors official site"
+    },
+    {
+      "id": "P2",
+      "level": "discovery",
+      "text": "wholesale radiation safety equipment corporate headquarters"
+    },
+    {
+      "id": "P3",
+      "level": "discovery",
+      "text": "radiation protection equipment resellers corporate site"
+    },
+    {
+      "id": "P4",
+      "level": "discovery",
+      "text": "buy radiation safety products online"
+    },
+    {
+      "id": "P5",
+      "level": "discovery",
+      "text": "radiation protection system integrators official website"
+    },
+    {
+      "id": "P6",
+      "level": "discovery",
+      "text": "integrated radiation safety solutions corporate profile"
+    },
+    {
+      "id": "P7",
+      "level": "discovery",
+      "text": "radiation safety consulting services official site"
+    },
+    {
+      "id": "P8",
+      "level": "discovery",
+      "text": "radiation protection maintenance providers corporate site"
+    },
+    {
+      "id": "P9",
+      "level": "volume",
+      "text": "authorized Radiation Protection distributor firm official"
+    },
+    {
+      "id": "P10",
+      "level": "volume",
+      "text": "Radiation Protection reseller channel partner official"
+    },
+    {
+      "id": "P11",
+      "level": "volume",
+      "text": "Radiation Protection system integrator official website"
+    },
+    {
+      "id": "P12",
+      "level": "volume",
+      "text": "Radiation Protection consulting partner implementation official"
+    }
+  ],
+  "discovery_prompt_count": 12,
+  "search_prompt_count": 10,
+  "search_smoke_test": {
+    "L0": {
+      "query": "Radiation Protection Market companies official websites",
+      "level": "L0",
+      "result_count": 12,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "MAVIG - X-Ray Protection and Medical Suspension Systems",
+          "link": "https://mavig.com/",
+          "snippet": "What began in 1921 with the production of X-ray and welding protection products is now a worldwide renowned company with an excellent reputation in the field of radiation protection and medical suspen",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Radiation Shield Technologies",
+          "link": "https://www.radshield.com/",
+          "snippet": "Radiation Shield Technologies (RST) is the world leader in the research, manufacturing and production of personal protection systems for ionizing and nuclear radiation. The company's core technology, ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Radiation Protection Products | Lead X-Ray Shielding Equipment",
+          "link": "https://barriertechnologies.com/",
+          "snippet": "Industry leading manufacturer of Radiation Protection Products Our high quality USA manufactured radiation shielding products include our lightweight xray aprons, thyroid collar, leaded eyewear, radia",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Radiation Protection and Measurement - Thermo Fisher Scientific",
+          "link": "https://www.thermofisher.com/us/en/home/industrial/radiation-detection-measurement.html",
+          "snippet": "Our product portfolio of radiation detectors, radiation monitoring devices, and radiation measurement instruments provide comprehensive, real-time monitoring, early warning, and complete dose and expo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Radiation shielding products - A&L Shielding",
+          "link": "https://alshielding.com/",
+          "snippet": "A&L Shielding has been the benchmark for radiation protection since 1958. We build quality products to custom suit your project when time matters the most.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Radiation Shielding | X-Ray Shielding | Radiation Protection",
+          "link": "https://www.radiationproducts.com/catalog-brochures",
+          "snippet": "Download full catalogs and brochures for radiation shielding products including lead lined glass, lead lined doors, lead bricks, lead lined sheetrock, and more. Contact Radiation Protection Products f",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Radiation Protection Market Size to Surpass USD 3.33 Bn by 2035",
+          "link": "https://www.precedenceresearch.com/radiation-protection-market",
+          "snippet": "The global radiation protection market size is predicted to surpass around USD 3.33 billion by 2035 from USD 2.09 billion in 2025, with a CAGR of 4.77%.Regional Insights. Radiation Protection Market C",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Radiation Protection Market Companies",
+          "link": "https://www.coherentmarketinsights.com/industry-reports/radiation-protection-market/companies",
+          "snippet": "2024 and 2031 Radiation Protection Market Companies Report includes a Forecast to 2031 and Historical Overview.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Radiation Protection Products. Radiation Shield by StemRad",
+          "link": "https://stemrad.com/",
+          "snippet": "Radiation protection products by StemRad. Protecting firefighters, military, medical crews, astronauts and civilians from Radiation.Radiation Protection. Company News.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Radiation Protection Market to hit 1,792.7 million dollars by 2031...",
+          "link": "https://asean.einnews.com/pr_news/719687122/radiation-protection-market-to-hit-1-792-7-million-dollars-by-2031-coherent-market-insights",
+          "snippet": "Key Market Takeaways: The global radiation protection market is anticipated to witness a CAGR of 4.8% during the forecast period 2024-2031, owing to the rising cancer incidence and increasing installa",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - Rampart",
+          "link": "https://rampart.com/",
+          "snippet": "Important Risk Information: Rampart products may only offer radiation protection when used properly, in accordance with each product IFU. Users should ensure they comply with all applicable laws and r",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Kennedy Radiology",
+          "link": "https://www.kennedyradiology.us/",
+          "snippet": "Kennedy Radiology leads the industry with a comprehensive range of meticulously designed, lightweight radiation protection solutions trusted by healthcare professionals worldwide. Our products are rig",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "MAVIG - X-Ray Protection and Medical Suspension Systems",
+          "link": "https://mavig.com/",
+          "snippet": "What began in 1921 with the production of X-ray and welding protection products is now a worldwide renowned company with an excellent reputation in the field of radiation protection and medical suspen",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Radiation Shield Technologies",
+          "link": "https://www.radshield.com/",
+          "snippet": "Radiation Shield Technologies (RST) is the world leader in the research, manufacturing and production of personal protection systems for ionizing and nuclear radiation. The company's core technology, ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Radiation Protection Products | Lead X-Ray Shielding Equipment",
+          "link": "https://barriertechnologies.com/",
+          "snippet": "Industry leading manufacturer of Radiation Protection Products Our high quality USA manufactured radiation shielding products include our lightweight xray aprons, thyroid collar, leaded eyewear, radia",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Radiation Protection and Measurement - Thermo Fisher Scientific",
+          "link": "https://www.thermofisher.com/us/en/home/industrial/radiation-detection-measurement.html",
+          "snippet": "Our product portfolio of radiation detectors, radiation monitoring devices, and radiation measurement instruments provide comprehensive, real-time monitoring, early warning, and complete dose and expo",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Radiation shielding products - A&L Shielding",
+          "link": "https://alshielding.com/",
+          "snippet": "A&L Shielding has been the benchmark for radiation protection since 1958. We build quality products to custom suit your project when time matters the most.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Radiation Shielding | X-Ray Shielding | Radiation Protection",
+          "link": "https://www.radiationproducts.com/catalog-brochures",
+          "snippet": "Download full catalogs and brochures for radiation shielding products including lead lined glass, lead lined doors, lead bricks, lead lined sheetrock, and more. Contact Radiation Protection Products f",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Radiation Protection Market Size to Surpass USD 3.33 Bn by 2035",
+          "link": "https://www.precedenceresearch.com/radiation-protection-market",
+          "snippet": "The global radiation protection market size is predicted to surpass around USD 3.33 billion by 2035 from USD 2.09 billion in 2025, with a CAGR of 4.77%.Regional Insights. Radiation Protection Market C",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Radiation Protection Market Companies",
+          "link": "https://www.coherentmarketinsights.com/industry-reports/radiation-protection-market/companies",
+          "snippet": "2024 and 2031 Radiation Protection Market Companies Report includes a Forecast to 2031 and Historical Overview.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Radiation Protection Products. Radiation Shield by StemRad",
+          "link": "https://stemrad.com/",
+          "snippet": "Radiation protection products by StemRad. Protecting firefighters, military, medical crews, astronauts and civilians from Radiation.Radiation Protection. Company News.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Radiation Protection Market to hit 1,792.7 million dollars by 2031...",
+          "link": "https://asean.einnews.com/pr_news/719687122/radiation-protection-market-to-hit-1-792-7-million-dollars-by-2031-coherent-market-insights",
+          "snippet": "Key Market Takeaways: The global radiation protection market is anticipated to witness a CAGR of 4.8% during the forecast period 2024-2031, owing to the rising cancer incidence and increasing installa",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Home - Rampart",
+          "link": "https://rampart.com/",
+          "snippet": "Important Risk Information: Rampart products may only offer radiation protection when used properly, in accordance with each product IFU. Users should ensure they comply with all applicable laws and r",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Kennedy Radiology",
+          "link": "https://www.kennedyradiology.us/",
+          "snippet": "Kennedy Radiology leads the industry with a comprehensive range of meticulously designed, lightweight radiation protection solutions trusted by healthcare professionals worldwide. Our products are rig",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L1": {
+      "query": "Radiation protection distributors corporate sites",
+      "level": "L1",
+      "result_count": 6,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Radiation Protection Products | Lead X-Ray Shielding Equipment",
+          "link": "https://barriertechnologies.com/",
+          "snippet": "Barrier Technologies\u00ae is America\u2019s leading manufacturer of radiation protection products. We are committed to continual innovation and serving the medical industry by producing superior radiation shie",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Radiation Protection Distributor: Trusted Suppliers for Safety",
+          "link": "https://www.accio.com/supplier/radiation-protection-distributor",
+          "snippet": "Jul 14, 2026 \u00b7 Need reliable radiation protection distributor solutions? Discover top-rated suppliers offering EMF, RF, and nuclear shielding products. Click to find certified partners with fast deliv",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "radiation protection Distributor | B2B companies and ...",
+          "link": "https://www.europages.co.uk/companies/distributor/radiation+protection.html",
+          "snippet": "We are a modern company operating since 2024, yet our experience in the field of radiological protection spans over 10 years. We specialize in providing advanced and reliable solutions that ensure...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Radiation Protection Products & Apparel | MXR Imaging",
+          "link": "https://mxrimaging.com/radiation-protection/",
+          "snippet": "MXR Imaging offers a complete selection of radiation safety apparel and accessories from leading manufacturers, with styles, fits, and options to support your staff and patients.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "SDEC France \u2013 Expertise and innovation for a protected environment",
+          "link": "https://en.sdec-france.com/",
+          "snippet": "SDEC France, a leader in environmental and scientific solutions for radiation protection in over 7 countries. Our carefully selected distribution partners, covering Europe, America, Africa, and Asia, ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Kiran X-Ray | Manufacturer of Aprons, X-ray, C-Arm, Cassette, Screen...",
+          "link": "https://www.kiranxray.com/",
+          "snippet": "KIRAN - Manufacturer and Exporter of image enhancement accessories and Radiation Protection Apparel and X-Ray & C-Arm Solutions. Exporting to 160 countries and counting.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Radiation Protection Products | Lead X-Ray Shielding Equipment",
+          "link": "https://barriertechnologies.com/",
+          "snippet": "Barrier Technologies\u00ae is America\u2019s leading manufacturer of radiation protection products. We are committed to continual innovation and serving the medical industry by producing superior radiation shie",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Radiation Protection Distributor: Trusted Suppliers for Safety",
+          "link": "https://www.accio.com/supplier/radiation-protection-distributor",
+          "snippet": "Jul 14, 2026 \u00b7 Need reliable radiation protection distributor solutions? Discover top-rated suppliers offering EMF, RF, and nuclear shielding products. Click to find certified partners with fast deliv",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "radiation protection Distributor | B2B companies and ...",
+          "link": "https://www.europages.co.uk/companies/distributor/radiation+protection.html",
+          "snippet": "We are a modern company operating since 2024, yet our experience in the field of radiological protection spans over 10 years. We specialize in providing advanced and reliable solutions that ensure...",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Radiation Protection Products & Apparel | MXR Imaging",
+          "link": "https://mxrimaging.com/radiation-protection/",
+          "snippet": "MXR Imaging offers a complete selection of radiation safety apparel and accessories from leading manufacturers, with styles, fits, and options to support your staff and patients.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "SDEC France \u2013 Expertise and innovation for a protected environment",
+          "link": "https://en.sdec-france.com/",
+          "snippet": "SDEC France, a leader in environmental and scientific solutions for radiation protection in over 7 countries. Our carefully selected distribution partners, covering Europe, America, Africa, and Asia, ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Kiran X-Ray | Manufacturer of Aprons, X-ray, C-Arm, Cassette, Screen...",
+          "link": "https://www.kiranxray.com/",
+          "snippet": "KIRAN - Manufacturer and Exporter of image enhancement accessories and Radiation Protection Apparel and X-Ray & C-Arm Solutions. Exporting to 160 countries and counting.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "L2": {
+      "query": "Radiation safety equipment resellers official site",
+      "level": "L2",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Radiation Protection of Patients (RPOP) | IAEA",
+          "link": "https://www.iaea.org/resources/rpop",
+          "snippet": "Nuclear installation safety. Radiation protection. Security of nuclear and other radioactive material.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Radiation Protection of Patients (RPOP) | IAEA",
+          "link": "https://www.iaea.org/resources/rpop",
+          "snippet": "Nuclear installation safety. Radiation protection. Security of nuclear and other radioactive material.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P1": {
+      "query": "radiation protection product distributors official site",
+      "level": "discovery",
+      "result_count": 9,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Radiation Protection Products. Radiation Shield by StemRad",
+          "link": "https://stemrad.com/",
+          "snippet": "Radiation protection products by StemRad. Protecting firefighters, military, medical crews, astronauts and civilians from Radiation.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Radiation Protection Products | Radiation Shielding Lead",
+          "link": "https://www.radiationproducts.com/",
+          "snippet": "Radiation Protection Products is a leading supplier of lead-lined products for protective construction and other radiation-shielding industrial applications.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Radiation Shielding | X-Ray Shielding | Radiation Protection",
+          "link": "https://www.radiationproducts.com/catalog-brochures",
+          "snippet": "Download full catalogs and brochures for radiation shielding products including lead lined glass, lead lined doors, lead bricks, lead lined sheetrock, and more. Contact Radiation Protection Products f",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Radiation Protection Products | Lead X-Ray Shielding Equipment",
+          "link": "https://barriertechnologies.com/",
+          "snippet": "Industry leading manufacturer of Radiation Protection Products Our high quality USA manufactured radiation shielding products include our lightweight xray aprons, thyroid collar, leaded eyewear, radia",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "MAVIG - X-Ray Protection and Medical Suspension Systems",
+          "link": "https://mavig.com/",
+          "snippet": "MAVIG is a worldwide leading manufacturer and developer in the field of radiation protection and medical suspension systems for hospitals and medical practices. The product portfolio includes scatter ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ultraray Radiation Protection | Custom Lead Shielding Products",
+          "link": "https://ultraray.com/",
+          "snippet": "Ultraray Radiation Protection is a world leader in the design, manufacture, and installation of lead Radiation Protection materials, shielding products, technology and equipment. Our in-house experts ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Radiation Protection Products for Safety | Protech Medical",
+          "link": "https://protechmed.com/product-category/radiation-protection/",
+          "snippet": "Explore Protech Medical's range of custom radiation protection products including lead aprons, gloves, and barriers designed for optimal safety and comfort.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Amerope Enterpirses Inc. | Radiation Shielding Lead Glass Supplier",
+          "link": "https://www.amerope.com/",
+          "snippet": "AMEROPE ENTERPRISES North America's largest distributor of lead glass for radiation protection ABOUT US A multi-generation family owned and operated business for over 50 years. Always on the \"cutting ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cell Phone EMF Radiation Protection | Radiation Protector or Shield",
+          "link": "https://emfshieldprotect.com/shop/product/quanthor-emr-emf-radiation-protection-shield-cell",
+          "snippet": "QuanThor is an EMR/EMF radiation protection device or radiation shield - cell phone, TV, tablet, WI-FI. EMF and RF exposure affects sleep qua.QuanThor on Amazon ES. If you are interested in distributi",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Radiation Protection Products. Radiation Shield by StemRad",
+          "link": "https://stemrad.com/",
+          "snippet": "Radiation protection products by StemRad. Protecting firefighters, military, medical crews, astronauts and civilians from Radiation.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Radiation Protection Products | Radiation Shielding Lead",
+          "link": "https://www.radiationproducts.com/",
+          "snippet": "Radiation Protection Products is a leading supplier of lead-lined products for protective construction and other radiation-shielding industrial applications.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Radiation Shielding | X-Ray Shielding | Radiation Protection",
+          "link": "https://www.radiationproducts.com/catalog-brochures",
+          "snippet": "Download full catalogs and brochures for radiation shielding products including lead lined glass, lead lined doors, lead bricks, lead lined sheetrock, and more. Contact Radiation Protection Products f",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Radiation Protection Products | Lead X-Ray Shielding Equipment",
+          "link": "https://barriertechnologies.com/",
+          "snippet": "Industry leading manufacturer of Radiation Protection Products Our high quality USA manufactured radiation shielding products include our lightweight xray aprons, thyroid collar, leaded eyewear, radia",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "MAVIG - X-Ray Protection and Medical Suspension Systems",
+          "link": "https://mavig.com/",
+          "snippet": "MAVIG is a worldwide leading manufacturer and developer in the field of radiation protection and medical suspension systems for hospitals and medical practices. The product portfolio includes scatter ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Ultraray Radiation Protection | Custom Lead Shielding Products",
+          "link": "https://ultraray.com/",
+          "snippet": "Ultraray Radiation Protection is a world leader in the design, manufacture, and installation of lead Radiation Protection materials, shielding products, technology and equipment. Our in-house experts ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Radiation Protection Products for Safety | Protech Medical",
+          "link": "https://protechmed.com/product-category/radiation-protection/",
+          "snippet": "Explore Protech Medical's range of custom radiation protection products including lead aprons, gloves, and barriers designed for optimal safety and comfort.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Amerope Enterpirses Inc. | Radiation Shielding Lead Glass Supplier",
+          "link": "https://www.amerope.com/",
+          "snippet": "AMEROPE ENTERPRISES North America's largest distributor of lead glass for radiation protection ABOUT US A multi-generation family owned and operated business for over 50 years. Always on the \"cutting ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cell Phone EMF Radiation Protection | Radiation Protector or Shield",
+          "link": "https://emfshieldprotect.com/shop/product/quanthor-emr-emf-radiation-protection-shield-cell",
+          "snippet": "QuanThor is an EMR/EMF radiation protection device or radiation shield - cell phone, TV, tablet, WI-FI. EMF and RF exposure affects sleep qua.QuanThor on Amazon ES. If you are interested in distributi",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P2": {
+      "query": "wholesale radiation safety equipment corporate headquarters",
+      "level": "discovery",
+      "result_count": 3,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Radiation Protection of Patients (RPOP) | IAEA",
+          "link": "https://www.iaea.org/resources/rpop",
+          "snippet": "Nuclear installation safety. Radiation protection. Security of nuclear and other radioactive material.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Radiation Protection, Wholesale... | Made-in-China.com",
+          "link": "https://www.made-in-china.com/products-search/hot-china-products/Wholesale_Radiation_Protection.html",
+          "snippet": "Wholesale Radiation Protection. products found from trusted manufacturers & suppliers.Pattern: Plain. Radiation Resistant Material: Polyester+Copper+Nickel. Usage: Agriculture, Auto, Bags, Garment, Ho",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Radiation Protection Gloves - AliExpress",
+          "link": "https://www.aliexpress.us/w/wholesale-radiation-protection-gloves.html",
+          "snippet": "Explore top radiation protection gloves on AliExpress, heat-resistant, fireproof, ensuring safety against hazardous radiation. Order now and get ready to make a splash!",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Radiation Protection of Patients (RPOP) | IAEA",
+          "link": "https://www.iaea.org/resources/rpop",
+          "snippet": "Nuclear installation safety. Radiation protection. Security of nuclear and other radioactive material.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Wholesale Radiation Protection, Wholesale... | Made-in-China.com",
+          "link": "https://www.made-in-china.com/products-search/hot-china-products/Wholesale_Radiation_Protection.html",
+          "snippet": "Wholesale Radiation Protection. products found from trusted manufacturers & suppliers.Pattern: Plain. Radiation Resistant Material: Polyester+Copper+Nickel. Usage: Agriculture, Auto, Bags, Garment, Ho",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Radiation Protection Gloves - AliExpress",
+          "link": "https://www.aliexpress.us/w/wholesale-radiation-protection-gloves.html",
+          "snippet": "Explore top radiation protection gloves on AliExpress, heat-resistant, fireproof, ensuring safety against hazardous radiation. Order now and get ready to make a splash!",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P3": {
+      "query": "radiation protection equipment resellers corporate site",
+      "level": "discovery",
+      "result_count": 3,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Radiation Protection of Patients (RPOP) | IAEA",
+          "link": "https://www.iaea.org/resources/rpop",
+          "snippet": "Radiation protection. Security of nuclear and other radioactive material. Radioactive waste and spent fuel management.NUCLEUS information resources. Radiation Protection of Patients.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nuclear medicine: radiation protection equipment - Lemer Pax",
+          "link": "https://www.linkedin.com/posts/pierre-marie-lemer-a66bb820_nuclear-medicine-radiation-protection-equipment-activity-7097585996451438593-hXgy",
+          "snippet": "An opportunity for the sales teams to present the entire nuclear medicine catalog to Heithem Bargaoui (HTDS) and Ridha Oueriemmi (IGE) and our latest innovative solutions in terms of radiation protect",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Kiran X-Ray | Manufacturer of Aprons, X-ray, C-Arm, Cassette, Screen...",
+          "link": "https://www.kiranxray.com/",
+          "snippet": "Radiation Protection. Reimagined. Engineered for safety, comfort, and performance with advanced materials, ergonomic design, and complete customization.Kiran excels in crafting top-tier radiology equi",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Radiation Protection of Patients (RPOP) | IAEA",
+          "link": "https://www.iaea.org/resources/rpop",
+          "snippet": "Radiation protection. Security of nuclear and other radioactive material. Radioactive waste and spent fuel management.NUCLEUS information resources. Radiation Protection of Patients.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nuclear medicine: radiation protection equipment - Lemer Pax",
+          "link": "https://www.linkedin.com/posts/pierre-marie-lemer-a66bb820_nuclear-medicine-radiation-protection-equipment-activity-7097585996451438593-hXgy",
+          "snippet": "An opportunity for the sales teams to present the entire nuclear medicine catalog to Heithem Bargaoui (HTDS) and Ridha Oueriemmi (IGE) and our latest innovative solutions in terms of radiation protect",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Kiran X-Ray | Manufacturer of Aprons, X-ray, C-Arm, Cassette, Screen...",
+          "link": "https://www.kiranxray.com/",
+          "snippet": "Radiation Protection. Reimagined. Engineered for safety, comfort, and performance with advanced materials, ergonomic design, and complete customization.Kiran excels in crafting top-tier radiology equi",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P4": {
+      "query": "buy radiation safety products online",
+      "level": "discovery",
+      "result_count": 3,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Radiation Protection Products | Lead X-Ray Shielding Equipment",
+          "link": "https://barriertechnologies.com/",
+          "snippet": "Radiation Protection Products Made in USA. From lead shields to protective eyewear, Barrier Technologies is your one-stop-shop for all things radiation shielding. Our catalog includes everything neces",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy radiation plate, Good quality radiation plate manufacturer",
+          "link": "https://www.rayshielding.com/buy-radiation-plate.html",
+          "snippet": "I'm Online Chat Now. radiation plate online manufacture. (320). buy 22mm Lead Sheeting For Radiation Protection CE ISO Certificate Approved online manufacturer.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy radiation protection glasses, Good quality radiation protection...",
+          "link": "https://www.dental-xraytube.com/buy-radiation-protection-glasses.html",
+          "snippet": "X-ray Protection Lead Goggle for protecting the eyes SRG01 Description: The standard radiation protective lead goggle can be used to offer protection for the eyes of radiation operator who worked in t",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Radiation Protection Products | Lead X-Ray Shielding Equipment",
+          "link": "https://barriertechnologies.com/",
+          "snippet": "Radiation Protection Products Made in USA. From lead shields to protective eyewear, Barrier Technologies is your one-stop-shop for all things radiation shielding. Our catalog includes everything neces",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy radiation plate, Good quality radiation plate manufacturer",
+          "link": "https://www.rayshielding.com/buy-radiation-plate.html",
+          "snippet": "I'm Online Chat Now. radiation plate online manufacture. (320). buy 22mm Lead Sheeting For Radiation Protection CE ISO Certificate Approved online manufacturer.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Buy radiation protection glasses, Good quality radiation protection...",
+          "link": "https://www.dental-xraytube.com/buy-radiation-protection-glasses.html",
+          "snippet": "X-ray Protection Lead Goggle for protecting the eyes SRG01 Description: The standard radiation protective lead goggle can be used to offer protection for the eyes of radiation operator who worked in t",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P5": {
+      "query": "radiation protection system integrators official website",
+      "level": "discovery",
+      "result_count": 1,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Radiation Protection of Patients (RPOP) | IAEA",
+          "link": "https://www.iaea.org/resources/rpop",
+          "snippet": "Official documents.NUCLEUS information resources. Radiation Protection of Patients.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Radiation Protection of Patients (RPOP) | IAEA",
+          "link": "https://www.iaea.org/resources/rpop",
+          "snippet": "Official documents.NUCLEUS information resources. Radiation Protection of Patients.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P6": {
+      "query": "integrated radiation safety solutions corporate profile",
+      "level": "discovery",
+      "result_count": 6,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Home - Radiation Safety & Control Services",
+          "link": "https://www.radsafety.com/",
+          "snippet": "Integrated Radiation Safety Programs: Why Managing Services Together Improves Compliance. Read More. Sep.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Europe Medical Radiation Detection, Monitoring and Safety Market",
+          "link": "https://www.credenceresearch.com/report/europe-medical-radiation-detection-monitoring-and-safety-market",
+          "snippet": "The demand for hybrid radiation safety solutions that combine detection, monitoring, and protection capabilities into a single system is growing. These comprehensive solutions streamline radiation saf",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Radiation Safety Solutions Provider in Australia",
+          "link": "https://radtronics.com.au/about-us/",
+          "snippet": "Leaders in Radiation Safety Solutions. Radtronics specialises in the commercialisation and precise calibration of radiation instruments, catering to various sectors including safety, science, nuclear ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nuctech Official Site",
+          "link": "https://www.nuctech.com/?lang=en_US",
+          "snippet": "Corporate Culture. Careers. News. Videos Center. Nuctech Company Limited, originating out of Tsinghua University, Beijing, is a security inspection product manufacturer and security solutions supplier",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "RADIOPROTECTION | aros",
+          "link": "https://www.arosmedical.com/commissioning",
+          "snippet": "AROS Integrated Radiation Safety Solutions keep your employees safe and your equipment requirements up-to-date. AROS offers a cost-effective radioprotection solutions customized to your success.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Landauer Announces Sole Source Agreement With Premier... - BioSpace",
+          "link": "https://www.biospace.com/landauer-announces-sole-source-agreement-with-b-premier-healthcare-for-comprehensive-radiation-safety-solution-b",
+          "snippet": "The agreement allows Premier members to benefit from a full breadth of radiation safety oversight and quality assurance solutions at specially negotiated pricing and terms.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Home - Radiation Safety & Control Services",
+          "link": "https://www.radsafety.com/",
+          "snippet": "Integrated Radiation Safety Programs: Why Managing Services Together Improves Compliance. Read More. Sep.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Europe Medical Radiation Detection, Monitoring and Safety Market",
+          "link": "https://www.credenceresearch.com/report/europe-medical-radiation-detection-monitoring-and-safety-market",
+          "snippet": "The demand for hybrid radiation safety solutions that combine detection, monitoring, and protection capabilities into a single system is growing. These comprehensive solutions streamline radiation saf",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Top Radiation Safety Solutions Provider in Australia",
+          "link": "https://radtronics.com.au/about-us/",
+          "snippet": "Leaders in Radiation Safety Solutions. Radtronics specialises in the commercialisation and precise calibration of radiation instruments, catering to various sectors including safety, science, nuclear ",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Nuctech Official Site",
+          "link": "https://www.nuctech.com/?lang=en_US",
+          "snippet": "Corporate Culture. Careers. News. Videos Center. Nuctech Company Limited, originating out of Tsinghua University, Beijing, is a security inspection product manufacturer and security solutions supplier",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "RADIOPROTECTION | aros",
+          "link": "https://www.arosmedical.com/commissioning",
+          "snippet": "AROS Integrated Radiation Safety Solutions keep your employees safe and your equipment requirements up-to-date. AROS offers a cost-effective radioprotection solutions customized to your success.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Landauer Announces Sole Source Agreement With Premier... - BioSpace",
+          "link": "https://www.biospace.com/landauer-announces-sole-source-agreement-with-b-premier-healthcare-for-comprehensive-radiation-safety-solution-b",
+          "snippet": "The agreement allows Premier members to benefit from a full breadth of radiation safety oversight and quality assurance solutions at specially negotiated pricing and terms.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    },
+    "P7": {
+      "query": "radiation safety consulting services official site",
+      "level": "discovery",
+      "result_count": 3,
+      "results_target": 28,
+      "backends": [
+        "ddgs_bing"
+      ],
+      "results": [
+        {
+          "title": "Diagnostic Imaging Physics Consulting & Radiation Safety Services",
+          "link": "https://www.diagnosticradphys.com/",
+          "snippet": "Radiation Safety Consulting. Practical guidance on regulatory requirements, radiation protection practices, and program improvements that reduce risk and support safe operations.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Homepage | Radiation Protection, NDT & Calibration Specialists - HTSL",
+          "link": "https://htsl.co.uk/",
+          "snippet": "Radiation Safety Consulting. Expert Guidance. Professional radiation safety consulting and risk assessment services for all sectors.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cognitive Metrics LLC \u2013 A company leading the future of health through...",
+          "link": "https://cognitivemetrics.net/",
+          "snippet": "Radiation Safety Consulting: Our services ensure employee safety and regulatory compliance through risk assessments, safety training, and radiation protection programs.",
+          "backend": "ddgs_bing"
+        }
+      ],
+      "sample": [
+        {
+          "title": "Diagnostic Imaging Physics Consulting & Radiation Safety Services",
+          "link": "https://www.diagnosticradphys.com/",
+          "snippet": "Radiation Safety Consulting. Practical guidance on regulatory requirements, radiation protection practices, and program improvements that reduce risk and support safe operations.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Homepage | Radiation Protection, NDT & Calibration Specialists - HTSL",
+          "link": "https://htsl.co.uk/",
+          "snippet": "Radiation Safety Consulting. Expert Guidance. Professional radiation safety consulting and risk assessment services for all sectors.",
+          "backend": "ddgs_bing"
+        },
+        {
+          "title": "Cognitive Metrics LLC \u2013 A company leading the future of health through...",
+          "link": "https://cognitivemetrics.net/",
+          "snippet": "Radiation Safety Consulting: Our services ensure employee safety and regulatory compliance through risk assessments, safety training, and radiation protection programs.",
+          "backend": "ddgs_bing"
+        }
+      ]
+    }
+  },
+  "export_column_spec": {
+    "company_list": [
+      "display_name",
+      "parent_group",
+      "primary_domain",
+      "company_type",
+      "tier",
+      "score",
+      "inclusion_reason",
+      "inclusion_sources",
+      "funnel_levels_seen",
+      "evidence_urls",
+      "company_description"
+    ],
+    "parent_group_list": [
+      "parent_name",
+      "brands_in_company_list",
+      "listing_mode"
+    ],
+    "suppressed_brands": [
+      "name",
+      "reason"
+    ],
+    "run_summary": [
+      "run_id",
+      "query",
+      "interpretation_summary",
+      "company_count",
+      "mock_mode",
+      "search_primary",
+      "funnel_levels"
+    ]
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ],
+  "searxng_active_url": "http://127.0.0.1:8080",
+  "duckduckgo_package": "ddgs(backend=bing,duckduckgo,brave,yandex,google)"
+}

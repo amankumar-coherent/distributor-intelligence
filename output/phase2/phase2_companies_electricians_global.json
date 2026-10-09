@@ -1,0 +1,1143 @@
+{
+  "phase": 2,
+  "phase2_mode": "fast",
+  "query": "Electricians Market",
+  "mock_mode": false,
+  "completed_at": "2026-07-24T08:26:01.656813+00:00",
+  "scope": {
+    "market": "electricians",
+    "geographies": [
+      "global"
+    ],
+    "geography": "global",
+    "company_type": "distributor",
+    "industry_vertical": "electrical distribution",
+    "industry_terms": [
+      "electrical distribution",
+      "system integration",
+      "electrical components",
+      "lighting solutions",
+      "automation systems"
+    ],
+    "ecosystem_functions": [
+      "distributing electrical products",
+      "reselling electrical components",
+      "integrating electrical systems",
+      "providing installation services",
+      "offering maintenance services",
+      "acting as channel partners",
+      "wholesaling electrical supplies",
+      "facilitating system integration"
+    ],
+    "interpretation_summary": "The electricians market encompasses the distribution and sale of electrical products and services, including installation and maintenance. Participants include distributors, wholesalers, resellers, system integrators, se",
+    "relevance_keywords": [
+      "electrical distribution network",
+      "automation system integrator",
+      "electrical service solutions",
+      "wholesale electrical distributor",
+      "reseller of electrical components"
+    ],
+    "negative_keywords": [
+      "construction",
+      "manufacturing",
+      "retail",
+      "consulting",
+      "job postings"
+    ],
+    "seed_companies": [
+      {
+        "canonical_name": "Graybar",
+        "primary_domain": "graybar.com",
+        "company_function": "electrical distributor"
+      },
+      {
+        "canonical_name": "Rexel",
+        "primary_domain": "rexel.com",
+        "company_function": "electrical wholesaler"
+      },
+      {
+        "canonical_name": "WESCO International",
+        "primary_domain": "wesco.com",
+        "company_function": "electrical distributor"
+      },
+      {
+        "canonical_name": "Anixter",
+        "primary_domain": "anixter.com",
+        "company_function": "distributor and reseller"
+      },
+      {
+        "canonical_name": "Sonepar",
+        "primary_domain": "sonepar.com",
+        "company_function": "electrical distributor"
+      },
+      {
+        "canonical_name": "Schneider Electric",
+        "primary_domain": "schneider-electric.com",
+        "company_function": "system integrator and service provider"
+      },
+      {
+        "canonical_name": "Siemens",
+        "primary_domain": "siemens.com",
+        "company_function": "system integrator"
+      },
+      {
+        "canonical_name": "Honeywell",
+        "primary_domain": "honeywell.com",
+        "company_function": "service provider and system integrator"
+      },
+      {
+        "canonical_name": "Eaton",
+        "primary_domain": "eaton.com",
+        "company_function": "service provider and system integrator"
+      },
+      {
+        "canonical_name": "ABB",
+        "primary_domain": "abb.com",
+        "company_function": "system integrator and service provider"
+      }
+    ],
+    "search_topic": "electricians",
+    "funnel_enabled": true,
+    "query_parsed": true,
+    "scope_source": "llm",
+    "intent": "market_map",
+    "product_category": "electricians",
+    "include_keywords": [
+      "electrical distributor",
+      "wholesale electrical supplies",
+      "reseller of electrical products",
+      "system integration services",
+      "electrical service provider"
+    ],
+    "exclude_keywords": [
+      "news",
+      "blogs",
+      "directories",
+      "market reports",
+      "job boards",
+      "consultants"
+    ],
+    "scope_version": 2,
+    "market_definition": "The electricians market encompasses the distribution and sale of electrical products and services, including installation and maintenance. Participants include distributors, wholesalers, resellers, system integrators, service providers, and channel partners operating globally.",
+    "value_chain_layers": [
+      {
+        "layer_id": "L1",
+        "layer_name": "Distribution",
+        "description": "This layer involves the distribution of electrical products through various channels.",
+        "segments": [
+          {
+            "segment_name": "Distributors",
+            "sub_segments": [
+              "Electrical component distributors",
+              "Lighting distributors"
+            ],
+            "participant_types": [
+              "distributor",
+              "wholesaler"
+            ],
+            "search_intents": [
+              "official electrical product distributor websites",
+              "electrical component wholesaler company sites"
+            ]
+          },
+          {
+            "segment_name": "Resellers",
+            "sub_segments": [
+              "Online resellers",
+              "Local resellers"
+            ],
+            "participant_types": [
+              "reseller"
+            ],
+            "search_intents": [
+              "electrical product reseller official sites",
+              "local electrical resellers websites"
+            ]
+          }
+        ]
+      },
+      {
+        "layer_id": "L2",
+        "layer_name": "Integration Services",
+        "description": "This layer includes companies that integrate electrical systems and provide related services.",
+        "segments": [
+          {
+            "segment_name": "System Integrators",
+            "sub_segments": [
+              "Building automation integrators",
+              "Industrial automation integrators"
+            ],
+            "participant_types": [
+              "system integrator"
+            ],
+            "search_intents": [
+              "building automation system integrator websites",
+              "industrial automation integrators company sites"
+            ]
+          },
+          {
+            "segment_name": "Service Providers",
+            "sub_segments": [
+              "Electrical maintenance services",
+              "Installation services"
+            ],
+            "participant_types": [
+              "service provider"
+            ],
+            "search_intents": [
+              "electrical maintenance service providers",
+              "installation service providers for electrical systems"
+            ]
+          }
+        ]
+      }
+    ],
+    "market_boundary": {
+      "in_scope": [
+        "Distributors",
+        "Wholesalers",
+        "Resellers",
+        "System Integrators",
+        "Service Providers",
+        "Channel Partners"
+      ],
+      "out_of_scope": [
+        "Manufacturers",
+        "Retailers",
+        "Contractors",
+        "Consultants"
+      ]
+    },
+    "market_map_prompts": [
+      {
+        "id": "M1",
+        "level": "market_map",
+        "text": "search for official electrical product distributor websites",
+        "sub_sector": "electrical_distribution",
+        "layer_id": "L1",
+        "segment": "Distributors"
+      },
+      {
+        "id": "M2",
+        "level": "market_map",
+        "text": "find local electrical resellers websites",
+        "sub_sector": "electrical_reseller",
+        "layer_id": "L1",
+        "segment": "Resellers"
+      },
+      {
+        "id": "M3",
+        "level": "market_map",
+        "text": "search for building automation system integrator websites",
+        "sub_sector": "system_integration",
+        "layer_id": "L2",
+        "segment": "System Integrators"
+      },
+      {
+        "id": "M4",
+        "level": "market_map",
+        "text": "find electrical maintenance service providers",
+        "sub_sector": "service_provider",
+        "layer_id": "L2",
+        "segment": "Service Providers"
+      }
+    ],
+    "market_map_source": "llm"
+  },
+  "phase1_plan_path": "D:\\vendor-intel\\output\\phase1\\phase1_plan_electricians_global.json",
+  "companies": [
+    {
+      "name": "Rexelusa",
+      "domain": "rexelusa.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Eaton",
+      "domain": "eaton.com",
+      "discovery_source": "ddgs_bing+ddgs_yandex+registry",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Electriciansforums",
+      "domain": "electriciansforums.net",
+      "discovery_source": "ddgs_bing+ddgs_yandex",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Rexel",
+      "domain": "rexel.com",
+      "discovery_source": "ddgs_bing+ddgs_yandex+registry",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Lumens",
+      "domain": "lumens.com",
+      "discovery_source": "searxng",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Ptservice",
+      "domain": "ptservice.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Anixter",
+      "domain": "anixter.com",
+      "discovery_source": "registry",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Arrow",
+      "domain": "arrow.com",
+      "discovery_source": "ddgs_bing+ddgs_yandex",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Elektrik",
+      "domain": "elektrik.center",
+      "discovery_source": "ddgs_bing+ddgs_yandex",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Graybar",
+      "domain": "graybar.com",
+      "discovery_source": "registry",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Honeywell",
+      "domain": "honeywell.com",
+      "discovery_source": "registry",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Schneider Electric",
+      "domain": "schneider-electric.com",
+      "discovery_source": "registry",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Siemens",
+      "domain": "siemens.com",
+      "discovery_source": "registry",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Sonepar",
+      "domain": "sonepar.com",
+      "discovery_source": "registry",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Transicon",
+      "domain": "transicon.co.uk",
+      "discovery_source": "ddgs_bing",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Wesco",
+      "domain": "wesco.com",
+      "discovery_source": "search",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Airtame",
+      "domain": "airtame.com",
+      "discovery_source": "ddgs_bing+ddgs_yandex",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Electrical4u",
+      "domain": "electrical4u.com",
+      "discovery_source": "searxng",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Erco",
+      "domain": "erco.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Fergusonhome",
+      "domain": "fergusonhome.com",
+      "discovery_source": "searxng",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Intra Lighting",
+      "domain": "intra-lighting.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Jpr Electrical",
+      "domain": "jpr-electrical.co.uk",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Kichler",
+      "domain": "kichler.com",
+      "discovery_source": "searxng",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Lampsplus",
+      "domain": "lampsplus.com",
+      "discovery_source": "searxng",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Lighting",
+      "domain": "lighting.philips.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Lightology",
+      "domain": "lightology.com",
+      "discovery_source": "searxng",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Seilink",
+      "domain": "seilink.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Sellerselectric",
+      "domain": "sellerselectric.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Shadesoflight",
+      "domain": "shadesoflight.com",
+      "discovery_source": "searxng",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Sounddevices",
+      "domain": "sounddevices.com",
+      "discovery_source": "ddgs_bing+ddgs_yandex",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Suianele",
+      "domain": "suianele.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Urbancompany",
+      "domain": "urbancompany.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "ABB Group",
+      "domain": "abb.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Alphaomegaelectric",
+      "domain": "alphaomegaelectric.org",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Amgen",
+      "domain": "amgen.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Androidwintool",
+      "domain": "androidwintool.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Apeasternpower",
+      "domain": "apeasternpower.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Apple",
+      "domain": "apple.com",
+      "discovery_source": "searxng",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Aputure",
+      "domain": "aputure.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Azul",
+      "domain": "azul.com",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Basammy",
+      "domain": "basammy.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Bega",
+      "domain": "bega.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Bigeasyelectricians",
+      "domain": "bigeasyelectricians.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Biotech Today",
+      "domain": "biotech-today.com",
+      "discovery_source": "searxng",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Biotechtv",
+      "domain": "biotechtv.com",
+      "discovery_source": "searxng",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Borneoseller",
+      "domain": "borneoseller.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "contract_manufacturer"
+    },
+    {
+      "name": "Brandonelectricinc",
+      "domain": "brandonelectricinc.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Bsiddc",
+      "domain": "bsiddc.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Btelectrics",
+      "domain": "btelectrics.com.au",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Califelectrical",
+      "domain": "califelectrical.in",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Canto",
+      "domain": "canto.com",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Centersvet",
+      "domain": "centersvet.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Checkertr",
+      "domain": "checkertr.com",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Chintglobal",
+      "domain": "chintglobal.com",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Colorsled",
+      "domain": "colorsled.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Connect",
+      "domain": "connect.redhat.com",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Contractorbear",
+      "domain": "contractorbear.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Dazzlehomes",
+      "domain": "dazzlehomes.in",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Deako",
+      "domain": "deako.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Difvan",
+      "domain": "difvan.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "oem_manufacturer"
+    },
+    {
+      "name": "Dkelectricalsolutions",
+      "domain": "dkelectricalsolutions.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Dvm Systems",
+      "domain": "dvm-systems.com",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "distributor"
+    },
+    {
+      "name": "E Elektrik",
+      "domain": "e-elektrik.pl",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Earu Electric",
+      "domain": "earu-electric.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Ebay",
+      "domain": "ebay.co.uk",
+      "discovery_source": "ddgs_bing",
+      "company_function": "contract_manufacturer"
+    },
+    {
+      "name": "Eglo",
+      "domain": "eglo.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Electrical2go",
+      "domain": "electrical2go.co.uk",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Electricalmarketers",
+      "domain": "electricalmarketers.co.uk",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Electricalsafetyfirst",
+      "domain": "electricalsafetyfirst.org.uk",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Electricaltechnology",
+      "domain": "electricaltechnology.org",
+      "discovery_source": "searxng",
+      "company_function": "contract_manufacturer"
+    },
+    {
+      "name": "Electrician Marketing Agency",
+      "domain": "electricianmarketingagency.io",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Electricianinthisarea",
+      "domain": "electricianinthisarea.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Electriciannyc",
+      "domain": "electriciannyc.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Electricplus",
+      "domain": "electricplus.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Elevatedelectrical",
+      "domain": "elevatedelectrical.com.au",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Ensto",
+      "domain": "ensto.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Eu Japan",
+      "domain": "eu-japan.eu",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Exceldirect",
+      "domain": "exceldirect.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Findagrave",
+      "domain": "findagrave.com",
+      "discovery_source": "searxng",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Fisherelectricinc",
+      "domain": "fisherelectricinc.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Forinsightsconsultancy",
+      "domain": "forinsightsconsultancy.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Globaltradeplaza",
+      "domain": "globaltradeplaza.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Growjo",
+      "domain": "growjo.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Gsmnigeria",
+      "domain": "gsmnigeria.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Gtme",
+      "domain": "gtme.business",
+      "discovery_source": "ddgs_bing",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Hagergroup",
+      "domain": "hagergroup.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Highperformr",
+      "domain": "highperformr.ai",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Hunter",
+      "domain": "hunter.global",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Icloud",
+      "domain": "icloud.com",
+      "discovery_source": "searxng",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Idealelectricalinc",
+      "domain": "idealelectricalinc.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Ies Corporate",
+      "domain": "ies-corporate.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Indeed",
+      "domain": "indeed.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Industrialedge",
+      "domain": "industrialedge.net",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Instagantt",
+      "domain": "instagantt.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Jacksonelectriclv",
+      "domain": "jacksonelectriclv.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Jiomart",
+      "domain": "jiomart.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "contract_manufacturer"
+    },
+    {
+      "name": "Jrautomation",
+      "domain": "jrautomation.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "importer"
+    },
+    {
+      "name": "Jumbo",
+      "domain": "jumbo.ae",
+      "discovery_source": "ddgs_bing",
+      "company_function": "contract_manufacturer"
+    },
+    {
+      "name": "Kendallelectric",
+      "domain": "kendallelectric.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Larsentoubro",
+      "domain": "larsentoubro.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Localelectriciansdirect",
+      "domain": "localelectriciansdirect.co.uk",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Localsurveyorsdirect",
+      "domain": "localsurveyorsdirect.co.uk",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Loxone",
+      "domain": "loxone.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Lumisautomation",
+      "domain": "lumisautomation.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "importer"
+    },
+    {
+      "name": "Manus",
+      "domain": "manus.im",
+      "discovery_source": "ddgs_bing",
+      "company_function": "contract_manufacturer"
+    },
+    {
+      "name": "Marketkeep",
+      "domain": "marketkeep.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Mecojax",
+      "domain": "mecojax.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Megger",
+      "domain": "megger.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "oem_manufacturer"
+    },
+    {
+      "name": "Menerga Adria",
+      "domain": "menerga-adria.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Milwaukeetool",
+      "domain": "milwaukeetool.eu",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Mistersparky",
+      "domain": "mistersparky.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Modelcontextprotocol",
+      "domain": "modelcontextprotocol.io",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Mrelectric",
+      "domain": "mrelectric.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Muratticaret",
+      "domain": "muratticaret.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Naed",
+      "domain": "naed.org",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Perfect Hk",
+      "domain": "perfect-hk.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Rdselectrics",
+      "domain": "rdselectrics.com.au",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Robycstechnology",
+      "domain": "robycstechnology.com.au",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Rs Online",
+      "domain": "rs-online.com",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Runn",
+      "domain": "runn.ae",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Sartra",
+      "domain": "sartra.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "exporter"
+    },
+    {
+      "name": "Schurter",
+      "domain": "schurter.com",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Seek",
+      "domain": "seek.com.au",
+      "discovery_source": "ddgs_yandex",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Signify",
+      "domain": "signify.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Smarthomeinstallation",
+      "domain": "smarthomeinstallation.uk",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Sylvania Group",
+      "domain": "sylvania-group.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "manufacturer"
+    },
+    {
+      "name": "Systemintegrators",
+      "domain": "systemintegrators.co.in",
+      "discovery_source": "ddgs_bing",
+      "company_function": "system_integrator"
+    },
+    {
+      "name": "Themeforest",
+      "domain": "themeforest.net",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Torkwellautomation",
+      "domain": "torkwellautomation.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "importer"
+    },
+    {
+      "name": "Tosunlux",
+      "domain": "tosunlux.eu",
+      "discovery_source": "ddgs_bing",
+      "company_function": "distributor"
+    },
+    {
+      "name": "Trends Electrician",
+      "domain": "trends-electrician.pages.dev",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Vblue",
+      "domain": "vblue.in",
+      "discovery_source": "ddgs_bing",
+      "company_function": "service_provider"
+    },
+    {
+      "name": "Wilsonelectric",
+      "domain": "wilsonelectric.works",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Wubenlight",
+      "domain": "wubenlight.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Yelp",
+      "domain": "yelp.com",
+      "discovery_source": "ddgs_bing",
+      "company_function": "vendor"
+    },
+    {
+      "name": "Zhidao",
+      "domain": "zhidao.baidu.com",
+      "discovery_source": "searxng",
+      "company_function": "vendor"
+    }
+  ],
+  "company_count": 136,
+  "discovery_stats": {
+    "raw_hits": 210,
+    "unique_names": 147,
+    "by_prompt_id": {
+      "D10": 2,
+      "D2": 1,
+      "D3": 3,
+      "D4": 3,
+      "D6": 1,
+      "D8": 1,
+      "D9": 2,
+      "HX0_dist": 2,
+      "HX0_expo": 1,
+      "HX0_inte": 3,
+      "HX0_manu": 1,
+      "HX0_rese": 4,
+      "HX1_dist": 1,
+      "HX1_expo": 1,
+      "HX1_inte": 2,
+      "HX1_manu": 1,
+      "HX1_rese": 3,
+      "L0": 5,
+      "L1": 1,
+      "M1": 6,
+      "M1_biot": 6,
+      "M1_cont": 1,
+      "M2": 3,
+      "M3": 3,
+      "P1": 1,
+      "P10": 1,
+      "P11": 3,
+      "P12": 4,
+      "P2": 1,
+      "P3": 6,
+      "P5": 1,
+      "P6": 3,
+      "P7": 1,
+      "P8": 2,
+      "P9": 2,
+      "SEED": 10,
+      "SEED2": 10,
+      "SEED3": 10,
+      "ST1a": 3,
+      "ST1b": 1,
+      "ST2a": 1,
+      "ST3a": 2,
+      "ST4a": 3,
+      "ST_L1_1": 8,
+      "ST_L1_2": 1,
+      "ST_L2_3": 6,
+      "ST_L2_4": 3,
+      "T1a": 4,
+      "T2a": 1,
+      "T2b": 2,
+      "T3a": 1,
+      "T4a": 15,
+      "T4b": 15,
+      "V5": 4,
+      "V6": 5,
+      "V7": 7,
+      "V8": 1,
+      "VX1": 4,
+      "VX2": 3,
+      "W1": 5,
+      "W2": 3
+    },
+    "by_funnel_level": {
+      "L0": 35,
+      "L1": 1,
+      "discovery": 174
+    },
+    "widen_loops": 3
+  },
+  "warnings": [
+    "Website scrape: ddgs.extract() (SCRAPE_BACKEND=ddgs, fmt=text_markdown)"
+  ]
+}
