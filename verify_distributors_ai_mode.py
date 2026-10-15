@@ -18,6 +18,7 @@ re-querying completed chunks.
 from __future__ import annotations
 
 import json
+import os
 import re
 import sys
 import time
@@ -52,7 +53,7 @@ from vendor_intel.config import Settings
 # 1,188 over. Measured across all six real markets, 12 is the largest size
 # that fits every chunk, at 7,408 with 392 to spare; 13 overflows by 34 on
 # the market with the longest company descriptions.
-CHUNK_SIZE = 12
+CHUNK_SIZE = max(1, int(os.environ.get("VERIFY_CHUNK", "12")))
 
 # How long to wait when the AI Mode quota is hit AND the session-reset
 # budget is already spent. A reset normally clears the limit instantly
@@ -273,6 +274,25 @@ def criteria_prompt(market_name: str) -> str:
         # markets without this paragraph sit at 774 and lost none.
         extra = ("KEEP resellers, VARs, channel partners and system "
                  "integrators that resell another vendor's products.\n")
+
+    if market_name.strip().lower() == "global data center market":
+        # One company TYPE for this market (user, 2026-10-15): DISTRIBUTORS
+        # only (first run was solution providers / SIs; switched by the
+        # user). The verifier never sees the discovery scope, so the type
+        # and exclusions are stated here. is_distributor gate applies.
+        return (
+            f"Decide KEEP or DROP for each company for the {market_name}.\n"
+            f"KEEP only DISTRIBUTORS: broadline, value-added or specialist "
+            f"distributors buying data center products (servers, network, "
+            f"power, cooling, racks, security) from OEMs and reselling them.\n"
+            f"DROP OEMs, data center operators, system integrators and "
+            f"solution providers selling projects, IT resellers and MSPs, "
+            f"contractors.\n"
+            f"When unsure, fits_criteria=false. One result per company, never "
+            f"skip a name.\n"
+            + _STATUS_RULES
+            + _JSON_SHAPE
+        )
 
     if "dangjo" in market_name.lower():
         # Retailers are IN for this market, by the user's decision. The

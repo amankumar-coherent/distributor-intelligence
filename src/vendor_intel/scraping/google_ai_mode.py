@@ -1538,6 +1538,38 @@ def _page_is_captcha(page) -> bool:
     return any(m in text for m in CAPTCHA_MARKERS)
 
 
+# Google's "Verifying your request ... Continue" interstitial. Not a
+# reCAPTCHA, so a solver extension never touches it; it appears when many
+# browsers share one IP and means the SESSION is flagged.
+_VERIFY_MARKER = "verifying your request"
+_VERIFY_ROUNDS_PER_QUERY = 3
+_verify_total = 0
+
+
+def _page_is_verify(page) -> bool:
+    try:
+        return _VERIFY_MARKER in (page.inner_text("body", timeout=3000) or "").lower()
+    except Exception:
+        return False
+
+
+def _try_verify_continue(page, timeout_seconds: float = 20.0) -> bool:
+    """Press the interstitial's Continue button once it enables. True when
+    the page moved on. The query must still be re-issued afterwards."""
+    deadline = time.monotonic() + timeout_seconds
+    while time.monotonic() < deadline:
+        try:
+            button = page.get_by_role("button", name=re.compile("continue", re.I)).first
+            if button.is_visible(timeout=1000) and button.is_enabled(timeout=1000):
+                button.click(timeout=3000)
+                page.wait_for_timeout(4000)
+                return not _page_is_verify(page)
+        except Exception:
+            pass
+        page.wait_for_timeout(2000)
+    return False
+
+
 # Marker AI Mode renders once generation has finished. Far more reliable
 # than guessing from answer length: measured, a short answer (280 chars)
 # never tripped the old >400-char heuristic and burned the full 90s timeout
@@ -1923,6 +1955,7 @@ def ask(prompt: str, *, retries: int = 1) -> str:
         # of the caller's retries.
         attempts_left = retries + 1
         captcha_rounds_left = _MAX_CAPTCHA_ROUNDS_PER_QUERY
+        verify_rounds_left = _VERIFY_ROUNDS_PER_QUERY
         attempt = 0
         while attempts_left > 0:
             attempts_left -= 1
@@ -1949,6 +1982,35 @@ def ask(prompt: str, *, retries: int = 1) -> str:
                         raise
 
                 page.wait_for_timeout(1500)
+                if _page_is_verify(page):
+                    globals()["_verify_total"] = _verify_total + 1
+                    globals()["_last_captcha_at"] = time.monotonic()
+                    if verify_rounds_left <= 0:
+                        _log("'Verifying your request' persists — giving up on this query")
+                        attempts_left = 0
+                        break
+                    verify_rounds_left -= 1
+                    # Each recovery re-issues the query without costing an attempt.
+                    attempts_left += 1
+                    if _try_verify_continue(page):
+                        _log("'Verifying your request' cleared with Continue — re-sending query")
+                        continue
+                    if verify_rounds_left >= 1:
+                        # The flag rides on the cookies: drop them and
+                        # relaunch the browser on the same profile.
+                        _log("'Verifying your request' — clearing cookies and relaunching the browser")
+                        try:
+                            if _context is not None:
+                                _context.clear_cookies()
+                        except Exception:
+                            pass
+                        shutdown()
+                        time.sleep(float(os.getenv("GOOGLE_AI_MODE_VERIFY_COOLOFF") or 20))
+                        continue
+                    if not reset_session("Google 'Verifying your request' page persists"):
+                        attempts_left = 0
+                        break
+                    continue
                 if _page_is_captcha(page):
                     _consecutive_captchas += 1
                     # Record the CAPTCHA in a way a later solve won't erase.

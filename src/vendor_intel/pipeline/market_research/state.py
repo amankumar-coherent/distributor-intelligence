@@ -186,6 +186,13 @@ _COUNTRY_ALIASES = {
     "kingdomofsaudiarabia": "saudiarabia",
     "vietnamsocialistrepublic": "vietnam",
     "ivorycoast": "cotedivoire",
+    # Brazilian companies often write their own country in Portuguese; a gate
+    # looking for "Brazil" would otherwise reject "Sao Paulo, Brasil".
+    "brasil": "brazil",
+    "republicofbrazil": "brazil",
+    "federativerepublicofbrazil": "brazil",
+    "repúblicafederativadobrasil": "brazil",
+    "republicafederativadobrasil": "brazil",
 }
 
 
