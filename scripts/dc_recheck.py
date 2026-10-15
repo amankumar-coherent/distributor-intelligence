@@ -33,7 +33,7 @@ STAGE = ROOT / "output" / "final" / "dc" / "dc_verified"
 OUT = ROOT / "output" / "final" / "dc" / "dc distributors (status checked)"
 MARKET = "Global Data Center Market"
 PARTS = 10  # user 2026-10-15: "open 10 browsers to verify, not only 3"
-STATUS_WORKERS = 10
+STATUS_WORKERS = int(os.environ.get("DC_STATUS_WORKERS", "20"))  # user: 20 browsers
 
 
 def log(msg: str) -> None:
