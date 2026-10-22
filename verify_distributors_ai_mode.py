@@ -294,6 +294,104 @@ def criteria_prompt(market_name: str) -> str:
             + _JSON_SHAPE
         )
 
+    # Market-specific KEEP/DROP lines declared in the market's own batch module
+    # (VERIFY_RULES = {slug: text}) -- new markets need no edit here. Kept
+    # short: past ~1,000 characters of instructions AI Mode stops answering.
+    try:
+        import market_batches
+        module_rule = market_batches.verify_rule_for(market_name)
+    except Exception:  # noqa: BLE001
+        module_rule = None
+    if module_rule:
+        text = (f"Decide KEEP or DROP for each company for the {market_name}.\n"
+                f"{module_rule.strip()}\n"
+                f"When unsure, fits_criteria=false. One result per company, never "
+                f"skip a name.\n" + _STATUS_RULES + _JSON_SHAPE)
+        if len(text) > 1000:
+            print(f"  ! VERIFY_RULES for {market_name!r} make a {len(text)}-char criteria "
+                  f"block; AI Mode may return empty answers above ~1,000 -- shorten it")
+        return text
+
+    if market_name.strip().lower() == "global soft serve ice cream machines market":
+        # Distributors / importers / foodservice equipment dealers only; the
+        # user asked that the exclusions never come through (2026-10-21).
+        return (
+            f"Decide KEEP or DROP for each company for the {market_name}.\n"
+            f"KEEP only importers, distributors or foodservice equipment "
+            f"dealers that sell COMMERCIAL SOFT-SERVE machines made by others.\n"
+            f"DROP machine makers, component or refrigeration suppliers, "
+            f"hard ice cream, batch freezer or home machine sellers, beverage "
+            f"dispensers, mix suppliers, repair-only firms.\n"
+            f"When unsure, fits_criteria=false. One result per company, never "
+            f"skip a name.\n"
+            + _STATUS_RULES
+            + _JSON_SHAPE
+        )
+
+    if market_name.strip().lower() == "india spices and seasonings market":
+        # Spice distributors / wholesalers only (user, 2026-10-19).
+        return (
+            f"Decide KEEP or DROP for each company for the {market_name}.\n"
+            f"KEEP only India-based spice DISTRIBUTORS, dealers, stockists or "
+            f"bulk wholesalers that stock and resell spices or masalas made "
+            f"by others.\n"
+            f"DROP spice manufacturers and brand owners, retailers, "
+            f"e-commerce, brokers, pure exporters, additive or equipment "
+            f"firms, non-India companies.\n"
+            f"When unsure, fits_criteria=false. One result per company, never "
+            f"skip a name.\n"
+            + _STATUS_RULES
+            + _JSON_SHAPE
+        )
+
+    if market_name.strip().lower() == "u.s. entresto market":
+        # U.S. pharmaceutical wholesale distributors only (user, 2026-10-19).
+        return (
+            f"Decide KEEP or DROP for each company for the {market_name}.\n"
+            f"KEEP only U.S.-based pharmaceutical WHOLESALE distributors "
+            f"supplying prescription drugs (brand and generic) to pharmacies.\n"
+            f"DROP drug manufacturers and their U.S. arms, API suppliers, "
+            f"repackagers or relabelers, pharmacies, PBMs, GPOs, non-U.S. "
+            f"companies.\n"
+            f"When unsure, fits_criteria=false. One result per company, never "
+            f"skip a name.\n"
+            + _STATUS_RULES
+            + _JSON_SHAPE
+        )
+
+    if market_name.strip().lower() == "mena magnesium glycinate market":
+        # Specialty nutraceutical distributors only (user, 2026-10-18).
+        return (
+            f"Decide KEEP or DROP for each company for the {market_name}.\n"
+            f"KEEP only MENA-based pharma or nutraceutical distributors and "
+            f"importers of finished supplement brands with magnesium glycinate "
+            f"products (e.g. NOW Foods, Solgar).\n"
+            f"DROP brand owners, manufacturers, ingredient suppliers, pharmacy "
+            f"chains, retailers, e-commerce, non-MENA companies.\n"
+            f"When unsure, fits_criteria=false. One result per company, never "
+            f"skip a name.\n"
+            + _STATUS_RULES
+            + _JSON_SHAPE
+        )
+
+    if market_name.strip().lower() == "global empty capsules market":
+        # Distributors only (user, 2026-10-15). The verifier never sees the
+        # discovery scope, so the market's exclusions are stated here.
+        return (
+            f"Decide KEEP or DROP for each company for the {market_name}.\n"
+            f"KEEP only DISTRIBUTORS: excipient distributors, importers, "
+            f"stockists and B2B suppliers that buy EMPTY CAPSULE shells from "
+            f"capsule makers and resell them to pharma, nutraceutical or "
+            f"cosmetic manufacturers.\n"
+            f"DROP capsule manufacturers, contract manufacturers filling "
+            f"capsules, filling-machine sellers, supplement brands, and "
+            f"consumer-only pharmacies or shops.\n"
+            f"When unsure, fits_criteria=false. One result per company, never "
+            f"skip a name.\n"
+            + _STATUS_RULES
+            + _JSON_SHAPE
+        )
+
     if "dangjo" in market_name.lower():
         # Retailers are IN for this market, by the user's decision. The
         # generic block below drops "retailers to consumers only", which

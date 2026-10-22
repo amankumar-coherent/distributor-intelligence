@@ -34,6 +34,11 @@ from ingredient_markets import MARKETS_INGREDIENT as _MARKETS_INGREDIENT
 from geo_markets import MARKETS_GEO as _MARKETS_GEO
 from h2_markets import MARKETS_H2 as _MARKETS_H2
 from dc_markets import MARKETS_DC as _MARKETS_DC
+from caps_markets import MARKETS_CAPS as _MARKETS_CAPS
+from mg_markets import MARKETS_MG as _MARKETS_MG
+from ent_markets import MARKETS_ENT as _MARKETS_ENT
+from spice_markets import MARKETS_SPICE as _MARKETS_SPICE
+from soft_markets import MARKETS_SOFT as _MARKETS_SOFT
 
 # drone_markets.MARKETS predates the "kind" column and is (slug, market,
 # scope) only. Four of its ten are hybrid (verify_distributors_ai_mode's
@@ -65,6 +70,11 @@ BATCHES: tuple[tuple[str, str, tuple[tuple[str, str, str, str], ...]], ...] = (
     ("run_geo_market.py", "geo_profile_", _MARKETS_GEO),
     ("run_h2_market.py", "h2_profile_", _MARKETS_H2),
     ("run_dc_market.py", "dc_profile_", _MARKETS_DC),
+    ("run_caps_market.py", "caps_profile_", _MARKETS_CAPS),
+    ("run_mg_market.py", "mg_profile_", _MARKETS_MG),
+    ("run_ent_market.py", "ent_profile_", _MARKETS_ENT),
+    ("run_spice_market.py", "spice_profile_", _MARKETS_SPICE),
+    ("run_soft_market.py", "soft_profile_", _MARKETS_SOFT),
 )
 
 # Flat (slug, market, scope, kind) across every batch.
@@ -92,8 +102,47 @@ def by_slug(slug: str) -> tuple[str, str, str, str]:
     )
 
 
-_DEFINITION_MODULES = ("dc_markets", "h2_markets","geo_markets","chemical_markets", "ingredient_markets",
+_DEFINITION_MODULES = ("soft_markets", "spice_markets","ent_markets","mg_markets","caps_markets","dc_markets","h2_markets","geo_markets","chemical_markets", "ingredient_markets",
                        "water_markets", "food_markets", "wound_markets", "fire_markets")
+
+
+def _module_attr(name: str, key: str):
+    """First value of dict <name> (e.g. EVIDENCE, VERIFY_RULES) keyed by
+    <key> across the batch modules, or None."""
+    import importlib
+
+    for mod_name in _DEFINITION_MODULES:
+        try:
+            mod = importlib.import_module(mod_name)
+        except ImportError:
+            continue
+        val = getattr(mod, name, {}).get(key)
+        if val:
+            return val
+    return None
+
+
+def evidence_for(slug: str):
+    """Compiled regex a verified company's profile (name, Core Categories,
+    Specialty Focus, Key Products) must match to stay in the main Excel, or
+    None. Declared per market as EVIDENCE = {slug: pattern} in its batch
+    module. Rows without it go to flagged_for_review.xlsx -- the manual
+    "does it really sell soft-serve / PEM electrolyzers?" pass, automated."""
+    import re
+
+    pat = _module_attr("EVIDENCE", slug)
+    return re.compile(pat, re.I) if pat else None
+
+
+def verify_rule_for(market_name: str) -> str | None:
+    """KEEP/DROP lines for verify_distributors_ai_mode, declared per market as
+    VERIFY_RULES = {slug: text} in its batch module. The verifier never sees
+    the discovery scope, so without this it judged only by the market NAME
+    and a generic rule (too lenient on niche markets: h2, 2026-10-14)."""
+    for slug, market, _scope, _kind in ALL_MARKETS:
+        if market.strip().lower() == market_name.strip().lower():
+            return _module_attr("VERIFY_RULES", slug)
+    return None
 
 
 def definition_for(slug: str) -> str:

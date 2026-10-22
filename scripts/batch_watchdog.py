@@ -120,8 +120,15 @@ def main() -> None:
             rows.append(f"{slug} {v}/{args.target} verified ({d} found)")
         note(" | ".join(rows))
 
-        finished = launcher_log.is_file() and f"markets processed" in launcher_log.read_text(
-            encoding="utf-8", errors="replace")[-4000:]
+        # Look from the launcher's LAST start, not just the last 4,000
+        # characters: the final status check logs far more than that, which
+        # pushed "markets processed" out of view and made the watchdog
+        # relaunch a finished batch (spice 2026-10-20).
+        text = launcher_log.read_text(encoding="utf-8", errors="replace")[-500000:] \
+            if launcher_log.is_file() else ""
+        since_start = text[text.rfind("rolling:"):] if "rolling:" in text else text
+        finished = ("markets processed" in since_start
+                    or f"FINALIZE {args.batch}: done" in since_start)
         if done == len(slugs) or finished:
             # Last pipeline step: status + ownership check and packaging. A
             # launcher started before finalize() existed never runs it, so
@@ -129,8 +136,14 @@ def main() -> None:
             tail = launcher_log.read_text(encoding="utf-8", errors="replace")[-20000:] \
                 if launcher_log.is_file() else ""
             if f"FINALIZE {args.batch}: done" not in tail:
-                if _count("run_fire_10_browsers.*--batch") > 0 and "FINALIZE" in tail:
-                    note("launcher is running the final check — waiting")
+                # A live launcher finishes its round and runs finalize itself.
+                # Checking only for "FINALIZE" in its log raced it: once the
+                # cap was passed mid-round (verified >= target while round 2
+                # was still verifying) the watchdog started a second status
+                # check on its own (caps, 2026-10-15; it crashed on the locked
+                # launcher log instead).
+                if _count(f"run_fire_10_browsers.*--batch {args.batch}( |$)") > 0:
+                    note("launcher still running (it runs the final check itself) — waiting")
                     time.sleep(args.every)
                     continue
                 if _count("status_check_folder") <= 0:

@@ -65,6 +65,11 @@ from ingredient_markets import GLOBAL_REGIONS as INGR_REGIONS, MARKETS_INGREDIEN
 from geo_markets import MARKETS_GEO, REGIONS_BY_SLUG as GEO_REGIONS  # noqa: E402
 from h2_markets import MARKETS_H2  # noqa: E402
 from dc_markets import DC_REGIONS, MARKETS_DC  # noqa: E402
+from caps_markets import CAPS_REGIONS, MARKETS_CAPS  # noqa: E402
+from mg_markets import MARKETS_MG, MG_REGIONS  # noqa: E402
+from ent_markets import ENT_REGIONS, MARKETS_ENT  # noqa: E402
+from spice_markets import MARKETS_SPICE  # noqa: E402
+from soft_markets import MARKETS_SOFT, SOFT_REGIONS  # noqa: E402
 from vendor_intel.pipeline.market_research.state import market_slug  # noqa: E402
 
 _INDIA_REGIONS = tuple(INDIA_STATES) + tuple(INDIA_CITIES)
@@ -87,6 +92,16 @@ _BATCHES = {
     "h2": ("run_h2_market.py", "h2_profile_", "logs_h2", MARKETS_H2, tuple(INDIA_STATES)),
     # Global Data Center Market, worldwide country by country (user, 2026-10-15).
     "dc": ("run_dc_market.py", "dc_profile_", "logs_dc", MARKETS_DC, DC_REGIONS),
+    # Global Empty Capsules Market, distributors, worldwide (user, 2026-10-15).
+    "caps": ("run_caps_market.py", "caps_profile_", "logs_caps", MARKETS_CAPS, CAPS_REGIONS),
+    # MENA Magnesium Glycinate, distributors, 16 MENA countries (user, 2026-10-18).
+    "mg": ("run_mg_market.py", "mg_profile_", "logs_mg", MARKETS_MG, MG_REGIONS),
+    # U.S. Entresto, pharma wholesale distributors, state by state (user, 2026-10-19).
+    "ent": ("run_ent_market.py", "ent_profile_", "logs_ent", MARKETS_ENT, ENT_REGIONS),
+    # India Spices And Seasonings, distributors / wholesalers, India states only (user, 2026-10-19).
+    "spice": ("run_spice_market.py", "spice_profile_", "logs_spice", MARKETS_SPICE, tuple(INDIA_STATES)),
+    # Global Soft Serve Ice Cream Machines, distributors/importers/dealers, worldwide (user, 2026-10-21).
+    "soft": ("run_soft_market.py", "soft_profile_", "logs_soft", MARKETS_SOFT, SOFT_REGIONS),
 }
 RUNNER, PROFILE_PREFIX = "", ""
 LOGS = ROOT
@@ -476,6 +491,40 @@ def verify_one(slug: str) -> None:
     the profile with it."""
     subprocess.run([sys.executable, str(ROOT / "market_batches.py"), "--only", slug],
                    cwd=str(ROOT), capture_output=True, timeout=900)
+    # PARALLEL_VERIFY=N: verify with N browsers at once (scripts/parallel_verify.py
+    # splits the unjudged rows, merges the verdicts into this market's own
+    # checkpoint and writes the same verified workbook). One browser takes
+    # 35-45 min for a 300-company round; 10 take ~5-8 (user, 2026-10-19).
+    # Default: as many verifiers as this market has search browsers.
+    parts = int(os.environ.get("PARALLEL_VERIFY") or WORKERS_PER_MARKET or 0)
+    if parts > 1:
+        market = market_batches.by_slug(slug)[1]
+        log_path = LOGS / f"{slug}_parallel_verify.log"
+        # Up to 2 attempts: a run that ends WITHOUT its final "done" line was
+        # cut short (spice round 2, 2026-10-20: killed mid-run, nothing
+        # merged). parallel_verify resumes from the part checkpoints, so the
+        # retry only judges what is left and then merges everything.
+        for attempt in (1, 2):
+            start = log_path.stat().st_size if log_path.exists() else 0
+            try:
+                with log_path.open("a", encoding="utf-8") as fh:
+                    subprocess.run([sys.executable, "-u", str(ROOT / "scripts" / "parallel_verify.py"),
+                                    "--market", market, "--parts", str(parts)],
+                                   cwd=str(ROOT), stdout=fh, stderr=subprocess.STDOUT,
+                                   timeout=VERIFY_TIMEOUT)
+            except subprocess.TimeoutExpired:
+                # Its checkpoints are kept; the next round's verify resumes them.
+                rlog(f"  {slug}: parallel verify still running after {VERIFY_TIMEOUT // 60} min — "
+                     "stopped, resumes next round")
+                return
+            with log_path.open("r", encoding="utf-8", errors="replace") as fh:
+                fh.seek(start)
+                finished = "] done" in fh.read()
+            if finished:
+                return
+            rlog(f"  {slug}: parallel verify ended without merging (attempt {attempt}) — "
+                 + ("retrying" if attempt == 1 else "will merge next round"))
+        return
     subprocess.run([sys.executable, str(ROOT / "verify_all_drones.py"), "--only", slug],
                    cwd=str(ROOT), capture_output=True, timeout=300)
     pattern = "verify_distributors.*" + _slugify_for_match(slug)
@@ -518,9 +567,14 @@ def market_loop(slug: str, target: int, start_delay: float) -> None:
             # Worker 0 keeps the plain profile; others get _w2, _w3, ...
             suffix = f"w{i + 1}" if i else None
             stage_extension(slug, suffix)
-            def _search(region=region, suffix=suffix):
+            # The goal is market total + padding, and the total is SHARED by
+            # every worker on this market: a flat +60 was reached within
+            # minutes by 10-20 workers together, each region got ~3 companies
+            # and was then marked searched (dc log: "Reached 193/60"). Scale
+            # it so each region runs until it is genuinely exhausted.
+            def _search(region=region, suffix=suffix, pad=60 * len(regions)):
                 t0 = time.time()
-                discover_one_region(slug, region, 60, profile_suffix=suffix)
+                discover_one_region(slug, region, pad, profile_suffix=suffix)
                 lasted[region] = time.time() - t0
 
             t = threading.Thread(target=_search, daemon=True)
@@ -581,6 +635,14 @@ def finalize(batch: str, slugs: list[str], workers: int) -> Path:
     # and re-running resumes it.
     if report.is_file() and report.stat().st_mtime > time.time() - 600:
         rlog(f"FINALIZE {batch}: done -> {out}")
+        # Integrity audit of the delivered files (duplicates, JSON == Excel,
+        # row-2 definition, region, flagged leaks, no zip): the checks that
+        # were done by hand until 2026-10-21. Problems are logged, not fatal.
+        audit = subprocess.run([sys.executable, str(ROOT / "scripts" / "audit_final.py"),
+                                "--batch", batch], cwd=str(ROOT), capture_output=True,
+                               text=True, encoding="utf-8", errors="replace")
+        for line in (audit.stdout or "").splitlines():
+            rlog(f"  {line}")
     else:
         rlog(f"FINALIZE {batch}: status check incomplete (blocked) — re-run to resume")
     return out

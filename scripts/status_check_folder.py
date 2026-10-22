@@ -155,7 +155,10 @@ def run_dir(folder: Path) -> Path:
 
 def load_json(p: Path) -> dict:
     try:
-        return json.loads(p.read_text(encoding="utf-8"))
+        # utf-8-sig: an overrides.json saved by Windows PowerShell starts with
+        # a BOM, which plain utf-8 rejects -> {} -> every correction silently
+        # ignored (soft 2026-10-21).
+        return json.loads(p.read_text(encoding="utf-8-sig"))
     except (OSError, json.JSONDecodeError):
         return {}
 
@@ -347,6 +350,10 @@ def name_key(name: object) -> str:
     import unicodedata
 
     s = re.sub(r"\(acquired by.*\)\s*$", "", str(name or ""), flags=re.I).lower()
+    # "S.r.l." / "S.A." / "Pvt." -> "srl" / "sa" / "pvt" so the legal-form
+    # filter below sees them (dotted forms escaped it: "G&P Center S.r.l."
+    # did not match "G&P Center Srl").
+    s = re.sub(r"(?<=\b[a-z])\.(?=[a-z]\b|[a-z]\.)", "", s).replace(".", " ")
     s = "".join(ch for ch in unicodedata.normalize("NFKD", s) if not unicodedata.combining(ch))
     s = _LEGAL.sub(" ", re.sub(r"[^a-z0-9& ]", " ", s))
     return re.sub(r"[^a-z0-9]", "", s)
@@ -384,6 +391,29 @@ def find_duplicates(rows: list[dict]) -> dict[int, int]:
                 union(r["row"], seen[k])
             else:
                 seen[k] = r["row"]
+    # Same name (legal forms ignored) in the SAME country, or where one row's
+    # HQ has no country at all ("Milan" vs "Milan, Italy"): one company with a
+    # second website or branch city. The city rule above missed these -- the
+    # 2026-10-21 audit found "G&P Center Srl (Milan, Italy)" / "G&P Center
+    # S.r.l. (Milan)" and "Prescription Supply Inc" in Northwood and Toledo.
+    # Same name in two DIFFERENT countries stays separate (country arms).
+    by_name: dict[str, list[dict]] = {}
+    for r in rows:
+        nk = name_key(r["name"])
+        if nk and len(nk) >= 4:
+            by_name.setdefault(nk, []).append(r)
+    def _ctry(c: str) -> str:
+        return "hong kong" if "hong kong" in c or c == "kowloon" else c
+
+    for members in by_name.values():
+        for i, a in enumerate(members):
+            for b in members[i + 1:]:
+                ca, cb = _ctry(a["country"]), _ctry(b["country"])
+                same_site = (registrable_domain(a["website"]) or "x") == (registrable_domain(b["website"]) or "y")
+                # Same name AND same website is one company even when the two
+                # rows list different offices (Healthcare 21 UK: UK and Cork).
+                if not ca or not cb or ca == cb or same_site:
+                    union(a["row"], b["row"])
     groups: dict[int, list[dict]] = {}
     for r in rows:
         groups.setdefault(find(r["row"]), []).append(r)
@@ -499,6 +529,13 @@ def build(folder: Path, out: Path, make_zip: bool) -> None:
         set_market_definition(ws, f.stem)
         header = [str(c.value or "").strip() for c in ws[HEADER_ROW]]
         ci, wi = header.index("Company") + 1, header.index("Website") + 1
+        # Product-evidence gate (market_batches.EVIDENCE): a verified company
+        # whose own profile never mentions the market's product goes to the
+        # flagged list, not the main Excel (soft serve / h2 manual passes).
+        import market_batches
+        evidence = market_batches.evidence_for(f.stem.replace("_verified_distributors", ""))
+        ev_cols = [header.index(c) + 1 for c in ("Core Categories", "Specialty Focus",
+                                                  "Key Products / Technologies") if c in header]
         drop = []
         counts = dict.fromkeys(totals, 0)
         row_action: dict[int, str] = {}   # kept / renamed rows, for the duplicate check
@@ -509,7 +546,28 @@ def build(folder: Path, out: Path, make_zip: bool) -> None:
                 continue
             v = verdicts.get(company_key(name, ws.cell(row=r, column=wi).value))
             action, acq = label(v)
-            reason = flag_reason(name, v, action, acq)
+            # A reviewer correction of the owner (overrides.json with
+            # "acquired_by" and "flag": false) wins over an "(acquired by X)"
+            # label the name carried in from discovery: replace the label
+            # instead of flagging the two owners as a conflict (caps
+            # 2026-10-15: Orkila Algerie named "Barentz", owner is Azelis).
+            # ...also when the reviewer CONFIRMS the status check's owner
+            # against an outdated label (ent 2026-10-15: "Integra (acquired by
+            # Scienture)", which sold it to Tollo Health in 2025).
+            m_old = re.search(r"\(acquired by (.+)\)\s*$", name, re.I)
+            corrected = bool(v and v.get("_orig") and v.get("flag") is False and (
+                (v.get("acquired_by") or "") != (v["_orig"].get("acquired_by") or "")
+                or (m_old and v.get("acquired_by")
+                    and _norm(m_old.group(1)) != _norm(v.get("acquired_by")))))
+            if corrected and re.search(r"\(acquired by .+\)\s*$", name, re.I):
+                name = re.sub(r"\s*\(acquired by .+\)\s*$", "", name, flags=re.I)
+                cell.value = name
+            reason = None if corrected else flag_reason(name, v, action, acq)
+            if not reason and evidence is not None and action != "removed":
+                profile = " | ".join([name] + [str(ws.cell(row=r, column=c).value or "") for c in ev_cols])
+                if not evidence.search(profile):
+                    reason = ("No evidence of this market's product in its profile "
+                              "(Core Categories / Specialty Focus / Key Products).")
             if reason and action != "removed":
                 # Not "verified": out of the main file, into the flagged list
                 # (shown there as the name it would have had).

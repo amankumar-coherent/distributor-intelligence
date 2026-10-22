@@ -123,3 +123,11 @@ def by_slug_dc(slug: str) -> tuple[str, str, str, str]:
         if entry[0] == slug:
             return entry
     raise KeyError(f"unknown dc market slug: {slug}")
+
+# Product-evidence gate for the final build (market_batches.evidence_for):
+# a verified company whose profile never matches this goes to
+# flagged_for_review.xlsx instead of the main Excel. Tested on the delivered
+# list 2026-10-21 (all genuine rows match).
+EVIDENCE: dict[str, str] = {
+    "dc_distributor": r"server|storage|network|data ?cent|ups|power|cooling|rack|cabling|dell|hpe|cisco|schneider|vertiv|eaton|it (hardware|infrastructure)|ict",
+}

@@ -75,3 +75,11 @@ def by_slug_h2(slug: str) -> tuple[str, str, str, str]:
         if entry[0] == slug:
             return entry
     raise KeyError(f"unknown h2 market slug: {slug}")
+
+# Product-evidence gate for the final build (market_batches.evidence_for):
+# a verified company whose profile never matches this goes to
+# flagged_for_review.xlsx instead of the main Excel. Tested on the delivered
+# list 2026-10-21 (all genuine rows match).
+EVIDENCE: dict[str, str] = {
+    "h2_pem_aem_electrolyzer": r"electroly[sz]|pem\b|aem\b|green hydrogen|hydrogen (generation|plant|system)",
+}
