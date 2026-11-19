@@ -261,6 +261,7 @@ _CITY_COUNTRY = {
     "tokyo": "Japan", "osaka": "Japan", "nagoya": "Japan",
     "yokohama": "Japan", "kobe": "Japan", "kyoto": "Japan",
     "fukuoka": "Japan", "sapporo": "Japan",
+    "shibuya": "Japan", "minato": "Japan", "chiyoda": "Japan", "chuo": "Japan", "shinagawa": "Japan", "meguro": "Japan", "setagaya": "Japan", "shinjuku": "Japan", "taito": "Japan", "sendai": "Japan", "hiroshima": "Japan", "okayama": "Japan", "kawasaki": "Japan", "saitama": "Japan", "chiba": "Japan", "shizuoka": "Japan", "hamamatsu": "Japan", "kumamoto": "Japan", "kagoshima": "Japan", "naha": "Japan", "kanazawa": "Japan", "niigata": "Japan", "gifu": "Japan", "kitakyushu": "Japan", "sakai": "Japan", "himeji": "Japan", "fukuyama": "Japan", "nagano": "Japan", "kurume": "Japan",
     # South Korea
     "seoul": "South Korea", "busan": "South Korea",
     "incheon": "South Korea", "daegu": "South Korea",
@@ -302,6 +303,12 @@ _CITY_COUNTRY = {
     "berlin": "Germany", "amsterdam": "Netherlands",
     "rotterdam": "Netherlands", "dubai": "United Arab Emirates",
     "abu dhabi": "United Arab Emirates",
+    # Mozambique (moz batch)
+    "maputo": "Mozambique", "matola": "Mozambique", "beira": "Mozambique",
+    "nampula": "Mozambique", "pemba": "Mozambique", "tete": "Mozambique",
+    "quelimane": "Mozambique", "chimoio": "Mozambique", "nacala": "Mozambique",
+    "xai-xai": "Mozambique", "lichinga": "Mozambique", "inhambane": "Mozambique",
+    "mocuba": "Mozambique", "angoche": "Mozambique", "montepuez": "Mozambique", "chokwe": "Mozambique", "dondo": "Mozambique", "gurue": "Mozambique", "moatize": "Mozambique", "cuamba": "Mozambique", "ilha de mocambique": "Mozambique", "vilankulo": "Mozambique", "macia": "Mozambique", "marracuene": "Mozambique", "boane": "Mozambique", "namaacha": "Mozambique", "manhica": "Mozambique", "moamba": "Mozambique", "chibuto": "Mozambique", "mueda": "Mozambique", "mocimboa da praia": "Mozambique", "marromeu": "Mozambique", "gorongosa": "Mozambique", "gondola": "Mozambique", "catandica": "Mozambique", "espungabera": "Mozambique", "milange": "Mozambique", "alto molocue": "Mozambique", "songo": "Mozambique", "mandimba": "Mozambique", "massinga": "Mozambique", "maniamba": "Mozambique", "bilene": "Mozambique", "ponta do ouro": "Mozambique", "macomia": "Mozambique", "ribaue": "Mozambique", "monapo": "Mozambique", "nhamatanda": "Mozambique", "mutarara": "Mozambique", "chiure": "Mozambique", "mopeia": "Mozambique", "quissico": "Mozambique",
 }
 
 

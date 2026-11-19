@@ -136,8 +136,21 @@ MARKETS = [
 ]
 
 
+_CJK = re.compile(r"[぀-ヿ㐀-鿿가-힯ｦ-ﾟ]")
+
+
 def _norm(s: str) -> str:
-    return re.sub(r"[^a-z0-9]+", "", (s or "").lower())
+    # ASCII-only keys strip a Japanese / Chinese / Korean name to "" (or to a
+    # stray "rmc"), so every such company in a chunk collided on one key and
+    # none got a verdict -- jpf 2026-10-29: 286 of 825 Japanese-script names
+    # never judged. Names with CJK characters keep every letter (after NFKC,
+    # which folds full-width ＲＭＣ to rmc); Latin names keep the old key so
+    # existing checkpoints still match.
+    s = s or ""
+    if _CJK.search(s):
+        import unicodedata
+        return "".join(ch for ch in unicodedata.normalize("NFKC", s).lower() if ch.isalnum())
+    return re.sub(r"[^a-z0-9]+", "", s.lower())
 
 
 def looks_like_prose(text: str) -> bool:
@@ -259,7 +272,11 @@ def criteria_prompt(market_name: str) -> str:
     # instead, so verification judges by the same rule discovery used.
     kind = _declared_kind(market_name)
     global SERVICE_MARKET
-    SERVICE_MARKET = (kind == "service")
+    # An e-commerce ("retail") market collects sellers - marketplaces,
+    # online retailers, brand owners - none of which is a distributor, so
+    # it skips the is_distributor / manufactures gate exactly like a
+    # service market (Japan Fashion E-commerce, 2026-10-29).
+    SERVICE_MARKET = kind in ("service", "retail", "solution")
 
     if kind == "service":
         # Short on purpose, same reason as below.
@@ -744,8 +761,12 @@ def load_rows(path: Path) -> tuple[list[dict], list[str], str]:
     return rows, headers, sheet_name
 
 
-def save_checkpoint(ckpt_path: Path, data: dict) -> None:
-    ckpt_path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+def save_checkpoint(ckpt_path: Path, data) -> None:
+    # Atomic (temp file + replace): an in-place write on a full disk left
+    # 0-byte checkpoints and lost every verdict of 7+ adh markets (2026-10-31).
+    tmp = ckpt_path.with_name(ckpt_path.name + ".tmp")
+    tmp.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+    os.replace(tmp, ckpt_path)
 
 
 def load_checkpoint(ckpt_path: Path) -> dict:
@@ -1197,7 +1218,7 @@ def verify_market(market: dict) -> None:
 
     write_output(kept_rows, headers, sheet_name, out_xlsx,
                  market_name=market.get("market_name", ""))
-    log_path.write_text(json.dumps(verdicts, ensure_ascii=False, indent=2), encoding="utf-8")
+    save_checkpoint(log_path, verdicts)  # atomic write (any JSON)
 
     n_keep = sum(1 for v in verdicts if v.get("keep"))
     n_backend = sum(1 for v in verdicts if v.get("backend_failure"))

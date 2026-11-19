@@ -38,8 +38,13 @@ sys.path.insert(0, str(ROOT / "src"))
 # batch -> substrings one of which every Headquarters value must contain.
 # A bare city (e.g. "Bangalore") is accepted when ACCEPTED_BARE_CITY allows it.
 COUNTRY_GATE = {
-    "geo": ("India",), "h2": ("India",), "spice": ("India",), "food": ("India",),
-    "fire": ("India",), "brazil": ("Brazil", "Brasil"), "ent": ("United States", "USA"),
+    "geo": ("India",), "iww": ("India",), "lug": ("India",), "eadh": ("Germany", "United Kingdom", "UK", "England", "Scotland", "Wales", "Northern Ireland", "France", "Italy", "Spain", "Netherlands", "Holland", "Belgium", "Switzerland", "Austria", "Sweden", "Poland", "Denmark", "Norway", "Finland", "Ireland", "Portugal", "Czech", "Hungary", "Romania", "Greece", "Slovakia", "Slovenia", "Croatia", "Bulgaria", "Serbia", "Lithuania", "Latvia", "Estonia", "Luxembourg", "Ukraine", "Iceland", "Malta", "Cyprus", "Bosnia", "Macedonia", "Albania", "Montenegro", "Moldova", "Liechtenstein", "Monaco", "Russia", "Belarus", "Kosovo"),  "h2": ("India",), "spice": ("India",), "food": ("India",),
+    "fire": ("India",), "brazil": ("Brazil", "Brasil"), "bie": ("Brazil", "Brasil"), "alc": ("India",), "cphin": ("India",), "ent": ("United States", "USA"), "cmp": ("United States", "USA"), "moz": ("Mozambique", "Moçambique", "Maputo", "Matola", "Beira"), "jpf": ("Japan", "Tokyo", "Osaka", "Saitama", "Sendai", "Yokohama", "Nagoya", "Kobe", "Kyoto", "Fukuoka", "Sapporo", "Hiroshima", "Okayama", "Kanagawa", "Chiba", "Shizuoka", "Niigata", "Kanazawa", "Kumamoto", "Kagoshima", "Naha", "Okinawa", "Gifu", "Hyogo", "Aichi"),
+    "vip": ("United States", "USA", "Canada", "Germany", "United Kingdom", "UK", "France",
+            "Spain", "Italy", "Russia", "Netherlands", "Belgium", "Switzerland", "Austria",
+            "Poland", "Sweden", "Denmark", "Norway", "Finland", "Ireland", "Portugal", "Czech",
+            "Hungary", "Romania", "Greece", "Slovakia", "Slovenia", "Croatia", "Bulgaria",
+            "Serbia", "Lithuania", "Latvia", "Estonia", "Luxembourg", "Ukraine", "Iceland"),
     "mg": ("Saudi", "United Arab Emirates", "UAE", "Kuwait", "Qatar", "Oman", "Bahrain",
            "Egypt", "Morocco", "Algeria", "Libya", "Sudan", "Tunisia", "Jordan", "Lebanon",
            "Iraq", "Yemen"),
@@ -68,11 +73,17 @@ def audit_batch(batch: str) -> list[str]:
         problems.append(f"{batch}: zip file present: {z.name}")
     for out in sorted(batch_dir.glob("* distributors (status checked)")):
         flagged = set()
+        flagged_by_market: dict[str, set] = {}
         ff = out / "flagged_for_review.xlsx"
         if ff.is_file():
             for r in list(openpyxl.load_workbook(ff, read_only=True).active.iter_rows(values_only=True))[1:]:
                 if r and len(r) > 1 and r[1]:
-                    flagged.add(S.name_key(_clean(r[1])))
+                    k = S.name_key(_clean(r[1]))
+                    flagged.add(k)
+                    # Column 0 = the market the row was flagged in. A company flagged
+                    # for one market is often a genuine entry of ANOTHER (adh 2026-11-03:
+                    # 120 false "flagged also in main list" alarms in a 120-market batch).
+                    flagged_by_market.setdefault(str(r[0] or "").strip(), set()).add(k)
         for x in sorted(out.glob("*_verified_distributors.xlsx")):
             tag = f"{batch}/{x.stem.replace('_verified_distributors', '')}"
             rows = list(openpyxl.load_workbook(x, read_only=True).active.iter_rows(values_only=True))
@@ -120,7 +131,11 @@ def audit_batch(batch: str) -> list[str]:
                 same = sorted({p for p in pairs if pairs.count(p) > 1})
                 if same:
                     problems.append(f"{tag}: same website + country twice: {same[:3]}")
-            leak = set(keys) & flagged
+            title = str(rows[0][0] or "").strip() if rows else ""
+            mine = flagged_by_market.get(title)
+            # per-market comparison when the flagged file names this market, else the
+            # old all-rows comparison (single-market batches / older flagged files)
+            leak = set(keys) & (mine if mine is not None else (set() if flagged_by_market and title else flagged))
             if leak:
                 problems.append(f"{tag}: {len(leak)} flagged companies also in the main list")
             gate = COUNTRY_GATE.get(batch)

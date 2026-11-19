@@ -39,6 +39,22 @@ from mg_markets import MARKETS_MG as _MARKETS_MG
 from ent_markets import MARKETS_ENT as _MARKETS_ENT
 from spice_markets import MARKETS_SPICE as _MARKETS_SPICE
 from soft_markets import MARKETS_SOFT as _MARKETS_SOFT
+from vip_markets import MARKETS_VIP as _MARKETS_VIP
+from cmp_markets import MARKETS_CMP as _MARKETS_CMP
+from buf_markets import MARKETS_BUF as _MARKETS_BUF
+from moz_markets import MARKETS_MOZ as _MARKETS_MOZ
+from jpf_markets import MARKETS_JPF as _MARKETS_JPF
+from esu_markets import MARKETS_ESU as _MARKETS_ESU
+from adh_markets import MARKETS_ADH as _MARKETS_ADH
+from iww_markets import MARKETS_IWW as _MARKETS_IWW
+from eadh_markets import MARKETS_EADH as _MARKETS_EADH
+from lug_markets import MARKETS_LUG as _MARKETS_LUG
+from cphi_markets import MARKETS_CPHI as _MARKETS_CPHI
+from eth_markets import MARKETS_ETH as _MARKETS_ETH
+from sorb_markets import MARKETS_SORB as _MARKETS_SORB
+from bie_markets import MARKETS_BIE as _MARKETS_BIE
+from alc_markets import MARKETS_ALC as _MARKETS_ALC
+from cphin_markets import MARKETS_CPHIN as _MARKETS_CPHIN
 
 # drone_markets.MARKETS predates the "kind" column and is (slug, market,
 # scope) only. Four of its ten are hybrid (verify_distributors_ai_mode's
@@ -75,6 +91,22 @@ BATCHES: tuple[tuple[str, str, tuple[tuple[str, str, str, str], ...]], ...] = (
     ("run_ent_market.py", "ent_profile_", _MARKETS_ENT),
     ("run_spice_market.py", "spice_profile_", _MARKETS_SPICE),
     ("run_soft_market.py", "soft_profile_", _MARKETS_SOFT),
+    ("run_vip_market.py", "vip_profile_", _MARKETS_VIP),
+    ("run_cmp_market.py", "cmp_profile_", _MARKETS_CMP),
+    ("run_buf_market.py", "buf_profile_", _MARKETS_BUF),
+    ("run_moz_market.py", "moz_profile_", _MARKETS_MOZ),
+    ("run_jpf_market.py", "jpf_profile_", _MARKETS_JPF),
+    ("run_esu_market.py", "esu_profile_", _MARKETS_ESU),
+    ("run_adh_market.py", "adh_profile_", _MARKETS_ADH),
+    ("run_iww_market.py", "iww_profile_", _MARKETS_IWW),
+    ("run_eadh_market.py", "eadh_profile_", _MARKETS_EADH),
+    ("run_lug_market.py", "lug_profile_", _MARKETS_LUG),
+    ("run_cphi_market.py", "cphi_profile_", _MARKETS_CPHI),
+    ("run_eth_market.py", "eth_profile_", _MARKETS_ETH),
+    ("run_sorb_market.py", "sorb_profile_", _MARKETS_SORB),
+    ("run_bie_market.py", "bie_profile_", _MARKETS_BIE),
+    ("run_alc_market.py", "alc_profile_", _MARKETS_ALC),
+    ("run_cphin_market.py", "cphin_profile_", _MARKETS_CPHIN),
 )
 
 # Flat (slug, market, scope, kind) across every batch.
@@ -102,7 +134,7 @@ def by_slug(slug: str) -> tuple[str, str, str, str]:
     )
 
 
-_DEFINITION_MODULES = ("soft_markets", "spice_markets","ent_markets","mg_markets","caps_markets","dc_markets","h2_markets","geo_markets","chemical_markets", "ingredient_markets",
+_DEFINITION_MODULES = ("cphin_markets", "alc_markets", "bie_markets", "sorb_markets", "eth_markets", "cphi_markets", "lug_markets", "eadh_markets", "iww_markets", "adh_markets", "esu_markets", "jpf_markets", "moz_markets", "buf_markets", "cmp_markets", "vip_markets", "soft_markets","spice_markets","ent_markets","mg_markets","caps_markets","dc_markets","h2_markets","geo_markets","chemical_markets", "ingredient_markets",
                        "water_markets", "food_markets", "wound_markets", "fire_markets")
 
 
@@ -236,6 +268,8 @@ def register_all() -> int:
         "service": D.DEF_SERVICE,
         "hybrid": D.DEF_HYBRID,
         "software": D.DEF_SOFTWARE,
+        "retail": D.DEF_RETAIL,
+        "solution": D.DEF_SOLUTION,
     }
     ok = 0
     for slug, market, scope, kind in ALL_MARKETS:
@@ -261,7 +295,8 @@ def export_one(slug: str) -> str:
     from vendor_intel.pipeline.market_research.export_xlsx import export_xlsx
 
     kind_map = {"distributor": D.DEF_PHYSICAL, "service": D.DEF_SERVICE,
-                "hybrid": D.DEF_HYBRID, "software": D.DEF_SOFTWARE}
+                "hybrid": D.DEF_HYBRID, "software": D.DEF_SOFTWARE,
+                "retail": D.DEF_RETAIL, "solution": D.DEF_SOLUTION}
     _slug, market, scope, kind = by_slug(slug)
     D.set_product_scope(market, scope)
     D.set_distributor_definition(market, kind_map[kind])

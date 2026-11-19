@@ -379,6 +379,8 @@ def _seed_profile_from_real_chrome(dest: Path) -> None:
     blocked ("This browser or app may not be secure"), which is why AI Mode
     is designed to work anonymously in the first place.
     """
+    if str(dest).lower() in _SEED_DISABLED or (Path(_VPN_DIR) / "state.json").exists():
+        return  # fresh profile = no cookies (VPN rotation / rebuilt after a block)
     src_root = (os.getenv("CHATGPT_SCRAPER_CHROME_PROFILE_DIR") or "").strip()
     src_name = (os.getenv("CHATGPT_SCRAPER_CHROME_PROFILE_DIRECTORY") or "Default").strip()
     if not src_root:
@@ -641,6 +643,44 @@ _COMPONENT_EXTENSION_IDS = (
 )
 
 
+# Cookie / site-storage paths inside a Chrome profile (Default/ and Network/).
+_COOKIE_ITEMS = ("Cookies", "Cookies-journal", "Network/Cookies", "Network/Cookies-journal",
+                 "Local Storage", "Session Storage", "IndexedDB", "Service Worker",
+                 "Shared Storage", "Trust Tokens", "Login Data", "Web Data", "History",
+                 "Sessions", "Current Session", "Current Tabs", "Last Session", "Last Tabs")
+# Profiles rebuilt in this process are never re-seeded from the real Chrome
+# profile: that seeding copied the user's Google cookies back in, so a
+# "deleted" profile came back with the same (flagged) cookies.
+_SEED_DISABLED: set[str] = set()
+
+
+def _delete_cookie_files(profile: Path) -> int:
+    n = 0
+    for sub in ("Default", ""):
+        base = profile / sub if sub else profile
+        for item in _COOKIE_ITEMS:
+            t = base / item
+            try:
+                if t.is_dir():
+                    shutil.rmtree(t, ignore_errors=True)
+                    n += 1
+                elif t.exists():
+                    t.unlink()
+                    n += 1
+            except Exception:
+                pass
+    return n
+
+
+def _clear_live_cookies() -> None:
+    """Drop the open browser's cookies before it closes (belt and braces)."""
+    try:
+        if _context is not None:
+            _context.clear_cookies()
+    except Exception:
+        pass
+
+
 def _rebuild_profile_preserving_staged(profile: Path) -> None:
     """Delete the automation profile but keep staged extensions.
 
@@ -652,7 +692,19 @@ def _rebuild_profile_preserving_staged(profile: Path) -> None:
     # Staged extensions live OUTSIDE the profile (see _staging_root), so a
     # reset simply cannot touch them — no move-aside/restore dance, and no
     # risk of recreating the profile dir and defeating the first_run check.
-    shutil.rmtree(profile, ignore_errors=True)
+    # User 2026-11-17: "when you delete the profile also delete the cookies".
+    # Chrome can still hold files for a moment after closing, and rmtree with
+    # ignore_errors then silently left the Cookies DB behind -> retry, and
+    # whatever survives, delete the cookie/storage files one by one.
+    for _ in range(6):
+        shutil.rmtree(profile, ignore_errors=True)
+        if not profile.exists():
+            break
+        time.sleep(1.5)
+    if profile.exists():
+        left = _delete_cookie_files(profile)
+        _log(f"profile folder partly locked - deleted {left} cookie/storage item(s) explicitly")
+    _SEED_DISABLED.add(str(profile).lower())
     # If the tree could not be removed (a file still held open by the
     # closing Chrome), the leftover Preferences keeps exit_type="Crashed"
     # and the replacement session boots into the restore modal. Clear it.
@@ -860,6 +912,39 @@ def _single_page(context):
         except Exception:
             pass
     return keep
+
+
+def _fresh_conversation_page(page):
+    """A clean tab for EVERY query, so each one starts its own AI Mode
+    conversation.
+
+    Since 2026-11 Google keeps the AI Mode conversation going in a tab: a new
+    ?q=...&udm=50 navigation in a tab that already holds an AI Mode answer is
+    added as a FOLLOW-UP to that chat. Two things then stacked prompts in one
+    conversation (user screenshot 2026-11-12: the same prompt twice, then
+    "thinking a little longer" / "Here are top web results for exploring this
+    topic" and no answer -- discovery found 2 companies in a 20-browser round):
+      * every round's next query, sent in the same tab;
+      * a re-send after a solved CAPTCHA, when Google had already submitted
+        the waiting query itself.
+    Opening a new tab (same context: cookies and login kept) and closing the
+    old one guarantees exactly one prompt per conversation.
+    """
+    try:
+        url = page.url or "about:blank"
+    except Exception:
+        url = "about:blank"
+    if url in ("about:blank", ""):
+        return page
+    try:
+        fresh = page.context.new_page()
+    except Exception:
+        return page
+    try:
+        page.close()
+    except Exception:
+        pass
+    return fresh
 
 
 def _clear_stale_event_loop() -> bool:
@@ -1374,6 +1459,7 @@ def reset_session(reason: str = "") -> bool:
         _log(f"reason: {reason}")
     _log("closing browser, discarding cookies, rebuilding the profile...")
 
+    _clear_live_cookies()
     shutdown()
 
     try:
@@ -1546,11 +1632,27 @@ _VERIFY_ROUNDS_PER_QUERY = 3
 _verify_total = 0
 
 
-def _page_is_verify(page) -> bool:
+# Google's "Sign in to continue - Sign in to verify you're a human and see
+# more results" wall (jpf run, 2026-10-29). Also a flagged-session page the
+# solver extension cannot touch, and it has no Continue button, so the
+# verify path's cookie-clear / relaunch / session-reset recovery handles it.
+_SIGNIN_MARKERS = ("sign in to continue", "sign in to verify you")
+
+
+def _page_is_signin_wall(page) -> bool:
     try:
-        return _VERIFY_MARKER in (page.inner_text("body", timeout=3000) or "").lower()
+        text = (page.inner_text("body", timeout=3000) or "").lower()
     except Exception:
         return False
+    return any(m in text for m in _SIGNIN_MARKERS)
+
+
+def _page_is_verify(page) -> bool:
+    try:
+        text = (page.inner_text("body", timeout=3000) or "").lower()
+    except Exception:
+        return False
+    return _VERIFY_MARKER in text or any(m in text for m in _SIGNIN_MARKERS)
 
 
 def _try_verify_continue(page, timeout_seconds: float = 20.0) -> bool:
@@ -1920,6 +2022,92 @@ def ask_generative(prompt: str, *, timeout: int = 180) -> str:
         return ""
 
 
+# --- Proton VPN switching hooks (scripts/vpn_switch.py, vpn_guard.py) -----
+# User 2026-11-16: when Google blocks the IP, switch the Proton VPN server;
+# before clicking Disconnect every pipeline browser must stop, and resume
+# after the new connection. data/vpn/PAUSE = "switch in progress": ask()
+# closes its browser and waits. data/vpn/blocks.log = one line per Google
+# block seen by any worker; vpn_guard counts them to decide a switch.
+_VPN_DIR = Path(__file__).resolve().parents[3] / "data" / "vpn"
+_VPN_PAUSE = _VPN_DIR / "PAUSE"
+_VPN_BLOCKS = _VPN_DIR / "blocks.log"
+
+
+def _report_block(kind: str) -> None:
+    try:
+        _VPN_DIR.mkdir(parents=True, exist_ok=True)
+        with _VPN_BLOCKS.open("a", encoding="utf-8") as fh:
+            fh.write(f"{time.time():.0f} {os.getpid()} {kind}\n")
+    except Exception:
+        pass
+
+
+def _wait_while_vpn_switch() -> None:
+    if not _VPN_PAUSE.exists():
+        return
+    _log("VPN server switch in progress — closing this browser and waiting")
+    try:
+        shutdown()
+    except Exception:
+        pass
+    while _VPN_PAUSE.exists():
+        time.sleep(5)
+    _log("VPN switch finished — resuming with a fresh browser")
+
+
+def _vpn_generation() -> int:
+    """Number of completed VPN server switches (scripts/vpn_switch.py)."""
+    try:
+        import json as _json
+        return int(_json.loads((_VPN_DIR / "state.json").read_text(encoding="utf-8")).get("switches", 0))
+    except Exception:
+        return -1
+
+
+def _fresh_profile_after_vpn_switch() -> None:
+    """User 2026-11-16: at every VPN server switch also "reset and delete all
+    browsers and open new browsers with the new server". Each profile folder
+    remembers the switch number it was last used under (.vpn_gen); when the
+    VPN has switched since, the browser is closed and its profile (cookies,
+    history, storage) rebuilt before the next query, so Google sees a new
+    visitor on the new IP. Runs in every worker (search, verify, status),
+    also ones that were idle during the switch. Not counted against
+    max_session_resets() (this is a planned rotation, not a failure)."""
+    gen = _vpn_generation()
+    if gen < 0:
+        return
+    try:
+        profile = Path(active_profile_dir())
+    except Exception:
+        return
+    marker = profile / ".vpn_gen"
+    try:
+        seen = int(marker.read_text(encoding="utf-8").strip())
+    except Exception:
+        seen = None
+    if seen == gen:
+        return
+    if seen is not None or (profile / "Default").exists():
+        _log(f"VPN server changed (switch #{gen}) — deleting this browser profile and opening a new browser")
+        _clear_live_cookies()
+        try:
+            shutdown()
+        except Exception:
+            pass
+        try:
+            _rebuild_profile_preserving_staged(profile)
+        except Exception as exc:  # noqa: BLE001
+            _log(f"profile rebuild failed ({type(exc).__name__}) — continuing with a relaunch")
+        globals()["_consecutive_failures"] = 0
+        globals()["_consecutive_captchas"] = 0
+        globals()["_consecutive_transient"] = 0
+    try:
+        profile.mkdir(parents=True, exist_ok=True)
+        marker.write_text(str(gen), encoding="utf-8")
+    except Exception:
+        pass
+
+
 def ask(prompt: str, *, retries: int = 1) -> str:
     """Send one prompt to Google AI Mode and return the answer text.
 
@@ -1944,6 +2132,8 @@ def ask(prompt: str, *, retries: int = 1) -> str:
             return ask(prompt, retries=0)
         return ""
 
+    _wait_while_vpn_switch()
+    _fresh_profile_after_vpn_switch()
     with _browser_lock:  # one query at a time per page
         # Space requests out so a long run doesn't trip Google's
         # "unusual traffic" IP throttle (see _pace_query).
@@ -1966,7 +2156,7 @@ def ask(prompt: str, *, retries: int = 1) -> str:
             # that had already screened 1,225 companies died on page.goto
             # because only goto's own timeout was being caught.
             try:
-                page = _get_page()
+                page = _fresh_conversation_page(_get_page())
                 try:
                     page.goto(
                         build_ai_mode_url(prompt),
@@ -1983,6 +2173,7 @@ def ask(prompt: str, *, retries: int = 1) -> str:
 
                 page.wait_for_timeout(1500)
                 if _page_is_verify(page):
+                    _report_block("verify")
                     globals()["_verify_total"] = _verify_total + 1
                     globals()["_last_captcha_at"] = time.monotonic()
                     if verify_rounds_left <= 0:
@@ -1992,6 +2183,20 @@ def ask(prompt: str, *, retries: int = 1) -> str:
                     verify_rounds_left -= 1
                     # Each recovery re-issues the query without costing an attempt.
                     attempts_left += 1
+                    # Google's "Sign in to continue - sign in to verify you're
+                    # a human" wall (user screenshot 2026-11-15, verifier
+                    # browsers): clearing cookies on the same profile only
+                    # brought it back, so the user asked to DELETE that browser
+                    # and open a new one at once. reset_session() wipes the
+                    # profile (extensions survive) and the next pass opens a
+                    # fresh, re-seeded browser.
+                    if _page_is_signin_wall(page):
+                        _report_block("signin")
+                        _log("Google 'Sign in to continue' wall — deleting this browser profile and opening a new browser")
+                        if not reset_session("Google 'Sign in to continue' wall"):
+                            attempts_left = 0
+                            break
+                        continue
                     if _try_verify_continue(page):
                         _log("'Verifying your request' cleared with Continue — re-sending query")
                         continue
@@ -2012,6 +2217,7 @@ def ask(prompt: str, *, retries: int = 1) -> str:
                         break
                     continue
                 if _page_is_captcha(page):
+                    _report_block("captcha")
                     _consecutive_captchas += 1
                     # Record the CAPTCHA in a way a later solve won't erase.
                     globals()["_captcha_total"] = _captcha_total + 1
@@ -2123,6 +2329,7 @@ def ask(prompt: str, *, retries: int = 1) -> str:
         # the problem rather than the prompt: rebuild it and retry this
         # same prompt once on the fresh session.
         globals()["_consecutive_failures"] = _consecutive_failures + 1
+        _report_block("no_answer")
         _log(
             f"no answer for this query "
             f"({_consecutive_failures}/{max_consecutive_failures()} consecutive failures)"

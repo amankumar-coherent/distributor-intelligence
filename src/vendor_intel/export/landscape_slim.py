@@ -142,6 +142,13 @@ COUNTRY_ISO: dict[str, str] = {
     "botswana": "BW",
     "namibia": "NA",
     "mauritius": "MU",
+    # Southern / Central / West Africa (Mozambique batch, 2026-10-28: without
+    # these the geography step blanked every Mozambican row).
+    "mozambique": "MZ", "moçambique": "MZ", "mocambique": "MZ",
+    "angola": "AO", "zambia": "ZM", "zimbabwe": "ZW", "malawi": "MW",
+    "madagascar": "MG", "senegal": "SN", "cameroon": "CM", "ivory coast": "CI",
+    "cote d'ivoire": "CI", "côte d'ivoire": "CI", "democratic republic of the congo": "CD",
+    "dr congo": "CD", "eswatini": "SZ", "swaziland": "SZ", "lesotho": "LS",
     "india": "IN",
     "china": "CN",
     "japan": "JP",
@@ -184,7 +191,7 @@ for _iso in ("AE", "SA", "QA", "KW", "BH", "OM", "JO", "LB", "IL", "IQ", "IR", "
     ISO_REGION[_iso] = "ME"
 for _iso in (
     "EG", "ZA", "NG", "KE", "MA", "TN", "DZ", "GH", "TZ", "ET", "UG", "RW",
-    "BW", "NA", "MU",
+    "BW", "NA", "MU", "MZ", "AO", "ZM", "ZW", "MW", "MG", "SN", "CM", "CI", "CD", "SZ", "LS",
 ):
     ISO_REGION[_iso] = "AF"
 for _iso in (

@@ -70,6 +70,22 @@ from mg_markets import MARKETS_MG, MG_REGIONS  # noqa: E402
 from ent_markets import ENT_REGIONS, MARKETS_ENT  # noqa: E402
 from spice_markets import MARKETS_SPICE  # noqa: E402
 from soft_markets import MARKETS_SOFT, SOFT_REGIONS  # noqa: E402
+from vip_markets import MARKETS_VIP, VIP_REGIONS  # noqa: E402
+from cmp_markets import CMP_REGIONS, MARKETS_CMP  # noqa: E402
+from buf_markets import BUF_REGIONS, MARKETS_BUF  # noqa: E402
+from moz_markets import MOZ_REGIONS, MARKETS_MOZ  # noqa: E402
+from jpf_markets import JPF_REGIONS, MARKETS_JPF  # noqa: E402
+from esu_markets import ESU_REGIONS, MARKETS_ESU  # noqa: E402
+from adh_markets import ADH_REGIONS, MARKETS_ADH  # noqa: E402
+from iww_markets import IWW_REGIONS, MARKETS_IWW  # noqa: E402
+from eadh_markets import EADH_REGIONS, MARKETS_EADH  # noqa: E402
+from lug_markets import LUG_REGIONS, MARKETS_LUG  # noqa: E402
+from cphi_markets import CPHI_REGIONS, MARKETS_CPHI  # noqa: E402
+from eth_markets import ETH_REGIONS, MARKETS_ETH  # noqa: E402
+from sorb_markets import SORB_REGIONS, MARKETS_SORB  # noqa: E402
+from bie_markets import BIE_REGIONS, MARKETS_BIE  # noqa: E402
+from alc_markets import ALC_REGIONS, MARKETS_ALC  # noqa: E402
+from cphin_markets import CPHIN_REGIONS, MARKETS_CPHIN  # noqa: E402
 from vendor_intel.pipeline.market_research.state import market_slug  # noqa: E402
 
 _INDIA_REGIONS = tuple(INDIA_STATES) + tuple(INDIA_CITIES)
@@ -102,6 +118,46 @@ _BATCHES = {
     "spice": ("run_spice_market.py", "spice_profile_", "logs_spice", MARKETS_SPICE, tuple(INDIA_STATES)),
     # Global Soft Serve Ice Cream Machines, distributors/importers/dealers, worldwide (user, 2026-10-21).
     "soft": ("run_soft_market.py", "soft_profile_", "logs_soft", MARKETS_SOFT, SOFT_REGIONS),
+    # NA + Europe Vacuum Insulation Panels, distributors only (user, 2026-10-25).
+    "vip": ("run_vip_market.py", "vip_profile_", "logs_vip", MARKETS_VIP, VIP_REGIONS),
+    # U.S. 503B Compounding Pharmacies Market: 503B outsourcing facilities, U.S. HQ,
+    # state by state (user, 2026-10-26).
+    "cmp": ("run_cmp_market.py", "cmp_profile_", "logs_cmp", MARKETS_CMP, CMP_REGIONS),
+    # Global Biopharma Buffer Market: DISTRIBUTORS, global (user, 2026-10-28).
+    "buf": ("run_buf_market.py", "buf_profile_", "logs_buf", MARKETS_BUF, BUF_REGIONS),
+    # Mozambique Fire Insurance Market: insurers + brokers/agents, Mozambique HQ (user, 2026-10-28).
+    "moz": ("run_moz_market.py", "moz_profile_", "logs_moz", MARKETS_MOZ, MOZ_REGIONS),
+    # Japan Fashion E-commerce Market: online fashion sellers, Japan HQ (user, 2026-10-29).
+    "jpf": ("run_jpf_market.py", "jpf_profile_", "logs_jpf", MARKETS_JPF, JPF_REGIONS),
+    # Global Electrosurgical and Allied Surgical Medical Devices Market: distributors / dealers, global (user, 2026-10-30).
+    "esu": ("run_esu_market.py", "esu_profile_", "logs_esu", MARKETS_ESU, ESU_REGIONS),
+    # 120 Adhesives & Bonding / Technical Foam markets: distributors / converters / dealers, global (user, 2026-10-30).
+    "adh": ("run_adh_market.py", "adh_profile_", "logs_adh", MARKETS_ADH, ADH_REGIONS),
+    # India Industrial Water & Wastewater Market: solution providers, India HQ only, states then cities (user, 2026-11-02).
+    "iww": ("run_iww_market.py", "iww_profile_", "logs_iww", MARKETS_IWW, IWW_REGIONS),
+    # The same 120 adhesives & foam markets, EUROPE only, seeded with the global finals' Europe companies (user, 2026-11-03).
+    "eadh": ("run_eadh_market.py", "eadh_profile_", "logs_eadh", MARKETS_EADH, EADH_REGIONS),
+    # India Luggage Delivery Service Market: luggage delivery service providers, India HQ,
+    # nationwide round naming the mandatory companies, then states, then cities (user, 2026-11-05).
+    "lug": ("run_lug_market.py", "lug_profile_", "logs_lug", MARKETS_LUG, LUG_REGIONS),
+    # 200 CPHI India 2026 pharma markets: distributors / wholesalers (CDMOs for 191-200), global,
+    # one market at a time with 20 browsers, every step per market (user, 2026-11-12).
+    "cphi": ("run_cphi_market.py", "cphi_profile_", "logs_cphi", MARKETS_CPHI, CPHI_REGIONS),
+    # Global Ethanolamine + Global Ethylene Oxide Derivatives: chemical distributors, global, one market
+    # at a time with 10 browsers, every step per market (user, 2026-11-15).
+    "eth": ("run_eth_market.py", "eth_profile_", "logs_eth", MARKETS_ETH, ETH_REGIONS),
+    # Potassium Sorbate / Sorbic Acid / Caffeine, each Global + India (India HQ), distributors +
+    # wholesalers, one market at a time with 10 browsers (user, 2026-11-16).
+    "sorb": ("run_sorb_market.py", "sorb_profile_", "logs_sorb", MARKETS_SORB, SORB_REGIONS),
+    # Brazil Industrial Electrification Market: solution providers (distributors, dealers,
+    # integrators, EPC/O&M, makers), Brazil-based only, cap 400, 10 browsers (user, 2026-11-18).
+    "bie": ("run_bie_market.py", "bie_profile_", "logs_bie", MARKETS_BIE, BIE_REGIONS),
+    # India Alcohol Market: India-HQ liquor importers / distributors / channel partners, focus gin,
+    # vodka, whisky (client export expansion), cap 400, 10 browsers (user, 2026-11-19).
+    "alc": ("run_alc_market.py", "alc_profile_", "logs_alc", MARKETS_ALC, ALC_REGIONS),
+    # The 200 CPHI pharma markets, INDIA ONLY (India HQ), cap 200 each, one market at a time
+    # with 10 browsers, low-yield stop (user, 2026-11-19).
+    "cphin": ("run_cphin_market.py", "cphin_profile_", "logs_cphin", MARKETS_CPHIN, CPHIN_REGIONS),
 }
 RUNNER, PROFILE_PREFIX = "", ""
 LOGS = ROOT
@@ -109,8 +165,12 @@ FIRE_SLUGS: tuple[str, ...] = ()
 REGIONS: tuple[str, ...] | dict[str, tuple[str, ...]] = ()  # shared list, or per-market plan
 
 
+BATCH_NAME = "fire"
+
+
 def select_batch(name: str) -> None:
-    global RUNNER, PROFILE_PREFIX, LOGS, FIRE_SLUGS, REGIONS
+    global RUNNER, PROFILE_PREFIX, LOGS, FIRE_SLUGS, REGIONS, BATCH_NAME
+    BATCH_NAME = name
     RUNNER, PROFILE_PREFIX, logs, markets, REGIONS = _BATCHES[name]
     LOGS = ROOT / logs
     LOGS.mkdir(exist_ok=True)
@@ -437,7 +497,10 @@ def run_wave(slugs: list[str], target: int, workers_per_market: int = 1) -> None
 
 # -- rolling mode: N slots, a finished market hands its slot to the next ------
 
-VERIFY_TIMEOUT = 2400          # a verifier still running after this is stuck
+# A verifier still running after this is stuck. VERIFY_TIMEOUT_SEC raises it
+# for throttled runs (eth 2026-11-15: two 40-min cutoffs left 324 kept
+# companies unmerged and started a needless extra search round).
+VERIFY_TIMEOUT = int(os.environ.get("VERIFY_TIMEOUT_SEC") or 2400)
 WORKERS_PER_MARKET = 1         # browsers per market per round (set by main)
 ZERO_ROUNDS_EXHAUSTED = 12     # consecutive regions with nothing new = exhausted
 _print_lock = threading.Lock()
@@ -482,6 +545,24 @@ def reset_profile(slug: str, reason: str) -> None:
             except OSError:
                 shutil.rmtree(p, ignore_errors=True)
     rlog(f"  {slug}: profile reset ({reason}), {moved} folder(s) archived")
+    _prune_archive(archive)
+
+
+ARCHIVE_KEEP = 10  # newest archived profiles kept; older ones deleted
+
+
+def _prune_archive(archive: Path) -> None:
+    """Archived profiles are only kept for a look at what went wrong. Unbounded,
+    they filled the C: drive (adh 2026-10-31: 11 GB, 'No space left on device'
+    killed the batch), so only the newest ARCHIVE_KEEP stay (user OK'd deleting
+    archived profiles)."""
+    try:
+        dirs = sorted((p for p in archive.iterdir() if p.is_dir()),
+                      key=lambda p: p.stat().st_mtime, reverse=True)
+    except OSError:
+        return
+    for old in dirs[ARCHIVE_KEEP:]:
+        shutil.rmtree(old, ignore_errors=True)
 
 
 def verify_one(slug: str) -> None:
@@ -525,20 +606,59 @@ def verify_one(slug: str) -> None:
             rlog(f"  {slug}: parallel verify ended without merging (attempt {attempt}) — "
                  + ("retrying" if attempt == 1 else "will merge next round"))
         return
-    subprocess.run([sys.executable, str(ROOT / "verify_all_drones.py"), "--only", slug],
-                   cwd=str(ROOT), capture_output=True, timeout=300)
     pattern = "verify_distributors.*" + _slugify_for_match(slug)
+    # Never two verifiers on one market (same checkpoint + profile): a
+    # leftover from an earlier round is killed first (adh 2026-10-31: three
+    # markets had an orphan 50-60 min verifier next to a new one).
+    _kill(f"$_.Name -eq 'python.exe' -and $_.CommandLine -match '{pattern}'")
+    try:
+        subprocess.run([sys.executable, str(ROOT / "verify_all_drones.py"), "--only", slug],
+                       cwd=str(ROOT), capture_output=True, timeout=300)
+    except subprocess.TimeoutExpired:
+        # Slow start on a busy PC (adh065 2026-10-31): the verifier is
+        # usually up anyway -- go on and wait for it below, don't crash the
+        # market loop into a retry.
+        rlog(f"  {slug}: verifier launch slow (>300 s) -- waiting for it")
     seen, waited = False, 0
     while waited < VERIFY_TIMEOUT:
         n = _count_matching(pattern)
         if n > 0:
             seen = True
+        elif n < 0:
+            pass  # count timed out (busy PC): unknown, NOT drained -- keep waiting
         elif seen or waited >= 90:
             return
         time.sleep(15)
         waited += 15
     _kill(f"$_.Name -eq 'python.exe' -and $_.CommandLine -match '{pattern}'")
     reset_profile(slug, f"verifier stuck {VERIFY_TIMEOUT // 60} min")
+
+
+# A region list may start with "Worldwide round N" entries (global searches,
+# no country named) followed by countries. Global searches keep returning the
+# same well-known names, so once a worldwide round adds fewer than this many
+# new companies the market's remaining worldwide rounds are marked done and
+# the next rounds take the countries it has not searched yet (user, adh
+# 2026-10-31: "okay do").
+WORLDWIDE_MIN_GAIN = 10
+
+# Optional low-yield stop (env; 0 = off, the default for every older batch).
+LOW_YIELD_MIN = int(os.environ.get("LOW_YIELD_MIN") or 0)
+LOW_YIELD_ROUNDS = int(os.environ.get("LOW_YIELD_ROUNDS") or 2)
+
+
+def _is_worldwide(region: str) -> bool:
+    return region.lower().startswith("worldwide")
+
+
+def switch_to_countries(slug: str, gained: int) -> None:
+    pool = REGIONS.get(slug, ()) if isinstance(REGIONS, dict) else REGIONS
+    rest = [r for r in pool if _is_worldwide(r)]
+    if not any(not _is_worldwide(r) for r in pool):
+        return  # worldwide-only plan: nothing to switch to
+    mark_finished(slug, rest)
+    rlog(f"  {slug}: worldwide round added {gained} (< {WORLDWIDE_MIN_GAIN}) "
+         f"-> switching to countries not searched yet")
 
 
 def market_loop(slug: str, target: int, start_delay: float) -> None:
@@ -548,7 +668,13 @@ def market_loop(slug: str, target: int, start_delay: float) -> None:
     pages looks like from outside."""
     time.sleep(start_delay)
     market = market_batches.by_slug(slug)[1]
+    # Per-market cap: a market module may define TARGETS = {slug: cap}
+    # (sorb, user 2026-11-16: India markets 200, Global markets 400).
+    own = market_batches._module_attr("TARGETS", slug)
+    if own:
+        target = int(own)
     zero_rounds = 0
+    low_rounds = 0
     rlog(f"START {slug} (verified {S.verified(market)}/{target}, "
          f"{WORKERS_PER_MARKET} browser(s))")
     while True:
@@ -592,6 +718,20 @@ def market_loop(slug: str, target: int, start_delay: float) -> None:
         v = S.verified(market)
         names = ", ".join(r.split("(")[0].strip() for r in regions)
         rlog(f"  {slug}: {names} +{gained} found, verified {v}/{target}")
+        if all(_is_worldwide(r) for r in regions) and gained < WORLDWIDE_MIN_GAIN:
+            switch_to_countries(slug, gained)
+        # Low-yield stop (cphin, user 2026-11-19: 200 India markets): when
+        # LOW_YIELD_MIN is set, a market whose rounds add fewer than that
+        # many companies LOW_YIELD_ROUNDS times in a row is treated as
+        # exhausted, instead of searching every remaining city for 1-2 more.
+        if LOW_YIELD_MIN and gained < LOW_YIELD_MIN:
+            low_rounds += 1
+            if low_rounds >= LOW_YIELD_ROUNDS:
+                rlog(f"DONE {slug}: {low_rounds} rounds in a row added < {LOW_YIELD_MIN} "
+                     f"new companies ({v} verified)")
+                return
+        else:
+            low_rounds = 0
         if gained > 0:
             zero_rounds = 0
             continue
@@ -668,10 +808,60 @@ def _safe_market_loop(slug: str, target: int, start_delay: float) -> None:
     for attempt in range(1, 4):
         try:
             market_loop(slug, target, start_delay if attempt == 1 else 30.0)
+            if os.environ.get("FINALIZE_EACH") == "1":
+                finalize_one(slug)
             return
         except Exception:  # noqa: BLE001
             rlog(f"ERROR {slug} (attempt {attempt}/3):\n{traceback.format_exc()}")
     rlog(f"GAVE UP {slug} after 3 errors")
+
+
+STATUS_WORKERS = 20
+
+
+def _finished_slugs(upto: str) -> list[str]:
+    """Markets of this batch up to and including `upto` (they run in order,
+    one at a time, under FINALIZE_EACH) whose verified workbook exists."""
+    out = []
+    for s in FIRE_SLUGS:
+        market = market_batches.by_slug(s)[1]
+        if (ROOT / "output" / "market_research" / f"{market_slug(market)}_verified_distributors.xlsx").is_file():
+            out.append(s)
+        if s == upto:
+            break
+    return out
+
+
+def finalize_one(slug: str) -> None:
+    """FINALIZE_EACH=1 (cphi, user 2026-11-12: "after one market is complete
+    with all pipeline steps, run the next"): right after a market finishes
+    discovery + verification, run the status + ownership check and the build
+    for every market finished so far (only the new companies are asked;
+    earlier answers are reused), then delete this market's browser profiles
+    so 200 markets x 20 profiles never fill the disk -- the next market
+    starts on fresh ones."""
+    # A resumed launcher walks every market again; one whose final file is
+    # already newer than its verified workbook needs no status pass (each
+    # empty pass cost ~5 min of staggered workers -- 2026-11-16 resume spent
+    # 30 min re-finalizing markets 1 and 5-8 with no browser open).
+    market = market_batches.by_slug(slug)[1]
+    verified = ROOT / "output" / "market_research" / f"{market_slug(market)}_verified_distributors.xlsx"
+    final = (ROOT / "output" / "final" / BATCH_NAME / f"{BATCH_NAME} distributors (status checked)"
+             / f"{slug}_verified_distributors.xlsx")
+    if final.is_file() and verified.is_file() and final.stat().st_mtime >= verified.stat().st_mtime:
+        rlog(f"FINALIZE-EACH {slug}: final file already up to date - skipped")
+        return
+    rlog(f"FINALIZE-EACH {slug}: status check + build")
+    finalize(BATCH_NAME, _finished_slugs(slug), STATUS_WORKERS)
+    stop_browsers_for([slug])
+    base = f"{PROFILE_PREFIX}{slug}"
+    own = re.compile(rf"^{re.escape(base)}(_w\d+)?(_chromium|_extensions)?$")
+    freed = 0
+    for p in (ROOT / "data").iterdir():
+        if p.is_dir() and own.match(p.name):
+            shutil.rmtree(p, ignore_errors=True)
+            freed += 1
+    rlog(f"FINALIZE-EACH {slug}: done, {freed} profile folder(s) deleted")
 
 
 def main() -> None:
@@ -696,8 +886,23 @@ def main() -> None:
                     help="browsers for the final status + ownership check")
     args = ap.parse_args()
     select_batch(args.batch)
+    global STATUS_WORKERS
+    STATUS_WORKERS = args.status_workers
 
     by_slug = market_batches.by_slug
+    if not args.finalize_only:
+        # Refuse to launch a batch whose discovery prompt cannot fit Google's
+        # URL: it would be cut from the end, answer in prose and find nothing
+        # (vip 2026-10-25, 0 companies in 10 minutes). Measured, not guessed.
+        pre = subprocess.run([sys.executable, str(ROOT / "scripts" / "preflight_prompt.py"),
+                              "--batch", args.batch], cwd=str(ROOT), capture_output=True,
+                             text=True, encoding="utf-8", errors="replace")
+        for line in (pre.stdout or "").splitlines():
+            rlog(line)
+        if pre.returncode != 0:
+            rlog(f"PREFLIGHT FAILED for {args.batch}: discovery prompt too long for the "
+                 "Google URL -- shorten the scope; not launching.")
+            return
     if args.finalize_only:
         finalize(args.batch, list(FIRE_SLUGS), args.status_workers)
         return

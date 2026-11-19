@@ -293,6 +293,67 @@ _PRODUCT_SCOPES: tuple[tuple[tuple[str, ...], str], ...] = (
 _REGISTERED_SCOPES: dict[str, str] = {}
 
 
+# SIMPLE QUERY mode (2026-11-13). Google AI Mode started answering the long,
+# rule-heavy discovery prompt with a canned "Here are top web results for
+# exploring this topic" page (always Apple Developer / Motley Fool / Cars.com)
+# instead of an answer: 0 of ~20 full prompts answered, cphi001's first
+# 20-browser round found 2 companies. A plain one-sentence request with the
+# SAME all-column JSON template is answered (3/3 profiles; ~50% with a
+# do-not-repeat list across countries, ~16-17 of 21 columns filled). The
+# company-type and exclusion rules are still enforced by the verifier
+# (VERIFY_RULES / criteria_prompt), so discovery only has to name candidates.
+# A market opts in with set_simple_query(market, "<who> of <what> headquartered
+# in <where>"); every other market keeps the full prompt.
+_SIMPLE_QUERY: dict[str, str] = {}
+_SIMPLE_SYSTEM = "You are a market-research analyst."
+
+
+def set_simple_query(market: str, request: str) -> None:
+    _SIMPLE_QUERY[market.strip().lower()] = request.strip()
+
+
+def simple_query_for(market: str) -> str:
+    return _SIMPLE_QUERY.get(market.strip().lower(), "")
+
+
+def _simple_prompt(full_prompt: str, request: str, excluded: list[str], count: int,
+                   accepted: frozenset[str] | None = None) -> str:
+    """'List N real <request>. Do not repeat: ... Reply with ONLY a JSON array:
+    <the full prompt's own all-column template>'."""
+    i = full_prompt.rfind("[{")
+    template = full_prompt[i:].strip() if i >= 0 else "[]"
+    names: list[str] = []
+    used = 0
+    for name in excluded:
+        if used + len(name) > 1500:
+            break
+        names.append(name)
+        used += len(name) + 2
+    more = len(excluded) - len(names)
+    repeat = ""
+    if names:
+        repeat = "Do not repeat: " + ", ".join(names) + (f" and {more} more already listed" if more else "") + ". "
+    # batch_runner._build_row keeps a draft only when its verdict is one of
+    # the market's accepted words (e.g. "distributor"); without saying so the
+    # model wrote "Trader" / "Wholesaler" and every such company was dropped
+    # before verification (cphi001 2026-11-13: 35 rejects in a few rounds).
+    verdict = ""
+    if accepted:
+        word = sorted(accepted)[0]
+        verdict = (f'Set verdict to "{word}" when the company fits that description '
+                   'and to "manufacturer" or "other" when it does not. ')
+    return (f"List {count} real {request}. {repeat}{verdict}"
+            # finalize_row rejects a company with ANY firmographic field blank
+            # (the old prompt said "fill every field"); "empty strings for
+            # details you do not know" emptied them too -> 52 'incomplete row'
+            # rejects in 8 minutes on cphi001. Empty only the contact fields.
+            "Fill every company field (website, founded year, headquarters city and country, "
+            "countries with offices, countries it sells in, ownership, employees as a range like 50-200, "
+            "categories, focus, key products). Leave contact_person, role, email, linkedin, office_no "
+            "and office_email empty unless the real published value is known. "
+            "Reply with ONLY a JSON array: " + template)
+
+
 def set_product_scope(market: str, scope: str) -> None:
     """Register the product scope for one market, overriding the table."""
     _REGISTERED_SCOPES[market.strip().lower()] = scope
@@ -349,11 +410,13 @@ DEF_PHYSICAL = "physical"
 DEF_SOFTWARE = "software"
 DEF_HYBRID = "hybrid"
 DEF_SERVICE = "service"
+DEF_RETAIL = "retail"
+DEF_SOLUTION = "solution"
 
 
 def set_distributor_definition(market: str, kind: str) -> None:
     """Force a market to use the physical, software or hybrid rule."""
-    if kind not in (DEF_PHYSICAL, DEF_SOFTWARE, DEF_HYBRID, DEF_SERVICE):
+    if kind not in (DEF_PHYSICAL, DEF_SOFTWARE, DEF_HYBRID, DEF_SERVICE, DEF_RETAIL, DEF_SOLUTION):
         raise ValueError(f"unknown definition kind: {kind}")
     _DEFINITION_OVERRIDES[market.strip().lower()] = kind
 
@@ -373,9 +436,33 @@ THE SERVICE MUST BE ITS ACTUAL BUSINESS, not a capability it mentions. A company
 STRICTLY EXCLUDE: manufacturers whose only "service" is support, warranty or familiarisation for their own products; pure equipment sellers and distributors with no service delivery; marketplaces and directories that merely list providers; and media, associations or holding companies. If unsure whether the company actually performs the work, EXCLUDE it."""
 
 
+# Markets whose companies are the SELLERS to end consumers through online
+# channels (e-commerce markets: Japan Fashion E-commerce, user 2026-10-29).
+# The physical rule drops brand owners selling their own goods online and
+# the service rule drops marketplaces -- exactly the companies the report
+# profiles (Rakuten, Mercari, BUYMA, UNIQLO, BEAMS) -- so neither fits.
+_DEF_ONLINE_SELLER = """Give me {count} ONLINE SELLER companies of this market ONLY. A qualifying company SELLS the market's products to consumers through ONLINE channels it operates: an online marketplace or shopping platform, an online-only retailer, a multi-brand retailer or select shop with its own online store, or a brand owner selling its own products through its own website, app or social commerce.
+
+ONLINE SELLING OF THE MARKET'S PRODUCTS MUST BE A REAL PART OF ITS BUSINESS, not a mention. EXCLUDE offline-only retailers with no online store; general e-commerce sellers whose range is not mainly the market's products (unless they run a dedicated store or platform for them); technology, platform software, logistics, fulfilment, payment and marketing service providers; wholesalers and manufacturers selling only to businesses; and media, associations or directories. If unsure, EXCLUDE."""
+
+
+# Markets whose companies SELL projects, systems, equipment/technology and
+# O&M services together (India Industrial Water & Wastewater, user 2026-11-02):
+# EPC contractors, treatment technology / equipment makers and O&M companies.
+# The physical rule drops the makers, the service rule drops the equipment
+# suppliers -- both are in this market, so neither fits.
+_DEF_SOLUTION_PROVIDER = """Give me {count} SOLUTION PROVIDER companies of this market ONLY. A qualifying company SELLS this market's solutions commercially to its customers as its business: it designs, engineers, supplies, installs, modernizes, operates or maintains the systems, or makes and supplies the core equipment or technology the market covers, or provides its aftermarket, O&M or lifecycle services. EPC / EPCM / DBO / BOO contractors, technology and equipment suppliers and O&M service companies all qualify when this work is what customers pay them for.
+
+IT MUST BE ITS ACTUAL BUSINESS within the market's own scope, not a capability it mentions. A company whose work lies mainly in the market's EXCLUDED areas does NOT qualify. STRICTLY EXCLUDE: companies serving only the customers or products the scope excludes; general contractors, builders and infrastructure developers; sellers of commodity chemicals or consumables with no system or service; traders, tanker operators and distributors of water; and media, associations, directories and holding companies. If unsure, EXCLUDE."""
+
+
 def distributor_definition_for(market: str) -> str:
     """Pick the definition that matches the market's own economics."""
     override = _DEFINITION_OVERRIDES.get((market or "").strip().lower())
+    if override == DEF_SOLUTION:
+        return _DEF_SOLUTION_PROVIDER
+    if override == DEF_RETAIL:
+        return _DEF_ONLINE_SELLER
     if override == DEF_SERVICE:
         return _DEF_SERVICE_PROVIDER
     if override == DEF_HYBRID:
@@ -399,7 +486,7 @@ def verdict_kind_for(market: str) -> str:
     kind applies, not the definition prose itself.
     """
     override = _DEFINITION_OVERRIDES.get((market or "").strip().lower())
-    if override in (DEF_SERVICE, DEF_HYBRID, DEF_SOFTWARE, DEF_PHYSICAL):
+    if override in (DEF_SERVICE, DEF_HYBRID, DEF_SOFTWARE, DEF_PHYSICAL, DEF_RETAIL, DEF_SOLUTION):
         return override
     low = (market or "").lower()
     if any(h in low for h in _SOFTWARE_MARKET_HINTS):
@@ -467,11 +554,34 @@ _VERDICT_SERVICE_TEXT = (
 )
 _VERDICT_SERVICE_ACCEPT = frozenset({"service_provider"})
 
+_VERDICT_RETAIL_TEXT = (
+    '- verdict: "online_seller" ONLY if it sells this market products to '
+    'consumers through online channels it operates (marketplace, online '
+    'store, brand website, app, social commerce); else "offline_retailer" '
+    '(no online store), "wholesaler", "service_provider" (technology, '
+    'logistics, payment, marketing), "other" or "unknown". NEVER guess. '
+    'Include the company ONLY if verdict is "online_seller".'
+)
+_VERDICT_RETAIL_ACCEPT = frozenset({"online_seller"})
+
+_VERDICT_SOLUTION_TEXT = (
+    '- verdict: "solution_provider" ONLY if it designs, supplies, installs, '
+    'operates or maintains this market solutions, or makes the core equipment '
+    'or technology, as its actual business for the market own customers and '
+    'scope; else "excluded_scope" (its work is only in areas the scope '
+    'excludes), "chemical_or_trader" (sells only commodity chemicals, '
+    'consumables or water), "other" or "unknown". NEVER guess. Include the '
+    'company ONLY if verdict is "solution_provider".'
+)
+_VERDICT_SOLUTION_ACCEPT = frozenset({"solution_provider"})
+
 _VERDICT_BY_KIND: dict[str, tuple[str, frozenset[str]]] = {
     DEF_PHYSICAL: (_VERDICT_PHYSICAL_TEXT, _VERDICT_PHYSICAL_ACCEPT),
     DEF_HYBRID: (_VERDICT_HYBRID_TEXT, _VERDICT_HYBRID_ACCEPT),
     DEF_SOFTWARE: (_VERDICT_SOFTWARE_TEXT, _VERDICT_SOFTWARE_ACCEPT),
     DEF_SERVICE: (_VERDICT_SERVICE_TEXT, _VERDICT_SERVICE_ACCEPT),
+    DEF_RETAIL: (_VERDICT_RETAIL_TEXT, _VERDICT_RETAIL_ACCEPT),
+    DEF_SOLUTION: (_VERDICT_SOLUTION_TEXT, _VERDICT_SOLUTION_ACCEPT),
 }
 
 
@@ -528,6 +638,7 @@ for a service market, naming the service it performs \
 - manufactures_own_products: "yes" if it makes ANY product it sells \
 here (own brand/factory/product line counts), "no" if it only resells, \
 "unknown" if unsure.
+- company: its official ENGLISH name (romanised if none), never in Japanese, Chinese or Korean script.
 - website: real official domain (not a directory/social page).
 - founded: 4-digit year.
 - headquarters: city, country.
@@ -1196,6 +1307,26 @@ def _compact_definition(market: str, count: int) -> str:
             "service providers with nothing to resell or integrate. If "
             "unsure, EXCLUDE."
         )
+    if kind == DEF_SOLUTION:
+        return (
+            f"Give me {count} SOLUTION PROVIDER companies of this market ONLY: "
+            "EPC / EPCM / DBO contractors, treatment technology and equipment "
+            "suppliers (own-make is fine) and O&M or lifecycle service "
+            "companies whose actual business is this market's solutions. "
+            "EXCLUDE companies serving only the customers or products the "
+            "scope excludes, general contractors and developers, commodity "
+            "chemical or consumables sellers, water traders and tanker "
+            "suppliers, and directories. If unsure, EXCLUDE."
+        )
+    if kind == DEF_RETAIL:
+        return (
+            f"Give me {count} ONLINE SELLER companies of this market ONLY: "
+            "marketplaces, online retailers, retailers or select shops with "
+            "their own online store, and brand owners selling online. "
+            "EXCLUDE offline-only retailers, general e-commerce sellers not "
+            "focused on this market's products, technology / logistics / "
+            "payment providers, and B2B-only wholesalers. If unsure, EXCLUDE."
+        )
     if kind == DEF_SERVICE:
         return (
             f"Give me {count} SERVICE PROVIDER companies of this market "
@@ -1300,7 +1431,10 @@ def discover_and_draft(
     )
 
     try:
-        reply = ai_mode_client.chat(_DRAFT_SYSTEM, prompt, max_tokens=6000)
+        simple = simple_query_for(market)
+        if simple:
+            prompt = _simple_prompt(prompt, simple, excluded, count, accepted_verdicts_for(market))
+        reply = ai_mode_client.chat(_SIMPLE_SYSTEM if simple else _DRAFT_SYSTEM, prompt, max_tokens=6000)
     except ai_mode_client.AIModeUnavailable:
         # Single backend by design — no other provider is substituted. A
         # failure here means AI Mode returned nothing (CAPTCHA, timeout, or

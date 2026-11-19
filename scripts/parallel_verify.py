@@ -121,7 +121,10 @@ def main() -> None:
                 added += 1
     if main_ck.exists():
         shutil.copy2(main_ck, main_ck.with_suffix(f".before_parallel_{time.strftime('%Y%m%d_%H%M%S')}.json"))
-    main_ck.write_text(json.dumps(merged, ensure_ascii=False, indent=2), encoding="utf-8")
+    # Atomic: an in-place write on a full disk leaves a 0-byte checkpoint.
+    _tmp = main_ck.with_name(main_ck.name + ".tmp")
+    _tmp.write_text(json.dumps(merged, ensure_ascii=False, indent=2), encoding="utf-8")
+    os.replace(_tmp, main_ck)
     log(f"merged {added} verdicts -> {main_ck.name} ({len(merged['verdicts'])} total)")
 
     # One normal verifier pass: nothing (or almost nothing) left to judge, so

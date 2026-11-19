@@ -127,8 +127,13 @@ def main() -> None:
         text = launcher_log.read_text(encoding="utf-8", errors="replace")[-500000:] \
             if launcher_log.is_file() else ""
         since_start = text[text.rfind("rolling:"):] if "rolling:" in text else text
+        # FINALIZE_EACH batches (cphi, 2026-11-13) log "FINALIZE <b>: done"
+        # after EVERY market, so that line alone no longer means the batch is
+        # over -- it made the watchdog exit after market 1. Only "markets
+        # processed" (printed once the launcher's rolling loop ends) counts.
+        each = "FINALIZE-EACH" in since_start
         finished = ("markets processed" in since_start
-                    or f"FINALIZE {args.batch}: done" in since_start)
+                    or (not each and f"FINALIZE {args.batch}: done" in since_start))
         if done == len(slugs) or finished:
             # Last pipeline step: status + ownership check and packaging. A
             # launcher started before finalize() existed never runs it, so

@@ -193,6 +193,13 @@ _COUNTRY_ALIASES = {
     "federativerepublicofbrazil": "brazil",
     "repúblicafederativadobrasil": "brazil",
     "republicafederativadobrasil": "brazil",
+    # Mozambican companies write "Moçambique"; stripping the cedilla leaves
+    # "moambique", which a gate looking for "Mozambique" would reject.
+    "mocambique": "mozambique",
+    "moambique": "mozambique",
+    "republicofmozambique": "mozambique",
+    "republicademocambique": "mozambique",
+    "repúblicademoçambique": "mozambique",
 }
 
 

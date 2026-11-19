@@ -118,9 +118,44 @@ def _col(header: list, name: str) -> int | None:
         return None
 
 
+def _find_header_index(rows: list) -> int:
+    """0-based index of the header row ('#' / 'Company'), normally HEADER_ROW-1.
+    Some verified workbooks carry an extra banner line (e.g. a PRODUCT SCOPE
+    row), which pushed the header to row 6: the build crashed and their
+    companies were silently never status-checked (adh 2026-11-03)."""
+    for i, r in enumerate(rows[:12]):
+        cells = [str(c).strip() for c in (r or ()) if c is not None]
+        if "Company" in cells and "Website" in cells:
+            return i
+    return HEADER_ROW - 1
+
+
+def _normalize_header_row(ws) -> None:
+    """Make the header sit on HEADER_ROW by deleting extra banner lines above it."""
+    rows = [tuple(c.value for c in r) for r in ws.iter_rows(min_row=1, max_row=12)]
+    h = _find_header_index(rows) + 1
+    if h <= HEADER_ROW:
+        return
+    width = ws.max_column
+    for m in [m for m in ws.merged_cells.ranges if m.min_row < h]:
+        ws.unmerge_cells(str(m))
+    extra = h - HEADER_ROW
+    scope_rows = [i for i in range(2, h) if str(ws.cell(i, 1).value or "").lstrip().upper().startswith(
+        ("PRODUCT SCOPE", "PRODUCT/SOLUTION SCOPE", "SOFTWARE SCOPE"))]
+    for r in sorted(scope_rows[:extra], reverse=True):
+        ws.delete_rows(r, 1)
+    extra -= min(extra, len(scope_rows))
+    while extra > 0:  # anything still in excess: drop the rows just above the header
+        ws.delete_rows(HEADER_ROW, 1)
+        extra -= 1
+    for r in (1, 2, 3):
+        ws.merge_cells(start_row=r, start_column=1, end_row=r, end_column=max(1, width))
+
+
 def read_rows(xlsx: Path) -> list[dict]:
     ws = openpyxl.load_workbook(xlsx, read_only=True, data_only=True).active
-    rows = list(ws.iter_rows(min_row=HEADER_ROW, values_only=True))
+    allrows = list(ws.iter_rows(values_only=True))
+    rows = allrows[_find_header_index(allrows):]
     header = [str(c).strip() if c is not None else "" for c in rows[0]]
     ci, wi, hi = _col(header, "Company"), _col(header, "Website"), _col(header, "Headquarters")
     out = []
@@ -466,7 +501,7 @@ def set_market_definition(ws, stem: str) -> None:
 
         _slug, market, _scope, kind = market_batches.by_slug(slug)
         D.set_distributor_definition(market, {
-            "distributor": D.DEF_PHYSICAL, "service": D.DEF_SERVICE,
+            "distributor": D.DEF_PHYSICAL, "service": D.DEF_SERVICE, "retail": D.DEF_RETAIL, "solution": D.DEF_SOLUTION,
             "hybrid": D.DEF_HYBRID, "software": D.DEF_SOFTWARE}[kind])
         lines = [" ".join(str(t).split()) for t, is_title in _definition_banner(market) if not is_title]
         if lines:
@@ -526,6 +561,7 @@ def build(folder: Path, out: Path, make_zip: bool) -> None:
     for f in input_files(folder):
         wb = openpyxl.load_workbook(f)
         ws = wb.active
+        _normalize_header_row(ws)
         set_market_definition(ws, f.stem)
         header = [str(c.value or "").strip() for c in ws[HEADER_ROW]]
         ci, wi = header.index("Company") + 1, header.index("Website") + 1
@@ -539,6 +575,7 @@ def build(folder: Path, out: Path, make_zip: bool) -> None:
         drop = []
         counts = dict.fromkeys(totals, 0)
         row_action: dict[int, str] = {}   # kept / renamed rows, for the duplicate check
+        flag_at: dict[int, int] = {}      # flagged sheet row -> index in flag_rows
         for r in range(FIRST_DATA_ROW, ws.max_row + 1):
             cell = ws.cell(row=r, column=ci)
             name = str(cell.value or "").strip()
@@ -576,6 +613,7 @@ def build(folder: Path, out: Path, make_zip: bool) -> None:
                 hq = ws.cell(row=r, column=header.index("Headquarters") + 1).value if "Headquarters" in header else ""
                 flag_rows.append([market_name(ws), shown, ws.cell(row=r, column=wi).value,
                                   hq, _said(v), reason])
+                flag_at[r] = len(flag_rows) - 1
                 drop.append(r)
                 counts["flagged"] += 1
                 continue
@@ -591,15 +629,38 @@ def build(folder: Path, out: Path, make_zip: bool) -> None:
                                acq, v.get("year", ""), v.get("evidence", ""), action])
         # The same company listed twice (spelling / website variants): keep one row.
         hq_col = header.index("Headquarters") + 1 if "Headquarters" in header else None
-        cand = []
-        for r in row_action:
+        def _cand(r: int) -> dict:
             hq = str(ws.cell(row=r, column=hq_col).value or "") if hq_col else ""
             parts = [p.strip().lower() for p in hq.split(",")]
-            cand.append({"row": r, "name": str(ws.cell(row=r, column=ci).value or ""),
-                         "website": ws.cell(row=r, column=wi).value,
-                         "city": parts[0] if len(parts) > 1 else "", "country": parts[-1] if len(parts) > 1 else "",
-                         "filled": sum(1 for c in ws[r] if c.value not in (None, ""))})
-        for r, keep in find_duplicates(cand).items():
+            return {"row": r, "name": str(ws.cell(row=r, column=ci).value or ""),
+                    "website": ws.cell(row=r, column=wi).value,
+                    "city": parts[0] if len(parts) > 1 else "", "country": parts[-1] if len(parts) > 1 else "",
+                    "filled": sum(1 for c in ws[r] if c.value not in (None, ""))}
+        cand = [_cand(r) for r in row_action]
+        dupes = find_duplicates(cand)
+        # A flagged row that is a twin of a company still in the main list is
+        # a duplicate, not a flag (vip 2026-10-25: "SIG Technische
+        # Isolatiespecialist" flagged, its "B.V." twin listed; Laydex too).
+        survivors = [c for c in cand if c["row"] not in dupes]
+        group: dict[int, int] = {}
+        for d, k in find_duplicates(survivors + [_cand(r) for r in flag_at]).items():
+            group[d] = group[k] = k
+        members: dict[int, list[int]] = {}
+        for r, g in group.items():
+            members.setdefault(g, []).append(r)
+        twin_drop = set()
+        for rows_ in members.values():
+            listed = [r for r in rows_ if r in row_action]
+            for r in rows_:
+                if r in flag_at and listed:
+                    twin_drop.add(flag_at[r])
+                    counts["flagged"] -= 1
+                    counts["dupes"] += 1
+                    report.append([f.stem, flag_rows[flag_at[r]][1], ws.cell(row=r, column=wi).value,
+                                   "duplicate", "", "", f"Same company as '{ws.cell(row=listed[0], column=ci).value}' "
+                                   "(already in the list) - listed once.", "duplicate"])
+        flag_rows[:] = [row for i, row in enumerate(flag_rows) if i not in twin_drop]
+        for r, keep in dupes.items():
             counts[row_action[r]] -= 1
             counts["dupes"] += 1
             drop.append(r)

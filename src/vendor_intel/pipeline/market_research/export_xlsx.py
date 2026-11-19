@@ -95,12 +95,40 @@ def _definition_banner(market: str) -> list[tuple[str, bool]]:
     # wording above a list of pilot academies.
     from vendor_intel.pipeline.market_research.discovery import (
         _DEF_HYBRID_TECH,
+        _DEF_ONLINE_SELLER,
         _DEF_SERVICE_PROVIDER,
+        _DEF_SOLUTION_PROVIDER,
     )
 
     definition = distributor_definition_for(market)
 
-    if definition is _DEF_SERVICE_PROVIDER:
+    if definition is _DEF_SOLUTION_PROVIDER:
+        rule = (
+            "SOLUTION PROVIDER DEFINITION (project / equipment / O&M "
+            "market): a company that designs, engineers, supplies, installs, "
+            "operates or maintains this market's solutions, or makes the core "
+            "equipment and technology, as its actual business for the "
+            "market's own customers - EPC / EPCM / DBO contractors, treatment "
+            "technology and equipment suppliers and O&M service companies. "
+            "EXCLUDED: companies serving only the customers or products the "
+            "market excludes; general contractors, builders and developers; "
+            "sellers of commodity chemicals or consumables; water traders and "
+            "tanker suppliers; media, associations and directories."
+        )
+    elif definition is _DEF_ONLINE_SELLER:
+        rule = (
+            "ONLINE SELLER DEFINITION (e-commerce market): a company that "
+            "SELLS the market's products to consumers through online "
+            "channels it operates - online marketplaces and shopping "
+            "platforms, online retailers, multi-brand retailers and select "
+            "shops with their own online store, and brand owners selling "
+            "through their own website, app or social commerce. EXCLUDED: "
+            "offline-only retailers; general e-commerce sellers not focused "
+            "on the market's products; technology, logistics, payment and "
+            "marketing service providers; B2B-only wholesalers and "
+            "manufacturers."
+        )
+    elif definition is _DEF_SERVICE_PROVIDER:
         rule = (
             "SERVICE PROVIDER DEFINITION (services market): a company that "
             "PERFORMS this service commercially for third-party customers - "
